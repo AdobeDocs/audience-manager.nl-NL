@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Aan de slag met Bulk Management
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: ee31681e5805bff274b4051a354886fcda0599ff
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -24,7 +24,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->Het [!UICONTROL Bulk Management Tools] wordt niet *ondersteund door* [!DNL Audience Manager]. Dit instrument is bedoeld voor het gemak en alleen als hoffelijkheid. Voor grote wijzigingen raden we u aan om in plaats daarvan met de API&#39;s van [Audience Manager](../../api/rest-api-main/aam-api-getting-started.md) te werken. [RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
 
 ## Overzicht {#overview}
 
@@ -32,7 +32,7 @@ Deze eigenschap gebruikt een spreadsheet van Microsoft Excel met macro&#39;s die
 
 ## Downloaden {#download}
 
-Download **[hier](assets/BAAAM_V2_20191205.xlsm)**het nieuwste werkblad.
+Download **[hier](assets/BAAAM_V2_20200311.xlsm)**het nieuwste werkblad.
 
 ## Vereisten {#prereqs}
 
