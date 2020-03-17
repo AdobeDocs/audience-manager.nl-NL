@@ -1,0 +1,35 @@
+---
+description: Gebeurtenisaanroepen verzenden informatie naar de DCS in een URL-tekenreeks. In een gebruikelijke implementatie van Audience Manager gebruiken klanten onze JavaScript-code voor gegevensverzameling (DIL) om gegevens naar de DCS te verzenden. Soms kunnen klanten echter onze JavaScript-code niet op hun pagina's plaatsen. Als het bedrijfsbeleid of andere technische problemen u verhinderen onze code JavaScript op uw pagina's te plaatsen, kunt u nog met de Manager van de Publiek werken om gegevens van DCS met deze gebeurtenisvraag APIs te verzenden en terug te keren.
+seo-description: Gebeurtenisaanroepen verzenden informatie naar de DCS in een URL-tekenreeks. In een gebruikelijke implementatie van Audience Manager gebruiken klanten onze JavaScript-code voor gegevensverzameling (DIL) om gegevens naar de DCS te verzenden. Soms kunnen klanten echter onze JavaScript-code niet op hun pagina's plaatsen. Als het bedrijfsbeleid of andere technische problemen u verhinderen onze code JavaScript op uw pagina's te plaatsen, kunt u nog met de Manager van de Publiek werken om gegevens van DCS met deze gebeurtenisvraag APIs te verzenden en terug te keren.
+seo-title: DCS-API's voor gebeurtenisaanroep
+solution: Audience Manager
+title: DCS-API's voor gebeurtenisaanroep
+uuid: 84754960-9ef0-454d-8f5c-33846e2494f6
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+
+---
+
+
+# DCS-API&#39;s voor gebeurtenisaanroep {#dcs-event-call-apis}
+
+Gebeurtenisaanroepen verzenden informatie naar de [!UICONTROL DCS] gebruiker in een [!DNL URL] tekenreeks. In een typische plaatsing van de Manager van de Publiek, gebruiken de klanten onze code van de [!DNL JavaScript] gegevensinzameling ([!UICONTROL DIL]) om gegevens naar [!UICONTROL DCS]te verzenden. Soms kunnen klanten onze [!DNL JavaScript] code echter niet op hun pagina&#39;s plaatsen. Als het bedrijfsbeleid of andere technische kwesties u verhinderen onze [!DNL JavaScript] code op uw pagina&#39;s te plaatsen, kunt u nog met de Manager van het Publiek werken om gegevens van [!UICONTROL DCS] met deze gebeurtenisvraag [!DNL API]s te verzenden en terug te keren.
+
+## Aan de slag {#dcs-getting-started}
+
+Deze sectie bevat informatie en verwante verwijzing die u toont hoe te:
+
+* Maak vraag aan de [!UICONTROL DCS].
+* Gegevens ontvangen van de [!UICONTROL DCS].
+* De gegevenselementen van het formaat in uw vraag.
+* Begrijp de parameters die door worden teruggekeerd [!UICONTROL DCS].
+
+Zie de onderstaande secties om aan de slag te gaan. Begin met Gegevens [verzenden naar DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Daarna, ga op om Gegevens van DCS [te](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)ontvangen.
+
+* [Gegevens verzenden naar de DCS](dcs-url-send.md)
+* [Gegevens ontvangen van de DCS](dcs-url-receive.md)
+
+>[!MORELIKETHIS]
+>
+>* [DCS API-naslag](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+
