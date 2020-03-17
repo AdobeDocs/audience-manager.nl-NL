@@ -1,0 +1,157 @@
+---
+description: Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en grootten van uw bestanden in volgens deze specificaties wanneer u gegevens naar de map Audience Manager / Amazon S3 verzendt.
+seo-description: Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en grootten van uw bestanden in volgens deze specificaties wanneer u gegevens naar de map Audience Manager / Amazon S3 verzendt.
+seo-title: Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden
+solution: Audience Manager
+title: Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden
+uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
+translation-type: tm+mt
+source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+
+---
+
+
+# Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+
+Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar de map Audience Manager/ [!DNL Amazon S3] verzendt.
+
+>[!NOTE]
+>
+>De tekststijlen (`monospaced text`, *cursief*, haakjes `[ ]` `( )`, enz.) in dit document de elementen en opties van de code aangeven. Zie [Stijlconventies voor code- en tekstelementen](../../../reference/code-style-elements.md) voor meer informatie.
+
+## Syntaxis bestandsnaam {#file-name-syntax}
+
+[!DNL S3] bestandsnamen bevatten de volgende vereiste en optionele elementen:
+
+* **[!DNL S3]voorvoegsel:**`s3n://AWS_directory/partner_name/date=yyyy-mm-dd/`
+
+* **Bestandsnaamelementen:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
+
+Voor andere toegelaten dossiernaamformaten, zie de Integraties [van de Partner van de](/help/using/integration/sending-audience-data/custom-partner-integrations.md)Douane.
+
+>[!NOTE] {Important=&quot;high&quot;}
+>
+>[!DNL Audience Manager] alleen bestanden verwerkt [!DNL ASCII] en [!DNL UTF-8] gecodeerd.
+
+### Elementen benoemen
+
+De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
+
+<table id="table_455D174BAB9B494D973DA1023F22B962"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Name Element </th> 
+   <th colname="col2" class="entry"> Beschrijving </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p> <code> <i>AWS_directory</i> </code> </p> </td> 
+   <td colname="col2"> <p>Het pad naar en de naam van uw Amazon S3-emmertje. Neem contact op met uw accountmanager voor uw S3-mapnaam, -pad en -referenties. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>date=<i>yyyy-mm-dd</i></code> </p> </td> 
+   <td colname="col2"> <p>Een tijdstempel (op basis van UTC-tijd) van wanneer u de bestanden naar uw S3-emmertje verzendt. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
+   <td colname="col2"> <p>De <span class="term"> gegevensaanbieder-id</span> (DPID) is een id waarmee <span class="keyword"> Audience Manager</span> wordt aangegeven of een gegevensbestand uw eigen gebruikers-id's of Android- of iOS-id's bevat. Accepteert de volgende opties: </p> <p> <b>Id van gegevenspartner</b> </p> <p>Dit is een unieke ID Audience Manager die aan uw bedrijf of organisatie wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> de Manager</span> van het Publiek dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </p> <p> <b>Android-id's (GAID)</b> </p> <p> Gebruik ID 20914 als DPID in een gegevensbestandsnaam als het bestand Android-id's bevat. Wanneer u identiteitskaart 20914 als DPID gebruikt, moet u nog uw bedrijf aan de Manager <span class="keyword"> van het</span>Publiek identificeren. Dit betekent het dossier - de naam moet de <code><i>_DPID_TARGET_DATA_OWNER</i></code> parameter gebruiken om uw bedrijfsidentiteitskaart te houden. Stel bijvoorbeeld dat u bestanden met Android-id's doorgeeft en dat uw gegevensaanbieder-id 21 is. In dit geval ziet de bestandsnaam er zo uit <code>...ftp_dpm_20914_21_123456789.sync</code>. Dit vertelt <span class="keyword"> Audience Manager</span> het dossier Android IDs bevat en van een partner die door identiteitskaart 21 wordt geïdentificeerd. </p> <p> <b>iOS-id's (IDFA)</b> </p> <p> Gebruik ID 20915 als DPID in een gegevensbestandsnaam als het bestand iOS-id's bevat. Wanneer u identiteitskaart 20915 als DPID gebruikt, moet u nog uw bedrijf aan de Manager <span class="keyword"> van het</span>Publiek identificeren. Dit betekent het dossier - de naam moet de <code><i>_DPID_TARGET_DATA_OWNER</i></code> parameter gebruiken om uw bedrijfsidentiteitskaart te houden. Stel bijvoorbeeld dat u bestanden met Android-id's doorgeeft en dat uw gegevensaanbieder-id 21 is. In dit geval ziet de bestandsnaam er zo uit <code>...ftp_dpm_20915_21_123456789.sync</code>. Dit vertelt Audience Manager <span class="keyword"></span> het dossier iOS IDs bevat en van een partner die door identiteitskaart 21 wordt geïdentificeerd. </p> 
+    <draft-comment> 
+     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
+      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Id van gegevenspartner:</b> Dit is een unieke ID Audience Manager die aan uw bedrijf of organisatie wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> de Manager</span> van het Publiek dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </li> 
+      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id bevat. Zo <code>...ftp_dpm_20914_21_123456789.sync</code> wordt in Audience Manager <span class="keyword"></span> aangegeven dat het gegevensbestand alleen Android-id's bevat. Opmerking: ID 21 </li> 
+      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Zo <code>...ftp_dpm_20915_123456789.sync</code> wordt in Audience Manager <span class="keyword"></span> aangegeven dat het gegevensbestand alleen iOS-id's bevat. </li> 
+     </ul> 
+    </draft-comment> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p><p>Zie <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Algemene gegevensbronnen</a> voor meer informatie.</p> <p>Zie ook de onderstaande <code><i>_DPID_TARGET_DATA_OWNER</i></code> vermelding. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
+   <td colname="col2"> <p>Een tijdelijke aanduiding voor een id. U kunt de DPID bijvoorbeeld instellen op de <span class="keyword"> Audience Manager</span> -id als u de DPID instelt op een gegevensbron-id of een Android- of iOS-id. Hierdoor kunnen <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
+    <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
+     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> toont een partner met identiteitskaart 21 in gegevens van een gegevensbron heeft verzonden die identiteitskaart 33 gebruikt. </li> 
+     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> toont een partner met id 21 gegevens heeft verzonden die Android-id's bevatten. </li> 
+     <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> toont een partner met ID 21 gegevens heeft verzonden die iOS IDs bevatten. </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> <i>partner_name</i> </code> </p> </td> 
+   <td colname="col2"> <p>Het bedrijf of de organisatienaam u in de Manager <span class="keyword"> van het</span>Publiek gebruikt. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
+   <td colname="col2"> <p>Een tijdstempel van 10 cijfers (UTC UNIX) in seconden. Met de tijdstempel kunt u elke bestandsnaam uniek maken. </p> 
+    <draft-comment> 
+     <p> <p>Opmerking:  Audience Manager gebruikt de tijdstempel niet tijdens de verwerking van binnenkomende bestanden. Het tijdstempel in de bestandsnaam is afgekeurd in Audience Manager, maar is nog steeds vereist voor achterwaartse compatibiliteit. </p> </p> 
+    </draft-comment> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
+   <td colname="col2"> <p>Synchronisatieopties met: </p> <p> 
+     <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normaal scenario wanneer de derdegegevensleveranciers eigenschappen op een per-gebruikersbasis verzenden die in het systeem van de Manager van de Publiek moeten worden toegevoegd of worden verwijderd. </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Laat gegevensleveranciers een lijst van eigenschappen op een per-gebruikersbasis verzenden die alle bestaande derdeeigenschappen van deze gebruiker voor deze gegevensleverancier in de Manager van de Publiek zou moeten beschrijven. U hoeft niet al uw gebruikers op te nemen in een overschrijvingsbestand. Neem alleen de gebruikers op die u wilt wijzigen. </li> 
+     </ul> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code>[<i>SPLIT_NUMBER</i>]</code> </p> </td> 
+   <td colname="col2"> <p>Een geheel getal. Wordt gebruikt wanneer u grote bestanden in meerdere onderdelen splitst om de verwerkingstijd te verbeteren. Het nummer geeft aan welk deel van het oorspronkelijke bestand u wilt invoeren. </p> <p>Voor een efficiënte bestandsverwerking splitst u de gegevensbestanden zoals aangegeven: </p> 
+    <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
+     <li id="li_B275708DFE3F49E29EFAE6B838429E39">Niet-gecomprimeerd: 1 GB </li> 
+     <li id="li_A9638EB46ED14E0680B6575D5457E32F">Gecomprimeerd: 200-300 MB </li> 
+    </ul> <p>Zie de eerste twee <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> voorbeelden</a> van bestandsnaam hieronder. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
+   <td colname="col2"> <p>Gebruik alleen gzip-compressie wanneer u bestanden naar Amazon S3 verzendt. Wanneer deze bestanden zijn gecomprimeerd, krijgen ze de <code> .gz</code> extensie. Gebruik geen .zip-compressie. </p> <p>Gecomprimeerde bestanden moeten 3 GB of kleiner zijn. Neem contact op met de klantenservice als uw bestanden groter zijn. Hoewel Audience Manager grote bestanden kan verwerken, kunnen we u helpen de bestanden te verkleinen en de gegevensoverdracht efficiënter te maken. Zie <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden</a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Voorbeelden van bestandsnamen {#file-name-examples}
+
+In de volgende voorbeelden worden correct opgemaakte bestandsnamen weergegeven. De bestandsnamen kunnen er ongeveer hetzelfde uitzien.
+
+<ul class="simplelist"> 
+ <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.sync.1.gz</code> </li> 
+ <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.sync.2.gz</code> </li> 
+ <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.sync</code> </li> 
+ <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_567_1366545717.sync.gz</code> </li> 
+ <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
+</ul>
+
+U kunt het voorbeeldbestand [downloaden](assets/ftp_dpm_1234_1445374061.overwrite) als u meer voorbeelden wilt. Dit bestand is opgeslagen met de `.overwrite` bestandsextensie. Open het met een eenvoudige teksteditor.
+
+## Geaccepteerde bestandsgrootten {#accepted-file-sizes}
+
+Houd rekening met de onderstaande cijfers voor de snelste/vroegste verwerking van uw bestanden en voor beperkingen van de bestandsgrootte wanneer u gegevens naar een [!DNL Audience Manager] / [!DNL Amazon S3] directory verzendt.
+
+<table id="table_59FCC63806684DF8BE54A1EAF224A234"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Bestandstype </th> 
+   <th colname="col2" class="entry"> Optimale grootte </th> 
+   <th colname="col3" class="entry"> Maximale grootte </th> 
+  </tr>
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"><b>Gecomprimeerd</b> </td> 
+   <td colname="col2"> <p>200-300 MB </p> </td> 
+   <td colname="col3"> <p>3 GB </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"><b>Niet gecomprimeerd</b> </td> 
+   <td colname="col2"> <p>1 GB </p> </td> 
+   <td colname="col3"> <p>5 GB </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Lege bestanden worden tijdens het proces voor gegevensvalidatie als ongeldig gemarkeerd en niet verwerkt.
+
+>[!MORELIKETHIS]
+>
+>* [FTP-naamvereisten voor binnenkomende gegevensbestanden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+
