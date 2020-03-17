@@ -1,0 +1,37 @@
+---
+description: Hiermee wordt een partnerspecifieke DIL-instantie opgehaald.
+keywords: audience manager api;aam api;audience manager apis;aam apis
+seo-description: Hiermee wordt een partnerspecifieke DIL-instantie opgehaald.
+seo-title: getDil
+solution: Audience Manager
+title: getDil
+uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
+translation-type: tm+mt
+source-git-commit: f682194b60b7a11a3b5cac9912147471f4b30bd4
+
+---
+
+
+# getDil{#getdil}
+
+Hiermee wordt een partnerspecifieke DIL-instantie opgehaald.
+
+**Functiehandtekening:** `getDil: function (partner, containerNSID) {}`
+
+<!-- r_dil_get_dil.xml -->
+
+## Parameters
+
+| Naam | Type | Beschrijving |
+|---|---|---|
+| `partner` | String | De partnernaam aan onderzoek naar. |
+| `containerNSID` | Geheel | Standaardwaarden zijn `0`. NSID van de container u zoekt naar. Optioneel. |
+
+## Antwoord
+
+De succesvolle partner en de container NSID komen een partner-specifieke [!UICONTROL DIL] instantie terug. Als er geen overeenkomst is, retourneert de API (geen fout) met het bericht &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+
+## Voorbeeldcode
+
+<pre class="java"><code>DIL.getDil('<i>partner</i>', <i>containerNSID</i>); 
+DIL.getDil('<i>partner</i>');</code></pre>
