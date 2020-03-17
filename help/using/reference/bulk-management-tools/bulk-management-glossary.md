@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Opsommingsbeheertools Verklarende woordenlijst
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ Kolomkoplabels gedefinieerd.
 
 >[!NOTE]
 >
->Het [!UICONTROL Bulk Management Tools] wordt niet *ondersteund door* [!DNL Audience Manager]. Dit instrument is bedoeld voor het gemak en alleen als hoffelijkheid. Voor grote wijzigingen raden we u aan om in plaats daarvan met de API&#39;s van [Audience Manager](../../api/rest-api-main/aam-api-getting-started.md) te werken. [RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
