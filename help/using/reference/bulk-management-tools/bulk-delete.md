@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Bulk verwijderen
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 translation-type: tm+mt
-source-git-commit: 30d4cec4502a2cf8b217816ea4ae62eb1b22f641
+source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
 
 ---
 
@@ -23,7 +23,7 @@ Met Bulk verwijderen kunt u meerdere segmenten, kenmerken, mappen, afgeleide sig
 
 >[!NOTE]
 >
->Het [!UICONTROL Bulk Management Tools] wordt niet *ondersteund door* [!DNL Audience Manager]. Dit instrument is bedoeld voor het gemak en alleen als hoffelijkheid. Voor grote wijzigingen raden we u aan om in plaats daarvan met de API&#39;s van [Audience Manager](../../api/rest-api-main/aam-api-getting-started.md) te werken. [RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
 
 >[!NOTE]
 >
