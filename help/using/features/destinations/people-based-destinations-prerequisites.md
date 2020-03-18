@@ -5,7 +5,7 @@ seo-title: Vereisten en overwegingen voor op mensen gebaseerde doelen
 solution: Audience Manager
 title: Vereisten en overwegingen
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
 
 ---
 
@@ -37,6 +37,18 @@ Alvorens u kunt gebruiken [!DNL People-Based Destinations] [!DNL Facebook]om uw 
    >[!IMPORTANT]
    > Wanneer u de machtigingen voor Adobe Experience Cloud configureert, moet u de machtiging **Campagnes** beheren inschakelen. Dit is nodig voor de [!DNL People-Based Destinations] integratie.
 3. Lees en onderteken de [!DNL Facebook Custom Audiences] Servicevoorwaarden. Om dit te doen, ga naar `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, waar `accountID` is je [!DNL Facebook Ad Account ID].
+
+### [!DNL LinkedIn]
+
+>[!IMPORTANT]
+>
+> De [!DNL People-Based Destinations] integratie met [!DNL LinkedIn] is momenteel in de bètatestfase en is slechts beschikbaar voor een beperkt aantal klanten.
+> 
+> Zodra de bètatests zijn beëindigd, is deze integratie beschikbaar voor alle klanten van Audience Manager die zich hebben aangemeld voor [!DNL People-Based Destinations].
+
+Voordat u [!DNL People-Based Destinations] de doelsegmenten van de eerste partij naar kunt sturen, moet u ervoor zorgen dat uw [!DNL LinkedIn]account het machtigingsniveau [!DNL LinkedIn Campaign Manager] [!DNL Creative Manager] of hoger heeft.
+
+Als u wilt leren hoe u uw [!DNL LinkedIn Campaign Manager] gebruikersmachtigingen kunt bewerken, raadpleegt u Gebruikersmachtigingen [toevoegen, bewerken en verwijderen voor Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
 
 ## Gegevens aan boord {#data-onboarding}
 
