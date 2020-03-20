@@ -5,8 +5,9 @@ seo-title: Veelgestelde vragen over gegevensverzameling en productintegratie
 solution: Audience Manager
 title: Veelgestelde vragen over gegevensverzameling en productintegratie
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
+keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
 
 ---
 
@@ -39,7 +40,7 @@ Helaas kunnen we dat niet. Deze IPs wordt dynamisch toegewezen, door geografisch
 
 <br> 
 
-**Kunt u mij een IP adres verstrekken ik voor uw binnenkomende en uitgaande server van FTP kan whitelist?**
+**Kunt u me van een IP adres voorzien ik voor uw binnenkomende en uitgaande server sFTP kan whitelist?**
 
 Ja, zie hieronder.
 
