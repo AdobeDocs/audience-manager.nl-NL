@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager User Guide
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
 
 ---
 
@@ -136,7 +136,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
       + [Aanbevolen stappen](features/segments/trait-recommendations.md)
    + Treinen{#traits}
       + [Overzicht van sporen](/help/using/features/traits/traits-overview.md)
-      + [Detailpagina Trait](features/traits/trait-details-page.md)
+      + [Detailpagina van taak](features/traits/trait-details-page.md)
       + [Traits dashboard](features/traits/trait-dashboard.md)
       + [Actieve doelgroepen en gesynchroniseerde gegevensbronnen](features/traits/client-activity-synced-audience-traits.md)
       + [Maptraits: Info](features/traits/about-folder-traits.md)
@@ -370,6 +370,7 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
    + [Inzicht krijgen in oproepen van het demdex-domein](reference/demdex-calls.md)
    + [Verificatiestatus bezoeker in Audience Manager](reference/visitor-authentication-states.md)
 + Veelgestelde vragen{#faqs}
+   + [Overzicht van veelgestelde vragen over Auditiebeheer](faq/faq-overview.md)
    + [Veelgestelde vragen over API](faq/faq-api.md)
    + [Veelgestelde vragen over publiek Lab](faq/faq-audience-lab.md)
    + [Veelgestelde vragen over de gegevensfeed van de klant](faq/faq-cdf.md)
