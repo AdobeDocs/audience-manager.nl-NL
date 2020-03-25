@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Verwijzing naar beroepskwalificatie
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 40ac91af26ed4a95492dde872288dc2e9059cdf9
+source-git-commit: ceda75d2bc57aa164cb048c20e3fcff33000cddb
 
 ---
 
@@ -30,9 +30,17 @@ De kwalificatie van het spoor, of de realisatie van het bezit, wordt behandeld v
 
 ![uniek-eigenschap-realisatie](assets/trait-graph.png)
 
-Het [!UICONTROL Unique Trait Realizations] aantal bezoekers dat de eigenschap aan hun profiel heeft toegevoegd, binnen verschillende tijdbereiken.
+Afhankelijk van het type resultaten dat de grafiek moet weergeven (gefilterd door [!UICONTROL Device ID] of [!UICONTORL apparaat-id]), hebben de meetgegevens verschillende betekenissen:
 
-Het [!UICONTROL Total Trait Population] geeft het aantal bezoekers aan dat deze eigenschap in hun profiel heeft.
+Wanneer het filtreren van de resultaten door [!UICONTROL Device ID]:
+
+* Het [!UICONTROL Unique Trait Realizations] aantal anonieme apparaatbezoekers dat de eigenschap aan hun profiel heeft toegevoegd, telt binnen verschillende tijdbereiken.
+* Het [!UICONTROL Total Trait Population] telt het totale aantal anonieme apparaatbezoekers dat de eigenschap op hun profiel heeft.
+
+Wanneer het filtreren van de resultaten door [!UICONTROL Cross-Device ID]:
+
+* Het [!UICONTROL Unique Trait Realizations] aantal geverifieerde bezoekers dat de eigenschap aan hun profiel heeft toegevoegd, binnen verschillende tijdbereiken.
+* Het [!UICONTROL Total Trait Population] telt het totale aantal geverifieerde bezoekers dat deze eigenschap in hun profiel heeft.
 
 Denk aan de cijfers op deze manier. In de bovenstaande afbeelding geeft 90.173 uit de weergave [Details](../../features/traits/trait-details-page.md) over spoor het aantal actieve apparaten aan dat uw eigenschappen gisteren heeft bezocht. Het [!UICONTROL Total Trait Population] aantal van 55.757 staat voor het aantal gebruikers dat momenteel voor dit kenmerk in aanmerking komt. Het [!UICONTROL Total Trait Population] cijfer is bedoeld om de totale hoeveelheid gebruikers te tonen die voor segmentatie/het richten zou kunnen worden gebruikt. Gebruikers blijven doorgaans 120 dagen deel uitmaken van een eigenschap.
 
