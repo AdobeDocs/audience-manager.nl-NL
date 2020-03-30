@@ -7,7 +7,7 @@ title: Abonnementen gegevensfeed beheren
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
 
 ---
 
@@ -24,7 +24,7 @@ In [!UICONTROL Marketplace] dit geval gaan kopers van gegevens naar onderzoek en
 
 Abonneren op een openbare gegevensfeed:
 
-1. Ga naar **[!UICONTROL Audience Marketplace > Marketplace]**. Gebruik de zoekfunctie of blader door de lijst om naar een gegevensfeed te zoeken.
+1. Ga naar **[!UICONTROL Audience Marketplace > Marketplace]**. Gebruik de zoekfunctie of blader door de lijst om een gegevenstoevoer te zoeken.
 
    ![](assets/subscribe1.png)
 
@@ -50,6 +50,27 @@ Nadat u zich hebt geabonneerd op een gegevensfeed:
 * Verifieer het abonnement door uw [!UICONTROL Traits] omslag te controleren. Zie [Opslag voor Geabonneerde Gegevensvoer](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
 
 * Controleer de facturerings- en betalingsdocumentatie. Zie de verwante koppelingen hieronder.
+
+### Aanbevolen werkwijzen {#best-practices}
+
+Hier volgt een reeks beste praktijken die wij u adviseren wanneer het werken met [!UICONTROL Audience Marketplace]:
+
+Wanneer het onderzoeken van nieuwe derde en tweede reeks gegevensreeksen door [!UICONTROL Audience Marketplace], de eerste stap wij adviseren is gegevensvoer voor toe te laten [!UICONTROL Segments & Overlap]. Dit staat gebruikers toe om gegevens te onderzoeken door segmenten te bouwen om publieksgrootte te evalueren, en lopende overlappende rapporten om aanvankelijke publieksinzichten te bereiken. De meeste gegevensleveranciers bieden dit gebruiksgeval gratis aan, zodat u deze analyse zonder extra kosten kunt uitvoeren.
+
+Wanneer het runnen van overlappende rapporten, volg deze beste praktijken om ervoor te zorgen u nuttige resultaten krijgt.
+
+1. Zorg ervoor dat uw overlappende gegevenssets qua gegevenstype en verzamelingsmethodologieën vergelijkbaar zijn, zoals:
+   * geografie van bezoekers
+   * Koekje versus mobiele id&#39;s
+   * Venster Opzoeken
+   * Offline versus online activiteit
+   * De frequentie waarmee de gegevensaanbieder de gegevens vernieuwt
+
+1. Overlap kan iets toenemen in de loop van de tijd, dus zorg ervoor dat u tot 30 dagen toestaat om over te gaan alvorens overlappende rapporten in werking te stellen om voor de gegevens aan synchronisatie toe te staan.
+1. De overlapping kan toenemen als u gegevens van een gegevensleverancier in veelvoudige marketing campagnes gebruikt.
+en initiatieven. Hierdoor kunnen gebruikers van de twee gegevenssets meer mogelijkheden krijgen om te synchroniseren.
+1. Er is geen garantie dat de gegevenssets elkaar overlappen. Voor een overlapping om geldig te zijn, moet een gebruiker van de gegevensreeks van de klant met de gegevensreeks van de gegevensleverancier tijdens het rapporteringstijdkader worden geassocieerd. Als de mediagegevens van de klant niet zijn doorgegeven aan de gebruikers in de gegevensset van de gegevensaanbieder, is er nooit sprake van overlapping.
+1. Denk niet aan een lage overlapping als een slechte zaak. Profiteer van een lage overlapping om nieuwe gebruikers aan te trekken.
 
 ## Abonneren op een privégegevensfeed {#subscript-private-data-feed}
 
@@ -149,7 +170,7 @@ Abonnement op een gegevensfeed opzeggen:
 
 In kunnen [!UICONTROL Audience Marketplace]gegevensproviders de toegang tot uw geabonneerde gegevensfeeds intrekken. Wees niet verontrust als dit met je gebeurt. We hebben je bedekt. Herzie deze sectie voor processen en procedures met betrekking tot de deactivering van gegevensvoer.
 
-## Algemene redenen voor deactivering van gegevensdoorvoer {#reasons-for-deactivation}
+## Algemene redenen voor deactivering van gegevensfeed {#reasons-for-deactivation}
 
 <!-- marketplace-subscriber-deactivated.xml -->
 
