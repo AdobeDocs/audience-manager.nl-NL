@@ -7,7 +7,7 @@ title: Gebruiksbeperkingen
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 translation-type: tm+mt
-source-git-commit: d893998e9e59dbce64195a167e267c6f7ed16f90
+source-git-commit: f9f201824accdde18efafa0a8c389af48423534d
 
 ---
 
@@ -18,12 +18,12 @@ Audience Manager stelt een maximumlimiet in voor het aantal kenmerken, segmenten
 
 ## Limieten voor id-toewijzing {#id-mapping-limits}
 
-In de onderstaande tabel staan de limieten voor [id-toewijzing](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) voor apparaat-id&#39;s. Zodra een identiteitskaart om het even welke hieronder grenzen bereikt, voegt de Manager van de Publiek nieuwe die in kaart gebrachte identiteitskaart toe op een [!DNL FIFO] (eerste binnen, eerst uit) logica wordt gebaseerd, door de oudste opgeslagen afbeelding van identiteitskaart te verwijderen, en voegt nieuwe toe. Raadpleeg [Index van id&#39;s](../../reference/ids-in-aam.md) in Audience Manager voor meer informatie over de id&#39;s die worden ondersteund door Audience Manager.
+In de onderstaande tabel staan de limieten voor [id-toewijzing](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) voor apparaat-id&#39;s. Zodra een identiteitskaart om het even welke hieronder grenzen bereikt, voegt de Manager van de Publiek nieuwe die in kaart gebrachte identiteitskaart toe op een [!DNL FIFO] (eerste binnen, eerst uit) logica wordt gebaseerd, door de oudste opgeslagen afbeelding van identiteitskaart te verwijderen, en nieuwe toe te voegen. Raadpleeg [Index van id&#39;s](../../reference/ids-in-aam.md) in Audience Manager voor meer informatie over de id&#39;s die worden ondersteund door Audience Manager.
 
 | ID-toewijzing | Maximale limiet |
 |-----------|-------------- |
-| DAID (Device Advertising ID) voor de ID van Cross-device (CRM ID) | 100 Device Advertising IDs (DAIDs) naar 1 Cross-device ID (CRM ID) |
-| Id (CRM-id) voor andere apparaten naar DAID (Device Advertising ID) | 10 apparaat-id&#39;s (CRM-id&#39;s) tot 1 DAID (Device Advertising ID) |
+| Advertising-id ([DAID](../../reference/ids-in-aam.md)) voor apparaten ([DPUUID](../../reference/ids-in-aam.md)) | 100 Device Advertising IDs ([DAID](../../reference/ids-in-aam.md)) naar 1 Cross-device ID ([DPUUID](../../reference/ids-in-aam.md)) |
+| Id van[DPUUID](../../reference/ids-in-aam.md)(cross-device) naar advertentie-id voor apparaat ([DAID](../../reference/ids-in-aam.md)) | 10 apparaat-id&#39;s ([DPUUID](../../reference/ids-in-aam.md)) naar 1 apparaat-advertentie-id ([DAID](../../reference/ids-in-aam.md)) per [DPID](../../reference/ids-in-aam.md) |
 | Cookie/browser-id naar cookie/browser-id | 1000 cookie/browser-id&#39;s naar 1 cookie/browser-id |
 
 ## Itemlimieten {#item-limits}
