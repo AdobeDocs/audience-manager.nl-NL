@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Activiteitenverbruik rapporteren
 topic: Activity Usage Reporting
 translation-type: tm+mt
-source-git-commit: 7a3914af8fb225508f57724a75fe2547aac3f241
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -24,9 +24,9 @@ Bovendien kunt u de gegevens op elk gewenst moment downloaden voor het bijhouden
 
 Het [!UICONTROL Activity Usage Report] is beschikbaar voor alle gebruikers van Audience Manager met [beheerdersrechten](edit-account-settings.md).
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> Het [!UICONTROL Activity Usage Report] toont u de statistieken van het activiteitengebruik van uw instantie van de Manager van de Publiek. Neem contact op met uw Adobe-vertegenwoordiger voor alle vragen over facturering die betrekking hebben op uw gebruik van activiteiten.
+>Het [!UICONTROL Activity Usage Report] toont u de statistieken van het activiteitengebruik van uw instantie van de Manager van de Publiek. Neem contact op met uw vertegenwoordiger van Adobe voor alle vragen over facturering die betrekking hebben op uw gebruik van activiteiten.
 
 ## Gevallen gebruiken {#use-cases}
 
@@ -37,7 +37,7 @@ Er zijn twee belangrijke gevallen van gebruik van het [!UICONTROL Activity Usage
 
 ## Het rapport Activiteitsverbruik gebruiken {#using}
 
-Als u de [!UICONTROL Activity Usage Report]optie wilt weergeven, meldt u zich aan bij uw account Audience Manager en gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Usage]**.
+Als u de [!UICONTROL Activity Usage Report]pagina wilt weergeven, meldt u zich aan bij uw account Audience Manager en gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Usage]**.
 
 ![aur-ui](assets/aur-ui.png)
 
@@ -52,8 +52,9 @@ Zodra uw rapport laadt, kunt u een onderbreking van uw [!UICONTROL Activities] v
 * **[!UICONTROL On-Boarded Records]**: Unieke verslagen die van uw eigen systeem van het klantenrelatiebeheer (CRM) of andere off-line gegevensdossiers, zoals de verslagen van het vraagcentrum, apparaat IDs, en de voer van douanegegevens van externe gegevensleveranciers worden opgenomen.
 * **[!UICONTROL Log File Records]**: Unieke verslagen van logboekdossiers die in de Manager van het Publiek van een gericht platform worden opgenomen.
 
-> [!NOTE]
-> Een unieke record definieert elke afzonderlijke record met gegevens in een bestand dat door Adobe wordt opgeslagen namens een klant van Audience Manager.
+>[!NOTE]
+>
+>Een unieke record definieert elke afzonderlijke record met gegevens in een bestand dat door Adobe wordt opgeslagen namens een klant van Audience Manager.
 
 Bovendien kunt u de [!UICONTROL Activity Usage Trends] grafiektypen gebruiken om te schakelen tussen twee typen grafieken.
 
