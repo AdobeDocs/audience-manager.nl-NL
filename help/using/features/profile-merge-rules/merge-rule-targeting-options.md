@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Algemene gebruiksscenario's voor regels voor het samenvoegen van profielen
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -63,9 +63,9 @@ Dankzij de koppeling tussen het apparaat en het profiel van het huishouden kan A
 
 ## Doelen voor op mensen gebaseerde bestemmingen {#all-cross-device}
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
+>Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
 
 Dit het richten scenario is slechts beschikbaar aan klanten die [!DNL People-Based Destinations] toe:voegen-op hebben gekocht. Deze regel staat marketers toe om klanten te bereiken die op hun eigen, voor authentiek verklaarde gegevens worden gebaseerd.
 
