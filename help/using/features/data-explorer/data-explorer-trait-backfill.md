@@ -5,7 +5,7 @@ seo-title: Redalisaties achtergrondvulling
 title: Redalisaties achtergrondvulling
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 translation-type: tm+mt
-source-git-commit: 383d529d656f86fa39e2e11d312e8a8a2092926b
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -16,7 +16,7 @@ De realisaties van het terugvullingsspoor om historische publiek te vangen en ve
 
 >[!IMPORTANT]
 >
-> [!UICONTROL Data Explorer Trait Backfill] is een premiumfunctie die de ervaring van Audience Manager verbetert door extra gebruiksgevallen te ontgrendelen. Voor een back-up is extra verwerkingskracht vereist en deze is tegen extra kosten beschikbaar voor alle klanten van Audience Manager. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
+>[!UICONTROL Data Explorer Trait Backfill] is een premiumfunctie die de ervaring van Audience Manager verbetert door extra gebruiksgevallen te ontgrendelen. Voor een back-up is extra verwerkingskracht vereist en deze is tegen extra kosten beschikbaar voor alle klanten van Audience Manager. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 
 Wanneer u eigenschappen van ongebruikte signalen creeert, kunt u verkiezen om de karakterrealisaties over een specifieke periode te herhalen. [!DNL Audience Manager] vangt de historische gegevens over publiek dat voor het nieuwe spoor in aanmerking komt en slaat hen op het overeenkomstige profiel op. U kunt de sectie **[!UICONTROL Backfill Options]** in de [!UICONTROL Trait Expression] sectie van de **[Trait Builder](../../features/traits/about-trait-builder.md)**zien.
 
