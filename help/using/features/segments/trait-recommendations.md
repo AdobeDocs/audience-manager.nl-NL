@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aanbevolen stappen
 uuid: null
 translation-type: tm+mt
-source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -83,15 +83,19 @@ Wanneer het bouwen van of het uitgeven van een segment in de Bouwer [van het](se
 2. In de drop-down doos van **Tanden** , voeg minstens één eigenschap aan de segmentregel toe.
 3. U kunt de door de eerste partij aanbevolen eigenschappen en aanbevelingen voor [!UICONTROL Audience Marketplace] kenmerken van feeds bekijken waarop u bent geabonneerd, in de **[!UICONTROL Recommendations]** sectie. In de **[!UICONTROL Recommendations from Marketplace]** sectie ziet u aanbevelingen met kenmerken van feeds waarop u zich niet hebt geabonneerd. Al deze aanbevelingen zijn gelijkaardig aan de eigenschappen u aan de segmentregel toevoegde. Schuif omlaag om alle aanbevolen kenmerken weer te geven.
 4. (Optioneel) Als u aanbevolen eerdereportretten wilt uitsluiten van bepaalde gegevensbronnen, klikt u op het **X** -symbool voor de gegevensbronnen die u wilt uitsluiten.
-   > [!NOTE]
-   >
-   > De uitgesloten gegevensbronnen worden net boven de lijst met aanbevolen kenmerken weergegeven. Klik op **X** in het grijze vak om de uitsluitingen te verwijderen en de resultaten van de respectievelijke gegevensbronnen weer te zien.
-5. Klik op het symbool **+** om aanbevolen kenmerken aan de segmentregel toe te voegen.
 
-> [!IMPORTANT]
-> Wanneer het toevoegen van [!UICONTROL Marketplace] eigenschappen aan een segment, worden de eigenschappen slechts gebruikt voor segmentschatting, tot u aan het overeenkomstige gegevensvoer intekent. Traits die afkomstig zijn van gegevensfeeds waarop u zich niet hebt geabonneerd, worden gemarkeerd met een winkelwagentje in de lijst met handelsmerken. Klik op de naam van het kenmerk om naar de pagina met gegevensinvoer te gaan en u erop te abonneren.
-> ![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
-> U kunt een segment alleen met externe kenmerken opslaan nadat u zich aan de bijbehorende gegevensfeeds hebt geabonneerd.
+   >[!NOTE]
+   >
+   >De uitgesloten gegevensbronnen worden net boven de lijst met aanbevolen kenmerken weergegeven. Klik op **X** in het grijze vak om de uitsluitingen te verwijderen en de resultaten van de respectievelijke gegevensbronnen weer te zien.
+1. Klik op het symbool **+** om aanbevolen kenmerken aan de segmentregel toe te voegen.
+
+>[!IMPORTANT]
+>
+>Wanneer het toevoegen van [!UICONTROL Marketplace] eigenschappen aan een segment, worden de eigenschappen slechts gebruikt voor segmentschatting, tot u aan het overeenkomstige gegevensvoer intekent. Traits die afkomstig zijn van gegevensfeeds waarop u zich niet hebt geabonneerd, worden gemarkeerd met een winkelwagentje in de lijst met handelsmerken. Klik op de naam van het kenmerk om naar de pagina met gegevensinvoer te gaan en u erop te abonneren.
+>
+>![marketplace-not-subscribed](assets/trait-recommendations-marketplace.png)
+>
+>U kunt een segment alleen met externe kenmerken opslaan nadat u zich aan de bijbehorende gegevensfeeds hebt geabonneerd.
 
 ### Bestaande segmenten
 
@@ -99,9 +103,10 @@ Wanneer het bouwen van of het uitgeven van een segment in de Bouwer [van het](se
 1. Blader omlaag naar het [!UICONTROL Traits] vervolgkeuzemenu.
 1. U kunt geadviseerde eigenschappen zien, die aan de eigenschappen reeds in de segmentregel gelijkaardig zijn. Schuif omlaag om alle aanbevolen kenmerken weer te geven.
 1. (Optioneel) Als u aanbevolen kenmerken wilt uitsluiten van bepaalde gegevensbronnen, klikt u op het **X** -symbool voor de gegevensbronnen die u wilt uitsluiten.
-   > [!NOTE]
+
+   >[!NOTE]
    >
-   > De uitgesloten gegevensbronnen worden net boven de lijst met aanbevolen kenmerken weergegeven. Klik op **X** in het grijze vak om de uitsluitingen te verwijderen en de resultaten van de respectievelijke gegevensbronnen weer te zien.
+   >De uitgesloten gegevensbronnen worden net boven de lijst met aanbevolen kenmerken weergegeven. Klik op **X** in het grijze vak om de uitsluitingen te verwijderen en de resultaten van de respectievelijke gegevensbronnen weer te zien.
 1. Klik op het symbool **+** om aanbevolen kenmerken aan de segmentregel toe te voegen.
 
 Wanneer u een segment maakt of bewerkt en een kenmerk aan de segmentregel toevoegt, ziet u een maximum van vijftig aanbevolen kenmerken, vergelijkbaar met de eigenschap die u hebt toegevoegd. Als de segmentregel meer dan één eigenschap bevat, gebruikt de Manager van de Publiek een ronde methode van de robin om de beste gelijke voor elke eigenschap te tonen, dan de tweede-beste gelijke voor elk bezit, etc., voor de grootste vijftig eigenschappen door populatie, in de segmentregel.
@@ -111,10 +116,10 @@ Wanneer u een segment maakt of bewerkt en een kenmerk aan de segmentregel toevoe
 Bijvoorbeeld, wanneer er drie eigenschappen in de segmentregel zijn, zoals hieronder getoond, zijn de geadviseerde eigenschappen:
 
 1. Beste overeenkomst voor kenmerk 3 (de eigenschap met de grootste populatie);
-2. Beste overeenkomst voor kenmerk 1;
-3. Beste overeenkomst voor kenmerk 2;
-4. Tweede beste overeenkomst voor kenmerk 3;
-5. De op één na beste overeenkomst voor eigenschap 1, etc. tot u aan vijftig eigenschappen krijgt.
+1. Beste overeenkomst voor kenmerk 1;
+1. Beste overeenkomst voor kenmerk 2;
+1. Tweede beste overeenkomst voor kenmerk 3;
+1. De op één na beste overeenkomst voor eigenschap 1, etc. tot u aan vijftig eigenschappen krijgt.
 
 Om aanbevelingen voor een specifiek bezit te krijgen, kunt u op de eigenschappen in de segmentregel (1) of in de geadviseerde mening van het Dienstverband (2) klikken.
 
@@ -124,13 +129,13 @@ Als u op een eersteklas kenmerk klikt, wordt een pop-upvenster geopend, zoals in
 
 ![toe:voegen-aan-segment](assets/add_to_segments.png)
 
-> [!TIP]
+>[!TIP]
 >
 >De uitgesloten gegevensbronnen van de hoofdpagina worden overwogen terwijl het produceren van aanbevelingen binnen het pop-up venster van de eigenschapinformatie. En als u gegevensbronnen in deze weergave uitsluit, gelden de uitsluitingen voor de hoofdpagina.
 
-> [!NOTE]
+>[!NOTE]
 >
-> Aanbevolen kenmerken kunnen de kenmerken van de eerste partij zijn of de eigenschappen van derden van gegevensfeeds waarop u zich hebt geabonneerd [!UICONTROL Audience Marketplace].
+>Aanbevolen kenmerken kunnen de kenmerken van de eerste partij zijn of de eigenschappen van derden van gegevensfeeds waarop u zich hebt geabonneerd [!UICONTROL Audience Marketplace].
 
 ## Hoe het werkt
 
@@ -173,9 +178,9 @@ Gebruik de onderstaande tabel als een ruwe richtlijn voor de gelijkenis van de a
 
 Voor bedrijven die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]) gebruiken, moet u toestemming hebben om segmenten tot stand te brengen en uit te geven om geadviseerde eigenschappen te zien. De aanbevelingen van de eigenschap die u ziet zijn slechts degenen van gegevensbronnen die u toegang tot via hebt [!UICONTROL RBAC].
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
-> Gebruikers moeten zich eerst abonneren op de overeenkomstige gegevensfeeds om [!UICONTROL Marketplace Recommendations] aan een segment toe te voegen. Alleen gebruikers met beheerdersrechten kunnen zich abonneren op [!UICONTROL Audience Marketplace] gegevensfeeds.
+>Gebruikers moeten zich eerst abonneren op de overeenkomstige gegevensfeeds om [!UICONTROL Marketplace Recommendations] aan een segment toe te voegen. Alleen gebruikers met beheerdersrechten kunnen zich abonneren op [!UICONTROL Audience Marketplace] gegevensfeeds.
 
 Lees meer over [!UICONTROL RBAC] besturingselementen [hier](../administration/administration-overview.md).
 
