@@ -1,18 +1,18 @@
 ---
 description: De detailspagina voor een individueel bezit verstrekt overzicht van informatie zoals de het handelsnaam, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit bepalen, segmenten het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar Audience Data > Traits en klikt u op de naam van het kenmerk waarmee u wilt werken.
 seo-description: De detailspagina voor een individueel bezit verstrekt overzicht van informatie zoals de het handelsnaam, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit bepalen, segmenten het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar Audience Data > Traits en klikt u op de naam van het kenmerk waarmee u wilt werken.
-seo-title: Detailpagina Trait
+seo-title: Detailpagina van taak
 solution: Audience Manager
 title: Detailpagina Trait
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting
 translation-type: tm+mt
-source-git-commit: 51f38819bfbc72c2588f63a63fb8ba2e963919ff
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
 
-# Detailpagina van taak {#trait-details-page}
+# Detailpagina Trait {#trait-details-page}
 
 De detailspagina voor een individueel bezit verstrekt een overzicht van de karakterdetails, zoals de eigenschap, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit, de segmenten bepalen het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** en klikt u op de naam van het kenmerk waarmee u wilt werken.
 
@@ -47,8 +47,10 @@ Het [!UICONTROL Trait Graph] biedt in één oogopslag prestatiemetriek voor uw g
 * **[!UICONTROL Identity Type Breakdown]**: De eerste drie ingangen tonen de hoogste drie dwars-apparatengegevensbronnen met het hoogste populatietelling die voor het bezit, in dalende orde hebben gekwalificeerd. De vierde vermelding toont de som van alle andere [!DNL DPUUIDs] ([!DNL CRM IDs]) die voor het kenmerk in aanmerking komen, van de apparaatgegevensbronnen die zich niet in de bovenste drie bevinden. Dit rapport wordt alleen weergegeven als u Apparaatoverschrijdende id selecteert in het [!UICONTROL Show Results By] vervolgkeuzemenu rechtsboven op de pagina. De standaardoptie drop-down is, [!UICONTROL Device ID]waar dit rapport niet wordt getoond.
 
    ![grafiek](assets/trait-identity.png)
-   > [!NOTE]
-   > Audience Manager geeft het [!UICONTROL Identity Type Breakdown] rapport alleen weer als u id&#39;s voor alle apparaten hebt die zijn gekwalificeerd voor het kenmerk.
+
+   >[!NOTE]
+   >
+   >Audience Manager geeft het [!UICONTROL Identity Type Breakdown] rapport alleen weer als u id&#39;s voor alle apparaten hebt die zijn gekwalificeerd voor het kenmerk.
 
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
