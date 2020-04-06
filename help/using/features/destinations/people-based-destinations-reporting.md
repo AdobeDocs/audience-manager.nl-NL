@@ -5,7 +5,7 @@ seo-title: Aandeelbaar publiek
 solution: Audience Manager
 title: Aandeelbaar publiek
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 
 ---
 
@@ -51,6 +51,6 @@ In dit scenario:
 
 ![deelbaar publiek-diagram](assets/shareable-audiences.png)
 
-> [!NOTE]
+>[!NOTE]
 >
-> In het bovenstaande voorbeeld betekent dit niet dat alle 80.000 gehashte e-mailadressen van de drie segmenten overeenkomen met bestaande accounts op de doelplatforms. Het betekent slechts dat de Manager van de Publiek de gehakte herkenningstekens van de drie segmenten naar hun respectieve bestemmingen verzendt. Wanneer het verzenden van publiekssegmenten naar op mensen-gebaseerde bestemmingen, komt de publieksaanpassing op de partnerkant voor. Bestemming A kan tot 30.000 passende gebruikersrekeningen hebben, terwijl Bestemming B tot 50.000 passende gebruikersrekeningen kan hebben, maar er is geen garantie van gelijke tarieven. Adobe heeft geen toegang tot partnerspecifieke gegevens. Zie [Tarieven](../../faq/faq-people-based-destinations.md#match-rates) van de Gelijke voor vaak gestelde vragen over Op mensen-Gebaseerde de zichtbaarheid van Doelen in gelijke tarieven.
+>In het bovenstaande voorbeeld betekent dit niet dat alle 80.000 gehashte e-mailadressen van de drie segmenten overeenkomen met bestaande accounts op de doelplatforms. Het betekent slechts dat de Manager van de Publiek de gehakte herkenningstekens van de drie segmenten naar hun respectieve bestemmingen verzendt. Wanneer het verzenden van publiekssegmenten naar op mensen-gebaseerde bestemmingen, komt de publieksaanpassing op de partnerkant voor. Bestemming A kan tot 30.000 passende gebruikersrekeningen hebben, terwijl Bestemming B tot 50.000 passende gebruikersrekeningen kan hebben, maar er is geen garantie van gelijke tarieven. Adobe heeft geen toegang tot partnerspecifieke gegevens. Zie [Tarieven](../../faq/faq-people-based-destinations.md#match-rates) van de Gelijke voor vaak gestelde vragen over Op mensen-Gebaseerde de zichtbaarheid van Doelen in gelijke tarieven.
