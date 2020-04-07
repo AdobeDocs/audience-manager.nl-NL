@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Algemene rapporten
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 translation-type: tm+mt
-source-git-commit: 1c626c770208150d209d93f666b581113ada8de9
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -96,7 +96,7 @@ Deze metrische waarde geeft de totale hoeveelheid eigenschap aan die wordt geact
 
 **Totale populatie**
 
-Deze metrisch vertegenwoordigt de totale hoeveelheid UUIDs van de Manager van de Auditie die momenteel voor het bezit gekwalificeerd zijn. Gebruik dit nummer om te begrijpen hoeveel gebruikers u kunt gebruiken voor segmentatie en doelgerichtheid. Meestal blijven gebruikers gedurende [120 dagen](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)deel uitmaken van een eigenschap. Bijvoorbeeld, zou een gebruiker die uw homepage drie keer vandaag bezoekt en nooit daarna terugkeert, als gebruiker in deze bevolking elke dag tot 120 dagen van nu blijven. Op het teken van 120 dagen zouden ze uit de bevolking worden verwijderd. Lees onze [Verwijzing](../features/traits/trait-qualification-reference.md) van de Kwalificatie van het Bedieningsgebied voor meer voorbeelden op het verschil tussen de Unieke Redalisaties van het Bedieningsgebied en de Totale Bevolking van het Bedieningsgebied.
+Deze metrisch vertegenwoordigt de totale hoeveelheid UUIDs van de Manager van de Auditie die momenteel voor het bezit gekwalificeerd zijn. Gebruik dit nummer om te begrijpen hoeveel gebruikers u kunt gebruiken voor segmentatie en doelgerichtheid. Meestal blijven gebruikers gedurende [120 dagen](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)deel uitmaken van een eigenschap. Bijvoorbeeld, zou een gebruiker die uw homepage drie keer vandaag bezoekt en nooit daarna terugkeert, als gebruiker in deze bevolking elke dag tot 120 dagen van nu blijven. Op het teken van 120 dagen zouden ze uit de bevolking worden verwijderd. Lees onze [Verwijzing](../features/traits/trait-and-segment-qualification-reference.md) van de Kwalificatie van het Bezit en van het Segment voor meer voorbeelden op het verschil tussen de Unieke Redalisaties van het Bezit en de Totale Bevolking van het Verkeer.
 
 In de onderstaande afbeelding ziet u de resultaten van het uitvoeren van een algemeen rapport voor het rapporttype Trait.
 
