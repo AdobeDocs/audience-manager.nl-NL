@@ -7,7 +7,7 @@ title: Abonnementen gegevensfeed beheren
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: b1f4fe1180001a92577adc9e55f2697f3285ea46
+source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
 
 ---
 
@@ -26,22 +26,22 @@ Abonneren op een openbare gegevensfeed:
 
 1. Ga naar **[!UICONTROL Audience Marketplace > Marketplace]**. Gebruik de zoekfunctie of blader door de lijst om een gegevenstoevoer te zoeken.
 
-   ![](assets/subscribe1.png)
+   ![inschrijven](assets/subscribe1.png)
 
 1. Klik op de naam van de gegevensfeed die u wilt gebruiken. Hiermee opent u de pagina met [abonnementsdetails](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) voor de geselecteerde feed.
 
-   ![](assets/plan-details.png)
+   ![plan-details](assets/plan-details.png)
 
 1. Kies een gebruiksscenario in de tabel met abonnementen en:
    * Verplaats de **[!UICONTROL Subscription]** schuifregelaar naar **[!UICONTROL On]**.
    * Klik op **[!UICONTROL Review & Subscribe]**. Hiermee opent u het [!UICONTROL Terms and Conditions] venster.
-   ![](assets/subscribe3.png)
+   ![inschrijven](assets/subscribe3.png)
 
 1. In het [!UICONTROL Terms and Conditions] venster:
 
    * **Belangrijk:** Laat het **[!UICONTROL ID sync]** selectievakje ingeschakeld. Met deze instelling kunt u de gegevensaanbieder een betere overeenkomst bieden.
    * Controleer de voorwaarden en bepalingen en klik om het abonnementsproces **[!UICONTROL Accept]** te voltooien.
-   ![](assets/subscribe4.png)
+   ![inschrijven](assets/subscribe4.png)
 
 ### Volgende stappen
 
@@ -298,7 +298,7 @@ Als [!UICONTROL Audience Marketplace] gegevenskoper kunt u gegevens aanschaffen 
 
 ### Segmenten en overlappen
 
-Met dit gebruiksgeval kunt u uw kenmerken vergelijken met de kenmerken van de provider in een overlappend rapport [met kenmerk-to-trait.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Ook, kunt u leverancierseigenschappen tot stand brengen of toevoegen aan een segment en extra vergelijkingen maken met [segment-aan-lijn](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) en [segment-aan-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) rapporten. Met behulp van overlap-vergelijkingen kunt u:
+Met dit gebruiksgeval kunt u uw kenmerken vergelijken met de kenmerken van de provider in een [overlap tussen kenmerken.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Ook, kunt u leverancierseigenschappen tot stand brengen of toevoegen aan een segment en extra vergelijkingen maken met [segment-aan-lijn](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) en [segment-aan-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) rapporten. Met behulp van overlap-vergelijkingen kunt u:
 
 * **Bereik publiek uitbreiden:** Lage overlapping suggereert dat uw kenmerken gebruikers bevatten die u nog niet eerder hebt gezien. U kunt deze eigenschappen willen proberen en nieuwe gebruikers bereiken.
 * **Bestaande doelgroepen verbeteren:** Bij hoge overlapping zijn uw kenmerken vergelijkbaar met die van de gegevensaanbieder. U wilt deze kenmerken wellicht gebruiken om een doelgericht, stapsgewijs verbeterd publiek te helpen maken.
