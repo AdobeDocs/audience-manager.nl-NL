@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van het Manager van de Publiek
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: d96182b0741dd31cc5ec0ffb68182ed5f8445c03
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -23,7 +23,7 @@ Deze rapporten gebruiken gesamplede gegevens omdat ze een enorme hoeveelheid ver
 
 Rapporten waarin gebruik wordt gemaakt van steekproeven sluiten kenmerken en segmenten uit wanneer deze niet voldoen aan de minimale unieke bezoekersvereisten. Deze minimumeisen zijn als volgt:
 
-* Tanden: 28.000 [unieke karakteristieken](/help/using/features/traits/trait-qualification-reference.md#unique-trait-realizations) over een periode van 14 dagen.
+* Tanden: 28.000 [unieke karakteristieken](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) over een periode van 14 dagen.
 * Segmenten: 70.000 real-time gebruikers over een periode van 14 dagen.
 
 ## Foutpercentages {#error-rates}
