@@ -5,7 +5,7 @@ seo-title: Vereisten en overwegingen voor op mensen gebaseerde doelen
 solution: Audience Manager
 title: Vereisten en overwegingen
 translation-type: tm+mt
-source-git-commit: c605e04489ad444193e1e884ee6a3b05f437b9f2
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -101,5 +101,5 @@ Wanneer het gebruiken van [!UICONTROL People-Based Destinations], de Controles [
 
 Er zijn twee manieren u uw off-line gegevens aan de Manager van het Publiek voor kunt brengen [!DNL People-Based Destinations].
 
-* [Verzend batchgegevens](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar Audience Manager om gehashte e-mailadressen in te voeren. Met deze methode kunt u ervoor kiezen om de gehashte e-mailadressen van uw [!DNL CRM] database in te gebruiken [!DNL People-Based Destinations]. Als u deze methode gebruikt, kunt u bovendien ook de gehashte e-mailadressen kwalificeren voor [ongeregistreerde kenmerken](../traits/trait-qualification-reference.md).
+* [Verzend batchgegevens](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar Audience Manager om gehashte e-mailadressen in te voeren. Met deze methode kunt u ervoor kiezen om de gehashte e-mailadressen van uw [!DNL CRM] database in te gebruiken [!DNL People-Based Destinations]. Als u deze methode gebruikt, kunt u bovendien ook de gehashte e-mailadressen kwalificeren voor [ongeregistreerde kenmerken](../traits/trait-and-segment-qualification-reference.md).
 * Gebruik [gedeclareerde id&#39;s](../declared-ids.md) om gehashte e-mailadressen te declareren wanneer u geverifieerde klant-id&#39;s doorgeeft. Als u deze methode gebruikt, stuurt Audience Manager namens u alleen de gehashte e-mailadressen naar [!DNL People-Based Destinations] de gebruikers die online zijn geverifieerd. De e-mailadressen die via op personen gebaseerde kanalen worden geactiveerd, zijn alleen de adressen in de gedeclareerde id-gebeurtenisaanroepen. Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in realtime verzonden.
