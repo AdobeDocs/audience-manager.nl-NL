@@ -5,7 +5,7 @@ seo-title: Implementatieleiding voor op personen gebaseerde doelen
 solution: Audience Manager
 title: Implementatieleiding
 translation-type: tm+mt
-source-git-commit: f500b4a763f1639392253b7e5f209395a978e45e
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -62,7 +62,7 @@ Voor doelgroepen in [!DNL People-Based Destinations] hebt u [SHA256-gehashte](pe
 
 Om uw publiek binnen nauwkeurig te richten [!DNL People-Based Destinations], moeten uw gebruikers voor of regel-gebaseerde of ongebogen eigenschappen in aanmerking komen, afhankelijk van het type van publiek dat richt dat u wilt uitvoeren.
 
-**A) Kwalificeer uw klant IDs en apparaat IDs in echt - tijd voor op regel-gebaseerde eigenschappen**. Deze optie is van toepassing op geval A van [1. Het definiëren van het hoofdlettergebruik](people-based-destinations-workflow.md#defining-your-use-case). Als uw plan doelpubliek op online en off-line activiteit wordt gebaseerd, dan zult u hoogstwaarschijnlijk reeds uw publiek voor op [regel-gebaseerde trekken](../traits/trait-qualification-reference.md)kwalificeren.
+**A) Kwalificeer uw klant IDs en apparaat IDs in echt - tijd voor op regel-gebaseerde eigenschappen**. Deze optie is van toepassing op geval A van [1. Het definiëren van het hoofdlettergebruik](people-based-destinations-workflow.md#defining-your-use-case). Als uw plan doelpubliek op online en off-line activiteit wordt gebaseerd, dan zult u hoogstwaarschijnlijk reeds uw publiek voor op [regel-gebaseerde trekken](../traits/trait-and-segment-qualification-reference.md)kwalificeren.
 
 **B) Ingebouwde gegevensbestanden** maken gebruik van de inwendige kenmerken van uw klant-id&#39;s. Deze optie is van toepassing op geval B van [1. Het definiëren van het hoofdlettergebruik](people-based-destinations-workflow.md#defining-your-use-case). Wanneer het richten van uw publiek dat op puur off-line activiteit wordt gebaseerd, moet u klant IDs voor aan boord genomen eigenschappen door [binnenkomende gegevensdossiers](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)kwalificeren.
 
