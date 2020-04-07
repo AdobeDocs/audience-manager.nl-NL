@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aanbevolen stappen
 uuid: null
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 019396917482340f15b4eb23736b15322815bd84
 
 ---
 
@@ -80,9 +80,9 @@ Wanneer het bouwen van of het uitgeven van een segment in de Bouwer [van het](se
 ### Nieuwe segmenten
 
 1. Ga naar **Poortgegevens > Segmenten** en klik op **Nieuwe** toevoegen.
-2. In de drop-down doos van **Tanden** , voeg minstens één eigenschap aan de segmentregel toe.
-3. U kunt de door de eerste partij aanbevolen eigenschappen en aanbevelingen voor [!UICONTROL Audience Marketplace] kenmerken van feeds bekijken waarop u bent geabonneerd, in de **[!UICONTROL Recommendations]** sectie. In de **[!UICONTROL Recommendations from Marketplace]** sectie ziet u aanbevelingen met kenmerken van feeds waarop u zich niet hebt geabonneerd. Al deze aanbevelingen zijn gelijkaardig aan de eigenschappen u aan de segmentregel toevoegde. Schuif omlaag om alle aanbevolen kenmerken weer te geven.
-4. (Optioneel) Als u aanbevolen eerdereportretten wilt uitsluiten van bepaalde gegevensbronnen, klikt u op het **X** -symbool voor de gegevensbronnen die u wilt uitsluiten.
+1. In de drop-down doos van **Tanden** , voeg minstens één eigenschap aan de segmentregel toe.
+1. U kunt de door de eerste partij aanbevolen eigenschappen en aanbevelingen voor [!UICONTROL Audience Marketplace] kenmerken van feeds bekijken waarop u bent geabonneerd, in de **[!UICONTROL Recommendations]** sectie. In de **[!UICONTROL Recommendations from Marketplace]** sectie ziet u aanbevelingen met kenmerken van feeds waarop u zich niet hebt geabonneerd. Al deze aanbevelingen zijn gelijkaardig aan de eigenschappen u aan de segmentregel toevoegde. Schuif omlaag om alle aanbevolen kenmerken weer te geven.
+1. (Optioneel) Als u aanbevolen eerdereportretten wilt uitsluiten van bepaalde gegevensbronnen, klikt u op het **X** -symbool voor de gegevensbronnen die u wilt uitsluiten.
 
    >[!NOTE]
    >
