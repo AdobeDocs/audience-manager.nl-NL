@@ -2,10 +2,10 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Audience Manager User Guide
+user-guide-title: Gebruikershandleiding voor Auditiebeheer
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -132,8 +132,9 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Recente en frequente](features/segments/recency-and-frequency.md)
       + [Segment Builder](features/segments/segment-builder.md)
       + [Code Syntax used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
-      + [Behandelings- en segmentpopulatiegegevens in Segment Builder](features/segments/segment-builder-data.md)
+      + [Bevolkingsgegevens van het spoor en van het segment in de Bouwer van het Segment](features/segments/segment-builder-data.md)
       + [Aanbevolen stappen](features/segments/trait-recommendations.md)
+      + [Verwijzing naar de kwalificatie van het spoor en het segment](features/traits/trait-and-segment-qualification-reference.md)
    + Treinen{#traits}
       + [Overzicht van sporen](/help/using/features/traits/traits-overview.md)
       + [Detailpagina van taak](features/traits/trait-details-page.md)
@@ -158,7 +159,7 @@ source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
       + [Geotarcering met toetsen op platformniveau](features/traits/trait-geotarget-keys.md)
       + [Apparaatgericht met toetsen op platformniveau](features/traits/trait-device-targeting.md)
       + [Voorbeeldexpressies met Booleaanse en vergelijkingsoperatoren](features/traits/trait-expression-samples.md)
-      + [Verwijzing naar beroepskwalificatie](features/traits/trait-qualification-reference.md)
+      + [Verwijzing naar de kwalificatie van het spoor en het segment](features/traits/trait-and-segment-qualification-reference.md)
    + [Bezoekerprofiel Viewer](features/visitor-profile-viewer.md)
 + Rapportage{#reporting}
    + [Overzicht van rapporten](reporting/reports-overview.md)
