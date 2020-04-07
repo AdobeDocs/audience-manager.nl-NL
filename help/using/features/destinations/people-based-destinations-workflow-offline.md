@@ -5,7 +5,7 @@ seo-title: Workflow B - Personalisatie gebaseerd op gegevens die alleen offline 
 solution: Audience Manager
 title: Workflow B - Personalisatie gebaseerd op gegevens die alleen offline beschikbaar zijn
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -23,7 +23,7 @@ De eerste stap die tot publiekssegmenten in dit scenario leidt is uw off-line kl
 
 >[!IMPORTANT]
 >
-> Voordat u verdergaat, moet u ervoor zorgen dat de klantactiviteit die u aan boord gaat, al is gedefinieerd in Audience Manager met de bijbehorende [ongeregistreerde kenmerken](../traits/trait-qualification-reference.md).
+> Voordat u verdergaat, moet u ervoor zorgen dat de klantactiviteit die u aan boord gaat, al is gedefinieerd in Audience Manager met de bijbehorende [ongeregistreerde kenmerken](../traits/trait-and-segment-qualification-reference.md).
 
 Ongeacht of uw bestaande klant-id&#39;s ([DPUUID&#39;s](../../reference/ids-in-aam.md)) van Audience Manager gehashed zijn of niet, u moet de eigenschap instappen uitvoeren tegen de gegevensbron die uw [DPUUID&#39;s](../../reference/ids-in-aam.md)bevat.
 
