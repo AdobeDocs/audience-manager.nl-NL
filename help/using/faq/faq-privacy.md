@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Veelgestelde vragen over privacy en gegevensbewaring
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: 3a4f23bc853a2324a4c91c6e65b14455293a5b1b
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -111,7 +111,7 @@ In de onderstaande tabel staan de retoucheringsopties voor beroepskwalificaties.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Trainingslimiet bereikt </p> </td> 
-   <td colname="col2"> <p>We stellen een limiet van 100.000 beroepskwalificaties voor elk gebruikersprofiel op. De limiet geldt voor geverifieerde profielen en apparaatprofielen. Als een gebruikersprofiel deze limiet bereikt, worden de oudste vakkwalificaties verwijderd, op basis van de eerste-in-uitbasis. </p> <p>Lees voor meer informatie onze <a href="../features/traits/trait-qualification-reference.md#trait-qualification-limit"> kwalificatielimiet</a>Trait. </p> </td> 
+   <td colname="col2"> <p>We stellen een limiet van 100.000 beroepskwalificaties voor elk gebruikersprofiel op. De limiet geldt voor geverifieerde profielen en apparaatprofielen. Als een gebruikersprofiel deze limiet bereikt, worden de oudste vakkwalificaties verwijderd, op basis van de eerste-in-uitbasis. </p> <p>Lees voor meer informatie onze <a href="../features/traits/trait-and-segment-qualification-reference.md#trait-qualification-limit"> kwalificatielimiet</a>Trait. </p> </td> 
   </tr> 
  </tbody> 
 </table>
