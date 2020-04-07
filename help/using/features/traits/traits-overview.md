@@ -6,7 +6,7 @@ seo-title: Overzicht van sporen
 solution: Audience Manager
 title: Overzicht van sporen
 translation-type: tm+mt
-source-git-commit: 94046c4ed825949451d0dbad37adbe9fba0f9191
+source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
 
 ---
 
@@ -20,4 +20,4 @@ Beheer gegevensverzameling en publiek creatie met op regels gebaseerde, niet-gec
 * [Maptraits: Info](/help/using/features/traits/about-folder-traits.md)
 * [Trait-opslag](/help/using/features/traits/trait-storage.md)
 * [Actieve doelgroepen en gesynchroniseerde gegevensbronnen](/help/using/features/traits/client-activity-synced-audience-traits.md)
-* [Verwijzing naar beroepskwalificatie](/help/using/features/traits/trait-qualification-reference.md)
+* [Verwijzing naar de kwalificatie van het spoor en het segment](/help/using/features/traits/trait-and-segment-qualification-reference.md)
