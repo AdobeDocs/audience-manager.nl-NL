@@ -5,7 +5,7 @@ seo-title: Workflow B - Personalisatie gebaseerd op gegevens die alleen offline 
 solution: Audience Manager
 title: Workflow B - Personalisatie gebaseerd op gegevens die alleen offline beschikbaar zijn
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 1302d8c9dba8e7bb7f0c57bcbd5531ec56fad0d5
 
 ---
 
@@ -38,7 +38,8 @@ U wilt de klant-id&#39;s uit de onderstaande tabel kwalificeren voor de bijbehor
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
-Als u de klant-id's in het bovenstaande voorbeeld wilt kwalificeren voor de overeenkomende ongeregistreerde kenmerken, moet u een [binnenkomend gegevensbestand](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) uploaden met de volgende inhoud:
+
+Als u de klant-id&#39;s in het bovenstaande voorbeeld wilt kwalificeren voor de overeenkomende ongeregistreerde kenmerken, moet u een [binnenkomend gegevensbestand](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) uploaden met de volgende inhoud:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
