@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Gebruikershandleiding voor Auditiebeheer
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
 
 ---
 
@@ -137,7 +137,7 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
       + [Verwijzing naar de kwalificatie van het spoor en het segment](features/traits/trait-and-segment-qualification-reference.md)
    + Treinen{#traits}
       + [Overzicht van sporen](/help/using/features/traits/traits-overview.md)
-      + [Detailpagina van taak](features/traits/trait-details-page.md)
+      + [Detailpagina Trait](features/traits/trait-details-page.md)
       + [Traits dashboard](features/traits/trait-dashboard.md)
       + [Actieve doelgroepen en gesynchroniseerde gegevensbronnen](features/traits/client-activity-synced-audience-traits.md)
       + [Maptraits: Info](features/traits/about-folder-traits.md)
@@ -387,6 +387,13 @@ source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
    + [Overzicht](/help/using/help-legal/help-legal-overview.md)
    + [Als er een probleem is](/help/using/help-legal/help-problem.md)
    + [Contactgegevens en juridische informatie](/help/using/help-legal/help-legal-contact.md)
++ Frequente problemen met klantenondersteuning{#top-support-issues}
+   + [Overzicht](/help/using/support-issues/support-issues-overview.md)
+   + [Waarom zijn mijn populaties van onboded-trait gedaald tot 0 rond 15 oktober? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Waarom worden mijn kenmerken of segmenten niet weergegeven op de pagina Rapporten overlappen?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
+   + [Waarom zijn onze gebruikers Alleen-lezen in staat om kenmerken en segmenten te maken, te bewerken of te verwijderen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
+   + [Wij zijn geen klant van de Manager van het Publiek, maar zie de vraag Javascript van de Manager van het Publiek op onze plaats](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Moet ik mijn in kaart gebrachte segmenten van het Laboratorium van het publiek van de Manager van de Audience op de pagina van bestemmingsdetails zien?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Documentatieupdates{#documentation-updates}
    + [2020 Documentatie - Updates](docs-updates/docs-2020.md)
    + [2019 Documentatieupdates](docs-updates/docs-2019.md)
