@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Verwijzing naar beroepskwalificatie
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
 
 ---
 
@@ -34,7 +34,7 @@ Bovendien, zie de Bevolking van het Segment in [real time en de Totale Bevolking
 
 ![uniek-eigenschap-realisatie](assets/trait-graph.png)
 
-Afhankelijk van het type resultaten dat de grafiek moet weergeven (gefilterd door [!UICONTROL Device ID] of [!UICONTORL apparaat-id]), hebben de meetgegevens verschillende betekenissen:
+Afhankelijk van het type resultaten dat de grafiek moet weergeven (gefilterd op [!UICONTROL Device ID] of [!UICONTROL Cross-Device ID]), hebben de meetgegevens verschillende betekenissen:
 
 Wanneer het filtreren van de resultaten door [!UICONTROL Device ID]:
 
