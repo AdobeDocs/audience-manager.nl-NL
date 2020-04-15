@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Publiek delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
+source-git-commit: efc07cb0aacc31f3708c98e1c82c195c202c10ef
 
 ---
 
@@ -15,13 +15,11 @@ source-git-commit: a7311c35c70bbfd0aac015524f6e65b0e59415f5
 
 >[!NOTE]
 >
-> De op deze pagina beschreven functionaliteit is beschikbaar voor klanten van Audience Manager en Adobe Experience Platform.
->
 > Neem contact op met uw Adobe-vertegenwoordiger om de toegang tot deze functionaliteit te ontgrendelen.
 
 ## Overzicht {#overview}
 
-Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u de eigenschappen en segmenten van Audience Manager delen met het Adobe Experience Platform en vice versa.
+Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u de eigenschappen en segmenten van Audience Manager delen met het Adobe Experience Platform en vice versa. U hebt de [Audience Manager-aansluiting](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) nodig om publiek delen tussen Audience Manager en Adobe Experience Platform mogelijk te maken.
 
 U kunt de eigenschappen en de segmenten van de Manager van de Publiek in het Platform van de Ervaring gebruiken om de gegevens van de Manager van de Publiek aan uw klantenprofielen toe te voegen en van de [segmenteringsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)van het Platform van de Ervaring te profiteren.
 
@@ -46,8 +44,9 @@ Zie de onderstaande tabel voor een overzicht van de gebruikte gevallen voor het 
 
 Uw sporen en de segmenten van de Manager van de Publiek verschijnen in het Platform van de Ervaring als **Publiek** in het segmentwerkschema. Voor meer informatie over uw segmenten en de eigenschappen van de Manager van de Publiek in het Platform van de Ervaring, zie:
 
-* [Overzicht van segmentatieservice](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)
-* [Gebruikershandleiding voor de functie Platform Segment Builder](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+* [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+* [Gebruikershandleiding voor de functie Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+* [Aansluiting Auditiebeheer](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
 
 <br> 
 
