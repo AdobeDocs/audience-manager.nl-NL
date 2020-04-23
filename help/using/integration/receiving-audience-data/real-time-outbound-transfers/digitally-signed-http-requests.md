@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Digitaal ondertekende HTTP(S)-aanvragen
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
 translation-type: tm+mt
-source-git-commit: e7bb837a9a4a4e41ca5c73a192f68a4caa30335d
+source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
 
 ---
 
@@ -89,8 +89,6 @@ RFC voor de [!DNL HMAC] knoeiboelimplementatie is [https://www.ietf.org/rfc/rfc2
 Om veiligheidsredenen is het raadzaam om de persoonlijke sleutel periodiek te roteren. Het is aan u om de privé sleutel en de omwentelingsperiode te beslissen. Als u de hoofdrotatie wilt uitvoeren met 0 downtime, [!UICONTROL IRIS] kunt u ook meerdere handtekeningkoppen toevoegen. Eén header bevat de handtekening die met de oude sleutel is gegenereerd. Een andere header bevat de handtekening die met de nieuwe persoonlijke sleutel is gegenereerd. Zie onder de stappen in detail:
 
 1. De partner deelt de nieuwe privé sleutel aan [!DNL Adobe Audience Manager].
-1. [!UICONTROL IRIS] Hiermee worden twee handtekeningkoppen verzonden (een met de oude en een met de nieuwe).
-1. Wanneer u beide koppen hebt ontvangen, kunt u de oude sleutel negeren en alleen naar de nieuwe handtekening kijken.
 1. De oude sleutel wordt verwijderd uit [!DNL Audience Manager] en [!UICONTROL IRIS] alleen de nieuwe handtekeningheader verstuurt. De toetsen zijn geroteerd.
 
 ## Gegevens gebruikt voor ondertekening {#data-signing}
