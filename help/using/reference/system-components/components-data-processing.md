@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Componenten gegevensverwerking
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -44,7 +44,6 @@ Klanten hebben geen directe toegang tot deze systemen. Klanten werken echter ind
 Dit is geenszins een uitgebreide lijst, maar een aantal gemeenschappelijke dashboardrapporten die verantwoordelijk [!UICONTROL Snowflake] zijn voor:
 
 * [Dagelijks verslag over de variatie van het reisdoel](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* [Leverings- en prestatierapport](/help/using/reporting/dynamic-reports/delivery-performance-report.md)
 * Alle overlappende rapporten (zie de [Interactieve sectie van Rapporten](/help/using/reporting/dynamic-reports/dynamic-reports.md) voor informatie over elk overlappend rapport).
 * [Rapport Ongebruikte signalen](/help/using/reporting/dynamic-reports/unused-signals.md)
 
