@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Verbeter de verwerkingstijd van logbestanden met tabellen voor opzoeken
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -69,8 +69,3 @@ Het opzoekbestand hieronder bevat de metagegevens en kan met de advertentie-id w
 ## API&#39;s kunnen de behoefte aan opzoektabellen wegnemen
 
 Als uw ad-serving-systeem een API heeft, hoeft u mogelijk geen metagegevens in een opzoekbestand te verzenden. We kunnen die informatie mogelijk ophalen via de API. In dat geval mogen uw logbestanden alleen id&#39;s bevatten. We werken met u samen om te bepalen of metagegevens kunnen worden verkregen via een API.
-
->[!MORELIKETHIS]
->
->* [Leverings- en prestatierapport](../../reporting/dynamic-reports/delivery-performance-report.md)
-
