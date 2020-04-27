@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Gebruikershandleiding voor Auditiebeheer
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
+source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
 
 ---
 
@@ -39,9 +39,15 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
       + [Gebruiksbeperkingen](features/administration/usage-limits.md)
       + [Activiteitenverbruik rapporteren](features/administration/activity-usage-reporting.md)
    + Algorithmic Models{#algorithmic-models}
-      + [Algorithmic Models](features/algorithmic-models/understanding-models.md)
-      + [Een algoritmisemodel maken](features/algorithmic-models/create-model.md)
-      + [Algoritmische modellen: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + [Overzicht van algoritmische modellen](features/algorithmic-models/algo-models-overview.md)
+      + Look-Alike modellering {#look-alike-modeling}
+         + [Understanding Look-Alike modellering](features/algorithmic-models/understanding-models.md)
+         + [Een model maken dat lijkt op het uiterlijk](features/algorithmic-models/create-model.md)
+         + [Kijk-als modellering: Trait Exclusion](features/algorithmic-models/trait-exclusion-algo-models.md)
+      + Voorspelend publiek {#predictive-audiences}
+         + [Overzicht van voorspellende doelgroepen](features/algorithmic-models/predictive-audiences.md)
+         + [Aan de slag met voorspellend publiek](features/algorithmic-models/predictive-audiences-start.md)
+         + [Rapportage van voorspellende doelgroepen](features/algorithmic-models/predictive-audiences-reporting.md)
    + Audience Lab{#audience-lab}
       + [Overzicht van het laboratorium van het publiek](features/audience-lab/audience-lab.md)
       + [Testgroepen beheren](features/audience-lab/audience-lab-manage-test-groups.md)
@@ -132,7 +138,7 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
       + [Recente en frequente](features/segments/recency-and-frequency.md)
       + [Segment Builder](features/segments/segment-builder.md)
       + [Code Syntax used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
-      + [Bevolkingsgegevens van het spoor en van het segment in de Bouwer van het Segment](features/segments/segment-builder-data.md)
+      + [Behandelings- en segmentpopulatiegegevens in Segment Builder](features/segments/segment-builder-data.md)
       + [Aanbevolen stappen](features/segments/trait-recommendations.md)
       + [Verwijzing naar de kwalificatie van het spoor en het segment](features/traits/trait-and-segment-qualification-reference.md)
    + Treinen{#traits}
@@ -381,6 +387,7 @@ source-git-commit: e70c3dde2777d0ec128bae8998697b28e92df19a
    + [Veelgestelde vragen over op mensen gebaseerde doelen](faq/faq-people-based-destinations.md)
    + [Veelgestelde vragen over productfuncties en -functies](faq/faq-features.md)
    + [Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek](faq/faq-profile-merge.md)
+   + [Veelgestelde vragen over voorspellende doelgroepen](faq/faq-predictive-audiences.md)
    + [Veelgestelde vragen over doelen](faq/faq-targeting.md)
    + [Veelgestelde vragen over rapportage](faq/faq-reporting.md)
 + Help en juridische bijstand{#help-and-legal}
