@@ -5,23 +5,18 @@ seo-description: Beschrijft de vereiste en facultatieve stappen die u een algori
 seo-title: Een algoritmisemodel maken
 solution: Audience Manager
 title: Een algoritmisemodel maken
-topic: DIL API
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# Een algoritmisemodel maken {#create-an-algorithmic-model}
+# Een model maken dat lijkt op het uiterlijk {#create-an-algorithmic-model}
 
-Beschrijft de vereiste en facultatieve stappen die u een algoritmisch model binnen laten creëren [!UICONTROL Model Builder].
+Beschrijft de vereiste en facultatieve stappen die u een [!UICONTROL Look-Alike Model]laten tot stand brengen.
 
-## Een model maken {#build-model}
-
-<!-- t_model_build.xml -->
-
-### Sectie Modelbouwer
+## Sectie Modelbouwer
 
 [!UICONTROL Model Builder] bestaat uit de [!UICONTROL Basic Information] en de [!UICONTROL Configuration] secties. Als u een model wilt maken, vult u de vereiste velden in deze twee secties in. Sla het model op om het algoritme te starten. [!DNL Audience Manager] verzendt u een geautomatiseerd bericht nadat de eerste gegevenslooppas voltooit. Nadat u de e-mail hebt ontvangen, kunt u naar [Trait Builder](../../features/traits/about-trait-builder.md) gaan en algoritmische kenmerken maken.
 
@@ -33,20 +28,24 @@ Beschrijft de vereiste en facultatieve stappen die u een algoritmisch model binn
 >* Het geautomatiseerde e-mailbericht wordt slechts één keer verzonden (na de eerste gegevensuitvoering).
 
 
-### Het model samenstellen
+## Het model samenstellen
 
-Als u een model wilt maken, gaat u naar de [!UICONTROL Models] sectie en klikt u **[!UICONTROL Add New]** en volgt u de onderstaande stappen:
+Voer de onderstaande stappen uit om een [!UICONTROL Look-Alike Model]:
 
-1. In de sectie [Basisinformatie](../../features/algorithmic-models/create-model.md#basic-information)
+1. Ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klik **[!UICONTROL Add New]** in de [!UICONTROL Look-Alike Modeling] sectie.
+   ![look-alike-add](assets/look-alike-add.png)
+2. In de sectie [Basisinformatie](../../features/algorithmic-models/create-model.md#basic-information)
    * Geef het model een naam.
    * *(Optioneel)* Geef een korte beschrijving van het model.
    * Stel de status voor het model in op **[!UICONTROL Active]** of **[!UICONTROL Inactive]**. Inactieve modellen worden niet uitgevoerd en produceren geen gegevens.
-1. In de sectie [Configuratie](../../features/algorithmic-models/create-model.md#configuration) :
+      ![look-alike-basic](assets/look-alike-basic.png)
+3. In de sectie [Configuratie](../../features/algorithmic-models/create-model.md#configuration) :
    * Klik **[!UICONTROL Browse All Traits]** of **[!UICONTROL Browse All Segments]** om een eigenschap of segment te selecteren u tegen wilt modelleren. Selecteer een merkteken, een op regel gebaseerd kenmerk of een segment als basislijn. Anders worden de modellen niet uitgevoerd.
    * Kies een terugblik periode van 30, 60, of 90 dagen. Hiermee stelt u een tijdbereik in voor het model.
    * Het [!UICONTROL TraitWeight] algoritme is standaard geselecteerd.
    * Selecteer een gegevensbron in de [!UICONTROL Available Data] lijst.
    * Klik **[!UICONTROL Save]** wanneer gereed.
+      ![look-alike-configuration](assets/look-alike-configuration.png)
 
 ## Basisinformatie voor algoritmische modellen {#basic-information}
 
