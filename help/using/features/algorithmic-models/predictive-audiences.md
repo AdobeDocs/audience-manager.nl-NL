@@ -5,7 +5,7 @@ seo-title: Overzicht van voorspellende doelgroepen
 solution: Audience Manager
 title: Voorspelend publiek van Auditiebeheer
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 ---
 
@@ -97,7 +97,7 @@ Bij het evalueren van het publiek van de eerste partij en het toewijzen van scor
 ## Overwegingen en beperkingen {#considerations}
 
 >[!IMPORTANT]
-> Lees dit artikel zorgvuldig door voordat u verdergaat met de implementatiefase.
+> Lees deze sectie zorgvuldig door voordat u verdergaat met de implementatiefase.
 
 Houd bij het configureren van uw [!UICONTROL Predictive Audiences] modellen rekening met de volgende overwegingen en beperkingen:
 
