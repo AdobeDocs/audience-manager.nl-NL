@@ -5,12 +5,12 @@ seo-title: Algorithmic Models Trait Exclusion
 title: Algorithmic Models Trait Exclusion
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
 
 ---
 
 
-# Algoritmische modellen: Trait Exclusion {#algorithmic-models-trait-exclusion}
+# Kijk-als modellering: Trait Exclusion {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] biedt extra besturingselementen in uw modelleringsworkflow, zodat u de vereiste beveiligingsrails aan het model kunt toevoegen op basis van uw expertise op het domein en uw vereisten op het gebied van regelgeving. Gebruik de [!UICONTROL Exclusions] optie om te selecteren welke kenmerken moeten worden genegeerd wanneer het creëren van modellen van één of meerdere gegevensbronnen.
 
