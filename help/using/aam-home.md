@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Productdocumentatie van Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: d8c18b80aa2e22444a509af65bc81567d0902e51
 
 ---
 
@@ -156,7 +156,7 @@ Deze handleiding voor technische documentatie biedt zelfhulp voor Audience Manag
      <br> 
      <p> <b>Nieuwste functies</b> </p> <p> 
      Lees meer over de nieuwste functies van Audience Manager:</p>
-     <p><ul><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activiteitenverbruik rapporteren</a></li>
+     <p><ul><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Voorspelend publiek</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activiteitenverbruik rapporteren</a></li>
      <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhead</a></li>
      <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligente aanbevelingen voor Publiek Marketplace Data, aangedreven door Adobe Sensei</a></li>
      <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Verbeteringen voor regels voor samenvoegen van profielen</a></li></ul><p>
