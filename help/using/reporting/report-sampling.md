@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van het Manager van de Publiek
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 6dca5c8bc338a670050123a94808795705450c3a
 
 ---
 
@@ -51,3 +51,4 @@ De [!DNL Audience Manager] rapporten die bemonsterde gegevens gebruiken omvatten
 * [Overlap rapporten](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait en segment-to-segment).
 * [Adresseerbare gegevens van het publiek](../features/addressable-audiences.md) (klant- en segment-vlakke gegevens).
 * De [Totale metrische apparaten](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) voor een [!UICONTROL Profile Merge Rule].
+* [De Ontdekkingsreiziger](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) van gegevens gebruikt bemonsterde gegevens op het [!UICONTROL Search] lusje en om het even welk [!UICONTROL Saved Searches].
