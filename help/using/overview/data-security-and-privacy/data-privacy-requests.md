@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Gegevensprivacyverzoeken
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
+source-git-commit: 39e0224d97d1d27c2b1dcee8e3b0d2d21847551b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 1a7f207b593ea783e20a0398bb0d543628253049
 
 ## Overzicht {#overview}
 
-Dit document biedt een overzicht van het beheer van de privacy van individuele gegevens en verzoeken om te weigeren die u naar Audience Manager kunt verzenden via de gebruikersinterface [van de](https://gdprui.cloud.adobe.io/) privacydienst en de **[!DNL Privacy Service API]** website.
+Dit document biedt een overzicht van het beheer van de privacy van individuele gegevens en verzoeken om te weigeren die u naar Audience Manager kunt verzenden via de gebruikersinterface [van de](https://privacyui.cloud.adobe.io/) privacydienst en de **[!DNL Privacy Service API]** website.
 
 Met deze gereedschappen kunt u privacyverzoeken voor consumentengegevens verzenden die zijn ingediend in het kader van de GDPR en de CCPA.
 
@@ -24,7 +24,7 @@ Alvorens dit artikel te lezen, adviseren wij het gaan door de Verklarende woorde
 
 U kunt individuele verzoeken om tot consumentengegevens toegang te hebben en te schrappen van de Manager van het Publiek, op twee manieren voorleggen:
 
-* Via de gebruikersinterface van de [privacyservice](https://gdprui.cloud.adobe.io/). Zie de documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
+* Via de gebruikersinterface van de [privacyservice](https://privacyui.cloud.adobe.io/). Zie de documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Door de **[!DNL Privacy Service API]**. Zie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) de documentatie en de API-referentie [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
 Wanneer het verzenden van individuele verzoeken van de gegevensprivacy, kunt u om het even welke herkenningstekens van de Manager van de Audience (IDs) voorleggen, zoals die in de sectie van de Herkenningstekens **[van de Manager van de](data-privacy-ids.md)**Audience, samen met hun respectieve namespace IDs (gegevensbron IDs) worden beschreven.
@@ -33,9 +33,9 @@ De [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/
 
 ## Verzoeken om gegevenstoegang {#access-data}
 
-U kunt individuele verzoeken van de gegevenstoegang door de Dienst UI [van de](https://gdprui.cloud.adobe.io/) Privacy (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) of door [!DNL Privacy Service API] (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) en [!DNL API] verwijzing [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)te roepen) verzenden.
+U kunt individuele verzoeken van de gegevenstoegang door de Dienst UI [van de](https://privacyui.cloud.adobe.io/) Privacy (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) of door [!DNL Privacy Service API] (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) en [!DNL API] verwijzing [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)te roepen) verzenden.
 
-Met de gebruikersinterface [van de](https://gdprui.cloud.adobe.io/) privacyservice kunt u nieuwe taakaanvragen maken door het bestand te gebruiken [!UICONTROL Request Builder] [!DNL JSON] of te uploaden.
+Met de gebruikersinterface [van de](https://privacyui.cloud.adobe.io/) privacyservice kunt u nieuwe taakaanvragen maken door het bestand te gebruiken [!UICONTROL Request Builder] [!DNL JSON] of te uploaden.
 
 Als u wilt zien hoe een geldig [!DNL JSON] bestand eruitziet, kunt u een voorbeeld-JSON [](../data-security-and-privacy/assets/access_request.json)downloaden.
 
@@ -43,9 +43,9 @@ Wij begrijpen dat u zich ertoe verbindt uw verzoeken om privacy van gegevens bin
 
 ## Verzoeken om gegevens te verwijderen{#delete-data}
 
-U kunt verzoeken om gegevensverwijdering verzenden via de gebruikersinterface [van de](https://gdprui.cloud.adobe.io/) privacyservice ( [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)documentatie) of door de [!DNL Privacy Service API] (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) en API-referentie [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)aan te roepen).
+U kunt verzoeken om gegevensverwijdering verzenden via de gebruikersinterface [van de](https://privacyui.cloud.adobe.io/) privacyservice ( [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)documentatie) of door de [!DNL Privacy Service API] (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) en API-referentie [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)aan te roepen).
 
-Met de gebruikersinterface [van de](https://gdprui.cloud.adobe.io/) privacyservice kunt u nieuwe taakaanvragen maken door het bestand te gebruiken [!UICONTROL Request Builder] [!DNL JSON] of te uploaden.
+Met de gebruikersinterface [van de](https://privacyui.cloud.adobe.io/) privacyservice kunt u nieuwe taakaanvragen maken door het bestand te gebruiken [!UICONTROL Request Builder] [!DNL JSON] of te uploaden.
 
 Als u wilt zien hoe een geldig [!DNL JSON] bestand eruitziet, kunt u een voorbeeld-JSON [](../data-security-and-privacy/assets/access_request.json)downloaden.
 
@@ -72,7 +72,7 @@ Terwijl de verzoeken van de gegevenstoegang en van de schrapping door de Dienst 
 
 ### Algemene verzoeken om te weigeren
 
-De wereldwijde opt-out is een opt-out voor Audience Manager en andere Adobe Experience Cloud-oplossingen voor alle merken. In de onderstaande tabel worden de methoden weergegeven die worden gebruikt voor wereldwijde opt-out:
+De wereldwijde opt-out is een opt-out voor Audience Manager en andere Adobe Experience Cloud-oplossingen voor alle merken. De onderstaande tabel geeft een overzicht van de methoden die worden gebruikt voor wereldwijde opt-out:
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
