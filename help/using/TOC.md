@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Gebruikershandleiding voor Auditiebeheer
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
+source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
 
 ---
 
@@ -143,7 +143,7 @@ source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
       + [Verwijzing naar de kwalificatie van het spoor en het segment](features/traits/trait-and-segment-qualification-reference.md)
    + Treinen{#traits}
       + [Overzicht van sporen](/help/using/features/traits/traits-overview.md)
-      + [Detailpagina Trait](features/traits/trait-details-page.md)
+      + [Detailpagina van taak](features/traits/trait-details-page.md)
       + [Traits dashboard](features/traits/trait-dashboard.md)
       + [Actieve doelgroepen en gesynchroniseerde gegevensbronnen](features/traits/client-activity-synced-audience-traits.md)
       + [Maptraits: Info](features/traits/about-folder-traits.md)
@@ -202,7 +202,6 @@ source-git-commit: 5518531ce008e42eb3f0168a845464d9d4da3e44
       + [Dagelijks verslag over de variatie van het reisdoel](reporting/audience-optimization-reports/daily-trait-variation-report.md)
    + Interactieve en overlappende rapporten {#interactive-and-overlap-reports}
       + [Overzicht van interactieve en overlappende rapporten](reporting/dynamic-reports/dynamic-reports.md)
-      + [Leverings- en prestatierapport](reporting/dynamic-reports/delivery-performance-report.md)
       + [Rapport overlappingen trait-to-Trait](reporting/dynamic-reports/trait-trait-overlap-report.md)
       + [Overlap-rapport segment-naar-spoor](reporting/dynamic-reports/segment-trait-overlap-report.md)
       + [Overlap-rapport segment-naar-segment](reporting/dynamic-reports/segment-segment-overlap-report.md)
