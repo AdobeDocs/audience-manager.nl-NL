@@ -1,37 +1,26 @@
 ---
-description: Bouw en beheer de eigenschappen of de segmenten die in algoritmische modellering worden gebruikt, die ook als blik-alike modellering worden bedoeld. De modeleigenschappen worden gevestigd in de Gegevens van het Publiek > Modellen.
+description: Bouw en beheer de eigenschappen of de segmenten die in blik-gelijkaardige modellering worden gebruikt.
 keywords: relative weight, lookalike
-seo-description: Bouw en beheer de eigenschappen of de segmenten die in algoritmische modellering worden gebruikt, die ook als blik-alike modellering worden bedoeld. De modeleigenschappen worden gevestigd in de Gegevens van het Publiek > Modellen.
-seo-title: Algoritmische modellen
+seo-description: Bouw en beheer de eigenschappen of de segmenten die in blik-gelijkaardige modellering worden gebruikt.
+seo-title: Over look-Alike modellering
 solution: Audience Manager
-title: Algoritmische modellen
-topic: DIL API
+title: Over look-Alike modellering
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
 
 ---
 
 
-# Algoritmische modellen {#about-algorithmic-models}
+# Understanding Look-Alike modellering {#about-algorithmic-models}
 
-Bouw en beheer de eigenschappen of de segmenten die in algoritmische modellering worden gebruikt, die ook als blik-alike modellering worden bedoeld. Modelfuncties bevinden zich in **[!UICONTROL Audience Data > Models]**.
+## Nieuwe gebruikers zoeken met look-Alike modellering {#find-new-users}
 
-<!-- c_models.xml -->
-
-## Algorithmic Models {#understanding-models}
-
-De onderstaande secties geven een overzicht van algoritmische modellering in [!DNL Audience Manager]. Ze beschrijven hoe modellering werkt, de voordelen en de workflow.
-
-<!-- understanding-models.xml -->
-
-## Nieuwe gebruikers zoeken met Algorithmic Modeling {#find-new-users}
-
-Algorithmic modelling helpt u nieuwe, unieke doelgroepen te ontdekken via geautomatiseerde gegevensanalyse. Het proces begint wanneer u een eigenschap of een segment, een tijdinterval, en eerste en derde gegevensbronnen selecteert. Uw keuzen verstrekken de input voor het algoritmische model. Wanneer het analyseproces loopt, zoekt het naar in aanmerking komende gebruikers die op gedeelde kenmerken van de geselecteerde bevolking worden gebaseerd. Na voltooiing zijn deze gegevens beschikbaar in [Trait Builder](../../features/traits/about-trait-builder.md) , waar u deze kunt gebruiken om kenmerken te maken op basis van [nauwkeurigheid en bereik](../../features/traits/trait-accuracy-reach.md). Daarnaast kunt u segmenten maken die algoritmische kenmerken combineren met op regels gebaseerde kenmerken en andere kwalificatievereisten toevoegen met Booleaanse expressies en vergelijkingsoperatoren. Algorithmic modelling biedt u een dynamische manier om waarde te extraheren uit al uw beschikbare kenmerkgegevens.
+[!UICONTROL Look-Alike Modeling] helpt u nieuwe, unieke doelgroepen te ontdekken via geautomatiseerde gegevensanalyse. Het proces begint wanneer u een eigenschap of een segment, een tijdinterval, en eerste en derde gegevensbronnen selecteert. Uw keuzen verstrekken de input voor het algoritmische model. Wanneer het analyseproces loopt, zoekt het naar in aanmerking komende gebruikers die op gedeelde kenmerken van de geselecteerde bevolking worden gebaseerd. Na voltooiing zijn deze gegevens beschikbaar in [Trait Builder](../../features/traits/about-trait-builder.md) , waar u deze kunt gebruiken om kenmerken te maken op basis van [nauwkeurigheid en bereik](../../features/traits/trait-accuracy-reach.md). Daarnaast kunt u segmenten maken die algoritmische kenmerken combineren met op regels gebaseerde kenmerken en andere kwalificatievereisten toevoegen met Booleaanse expressies en vergelijkingsoperatoren. [!UICONTROL Look-Alike Modeling] biedt u een dynamische manier om waarde uit al uw beschikbare gegevens van het bezit te halen.
 
 ## Voordelen {#advantages}
 
-De belangrijkste voordelen van het gebruik van [!DNL Audience Manager] modellering zijn:
+De belangrijkste voordelen van het gebruik [!UICONTROL Look-Alike Modeling] zijn:
 
 * **Nauwkeurigheid van gegevens:** Het algoritme wordt regelmatig uitgevoerd, waardoor de resultaten actueel en relevant blijven.
 * **Automatisering:** U moet geen grote reeks statische regels beheren. Het algoritme zal publiek voor u vinden.
@@ -50,7 +39,7 @@ U beheert modellen in **[!UICONTROL Audience Data > Models]**. Op hoog niveau om
 
 ## Problemen oplossen {#troubleshooting}
 
-We deactiveren elk algoritmisch model dat er niet in slaagt gegevens te genereren voor drie opeenvolgende uitvoering. U kunt de status van het model niet instellen op actief achteraf. Om ervoor te zorgen dat uw modellen gegevens genereren, raden we u aan modellen te maken van gegevensbronnen met voldoende kenmerken om gegevens uit te verzamelen.
+Wij deactiveren om het even [!UICONTROL Look-Alike Model] die er niet in slaagt om gegevens voor drie opeenvolgende looppas te produceren. U kunt de status van het model niet instellen op actief achteraf. Om ervoor te zorgen dat uw modellen gegevens genereren, raden we u aan modellen te maken van gegevensbronnen met voldoende kenmerken om gegevens uit te verzamelen.
 
 ## TraitWeight begrijpen {#understanding-traitweight}
 
@@ -84,20 +73,20 @@ Audience Manager geeft de gewogen modelresultaten weer in [!UICONTROL Trait Buil
 
 ### Stap 6: De betekenis van een trein over verwerkingscycli opnieuw evalueren
 
-Periodiek [!UICONTROL TraitWeight] herevalueert het belang van een eigenschap op basis van de omvang en de verandering van de populatie van die eigenschap. Dit gebeurt wanneer het aantal gebruikers dat voor dat kenmerk in aanmerking komt, na verloop van tijd toeneemt of afneemt. Dit gedrag is het duidelijkst zichtbaar in kenmerken die erg groot worden. Stel dat het algoritme bijvoorbeeld kenmerk A gebruikt voor modellering. Naarmate de populatie van kenmerk A toeneemt, [!UICONTROL TraitWeight] herbeoordeelt u het belang van dat kenmerk en wijst u een lagere score toe of negeert u deze. In dit geval is eigenschap A te algemeen of te groot om iets belangrijks over zijn bevolking te zeggen. Nadat de waarde van Trait A is [!UICONTROL TraitWeight] verminderd (of in het model wordt genegeerd), neemt de populatie van de algoritmische eigenschap af. De lijst van invloedrijke kenmerken weerspiegelt de ontwikkeling van de basispopulatie. Gebruik de lijst van de invloedrijke eigenschappen om te begrijpen waarom deze veranderingen voorkomen.
+Periodiek [!UICONTROL TraitWeight] herevalueert het belang van een eigenschap op basis van de omvang en de verandering van de populatie van die eigenschap. Dit gebeurt wanneer het aantal gebruikers dat voor dat kenmerk in aanmerking komt, na verloop van tijd toeneemt of afneemt. Dit gedrag is het duidelijkst zichtbaar in eigenschappen die erg groot worden. Stel dat het algoritme bijvoorbeeld kenmerk A gebruikt voor modellering. Naarmate de populatie van kenmerk A toeneemt, [!UICONTROL TraitWeight] herbeoordeelt u het belang van dat kenmerk en wijst u een lagere score toe of negeert u deze. In dit geval is eigenschap A te algemeen of te groot om iets belangrijks over zijn bevolking te zeggen. Nadat de waarde van Trait A is [!UICONTROL TraitWeight] verminderd (of in het model wordt genegeerd), neemt de populatie van de algoritmische eigenschap af. De lijst van invloedrijke kenmerken weerspiegelt de ontwikkeling van de basispopulatie. Gebruik de lijst van de invloedrijke eigenschappen om te begrijpen waarom deze veranderingen voorkomen.
 
 Verwante koppelingen:
 
 * [Model Builder](../../features/algorithmic-models/create-model.md)
 * [Nauwkeurigheid en Bereik](../../features/traits/trait-accuracy-reach.md)
 
-## Plan voor Algorithmic Models and Traits bijwerken {#update-schedule}
+## Plan voor look-Alike modellen en Traits bijwerken {#update-schedule}
 
 Planning voor het maken en bijwerken van nieuwe of bestaande algoritmische modellen en kenmerken.
 
 <!-- c_model_update_schedule.xml -->
 
-### Algorithmic Model Creation and Update Schedule
+### Model maken en plannen bijwerken, vergelijkbaar met vormgeving
 
 <table id="table_E75A2B334A7F47ED9DFFBD6DF8636641"> 
  <thead>
@@ -109,11 +98,11 @@ Planning voor het maken en bijwerken van nieuwe of bestaande algoritmische model
  <tbody>
   <tr> 
    <td colname="col1"> <b>Een model maken of klonen</b> </td>
-   <td colname="col2"> <p>Voor nieuwe of gekloonde algoritmische modellen wordt het aanmaakproces eenmaal per dag uitgevoerd om: 
+   <td colname="col2"> <p>Voor nieuwe of gekloonde [!UICONTROL look-Alike Models], loopt het aanmaakproces eenmaal per dag bij: 
      <ul id="ul_97333AC409AF4760A91D90A06050122B"> 
       <li id="li_3A43809F924341FCAC3A85E3825E0F61"> 5 PM EST (november - maart) </li> 
       <li id="li_C07D22AB192D4E0191D9EBF6426EC73D"> 6 PM EDT (maart - november) </li> 
-     </ul> </p> <p>Modellen die na de aanmaakdeadline zijn gemaakt of gekloond, worden de volgende dag verwerkt. </p> <p>Als de eerste looppas van een model geen gegevens produceert zal het een tweede keer, de volgende dag in werking stellen. Als de tweede poging ook geen gegevens produceert, zal er een derde poging, de volgende dag zijn. Het model zal ophouden lopend als de derde poging ook geen gegevens produceert. In dit geval deactiveren we het model. Zie meer in het <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Oplossen van problemen Algorithmic Models</a>. </p> </td>
+     </ul> </p> <p>Modellen die na de aanmaakdeadline zijn gemaakt of gekloond, worden de volgende dag verwerkt. </p> <p>Als de eerste looppas van een model geen gegevens produceert zal het een tweede keer, de volgende dag in werking stellen. Als de tweede poging ook geen gegevens produceert, zal er een derde poging, de volgende dag zijn. Het model zal ophouden lopend als de derde poging ook geen gegevens produceert. In dit geval deactiveren we het model. Zie meer in het Oplossen van <a href="../../features/algorithmic-models/understanding-models.md#troubleshooting"> Problemen kijkt-naar Modellen</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <b>Een model bijwerken</b> </td> 
@@ -126,7 +115,7 @@ Planning voor het maken en bijwerken van nieuwe of bestaande algoritmische model
  </tbody>
 </table>
 
-### Algorithmic Trait Creation and Update Schedule
+### Plan voor het maken en bijwerken van trajecten
 
 <table id="table_92A908818C4F4F2287EA56C786CD0BBD"> 
  <thead> 
