@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trend Reports
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 18bb00d494d44d7028dcc51dcb2fc57b23420142
+source-git-commit: 760818663ff3eb32c6de876c756697e1d9034369
 
 ---
 
@@ -40,16 +40,12 @@ De volgende illustratie biedt een overzicht op hoog niveau van de belangrijkste 
 ![](assets/trend_reports.png)
 
 1. Configureer de volgende opties:
-
    **Rapporttype:** Selecteer het gewenste rapporttype (Trait of Segment).
-
    **Datumbereik:** Geef het datumbereik voor het rapport op (begindatum en einddatum).
-
    **Weergaveinterval:** Geef het weergaveinterval op (intervallen van 1, 7, 14, 30, 60 en 90 dagen).
-
-2. Zoek een kenmerk of segment op naam of id.
-3. Sleep vanuit de mappenlijst de kenmerken of segmenten die u aan de rechterkant wilt melden naar het [!UICONTROL Selections] deelvenster.
-4. Genereer het rapport dat u in grafische indeling wilt weergeven of exporteer het rapport naar de CSV-indeling.
+1. Zoek een kenmerk of segment op naam of id.
+1. Sleep vanuit de mappenlijst de kenmerken of segmenten die u aan de rechterkant wilt melden naar het [!UICONTROL Selections] deelvenster.
+1. Genereer het rapport dat u in grafische indeling wilt weergeven of exporteer het rapport naar de CSV-indeling.
 
 ## Een trendrapport uitvoeren {#run-trend-report}
 
@@ -67,11 +63,8 @@ t_working_with_trend_reports.xml
 1. Geef het weergaveinterval op: door 1, 7, 14, 30, 60 of 90 dagen.
 1. Zoek een kenmerk of segment op naam of id.
 1. Sleep vanuit de mappenlijst de kenmerken of segmenten die u aan de rechterkant wilt melden naar het [!UICONTROL Selections] deelvenster.
-
-   Voor beste prestaties, stel een [!UICONTROL Trend] rapport over minder dan 20 eigenschappen of segmenten tegelijkertijd in werking.
-1. Klik **[!UICONTROL Graph Traits]** of **[!UICONTROL Graph Segments]**, afhankelijk van welk type van rapport u bekijkt (Treinen of Segmenten).
-
-   Bij deze opties worden alle mappen en grafieken alleen genegeerd voor afzonderlijk geselecteerde kenmerken of segmenten.
+   * Voor beste prestaties, stel een [!UICONTROL Trend] rapport over minder dan 20 eigenschappen of segmenten tegelijkertijd in werking.
+1. Klik **[!UICONTROL Graph Traits]** of **[!UICONTROL Graph Segments]**, afhankelijk van welk type van rapport u bekijkt (Treinen of Segmenten). Bij deze opties worden alle mappen en grafieken alleen genegeerd voor afzonderlijk geselecteerde kenmerken of segmenten.
 
    of
 
@@ -81,10 +74,33 @@ t_working_with_trend_reports.xml
    >
    >[!UICONTROL Total Trait Realizations] worden [!UICONTROL Rule-based Traits] alleen berekend.
 
-1. (Optioneel) Plaats de muisaanwijzer op individuele kenmerken of segmenten om het aantal bezoeken en de datum voor elk gegevenspunt weer te geven.
+1. (Optioneel) Plaats de muisaanwijzer op individuele kenmerken of segmenten om het aantal bezoeken en de datum voor elk gegevenspunt weer te geven. U kunt op de kolomkoppen in de tabel klikken om de resultaten in oplopende of aflopende volgorde te sorteren.
 
-   U kunt op de kolomkoppen in de tabel klikken om de resultaten in oplopende of aflopende volgorde te sorteren.
+## Trend Report-resultaten voor sporen {#trend-report-results-traits}
 
-Voor [!UICONTROL Trended Trait] rapporten, wijzen nul erop dat [!DNL Audience Manager] geen gegevens voor die dag verzamelde. Lege vermeldingen geven aan dat de eigenschap niet bestond. In het volgende voorbeeld worden voorbeelden van beide typen items getoond:
+De onderstaande filters zijn beschikbaar wanneer u een rapport uitvoert [!UICONTROL Trend Report] en selecteert **[!UICONTROL Trait]** als rapporttype.
 
-![](assets/trended_data.png)
+Wanneer het filtreren van de resultaten door [!UICONTROL Device ID]:
+
+* [!UICONTROL Unique Trait Realizations] Dit is het aantal anonieme apparaatbezoekers dat de eigenschap binnen het geselecteerde tijdbereik aan hun profiel heeft toegevoegd.
+* [!UICONTROL Total Trait Realization] is het totale aantal gerealiseerde anonieme eigenschap binnen het geselecteerde tijdbereik.
+* [!UICONTROL Total Trait Population] Dit is het aantal anonieme apparaatbezoekers dat deze eigenschap in hun profiel heeft.
+
+Wanneer het filtreren van de resultaten door [!UICONTROL Cross-Device ID]:
+
+* [!UICONTROL Unique Trait Realizations] Dit is het aantal geverifieerde bezoekers dat de eigenschap heeft toegevoegd aan hun profiel, binnen het geselecteerde tijdbereik.
+* [!UICONTROL Total Trait Realization] is het totale aantal geverifieerde resultaten binnen het geselecteerde tijdbereik.
+* [!UICONTROL Total Trait Population] Dit is het aantal geverifieerde bezoekers dat deze eigenschap in hun profiel heeft.
+
+![trendrapport-eigenschappen](assets/trend-report-traits.png)
+
+Uit cijfers blijkt dat er voor die dag [!DNL Audience Manager] geen gegevens zijn verzameld. Lege vermeldingen geven aan dat de eigenschap niet bestond.
+
+## Trend Report Resultaten voor segmenten {#segment-report-results-traits}
+
+De onderstaande filters zijn beschikbaar wanneer u een rapport uitvoert [!UICONTROL Trend Report] en selecteert **[!UICONTROL Segments]** als rapporttype.
+
+* **[!UICONTROL Real-time Segment Population]**: het aantal bezoekers dat binnen het geselecteerde tijdbereik voor het segment in aanmerking kwam.
+* **[!UICONTROL Total Segment Population]**: het totale aantal bezoekers dat voor het segment in aanmerking komt.
+
+![trendverslagsegmenten](assets/trend-report-segments.png)
