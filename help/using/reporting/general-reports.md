@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Algemene rapporten
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -84,33 +84,51 @@ De getallen in het [!UICONTROL General Reports] bestand worden direct van ons ge
 
 ## Algemene rapporten Resultaten voor sporen {#general-report-results-traits}
 
-De hieronder metriek is beschikbaar wanneer u een Algemeen rapport in werking stelt en als rapporttype selecteert **[!UICONTROL Trait]** :
+De filters hieronder zijn beschikbaar wanneer u een Algemeen rapport in werking stelt en als rapporttype selecteert. **[!UICONTROL Trait]**
 
-**Unieke uitvoeringen**
+Wanneer het filtreren van de resultaten door [!UICONTROL Device ID]:
 
-Deze metrische waarde vertegenwoordigt het unieke aantal unieke gebruikers-id&#39;s (UUID) [](../reference/ids-in-aam.md) van Audience Manager dat in aanmerking kwam voor de eigenschap in het geselecteerde tijdbereik. Als een gebruiker bijvoorbeeld op 10/1 drie keer uw startpagina bezocht, ziet u één Unieke reisrealisatie.
+* [!UICONTROL Unique Trait Realizations] Dit is het aantal anonieme apparaatbezoekers dat de eigenschap binnen het geselecteerde tijdbereik aan hun profiel heeft toegevoegd.
+* [!UICONTROL Total Trait Realization] is het totale aantal anonieme eigenlijke realisaties binnen de geselecteerde tijdwaaier.
+* [!UICONTROL Total Trait Population] Dit is het aantal anonieme apparaatbezoekers dat deze eigenschap in hun profiel heeft.
 
-**Totale realisaties van sporen**
+![general-report-traits-device](assets/general-report-traits-deviceid.png)
 
-Deze metrische waarde geeft de totale hoeveelheid eigenschap aan die wordt geactiveerd voor de eigenschap in het geselecteerde tijdbereik. Als een gebruiker bijvoorbeeld uw homepage bezocht en vervolgens naar het technische nieuws en de secties over de sport navigeert, worden deze in het algemeen rapport weergegeven als drie volledige realisaties van de kenmerken en één unieke realisatie van de kenmerken.
+Wanneer het filtreren van de resultaten door [!UICONTROL Cross-Device ID]:
 
-**Totale populatie**
+* [!UICONTROL Unique Trait Realizations] Dit is het aantal geverifieerde bezoekers dat de eigenschap heeft toegevoegd aan hun profiel, binnen het geselecteerde tijdbereik.
+* [!UICONTROL Total Trait Realization] is het totale aantal geverifieerde resultaten binnen het geselecteerde tijdbereik.
+* [!UICONTROL Total Trait Population] Dit is het aantal geverifieerde bezoekers dat deze eigenschap in hun profiel heeft.
 
-Deze metrisch vertegenwoordigt de totale hoeveelheid UUIDs van de Manager van de Auditie die momenteel voor het bezit gekwalificeerd zijn. Gebruik dit nummer om te begrijpen hoeveel gebruikers u kunt gebruiken voor segmentatie en doelgerichtheid. Meestal blijven gebruikers gedurende [120 dagen](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)deel uitmaken van een eigenschap. Bijvoorbeeld, zou een gebruiker die uw homepage drie keer vandaag bezoekt en nooit daarna terugkeert, als gebruiker in deze bevolking elke dag tot 120 dagen van nu blijven. Op het teken van 120 dagen zouden ze uit de bevolking worden verwijderd. Lees onze [Verwijzing](../features/traits/trait-and-segment-qualification-reference.md) van de Kwalificatie van het Bezit en van het Segment voor meer voorbeelden op het verschil tussen de Unieke Redalisaties van het Bezit en de Totale Bevolking van het Verkeer.
+![algemeen-rapport-eigenschappen-dwars-apparaat](assets/general-report-traits-cross-device.png)
 
-In de onderstaande afbeelding ziet u de resultaten van het uitvoeren van een algemeen rapport voor het rapporttype Trait.
+<!-- 
+### Unique Trait Realizations
 
-![](assets/general_reports_metrics.png)
+This metric represents the unique number of [Audience Manager Unique User IDs (UUID)](../reference/ids-in-aam.md) that qualified for the trait in your selected time range. For example, if a user visited your homepage three times on 10/1, you would see one Unique Trait Realization.
+
+### Total Trait Realizations
+
+This metric represents the total amount of trait fires for the trait in your selected time range. For example, if a user visited your homepage, then navigated to your tech news and your sports news sections, they would appear in the General Report as three total trait realizations, and one unique trait realization.
+
+### Total Trait Population
+
+This metric represents the total amount of Audience Manager UUIDs that are currently qualified for the trait. Use this number to understand the total amount of users you could use for segmentation and targeting. Typically, users remain part of a trait for [120 days](../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval). For example, a user visiting your homepage three times today and never returning afterwards, would remain as a user in this population every day until 120 days from now. At the 120 day mark, they would be removed from the population. Read our [Trait and Segment Qualification Reference](../features/traits/trait-and-segment-qualification-reference.md) for more examples on the difference between Unique Trait Realizations and Total Trait Population.
+
+The illustration below shows the results of running a general report for the Trait report type. -->
+<!-- 
+![](assets/general_reports_metrics.png) -->
+
 
 ## Algemene rapporten Resultaten voor segmenten {#general-report-results-segments}
 
 De hieronder metriek is beschikbaar wanneer u een Algemeen rapport in werking stelt en als rapporttype selecteert **[!UICONTROL Segment]** :
 
-**Realtime segmentpopulatie**
+### Realtime segmentpopulatie
 
 Deze metrisch vertegenwoordigt het daadwerkelijke aantal unieke bezoekers die in real time voor de gespecificeerde tijdwaaier worden gezien en die voor het segment op het ogenblik werden gekwalificeerd zij gezien door de Manager van het Publiek.
 
-**Totale segmentpopulatie**
+### Totale segmentpopulatie
 
 Deze metrisch vertegenwoordigt het totale aantal UUIDs van de Manager van de Auditie die voor het segment binnen de terugblik-backperiode gekwalificeerd zijn u selecteerde. Uw 1 dag Totale Bevolking van het Segment vertegenwoordigt uw nauwkeurigste gebruikersbasis voor het richten.
 
