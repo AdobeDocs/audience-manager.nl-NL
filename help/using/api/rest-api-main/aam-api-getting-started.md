@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aan de slag met REST API's
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: d086b0cacd93f126ae7b362f4a2632bdccfcb1c2
 
 ---
 
@@ -34,7 +34,22 @@ Let op het volgende wanneer u werkt met API [-code van](https://bank.demdex.com/
 
 * **Documentatie en codevoorbeelden:** Tekst *cursief* staat voor een variabele die u opgeeft of doorgeeft bij het maken of ontvangen van [!DNL API] gegevens. Vervang *cursieve* tekst door uw eigen code, parameters of andere vereiste informatie.
 
-## Aanbevelingen: Een generieke API-gebruiker maken {#requirements}
+## JWT-verificatie (serviceaccount) {#jwt}
+
+Als u een beveiligde service-to-service Adobe I/O API-sessie wilt instellen, moet u een JSON Web Token (JWT) maken die de identiteit van uw integratie inkapselt en deze vervolgens voor een toegangstoken uitwisselen. Elke aanvraag voor een Adobe-service moet het toegangstoken bevatten in de machtigingheader, samen met de API-sleutel (client-id) die is gegenereerd toen u de integratie [van](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) serviceaccounts hebt gemaakt in de [Adobe I/O-console](https://console.adobe.io/).
+
+Zie [JWT (de Authentificatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) van de Rekening van de Dienst) voor gedetailleerde instructies op hoe te om uw authentificatie te vormen.
+
+## OAuth-verificatie (afgekeurd) {#oauth}
+
+>[!WARNING]
+> De symbolische authentificatie en de vernieuwing van de Manager van de Audience [!UICONTROL REST API] via [!DNL OAuth 2.0] is nu verouderd.
+>
+> Gebruik in plaats hiervan [JWT-verificatie](#jwt-service-account-authentication-jwt) (serviceaccount).
+
+De Manager van de Publiek [!UICONTROL REST API] volgt [!DNL OAuth 2.0] normen voor symbolische authentificatie en vernieuwing. In de onderstaande secties wordt beschreven hoe u de [!DNL API]s kunt verifiëren en waarmee u kunt gaan werken.
+
+## Een generieke API-gebruiker maken {#requirements}
 
 Wij adviseren u een afzonderlijke, technische gebruikersrekening voor het werken met de Manager [!DNL API]van de Publiek tot stand brengen. Dit is een generieke account die niet is gekoppeld aan of gekoppeld aan een specifieke gebruiker in uw organisatie. Met dit type [!DNL API] gebruikersaccount kunt u twee dingen doen:
 
@@ -44,10 +59,6 @@ Wij adviseren u een afzonderlijke, technische gebruikersrekening voor het werken
 Als voorbeeld of gebruiksgeval voor dit type van rekening, laten wij zeggen u veel segmenten in één keer met de Hulpmiddelen [van het Beheer van het](../../reference/bulk-management-tools/bulk-management-intro.md)Bulk wilt veranderen. Je gebruikersaccount heeft hiervoor [!DNL API] toegang nodig. In plaats van toestemmingen aan een specifieke gebruiker toe te voegen, creeer een niet-specifieke, [!DNL API] gebruikersrekening die de aangewezen geloofsbrieven, de sleutel, en het geheim heeft om [!DNL API] vraag te maken. Dit is ook nuttig als u uw eigen toepassingen ontwikkelt die de Manager [!DNL API]van de Publiek gebruiken.
 
 Werk samen met uw consultant voor Audience Manager om een algemene gebruikersaccount in te stellen die [!DNL API]alleen beschikbaar is.
-
-## OAuth-verificatie {#oauth}
-
-De Manager van de Publiek [!UICONTROL REST API] volgt [!DNL OAuth 2.0] normen voor symbolische authentificatie en vernieuwing. In de onderstaande secties wordt beschreven hoe u de [!DNL API]s kunt verifiëren en waarmee u kunt gaan werken.
 
 ## Workflow voor wachtwoordverificatie {#password-authentication-workflow}
 
@@ -108,6 +119,7 @@ In de volgende stappen wordt een overzicht gegeven van de workflow voor het gebr
 Geef een aanvraag voor een vernieuwingstoken door aan de gewenste [!DNL JSON] client. Wanneer u het verzoek bouwt:
 
 * Gebruik een `POST` methode om aan te roepen `https://api.demdex.com/oauth/token`.
+* Aanvraagkoppen: wanneer u [Adobe I/O](https://www.adobe.io/) -tokens gebruikt, moet u de `x-api-key` koptekst opgeven. U kunt uw API-sleutel ophalen door de instructies op de pagina [Servicerekenintegratie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) op te volgen.
 * Zet uw cliënt ID en geheim in een basis-64 gecodeerde koord om. Scheid de id en het geheim tijdens het conversieproces met een dubbele punt. De referenties worden bijvoorbeeld `testId : testSecret` omgezet in `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Geef de HTTP-headers `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded`. De koptekst kan er bijvoorbeeld als volgt uitzien: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * In het verzoeklichaam, specificeer `grant_type:refresh_token` en ga in vernieuwt teken over u in uw vorig toegangsverzoek ontving. Het verzoek moet er als volgt uitzien: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
@@ -157,7 +169,7 @@ U kunt deze optionele parameters gebruiken met [!DNL API] methoden die *alle* ei
 | Aflopend | Sorteert en retourneert resultaten in aflopende volgorde. Oplopend is standaard. |
 | zoeken | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Stel dat u resultaten wilt zoeken voor alle modellen die het woord &quot;Testen&quot; hebben in een van de waardevelden voor dat item. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://api.demdex.com/v1/models/?search=Test`.  U kunt zoeken op elke waarde die door de methode &quot;get all&quot; wordt geretourneerd. |
 | folderId | Retourneert alle id&#39;s voor kenmerken in de opgegeven map. Niet beschikbaar voor alle methoden. |
-| machtigingen | Retourneert een lijst met segmenten op basis van de opgegeven machtiging.  LEZEN is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u het bestand door `"permissions":"READ"`, `"permissions":"WRITE"` . |
+| machtigingen | Retourneert een lijst met segmenten op basis van de opgegeven machtiging.  LEZEN is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u deze door `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Boolean) Ingesteld op true om uw machtigingen voor het segment te retourneren. De standaardwaarde is false. |
 
 ### Een opmerking over paginaopties
