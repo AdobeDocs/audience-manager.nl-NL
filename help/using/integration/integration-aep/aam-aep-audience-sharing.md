@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Publiek delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
+source-git-commit: f191035a1ad4b83bb3d391de80e1f925d6295df7
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ## Overzicht {#overview}
 
-Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u de eigenschappen en segmenten van Audience Manager delen met het Adobe Experience Platform en vice versa. U hebt de [Audience Manager-aansluiting](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html) nodig om publiek delen tussen Audience Manager en Adobe Experience Platform mogelijk te maken.
+Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u de eigenschappen en segmenten van Audience Manager delen met het Adobe Experience Platform en vice versa. U hebt de [Audience Manager-aansluiting](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) nodig om publiek delen tussen Audience Manager en Adobe Experience Platform mogelijk te maken.
 
 U kunt de eigenschappen en de segmenten van de Manager van de Publiek in het Platform van de Ervaring gebruiken om de gegevens van de Manager van de Publiek aan uw klantenprofielen toe te voegen en van de [segmenteringsdienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)van het Platform van de Ervaring te profiteren.
 
@@ -46,7 +46,7 @@ Uw sporen en de segmenten van de Manager van de Publiek verschijnen in het Platf
 
 * [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 * [Gebruikershandleiding voor de functie Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
-* [Aansluiting Auditiebeheer](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
+* [Aansluiting Auditiebeheer](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 <br> 
 
@@ -91,7 +91,23 @@ Een voorbeeld van een segment dat automatisch van een segment van het Platform v
 
 | Objectnummer | Naam | Beschrijving |
 ---------|----------|---------
-| 1 | Integratiecode | De integratiecode beantwoordt aan segmentidentiteitskaart in het Platform van de Ervaring. |
-| 2 | Gegevensbron | Automatisch gemaakt. Alle kenmerken en segmenten die automatisch worden gemaakt op basis van de segmenten Experience Platform, worden opgeslagen in de gegevensbron **Adobe Experience Platform Audience Sharing**. |
-| 3 | Regel voor samenvoegen van profiel | **Het externe Beleid** van de Fusie wijst erop dat de automatisch gecreeerde segmenten de opstelling van het fusiebeleid in het Platform van de Ervaring volgen. |
-| 4 | Segmentregel | Het segment bestaat uit de eigenschap die in de sectie [](#aep-segments-as-aam-traits)Traits wordt beschreven. |
+| 1 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in het Platform van de Ervaring. |
+| 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Platform van de Ervaring worden gecreeerd worden opgeslagen in de gegevensbron **[!DNL Adobe Experience Platform Audience Sharing]**. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de samenvoegbeleidsinstelling volgen die is ingesteld in Experience Platform. |
+| 4 | [!UICONTROL Segment Rule] | Het segment bestaat uit de eigenschap die in de sectie [](#aep-segments-as-aam-traits)Traits wordt beschreven. |
+
+## Begrijp de verschillen van de segmentbevolking tussen de Manager van de Publiek en het Platform van de Ervaring
+
+De aantallen van de bevolking van het segment kunnen tussen uw Manager van de Publiek en de segmenten van het Platform van de Ervaring variëren. Hoewel segmentnummers voor vergelijkbare of identieke doelgroepen dicht bij elkaar moeten liggen, kunnen verschillen in populaties het gevolg zijn van:
+
+* Segmentatietaken worden uitgevoerd. De Manager van de publiek stelt een segmentatietaak in werking die de aantallen in de interface eens per dag bijwerkt. Deze baan richt zich zelden op de segmentatietaken in het Platform van de Ervaring.
+* [De Regels](/help/using/features/profile-merge-rules/merge-rules-overview.md) van de Fusie van het profiel in de Manager van de Auditie en het Beleid [van de](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) Fusie in het Platform van de Ervaring werken verschillend, en de identiteitsgrafiek die voor elke wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
+
+
+>[!MORELIKETHIS]
+>
+>* [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
+>* [Gebruikershandleiding voor de functie Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
+>* [Aansluiting Auditiebeheer](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
+
