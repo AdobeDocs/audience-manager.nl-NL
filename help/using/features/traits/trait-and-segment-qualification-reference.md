@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Verwijzing naar beroepskwalificatie
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
 translation-type: tm+mt
-source-git-commit: 46d1770d50284e0e73bc2c43f5e5ccca22c12574
+source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
 
 ---
 
@@ -71,3 +71,4 @@ Om het punt naar huis te rijden, als je op dit moment een piek van 10.000 bezoek
 ## Grenswaarde voor beroepskwalificatie {#trait-qualification-limit}
 
 Voor elk gebruikersprofiel geldt een limiet van 150.000 vakkwalificaties, of het nu gaat om een geverifieerd profiel ([DPUUID](../../reference/ids-in-aam.md)) of een apparaat-id ([UUID](../../reference/ids-in-aam.md)). Merk op dat hoewel DPUUIDs voor een specifiek geval van [!DNL Audience Manager], UUIDs uniek zijn over het [!DNL Audience Manager] platform wordt gedeeld. Voor [!UICONTROL UUID]ons leggen we een billijkheidsbeleid op bij het opslaan van beroepskwalificaties. Een algoritme zorgt ervoor dat een gelijk aandeel van het [!UICONTROL UUID] profiel voor elke instantie van beschikbaar wordt gemaakt [!DNL Audience Manager].
+
