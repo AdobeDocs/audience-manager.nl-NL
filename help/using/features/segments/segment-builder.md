@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: f162d62fff490aaabfec0ddbb31801fcae482e3b
+source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
 
 ---
 
@@ -27,24 +27,29 @@ Begin door de [Create Segments in de video](https://images-tv.adobe.com/avp/vr/b
 
 [!UICONTROL Segment Builder] bestaat uit drie afzonderlijke delen: [!UICONTROL Basic Information], [!UICONTROL Traits], en [!UICONTROL Destinations Mapping]. Als u een segment wilt maken, vult u de vereiste velden in de [!UICONTROL Basic Information] secties en [!UICONTROL Traits] secties in. [!UICONTROL Destinations Mapping] instellingen zijn optioneel. Raadpleeg de onderstaande instructies voor meer hulp.
 
-![create-segment](assets/create-segment.png)
-
 1. In het gedeelte [Basisinformatie](../../features/segments/segment-builder.md#segment-builder-controls-basics) :
+
+   ![create-segment](assets/create-segment.png)
+
    * Geef het segment een naam. De maximumlengte van een segmentnaam is 255 tekens.
    * Stel de segmentstatus in (actief is standaard).
    * Kies een gegevensbron. Gebruik het eerste vervolgkeuzemenu om te filteren tussen de gegevensbronnen van Audience Manager, Adobe Analytics-rapportreeksen of beide. Kies vervolgens de gegevensbron in het tweede keuzemenu. Als u geen Adobe Analytics-rapportreeksen gebruikt, is de gegevensbrontypekiezer uitgeschakeld en standaard alleen ingesteld op Audience Manager-gegevensbronnen.
    * Selecteer een regel voor het samenvoegen van profielen die u wilt gebruiken voor segmentkwalificatie.
    * Wijs het segment toe aan een opslagmap.
-2. In de sectie [Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+
+1. In de sectie [Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits) :
+   ![segment-builder-kenmerken](assets/segment-builder-traits.png)
    * Zoek de eigenschap u aan een segment wilt toevoegen en klik **[!UICONTROL Add Trait]**. Voeg een andere eigenschap toe om een groep eigenschappen te maken.
-   * Open de modus Geavanceerd zoeken door op **[!UICONTROL Browse All Traits]** te klikken. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt ook kenmerken filteren op basis van het type eigenschap.
+   * Open de modus Geavanceerd zoeken door op **[!UICONTROL Browse All Traits]** te klikken. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt ook kenmerken filteren op type ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]en [!UICONTROL Algorithmic]) of type populatie ([apparaat-id](../../reference/ids-in-aam.md) en [apparaat-id](../../reference/ids-in-aam.md)).
+      ![segment-bouwer-browser-eigenschappen](assets/segment-builder-browse-traits.png)
    * Krijg levende [trekkenaanbevelingen](trait-recommendations.md) aangezien u uw segment bouwt.
    * Klik en sleep kenmerken om aparte groepen te maken.
    * Houd de muisaanwijzer tussen groepen om relaties in te stellen met Booleaanse [!UICONTROL AND], [!UICONTROL OR][!UICONTROL AND NOT] waarden.
    * Houd de muisaanwijzer boven het klokpictogram om de [recenentie- en frequentieregels](../../features/segments/recency-and-frequency.md) toe te voegen aan het kenmerk.
    * De gegevens van de segmentpopulatie bekijken aangezien u eigenschappen toevoegt of verwijdert. Klik **[!UICONTROL Calculate Estimates]** om de geschatte bevolkingsaantallen te zien (of te verfrissen). Lees meer over de gegevens [van de](../../features/segments/segment-builder-data.md#segment-populations) segmentpopulatie in de Bouwer van het Segment.
    * Klik **[!UICONTROL Save]** wanneer gereed.
-3. *(Optioneel)* Wijs een segment toe aan een doel in de sectie [Toewijzing](../../features/segments/segment-builder.md#segment-builder-controls-destinations) bestemming:
+
+1. *(Optioneel)* Wijs een segment toe aan een doel in de sectie [Toewijzing](../../features/segments/segment-builder.md#segment-builder-controls-destinations) bestemming:
    * Zoek naar de bestemming en klik **[!UICONTROL Add Destination]**. Nota, moet de bestemming reeds bestaan alvorens u het aan een segment kunt toevoegen.
    * Klik **[!UICONTROL Save]** wanneer gereed.
 
