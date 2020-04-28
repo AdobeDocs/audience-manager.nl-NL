@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Een algoritmisemodel maken
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
 
 ---
 
@@ -34,13 +34,14 @@ Voer de onderstaande stappen uit om een [!UICONTROL Look-Alike Model]:
 
 1. Ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klik **[!UICONTROL Add New]** in de [!UICONTROL Look-Alike Modeling] sectie.
    ![look-alike-add](assets/look-alike-add.png)
-2. In de sectie [Basisinformatie](../../features/algorithmic-models/create-model.md#basic-information)
+1. In de sectie [Basisinformatie](../../features/algorithmic-models/create-model.md#basic-information)
    * Geef het model een naam.
    * *(Optioneel)* Geef een korte beschrijving van het model.
    * Stel de status voor het model in op **[!UICONTROL Active]** of **[!UICONTROL Inactive]**. Inactieve modellen worden niet uitgevoerd en produceren geen gegevens.
       ![look-alike-basic](assets/look-alike-basic.png)
-3. In de sectie [Configuratie](../../features/algorithmic-models/create-model.md#configuration) :
-   * Klik **[!UICONTROL Browse All Traits]** of **[!UICONTROL Browse All Segments]** om een eigenschap of segment te selecteren u tegen wilt modelleren. Selecteer een merkteken, een op regel gebaseerd kenmerk of een segment als basislijn. Anders worden de modellen niet uitgevoerd.
+1. In de sectie [Configuratie](../../features/algorithmic-models/create-model.md#configuration) :
+   * Klik **[!UICONTROL Browse All Traits]** of **[!UICONTROL Browse All Segments]** om een eigenschap of segment te selecteren u tegen wilt modelleren. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt ook kenmerken filteren op type ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded]en [!UICONTROL Algorithmic]) of type populatie ([apparaat-id](../../reference/ids-in-aam.md) en [apparaat-id](../../reference/ids-in-aam.md)).
+      ![browsereigenschappen](assets/browse-traits.png)
    * Kies een terugblik periode van 30, 60, of 90 dagen. Hiermee stelt u een tijdbereik in voor het model.
    * Het [!UICONTROL TraitWeight] algoritme is standaard geselecteerd.
    * Selecteer een gegevensbron in de [!UICONTROL Available Data] lijst.
