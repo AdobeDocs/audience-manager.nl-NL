@@ -5,7 +5,7 @@ seo-title: Algorithmic Models Trait Exclusion
 title: Algorithmic Models Trait Exclusion
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: 4d10aaac5779f283aa675eef10cf13392837157f
+source-git-commit: ee291fd9a06261afb71cc393fff0f4a1ee5cf7f4
 
 ---
 
@@ -35,8 +35,10 @@ Met de workflow [Een model](../../features/algorithmic-models/create-model.md#bu
 1. De [!UICONTROL Exclusions] selectie wordt grijs weergegeven totdat u een of meer gegevensbronnen selecteert voor modellering.
 2. Druk op **[!UICONTROL Browse All Traits]** nadat u een of meer gegevensbronnen voor modellering hebt geselecteerd.
 3. In het **[!UICONTROL Select Traits to Exclude]** venster ziet u alle kenmerken die zijn gekoppeld aan de gegevensbronnen die u eerder hebt geselecteerd. Selecteer de kenmerken die u wilt uitsluiten.
-4. U kunt de kenmerken filteren op type kenmerk of door de traitmappen bladeren. Merk op dat de reisomslagen slechts de eigenschappen tonen verbonden aan uw geselecteerde gegevensbronnen.
+4. U kunt de kenmerken filteren op het type kenmerk, het type doelpopulatie of u kunt door de mappen met kenmerken bladeren. Merk op dat de reisomslagen slechts de eigenschappen tonen verbonden aan uw geselecteerde gegevensbronnen.
 5. Druk op **[!UICONTROL Exclude Selected Traits]**.
+
+![traditionele uitsluitingen](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
