@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Publiek delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 translation-type: tm+mt
-source-git-commit: 100767fe1d8baaa49fb6e83fdae23144ce9748a7
+source-git-commit: af43becaf841909174fad097f4d4d5040c279b47
 
 ---
 
@@ -71,11 +71,11 @@ Een voorbeeld van een eigenschap die automatisch van een segment van het Platfor
 
 | Objectnummer | Naam | Beschrijving |
 ---------|----------|---------
-| 1 | [!UICONTROL Trait Type] | De treits die van de segmenten van het Platform van de Ervaring worden gecreeerd worden gecreeerd als ongeboete eigenschappen in de Manager van de Publiek. |
-| 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Platform van de Ervaring worden gecreeerd worden opgeslagen in de gegevensbron **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in het Platform van de Ervaring. |
-| 4 | [!UICONTROL Trait Expression] | De expressie trait is `segID = segment ID in Experience Platform`. |
-| 5 | [!UICONTROL Segments with this Trait] | Een automatisch gecreeerd segment dat dit bezit als zijn samenstelling gebruikt. |
+| 1 | Type overtrek | De treits die van de segmenten van het Platform van de Ervaring worden gecreeerd worden gecreeerd als ongeboete eigenschappen in de Manager van de Publiek. |
+| 2 | Gegevensbron | Automatisch gemaakt. Alle kenmerken en segmenten die automatisch worden gemaakt op basis van de segmenten Experience Platform, worden opgeslagen in de gegevensbron **Adobe Experience Platform Audience Sharing**. |
+| 3 | Integratiecode | De integratiecode beantwoordt aan segmentidentiteitskaart in het Platform van de Ervaring. |
+| 4 | Trainingsexpressie | De expressie trait is `segID = segment ID in Experience Platform`. |
+| 5 | Segmenten met dit spoor | Een automatisch gecreeerd segment dat dit bezit als zijn samenstelling gebruikt. |
 
 <br> 
 
@@ -91,21 +91,7 @@ Een voorbeeld van een segment dat automatisch van een segment van het Platform v
 
 | Objectnummer | Naam | Beschrijving |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in het Platform van de Ervaring. |
-| 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Platform van de Ervaring worden gecreeerd worden opgeslagen in de gegevensbron **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de samenvoegbeleidsinstelling volgen die is ingesteld in Experience Platform. |
-| 4 | [!UICONTROL Segment Rule] | Het segment bestaat uit de eigenschap die in de sectie [](#aep-segments-as-aam-traits)Traits wordt beschreven. |
-
-## Begrijp de verschillen van de segmentbevolking tussen de Manager van de Publiek en het Platform van de Ervaring
-
-De aantallen van de bevolking van het segment kunnen tussen uw Manager van de Publiek en de segmenten van het Platform van de Ervaring variëren. Hoewel de segmentaantallen altijd redelijk dicht zullen zijn, kunnen kleine verschillen in populaties worden veroorzaakt door:
-
-* Segmentatietaken worden uitgevoerd. De Manager van de publiek stelt een segmentatietaak in werking die de aantallen in de interface eens per dag bijwerkt. Deze baan richt zich zelden op de segmentatietaken in het Platform van de Ervaring.
-* [De Regels](/help/using/features/profile-merge-rules/merge-rules-overview.md) van de Fusie van het profiel in de Manager van de Auditie en het Beleid [van de](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) Fusie in het Platform van de Ervaring werken verschillend, en de identiteitsgrafiek die voor elke wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
-
-
->[!MORELIKETHIS]
->
->* [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
->* [Gebruikershandleiding voor de functie Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
->* [Aansluiting Auditiebeheer](https://docs.adobe.com/content/help/en/experience-platform/source-connectors/adobe-applications/audience-manager.html)
+| 1 | Integratiecode | De integratiecode beantwoordt aan segmentidentiteitskaart in het Platform van de Ervaring. |
+| 2 | Gegevensbron | Automatisch gemaakt. Alle kenmerken en segmenten die automatisch worden gemaakt op basis van de segmenten Experience Platform, worden opgeslagen in de gegevensbron **Adobe Experience Platform Audience Sharing**. |
+| 3 | Regel voor samenvoegen van profiel | **Het externe Beleid** van de Fusie wijst erop dat de automatisch gecreeerde segmenten de opstelling van het fusiebeleid in het Platform van de Ervaring volgen. |
+| 4 | Segmentregel | Het segment bestaat uit de eigenschap die in de sectie [](#aep-segments-as-aam-traits)Traits wordt beschreven. |
