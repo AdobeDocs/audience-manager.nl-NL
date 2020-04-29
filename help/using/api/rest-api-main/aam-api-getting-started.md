@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aan de slag met REST API's
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
+source-git-commit: 1bbfa4b537a344d58f20763bb40ebe0827ad8698
 
 ---
 
@@ -242,10 +242,11 @@ De [!DNL Audience Manager] [!DNL API]programma&#39;s bieden toegang tot verschil
 
 Afhankelijk van de verificatiemethode die u gebruikt, moet u de omgeving-URL&#39;s aanpassen aan de hand van de onderstaande tabel.
 
-| Omgeving | Hostnaam voor OAuth-verificatie | Hostnaam voor JWT-verificatie |
+| Omgeving | Hostnaam voor JWT-verificatie | Hostnaam voor OAuth-verificatie |
 |---|---|---|
-| **Productie** | `https://api.demdex.com/...` | `https://aam.adobe.io/...` |
-| **Beta** | `https://api-beta.demdex.com/...` | `https://aam-beta.adobe.io/...` |
+| **Productie** | `https://aam.adobe.io/...` | `https://api.demdex.com/...` |
+| **Beta** | `https://aam-beta.adobe.io/...` | `https://api-beta.demdex.com/...` |
+
 
 >[!NOTE]
 >
