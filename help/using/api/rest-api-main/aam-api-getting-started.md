@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aan de slag met REST API's
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 184f9c298f776977c375e4c7a918c5a131c4bcd1
+source-git-commit: f4247b9b80e575f7450a78254acda9af9c230b3a
 
 ---
 
@@ -26,6 +26,7 @@ Wat u moet en moet doen wanneer u met de Manager [!DNL API]van de Publiek werkt.
 Let op het volgende wanneer u werkt met API [-code van](https://bank.demdex.com/portal/swagger/index.html#/) Audience Manager:
 
 * **Parameters aanvragen:** Alle verzoekparameters worden vereist tenzij anders gespecificeerd.
+* **Aanvraagkopteksten**: wanneer u [Adobe I/O](https://www.adobe.io/) -tokens gebruikt, moet u de `x-api-key` koptekst opgeven. U kunt uw API-sleutel ophalen door de instructies op de pagina [Servicerekenintegratie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) op te volgen.
 * **[!DNL JSON]inhoudstype:**Geef de code op`content-type: application/json`en geef **`accept: application/json`deze op.
 
 * **Verzoeken en antwoorden:** Verstuur aanvragen als een correct opgemaakt [!DNL JSON] object. [!DNL Audience Manager] reageert met [!DNL JSON] opgemaakte gegevens. Serverreacties kunnen gevraagde gegevens, een statuscode of beide bevatten.
@@ -38,8 +39,8 @@ Let op het volgende wanneer u werkt met API [-code van](https://bank.demdex.com/
 
 De API&#39;s van de Audience Manager REST ondersteunen twee verificatiemethoden.
 
-* [JWT-verificatie](#jwt) (Service Account) is de aanbevolen verificatiemethode.
-* [OAuth-verificatie (afgekeurd)](#oauth). Klanten met bestaande OAuth-integratie kunnen deze methode blijven gebruiken.
+* [JWT-verificatie (serviceaccount)](#jwt). Dit is de geadviseerde authentificatiemethode.
+* [OAuth-verificatie (afgekeurd)](#oauth). Terwijl deze methode verouderd is, kunnen de klanten met bestaande integratie OAuth blijven gebruiken deze methode.
 
 >[!IMPORTANT]
 >
@@ -130,7 +131,6 @@ In de volgende stappen wordt een overzicht gegeven van de workflow voor het gebr
 Geef een aanvraag voor een vernieuwingstoken door aan de gewenste [!DNL JSON] client. Wanneer u het verzoek bouwt:
 
 * Gebruik een `POST` methode om aan te roepen `https://api.demdex.com/oauth/token`.
-<!-- * Request headers: when using [Adobe I/O](https://www.adobe.io/) tokens, you must provide the `x-api-key` header. You can get your API key by following the instructions in the [Service Account Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) page. -->
 * Zet uw cliënt ID en geheim in een basis-64 gecodeerde koord om. Scheid de id en het geheim tijdens het conversieproces met een dubbele punt. De referenties worden bijvoorbeeld `testId : testSecret` omgezet in `dGVzdElkOnRlc3RTZWNyZXQ=`.
 * Geef de HTTP-headers `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded`. De koptekst kan er bijvoorbeeld als volgt uitzien: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
 * In het verzoeklichaam, specificeer `grant_type:refresh_token` en ga in vernieuwt teken over u in uw vorig toegangsverzoek ontving. Het verzoek moet er als volgt uitzien: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
