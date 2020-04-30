@@ -7,7 +7,7 @@ title: Ondersteunde kenmerken voor DCS API-aanroepen
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -77,7 +77,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]websi
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> configuratie. Zie <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_coppa.html" format="https" scope="external"> Ondersteuning voor COPPA in de Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> configuratie. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Ondersteuning voor COPPA in de Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -119,7 +119,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]websi
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die wordt ingesteld en gebruikt door de <span class="keyword"> Experience Cloud</span> ID-service. Zie <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a>voor meer informatie over de ECID. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die wordt ingesteld en gebruikt door de <span class="keyword"> Experience Cloud</span> ID-service. Raadpleeg <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a>voor meer informatie over de ECID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -144,7 +144,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]websi
    <td colname="col2"> <p>Vereist als u een <code> JSON</code> reactie van <span class="wintitle"> DCS</span>wilt. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
       <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Als u dit weglaat, keert <span class="wintitle"> DCS</span> een pixel in de kopbal terug. </li> 
-      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Als u dit opneemt, retourneert de <span class="wintitle"> DCS</span> een <code> JSON</code> object in de hoofdtekst van de reactie. Zie het onderstaande voorbeeld. Uw reactie kan complexer zijn. </li> 
+      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Als u dit opneemt, keert <span class="wintitle"> DCS</span> een <code> JSON</code> voorwerp in het lichaam van de reactie terug. Zie het onderstaande voorbeeld. Uw reactie kan complexer zijn. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
       {
