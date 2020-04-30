@@ -5,7 +5,7 @@ seo-title: Contactgegevens en juridische informatie
 solution: Audience Manager
 title: Contactgegevens en juridische informatie
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -20,7 +20,7 @@ Het team van de klantenservice van Adobe Experience Cloud is hier om u te helpen
 
 * [Raadpleeg de pagina&#39;s met Help bij Experience Cloud voor advies, tips en veelgestelde vragen](https://helpx.adobe.com/support.ec.html)
 * [Een korte vraag stellen op Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
-* [Neem rechtstreeks contact op met het zorgteam van de klant](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Neem rechtstreeks contact op met het zorgteam van de klant](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
 * [De beschikbaarheid en status van Experience Cloud Solutions controleren](https://status.adobe.com/)
 
 ## Service, mogelijkheden en facturering {#billing}
@@ -31,7 +31,7 @@ Afhankelijk van uw oplossingsconfiguratie zijn sommige opties die in deze docume
 
 Gepubliceerd door Adobe Systems Incorporated.
 
-[Gebruiksvoorwaarden](https://marketing.adobe.com/resources/help/en_US/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Gebruiksvoorwaarden](https://www.adobe.com/legal/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Een handelsmerksymbool (®, ™, enz.) duidt een Adobe-handelsmerk aan.
 
