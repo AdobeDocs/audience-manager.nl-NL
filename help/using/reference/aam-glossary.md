@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Verklarende woordenlijst
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -60,7 +60,7 @@ In [Adresseerbare Publiek](/help/using/features/addressable-audiences.md), verte
 
 **Klantkenmerken**
 
-Zie [Kenmerken](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) van de Klant in de [!DNL Experience Cloud Core Services] productdocumentatie.
+Zie [Kenmerken](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) van de Klant in de [!DNL Experience Cloud Core Services] productdocumentatie.
 
 <br> 
 
@@ -112,7 +112,7 @@ Het [!UICONTROL Data Integration Library] is een API-bibliotheek die door de geb
 
 **Experience Cloud ID (ECID)**
 
-Eerder genoemd identiteitskaart (MID of MCID). [!DNL Marketing Cloud] De [!DNL Experience Cloud] id staat centraal in de ID-service. Dit is een unieke en permanente id voor bezoekers van uw site. Zie Cookies en de [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html).
+Eerder genoemd identiteitskaart (MID of MCID). [!DNL Marketing Cloud] De [!DNL Experience Cloud] id staat centraal in de ID-service. Dit is een unieke en permanente id voor bezoekers van uw site. Zie Cookies en de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
 <br> 
 
@@ -269,7 +269,7 @@ TTL bepaalt hoeveel dagen een gekwalificeerde bezoeker in een eigenschap blijft.
 
 De [!DNL Experience Cloud] ID-service (voorheen bezoeker-id) biedt een universele, permanente id waarmee uw bezoekers kunnen worden geïdentificeerd voor alle oplossingen in de [!DNL Experience Cloud]site.
 
-Raadpleeg de documentatie bij de [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/reference/marketing-cloud-id-service.html) .
+Raadpleeg de documentatie bij de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) .
 
 ## W-X-Y-Z {#w-z}
 
