@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DIL-gebruik van tassen en codevoorbeelden
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -192,7 +192,7 @@ c_dil_map_keys.xml
 
 In een zeer belangrijk-waardepaar, identificeert het `c_` voorvoegsel dat aan de sleutel wordt toegevoegd het signaal als klant-bepaalde gegevens. Door de klant gedefinieerde gegevens worden gebruikt om zich te richten op de specifieke site die gegevens heeft doorgegeven bij een gebeurtenisaanroep. Soms wilt u deze informatie echter wel beschikbaar stellen voor alle eigenschappen in uw account Audience Manager. Hiervoor wijst u de waarde in een sleutelwaardepaar toe aan een sleutel op platformniveau. `c_` Een sleutel op platformniveau is vooraf ingesteld `d_` en maakt het signaal beschikbaar voor alle eigenschappen in uw account.
 
-Als voorbeeld verzamelt u ZIP-codegegevens van een bepaalde site, maar wilt u deze als doel instellen voor alle eigenschappen van Audience Manager. Als u de ZIP-code beschikbaar wilt maken op platformniveau, kunt u de door de klant gedefinieerde ZIP-codesleutel toewijzen (bijvoorbeeld `c_zip`) aan een platform bepaalde sleutel zoals hieronder getoond.
+Als voorbeeld verzamelt u ZIP-codegegevens van een bepaalde site, maar wilt u deze als doel instellen voor alle eigenschappen van Audience Manager. Als u de ZIP-code beschikbaar wilt maken op platformniveau, kunt u de door de klant gedefinieerde ZIP-codesleutel toewijzen (bijvoorbeeld `c_zip`) naar een door het platform gedefinieerde sleutel, zoals hieronder wordt weergegeven.
 
 **Codevoorbeeld**
 
@@ -240,5 +240,5 @@ U kunt als volgt het `dil.js` bestand verzenden in GTM:
 >
 >* [Google Tag Manager Help Center](https://support.google.com/tagmanager#topic=3441530)
 >* [Signalen](../dil/dil-instance-methods.md#signals)
->* [Voorvoegselvereisten voor belangrijkste variabelen](https://marketing.adobe.com/resources/help/en_US/aam/r_tb_variable_prefixes.html)
+>* [Voorvoegselvereisten voor belangrijkste variabelen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
