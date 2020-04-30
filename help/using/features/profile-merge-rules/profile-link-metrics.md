@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Metriek rapporteren voor regels voor het samenvoegen van profielen
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 ## Regelafmetingen samenvoegen {#merge-rule-metrics}
 
-Hiermee worden geretourneerde gegevens gerapporteerd in staafgrafieken die naast elkaar staan wanneer de samenvoegregels gegevens gebruiken van de [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/) of andere apparaatgrafieken van derden waartoe u toegang hebt [!DNL Audience Manager]. Zo kunt u geverifieerde, gegevens van de eerste partij vergelijken met gegevens van andere apparaten die worden geleverd door de grafiek van een ander apparaat van een andere fabrikant. [!UICONTROL Experience Cloud Device Co-op] Zie Apparaatgrafiek voor informatie over gegevens die door [!UICONTROL Device Co-op]de [component worden geretourneerd: Interne processen en uitvoer](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-processes.html). Deze gegevens worden dagelijks bijgewerkt.
+Hiermee worden geretourneerde gegevens gerapporteerd in staafgrafieken die naast elkaar staan wanneer de samenvoegregels gegevens gebruiken van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) of andere apparaatgrafieken van derden waartoe u toegang hebt [!DNL Audience Manager]. Zo kunt u geverifieerde, gegevens van de eerste partij vergelijken met gegevens van andere apparaten die worden geleverd door de grafiek van een ander apparaat van een andere fabrikant. [!UICONTROL Experience Cloud Device Co-op] Zie Apparaatgrafiek voor informatie over gegevens die door [!UICONTROL Device Co-op]de [component worden geretourneerd: Interne processen en uitvoer](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Deze gegevens worden dagelijks bijgewerkt.
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
