@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Algemene gebruiksscenario's voor regels voor het samenvoegen van profielen
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -98,7 +98,7 @@ Het kiezen van een [!UICONTROL device graph] optie voor een [!UICONTROL Profile 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opties externe apparaatgrafiek </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> De regels voor het samenvoegen</span> van profielen die zijn gemaakt met de <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a> of een externe apparaatgrafiek die is geïntegreerd met <span class="keyword"> Audience Manager</span> , zijn ideaal voor: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> De regels voor het samenvoegen</span> van profielen die zijn gemaakt met de <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> of een externe apparaatgrafiek die is geïntegreerd met <span class="keyword"> Audience Manager</span> , zijn ideaal voor: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Digitale eigenschappen die een laag niveau van klantenauthentificatie hebben. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Brede, geavanceerde merkcampagnes. </li> 
