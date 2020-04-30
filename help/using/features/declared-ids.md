@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Opgegeven id's
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -36,7 +36,7 @@ Sommige browsers en de meeste mobiele apparaten accepteren cookies van derden ni
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Gebeurtenisoproep</b> </td> 
-   <td colname="col2"> <p>Als u wilt werken, hebt u <span class="wintitle"> DIL </span> en de code voor de identiteitsservice van <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> </a> Adobe Experience Platform op de pagina nodig. <span class="wintitle"> DIL </span> krijgt gedeclareerde id's <span class="wintitle"> van de </span> functie die wordt geleverd door de <code> setVisitorID </code> Adobe Experience Platform Identity Service <span class="keyword"> en geeft deze door aan </span> Audience Manager <span class="keyword"> </span>. </p> </td> 
+   <td colname="col2"> <p>Als u wilt werken, hebt u <span class="wintitle"> DIL </span> en de code voor de identiteitsservice van <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> </a> Adobe Experience Platform op de pagina nodig. <span class="wintitle"> DIL </span> krijgt gedeclareerde id's <span class="wintitle"> van de </span> functie die wordt geleverd door de <code> setVisitorID </code> Adobe Experience Platform Identity Service <span class="keyword"> en geeft deze door aan </span> Audience Manager <span class="keyword"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identiteitskaart afstemmen</b> </td> 
@@ -187,7 +187,7 @@ Beschrijft de configuratievariabelen die worden gebruikt om gedeclareerde id&#39
 
 <!-- r_dil_declared_id_vars.xml -->
 
-Wanneer u het gebruikt met de [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), hoeft u niet langer [!UICONTROL declared IDs] de afgekeurde `dpid` en `dpuuid` variabelen door te geven. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] zich op de `visitorService` functie om van de [!UICONTROL declared IDs] functie in de `setCustomerIDs` functie te krijgen [!UICONTROL Adobe Experience Platform Identity Service]. Zie [Klantnamen en verificatiestatussen](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)voor meer informatie. Je belt `visitorService` in `DIL.create` zoals hieronder weergegeven.
+Wanneer u het gebruikt met de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), hoeft u niet langer [!UICONTROL declared IDs] de afgekeurde `dpid` en `dpuuid` variabelen door te geven. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] zich op de `visitorService` functie om van de [!UICONTROL declared IDs] functie in de `setCustomerIDs` functie te krijgen [!UICONTROL Adobe Experience Platform Identity Service]. Zie [Klantnamen en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)voor meer informatie. Je belt `visitorService` in `DIL.create` zoals hieronder weergegeven.
 
 ```js
 var vDil = DIL.create({
@@ -198,7 +198,7 @@ var vDil = DIL.create({
 });
 ```
 
-In het `namespace` zeer belangrijk-waardepaar, `MCORG` is uw identiteitskaart van de [!DNL Experience Cloud] Organisatie. Als u deze id niet hebt, vindt u deze in het [!UICONTROL Administration] gedeelte van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Toediening: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+In het `namespace` zeer belangrijk-waardepaar, `MCORG` is uw identiteitskaart van de [!DNL Experience Cloud] Organisatie. Als u deze id niet hebt, vindt u deze in het [!UICONTROL Administration] gedeelte van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Toediening: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
 
 ## Verouderde functies {#deprecated-functions}
 
