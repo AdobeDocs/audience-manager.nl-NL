@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy, consent
 title: Beheer van toestemming
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 9004dc46c0ac431e9f193467a2147a2d9ac36cdc
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -40,7 +40,7 @@ De klanten van de Manager van het publiek hebben de capaciteit om gebruikerstoes
 
 ## Opt-out beheren/intrekking van toestemming
 
-U kunt de optie Uitschakelen voor de Adobe Experience Cloud beheren via de pagina [Uw privacyopties](https://www.adobe.com/privacy/opt-out.html#customeruse) . Met de functies voor 1 klik kunnen eindgebruikers de gegevensverzameling beheren en uitschakelen met de Adobe Experience Cloud-advertentieoplossingen (waaronder Audience Manager). Specifiek, zie de [bedrijfsklantensectie](https://www.adobe.com/privacy/opt-out.html#customeruse) van de pagina van de Keuzen van de Privacy. Voor browsers die cookies van derden niet ondersteunen, raadpleegt u [Gedeclareerde ID-toewijzing](../../features/declared-ids.md#declared-id-targeting). Voor mobiele apparaten haalt u de relevante id&#39;s van Audience Manager op en roept u de API&#39;s van Audience Manager (Opt-Out voor [](../../features/declared-ids.md#opt-out-examples)gedeclareerde id&#39;s) op. Daarna kunt u alle gegevensverzameling voor die gebruikers beëindigen met de plug-in-API&#39;s van de Mobile SDK - zie [Android-apparaten](https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html) en [iOS-apparaten](https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html). Meer informatie over de optie om te weigeren vindt u in de documentatie bij [privacyverzoeken voor](../../overview/data-security-and-privacy/data-privacy-requests.md)gegevens.
+U kunt de optie Uitschakelen voor de Adobe Experience Cloud beheren via de pagina [Uw privacyopties](https://www.adobe.com/privacy/opt-out.html#customeruse) . Met de functies voor 1 klik kunnen eindgebruikers de gegevensverzameling beheren en uitschakelen met de Adobe Experience Cloud-advertentieoplossingen (waaronder Audience Manager). Specifiek, zie de [bedrijfsklantensectie](https://www.adobe.com/privacy/opt-out.html#customeruse) van de pagina van de Keuzen van de Privacy. Voor browsers die cookies van derden niet ondersteunen, raadpleegt u [Gedeclareerde ID-toewijzing](../../features/declared-ids.md#declared-id-targeting). Voor mobiele apparaten haalt u de relevante id&#39;s van Audience Manager op en roept u de API&#39;s van Audience Manager (Opt-Out voor [](../../features/declared-ids.md#opt-out-examples)gedeclareerde id&#39;s) op. Daarna kunt u alle gegevensverzameling voor die gebruikers beëindigen met de plug-in-API&#39;s van de Mobile SDK - zie [Android-apparaten](https://docs.adobe.com/content/help/en/mobile-services/android/gdpr-privacy-android/privacy.html) en [iOS-apparaten](https://docs.adobe.com/content/help/en/mobile-services/ios/privacy-gdpr-ios/privacy.html). Meer informatie over de optie om te weigeren vindt u in de documentatie bij [privacyverzoeken voor](../../overview/data-security-and-privacy/data-privacy-requests.md)gegevens.
 
 ## Het beheren van Toestemming voor de Partners van de Tweede Partij
 
