@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Gegevensbronnen beheren
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -33,7 +33,7 @@ De [!UICONTROL Data Source Details] sectie voltooien:
 1. Geef een integratiecode op. Integratiecodes zijn over het algemeen optioneel. Deze zijn vereist wanneer u wilt:
 
    * [Maak een gegevensbron](../features/profile-merge-rules/merge-rules-start.md#create-data-source)voor alle apparaten.
-   * Gebruik de [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+   * Gebruik de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
    * Werken met [Profielsamenvoegregels](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Kies een **[!UICONTROL ID Type]**. Opties voor id-type zijn:
@@ -74,7 +74,7 @@ Verwijder een gegevensbron die u niet meer nodig hebt.
 >Houd rekening met de volgende beperkingen:
 >
 >* U kunt geen [Actief publiek of Gegevensbron Gesynchroniseerd Spoor](../features/traits/client-activity-synced-audience-traits.md)schrappen.
->* Voor klanten die Adobe Analytics gebruiken: De Manager van het publiek staat u niet toe om gegevensbronnen te schrappen die automatisch van uw [!DNL Analytics] rapportreeksen worden gecreeerd. Gebruik de [Dienst](https://marketing.adobe.com/resources/help/en_US/mcloud/) van de Kern om deze gegevensbronnen unmap.
+>* Voor klanten die Adobe Analytics gebruiken: De Manager van het publiek staat u niet toe om gegevensbronnen te schrappen die automatisch van uw [!DNL Analytics] rapportreeksen worden gecreeerd. Gebruik de [Dienst](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) van de Kern om deze gegevensbronnen unmap.
 
 
 1. Klik op **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**.
