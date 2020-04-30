@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Veelgestelde vragen over privacy en gegevensbewaring
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -25,7 +25,7 @@ Antwoorden op algemene vragen of problemen met betrekking tot privacy en gegeven
 
 **Hoe gebruikt Audience Manager cookies en welke cookies worden ingesteld?**
 
-Zie [Audience Manager Cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html).
+Zie [Audience Manager Cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html).
 
 **Kunnen klanten van Audience Manager in de VS doelgebruikers zijn op EU-eigendommen?**
 
