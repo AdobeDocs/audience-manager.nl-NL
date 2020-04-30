@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Verificatiestatus bezoeker in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
 
 De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. Audience Manager handelt de verificatiestatus van de bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier af.
 
-Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de `setCustomerID` methode het optionele `AuthState` object. `AuthState` identificeert bezoekers volgens hun [authentificatiestatus](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html). [!DNL Audience Manager] behandelt de gerealiseerde eigenschappen verschillend, afhankelijk van de authentificatiestatus die in de vraag en de Regel [van de Fusie van het](../features/profile-merge-rules/merge-rules-dashboard.md) Profiel wordt overgegaan u voor segmentatie gebruikt.
+Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de `setCustomerID` methode het optionele `AuthState` object. `AuthState` identificeert bezoekers volgens hun [authentificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] behandelt de gerealiseerde eigenschappen verschillend, afhankelijk van de authentificatiestatus die in de vraag en de Regel [van de Fusie van het](../features/profile-merge-rules/merge-rules-dashboard.md) Profiel wordt overgegaan u voor segmentatie gebruikt.
 
 ## Verificatiestatus: ONBEKEND {#auth-status-unknown}
 
@@ -102,5 +102,5 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
 
 >[!MORELIKETHIS]
 >
->* [Klant-id&#39;s en verificatiestatussen](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)
+>* [Klant-id&#39;s en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
 
