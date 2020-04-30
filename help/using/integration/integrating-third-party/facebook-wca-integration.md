@@ -5,7 +5,7 @@ seo-title: Facebook WCA-integratie
 solution: Audience Manager
 title: Facebook WCA-integratie
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -29,9 +29,9 @@ Deze pagina illustreert het proces van het maken van WCA-pixels (Custom Audience
 1. Facebook Advertentieaccount
 2. De segmenten van de Manager van het publiek, klaar om aan uw nieuwe bestemming van Facebook toe te wijzen. Hier is [hoe te om een segment](/help/using/features/segments/segment-builder.md) in de Manager UI van de Publiek tot stand te brengen.
 3. Adobe Experience Platform Identity Service (ECID) Versie 4.1.0 of hoger. Download de nieuwste versie **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. Audience Manager Data Integration Library (DIL) versie 9.0 of hoger, kan **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**worden gedownload. Als u ook[Server-Side Forwarding (SSF)](https://marketing.adobe.com/resources/help/en_US/reference/ssf.html)gebruikt om gegevens te importeren in Audience Manager, moet u AppMeasurement versie 2.12 of hoger gebruiken. Download AppMeasurement met behulp van[Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
+4. Audience Manager Data Integration Library (DIL) versie 9.0 of hoger, kan **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**worden gedownload. Als u ook[Server-Side Forwarding (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html)gebruikt om gegevens te importeren in Audience Manager, moet u AppMeasurement versie 2.12 of hoger gebruiken. Download AppMeasurement met behulp van[Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 
-We raden u aan de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) of [Adobe Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/).
+We raden u aan de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) of [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
 ## Stap 1 - Een Facebook-bestemming maken in Audience Manager {#step-1-create-facebook-destination}
 
