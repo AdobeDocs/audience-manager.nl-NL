@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Veelgestelde vragen over doelen
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -25,7 +25,7 @@ faq_targeting.xml
 
 **Waar kan ik een volledige lijst van derdegegevensleveranciers vinden die door de Manager van het Publiek wordt gesteund?**
 
-Zie de [Adobe Exchange Marketplace](https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) (https://marketing.adobe.com/resources/content/resources/en/exchange/marketplace/audience.html) voor een volledige lijst met externe gegevensproviders die [!DNL Audience Manager] ondersteuning bieden.
+Raadpleeg de [Adobe Exchange-markt](https://exchange.adobe.com/experiencecloud.html) voor een volledige lijst met externe gegevensproviders die [!DNL Audience Manager] ondersteuning bieden.
 
 <br> 
 
