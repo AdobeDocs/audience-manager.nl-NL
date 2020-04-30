@@ -7,7 +7,7 @@ solution: Audience Manager
 title: De Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -18,7 +18,7 @@ Overzicht, begonnen worden, en codemethodes beschikbaar in de de codebibliotheek
 
 >[!IMPORTANT]
 >
->Vanaf versie 8.0 (uitgebracht in augustus 2018) [!UICONTROL DIL] is het afhankelijk van de [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), versie 3.3 of hoger. Het steunt op de Dienst van identiteitskaart aan brand ID syncs en bestemmingen URL. Een fout komt voor als de Dienst van identiteitskaart mist, oud, of niet gevormd.
+>Vanaf versie 8.0 (uitgebracht in augustus 2018) [!UICONTROL DIL] is het afhankelijk van de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versie 3.3 of hoger. Het steunt op de Dienst van identiteitskaart aan brand ID syncs en bestemmingen URL. Een fout komt voor als de Dienst van identiteitskaart mist, oud, of niet gevormd.
 >
 >We raden u aan Adobe Experience Platform Launch te gebruiken voor het implementeren en beheren van uw DIL- en Adobe Experience Platform Identity Service-bibliotheken.
 
@@ -29,18 +29,18 @@ Nochtans, kunt u de recentste versies van de Wolk van de Ervaring en DIL van onz
 
 ## Doel van DIL {#purpose-dil}
 
-[!UICONTROL DIL] is een API-bibliotheek. Je kan het zien als een helpercode voor [!DNL Adobe Audience Manager]. Het is niet vereist om te gebruiken [!DNL Audience Manager], maar de methodes en de functies [!UICONTROL DIL] verstrekken middelen u niet uw eigen code moet ontwikkelen om gegevens naar [!DNL Audience Manager]te verzenden. Bovendien [!UICONTROL DIL] is deze API anders dan de API die wordt geleverd door de [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). Deze service is ontworpen om de identiteit van bezoekers op verschillende [!DNL Experience Cloud] oplossingen te beheren. Het is daarentegen [!UICONTROL DIL] ontworpen om:
+[!UICONTROL DIL] is een API-bibliotheek. Je kan het zien als een helpercode voor [!DNL Adobe Audience Manager]. Het is niet vereist om te gebruiken [!DNL Audience Manager], maar de methodes en de functies [!UICONTROL DIL] verstrekken middelen u niet uw eigen code moet ontwikkelen om gegevens naar [!DNL Audience Manager]te verzenden. Bovendien [!UICONTROL DIL] is deze API anders dan de API die wordt geleverd door de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html). Deze service is ontworpen om de identiteit van bezoekers op verschillende [!DNL Experience Cloud] oplossingen te beheren. Het is daarentegen [!UICONTROL DIL] ontworpen om:
 
 * Maak gebeurtenisvraag en verzend gegevens naar de Server [van de](../reference/system-components/components-data-collection.md)Inzameling van Gegevens.
 * Gegevens verzenden naar [doelen](../features/destinations/destinations.md).
 
 ## DIL-code ophalen en implementeren {#get-implement-dil-code}
 
-[!UICONTROL DIL] code kan **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**worden gedownload. Houd er rekening mee dat vanaf versie 8.0 (uitgebracht in augustus 2018)[!UICONTROL DIL]sterk afhankelijk is van de[Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/), versie 3.3 of hoger. Het steunt op de Dienst van identiteitskaart aan brand ID syncs en bestemmingen URL. Een fout komt voor als de Dienst van identiteitskaart mist, oud, of niet gevormd.
+[!UICONTROL DIL] code kan **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**worden gedownload. Houd er rekening mee dat vanaf versie 8.0 (uitgebracht in augustus 2018)[!UICONTROL DIL]sterk afhankelijk is van de[Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versie 3.3 of hoger. Het steunt op de Dienst van identiteitskaart aan brand ID syncs en bestemmingen URL. Een fout komt voor als de Dienst van identiteitskaart mist, oud, of niet gevormd.
 
 In plaats van handmatig te werken met [!UICONTROL DIL] en in te stellen, raden we u aan [!DNL Audience Manager] Adobe Experience Platform Launch [](https://docs.adobelaunch.com/) te gebruiken. [!DNL Adobe Experience Platform Launch] is het geadviseerde implementatiehulpmiddel omdat het codeplaatsing, plaatsing, en versiebeheer vereenvoudigt. Meer informatie over de extensie [](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) Audience Manager in Adobe Experience Platform Launch vindt u.
 
-Adobe Experience Platform Launch is de opvolger van [Adobe Dynamic Tag Manager](https://marketing.adobe.com/resources/help/en_US/dtm/c_overview.html) ([!DNL DTM]).
+Adobe Experience Platform Launch is de opvolger van [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
 
 ## Voorbeeld van oproep {#sample-code}
 
