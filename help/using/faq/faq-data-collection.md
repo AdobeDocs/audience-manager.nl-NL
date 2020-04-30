@@ -7,7 +7,7 @@ title: Veelgestelde vragen over gegevensverzameling en productintegratie
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: d221890d2a80cd557a6968d3382ee8842fea9aef
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -59,7 +59,7 @@ Als u [!DNL Analytics] gegevens wilt overbrengen naar [!DNL Audience Manager], l
 
 2. [!DNL Audience Manager] [!UICONTROL DIL] module
 
-3. [!DNL Analytics] `s.t()` , functie
+3. [!DNL Analytics] `s.t()` function
 
 Stel uw [!DNL Audience Manager]- [!DNL Analytics] integratie met een van de volgende twee methoden als beste praktijken in:
 
@@ -172,7 +172,7 @@ Nee, ga niet uit van het [!UICONTROL General Reports] en [!UICONTROL Trend Repor
 
 De rapporten berekenen populaties die op de unauthenticated profielverslagen (UUIDs) worden gebaseerd wij in het achtereind zien op het tijdstip dat de rapporten worden geproduceerd.
 
-Bij een eerste aanroep naar de id zijn de gedeclareerde id&#39;s [!UICONTROL DCS]niet *gekoppeld aan een UUID (er is dus geen* demdex-cookie [](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) aanwezig aan de clientzijde). De [!UICONTROL DCS] URL genereert een UUID willekeurig en stelt een [!DNL demdex] cookie in en geeft deze door in de antwoordaanroep, maar de UUID wordt niet naar de backend verzonden.
+Bij een eerste aanroep naar de id zijn de gedeclareerde id&#39;s [!UICONTROL DCS]niet *gekoppeld aan een UUID (er is dus geen* demdex-cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) aanwezig aan de clientzijde). De [!UICONTROL DCS] URL genereert een UUID willekeurig en stelt een [!DNL demdex] cookie in en geeft deze door in de antwoordaanroep, maar de UUID wordt niet naar de backend verzonden.
 
 >[!NOTE]
 >
