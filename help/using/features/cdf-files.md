@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Gegevensinvoer van klant
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -105,7 +105,7 @@ Een [!UICONTROL CDF] bestand bevat enkele of alle hieronder gedefinieerde velden
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>De <span class="keyword"> Experience Cloud</span> ID (MID) die aan de sitebezoeker is toegewezen. Zie ook <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>De <span class="keyword"> Experience Cloud</span> ID (MID) die aan de sitebezoeker is toegewezen. Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -159,7 +159,7 @@ Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] bestand weer en de
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parameters aanvragen </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Verwijzing </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-adres </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (of MID). Zie ook <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (of MID). Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle segmenten </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle sporen </li> 
      </ol> </p> <p>Voor gebiedsbeschrijvingen, zie de Gedefinieerde <a href="#cdf-defined"> Inhoud van de Diervoeders van de Gegevens van de</a>Klant. </p> </td> 
