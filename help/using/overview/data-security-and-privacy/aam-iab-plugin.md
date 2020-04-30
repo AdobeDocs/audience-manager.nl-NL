@@ -5,7 +5,7 @@ seo-title: Insteekmodule Audience Manager voor IAB TCF
 solution: Audience Manager
 title: Insteekmodule Audience Manager voor IAB TCF
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
 
 Een belangrijk aspect in de privacyverplichtingen die u jegens uw gebruikers hebt, is de verwerving en doorgifte van keuzemogelijkheden voor gebruikers over de manier waarop hun persoonsgegevens kunnen worden gebruikt (d.w.z. &quot;doeleinden&quot;) en door wie (d.w.z. &quot;bedrijven&quot;).
 
-Adobe biedt u de middelen om de privacykeuzes van uw gebruikers te beheren en door te geven via de [aanmeldingsfunctionaliteit](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html) en via de ondersteuning voor [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) .
+Adobe biedt u de middelen om de privacykeuzes van uw gebruikers te beheren en door te geven via de [aanmeldingsfunctionaliteit](hhttps://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) en via de ondersteuning voor [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) .
 
 In dit artikel worden de gevallen beschreven waarin Audience Manager de IAB TCF ondersteunt en hoe u de IAB TCF-ondersteuning implementeert in Audience Manager. Audience Manager is geregistreerd in IAB TCF met leverancier-id 565.
 
-De plug-in Audience Manager voor IAB TCF maakt gebruik van de [plug-in Opt-in, die op zijn beurt onderdeel is van de Adobe](https://marketing.adobe.com/resources/help/en_US/mcvid/iab.html)Experience Platform Identity Service (ECID) [](https://marketing.adobe.com/resources/help/en_US/mcvid/) -bibliotheek.
+De plug-in Audience Manager voor IAB TCF maakt gebruik van de [plug-in Opt-in, die op zijn beurt onderdeel is van de Adobe](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html)Experience Platform Identity Service (ECID) [](https://docs.adobe.com/content/help/en/id-service/using/home.html) -bibliotheek.
 
 ## Toepassingsgebied en beperkingen {#scope-and-limitations}
 
@@ -39,7 +39,7 @@ U moet aan de volgende voorwaarden voldoen om IAB TCF met de Manager van het Pub
 
 1. U moet Adobe Experience Platform Identity Service (ECID) versie 4.1 of hoger gebruiken. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) onze nieuwste ECID-release.
 1. U moet versie 9.0 of hoger van de Bibliotheek van de Integratie van Gegevens van de Manager van de Audience gebruiken, downloadbaar van [hier](https://github.com/Adobe-Marketing-Cloud/dil/releases). Lees meer over [DIL in de documentatie](../..//dil/dil-overview.md)van Audience Manager.
-1. Alternatief, als u server-zij het Door:sturen (SSF) gebruikt om gegevens in de Manager van de Audience in te voeren, moet u aan de recentste versie van AppMeasurement bevorderen. Download AppMeasurement met behulp van [Analytics Code Manager](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html).
+1. Alternatief, als u server-zij het Door:sturen (SSF) gebruikt om gegevens in de Manager van de Audience in te voeren, moet u aan de recentste versie van AppMeasurement bevorderen. Download AppMeasurement met behulp van [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 1. U moet een platform van het Beheer van de Toestemming (CMP), of commercieel of uw gebruiken, dat IAB TCF steunt, en met IAB TCF geregistreerd is. Zie de lijst van [CMP&#39;s die in het IAB-kader](https://advertisingconsent.eu/cmp-list/)zijn geregistreerd.
 
 ## Aanbevelingen en de wijze van uitvoering {#recommendations}
@@ -85,7 +85,7 @@ De Manager van de publiek evalueert de keuzen van de gebruikers die in het IAB T
 
 De Manager van de Publiek werkt verschillend afhankelijk van of de Manager van de Publiek in het TCF toestemmingskoord ontdekt IAB dat de gebruiker toestemming voor de drie doeleinden (opslag, verpersoonlijking, meting) of niet heeft verleend.
 
-| Wanneer uw gebruiker toestemming *verleent*, Manager van het Publiek: | Als uw gebruiker *geen* toestemming geeft, wordt Audience Manager: |
+| Wanneer uw gebruiker toestemming *verleent*, Manager van het Publiek: | Wanneer uw gebruiker *toestemming ontkent* , de Manager van het Publiek: |
 |---|---|
 | <ul><li>Hiermee voert u alle gewenste gevallen uit voor het gebruik van Audience Manager.</li><li>Hiermee geeft u toestemming aan derden in id-syncs (door gdpr = 1 en de toestemmingstekenreeks als gdpr_agreement door te geven voor id-synchronisatieaanroepen).</li><li>Evalueert en eerbiedigt toestemming die van de serverpixel wordt overgegaan.</li><li>Haalt partner-in werking gestelde syncs van identiteitskaart</li></ul> | <ul><li>Hiermee worden geen nieuwe gebruikersgegevens in uw instantie opgeslagen. Dit omvat partner IDs, signalen, eigenschappen, of pixelgegevens.</li><li>Hiermee initieert u geen syntaxis met id&#39;s van derden.</li><li>Hierbij worden de syncs van id&#39;s die door een partner zijn geïnitieerd, niet gerespecteerd.</li></ul> |
 
@@ -98,7 +98,7 @@ Door IAB TCF uit te voeren, wordt u vereist niet om douanecode voor toestemmings
 3. Audience Manager controleert of GDPR van toepassing is (`gdpr = 1`) en of er een CMP is, geregistreerd bij IAB, op uw webeigenschap. Dit geldt bijvoorbeeld voor gebruikers die vanuit de Europese Unie reizen. Als uitgever is het uw verantwoordelijkheid om de GDPR-markering in te stellen.
 4. Als GDPR van toepassing is, controleert de Manager van de Publiek het IAB TCF toestemmingskoord, dat in de parameter wordt overgegaan `gdpr_consent`, voor de noodzakelijke toestemmingen. Audience Manager heeft machtigingen nodig voor opslag, personalisatie, meting en de toestemming van de leverancier van Audience Manager om gegevens op te slaan, te verwerken of te activeren.
 5. Als de TCF toestemmingskoord van IAB aanwezig is en het de vereiste toestemmingen bevat, gaat de Manager van de Publiek het TCF toestemmingskoord van IAB over op onze servers [van de](../../reference/system-components/components-data-collection.md) gegevensinzameling (DCS).
-6. Audience Manager reageert door een [indexcookie](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html) in te stellen op de browser. Audience Manager initieert en houdt tevens rekening met syntaxis van externe id&#39;s.
+6. Audience Manager reageert door een [indexcookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) in te stellen op de browser. Audience Manager initieert en houdt tevens rekening met syntaxis van externe id&#39;s.
 7. Alternatief, als het IAB TCF toestemmingskoord dat in stap 5 wordt overgegaan niet alle vereiste toestemmingen bevat, verzamelt, verwerkt of activeert de Manager van het publiek geen gegevens en respecteert of in werking stelt identiteitskaart- syncs.
 
 ![Hoofdletters/kleine letters voor uitgever](assets/publisher-use-case.png)
@@ -147,7 +147,7 @@ Audience Manager behandelt verzoeken om te weigeren in een [afzonderlijk artikel
 
 ## Aanvullende bronnen {#additional-resources}
 
-* [Adobe Experience Platform Identity Service Opt-in](https://marketing.adobe.com/resources/help/en_US/mcvid/overview.html)
+* [Adobe Experience Platform Identity Service Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)
 * [IAB Europe GDPR-kader voor transparantie en instemming](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/)
 * [IAB Europe GDPR Transparency and Consent Framework Technische specificaties](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/Consent%20string%20and%20vendor%20list%20formats%20v1.1%20Final.md)
 * [IAB TCF-plug-in - videodemonstratie](https://helpx.adobe.com/audience-manager/kt/using/iab-tcf-support-audience-manager-technical-video-implement.html)
