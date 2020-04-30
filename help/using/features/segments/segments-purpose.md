@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Doel, samenstelling en regels van segmenten
 uuid: 886d4abe-b1b6-4983-b4fb-b552d54d51ba
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -33,7 +33,7 @@ Als u Adobe Analytics-segmenten toewijst aan uw Experience Cloud-organisatie, ma
 
 >[!TIP]
 >
->De segmenten van Audience Manager verschillen van [!DNL Adobe Analytics] segmenten. Lees de Segmenten van het [Begrip in Analytics en Manager](https://marketing.adobe.com/resources/help/en_US/analytics/audiences/aam-analytics-segments.html) van de Publiek voor een diepgaande beschrijving van de verschillen.
+>De segmenten van Audience Manager verschillen van [!DNL Adobe Analytics] segmenten. Lees de Segmenten van het [Begrip in Analytics en Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) van de Publiek voor een diepgaande beschrijving van de verschillen.
 
 ## Creeer op regels gebaseerde segmenten met de Bouwer van het Segment
 
