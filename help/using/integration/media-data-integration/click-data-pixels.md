@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -93,7 +93,7 @@ Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. E
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Ervaar de cloud</span> -id (ECID). Zie <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a>voor meer informatie over de ECID. </p> <p>Optioneel. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Ervaar de cloud</span> -id (ECID). Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a>voor meer informatie over de ECID. </p> <p>Optioneel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
