@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aan de slag met regels voor het samenvoegen van profielen
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -135,7 +135,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Zie [Een gegevensbron](#create-data-source) voor meerdere apparaten en een id voor [klanten en verificatiestatus](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids.html)maken voor meer informatie.
+Zie [Een gegevensbron](#create-data-source) voor meerdere apparaten en een id voor [klanten en verificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)maken voor meer informatie.
 
 ### Functie `DIL.create` configureren
 
@@ -150,7 +150,7 @@ var vDil = DIL.create({
 });
 ```
 
-In het naamruimte-sleutelwaardepaar is de `*`MCORG`*` -variabele uw [!DNL Experience Cloud] organisatie-id. Als u deze id niet hebt, vindt u deze in het [!UICONTROL Administration] gedeelte van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Toediening: Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html).
+In het naamruimte-sleutelwaardepaar is de `*`MCORG`*` -variabele uw [!DNL Experience Cloud] organisatie-id. Als u deze id niet hebt, vindt u deze in het [!UICONTROL Administration] gedeelte van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Toediening: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### SDK&#39;s configureren
 
@@ -208,7 +208,7 @@ Controleer de methoden in de [!DNL SDK] code waarmee u gegevens kunt doorgeven [
  </tbody>
 </table>
 
-Zie ook Methoden voor [Audience Manager voor Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=c_audience_manager_methods.html) en [Audience Manager Methods voor iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=aam_methods.html).
+Zie ook Methoden voor [Audience Manager voor Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [Audience Manager Methods voor iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
