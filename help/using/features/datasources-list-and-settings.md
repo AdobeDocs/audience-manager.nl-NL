@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Lijst met gegevensbronnen en instellingen
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: c785c07a1572e9968e62a1bc753d24780eda64c5
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -58,7 +58,7 @@ Naast tekstvelden bevat de [!UICONTROL Data Source Details] sectie ook de onders
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> Kruisapparaat</span></b>: Een door de klant opgegeven, geverifieerde id. Selecteer deze optie als u het volgende wilt maken: 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Een apparaatgegevensbron en een regel voor het samenvoegen van <span class="wintitle"> profielen</span>. </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Een gegevensbron die koppelingen gebruikt die worden geleverd door de Adobe Experience Cloud Device Co-op <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> of een andere apparaatgrafiek van derden die is geïntegreerd met</a> Audience Manager <span class="keyword"></span>. </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Een gegevensbron die koppelingen gebruikt die worden geleverd door de Adobe Experience Cloud Device Co-op <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> of een andere apparaatgrafiek van derden die is geïntegreerd met</a> Audience Manager <span class="keyword"></span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -111,7 +111,7 @@ Schakel het **[!UICONTROL Inbound]** selectievakje in wanneer uw gegevensbron is
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Klant-id</span></b>: Identificeert binnenkomende gegevens met een klant identiteitskaart </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID</span></b>van Audience Manager: Identificeert binnenkomende gegevens met een identiteitskaart van de Manager <span class="keyword"> van de</span> Publiek. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Experience Cloud</span> -id. See <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Experience Cloud</span> -id. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
