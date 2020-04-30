@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Opties voor regel voor samenvoegen van profiel gedefinieerd
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: e27ce2f607cadd7318a171359a5ae4daa071c486
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -108,11 +108,11 @@ Hiermee [!UICONTROL Device Options] kunt u het type *`device profile`* selectere
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Afbeelding van apparaat voor coop</span></b> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u aan <span class="keyword"> Audience Manager</span> de profielen van het huidige apparaat en maximaal 100 andere apparaten te lezen aan de hand van de koppelingen die worden geleverd door de <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p>De <span class="keyword"> Device Co-op</span> is een digitale coöperatie waar deelnemende klanten koppelingsinformatie over apparaten delen. De <span class="keyword"> -op-knop</span> van het apparaat verwerkt deze gegevens in een <span class="term"> apparaatgrafiek</span>. Een apparaatgrafiek koppelt apparaten aan elkaar in apparaatclusters. Deze verbindingen worden gebouwd van <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-links.html" format="https" scope="external"> probabilistische en deterministische gegevens</a>. De clusters vertegenwoordigen een groep apparaten die door een onbekende persoon worden gebruikt. De <span class="keyword"> Device Co-op</span> deelt deze clusters onder zijn leden, wat hen helpt waardevolle en verenigbare overkoepelende ervaringen aan hun klanten leveren. </p> <p> Raadpleeg de volgende bronnen voor meer informatie over de <span class="wintitle"> apparaatcoop</span>: </p> <p> 
+   <td colname="col2"> <p>Hiermee geeft u aan <span class="keyword"> Audience Manager</span> de profielen van het huidige apparaat en maximaal 100 andere apparaten te lezen aan de hand van de koppelingen die worden geleverd door de <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p>De <span class="keyword"> Device Co-op</span> is een digitale coöperatie waar deelnemende klanten koppelingsinformatie over apparaten delen. De <span class="keyword"> -op-knop</span> van het apparaat verwerkt deze gegevens in een <span class="term"> apparaatgrafiek</span>. Een apparaatgrafiek koppelt apparaten aan elkaar in apparaatclusters. Deze verbindingen worden gebouwd van <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"> probabilistische en deterministische gegevens</a>. De clusters vertegenwoordigen een groep apparaten die door een onbekende persoon worden gebruikt. De <span class="keyword"> Device Co-op</span> deelt deze clusters onder zijn leden, wat hen helpt waardevolle en verenigbare overkoepelende ervaringen aan hun klanten leveren. </p> <p> Raadpleeg de volgende bronnen voor meer informatie over de <span class="wintitle"> apparaatcoop</span>: </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html" format="https" scope="external"> Samenvatting van apparaten</a> </li> 
-      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-requirements.html" format="https" scope="external"> Lidmaatschapseisen</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-processes.html" format="https" scope="external"> Apparaatgrafiek: Interne processen en uitvoer</a> </li> 
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> Samenvatting van apparaten</a> </li> 
+      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> Lidmaatschapseisen</a> </li> 
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Apparaatgrafiek: Interne processen en uitvoer</a> </li> 
       <li id="li_9DF8876BFBC043948D3E82BD081AAF9F"><a href="https://marketing.adobe.com/resources/help/en_US/aam/downloads/AAM_Device_Graphs.pdf" format="https" scope="external"> Audience Manager en External Device Graphs</a> (PDF-download). </li>
      </ul> </p> </td>
   </tr> 
@@ -126,6 +126,8 @@ Hiermee [!UICONTROL Device Options] kunt u het type *`device profile`* selectere
   </tr>
  </tbody>
 </table>
+
+<!--Victor/Vlad: In the above table, you link to a .pdf file on marketing.adobe.com. Can you move that PDF into Git and link to it? This pdf might get blown away with the marketing.adobe.com decommission. -Bob-->
 
 ## Extern samenvoegingsbeleid {#external-merge-policies}
 
