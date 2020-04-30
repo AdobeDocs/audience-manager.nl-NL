@@ -7,7 +7,7 @@ title: Veelgestelde vragen over publiek Lab
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -52,6 +52,6 @@ In dit geval, [!UICONTROL Audience Lab] telt drie omzettingen, één voor elk ap
 
 Zie [de Testgroep](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) van het Segment voor informatie over hoe te om [!UICONTROL Audience Lab] met [!UICONTROL RBAC] voorrechten te gebruiken.
 
-**Kan ik gebruiken[!UICONTROL Audience Lab]in combinatie met[!UICONTROL Profile Link Device Graph]en externe apparaatgrafieken ([Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-overview.html), Tapad Device Graph, Liveramp Device Graph)?**
+**Kan ik gebruiken[!UICONTROL Audience Lab]in combinatie met[!UICONTROL Profile Link Device Graph]en externe apparaatgrafieken ([Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), Tapad Device Graph, Liveramp Device Graph)?**
 
 Vooralsnog [!UICONTROL Audience Lab] kunnen segmentpopulaties alleen worden opgedeeld door de apparaten die zijn aangesloten op een gekwalificeerd apparaat wanneer u het [!UICONTROL Profile Link Device Graph]apparaat gebruikt. Wij werken aan het toevoegen van ondersteuning in [!UICONTROL Audience Lab] de andere apparaatgrafieken en zullen u laten weten wanneer wij dat doen.
