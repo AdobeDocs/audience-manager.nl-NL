@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Inzicht krijgen in oproepen van het demdex-domein
 uuid: c06dae3a-f169-4712-80fb-d6d448dce51a
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -32,14 +32,14 @@ Audience Manager en de Adobe Experience Platform Identity Service maken aanroepe
    <td colname="col2"> <p><span class="wintitle"> DPM</span> is een afkorting voor de Gelijke van de <span class="wintitle"> Gegevensleverancier</span>. Het vertelt interne, <span class="keyword"> systemen van Adobe</span> dat een vraag van de Manager <span class="keyword"> van het</span> Publiek of de dienst <span class="wintitle"></span> van identiteitskaart in klantengegevens voor synchronisatie of het vragen van een identiteitskaart overgaat. Dit is de gemeenschappelijkste <code> demdex.net</code> vraag u van de Manager <span class="keyword"> van het</span> Publiek of de dienst <span class="wintitle"> van</span>identiteitskaart zult zien. </p> <p><span class="wintitle"> Beginselen van DPM</span> -aanroepen: </p> <p> 
      <ul id="ul_44023BB060774518BE414EE10820C141"> 
       <li id="li_0F94D1988A6944BA885FD40AB26FC49F"> <b> <span class="keyword"> Poortbeheer</span> </b>: Een <span class="wintitle"> DPM</span> vraag van de Manager <span class="keyword"> van de Auditie verzendt gegevens naar de Servers</span> van de <span class="wintitle"> Gegevensverzameling en de Servers</span> van het Geheime voorgeheugen van het <span class="wintitle"></span>Profiel. Zie <a href="../reference/system-components/components-data-collection.md"> Componenten</a>voor gegevensverzameling. </li> 
-      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> <span class="wintitle"> ID-service</span> </b>: Een vraag <span class="wintitle"> DPM</span> van de dienst <span class="wintitle"></span> van identiteitskaart is een verzoek om bezoekersidentiteitskaart Zie <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a> en <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_id_request.html" format="https" scope="external"> How the Adobe Experience Platform Identity Service Requests and Sets IDs</a>. </li> 
-     </ul> </p> <p> <p>Opmerking:  De <span class="wintitle"> de dienstklanten van identiteitskaart kunnen de prefix</span> DPM <span class="wintitle"></span> in de domeinnaam veranderen. Zie <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-subdomain-config.html" format="https" scope="external"> publieksbeheerserver en publiekManagerServerSecure</a>. </p> </p> </td> 
+      <li id="li_5A7EA9EE16EE4D828F0A24AE2B969122"> <b> <span class="wintitle"> ID-service</span> </b>: Een vraag <span class="wintitle"> DPM</span> van de dienst <span class="wintitle"></span> van identiteitskaart is een verzoek om bezoekersidentiteitskaart Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a> en <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/id-request.html" format="https" scope="external"> How the Adobe Experience Platform Identity Service Requests and Sets IDs</a>. </li> 
+     </ul> </p> <p> <p>Opmerking:  <span class="wintitle"> De de dienstklanten van identiteitskaart</span> kunnen de prefix <span class="wintitle"> DPM</span> in de domeinnaam veranderen. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/subdomain-config.html" format="https" scope="external"> publieksbeheerserver en publiekManagerServerSecure</a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)
->* [Auditiebeheer cookies](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_am.html)
+>* [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+>* [Auditiebeheer cookies](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html)
 
