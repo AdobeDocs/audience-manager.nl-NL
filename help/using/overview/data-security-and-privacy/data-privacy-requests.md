@@ -7,7 +7,7 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Gegevensprivacyverzoeken
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 39e0224d97d1d27c2b1dcee8e3b0d2d21847551b
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -72,7 +72,7 @@ Terwijl de verzoeken van de gegevenstoegang en van de schrapping door de Dienst 
 
 ### Algemene verzoeken om te weigeren
 
-De wereldwijde opt-out is een opt-out voor Audience Manager en andere Adobe Experience Cloud-oplossingen voor alle merken. De onderstaande tabel geeft een overzicht van de methoden die worden gebruikt voor wereldwijde opt-out:
+De wereldwijde opt-out is een opt-out voor Audience Manager en andere Adobe Experience Cloud-oplossingen voor alle merken. In de onderstaande tabel worden de methoden weergegeven die worden gebruikt voor wereldwijde opt-out:
 
 <table id="table_F1027B9633E948DCBB11C141B381682A"> 
  <thead> 
@@ -94,8 +94,8 @@ De wereldwijde opt-out is een opt-out voor Audience Manager en andere Adobe Expe
    <td colname="col1"> <p>Mobiele apparaten </p> </td> 
    <td colname="col2"> <p>Zie de instellingen voor opt-out en privacy voor: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/privacy.html" format="https" scope="external"> Android-apparaten </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/privacy.html" format="https" scope="external"> iOS-apparaten </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/en/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android-apparaten </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/en/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS-apparaten </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
