@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS-foutcodes, berichten en voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -41,7 +41,7 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col2"> <p>Ongeldige <code> d_orgid</code> waarde (kan geen config voor deze org-id vinden): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>De organisatie-id is onjuist. </p> <p>Controleer uw id en probeer het verzoek opnieuw. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie "Beheerpagina" in <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/?f=admin_getting_started.html" format="https" scope="external"> Experience Cloud Administration</a> voor informatie over het zoeken naar deze pagina. </p> </td> 
+   <td colname="col3"> <p>De organisatie-id is onjuist. </p> <p>Controleer uw id en probeer het verzoek opnieuw. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie "Beheerpagina" in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organisaties en account die koppelingen</a> bevat voor informatie over het zoeken naar deze pagina. </p> </td> 
   </tr>
  </tbody>
 </table>
