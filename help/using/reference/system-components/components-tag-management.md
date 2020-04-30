@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Onderdelen voor tagbeheer
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 ---
 
@@ -35,7 +35,7 @@ Het clientportaal is de primaire gebruikersinterface (UI) voor tag- en gegevensb
 
 ## DIL/TIM-container {#dil-tim}
 
-Met de [!UICONTROL DIL] container kunt u code voor [!DNL Audience Manager] gegevensverzameling op uw website implementeren. [!UICONTROL TIM] is het vervangen van Taginvoegingsbeheer. Het wordt niet meer gebruikt door [!DNL Audience Manager]. In plaats daarvan gebruikt u [Dynamisch tagbeheer](https://marketing.adobe.com/resources/help/en_US/dtm/) of de [!DNL Audience Manager] extensie in [Adobe Experience Platform Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) om containercode te configureren en te genereren die u op de pagina&#39;s in uw overzicht plaatst. De [!UICONTROL DTM] container werkt samen met [!UICONTROL Data Information Library (DIL)] [!DNL Audience Manager]de container om gegevens van uw site te verzamelen en naar te sturen.
+Met de [!UICONTROL DIL] container kunt u code voor [!DNL Audience Manager] gegevensverzameling op uw website implementeren. [!UICONTROL TIM] is het vervangen van Taginvoegingsbeheer. Het wordt niet meer gebruikt door [!DNL Audience Manager]. In plaats daarvan gebruikt u [Dynamisch tagbeheer](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) of de [!DNL Audience Manager] extensie in [Adobe Experience Platform Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) om containercode te configureren en te genereren die u op de pagina&#39;s in uw overzicht plaatst. De [!UICONTROL DTM] container werkt samen met [!UICONTROL Data Information Library (DIL)] [!DNL Audience Manager]de container om gegevens van uw site te verzamelen en naar te sturen.
 
 ## Data Integration Library (DIL) {#dil}
 
