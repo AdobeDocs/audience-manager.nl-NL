@@ -5,7 +5,7 @@ seo-title: Insteekmodule Audience Manager voor IAB TCF
 solution: Audience Manager
 title: Insteekmodule Audience Manager voor IAB TCF
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 5fff9315558d3088f68268f32681842bb8d5e7d3
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 Een belangrijk aspect in de privacyverplichtingen die u jegens uw gebruikers hebt, is de verwerving en doorgifte van keuzemogelijkheden voor gebruikers over de manier waarop hun persoonsgegevens kunnen worden gebruikt (d.w.z. &quot;doeleinden&quot;) en door wie (d.w.z. &quot;bedrijven&quot;).
 
-Adobe biedt u de middelen om de privacykeuzes van uw gebruikers te beheren en door te geven via de [aanmeldingsfunctionaliteit](hhttps://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) en via de ondersteuning voor [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) .
+Adobe biedt u de middelen om de privacykeuzes van uw gebruikers te beheren en door te geven via de [aanmeldingsfunctionaliteit](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) en via de ondersteuning voor [IAB Transparency and Consent Framework (TCF)](https://iabtechlab.com/standards/gdpr-transparency-and-consent-framework/) .
 
 In dit artikel worden de gevallen beschreven waarin Audience Manager de IAB TCF ondersteunt en hoe u de IAB TCF-ondersteuning implementeert in Audience Manager. Audience Manager is geregistreerd in IAB TCF met leverancier-id 565.
 
@@ -40,7 +40,7 @@ U moet aan de volgende voorwaarden voldoen om IAB TCF met de Manager van het Pub
 1. U moet Adobe Experience Platform Identity Service (ECID) versie 4.1 of hoger gebruiken. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) onze nieuwste ECID-release.
 1. U moet versie 9.0 of hoger van de Bibliotheek van de Integratie van Gegevens van de Manager van de Audience gebruiken, downloadbaar van [hier](https://github.com/Adobe-Marketing-Cloud/dil/releases). Lees meer over [DIL in de documentatie](../..//dil/dil-overview.md)van Audience Manager.
 1. Alternatief, als u server-zij het Door:sturen (SSF) gebruikt om gegevens in de Manager van de Audience in te voeren, moet u aan de recentste versie van AppMeasurement bevorderen. Download AppMeasurement met behulp van [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
-1. U moet een platform van het Beheer van de Toestemming (CMP), of commercieel of uw gebruiken, dat IAB TCF steunt, en met IAB TCF geregistreerd is. Zie de lijst van [CMP&#39;s die in het IAB-kader](https://advertisingconsent.eu/cmp-list/)zijn geregistreerd.
+1. U moet een platform van het Beheer van de Toestemming (CMP), of commercieel of uw gebruiken, dat IAB TCF steunt, en met IAB TCF geregistreerd is. Zie de lijst van [CMP&#39;s die in het IAB-kader](https://iabeurope.eu/cmp-list/)zijn geregistreerd.
 
 ## Aanbevelingen en de wijze van uitvoering {#recommendations}
 
@@ -70,7 +70,7 @@ Wanneer de gebruiker zijn privacyopties heeft geselecteerd, worden de keuzen van
 
 ## Standaarddoelen vereist door Audience Manager {#aam-standard-purposes}
 
-De Manager van de publiek evalueert de keuzen van de gebruikers die in het IAB TFC- toestemmingskoord worden opgeslagen voor:
+De Manager van de publiek evalueert de keuzen van de gebruikers in IAB TCF toestemmingskoord worden opgeslagen voor:
 
 * Opslag en toegang van informatie (doel-id 1 in de [algemene leverancierslijst](https://vendorlist.consensu.org/vendorlist.json))
 * Personalisatie (doel-ID 2)
@@ -85,7 +85,7 @@ De Manager van de publiek evalueert de keuzen van de gebruikers die in het IAB T
 
 De Manager van de Publiek werkt verschillend afhankelijk van of de Manager van de Publiek in het TCF toestemmingskoord ontdekt IAB dat de gebruiker toestemming voor de drie doeleinden (opslag, verpersoonlijking, meting) of niet heeft verleend.
 
-| Wanneer uw gebruiker toestemming *verleent*, Manager van het Publiek: | Wanneer uw gebruiker *toestemming ontkent* , de Manager van het Publiek: |
+| Wanneer uw gebruiker toestemming *verleent*, Manager van het Publiek: | Als uw gebruiker *geen* toestemming geeft, wordt Audience Manager: |
 |---|---|
 | <ul><li>Hiermee voert u alle gewenste gevallen uit voor het gebruik van Audience Manager.</li><li>Hiermee geeft u toestemming aan derden in id-syncs (door gdpr = 1 en de toestemmingstekenreeks als gdpr_agreement door te geven voor id-synchronisatieaanroepen).</li><li>Evalueert en eerbiedigt toestemming die van de serverpixel wordt overgegaan.</li><li>Haalt partner-in werking gestelde syncs van identiteitskaart</li></ul> | <ul><li>Hiermee worden geen nieuwe gebruikersgegevens in uw instantie opgeslagen. Dit omvat partner IDs, signalen, eigenschappen, of pixelgegevens.</li><li>Hiermee initieert u geen syntaxis met id&#39;s van derden.</li><li>Hierbij worden de syncs van id&#39;s die door een partner zijn geïnitieerd, niet gerespecteerd.</li></ul> |
 
