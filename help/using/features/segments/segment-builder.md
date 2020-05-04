@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -25,7 +25,7 @@ Begin door de [Create Segments in de video](https://images-tv.adobe.com/avp/vr/b
 
 <!-- t_create_segment.xml -->
 
-[!UICONTROL Segment Builder] bestaat uit drie afzonderlijke delen: [!UICONTROL Basic Information], [!UICONTROL Traits], en [!UICONTROL Destinations Mapping]. Als u een segment wilt maken, vult u de vereiste velden in de [!UICONTROL Basic Information] secties en [!UICONTROL Traits] secties in. [!UICONTROL Destinations Mapping] instellingen zijn optioneel. Raadpleeg de onderstaande instructies voor meer hulp.
+[!UICONTROL Segment Builder] bestaat uit drie afzonderlijke delen: [!UICONTROL Basic Information], [!UICONTROL Traits]en [!UICONTROL Destinations Mapping]. Als u een segment wilt maken, vult u de vereiste velden in de [!UICONTROL Basic Information] secties en [!UICONTROL Traits] secties in. [!UICONTROL Destinations Mapping] instellingen zijn optioneel. Raadpleeg de onderstaande instructies voor meer hulp.
 
 1. In het gedeelte [Basisinformatie](../../features/segments/segment-builder.md#segment-builder-controls-basics) :
 
@@ -52,6 +52,10 @@ Begin door de [Create Segments in de video](https://images-tv.adobe.com/avp/vr/b
 1. *(Optioneel)* Wijs een segment toe aan een doel in de sectie [Toewijzing](../../features/segments/segment-builder.md#segment-builder-controls-destinations) bestemming:
    * Zoek naar de bestemming en klik **[!UICONTROL Add Destination]**. Nota, moet de bestemming reeds bestaan alvorens u het aan een segment kunt toevoegen.
    * Klik **[!UICONTROL Save]** wanneer gereed.
+
+Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Besturingselementen voor Segment Builder: Sectie Basisinformatie {#segment-builder-controls-basics}
 
