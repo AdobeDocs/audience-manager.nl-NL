@@ -1,13 +1,13 @@
 ---
 description: Met de gereedschappen voor bulkbeheer kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt Bulk de Hulpmiddelen van het Beheer gebruiken om met gegevensbronnen, afgeleide signalen, bestemmingen, omslagen, segmenten, en trekken te werken.
-keywords: baaam;BAAAM
+keywords: baaam;BAAAM;download baaam
 seo-description: Met de gereedschappen voor bulkbeheer kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt Bulk de Hulpmiddelen van het Beheer gebruiken om met gegevensbronnen, afgeleide signalen, bestemmingen, omslagen, segmenten, en trekken te werken.
 seo-title: Aan de slag met Bulk Management
 solution: Audience Manager
 title: Aan de slag met Bulk Management
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
 
 ---
 
@@ -32,14 +32,14 @@ Deze eigenschap gebruikt een spreadsheet van Microsoft Excel met macro&#39;s die
 
 ## Downloaden {#download}
 
-Download **[hier](assets/BAAAM_V2_20200311.xlsm)**het nieuwste werkblad.
+Download **[hier](assets/BAAAM_V2_20200502.xlsm)**het nieuwste werkblad.
 
 ## Vereisten {#prereqs}
 
 U hebt het volgende nodig [!DNL Bulk Management Tools]om de toepassing te gebruiken:
 
 * Uw [!DNL Experience Cloud] aanmelding. Als klant hebt u deze gegevens al.
-* Het [!DNL Bulk Management Tools] werkblad. [Download het werkblad](assets/BAAAM_V2_20200311.xlsm) voor de nieuwste versie.
+* Het [!DNL Bulk Management Tools] werkblad. [Download het werkblad](assets/BAAAM_V2_20200502.xlsm) voor de nieuwste versie.
 * Microsoft Excel dat op [!DNL macOS] of met 64 bits loopt [!DNL Microsoft Windows]. We raden u aan de nieuwste versie van Microsoft Excel te gebruiken.
 * Wanneer u het werkblad opent, moet u Macro **&#39;s** inschakelen om het werkblad te kunnen [!DNL Bulk Management Tools] openen.
 
