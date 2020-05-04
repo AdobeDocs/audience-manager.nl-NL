@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Trend Reports
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 translation-type: tm+mt
-source-git-commit: 760818663ff3eb32c6de876c756697e1d9034369
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -95,6 +95,10 @@ Wanneer het filtreren van de resultaten door [!UICONTROL Cross-Device ID]:
 ![trendrapport-eigenschappen](assets/trend-report-traits.png)
 
 Uit cijfers blijkt dat er voor die dag [!DNL Audience Manager] geen gegevens zijn verzameld. Lege vermeldingen geven aan dat de eigenschap niet bestond.
+
+Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Trend Report Resultaten voor segmenten {#segment-report-results-traits}
 
