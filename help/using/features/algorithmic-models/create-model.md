@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Een algoritmisemodel maken
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 translation-type: tm+mt
-source-git-commit: 35bad7e676aa1d4143f5d114a1eff85d6aba5f1d
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -47,6 +47,10 @@ Voer de onderstaande stappen uit om een [!UICONTROL Look-Alike Model]:
    * Selecteer een gegevensbron in de [!UICONTROL Available Data] lijst.
    * Klik **[!UICONTROL Save]** wanneer gereed.
       ![look-alike-configuration](assets/look-alike-configuration.png)
+
+Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Basisinformatie voor algoritmische modellen {#basic-information}
 
