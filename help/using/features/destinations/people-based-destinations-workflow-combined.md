@@ -5,7 +5,7 @@ seo-title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gec
 solution: Audience Manager
 title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 
 ---
 
@@ -112,9 +112,7 @@ Het [id-synchronisatiebestand](../../integration/sending-audience-data/batch-dat
 In het bovenstaande voorbeeld ziet de bestandsnaam er als volgt uit:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Download hier](https://marketing.adobe.com/resources/help/en_US/aam/downloads/c2c_id_999999_987654_1560431657.sync)een voorbeeldbestand.
-
-<!-- Victor/Vlad: Please check the above link. Any way you can move this download to Git? I'm concerned about the plans to decommission marketing.adobe.com -Bob -->
+[Download hier](assets/c2c_id_999999_987654_1560431657.sync)een voorbeeldbestand.
 
 Zodra u uw dossier van de synchronisatie van identiteitskaart hebt gecreeerd, moet u het aan een [!DNL Amazon S3] emmertje uploaden. Zie Batchgegevens [verzenden naar Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)voor meer informatie over het uploaden van ID-synchronisatiebestanden.
 
