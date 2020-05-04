@@ -5,7 +5,7 @@ seo-title: Algorithmic Models Trait Exclusion
 title: Algorithmic Models Trait Exclusion
 uuid: 1359800b-6e6c-41e1-88b4-23d31952abb3
 translation-type: tm+mt
-source-git-commit: e6e22c0c4a8f1374d3d8d18cb7b242e18a29571f
+source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
 
 ---
 
@@ -47,6 +47,10 @@ Met de workflow [Een model](../../features/algorithmic-models/create-model.md#bu
 Bekijk onze videodemo voor Trait Exclusion als u liever videozelfstudies wilt:
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/?quality=12)
+
+Bekijk de video hieronder voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
+
+>[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Belangrijke aspecten en beperkingen {#important-aspects-and-limitations}
 
