@@ -1,13 +1,16 @@
 ---
 description: De detailspagina voor een individueel bezit verstrekt overzicht van informatie zoals de het handelsnaam, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit bepalen, segmenten het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar Audience Data > Traits en klikt u op de naam van het kenmerk waarmee u wilt werken.
 seo-description: De detailspagina voor een individueel bezit verstrekt overzicht van informatie zoals de het handelsnaam, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit bepalen, segmenten het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar Audience Data > Traits en klikt u op de naam van het kenmerk waarmee u wilt werken.
-seo-title: Detailpagina van taak
+seo-title: Detailpagina Trait
 solution: Audience Manager
 title: Detailpagina Trait
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
-keywords: identity type breakdown, identity breakdown, audience identity reporting
+keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 0%
 
 ---
 
@@ -37,12 +40,20 @@ Het [!UICONTROL Trait Graph] biedt in één oogopslag prestatiemetriek voor uw g
 
 [!UICONTROL Unique Trait Realizations] Hiermee wordt een aantal unieke gebruikers weergegeven die deze eigenschap binnen het opgegeven tijdbereik aan hun profiel hebben toegevoegd. Het [!UICONTROL Total Trait Population] geeft het aantal unieke gebruikers aan dat momenteel voor deze eigenschap in aanmerking komt.
 
-* Voor op regel-gebaseerde eigenschappen, komt de vakkwalificatie in real time voor, aangezien de gebruikers voor een eigenschap in hun browser kwalificeren.
-* Voor onboded eigenschappen, gebeurt de vakkwalificatie nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt [gevoerd in de Manager](../../faq/faq-inbound-data-ingestion.md) van de Publiek en dat is wanneer de vakkwalificatie gebeurt.
+Voor op regel-gebaseerde eigenschappen, komt de vakkwalificatie in real time voor, aangezien de gebruikers voor een eigenschap in hun browser kwalificeren.
+
+Voor onboded eigenschappen, gebeurt de vakkwalificatie nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt [gevoerd in de Manager](../../faq/faq-inbound-data-ingestion.md) van de Publiek en dat is wanneer de vakkwalificatie gebeurt.
+
+In dit [!UICONTROL Trait Graph] venster ziet u de volgende informatie:
+
+* **[!UICONTROL Show results by]**
+   * **[!UICONTROL Cross-Device ID]**: Selecteer deze optie als u de resultaten wilt zien voor kenmerken die gegevens voor geverifieerde profielen verzamelen. Wanneer u deze optie selecteert, ziet u alleen gegevens in het [!UICONTROL Cross-Device ID] rapport en zijn er geen gegevens in het [!UICONTROL Device ID] rapport.
+   * **[!UICONTROL Device ID]**: Selecteer deze optie als u de resultaten wilt zien voor kenmerken die gegevens voor apparaatprofielen verzamelen. Wanneer u deze optie selecteert, ziet u alleen gegevens in het [!UICONTROL Device ID] rapport en zijn er geen gegevens in het [!UICONTROL Cross-Device ID] rapport.
+
+      ![grafiek](assets/trait-summary.png)
+
 * **[!UICONTROL Unique Trait Realizations]**: Een aantal unieke gebruikers die deze eigenschap binnen het opgegeven tijdbereik aan hun profiel hebben toegevoegd.
 * **[!UICONTROL Total Trait Population]**: Het aantal unieke gebruikers dat momenteel in aanmerking komt voor deze eigenschap.
-
-   ![grafiek](assets/trait-summary.png)
 
 * **[!UICONTROL Identity Type Breakdown]**: De eerste drie ingangen tonen de hoogste drie dwars-apparatengegevensbronnen met het hoogste populatietelling die voor het bezit, in dalende orde hebben gekwalificeerd. De vierde vermelding toont de som van alle andere [!DNL DPUUIDs] ([!DNL CRM IDs]) die voor het kenmerk in aanmerking komen, van de apparaatgegevensbronnen die zich niet in de bovenste drie bevinden. Dit rapport wordt alleen weergegeven als u Apparaatoverschrijdende id selecteert in het [!UICONTROL Show Results By] vervolgkeuzemenu rechtsboven op de pagina. De standaardoptie drop-down is, [!UICONTROL Device ID]waar dit rapport niet wordt getoond.
 
