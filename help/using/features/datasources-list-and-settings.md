@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Lijst met gegevensbronnen en instellingen
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 0%
 
 ---
 
@@ -96,6 +99,10 @@ Het [!UICONTROL Data Source Settings] bevat de onderstaande besturingselementen 
 ### Instellingen binnenkomende gegevensbron
 
 Schakel het **[!UICONTROL Inbound]** selectievakje in wanneer uw gegevensbron is ontworpen voor het ontvangen van binnenkomende gegevens. Als u het **[!UICONTROL Inbound]** selectievakje inschakelt, worden twee extra groepen besturingselementen weergegeven die hieronder worden beschreven.
+
+>[!NOTE]
+>
+>Het **[!UICONTROL Inbound]** selectievakje is alleen bedoeld om de hieronder beschreven gegevensbronbesturingselementen weer te geven of te verbergen. Het uitschakelen van de **[!UICONTROL Inbound]** optie heeft op geen enkele manier invloed op de gegevensinvoer. Uw geregistreerde gegevens worden verwerkt, ongeacht of deze optie is ingeschakeld.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
