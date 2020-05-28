@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Algoritmische kenmerken maken
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +39,7 @@ In [!UICONTROL Trait Builder], laat de [!UICONTROL Configuration] sectie u een a
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Maak een algoritmisch model](../../features/algorithmic-models/create-model.md#build-model).
+* [Maak een model](../../features/algorithmic-models/create-model.md)dat er uitziet.
 * Wacht op het bericht-e-mail die u laat weten dat de modelgegevens zijn uitgevoerd.
 * Vul de vereiste velden in de sectie [Basisinformatie](../../features/traits/create-onboarded-rule-based-traits.md) in.
 
