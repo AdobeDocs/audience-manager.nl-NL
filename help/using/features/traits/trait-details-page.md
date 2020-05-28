@@ -3,11 +3,11 @@ description: De detailspagina voor een individueel bezit verstrekt overzicht van
 seo-description: De detailspagina voor een individueel bezit verstrekt overzicht van informatie zoals de het handelsnaam, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit bepalen, segmenten het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar Audience Data > Traits en klikt u op de naam van het kenmerk waarmee u wilt werken.
 seo-title: Detailpagina Trait
 solution: Audience Manager
-title: Detailpagina Trait
+title: Detailpagina van taak
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: c761682f31c777368a21744b21d7302829007c66
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Detailpagina Trait {#trait-details-page}
+# Detailpagina van taak {#trait-details-page}
 
 De detailspagina voor een individueel bezit verstrekt een overzicht van de karakterdetails, zoals de eigenschap, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit, de segmenten bepalen het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** en klikt u op de naam van het kenmerk waarmee u wilt werken.
 
@@ -50,7 +50,7 @@ In dit [!UICONTROL Trait Graph] venster ziet u de volgende informatie:
    * **[!UICONTROL Cross-Device ID]**: Selecteer deze optie als u de resultaten wilt zien voor kenmerken die gegevens voor geverifieerde profielen verzamelen. Wanneer u deze optie selecteert, ziet u alleen gegevens in het [!UICONTROL Cross-Device ID] rapport en zijn er geen gegevens in het [!UICONTROL Device ID] rapport.
    * **[!UICONTROL Device ID]**: Selecteer deze optie als u de resultaten wilt zien voor kenmerken die gegevens voor apparaatprofielen verzamelen. Wanneer u deze optie selecteert, ziet u alleen gegevens in het [!UICONTROL Device ID] rapport en zijn er geen gegevens in het [!UICONTROL Cross-Device ID] rapport.
 
-      ![grafiek](assets/trait-summary.png)
+      ![grafiek](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**: Een aantal unieke gebruikers die deze eigenschap binnen het opgegeven tijdbereik aan hun profiel hebben toegevoegd.
 * **[!UICONTROL Total Trait Population]**: Het aantal unieke gebruikers dat momenteel in aanmerking komt voor deze eigenschap.
