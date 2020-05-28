@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Verklarende woordenlijst
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+workflow-type: tm+mt
+source-wordcount: '1186'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Definities en links naar verdere lezing.
 
 Gebruik [!UICONTROL Algorithmic Modeling] als middel om bereik voorbij de kern van gebruikers uit te breiden u hebt geïdentificeerd. Met deze functie kunt u nieuwe, unieke doelgroepen ontdekken via geautomatiseerde gegevensanalyse. Beheer uw [!UICONTROL Algorithmic Models] in **[!UICONTROL Audience Data > Models]**.
 
-Zie [Algorithmic Models](../features/algorithmic-models/understanding-models.md#understanding-models).
+Zie [Algorithmic Models](../features/algorithmic-models/algo-models-overview.md).
 
 <br> 
 
