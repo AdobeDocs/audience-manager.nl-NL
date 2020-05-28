@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Aan de slag met REST API's
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 1bbfa4b537a344d58f20763bb40ebe0827ad8698
+source-git-commit: 680c4491176755915d2d45ee64f5d88410cb7072
+workflow-type: tm+mt
+source-wordcount: '1898'
+ht-degree: 1%
 
 ---
 
@@ -48,9 +51,12 @@ De API&#39;s van de Audience Manager REST ondersteunen twee verificatiemethoden.
 
 ## JWT-verificatie (serviceaccount) {#jwt}
 
-Als u een beveiligde service-to-service Adobe I/O API-sessie wilt instellen, moet u een JSON Web Token (JWT) maken die de identiteit van uw integratie inkapselt en deze vervolgens voor een toegangstoken uitwisselen. Elke aanvraag voor een Adobe-service moet het toegangstoken bevatten in de machtigingheader, samen met de API-sleutel (client-id) die is gegenereerd toen u de integratie [van](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) serviceaccounts hebt gemaakt in de [Adobe I/O-console](https://console.adobe.io/).
+Als u een beveiligde service-to-service Adobe I/O API-sessie wilt instellen, moet u een JSON Web Token (JWT) maken die de identiteit van uw integratie inkapselt en deze vervolgens voor een toegangstoken uitwisselen. Elke aanvraag voor een Adobe-service moet het toegangstoken bevatten in de machtigingheader, samen met de API-sleutel (client-id) die is gegenereerd toen u de integratie [van](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) serviceaccounts in de [Adobe I/O-console](https://console.adobe.io/)maakte.
 
-Zie [JWT (de Authentificatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) van de Rekening van de Dienst) voor gedetailleerde instructies op hoe te om uw authentificatie te vormen.
+Voer de onderstaande stappen uit om JWT-verificatie (serviceaccount) te configureren:
+
+1. Ga naar de Integratie [van de Rekening van de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Dienst en volg alle stappen om uw verbinding van de Rekening van de Dienst te vormen en uw teken van JWT te produceren.
+2. Ga naar [JWT (de Authentificatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) van de Rekening van de Dienst) en volg de stappen om uw token van JWT (die bij stap 1 wordt gecreeerd) voor een toegangstoken te ruilen.
 
 ## OAuth-verificatie (afgekeurd) {#oauth}
 
