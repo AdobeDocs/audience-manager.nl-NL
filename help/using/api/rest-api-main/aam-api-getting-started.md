@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Aan de slag met REST API's
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 680c4491176755915d2d45ee64f5d88410cb7072
+source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
 workflow-type: tm+mt
-source-wordcount: '1898'
+source-wordcount: '1891'
 ht-degree: 1%
 
 ---
@@ -51,12 +51,22 @@ De API&#39;s van de Audience Manager REST ondersteunen twee verificatiemethoden.
 
 ## JWT-verificatie (serviceaccount) {#jwt}
 
-Als u een beveiligde service-to-service Adobe I/O API-sessie wilt instellen, moet u een JSON Web Token (JWT) maken die de identiteit van uw integratie inkapselt en deze vervolgens voor een toegangstoken uitwisselen. Elke aanvraag voor een Adobe-service moet het toegangstoken bevatten in de machtigingheader, samen met de API-sleutel (client-id) die is gegenereerd toen u de integratie [van](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) serviceaccounts in de [Adobe I/O-console](https://console.adobe.io/)maakte.
+### Vereisten {#prerequisites}
+
+Voordat u JWT-verificatie kunt configureren, moet u ervoor zorgen dat u toegang hebt tot de [Adobe Developer Console](https://console.adobe.io/). Neem contact op met uw organisatiebeheerder voor verzoeken om toegang.
+
+### Verificatie {verificatie}
 
 Voer de onderstaande stappen uit om JWT-verificatie (serviceaccount) te configureren:
 
-1. Ga naar de Integratie [van de Rekening van de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Dienst en volg alle stappen om uw verbinding van de Rekening van de Dienst te vormen en uw teken van JWT te produceren.
-2. Ga naar [JWT (de Authentificatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) van de Rekening van de Dienst) en volg de stappen om uw token van JWT (die bij stap 1 wordt gecreeerd) voor een toegangstoken te ruilen.
+1. Meld u aan bij de [Adobe Developer Console](https://console.adobe.io/).
+1. Volg de stappen in de Verbinding [van de Rekening van de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Dienst.
+   * Tijdens [stap 2: Voeg een API aan uw project toe gebruikend de authentificatie](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)van de Rekening van de Dienst, kies de optie van de Manager API van de Publiek.
+1. Probeer de verbinding uit door uw eerste API vraag te maken die op de instructies van [Stap 3](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.)wordt gebaseerd.
+
+>[!NOTE]
+>
+>Als u de REST API&#39;s van Audience Manager automatisch wilt configureren en ermee wilt werken, kunt u de JWT programmatisch genereren. Zie [JWT-verificatie (serviceaccount)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) voor gedetailleerde instructies.
 
 ## OAuth-verificatie (afgekeurd) {#oauth}
 
@@ -187,7 +197,7 @@ U kunt deze optionele parameters gebruiken met [!DNL API] methoden die *alle* ei
 | Aflopend | Sorteert en retourneert resultaten in aflopende volgorde. Oplopend is standaard. |
 | zoeken | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Stel dat u resultaten wilt zoeken voor alle modellen die het woord &quot;Testen&quot; hebben in een van de waardevelden voor dat item. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://aam.adobe.io/v1/models/?search=Test`.  U kunt zoeken op elke waarde die door de methode &quot;get all&quot; wordt geretourneerd. |
 | folderId | Retourneert alle id&#39;s voor kenmerken in de opgegeven map. Niet beschikbaar voor alle methoden. |
-| machtigingen | Retourneert een lijst met segmenten op basis van de opgegeven machtiging.  LEZEN is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u deze door `"permissions":"READ"`, `"permissions":"WRITE"` . |
+| machtigingen | Retourneert een lijst met segmenten op basis van de opgegeven machtiging.  LEZEN is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u het bestand door `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | includePermissions | (Boolean) Ingesteld op true om uw machtigingen voor het segment te retourneren. De standaardwaarde is false. |
 
 ### Een opmerking over paginaopties
