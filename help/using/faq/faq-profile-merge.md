@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1548'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,7 @@ Ja. De totale metrische segmentpopulatie omvat de extra apparaten die voor een s
 
 Nee.
 
-**Waarom wordt mijn segment na 16 maart 2020 als 0 weergegeven voor export naar Adobe Campaign?**
+**Waarom zie ik geen segmentpopulatie voor segmentexport naar Adobe Campaign na 16 maart 2020?**
 
 Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw instantie Audience Manager vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
 
