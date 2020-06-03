@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Aan de slag met regels voor het samenvoegen van profielen
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1327'
+ht-degree: 0%
 
 ---
 
@@ -98,6 +101,19 @@ De [!UICONTROL Proflie Merge Rule Setup] sectie voltooien:
    * **[!UICONTROL Profile Link Device Graph]**
    * **[!UICONTROL Device Co-op]**
 4. Klik op **[!UICONTROL Save]**.
+
+### Overwegingen bij de bestemming van Adobe-campagnes waarbij gebruik wordt gemaakt van apparaat-id&#39;s als gebruikersidentificatietoetsen {#considerations}
+
+Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw instantie Audience Manager vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
+
+Om de correcte integratie tussen uw instantie van de Manager van de Publiek en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals de Campagne van Adobe, zorg ervoor u aan de volgende vereisten voldoet:
+
+1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan het doel van de opgegeven Adobe-id voor campagne. De regel voor het samenvoegen van profielen moet de [!UICONTROL Last Authenticated Profile] optie gebruiken, zodat alle geverifieerde profielen kunnen worden opgenomen in de exportbewerking. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
+2. Selecteer de gegevensbron voor de door Adobe-campagne aangegeven id in de instellingen voor de samenvoegregel voor profielen.
+
+>[!NOTE]
+>
+> We hebben de limiet voor de regel voor het samenvoegen van profielen met 1 verhoogd voor klanten die met deze situatie worden geconfronteerd, zodat u een speciale regel voor het samenvoegen van profielen kunt maken voor de segmenten die zijn toegewezen aan de bestemming van de gedeclareerde id voor Adobe-campagne, zonder de regels voor het samenvoegen van profielen te wijzigen voor andere gebruiksgevallen.
 
 ## Code samenvoegregel configureren {#configure-merge-rule-code}
 
