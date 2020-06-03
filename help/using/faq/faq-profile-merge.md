@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+workflow-type: tm+mt
+source-wordcount: '1545'
+ht-degree: 0%
 
 ---
 
@@ -255,6 +258,19 @@ Ja. De totale metrische segmentpopulatie omvat de extra apparaten die voor een s
 **Zijn de apparaten die voor een segment met een segment kwalificeren[!UICONTROL Profile Merge Rule]die een apparatengrafiek gebruikt inbegrepen in de[!UICONTROL Interactive]rapporten,[!UICONTROL Overlap]rapporten en[!UICONTROL Audience Optimization]rapporten?**
 
 Nee.
+
+**Waarom wordt mijn segment na 16 maart 2020 als 0 weergegeven voor export naar Adobe Campaign?**
+
+Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw instantie Audience Manager vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
+
+Om de correcte integratie tussen uw instantie van de Manager van de Publiek en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals de Campagne van Adobe, zorg ervoor u aan de volgende vereisten voldoet:
+
+1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan het doel van de opgegeven Adobe-id voor campagne. De regel voor het samenvoegen van profielen moet de [!UICONTROL Last Authenticated Profile] optie gebruiken, zodat alle geverifieerde profielen kunnen worden opgenomen in de exportbewerking. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
+2. Selecteer de gegevensbron voor de door Adobe-campagne aangegeven id in de instellingen voor de samenvoegregel voor profielen.
+
+>[!NOTE]
+>
+> We hebben de limiet voor de regel voor het samenvoegen van profielen met 1 verhoogd voor klanten die met deze situatie worden geconfronteerd, zodat u een speciale regel voor het samenvoegen van profielen kunt maken voor de segmenten die zijn toegewezen aan de bestemming van de gedeclareerde id voor Adobe-campagne, zonder de regels voor het samenvoegen van profielen te wijzigen voor andere gebruiksgevallen.
 
 >[!MORELIKETHIS]
 >
