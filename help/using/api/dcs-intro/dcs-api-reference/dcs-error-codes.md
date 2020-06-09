@@ -6,7 +6,10 @@ solution: Audience Manager
 title: DCS-foutcodes, berichten en voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+workflow-type: tm+mt
+source-wordcount: '1533'
+ht-degree: 2%
 
 ---
 
@@ -247,6 +250,23 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
    <td colname="col3"> <p>De <span class="wintitle">DCS</span> retourneert deze foutcode wanneer de aanvraag een ongeldige algemene apparaat-id bevat. DCS negeert de ongeldige identiteitskaart en werpt een fout 312 samen met de specifieke fouten van ongeldige identiteitskaart Raadpleeg <a href="../../../features/global-data-sources.md" format="dita" scope="local">Algemene gegevensbronnen</a> en <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">index van id's in Audience Manager</a> voor gedetailleerde informatie over de juiste indeling voor adverteren-id voor apparaten en de bijbehorende globale gegevensbronnen.</p>
    <p>Voorbeeld van een onjuiste aanroep: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Uitleg: Een <span class="keyword">IDFA (DPID 20915)</span> moet een hoofdletter-id zijn. De id in het verzoek is in kleine letters.</p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>313 </p> </td> 
+   <td colname="col2"> <p>CMP-id is niet aanwezig in GCL</p> </td> 
+   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en het koord IAB TC door CMP identiteitskaart wordt geproduceerd die niet aanwezig in de caching versie van de Manager van de Audience van de Manager van de Audience van de Globale CMP- Lijst op het ogenblik van evaluatie is, verwerpt de Plug-in van de Manager van de Audience voor IAB TCF het koord IAB TC en verwerkt het verzoek zoals gebruikelijk. De IAB TCF v2.0 ${GDPR} macro wordt geplaatst aan 0 en $ {GDPR_CONSENT_XXX} macro is leeg.</p>
+   </td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>314 </p> </td> 
+   <td colname="col2"> <p>CMP-id is gemarkeerd als verwijderd in GCL</p> </td> 
+   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en het koord IAB TC door CMP wordt geproduceerd dat zoals geschrapt in onze caching versie van de Globale CMP- Lijst wordt duidelijk, verwerpt de Plug-in van de Manager van de Publiek voor IAB TCF het koord TC en verwerkt het verzoek zoals gebruikelijk, als de evaluatietijd voorbij de schrappingstijd van de Globale CMP- Lijst is. De IAB TCF v2.0 ${GDPR} macro wordt geplaatst aan 0 en $ {GDPR_CONSENT_XXX} macro is leeg.</p></td>
+  </tr>
+   <tr> 
+   <td colname="col1"> <p>315 </p> </td> 
+   <td colname="col2"> <p>Constante tekenreeks geeft aan dat er geen toestemming is</p> </td> 
+   <td colname="col3"> <p>Wanneer geen toestemming wordt verstrekt, opheft de Plug-in van de Manager van de Publiek voor IAB TCF de gebruiker uit verdere gegevensinzameling, of laat vallen volledig de vraag als er geen partnercontext wordt ontdekt.</p>
    </td>
   </tr>
 
