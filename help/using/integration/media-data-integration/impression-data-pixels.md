@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Vastleggen van Campagne-indrukgegevens via pixelaanroepen
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 132e36175a69a270ea608643049931fbc06efc69
+source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 17%
 
 ---
 
@@ -94,12 +97,12 @@ Aanroepen van indrukwekkende gebeurtenissen accepteren gegevens die in sleutelwa
    <td colname="col2"> <p>Gegevensbron-id of integratiecode van het platform dat de metagegevens levert (bijvoorbeeld DFA, Atlas, GBM, Media Math, enz.). </p> <p>Vereist voor <span class="wintitle"> Publiek optimaliseert </span> rapporten. </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <code><i>gdpr</i></code>  </td> 
+   <td colname="col1"> <code>gdpr</code>  </td> 
    <td colname="col2"> <p>Gerelateerd aan de <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-invoegtoepassing voor IAB TCF.</a></p> <p><code>gdpr</code> 0 (GDPR is niet van toepassing) of 1 (GDPR is van toepassing).</p> <p>De standaardwaarde is 0.</p><p>Optioneel.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
-   <td colname="col2"> <p>Gerelateerd aan de <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-invoegtoepassing voor IAB TCF.</a></p><p> Als <code>gdpr=1</code> is, dan wordt <code>%gdpr_consent%</code> vervangen door de tekenreeks <code>gdpr_consent</code> (zie <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external">IAB-specificatie</a>).</p> <p>De standaardwaarde is 0.</p><p>Optioneel.</p> </td> 
+   <td colname="col2"> <p>Gerelateerd aan de <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-invoegtoepassing voor IAB TCF.</a></p><p> Als <code>gdpr=1</code>, dan <code>${gdpr_consent_XXXX}</code> wordt vervangen door het <code>gdpr_consent</code> koord en verkopersidentiteitskaart (zie <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string" format="http" scope="external"> IAB specificatie</a>).</p> <p>De standaardwaarde is 0.</p><p>Optioneel.</p></td> 
   </tr> 
  </tbody> 
 </table>
