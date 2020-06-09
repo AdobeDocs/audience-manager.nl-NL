@@ -6,7 +6,10 @@ keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Server-naar-server doelen van Adobe Audience Manager
 translation-type: tm+mt
-source-git-commit: 7a2a42ed3b591e1466adf93f3fd31ce6555775a2
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '1389'
+ht-degree: 16%
 
 ---
 
@@ -20,7 +23,7 @@ Deze pagina bevat alleen de huidige [apparaatgebaseerde doelen](/help/using/feat
 * **Laatste bijgewerkte** = Toont de laatste datum toen er een update voor dit op apparaat-gebaseerde bestemming was.
 * **Updates** = wijst erop of de Manager van de Publiek gegevens in real time of partij (1xday) naar deze bestemming verzendt.
 * **Unsegment** = Unsegmentation beschrijft processen die apparatenprofielen van segmenten onbruikbaar maken en verwijderen. De mogelijkheid om een apparaatprofiel uit een segment te verwijderen, is afhankelijk van de apparaatoptie die wordt gebruikt om een regel voor het samenvoegen van profielen te maken. Onsegmentatie wordt ook gebruikt in de context van verzoeken tot schrapping van GDPR. Lees de Regels van de Fusie van het [Profiel en de Processen](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) van de Ontsegmentatie van het Apparaat en de Partners van de Manager van de [Publiek met Unsegmentation Mogelijkheden](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). De Manager van het publiek verzendt unsegmentinformatie naar de bestemmingen hieronder duidelijk met **ja** .
-* **Het ontvangen van TCF van IAB toestemmingssignalen** = De Plug-in van de Manager van de Audience voor IAB TCF laat u toe om het IAB TCF toestemmingskoord aan activeringspartners door te sturen terwijl het eerbiedigen van de privacykeuzen van gebruikers. Insteekmodule [Audience Manager lezen voor IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **Het ontvangen van TCF van IAB toestemmingssignalen** = De Plug-in van de Manager van de Audience voor IAB TCF laat u toe om het koord IAB TC aan activeringspartners door te sturen terwijl het eerbiedigen van de privacykeuzen van gebruikers. Insteekmodule [Audience Manager lezen voor IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **ICDS** = Deze kolom maakt een lijst van de partners die de Onmiddellijke Onderdrukking van dwars-Apparaat steunen. Lees meer over [Onmiddellijke ondersteuning](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)voor verschillende apparaten.
 * **Mobiel apparaat-id&#39;s** = Deze kolom bevat partners die mobiele apparaat-id&#39;s kunnen ontvangen van Audience Manager.
 
