@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Gedefinieerde doelmacro's
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 0%
 
 ---
 
@@ -54,9 +57,17 @@ Wanneer u een [!DNL URL] doel maakt, kunt u de volgende macro&#39;s in de [!DNL 
        Gebaseerd op AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
      </draft-comment> </p> </td> 
   </tr> 
+  <tr>
+    <td><p><code>${GDPR}</code></p></td>
+    <td><p>Geeft aan of de GDPR-regels al dan niet van toepassing zijn op de bezoeker. Gebruik deze macro om toestemming in segmenten te omvatten die naar bestemmingen URL worden verzonden die met IAB worden geïntegreerd. Zie Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager voor IAB TCF</a> voor meer informatie.</p></td>
+  </tr>
+   <tr>
+    <td><code>${GDPR_CONSENT_XXXX}</code></p></td>
+    <td><p>De toestemmingstekenreeks (met inbegrip van IAB verkopersidentiteitskaart) die wordt verzameld wanneer de bezoekers verlenen of toestemming op uw plaats ontkennen. Gebruik deze macro om het toestemmingskoord in segmenten te omvatten die naar bestemmingen URL worden verzonden die met IAB worden geïntegreerd. Vervangen <code>XXXX</code> met de identiteitskaart van de bestemmingspartner. Zie Plug-in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager voor IAB TCF</a> voor meer informatie. </p></td>
+  </tr>
   <tr> 
    <td colname="col1"> <p><code> %http_proto%</code> </p> </td> 
-   <td colname="col2"> <p>Detecteert het protocol dat in de bovenliggende webpagina wordt gebruikt en voegt dit in de doel-URL in. Bijvoorbeeld: 
+   <td colname="col2"> <p>Detecteert het protocol dat in de bovenliggende webpagina wordt gebruikt en voegt dit in de doel-URL in. Bijvoorbeeld:
      <br> 
      <ul id="ul_026F56EC46E94D9EB1153557C0F65325"> 
       <li id="li_B41EF140CC274CB68FE7213DD8B908C0">als de webpagina <b>https</b>://aam_client.com is, wordt deze macro vervangen door <b>https</b>://url-destination.com </li> 
@@ -86,7 +97,7 @@ Wanneer u een [!DNL URL] doel maakt, kunt u de volgende macro&#39;s in de [!DNL 
 
 Met de macro&#39;s `%rnd%` en de macro&#39;s voegt u unieke waarden in een `%timestamp%` [!DNL URL] tekenreeks in om te voorkomen dat de browser in cache wordt geplaatst.
 
-## Cache Buigen met `%rnd%` en `%timestamp%`{#dest-cache-busting}
+## Cache buigen met `%rnd%` en `%timestamp%` {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -97,7 +108,7 @@ Door de cache op te slaan kunnen browsers geen inhoud opslaan en opnieuw gebruik
 * `%rnd%`: Hiermee voegt u een willekeurig getal in een URL in.
 * `%timestamp%`: Hiermee wordt de Unix-datum/tijd ingevoegd in een URL.
 
-## Vergelijken `%rnd%` en `%timestamp%`{#compare-rnd-timestamp}
+## Vergelijken `%rnd%` en `%timestamp%` {#compare-rnd-timestamp}
 
 Beide macro&#39;s voorkomen caching, maar `%rnd%` kunnen efficiënter zijn. Als bijvoorbeeld meerdere gebruikers een pagina tegelijk bekijken, krijgen ze dezelfde datum-/tijdwaarde `%timestamp%`als meerdere gebruikers tegelijkertijd. Dientengevolge, [!DNL URL] is uniek en de veelvoudige vraag wordt slechts eenmaal geteld. Nochtans, `%rnd%` produceert een unieke numerieke waarde voor elke vraag (zelfs wanneer de gebruikers de zelfde pagina gelijktijdig zien). Dit betekent dat de [!DNL URL] tekenreeks andere waarden bevat en als uniek wordt geteld.
 
