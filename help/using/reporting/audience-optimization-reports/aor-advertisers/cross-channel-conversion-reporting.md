@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Cross-channelconversie
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 6988c6750c98f382a3440a606677243646551ad1
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 3%
 
 ---
 
@@ -34,11 +37,7 @@ De volgende tabel bevat een overzicht van belangrijke overwegingen bij het inste
   <tr> 
    <td colname="col01"> <p>Minimumaantal omrekeningskenmerken </p> </td> 
    <td colname="col1"> <p>Er moet ten minste één conversietekenmerk worden toegewezen aan een gegevensbron om de rapporten voor <span class="wintitle"> kanaalconversie</span> te kunnen uitvoeren. Zie <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Basisinformatie voor Verrichtingen</a> voor meer informatie over eigenschappen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col01"> <p>Maximumaantal omrekeningskenmerken </p> </td> 
-   <td colname="col1"> <p>De rapporten trekken in een <i>maximum</i> van 50 omzettingskenmerken van de gebruiker. Als u het maximum bereikt, gebruiken de rapporten de eerste 50 omzettingskenmerken die op eigenschap ID, in stijgende orde worden gebaseerd. </p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <p>Kenmerkvenster </p> </td> 
    <td> <p> <b><span class="uicontrol"> Het AAM+DCM</span></b> attributievenster is 14 dagen, wat betekent dat alleen conversietekenmerken die in de laatste twee weken zijn tentoongesteld, in aanmerking worden genomen. </p> </td> 
