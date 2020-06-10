@@ -5,12 +5,15 @@ audience: end-user
 user-guide-title: Gebruikershandleiding voor Auditiebeheer
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1711'
+ht-degree: 1%
 
 ---
 
 
-# Gebruikershandleiding voor Auditiebeheer {#user-guide}
+# Audience Manager User Guide {#user-guide}
 
 + [Productdocumentatie van Audience Manager](aam-home.md)
 + Overzicht{#overview}
@@ -138,7 +141,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
       + [Recente en frequente](features/segments/recency-and-frequency.md)
       + [Segment Builder](features/segments/segment-builder.md)
       + [Code Syntax used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
-      + [Behandelings- en segmentpopulatiegegevens in Segment Builder](features/segments/segment-builder-data.md)
+      + [Bevolkingsgegevens van het spoor en van het segment in de Bouwer van het Segment](features/segments/segment-builder-data.md)
       + [Aanbevolen stappen](features/segments/trait-recommendations.md)
       + [Verwijzing naar de kwalificatie van het spoor en het segment](features/traits/trait-and-segment-qualification-reference.md)
    + Treinen{#traits}
@@ -167,7 +170,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
       + [Voorbeeldexpressies met Booleaanse en vergelijkingsoperatoren](features/traits/trait-expression-samples.md)
       + [Verwijzing naar de kwalificatie van het spoor en het segment](features/traits/trait-and-segment-qualification-reference.md)
    + [Bezoekerprofiel Viewer](features/visitor-profile-viewer.md)
-+ Rapportage{#reporting}
++ Rapportage {#reporting}
    + [Overzicht van rapporten](reporting/reports-overview.md)
    + [Rapportendashboard](reporting/reports-dashboard.md)
    + [Algemene rapporten](reporting/general-reports.md)
@@ -227,13 +230,13 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
       + DCS API&#39;s{#dcs-apis}
          + [DCS API&#39;s voor gegevensoverdracht van server naar server](api/dcs-intro/dcs-s2s/dcs-s2s.md)
          + [Gebruikersnaam en regio&#39;s ophalen uit een DCS-reactie](api/dcs-intro/dcs-s2s/dcs-aam-ids.md)
-         + [Gebruik de identiteitsservice van het Adobe Experience Platform voor gebruikers-id&#39;s en -regio&#39;s](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
+         + [Gebruikersnaam en regio&#39;s ophalen via de Adobe Experience Platform Identity Service](api/dcs-intro/dcs-s2s/dcs-mcid-ids.md)
          + [Server-aan-Server DCS API Vraag maken](api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)
       + DCS API-naslag{#dcs-api-reference}
          + [Overzicht DCS API-naslaggids](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS API-methoden](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS-foutcodes, berichten en voorbeelden](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [ID-controle en Blackvermelding](api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+         + [ID-controle en Afwijzing](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [Id&#39;s, locaties en hostnamen van DCS-regio&#39;s](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Het opmaken van zeer belangrijke-waardeparen in Vraag DCS](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Voorwaarden van ruimte en foutafhandeling](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
@@ -332,7 +335,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
          + [Het Bericht van de steekproef aan Partners na Binnenkomende Verwerking](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
       + [Aangepaste partnerintegratie](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integratie met Adobe Experience Platform {#integration-experience-platform}
-      + [Publiek delen tussen Audience Manager en Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
+      + [Poorten delen tussen Audience Manager en Adobe Experience Platform](integration/integration-aep/aam-aep-audience-sharing.md)
    + Integratie met andere Experience Cloud-oplossingen {#integration-other-solutions}
       + [Audience Manager integreren met Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Gegevens van Adobe Analytics doorsturen naar Audience Manager](integration/integration-other-solutions/audience-management-module.md)
@@ -400,7 +403,7 @@ source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
    + [Waarom zijn onze gebruikers Alleen-lezen in staat om kenmerken en segmenten te maken, te bewerken of te verwijderen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Wij zijn geen klant van de Manager van het Publiek, maar zie de vraag Javascript van de Manager van het Publiek op onze plaats](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Moet ik mijn in kaart gebrachte segmenten van het Laboratorium van het publiek van de Manager van de Audience op de pagina van bestemmingsdetails zien?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
-+ Documentatieupdates{#documentation-updates}
++ Documentatie-updates{#documentation-updates}
    + [2020 Documentatie - Updates](docs-updates/docs-2020.md)
    + [2019 Documentatieupdates](docs-updates/docs-2019.md)
    + [2018 Documentatieupdates](docs-updates/docs-2018.md)
