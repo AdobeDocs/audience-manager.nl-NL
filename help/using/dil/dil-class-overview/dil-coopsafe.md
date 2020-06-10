@@ -6,7 +6,10 @@ solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '540'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ Als u `isCoopSafe` het volgende wilt gebruiken:
 * Gebruik [!UICONTROL DIL] v6.11 of hoger.
 * Neem deel aan de [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). De perspectiefleden van coop zouden deze documentatie ook moeten herzien om te bepalen als `isCoopSafe` mogelijke bezorgdheid over hoe de gegevens worden gebruikt om de apparatengrafiek tot stand te brengen.
 
-* Werk samen met uw [!DNL Adobe] consultant om een whitelist- of een blacklist-vlag in te stellen op uw Co-op-account voor apparaten. Er is geen zelfbedieningspad om deze markeringen in te schakelen.
+* Werk samen met uw [!DNL Adobe] consultant om een allowlist- of een denylist-vlag in te stellen op uw Device Co-op-account. Er is geen zelfbedieningspad om deze markeringen in te schakelen.
 
 ## Gevallen gebruiken {#use-cases}
 
