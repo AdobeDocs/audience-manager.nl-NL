@@ -7,7 +7,10 @@ title: Veelgestelde vragen over gegevensverzameling en productintegratie
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '1072'
+ht-degree: 0%
 
 ---
 
@@ -34,13 +37,13 @@ De treinen die via [!UICONTROL Inbound] worden ingelegd, worden op dezelfde mani
 
 <br> 
 
-**Kunt u me een lijst van IP adressen verstrekken ik voor dpm.demdex.net kan whitelist?**
+**Kunt u me een lijst van IP adressen verstrekken ik aan kan toevoegen toestaan lijst voor dpm.demdex.net?**
 
 Helaas kunnen we dat niet. Deze IPs wordt dynamisch toegewezen, door geografisch gebied, door [!DNL Amazon Web Services]. Dientengevolge, controleert [!DNL Audience Manager] niet de waaier van IPs die aan dit adres kan worden toegewezen.
 
 <br> 
 
-**Kunt u me van een IP adres voorzien ik voor uw binnenkomende en uitgaande server sFTP kan whitelist?**
+**Kan u me van een IP adres voorzien ik aan kan toevoegen sta lijst voor uw binnenkomende en uitgaande server sFTP toe?**
 
 Ja, zie hieronder.
 
