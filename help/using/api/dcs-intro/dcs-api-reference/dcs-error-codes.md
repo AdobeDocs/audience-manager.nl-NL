@@ -6,9 +6,9 @@ solution: Audience Manager
 title: DCS-foutcodes, berichten en voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 07fb9269f285a8662a9ce5e03d8be8b8d51df553
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1545'
 ht-degree: 2%
 
 ---
@@ -212,22 +212,22 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Geblokkeerde klant-id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wordt geretourneerd wanneer de klant-id is geïdentificeerd als kwaadaardig en op de zwarte lijst staat. </p> </td> 
+   <td colname="col3"> <p>Wordt geretourneerd wanneer de klant-id als kwaadaardig is geïdentificeerd en aan een denylist is toegevoegd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Id van geblokkeerde gegevensbron <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wordt geretourneerd wanneer de gegevensbron-id is geïdentificeerd als kwaadaardig en op de zwarte lijst staat. </p> </td> 
+   <td colname="col3"> <p>Geretourneerd wanneer gegevensbron ID als kwaadwillig is geïdentificeerd en aan een ontkenningslijst is toegevoegd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Opgegeven apparaat met blokkering <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>De apparaat-id is geïdentificeerd als kwaadaardig en staat op de zwarte lijst. Dit kan gebeuren wanneer we in een korte tijd een extreem aantal <span class="wintitle"> DCS</span> -verzoeken met deze apparaat-id ontvangen. </p> </td>
+   <td colname="col3"> <p>De apparaat-id is als kwaadaardig geïdentificeerd en is toegevoegd aan een denylist Dit kan gebeuren wanneer er een zeer grote hoeveelheid <span class="wintitle"> DCS</span> -verzoeken met deze apparaat-id wordt ontvangen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Geblokkeerde profielbewerking voor <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Een lees-/schrijfbewerking is geblokkeerd omdat een id is geïdentificeerd als kwaadaardig en op de zwarte lijst staat. Zie foutcode 306. </p> </td> 
+   <td colname="col3"> <p>Een lees-/schrijfactie is geblokkeerd omdat een id is geïdentificeerd als kwaadaardig en is toegevoegd aan een denylist Zie foutcode 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
