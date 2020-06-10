@@ -4,7 +4,10 @@ seo-description: Conceptuele informatie, beschrijvingen en definities voor DCS A
 seo-title: Overzicht DCS API-naslaggids in Adobe Audience Manager (AAM)
 title: Overzicht DCS API-naslaggids
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +24,9 @@ Conceptuele informatie, beschrijvingen, en definities voor code DCS API, methode
 
    Foutcodes en berichten die worden gegenereerd door de gegevensverzamelingsservers (DCS) in numerieke volgorde op basis van code-id.
 
-* [ID-controle en Blackvermelding](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-blacklisting.md)
+* [ID-controle en Afwijzing](/help/using/api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
 
-   De DCS bewaakt de id&#39;s die het ontvangt en somt de id&#39;s op die in een korte periode met een ongewoon hoge snelheid worden verzonden.
+   DCS controleert identiteitskaarts het ontvangt en voegt die toe die tegen een ongebruikelijk hoog tarief over een korte periode aan ontkent lijst worden verzonden.
 
 * [Id&#39;s, locaties en hostnamen van DCS-regio&#39;s](/help/using/api/dcs-intro/dcs-api-reference/dcs-regions.md)
 
