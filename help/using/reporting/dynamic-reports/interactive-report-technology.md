@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Rapporttechnologie
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: b5a962381780f1a1627e39b59e3ca86fd51763b5
+source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 0%
 
 ---
 
@@ -79,52 +82,6 @@ In de volgende tabel worden de vormen, grootten en kleuren gedefinieerd die word
  </tbody> 
 </table>
 
-## Verklaarde pictogrammen en gereedschappen rapporteren {#icons-tools-explained}
+## Documentatie tableau {#tableau-documentation}
 
-Beschrijft hoe te om diverse pictogram-hulpmiddelen te zoeken en te gebruiken die in de dynamische rapporten worden gebruikt.
-
-<!-- 
-
-r_icons.xml
-
- -->
-
-### Gegevenspictogrammen en -gereedschappen
-
-De volgende pictogrammen-hulpmiddelen zijn beschikbaar bij de bodem van elk dynamisch rapportvenster. In de volgende afbeelding vindt u meer informatie over deze gereedschappen.
-
-![](assets/tools_icons90.png)
-
-### Gegevens exporteren
-
-Met deze gereedschappen kunt u gegevens uit het rapport in vier verschillende indelingen exporteren.
-
-| Exportoptie | Gegevens worden geëxporteerd |
-|---|---|
-| **[!UICONTROL Image]** | Als afbeeldingsbestand (.png). Nuttig wanneer u rapportgegevens in zijn originele, grafische formaat wilt downloaden en delen. |
-| **[!UICONTROL PDF]** | Als PDF-bestand. |
-| **[!UICONTROL Data]** | In een nieuw browservenster als numerieke gegevens in kolommen en rijen. |
-| **[!UICONTROL Crosstab]** | Als CSV-bestand. |
-
-### Wijzigingen herstellen
-
-Selecteer dit hulpmiddel om het even welke interactieve klikveranderingen ongedaan te maken u op het rapport kunt uitgevoerd.
-
-### Automatische updates
-
-De [!UICONTROL Delivery-Performance] en [!UICONTROL Trait-to-Trait Overlap] rapporten zijn dynamische rapporten die antwoorden en veranderen gebaseerd op acties van de gebruikersklik.
-
-Stel bijvoorbeeld dat u verschillende adverteerders in het [!UICONTROL Overlap] rapport wilt selecteren. Als deze optie is ingeschakeld, worden automatisch bijgewerkte gegevens geretourneerd zodra u een selectievakje hebt ingeschakeld. Dit dynamische gedrag kan uw werkstroom onderbreken omdat u moet wachten tot het rapport klaar is met verwerken voordat u een andere adverteerder selecteert. Gebruik dit gereedschap om die functie naar wens uit te schakelen (en weer in te schakelen).
-
-### Gegevens vernieuwen
-
-Klik op het pictogram Vernieuwen om een rapport uit te voeren of de gegevensset opnieuw te laden. Wanneer de automatische updates weg zijn, verfrist de klik zich om het rapport in werking te stellen of bij te werken.
-
-### Zoeken
-
-De zoekopdracht wordt aangeduid met een generiek vergrootglaspictogram (niet weergegeven). Het zoekveld wordt verborgen totdat u op de selectielabels aan de linkerkant van het scherm klikt. In de onderstaande tabel wordt de locatie van het zoekprogramma voor elk rapport beschreven.
-
-| Rapport | Als u een zoekopdracht wilt zoeken, houdt u de muisaanwijzer boven |
-|---|---|
-| [!UICONTROL Delivery and Performance] verslag | Het label Advertiser Name. |
-| [!UICONTROL Overlap] rapporten | Het label &#39;SID Name&#39;. |
+Voor meer informatie over de controles van Tableau die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor de Server van [Tableau op Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
