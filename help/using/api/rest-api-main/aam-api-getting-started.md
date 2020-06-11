@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Aan de slag met REST API's
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: b78dc6df380d43b809ae169f23eea208cd951a4b
+source-git-commit: e51a4302808958093342170d513701ac1547c275
 workflow-type: tm+mt
 source-wordcount: '1890'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Informatie over algemene vereisten, authentificatie, facultatieve vraagparameter
 
 <!-- c_rest_api_overview.xml -->
 
-## API-vereisten en aanbevelingen {#api-requirements-recommendations}
+## API-vereisten en -aanbevelingen {#api-requirements-recommendations}
 
 Wat u moet en moet doen wanneer u met de Manager [!DNL API]van de Publiek werkt.
 
@@ -57,7 +57,7 @@ Voordat u JWT-verificatie kunt configureren, moet u ervoor zorgen dat u toegang 
 
 ### Verificatie
 
-Voer de onderstaande stappen uit om JWT-verificatie (serviceaccount) te configureren:
+Voer de onderstaande stappen uit om JWT-verificatie (Service Account) te configureren:
 
 1. Meld u aan bij de [Adobe Developer Console](https://console.adobe.io/).
 1. Volg de stappen in de Verbinding [van de Rekening van de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Dienst.
