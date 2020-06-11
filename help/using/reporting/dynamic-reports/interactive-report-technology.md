@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Rapporttechnologie
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 1faafcda1060c1fab9de454976aac7cf191f456a
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -84,4 +84,4 @@ In de volgende tabel worden de vormen, grootten en kleuren gedefinieerd die word
 
 ## Documentatie tableau {#tableau-documentation}
 
-Voor meer informatie over de controles van Tableau die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor de Server van [Tableau op Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm.)
+Voor meer informatie over de controles van Tableau die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor de Server van [Tableau op Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
