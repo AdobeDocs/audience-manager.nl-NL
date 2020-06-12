@@ -1,20 +1,23 @@
 ---
-description: Met uitvoerbare logbestanden kunt u mediasignalen vastleggen uit logbestanden van een server om kenmerken te maken in Audience Manager. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u pixels hoeft toe te voegen.
+description: Met uitvoerbare logbestanden kunt u mediasignalen vastleggen uit logbestanden van een server om kenmerken in Audience Manager te maken. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u pixels hoeft toe te voegen.
 keywords: actionable logs, alf, ALF
-seo-description: Met uitvoerbare logbestanden kunt u mediasignalen vastleggen uit logbestanden van een server om kenmerken te maken in Audience Manager. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u pixels hoeft toe te voegen.
+seo-description: Met uitvoerbare logbestanden kunt u mediasignalen vastleggen uit logbestanden van een server om kenmerken in Audience Manager te maken. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u pixels hoeft toe te voegen.
 seo-title: Werkbare logbestanden
 solution: Audience Manager
 title: Werkbare logbestanden
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
+source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 2%
 
 ---
 
 
 # Werkbare logbestanden {#actionable-log-files}
 
-[!UICONTROL Actionable Log Files] kunt u mediagegevens vastleggen uit logbestanden van een advertentieserver en de gegevens gebruiken om kenmerken te maken in Audience Manager. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u [pixels](../../integration/media-data-integration/impression-data-pixels.md)hoeft toe te voegen.
+[!UICONTROL Actionable Log Files] Hiermee kunt u mediagegevens vastleggen uit logbestanden van een advertentieserver en de gegevens gebruiken om eigenschappen in Audience Manager te maken. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u [pixels](../../integration/media-data-integration/impression-data-pixels.md)hoeft toe te voegen.
 
 >[!NOTE]
 >
@@ -29,19 +32,20 @@ source-git-commit: 408ebf38ad75f32d110455b754a096328f2c456e
 Om met te beginnen [!UICONTROL Actionable Log Files], moet u logboekgegevens invoeren in [!DNL Audience Manager]. Aan de slag met de volgende koppelingen:
 
 * Zie DCM-gegevensbestanden [!UICONTROL Google DCM] importeren in Audience Manager [voor](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) logbestanden *en neem* contact op met uw [!DNL Audience Manager] consultant.
+* Zie DFP-gegevensbestanden [!UICONTROL Google DFP] importeren in Audience Manager [voor](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) logbestanden *en neem* contact op met uw [!DNL Audience Manager] consultant.
 * Zie [Gegevens- en metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *en neem* contact op met uw [!DNL Audience Manager] consultant voor andere aanmeldingen op de advertentieserver.
 
-Als u reeds logboekgegevens in invoert [!DNL Audience Manager], vraag uw [!DNL Audience Manager] consultant of [Klantenservice](https://helpx.adobe.com/contact/enterprise-support.ec.html) om [!UICONTROL Actionable Log Files] voor u toe te laten.
+Als u reeds logboekgegevens in invoert [!DNL Audience Manager], vraag uw [!DNL Audience Manager] consultant of [Klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) om [!UICONTROL Actionable Log Files] voor u toe te laten.
 
 >[!IMPORTANT]
 >
-> Eind 2019 [!UICONTROL Actionable Log Files] begon de beschikbaarheid van nieuwe advertentieservers uit te breiden. Vraag uw [!DNL Audience Manager] consultant of [klantenservice](https://helpx.adobe.com/contact/enterprise-support.ec.html) om aan de slag te gaan.
+> Eind 2019 [!UICONTROL Actionable Log Files] begon de beschikbaarheid van nieuwe advertentieservers uit te breiden. Vraag uw [!DNL Audience Manager] consultant of [klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) om aan de slag te gaan.
 
 ## Werken met uitvoerbare logbestanden {#working-with-actionable-log-files}
 
 Met [!UICONTROL Actionable Log Files], wordt de informatie van de dossiers van de server op [!DNL Audience Manager] de zelfde manier gevangen dat u gegevens van Websites in real time interactie zou vangen. [!DNL Audience Manager] verbindt met uw opslag van het het logboeklogboek van de advertentieserver, ontleedt de informatie van de logboeken, en verzendt de logboekgegevens als activeerbare signalen naar onze Servers [van de](../../reference/system-components/components-data-collection.md#dcs-pcs)Inzameling van Gegevens.
 
-U moet nog opstelling op regel-gebaseerde eigenschappen om de handelingssignalen te vangen. Zie hoe te opstelling op regel-gebaseerde eigenschappen of in de [Manager UI](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) van de Publiek of het gebruiken van onze Hulpmiddelen [van het](../../reference/bulk-management-tools/bulk-create.md)Beheer van het Bulk. Blader omlaag naar de sectie [Handbare signalen](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) voor een lijst met alle toetsen die u kunt gebruiken in op regels gebaseerde kenmerken.
+U moet nog opstelling op regel-gebaseerde eigenschappen om de handelingssignalen te vangen. Zie hoe te opstelling op regel-gebaseerde eigenschappen of in de UI [van de](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager of het gebruiken van onze [Hulpmiddelen](../../reference/bulk-management-tools/bulk-create.md)van het Beheer van het Bulk. Blader omlaag naar de sectie [Handbare signalen](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) voor een lijst met alle toetsen die u kunt gebruiken in op regels gebaseerde kenmerken.
 
 >[!IMPORTANT]
 >
@@ -93,7 +97,7 @@ De lijst maakt een lijst van de actioneerbare signalen van [!DNL DCM] logboekdos
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit niet met de gegevensbronnen van de Manager van de Publiek verwant is.</p> <p>Dit veld verwijst naar de Advertiser Group ID van DCM. </p> </td> 
+   <td colname="col3"><p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit niet met de gegevensbronnen van de Audience Manager verwant is.</p> <p>Dit veld verwijst naar de Advertiser Group ID van DCM. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +127,7 @@ De lijst maakt een lijst van de actioneerbare signalen van [!DNL DCM] logboekdos
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Geeft het gebeurtenistype aan. Audience Manager leest het gebeurtenistype uit de naam van het DCM-logbestand en zet het om in een actionabel signaal. </p> <p>Accepteerde waarden zijn: </p> <p> 
+   <td colname="col3"> <p>Geeft het gebeurtenistype aan. Audience Manager leest het gebeurtenistype van het DCM logboekdossier - naam en zet het in een actionable signaal om. </p> <p>Accepteerde waarden zijn: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> voor indrukken. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> voor klikken. </li> 
@@ -192,7 +196,7 @@ Eerst moet u uw aanmeldingen bij de advertentieserver deponeren in de Amazon S3-
   <tr> 
    <td colname="col1"> <p> <code>Advertiser-ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"> <p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit gebied niet met de gegevensbronnen van de Manager van de <a href="../../features/datasources-list-and-settings.md">Publiek verwant is.</a></p></td> 
+   <td colname="col3"> <p>Een integratiecode voor de gegevensbron van uw adverteerder. Dit veld heeft geen betrekking op gegevensbronnen van <a href="../../features/datasources-list-and-settings.md">Audience Managers.</a></p></td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
@@ -222,7 +226,7 @@ Eerst moet u uw aanmeldingen bij de advertentieserver deponeren in de Amazon S3-
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Geeft het gebeurtenistype aan. Audience Manager leest het gebeurtenistype uit de naam van het logbestand en zet het om in een actionable signaal. Zie naamgevingsconventies voor <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">logbestanden</a>. </p> <p>Accepteerde waarden zijn: </p> <p> 
+   <td colname="col3"> <p>Geeft het gebeurtenistype aan. Audience Manager leest het gebeurtenistype van het logboekdossier - naam en zet het in een actionable signaal om. Zie naamgevingsconventies voor <a href="../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md#naming-conventions">logbestanden</a>. </p> <p>Accepteerde waarden zijn: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> voor indrukken. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> voor klikken. </li> 
@@ -245,7 +249,7 @@ De signalen die in de lijst worden beschreven worden gevangen in [!DNL Audience 
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_activity=1234&d_creative=24122&d_placemebt=3442&d_bu=3983524&d_campaign=7321391&d_adsrc=11111
 ```
 
-## Werken met ActionScript-signalen in de gebruikersinterface van Audience Manager {#actionable-signals-in-ui}
+## Werken met Handbare signalen in de gebruikersinterface van de Audience Manager {#actionable-signals-in-ui}
 
 U kunt uw inkomende actionable signalen in de interface van het Onderzoek van [Signalen](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) bekijken.
 
@@ -284,16 +288,16 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 
 [Met behulp van labels](https://support.google.com/dcm/partner/answer/4293719?hl=en) voor spotlightinformatie kunnen adverteerders de omzettingen van gebruikers bijhouden. Met [!UICONTROL Actionable Log Files], kunt u de [!DNL DCM] omzettingen in de Rapporten [van de Optimalisering van de](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Publiek of in het Laboratorium [van de](../../features/audience-lab/audience-lab.md)Publiek volgen:
 
-1. Maak een kenmerk en gebruik de volgende regel voor het vastleggen van een conversie van de logboeken van de advertentieserver:
+1. Maak een kenmerk en gebruik de volgende regel voor het vastleggen van een conversie uit de logboeken van de advertentieserver:
 
    `d_event == conv AND d_conversion == 123`
 
-   Selecteer [!UICONTROL UI]als de eigenschap bij het maken van de eigenschap in Audience Manager [!UICONTROL Conversion] [!UICONTROL Event Type].
+   Selecteer [!UICONTROL UI]als de eigenschap bij het maken van de eigenschap in de Audience Manager [!UICONTROL Conversion] [!UICONTROL Event Type].
 
 2. Als u de eigenschap hebt gemaakt, wordt de conversie in en [!UICONTROL Audience Optimization Reports] [!UICONTROL Audience Lab]in gerapporteerd.
 
 >[!MORELIKETHIS]
 >
->* [DCM-gegevensbestanden importeren in Auditiebeheer](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [DCM-gegevensbestanden importeren in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Rapporten voor publiek optimaliseren](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
