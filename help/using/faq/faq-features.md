@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Veelgestelde vragen over productfuncties en -functies
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 2b70b651a626c2b5667edb58c8c6068152a9d770
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
 
 Algemene vragen en problemen met betrekking tot producten en functies.
 
-<br> 
+ 
 
 <!-- 
 
@@ -30,9 +33,9 @@ Het *`Organization ID`* is een unieke id die uw organisatie identificeert voor [
 
 Een *`Organization ID`* ziet er bijvoorbeeld als volgt uit: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-Deze *`Organization ID`* wordt gebruikt door de [DIL](../dil/dil-overview.md) -API van Audience Manager, de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html)en andere [!DNL Experience Cloud] oplossingen. Gebruikers met beheerdersmachtigingen kunnen de instructies *`Organization ID`* op het [!DNL Adobe Admin Console]scherm vinden. Zie [Beheer - Veelgestelde vragen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)over Gebruikersbeheer.
+Het *`Organization ID`* wordt gebruikt door [DIL](../dil/dil-overview.md) API van Audience Manager, de Dienst [van de Identiteit van het](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform, en andere [!DNL Experience Cloud] oplossingen. Gebruikers met beheerdersmachtigingen kunnen de instructies *`Organization ID`* op het [!DNL Adobe Admin Console]scherm vinden. Zie [Beheer - Veelgestelde vragen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)over Gebruikersbeheer.
 
-<br> 
+ 
 
 **Kan ik eigenschappen of bestemmingen in bulk tot stand brengen?**
 
@@ -40,27 +43,33 @@ Ja. Zie [Bulk Management Tools](../reference/bulk-management-tools/bulk-manageme
 
 >[!NOTE]
 >
->De [!UICONTROL Bulk Management Tools] gereedschappen *worden niet* ondersteund door [!DNL Audience Manager]. Ze zijn alleen beschikbaar voor gemak en als hoffelijkheid. Voor grote wijzigingen raden we u aan om in plaats daarvan met de API&#39;s van [Audience Manager](../api/api.md) te werken.
+>De [!UICONTROL Bulk Management Tools] gereedschappen *worden niet* ondersteund door [!DNL Audience Manager]. Ze zijn alleen beschikbaar voor gemak en als hoffelijkheid. Voor bulkwijzigingen raden we u aan met de [Audience Manager-API&#39;s](../api/api.md) te werken.
 
-<br> 
+ 
+
+**Bij het exporteren van een bulk-id naar een doel ontbreken enkele klant-id&#39;s. Waarom gebeurt dat?**
+
+Wanneer een apparaat-id ([AAM UUID](../reference/ids-in-aam.md)) is gekoppeld aan meerdere CRM-id&#39;s ([DPUUIDs](../reference/ids-in-aam.md)), wordt alleen de meest recente toewijzing geëxporteerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
+
+ 
 
 **Kan de noodzaak van tags of pixels van derden[!DNL Audience Manager]verminderen en de laadtijden van pagina&#39;s verbeteren?**
 
 Als [!DNL Audience Manager] is geïntegreerd met uw gegevenspartner van derden, kunt u hun pixels en tags vervangen door een server-naar-server-id-aanroep naar [!DNL Audience Manager]. In dit geval, zou één enkele vraag van identiteitskaart in brand steken de eerste keer wij een gebruiker zien en die informatie synchroniseren met uw derdepartner. [!DNL Audience Manager] Dit elimineert de behoefte om veelvoudige pixelvraag van elke pagina te maken. Het verminderen van pixelaanroepen kan de laadtijden van de pagina verbeteren.
 
-<br> 
+ 
 
 **Ik heb me geabonneerd op een gegevensfeed. Waar worden die gegevens opgeslagen?**
 
 Uw gegevensfeed en alle kenmerken in de feed worden weergegeven als submappen en kenmerken in [!DNL Audience Manager]. Ga naar **[!UICONTROL Audience Data > Traits]** en breid de [!UICONTROL 3rd-Party Data] map uit om uw kenmerken weer te geven of maak segmenten en modellen met deze gegevens.
 
-<br> 
+ 
 
 **Wat is[!UICONTROL Tag Insertion Manager (TIM)]dat?**
 
 Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Launch]. For more information, see [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) and [Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html).
 
-<br> 
+ 
 
 **Wat zijn de verschillen tussen Algorithmic Models en Trait Recommendations? Wanneer moet ik ze allemaal gebruiken?**
 
@@ -82,8 +91,8 @@ U moet Trait Recommendations gebruiken wanneer:
 * U gebruikt de segmenten voor korte campagnes of wanneer u publiek snel wilt onderdrukken die omzet;
 * U probeert het bereik te maximaliseren.
 
-<br> 
+ 
 
-**Is er een verschil tussen de segmenten Adobe Analytics en Audience Manager?**
+**Is er enig verschil tussen Adobe Analytics en de segmenten van de Audience Manager?**
 
 Ja, lees Segmenten [begrijpen in Analytics en Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) voor een diepgaande beschrijving van de verschillen.
