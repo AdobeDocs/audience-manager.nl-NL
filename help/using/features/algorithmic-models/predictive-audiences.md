@@ -3,14 +3,17 @@ description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-t
 seo-description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-time in verschillende personen indelen met behulp van gegevenswetenschap.
 seo-title: Overzicht van voorspellende doelgroepen
 solution: Audience Manager
-title: Voorspelend publiek van Auditiebeheer
+title: Audience Manager voorspellend publiek
 translation-type: tm+mt
-source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
+source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+workflow-type: tm+mt
+source-wordcount: '1275'
+ht-degree: 0%
 
 ---
 
 
-# Overzicht van voorspellende doelgroepen {#predictive-audiences}
+# [!UICONTROL Predictive Audiences] Overzicht {#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] kunt u een onbekend publiek in real-time in verschillende personen classificeren met behulp van geavanceerde technieken voor gegevenswetenschap.
 
@@ -19,11 +22,11 @@ source-git-commit: 74a5de961b2f9ab6afa2caf998ba1100d40cc93a
 
 In een marketingcontext is een persoon een publiekssegment dat wordt gedefinieerd door bezoekers, gebruikers of potentiële kopers en dat een specifieke reeks kenmerken deelt, zoals demografie, bruisende gewoonten, winkelgeschiedenis, enz.
 
-[!UICONTROL Predictive Audiences] modellen zetten dit concept een stap verder, door u toe te laten om de machine van de Manager van het publiek te gebruiken het leren mogelijkheden om onbekend publiek in verschillende karakters te classificeren. De Manager van de Publiek helpt u dit bereiken door de neiging van uw onbekend eerderepubliek voor een reeks bekende eerste-partijpubliek te berekenen.
+[!UICONTROL Predictive Audiences] modellen zetten dit concept een stap verder door u in staat te stellen de computer leermogelijkheden van de Audience Manager te gebruiken om onbekend publiek in verschillende personen te classificeren. Audience Manager helpt u dit te bereiken door de neiging van uw onbekend publiek van de eerste partij voor een reeks bekende eerstepartijpubliek te berekenen.
 
 Wanneer u een [!UICONTROL Predictive Audiences] model creeert, de eerste stap de basislijnkenmerken of de segmenten kiest die u uw doelpubliek wilt worden geclassificeerd door. Met deze kenmerken of segmenten worden uw persona&#39;s gedefinieerd.
 
-Tijdens de evaluatiefase, leidt het model tot een nieuw [!UICONTROL Predictive Audiences] segment voor elk bezit of segment dat u als basislijn bepaalde. De volgende keer dat de Manager van het Publiek een bezoeker van uw doelpubliek ziet die niet voor een persoon (kwalificeerde niet voor om het even welk van uw basislijnkenmerken of segmenten) wordt geclassificeerd, zal het [!UICONTROL Predictive Audiences] model bepalen tot welke van de vooruitlopende segmenten de bezoeker zou moeten behoren, en zal de bezoeker aan dat segment toevoegen.
+Tijdens de evaluatiefase, leidt het model tot een nieuw [!UICONTROL Predictive Audiences] segment voor elk bezit of segment dat u als basislijn bepaalde. De volgende keer dat de Audience Manager een bezoeker van uw doelpubliek ziet die niet voor een persoon (kwalificeerde niet voor om het even welk van uw basislijnkenmerken of segmenten) wordt geclassificeerd, zal het [!UICONTROL Predictive Audiences] model bepalen tot welke van de vooruitlopende segmenten de bezoeker zou moeten behoren, en zal de bezoeker aan dat segment toevoegen.
 
 U kunt de voorspellende segmenten identificeren die door het model, in de [!UICONTROL Segments] pagina worden gecreeerd. Elk [!UICONTROL Predictive Audiences] model heeft zijn eigen omslag onder de [!UICONTROL Predictive Audiences] omslag, en u kunt de segmenten van elk model zien door de modelomslag te klikken.
 
@@ -31,7 +34,7 @@ U kunt de voorspellende segmenten identificeren die door het model, in de [!UICO
 
 ## Gevallen gebruiken {#use-cases}
 
-Om u beter te helpen begrijpen hoe en wanneer u kon gebruiken [!UICONTROL Predictive Audiences], zijn hier een paar gebruiksgevallen die de klanten van de Manager van de Publiek kunnen oplossen door deze eigenschap te gebruiken.
+Om u beter te helpen begrijpen hoe en wanneer u kon gebruiken [!UICONTROL Predictive Audiences], zijn hier een paar gebruiksgevallen die de klanten van de Audience Manager door deze eigenschap kunnen oplossen.
 
 ### Hoofdletters en kleine letters gebruiken 1
 
@@ -75,7 +78,7 @@ U kunt om het even welk van uw eerstepartijeigenschappen of segmenten kiezen om 
 * Kies basislijnkenmerken of segmenten met minimale overlapping.
 * Zorg ervoor dat u granulaire kenmerken vastlegt over de digitale eigenschappen.
 
-### Selectiecriteria voor doelgroep {#selection-audience}
+### Selectiecriteria voor de Target-doelgroep {#selection-audience}
 
 Net als een persoonlijke selectie moet u uw kenmerk of segment kiezen dat het doelpubliek zo definieert dat het realtime gebruikers met rijke sets kenmerken heeft, zodat het kan worden ingedeeld in de juiste persoon.
 
@@ -128,6 +131,6 @@ Traits die aanvullende beperkingen hebben die geen deel uitmaken van de privacyb
 
 ## Op rollen gebaseerde toegangscontroles{#rbac}
 
-De eigenschappen en de segmenten die u voor persona&#39;s en publieksclassificatie kiest zijn onderworpen aan de [Op rol-Gebaseerde Controles](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)van de Toegang van de Manager van de Auditie.
+De eigenschappen en de segmenten die u voor persona&#39;s en publieksclassificatie kiest zijn onderworpen aan Audience Manager op [Rol-Gebaseerde Controles](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)van de Toegang.
 
-De gebruikers van de Manager van het publiek kunnen slechts sporen of segmenten voor mensen en doelpubliek selecteren, dat zij [toestemming hebben om te bekijken](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
+Gebruikers van Audience Managers kunnen alleen sporen of segmenten voor personen en doelgroepen selecteren, die ze [mogen bekijken](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions).
