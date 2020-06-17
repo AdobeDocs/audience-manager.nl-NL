@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Componenten gegevensverwerking
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 translation-type: tm+mt
-source-git-commit: d4c5f2008a0b5da889d9192bf4b9db8ba343de9a
+source-git-commit: 9a92420b1f0116c0fd71db56895720e0ee894f30
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 0%
 
 ---
 
@@ -25,9 +28,9 @@ Audience Manager gebruikt de volgende componenten om gegevens te verwerken:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], is Hadoop het hoofdgegevensbestand dat alles bevat [!DNL Audience Manager] weet over een gebruiker. Wanneer de [profielcacheservers](../../reference/system-components/components-data-collection.md) bijvoorbeeld logbestanden maken die gegevens over uw gebruikers bevatten, worden die gegevens naar Hadoop verzonden voor opslag. Andere belangrijke Hadoop-elementen zijn:
+In [!DNL Audience Manager], is Hadoop het belangrijkste gegevensbestand dat alles bevat [!DNL Audience Manager] weet over een gebruiker. Wanneer de [profielcacheservers](../../reference/system-components/components-data-collection.md) bijvoorbeeld logbestanden maken die gegevens over uw gebruikers bevatten, worden die gegevens naar Hadoop verzonden voor opslag. Andere belangrijke Hadoop-elementen zijn:
 
-* **Hive:** Een data-entrepot voor Hadoop. Hive beheert ad-hocquery&#39;s voor de gegevens die in Hadoop zijn opgeslagen.
+* **Hive:** Een data warehouse voor Hadoop. Hive beheert ad-hocquery&#39;s voor de gegevens die in Hadoop zijn opgeslagen.
 
 * **HBase:** Een zeer grote Hadoop-database. Het verwerkt en beheert binnenkomende en uitgaande gegevens, kenmerkregels, algoritmische modelleringsinformatie, en voert vele andere functies met betrekking tot het opslaan en het bewegen van gegevens aan verschillende systemen uit.
 
