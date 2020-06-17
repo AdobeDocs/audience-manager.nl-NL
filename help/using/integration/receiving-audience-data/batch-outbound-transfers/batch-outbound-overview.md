@@ -1,10 +1,13 @@
 ---
 description: Audience Manager verzendt batchgegevens naar leveranciers van inhoud van derden volgens deze specificaties.
-seo-description: Adobe Audience Manager (AAM) verzendt batchgegevens naar leveranciers van inhoud van derden volgens deze specificaties.
-seo-title: Batch Outbound Data Transfers in Adobe Audience Manager (AAM)
+seo-description: De Adobe Audience Manager (AAM) verzendt partijgegevens naar derdeinhoudsleveranciers volgens deze specificaties.
+seo-title: De Uitgaande Overdrachten van Gegevens van de partij in Adobe Audience Manager (AAM)
 title: Uitgaande gegevensoverdrachten van de partij
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 1b31f10effa2780b5e4374516dd6c76d92a0123a
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +20,13 @@ Audience Manager verzendt batchgegevens naar leveranciers van inhoud van derden 
 
    Beschrijft de vereiste gebieden, de syntaxis, en de overeenkomsten die worden gebruikt om een uitgaand gegevensdossier te noemen.
 
+* [Integratie van gegevensoverdracht in batch configureren](batch-server-configuration.md)
+
+   Beschrijft de methodes waardoor u de gevormde integratie van de partijgegevensoverdracht kunt krijgen.
+
 * [Bestanden voor bestandsoverdracht overdragen van logbestanden](/help/using/integration/receiving-audience-data/batch-outbound-transfers/transfer-control-files.md)
 
-   Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Manager van de Audience correct dossieroverdrachten behandelde.
+   Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
 
 * [Uitgaande sjabloonmacro&#39;s](/help/using/integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
 
