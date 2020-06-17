@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Vastleggen van Campagne-indrukgegevens via pixelaanroepen
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: b1d953837766f5822f5ba0246f7e10042c6f1072
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 17%
@@ -111,7 +111,7 @@ Aanroepen van indrukwekkende gebeurtenissen accepteren gegevens die in sleutelwa
 >
 >Neem contact op met uw Adobe Audience Manager consulting of accountlead voor de exacte URL die specifiek is voor het clientdomein.
 
-## Aanvullende functionaliteit - [!DNL Audience Optimization Reports]
+## Aanvullende functionaliteit - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
 U kunt pixelaanroepen gebruiken om de rapporten [van de optimalisatie van het](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)publiek van stroom te voorzien. Zie [Overzicht en Toewijzingen voor Metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u pixels wilt gebruiken om de rapporten aan te sturen.
 
