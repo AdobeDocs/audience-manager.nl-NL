@@ -1,14 +1,14 @@
 ---
-description: Één benadering voor het verzenden van media gegevens naar de Manager van de Publiek gebruikt en servermacro's om campagneattributen naar de Manager van de Publiek te verzenden.
-seo-description: Één benadering voor het verzenden van media gegevens naar de Manager van de Publiek gebruikt en servermacro's om campagneattributen naar de Manager van de Publiek te verzenden.
+description: Één benadering voor het verzenden van media gegevens naar Audience Manager gebruikt en servermacro's om campagnerekenmerken naar Audience Manager te verzenden.
+seo-description: Één benadering voor het verzenden van media gegevens naar Audience Manager gebruikt en servermacro's om campagnerekenmerken naar Audience Manager te verzenden.
 seo-title: Vastleggen van Campagne-indrukgegevens via pixelaanroepen
 solution: Audience Manager
 title: Vastleggen van Campagne-indrukgegevens via pixelaanroepen
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 17%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 17%
 
 # Vastleggen van Campagne-indrukgegevens via pixelaanroepen{#capturing-campaign-impression-data-via-pixel-calls}
 
-Één benadering voor het verzenden van media gegevens naar de Manager van de Publiek gebruikt en servermacro&#39;s om campagneattributen naar de Manager van de Publiek te verzenden.
+Één benadering voor het verzenden van media gegevens naar Audience Manager gebruikt en servermacro&#39;s om campagnerekenmerken naar Audience Manager te verzenden.
 
 Deze methodologie wordt vaak bedoeld als &quot;het blokkeren van creatief.&quot; Die gegevenspunten worden dynamisch ingevoegd in de [!DNL Audience Manager] pixelcode door de externe macro&#39;s en servermacro&#39;s, die worden gebruikt om alle indrukken in kaart te brengen en te melden en op de belangrijkste rapporteringsattributen van de campagne worden gebaseerd die klikken. De geaggregeerde gegevens bieden een uniforme weergave van de campagneprestaties, helpen u aangepaste conversiepaden te identificeren en helpen klanten de volgorde van ad-servergebeurtenissen die tot conversies leiden, te verbeteren.
 
@@ -109,9 +109,9 @@ Aanroepen van indrukwekkende gebeurtenissen accepteren gegevens die in sleutelwa
 
 >[!NOTE]
 >
->Neem contact op met uw Adobe Audience Manager-consultant of accountmanager voor de exacte URL die specifiek is voor het clientdomein.
+>Neem contact op met uw Adobe Audience Manager consulting of accountlead voor de exacte URL die specifiek is voor het clientdomein.
 
-## Aanvullende functionaliteit - Poortoptimalisatierapporten
+## Aanvullende functionaliteit - [!DNL Audience Optimization Reports]
 
 U kunt pixelaanroepen gebruiken om de rapporten [van de optimalisatie van het](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)publiek van stroom te voorzien. Zie [Overzicht en Toewijzingen voor Metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u pixels wilt gebruiken om de rapporten aan te sturen.
 
