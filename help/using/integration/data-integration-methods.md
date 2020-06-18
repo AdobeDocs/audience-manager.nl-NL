@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Methoden voor gegevensintegratie
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -18,26 +18,26 @@ ht-degree: 0%
 
 Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
 
-## Ondersteunde methoden voor gegevensintegratie: In real time en server-aan-server {#supported-methods}
+## Ondersteunde methoden voor gegevensintegratie: In real time en [!DNL Server-to-Server] {#supported-methods}
 
 Het kiezen van de juiste integratiemethode hangt van een combinatie bedrijfsvereisten en de technische mogelijkheden van uw gegevenspartner af. Audience Managers wisselen bezoekersinformatie uit met andere gegevensleveranciers op een van de volgende manieren:
 
 * **Real-time:** Hiermee worden gegevens direct overgedragen wanneer een gebruiker uw site bezoekt. Deze methode wordt ook wel *`synchronous`* integratie genoemd.
-* **Batch (server-naar-server):** Hiermee worden gegevens tussen servers overgedragen volgens een ingestelde planning nadat een bezoeker de pagina heeft verlaten. Deze methode wordt ook wel een *`out-of-band`* of een *`asynchronous`* integratie genoemd.
+* **Batch ([!DNL Server-to-Server]):** Hiermee worden gegevens tussen servers overgedragen volgens een ingestelde planning nadat een bezoeker de pagina heeft verlaten. Deze methode wordt ook wel een *`out-of-band`* of een *`asynchronous`* integratie genoemd.
 
 ## Vereisten: Een Trait Taxonomie maken {#prereqs}
 
-Voordat het integratieproces begint, moet u [eigenschappen](../features/traits/create-onboarded-rule-based-traits.md) en een [mapstructuur](../features/traits/trait-storage.md#create-trait-storage-folder) in de [!DNL Audience Manager] gebruikersinterface maken. De taxonomie zal al uw eigenschappen bevatten die in een logische hiërarchie worden georganiseerd.
+Voordat het integratieproces begint, moet u [eigenschappen](../features/traits/create-onboarded-rule-based-traits.md) en een [mapstructuur](../features/traits/trait-storage.md#create-trait-storage-folder) in de [!DNL Audience Manager] gebruikersinterface maken. De taxonomie zal al uw [!UICONTROL traits] georganiseerd in een logische hiërarchie bevatten.
 
 ## Gebruiksscenario&#39;s voor integratie {#integration-use-cases}
 
 Een gebruiksscenario van de integratiemethodes van de gegevens van de Audience Manager samen met de voor- en nadelen van elk.
 
-### Real-Time Server-naar-server integratie
+### Real-Time [!DNL Server-to-Server] integratie
 
 <!-- c_int_types_use_cases.xml -->
 
-Een real-time server-aan-server gegevensintegratie synchroniseert snel gebruikersgegevens tussen de servers van de Audience Manager en een ander gericht systeem. In de meeste gevallen vindt de gegevensuitwisseling plaats binnen seconden of minuten, afhankelijk van de vernieuwingsfrequentie van het doelsysteem. Nota, echter, bepaalt het gerichte systeem dit vernieuwt interval, niet Audience Manager. Bovendien kan de vernieuwingsfrequentie per systeem verschillen. Een integratie in real time, server-aan-server is het aangewezen integratietype voor gegevensuitwisseling. De Audience Manager gebruikt deze methode wanneer het richten van partners het kan steunen.
+Een gegevensintegratie in real time [!DNL server-to-server] synchroniseert snel gebruikersgegevens tussen de servers van de Audience Manager en een ander gericht systeem. In de meeste gevallen vindt de gegevensuitwisseling plaats binnen seconden of minuten, afhankelijk van de vernieuwingsfrequentie van het doelsysteem. Nota, echter, bepaalt het gerichte systeem dit vernieuwt interval, niet Audience Manager. Bovendien kan de vernieuwingsfrequentie per systeem verschillen. Een [!UICONTROL server-to-server] integratie in real time is het voorkeurstype voor gegevensuitwisseling. De Audience Manager gebruikt deze methode wanneer het richten van partners het kan steunen.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -56,9 +56,9 @@ Een real-time server-aan-server gegevensintegratie synchroniseert snel gebruiker
  </tr>
 </table>
 
-### Server-naar-server batchintegratie
+### [!DNL Server-to-Server] Batchintegratie
 
-Een server-aan-server groeperen integratie bundelt gegevens en verzendt het naar andere systemen met vastgestelde intervallen eerder dan in dichtbij echt - tijd. De intervallen voor gegevensoverdracht beginnen na 24 uur. Sommige gegevensleveranciers steunen slechts dit integratietype. Maar we hebben een algemene trend gezien die afsteekt van batchintegratie naar realtime integratiemethodologieën.
+Bij een [!DNL server-to-server] batchintegratie worden gegevens gebundeld en verzonden naar andere systemen met ingestelde intervallen in plaats van in realtime. De intervallen voor gegevensoverdracht beginnen na 24 uur. Sommige gegevensleveranciers steunen slechts dit integratietype. Maar we hebben een algemene trend gezien die afsteekt van batchintegratie naar realtime integratiemethodologieën.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -77,7 +77,7 @@ Een server-aan-server groeperen integratie bundelt gegevens en verzendt het naar
 
 ### Vraag in real time
 
-In real time vraag uitwisselingsgegevens met Audience Manager onmiddellijk, aangezien een gebruiker uw plaats bezoekt of actie op de pagina neemt. Met deze methode, krijgen de het richten systemen de meest bijgewerkte gegevens van de segmentkwalificatie en kunnen die informatie in aanmerking nemen tijdens een inhoud of een leveringsbesluit. Dit proces werkt ook met uitgever en servers waar we gekwalificeerde segmenten bijwerken naar een cookie van de eerste partij die in een advertentie wordt gelezen als sleutelwaardeparen. Momenteel, gebruikt de Audience Manager vraag in real time om met [!DNL Target] en andere systemen van het inhoudbeheer te integreren.
+In real time vraag uitwisselingsgegevens met Audience Manager onmiddellijk, aangezien een gebruiker uw plaats bezoekt of actie op de pagina neemt. Met deze methode, krijgen de het richten systemen de meest bijgewerkte gegevens van de segmentkwalificatie en kunnen die informatie in aanmerking nemen tijdens een inhoud of een leveringsbesluit. Dit proces werkt ook met uitgever en servers waar we gekwalificeerde segmenten bijwerken naar een cookie van de eerste partij die in een advertentie wordt gelezen als sleutelwaardeparen. Momenteel, gebruikt de Audience Manager vraag in real time om met [!DNL Adobe Target] en andere systemen van het inhoudbeheer te integreren.
 
 <table> 
  <tr>
@@ -151,7 +151,7 @@ Een algemeen overzicht van hoe de Audience Manager gegevens synchroon (in real t
 
 <!-- c_int_overview_async.xml -->
 
-Het batchproces (server-naar-server) voor gegevensintegratie volgt de meeste stappen die in het proces in real time van de gegevensoverdracht worden beschreven. In plaats van segment-id&#39;s direct te retourneren, worden gebruikersgegevens echter opgeslagen op onze servers en met regelmatige tussenpozen gesynchroniseerd met een externe gegevensaanbieder. Het asynchrone proces voor gegevensoverdracht is handig wanneer:
+Het batch- ([!DNL server-to-server]) gegevensintegratieproces volgt de meeste stappen die worden beschreven in het realtime gegevensoverdrachtproces. In plaats van segment-id&#39;s direct te retourneren, worden gebruikersgegevens echter opgeslagen op onze servers en met regelmatige tussenpozen gesynchroniseerd met een externe gegevensaanbieder. Het asynchrone proces voor gegevensoverdracht is handig wanneer:
 
 * Directe gegevensoverdracht is niet vereist.
 * Gegevens verzamelen om een grote groep gesegmenteerde gebruikers samen te stellen.
@@ -166,4 +166,4 @@ Het batchproces (server-naar-server) voor gegevensintegratie volgt de meeste sta
 
 ![](assets/s2s_70.png)
 
-Voor informatie beschrijvend de tijdkaders wanneer de Audience Manager binnenkomende en uitgaande server-aan-server ([!UICONTROL S2S]) dossieroverdrachten verwerkt, zie het [Melden en de richtlijnen](../reference/reporting-file-transfer-timeframe.md)van de Tijd van de Overdracht van het Dossier.
+Voor informatie beschrijvend de tijdkaders wanneer de Audience Manager binnenkomende en uitgaande [!DNL Server-to-Server] ([!UICONTROL S2S]) dossieroverdrachten verwerkt, zie de Richtlijnen [van de Tijd van de Overdracht van het](../reference/reporting-file-transfer-timeframe.md)Melden en van het Dossier van de Overdracht.
