@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Aan de slag met REST API's
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1781'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ De [!DNL Audience Manager] [!DNL REST APIs] ondersteuning biedt twee verificatie
 >
 >Afhankelijk van uw authentificatiemethode, moet u uw verzoek [!DNL URLs] dienovereenkomstig aanpassen. Zie de sectie [Omgevingen](#environments) voor meer informatie over de hostnamen die u moet gebruiken.
 
-## JWT-verificatie (serviceaccount) {#jwt}
+## JWT ([!DNL Service Account])-verificatie {#jwt}
 
 ### Vereisten {#prerequisites}
 
@@ -278,14 +278,14 @@ De nieuwe versies van deze [!DNL API]s worden vrijgegeven op een regelmatig prog
 
 | Antwoordcode-id | Antwoordtekst | Definitie |
 |---|---|---|
-| 200 | `OK` | De aanvraag is verwerkt. Hiermee worden de verwachte inhoud of gegevens geretourneerd, indien vereist. |
-| 201 | `Created` | De bron is gemaakt. Retourneert voor `PUT` en `POST` aanvragen. |
-| 204 | `No Content` | De bron is verwijderd. De responsinstantie is leeg. |
-| 400 | `Bad Request` | De server begrijpt het verzoek niet. Gewoonlijk als gevolg van een onjuiste syntaxis. Controleer uw verzoek en probeer het opnieuw. |
-| 403 | `Forbidden` | U hebt geen toegang tot de bron. |
-| 404 | `Not Found` | De bron kan niet worden gevonden voor het opgegeven pad. |
-| 409 | `Conflict` | Het verzoek kon niet worden voltooid wegens een conflict met de staat van de bron. |
-| 500 | `Server Error` | De server heeft een onverwachte fout aangetroffen waardoor deze de aanvraag niet kan uitvoeren. |
+| `200` | `OK` | De aanvraag is verwerkt. Hiermee worden de verwachte inhoud of gegevens geretourneerd, indien vereist. |
+| `201` | `Created` | De bron is gemaakt. Retourneert voor `PUT` en `POST` aanvragen. |
+| `204` | `No Content` | De bron is verwijderd. De responsinstantie is leeg. |
+| `400` | `Bad Request` | De server begrijpt het verzoek niet. Gewoonlijk als gevolg van een onjuiste syntaxis. Controleer uw verzoek en probeer het opnieuw. |
+| `403` | `Forbidden` | U hebt geen toegang tot de bron. |
+| `404` | `Not Found` | De bron kan niet worden gevonden voor het opgegeven pad. |
+| `409` | `Conflict` | Het verzoek kon niet worden voltooid wegens een conflict met de staat van de bron. |
+| `500` | `Server Error` | De server heeft een onverwachte fout aangetroffen waardoor deze de aanvraag niet kan uitvoeren. |
 
 >[!MORELIKETHIS]
 >
