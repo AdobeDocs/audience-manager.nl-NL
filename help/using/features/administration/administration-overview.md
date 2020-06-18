@@ -1,14 +1,17 @@
 ---
-description: Met de opties in het menu Beheer kunt u de gebruikers van Audience Manager maken en deze toewijzen aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen en modellen) weergeven.
+description: Met de opties in het menu Beheer kunt u gebruikers van Audience Managers maken en deze toewijzen aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen en modellen) weergeven.
 keywords: rbac;RBAC;role based;role-based;role-based access controls
-seo-description: Met de opties in het menu Beheer kunt u de gebruikers van Audience Manager maken en deze toewijzen aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen en modellen) weergeven.
+seo-description: Met de opties in het menu Beheer kunt u gebruikers van Audience Managers maken en deze toewijzen aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen en modellen) weergeven.
 seo-title: Beheer
 solution: Audience Manager
 title: Beheer
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1068'
+ht-degree: 0%
 
 ---
 
@@ -17,11 +20,11 @@ source-git-commit: 1bde60711ca53682b6ab936a7297daf66a1bb336
 
 ![](assets/rbac-controls.png)
 
-Met de opties in het [!UICONTROL Administration] menu kunt u gebruikers van Audience Manager maken en deze toewijzen aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen en modellen) weergeven.
+Met de opties in het [!UICONTROL Administration] menu kunt u gebruikers van Audience Managers maken en deze toewijzen aan groepen. U kunt ook limieten (kenmerken, segmenten, doelen en modellen) weergeven.
 
 Enterprise-klanten die gebruikmaken van [!DNL Audience Manager] één platform voor gegevensbeheer hebben voor al hun gegevens nodig, maar moeten de zichtbaarheid van de verschillende gegevenselementen voor specifieke bedrijfseenheden kunnen beheren. U kunt dit verwezenlijken gebruikend groepstoestemmingen, die ook als [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]) worden bedoeld.
 
-[!DNL Audience Manager] gebruikt groepen om machtigingen toe te wijzen. Machtigingen worden niet op gebruikersniveau toegewezen. Groepmachtigingen zijn gekoppeld aan objecten (kenmerken, segmenten, enz.) en op handelingen die u op deze objecten kunt uitvoeren (bewerken, weergeven, enz.). Deze besturingselementen zijn ook beschikbaar via de REST API&#39;s van Audience Manager. Zie [Gebruikersbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Groepsbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)en API-methoden voor [machtigingenbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) .
+[!DNL Audience Manager] gebruikt groepen om machtigingen toe te wijzen. Machtigingen worden niet op gebruikersniveau toegewezen. Groepmachtigingen zijn gekoppeld aan objecten (kenmerken, segmenten, enz.) en op handelingen die u op deze objecten kunt uitvoeren (bewerken, weergeven, enz.). Deze besturingselementen zijn ook beschikbaar via de Audience Manager REST API&#39;s. Zie [Gebruikersbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Groepsbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)en API-methoden voor [machtigingenbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) .
 
 ## Gebruikers maken {#create-users}
 
@@ -32,7 +35,7 @@ Maak gebruikers in [!DNL Audience Manager] en geef gebruikersgegevens op, meld u
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Klik ![](assets/icon_add.png) om de [!UICONTROL Create New User] pagina weer te geven.
 1. Vul onder **[!UICONTROL User Details]** de velden in:
-   * **Gebruikersnaam:** Geef een unieke gebruikersnaam op voor Audience Manager.
+   * **Gebruikersnaam:** Geef een unieke gebruikersnaam voor de Audience Manager op.
    * **Voornaam:** Geef de voornaam van de gebruiker op.
    * **Achternaam:** Geef de achternaam van de gebruiker op.
    * **E-mailadres:** Geef het e-mailadres van de gebruiker op. [!DNL Audience Manager] verzendt geen regelmatig bericht naar gebruikers. [!DNL Audience Manager] beheerders hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig e-mailen. Als een gebruiker bijvoorbeeld zijn of haar wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
@@ -94,7 +97,7 @@ Hieronder vindt u een beschrijving van de betekenis van elke jokertekenmachtigin
 
 **Rapporten**
 
-* `PTRREPORTS` - Deze jokertekenmachtiging verwijst naar verouderde functionaliteit en wordt binnenkort verwijderd uit de interface van Audience Manager.
+* `PTRREPORTS` - Deze jokertekenmachtiging verwijst naar verouderde functionaliteit en wordt binnenkort verwijderd uit de gebruikersinterface van de Audience Manager.
 
 **Modellen**
 
@@ -139,7 +142,7 @@ Hieronder vindt u een beschrijving van de betekenis van elke jokertekenmachtigin
 
 ### Gebruikerstoegang controleren {#monitoring-user-access}
 
-[!UICONTROL Role-Based Access Control] kunt u helpen de aanmeldingsstatus van de gebruiker controleren en u een duidelijk beeld geven van wie toegang heeft tot uw instantie Audience Manager.
+[!UICONTROL Role-Based Access Control] kan u helpen de status van uw gebruikerslogin controleren, die u een duidelijk beeld van geeft wie tot uw instantie van de Audience Manager kan toegang hebben.
 
 Afhankelijk van uw bedrijfsvereisten, kunt u gebruikersrekeningen toelaten en onbruikbaar maken zoals nodig.
 
