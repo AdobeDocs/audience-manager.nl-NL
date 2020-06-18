@@ -1,20 +1,23 @@
 ---
-description: Veelgestelde vragen over het plaatsen van offlinegegevens in de Manager van het Publiek.
+description: Veelgestelde vragen over het plaatsen van offline gegevens in de Audience Manager.
 keywords: ftp or s3;s3 or ftp
-seo-description: Veelgestelde vragen over het plaatsen van offlinegegevens in de Manager van het Publiek.
+seo-description: Veelgestelde vragen over het plaatsen van offline gegevens in de Audience Manager.
 seo-title: Binnenkomende Veelgestelde vragen over gegevensinvoer van klanten
 solution: Audience Manager
 title: Binnenkomende Veelgestelde vragen over gegevensinvoer van klanten
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 translation-type: tm+mt
-source-git-commit: 187874fb5d0c4363f771297766f3c4bc9d967c9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '1355'
+ht-degree: 1%
 
 ---
 
 
 # Binnenkomende Veelgestelde vragen over gegevensinvoer van klanten{#inbound-customer-data-ingestion-faq}
 
-Veelgestelde vragen over het plaatsen van offlinegegevens in de Manager van het Publiek.
+Veelgestelde vragen over het plaatsen van offline gegevens in de Audience Manager.
 
  
 
@@ -55,10 +58,10 @@ Zie [Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden](../integ
 
 **Kan ik een binnenkomend databestand (bestand[!DNL .sync]of[!DNL .overwrite]) uploaden alvorens code[!DNL Audience Manager]in productie te implementeren?**
 
-Ja. Zolang u een dwars-apparatengegevensbron gebruikt om de gegevens op te slaan van CRM die u uploadt, slaat de Manager van de Publiek altijd de gegevens op. In feite, na de verbeteringen van de Regels van de Fusie van het Profiel die de Manager van de Publiek in Oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u en actie op gegevens uploaden zonder de code van de Manager van de Publiek in productie bij allen op te stellen. Zie:
+Ja. Zolang u een gebruikt [!UICONTROL cross-device data source] om de gegevens op te slaan van CRM die u uploadt, slaat de Audience Manager altijd de gegevens op. In feite, na de [!UICONTROL Profile Merge Rules] verhogingen die Audience Manager in oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u en actie op gegevens uploaden zonder de code van de Audience Manager in productie in het geheel op te stellen. Zie:
 
 * [Overzicht van verbeteringen in regels voor het samenvoegen van profielen](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* Op mensen gebaseerde Doelen - [Personalisering die op off-line-slechts Gegevens wordt gebaseerd](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -141,7 +144,7 @@ U kunt het beste één keer per dag een incrementeel bestand verzenden voor nieu
 
  
 
-**Hoe lang houdt Audience Manager mijn bestanden op de server?**
+**Hoe lang houdt de Audience Manager mijn dossiers op de server?**
 
 FTP-bestanden worden verwijderd nadat ze zijn verwerkt. [!DNL S3] bestanden worden na 30 dagen verwijderd. Bestanden die niet kunnen worden verwerkt door een indeling, syntaxis of andere fout, worden verwijderd. Zie ook de veelgestelde vragen over [privacy en gegevensbewaring](../faq/faq-privacy.md).
 
@@ -153,7 +156,7 @@ FTP-bestanden worden verwijderd nadat ze zijn verwerkt. [!DNL S3] bestanden word
 
    >[!NOTE]
    >
-   >De [!DNL .overwrite] bestanden overschrijven alleen de [!DNL Audience Manager] profielgegevens die aan deze gegevensaanbieder zijn gekoppeld. Met andere woorden, alle [!DNL Adobe Analytics] gegevens die aan de bezoeker zijn gekoppeld, blijven intact nadat een [!DNL .overwrite] bestand is verwerkt.
+   >De [!DNL .overwrite] bestanden overschrijven alleen de [!DNL Audience Manager] profielgegevens die aan deze gegevensaanbieder zijn gekoppeld. Met andere woorden, alle [!DNL Audience Manager] gegevens die aan de bezoeker zijn gekoppeld, blijven intact nadat een [!DNL .overwrite] bestand is verwerkt.
 
 * **Incrementeel:** Een incrementeel bestand voegt nieuwe gegevens toe aan uw bestaande bezoekersprofielen. Incrementele bestanden worden aangeduid met de `.sync` tag die aan de bestandsnaam wordt toegevoegd. Als u een incrementeel bestand verzendt, worden bestaande profielen niet gewist of overschreven.
 
@@ -184,7 +187,7 @@ Tijdstempels worden gebruikt voor loggen en vastleggen. Deze worden vereist door
 
  
 
-**Wat is een identiteitskaart van de Leverancier van Gegevens (DPID) en hoe krijg ik het?**
+**Wat is een[!DNL Data Provider ID (DPID)]en hoe krijg ik het?**
 
 Uw Adobe-consultant wijst een driecijferige of viercijferige [DPID (Data Provider ID)](../reference/ids-in-aam.md) toe aan uw specifieke gegevensbron. Deze id is uniek en verandert niet.
 
@@ -207,7 +210,7 @@ Ja, zie:
 
 **De primaire sleutel in mijn gegevensbrongegevensbestand is een e-mailadres. Wordt dat beschouwd als persoonlijk identificeerbare informatie?**
 
-Ja. [!DNL Audience Manager] e-mailadressen worden niet in de bijbehorende database opgeslagen. Bezoekers moeten een willekeurig gegenereerde id of een eenrichtingsversie van het e-mailadres krijgen voordat ze ID-synchronisaties starten.
+Ja. [!DNL Audience Manager] e-mailadressen worden niet in de bijbehorende database opgeslagen. Bezoekers moeten een willekeurig gegenereerde id of een eenrichtingsversie van het e-mailadres krijgen voordat ze id-synchronisaties starten.
 
  
 
@@ -223,7 +226,7 @@ Als beste praktijken, adviseren wij [!DNL Amazon S3] omdat het proces eenvoudige
 
 >[!WARNING]
 >
->De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Hoewel de binnenkomende gegevensbestandsinvoer nog steeds wordt ondersteund in bestaande FTP-integratie, raden we u ten zeerste aan om Amazon S3 te gebruiken voor offline gegevens voor nieuwe integratie. Zie [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Terwijl de binnenkomende gegevensdossieropname nog in de bestaande integratie van FTP wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord off-line gegevens voor nieuwe integratie. Zie [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
  
 
