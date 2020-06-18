@@ -1,19 +1,22 @@
 ---
-description: Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en grootten van uw bestanden in volgens deze specificaties wanneer u gegevens naar de map Audience Manager / Amazon S3 verzendt.
-seo-description: Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en grootten van uw bestanden in volgens deze specificaties wanneer u gegevens naar de map Audience Manager / Amazon S3 verzendt.
+description: Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en formaten van uw bestanden in volgens deze specificaties wanneer u gegevens naar een Audience Manager/Amazon S3-map verzendt.
+seo-description: Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en formaten van uw bestanden in volgens deze specificaties wanneer u gegevens naar een Audience Manager/Amazon S3-map verzendt.
 seo-title: Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden
 solution: Audience Manager
 title: Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 1%
 
 ---
 
 
 # Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
-Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar de map Audience Manager/ [!DNL Amazon S3] verzendt.
+Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar [!DNL Audience Manager]. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar een map [!DNL Audience Manager] / [!DNL Amazon S3] verzendt.
 
 >[!NOTE]
 >
@@ -55,18 +58,18 @@ De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>De <span class="term"> gegevensaanbieder-id</span> (DPID) is een id waarmee <span class="keyword"> Audience Manager</span> wordt aangegeven of een gegevensbestand uw eigen gebruikers-id's of Android- of iOS-id's bevat. Accepteert de volgende opties: </p> <p> <b>Id van gegevenspartner</b> </p> <p>Dit is een unieke ID Audience Manager die aan uw bedrijf of organisatie wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> de Manager</span> van het Publiek dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </p> <p> <b>Android-id's (GAID)</b> </p> <p> Gebruik ID 20914 als DPID in een gegevensbestandsnaam als het bestand Android-id's bevat. Wanneer u identiteitskaart 20914 als DPID gebruikt, moet u nog uw bedrijf aan de Manager <span class="keyword"> van het</span>Publiek identificeren. Dit betekent het dossier - de naam moet de <code><i>_DPID_TARGET_DATA_OWNER</i></code> parameter gebruiken om uw bedrijfsidentiteitskaart te houden. Stel bijvoorbeeld dat u bestanden met Android-id's doorgeeft en dat uw gegevensaanbieder-id 21 is. In dit geval ziet de bestandsnaam er zo uit <code>...ftp_dpm_20914_21_123456789.sync</code>. Dit vertelt <span class="keyword"> Audience Manager</span> het dossier Android IDs bevat en van een partner die door identiteitskaart 21 wordt geïdentificeerd. </p> <p> <b>iOS-id's (IDFA)</b> </p> <p> Gebruik ID 20915 als DPID in een gegevensbestandsnaam als het bestand iOS-id's bevat. Wanneer u identiteitskaart 20915 als DPID gebruikt, moet u nog uw bedrijf aan de Manager <span class="keyword"> van het</span>Publiek identificeren. Dit betekent het dossier - de naam moet de <code><i>_DPID_TARGET_DATA_OWNER</i></code> parameter gebruiken om uw bedrijfsidentiteitskaart te houden. Stel bijvoorbeeld dat u bestanden met Android-id's doorgeeft en dat uw gegevensaanbieder-id 21 is. In dit geval ziet de bestandsnaam er zo uit <code>...ftp_dpm_20915_21_123456789.sync</code>. Dit vertelt Audience Manager <span class="keyword"></span> het dossier iOS IDs bevat en van een partner die door identiteitskaart 21 wordt geïdentificeerd. </p> 
+   <td colname="col2"> <p>De <span class="term"> gegevensaanbieder-id</span> (DPID) is een id die de <span class="keyword"> Audience Manager</span> vertelt of een gegevensbestand uw eigen gebruikers-id's of Android- of iOS-id's bevat. Accepteert de volgende opties: </p> <p> <b>Id van gegevenspartner</b> </p> <p>Dit is een unieke ID-Audience Manager die aan uw bedrijf of organisatie wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </p> <p> <b>Android-id's (GAID)</b> </p> <p> Gebruik ID 20914 als DPID in een gegevensbestandsnaam als het bestand Android-id's bevat. Wanneer u identiteitskaart 20914 als DPID gebruikt, moet u nog uw bedrijf aan <span class="keyword"> Audience Manager</span>identificeren. Dit betekent het dossier - de naam moet de <code><i>_DPID_TARGET_DATA_OWNER</i></code> parameter gebruiken om uw bedrijfsidentiteitskaart te houden. Stel bijvoorbeeld dat u bestanden met Android-id's doorgeeft en dat uw gegevensaanbieder-id 21 is. In dit geval ziet de bestandsnaam er zo uit <code>...ftp_dpm_20914_21_123456789.sync</code>. Dit vertelt <span class="keyword"> Audience Manager</span> het dossier Android IDs bevat en van een partner die door identiteitskaart 21 wordt geïdentificeerd. </p> <p> <b>iOS-id's (IDFA)</b> </p> <p> Gebruik ID 20915 als DPID in een gegevensbestandsnaam als het bestand iOS-id's bevat. Wanneer u identiteitskaart 20915 als DPID gebruikt, moet u nog uw bedrijf aan <span class="keyword"> Audience Manager</span>identificeren. Dit betekent het dossier - de naam moet de <code><i>_DPID_TARGET_DATA_OWNER</i></code> parameter gebruiken om uw bedrijfsidentiteitskaart te houden. Stel bijvoorbeeld dat u bestanden met Android-id's doorgeeft en dat uw gegevensaanbieder-id 21 is. In dit geval ziet de bestandsnaam er zo uit <code>...ftp_dpm_20915_21_123456789.sync</code>. Dit vertelt <span class="keyword"> Audience Manager</span> het dossier iOS IDs bevat en van een partner is die door identiteitskaart 21 wordt geïdentificeerd. </p> 
     <draft-comment> 
      <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Id van gegevenspartner:</b> Dit is een unieke ID Audience Manager die aan uw bedrijf of organisatie wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> de Manager</span> van het Publiek dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </li> 
-      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id bevat. Zo <code>...ftp_dpm_20914_21_123456789.sync</code> wordt in Audience Manager <span class="keyword"></span> aangegeven dat het gegevensbestand alleen Android-id's bevat. Opmerking: ID 21 </li> 
-      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Zo <code>...ftp_dpm_20915_123456789.sync</code> wordt in Audience Manager <span class="keyword"></span> aangegeven dat het gegevensbestand alleen iOS-id's bevat. </li> 
+      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Id van gegevenspartner:</b> Dit is een unieke ID-Audience Manager die aan uw bedrijf of organisatie wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </li> 
+      <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20914_21_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat. Opmerking: ID 21 </li> 
+      <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20915_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat. </li> 
      </ul> 
     </draft-comment> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p><p>Zie <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Algemene gegevensbronnen</a> voor meer informatie.</p> <p>Zie ook de onderstaande <code><i>_DPID_TARGET_DATA_OWNER</i></code> vermelding. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Een tijdelijke aanduiding voor een id. U kunt de DPID bijvoorbeeld instellen op de <span class="keyword"> Audience Manager</span> -id als u de DPID instelt op een gegevensbron-id of een Android- of iOS-id. Hierdoor kunnen <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
+   <td colname="col2"> <p>Een tijdelijke aanduiding voor een id. U kunt de DPID bijvoorbeeld instellen op de <span class="keyword"> Audience Manager</span> -id als u een gegevensbron-id of een Android- of iOS-id instelt. Hierdoor kan de <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
     <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
      <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> toont een partner met identiteitskaart 21 in gegevens van een gegevensbron heeft verzonden die identiteitskaart 33 gebruikt. </li> 
      <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> toont een partner met id 21 gegevens heeft verzonden die Android-id's bevatten. </li> 
@@ -75,21 +78,21 @@ De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner_name</i> </code> </p> </td> 
-   <td colname="col2"> <p>Het bedrijf of de organisatienaam u in de Manager <span class="keyword"> van het</span>Publiek gebruikt. </p> </td> 
+   <td colname="col2"> <p>Het bedrijf of de organisatienaam u in <span class="keyword"> Audience Manager</span>gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Een tijdstempel van 10 cijfers (UTC UNIX) in seconden. Met de tijdstempel kunt u elke bestandsnaam uniek maken. </p> 
     <draft-comment> 
-     <p> <p>Opmerking:  Audience Manager gebruikt de tijdstempel niet tijdens de verwerking van binnenkomende bestanden. Het tijdstempel in de bestandsnaam is afgekeurd in Audience Manager, maar is nog steeds vereist voor achterwaartse compatibiliteit. </p> </p> 
+     <p> <p>Opmerking:  Audience Manager gebruikt de tijdstempel niet tijdens het verwerken van binnenkomende bestanden. Het tijdstempel in de bestandsnaam is afgekeurd in de Audience Manager, maar is nog steeds vereist voor achterwaartse compatibiliteit. </p> </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (.sync|.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>Synchronisatieopties met: </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
-      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normaal scenario wanneer de derdegegevensleveranciers eigenschappen op een per-gebruikersbasis verzenden die in het systeem van de Manager van de Publiek moeten worden toegevoegd of worden verwijderd. </li> 
-      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Laat gegevensleveranciers een lijst van eigenschappen op een per-gebruikersbasis verzenden die alle bestaande derdeeigenschappen van deze gebruiker voor deze gegevensleverancier in de Manager van de Publiek zou moeten beschrijven. U hoeft niet al uw gebruikers op te nemen in een overschrijvingsbestand. Neem alleen de gebruikers op die u wilt wijzigen. </li> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normaal scenario wanneer de derdegegevensleveranciers eigenschappen op een per-gebruikersbasis verzenden om in het systeem van de Audience Manager worden toegevoegd of worden verwijderd. </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Laat gegevensleveranciers een lijst van eigenschappen op een per-gebruikersbasis verzenden die alle bestaande derdeattributen van deze gebruiker voor deze gegevensleverancier in de Audience Manager zou moeten beschrijven. U hoeft niet al uw gebruikers op te nemen in een overschrijvingsbestand. Neem alleen de gebruikers op die u wilt wijzigen. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
