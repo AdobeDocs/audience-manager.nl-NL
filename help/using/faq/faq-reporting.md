@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Veelgestelde vragen over rapportage
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 0%
 
 ---
 
@@ -80,13 +83,13 @@ Zie [Trait and Segment Population Data in Segment Builder](../features/segments/
 
 **Ik binnenkomend een dossier en mijn Binnenkomend ontvangstbewijs toont een hoog aantal met succes verwerkte verslagen, maar het melden toont veel lagere aantallen. Waarom?**
 
-Op de achtergrond, worden de geregistreerde gegevens verbonden slechts aan gebruikers die in AAM nog actief zijn (de gebruiker moet recente [!UICONTROL DCS] activiteit in de afgelopen 120 dagen hebben gehad). Daarom als u gegevens aan boord voor gebruikers hebt die reeds binnen zijn verlopen [!DNL Audience Manager], [!UICONTROL Inbound] zou u kunnen vertellen dat een bepaald aantal gebruikersverslagen werden geregistreerd, maar als deze gebruikers geen recente activiteit hebben gehad, worden deze gegevens gelaten vallen wanneer het ons bereikt [!UICONTROL User Profile Store] en het melden zal dat behandelen.
+Op de achtergrond, worden de geregistreerde gegevens verbonden slechts aan gebruikers die in AAM nog actief zijn (de gebruiker moet recente [!DNL DCS] activiteit in de afgelopen 120 dagen hebben gehad). Daarom als u gegevens aan boord voor gebruikers hebt die reeds binnen zijn verlopen [!DNL Audience Manager], [!UICONTROL Inbound] zou u kunnen vertellen dat een bepaald aantal gebruikersverslagen werden geregistreerd, maar als deze gebruikers geen recente activiteit hebben gehad, worden deze gegevens gelaten vallen wanneer het ons bereikt [!UICONTROL User Profile Store] en het melden zal dat behandelen.
 
 <br> 
 
 **Waarom zijn de traditie-uniques voor mijn cross-device onboded traits veel hoger dan het totale aantal onboded records?**
 
-Als u aan boord een dossier voor een dwars-apparatengegevensleverancier van klantenidentiteitskaart wordt gehouden, voert de Manager van de Publiek een raadpleging uit om alle apparaat IDs te krijgen die met elk van de geregistreerde klant IDs worden geassocieerd. Audience Manager wijst vervolgens de geregistreerde kenmerken toe aan de apparaat-id die aan de klant-id is gekoppeld.
+Als u aan boord een dossier voor een dwars-apparatengegevensleverancier van klantenidentiteitskaart wordt gehouden, voert de Audience Manager een raadpleging uit om alle apparaat IDs te krijgen die met elk van de geregistreerde klant IDs worden geassocieerd. Audience Manager wijst vervolgens de geregistreerde kenmerken toe aan de apparaat-id die aan de klant-id is gekoppeld.
 
 Stel dat u 100 records hebt ingecheckt. Voor elk van deze klant IDs, gemiddeld, heeft AAM drie apparaat IDs geassocieerd. Dientengevolge, wordt het bezit dat werd ingezien toegewezen aan 300 apparaat IDs.
 
