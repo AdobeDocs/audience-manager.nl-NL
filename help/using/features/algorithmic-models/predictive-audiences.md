@@ -5,9 +5,9 @@ seo-title: Overzicht van voorspellende doelgroepen
 solution: Audience Manager
 title: Audience Manager voorspellend publiek
 translation-type: tm+mt
-source-git-commit: 4df2a7536155d42133c0873ed4e3376eb24cba1a
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Als marketeer wil ik voorspellen in welke reisfase mijn websitebezoekers verkere
 
 Als mediabedrijf wil ik mijn publiek categoriseren, zodat ik mijn advertentieruimte tegen een hoge prijs kan verkopen en mijn bezoekers relevante advertenties kan aanbieden.
 
-## Hoe voorspellende modellen van soorten publiek werken
+## Hoe [!UICONTROL Predictive Audiences] Modellen werken {#how-predictive-audiences-models-work}
 
 Wanneer u een [!UICONTROL Predictive Audiences] model creeert, gaat u door drie stappen:
 
@@ -82,14 +82,14 @@ U kunt om het even welk van uw eerstepartijeigenschappen of segmenten kiezen om 
 
 Net als een persoonlijke selectie moet u uw kenmerk of segment kiezen dat het doelpubliek zo definieert dat het realtime gebruikers met rijke sets kenmerken heeft, zodat het kan worden ingedeeld in de juiste persoon.
 
-### Trainingsfase van het model voor voorspellende doelgroepen {#model-training}
+### [!UICONTROL Predictive Audiences] Modeltrainingsfase {#model-training}
 
 Voordat het algoritme je publiek van de eerste partij in de juiste persona&#39;s kan indelen, moet het zichzelf op de gegevens trainen.
 
 Voor elke persoon die u definieert, analyseert het algoritme zijn respectieve publiek en evalueert het elke activiteit in real time en/of ongeboekt trait voor zijn gebruikers in de laatste 30 dagen.
 Deze stap vindt om de 24 uur plaats om rekening te houden met wijzigingen in uw eerstepartijpubliek.
 
-### Predictieve publiciteitsmodelindelingsfase {#model-classification}
+### [!UICONTROL Predictive Audiences] Modelindelingsfase {#model-classification}
 
 Wanneer een bezoeker die deel uitmaakt van het doelpubliek in real time wordt gezien, evalueert het model of de bezoeker deel van de bepaalde karakters uitmaakt. Voor elke bezoeker die niet bij een van de personen hoort, wijst het model een kwalificatiescore voor personen toe.
 
@@ -109,7 +109,7 @@ Houd bij het configureren van uw [!UICONTROL Predictive Audiences] modellen reke
 * Gegevens van derden en derden worden momenteel niet ondersteund in [!UICONTROL Predictive Audiences].
 * De classificatie van het publiek wordt gedaan slechts voor echt - tijd eerste-partijpubliek. In een toekomstige update wordt mogelijk ondersteuning geboden voor gebruikers met de classificatie van eerste partijen aan boord.
    >[!IMPORTANT]
-   > Momenteel, wordt de [!UICONTROL Total Segment Population] van uw vooruitlopende segmenten getoond als 0, en de [Uitgaande Overdrachten](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) van Gegevens van de Partij niet gesteund voor het Voorspelende publiek. Dit gedrag verandert in een toekomstige update.
+   > Momenteel, wordt de [!UICONTROL Total Segment Population] van uw vooruitlopende segmenten getoond als 0, en de [Uitgaande Overdrachten](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) van Gegevens van de Partij worden niet gesteund voor [!UICONTROL Predictive Audiences]. Dit gedrag verandert in een toekomstige update.
 * [!UICONTROL Predictive Audiences] voert publieksclassificatie uit die op uw eerste partijeigenschappen, van al uw eerste-partijgegevensbronnen wordt gebaseerd.
 * De evaluatie van het segment voor [!UICONTROL Predictive Audiences] gebruikt het gebrek **[!UICONTROL Profile Merge Rule]** dat u in uw rekening bepaalde. Meer informatie over [!UICONTROL Profile Merge Rules] zie de specifieke [documentatie](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
 * Sommige kenmerken en segmenten worden niet ondersteund als basislijnen of doelgroepen. [!UICONTROL Predictive Audiences] modellen kunnen niet worden opgeslagen wanneer u een van de volgende opties kiest als basislijn of doelpubliek:
@@ -118,7 +118,7 @@ Houd bij het configureren van uw [!UICONTROL Predictive Audiences] modellen reke
    * Algoritmische kenmerken;
    * Tweede en derdekenmerken.
 
-## Besturingselementen voor gegevensexport{#dec}
+## [!UICONTROL Data Export Controls] {#dec}
 
 De voorspellende segmenten die door [!UICONTROL Predictive Audiences] modellen worden gecreeerd erven de Controles [van de Uitvoer van](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) Gegevens van de volgende eerste gegevensbronnen:
 
@@ -129,7 +129,7 @@ De nieuwe voorspellende kenmerken en segmenten zullen dezelfde privacybeperkinge
 
 Traits die aanvullende beperkingen hebben die geen deel uitmaken van de privacybeperkingen voor [!UICONTROL Predictive Audiences] segmenten, worden uitgesloten van de trainingsfase en zullen niet van invloed worden op het model.
 
-## Op rollen gebaseerde toegangscontroles{#rbac}
+## [!UICONTROL Role-Based Access Controls] {#rbac}
 
 De eigenschappen en de segmenten die u voor persona&#39;s en publieksclassificatie kiest zijn onderworpen aan Audience Manager op [Rol-Gebaseerde Controles](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/administration-overview.html)van de Toegang.
 
