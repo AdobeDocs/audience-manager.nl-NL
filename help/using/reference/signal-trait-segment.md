@@ -1,19 +1,22 @@
 ---
-description: Beschrijft de componenten van een segment van de Manager van de Audience, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
-seo-description: Beschrijft de componenten van een segment van de Manager van de Audience, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
+description: Beschrijft de componenten van een segment van de Audience Manager, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
+seo-description: Beschrijft de componenten van een segment van de Audience Manager, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
 seo-title: Signalen, Traits en Segmenten
 solution: Audience Manager
 title: Signalen, Traits en Segmenten
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
 
 # Signalen, Traits en Segmenten{#signals-traits-and-segments}
 
-Beschrijft de componenten van een segment van de Manager van de Audience, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
+Beschrijft de componenten van een [!DNL Audience Manager] segment, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
 
 <!-- 
 
@@ -69,13 +72,11 @@ Gebruik het diagram hieronder om een mentale nota van het verband tussen signale
 
 Clients beheren traits en segmenten met visuele gereedschappen en code-editors in de [!DNL Audience Manager] gebruikersinterface. Met de visuele gereedschappen kunt u regels maken met behulp van zoekfuncties, pop-upopties, vervolgkeuzemenu&#39;s en functionaliteit voor slepen en neerzetten. De codeeditors verstrekken geavanceerde gebruikers van een manier om publiekssegmenteringscriteria programmatically te ontwikkelen.
 
-**Gebeurtenisaanroepen verzenden gegevens naar Auditiebeheer**
+**Gebeurtenisaanroepen verzenden gegevens naar Audience Manager**
 
-Een gebeurtenisaanroep verzendt gegevens van uw website naar [!DNL Audience Manager]. De vraag bevat signaal, eigenschap, en segmentgegevens in een HTTP- verzoek. De gebeurtenis zelf is alles na het `/event` deel van een URL-tekenreeks. Zoals in het onderstaande voorbeeld wordt getoond, is voor dit proces slechts één gebeurtenisaanroep nodig om meerdere variabelen door te geven aan [!DNL Audience Manager].
+Een gebeurtenisaanroep verzendt gegevens van uw website naar [!DNL Audience Manager]. De vraag bevat signaal, eigenschap, en segmentgegevens in een [!DNL HTTP] verzoek. De gebeurtenis zelf is alles na het `/event` deel van een [!DNL URL] tekenreeks. Zoals in het onderstaande voorbeeld wordt getoond, is voor dit proces slechts één gebeurtenisaanroep nodig om meerdere variabelen door te geven aan [!DNL Audience Manager].
 
-```
-https://<domain>/event?product=camera&price>100
-```
+`https://<domain>/event?product=camera&price>100`
 
 >[!MORELIKETHIS]
 >
