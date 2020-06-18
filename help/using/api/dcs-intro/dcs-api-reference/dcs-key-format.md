@@ -6,14 +6,17 @@ solution: Audience Manager
 title: Het opmaken van zeer belangrijke-waardeparen in Vraag DCS
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 0%
 
 ---
 
 
 # Het opmaken van zeer belangrijke-waardeparen in Vraag DCS {#formatting-key-value-pairs-in-dcs-calls}
 
-Wanneer het doen van een vraag, [!UICONTROL DCS] keurt zeer belangrijk-waardegegevens in standaard of in series vervaardigd formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
+Wanneer het doen van een vraag, [!DNL DCS] keurt zeer belangrijk-waardegegevens in standaard of in series vervaardigd formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
 
 ## Standaard en seriële sleutelwaardeparen {#standard-serialized}
 
@@ -41,7 +44,7 @@ Wanneer het doen van een vraag, [!UICONTROL DCS] keurt zeer belangrijk-waardegeg
 
 ## Scheidingstekens en scheidingstekens voor seriële sleutelwaardeparen {#delimiters-separators}
 
-Met geserialiseerde sleutel-waarde paren, moet u de tellers specificeren die waarden binnen en tussen deze variabelen scheiden. Audience Manager vereist de volgende scheidingstekens en scheidingstekens:
+Met geserialiseerde sleutel-waarde paren, moet u de tellers specificeren die waarden binnen en tussen deze variabelen scheiden. Voor Audience Manager zijn de volgende scheidingstekens en scheidingstekens vereist:
 
 <table id="table_8FD4E6B9506943AEA619D4089913ECBC"> 
  <thead> 
