@@ -6,7 +6,7 @@ solution: Audience Manager
 title: DCS-foutcodes, berichten en voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 2%
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # DCS-foutcodes, berichten en voorbeelden {#dcs-error-codes-messages-and-examples}
 
-Foutcodes en berichten die worden gegenereerd door de [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]) in numerieke volgorde door code-id.
+Foutcodes en berichten die worden gegenereerd door de [!UICONTROL Data Collection Servers] ([!DNL DCS]) in numerieke volgorde door code-id.
 
 In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* .
 
@@ -67,7 +67,7 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   </tr> 
   <tr> 
    <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Ongeldige Experience Cloud ID doorgegeven <code><i>ID</i></code> </p> </td> 
+   <td colname="col2"> <p>Ongeldige Experience Cloud-id doorgegeven <code><i>ID</i></code> </p> </td> 
    <td colname="col3"> <p>De <span class="wintitle"> DCS</span> -aanroep bevat een ongeldige <span class="keyword"> Experience Cloud</span> -id. </p> <p>Controleer het <code> d_mid=</code> sleutelwaardepaar in de koptekstreeks. Geef de juiste <span class="keyword"> Experience Cloud</span> -id door en probeer het verzoek opnieuw. </p> </td> 
   </tr> 
   <tr> 
@@ -207,7 +207,7 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>Onbevoegde klant-id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wordt geretourneerd wanneer de gegevensbron van de klant-id niet het eigendom is van de huidige organisatie-id. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie 'Uw organisatie-id zoeken' in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organisaties en Account Linking</a> voor meer informatie over het zoeken naar deze id. </p> </td> 
+   <td colname="col3"> <p>Wordt geretourneerd wanneer de gegevensbron van de klant-id niet het eigendom is van de huidige organisatie-id. If you do not know or have your Organization ID, see the "Find your Organization ID" section in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizations and Account Linking</a> for information about how to find it. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -221,23 +221,23 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Opgegeven apparaat met blokkering <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>De apparaat-id is als kwaadaardig geïdentificeerd en is toegevoegd aan een denylist Dit kan gebeuren wanneer er een zeer grote hoeveelheid <span class="wintitle"> DCS</span> -verzoeken met deze apparaat-id wordt ontvangen. </p> </td>
+   <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>The device ID has been identified as malicious and has been added to a denylist This can happen when we receive an extreme amount of <span class="wintitle"> DCS</span> requests containing this device ID in a short amount of time. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Geblokkeerde profielbewerking voor <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Een lees-/schrijfactie is geblokkeerd omdat een id is geïdentificeerd als kwaadaardig en is toegevoegd aan een denylist Zie foutcode 306. </p> </td> 
+   <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>A read/write action has been blocked because an ID has been identified as malicious and has been added to a denylist See error code 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>Customer id <code><i>ID</i></code> is verwijderd omdat deze de limiet voor opgegeven klantgegevens per aanvraag overschrijdt </p> </td> 
-   <td colname="col3"> <p>Verwant aan fout 301. Deze fout geeft aan welke klant-id is verwijderd omdat de limiet is overschreden. </p> <p>Bijvoorbeeld, als er 12 klant IDs op de vraag <span class="wintitle"> DCS</span> wordt verklaard, zullen twee van hen worden verworpen. Om door te geven welke zijn genegeerd, wordt deze fout twee keer weergegeven in de reactie (één keer voor elke verwijderde klant-id ). </p> </td>
+   <td colname="col2"> <p>Customer id <code><i>ID</i></code> was discarded because it exceeded the limit of declared customer ids per request </p> </td> 
+   <td colname="col3"> <p>Related to error 301. This error specifies which customer ID was discarded because the limit was exceeded. </p> <p>For example, If there are 12 customer IDs declared on the <span class="wintitle"> DCS</span> call, two of them will be discarded. Om door te geven welke zijn genegeerd, wordt deze fout twee keer weergegeven in de reactie (één keer voor elke verwijderde klant-id ). </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>Id van klant is verwijderd omdat deze de limiet voor een bepaalde naamruimte overschrijdt. Naamruimte-id is <code><i>ID</i></code>, klant-id is <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Deze foutcode wordt geretourneerd als er meer dan drie klant-id's zijn gedeclareerd voor dezelfde naamruimte (<code> DPID</code>) op een <span class="wintitle"> DCS</span> -aanroep. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In dit voorbeeld van <span class="wintitle"> DCS</span> -verzoek zijn er 4 id's gedeclareerd voor dezelfde naamruimte (met de integratiecode één). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
+   <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace. Naamruimte-id is <code><i>ID</i></code>, klant-id is <code><i>ID</i></code>. </p> </td> 
+   <td colname="col3"> <p>This error code is returned if there are more than 3 customer IDs declared for the same namespace (<code> DPID</code>) on a <span class="wintitle"> DCS</span> call. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In dit voorbeeld van <span class="wintitle"> DCS</span> -verzoek zijn er 4 id's gedeclareerd voor dezelfde naamruimte (met de integratiecode één). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -247,7 +247,7 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Aanvraag bevat een ongeldige globale apparaat-id </p> </td> 
-   <td colname="col3"> <p>De <span class="wintitle">DCS</span> retourneert deze foutcode wanneer de aanvraag een ongeldige algemene apparaat-id bevat. DCS negeert de ongeldige identiteitskaart en werpt een fout 312 samen met de specifieke fouten van ongeldige identiteitskaart Raadpleeg <a href="../../../features/global-data-sources.md" format="dita" scope="local">Algemene gegevensbronnen</a> en <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">index van id's in Audience Manager</a> voor gedetailleerde informatie over de juiste indeling voor adverteren-id voor apparaten en de bijbehorende globale gegevensbronnen.</p>
+   <td colname="col3"> <p>De <span class="wintitle">DCS</span> retourneert deze foutcode wanneer de aanvraag een ongeldige algemene apparaat-id bevat. DCS negeert de ongeldige identiteitskaart en werpt een fout 312 samen met de specifieke fouten van ongeldige identiteitskaart Zie <a href="../../../features/global-data-sources.md" format="dita" scope="local">Algemene gegevensbronnen</a> en <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index van id's in Audience Manager</a> voor gedetailleerde informatie over de correcte formaten van adverteren-id van apparaten en overeenkomstige globale gegevensbronnen.</p>
    <p>Voorbeeld van een onjuiste aanroep: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Uitleg: Een <span class="keyword">IDFA (DPID 20915)</span> moet een hoofdletter-id zijn. De id in het verzoek is in kleine letters.</p>
    </td>
@@ -255,18 +255,18 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>CMP-id is niet aanwezig in GCL</p> </td> 
-   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en het koord IAB TC door CMP identiteitskaart wordt geproduceerd die niet aanwezig in de caching versie van de Manager van de Audience van de Manager van de Audience van de Globale CMP- Lijst op het ogenblik van evaluatie is, verwerpt de Plug-in van de Manager van de Audience voor IAB TCF het koord IAB TC en verwerkt het verzoek zoals gebruikelijk. De IAB TCF v2.0 ${GDPR} macro wordt geplaatst aan 0 en $ {GDPR_CONSENT_XXX} macro is leeg.</p>
+   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en het koord IAB TC door CMP identiteitskaart wordt geproduceerd die niet aanwezig in de caching versie van de Globale CMP- Lijst op het ogenblik van evaluatie is, verwerpt de Plug-in van de Audience Manager voor IAB TCF het koord IAB TC en verwerkt het verzoek zoals gebruikelijk. De IAB TCF v2.0 ${GDPR} macro wordt geplaatst aan 0 en $ {GDPR_CONSENT_XXX} macro is leeg.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>CMP-id is gemarkeerd als verwijderd in GCL</p> </td> 
-   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en het koord IAB TC door CMP wordt geproduceerd dat zoals geschrapt in onze caching versie van de Globale CMP- Lijst wordt duidelijk, verwerpt de Plug-in van de Manager van de Publiek voor IAB TCF het koord TC en verwerkt het verzoek zoals gebruikelijk, als de evaluatietijd voorbij de schrappingstijd van de Globale CMP- Lijst is. De IAB TCF v2.0 ${GDPR} macro wordt geplaatst aan 0 en $ {GDPR_CONSENT_XXX} macro is leeg.</p></td>
+   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en het koord IAB TC door CMP wordt geproduceerd dat zoals geschrapt in onze caching versie van de Globale CMP Lijst wordt duidelijk, verwerpt de stop-binnen van de Audience Manager voor IAB TCF het koord TC en verwerkt het verzoek zoals gebruikelijk, als de evaluatietijd voorbij de schrappingstijd van de Globale CMP Lijst is. De IAB TCF v2.0 ${GDPR} macro wordt geplaatst aan 0 en $ {GDPR_CONSENT_XXX} macro is leeg.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 
    <td colname="col2"> <p>Constante tekenreeks geeft aan dat er geen toestemming is</p> </td> 
-   <td colname="col3"> <p>Wanneer geen toestemming wordt verstrekt, opheft de Plug-in van de Manager van de Publiek voor IAB TCF de gebruiker uit verdere gegevensinzameling, of laat vallen volledig de vraag als er geen partnercontext wordt ontdekt.</p>
+   <td colname="col3"> <p>Wanneer geen toestemming wordt verstrekt, opteert de stop-binnen van de Audience Manager voor IAB TCF de gebruiker uit verdere gegevensinzameling, of laat vallen volledig de vraag als er geen partnercontext wordt ontdekt.</p>
    </td>
   </tr>
 
@@ -275,7 +275,7 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
 
 ## Voorbeeldfoutcode voor berichten {#sample-error-codes}
 
-De [!UICONTROL DCS] functie retourneert foutcodes en berichten in een [!DNL JSON] object of in een X-header in de HTTP-antwoordtekenreeks.
+De [!DNL DCS] functie retourneert foutcodes en berichten in een [!DNL JSON] object of in een X-header in de HTTP-antwoordtekenreeks.
 
 ### Voorbeeld-DCS-foutcode en -bericht
 
