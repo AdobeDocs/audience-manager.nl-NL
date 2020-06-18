@@ -4,22 +4,25 @@ solution: Audience Manager
 title: Server-aan-Server DCS API Vraag maken
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 translation-type: tm+mt
-source-git-commit: bc2a9364b771436fe0191f9d69a8c291563f9229
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 0%
 
 ---
 
 
 # Server-aan-Server DCS API Vraag maken {#making-server-to-server-dcs-api-calls}
 
-De vraag vereist de gastheernaam van de regionale server DCS en gebruiker - identiteitskaart Als u niet over de vereiste gebruikers- en regio-id&#39;s beschikt, raadpleegt u [Gebruikersnamen en -regio&#39;s ophalen uit een DCS-respons](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) en/of [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Zodra u gebruiker en gebied IDs hebt, kunt u server-aan-server vraag aan DCS maken. Zie deze sectie voor syntaxis en voorbeelden.
+De vraag vereist de gastheernaam van de regionale server DCS en gebruiker - identiteitskaart Als u niet over de vereiste gebruikers- en regio-id&#39;s beschikt, raadpleegt u [Gebruikersnamen en -gebieden ophalen uit een DCS-reactie](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) en/of [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Zodra u gebruiker en gebied IDs hebt, kunt u server-aan-server vraag aan DCS maken. Zie deze sectie voor syntaxis en voorbeelden.
 
 >[!NOTE]
 >
->In de code en voorbeelden staat *cursief* voor een variabele plaatsaanduiding. Vervang een reële waarde voor placeholder wanneer u server-aan-server vraag aan [!UICONTROL DCS].
+>In de code en voorbeelden staat *cursief* voor een variabele plaatsaanduiding. Vervang een reële waarde voor placeholder wanneer u server-aan-server vraag aan [!DNL DCS].
 
 ## De Syntaxis van de vraag en Voorbeeld {#call-syntax-example}
 
-Een basisverzoek van server naar server dat gegevens naar de [!UICONTROL DCS] syntaxis verzendt gebruikt hieronder wordt getoond die.
+Een basisverzoek van server naar server dat gegevens naar de [!DNL DCS] syntaxis verzendt gebruikt hieronder wordt getoond die.
 
 ```js
 "Host:domain_alias.demdex.net" "https://DCS_host_name.demdex.net/event?d_rtbd=json&d_jsonv=1&d_uuid=userID
@@ -45,7 +48,7 @@ Een steekproefvraag kijkt gelijkaardig aan het volgende voorbeeld.
    <td colname="col1"> <p><code> <i>domain alias</i>.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Dit deel van de vraag bevat: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Uw domeinalias die is toegewezen door <span class="keyword"> Audience Manager</span> (bijvoorbeeld <i><code> my_domain.demdex.net</code></i>). </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Uw domeinalias toegewezen door <span class="keyword"> Audience Manager</span> (bijvoorbeeld <i><code> my_domain.demdex.net</code></i>). </li> 
       <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Het doeldomein, dat altijd is <i><code> demdex.net</code></i>. Zie het <a href="../../../reference/demdex-calls.md"> Begrip van Vraag aan het Domein</a>van de Index. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -63,11 +66,11 @@ Een steekproefvraag kijkt gelijkaardig aan het volgende voorbeeld.
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_uuid= <i>Audience Manager user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dit is de unieke sleutel van identiteitskaart van de gebruiker die de waarde van de Gebruiker van de Manager <span class="keyword"></span> van de Publiek in een zeer belangrijk-waardepaar houdt. </p> <p>Gebruik deze optie <code><i>d_uuid</i></code> als u de gebruikersnaam voor <span class="keyword"> Audience Manager</span> opgeeft. </p> </td>
+   <td colname="col2"> <p>Dit is de unieke sleutel van identiteitskaart van de gebruiker die de waarde van de gebruiker van de <span class="keyword"> Audience Manager</span> in een zeer belangrijk-waardepaar houdt. </p> <p>Gebruik <code><i>d_uuid</i></code> als u de gebruikersnaam van de <span class="keyword"> Audience Manager</span> doorgeeft. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code>d_mid=<i>Experience Cloud user ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dit is de unieke gebruikersnaam die de waarde voor de <span class="keyword"> Experience Cloud</span> -gebruikersnaam bevat in een sleutelwaardepaar. Zie ook <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> De gebruikersnaam ophalen uit de ID Service Cookie</a>. </p> <p>Gebruik deze optie <i><code> d_mid</code></i> als u een <span class="keyword"> Experience Cloud</span> -id gebruikt die is vastgelegd via de <span class="keyword"> Experience Cloud</span> ID-service. </p> </td> 
+   <td colname="col2"> <p>Dit is de unieke sleutel van identiteitskaart van de gebruiker die de waarde van <span class="keyword"> Experience Cloud</span> gebruiker - identiteitskaart in een zeer belangrijk-waardepaar houdt. Zie ook <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#get-user-ids-from-service-cookie"> De gebruikersnaam ophalen uit de ID Service Cookie</a>. </p> <p>Gebruik deze optie <i><code> d_mid</code></i> als u een <span class="keyword"> Experience Cloud</span> -id doorgeeft die is vastgelegd via de <span class="keyword"> Experience Cloud</span> -id-service. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
