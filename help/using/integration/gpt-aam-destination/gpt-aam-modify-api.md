@@ -1,27 +1,30 @@
 ---
-description: Voeg een if-instructie toe om te controleren op cookies van Audience Manager voordat u de methode Google Publisher Tag.setTargeting aanroept.
-seo-description: Voeg een if-instructie toe om te controleren op cookies van Audience Manager voordat u de methode Google Publisher Tag.setTargeting aanroept.
+description: Voeg een if-instructie toe om te controleren op cookies van Audience Managers voordat u de Google Publisher-tag .setTargeting-methode aanroept.
+seo-description: Voeg een if-instructie toe om te controleren op cookies van Audience Managers voordat u de Google Publisher-tag .setTargeting-methode aanroept.
 seo-title: Wijzig de GPT setTargeting API Vraag
 solution: Audience Manager
 title: Wijzig de GPT setTargeting API Vraag
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 0%
 
 ---
 
 
 # De GPT `setTargeting` API-aanroep wijzigen {#modify-the-gpt-settargeting-api-call}
 
-Voeg een if- verklaring toe om de koekjes van de Manager van de Publiek te controleren alvorens de [!DNL Google Publisher Tag] `.setTargeting` methode te roepen.
+Voeg een if-instructie toe om te controleren op cookies van de Audience Manager voordat u de [!DNL Google Publisher Tag] `.setTargeting` methode aanroept.
 
-## Controleren op cookies van Audience Manager met een `IF` instructie
+## Controleren op Audience Manager Cookies met een `IF` instructie
 
-De `.setTargeting` methode krijgt gegevens van het bestemmingskoekje van de Manager van de Publiek en het unieke koekje van identiteitskaart van de gebruiker ( `aam_uuid`). Als deze cookies echter `.setTargeting` worden aangeroepen voordat deze worden [!UICONTROL DIL] geschreven of als de cookies leeg zijn, kunnen er fouten optreden wanneer de pagina wordt geladen. U kunt dit voorkomen door de `.setTargeting` methode op te nemen in een `if` instructie die op deze cookies controleert. Als ze niet zijn ingesteld, voorkomt deze instructie dat `.setTargeting` de `AamGpt` functie wordt aangeroepen.
+De `.setTargeting` methode krijgt gegevens van het de bestemmingskoekje van de Audience Manager en het unieke koekje van identiteitskaart van de gebruiker ( `aam_uuid`). Als deze cookies echter `.setTargeting` worden aangeroepen voordat deze worden [!UICONTROL DIL] geschreven of als de cookies leeg zijn, kunnen er fouten optreden wanneer de pagina wordt geladen. U kunt dit voorkomen door de `.setTargeting` methode op te nemen in een `if` instructie die op deze cookies controleert. Als ze niet zijn ingesteld, voorkomt deze instructie dat `.setTargeting` de `AamGpt` functie wordt aangeroepen.
 
 ### `IF` Voorbeeld van instructiecode
 
-In dit voorbeeld is de naam van het doelcookie van Audience Manager `Sample`. U stelt deze naam in wanneer u het doelcookie maakt in de interface van Audience Manager. [!UICONTROL DIL] Hiermee stelt u de `aam_uuid` cookie in en de naam kan niet worden gewijzigd.
+In dit voorbeeld is de naam van het doelcookie van de Audience Manager `Sample`. U plaatst deze naam wanneer u het bestemmingskoekje in het gebruikersinterface van de Audience Manager creeert. [!UICONTROL DIL] Hiermee stelt u de `aam_uuid` cookie in en de naam kan niet worden gewijzigd.
 
 ```js
 if(typeof AamGpt.getCookie("Sample") != "undefined"){ 
@@ -67,7 +70,7 @@ Definieert de toetsvariabelen die in de `if` instructie worden gebruikt.
   <tr> 
    <td colname="col1"> <p> <code> AamGpt.getCookie </code> </p> </td> 
    <td colname="col2"> <p>Int </p> </td> 
-   <td colname="col3"> <p>Hiermee wordt de gebruikers-id van Audience Manager geretourneerd, bijvoorbeeld <code> 12345 </code>. </p> </td> 
+   <td colname="col3"> <p>Retourneert de gebruikers-id van de Audience Manager, bijvoorbeeld <code> 12345 </code>. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -75,5 +78,5 @@ Definieert de toetsvariabelen die in de `if` instructie worden gebruikt.
 >[!MORELIKETHIS]
 >
 >* [Een GPT-doel maken](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Code Auditiemanager voor Google Publisher-tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Audience Manager Code voor Google Publisher-tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
