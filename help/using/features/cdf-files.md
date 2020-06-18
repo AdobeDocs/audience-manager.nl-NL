@@ -1,13 +1,16 @@
 ---
-description: Basisinformatie over CDF-bestanden (Customer Data Feed) en instructies over hoe u aan de slag kunt gaan. Begin hier als u in het ontvangen van CDF- dossiers geinteresseerd bent of enkel meer informatie wilt.
+description: Basic information about Customer Data Feed (CDF) files and instructions on how to get started. Start here if you're interested in receiving CDF files or just want more information.
 keywords: second party data;2nd party;2nd party data;second party
-seo-description: Basisinformatie over CDF-bestanden (Customer Data Feed) en instructies over hoe u aan de slag kunt gaan. Begin hier als u in het ontvangen van CDF- dossiers geinteresseerd bent of enkel meer informatie wilt.
+seo-description: Basisinformatie over CDF-bestanden (Customer Data Feed) en instructies over hoe u aan de slag kunt gaan. Start here if you're interested in receiving CDF files or just want more information.
 seo-title: Gegevensinvoer van klant
 solution: Audience Manager
 title: Gegevensinvoer van klant
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1890'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +23,7 @@ Basisinformatie over [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) bestande
 
 <!-- cdf-intro.xml -->
 
-Een [!UICONTROL CDF] bestand bevat dezelfde gegevens als een [!DNL Audience Manager] gebeurtenisaanroep ( `/event`) naar onze servers verzendt. Dit omvat gegevens zoals gebruiker IDs, eigenschap IDs, segment IDs, en alle andere parameters die door een gebeurtenisvraag worden gevangen. Interne [!DNL Audience Manager] systemen verwerken gebeurtenisgegevens in een [!UICONTROL CDF] bestand met inhoud die is ingedeeld in velden die in een ingestelde volgorde worden weergegeven. [!DNL Audience Manager] probeert [!UICONTROL CDF] bestanden per uur te genereren en slaat deze op in een beveiligd, klantspecifiek emmertje op een [!DNL Amazon S3] server. Deze bestanden zijn beschikbaar zodat u buiten de grenzen van de gebruikersinterface kunt werken met [!DNL Audience Manager] gegevens.
+A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call (`/event`) sends to our servers. Dit omvat gegevens zoals gebruiker IDs, eigenschap IDs, segment IDs, en alle andere parameters die door een gebeurtenisvraag worden gevangen. Interne [!DNL Audience Manager] systemen verwerken gebeurtenisgegevens in een [!UICONTROL CDF] bestand met inhoud die is ingedeeld in velden die in een ingestelde volgorde worden weergegeven. [!DNL Audience Manager] probeert [!UICONTROL CDF] bestanden per uur te genereren en slaat deze op in een beveiligd, klantspecifiek emmertje op een [!DNL Amazon S3] server. Deze bestanden zijn beschikbaar zodat u buiten de grenzen van de gebruikersinterface kunt werken met [!DNL Audience Manager] gegevens.
 
 >[!NOTE]
 >
@@ -105,7 +108,7 @@ Een [!UICONTROL CDF] bestand bevat enkele of alle hieronder gedefinieerde velden
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>De <span class="keyword"> Experience Cloud</span> ID (MID) die aan de sitebezoeker is toegewezen. Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>De <span class="keyword"> Experience Cloud</span> -id (MID) die aan de sitebezoeker is toegewezen. Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -149,7 +152,7 @@ Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] bestand weer en de
   </tr> 
   <tr> 
    <td colname="col1"> <p>Veldvolgorde </p> </td> 
-   <td colname="col2"> <p> <p>Belangrijk: <span class="keyword"> Audience Manager</span> behoudt zich het recht voor om nieuwe velden toe te voegen aan het einde van het CDF-bestand in toekomstige versies. Dit betekent het technische ontwerp van uw dossier het ontleden systeem niet een vast aantal kolommen zou moeten veronderstellen (hoewel het een vaste orde voor bestaande kolommen kan veronderstellen). </p> </p> <p>De gegevens in uw CDF-bestand worden weergegeven in de onderstaande volgorde. </p> <p> 
+   <td colname="col2"> <p> <p>Belangrijk: <span class="keyword"> Audience Manager</span> behoudt zich het recht voor om nieuwe velden aan het einde van het CDF-bestand toe te voegen in toekomstige versies. Dit betekent het technische ontwerp van uw dossier het ontleden systeem niet een vast aantal kolommen zou moeten veronderstellen (hoewel het een vaste orde voor bestaande kolommen kan veronderstellen). </p> </p> <p>De gegevens in uw CDF-bestand worden weergegeven in de onderstaande volgorde. </p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Gebeurtenistijd </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Apparaat </li> 
@@ -159,7 +162,7 @@ Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] bestand weer en de
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parameters aanvragen </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Verwijzing </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-adres </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (of MID). Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (of MID). Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Dienst van de Identiteit van het Adobe Experience Platform</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle segmenten </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle sporen </li> 
      </ol> </p> <p>Voor gebiedsbeschrijvingen, zie de Gedefinieerde <a href="#cdf-defined"> Inhoud van de Diervoeders van de Gegevens van de</a>Klant. </p> </td> 
@@ -241,7 +244,7 @@ In de volgende tabel worden de elementen in een [!UICONTROL CDF] bestandsnaam we
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>AAM process ID</i>_0</code> </p> </td> 
-   <td colname="col2"> <p>Een interne, <span class="keyword"> Audience Manager</span> -procesid. </p> </td> 
+   <td colname="col2"> <p>Een interne, <span class="keyword"> Audience Manager</span> proces-id. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> .gz</code> </p> </td> 
@@ -373,8 +376,8 @@ De volgende tabel bevat aanvullende informatie over de tijdstempels van uw [!UIC
 
 | Locatie tijdstempel | Beschrijving |
 |--- |--- |
-| Bestandsnaam | Het tijdstempel in de naam van het CDF-bestand geeft aan op welk tijdstip het bestand voor levering is [!DNL Audience Manager] voorbereid. Deze tijdstempel wordt ingesteld in de tijdzone UTC. De parameter wordt gebruikt, waarbij de tijd wordt opgemaakt als een uur van 2 cijfers in 24-uursnotatie. `hour=` Deze tijd kan anders zijn dan de tijd van de gebeurtenis die in de bestandsinhoud is opgenomen. BREAKWij het werken met CDF dossiers, zult u soms merken dat uw S3 emmertje voor een bepaald uur leeg is. Onder &quot;lege emmer&quot; wordt verstaan:<ul><li>Er zijn geen gegevens voor dat specifieke uur. </li><li> Onze servers zijn zwaar belast en kunnen geen dossiers voor een bepaald uur verwerken. Wanneer de server omhoog vangt, zet het de dossiers die in een vroegere dossiers van het tijdemmertje in een emmer met een recentere tijdwaarde zouden moeten zijn gegaan. Bijvoorbeeld, zult u dit zien wanneer een dossier dat in het uur 17 emmertje zou moeten geweest in het uur 18 emmer (met `hour=18` in de dossiernaam) verschijnen. In dit geval is de server waarschijnlijk begonnen met het verwerken van uw bestand in uur 17, maar kon het bestand niet binnen dat tijdsinterval voltooien. In plaats daarvan wordt het bestand naar het volgende uurtje geduwd.</li></ul><br>**Belangrijk **: Gebruik geen tijdstempel voor de bestandsnaam om gebeurtenissen te groeperen. Als u wilt groeperen door tijd, gebruik`EventTime`timestamp in de dossierinhoud. |
-| Bestandsinhoud | Het tijdstempel in de inhoud van het CDF-bestand geeft aan op welk tijdstip de gegevensverzamelingsservers het bestand hebben verwerkt. Deze tijdstempel wordt ingesteld in de tijdzone UTC. Hierbij wordt het `EventTime` veld gebruikt, met de tijd als *`yyyy-mm-dd hh:mm:ss`*. Deze tijd ligt dicht bij de werkelijke tijd van de gebeurtenis op de pagina, maar kan verschillen van de tijdindicator in de bestandsnaam. <br> **Tip**: In tegenstelling tot de `hour=` `EventTime` tijdstempel in de bestandsnaam kunt u gegevens op tijd groeperen. |
+| Bestandsnaam | Het tijdstempel in uw [!DNL CDF] bestandsnaam geeft de tijd aan waarop u het bestand hebt [!DNL Audience Manager] voorbereid voor levering. Deze tijdstempel wordt ingesteld in de [!DNL UTC] tijdzone. De parameter wordt gebruikt, waarbij de tijd wordt opgemaakt als een uur van 2 cijfers in 24-uursnotatie. `hour=` Deze tijd kan anders zijn dan de tijd van de gebeurtenis die in de bestandsinhoud is opgenomen. Wanneer u met [!DNL CDF] bestanden werkt, zult u soms merken dat uw [!DNL S3] emmertje een bepaald uur leeg is. Onder &quot;lege emmer&quot; wordt verstaan:<ul><li>Er zijn geen gegevens voor dat specifieke uur. </li><li> Onze servers zijn zwaar belast en kunnen geen dossiers voor een bepaald uur verwerken. Wanneer de server omhoog vangt, zet het de dossiers die in een vroegere dossiers van het tijdemmertje in een emmer met een recentere tijdwaarde zouden moeten zijn gegaan. Bijvoorbeeld, zult u dit zien wanneer een dossier dat in het uur 17 emmertje zou moeten geweest in het uur 18 emmer (met `hour=18` in de dossiernaam) verschijnen. In dit geval is de server waarschijnlijk begonnen met het verwerken van uw bestand in uur 17, maar kon het bestand niet binnen dat tijdsinterval voltooien. In plaats daarvan wordt het bestand naar het volgende uurtje geduwd.</li></ul><br>**Belangrijk **: Gebruik geen tijdstempel voor de bestandsnaam om gebeurtenissen te groeperen. Als u wilt groeperen door tijd, gebruik`EventTime`timestamp in de dossierinhoud. |
+| Bestandsinhoud | Het tijdstempel in de inhoud van het [!DNL CDF] bestand geeft de tijd aan waarop het bestand is [!DNL Data Collection Servers] verwerkt. Deze tijdstempel wordt ingesteld in de [!DNL UTC] tijdzone. Hierbij wordt het `EventTime` veld gebruikt, met de tijd als *`yyyy-mm-dd hh:mm:ss`*. Deze tijd ligt dicht bij de werkelijke tijd van de gebeurtenis op de pagina, maar kan verschillen van de tijdindicator in de bestandsnaam. <br> **Tip**: In tegenstelling tot de `hour=` `EventTime` tijdstempel in de bestandsnaam kunt u gegevens op tijd groeperen. |
 
 >[!MORELIKETHIS]
 >
