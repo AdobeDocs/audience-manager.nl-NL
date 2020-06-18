@@ -7,7 +7,7 @@ title: Veelgestelde vragen over gegevensverzameling en productintegratie
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP address; STFP IP address; FTP address
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -27,9 +27,9 @@ faq_data_collection_integration.xml
 
  -->
 
-**Hoe kan ik binnenkomend verkeer van[!UICONTROL DCS]verkeer in de uitvoer van het[!UICONTROL DCS]logboekdossier onderscheiden?**
+**Hoe kan ik binnenkomend verkeer van[!DNL DCS]verkeer in de uitvoer van het[!DNL DCS]logboekdossier onderscheiden?**
 
-De treinen die via [!UICONTROL Inbound] worden ingelegd, worden op dezelfde manier gevuld als [!UICONTROL Inbound] de reizigers [!UICONTROL DCS]. Er zijn een paar verschillende manieren om te zien dat het verkeer uit kwam [!UICONTROL Inbound]:
+De treinen die via [!UICONTROL Inbound] worden ingelegd, worden op dezelfde manier gevuld als [!UICONTROL Inbound] de reizigers [!DNL DCS]. Er zijn een paar verschillende manieren om te zien dat het verkeer uit kwam [!UICONTROL Inbound]:
 
 * Externe IP wordt ingesteld op 68.67.173.18
 * DomainID wordt ingesteld op 5325
@@ -175,15 +175,15 @@ Nee, ga niet uit van het [!UICONTROL General Reports] en [!UICONTROL Trend Repor
 
 De rapporten berekenen populaties die op de unauthenticated profielverslagen (UUIDs) worden gebaseerd wij in het achtereind zien op het tijdstip dat de rapporten worden geproduceerd.
 
-Bij een eerste aanroep naar de id zijn de gedeclareerde id&#39;s [!UICONTROL DCS]niet *gekoppeld aan een UUID (er is dus geen* demdex-cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) aanwezig aan de clientzijde). De [!UICONTROL DCS] URL genereert een UUID willekeurig en stelt een [!DNL demdex] cookie in en geeft deze door in de antwoordaanroep, maar de UUID wordt niet naar de backend verzonden.
+Bij een eerste aanroep naar de id zijn de gedeclareerde id&#39;s [!DNL DCS]niet *gekoppeld aan een UUID (er is dus geen* demdex-cookie [](hhttps://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-am.html) aanwezig aan de clientzijde). De [!DNL DCS] URL genereert een UUID willekeurig en stelt een [!DNL demdex] cookie in en geeft deze door in de antwoordaanroep, maar de UUID wordt niet naar de backend verzonden.
 
 >[!NOTE]
 >
 >De gegenereerde UUID wordt pas geconcretiseerd in onze back-endgegevensopslag als het apparaat waarop het cookie is ingesteld, verdere activiteit activeert.
 
-Om deze reden, zullen de rapporten niet op de gebeurtenissen wijzen die door gedeclareerde IDs in uw vraag worden teweeggebracht. We raden u aan UUID, ECID (voorheen MID) of mobiele apparaat-id&#39;s te gebruiken voor gebeurtenistestaanroepen naar de [!UICONTROL DCS]server. Dan, kunt u de eigenschap en segmentrealisaties in [!UICONTROL General Reports] en in [!UICONTROL Trend Reports]. verifiëren.
+Om deze reden, zullen de rapporten niet op de gebeurtenissen wijzen die door gedeclareerde IDs in uw vraag worden teweeggebracht. We raden u aan UUID, ECID (voorheen MID) of mobiele apparaat-id&#39;s te gebruiken voor gebeurtenistestaanroepen naar de [!DNL DCS]server. Dan, kunt u de eigenschap en segmentrealisaties in [!UICONTROL General Reports] en in [!UICONTROL Trend Reports]. verifiëren.
 
-Zie ook de [Index van Audience Manager-id&#39;s](../reference/ids-in-aam.md).
+Zie ook de [index van Audience Manager-id&#39;s](../reference/ids-in-aam.md).
 
 <br> 
 
