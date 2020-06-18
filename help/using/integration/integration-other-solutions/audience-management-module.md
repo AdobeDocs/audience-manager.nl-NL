@@ -1,56 +1,58 @@
 ---
-description: Voeg de module Audience Management toe aan Adobe Analytics AppMeasurement om analysegegevens door te sturen naar Audience Manager in plaats van dat de DIL-code (Audience Manager Data Integration Library) een pixel van de pagina verzendt.
+description: Voeg de module Audience Management toe aan Adobe Analytics AppMeasurement om Analytics-gegevens door te sturen naar Audience Manager in plaats van dat de DIL-code (Audience Manager Data Integration Library) een pixel van de pagina verzendt.
 keywords: audience analytics; analytics; ssf; server side forwarding
-seo-description: Voeg de module Audience Management toe aan Adobe Analytics AppMeasurement om analysegegevens door te sturen naar Audience Manager in plaats van dat de DIL-code (Audience Manager Data Integration Library) een pixel van de pagina verzendt.
+seo-description: Voeg de module Audience Management toe aan Adobe Analytics AppMeasurement om Analytics-gegevens door te sturen naar Audience Manager in plaats van dat de DIL-code (Audience Manager Data Integration Library) een pixel van de pagina verzendt.
 seo-title: Implementeer de module Audience Management
 solution: Audience Manager
 title: Implementeer de module Audience Management
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 0%
 
 ---
 
 
 # Gegevens van Adobe Analytics doorsturen naar Audience Manager {#implement-the-audience-management-module}
 
-Voer de stappen in deze zelfstudie uit om [!DNL Analytics] gegevens door te sturen naar Audience Manager in plaats van de code Audience Manager [!UICONTROL Data Integration Library] ([!UICONTROL DIL]) een pixel van de pagina te laten verzenden.
+Voer de stappen in deze zelfstudie uit om [!DNL Analytics] gegevens door te sturen naar [!DNL Audience Manager] in plaats van de [!DNL Audience Manager] ( [!UICONTROL Data Integration Library][!DNL DIL]) code een pixel van de pagina te laten verzenden.
 
 >[!TIP]
 >
->We raden u aan gegevens door te sturen [!DNL Adobe Experience Platform Launch] [!UICONTROL Analytics] naar Audience Manager. Door te gebruiken, moet u code niet manueel kopiëren in [!UICONTROL Launch][!UICONTROL AppMeasurement], zoals aangetoond op deze pagina.
+>We raden u aan gegevens door [!DNL Adobe Experience Platform Launch] te sturen [!UICONTROL Analytics] naar [!DNL Audience Manager]. Door te gebruiken, moet u code niet manueel kopiëren in [!UICONTROL Launch][!DNL AppMeasurement], zoals aangetoond op deze pagina.
 
 ## Vereisten {#prereqs}
 
 Naast het inschakelen van de extensies of het implementeren van de code die in dit document wordt beschreven, moet u ook:
 
-* Implementeer de identiteitsservice [van het](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform.
+* Implementeer de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
 * Schakel [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) in voor rapportsuites in de [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementatie {#implementation}
 
-Er zijn twee methoden om gegevens door:sturen van Adobe Analytics naar Audience Manager te implementeren, afhankelijk van de oplossing voor tagbeheer die u gebruikt.
+Er zijn twee methodes om gegevens uit te voeren door:sturen van [!DNL Adobe Analytics] aan [!DNL Audience Manager], afhankelijk van de oplossing van het markeringsbeheer die u gebruikt.
 
-### Implementatie met Adobe Experience Platform Launch
+### Implementatie met Adobe Experience Platform starten
 
-Adobe raadt u aan de extensie [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) te gebruiken om Adobe Analytics en Audience Manager te instrumenteren voor uw eigenschappen. In dit geval hoeft u geen code handmatig te kopiëren. In plaats daarvan moet u gegevensdeling inschakelen in de extensie Analytics Launch, zoals in de onderstaande afbeelding wordt getoond. Zie ook de documentatie bij [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) .
+[!DNL Adobe] raadt u aan de extensie [Starten](https://docs.adobe.com/content/help/en/launch/using/overview.html) te gebruiken voor instrumenten [!DNL Adobe Analytics] en [!DNL Audience Manager] eigenschappen. In dit geval hoeft u geen code handmatig te kopiëren. In plaats daarvan moet u gegevensdeling inschakelen in de [!DNL Analytics Launch] extensie, zoals in de onderstaande afbeelding wordt getoond. Zie ook de [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentatie.
 
 >[!TIP]
 >
->Als u de extensie Adobe Analytics installeert, installeert u *niet* ook de extensie Audience Manager. Door gegevens uit de extensie Analytics te verzenden, wordt de extensiefunctie Audience Manager vervangen.
+>Installeer de [!DNL Adobe Analytics] extensie *niet* [!DNL Audience Manager] als u deze installeert. Door gegevens van de [!DNL Analytics] extensie te verzenden, vervangt u de [!DNL Audience Manager] extensiefunctie.
 
-![Gegevens delen inschakelen vanuit de extensie Adobe Analytics naar Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
+![Gegevens delen inschakelen van de Adobe Analytics-extensie naar Audience Manager](/help/using/integration/assets/analytics-to-aam.png)
 
 ### Implementatie met Adobe Digital Tag Management (DTM) of een andere oplossing voor tagbeheer
 
-
 >[!WARNING]
 >
->Adobe heeft plannen gepubliceerd om de DTM tegen eind 2020 te onderbreken. Raadpleeg DTM-plannen voor een zonsondergang in de [Adobe-communityforums](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset)voor meer informatie en planning.
+>[!DNL Adobe] heeft plannen gepubliceerd om tegen eind 2020 te verzonnen [!DNL DTM] . Raadpleeg [!DNL DTM] Abonnementen voor een zonsondergang in de forums [van de](https://forums.adobe.com/community/experience-cloud/platform/launch/blog/2018/10/05/dtm-plans-for-a-sunset)Adobe-community voor meer informatie en planning.
 
 Implementeer de [!UICONTROL Audience Management Module] toepassing met [Adobe DTM](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html) of een andere oplossing voor tagbeheer:
 
-1. Download dit [!UICONTROL AppMeasurement] met [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html) (vereist versie 1.5 of hoger).
+1. Download [!UICONTROL AppMeasurement] met behulp van [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html) (versie 1.5 of hoger vereist).
 1. Werk uw [!UICONTROL AppMeasurement] code bij naar de versie die in het gedownloade ZIP-bestand staat.
 1. Kopieer alle code uit `AppMeasurement_Module_AudienceManagement.js` het ZIP-bestand. Plak het in het `appMeasurement.js` bestand net boven de tekst, `"DO NOT ALTER ANYTHING BELOW THIS LINE."`
 1. Voeg de code toe, `s.loadModule("AudienceManagement");`net boven de `AppMeasurement_Module_AudienceManagement.js` code die u zojuist hebt toegevoegd in de vorige stap.
@@ -72,7 +74,7 @@ s.AudienceManagement.setup({
 
 >[!TIP]
 >
->De `audienceManagement.setup` functie deelt parameters met de `DIL.create` functie van de Manager van de Publiek, die u in deze code kunt vormen. Zie [DIL maken](../../dil/dil-class-overview/dil-create.md#dil-create)voor meer informatie over deze parameters.
+>De `audienceManagement.setup` functie deelt parameters met de [!DNL Audience Manager] `DIL.create` functie, die u in deze code kunt vormen. Zie [DIL maken](../../dil/dil-class-overview/dil-create.md#dil-create)voor meer informatie over deze parameters.
 
 ## Codeelementen gedefinieerd {#code-elements-defined}
 
@@ -80,17 +82,17 @@ In de volgende tabel worden belangrijke variabelen in het codevoorbeeld gedefini
 
 | Parameter | Beschrijving |
 |--- |--- |
-| `partner` | Vereist. Dit is een partnernaam die door Adobe aan u is toegewezen. Het wordt soms bedoeld als uw &quot;partner identiteitskaart&quot;of &quot;partner subdomain.&quot;  Neem contact op met uw Adobe-consultant of [klantenservice](https://helpx.adobe.com/marketing-cloud/contact-support.html) als u de naam van uw partner niet kent. |
+| `partner` | Vereist. Dit is een partnernaam die aan u door wordt toegewezen [!DNL Adobe]. Het wordt soms bedoeld als uw &quot;partner identiteitskaart&quot;of &quot;partner subdomain.&quot;  Neem contact op met uw [!DNL Adobe] consultant of [klantenservice](https://helpx.adobe.com/marketing-cloud/contact-support.html) als u uw partnernaam niet kent. |
 | `containerNSID` | Vereist. De meeste klanten kunnen enkel plaatsen `"containerNSID":0` . Als uw bedrijf de id-syncs echter moet aanpassen met een andere container, kunt u die container-id hier opgeven. |
-| `uuidCookie` | Optioneel. Met deze configuratie kunt u een Adobe-cookie instellen in het domein van de eerste fabrikant. Deze cookie bevat de [UUID](../../reference/ids-in-aam.md) . |
-| `visitorService` - `namespace` | Vereist. De `namespace` parameter wordt vereist als u de module AudienceManagement gebruikt die met [!UICONTROL AppMeasurement] versie 2.10 of hoger wordt gebundeld. Deze [!UICONTROL AudienceManagement] module vereist dat u [!UICONTROL Adobe Experience Platform Identity Service] 3.3 of hoger gebruikt. <br> De id [!UICONTROL Experience Cloud Organization ID] is de id waarmee een bedrijf wordt voorzien wanneer het zich aanmeldt voor de [!UICONTROL Experience Cloud]account. Zoek de organisatie-id van uw bedrijf op in [Organisaties en Account Linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
+| `uuidCookie` | Optioneel. Met deze configuratie kunt u een [!DNL Adobe] cookie instellen in het domein van de eerste fabrikant. Deze cookie bevat de [UUID](../../reference/ids-in-aam.md) . |
+| `visitorService` - `namespace` | Vereist. De `namespace` parameter is vereist als u de [!DNL AudienceManagement] module gebruikt die is gebundeld met [!UICONTROL AppMeasurement] versie 2.10 of hoger. Deze [!UICONTROL AudienceManagement] module vereist dat u [!UICONTROL Adobe Experience Platform Identity Service] 3.3 of hoger gebruikt. <br> De id [!UICONTROL Experience Cloud Organization ID] is de id waarmee een bedrijf wordt voorzien wanneer het zich aanmeldt voor de [!UICONTROL Experience Cloud]account. Zoek de organisatie-id van uw bedrijf op in [Organisaties en Account Linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
 
 ## Resultaten: Gegevens doorsturen naar Audience Manager {#results-data-forwarding}
 
-Uw [!DNL Analytics] implementatie verzendt gegevens naar de Manager van het Publiek nadat u hebt:
+Uw [!DNL Analytics] implementatie verzendt gegevens naar [!DNL Audience Manager] nadat u hebt:
 
 * Ingeschakeld [!UICONTROL Server-Side Forwarding] (overleg met uw consultant over deze functie);
-* De Adobe Experience Platform Identity Service geïmplementeerd;
+* ten uitvoer gelegd [!DNL Adobe Experience Platform Identity Service];
 * Volg de implementatiestappen in deze zelfstudie.
 
 Tijdens dit proces worden gegevens verzonden naar [!DNL Audience Manager]:
@@ -101,4 +103,4 @@ Tijdens dit proces worden gegevens verzonden naar [!DNL Audience Manager]:
 
 >[!NOTE]
 >
->De variabelen die vanuit speciale voorvoegsels naar Audience Manager worden verzonden. [!DNL Analytics] U moet deze voorvoegsels begrijpen en in aanmerking nemen wanneer u de kenmerken van Audience Manager maakt. Voor meer informatie over deze prefixen, zie de Vereisten van het [Prefix voor Zeer belangrijke Variabelen](../../features/traits/trait-variable-prefixes.md).
+>De variabelen die naar [!DNL Audience Manager] van het [!DNL Analytics] gebruik speciale prefixen worden verzonden. U moet deze voorvoegsels begrijpen en er rekening mee houden wanneer u [!DNL Audience Manager] eigenschappen maakt. Voor meer informatie over deze prefixen, zie de Vereisten van het [Prefix voor Zeer belangrijke Variabelen](../../features/traits/trait-variable-prefixes.md).
