@@ -6,23 +6,26 @@ solution: Audience Manager
 title: Gebruikersnaam en regio's ophalen uit een DCS-reactie
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 0%
 
 ---
 
 
 # Gebruikersnaam en regio&#39;s ophalen uit een DCS-reactie {#get-user-ids-and-regions-from-a-dcs-response}
 
-Deze sectie beschrijft hoe te om een [!UICONTROL DCS] reactie te ontleden om bezoeker en gebied IDs terug te winnen die wordt vereist om vraag in real time aan [!UICONTROL DCS]te maken.
+Deze sectie beschrijft hoe te om een [!DNL DCS] reactie te ontleden om bezoeker en gebied IDs terug te winnen die wordt vereist om vraag in real time aan [!DNL DCS]te maken.
 
 ## Gebruiker- en regio-id&#39;s {#user-region-ids}
 
-Een [!UICONTROL DCS] reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar de [!UICONTROL DCS]server.
+Een [!DNL DCS] reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar de [!DNL DCS]server.
 
 * De gebruikers-id is vereist om gegevens te identificeren en aan een bepaalde bezoeker te koppelen.
-* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!UICONTROL DCS]server moet verzenden. De [!UICONTROL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst bij plaatsbezoekers zijn. Zie [DCS-regio-id&#39;s, -locaties en -hostnamen](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS]server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst aan plaatsbezoekers zijn. Zie [DCS-regio-id&#39;s, -locaties en -hostnamen](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Deze parameters worden hieronder beschreven. De code in *cursief* staat voor een variabele plaatsaanduiding.
+Deze parameters worden hieronder beschreven. De *cursieve* code vertegenwoordigt een variabele placeholder.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -61,4 +64,4 @@ Deze eenvoudige reactie laat de `UUID` regio zien `ID`. Dit zijn alleen voorbeel
 
 ## Volgende stappen {#next-steps}
 
-Zodra u de gebruikers-id en de regionale servernaam hebt, kunt u beginnen met het verzenden en ontvangen van [!UICONTROL DCS] gegevens. Zie [DCS API-aanroepen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)maken.
+Zodra u de gebruikers-id en de regionale servernaam hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS] gegevens. Zie [DCS API-aanroepen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)maken.
