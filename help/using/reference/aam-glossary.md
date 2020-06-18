@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Verklarende woordenlijst
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
 translation-type: tm+mt
-source-git-commit: 62147fc719a59d2b2c7b444bce853334b03816c6
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Zie [Klantengegevensfeeds](../features/cdf-files.md).
 
 De CRM-id is de id waarmee klanten gebruikers in hun eigen CRM-systeem identificeren. In plaats van CRM-id gebruiken we de term DPUUID in Audience Manager.
 
-Zie DPUUID in de [Index van IDs in de Manager](../reference/ids-in-aam.md)van de Publiek.
+Zie DPUUID in de [index van IDs in Audience Manager](../reference/ids-in-aam.md).
 
 <br> 
 
@@ -113,7 +113,7 @@ Het [!UICONTROL Data Integration Library] is een API-bibliotheek die door de geb
 
 ## E-F {#e-f}
 
-**Experience Cloud ID (ECID)**
+**Experience Cloud-id (ECID)**
 
 Eerder genoemd identiteitskaart (MID of MCID). [!DNL Marketing Cloud] De [!DNL Experience Cloud] id staat centraal in de ID-service. Dit is een unieke en permanente id voor bezoekers van uw site. Zie Cookies en de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
@@ -166,7 +166,7 @@ Wanneer u werkt met de [!DNL Audience Manager] UI of API, kunt u een integratiec
 
 * [!UICONTROL Traits]: een integratiecode is een gebied voor identiteitskaart, SKU, of andere waarde die door uw interne bedrijfsprocessen wordt gebruikt. Optioneel.
 * [!UICONTROL Segments]: een integratiecode is een veld voor een door de gebruiker gedefinieerde id of andere bedrijfsspecifieke informatie. Optioneel.
-* [!UICONTROL Data Sources]: integratiecodes zijn vereist wanneer u apparaatgegevensbronnen wilt maken, de Adobe Experience Platform Identity Service wilt gebruiken of met [!UICONTROL Profile Merge Rules]wilt werken. Zie [Een gegevensbron](../features/manage-datasources.md#create-data-source) maken voor meer informatie.
+* [!UICONTROL Data Sources]: integratiecodes zijn vereist wanneer u apparaatgegevensbronnen wilt maken, de identiteitsservice van het Adobe Experience Platform wilt gebruiken of met [!UICONTROL Profile Merge Rules]wilt werken. Zie [Een gegevensbron](../features/manage-datasources.md#create-data-source) maken voor meer informatie.
 
 ## K-L {#k-l}
 
@@ -178,13 +178,13 @@ Zie [Algorithmic Modeling](../reference/aam-glossary.md#a-b).
 
 **MCID**, **MID**
 
-Bekijk de [Experience Cloud ID](../reference/aam-glossary.md#e-f).
+Zie de [Experience Cloud-id](../reference/aam-glossary.md#e-f).
 
 ## O-P {#o-p}
 
 **PCS**
 
-[!UICONTROL Profile Cache Server]. Het [!UICONTROL PCS] is een grote database die op Apache Cassandra draait. Er worden gegevens opgeslagen die voor actieve gebruikers zijn ontvangen van server-naar-server overdrachten en de [!UICONTROL DCS]gegevens. [!UICONTROL PCS] gegevens bestaan uit apparaat-id&#39;s, geverifieerde profiel-id&#39;s en de bijbehorende kenmerken.
+[!UICONTROL Profile Cache Server]. Het [!UICONTROL PCS] is een grote database die op Apache Cassandra draait. Er worden gegevens opgeslagen die voor actieve gebruikers zijn ontvangen van server-naar-server overdrachten en de [!DNL DCS]gegevens. [!UICONTROL PCS] gegevens bestaan uit apparaat-id&#39;s, geverifieerde profiel-id&#39;s en de bijbehorende kenmerken.
 
 Zie [Componenten](../reference/system-components/components-data-collection.md)voor gegevensverzameling.
 
@@ -220,7 +220,7 @@ Zie [Segmenten: Doel, Samenstelling en Regels](../features/segments/segments-pur
 
 **Segment adresseerbaar publiek**
 
-In [Adresseerbare Publiek](/help/using/features/addressable-audiences.md), vertegenwoordigt dit metrisch het aantal gebruikers die tot het segment tijdens de rapport terugblik-achterperiode behoorden en een actieve synchronisatie van identiteitskaart op uw plaats hebben. Segmenten kunnen uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij bevatten, via transacties die in de [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md)zijn verworven.
+In [Adresseerbare Publiek](/help/using/features/addressable-audiences.md), vertegenwoordigt dit metrisch het aantal gebruikers die tot het segment tijdens de rapport terugblik-achterperiode behoorden en een actieve synchronisatie van identiteitskaart op uw plaats hebben. Segmenten kunnen uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij bevatten, via transacties die in de [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md)zijn aangeschaft.
 
 <br> 
 
