@@ -6,16 +6,19 @@ solution: Audience Manager
 title: DCS API-methoden
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 translation-type: tm+mt
-source-git-commit: bdea2609b84d7f80d67452b4c43e11cbef01a368
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
 
 # DCS API-methoden {#dcs-api-methods}
 
-Gegevens naar de [!UICONTROL DCS] server verzenden [!DNL API] met `GET` behulp van `POST` methoden.
+Gegevens naar de [!DNL DCS] server verzenden [!DNL API] met `GET` behulp van `POST` methoden.
 
-U kunt gegevens naar de [!UICONTROL DCS] server verzenden met een van de `GET` of `POST` methoden. Neem een blik bij de steekproefvraag hieronder, gebruikend [krullen](https://curl.haxx.se/). In alle drie steekproefvraag, voegen wij de signalen `c_likes = famous popstar` en `c_loves = famous actress` aan het apparatenprofiel toe `12345678901234567890123456789012345678`.
+U kunt gegevens naar de [!DNL DCS] server verzenden met een van de `GET` of `POST` methoden. Neem een blik bij de steekproefvraag hieronder, gebruikend [krullen](https://curl.haxx.se/). In alle drie steekproefvraag, voegen wij de signalen `c_likes = famous popstar` en `c_loves = famous actress` aan het apparatenprofiel toe `12345678901234567890123456789012345678`.
 
 
 ## Gegevens verzenden via GET {#send-data-via-get}
