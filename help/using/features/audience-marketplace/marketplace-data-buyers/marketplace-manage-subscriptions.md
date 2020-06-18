@@ -7,7 +7,10 @@ title: Abonnementen gegevensfeed beheren
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 translation-type: tm+mt
-source-git-commit: aaf4e178cd6faf8fe18f54454277e4253a524130
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 0%
 
 ---
 
@@ -170,7 +173,7 @@ Abonnement op een gegevensfeed opzeggen:
 
 In kunnen [!UICONTROL Audience Marketplace]gegevensproviders de toegang tot uw geabonneerde gegevensfeeds intrekken. Wees niet verontrust als dit met je gebeurt. We hebben je bedekt. Herzie deze sectie voor processen en procedures met betrekking tot de deactivering van gegevensvoer.
 
-## Algemene redenen voor deactivering van gegevensfeed {#reasons-for-deactivation}
+## Algemene redenen voor deactivering van gegevensdoorvoer {#reasons-for-deactivation}
 
 <!-- marketplace-subscriber-deactivated.xml -->
 
@@ -256,7 +259,7 @@ Als gegevenskoper ben je verantwoordelijk voor het verwijderen van de kenmerken 
 
 [Abonnement op de gedeactiveerde gegevensfeed](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) opzeggen nadat u alle ingetrokken kenmerken van uw account hebt verwijderd. Als dit een tijdelijke deactivering is, kunt u zich opnieuw abonneren nadat de gegevensaanbieder de vereiste wijzigingen heeft aangebracht en de feed opnieuw heeft geactiveerd. Zoals bij de meeste dingen, kan de goede communicatie met uw partners (de gegevensleverancier en [!DNL Adobe]) u helpen door dit proces werken.
 
-## De pagina met abonnementsdetails in Audience Marketplace begrijpen {#marketplace-buyer-details}
+## De pagina met abonnementsdetails in Audience Marketplace {#marketplace-buyer-details}
 
 Wanneer u op de naam van een gegevensabonnement in de [!UICONTROL Marketplace]pagina klikt, [!DNL Audience Manager] wordt informatie weergegeven waarmee u weloverwogen keuzes kunt maken over het abonneren op een gegevensfeed.
 
@@ -278,7 +281,7 @@ Op deze pagina vindt u de volgende informatie:
    * Klik **[!UICONTROL Request More Details]** om de gegevensleverancier vragen te stellen over de geselecteerde gegevensvoer of om een korting aan te vragen. Met deze functie worden uw opmerkingen en vragen rechtstreeks naar de gegevensaanbieder verzonden.
 
 1. Gegevensinvoer rapporteert statistieken. In het Venn-diagram (en de bijbehorende maatstaven) ziet u overlappende gegevens voor de laatste 30 dagen. Zie [de Marketplace: Informatie over](marketplace-data-buyers.md#about-marketplace) details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: Het aantal unieke gebruikers in uw account dat de gebruikers in de account van de provider overlappen. Voor een definitie van unieke gebruikers, zie UUID AAM in de [Index van IDs in de Manager](/help/using/reference/ids-in-aam.md)van de Publiek.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: Het aantal unieke gebruikers in uw account dat de gebruikers in de account van de provider overlappen. Zie AAM UUID in de [index van id&#39;s in Audience Manager](/help/using/reference/ids-in-aam.md)voor een definitie van unieke gebruikers.
    * **[!UICONTROL 30 Day Provider Unique Users]**: Het aantal unieke gebruikers dat van de rekening van de leverancier komt.
    * **[!UICONTROL Your Unique Users]**: Het aantal unieke gebruikers dat van uw account komt.
 
@@ -298,7 +301,7 @@ Als [!UICONTROL Audience Marketplace] gegevenskoper kunt u gegevens aanschaffen 
 
 ### Segmenten en overlappen
 
-Met dit gebruiksgeval kunt u uw kenmerken vergelijken met de kenmerken van de provider in een [overlap tussen kenmerken.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Ook, kunt u leverancierseigenschappen tot stand brengen of toevoegen aan een segment en extra vergelijkingen maken met [segment-aan-lijn](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) en [segment-aan-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) rapporten. Met behulp van overlap-vergelijkingen kunt u:
+Met dit gebruiksgeval kunt u uw kenmerken vergelijken met de kenmerken van de provider in een overlappend rapport [met kenmerk-to-trait.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Ook, kunt u leverancierseigenschappen tot stand brengen of toevoegen aan een segment en extra vergelijkingen maken met [segment-aan-lijn](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) en [segment-aan-segment](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) rapporten. Met behulp van overlap-vergelijkingen kunt u:
 
 * **Bereik publiek uitbreiden:** Lage overlapping suggereert dat uw kenmerken gebruikers bevatten die u nog niet eerder hebt gezien. U kunt deze eigenschappen willen proberen en nieuwe gebruikers bereiken.
 * **Bestaande doelgroepen verbeteren:** Bij hoge overlapping zijn uw kenmerken vergelijkbaar met die van de gegevensaanbieder. U wilt deze kenmerken wellicht gebruiken om een doelgericht, stapsgewijs verbeterd publiek te helpen maken.
@@ -309,7 +312,7 @@ Met dit gebruiksgeval kunt u de eigenschappen van de leverancier vergelijken met
 
 ### Activering
 
-Met dit gebruiksgeval kunt u gegevens naar een [doel](../../../features/destinations/destinations.md)verzenden. In [!UICONTROL Audience Manager], is een bestemming om het even welk derdesysteem (ad server, [!DNL DSP], [!DNL DMP], uitwisseling, enz.) waarmee u gegevens wilt delen. Met een [!UICONTROL Activation] gebruiksscenario kunt u echter geen overlappende rapporten uitvoeren of de gegevens in een algoritmisch model testen.
+Met dit gebruiksgeval kunt u gegevens naar een [doel](../../../features/destinations/destinations.md)verzenden. In [!DNL Audience Manager], is een bestemming om het even welk derdesysteem (ad server, [!DNL DSP], [!DNL DMP], uitwisseling, enz.) waarmee u gegevens wilt delen. Met een [!UICONTROL Activation] gebruiksscenario kunt u echter geen overlappende rapporten uitvoeren of de gegevens in een algoritmisch model testen.
 
 >[!MORELIKETHIS]
 >
