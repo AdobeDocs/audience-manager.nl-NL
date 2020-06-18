@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Over look-Alike modellering
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
 translation-type: tm+mt
-source-git-commit: a6e8db30c54e0629e27b1ee7f189a6c471d2bb6d
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1685'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +72,7 @@ Elke gebruiker in de geselecteerde gegevensbronnen krijgt een gebruikersscore di
 
 ### Stap 5: Weergeven en werken met resultaten
 
-Audience Manager geeft de gewogen modelresultaten weer in [!UICONTROL Trait Builder]. Wanneer u een algoritmische eigenschap wilt bouwen, [!UICONTROL Trait Builder] laat u eigenschappen tot stand brengen die op de gewogen score worden gebaseerd door het algoritme tijdens een gegevenslooppas wordt geproduceerd. U kunt een hogere nauwkeurigheid kiezen om alleen gebruikers te kwalificeren die zeer hoge gebruikersscores hebben en daarom zeer gelijkaardig aan het basislijnpubliek, eerder dan de rest van het publiek zijn. Als u een groter publiek (bereik) wilt bereiken, kunt u de nauwkeurigheid verminderen.
+[!DNL Audience Manager] geeft de gewogen modelresultaten weer in [!UICONTROL Trait Builder]. Wanneer u een algoritmische eigenschap wilt bouwen, [!UICONTROL Trait Builder] laat u eigenschappen tot stand brengen die op de gewogen score worden gebaseerd door het algoritme tijdens een gegevenslooppas wordt geproduceerd. U kunt een hogere nauwkeurigheid kiezen om alleen gebruikers te kwalificeren die zeer hoge gebruikersscores hebben en daarom zeer gelijkaardig aan het basislijnpubliek, eerder dan de rest van het publiek zijn. Als u een groter publiek (bereik) wilt bereiken, kunt u de nauwkeurigheid verminderen.
 
 ### Stap 6: De betekenis van een trein over verwerkingscycli opnieuw evalueren
 
