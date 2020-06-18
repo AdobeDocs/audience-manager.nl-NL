@@ -1,23 +1,26 @@
 ---
-description: Een overzicht op hoog niveau van hoe de Manager van de Publiek informatie met andere gegevensleveranciers en systemen ruilt.
-seo-description: Een overzicht op hoog niveau van hoe de Manager van de Publiek informatie met andere gegevensleveranciers en systemen ruilt.
+description: Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
+seo-description: Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
 seo-title: Methoden voor gegevensintegratie
 solution: Audience Manager
 title: Methoden voor gegevensintegratie
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
 
 # Methoden voor gegevensintegratie {#data-integration-methods}
 
-Een overzicht op hoog niveau van hoe de Manager van de Publiek informatie met andere gegevensleveranciers en systemen ruilt.
+Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
 
 ## Ondersteunde methoden voor gegevensintegratie: In real time en server-aan-server {#supported-methods}
 
-Het kiezen van de juiste integratiemethode hangt van een combinatie bedrijfsvereisten en de technische mogelijkheden van uw gegevenspartner af. De Manager van de publiek wisselt bezoekersinformatie met andere gegevensleveranciers door één van beiden van de volgende methodes uit:
+Het kiezen van de juiste integratiemethode hangt van een combinatie bedrijfsvereisten en de technische mogelijkheden van uw gegevenspartner af. Audience Managers wisselen bezoekersinformatie uit met andere gegevensleveranciers op een van de volgende manieren:
 
 * **Real-time:** Hiermee worden gegevens direct overgedragen wanneer een gebruiker uw site bezoekt. Deze methode wordt ook wel *`synchronous`* integratie genoemd.
 * **Batch (server-naar-server):** Hiermee worden gegevens tussen servers overgedragen volgens een ingestelde planning nadat een bezoeker de pagina heeft verlaten. Deze methode wordt ook wel een *`out-of-band`* of een *`asynchronous`* integratie genoemd.
@@ -28,13 +31,13 @@ Voordat het integratieproces begint, moet u [eigenschappen](../features/traits/c
 
 ## Gebruiksscenario&#39;s voor integratie {#integration-use-cases}
 
-Een gebruiksscenario van de methodes van de gegevensintegratie van de Manager van de Audience samen met de voor- en nadelen van elk.
+Een gebruiksscenario van de integratiemethodes van de gegevens van de Audience Manager samen met de voor- en nadelen van elk.
 
 ### Real-Time Server-naar-server integratie
 
 <!-- c_int_types_use_cases.xml -->
 
-Een real-time server-aan-server gegevensintegratie synchroniseert snel gebruikersgegevens tussen de servers van de Manager van de Publiek en een ander gericht systeem. In de meeste gevallen vindt de gegevensuitwisseling plaats binnen seconden of minuten, afhankelijk van de vernieuwingsfrequentie van het doelsysteem. Nota, echter, bepaalt het gerichte systeem dit verfrist interval, niet de Manager van de Publiek. Bovendien kan de vernieuwingsfrequentie per systeem verschillen. Een integratie in real time, server-aan-server is het aangewezen integratietype voor gegevensuitwisseling. De Manager van het publiek gebruikt deze methode wanneer het richten van partners het kan steunen.
+Een real-time server-aan-server gegevensintegratie synchroniseert snel gebruikersgegevens tussen de servers van de Audience Manager en een ander gericht systeem. In de meeste gevallen vindt de gegevensuitwisseling plaats binnen seconden of minuten, afhankelijk van de vernieuwingsfrequentie van het doelsysteem. Nota, echter, bepaalt het gerichte systeem dit vernieuwt interval, niet Audience Manager. Bovendien kan de vernieuwingsfrequentie per systeem verschillen. Een integratie in real time, server-aan-server is het aangewezen integratietype voor gegevensuitwisseling. De Audience Manager gebruikt deze methode wanneer het richten van partners het kan steunen.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -74,7 +77,7 @@ Een server-aan-server groeperen integratie bundelt gegevens en verzendt het naar
 
 ### Vraag in real time
 
-In real time vraag uitwisselingsgegevens met de Manager van de Publiek onmiddellijk, aangezien een gebruiker uw plaats bezoekt of actie op de pagina neemt. Met deze methode, krijgen de het richten systemen de meest bijgewerkte gegevens van de segmentkwalificatie en kunnen die informatie in aanmerking nemen tijdens een inhoud of een leveringsbesluit. Dit proces werkt ook met uitgever en servers waar we gekwalificeerde segmenten bijwerken naar een cookie van de eerste partij die in een advertentie wordt gelezen als sleutelwaardeparen. Momenteel, gebruikt de Manager van de Publiek vraag in real time om met [!DNL Target] en andere systemen van het inhoudsbeheer te integreren.
+In real time vraag uitwisselingsgegevens met Audience Manager onmiddellijk, aangezien een gebruiker uw plaats bezoekt of actie op de pagina neemt. Met deze methode, krijgen de het richten systemen de meest bijgewerkte gegevens van de segmentkwalificatie en kunnen die informatie in aanmerking nemen tijdens een inhoud of een leveringsbesluit. Dit proces werkt ook met uitgever en servers waar we gekwalificeerde segmenten bijwerken naar een cookie van de eerste partij die in een advertentie wordt gelezen als sleutelwaardeparen. Momenteel, gebruikt de Audience Manager vraag in real time om met [!DNL Target] en andere systemen van het inhoudbeheer te integreren.
 
 <table> 
  <tr>
@@ -83,7 +86,7 @@ In real time vraag uitwisselingsgegevens met de Manager van de Publiek onmiddell
  </tr> 
  <tr>
   <td> <p>Nadelen: </p></td>
-  <td> <p>Voegt een vraag aan de Manager van de Publiek van de pagina toe.</p></td>
+  <td> <p>Voegt een vraag aan Audience Manager van de pagina toe.</p></td>
  </tr> 
 </table>
 
@@ -115,12 +118,12 @@ Beschrijft technische en bedrijfsredenen om gegevens via synchrone (real time) o
 
 ### Een type gegevenslevering selecteren
 
-* **Technische overwegingen:** De levering van gegevens hangt van de technische mogelijkheden van de gegevenspartner af. De Manager van het publiek kan gegevens in real time van browser of door partijupdates verzenden/ontvangen door off-line, server-aan-server communicatie processen.
+* **Technische overwegingen:** De levering van gegevens hangt van de technische mogelijkheden van de gegevenspartner af. Audience Manager kan gegevens in real time van browser of door partijupdates verzenden/ontvangen door off-line, server-aan-server communicatie processen.
 * **Overwegingen voor bedrijven:** De bedrijfsredenen om één leveringsmethode of een andere te selecteren hangen van de technische mogelijkheden van uw bestemmingspartner af en hoe u deze gegevens wilt gebruiken. Over het algemeen zijn synchrone gegevensoverdrachten handig wanneer u onmiddellijk actie moet ondernemen met betrekking tot gebruikersgegevens. Asynchrone gegevensoverdrachten kunnen nuttig zijn wanneer de directe actie niet wordt vereist en wanneer u tijd hebt om diepere gebruikersprofielen voor later gebruik te bouwen.
 
 ## Real-time gegevensoverdrachtproces {#real-time-data-transfer-process}
 
-Een algemeen overzicht van hoe de Manager van het Publiek een synchrone gegevensuitwisseling met een derdeverkoper uitvoert.
+Een algemeen overzicht van hoe de Audience Manager een synchrone gegevensuitwisseling met een derde verkoper uitvoert.
 
 ### Real-time gegevensoverdracht
 
@@ -132,17 +135,17 @@ In real time gegevensoverdrachten verzenden en ontvangen segment IDs als gebruik
 
 Het integratieproces van gegevens in real time werkt als volgt:
 
-1. Een gebruiker bezoekt de plaats van een klant die de code van de Manager van de Publiek bevat.
-1. De Manager van de publiek laadt een Iframe en doet een vraag aan [!UICONTROL Data Collection Server] ([!UICONTROL DCS]).
-1. De [!UICONTROL DCS] vraag de derdenserver (in echt - tijd) om te controleren of heeft de verkoper om het even welke segmentinformatie over de gebruiker.
-1. De derde keert segmentinformatie over die gebruiker aan de Manager van het Publiek terug.
-1. De Manager van de publiek neemt segmentinformatie op en stelt het ter beschikking voor het richten.
+1. Een gebruiker bezoekt de plaats van een klant die Audience Manager code bevat.
+1. Audience Manager laadt een Iframe en roept het bestand [!UICONTROL Data Collection Server] ([!DNL DCS]) aan.
+1. De [!DNL DCS] vraag de derdenserver (in echt - tijd) om te controleren of heeft de verkoper om het even welke segmentinformatie over de gebruiker.
+1. De derde keert segmentinformatie over die gebruiker aan Audience Manager terug.
+1. Audience Manager neemt segmentinformatie op en stelt het ter beschikking voor het richten.
 
 ![](assets/rt_reduce70.png)
 
 ## Batchgegevensoverdrachtproces {#batch-data-transfer-process}
 
-Een algemeen overzicht van hoe de Manager van de Publiek gegevens synchroon (in real time) met een derdeverkoper ruilt.
+Een algemeen overzicht van hoe de Audience Manager gegevens synchroon (in real time) met een derdeverkoper ruilt.
 
 ### Batchgegevensintegratie
 
@@ -158,9 +161,9 @@ Het batchproces (server-naar-server) voor gegevensintegratie volgt de meeste sta
 
 1. Een gebruiker bezoekt een klantsite.
 1. Audience Manager en de externe gegevensaanbieder wijzen de bezoeker een unieke id toe (meestal met een cookie).
-1. Audience Manager roept de gegevensaanbieder van derden aan om bezoeker-id&#39;s aan te passen.
-1. Een gepland verzoek, gewoonlijk op een dagelijks interval, ruilt de gegevens van het bezoekerssegment tussen de Manager van het Publiek en uw derde gegevensleverancier.
+1. Audience Manager roept de gegevensleverancier van de derde aan om bezoeker IDs aan te passen.
+1. Een gepland verzoek, gewoonlijk op een dagelijks interval, ruilt de gegevens van het bezoekerssegment tussen Audience Manager en uw derdegegevensleverancier.
 
 ![](assets/s2s_70.png)
 
-Voor informatie beschrijvend de tijdkaders wanneer de Manager van de Publiek binnenkomende en uitgaande server-aan-server ([!UICONTROL S2S]) dossieroverdrachten verwerkt, zie het [Melden en de richtlijnen](../reference/reporting-file-transfer-timeframe.md)van de Tijd van de Overdracht van het Dossier.
+Voor informatie beschrijvend de tijdkaders wanneer de Audience Manager binnenkomende en uitgaande server-aan-server ([!UICONTROL S2S]) dossieroverdrachten verwerkt, zie het [Melden en de richtlijnen](../reference/reporting-file-transfer-timeframe.md)van de Tijd van de Overdracht van het Dossier.
