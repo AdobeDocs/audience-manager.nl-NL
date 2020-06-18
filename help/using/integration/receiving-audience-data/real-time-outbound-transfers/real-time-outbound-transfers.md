@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Uitgaande gegevensoverdrachten in real time
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 translation-type: tm+mt
-source-git-commit: 05609645bef676bbd98aa08caf32a4ae2dcb6f00
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +24,13 @@ Het uitgaande proces van de gegevensoverdracht in real time levert gebruikersgeg
 
 Om deze methode te gebruiken, moet het bestemmingsplatform aan de volgende vereisten voldoen:
 
-* Het moet een eindpunt verstrekken [!DNL URL] dat kan schrapen om een hoog volume van berichten van de Manager van de Publiek te ontvangen;
+* Het moet een eindpunt verstrekken [!DNL URL] dat kan schrapen om een hoog volume van berichten van Audience Manager te ontvangen;
 * Zij moet gegevens in [!DNL JSON] formaat (`Content-type: application/json`) aanvaarden;
 * Het moet veilige `HTTPS` gegevensoverdracht accepteren. [!DNL Audience Manager] zal geen berichten door het onveilige `HTTP` protocol verzenden.
 
 ## Frequentie
 
-Deze methode van de gegevensoverdracht kan gegevens in bijna real time verzenden aangezien de gebruikers voor segmenten kwalificeren. In real time berichten worden slechts geleverd terwijl de gebruiker online en actief zichtbaar aan het netwerk van de Rand van de Manager van de Publiek is. Deze methode kan optioneel ook batches offline of aan boord genomen gegevens zo vaak verzenden als elke 24 uur.
+Deze methode van de gegevensoverdracht kan gegevens in bijna real time verzenden aangezien de gebruikers voor segmenten kwalificeren. In real time berichten worden slechts geleverd terwijl de gebruiker online en actief zichtbaar aan het netwerk van de Rand van de Audience Manager is. Deze methode kan optioneel ook batches offline of aan boord genomen gegevens zo vaak verzenden als elke 24 uur.
 
 ## Batchoverdracht
 
@@ -77,7 +80,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
   <tr valign="top"> 
    <td colname="col1"><code><i>AAM_Destination_ID</i></code> </td> 
    <td colname="col2"> <p>Geheel </p> </td> 
-   <td colname="col3"> <p>De id van het bestemmingsobject van Audience Manager. Deze id is afkomstig uit Audience Manager.</p> </td> 
+   <td colname="col3"> <p>De id van het Audience Manager-object 'destination'. Deze id is afkomstig van Audience Manager.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
@@ -92,7 +95,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>De UUID van <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col3"> <p>De UUID van de <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -102,7 +105,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> De regio-id van <span class="keyword"> Audience Manager</span> waar we dit apparaat hebben gezien. Als het apparaat bijvoorbeeld enige activiteit had in Parijs (Europa), zou de regio-id zijn <code> 6</code>. Zie <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID's, locaties en hostnamen van DCS-regio's</a>. </td> 
+   <td colname="col3"> De <span class="keyword"> Audience Manager</span> regio-id waar we dit apparaat hebben gezien. Als het apparaat bijvoorbeeld enige activiteit had in Parijs (Europa), zou de regio-id zijn <code> 6</code>. Zie <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID's, locaties en hostnamen van DCS-regio's</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -112,7 +115,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
   <tr valign="top"> 
    <td colname="col1"><code><i>Segmnent.Segment_ID</i></code> </td> 
    <td colname="col2"> <p>Geheel </p> </td> 
-   <td colname="col3"> <p>De id voor het segment. In de meeste gevallen is dit de segment-id die door Audience Manager (een geheel getal) wordt gegenereerd. In sommige gevallen, als het bestemmingsplatform toestaat, kunnen de klanten het segmentherkenningsteken in de Manager UI van de Publiek (open tekstgebied) bepalen, die dan in dit bezit zou weerspiegelen. </p> </td> 
+   <td colname="col3"> <p>De id voor het segment. In de meeste gevallen is dit de segment-id die wordt gegenereerd door Audience Manager (een geheel getal). In sommige gevallen, als het bestemmingsplatform toestaat, kunnen de klanten het segmentherkenningsteken in het gebruikersinterface van de Audience Manager (open tekstgebied) bepalen, die dan in dit bezit zou weerspiegelen. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.Status</i></code> </td> 
@@ -127,7 +130,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
      <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Verwijderd uit een segment dat op het <a href="../../../features/traits/segment-ttl-explained.md"> tijd-aan-levende interval</a>van het segment wordt gebaseerd. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Verplaatst naar een inactieve toestand als deze de afgelopen 120 dagen niet is waargenomen. </li>
      <li>Verwijderd vanwege een privacywijzigingsverzoek (d.w.z. <span class="keyword"> GDPR</span>)</li>
-    </ul> <p>Alle partner IDs die aan identiteitskaart van de Manager <span class="keyword"> van het</span> Publiek worden gesynchroniseerd zal de <code> "Status":"0"</code> vlag ontvangen wanneer een gebruiker unsegmented is. </p> </td> 
+    </ul> <p>Alle partner IDs die aan een <span class="keyword"> Audience Manager</span> identiteitskaart worden gesynchroniseerd zal de <code> "Status":"0"</code> vlag ontvangen wanneer een gebruiker unsegmented is. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
