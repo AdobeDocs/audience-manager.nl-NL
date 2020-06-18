@@ -1,18 +1,21 @@
 ---
-description: Overzicht en workflow voor gegevenskopers die gegevens van derden willen kopen in Audience Manager
-seo-description: Overzicht en workflow voor gegevenskopers die gegevens van derden willen kopen in Audience Manager
-seo-title: Publiek Marketplace voor gegevenskopers
+description: Overzicht en workflow voor gegevenskopers die gegevens van derden willen kopen vanuit de Audience Manager
+seo-description: Overzicht en workflow voor gegevenskopers die gegevens van derden willen kopen vanuit de Audience Manager
+seo-title: Audience Marketplace for Data Buyers
 solution: Audience Manager
-title: Publiek Marketplace voor gegevenskopers
+title: Audience Marketplace for Data Buyers
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 translation-type: tm+mt
-source-git-commit: f66c5a0fb6ea1b0e89b804e56fa7045978427ab8
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '777'
+ht-degree: 0%
 
 ---
 
 
-# Publiek Marketplace voor gegevenskopers {#audience-marketplace-for-data-buyers}
+# Audience Marketplace for Data Buyers {#audience-marketplace-for-data-buyers}
 
 Overzicht en workflow voor gegevenskopers die gegevens van derden willen kopen vanuit de toepassing zelf [!DNL Audience Manager].
 
@@ -33,7 +36,7 @@ In [!UICONTROL Marketplace], laat het melden hulpmiddelen u voedergebruik en de 
 
 >[!TIP]
 >
->Met de **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)**kunt u naar gegevensfeeds van hoge kwaliteit zoeken waarop u zich kunt abonneren. Ga vervolgens terug naar de gebruikersinterface van Audience Manager of gebruik de[Audience Marketplace Buyer-API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API)om in te schrijven op de feeds die u hebt gevonden.
+>Met de **[Adobe Audience Finder](https://www.adobe-audience-finder.com/)**kunt u naar gegevensfeeds van hoge kwaliteit zoeken waarop u zich kunt abonneren. Ga vervolgens terug naar de[!DNL Audience Manager]gebruikersinterface of gebruik de[Audience Marketplace-API](https://bank.demdex.com/portal/swagger/index.html#/Audience_Marketplace_Buyer_API)voor kopers om u te abonneren op de feeds die u hebt gevonden.
 
 ![koper-marketing-overzicht](assets/buyer-marketplace-overview.png)
 
@@ -55,10 +58,10 @@ De [!UICONTROL Marketplace] lijst bevat informatie die u kunt sorteren en zoeken
 
 Gebruik de volgende filters aan de linkerkant van de [!UICONTROL Marketplace] pagina om gemakkelijk de beste gegevensfeeds voor uw behoeften te vinden:
 
-* **[!UICONTROL Similarity To]**: Gegevens filteren op basis van de gelijkenis met een eigenschap of segment van uw keuze. Wanneer u het kenmerk of segment opgeeft dat u wilt vergelijken, kunt u het kenmerk of de segment-id of de respectievelijke namen gebruiken.
+* **[!UICONTROL Similarity To]**: Gegevens filteren op basis van hun gelijkenis met een eigenschap of segment van uw keuze. Wanneer u het kenmerk of segment opgeeft dat u wilt vergelijken, kunt u het kenmerk of de segment-id of de respectievelijke namen gebruiken.
 * **[!UICONTROL Similarity Cutoff]**: Sleep de schuifregelaar om de gegevensfeeds te filteren op basis van de mate waarin de eigenschappen overeenkomen met de geselecteerde eigenschap of het geselecteerde segment. Zie Score [Trait-gelijkenis voor meer informatie over score voor overeenkomsten met kenmerk.](../../segments/trait-recommendations.md#trait-similarity-score)
 * **[!UICONTROL Subscription Status]**: Filter de gegevensfeeds op basis van uw abonnementsstatus.
-* **[!UICONTROL Plan Use Case]**: Gegevensfeeds filteren op basis van de ondersteunde gebruiksgevallen: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]**, en **[!UICONTROL Modelling]**.
+* **[!UICONTROL Plan Use Case]**: Gegevensfeeds filteren op basis van de ondersteunde gebruiksgevallen: **[!UICONTROL Activation]**, **[!UICONTROL Segments and Overlap]** en **[!UICONTROL Modelling]**.
 * **[!UICONTROL Plan Unit]**: Gegevens filteren op basis van hun prijstype.
 
 ## Gelijkaardige vereffeningen zoeken {#finding-similar-traits}
@@ -76,7 +79,7 @@ Klik op het nummer in de **[!UICONTROL Similar Traits]** kolom om de volledige l
 
 >[!NOTE]
 >
-> De Marktplaats van de Publiek toont de hoogste 500 gelijkaardige karakterresultaten van over de gegevensvoer.
+> In Audience Marketplace worden de 500 meest vergelijkbare resultaten uit de verschillende gegevensfeeds weergegeven.
 
 Bekijk de video hieronder voor een volledig overzicht van het zoeken naar vergelijkbare kenmerken.
 
@@ -88,6 +91,6 @@ In de [!UICONTROL Marketplace] lijst worden de naam en de gegevens van de provid
 
 >[!MORELIKETHIS]
 >
->* [De pagina met abonnementsdetails in Audience Marketplace begrijpen](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
+>* [De pagina met abonnementsdetails in Audience Marketplace](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details)
 >* [Kortingen voor gegevenskopers](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
 
