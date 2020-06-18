@@ -7,14 +7,17 @@ solution: Audience Manager
 title: Aan de slag met Bulk Management
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 translation-type: tm+mt
-source-git-commit: a4569127b748374b5707daedb0809c58bca74e9b
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 0%
 
 ---
 
 
 # Aan de slag met Bulk Management{#getting-started-with-bulk-management}
 
-Met de gereedschappen voor bulkbeheer kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt Bulk de Hulpmiddelen van het Beheer gebruiken om met gegevensbronnen, afgeleide signalen, bestemmingen, omslagen, modellen, segmenten, en trekken te werken.
+Met [!DNL Bulk Management Tools] deze opdracht kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt gebruiken [!DNL Bulk Management Tools] om met [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], en [!UICONTROL traits]te werken.
 
 <!-- 
 
@@ -24,11 +27,11 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die in de [!DNL Audience Manager] gebruikersinterface zijn toegewezen, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
 
 ## Overzicht {#overview}
 
-Deze eigenschap gebruikt een spreadsheet van Microsoft Excel met macro&#39;s die veilige, voor authentiek verklaarde vraag aan APIs maken. [!DNL Audience Manager] De API biedt de methoden en services waarmee u bulksgewijs wijzigingen kunt aanbrengen. U hoeft niet te weten hoe u code kunt schrijven of met onze API&#39;s kunt werken om deze te gebruiken. Het werkblad bevat kolomkoppen en -tabbladen die specifieke functies voor bulkwijzigingen uitvoeren. Als u bulksgewijs wijzigingen wilt aanbrengen, voegt u alleen de vooraf gedefinieerde kopteksten toe aan specifieke werkbladen, geeft u de informatie op die u bulksgewijs wilt wijzigen en klikt u op een actieknop. Het werkblad en de API&#39;s doen de rest van het werk voor u.
+Deze eigenschap gebruikt een [!DNL Microsoft Excel] [!DNL Audience Manager] spreadsheet met macro&#39;s die veilige, voor authentiek verklaarde vraag aan APIs maken. De API biedt de methoden en services waarmee u bulksgewijs wijzigingen kunt aanbrengen. U hoeft niet te weten hoe u code kunt schrijven of met onze API&#39;s kunt werken om deze te gebruiken. Het werkblad bevat kolomkoppen en -tabbladen die specifieke functies voor bulkwijzigingen uitvoeren. Als u bulksgewijs wijzigingen wilt aanbrengen, voegt u alleen de vooraf gedefinieerde kopteksten toe aan specifieke werkbladen, geeft u de informatie op die u bulksgewijs wilt wijzigen en klikt u op een actieknop. Het werkblad en de API&#39;s doen de rest van het werk voor u.
 
 ## Downloaden {#download}
 
@@ -40,7 +43,7 @@ U hebt het volgende nodig [!DNL Bulk Management Tools]om de toepassing te gebrui
 
 * Uw [!DNL Experience Cloud] aanmelding. Als klant hebt u deze gegevens al.
 * Het [!DNL Bulk Management Tools] werkblad. [Download het werkblad](assets/BAAAM_V2_20200502.xlsm) voor de nieuwste versie.
-* Microsoft Excel dat op [!DNL macOS] of met 64 bits loopt [!DNL Microsoft Windows]. We raden u aan de nieuwste versie van Microsoft Excel te gebruiken.
+* [!DNL Microsoft Excel] uitgevoerd op [!DNL macOS] of 64-bits [!DNL Microsoft Windows]. We raden u aan de nieuwste versie van [!DNL Microsoft Excel]te gebruiken.
 * Wanneer u het werkblad opent, moet u Macro **&#39;s** inschakelen om het werkblad te kunnen [!DNL Bulk Management Tools] openen.
 
 ## Verificatievereisten en opties {#auth-reqs}
@@ -49,9 +52,9 @@ Bulkwijzigingen vereisen verificatie. Voordat u een handeling kunt uitvoeren, mo
 
 **API-verificatievereisten**
 
-De tweede versie van de Bulk Management Tools, die in oktober 2019 is uitgebracht, vereenvoudigt het verificatieproces. De verificatiestappen in deze versie worden hieronder beschreven:
+De tweede versie van de [!DNL Bulk Management Tools]code, die in oktober 2019 is uitgebracht, vereenvoudigt het verificatieproces. De verificatiestappen in deze versie worden hieronder beschreven:
 
-1. Open het spreadsheet en navigeer aan het **blad Config** .
+1. Open het werkblad en navigeer naar het **[!UICONTROL Config]** werkblad.
 2. Voer de stappen uit die in het werkblad worden beschreven.
    ![](assets/baaam-authentication.png)
 3. Nadat u de stappen hebt uitgevoerd, kunt u bulksgewijs wijzigingen aanbrengen.
