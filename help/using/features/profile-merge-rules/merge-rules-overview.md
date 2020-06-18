@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Overzicht van regels voor samenvoegen van profielen
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ Doorgaans is segmentering van het publiek en gericht afhankelijk van gegevens di
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] verandert fundamenteel hoe gegevens en segmenten gebruikers voor het richten [!DNL Audience Manager] verzamelen. Hiermee kunt u werken met twee verschillende typen profielen, een apparaatprofiel en een [geverifieerd profiel](../../reference/visitor-authentication-states.md).
+[!UICONTROL Profile Merge Rules] verandert fundamenteel hoe de gegevens en de segmentgebruikers voor het richten [!DNL Audience Manager] verzamelen. Hiermee kunt u werken met twee verschillende typen profielen, een apparaatprofiel en een [geverifieerd profiel](../../reference/visitor-authentication-states.md).
 
 <table id="table_CE98C0E32A964B27804736A896233869"> 
  <thead> 
@@ -52,7 +55,7 @@ Doorgaans is segmentering van het publiek en gericht afhankelijk van gegevens di
  </tbody>
 </table>
 
-Deze verschillende profielen bepalen de gegevens die u voor segmentatie kunt gebruiken. Met een [geverifieerd profiel](../../reference/visitor-authentication-states.md)kunt u bijvoorbeeld nauwkeurige segmenten maken op basis van gegevens van meerdere apparaten voor één gebruiker. Dit betekent dat u klanten op meerdere apparaten een consistente merkervaring kunt bieden. De Manager van de publiek bereikt dit door de afbeelding van de verschillende apparaten op te slaan een persoon voor hun online activiteiten aan hun [voor authentiek verklaard profiel](../../reference/visitor-authentication-states.md)gebruikt. Deze toewijzingen worden het [!UICONTROL Profile Link Device Graph]genoemd.
+Deze verschillende profielen bepalen de gegevens die u voor segmentatie kunt gebruiken. Met een [geverifieerd profiel](../../reference/visitor-authentication-states.md)kunt u bijvoorbeeld nauwkeurige segmenten maken op basis van gegevens van meerdere apparaten voor één gebruiker. Dit betekent dat u klanten op meerdere apparaten een consistente merkervaring kunt bieden. [!DNL Audience Manager] Dit wordt bereikt door de toewijzing van de verschillende apparaten die een persoon voor zijn online activiteiten gebruikt, op te slaan in zijn [geverifieerde profiel](../../reference/visitor-authentication-states.md). Deze toewijzingen worden het [!UICONTROL Profile Link Device Graph]genoemd.
 
 ![](assets/authenticated2.png)
 
@@ -60,8 +63,8 @@ Deze verschillende profielen bepalen de gegevens die u voor segmentatie kunt geb
 
 Met [!UICONTROL Profile Merge Rules] u kunt:
 
-* Doelgebruikers op basis van [geverifieerd profiel](../../reference/visitor-authentication-states.md), anonieme profielen of combinaties van beide.
-* Richt een specifieke klant over hun apparaten.
+* Target-gebruikers op basis van [geverifieerd profiel](../../reference/visitor-authentication-states.md), anonieme profielen of combinaties van beide.
+* Target is een specifieke klant voor alle apparaten.
 * Bouw een apparatengrafiek die op deterministische gegevens wordt gebaseerd.
 * U kunt de gegevens in de segmenten nauwkeurig afstemmen op basis van verschillende profielen.
 * Verbeter extra inzicht in uw publiek.
