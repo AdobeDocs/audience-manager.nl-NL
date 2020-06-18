@@ -1,19 +1,22 @@
 ---
-description: Methoden waarmee u programmatically van de Manager DCS van de Audience- gebieden een lijst kunt maken.
-seo-description: Methoden waarmee u programmatically van de Manager DCS van de Audience- gebieden een lijst kunt maken.
+description: Methoden waarmee u DCS-gebieden van Audience Managers programmatisch kunt weergeven.
+seo-description: Methoden waarmee u DCS-gebieden van Audience Managers programmatisch kunt weergeven.
 seo-title: Methoden van DCS Region API
 solution: Audience Manager
 title: Methoden van DCS Region API
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 0%
 
 ---
 
 
 # Methoden van DCS Region API {#dcs-region-api-methods}
 
-Methoden waarmee u programmatisch [!UICONTROL DCS] gebieden van de Manager van de Publiek kunt vermelden.
+Methoden waarmee u programmatisch [!DNL DCS] gebieden van Audience Managers kunt weergeven.
 
 <!-- c_rest_api_regions.xml -->
 
@@ -21,7 +24,7 @@ Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [DCS Gebied IDs,
 
 ## Een specifiek DCS-gebied weergeven {#list-specific-dcs-region}
 
-Een `GET` methode om een bepaald [!UICONTROL DCS] gebied weer te geven.
+Een `GET` methode om een bepaald [!DNL DCS] gebied weer te geven.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,7 +54,7 @@ Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [DCS Gebied IDs,
 
 ## DCS-gebieden weergeven {#list-dcs-regions}
 
-Een `GET` methode om [!UICONTROL DCS] gebieden weer te geven.
+Een `GET` methode om [!DNL DCS] gebieden weer te geven.
 
 <!-- r_rest_api_regions_list.xml -->
 
