@@ -6,22 +6,25 @@ solution: Audience Manager
 title: Gegevens verzenden naar de DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 0%
 
 ---
 
 
 # Gegevens verzenden naar de DCS {#send-data-to-the-dcs}
 
-Begin hier voor informatie over het maken van `/event` vraag aan [!UICONTROL DCS]. Deze sectie omvat informatie over vraagsyntaxis, parameters, het formatteren, en een verzoekvoorbeeld.
+Begin hier voor informatie over het maken van `/event` vraag aan [!DNL DCS]. Deze sectie omvat informatie over vraagsyntaxis, parameters, het formatteren, en een verzoekvoorbeeld.
 
 >[!NOTE]
 >
->In de code en voorbeelden staat *cursief* voor een variabele plaatsaanduiding. Vervang een reële waarde voor de tijdelijke aanduiding wanneer u gegevens naar de tijdelijke aanduiding verzendt [!UICONTROL DCS] met deze methode.
+>In de code en voorbeelden staat *cursief* voor een variabele plaatsaanduiding. Vervang een reële waarde voor de tijdelijke aanduiding wanneer u gegevens naar de tijdelijke aanduiding verzendt [!DNL DCS] met deze methode.
 
 ## Syntaxis bellen {#dcs-call-syntax}
 
-Een basistekenreeks `URL` die gegevens naar de bron verzendt, [!UICONTROL DCS] gebruikt de hieronder getoonde syntaxis.
+Een basistekenreeks `URL` die gegevens naar de bron verzendt, [!DNL DCS] gebruikt de hieronder getoonde syntaxis.
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -29,11 +32,11 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!NOTE]
 >
->U kunt gegevens ook naar de server verzenden [!UICONTROL DCS] met de `POST` methode. De vraagsyntaxis wordt beschreven in Methoden [](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)DCS API.
+>U kunt gegevens ook naar de server verzenden [!DNL DCS] met de `POST` methode. De vraagsyntaxis wordt beschreven in Methoden [](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)DCS API.
 
 ## Beloproepparameters {#dcs-call-parameters}
 
-De volgende lijst bepaalt de basiscomponenten van een eenvoudige [!UICONTROL DCS] vraag.
+De volgende lijst bepaalt de basiscomponenten van een eenvoudige [!DNL DCS] vraag.
 
 <table id="table_5F6A5B324EB848168543386516FBF384"> 
  <thead> 
@@ -47,7 +50,7 @@ De volgende lijst bepaalt de basiscomponenten van een eenvoudige [!UICONTROL DCS
    <td colname="col1"> <p> <code> domain alias.demdex.net</code> </p> </td> 
    <td colname="col2"> <p>Dit deel van de vraag bevat: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
-      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Uw domeinalias die is toegewezen door <span class="keyword"> Audience Manager</span> (bijvoorbeeld <code> my_domain.demdex.net</code>). </li> 
+      <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Uw domeinalias toegewezen door <span class="keyword"> Audience Manager</span> (bijvoorbeeld <code> my_domain.demdex.net</code>). </li> 
       <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Het doeldomein, dat altijd is <code> demdex.net</code>. Zie het <a href="../../../reference/demdex-calls.md"> Begrip van Vraag aan het Domein</a>van de Index. </li> 
      </ul> </p> </td> 
   </tr> 
@@ -85,7 +88,7 @@ De volgende lijst bepaalt de basiscomponenten van een eenvoudige [!UICONTROL DCS
 
 ## Voorbeeld van oproep {#dcs-sample-call}
 
-Dit voorbeeld toont het fictieve bedrijf dat gegevens [!DNL Acme, Inc.] verzendt naar [!UICONTROL DCS] via een [!DNL HTTP] vraag. Merk op dat deze vraag de facultatieve parameters `d_dst=1`, `d_rtbd=json`, en `d_cb=callback`omvat. Deze wijzen erop dat [!DNL Acme] wil een [!DNL JSON] reactie van [!UICONTROL DCS] met een callback functie ontvangen. Onthoud, dit is slechts een voorbeeld. Knip en plak deze code niet.
+Dit voorbeeld toont het fictieve bedrijf dat gegevens [!DNL Acme, Inc.] verzendt naar [!DNL DCS] via een [!DNL HTTP] vraag. Merk op dat deze vraag de facultatieve parameters `d_dst=1`, `d_rtbd=json`, en `d_cb=callback`omvat. Deze wijzen erop dat [!DNL Acme] wil een [!DNL JSON] reactie van [!DNL DCS] met een callback functie ontvangen. Onthoud, dit is slechts een voorbeeld. Knip en plak deze code niet.
 
 ```js
 https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback
@@ -93,7 +96,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Volgende stappen {#dcs-next-steps}
 
-Nu je bekend bent met het verzenden van gegevens naar de [!UICONTROL DCS], is het tijd om te bekijken hoe je gegevens ervan kunt terugkrijgen en die informatie kan parseren. Zie Gegevens [ontvangen van DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Nu je bekend bent met het verzenden van gegevens naar de [!DNL DCS], is het tijd om te bekijken hoe je gegevens ervan kunt terugkrijgen en die informatie kan parseren. Zie Gegevens [ontvangen van DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >
