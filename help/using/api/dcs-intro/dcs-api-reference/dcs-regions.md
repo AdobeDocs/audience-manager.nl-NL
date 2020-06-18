@@ -6,14 +6,17 @@ solution: Audience Manager
 title: Id's, locaties en hostnamen van DCS-regio's
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 translation-type: tm+mt
-source-git-commit: 51a326d0ac02175e0e1452e0a00b4a3a415d88ff
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 0%
 
 ---
 
 
 # Id&#39;s, locaties en hostnamen van DCS-regio&#39;s {#dcs-region-ids-locations-and-host-names}
 
-De regionale hostnaam van de [!UICONTROL DCS] server is vereist om oproepen te doen naar de [!UICONTROL DCS]. Dit komt omdat de [!UICONTROL DCS] informatie in gegevenscentra wordt opgeslagen die geografisch dicht bij plaatsbezoekers zijn. Uw vragen zullen werken als u hen naar het verkeerde [!UICONTROL DCS]verzendt, maar deze vraag is inefficiënt en kan de reactie vertragen. Als u een [!UICONTROL DCS] aanvraag wilt indienen, dient u de regio-id aan te passen aan de corresponderende regionale hostnaam en de query met de juiste hostnaam te vormen.
+De regionale hostnaam van de [!DNL DCS] server is vereist om oproepen te doen naar de [!DNL DCS]. Dit komt omdat de [!DNL DCS] informatie in gegevenscentra wordt opgeslagen die geografisch dicht bij plaatsbezoekers zijn. Uw vragen zullen werken als u hen naar het verkeerde [!DNL DCS]verzendt, maar deze vraag is inefficiënt en kan de reactie vertragen. Als u een [!DNL DCS] aanvraag wilt indienen, dient u de regio-id aan te passen aan de corresponderende regionale hostnaam en de query met de juiste hostnaam te vormen.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -67,4 +70,4 @@ De regionale hostnaam van de [!UICONTROL DCS] server is vereist om oproepen te d
  </tbody> 
 </table>
 
-U kunt ook [!DNL API] methoden gebruiken om een lijst met beschikbare [!UICONTROL DCS] gebieden op te halen. Zie API-methoden voor [DCS-regio](../../../api/rest-api-main/aam-api-dcs-regions.md).
+U kunt ook [!DNL API] methoden gebruiken om een lijst met beschikbare [!DNL DCS] gebieden op te halen. Zie API-methoden voor [DCS-regio](../../../api/rest-api-main/aam-api-dcs-regions.md).
