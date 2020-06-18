@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Werkbare logbestanden
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 translation-type: tm+mt
-source-git-commit: 8f5dadb44ada3822b7336827c8863a7277b687c3
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1378'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Als u reeds logboekgegevens in invoert [!DNL Audience Manager], vraag uw [!DNL A
 
 Met [!UICONTROL Actionable Log Files], wordt de informatie van de dossiers van de server op [!DNL Audience Manager] de zelfde manier gevangen dat u gegevens van Websites in real time interactie zou vangen. [!DNL Audience Manager] verbindt met uw opslag van het het logboeklogboek van de advertentieserver, ontleedt de informatie van de logboeken, en verzendt de logboekgegevens als activeerbare signalen naar onze Servers [van de](../../reference/system-components/components-data-collection.md#dcs-pcs)Inzameling van Gegevens.
 
-U moet nog opstelling op regel-gebaseerde eigenschappen om de handelingssignalen te vangen. Zie hoe te opstelling op regel-gebaseerde eigenschappen of in de UI [van de](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager of het gebruiken van onze [Hulpmiddelen](../../reference/bulk-management-tools/bulk-create.md)van het Beheer van het Bulk. Blader omlaag naar de sectie [Handbare signalen](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) voor een lijst met alle toetsen die u kunt gebruiken in op regels gebaseerde kenmerken.
+U moet nog opstelling op regel-gebaseerde eigenschappen om de handelingssignalen te vangen. Zie hoe te opstelling op regel-gebaseerde eigenschappen of in het gebruikersinterface [van de](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) Audience Manager of het gebruiken van onze [Hulpmiddelen](../../reference/bulk-management-tools/bulk-create.md)van het Beheer van het Bulk. Blader omlaag naar de sectie [Handbare signalen](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) voor een lijst met alle toetsen die u kunt gebruiken in op regels gebaseerde kenmerken.
 
 >[!IMPORTANT]
 >
