@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Componenten gegevensverzameling
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ c_compcollect.xml
 
  -->
 
-De Manager van het publiek bevat de volgende gegevens-inzameling componenten:
+Audience Manager bevat de volgende componenten voor gegevensverzameling:
 
 * [Gegevensverzamelingsservers (DCS) en profielcacheservers (PCS)](../../reference/system-components/components-data-collection.md#dcs-pcs)
 * [Data Integration Library (DIL)](../../reference/system-components/components-data-collection.md#dil)
@@ -42,23 +45,23 @@ In [!DNL Audience Manager]de DCS:
 * Controleert PCS op extra eigenschappen een gebruiker reeds vóór een real-time gebeurtenisvraag heeft gerealiseerd. Dit laat DCS gebruikers kwalificeren die op gegevens in real time en historische gegevens worden gebaseerd.
 * Schrijft logbestanden en stuurt deze naar analysesystemen voor opslag en verwerking.
 
-**[!UICONTROL DCS]Beheert de vraag via[!UICONTROL Global Server Load Balancing (GSLB)]**
+**[!DNL DCS]Beheert de vraag via[!UICONTROL Global Server Load Balancing (GSLB)]**
 
-Het [!UICONTROL DCS] is een geografisch gedistribueerd en evenwichtig systeem. Dit betekent [!DNL Audience Manager] dat verzoeken van en naar een regionaal datacenter kunnen worden gericht op basis van de geografische locatie van een bezoeker van de site. Deze strategie helpt reactietijden te verbeteren omdat een [!UICONTROL DCS] reactie rechtstreeks naar een gegevenscentrum gaat dat informatie over die bezoeker bevat. [!UICONTROL GSLB] maakt ons systeem efficiënt omdat relevante gegevens in de cache worden opgeslagen in servers die het dichtst bij de gebruiker staan.
+Het [!DNL DCS] is een geografisch gedistribueerd en evenwichtig systeem. Dit betekent [!DNL Audience Manager] dat verzoeken van en naar een regionaal datacenter kunnen worden gericht op basis van de geografische locatie van een bezoeker van de site. Deze strategie helpt reactietijden te verbeteren omdat een [!DNL DCS] reactie rechtstreeks naar een gegevenscentrum gaat dat informatie over die bezoeker bevat. [!UICONTROL GSLB] maakt ons systeem efficiënt omdat relevante gegevens in de cache worden opgeslagen in servers die het dichtst bij de gebruiker staan.
 
 >[!IMPORTANT]
 >
->Het [!UICONTROL DCS] detecteert alleen webverkeer dat afkomstig is van apparaten die IPv4 gebruiken.
+>Het [!DNL DCS] detecteert alleen webverkeer dat afkomstig is van apparaten die IPv4 gebruiken.
 
 In een gebeurtenisvraag, wordt de geografische plaats gevangen in een zeer belangrijk-waardepaar die in een grotere lichaam van JSON- gegevens is teruggekeerd. Dit sleutelwaardepaar is de `"dcs_region": region ID` parameter.
 
 ![](assets/dcs-map.png)
 
-Als klant gaat u [!UICONTROL DCS] indirect via onze code voor gegevensverzameling aan met de klant. U kunt ook rechtstreeks met de API&#39;s werken [!UICONTROL DCS] via een set. Zie API-methoden en -code [voor DCS (](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)Data Collection Server).
+Als klant gaat u [!DNL DCS] indirect via onze code voor gegevensverzameling aan met de klant. U kunt ook rechtstreeks met de API&#39;s werken [!DNL DCS] via een set. Zie API-methoden en -code [voor DCS (](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)Data Collection Server).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-Het [!UICONTROL PCS] is een grote database (eigenlijk een grote server-side cookie). Er worden gegevens opgeslagen die voor actieve gebruikers zijn ontvangen van server-naar-server overdrachten en de [!UICONTROL DCS]gegevens. [!UICONTROL PCS] gegevens bestaan uit apparaat-id&#39;s, geverifieerde profiel-id&#39;s en de bijbehorende kenmerken. Wanneer de gebruiker een vraag in real time [!UICONTROL DCS] ontvangt, controleert het [!UICONTROL PCS] voor andere eigenschappen een gebruiker tot kan behoren of voor kwalificeert. En als een eigenschap later aan een segment wordt toegevoegd, worden deze eigenschap-id&#39;s toegevoegd aan het segment [!UICONTROL PCS] en kunnen gebruikers automatisch in aanmerking komen voor dat segment, zonder een bezoek aan een bepaalde site of app. De [!UICONTROL PCS] hulp vergroot [!DNL Audience Manager]het begrip van uw gebruikers omdat het gebruikers in echt - tijd of achter de scènes met nieuwe en historische bezitsgegevens kan aanpassen en segmenteren. Dit gedrag geeft u een vollediger en nauwkeuriger beeld van uw gebruikers dan van kwalificaties in real time alleen.
+Het [!UICONTROL PCS] is een grote database (eigenlijk een grote server-side cookie). Er worden gegevens opgeslagen die voor actieve gebruikers zijn ontvangen van server-naar-server overdrachten en de [!DNL DCS]gegevens. [!UICONTROL PCS] gegevens bestaan uit apparaat-id&#39;s, geverifieerde profiel-id&#39;s en de bijbehorende kenmerken. Wanneer de gebruiker een vraag in real time [!DNL DCS] ontvangt, controleert het [!UICONTROL PCS] voor andere eigenschappen een gebruiker tot kan behoren of voor kwalificeert. En als een eigenschap later aan een segment wordt toegevoegd, worden deze eigenschap-id&#39;s toegevoegd aan het segment [!UICONTROL PCS] en kunnen gebruikers automatisch in aanmerking komen voor dat segment, zonder een bezoek aan een bepaalde site of app. De [!UICONTROL PCS] hulp vergroot [!DNL Audience Manager]het begrip van uw gebruikers omdat het gebruikers in echt - tijd of achter de scènes met nieuwe en historische bezitsgegevens kan aanpassen en segmenteren. Dit gedrag geeft u een vollediger en nauwkeuriger beeld van uw gebruikers dan van kwalificaties in real time alleen.
 
 Er zijn geen controles UI die onze klanten met het [!UICONTROL PCS]laten werken. De toegang van de klant tot het [!UICONTROL PCS] is indirect, door zijn rol als gegevensopslag en gegevensoverdrachten. Het [!UICONTROL PCS] loopt op Apache Cassandra.
 
