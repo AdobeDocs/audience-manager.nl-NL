@@ -1,23 +1,26 @@
 ---
-description: Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en formaten van de bestanden in volgens deze specificaties wanneer u gegevens naar de FTP-map van Audience Manager verzendt.
-seo-description: Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en formaten van de bestanden in volgens deze specificaties wanneer u gegevens naar de FTP-map van Audience Manager verzendt.
+description: Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en grootten van de bestanden in volgens deze specificaties wanneer u gegevens naar een FTP-map van een Audience Manager verzendt.
+seo-description: Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en grootten van de bestanden in volgens deze specificaties wanneer u gegevens naar een FTP-map van een Audience Manager verzendt.
 seo-title: Vereisten voor FTP-naam en bestandsgrootte voor binnenkomende gegevensbestanden
 solution: Audience Manager
 title: Vereisten voor FTP-naam en bestandsgrootte voor binnenkomende gegevensbestanden
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: 881ccf512e9776948e4507e321e972dd2079e21a
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 2%
 
 ---
 
 
 # Vereisten voor FTP-naam en bestandsgrootte voor binnenkomende gegevensbestanden{#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Beschrijft de vereiste gebieden, de syntaxis, de noemende overeenkomsten en de dossiergrootte u moet volgen wanneer het verzenden van gegevens naar de Manager van de Publiek. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar de [!DNL FTP] map Audience Manager verzendt.
+Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar een [!DNL FTP] map Audience Manager verzendt.
 
 >[!WARNING]
 >
->De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Hoewel de binnenkomende gegevensbestandsinvoer nog steeds wordt ondersteund in bestaande FTP-integratie, raden we u ten zeerste aan om Amazon S3 te gebruiken voor offline gegevens voor nieuwe integratie. Zie [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>Wij nemen geleidelijk de steun voor [!DNL FTP] configuraties af. Terwijl de binnenkomende gegevensdossieropname nog in bestaande [!DNL FTP] integratie wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord off-line gegevens voor nieuwe integratie. Zie [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
 >[!NOTE]
 >
@@ -49,20 +52,20 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>Het pad naar en de naam van de FTP-map van <span class="keyword"> Audience Manager</span> . Neem contact op met uw accountmanager voor de FTP-map en de referenties. </p> </td> 
+   <td colname="col2"> <p>Het pad naar en de naam van de FTP-map van de <span class="keyword"> Audience Manager</span> . Neem contact op met uw accountmanager voor de FTP-map en de referenties. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Een id die <span class="keyword"> Audience Manager</span> vertelt of een gegevensbestand uw eigen gebruikers-id's of Android- of iOS-id's bevat. Accepteert de volgende opties: </p> 
+   <td colname="col2"> <p>Een id die de <span class="keyword"> Audience Manager</span> vertelt of een gegevensbestand uw eigen gebruikers-id's of Android- of iOS-id's bevat. Accepteert de volgende opties: </p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Id van gegevenspartner:</b> Dit is een unieke ID Audience Manager die aan uw bedrijf of organisatie wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> de Manager</span> van het Publiek dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id bevat. Zo <code>...ftp_dpm_20914_123456789.sync</code> wordt in Audience Manager <span class="keyword"></span> aangegeven dat het gegevensbestand alleen Android-id's bevat. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Zo <code>...ftp_dpm_20915_123456789.sync</code> wordt in Audience Manager <span class="keyword"></span> aangegeven dat het gegevensbestand alleen iOS-id's bevat. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Id van gegevenspartner:</b> Dit is een unieke ID-Audience Manager die aan uw bedrijf of organisatie wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20914_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat. </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20915_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat. </li> 
     </ul> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Een tijdelijke aanduiding voor een id. U kunt de DPID bijvoorbeeld instellen op de <span class="keyword"> Audience Manager</span> -id als u de DPID instelt op een gegevensbron-id of een Android- of iOS-id. Hierdoor kunnen <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
+   <td colname="col2"> <p>Een tijdelijke aanduiding voor een id. U kunt de DPID bijvoorbeeld instellen op de <span class="keyword"> Audience Manager</span> -id als u een gegevensbron-id of een Android- of iOS-id instelt. Hierdoor kan de <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
     <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
      <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> toont een partner met identiteitskaart 21 in gegevens van een gegevensbron heeft verzonden die identiteitskaart 33 gebruikt. </li> 
      <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> toont een partner met id 21 gegevens heeft verzonden die Android-id's bevatten. </li> 
@@ -73,8 +76,8 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
    <td colname="col1"> <p> <code> (.sync |.overwrite)</code> </p> </td> 
    <td colname="col2"> <p>Synchronisatieopties met: </p> <p> 
      <ul id="ul_DAAF61EC636C4456BECDDC34C3F86E83"> 
-      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normaal scenario wanneer de derdegegevensleveranciers eigenschappen op een per-gebruikersbasis verzenden die in het systeem van de Manager van de Publiek moeten worden toegevoegd of worden verwijderd. </li> 
-      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Klanten en gegevensleveranciers kunnen een lijst met kenmerken per gebruiker verzenden die alle bestaande eigenschappen van deze gebruiker voor een bepaalde gegevensbron in de Manager van de Publiek zou moeten beschrijven. U hoeft niet al uw gebruikers op te nemen in een overschrijvingsbestand. Neem alleen de gebruikers op die u wilt wijzigen. De sporen die niet aan de doelgegevensbron worden toegewezen zullen niet worden gewist. </li> 
+      <li id="li_6EC6DE442B4546AA9F4F800D65C8A4EC"> <code> sync</code>: Normaal scenario wanneer de derdegegevensleveranciers eigenschappen op een per-gebruikersbasis verzenden om in het systeem van de Audience Manager worden toegevoegd of worden verwijderd. </li> 
+      <li id="li_8FE8430C2C004F87835D55231A0D99C9"> <code> overwrite</code>: Laat klanten en gegevensleveranciers een lijst van eigenschappen op een per-gebruikersbasis verzenden die alle bestaande eigenschappen van deze gebruiker voor een bepaalde gegevensbron in Audience Manager zou moeten beschrijven. U hoeft niet al uw gebruikers op te nemen in een overschrijvingsbestand. Neem alleen de gebruikers op die u wilt wijzigen. De sporen die niet aan de doelgegevensbron worden toegewezen zullen niet worden gewist. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -89,7 +92,7 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Een tijdstempel van 10 cijfers (UTC UNIX) in seconden. Met de tijdstempel kunt u elke bestandsnaam uniek maken. </p> 
     <draft-comment> 
-     <p> <p>Opmerking:  Audience Manager gebruikt de tijdstempel niet tijdens de verwerking van binnenkomende bestanden. Het tijdstempel in de bestandsnaam is afgekeurd in Audience Manager, maar is nog steeds vereist voor achterwaartse compatibiliteit. </p> </p> 
+     <p> <p>Opmerking:  Audience Manager gebruikt de tijdstempel niet tijdens het verwerken van binnenkomende bestanden. Het tijdstempel in de bestandsnaam is afgekeurd in de Audience Manager, maar is nog steeds vereist voor achterwaartse compatibiliteit. </p> </p> 
     </draft-comment> </td> 
   </tr> 
   <tr> 
