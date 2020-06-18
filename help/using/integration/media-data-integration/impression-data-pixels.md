@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Vastleggen van Campagne-indrukgegevens via pixelaanroepen
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: b1d953837766f5822f5ba0246f7e10042c6f1072
+source-git-commit: aefd0a0798797b8bbe9cadc1af9f2e86e772bb4c
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 17%
@@ -26,7 +26,7 @@ Deze methodologie wordt vaak bedoeld als &quot;het blokkeren van creatief.&quot;
 >
 >De tekststijlen (`monospaced text`, *cursief*, haakjes `[ ]` `( )`, enz.) geven code-elementen en -opties aan. Zie [Stijlconventies voor code- en tekstelementen](../../reference/code-style-elements.md) voor meer informatie.
 
-De gebeurtenisaanroep verzamelt impressie- en conversiedata en verzendt deze naar de [!DNL Audience Manager][-dataverzamelingsservers ](/help/using/reference/system-components/components-data-collection.md) ([!UICONTROL DCS]). Dit proces baseert zich op advertentieservers van derden die de aanvraag in de advertentie plaatsen om te bepalen welke content in de code wordt opgenomen. De advertentieservers van derden (bijvoorbeeld [!DNL DFA]) kunnen deze code in elke advertentie-impressie plaatsen. Bovendien gebruikt een advertentievraag geen [!DNL JavaScript] en past deze geen framebustertechnieken toe om toegang te krijgen tot uitgeversdata buiten de advertentietag.
+De gebeurtenisaanroep verzamelt impressie- en conversiedata en verzendt deze naar de [!DNL Audience Manager][-dataverzamelingsservers ](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). Dit proces baseert zich op advertentieservers van derden die de aanvraag in de advertentie plaatsen om te bepalen welke content in de code wordt opgenomen. De advertentieservers van derden (bijvoorbeeld [!DNL DFA]) kunnen deze code in elke advertentie-impressie plaatsen. Bovendien gebruikt een advertentievraag geen [!DNL JavaScript] en past deze geen framebustertechnieken toe om toegang te krijgen tot uitgeversdata buiten de advertentietag.
 
 Gebeurtenisaanroepen bestaan uit sleutel-waardeparen die de volgende syntaxis gebruiken:
 
