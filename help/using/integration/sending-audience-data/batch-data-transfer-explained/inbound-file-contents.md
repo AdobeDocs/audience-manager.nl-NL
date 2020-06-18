@@ -6,12 +6,15 @@ solution: Audience Manager
 title: De binnenkomende Syntaxis van de Inhoud van het Dossier van Gegevens, Ongeldige Karakters, Variabelen, en Voorbeelden
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1245'
+ht-degree: 0%
 
 ---
 
 
-# Inhoud binnenkomend gegevensbestand: Syntaxis, ongeldige tekens, variabelen en voorbeelden{#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Inhoud binnenkomend gegevensbestand: Syntaxis, ongeldige tekens, variabelen en voorbeelden {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 De vereiste gebieden, syntaxis, en regels u zouden moeten volgen wanneer het formatteren van een binnenkomend dossier van eigenschapsgegevens.
 
@@ -29,7 +32,8 @@ Voor andere toegelaten formaten van de dossierinhoud, zie de Integraties [van de
 >
 >We hebben een limiet van 200 regels die we kunnen verwerken voor elke gebruikersnaam die in het binnenkomende gegevensbestand wordt verzonden. Als u bijvoorbeeld 300 regels verzendt voor een gebruikers-id, blijven de eerste 200 regels behouden en worden de extra 100 regels verwijderd. In het onderstaande voorbeeld kun je het beste drie regels verzenden voor gebruikers-id 1 en gebruikersnaam 2. Wij dwingen geen grens op het aantal eigenschappen of zeer belangrijke paren af u in een lijn omvat.
 >
->```
+>
+```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
@@ -54,7 +58,7 @@ De tabel bevat een lijst met en definieert de variabelen die worden gebruikt in 
    <td colname="col1"> <p> <code> <i>User ID </i> </code> </p> </td> 
    <td colname="col2"> <p>Een gebruikersnaam kan: </p> <p> 
      <ul id="ul_25168355353545A9A049D0083403025E"> 
-      <li id="li_23829FE2F6464E33859B3E388FCD106B">Een unieke gebruikers-id die is toegewezen door <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager UUID </a>). </li> 
+      <li id="li_23829FE2F6464E33859B3E388FCD106B">Een unieke gebruikersnaam die door <span class="keyword"> Audience Manager </span> ( <a href="../../../reference/ids-in-aam.md"> Audience Manager-UUID </a>) is toegewezen. </li> 
       <li id="li_76961F20DD3F4554AD2ADFB773F975DB">Een unieke gebruikersnaam die is toegewezen in uw CRM-systeem ( <a href="../../../reference/ids-in-aam.md"> DPUUID, in Audience Manager </a>). </li> 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Een mobiele Android- of iOS-apparaat-id in het oorspronkelijke, ongewijzigde formulier zoals deze wordt weergegeven door het mobiele besturingssysteem. </li> 
      </ul> </p> <p>Voor mobiele id's: </p> <p> 
@@ -69,7 +73,7 @@ De tabel bevat een lijst met en definieert de variabelen die worden gebruikt in 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>trait ID </i> </code> </p> </td> 
-   <td colname="col2"> <p>De <span class="keyword"> </span> statusID van Audience Manager. Wij vragen dat u <i>slechts ongebogen eigenschappen</i> in binnenkomende gegevensdossiers opneemt. We verwerken geen andere typen eigenschappen in de binnenkomende gegevensoverdracht. </p> <p> <p>Opmerking:  De Trait ID kan worden gevonden door de GET methode te gebruiken die details over al uw eigenschappen terugkeert. Zie <a href="../../../api/rest-api-main/api-traits.md"> Trait API-methoden </a>. </p> </p> </td> 
+   <td colname="col2"> <p>De <span class="keyword"> Audience Manager- </span> kenmerk-id. Wij vragen dat u <i>slechts ongebogen eigenschappen</i> in binnenkomende gegevensdossiers opneemt. We verwerken geen andere typen eigenschappen in de binnenkomende gegevensoverdracht. </p> <p> <p>Opmerking:  De Trait ID kan worden gevonden door de GET methode te gebruiken die details over al uw eigenschappen terugkeert. Zie <a href="../../../api/rest-api-main/api-traits.md"> Trait API-methoden </a>. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,11 +92,11 @@ In de volgende tabel worden de voorvoegsels beschreven waarmee de namen van kenm
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Het <code> d_sid </code> voorvoegsel vertelt ons systeem dat identiteitskaart een het dienstitelID van de Manager van de <span class="keyword"> Publiek is </span> . Dit is dezelfde id die in de gebruikersinterface wordt weergegeven. U kunt ook doel-id's retourneren met de API- <code> GET </code> methode. Zie <a href="../../../api/rest-api-main/api-traits.md"> Trait API-methoden </a>. </p> </td>
+   <td colname="col2"> <p>Het <code> d_sid </code> voorvoegsel vertelt ons systeem dat de id een <span class="keyword"> Audience Manager- </span> kenmerk-id is. Dit is dezelfde id die in de gebruikersinterface wordt weergegeven. U kunt ook doel-id's retourneren met de API- <code> GET </code> methode. Zie <a href="../../../api/rest-api-main/api-traits.md"> Trait API-methoden </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Gegevens die vooraf met zijn vastgesteld, <code> d_unsid </code> verwijderen gebruikers uit die eigenschap. Het <code> d_unsid </code> voorvoegsel wordt genegeerd in een <code> overwrite </code> bestand. </p> <p>Het <code> d_unsid= </code> voorvoegsel vertelt ons systeem dat identiteitskaart een het dienstitelID van de Manager van de <span class="keyword"> Publiek is </span> . Dit is dezelfde id die in de gebruikersinterface wordt weergegeven. U kunt ook doel-id's retourneren met de API- <code> GET </code> methode. Zie <a href="../../../api/rest-api-main/api-traits.md"> Trait API-methoden </a>. </p> </td>
+   <td colname="col2"> <p>Gegevens die vooraf met zijn vastgesteld, <code> d_unsid </code> verwijderen gebruikers uit die eigenschap. Het <code> d_unsid </code> voorvoegsel wordt genegeerd in een <code> overwrite </code> bestand. </p> <p>Het <code> d_unsid= </code> voorvoegsel vertelt ons systeem dat de id een <span class="keyword"> Audience Manager- </span> kenmerk-id is. Dit is dezelfde id die in de gebruikersinterface wordt weergegeven. U kunt ook doel-id's retourneren met de API- <code> GET </code> methode. Zie <a href="../../../api/rest-api-main/api-traits.md"> Trait API-methoden </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -247,7 +251,7 @@ In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnen
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>UUID van Audience Manager </p> </td> 
+   <td colname="col1"> <p>UUID Audience Manager </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-1"> Voorbeeld 1 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-2"> Voorbeeld 2 </a> </p> </td> 
    <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-3"> Voorbeeld 3 </a> </p> </td> 
@@ -264,7 +268,7 @@ In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnen
    <td colname="col1"> <p>Apple IDFA voor iOS-apparaten </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-9"> Voorbeeld 9 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-10"> Voorbeeld 10 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-11"> Voorbeeld 10 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-11"> Voorbeeld 11 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-12"> Voorbeeld 12 </a> </p> </td> 
   </tr> 
   <tr> 
@@ -279,7 +283,7 @@ In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnen
 
 ### Voorbeeld 1 {#example-1}
 
-Gebruik standaard-id&#39;s om de kwalificatiegegevens van het kenmerk te verzenden voor UUID&#39;s van Audience Manager.
+Gebruik de kenmerk-id&#39;s om de kwalificatiegegevens van de eigenschap te verzenden voor [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -287,7 +291,7 @@ Gebruik standaard-id&#39;s om de kwalificatiegegevens van het kenmerk te verzend
 
 ### Voorbeeld 2 {#example-2}
 
-Gebruik de eigenschap IDs om de informatie van de onvolkomenheden van de Manager UUIDs van de Audience te verzenden.
+Gebruik de kenmerk-id&#39;s om informatie over de onvolledige erkenning te verzenden voor [!DNL Audience Manager][!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -307,7 +311,7 @@ of
 
 ### Voorbeeld 3 {#example-3}
 
-Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor de Manager UUIDs van de Publiek toe te voegen.
+Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor [!DNL Audience Manager] [!DNL UUIDs]toe te voegen.
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -321,7 +325,7 @@ of
 
 ### Voorbeeld 4 {#example-4}
 
-Gebruik het voorvoegsel van de ic om de informatie van de trekkenkwalificatie voor de Manager UUIDs van de Publiek te verzenden.
+Gebruik het voorvoegsel ic om kwalificatiegegevens voor eigenschappen te verzenden [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -335,7 +339,7 @@ of
 
 ### Voorbeeld 5 {#example-5}
 
-Gebruik de kenmerk-id&#39;s om kwalificatiegegevens voor kenmerken van Android-apparaten te verzenden.
+Gebruik standaard-id&#39;s om informatie over de kwalificatie van het kenmerk voor [!DNL Android] apparaten te verzenden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -343,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Voorbeeld 6 {#example-6}
 
-Gebruik de standaard-id&#39;s om informatie over de onvolledige erkenning van onderdelen naar Android te verzenden.
+Gebruik de kenmerk-id&#39;s om informatie over de kenmerkontkenning voor [!DNL Android] apparaten te verzenden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -363,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Voorbeeld 7 {#example-7}
 
-Verzenden in sleutelwaardeparen om kwalificatiegegevens voor eigenschappen voor Android-apparaten toe te voegen.
+Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor [!DNL Android] apparaten toe te voegen.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -377,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Voorbeeld 8 {#example-8}
 
-Gebruik het voorvoegsel ic om kwalificatiegegevens voor eigenschappen voor Android-apparaten te verzenden.
+Gebruik het voorvoegsel ic om kwalificatiegegevens voor eigenschappen van [!DNL Android] apparaten te verzenden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -391,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Voorbeeld 9 {#example-9}
 
-Gebruik standaard-id&#39;s om kwalificatiegegevens voor kenmerken voor iOS-apparaten te verzenden.
+Gebruik standaard-id&#39;s om informatie over de kwalificatie van het kenmerk voor [!DNL iOS] apparaten te verzenden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -399,7 +403,7 @@ Gebruik standaard-id&#39;s om kwalificatiegegevens voor kenmerken voor iOS-appar
 
 ### Voorbeeld 10 {#example-10}
 
-Gebruik de kenmerk-id&#39;s om informatie over onvolledige erkenning voor iOS-apparaten te verzenden.
+Gebruik de kenmerk-id&#39;s om informatie over de kenmerkontkenning voor [!DNL iOS] apparaten te verzenden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -417,9 +421,9 @@ of
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Voorbeeld 10 {#example-11}
+### Voorbeeld 11 {#example-11}
 
-Verzenden in sleutelwaardeparen om kenmerkgegevens voor iOS-apparaten toe te voegen.
+Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor [!DNL iOS] apparaten toe te voegen.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -433,7 +437,7 @@ of
 
 ### Voorbeeld 12 {#example-12}
 
-Gebruik het voorvoegsel ic om kwalificatiegegevens over eigenschappen voor iOS-apparaten te verzenden.
+Gebruik het voorvoegsel ic om kwalificatiegegevens voor eigenschappen van [!DNL iOS] apparaten te verzenden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -447,7 +451,7 @@ of
 
 ### Voorbeeld 13 {#example-13}
 
-Gebruik de standaard-id&#39;s om de kwalificatiegegevens van de eigenschap voor DPUUID&#39;s te verzenden.
+Gebruik de kenmerk-id&#39;s om de kwalificatiegegevens van de eigenschap te verzenden voor [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -455,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Voorbeeld 14 {#example-14}
 
-Gebruik de standaard-id&#39;s om informatie over onvolledige erkenning voor DPUUID&#39;s te verzenden.
+Gebruik de kenmerk-id&#39;s om informatie over de onvolledige erkenning te verzenden voor [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -475,7 +479,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Voorbeeld 15 {#example-15}
 
-Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor DPUUIDs toe te voegen.
+Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor toe te voegen [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -489,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Voorbeeld 16 {#example-16}
 
-Gebruik het voorvoegsel ic om kwalificatiegegevens voor eigenschappen voor DPUUIDs te verzenden.
+Gebruik het `ic` voorvoegsel om kwalificatiegegevens voor kenmerken te verzenden [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
