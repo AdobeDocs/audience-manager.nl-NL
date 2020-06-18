@@ -6,18 +6,21 @@ solution: Audience Manager
 title: DCS API's voor gegevensoverdracht van server naar server
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 0%
 
 ---
 
 
 # DCS API&#39;s voor gegevensoverdracht van server naar server{#dcs-apis-for-server-to-server-data-transfers}
 
-Server-aan-server ([!UICONTROL S2S]) [!DNL API]s verstrekt code en methodes die u [!UICONTROL DCS] gebruikersgegevens verzenden en laten ontvangen en met deze informatie in uw eigen systemen of toepassingen werken.
+Server-aan-server ([!UICONTROL S2S]) [!DNL API]s verstrekt code en methodes die u [!DNL DCS] gebruikersgegevens verzenden en laten ontvangen en met deze informatie in uw eigen systemen of toepassingen werken.
 
 ## Vaak Gebruik {#common-use-cases}
 
-[!UICONTROL Server-to-server] met overgangen kunt u landingspagina&#39;s of andere interacties aanpassen op basis van de belangen van de bezoeker. Enkele gangbare gebruiksgevallen zijn:
+[!UICONTROL Server-to-server] transfers can help you customize landing pages or other interactions based on visitor interests. Enkele gangbare gebruiksgevallen zijn:
 
 * Lokaal personaliseren: Leer de ervaring van een bezoeker op uw plaats door relevante inhoud en vraag aan actie dynamisch toe te voegen die op de segmenten wordt gebaseerd zij tot behoren.
 * De klantenservice verbeteren: Importeer [!DNL Audience Manager] segmenten in een [!DNL CRM] of ander systeem via gegevensoverdracht van server naar server. Deze gegevens kunnen de vraagdienst of online praatjeexploitanten van relevante, gepersonaliseerde informatie over een klant voorzien.
@@ -33,15 +36,15 @@ De id&#39;s van gebruikers en regio-id&#39;s [!UICONTROL DCS API] zijn vereist v
 
 Deze handleiding behandelt momenteel het volgende:
 
-* Haal de gebruikers- en regio-id&#39;s op uit de [!UICONTROL DCS] bestanden die u al als [!DNL Audience Manager] klant ontvangt.
+* Haal de gebruikers- en regio-id&#39;s op uit de [!DNL DCS] bestanden die u al als [!DNL Audience Manager] klant ontvangt.
 
 * Hiermee haalt u de gebruikers- en regio-id&#39;s op als u de id [!DNL Visitor ID Service]gebruikt.
-* Maak vraag aan het [!UICONTROL DCS] nadat u de gebruiker en gebiedsidentiteitskaart hebt.
+* Maak vraag aan het [!DNL DCS] nadat u de gebruiker en gebiedsidentiteitskaart hebt.
 
 We voegen nieuwe methoden toe zodra deze beschikbaar zijn. Raadpleeg de volgende secties om aan de slag te gaan.
 
 * [Gebruikersnaam en regio&#39;s ophalen uit een DCS-reactie](dcs-aam-ids.md)
-* [Gebruikersnaam en regio&#39;s ophalen via de Cloud-id voor ervaring...](dcs-mcid-ids.md)
+* [Gebruikersnaam en -regio&#39;s ophalen via de Experience Cloud-id...](dcs-mcid-ids.md)
 * [Server-aan-Server DCS API Vraag maken](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
