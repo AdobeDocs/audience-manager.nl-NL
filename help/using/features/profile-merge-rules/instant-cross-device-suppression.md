@@ -5,7 +5,10 @@ seo-title: Onmiddellijke ondersteuning voor apparaten
 title: Onmiddellijke ondersteuning voor apparaten
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 translation-type: tm+mt
-source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: a4f0b9d2252fd85322d00f965ff35a9fed04d3f8
 
 De technische details van unsegmentation in real time worden beschreven in lengte in de Regels van de Fusie van het [Profiel en de Processen](merge-rule-unsegment.md)van de Un-Segmentatie van het Apparaat. Lees verder voor de praktische implementatie van de hierboven beschreven gebruiksgevallen.
 
-## Niet activeren na conversie {#do-not-target-once}
+## Geen Target na conversie {#do-not-target-once}
 
 Zorg ervoor dat gebruikers die al een product hebben geconverteerd (een product hebben aangeschaft, een abonnement hebben aangeschaft, enz.) zal niet het zelfde overseinen zien zoals vóór de omzetting. U kunt dit verkrijgen gebruikend de [!UICONTROL AND NOT] logica, als volgt.
 
@@ -34,7 +37,7 @@ Uw bezoekers komen in aanmerking voor het segment zolang zij niet hebben omgezet
 
 ![](assets/and_not_use_case.png)
 
-## Niet activeren na x-indrukking {#do-not-target-after-x}
+## Geen Target na x-indrukking {#do-not-target-after-x}
 
 U kunt ervoor zorgen dat u uw gebruikers niet met dezelfde creatieve instellingen overstroomt door de instellingen voor recentie en frequentie in te stellen. In dit scenario maakt u een segment met twee kenmerken, zoals wordt beschreven in de onderstaande stappen.
 
@@ -64,4 +67,4 @@ Houd rekening met de volgende aspecten met betrekking tot verwerking:
 Houd rekening met de volgende aspecten met betrekking tot timing:
 
 * Een segment zal op de [Rand](../../reference/system-components/components-edge.md) voor de zelfde tijdspanne worden opgeslagen aangezien een apparatenprofiel op de [!UICONTROL Edge], namelijk 14 dagen sinds laatste real-time interactie wordt opgeslagen. Lees meer over gegevensbewaring in onze veelgestelde vragen over [gegevensbewaring](../../faq/faq-privacy.md#data-retention-faq).
-* Het duurt ongeveer 24 uren voor de unsegment verrichting zich over [!UICONTROL DCS] gebieden voortbrengt. Lees meer over onze [!UICONTROL DCS] regio&#39;s [hier](../..//reference/system-components/components-data-collection.md) en [hier](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Het duurt ongeveer 24 uren voor de unsegment verrichting zich over [!DNL DCS] gebieden voortbrengt. Lees meer over onze [!DNL DCS] regio&#39;s [hier](../..//reference/system-components/components-data-collection.md) en [hier](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
