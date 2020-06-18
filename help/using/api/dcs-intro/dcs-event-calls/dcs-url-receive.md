@@ -6,20 +6,23 @@ solution: Audience Manager
 title: Gegevens ontvangen van de DCS
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 0%
 
 ---
 
 
 # Gegevens ontvangen van de DCS {#receive-data-from-the-dcs}
 
-Ga hier voor informatie over hoe te om een [!UICONTROL DCS] reactie in een `/event` vraag te verzoeken. Deze sectie omvat een reactievoorbeeld en definities voor gemeenschappelijke gegevenselementen in een reactie.
+Ga hier voor informatie over hoe te om een [!DNL DCS] reactie in een `/event` vraag te verzoeken. Deze sectie omvat een reactievoorbeeld en definities voor gemeenschappelijke gegevenselementen in een reactie.
 
 Zie Gegevens [verzenden naar de DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)voordat u deze inhoud controleert.
 
 ## DCS-responsparameters: Een revisie {#dcs-response-parameters}
 
-Uw [!UICONTROL DCS] verzoek moet omvatten `d_rtbd=json` als u een antwoord van [!UICONTROL DCS]. De gegevens worden [!UICONTROL DCS] niet geretourneerd als u deze parameter weglaat. Een basisvraag aan de [!UICONTROL DCS] om gegevens te verzoeken gebruikt deze syntaxis:
+Uw [!DNL DCS] verzoek moet omvatten `d_rtbd=json` als u een antwoord van [!DNL DCS]. De gegevens worden [!DNL DCS] niet geretourneerd als u deze parameter weglaat. Een basisvraag aan de [!DNL DCS] om gegevens te verzoeken gebruikt deze syntaxis:
 
 ```js
 https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_cb=callback
@@ -31,7 +34,7 @@ Herinnering dat van de [Send Gegevens naar de documentatie DCS](../../../api/dcs
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
-Aangezien deze vraag de vereiste reactieparameter omvat, [!UICONTROL DCS] die wordt teruggestuurd het hieronder getoonde [!DNL JSON] voorwerp. U kunt gelijkaardig of complexer zijn.
+Aangezien deze vraag de vereiste reactieparameter omvat, [!DNL DCS] die wordt teruggestuurd het hieronder getoonde [!DNL JSON] voorwerp. U kunt gelijkaardig of complexer zijn.
 
 ```js
 {
@@ -44,7 +47,7 @@ Aangezien deze vraag de vereiste reactieparameter omvat, [!UICONTROL DCS] die wo
 
 ## Responsparameters {#response-parameters}
 
-De onderstaande tabel bevat een lijst met en definieert de meer algemene parameters die u in een reactie van de [!UICONTROL DCS]code kunt zien. Dit is van toepassing op gebeurtenisaanroepen of andere [!UICONTROL DCS] [!DNL API] query&#39;s die gegevens retourneren.
+De onderstaande tabel bevat een lijst met en definieert de meer algemene parameters die u in een reactie van de [!DNL DCS]code kunt zien. Dit is van toepassing op gebeurtenisaanroepen of andere [!DNL DCS] [!DNL API] query&#39;s die gegevens retourneren.
 
 | Parameter | Beschrijving |
 |--- |--- |
