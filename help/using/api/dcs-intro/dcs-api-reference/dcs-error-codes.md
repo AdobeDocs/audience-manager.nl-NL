@@ -6,10 +6,10 @@ solution: Audience Manager
 title: DCS-foutcodes, berichten en voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ff245c2cca417e9b1fd51460ddbadd25d5696006
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 2%
+source-wordcount: '1509'
+ht-degree: 1%
 
 ---
 
@@ -22,76 +22,22 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
 
 ## Systeemfoutcodes {#system-error-codes}
 
-<table id="table_43F4321BEA6A4D1BBDFE2E9FB4402914"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Code-id </th> 
-   <th colname="col2" class="entry"> Foutbericht </th> 
-   <th colname="col3" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>0 </p> </td> 
-   <td colname="col2"> <p>Onbekende fout </p> </td> 
-   <td colname="col3"> <p>Dit is een catch-all fout die gebeurtenissen behandelt die niet door de andere foutenmanagers worden behandeld. Het oplossen van problemen met deze fout is moeilijk. Het kan worden veroorzaakt door een verscheidenheid van onbekende acties of gebeurtenissen. </p> <p>Als deze fout optreedt, probeert u het <span class="wintitle"> DCS</span> -verzoek opnieuw. Neem contact op met uw vertegenwoordiger van Adobe als het probleem zich blijft voordoen. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Kan configuratie voor hostnaam niet vinden: <code><i>hostname</i></code> </p> </td> 
-   <td colname="col3"> <p>De gastheernaam die in het verzoek wordt verzonden is niet opstelling door ons team van de partnerlevering. Neem contact op met uw Adobe-vertegenwoordiger als dit foutbericht wordt weergegeven. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Ongeldige <code> d_orgid</code> waarde (kan geen config voor deze org-id vinden): <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>De organisatie-id is onjuist. </p> <p>Controleer uw id en probeer het verzoek opnieuw. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie "Beheerpagina" in <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html" format="https" scope="external"> Organisaties en account die koppelingen</a> bevat voor informatie over het zoeken naar deze pagina. </p> </td> 
-  </tr>
- </tbody>
-</table>
+|Foutcode|Foutbericht|Beschrijving|
+|—|—|—|
+|0|Niet-gespecificeerde fout|Dit is een catch-all fout die gebeurtenissen behandelt die niet door de andere foutenmanagers worden behandeld. Het oplossen van problemen met deze fout is moeilijk. Het kan worden veroorzaakt door een verscheidenheid van onbekende acties of gebeurtenissen. Als deze fout is opgetreden, probeert u het [!DNL DCS] verzoek opnieuw. Neem contact op met uw [!DNL Adobe] vertegenwoordiger als het probleem zich blijft voordoen.|
+|1|Kan configuratie voor hostnaam niet vinden: `hostname`|De gastheernaam die in het verzoek wordt verzonden is niet opstelling door ons team van de partnerlevering. Neem contact op met uw [!DNL Adobe] vertegenwoordiger als dit foutbericht wordt weergegeven.|
+|2|Ongeldige `d_orgid` waarde (kan geen config voor deze org-id vinden): `ID`|De organisatie-id is onjuist. Controleer uw id en probeer het verzoek opnieuw. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie [Organisaties en account met koppelingen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) in de sectie &quot;Beheerpagina&quot; voor informatie over hoe u deze kunt vinden.|
 
 ## Integratiefoutcodes {#integration-error-codes}
 
-<table id="table_EFF06FB3D045459BA7802872AF22DF79"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Code-id </th> 
-   <th colname="col2" class="entry"> Bericht </th> 
-   <th colname="col3" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>100 </p> </td> 
-   <td colname="col2"> <p>Kan de hostnaam voor de aanvraag niet ophalen </p> </td> 
-   <td colname="col3"> <p>Een API-aanroep heeft de HTTP-header van de host in de aanvraag niet verzonden. </p> <p>Voeg gastheerkopbal aan de vraag toe en probeer opnieuw. De meeste browsers en API-clients doen dit automatisch. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>101 </p> </td> 
-   <td colname="col2"> <p>Ongeldige Experience Cloud-id doorgegeven <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>De <span class="wintitle"> DCS</span> -aanroep bevat een ongeldige <span class="keyword"> Experience Cloud</span> -id. </p> <p>Controleer het <code> d_mid=</code> sleutelwaardepaar in de koptekstreeks. Geef de juiste <span class="keyword"> Experience Cloud</span> -id door en probeer het verzoek opnieuw. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>102 </p> </td> 
-   <td colname="col2"> <p>Ongeldige naam-id doorgegeven in verzoek <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>De <span class="wintitle"> DCS</span> -aanroep bevat een ongeldige <span class="keyword"> Audience Manager</span> -id. </p> <p>Controleer het <code> d_uuid=</code> sleutelwaardepaar in de koptekstreeks. Geef de juiste <span class="keyword"> Audience Manager</span> -id door en probeer het verzoek opnieuw. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>104 </p> </td> 
-   <td colname="col2"> <p>Alle id's van klanten zijn ongeldig </p> </td> 
-   <td colname="col3"> <p>Alle klant IDs in uw vraag is ongeldig. Controleer uw id's en probeer het opnieuw. </p> </td> 
-  </tr>
-    <tr> 
-   <td colname="col1"> <p>109</p> </td> 
-   <td colname="col2"> <p>Referer <code>HTTP referer</code> is niet toegestaan voor partner <code>Partner ID</code> </p> </td> 
-   <td colname="col3"> <p>De <code>HTTP referer</code> kopbal op de vraag wordt niet toegestaan voor partneridentiteitskaart op de vraag. Controleer of de <code>HTTP referer</code> koptekst juist is.</p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p>111 </p> </td> 
-   <td colname="col2"> <p>Ongeldig <span class="wintitle"> IMS</span> -token ontvangen </p> </td> 
-   <td colname="col3"> <p>Geretourneerd voor Audience Manager - Adobe Target-integratie. De fout wordt geworpen wanneer een vraag aan DCS wordt gemaakt, die een ongeldig teken IMS bevat. Het token kan onjuist zijn geformuleerd, verlopen of de gebruiker is mogelijk niet gemachtigd om toegang te krijgen tot de vereiste resource. </p> </td>
-  </tr>
- </tbody>
-</table>
+|Foutcode|Foutbericht|Beschrijving|
+|—|—|—|
+|100|Kan de hostnaam voor het verzoek niet ophalen|Een [!DNL API] oproep heeft de host- [!DNL HTTP] header in het verzoek niet verzonden. Voeg de gastheerkopbal aan de vraag toe en probeer opnieuw. De meeste browsers en [!DNL API] clients doen dit automatisch. |
+|101|Ongeldige [!DNL Experience Cloud] id doorgegeven `ID`|De [!DNL DCS] oproep bevat een ongeldige [!DNL Experience Cloud] id. Controleer het `d_mid=` sleutelwaardepaar in de koptekstreeks. Geef de juiste [!DNL Experience Cloud] id door en probeer het verzoek opnieuw. |
+|102|Ongeldige [!DNL AAM ID] aanvraag `ID`|De [!DNL DCS] oproep bevat een ongeldige [!DNL Audience Manager] id. Controleer het `d_uuid=` sleutelwaardepaar in de koptekstreeks. Geef de juiste [!DNL Audience Manager] id door en probeer het verzoek opnieuw. |
+|104|Alle klant-id&#39;s zijn ongeldig | Alle klant-id&#39;s in uw oproep zijn ongeldig. Controleer uw id&#39;s en probeer het opnieuw.|
+|109|Referer `HTTP referer` is niet toegestaan voor partner `Partner ID`|De `HTTP referer` kopbal op de vraag wordt niet toegestaan voor partneridentiteitskaart op de vraag. Controleer of de `HTTP referer` koptekst juist is.|
+|111|Ongeldige `IMS` token ontvangen|Geretourneerd voor [!DNL Audience Manager] - [!DNL Adobe Target] integratie. De fout wordt geworpen wanneer een vraag aan [!DNL DCS]wordt gemaakt, die een ongeldig [!DNL IMS] teken bevatten. Het token kan onjuist zijn geformuleerd, verlopen of de gebruiker is mogelijk niet gemachtigd om toegang te krijgen tot de vereiste resource.|
 
 ## Foutcodes voor uitschakelen {#opt-out-error-codes}
 
@@ -207,7 +153,7 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   <tr> 
    <td colname="col1"> <p>302 </p> </td> 
    <td colname="col2"> <p>Onbevoegde klant-id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wordt geretourneerd wanneer de gegevensbron van de klant-id niet het eigendom is van de huidige organisatie-id. If you do not know or have your Organization ID, see the "Find your Organization ID" section in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organizations and Account Linking</a> for information about how to find it. </p> </td> 
+   <td colname="col3"> <p>Wordt geretourneerd wanneer de gegevensbron van de klant-id niet het eigendom is van de huidige organisatie-id. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie 'Uw organisatie-id zoeken' in <a href="https://experiencecloud.adobe.com/resources/help/en_US/mcloud/organizations.html" format="https" scope="external"> Organisaties en Account Linking</a> voor meer informatie over het zoeken naar deze id. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
@@ -221,23 +167,23 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
-   <td colname="col2"> <p>Blocked declared device id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>The device ID has been identified as malicious and has been added to a denylist This can happen when we receive an extreme amount of <span class="wintitle"> DCS</span> requests containing this device ID in a short amount of time. </p> </td>
+   <td colname="col2"> <p>Opgegeven apparaat met blokkering <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>De apparaat-id is als kwaadaardig geïdentificeerd en is toegevoegd aan een denylist Dit kan gebeuren wanneer er een zeer grote hoeveelheid <span class="wintitle"> DCS</span> -verzoeken met deze apparaat-id wordt ontvangen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
-   <td colname="col2"> <p>Blocked profile operation for <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>A read/write action has been blocked because an ID has been identified as malicious and has been added to a denylist See error code 306. </p> </td> 
+   <td colname="col2"> <p>Geblokkeerde profielbewerking voor <code><i>ID</i></code> </p> </td> 
+   <td colname="col3"> <p>Een lees-/schrijfactie is geblokkeerd omdat een id is geïdentificeerd als kwaadaardig en is toegevoegd aan een denylist Zie foutcode 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
-   <td colname="col2"> <p>Customer id <code><i>ID</i></code> was discarded because it exceeded the limit of declared customer ids per request </p> </td> 
-   <td colname="col3"> <p>Related to error 301. This error specifies which customer ID was discarded because the limit was exceeded. </p> <p>For example, If there are 12 customer IDs declared on the <span class="wintitle"> DCS</span> call, two of them will be discarded. Om door te geven welke zijn genegeerd, wordt deze fout twee keer weergegeven in de reactie (één keer voor elke verwijderde klant-id ). </p> </td>
+   <td colname="col2"> <p>Customer id <code><i>ID</i></code> is verwijderd omdat deze de limiet voor opgegeven klantgegevens per aanvraag overschrijdt </p> </td> 
+   <td colname="col3"> <p>Verwant aan fout 301. Deze fout geeft aan welke klant-id is verwijderd omdat de limiet is overschreden. </p> <p>Bijvoorbeeld, als er 12 klant IDs op de vraag <span class="wintitle"> DCS</span> wordt verklaard, zullen twee van hen worden verworpen. Om door te geven welke zijn genegeerd, wordt deze fout twee keer weergegeven in de reactie (één keer voor elke verwijderde klant-id ). </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
-   <td colname="col2"> <p>Customer id was discarded because it exceeded the limit for a given namespace. Naamruimte-id is <code><i>ID</i></code>, klant-id is <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>This error code is returned if there are more than 3 customer IDs declared for the same namespace (<code> DPID</code>) on a <span class="wintitle"> DCS</span> call. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In dit voorbeeld van <span class="wintitle"> DCS</span> -verzoek zijn er 4 id's gedeclareerd voor dezelfde naamruimte (met de integratiecode één). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
+   <td colname="col2"> <p>Id van klant is verwijderd omdat deze de limiet voor een bepaalde naamruimte overschrijdt. Naamruimte-id is <code><i>ID</i></code>, klant-id is <code><i>ID</i></code>. </p> </td> 
+   <td colname="col3"> <p>Deze foutcode wordt geretourneerd als er meer dan drie klant-id's zijn gedeclareerd voor dezelfde naamruimte (<code> DPID</code>) op een <span class="wintitle"> DCS</span> -aanroep. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In dit voorbeeld van <span class="wintitle"> DCS</span> -verzoek zijn er 4 id's gedeclareerd voor dezelfde naamruimte (met de integratiecode één). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
