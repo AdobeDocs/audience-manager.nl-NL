@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 72cf5f30c74736f7143841c0edd6c5c69154a0c2
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '657'
 ht-degree: 5%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 5%
 
 # Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel {#capturing-campaign-click-data-via-pixel-calls}
 
-Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd. Vergelijkbaar met de inzameling [van](/help/using/integration/media-data-integration/impression-data-pixels.md)impressies, wordt een gebeurtenisvraag verzonden naar de servers van de de gegevensinzameling van de Manager van de Auditie ([!UICONTROL DCS]) voor verwerking. De bezoeker wordt dan omgeleid aan het voorgenomen Webadres.
+Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd. Vergelijkbaar met de inzameling [van](/help/using/integration/media-data-integration/impression-data-pixels.md)impressies, wordt een gebeurtenisvraag verzonden naar de servers van de de gegevensinzameling van de Audience Manager ([!DNL DCS]) voor verwerking. De bezoeker wordt dan omgeleid aan het voorgenomen Webadres.
 
 >[!NOTE]
 >
->Neem contact op met uw Adobe Audience Manager-consultant of accountmanager voor de exacte URL die specifiek is voor het clientdomein.
+>Neem contact op met uw [!DNL Audience Manager] consultant of accountmanager voor precies [!DNL URL] het clientdomein.
 
 ## Vereisten
 
@@ -66,7 +66,7 @@ Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. E
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Geen macro. </p> <p>Accepteert een hard gecodeerde ID-waarde. </p> </td> 
-   <td colname="col2"> <p>Advertiser-id.</p> <p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit niet met de gegevensbronnen van de Manager van de Publiek verwant is.</p> <p> Vereist voor rapporten van de optimalisatie <span class="wintitle"></span> van het publiek. </p> </td> 
+   <td colname="col2"> <p>Advertiser-id.</p> <p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit niet met de gegevensbronnen van de Audience Manager verwant is.</p> <p> Vereist voor rapporten van de optimalisatie <span class="wintitle"></span> van het publiek. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
@@ -96,7 +96,7 @@ Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. E
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Ervaar de cloud</span> -id (ECID). Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a>voor meer informatie over de ECID. </p> <p>Optioneel. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> -ID (ECID). Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a>voor meer informatie over de ECID. </p> <p>Optioneel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
@@ -121,7 +121,7 @@ Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. E
   <tr> 
    <td colname="col1"> <p> <code> d_src</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_src%</code> </p> </td> 
-   <td colname="col2"> <p>DPID van de bron van waar de Manager van de Publiek de meta-gegevens trekt. </p> <p>Vereist. </p> </td> 
+   <td colname="col2"> <p>DPID van de bron van waar de Audience Manager de meta-gegevens trekt. </p> <p>Vereist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_uuid</code> </p> </td> 
