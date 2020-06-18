@@ -7,22 +7,25 @@ solution: Audience Manager
 title: De Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 0%
 
 ---
 
 
-# De Data Integration Library (DIL){#understanding-the-data-integration-library-dil}
+# De [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
-Overzicht, begonnen worden, en codemethodes beschikbaar in de de codebibliotheek van de Manager van de Publiek DIL.
+Overzicht, aan de slag gaan en codemethoden beschikbaar in de [!DNL Audience Manager DIL] codebibliotheek.
 
 >[!IMPORTANT]
 >
->Vanaf versie 8.0 (uitgebracht in augustus 2018) [!UICONTROL DIL] is het afhankelijk van de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versie 3.3 of hoger. Het steunt op de Dienst van identiteitskaart aan brand ID syncs en bestemmingen URL. Een fout komt voor als de Dienst van identiteitskaart mist, oud, of niet gevormd.
+>Vanaf versie 8.0 (uitgebracht in augustus 2018) [!UICONTROL DIL] is er een sterke afhankelijkheid van de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versie 3.3 of hoger. Het is afhankelijk van de syntaxis van de [!DNL ID Service] te branden identiteitskaart en de bestemmingen URL. Er treedt een fout op als de code ontbreekt, oud [!DNL ID Service] is of niet is geconfigureerd.
 >
->We raden u aan Adobe Experience Platform Launch te gebruiken voor het implementeren en beheren van uw DIL- en Adobe Experience Platform Identity Service-bibliotheken.
+>We raden u aan uw [!DNL Adobe Experience Platform Launch] bibliotheken [!DNL DIL] en [!DNL Adobe Experience Platform Identity Service] bibliotheken te implementeren en te beheren.
 
-Nochtans, kunt u de recentste versies van de Wolk van de Ervaring en DIL van onze pagina ook downloaden GitHub. Zie onderstaande downloadkoppelingen:
+Nochtans, kunt u recentste Experience Cloud en [!DNL DIL] versies van onze pagina ook downloaden GitHub. Zie onderstaande downloadkoppelingen:
 
 * Download de [Adobe Experience Platform Identity Service](https://github.com/Adobe-Marketing-Cloud/id-service/releases)
 * DIL [downloaden](https://github.com/Adobe-Marketing-Cloud/dil/releases)
@@ -36,11 +39,11 @@ Nochtans, kunt u de recentste versies van de Wolk van de Ervaring en DIL van onz
 
 ## DIL-code ophalen en implementeren {#get-implement-dil-code}
 
-[!UICONTROL DIL] code kan **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**worden gedownload. Houd er rekening mee dat vanaf versie 8.0 (uitgebracht in augustus 2018)[!UICONTROL DIL]sterk afhankelijk is van de[Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versie 3.3 of hoger. Het steunt op de Dienst van identiteitskaart aan brand ID syncs en bestemmingen URL. Een fout komt voor als de Dienst van identiteitskaart mist, oud, of niet gevormd.
+[!UICONTROL DIL] code kan **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**worden gedownload. Houd er rekening mee dat vanaf versie 8.0 (uitgebracht in augustus 2018)[!UICONTROL DIL]een sterke afhankelijkheid bestaat van de[Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versie 3.3 of hoger. Het is afhankelijk van de syncs[!DNL ID Service]to fire ID en[!DNL URL destinations]. Er treedt een fout op als de code ontbreekt, oud[!DNL ID Service]is of niet is geconfigureerd.
 
-In plaats van handmatig te werken met [!UICONTROL DIL] en in te stellen, raden we u aan [!DNL Audience Manager] Adobe Experience Platform Launch [](https://docs.adobelaunch.com/) te gebruiken. [!DNL Adobe Experience Platform Launch] is het geadviseerde implementatiehulpmiddel omdat het codeplaatsing, plaatsing, en versiebeheer vereenvoudigt. Meer informatie over de extensie [](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) Audience Manager in Adobe Experience Platform Launch vindt u.
+In plaats van handmatig te werken met [!UICONTROL DIL] en in te stellen, raden we u aan [!DNL Audience Manager] Adobe Experience Platform starten [](https://docs.adobelaunch.com/) te gebruiken. [!DNL Adobe Experience Platform Launch] is het geadviseerde implementatiehulpmiddel omdat het codeplaatsing, plaatsing, en versiebeheer vereenvoudigt. Lees meer over de extensie [van de](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) Audience Manager in [!DNL Adobe Experience Platform Launch].
 
-Adobe Experience Platform Launch is de opvolger van [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
+[!DNL Adobe Experience Platform Launch] is de opvolger van [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
 
 ## Voorbeeld van oproep {#sample-code}
 
@@ -49,7 +52,7 @@ Adobe Experience Platform Launch is de opvolger van [Adobe Dynamic Tag Manager](
 | Gebeurtenisoproepelement | Beschrijving |
 |--- |--- |
 | URL | Voor DIL-gebeurtenisaanroepen wordt de volgende syntaxis gebruikt: `https://adobe.demdex.net/event?_ts =` *`UNIX UTC timestamp`* |
-| Lichaam | Zoals in voorbeeld hieronder wordt getoond, geeft DIL gegevens door als sleutel-waardeparen. De speciale prefixkarakters identificeren de zeer belangrijk-waardeparen als de Manager van het Publiek of partnervariabelen.<br>`d_dst=1`<br>`d_jsonv=1`<br>`d_ld=_ts=1473693143821`<br>`d_mid=54192285857942994142875423154873503351`<br>`d_nsid=0`<br>`d_rtbd=json`<br> |
+| Lichaam | Zoals in voorbeeld hieronder wordt getoond, geeft DIL gegevens door als sleutel-waardeparen. Speciale voorvoegseltekens identificeren de sleutel-waardeparen als Audience Manager- of partnervariabelen.<br>`d_dst=1`<br>`d_jsonv=1`<br>`d_ld=_ts=1473693143821`<br>`d_mid=54192285857942994142875423154873503351`<br>`d_nsid=0`<br>`d_rtbd=json`<br> |
 
 Zie ook:
 * [Voorvoegselvereisten voor belangrijkste variabelen](../features/traits/trait-variable-prefixes.md)
