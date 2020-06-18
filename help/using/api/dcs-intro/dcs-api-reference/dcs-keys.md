@@ -7,18 +7,21 @@ title: Ondersteunde kenmerken voor DCS API-aanroepen
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 0%
 
 ---
 
 
 # Ondersteunde kenmerken voor DCS API-aanroepen {#supported-attributes-for-dcs-api-calls}
 
-Hiermee geeft u de syntaxis en ondersteunde kenmerken (of sleutelwaardeparen) weer die u kunt doorgeven aan de [!UICONTROL Data Collection Servers] ([!UICONTROL DCS]). Deze informatie kan u helpen uw [!UICONTROL DCS] verzoeken formatteren en de parameters begrijpen die door dit systeem zijn teruggekeerd.
+Hiermee geeft u de syntaxis en ondersteunde kenmerken (of sleutelwaardeparen) weer die u kunt doorgeven aan de [!UICONTROL Data Collection Servers] ([!DNL DCS]). Deze informatie kan u helpen uw [!DNL DCS] verzoeken formatteren en de parameters begrijpen die door dit systeem zijn teruggekeerd.
 
 ## Kenmerkvoorvoegsels {#attribute-prefixes}
 
-Het [!UICONTROL DCS] baseert zich op specifieke prefixen die aan de sleutels in zeer belangrijke-waardeparen worden toegevoegd om het type van gegevens te classificeren u binnen overgaat.
+Het [!DNL DCS] baseert zich op specifieke prefixen die aan de sleutels in zeer belangrijke-waardeparen worden toegevoegd om het type van gegevens te classificeren u binnen overgaat.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -42,14 +45,14 @@ Het [!UICONTROL DCS] baseert zich op specifieke prefixen die aan de sleutels in 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Persoonlijke, door de klant gedefinieerde kenmerken. </p> <p> DCS keurt uw eigen, privé gegevens goed wanneer de sleutel een <code> p_</code> prefix heeft. De privé gegevens worden gebruikt voor karakterevaluatie, maar het zal niet in ons systeem worden geregistreerd of worden opgeslagen. Stel bijvoorbeeld dat u een kenmerk hebt gedefinieerd als <code> customers = p_age&lt;25</code> en dat u een gebeurtenis aanroept <code> p_age=23</code> . Gezien deze voorwaarden, kwalificeert de gebruiker die aan de op leeftijd-gebaseerde kwalificatiecriteria voldoet voor het bezit, maar het sleutel-waarde paar wordt gelaten vallen nadat de Manager <span class="keyword"> van de</span> Publiek het verzoek ontvangt en niet het programma wordt geopend. </p> </td>
+   <td colname="col2"> <p>Persoonlijke, door de klant gedefinieerde kenmerken. </p> <p> DCS keurt uw eigen, privé gegevens goed wanneer de sleutel een <code> p_</code> prefix heeft. De privé gegevens worden gebruikt voor karakterevaluatie, maar het zal niet in ons systeem worden geregistreerd of worden opgeslagen. Stel bijvoorbeeld dat u een kenmerk hebt gedefinieerd als <code> customers = p_age&lt;25</code> en dat u een gebeurtenis aanroept <code> p_age=23</code> . Gezien deze voorwaarden, kwalificeert de gebruiker die aan de op leeftijd-gebaseerde kwalificatiecriteria voldoet voor het bezit, maar het sleutel-waarde paar wordt gelaten vallen nadat de <span class="keyword"> Audience Manager</span> het verzoek ontvangt en niet wordt geregistreerd. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
 ## d_ Attributen {#d-attributes}
 
-Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]website wilt. Als u wilt dat de reactie [!UICONTROL DCS] wordt geretourneerd, `d_rtbd=json` is dit vereist.
+Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wilt. Als u wilt dat de reactie [!DNL DCS] wordt geretourneerd, `d_rtbd=json` is dit vereist.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -69,7 +72,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]websi
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Bevat één of meerdere paren van gegevensleverancier IDs (<code> DPID</code>) en gegevensleverancier gebruiker IDs (<code> DPUUID</code>) die door de Manager <span class="keyword"> van de</span>Publiek wordt toegewezen. Als u meerdere paren <code> DPID</code>s en <code> DPUUID</code>s gebruikt, scheidt u elk paar met het niet-afdrukbare teken <code> %01</code>. Bijvoorbeeld: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die afgekeurd maar nog gesteund zijn. Zie <a href="../../../reference/cid.md"> CID vervangt DPID en DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Bevat één of meerdere paren gegevensleverancier IDs (<code> DPID</code>) en gegevensleverancier gebruiker IDs (<code> DPUUID</code>) die door <span class="keyword"> Audience Manager</span>wordt toegewezen. Als u meerdere paren <code> DPID</code>s en <code> DPUUID</code>s gebruikt, scheidt u elk paar met het niet-afdrukbare teken <code> %01</code>. Bijvoorbeeld: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die afgekeurd maar nog gesteund zijn. Zie <a href="../../../reference/cid.md"> CID vervangt DPID en DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
@@ -77,11 +80,11 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]websi
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> configuratie. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> Ondersteuning voor COPPA in de Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> configuratie. Zie Ondersteuning <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> van COPPA in de identiteitsservice</a>van Adobe Experience Platforms. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
-   <td colname="col2"> <p>Optioneel. Ingeschakeld op verzoek van klant. Neem contact op met de consultant of de klantenservice van de Adobe Audience Manager. </p> <p>Geeft aan dat kenmerken en segmenten binnen de <code> JSON</code> reactie moeten worden geretourneerd. </p> <p> 
+   <td colname="col2"> <p>Optioneel. Ingeschakeld op verzoek van klant. Neem contact op met de consultant van de Adobe Audience Manager of de klantenservice. </p> <p>Geeft aan dat kenmerken en segmenten binnen de <code> JSON</code> reactie moeten worden geretourneerd. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
       <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> keert <a href="../../../reference/ids-in-aam.md"> erfenis segment IDs</a> voor de segmenten terug. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> keert segment IDs voor de segmenten terug. </p> </li>
@@ -111,7 +114,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]websi
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
-   <td colname="col2"> <p><code> d_dst_filter</code> is een gereserveerd kenmerk dat wordt gebruikt in de integratie tussen Adobe Analytics en Audience Manager. </p> <p>We raden u af om kenmerken te maken die gereserveerde kenmerken gebruiken. Adobe kan gereserveerde kenmerken op elk gewenst moment wijzigen. </p> </td> 
+   <td colname="col2"> <p><code> d_dst_filter</code> is een gereserveerd kenmerk dat wordt gebruikt bij de integratie tussen Adobe Analytics en Audience Manager. </p> <p>We raden u af om kenmerken te maken die gereserveerde kenmerken gebruiken. Adobe kan gereserveerde kenmerken op elk gewenst moment wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
@@ -119,7 +122,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]websi
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die wordt ingesteld en gebruikt door de <span class="keyword"> Experience Cloud</span> ID-service. Raadpleeg <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a>voor meer informatie over de ECID. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die door de <span class="keyword"> Experience Cloud</span> -id-service wordt ingesteld en gebruikt. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a>voor meer informatie over de ECID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -127,7 +130,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!UICONTROL DCS]websi
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
-   <td colname="col2"> <p>Met deze optie staat u toe dat Audience Manager mobiele aanvragen van desktopaanvragen kan onderscheiden. Tot de ondersteunde waarden behoren: </p> <p> 
+   <td colname="col2"> <p>Hiermee kan Audience Manager mobiele aanvragen onderscheiden van desktopaanvragen. Tot de ondersteunde waarden behoren: </p> <p> 
      <ul id="ul_A01D4B15C89F4713A39E08377924D632"> 
       <li id="li_E17CC839265B4EB9AC44A3DA31A23857"> <code> ios</code> </li> 
       <li id="li_468F5903CD3048B5AE02A3FDA9B3C4F1"> <code> android</code> </li> 
