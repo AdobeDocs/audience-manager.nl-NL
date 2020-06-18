@@ -7,7 +7,10 @@ solution: Audience Manager
 title: Opgegeven id's
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '1230'
+ht-degree: 0%
 
 ---
 
@@ -18,13 +21,13 @@ Hoe gedeclareerde id&#39;s werken, instellingsprocedures, codevoorbeelden en var
 
 ## Waarschuwing voor gedeclareerde id {#declared-id-targeting}
 
-U kunt gebruikers-id&#39;s uitwisselen en synchroniseren met Audience Manager vanaf apparaten of browsers die geen permanente opslagmechanismen, zoals cookies van derden, gebruiken of accepteren.
+U kunt gebruikers-id&#39;s uitwisselen en synchroniseren met [!DNL Audience Manager] apparaten of browsers die geen permanente opslagmechanismen, zoals cookies van derden, gebruiken of accepteren.
 
 <!-- declared_id_about.xml -->
 
 ## Doel van opgegeven ID-activering {#declared-id-targeting-purpose}
 
-Sommige browsers en de meeste mobiele apparaten accepteren cookies van derden niet. Hierdoor is het moeilijk om informatie over sitebezoekers te behouden of permanente id&#39;s toe te wijzen. Om dit probleem op te lossen, gebruikt de Manager van de Publiek [!UICONTROL DIL] [!UICONTROL declared IDs] om u binnen op een gebeurtenisvraag te laten overgaan. Een id [!UICONTROL declared ID] kan ook fungeren als een universele id die van toepassing is op dezelfde gebruiker voor alle oplossingen in de toepassing [!DNL Experience Cloud]. In de volgende tabel wordt het proces beschreven voor het zoeken naar en zoeken naar id&#39;s.
+Sommige browsers en de meeste mobiele apparaten accepteren cookies van derden niet. Hierdoor is het moeilijk om informatie over sitebezoekers te behouden of permanente id&#39;s toe te wijzen. Om dit probleem op te lossen, [!DNL Audience Manager] gebruikt u [!UICONTROL DIL] om u op een gebeurtenisvraag over te gaan [!UICONTROL declared IDs] . Een id [!UICONTROL declared ID] kan ook fungeren als een universele id die van toepassing is op dezelfde gebruiker voor alle oplossingen in de toepassing [!DNL Experience Cloud]. In de volgende tabel wordt het proces beschreven voor het zoeken naar en zoeken naar id&#39;s.
 
 <table id="table_5D59CD5AF70B44C3B45D279283D4691F"> 
  <thead> 
@@ -36,19 +39,19 @@ Sommige browsers en de meeste mobiele apparaten accepteren cookies van derden ni
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Gebeurtenisoproep</b> </td> 
-   <td colname="col2"> <p>Als u wilt werken, hebt u <span class="wintitle"> DIL </span> en de code voor de identiteitsservice van <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> </a> Adobe Experience Platform op de pagina nodig. <span class="wintitle"> DIL </span> krijgt gedeclareerde id's <span class="wintitle"> van de </span> functie die wordt geleverd door de <code> setVisitorID </code> Adobe Experience Platform Identity Service <span class="keyword"> en geeft deze door aan </span> Audience Manager <span class="keyword"> </span>. </p> </td> 
+   <td colname="col2"> <p>Om te werken, hebt u <span class="wintitle"> DIL </span> en de code van de Dienst van de Identiteit van het <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a> op de pagina nodig. <span class="wintitle"> DIL </span> krijgt gedeclareerde id's <span class="wintitle"> van de </span> functie die wordt geleverd door de <code> setVisitorID </code> identiteitsdienst van het Adobe Experience Platform <span class="keyword"> en geeft die door aan de </span> Audience Manager <span class="keyword"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identiteitskaart afstemmen</b> </td> 
-   <td colname="col2"> <p>Audience Manager probeert de client- en bezoekersidentiteitskaart te koppelen aan een bijbehorende id in ons systeem. Als er geen overeenkomende id bestaat, maakt Audience Manager een nieuwe id en koppelt deze aan de client- en bezoekersidentiteitskaart. </p> <p> <p>Opmerking:  De meest recente toewijzing wordt gebruikt als uw identiteitskaart aan meer dan één identiteitskaart van de Manager van de Publiek toewijst. </p> </p> </td> 
+   <td colname="col2"> <p>Audience Manager probeert de client- en bezoekersidentiteitskaart te koppelen aan een bijbehorende id in ons systeem. Als er geen overeenkomende id bestaat, maakt Audience Manager een nieuwe id en koppelt deze aan de client- en bezoeker-id. </p> <p> <p>Opmerking:  De meest recente toewijzing wordt gebruikt als uw identiteitskaart aan meer dan één Audience Manager ID toewijst. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Return-id</b> </td> 
-   <td colname="col2"> <p>Audience Manager schrijft de gesynchroniseerde id naar een cookie van de eerste partij (of een andere opslagruimte voor geadresseerden) in het clientdomein of de toepassing. </p> </td>
+   <td colname="col2"> <p>Audience Manager schrijft zijn gesynchroniseerde identiteitskaart aan een eerderangs koekje (of andere adresseerbare opslagruimte) in het cliëntdomein of de toepassing. </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <b>Volgende gebeurtenisaanroepen</b> </td>
-   <td colname="col2"> <p>De extra gebeurtenisvraag leest identiteitskaart van de Manager van de Publiek van het domein van de cliënt en verzendt dat naar de Manager van de Publiek. </p> </td>
+   <td colname="col2"> <p>De extra gebeurtenisvraag leest identiteitskaart van de Audience Manager van het domein van de cliënt en verzendt dat naar Audience Manager. </p> </td>
   </tr> 
  </tbody>
 </table>
@@ -57,10 +60,10 @@ Om te beginnen, moet u de dienst van [!DNL Experience Cloud] [!UICONTROL DIL] id
 
 ## Uitgaande oproepen {#opt-out-calls}
 
-Bij dit [!UICONTROL declared ID] proces worden de voorkeuren van de sitebezoeker aangehouden om te weigeren dat uw website doelt op Audience Manager. Wanneer de Manager van het Publiek een opt-out verzoek ontvangt, [!DNL JSON] bevat de [!UICONTROL DCS] teruggekeerde fout code 171, met het bericht &quot;Ontvangen opt-out markering&quot;, in plaats van de gebruiker ID van de Manager van de Publiek.
+Bij dit [!UICONTROL declared ID] proces worden de voorkeuren van de sitebezoeker aangehouden om te weigeren zich op uw website te [!DNL Audience Manager] richten. Wanneer [!DNL Audience Manager] een opt-out-aanvraag wordt ontvangen, [!DNL JSON] bevat de [!DNL DCS] door de gebruiker geretourneerde code de foutcode 171 met het bericht &quot;EnCounted opt out tag&quot; in plaats van de [!DNL Audience Manager] gebruikersnaam.
 
-* De Manager van het publiek kan in een [!UICONTROL declared ID] opt-out naast een Manager van het Publiek [!UICONTROL UUID] in [!DNL URL]. overgaan
-* De [!UICONTROL declared ID] opt-out wordt opgeslagen in [!UICONTROL de Server van het Geheime voorgeheugen van het Profiel ([!UICONTROL PCS]) op een per-partnerbasis. Er is geen opt-out op platformniveau [!UICONTROL declared IDs]. Bovendien kiest Audience Manager de gebruiker uit dat bepaalde gebied aan de rand (de opt-out overschrijdt niet de [!UICONTROL DCS] regio&#39;s).
+* [!DNL Audience Manager] een [!UICONTROL declared ID] opt-out kan doorgeven naast een [!DNL Audience Manager] in de [!UICONTROL UUID] [!DNL URL].
+* De [!UICONTROL declared ID] opt-out wordt opgeslagen in [!UICONTROL de Server van het Geheime voorgeheugen van het Profiel ([!UICONTROL PCS]) op een per-partnerbasis. Er is geen opt-out op platformniveau [!UICONTROL declared IDs]. Bovendien [!DNL Audience Manager] kiest u ervoor dat de gebruiker uit dat bepaalde gebied aan de rand komt (de optie Weigeren overschrijdt niet de [!DNL DCS] regio&#39;s).
 
 Zie [Gegevensprivacy](../overview/data-security-and-privacy/data-privacy.md) voor meer informatie over het opting-out van gegevensinzameling.
 
@@ -113,7 +116,7 @@ Deze methoden werken nog wel, maar worden als afgekeurd beschouwd. Deze informat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Optie op partnerniveau </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Een opt-out van het partnerniveau wordt opgeslagen voor de recentste afbeelding van dit <code> dpid </code> + <code> dpuuid </code> paar aan AAM UUID. Als er geen eerder bestaande afbeelding is, controleert Audience Manager of de aanvraag een AAM UUID in het cookie bevat, en als dit het geval is, gebruikt deze om de opt-out op te slaan. Anders genereert Audience Manager een nieuwe AAM UUID en slaat deze de opt-out onder deze UID op. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Een opt-out van het partnerniveau wordt opgeslagen voor de recentste afbeelding van dit <code> dpid </code> + <code> dpuuid </code> paar aan AAM UUID. Als er geen eerder bestaande afbeelding is, controleert de Audience Manager of de aanvraag een AAM UUID in het cookie bevat, en als dit het geval is, gebruikt deze om de opt-out op te slaan. Anders, produceert de Audience Manager een nieuwe UUID AAM en slaat opt uit onder het op. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> en expliciet <code> d_uuid </code> </p> </td> 
@@ -183,11 +186,11 @@ Op basis van deze sleutelwaardeparen en hun vereiste syntaxis kunt u gebeurtenis
 
 Beschrijft de configuratievariabelen die worden gebruikt om gedeclareerde id&#39;s door [!UICONTROL DIL] te geven aan [!DNL Audience Manager.]
 
-## DIL gebruikt de Adobe Experience Platform Identity Service om aangegeven id&#39;s door te geven {#dil-id-service-pass-declared-ids}
+## DIL gebruikt de Dienst van de Identiteit van het Adobe Experience Platform om Verklaarde identiteitskaarts over te gaan {#dil-id-service-pass-declared-ids}
 
 <!-- r_dil_declared_id_vars.xml -->
 
-Wanneer u het gebruikt met de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), hoeft u niet langer [!UICONTROL declared IDs] de afgekeurde `dpid` en `dpuuid` variabelen door te geven. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] zich op de `visitorService` functie om van de [!UICONTROL declared IDs] functie in de `setCustomerIDs` functie te krijgen [!UICONTROL Adobe Experience Platform Identity Service]. Zie [Klantnamen en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)voor meer informatie. Je belt `visitorService` in `DIL.create` zoals hieronder weergegeven.
+Wanneer gebruikt met de Dienst [van de Identiteit van het](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform, hoeft u niet meer binnen [!UICONTROL declared IDs] met verouderde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] zich op de `visitorService` functie om van de [!UICONTROL declared IDs] functie in de `setCustomerIDs` functie te krijgen [!UICONTROL Adobe Experience Platform Identity Service]. Zie [Klantnamen en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)voor meer informatie. Je belt `visitorService` in `DIL.create` zoals hieronder weergegeven.
 
 ```js
 var vDil = DIL.create({
@@ -217,7 +220,7 @@ In de volgende tabel worden de oudere variabelen beschreven die door het `declar
   <tr> 
    <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> String </td> 
-   <td colname="col3"> <p>Identiteitskaart van de partner van gegevens die door de Manager van het Publiek wordt toegewezen. </p> </td> 
+   <td colname="col3"> <p>Identiteitskaart van de partner van gegevens die door Audience Manager wordt toegewezen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> dpuuid </code> </td> 
@@ -229,9 +232,9 @@ In de volgende tabel worden de oudere variabelen beschreven die door het `declar
 
 ### `DPID` en `DPUUID`
 
-Audience Manager vergelijkt en past de gecombineerde `DPID` en `DPUUID` de bijbehorende gebruikers-id in ons systeem aan. Als een id niet bestaat, maakt Audience Manager een nieuwe gebruiker-id en synchroniseert deze met de `DPID/DPUUID` combinatie. Zodra de Manager van de Publiek een gebruiker - identiteitskaart ( `UUID`) aanpast of creeert keert het die identiteitskaart in de [!DNL JSON] reactie op het koekje in het domein van de cliënt (eerstepartijkoekje) of andere lokale opslag terug.
+[!DNL Audience Manager] vergelijkt en past de gecombineerde `DPID` `DPUUID` en een overeenkomstige gebruiker - identiteitskaart in ons systeem aan. Als een id niet bestaat, [!DNL Audience Manager] maakt u een nieuwe gebruikers-id en synchroniseert u deze met de `DPID/DPUUID` combinatie. Wanneer een gebruiker-id (de [!DNL Audience Manager] ) eenmaal `UUID`is gekoppeld of gemaakt, wordt die id geretourneerd in de [!DNL JSON] reactie op het cookie in het domein van de client (cookie van de eerste partij) of andere lokale opslag.
 
-Roep deze functie aan wanneer u [!UICONTROL DIL] v6.1 of eerder gebruikt. Deze functie is echter vervangen door de nieuwe versie die [!UICONTROL declared IDs] van het [!UICONTROL Adobe Experience Platform Identity Service]bestand afkomstig is.
+Roep deze functie aan wanneer u [!UICONTROL DIL] v6.1 of eerder gebruikt. Deze functie is echter vervangen door de nieuwe versie die [!UICONTROL declared IDs] van het [!DNL Adobe Experience Platform Identity Service]bestand afkomstig is.
 
 ```js
 DIL.create({
@@ -245,7 +248,7 @@ DIL.create({
 
 >[!NOTE]
 >
->Nota, moet u programmatically de code ontwikkelen die de waarden van identiteitskaart voor de `d_dpuuid` en `d_dpid` sleutels levert.
+>U moet programmatically de code ontwikkelen die de waarden van identiteitskaart voor de `d_dpuuid` en `d_dpid` sleutels levert.
 
 ### ID&#39;s doorgeven na DIL-instantiesegment
 
@@ -262,13 +265,13 @@ DIL.getDil('partner name').api.signals({...}).declaredId({
 
 ## Voorbeelden van aanvragen/antwoorden {#request-response-examples}
 
-De aanvraag verzendt een gegevensaanbieder en een gebruikers-id naar Audience Manager:
+De aanvraag verzendt een gegevensaanbieder en een gebruikers-id naar [!DNL Audience Manager]:
 
 ```
 https://my_domain.net/event?d_rtbd=json&d_cb=myCallback&key=val&d_dpuuid=1234&d_dpid=5678
 ```
 
-De reactie keert identiteitskaart van de Manager van de Publiek (b.v., `UUID`) terug die aan een eerstepartijkoekje in het paginadomein wordt geschreven.
+De reactie retourneert de Audience Manager-id (bijvoorbeeld `UUID`) die naar een cookie van de eerste partij in het paginadomein wordt geschreven.
 
 ```js
 myCallback({
@@ -277,9 +280,9 @@ myCallback({
 })
 ```
 
-## Niet de Vraag van het Doel en van de Weigering {#do-not-target}
+## Geen Target- en Uitschakelen-Vraag {#do-not-target}
 
-Bij dit [!UICONTROL declared ID] proces worden de voorkeuren van de sitebezoeker aangehouden om te weigeren dat uw website doelt op Audience Manager. Wanneer de Manager van de Publiek een opt-out verzoek ontvangt, [!UICONTROL DCS] keert een leeg [!DNL JSON] voorwerp in plaats van de gebruiker identiteitskaart van de Manager van de Publiek terug.
+Bij dit [!UICONTROL declared ID] proces worden de voorkeuren van de sitebezoeker aangehouden om te weigeren zich op uw website te [!DNL Audience Manager] richten. Wanneer [!DNL Audience Manager] een opt-out-aanvraag wordt ontvangen, wordt een leeg [!DNL DCS] object geretourneerd in plaats van de [!DNL JSON] [!DNL Audience Manager] gebruikersnaam.
 
 >[!MORELIKETHIS]
 >
