@@ -1,19 +1,22 @@
 ---
-description: De Manager van het publiek gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
-seo-description: De Manager van het publiek gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
+description: De Audience Manager gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
+seo-description: De Audience Manager gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
 seo-title: Werken met Edge Data Center
 solution: Audience Manager
 title: Werken met Edge Data Center
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 0%
 
 ---
 
 
 # Werken met Edge Data Center{#understanding-the-edge-data-center}
 
-De Manager van het publiek gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
+De Audience Manager gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
 
 ## Basisbeginselen van Edge Data Center {#edge-data-center-basics}
 
@@ -29,14 +32,14 @@ Het datacenter van de [!DNL Audience Manager] rand bevat:
 
 * **Kernservers:** Dit zijn de belangrijkste [!DNL Audience Manager] systemen. Ze werken de Edge-servers bij en verschaffen gegevens aan de Edge-servers.
 
-* **Edge-servers:** Dit zijn doorgaans toepassings- en/of webservers. Ze zitten aan de grens tussen [!DNL Audience Manager] en het internet. Edge-servers, zoals de [!UICONTROL DCS] - of Akamai-systemen, verwerken doorgaans gegevens en verzoeken die van en naar [!DNL Audience Manager]komen.
+* **Edge-servers:** Dit zijn doorgaans toepassings- en/of webservers. Ze zitten aan de grens tussen [!DNL Audience Manager] en het internet. Edge-servers, zoals de [!DNL DCS] - of Akamai-systemen, verwerken doorgaans gegevens en verzoeken die van en naar [!DNL Audience Manager]komen.
 
 * **Balans laden:** Beheer ongelijkmatige verwerkings-/verwerkingsvereisten die inherent zijn aan internettoepassingen. Deze balanceringen voorkomen dat clusters van servers worden overbelast terwijl andere inactief blijven.
 
-Het volgende diagram illustreert de omgeving van het Edge-datacenter van Audience Manager.
+Het volgende diagram illustreert de omgeving van het datacenter van de rand van de Audience Manager.
 
 ![](assets/edge_data_center.png)
 
 ## Geografische verdeling en taakverdeling {#geo-dist-balance}
 
-Zie de [!UICONTROL DCS] sectie in de Componenten [van de](../../reference/system-components/components-data-collection.md)Gegevensverzameling.
+Zie de [!DNL DCS] sectie in de Componenten [van de](../../reference/system-components/components-data-collection.md)Gegevensverzameling.
