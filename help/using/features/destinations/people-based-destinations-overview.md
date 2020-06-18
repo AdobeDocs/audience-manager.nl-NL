@@ -5,9 +5,9 @@ seo-title: Personele Doelen Overzicht en de Gevallen van het Gebruik
 solution: Audience Manager
 title: Overzicht en gebruik
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ U kunt [!DNL People-Based Destinations] aan segment en doelklanten van hoge waar
 
 [!DNL People-Based Destinations] is een eersteklas integratie van Audience Managers. Neem contact op met uw Adobe-vertegenwoordiger om deze premiumfunctie te gebruiken.
 
-## Waarom zou u op mensen-gebaseerde Doelen moeten gebruiken {#why-use}
+## Wat u moet doen [!UICONTROL People-Based Destinations] {#why-use}
 
 **Verstrek uw klanten verenigbare dwars-kanaalervaringen door uw volledige publiekssegmentatie van binnen Audience Manager te beheren.**
 
