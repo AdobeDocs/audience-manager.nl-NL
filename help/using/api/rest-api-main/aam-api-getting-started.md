@@ -6,15 +6,15 @@ solution: Audience Manager
 title: Aan de slag met REST API's
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 translation-type: tm+mt
-source-git-commit: cdf567a816be60d0d966783e87f4ed02838be378
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1761'
 ht-degree: 1%
 
 ---
 
 
-# Aan de slag met REST API&#39;s {#getting-started-with-rest-apis}
+# Aan de slag met [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
 Informatie over algemene vereisten, authentificatie, facultatieve vraagparameters, verzoek [!DNL URLs], en andere verwijzingen.
 
@@ -46,7 +46,7 @@ De [!DNL Audience Manager] [!DNL REST APIs] ondersteuning biedt twee verificatie
 >
 >Afhankelijk van uw authentificatiemethode, moet u uw verzoek [!DNL URLs] dienovereenkomstig aanpassen. Zie de sectie [Omgevingen](#environments) voor meer informatie over de hostnamen die u moet gebruiken.
 
-## JWT ([!DNL Service Account])-verificatie {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Verificatie {#jwt}
 
 ### Vereisten {#prerequisites}
 
@@ -65,7 +65,7 @@ Voer de onderstaande stappen uit om [!DNL JWT (Service Account)] verificatie te 
 >
 >Om met het [!DNL Audience Manager] op een geautomatiseerde manier te vormen en te werken, kunt u [!DNL REST APIs] [!DNL JWT] programmatically produceren. Zie [JWT-verificatie (serviceaccount)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) voor gedetailleerde instructies.
 
-## OAuth-verificatie (afgekeurd) {#oauth}
+## [!DNL OAuth] Verificatie (afgekeurd) {#oauth}
 
 >[!WARNING]
 > [!DNL Audience Manager] [!UICONTROL REST API] tokenauthentificatie en vernieuwing via [!DNL OAuth 2.0] is nu afgekeurd .
@@ -74,7 +74,7 @@ Voer de onderstaande stappen uit om [!DNL JWT (Service Account)] verificatie te 
 
 De [!DNL Audience Manager][!UICONTROL REST API] volgende [!DNL OAuth 2.0] normen voor symbolische authentificatie en vernieuwing. In de onderstaande secties wordt beschreven hoe u de [!DNL API]s kunt verifiëren en waarmee u kunt gaan werken.
 
-### Een generieke API-gebruiker maken {#requirements}
+### Een algemene [!DNL API] gebruiker maken {#requirements}
 
 We raden u aan een aparte, technische gebruikersaccount te maken voor het werken met de [!DNL Audience Manager] [!DNL API]s. Dit is een generieke account die niet is gekoppeld aan of gekoppeld aan een specifieke gebruiker in uw organisatie. Met dit type [!DNL API] gebruikersaccount kunt u twee dingen doen:
 
@@ -87,15 +87,13 @@ Werk samen met uw [!DNL Audience Manager] consultant om een algemene, [!DNL API]
 
 ### Workflow voor wachtwoordverificatie {#password-authentication-workflow}
 
-<!-- oath-authentication.xml -->
-
 Wachtwoordverificatie maakt veilige toegang tot onze [!DNL REST API]. In de onderstaande stappen wordt een overzicht gegeven van de workflow voor wachtwoordverificatie van een [!DNL JSON] client in uw browser.
 
 >[!TIP]
 >
 >Codeer toegang en vernieuw tokens als u hen in een gegevensbestand opslaat.
 
-#### Stap 1: API-toegang aanvragen
+#### Stap 1: Toegang aanvragen [!DNL API]
 
 Contacteer uw manager van de Oplossingen van de Partner. Ze geven je een [!DNL API] client-id en een geheim. De id en het geheim verifiëren u aan de [!DNL API].
 
@@ -107,7 +105,7 @@ Geef een tokenverzoek door aan uw voorkeursclient [!DNL JSON] . Wanneer u het ve
 
 * Gebruik een `POST` methode om aan te roepen `https://api.demdex.com/oauth/token`.
 * Zet uw cliënt ID en geheim in een basis-64 gecodeerde koord om. Scheid de id en het geheim tijdens het conversieproces met een dubbele punt. De referenties worden bijvoorbeeld `testId : testSecret` omgezet in `dGVzdElkOnRlc3RTZWNyZXQ=`.
-* Geef in de [!DNL HTTP] kopballen `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded` door. De koptekst kan er bijvoorbeeld als volgt uitzien: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
+* Geef het document door [!DNL HTTP] en [!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` `Content-Type: application/x-www-form-urlencoded` . De koptekst kan er bijvoorbeeld als volgt uitzien: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Stel de aanvraaginstantie als volgt in:
    <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
@@ -145,8 +143,8 @@ Geef een aanvraag voor een vernieuwingstoken door aan de gewenste [!DNL JSON] cl
 
 * Gebruik een `POST` methode om aan te roepen `https://api.demdex.com/oauth/token`.
 * Zet uw cliënt ID en geheim in een basis-64 gecodeerde koord om. Scheid de id en het geheim tijdens het conversieproces met een dubbele punt. De referenties worden bijvoorbeeld `testId : testSecret` omgezet in `dGVzdElkOnRlc3RTZWNyZXQ=`.
-* Geef de HTTP-headers `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded`. De koptekst kan er bijvoorbeeld als volgt uitzien: <br/> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/> `Content-Type: application/x-www-form-urlencoded`
-* In het verzoeklichaam, specificeer `grant_type:refresh_token` en ga in vernieuwt teken over u in uw vorig toegangsverzoek ontving. Het verzoek moet er als volgt uitzien: <br/> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
+* Geef de HTTP-headers `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded`. De koptekst kan er bijvoorbeeld als volgt uitzien: <br> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br> `Content-Type: application/x-www-form-urlencoded`
+* In het verzoeklichaam, specificeer `grant_type:refresh_token` en ga in vernieuwt teken over u in uw vorig toegangsverzoek ontving. Het verzoek moet er als volgt uitzien: <br> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
 #### Stap 2: Het nieuwe token ontvangen
 
@@ -166,11 +164,9 @@ De [!DNL JSON] reactie bevat uw nieuwe toegangstoken. De reactie moet er als vol
 
 De [!DNL Audience Manager] [!UICONTROL REST API] ondersteuning voor machtigingscode en impliciete verificatie. Om deze toegangsmethodes te gebruiken, moeten uw gebruikers login aan `https://api.demdex.com/oauth/authorize` om toegang te krijgen en tokens te verfrissen.
 
-## Erkende API-verzoeken maken {#authenticated-api-requests}
+## Voor authentiek verklaarde [!DNL API] verzoeken maken {#authenticated-api-requests}
 
 Vereisten voor het roepen van [!DNL API] methodes nadat u een authentificatietoken ontvangt.
-
-<!-- c_oauth_call_methods.xml -->
 
 Om vraag tegen de beschikbare [!DNL API] methodes te maken:
 
@@ -178,11 +174,9 @@ Om vraag tegen de beschikbare [!DNL API] methodes te maken:
 * Wanneer u [JWT-verificatie](#jwt)(serviceaccount) gebruikt, moet u de `x-api-key` koptekst opgeven. Deze zal hetzelfde zijn als uw `client_id`account. U kunt uw `client_id` van de [Adobe I/O integratiepagina](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) krijgen.
 * Roep de vereiste [!DNL API] methode aan.
 
-## Optionele API-queryparameters {#optional-api-query-parameters}
+## Optionele [!DNL API] queryparameters {#optional-api-query-parameters}
 
 Stel de optionele parameters in die beschikbaar zijn voor methoden die alle eigenschappen voor een object retourneren.
-
-<!-- c_rest_api_optional.xml -->
 
 U kunt deze optionele parameters gebruiken met [!DNL API] methoden die *alle* eigenschappen van een object retourneren. Plaats deze opties in het verzoekkoord wanneer het overgaan van die vraag in aan het [!DNL API].
 
@@ -192,8 +186,8 @@ U kunt deze optionele parameters gebruiken met [!DNL API] methoden die *alle* ei
 | `pageSize` | Stelt het aantal reactieresultaten in dat door de aanvraag wordt geretourneerd (10 is standaard). |
 | `sortBy` | Sorteert en retourneert resultaten volgens de opgegeven [!DNL JSON] eigenschap. |
 | `descending` | Sorteert en retourneert resultaten in aflopende volgorde. `ascending` is standaard. |
-| `search` | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Stel dat u resultaten wilt zoeken voor alle modellen die het woord &quot;Testen&quot; hebben in een van de waardevelden voor dat item. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://aam.adobe.io/v1/models/?search=Test`.  U kunt zoeken op elke waarde die door de methode &quot;get all&quot; wordt geretourneerd. |
-| `folderId` | Retourneert alle id&#39;s voor kenmerken in de opgegeven map. Niet beschikbaar voor alle methoden. |
+| `search` | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Stel dat u resultaten wilt zoeken voor alle modellen die het woord &quot;Testen&quot; hebben in een van de waardevelden voor dat item. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://aam.adobe.io/v1/models/?search=Test`.  U kunt zoeken op elke waarde die door de methode &quot;[!DNL get all]&quot; wordt geretourneerd. |
+| `folderId` | Retourneert alle id&#39;s voor [!UICONTROL traits] de opgegeven map. Niet beschikbaar voor alle methoden. |
 | `permissions` | Retourneert een lijst met segmenten op basis van de opgegeven machtiging. `READ` is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u het bestand door `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Reeks aan `true` om uw toestemmingen voor het segment terug te keren. Standaard is dit `false`. |
 
@@ -205,19 +199,17 @@ Wanneer pagina-informatie niet ** wordt opgegeven, retourneert de aanvraag onbew
 GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 ```
 
-## API-URL&#39;s {#api-urls}
+## [!DNL API URLs] {#api-urls}
 
 [!DNL URLs] voor verzoeken, het opvoeren en productiemilieu&#39;s, en versies.
 
-<!-- r_rest_urls.xml -->
-
-## Aanvraag-URL&#39;s {#request-urls}
+## Verzoek [!DNL URLs] {#request-urls}
 
 De volgende lijst maakt een lijst van het verzoek [!DNL URLs] wordt gebruikt om [!DNL API] verzoeken, door methode over te gaan die.
 
-Afhankelijk van de verificatiemethode die u gebruikt, moet u de aanvraag-URL&#39;s aanpassen aan de hand van de onderstaande tabellen.
+Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek [!DNL URLs] volgens de hieronder lijsten aanpassen.
 
-### URL&#39;s aanvragen voor JWT-verificatie {#request-urls-jwt}
+### Verzoek [!DNL URLs] om [!DNL JWT] verificatie {#request-urls-jwt}
 
 | [!DNL API] Methoden | Verzoek [!DNL URL] |
 |--- |--- |
@@ -233,7 +225,7 @@ Afhankelijk van de verificatiemethode die u gebruikt, moet u de aanvraag-URL&#39
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### Aanvraag-URL&#39;s voor OAuth-verificatie (afgekeurd) {#request-urls-oauth}
+### Aanvraag [!DNL URLs] voor [!DNL OAuth] verificatie (afgekeurd) {#request-urls-oauth}
 
 | [!DNL API] Methoden | Verzoek [!DNL URL] |
 |--- |--- |
@@ -273,8 +265,6 @@ De nieuwe versies van deze [!DNL API]s worden vrijgegeven op een regelmatig prog
 ## Responscodes gedefinieerd {#response-codes-defined}
 
 `HTTP` statuscodes en reactietekst die door de [!DNL Audience Manager] [!UICONTROL REST API]gebruiker worden geretourneerd.
-
-<!-- r_api_http_response_codes.xml -->
 
 | Antwoordcode-id | Antwoordtekst | Definitie |
 |---|---|---|
