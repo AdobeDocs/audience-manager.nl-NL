@@ -6,41 +6,35 @@ solution: Audience Manager
 title: Lijst met gegevensbronnen en instellingen
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 translation-type: tm+mt
-source-git-commit: 6b55441c2bdde6cf2333852fd59fbe87f4e531eb
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
 
 
-# Lijst met gegevensbronnen en instellingen {#data-sources-list-and-settings}
+# [!UICONTROL Data Sources] Lijst en instellingen {#data-sources-list-and-settings}
 
-Bekijk een lijst van uw momenteel gevormde gegevensbronnen, voeg nieuwe gegevensbronnen toe, en geef bestaande bronnen uit.
+Bekijk een lijst van uw momenteel gevormd [!UICONTROL data sources], voeg nieuw toe [!UICONTROL data sources], en geef bestaand uit [!UICONTROL data sources].
 
-<!-- c_datasources.xml -->
+U kunt ook [!UICONTROL data sources] met [!DNL API] methoden beheren. Zie API-methoden voor [gegevensbron](../api/rest-api-main/aam-api-data-sources.md)voor meer informatie.
 
-U kunt gegevensbronnen ook met [!DNL API] methoden beheren. Zie API-methoden voor [gegevensbron](../api/rest-api-main/aam-api-data-sources.md)voor meer informatie.
-
-## Lijstweergave gegevensbronnen {#list-view}
+## [!UICONTROL Data Sources] Lijstweergave {#list-view}
 
 Het [!UICONTROL Data Sources] dashboard is een gecentraliseerde werkruimte voor het beheer van gegevensbronnen.
 
-<!-- c_datasources_list.xml -->
-
 Het [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]**) bevat functies en gereedschappen die u helpen:
 
-* Bekijk al uw bestaande gegevensbronnen, met inbegrip van de beschrijving van elke gegevensbron, status, en of het is [!UICONTROL Inbound], [!UICONTROL Outbound], zowel, als [!UICONTROL Shared Provider].
-* Zoeken naar gegevensbronnen op naam.
-* Gegevensbronnen maken, bewerken en verwijderen.
+* Bekijk al uw bestaande bestanden [!UICONTROL data sources], inclusief de beschrijving van elke gegevensbron, status en of het [!UICONTROL Inbound], [!UICONTROL Outbound], beide of een [!UICONTROL Shared Provider].
+* Zoeken naar [!UICONTROL data sources] naam.
+* Maken, bewerken en verwijderen [!UICONTROL data sources].
 
-## Instellingen gegevensbron en menuopties {#settings-menu-options}
+## [!DNL Data Source] Instellingen en menuopties {#settings-menu-options}
 
-De montages in de verschillende secties van de [!UICONTROL Data Source] beheersinterface identificeren uw gegevensbron, bepalen hoe het wordt gebruikt of gedeeld, en laten u foutenrapportering voor [!UICONTROL Onboarding Status Report]toelaten.
+De montages in de verschillende secties van de [!UICONTROL Data Source] beheersinterface identificeren uw [!DNL data source], bepalen hoe het wordt gebruikt of gedeeld, en laten u foutenrapportering voor [!UICONTROL Onboarding Status Report].
 
-## Gegevens gegevensbron {#details}
-
-<!-- datasource-settings-definitions.xml -->
+## [!DNL Data Source] Details {#details}
 
 Naast tekstvelden bevat de [!UICONTROL Data Source Details] sectie ook de onderstaande besturingselementen en opties.
 
@@ -67,22 +61,22 @@ Naast tekstvelden bevat de [!UICONTROL Data Source Details] sectie ook de onders
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> ID-definitie</span></b> </p> </td> 
-   <td colname="col2"> <p>Met de opties voor <b><span class="uicontrol"> ID-definitie</span></b> wordt de relatie gedefinieerd die een gegevensbron heeft met een gebruikers-id (UUID) voor <span class="keyword"> Audience Manager</span> en de bijbehorende apparaten die zijn gekoppeld door de <span class="keyword"> Adobe Experience Cloud Device Co-op</span> of een andere apparaatgrafiek van derden die is geïntegreerd met <span class="keyword"> Audience Manager</span>. De volgende opties zijn beschikbaar: </p> <p> 
+   <td colname="col2"> <p>Met de opties voor <b><span class="uicontrol"> ID-definitie</span></b> wordt de relatie gedefinieerd die een gegevensbron heeft met een <span class="keyword"> Audience Manager</span> -gebruikers-id (UUID) en de bijbehorende apparaten die zijn gekoppeld door de <span class="keyword"> Adobe Experience Cloud Device Co-op</span> of een andere apparaatgrafiek van derden die is geïntegreerd met <span class="keyword"> Audience Manager</span>. De volgende opties zijn beschikbaar: </p> <p> 
      <ul id="ul_718ADABF0C0C44E29643C85C69CE294F"> 
       <li id="li_19936095319446698E9A577385CD2A80"> <b><span class="uicontrol"> Persoon:</span></b> De id die wordt gebruikt om één persoon te definiëren. Deze id kan worden toegewezen aan meerdere <span class="keyword"> Audience Manager</span> -id's. </li> 
-      <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol"> Huishoudelijk:</span></b> De id die wordt gebruikt om een groep personen te definiëren. Deze id kan worden toegewezen aan meerdere beheer-id's voor het publiek. </li> 
+      <li id="li_3D939AFF34654D618A05D2603F34462D"> <b><span class="uicontrol"> Huishoudelijk:</span></b> De id die wordt gebruikt om een groep personen te definiëren. Deze id kan worden toegewezen aan meerdere Audience Manager-id's. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Besturingselementen voor gegevensexport {#export-controls}
+## [!UICONTROL Data Export Controls] {#export-controls}
 
-[De Controles](../features/data-export-controls.md) van de Uitvoer van gegevens zijn facultatieve classificatieregels u op een gegevensbron en een bestemming kunt toepassen. Ze verhinderen dat u gegevens naar een bestemming verzendt wanneer die handeling een inbreuk vormt op de privacy van gegevens of een gebruiksovereenkomst. Sla deze sectie over als u deze niet gebruikt [!UICONTROL Data Export Controls].
+[De Controles](../features/data-export-controls.md) van de Uitvoer van gegevens zijn facultatieve classificatieregels u op een [!UICONTROL data source] en [!UICONTROL destination]. Ze verhinderen dat u gegevens naar een computer verzendt [!UICONTROL destination] wanneer die handeling een schending van een privacy-of gebruiksovereenkomst inhoudt. Sla deze sectie over als u deze niet gebruikt [!UICONTROL Data Export Controls].
 
 >[!IMPORTANT]
 >
->Exportbeperkingen werken alleen als u een overeenkomend exportlabel op een bestemming instelt.
+>Exportbeperkingen werken alleen als u een overeenkomend exportlabel op een [!UICONTROL destination]exportlabel instelt.
 
 De volgende opties zijn beschikbaar:
 
@@ -92,17 +86,17 @@ De volgende opties zijn beschikbaar:
 * **[!UICONTROL Cannot be used for off-site ad targeting]**
 * **[!UICONTROL Cannot be used for on-site personalization]**
 
-## Instellingen gegevensbron {#data-source-settings}
+## [!UICONTROL Data Source] Instellingen {#data-source-settings}
 
 Het [!UICONTROL Data Source Settings] bevat de onderstaande besturingselementen en opties. Sommige van deze instellingen hebben extra subopties en menu-items die u kunt selecteren om een gegevensbron te wijzigen.
 
-### Instellingen binnenkomende gegevensbron
+### [!UICONTROL Inbound Data Source] Instellingen
 
 Schakel het **[!UICONTROL Inbound]** selectievakje in wanneer uw gegevensbron is ontworpen voor het ontvangen van binnenkomende gegevens. Als u het **[!UICONTROL Inbound]** selectievakje inschakelt, worden twee extra groepen besturingselementen weergegeven die hieronder worden beschreven.
 
 >[!NOTE]
 >
->Het **[!UICONTROL Inbound]** selectievakje is alleen bedoeld om de hieronder beschreven gegevensbronbesturingselementen weer te geven of te verbergen. Het uitschakelen van de **[!UICONTROL Inbound]** optie heeft op geen enkele manier invloed op de gegevensinvoer. Uw geregistreerde gegevens worden verwerkt, ongeacht of deze optie is ingeschakeld.
+>Het **[!UICONTROL Inbound]** selectievakje is alleen bedoeld om de hieronder beschreven [!UICONTROL data source] besturingselementen weer te geven of te verbergen. Het uitschakelen van de **[!UICONTROL Inbound]** optie heeft op geen enkele manier invloed op de gegevensinvoer. Uw geregistreerde gegevens worden verwerkt, ongeacht of deze optie is ingeschakeld.
 
 <table id="table_B2825B7BE0DB4665B47C589A3787CD93"> 
  <thead> 
@@ -117,8 +111,8 @@ Schakel het **[!UICONTROL Inbound]** selectievakje in wanneer uw gegevensbron is
    <td colname="col2"> <p>Voor de optie <b><span class="uicontrol"> Binnenkomend</span></b> is een id-type vereist. De volgende opties zijn beschikbaar: </p> <p> 
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Klant-id</span></b>: Identificeert binnenkomende gegevens met een klant identiteitskaart </li> 
-      <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> ID</span></b>van Audience Manager: Identificeert binnenkomende gegevens met een identiteitskaart van de Manager <span class="keyword"> van de</span> Publiek. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud ID</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Experience Cloud</span> -id. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager-id</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Audience Manager</span> identiteitskaart </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-id</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Experience Cloud</span> -id. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -128,7 +122,7 @@ Schakel het **[!UICONTROL Inbound]** selectievakje in wanneer uw gegevensbron is
  </tbody> 
 </table>
 
-### Andere gegevensbroninstellingen
+### Overige [!UICONTROL Data Source] instellingen
 
 <table id="table_82FEFA8DC8294FA18FB4C17F02DF5152"> 
  <thead> 
@@ -152,19 +146,19 @@ Schakel het **[!UICONTROL Inbound]** selectievakje in wanneer uw gegevensbron is
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gebruiken als apparaatgrafiek</span></b> </p> </td> 
-   <td colname="col2"> <p>Hiermee maakt u een gegevensbron als een apparaatgrafiek die u aan andere klanten van <span class="keyword"> Audience Manager</span> kunt geven. Voordat u deze optie selecteert, moet u met de consultant van Audience Manager <span class="keyword"> aangeven met welke klanten deze</span> gegevensbron <span class="wintitle"></span> moet worden gedeeld. Uw consultant zal deze bedrijven moeten voorzien via onze interne processen. </p> <p>Met deze optie wordt een tekstveld weergegeven waarin u de naam van de gegevensbron kunt wijzigen in een alias. Als u een alias gebruikt, vervangt deze nieuwe naam de naam van de gegevensbron en verschijnt in de Opties <span class="wintitle"> van het</span> Apparaat wanneer u een regel <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> van de Fusie van het Profiel</a>creeert. </p> </td> 
+   <td colname="col2"> <p>Hiermee maakt u een gegevensbron als een apparaatgrafiek die u aan andere klanten van de <span class="keyword"> Audience Manager</span> kunt geven. Voordat u deze optie selecteert, moet u met uw <span class="keyword"> Audience Manager</span> consultant aangeven met welke klanten deze <span class="wintitle"> gegevensbron</span> moet worden gedeeld. Uw consultant zal deze bedrijven moeten voorzien via onze interne processen. </p> <p>Met deze optie wordt een tekstveld weergegeven waarin u de naam van de gegevensbron kunt wijzigen in een alias. Als u een alias gebruikt, vervangt deze nieuwe naam de naam van de gegevensbron en verschijnt in de Opties <span class="wintitle"> van het</span> Apparaat wanneer u een regel <a href="../features/profile-merge-rules/merge-rules-start.md#create-profile-merge-rule"> van de Fusie van het Profiel</a>creeert. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Gekoppelde gebruikers- of apparaatid's delen met specifieke klanten van Audience Manager</span></b> </p> </td> 
-   <td colname="col2"> <p>De gegevensbron voor meerdere apparaten bevat id's uit een apparaatgrafiek. Een apparatengrafiek is een inzameling van IDs die aan één of meerdere IDs van de Manager <span class="keyword"> van de</span> Publiek aan een cluster in kaart brengen. Deze cluster vertegenwoordigt doorgaans een persoon of een grotere groep huishoudens. Alleen beschikbaar voor accounts die zijn vermeld als 'Data Provider'. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Gekoppelde gebruikers- of apparaatid's delen met specifieke klanten van Audience Managers</span></b> </p> </td> 
+   <td colname="col2"> <p>De gegevensbron voor meerdere apparaten bevat id's uit een apparaatgrafiek. Een apparatengrafiek is een inzameling van identiteitskaarts die aan één of meerdere Audience Manager <span class="keyword"></span> IDs aan een cluster in kaart brengen. Deze cluster vertegenwoordigt doorgaans een persoon of een grotere groep huishoudens. Alleen beschikbaar voor accounts die zijn vermeld als 'Data Provider'. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Gekoppelde gebruikers- of apparaatid's delen op het platform Audience Manager</span></b> </p> </td> 
-   <td colname="col2"> <p>Uw gegevensbron bevat gebruikers- of apparaat-id's die kunnen worden gedeeld met andere <span class="keyword"> Experience Cloud</span> -oplossingen. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Gekoppelde bezoeker of apparaat-id's delen over het Platform Audience Manager</span></b> </p> </td> 
+   <td colname="col2"> <p>Uw gegevensbron bevat gebruikers- of apparaatid's die kunnen worden gedeeld door andere <span class="keyword"> Experience Cloud</span> -oplossingen. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Bewaren van gegevens voor niet-actieve Customer ID's</span></b> </p> </td> 
-   <td colname="col2"> <p>Hiermee kunt u de periode voor het bewaren van gegevens instellen voor inactieve id's van klanten. Dit bepaalt hoe lang de Manager van de Publiek identiteitskaart van de Klant in ons gegevensbestand houdt nadat zij het laatst op het platform van de Manager van de Publiek werden gezien.</p> <p>De standaardwaarde is 24 maanden (720 dagen). De minimumwaarde die u kunt instellen is 1 maand en de maximumwaarde is 5 jaar. We tellen alle maanden als 30 dagen.</p> <p>Publiek Manager voert een proces uit dat inactieve identiteitskaart van de Klant één keer per week schrapt, overeenkomstig het gegevensbehoud u voor inactieve identiteitskaart van de Klant plaatst.</p> <p>Publiek Manager voert een proces uit dat inactieve identiteitskaart van de Klant één keer per week schrapt, overeenkomstig het gegevensbehoud u voor inactieve identiteitskaart van de Klant plaatst.</p> <p><b>Opmerking</b>: Dit besturingselement is alleen beschikbaar voor apparaatgegevensbronnen. Zie ook: <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Een gegevensbron voor meerdere apparaten maken </a>.</p></td> 
+   <td colname="col2"> <p>Hiermee kunt u de periode voor het bewaren van gegevens instellen voor inactieve id's van klanten. Dit bepaalt hoe lang de Audience Manager identiteitskaart van de Klant in ons gegevensbestand houdt nadat zij het laatst op het platform van de Audience Manager werden gezien.</p> <p>De standaardwaarde is 24 maanden (720 dagen). De minimumwaarde die u kunt instellen is 1 maand en de maximumwaarde is 5 jaar. We tellen alle maanden als 30 dagen.</p> <p>Audience Manager voert een proces uit dat inactieve identiteitskaart van de Klant één keer per week schrapt, overeenkomstig het gegevensbehoud u voor inactieve identiteitskaart van de Klant plaatst.</p> <p>Audience Manager voert een proces uit dat inactieve identiteitskaart van de Klant één keer per week schrapt, overeenkomstig het gegevensbehoud u voor inactieve identiteitskaart van de Klant plaatst.</p> <p><b>Opmerking</b>: Dit besturingselement is alleen beschikbaar voor apparaatgegevensbronnen. Zie ook: <a href="../features/profile-merge-rules/merge-rules-start.md#settings"> Een gegevensbron voor meerdere apparaten maken </a>.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Unieke codes voor integratie van sporen</span></b> </p> </td> 
