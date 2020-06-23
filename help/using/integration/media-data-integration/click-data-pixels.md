@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '652'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel {#capturing-campaign-click-data-via-pixel-calls}
 
-Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd. Vergelijkbaar met de inzameling [van](/help/using/integration/media-data-integration/impression-data-pixels.md)impressies, wordt een gebeurtenisvraag verzonden naar de servers van de de gegevensinzameling van de Audience Manager ([!DNL DCS]) voor verwerking. De bezoeker wordt dan omgeleid aan het voorgenomen Webadres.
+Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd. Net als bij het verzamelen [van](/help/using/integration/media-data-integration/impression-data-pixels.md)afbeeldingen, wordt een gebeurtenisaanroep voor verwerking verzonden naar de [!DNL Audience Manager] gegevensverzamelingsservers ([!DNL DCS]). De bezoeker wordt dan omgeleid aan het voorgenomen Webadres.
 
 >[!NOTE]
 >
@@ -166,7 +166,7 @@ Op basis van het bovenstaande voorbeeld wordt de browser omgeleid naar het volge
 
 `https://adobe.com/callback?creative=1235&campaign=4709&adgroup=3408&placement=1001`
 
-## Aanvullende functionaliteit - Poortoptimalisatierapporten
+## Aanvullende functionaliteit - [!UICONTROL Audience Optimization Reports]
 
 U kunt pixelaanroepen gebruiken om de rapporten [van de optimalisatie van het](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)publiek van stroom te voorzien. Zie [Overzicht en Toewijzingen voor Metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u pixels wilt gebruiken om de rapporten aan te sturen.
 
