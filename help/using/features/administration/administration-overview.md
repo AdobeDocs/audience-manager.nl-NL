@@ -8,15 +8,15 @@ title: Beheer
 topic: DIL API
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 002429c74298ac34533225c105d5d71761ebf9c0
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
 
 
-# Beheer (RBAC-controles) {#administration}
+# [!UICONTROL Administration] (RBAC-controles) {#administration}
 
 ![](assets/rbac-controls.png)
 
@@ -24,7 +24,7 @@ Met de opties in het [!UICONTROL Administration] menu kunt u gebruikers van Audi
 
 Enterprise-klanten die gebruikmaken van [!DNL Audience Manager] één platform voor gegevensbeheer hebben voor al hun gegevens nodig, maar moeten de zichtbaarheid van de verschillende gegevenselementen voor specifieke bedrijfseenheden kunnen beheren. U kunt dit verwezenlijken gebruikend groepstoestemmingen, die ook als [!UICONTROL Role-Based Access Control] ([!UICONTROL RBAC]) worden bedoeld.
 
-[!DNL Audience Manager] gebruikt groepen om machtigingen toe te wijzen. Machtigingen worden niet op gebruikersniveau toegewezen. Groepmachtigingen zijn gekoppeld aan objecten (kenmerken, segmenten, enz.) en op handelingen die u op deze objecten kunt uitvoeren (bewerken, weergeven, enz.). Deze besturingselementen zijn ook beschikbaar via de Audience Manager REST API&#39;s. Zie [Gebruikersbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Groepsbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)en API-methoden voor [machtigingenbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) .
+[!DNL Audience Manager] gebruikt groepen om machtigingen toe te wijzen. Machtigingen worden niet op gebruikersniveau toegewezen. Groepmachtigingen zijn gekoppeld aan objecten ([!UICONTROL traits], segmenten, enzovoort) en op handelingen die u op deze objecten kunt uitvoeren (bewerken, weergeven, enz.). Deze besturingselementen zijn ook beschikbaar via de Audience Manager REST API&#39;s. Zie [Gebruikersbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md), [Groepsbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md)en API-methoden voor [machtigingenbeheer](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md) .
 
 ## Gebruikers maken {#create-users}
 
@@ -35,25 +35,25 @@ Maak gebruikers in [!DNL Audience Manager] en geef gebruikersgegevens op, meld u
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Klik ![](assets/icon_add.png) om de [!UICONTROL Create New User] pagina weer te geven.
 1. Vul onder **[!UICONTROL User Details]** de velden in:
-   * **Gebruikersnaam:** Geef een unieke gebruikersnaam voor de Audience Manager op.
-   * **Voornaam:** Geef de voornaam van de gebruiker op.
-   * **Achternaam:** Geef de achternaam van de gebruiker op.
-   * **E-mailadres:** Geef het e-mailadres van de gebruiker op. [!DNL Audience Manager] verzendt geen regelmatig bericht naar gebruikers. [!DNL Audience Manager] beheerders hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig e-mailen. Als een gebruiker bijvoorbeeld zijn of haar wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
-   * **Telefoonnummer:** Geef het telefoonnummer van de gebruiker op.
-   * **Is beheerder:** Geef op of deze gebruiker een [!DNL Audience Manager] beheerder is. Gebruikers met beheerdersrechten kunnen gebruikers beheren (maken, bewerken, enz.) en groepen (maken, toewijzen van machtigingen enz.). Gebruikers die geen beheerder zijn, kunnen alleen hun eigen gebruikersprofielen beheren, zoals het bewerken van hun e-mailadressen en het opnieuw instellen van hun eigen wachtwoorden. Zie [Uw accountinstellingen](../../features/administration/edit-account-settings.md)bewerken voor meer informatie.
+   * **[!UICONTROL Username]:**Geef een unieke gebruikersnaam voor de Audience Manager op.
+   * **[!UICONTROL First Name]:**Geef de voornaam van de gebruiker op.
+   * **[!UICONTROL Last Name]:**Geef de achternaam van de gebruiker op.
+   * **[!UICONTROL Email Address]:**Geef het e-mailadres van de gebruiker op.[!DNL Audience Manager]verzendt geen regelmatig bericht naar gebruikers.[!DNL Audience Manager]beheerders hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig e-mailen. Als een gebruiker bijvoorbeeld zijn wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
+   * **[!UICONTROL Phone Number]:**Geef het telefoonnummer van de gebruiker op.
+   * **[!UICONTROL Is Admin]:**Geef op of deze gebruiker een[!DNL Audience Manager]beheerder is. Gebruikers met beheerdersrechten kunnen gebruikers beheren (maken, bewerken, enz.) en groepen (maken, toewijzen van machtigingen enz.). Gebruikers die geen beheerder zijn, kunnen alleen hun eigen gebruikersprofielen beheren, zoals het bewerken van hun e-mailadressen en het opnieuw instellen van hun eigen wachtwoorden. Zie[Uw accountinstellingen](../../features/administration/edit-account-settings.md)bewerken voor meer informatie.
 1. Selecteer onder **[!UICONTROL Login]** de gewenste status:
-   * **Actief:**  Actieve gebruikers hebben toegang tot de machtigingen die door groepslidmaatschap zijn verleend [!DNL Audience Manager] en hebben deze machtigingen.
-   * **gedeactiveerd:**  Gedetactiveerde gebruikers hebben geen toegang tot deze rechten [!DNL Audience Manager] en hebben geen machtigingen. Als u gebruikers deactiveert, blijven hun gebruikersgegevens in [!DNL Audience Manager] en kunt u hen eenvoudig, indien nodig, opnieuw activeren. Als u gebruikers verwijdert, moet u hen opnieuw creëren als zij in de toekomst [!DNL Audience Manager] opnieuw moeten gebruiken.
-   * **Verlopen:** Het wachtwoord van een gebruiker is ouder dan 90 dagen.
-   * **In behandeling:** De gebruiker heeft een tijdelijk wachtwoord, hetzij na het opnieuw instellen van het wachtwoord of als een gloednieuwe account, en zij hebben nog geen permanent wachtwoord ingesteld.
-   * **Vergrendeld:** 5 onjuiste aanmeldpogingen zullen een gebruiker uitsluiten.
+   * **[!UICONTROL Active]:**Actieve gebruikers hebben toegang tot de machtigingen die door groepslidmaatschap zijn verleend[!DNL Audience Manager]en hebben deze machtigingen.
+   * **[!UICONTROL Deactivated]:**Gedetactiveerde gebruikers hebben geen toegang tot deze rechten[!DNL Audience Manager]en hebben geen machtigingen. Als u gebruikers deactiveert, blijven hun gebruikersgegevens in[!DNL Audience Manager]en kunt u hen eenvoudig, indien nodig, opnieuw activeren. Als u gebruikers verwijdert, moet u hen opnieuw creëren als zij in de toekomst[!DNL Audience Manager]opnieuw moeten gebruiken.
+   * **[!UICONTROL Expired]:**Het wachtwoord van een gebruiker is ouder dan 90 dagen.
+   * **[!UICONTROL Pending]:**De gebruiker heeft een tijdelijk wachtwoord, hetzij na het opnieuw instellen van het wachtwoord of als een gloednieuwe account, en zij hebben nog geen permanent wachtwoord ingesteld.
+   * **[!UICONTROL Locked Out]:**5 onjuiste aanmeldpogingen zullen een gebruiker uitsluiten.
 1. Selecteer in de vervolgkeuzelijst onder **[!UICONTROL Assigned Groups]**de gewenste groepen waaraan u deze gebruiker wilt toewijzen.
 Zie [Een groep](../../features/administration/administration-overview.md#create-group)maken voor meer informatie over groepen en machtigingen.
 1. Klik op **[!UICONTROL Save]**.
 
-## Een groep maken {#create-group}
+## Een [!UICONTROL Group] {#create-group}
 
-Een *groep* is een inzameling van gebruikers die toegangsrechten aan bestemming, segment, en de voorwerpen van het trekspoor delen. U kunt groepen beperken tot alleen enkele objecten of ze brede toegang geven tot combinaties van verschillende objecten.
+Een *groep* is een verzameling gebruikers die toegangsrechten delen voor [!UICONTROL destination], [!UICONTROL segment]en [!UICONTROL trait] objecten. U kunt groepen beperken tot alleen enkele objecten of ze brede toegang geven tot combinaties van verschillende objecten.
 
 <!-- t_create_groups.xml -->
 
@@ -71,61 +71,61 @@ Hiermee opent u een venster met machtigingen voor het geselecteerde object.
 1. *(Optioneel)* Wijs [](../../features/administration/administration-overview.md#wild-card-permissions) jokertekens toe aan de groep.
 1. Klik op **[!UICONTROL Save Group]**.
 
-## Bevoegdheden jokertekens {#wild-card-permissions}
+## Begrijpen [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
 
 Groepsrechtenbeheer vereenvoudigen met [!UICONTROL Wild Card Permissions].
 
 <!-- c_wildcard_permissions.xml -->
 
-[!UICONTROL Wild Card Permissions] geef groepsleden automatische toegang tot elke gegevensbron verbonden aan een segment, een bestemming, of een bezit. Door vergelijking, laten de regelmatige toestemmingen slechts u specifieke gegevensbronnen aan één van deze voorwerpen toewijzen. En, wanneer u nieuwe gegevensbronnen toevoegt, krijgen de groepsleden geen toegang tot die nieuwe bronnen.
+[!UICONTROL Wild Card Permissions] groepsleden automatische toegang geven tot elke gegevensbron die aan een [!UICONTROL segment], [!UICONTROL destination]of [!UICONTROL trait]. Door regelmatige toestemmingen slechts kunt u specifiek aan één van deze voorwerpen toewijzen. [!UICONTROL data sources] En wanneer u nieuwe bronnen toevoegt [!UICONTROL data sources], krijgen groepsleden geen toegang tot die nieuwe bronnen.
 
-U moet de groepsmachtigingen openen en die nieuwe gegevensbronnen aan de groep toewijzen. [!UICONTROL Wild Card Permissions] Hiermee voorkomt u dit handmatige updateproces voor de gegevensbron. Groepen met [!UICONTROL Wild Card Permissions] toegang tot nieuwe gegevensbronnen zonder uitdrukkelijke toestemming.
+U moet de groepsmachtigingen openen en de machtigingen die nieuw zijn [!UICONTROL data sources] aan de groep toewijzen. [!UICONTROL Wild Card Permissions] Hiermee voorkomt u dit handmatige [!UICONTROL data source] updateproces. Groepen met [!UICONTROL Wild Card Permissions] toegang tot nieuwe functies [!UICONTROL data sources] zonder uitdrukkelijke toestemming.
 
 ![](assets/wild-card.png)
 
-Hieronder vindt u een beschrijving van de betekenis van elke jokertekenmachtiging:
+Hieronder vindt u een beschrijving van wat elk [!UICONTROL wildcard permission] betekent:
 
-**Trait**
+**[!UICONTROL Trait]**
 
-* `MAP_ALL_TRAITS_TO_MODELS` - Gebruikers kunnen kenmerken selecteren als basislijn voor modellen.
-* `EDIT_ALL_TRAITS` - Gebruikers kunnen alle kenmerken bewerken die in hun bedrijfsaccount zijn ingesteld.
-* `VIEW_ALL_TRAITS` - Gebruikers kunnen alle kenmerken bekijken die in hun bedrijfsaccount zijn ingesteld.
-* `DELETE_ALL_TRAITS` - Gebruikers kunnen alle binnen hun bedrijfsaccount ingestelde kenmerken verwijderen.
-* `CREATE_ALL_ALGO_TRAITS` - Gebruikers kunnen algoritmische kenmerken maken.
-* `MAP_ALL_TO_SEGMENTS` - Gebruikers kunnen alle kenmerken van hun bedrijf aan segmenten toevoegen.
-* `CREATE_ALL_TRAITS` - Gebruikers kunnen kenmerken maken.
+* `MAP_ALL_TRAITS_TO_MODELS` - Gebruikers kunnen selecteren [!UICONTROL traits] als basislijn voor [!UICONTROL models].
+* `EDIT_ALL_TRAITS` - Gebruikers kunnen alle instellingen in hun [!UICONTROL traits] bedrijfsaccount bewerken.
+* `VIEW_ALL_TRAITS` - Gebruikers kunnen alle [!UICONTROL traits] instellingen in hun bedrijfsaccount bekijken.
+* `DELETE_ALL_TRAITS` - Gebruikers kunnen alle [!UICONTROL traits] instellingen in hun bedrijfsaccount verwijderen.
+* `CREATE_ALL_ALGO_TRAITS` - Gebruikers kunnen [!UICONTROL algorithmic traits]een document maken.
+* `MAP_ALL_TO_SEGMENTS` - Gebruikers kunnen alle van hun [!UICONTROL traits] bedrijf afkomstige producten toevoegen aan [!UICONTROL segments].
+* `CREATE_ALL_TRAITS` - Gebruikers kunnen [!UICONTROL traits]een document maken.
 
-**Rapporten**
+**[!UICONTROL Reports]**
 
-* `PTRREPORTS` - Deze jokertekenmachtiging verwijst naar verouderde functionaliteit en wordt binnenkort verwijderd uit de gebruikersinterface van de Audience Manager.
+* `PTRREPORTS` - Dit [!UICONTROL wildcard permission] verwijst naar verouderde functionaliteit en wordt binnenkort verwijderd uit de gebruikersinterface van de Audience Manager.
 
-**Modellen**
+**[!UICONTROL Models]**
 
-* `VIEW_MODELS` - Gebruikers hebben toestemming om modellen van hun bedrijf te bekijken.
+* `VIEW_MODELS` - Gebruikers hebben toestemming om [!UICONTROL models] eigendom van hun bedrijf te bekijken.
 
-**Afgeleide signalen**
+**[!UICONTROL Derived Signals]**
 
-* `VIEW_DERIVED_SIGNALS` - Gebruikers kunnen alle afgeleide signalen van hun bedrijf bekijken.
-* `CREATE_DERIVED_SIGNALS` - Gebruikers kunnen afgeleide signalen maken.
-* `EDIT_DERIVED_SIGNALS` - Gebruikers kunnen alle afgeleide signalen van hun bedrijf bewerken.
-* `DELETE_DERIVED_SIGNALS` - De gebruikers kunnen om het even welke afgeleide signalen schrappen van hun bedrijf.
+* `VIEW_DERIVED_SIGNALS` - Gebruikers kunnen alle [!UICONTROL derived signals] personen van hun bedrijf bekijken.
+* `CREATE_DERIVED_SIGNALS` - Gebruikers kunnen [!UICONTROL derived signals]een document maken.
+* `EDIT_DERIVED_SIGNALS` - Gebruikers kunnen alle [!UICONTROL derived signals] toebehoren van hun bedrijf bewerken.
+* `DELETE_DERIVED_SIGNALS` - De gebruikers kunnen om het even welk [!UICONTROL derived signals] deel van hun bedrijf schrappen.
 
-**Doel**
+**[!UICONTROL Destination]**
 
-* `EDIT_ALL_DESTINATIONS` - Gebruikers kunnen alle doelinstellingen in hun bedrijfsaccount bewerken.
-* `CREATE_DESTINATIONS` - Gebruikers kunnen doelen maken.
-* `VIEW_ALL_DESTINATIONS` - Gebruikers kunnen alle doelen bekijken die in hun bedrijfsaccount zijn ingesteld.
-* `DELETE_ALL_DESTINATIONS` - Gebruikers kunnen alle doelen verwijderen die in hun bedrijfsaccount zijn ingesteld.
+* `EDIT_ALL_DESTINATIONS` - Gebruikers kunnen alle [!UICONTROL destinations] instellingen in hun bedrijfsaccount bewerken.
+* `CREATE_DESTINATIONS` - Gebruikers kunnen [!UICONTROL destinations]een document maken.
+* `VIEW_ALL_DESTINATIONS` - Gebruikers kunnen alle [!UICONTROL destinations] instellingen in hun bedrijfsaccount bekijken.
+* `DELETE_ALL_DESTINATIONS` - Gebruikers kunnen alle [!UICONTROL destinations] instellingen in hun bedrijfsaccount verwijderen.
 
-**Tags**
+**[!UICONTROL Tags]**
 
-* `VIEW_TAGS` - Gebruikers kunnen alles doen (weergeven, maken, bewerken, verwijderen) in hun tagcontainers.
+* `VIEW_TAGS` - Gebruikers kunnen alles (weergeven, maken, bewerken, verwijderen) op hun [!UICONTROL Tag Containers]computer doen.
 
-**Audience Lab**
+**[!UICONTROL Audience Lab]**
 
-* `MANAGE_SEGMENT_TEST_GROUPS` - Gebruikers kunnen alles doen (weergeven, maken, bewerken, verwijderen) in hun doelgroepen van Lab.
+* `MANAGE_SEGMENT_TEST_GROUPS` - Gebruikers kunnen alles (weergeven, maken, bewerken, verwijderen) in hun [!UICONTROL Audience Lab] testgroepen doen.
 
-**Segment**
+**[!UICONTROL Segment]**
 
 * `CREATE_ALL_SEGMENTS` - Gebruikers kunnen segmenten maken.
 * `DELETE_ALL_SEGMENTS` - Gebruikers kunnen alle segmenten verwijderen die in hun bedrijfsaccount zijn ingesteld.
@@ -134,7 +134,7 @@ Hieronder vindt u een beschrijving van de betekenis van elke jokertekenmachtigin
 * `MAP_ALL_SEGMENTS_TO_MODELS` - Gebruikers kunnen segmenten selecteren als basislijn voor modellen.
 * `VIEW_ALL_SEGMENTS` - Gebruikers kunnen alle segmenten weergeven die in hun bedrijfsaccount zijn ingesteld.
 
-**Signalen**
+**[!UICONTROL Signals]**
 
 * `VIEW_ALL_SIGNALS` - Gebruikers kunnen alle signalen weergeven die zijn vastgelegd in [Data Explorer](/help/using/features/data-explorer/data-explorer-overview.md).
 
@@ -148,9 +148,9 @@ Afhankelijk van uw bedrijfsvereisten, kunt u gebruikersrekeningen toelaten en on
 
 ![monitor-gebruiker-toegang](assets/monitor-user-access.png)
 
-### Zorgen voor toegangsbeveiliging voor gevoelige gegevensbronnen {#protect-sensitive-data-sources}
+### Zorg voor toegangsbeveiliging voor Gevoelig [!UICONTROL Data Sources] {#protect-sensitive-data-sources}
 
-U kunt [!UICONTROL Role-Based Access Control] op spoor, segment, en bestemmingsniveau, voor elke gebruikersgroep vormen.
+U kunt [!UICONTROL Role-Based Access Control] op [!UICONTROL trait], segment, en [!UICONTROL destination] niveau, voor elke gebruikersgroep vormen.
 
 Met deze functie kunt u beheren hoe uw gebruikers specifieke gegevenssets weergeven, maken, lezen, schrijven en bewerken en kunt u zelfs voorkomen dat gebruikers toegang krijgen tot gegevenssets die niet voor hen beschikbaar zouden moeten zijn.
 
