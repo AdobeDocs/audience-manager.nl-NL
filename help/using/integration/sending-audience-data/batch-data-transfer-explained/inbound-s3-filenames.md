@@ -6,15 +6,15 @@ solution: Audience Manager
 title: Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1154'
 ht-degree: 1%
 
 ---
 
 
-# Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden{#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar [!DNL Audience Manager]. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar een map [!DNL Audience Manager] / [!DNL Amazon S3] verzendt.
 
