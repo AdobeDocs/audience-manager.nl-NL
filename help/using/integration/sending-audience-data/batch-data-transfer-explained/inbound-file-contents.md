@@ -6,9 +6,9 @@ solution: Audience Manager
 title: De binnenkomende Syntaxis van de Inhoud van het Dossier van Gegevens, Ongeldige Karakters, Variabelen, en Voorbeelden
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -78,9 +78,9 @@ De tabel bevat een lijst met en definieert de variabelen die worden gebruikt in 
  </tbody> 
 </table>
 
-## Trait-id&#39;s opmaken {#formatting-trait-ids}
+## Opmaak [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-In de volgende tabel worden de voorvoegsels beschreven waarmee de namen van kenmerken of id&#39;s in een binnenkomend gegevensbestand worden geïdentificeerd. Zie de [voorbeeldbestanden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) voor voorbeelden.
+In de volgende tabel worden de voorvoegsels beschreven waarmee [!UICONTROL trait] namen of id&#39;s in een binnenkomend gegevensbestand worden geïdentificeerd. Zie de [voorbeeldbestanden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) voor voorbeelden.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -124,13 +124,13 @@ In de volgende tabel worden de voorvoegsels beschreven waarmee de namen van kenm
  </tbody>
 </table>
 
-## Ongeldige tekens in vak-id&#39;s, gebruikers-id&#39;s en sleutelwaardeparen {#invalid-chars}
+## Ongeldige tekens in [!UICONTROL Trait IDs], [!UICONTROL User IDs] en sleutel-waarde paren {#invalid-chars}
 
-### Trait-id&#39;s
+### [!UICONTROL Trait IDs]
 
-Trait-id&#39;s bestaan alleen uit numerieke tekens. Wij vragen dat u *slechts ongebogen eigenschappen* in binnenkomende gegevensdossiers opneemt. We verwerken geen andere typen eigenschappen in de binnenkomende gegevensoverdracht.
+[!UICONTROL Trait IDs] bestaan alleen uit numerieke tekens. Wij vragen u om *slechts[!UICONTROL onboarded traits]*in binnenkomende gegevensdossiers op te nemen. Wij verwerken geen andere[!UICONTROL trait]types in de binnenkomende gegevensoverdracht.
 
-### Gebruikersnamen
+### [!UICONTROL User IDs]
 
 <table id="table_8C5C7271B813441EA2D45CA2FE2A6C59"> 
  <thead> 
@@ -237,7 +237,7 @@ Onjuist opgemaakte waardennamen in een sleutelwaardepaar veroorzaken ook problem
 
 ## Voorbeeldmatrix {#examples-matrix}
 
-In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnenkomende bestanden op te maken, afhankelijk van het [type id](../../../reference/ids-in-aam.md) &#39;s en de methode waarmee u kenmerken aan profielen wilt toevoegen.
+In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnenkomende bestanden op te maken, afhankelijk van het [type id](../../../reference/ids-in-aam.md) &#39;s en de methode waarmee u aan profielen wilt toevoegen [!UICONTROL traits] .
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -274,7 +274,7 @@ In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnen
   <tr> 
    <td colname="col1"> <p>Je eigen CRM-id (DPUUID) </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-13"> Voorbeeld 13 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Voorbeeld 14 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Voorbeeld 15 </a> </p> </td> 
    <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Voorbeeld 15 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-16"> Voorbeeld 16 </a> </p> </td> 
   </tr> 
@@ -283,7 +283,7 @@ In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnen
 
 ### Voorbeeld 1 {#example-1}
 
-Gebruik de kenmerk-id&#39;s om de kwalificatiegegevens van de eigenschap te verzenden voor [!DNL Audience Manager][!DNL UUIDs].
+Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens te verzenden voor [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
@@ -291,7 +291,7 @@ Gebruik de kenmerk-id&#39;s om de kwalificatiegegevens van de eigenschap te verz
 
 ### Voorbeeld 2 {#example-2}
 
-Gebruik de kenmerk-id&#39;s om informatie over de onvolledige erkenning te verzenden voor [!DNL Audience Manager][!DNL UUIDs].
+Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid te verzenden voor [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> d_unsid=24, d_unsid=26, d_unsid=27
@@ -311,7 +311,7 @@ of
 
 ### Voorbeeld 3 {#example-3}
 
-Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor [!DNL Audience Manager] [!DNL UUIDs]toe te voegen.
+Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor [!DNL Audience Manager] [!DNL UUIDs]toe te voegen.
 
 ```
 59767559181262060060278870901087098252 <TAB> product = tablet, product = phone
@@ -325,7 +325,7 @@ of
 
 ### Voorbeeld 4 {#example-4}
 
-Gebruik het voorvoegsel ic om kwalificatiegegevens voor eigenschappen te verzenden [!DNL Audience Manager] [!DNL UUIDs].
+Gebruik het `ic` voorvoegsel om [!UICONTROL trait] kwalificatiegegevens te verzenden voor [!DNL Audience Manager] [!DNL UUIDs].
 
 ```
 59767559181262060060278870901087098252 <TAB> 30608,50354,50338,50352,30626
@@ -339,7 +339,7 @@ of
 
 ### Voorbeeld 5 {#example-5}
 
-Gebruik standaard-id&#39;s om informatie over de kwalificatie van het kenmerk voor [!DNL Android] apparaten te verzenden.
+Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens voor [!DNL Android] apparaten te verzenden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -347,7 +347,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Voorbeeld 6 {#example-6}
 
-Gebruik de kenmerk-id&#39;s om informatie over de kenmerkontkenning voor [!DNL Android] apparaten te verzenden.
+Gebruik deze optie [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid voor [!DNL Android] apparaten te verzenden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -367,7 +367,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 
 ### Voorbeeld 7 {#example-7}
 
-Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor [!DNL Android] apparaten toe te voegen.
+Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor [!DNL Android] apparaten toe te voegen.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> product = tablet, product = phone
@@ -381,7 +381,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "ph
 
 ### Voorbeeld 8 {#example-8}
 
-Gebruik het voorvoegsel ic om kwalificatiegegevens voor eigenschappen van [!DNL Android] apparaten te verzenden.
+Gebruik het `ic` voorvoegsel om [!UICONTROL trait] kwalificatiegegevens voor [!DNL Android] apparaten te verzenden.
 
 ```
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 30608,50354,50338,50352,30626
@@ -395,7 +395,7 @@ e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 
 ### Voorbeeld 9 {#example-9}
 
-Gebruik standaard-id&#39;s om informatie over de kwalificatie van het kenmerk voor [!DNL iOS] apparaten te verzenden.
+Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens voor [!DNL iOS] apparaten te verzenden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -403,7 +403,7 @@ Gebruik standaard-id&#39;s om informatie over de kwalificatie van het kenmerk vo
 
 ### Voorbeeld 10 {#example-10}
 
-Gebruik de kenmerk-id&#39;s om informatie over de kenmerkontkenning voor [!DNL iOS] apparaten te verzenden.
+Gebruik deze optie [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid voor [!DNL iOS] apparaten te verzenden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -423,7 +423,7 @@ of
 
 ### Voorbeeld 11 {#example-11}
 
-Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor [!DNL iOS] apparaten toe te voegen.
+Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor [!DNL iOS] apparaten toe te voegen.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> product = tablet, product = phone
@@ -437,7 +437,7 @@ of
 
 ### Voorbeeld 12 {#example-12}
 
-Gebruik het voorvoegsel ic om kwalificatiegegevens voor eigenschappen van [!DNL iOS] apparaten te verzenden.
+Gebruik het `ic` voorvoegsel om [!UICONTROL trait] kwalificatiegegevens voor [!DNL iOS] apparaten te verzenden.
 
 ```
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 30608,50354,50338,50352,30626
@@ -451,7 +451,7 @@ of
 
 ### Voorbeeld 13 {#example-13}
 
-Gebruik de kenmerk-id&#39;s om de kwalificatiegegevens van de eigenschap te verzenden voor [!DNL DPUUIDs].
+Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens te verzenden voor [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
@@ -459,7 +459,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 
 ### Voorbeeld 14 {#example-14}
 
-Gebruik de kenmerk-id&#39;s om informatie over de onvolledige erkenning te verzenden voor [!DNL DPUUIDs].
+Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid te verzenden voor [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_unsid=24, d_unsid=25, d_unsid=26
@@ -477,9 +477,9 @@ of
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Voorbeeld 15 {#example-15}
+### Voorbeeld 14 {#example-15}
 
-Verzend in sleutel-waardeparen om de informatie van de eigenschapkwalificatie voor toe te voegen [!DNL DPUUIDs].
+Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor toe te voegen [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> product = tablet, product = phone
@@ -493,7 +493,7 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = 
 
 ### Voorbeeld 16 {#example-16}
 
-Gebruik het `ic` voorvoegsel om kwalificatiegegevens voor kenmerken te verzenden [!DNL DPUUIDs].
+Gebruik het `ic` voorvoegsel om [!UICONTROL trait] kwalificatiegegevens te verzenden voor [!DNL DPUUIDs].
 
 ```
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 30608,50354,50338,50352,30626
