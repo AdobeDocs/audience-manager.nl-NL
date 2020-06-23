@@ -1,43 +1,46 @@
 ---
-description: De Rapportering van het Gebruik van de activiteit helpt u het activiteitengebruik voor uw instantie van de Manager van de Publiek bekijken en volgen, zodat kunt u uw daadwerkelijke gebruik met uw contractuele verplichting vergelijken.
+description: De Rapportering van het Gebruik van de activiteit helpt u het activiteitengebruik voor uw instantie van de Audience Manager bekijken en volgen, zodat kunt u uw daadwerkelijke gebruik met uw contractuele verplichting vergelijken.
 keywords: activity, usage, reporting, commitment
-seo-description: De Rapportering van het Gebruik van de activiteit helpt u het activiteitengebruik voor uw instantie van de Manager van de Publiek bekijken en volgen, zodat kunt u uw daadwerkelijke gebruik met uw contractuele verplichting vergelijken.
+seo-description: De Rapportering van het Gebruik van de activiteit helpt u het activiteitengebruik voor uw instantie van de Audience Manager bekijken en volgen, zodat kunt u uw daadwerkelijke gebruik met uw contractuele verplichting vergelijken.
 seo-title: Activiteitenverbruik rapporteren
 solution: Audience Manager
 title: Activiteitenverbruik rapporteren
 topic: Activity Usage Reporting
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '661'
+ht-degree: 0%
 
 ---
 
 
-# Activiteitenverbruik rapporteren
+# [!UICONTROL Activity Usage Reporting] {#activity-usage-reporting}
 
 ## Overzicht {#overview}
 
-De [!UICONTROL Activity Usage Report] hulp u het activiteitengebruik van uw instantie van de Manager van de Publiek bekijkt en volgt, die u een duidelijk idee geeft van hoe uw activiteitengebruik met uw contractuele verplichting vergelijkt.
+Het [!UICONTROL Activity Usage Report] helpt u het activiteitengebruik van uw instantie van de Audience Manager bekijken en volgen, die u een duidelijk idee geeft van hoe uw activiteitengebruik met uw contractuele verplichting vergelijkt.
 
 Bovendien kunt u de gegevens op elk gewenst moment downloaden voor het bijhouden van records en aangepaste analyses. [!UICONTROL Activity Usage Report]
 
 ## Overwegingen {#considerations}
 
-Het [!UICONTROL Activity Usage Report] is beschikbaar voor alle gebruikers van Audience Manager met [beheerdersrechten](edit-account-settings.md).
+Het [!UICONTROL Activity Usage Report] is beschikbaar voor alle gebruikers van de Audience Manager met [beheerdersrechten](edit-account-settings.md).
 
 >[!IMPORTANT]
 >
->Het [!UICONTROL Activity Usage Report] toont u de statistieken van het activiteitengebruik van uw instantie van de Manager van de Publiek. Neem contact op met uw vertegenwoordiger van Adobe voor alle vragen over facturering die betrekking hebben op uw gebruik van activiteiten.
+>Het [!UICONTROL Activity Usage Report] toont u de statistieken van het activiteitengebruik van uw instantie van de Audience Manager. Neem contact op met uw vertegenwoordiger van Adobe voor alle vragen over facturering die betrekking hebben op uw gebruik van activiteiten.
 
 ## Gevallen gebruiken {#use-cases}
 
 Er zijn twee belangrijke gevallen van gebruik van het [!UICONTROL Activity Usage Report]volgende:
 
-* **Actief gebruik van instance-activiteiten bijhouden op basis van uw verplichting** om activiteiten te gebruiken: De meeste klanten hebben een maandelijkse geschatte activiteitenverplichting per instantie van de Manager van de Audience, die dan in een jaarlijkse activiteitenverplichting over alle gevallen wordt gecumuleerd. Hoewel dit rapport geen factureringsrapport is, kan het nuttige begeleiding verstrekken over of u het toegewijde activiteitengebruik overschrijdt.
-* **Validatie voor implementatiewijzigingen**: Als u onlangs uw implementatie, zoals vestiging Analytics server-kant het door:sturen, of het veranderen van uw montages van de de servervraag van het Doel hebt bijgewerkt, kan dit rapport u helpen controleren of het nieuwe activiteitenvolume in lijn met uw verwacht activiteitenvolume is.
+* **Actief gebruik van instance-activiteiten bijhouden op basis van uw verplichting** om activiteiten te gebruiken: De meeste klanten hebben een maandelijkse geschatte activiteitenverplichting per instantie van de Audience Manager, die dan wordt gecumuleerd in een jaarlijkse activiteitenverplichting in alle gevallen. Hoewel dit rapport geen factureringsrapport is, kan het nuttige begeleiding verstrekken over of u het toegewijde activiteitengebruik overschrijdt.
+* **Validatie voor implementatiewijzigingen**: Als u onlangs uw implementatie, zoals vestiging [!DNL Adobe Analytics] server-kant het door:sturen, of het veranderen van uw montages van de [!DNL Adobe Target] servervraag hebt bijgewerkt, kan dit rapport u helpen controleren of het nieuwe activiteitenvolume in lijn met uw verwacht activiteitenvolume is.
 
-## Het rapport Activiteitsverbruik gebruiken {#using}
+## Met de [!UICONTROL Activity Usage Report] {#using}
 
-Als u de [!UICONTROL Activity Usage Report]pagina wilt weergeven, meldt u zich aan bij uw account Audience Manager en gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Usage]**.
+Als u het venster wilt zien, meldt u zich aan bij uw Audience Manager-account en gaat u naar [!UICONTROL Activity Usage Report]> **[!UICONTROL Administration]** **[!UICONTROL Usage]**.
 
 ![aur-ui](assets/aur-ui.png)
 
@@ -45,16 +48,16 @@ Vervolgens gebruikt u het **[!UICONTROL Reporting Interval]** filter om het tijd
 
 Zodra uw rapport laadt, kunt u een onderbreking van uw [!UICONTROL Activities] voor de geselecteerde periode zien.
 
-[!UICONTROL Activities] het totale totaal van alle onsite en externe interacties met Audience Manager definiëren, gesplitst in de volgende categorieën:
+[!UICONTROL Activities] het totale totaal van alle onsite en externe interacties met Audience Manager definiëren, uitgesplitst in de volgende categorieën:
 
-* **[!UICONTROL Server Calls]**: Alle gegevensverzamelings- of ophaalgebeurtenissen die via websites, servers, e-mail, mobiele toepassingen of andere systemen naar Audience Manager worden verzonden.
-* **[!UICONTROL Pixel Calls](voorheen bekend als[!UICONTROL Impression Server Calls])**: Gegevens die zijn verzameld op advertenties (zoals het impressievolume van een doelplatform) of e-mailimpressies die zijn uitgevoerd op Audience Manager. Deze vereisen de aanwezigheid van de`d_event`parameter in het vraagkoord.
+* **[!UICONTROL Server Calls]**: Alle gegevensverzamelings- of ophaalgebeurtenissen die via websites, servers, e-mail, mobiele toepassingen of andere systemen naar de Audience Manager worden verzonden.
+* **[!UICONTROL Pixel Calls](voorheen bekend als[!UICONTROL Impression Server Calls])**: Gegevens die zijn verzameld op advertenties (zoals het impressievolume van een doelplatform) of e-mailimpressies die zijn uitgevoerd op de Audience Manager. Deze vereisen de aanwezigheid van de`d_event`parameter in het vraagkoord.
 * **[!UICONTROL On-Boarded Records]**: Unieke verslagen die van uw eigen systeem van het klantenrelatiebeheer (CRM) of andere off-line gegevensdossiers, zoals de verslagen van het vraagcentrum, apparaat IDs, en de voer van douanegegevens van externe gegevensleveranciers worden opgenomen.
-* **[!UICONTROL Log File Records]**: Unieke verslagen van logboekdossiers die in de Manager van het Publiek van een gericht platform worden opgenomen.
+* **[!UICONTROL Log File Records]**: Unieke verslagen van logboekdossiers die in Audience Manager van een gericht platform worden opgenomen.
 
 >[!NOTE]
 >
->Een unieke record definieert elke afzonderlijke record met gegevens in een bestand dat door Adobe wordt opgeslagen namens een klant van Audience Manager.
+>Een unieke record definieert elke afzonderlijke record met gegevens in een bestand dat door Adobe namens een klant van de Audience Manager wordt opgeslagen.
 
 Bovendien kunt u de [!UICONTROL Activity Usage Trends] grafiektypen gebruiken om te schakelen tussen twee typen grafieken.
 
@@ -64,22 +67,22 @@ U kunt de cursor ook boven een bepaalde datum in de tijdlijn plaatsen om het ged
 
 ![aur-hover](assets/aur-hover.png)
 
-## Rapporten van activiteitenverbruik exporteren {#export}
+## Exporteren [!UICONTROL Activity Usage Reports] {#export}
 
-Voor een beter overzicht van uw het activiteitengebruiksniveau van de Manager van de Publiek, kunt u het uitvoeren [!UICONTROL Activity Usage Report] gebaseerd op het type van verslagen die u wilt omvatten.
+Voor een beter overzicht van het gebruik van uw Audience Manager-activiteiten kunt u het bestand exporteren [!UICONTROL Activity Usage Report] op basis van het type records dat u wilt opnemen.
 
 ![automatisch exporteren](assets/aur-export.png)
 
 De **[!UICONTROL Onboarded Records Breakdown]** en **[!UICONTROL Onsite Server Calls Breakdown]** rapporten bieden het meest gedetailleerde inzicht in de brongegevens die voor deze activiteiten beschikbaar zijn. Het volume dat aan deze uitsplitsingen wordt toegewezen is gebaseerd op uw implementatie.
 
-### Indeling van geregistreerde records aan boord {#onboarded-breakdown}
+### [!UICONTROL Onboarded Records Breakdown] {#onboarded-breakdown}
 
 Dit rapport bevat niet-geregistreerde records uitgesplitst naar gegevensbron.
 
-### On-site servercall-down {#onsite-breakdown}
+### [!UICONTROL Onsite Server Calls Breakdown] {#onsite-breakdown}
 
-Dit rapport bevat een verdeling van servervraag uit drie bronnen: [!UICONTROL Analytics], [!UICONTROL Target], en [!UICONTROL Other].
+Dit rapport bevat een verdeling van servervraag uit drie bronnen: [!UICONTROL Analytics], [!UICONTROL Target]en [!UICONTROL Other].
 
-* **[!UICONTROL Analytics]**: Dit zijn factureerbare servervraag die van alle instanties van de Analyse van Adobe aan de Manager van het Publiek, met inbegrip van server-zijhet door:sturen wordt overgegaan. De secundaire servervraag of dubbele servervraag (zoals in het geval van server zijdoor:sturen van veelvoudige rapportreeksen) zijn geen factureerbare activiteiten, zodat zij niet inbegrepen in deze mislukking zijn.
-* **[!UICONTROL Target]**: Dit zijn serveraanroepen van Adobe Target naar Audience Manager om de segmentgegevens van Audience Manager op te halen als onderdeel van een server-naar-server integratie.
+* **[!UICONTROL Analytics]**: Dit zijn factureerbare servervraag die van alle [!UICONTROL Adobe Analytics] instanties tot Audience Manager, met inbegrip van server-zijdoor:sturen wordt overgegaan. De secundaire servervraag of dubbele servervraag (zoals in het geval van server zijdoor:sturen van veelvoudige rapportreeksen) zijn geen factureerbare activiteiten, zodat zij niet inbegrepen in deze mislukking zijn.
+* **[!UICONTROL Target]**: Dit zijn server-zijvraag van [!UICONTROL Adobe Target] aan Audience Manager, om de gegevens van het het segmentsegment van de Audience Manager als deel van een server-aan-server integratie terug te winnen.
 * **[!UICONTROL Other]**: Omvat vraag van een andere website of systeem (partnerplaatsen, directe servervraag, enz.), mobiele browser/app vraag via [!DNL SDK], [!DNL DIL], gebeurtenisvraag, en [!DNL DCS] vraag. Omvat ook vraag van [!DNL Target] als opstelling als koekjesintegratie (eerder dan server-aan-server).
