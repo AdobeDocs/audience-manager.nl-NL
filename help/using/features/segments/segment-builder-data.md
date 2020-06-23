@@ -6,7 +6,10 @@ solution: Audience Manager
 title: Behandelings- en segmentpopulatiegegevens in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: 2add6b77e167203dab66b5fa7b87b7c5fbeb3d48
+source-git-commit: 63d89cac2f18538f56e2f6d0f64257ea9b5788bd
+workflow-type: tm+mt
+source-wordcount: '1294'
+ht-degree: 0%
 
 ---
 
@@ -40,9 +43,9 @@ In de volgende tabel worden de maatstaven voor de doelpopulatie gedefinieerd
 
 ## Bereken van reële en geschatte segmentpopulaties {#calculating-real-estimated-populations}
 
-Wanneer u een nieuw segment creeert, of een bestaand segment verandert, neemt de Manager van de Publiek tot 24 uur aan vertoningsresultaten voor daadwerkelijke real time en totale segmentpopulaties.
+Wanneer u een nieuw segment creeert, of een bestaand segment verandert, neemt de Audience Manager tot 24 uur aan vertoningsresultaten voor daadwerkelijke real time en totale segmentpopulaties.
 
-Nochtans, kan de Manager van het Publiek onmiddellijk de omvang van de bevolking in real time en de totale van uw segment schatten. Deze schattingen zijn gebaseerd op gesamplede historische gegevens en retourresultaten met een betrouwbaarheidsinterval van 95%.
+Nochtans, kan de Audience Manager onmiddellijk de grootte in real time en de totale bevolking van uw segment schatten. Deze schattingen zijn gebaseerd op gesamplede historische gegevens en retourresultaten met een betrouwbaarheidsinterval van 95%.
 
 ![](assets/confidence-interval.png)
 
@@ -74,10 +77,10 @@ In de volgende tabel worden de geschatte bevolkingscijfers weergegeven.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Geschatte Real-Time Bevolking (potentieel) </span> </p> </td> 
-   <td colname="col2"> <p>Het geschatte aantal unieke bezoekers dat in real time voor de gespecificeerde tijdwaaier werd gezien en die voor het segment op het ogenblik gekwalificeerd waren zij door de Manager van het Publiek werden gezien. </p> <p>In <span class="wintitle"> Segment Builder</span>, kunnen de laatste 30 dagpopulaties voor eigenschappen (<span class="wintitle"> Totale Bevolking</span>van het Beetje), voor eigenschappen en segmenten verschillend zijn die in real time worden geëvalueerd. </p> <p>
+   <td colname="col2"> <p>Het geschatte aantal unieke bezoekers dat in real time voor de gespecificeerde tijdwaaier werd gezien en die voor het segment werden gekwalificeerd op het ogenblik dat zij door Audience Manager werden gezien. </p> <p>In <span class="wintitle"> Segment Builder</span>, kunnen de laatste 30 dagpopulaties voor eigenschappen (<span class="wintitle"> Totale Bevolking</span>van het Beetje), voor eigenschappen en segmenten verschillend zijn die in real time worden geëvalueerd. </p> <p>
      <ul id="ul_CAE803D09913462CAD413A665D85C1A2"> 
       <li id="li_3E64330D6F5B4D2F8F3456730A86894F">Voor eigenschappen, de laatste metrische tellingen van 30 dagen het aantal unieke gebruikers die voor dat bezit tijdens de laatste 30 dagen kwalificeerden. </li>
-      <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">Voor segmenten die in real time worden geëvalueerd, tellen de laatste metrische tellingen van 30 dagen het aantal gebruikers die voor een eigenschap (in dat segment) op wat punt in het verleden hebben gekwalificeerd en opnieuw gezien door de Manager van het Publiek binnen de laatste 30 dagen. Stel dat u een gebruiker hebt die 60 dagen geleden voor een eigenschap in aanmerking kwam en tien dagen geleden opnieuw werd gezien. In de gegevens wordt deze gebruiker niet toegevoegd aan de telling van het kenmerk omdat hij meer dan 30 dagen geleden voor het eerst in aanmerking kwam voor de eigenschap. Nochtans, zullen zij in het laatste aantal van 30 dagen voor de segmenten worden omvat die in real time worden geëvalueerd. Dit is omdat zij voor het segment binnen het tijdinterval van 30 dagen gekwalificeerd hebben. </li>
+      <li id="li_FF3CACD0B6C742CDB94D66200D77CE06">Voor segmenten die in real time worden geëvalueerd, tellen de laatste metrische tellingen van 30 dagen het aantal gebruikers die voor een eigenschap (in dat segment) op wat punt in het verleden hebben gekwalificeerd en opnieuw door Audience Manager binnen de laatste 30 dagen gezien. Stel dat u een gebruiker hebt die 60 dagen geleden voor een eigenschap in aanmerking kwam en tien dagen geleden opnieuw werd gezien. In de gegevens wordt deze gebruiker niet toegevoegd aan de telling van het kenmerk omdat hij meer dan 30 dagen geleden voor het eerst in aanmerking kwam voor de eigenschap. Nochtans, zullen zij in het laatste aantal van 30 dagen voor de segmenten worden omvat die in real time worden geëvalueerd. Dit is omdat zij voor het segment binnen het tijdinterval van 30 dagen gekwalificeerd hebben. </li>
      </ul> </p> <p> <p>Opmerking: De <span class="wintitle"> Geschatte metrische Bevolking</span> in real time omvat geen apparaten die voor een segment gekwalificeerd hebben dat op verbindingen wordt gebaseerd die door een Regel <span class="wintitle"> van de Fusie van het</span> Profiel worden verstrekt die een optie <a href="../../features/profile-merge-rules/merge-rule-definitions.md#device-options"> van de</a>apparatengrafiek gebruikt. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -109,10 +112,10 @@ In de volgende tabel worden de werkelijke cijfers voor real-time en de totale be
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Real-Time Population (bestaand)</span> </p> </td> 
-   <td colname="col2"> <p>Het daadwerkelijke aantal unieke bezoekers die in real time voor de gespecificeerde tijdwaaier werden gezien en die voor het segment werden gekwalificeerd op het ogenblik dat zij door de Manager van het Publiek werden gezien. </p> <p>In <span class="wintitle"> Segment Builder</span>, kunnen de laatste 30 dagpopulaties voor eigenschappen (<span class="wintitle"> Totale Bevolking</span>van het Beetje), voor eigenschappen en segmenten verschillend zijn die in real time worden geëvalueerd. </p> <p> 
+   <td colname="col2"> <p>Het werkelijke aantal unieke bezoekers dat in real time voor het opgegeven tijdbereik werd gezien en dat op het moment dat ze door de Audience Manager werden gezien, in aanmerking kwam voor het segment. </p> <p>In <span class="wintitle"> Segment Builder</span>, kunnen de laatste 30 dagpopulaties voor eigenschappen (<span class="wintitle"> Totale Bevolking</span>van het Beetje), voor eigenschappen en segmenten verschillend zijn die in real time worden geëvalueerd. </p> <p> 
      <ul id="ul_50D1528DDDF347858F17DA3C033B0E3F"> 
       <li id="li_ABA2BFE68FF4430DBB425C4661E1836A">Voor eigenschappen, de laatste metrische tellingen van 30 dagen het aantal unieke gebruikers die voor dat bezit tijdens de laatste 30 dagen kwalificeerden. </li> 
-      <li id="li_1519068CBB1445E893657D12E8FE42AC">Voor segmenten die in real time worden geëvalueerd, tellen de laatste metrische tellingen van 30 dagen het aantal gebruikers die voor een eigenschap (in dat segment) op wat punt in het verleden hebben gekwalificeerd en opnieuw gezien door de Manager van het Publiek binnen de laatste 30 dagen. Stel dat u een gebruiker hebt die 60 dagen geleden voor een eigenschap in aanmerking kwam en tien dagen geleden opnieuw werd gezien. In de gegevens wordt deze gebruiker niet toegevoegd aan de telling van het kenmerk omdat hij meer dan 30 dagen geleden voor het eerst in aanmerking kwam voor de eigenschap. Nochtans, zullen zij in het laatste aantal van 30 dagen voor de segmenten worden omvat die in real time worden geëvalueerd. Dit is omdat zij voor het segment binnen het tijdinterval van 30 dagen gekwalificeerd hebben. </li> 
+      <li id="li_1519068CBB1445E893657D12E8FE42AC">Voor segmenten die in real time worden geëvalueerd, tellen de laatste metrische tellingen van 30 dagen het aantal gebruikers die voor een eigenschap (in dat segment) op wat punt in het verleden hebben gekwalificeerd en opnieuw door Audience Manager binnen de laatste 30 dagen gezien. Stel dat u een gebruiker hebt die 60 dagen geleden voor een eigenschap in aanmerking kwam en tien dagen geleden opnieuw werd gezien. In de gegevens wordt deze gebruiker niet toegevoegd aan de telling van het kenmerk omdat hij meer dan 30 dagen geleden voor het eerst in aanmerking kwam voor de eigenschap. Nochtans, zullen zij in het laatste aantal van 30 dagen voor de segmenten worden omvat die in real time worden geëvalueerd. Dit is omdat zij voor het segment binnen het tijdinterval van 30 dagen gekwalificeerd hebben. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -136,7 +139,7 @@ In de volgende tabel worden de werkelijke cijfers voor real-time en de totale be
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Real-Time Population (bestaand)</span> </p> </td> 
-   <td colname="col2"> <p>Het daadwerkelijke aantal apparaten dat in real time met huidige profielen wordt gezien die, wanneer samengevoegd met tot 100 andere apparatenprofielen die door de apparatengrafiek worden aangesloten, de eigenschappen bevat om voor het segment in aanmerking te komen het ogenblik het door de Manager <span class="keyword"> van de</span>Publiek werd gezien. </p> </td>
+   <td colname="col2"> <p>Het werkelijke aantal apparaten dat in real time wordt gezien met huidige profielen die, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparatengrafiek worden aangesloten, de eigenschappen bevatten om voor het segment in aanmerking te komen het ogenblik het door <span class="keyword"> Audience Manager</span>werd gezien. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <span class="wintitle"> Totale populatie (bestaand)</span> </p> </td> 
@@ -156,5 +159,5 @@ Er is momenteel een bekende beperking omdat onze schatting van de segmentgrootte
 >[!MORELIKETHIS]
 >
 >* [Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek](../../faq/faq-profile-merge.md)
->* [Profielkoppeling](../../features/profile-merge-rules/merge-rules-overview.md)
+>* [Profielkoppeling](../profile-merge-rules/merge-rules-overview.md)
 
