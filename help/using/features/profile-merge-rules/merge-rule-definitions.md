@@ -6,23 +6,23 @@ solution: Audience Manager
 title: Opties voor regel voor samenvoegen van profiel gedefinieerd
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
 
 
-# Opties voor regels voor het samenvoegen van profielen gedefinieerd {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules] Gedefinieerde opties {#profile-merge-rule-options-defined}
 
-Met de opties voor samenvoegregels kunt u het type gegevens bepalen dat voor segmentatie wordt [!DNL Audience Manager] gebruikt. Een samenvoegregel kan apparaatprofielen bevatten die zijn toegewezen door de [!UICONTROL Profile Link] apparaatgrafiek, de [!UICONTROL Adobe Experience Cloud Device Co-op]en/of andere externe apparaatgrafiekproviders die zijn geïntegreerd met [!DNL Audience Manager]. U kunt maximaal 4 maken [!UICONTROL Profile Merge Rules]. De vierde optie [!UICONTROL Profile Merge Rule] is uitsluitend beschikbaar voor klanten die de [!UICONTROL People-Based Destinations] invoegtoepassing hebben aangeschaft.
+Met de [!UICONTROL profile merge rule] opties kunt u het type gegevens bepalen dat voor segmentatie wordt [!DNL Audience Manager] gebruikt. Een [!UICONTROL profile merge rule] definitie kan apparaatprofielen bevatten die zijn toegewezen door de [!UICONTROL Profile Link] apparaatgrafiek, de [!UICONTROL Adobe Experience Cloud Device Co-op]en/of andere externe apparaatgrafiekproviders die zijn geïntegreerd met [!DNL Audience Manager]. U kunt maximaal 4 maken [!UICONTROL Profile Merge Rules]. De vierde optie [!UICONTROL Profile Merge Rule] is uitsluitend beschikbaar voor klanten die de [!UICONTROL People-Based Destinations] invoegtoepassing hebben aangeschaft.
 
 U maakt een definitie [!UICONTROL Profile Merge Rule] door een selectie te maken uit de opties die hieronder worden beschreven, in [!UICONTROL Profile Merge Rule Setup].
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
-## Overzicht van opties voor samenvoegingsregels voor profielen {#overview}
+## [!UICONTROL Profile Merge Rule] Overzicht van opties {#overview}
 
 [!UICONTROL Profile Merge Rules] een aantal regelcombinaties mogelijk te maken, elk gericht op specifieke gebruiksgevallen. Zie de tabel hieronder voor meer informatie over het gebruik van elke regelcombinatie.
 
@@ -36,21 +36,21 @@ U maakt een definitie [!UICONTROL Profile Merge Rule] door een selectie te maken
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (inclusief [!UICONTROL Co-op Device Graph]) | Alle klanten | Realtime en batch | Nee | [Geavanceerde interDevice-doelen](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | N.v.t. | Exclusief voor [klanten met een persoonlijke bestemming](../destinations/people-based-destinations-overview.md) | Alleen batch | Nee | [Doelen voor op mensen gebaseerde bestemmingen](merge-rule-targeting-options.md#all-cross-device) |
 
-## Evaluatie van segment van samenvoegingsregel {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Evaluatie {#segment-evaluation}
 
-Afhankelijk van uw [!UICONTROL Profile Merge Rules] configuratie, [!DNL Audience Manager] kan de segmentevaluatie in real time, in partij, of allebei uitvoeren.
+Afhankelijk van uw [!UICONTROL Profile Merge Rules] configuratie, [!DNL Audience Manager] kan de [!UICONTROL segment] evaluatie in real time, in partij, of allebei uitvoeren.
 
-* De evaluatie van het segment in real time vereist de bezoekers [!DNL DCS] om tot uw digitale eigenschappen in real time toegang te hebben, om voor het segment te kwalificeren.
-* De segmentbeoordeling van de partij wordt uitgevoerd tegen eerder gekwalificeerde eigenschappen.
-* [!UICONTROL Profile Merge Rules] die zowel de evaluatie in real time als van het partijsegment steunen combineren de activiteit van de bezoeker in real time met eerder gekwalificeerde eigenschappen.
+* De [!UICONTROL segment] evaluatie in real time vereist [!DNL DCS] om bezoekers te zien tot uw digitale eigenschappen in real time toegang hebben, om voor [!UICONTROL segment]te kwalificeren.
+* De batchevaluatie [!UICONTROL segment] wordt uitgevoerd tegen eerder gekwalificeerd [!UICONTROL traits].
+* [!UICONTROL Profile Merge Rules] die zowel de evaluatie in real time als de partijevaluatie steunen [!UICONTROL segment] combineert de activiteit van de bezoeker in real time met eerder gekwalificeerd [!UICONTROL traits].
 
-## Rapportvertraging voor regels voor samenvoegen van profielen {#reporting-latency}
+## [!UICONTROL Profile Merge Rules] Rapportageachterstand {#reporting-latency}
 
-De evaluatie van het segment in real time weerspiegelt onmiddellijk in de [!UICONTROL Profile Merge Rules] rapporten.
+Evaluatie in real time [!UICONTROL segment] weerspiegelt onmiddellijk in de [!UICONTROL Profile Merge Rules] rapporten.
 
-De de segmentevaluatie van de partij kan tot 24 uren vergen om in de rapporten [van de Regels van de Fusie van het](profile-link-metrics.md)Profiel te weerspiegelen.
+De [!UICONTROL segment] evaluatie van de partij kan tot 24 uren vergen om in de rapporten [van de Regels van de Fusie van het](profile-link-metrics.md)Profiel te weerspiegelen.
 
-## Opties voor meerdere apparaten {#auth-options}
+## [!UICONTROL Cross-Device Options] {#auth-options}
 
 Hiermee [!UICONTROL Cross-Device Options] kunt u geverifieerde en niet-geverifieerde gebruikers selecteren en hun apparaatprofiel gebruiken voor segmentatie. Met deze opties kunt u specifieke gebruikers op een gedeeld apparaat identificeren en bereiken. Voor meer informatie over anonieme en voor authentiek verklaarde gebruikers, zie de Staten van de Authentificatie van de [Bezoeker in Audience Manager](../../reference/visitor-authentication-states.md).
 
@@ -81,13 +81,13 @@ Hiermee [!UICONTROL Cross-Device Options] kunt u geverifieerde en niet-geverifie
  </tbody>
 </table>
 
-## Opties profiel voor meerdere apparaten {#profile-options}
+## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-De [!UICONTROL Cross-Device Profile Options] gegevensbronnen op alle apparaten worden weergegeven. Bij deze opties worden de namen gebruikt die u hebt opgegeven toen u een gegevensbron voor meerdere apparaten hebt gemaakt (zie [Apparaatgegevensbron](merge-rules-start.md#create-data-source)maken). U kunt maximaal drie apparaatgegevensbronnen selecteren die u met elke profielregel wilt gebruiken. De [!UICONTROL Authenticated Profile Options] opties zijn beschikbaar wanneer u kiest **[!UICONTROL Current Authenticated Profiles]** of **[!UICONTROL Last Authenticated Profiles]**.
+De [!UICONTROL Cross-Device Profile Options] lijst maakt een lijst van uw [!UICONTROL cross-device data sources]. Bij deze opties worden de namen gebruikt die u hebt opgegeven toen u een gegevensbron hebt gemaakt [!UICONTROL cross-device] (zie [!UICONTROL data source] Apparaatgegevensbron [](merge-rules-start.md#create-data-source)maken). U kunt maximaal 3 selecteren [!UICONTROL cross-device data sources] voor gebruik met elke profielregel. De [!UICONTROL Authenticated Profile Options] opties zijn beschikbaar wanneer u kiest **[!UICONTROL Current Authenticated Profiles]** of **[!UICONTROL Last Authenticated Profiles]**.
 
-## Apparaatopties {#device-options}
+## [!UICONTROL Device Options] {#device-options}
 
-Hiermee [!UICONTROL Device Options] kunt u het type *`device profile`* selecteren dat door een [!UICONTROL Profile Merge Rule]. Een apparaatprofiel wordt samengesteld op basis van kenmerken die zijn verzameld op basis van anonieme browseractiviteiten. Een regel voor het samenvoegen van profielen bevat minimaal een geverifieerde optie en een apparaatoptie.
+Hiermee [!UICONTROL Device Options] kunt u het type *`device profile`* selecteren dat door een [!UICONTROL Profile Merge Rule]. Een apparaatprofiel wordt samengesteld op basis van anonieme browseractiviteiten. [!UICONTROL traits] Ten minste, omvat een [!UICONTROL profile merge rule] omvat een [!UICONTROL authenticated option] en een [!UICONTROL device option].
 
 <table id="table_D373FB787D1A4E3485C02C4A76F03395"> 
  <thead> 
@@ -129,9 +129,9 @@ Hiermee [!UICONTROL Device Options] kunt u het type *`device profile`* selectere
  </tbody>
 </table>
 
-## Extern samenvoegingsbeleid {#external-merge-policies}
+## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-De segmenten van het publiek die automatisch van andere oplossingen van Experience Cloud werden gecreeerd, die op fusieregels buiten worden bepaald van [!DNL Audience Manager], worden duidelijk zoals het gebruiken van [!UICONTROL External Merge Policy]. Zie bijvoorbeeld Delen van [publiek tussen Audience Manager en Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+De segmenten van het publiek die automatisch van andere [!DNL Experience Cloud] oplossingen werden gecreeerd, die op fusieregels buiten [!DNL Audience Manager]worden bepaald, worden duidelijk zoals het gebruiken van [!UICONTROL External Merge Policy]. Zie bijvoorbeeld Delen van [publiek tussen Audience Manager en Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
