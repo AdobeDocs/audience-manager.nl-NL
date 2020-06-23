@@ -7,9 +7,9 @@ keywords: GDPR UI, GDPR API, CCPA, privacy
 title: Gegevensprivacyverzoeken
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ U kunt individuele verzoeken om toegang tot en verwijdering van consumentengegev
 * Via de [Privacy Service-interface](https://privacyui.cloud.adobe.io/). Zie de documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
 * Door de **[!DNL Privacy Service API]**. Zie de documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_api_tutorial.md) en de [!DNL API] verwijzing [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
 
-Wanneer het verzenden van individuele verzoeken van de gegevensprivacy, kunt u om het even welke Audience Manager herkenningstekens (IDs) voorleggen, zoals die in de sectie van Herkenningstekens **[van de](data-privacy-ids.md)**Audience Manager, samen met hun respectieve namespace IDs (gegevensbron IDs) worden beschreven.
+Wanneer u individuele verzoeken om gegevensprivacy verzendt, kunt u om het even welke [!DNL Audience Manager] herkenningstekens (IDs), zoals die in de sectie van Herkenningstekens **[van de](data-privacy-ids.md)**Audience Manager worden beschreven, samen met hun respectieve namespace IDs (gegevensbron IDs) voorleggen.
 
 De [Privacy Service](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) steunt twee soorten verzoeken: verzoeken om gegevenstoegang en gegevensverwijdering.
 
@@ -44,9 +44,9 @@ Als u wilt zien hoe een geldig [!DNL JSON] bestand eruitziet, kunt u een voorbee
 
 Wij begrijpen dat u zich ertoe verbindt uw verzoeken om privacy van gegevens binnen de in de wetgeving vastgestelde termijn in acht te nemen.
 
-## Verzoeken om gegevens te verwijderen{#delete-data}
+## Verzoeken om gegevens te verwijderen {#delete-data}
 
-U kunt verzoeken om gegevensverwijdering verzenden via de [Privacy Service-interface](https://privacyui.cloud.adobe.io/) ( [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)documentatie) of door de [!DNL Privacy Service API] ( [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) documentatie en API-referentie [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)) aan te roepen.
+U kunt verzoeken om gegevensverwijdering verzenden via de [Privacy Service-interface](https://privacyui.cloud.adobe.io/) (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) of door de [!DNL Privacy Service API] (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) en [!DNL API] referentie [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)) aan te roepen.
 
 Met de [Privacy Service-interface](https://privacyui.cloud.adobe.io/) kunt u nieuwe taakaanvragen maken door de [!UICONTROL Request Builder] methode te gebruiken of door een [!DNL JSON] bestand te uploaden.
 
@@ -56,7 +56,7 @@ Adobe begrijpt dat u binnen 30 dagen aan uw verzoeken om privacy van gegevens vo
 
 In antwoord op uw verzoeken om gegevens van de consument te schrappen, [!DNL Audience Manager] schrapt eigenschappen en segmenten verbonden aan het [!DNL Audience Manager] herkenningsteken inbegrepen in het verzoek. Bovendien worden de respectieve [!DNL Audience Manager] id-identificatoren voor de persoon die door [!DNL Audience Manager] en door de respectievelijke id-toewijzingen uit verdere gegevensverzameling is gekozen, verwijderd.
 
-Wanneer u gedeclareerde id&#39;s verzendt, zoals id&#39; [!DNL CRM] s van verschillende apparaten of cookie-id&#39;s, in privacyverzoeken voor gegevens, [!DNL Audience Manager] wordt de vereiste verwijdering uitgevoerd op alle gekoppelde apparaten (maximaal 100 apparaten per gedeclareerde id).
+Wanneer u gedeclareerde id&#39;s verzendt, zoals id&#39; [!DNL CRM] s van verschillende apparaten of id&#39; [!DNL cookie] s, in privacyverzoeken voor gegevens, [!DNL Audience Manager] wordt de vereiste verwijdering uitgevoerd op alle gekoppelde apparaten (maximaal 100 apparaten per gedeclareerde id).
 
 [!DNL Audience Manager] zal proberen activeringspartners over schrappingsverzoeken op de hoogte te brengen door hen te verzenden unsegment informatie voor Subjects van Gegevens die om schrapping van bepaalde gegevens verzoeken. Sommige activeringspartners:
 
@@ -124,14 +124,14 @@ Na een partner-vlakke opt-out met een verklaarde vraag van identiteitskaart:
 * De laatste apparaat-id (unieke gebruikersnaam[van](../../reference/ids-in-aam.md)Audience Manager) die is gekoppeld aan de [CRM-id](../../reference/ids-in-aam.md) , wordt niet meer verzameld.
 * [!DNL Audience Manager] alle gegevensverzameling, segmentatie of activering van de [!DNL CRM] id en de laatste apparaat-id die aan de [!DNL CRM] id is gekoppeld, stopzetten;
 * [!DNL Audience Manager] ontsegmenteert opted-out [!DNL CRM] identiteitskaart en laatste apparatenidentiteitskaart van alle segmenten;
-* De partners van de bestemming ontvangen unsegment verzoek om identiteitskaart en laatste [!DNL CRM] apparatenidentiteitskaart Unsegmentation werkt voor zowel [real time](data-privacy-requests.md#aam-partners-with-unsegmentation) als partijbestemmingen.
+* [!UICONTROL Destination] de partners ontvangen unsegment verzoek om identiteitskaart en [!DNL CRM] laatste apparatenidentiteitskaart Unsegmentation werkt voor zowel [real time](data-privacy-requests.md#aam-partners-with-unsegmentation) als partijbestemmingen.
 * Er worden geen historische gegevens verwijderd.
 
 Wanneer [!DNL Audience Manager] een partner-vlakke opt-out verzoek ontvangt, bevat [!DNL JSON] teruggekeerd door [!DNL DCS] de [foutencode 171](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), met het bericht [!UICONTROL "Encountered opt out tag"], in plaats van [!DNL Audience Manager] gebruiker - identiteitskaart
 
 U kunt een gedeclareerde id-aanvraag voor een opt-out indienen met de paren `d_cid` en `d_cid_ic` sleutelwaarden. De oudere parameters werken `d_dpid` `d_dpuuid` nog steeds, maar worden beschouwd als afgekeurd. Zie [CID vervangt DPID en DPUUID](../../reference/cid.md). In de voorbeelden geeft *cursief* een plaatsaanduiding voor variabelen aan.
 
-#### Uitschakelen met CID en CID_IC
+#### Weigeren met [!DNL CID] en [!DNL CID_IC]
 
 Zie [URL-variabelen en syntaxis voor gedeclareerde id&#39;s voor een beschrijving en syntaxis](../../features/declared-ids.md#variables-and-syntax).
 
@@ -162,7 +162,7 @@ Na een partner-vlakke opt-out met een vraag van apparaatidentiteitskaart:
 * De partners van de bestemming ontvangen unsegment verzoek om apparatenidentiteitskaart Unsegmentation werkt voor zowel [real time](data-privacy-requests.md#aam-partners-with-unsegmentation) als partijbestemmingen.
 * Er worden geen historische gegevens verwijderd.
 
-## Audience Manager Partners met unsegmentation-mogelijkheden {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] Partners met onsegmenteringsmogelijkheden {#aam-partners-with-unsegmentation}
 
 Om u te helpen uw verzoeken van de privacy van consumentengegevens automatiseren, [!DNL Audience Manager] zal proberen om activeringspartners op de hoogte te brengen over schrappingsverzoeken van de Onderwerpen van Gegevens door hen te verzenden unsegment (of segment) informatie te verwijderen.
 
@@ -177,6 +177,6 @@ Raadpleeg de [lijst van op apparaat-gebaseerde bestemmingen](/help/using/feature
 
 ## Verzoeken om gegevenscorrectie {#correction}
 
-Aangezien [!DNL Audience Manager] dit niet de bron van de gegevens is, is er een beperkte rol voor gegevenscorrectie in [!DNL Audience Manager]. De correctie zou kunnen betekenen dat de consument heeft verzocht om hetzij van een onjuist kenmerk/segment te worden uitgesloten, hetzij te worden gekwalificeerd tot het gewenste kenmerk/segment.
+Aangezien [!DNL Audience Manager] dit niet de bron van de gegevens is, is er een beperkte rol voor gegevenscorrectie in [!DNL Audience Manager]. De correctie zou kunnen betekenen dat de consument heeft verzocht niet-gekwalificeerd te zijn voor een onjuiste [!UICONTROL trait]/[!UICONTROL segment] of gekwalificeerd te zijn voor de gewenste [!UICONTROL trait]/[!UICONTROL segment].
 
-[!DNL Audience Manager] klanten kunnen de relevante signalen/traits/segmenten tegen gebruikersprofielen vangen en deze informatie door [off-line gegevensopname](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar [!DNL Audience Manager]. verzenden Houd er rekening mee dat de gebruiker gekwalificeerd blijft voor de oorspronkelijke kenmerken en segmenten als deze hun gedrag herhalen.
+[!DNL Audience Manager] klanten kunnen de relevante signalen/traits/segmenten tegen gebruikersprofielen vangen en deze informatie door [off-line gegevensopname](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar [!DNL Audience Manager]. verzenden De gebruiker blijft gekwalificeerd voor het origineel [!UICONTROL trait] en [!UICONTROL segments] als hij of zij zijn of haar gedrag herhaalt.
