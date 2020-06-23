@@ -8,75 +8,36 @@ title: Adresseerbaar publiek
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
 
 
-# Adresseerbaar publiek {#addressable-audiences}
+# [!UICONTROL Addressable Audiences] {#addressable-audiences}
 
 Een overzicht van de [!UICONTROL Addressable Audience] functie en gebruiksgevallen.
 
-## Wat is een adresseerbaar publiek? {#addressable-audience-description}
+## Wat is een [!UICONTROL Addressable Audience]probleem? {#addressable-audience-description}
 
 De [!UICONTROL Addressable Audiences] functie toont de overlap tussen het publiek dat u over al uw eigenschappen ziet waar gegevens en uw geselecteerde bestemming worden [!DNL Audience Manager] verzameld. Om u te helpen dit concept begrijpen, neem een blik hieronder op de illustratie. De overlapping tussen elke cirkel vertegenwoordigt de verschillende soorten adresseerbare soorten publiek.
 
 ![](assets/addressableAudienceVenn.png)
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrisch </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-    <tr> 
-   <td colname="col1"> <p> <b>Adresseerbare Publiek van de Audience Manager voor een Bestemming</b> </p> </td> 
-   <td colname="col2"> <p>Een telling van alle apparaten die met alle klanten van de Audience Manager op platform-niveau tijdens de rapportterugblik periode hebben gecommuniceerd en die met uw gekozen bestemming zouden kunnen worden aangepast. </p> <p>Deze metrisch is nuttig omdat het u toont: </p> <p> 
-     <ul id="ul_67A82A40C7A64457822272B45D2817FC"> 
-      <li id="li_DAEFB565CE774F68AA29274A021F1E5A"> De grootte van het totale adresseerbare publiek dat de <span class="keyword"> Audience Manager</span> op een bepaalde gericht bestemming kan bereiken. </li> 
-      <li id="li_AF26F88068CA44F7B5C4C42DE5E21055">Hoe groot is de <span class="keyword"> Audience Manager</span> -profielpool voor een doelplatform en de grootte van hun publiek. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Klanttotaal publiek</b> </p> </td> 
-   <td colname="col2"> <p>Een telling van apparaten die of een op regel-gebaseerde eigenschap op uw eigenschappen of een onbeheerd spoor van uw off-line dossiers tijdens het terugblik-achtervenster hebben gerealiseerd. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Adresseerbare Poortverhouding van het publiek</b> </p> </td> 
-   <td colname="col2"> 
-    <draft-comment> 
-     <p>Een telling van overlapping van apparaten die of een op regel-gebaseerd bezit of een ongebogen eigenschap tijdens het terugblik-achtervenster en apparaten hebben dat wij een identiteitskaart synchronisatie met de gekozen bestemming ongeacht de tijd van syncs hebben. </p> 
-    </draft-comment> <p>Deze metrische waarde vertegenwoordigt apparaten die: 
-     <ul id="ul_B609B402A29D44898DF0B1ABC6011D40"> 
-      <li id="li_27A530DE2AEB48069BECFB2D78E94C4E">Tijdens het terugkijkvenster een op regel gebaseerd of een ongebogen kenmerk hebben bereikt <b>EN</b> </li> 
-      <li id="li_47C44ECAEC5844DEB11C6A93C8F061BB">Identiteitssynchronisatie hebben met de gekozen bestemming ongeacht de tijd van syncs. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Klantenovereenkomst</b> </p> </td> 
-   <td colname="col2"> <p>Klantadresseerbare doelgroep:totaalpubliek van klant uitgedrukt als %. </p> </td> 
-  </tr>
-   <tr> 
-   <td colname="col1"> <p> <b>Totale segmentpopulatie</b> </p> </td> 
-   <td colname="col2"> <p>Een telling van alle apparaten die een lid van uw segment tijdens de periode van de rapportterugblik waren. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment adresseerbaar publiek</b> </p> </td> 
-   <td colname="col2"> <p>Het aantal gebruikers die tot het segment tijdens de rapportterugblik periode behoorden en een actieve synchronisatie van identiteitskaart op uw plaats hebben. Segmenten kunnen uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij bevatten, via transacties die in de <a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md"> Audience Marketplace</a>zijn aangeschaft. </p> <p> <p>Tip: Wanneer gebruikt met de periode van de 1 dag terugblik-rug, kan metrisch u helpen de huidige staat van uw segmenten begrijpen. Dit is omdat <span class="wintitle"> Segment Adressable Metrisch van het Publiek</span> de gebruikers vertegenwoordigt die in een segment door de vorige dag bleven. Combineer dit met het feit dat de <span class="keyword"> Audience Manager</span> <span class="wintitle"> Adresseerbare Soorten van publiek</span> dagelijks vernieuwt, combinerend deze metrische en raadplegingsperiode de meest bijgewerkte momentopname van uw segmenten verstrekt. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Afstandsfrequentie</b> </p> </td> 
-   <td colname="col2"> <p>Segment adresseerbare Publiek HT totale segmentpopulatie uitgedrukt als %. </p> </td> 
-  </tr>  
- </tbody> 
-</table>
 
-## Adresseerbare interface van het publiek {#addressable-audience-interface}
+| Metrisch | Beschrijving |
+|---|---|
+| [!UICONTROL Audience Manager Addressable Audience] voor een [!UICONTROL Destination] | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op platform-niveau tijdens de rapportterugblik periode hebben interactie gehad en die met uw gekozen zouden kunnen worden aangepast [!UICONTROL destination]. <br><br>Deze metrisch is nuttig omdat het u toont: <ul><li>De grootte van het totaal [!UICONTROL addressable audience] dat op een bepaalde gerichte doelstelling [!DNL Audience Manager] kan bereiken [!UICONTROL destination].</li><li>Hoe groot is de [!DNL Audience Manager] profielpool voor een doelplatform en de grootte van hun publiek.</li></ul> |
+| [!UICONTROL Customer Total Audience] | Een aantal apparaten die of een [!UICONTROL rule-based trait] op uw eigenschappen of een [!UICONTROL onboarded trait] van uw off-line dossiers tijdens het terugblik-achtervenster hebben gerealiseerd. |
+| [!UICONTROL Addressable Audience Match Rate] | Een telling van overlapping van apparaten die of een [!UICONTROL rule-based trait] of een [!UICONTROL onboarded trait] tijdens het terugblik-achtervenster en apparaten hebben dat wij een identiteitskaart synchronisatie met gekozen [!UICONTROL destination] ongeacht de tijd van syncs hebben.<br><br>Deze metrische waarde vertegenwoordigt apparaten die:<ul><li>Tijdens het terugkijkvenster een [!UICONTROL rule-based] of een [!UICONTROL onboarded trait] gebeurtenis hebben gerealiseerd `AND`</li><li>Een id synchroniseren met de gekozen id, [!UICONTROL destination] ongeacht de tijd van de syncs.</li> |
+| [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] Ht [!UICONTROL Customer Total Audience] uitgedrukt als percentage. |
+| [!UICONTROL Total Segment Population] | Een telling van alle apparaten die een lid van uw [!UICONTROL segment] tijdens de rapport terugkerende periode waren. |
+| [!UICONTROL Segment Addressable Audience] | Het aantal gebruikers dat [!UICONTROL segment] tijdens de terugblik-achter periode van het rapport behoorde en een actieve synchronisatie van identiteitskaart op uw plaats hebben. [!UICONTROL Segments] U kunt uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij via [!UICONTROL traits] de [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)opnemen. <br><br>Tip: Wanneer gebruikt met de periode van de 1 dag terugblik-rug, kan metrisch u helpen de huidige staat van uw begrijpen [!UICONTROL segments]. Dit is omdat [!UICONTROL Segment Addressable Audience] metrisch de gebruikers vertegenwoordigt die in een [!UICONTROL segment] door de vorige dag bleven. Combineer dit met het feit dat [!DNL Audience Manager] verfrist [!UICONTROL Addressable Audiences] dagelijks, combinerend deze metrische en raadplegingsperiode de meest bijgewerkte momentopname van uw [!UICONTROL segments]. |
+| [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] Ht [!UICONTROL Total Segment Population] uitgedrukt als percentage. |
+
+## [!UICONTROL Addressable Audiences] Interface {#addressable-audience-interface}
 
 De [!UICONTROL Addressable Audience] functie verandert dit abstracte concept in kwantificeerbare gegevens. In [!DNL Audience Manager]deze functie wordt de publieksoverlapping weergegeven met gegevensvisualisaties die in één oogopslag informatie en numerieke gegevens in tabelvorm verschaffen.
 
@@ -90,9 +51,9 @@ De drie metriek die u op de [!UICONTROL Addressable Audiences] landingspagina ku
 ---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Deze metrische waarde vertegenwoordigt de [!UICONTROL Customer Addressable Audience] (beschreven in de bovenstaande tabel) *voor de laatste 30 dagen.* |
 | **[!UICONTROL Match Rate]** | Deze metrische waarde vertegenwoordigt de [!UICONTROL Addressable Audience Match Rate] (beschreven in de bovenstaande tabel) *voor de laatste 30 dagen*. |
-| **[!UICONTROL Lifetime Addressable Audience (Device)]** | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op platform-niveau tijdens de rapportterugblik periode in wisselwerking hebben gestaan en die met deze bestemming zouden kunnen worden aangepast. Zie Metriek [op](/help/using/features/addressable-audiences.md#platform-level-metrics) Platform-Niveau voor meer informatie. |
+| **[!UICONTROL Lifetime Addressable Audience (Device)]** | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op platform-niveau tijdens de rapportterugblik periode hebben interactie gehad en die met dit zouden kunnen worden aangepast [!UICONTROL destination]. Zie Metriek [op](/help/using/features/addressable-audiences.md#platform-level-metrics) Platform-Niveau voor meer informatie. |
 
-Klik op de naam van een server-aan-server bestemming om uw adresseerbare publieksgegevens te bekijken. Nota, keert deze eigenschap gegevens voor server-aan-server slechts bestemmingen terug en de toegang vereist beheerdertoestemmingen.
+Klik op de naam van een groep [!UICONTROL server-to-server destination] om de adresseerbare gegevens weer te geven. Nota, keert deze eigenschap gegevens voor slechts en de toegang vereist beheerdertoestemmingen terug. [!UICONTROL server-to-server destinations]
 
 ![](assets/addressableAudiences.png)
 
@@ -108,9 +69,9 @@ Alvorens derdegegevens voor publieksverwerving te kopen, kunnen de klanten de ov
 
 ### Mobiele gebruikers en gelijke tarieven
 
-Er zijn leemten wanneer gebruikers van mobiele apps verbinding proberen te maken [!DNL Safari] of wanneer er geen cookies van derden aanwezig zijn. Dit maakt het moeilijk om gebruikers met sommige partners te synchroniseren omdat slechts die [!DNL Adobe] IDs voor gesynchroniseerde derdekoekjes in de media leveringslogboeken worden verstrekt. Dit is een reden waarom u [lage gelijke tarieven](../features/addressable-audiences.md#low-match-rates) voor uw bestemmingen zou kunnen zien.
+Er zijn leemten wanneer u probeert verbinding te maken met gebruikers van mobiele apps [!DNL Safari] of gebruikers van mobiele apps waarbij geen externe [!DNL cookies] deelnemers aanwezig zijn. Dat maakt het moeilijk om gebruikers met sommige partners te synchroniseren omdat slechts die [!DNL Adobe] IDs voor gesynchroniseerde derde in de media leveringslogboeken [!DNL cookies] wordt verstrekt. Dit is een reden waarom je misschien [lage match-rates](../features/addressable-audiences.md#low-match-rates) ziet voor je [!UICONTROL destinations].
 
-## Datumbereik in adresseerbare soorten publiek en bestemmingen {#date-ranges}
+## Datumbereik in [!UICONTROL Addressable Audiences] en [!UICONTROL Destinations] {#date-ranges}
 
 Lees de secties hieronder voor beschikbare datumwaaiers en hoe de gegevens uit elk interval in de rapporten voor een [!UICONTROL Addressable Audience] of [!UICONTROL Destination].
 
@@ -141,7 +102,7 @@ Datumbereiken bevatten gegevens voor het geselecteerde tijdinterval of de gesele
 
 En op dag 31 komen deze bezoekers alleen in de 60 dagen, 90 dagen en [!UICONTROL Lifetime] resultaten. Ze zijn ouder dan 30 dagen. Bezoekers verouderen niet buiten het [!UICONTROL Lifetime] interval.
 
-## Adresseerbare peilgegevens {#addressable-audience-metrics}
+## [!UICONTROL Addressable Audiences] Metrisch {#addressable-audience-metrics}
 
 In deze sectie worden de typen metriek beschreven die worden geleverd door [!UICONTROL Addressable Audiences].
 
@@ -151,131 +112,54 @@ In deze sectie worden de typen metriek beschreven die worden geleverd door [!UIC
 
 Deze metriek retourneert gegevens voor kenmerken die worden gerealiseerd wanneer bezoekers naar uw site komen of wanneer u binnenkomende gegevensbestanden verzendt naar [!DNL Audience Manager]. Deze metrische gegevens bieden een uitgebreide weergave van de publieksgrootte voor uw account.
 
-<table id="table_6DC02E219B074BF782EAA0E9DB9495FB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrisch </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Klantadresseerbare doelgroep</b> </p> </td> 
-   <td colname="col2"> 
-    <draft-comment> 
-     <p>Een telling van overlapping van apparaten die of een op regel-gebaseerd bezit of een ongebogen eigenschap tijdens het terugblik-achtervenster en apparaten hebben dat wij een identiteitskaart synchronisatie met de gekozen bestemming ongeacht de tijd van syncs hebben. </p> 
-    </draft-comment> <p>Deze metrische waarde vertegenwoordigt apparaten die: 
-     <ul id="ul_B609B402A29D44898DF0B1ABC6011D40"> 
-      <li id="li_27A530DE2AEB48069BECFB2D78E94C4E">Tijdens het terugkijkvenster een op regel gebaseerd of een ongebogen kenmerk hebben bereikt <b>EN</b> </li> 
-      <li id="li_47C44ECAEC5844DEB11C6A93C8F061BB">Identiteitssynchronisatie hebben met de gekozen bestemming ongeacht de tijd van syncs. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Klanttotaal publiek</b> </p> </td> 
-   <td colname="col2"> <p>Een telling van apparaten die of een op regel-gebaseerde eigenschap op uw eigenschappen of een onbeheerd spoor van uw off-line dossiers tijdens het terugblik-achtervenster hebben gerealiseerd. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Klantenovereenkomst</b> </p> </td> 
-   <td colname="col2"> <p>Klantadresseerbare doelgroep:totaalpubliek van klant uitgedrukt als %. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Metrisch | Beschrijving |
+|---|---|
+| [!UICONTROL Customer Addressable Audience] | Een telling van overlapping van apparaten die of een [!UICONTROL rule-based trait] of een [!UICONTROL onboarded trait] tijdens het terugblik-achtervenster en apparaten hebben dat wij een identiteitskaart synchronisatie met de gekozen bestemming ongeacht de tijd van syncs hebben.<br><br>Deze metrische waarde vertegenwoordigt apparaten die:<ul><li>Tijdens het terugkijkvenster een [!UICONTROL rule-based] of een [!UICONTROL onboarded trait] gebeurtenis hebben gerealiseerd `AND`</li><li>Een id synchroniseren met de gekozen id, [!UICONTROL destination] ongeacht de tijd van de syncs.</li></ul> |
+| [!UICONTROL Customer Total Audience] | Een aantal apparaten die of een [!UICONTROL rule-based trait] op uw eigenschappen of een [!UICONTROL onboarded trait] van uw off-line dossiers tijdens het terugblik-achtervenster hebben gerealiseerd. |
+| [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] Ht [!UICONTROL Customer Total Audience] uitgedrukt als percentage. |
 
 ### Identieke cijfers op segmentniveau {#segment-level-metrics}
 
-Deze metriek keert gegevens over segmentlidmaatschap terug. Ze helpen u een gedetailleerdere en nauwkeurigere weergave van de publieksgrootte voor elk van uw segmenten te bieden.
+Deze cijfers geven gegevens over [!UICONTROL segment] lidmaatschap. Ze zorgen voor een gedetailleerdere en nauwkeurigere weergave van de omvang van het publiek voor elk van uw [!UICONTROL segments]gebruikers.
 
 >[!NOTE]
 >
->De manier het terugblik-achtervenster wordt toegepast op het segmentniveau is verschillend van dat op het klantenniveau. Bezoekers kunnen 10 dagen geleden naar de site komen en een kenmerk realiseren. Sindsdien kunnen ze in aanmerking komen voor een segment en 2 dagen geleden uit het segment vallen. Wanneer de terugblik van 7 dagen wordt toegepast, zullen deze bezoekers op het segmentniveau maar niet op het klantenniveau worden geteld.
+>De manier waarop het terugblik-achtervenster op het [!UICONTROL segment] niveau wordt toegepast is verschillend van dat op het klantenniveau. Bezoekers kunnen 10 [!UICONTROL trait] dagen geleden naar de site komen en ze kunnen [!UICONTROL segment] sindsdien in aanmerking komen voor een vergoeding en de [!UICONTROL segment] 2 dagen geleden verlaten. Wanneer de terugblik van 7 dagen wordt toegepast, zullen deze bezoekers op het [!UICONTROL segment] niveau maar niet op het klantenniveau worden geteld.
 
-<table id="table_4185AA02CC774B6C93B02E45F88BBBD9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrisch </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Segment adresseerbaar publiek</b> </p> </td> 
-   <td colname="col2"> <p>Het aantal gebruikers die tot het segment tijdens de rapportterugblik periode behoorden en een actieve synchronisatie van identiteitskaart op uw plaats hebben. Segmenten kunnen uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij bevatten, via transacties die in de <a href="../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md"> Audience Marketplace</a>zijn aangeschaft. </p> <p> <p>Tip: Wanneer gebruikt met de periode van de 1 dag terugblik-rug, kan metrisch u helpen de huidige staat van uw segmenten begrijpen. Dit is omdat <span class="wintitle"> Segment Adressable Metrisch van het Publiek</span> de gebruikers vertegenwoordigt die in een segment door de vorige dag bleven. Combineer dit met het feit dat de <span class="keyword"> Audience Manager</span> <span class="wintitle"> Adresseerbare Soorten van publiek</span> dagelijks vernieuwt, combinerend deze metrische en raadplegingsperiode de meest bijgewerkte momentopname van uw segmenten verstrekt. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Totale segmentpopulatie</b> </p> </td> 
-   <td colname="col2"> <p>Een telling van alle apparaten die een lid van uw segment tijdens de periode van de rapportterugblik waren. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Afstandsfrequentie</b> </p> </td> 
-   <td colname="col2"> <p>Segment adresseerbare Publiek HT totale segmentpopulatie uitgedrukt als %. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Metrisch | Beschrijving |
+|---|---|
+| [!UICONTROL Segment Addressable Audience] | Het aantal gebruikers dat [!UICONTROL segment] tijdens de terugblik-achter periode van het rapport behoorde en een actieve synchronisatie van identiteitskaart op uw plaats hebben. Segmenten kunnen uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij bevatten, via [!UICONTROL traits] overgenomen in de [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Tip: Wanneer gebruikt met de periode van de 1 dag terugblik-rug, kan metrisch u helpen de huidige staat van uw begrijpen [!UICONTROL segments]. Dit is omdat [!UICONTROL Segment Addressable Audience] metrisch de gebruikers vertegenwoordigt die in een [!UICONTROL segment] door de vorige dag bleven. Combineer dit met het feit dat [!DNL Audience Manager] verfrist [!UICONTROL Addressable Audiences] dagelijks, combinerend deze metrische en raadplegingsperiode de meest bijgewerkte momentopname van uw [!UICONTROL segments]. |
+| [!UICONTROL Total Segment Population] | Een telling van alle apparaten die een lid van uw [!UICONTROL segment] tijdens de rapport terugkerende periode waren. |
+| [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] Ht [!UICONTROL Total Segment Population] uitgedrukt als percentage. |
 
 ### Metriek op Platform-niveau {#platform-level-metrics}
 
 Deze metrische winst gegevens over activiteiten die over alle [!DNL Audience Manager] klanten worden verzameld. Zij kunnen een breder beeld van het publiek van de klant in vergelijking met de samengevoegde [!DNL Audience Manager] klanten verstrekken.
 
-<table id="table_B6654D9858FF46AF95B1C181D4608D26"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrisch </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Adresseerbare doelgroep van Audience Manager</b> </p> </td> 
-   <td colname="col2"> <p>Een telling van alle apparaten die met alle klanten van de Audience Manager op platform-niveau tijdens de rapportterugblik periode hebben gecommuniceerd en die met uw gekozen bestemming zouden kunnen worden aangepast. </p> <p>Deze metrisch is nuttig omdat het u toont: </p> <p> 
-     <ul id="ul_67A82A40C7A64457822272B45D2817FC"> 
-      <li id="li_DAEFB565CE774F68AA29274A021F1E5A"> De grootte van het totale adresseerbare publiek dat de <span class="keyword"> Audience Manager</span> op een bepaalde gericht bestemming kan bereiken. </li> 
-      <li id="li_AF26F88068CA44F7B5C4C42DE5E21055">Hoe groot is de <span class="keyword"> Audience Manager</span> -profielpool voor een doelplatform en de grootte van hun publiek. </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Metrisch | Beschrijving |
+|---|---|
+| [!DNL Audience Manager] [!UICONTROL Addressable Audience] | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op platform-niveau tijdens de rapportterugblik periode hebben interactie gehad en die met uw gekozen zouden kunnen worden aangepast [!UICONTROL destination]. <br><br>Deze metrisch is nuttig omdat het u toont:<ul><li>De grootte van [!UICONTROL total addressable audience] die op een bepaalde gericht bestemming [!DNL Audience Manager] kan bereiken.</li><li>Hoe groot is de [!DNL Audience Manager] profielpool voor een doelplatform en de grootte van hun publiek.</li></ul> |
 
-## Het vergelijken van Klant en Segment Adresseerbare Publiek{#comparing-metrics}
+## Vergelijken [!UICONTROL Customer] en [!UICONTROL Segment Addressable Audiences] {#comparing-metrics}
 
 U zou niet de [!UICONTROL Customer Addressable Audience] en [!UICONTROL Segment Addressable Audience] metriek moeten vergelijken om te bepalen als één beduidender is dan andere. Dit zijn afzonderlijke, verschillende en onafhankelijke meetgegevens. Zoals in de bovenstaande definities is beschreven, zijn deze allemaal afgeleid van verschillende gegevenssets. In dat geval hoeft u geen conclusies te trekken als de ene meting groter is dan de andere. Het enige wat u kunt zeggen bij een vergelijking is:
 
-* [!UICONTROL Customer Addressable Audiences] is gebaseerd op de realisatie van de eigenschap *voor uw eigen gegevens* van de eerste partij. Deze metrisch verstrekt een brede, uitvoerige mening van uw integratie met een gegevenspartner.
+* [!UICONTROL Customer Addressable Audiences] is gebaseerd op [!UICONTROL trait] realisaties *voor uw eigen gegevens* van de eerste partij. Deze metrisch verstrekt een brede, uitvoerige mening van uw integratie met een gegevenspartner.
 
-* [!UICONTROL Segment Addressable Audiences] is gebaseerd op segmentkwalificaties *voor uw eigen gegevens van de eerste partij, plus gegevens* van de tweede en derde partij. Deze metrisch verstrekt korrelige, nauwkeurigere mening van uw adresseerbare publiek in een gericht platform.
+* [!UICONTROL Segment Addressable Audiences] is gebaseerd op segmentkwalificaties *voor uw eigen gegevens van de eerste partij, plus gegevens* van de tweede en derde partij. Deze metrisch verstrekt korrelige, nauwkeurigere mening van uw [!UICONTROL addressable audiences] in een gericht platform.
 
-## Oorzaken van lage matchingstarieven voor adresseerbare soorten publiek {#low-match-rates}
+## Oorzaken van lage matchingstarieven voor [!UICONTROL Addressable Audiences] {#low-match-rates}
 
 Veelvoorkomende elementen die verantwoordelijk zijn voor lage [!UICONTROL Addressable Audience] match-percentages of discrepanties in gerapporteerde getallen.
 
-<!-- addressable-audiences.xml -->
+| Oorzaak | Beschrijving |
+|---|---|
+| Mobiel verkeer | De meeste [!UICONTROL server-to-server] integraties zijn afhankelijk van synchronisatieprocessen die door derden worden gefaciliteerd [!DNL cookies]. Mobiele omgevingen maken echter geen gebruik van derden [!DNL cookies]. Hierdoor kunnen uw [!UICONTROL Addressable Audiences] getallen laag lijken in vergelijking met de [!UICONTROL segment] grootte. <br><br>Vanaf januari 2018 kunt u mobiele doelgroepen activeren op dezelfde [!DNL Google] en [!DNL Adobe Advertising Cloud] bestemmingen als voor [!UICONTROL cookie-based] doelgroepen. Hoewel dit betekent dat u [!UICONTROL segments] met gecombineerd [!DNL cookie] en mobiel id-lidmaatschap naar uw [!DNL Google] en [!DNL Advertising Cloud] doelen kunt verzenden, moet u er rekening mee houden dat [!UICONTROL Addressable Audiences] alleen de overlapping tussen [!DNL cookie] id&#39;s en doelen wordt weergegeven. [!DNL Audience Manager] 100 % van de mobiele doelgroepen wordt naar het mobiele publiek gestuurd [!UICONTROL destinations], maar mobiele doelgroepen worden niet met de [!UICONTROL Addressable Audience] meetnorm gemeten. <br><br>**Opmerking **: Neem bijvoorbeeld een bestand[!UICONTROL segment]met een populatie van 1.000.000. Als u dit[!UICONTROL segment]aan een[!DNL Google]of[!DNL Adobe Advertising Cloud]bestemming in kaart brengt, zou u een[!UICONTROL Addressable Audience]van 700.000 apparaten en een[!UICONTROL Match Rate]van 70% kunnen zien. Het lidmaatschap van 700.000 bestaat uit[!DNL cookie]id&#39;s die een id hebben die synchroon is met de[!UICONTROL destination]id. Uw[!UICONTROL Addressable Audience]kan zelfs veel hoger zijn, omdat adresseerbare mobiele id&#39;s niet in deze metrische code worden weergegeven. |
+| [!DNL Safari] Verkeer | [!DNL Safari] blokkeert derden [!DNL cookies]. Zo voorkomt u dat id&#39; [!DNL Audience Manager] s worden gesynchroniseerd met de [!UICONTROL destination]. Met de introductie van [ITP 2.0](https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/), kunt u verwachten dat u [!UICONTROL addressable audiences] geen [!DNL Safari] gebruikers omvat. |
+| Bijgehouden media-impressies | Vanwege aanbevolen procedures voor advertentieservers worden id-syncs niet binnen advertentietags gemaakt. Klanten die veel offsite advertenties maken, synchroniseren gebruikers niet naar integratie van derden in die omgevingen. Bovendien kan een grote hoeveelheid verzamelde gegevens die de indruk wekken van media [!UICONTROL addressable audience] getallen verlagen. |
 
-<table id="table_895D536F69134330A4F13887ECAFD4F5"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Oorzaak </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Mobiel verkeer</b> </p> </td> 
-   <td colname="col2"> <p>De meeste server-aan-server integraties baseren zich op synchronisatieprocessen die door derdekoekjes worden vergemakkelijkt. Mobiele omgevingen gebruiken echter geen cookies van derden. Dientengevolge, kunnen uw Adresseerbare aantallen van het Publiek laag in vergelijking met segmentgrootte schijnen. </p> <p>Vanaf januari 2018 kunt u mobiele doelgroepen activeren op dezelfde Google- en Adobe Advertising Cloud-doelen die zijn ingesteld voor op cookies gebaseerd publiek. Hoewel dit betekent dat u segmenten met een gecombineerd cookie en een lidmaatschap voor een mobiele id naar uw Google- en Advertising Cloud-doelen kunt verzenden, moet u er rekening mee houden dat adresseerbare soorten publiek alleen de overlapping tussen cookie-id's en doelen weergeven. De Audience Manager verzendt 100% van mobiele toedieningen naar bestemmingen, maar de mobiele toedieningen worden niet gemeten door de adresseerbare metrisch van het Publiek. </p> <p> <p><b>Opmerking</b>:  Neem bijvoorbeeld een segment met een populatie van 1.000.000. Als u dit segment toewijst aan een Google- of Adobe Advertising Cloud-bestemming, ziet u mogelijk een adresseerbare Publiek van 700.000 apparaten en een Gelijke Snelheid van 70%. Het lidmaatschap van 700.000 bestaat uit cookie-id's die een id-synchronisatie met de bestemming hebben. Uw adresseerbare publiek zou, in feite, veel hoger kunnen zijn, omdat adresseerbare mobiele IDs niet in deze metrisch verschijnen. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Safari-verkeer</b> </p> </td> 
-   <td colname="col2"> <p>Safari blokkeert cookies van derden. Zo voorkomt u dat Audience Manager id's synchroniseert met het doel. Met de introductie van <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, kunt u uw adresseerbare publiek verwachten om gebruikers niet Safari te omvatten. </p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Bijgehouden media-impressies</b> </p> </td> 
-   <td colname="col2"> <p>Vanwege aanbevolen procedures voor advertentieservers worden id-syncs niet binnen advertentietags gemaakt. Klanten die veel offsite advertenties maken, synchroniseren gebruikers niet naar integratie van derden in die omgevingen. Ook, zou een grote hoeveelheid verzamelde media impressiegegevens adresseerbare aantallen kunnen verminderen. </p> </td>
-  </tr> 
- </tbody> 
-</table>
-
-## Problemen oplossen met adresseerbare soorten publiek {#troubleshooting}
+## Problemen oplossen met [!UICONTROL Addressable Audiences] {#troubleshooting}
 
 Naast het surface gelijke tarieven, kunt u ook gebruiken [!UICONTROL Addressable Audiences] als het oplossen van problemenhulpmiddel.
 
-<!-- addressable-audiences-troubleshooting.xml -->
-
-Bijvoorbeeld, laten wij zeggen u een segment naar een bestemming verzendt en die bestemming toont lage rapporteringsaantallen. Als u de [!UICONTROL Addressable Audience] resultaten controleert, ziet u of dit een technisch probleem is of slechts een geval van lage tarieven. Een lage gelijke tarief toont uw bestemming niet al zo groot voor uw geselecteerde segmenten is. Nochtans, wijst een verschil in de totale adresseerbare publieksaantallen tussen [!DNL Audience Manager] en de bestemming op een integratie, synchronisatie, of ander technisch probleem. Neem in deze gevallen contact op met uw accountmanager.
+Bijvoorbeeld, laten wij zeggen u een segment naar een segment verzendt [!UICONTROL destination] en dat lage rapporteringsaantallen [!UICONTROL destination] toont. Als u de [!UICONTROL Addressable Audience] resultaten controleert, ziet u of dit een technisch probleem is of slechts een geval van lage tarieven. Een lage gelijke tarief toont u [!UICONTROL destination] niet al zo groot voor uw geselecteerde segmenten is. Nochtans, wijst een verschil in de [!UICONTROL total addressable audience] aantallen tussen [!DNL Audience Manager] en [!UICONTROL destination] op een integratie, synchronisatie, of ander technisch probleem. Neem in deze gevallen contact op met uw accountmanager.
