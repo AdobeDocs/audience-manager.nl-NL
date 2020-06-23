@@ -7,12 +7,15 @@ title: Audience Lab
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 0%
 
 ---
 
 
-# Audience Lab {#audience-lab}
+# [!UICONTROL Audience Lab] {#audience-lab}
 
 Maak wederzijds uitsluitende testsegmenten in [!UICONTROL Segment Test Groups] om de doeltreffendheid van verschillende bestemmingen te vergelijken en te meten. U kunt een controlegroep opzij zetten en uw segment in percentages van een geheel verdelen, om doeltreffendheid te testen.
 
@@ -41,7 +44,7 @@ Wanneer u meerdere testgroepen met meerdere testsegmenten maakt, is het misschie
 
 U kunt de testgroepen ook filteren op status. Alle beschikbare statussen worden beschreven in de sectie [Status](../../features/audience-lab/audience-lab.md#status) hieronder.
 
-## Status {#status}
+## [!UICONTROL Status] {#status}
 
 De status van een testgroep kan actief, gepland, gepauzeerd, concept of voltooid zijn. Meer informatie over elk van deze in de onderstaande tabel:
 
@@ -76,7 +79,7 @@ De status van een testgroep kan actief, gepland, gepauzeerd, concept of voltooid
  </tbody>
 </table>
 
-## Handelingen {#actions}
+## [!UICONTROL Actions] {#actions}
 
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
