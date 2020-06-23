@@ -5,7 +5,10 @@ seo-title: Vereisten en overwegingen voor op mensen gebaseerde doelen
 solution: Audience Manager
 title: Vereisten en overwegingen
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: 8b72a42f9458fba97d02d2f16228e7d985ca3463
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +23,9 @@ Hieronder vindt u een overzicht van de behoeften van klanten waaraan u moet vold
 >[!IMPORTANT]
 > Lees dit artikel zorgvuldig door voordat u verdergaat met de implementatiefase.
 
-## Aanmelden voor op mensen gebaseerde doelen {#signing-up}
+## Aanmelden voor [!UICONTROL People-Based Destinations] {#signing-up}
 
-[!DNL People-Based Destinations] is een premiumfunctie die uw ervaring in Audience Manager verbetert door u toe te staan om uw eerste-partijpubliekssegmenten in op mensen-gebaseerde milieu&#39;s te activeren, door uw publiek met aangepaste aanbiedingen op sociale netwerken of door e-mailmarketing te richten.
+[!DNL People-Based Destinations] is een premiumfunctie die uw Audience Manager-ervaring vergroot door u toe te staan om uw eersteklas publiekssegmenten in op mensen gebaseerde omgevingen te activeren, door uw publiek te richten op aangepaste aanbiedingen op sociale netwerken of via e-mailmarketing.
 
 Neem contact op met uw Adobe-vertegenwoordiger om deze premiumfunctie te gebruiken.
 
@@ -40,31 +43,25 @@ Alvorens u kunt gebruiken [!DNL People-Based Destinations] [!DNL Facebook]om uw 
 
 ### [!DNL LinkedIn]
 
->[!IMPORTANT]
->
-> De [!DNL People-Based Destinations] integratie met [!DNL LinkedIn] is momenteel in de bètatestfase en is slechts beschikbaar voor een beperkt aantal klanten.
-> 
-> Zodra de bètatests zijn beëindigd, is deze integratie beschikbaar voor alle klanten van Audience Manager die zich hebben aangemeld voor [!DNL People-Based Destinations].
-
 Voordat u [!DNL People-Based Destinations] de doelsegmenten van de eerste partij naar kunt sturen, moet u ervoor zorgen dat uw [!DNL LinkedIn]account het machtigingsniveau [!DNL LinkedIn Campaign Manager] [!DNL Creative Manager] of hoger heeft.
 
 Als u wilt leren hoe u uw [!DNL LinkedIn Campaign Manager] gebruikersmachtigingen kunt bewerken, raadpleegt u Gebruikersmachtigingen [toevoegen, bewerken en verwijderen voor Advertising Accounts](https://www.linkedin.com/help/lms/answer/5753)
 
 ## Gegevens aan boord {#data-onboarding}
 
-Gegevensinvoer voor [!DNL People-Based Destinations] momenteel ondersteunt maximaal 10 gehashte e-mailadressen gekoppeld aan één klant-id ([!DNL CRM ID]) per batchoverdracht. Het uploaden van meer dan 10 gehakte e-mailadressen verbonden aan één klant identiteitskaart veroorzaakt de Manager van het Publiek om 10 van hen in te voeren, in geen specifieke orde.
+Gegevensinvoer voor [!DNL People-Based Destinations] momenteel ondersteunt maximaal 10 gehashte e-mailadressen gekoppeld aan één klant-id ([!DNL CRM ID]) per batchoverdracht. Het uploaden van meer dan 10 gehakte e-mailadressen verbonden aan één klant identiteitskaart veroorzaakt Audience Manager om 10 van hen in te gaan, in geen specifieke orde.
 
-Als u in meerdere batchoverdrachten meer dan 10 gehashte e-mailadressen uploadt die aan één klant-id zijn gekoppeld, blijft Audience Manager de meest recente 10 toegevoegde e-mailadressen behouden.
+Door meer dan 10 gehashte e-mailadressen te uploaden die aan één klant-id zijn gekoppeld in meerdere batchoverdrachten, behoudt de Audience Manager de meest recente 10 toegevoegde e-mailadressen.
 
 ## Gegevensprivacy {#data-privacy}
 
-Hoewel u [!DNL People-Based Destinations] doelgroepen kunt kiezen op basis van hashed-e-mailadressen die door u zijn geüpload, kunt u nog steeds geen rechtstreeks identificeerbare bezoekersgegevens uploaden naar Audience Manager. In de gegevensinstapfase moet u ervoor zorgen dat de e-mailadressen die u wilt gebruiken, met het [!DNL SHA256] algoritme worden gehasht. Anders kunt u ze niet gebruiken in [!DNL People-Based Destinations].
+Hoewel u [!DNL People-Based Destinations] doelgroepen kunt kiezen op basis van hashed-e-mailadressen die door u zijn geüpload, kunt u nog steeds geen rechtstreeks identificeerbare bezoekersgegevens naar de Audience Manager uploaden. In de gegevensinstapfase moet u ervoor zorgen dat de e-mailadressen die u wilt gebruiken, met het [!DNL SHA256] algoritme worden gehasht. Anders kunt u ze niet gebruiken in [!DNL People-Based Destinations].
 
 ## Gegevenshashing versus codering {#data-hashing-encryption}
 
-Codering is een bidirectionele functie. Gecodeerde informatie kan ook worden gedecodeerd met de juiste decoderingssleutel. Het versleutelen van gegevens in het kader van Audience Manager brengt ernstige risico&#39;s met zich mee, aangezien gecodeerde vormen van persoonlijk identificeerbare gegevens ook kunnen worden gedecodeerd. In tegenstelling tot versleuteling, [!DNL People-Based Destinations] zijn deze in plaats daarvan ontworpen om met gehashte gegevens te werken.
+Codering is een bidirectionele functie. Gecodeerde informatie kan ook worden gedecodeerd met de juiste decoderingssleutel. Het versleutelen van gegevens in het kader van de Audience Manager brengt ernstige risico&#39;s met zich mee, aangezien gecodeerde vormen van persoonlijk identificeerbare informatie ook kunnen worden gedecodeerd. In tegenstelling tot versleuteling, [!DNL People-Based Destinations] zijn deze in plaats daarvan ontworpen om met gehashte gegevens te werken.
 
-Hashing is een eenrichtingsfunctie die de invoer roteert om een uniek resultaat te produceren. Door het gebruiken van juiste het hakken algoritmen, zoals [!DNL SHA256], is er geen manier om de het hakken functie om te keren en de onbezoedelde informatie te openbaren. De e-mailadressen die u aan boord zult gaan aan de Manager van het Publiek moeten met het [!DNL SHA256] algoritme worden gehakt. Op deze manier kunt u ervoor zorgen dat geen ononderbroken e-mailadressen Audience Manager bereiken.
+Hashing is een eenrichtingsfunctie die de invoer roteert om een uniek resultaat te produceren. Door het gebruiken van juiste het hakken algoritmen, zoals [!DNL SHA256], is er geen manier om de het hakken functie om te keren en de onbezoedelde informatie te openbaren. De e-mailadressen die u aan boord aan Audience Manager zult zijn moeten met het [!DNL SHA256] algoritme worden gehakt. Op deze manier kunt u ervoor zorgen dat er geen ononderbroken e-mailadressen bij de Audience Manager terechtkomen.
 
 ## Hashing-vereisten {#hashing-requirements}
 
@@ -81,7 +78,7 @@ Bekijk de onderstaande video om te zien wat de hashingvereisten zijn voor [!UICO
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Met Adobe Experience Cloud kunt u de id&#39;s van klanten via de Adobe Experience Platform Identity Service verbergen. Zie [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) voor gedetailleerde informatie over hoe te om ECID te gebruiken om klant IDs te hakken.
+Met Adobe Experience Cloud kunt u via de Adobe Experience Platform Identity Service de id&#39;s van de klant verbergen. Zie [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) voor gedetailleerde informatie over hoe te om ECID te gebruiken om klant IDs te hakken.
 
 ## Gebruikersmachtiging verkrijgen {#obtaining-user-permission}
 
@@ -89,7 +86,7 @@ Aangezien u [!DNL People-Based Destinations] helpt de gegevens van het eerste pu
 
 Voordat u zich aanmeldt voor [!DNL People-Based Destinations], moet u ervoor zorgen dat uw klanten hiervoor toestemming krijgen voordat u hun informatie voor reclamedoeleinden gebruikt.
 
-Als uw klanten zich willen afmelden voor reclamecampagnes, raadpleegt u [](../../overview/data-security-and-privacy/data-privacy-requests.md) Afmelden voor meer informatie over hoe u Audience Manager kunt beletten gegevens verder te verzamelen.
+Als uw klanten zich willen afmelden voor reclamecampagnes, raadpleegt u [](../../overview/data-security-and-privacy/data-privacy-requests.md) Afmelden voor meer informatie over hoe u kunt voorkomen dat Audience Managers nog meer gegevens verzamelen.
 
 ## Het afdwingen van de Activering van Gegevens van de Eerste Partij {#enforcing-first-party-activation}
 
@@ -99,7 +96,7 @@ Wanneer het gebruiken van [!UICONTROL People-Based Destinations], de Controles [
 
 ## Aan boord voor authentiek verklaarde Hashed IDs door Verklaarde identiteitskaart richtend {#onboard-authenticated-declared-id}
 
-Er zijn twee manieren u uw off-line gegevens aan de Manager van het Publiek voor kunt brengen [!DNL People-Based Destinations].
+Er zijn twee manieren u uw off-line gegevens aan Audience Manager voor kunt brengen [!DNL People-Based Destinations].
 
-* [Verzend batchgegevens](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar Audience Manager om gehashte e-mailadressen in te voeren. Met deze methode kunt u ervoor kiezen om de gehashte e-mailadressen van uw [!DNL CRM] database in te gebruiken [!DNL People-Based Destinations]. Als u deze methode gebruikt, kunt u bovendien ook de gehashte e-mailadressen kwalificeren voor [ongeregistreerde kenmerken](../traits/trait-and-segment-qualification-reference.md).
-* Gebruik [gedeclareerde id&#39;s](../declared-ids.md) om gehashte e-mailadressen te declareren wanneer u geverifieerde klant-id&#39;s doorgeeft. Als u deze methode gebruikt, stuurt Audience Manager namens u alleen de gehashte e-mailadressen naar [!DNL People-Based Destinations] de gebruikers die online zijn geverifieerd. De e-mailadressen die via op personen gebaseerde kanalen worden geactiveerd, zijn alleen de adressen in de gedeclareerde id-gebeurtenisaanroepen. Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in realtime verzonden.
+* [Batchgegevens](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar Audience Manager verzenden om gehashte e-mailadressen in te voeren. Met deze methode kunt u ervoor kiezen om de gehashte e-mailadressen van uw [!DNL CRM] database in te gebruiken [!DNL People-Based Destinations]. Als u deze methode gebruikt, kunt u bovendien ook de gehashte e-mailadressen kwalificeren voor [ongeregistreerde kenmerken](../traits/trait-and-segment-qualification-reference.md).
+* Gebruik [gedeclareerde id&#39;s](../declared-ids.md) om gehashte e-mailadressen te declareren wanneer u geverifieerde klant-id&#39;s doorgeeft. Wanneer u deze methode gebruikt, stuurt Audience Manager namens u alleen de gehashte e-mailadressen naar [!DNL People-Based Destinations] de gebruikers die online zijn geverifieerd. De e-mailadressen die via op personen gebaseerde kanalen worden geactiveerd, zijn alleen de adressen in de gedeclareerde id-gebeurtenisaanroepen. Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in realtime verzonden.
