@@ -1,45 +1,36 @@
 ---
 description: Voeg en verwijder eigenschappen in de Bouwer van het Segment toe om daadwerkelijke vakpopulaties samen met daadwerkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
 seo-description: Voeg en verwijder eigenschappen in de Bouwer van het Segment toe om daadwerkelijke vakpopulaties samen met daadwerkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
-seo-title: Behandelings- en segmentpopulatiegegevens in Segment Builder
+seo-title: Bevolkingsgegevens van het spoor en van het segment in de Bouwer van het Segment
 solution: Audience Manager
-title: Behandelings- en segmentpopulatiegegevens in Segment Builder
+title: Bevolkingsgegevens van het spoor en van het segment in de Bouwer van het Segment
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 translation-type: tm+mt
-source-git-commit: 63d89cac2f18538f56e2f6d0f64257ea9b5788bd
+source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
 
 
-# Behandelings- en segmentpopulatiegegevens in Segment Builder {#trait-and-segment-population-data-in-segment-builder}
+# [!UICONTROL Trait] en [!UICONTROL Segment] Populatiegegevens in [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
-Voeg kenmerken toe en verwijder deze [!UICONTROL Segment Builder] om de werkelijke populaties van de eigenschap te zien, samen met de feitelijke en geschatte gegevens over de segmentpopulatie. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
+Voeg toe en verwijder [!UICONTROL traits] in [!UICONTROL Segment Builder] om daadwerkelijke [!UICONTROL trait] populaties samen met daadwerkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
 
-## Bevolkingsgegevens traceren {#trait-population-data}
+## [!UICONTROL Trait] Populatiegegevens {#trait-population-data}
 
-[!UICONTROL Segment Builder] toont u [!UICONTROL Total Trait Population] voor de laatste dag wanneer u een eigenschap aan een segment toevoegt. Deze gegevens worden weergegeven in het blauwe veld rondom de geselecteerde eigenschap in de [!UICONTROL Basic View] sectie.
+[!UICONTROL Segment Builder] toont u [!UICONTROL Total Trait Population] voor de laatste dag wanneer u een segment [!UICONTROL trait] aan toevoegt. Deze gegevens worden weergegeven in het blauwe veld rondom de geselecteerde [!UICONTROL trait] [!UICONTROL Basic View] sectie.
 
 ![](assets/trait-size.png)
 
-In de volgende tabel worden de maatstaven voor de doelpopulatie gedefinieerd
+In de volgende tabel worden de maatstaven voor de doelpopulatie gedefinieerd:
 
-<table id="table_9D837CF9ACA04D04BEE5925EC0B4A5D2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrisch </th> 
-   <th colname="col2" class="entry"> Beschrijving </th>
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Totale populatie</span> </p> </td>
-   <td colname="col2"> <p>Het aantal unieke id's met de geselecteerde eigenschap in hun profiel. </p> </td>
-  </tr> 
- </tbody> 
-</table>
+
+| Metrisch | Beschrijving |
+---------|----------|
+| [!UICONTROL Total Trait Population] | Het aantal unieke id&#39;s met de geselecteerde eigenschap in hun profiel. |
+
 
 ## Bereken van reële en geschatte segmentpopulaties {#calculating-real-estimated-populations}
 
@@ -98,9 +89,9 @@ In de volgende tabel worden de geschatte bevolkingscijfers weergegeven.
 
 [!UICONTROL Profile Merge Rules] van invloed zijn op de werkelijke aantallen in real time en de totale bevolking. Deze totalen zijn afhankelijk van het feit of het segment [!UICONTROL Profile Merge Rule] behoort tot een apparaatgrafiekoptie of niet. Zie ook: Opties voor [profielsamenvoegregel gedefinieerd](../../features/profile-merge-rules/merge-rule-definitions.md).
 
-### De BevolkingsGegevens van het segment voor de Regels van de Fusie zonder de Optie van de Grafiek van het Apparaat
+### Bevolkingsgegevens segment voor [!UICONTROL Merge Rules] zonder een [!UICONTROL Device Graph Option]
 
-In de volgende tabel worden de werkelijke cijfers voor real-time en de totale bevolking gedefinieerd wanneer uw segmenten worden gebruikt door een segment dat is [!UICONTROL Profile Merge Rule] gemaakt zonder een grafiekoptie voor apparaten. Dit zijn de instellingen voor apparaatopties **[!UICONTROL No Device Options]** en **[!UICONTROL Current Device Proflie]**.
+In de volgende tabel worden de werkelijke cijfers voor real-time en de totale bevolking gedefinieerd wanneer uw segmenten worden gebruikt door een segment dat is [!UICONTROL Profile Merge Rule] gemaakt zonder een [!UICONTROL device graph] optie. Dit zijn de instellingen voor apparaatopties **[!UICONTROL No Device Options]** en **[!UICONTROL Current Device Proflie]**.
 
 <table id="table_A18C973855DB46A0B39B81F32E0E7540"> 
  <thead> 
@@ -125,36 +116,23 @@ In de volgende tabel worden de werkelijke cijfers voor real-time en de totale be
  </tbody> 
 </table>
 
-### De BevolkingsGegevens van het segment voor de Regels van de Fusie met een Optie van de Grafiek van het Apparaat
+### Bevolkingsgegevens segmenteren voor [!UICONTROL Merge Rules] met een [!UICONTROL Device Graph] optie
 
-In de volgende tabel worden de werkelijke cijfers voor real-time en de totale bevolking gedefinieerd wanneer uw segmenten worden gebruikt door een segment dat is [!UICONTROL Profile Merge Rule] gemaakt met een grafiekoptie voor apparaten. Dit zijn de instellingen voor apparaatopties voor de [!UICONTROL Profile Link Device Graph]apparaatgrafiek, de [!DNL Adobe] apparaatgrafiek en andere opties voor apparaatgrafieken die beschikbaar zijn.
+In de volgende tabel worden de werkelijke cijfers voor real-time en de totale bevolking gedefinieerd wanneer uw segmenten worden gebruikt door een [!UICONTROL Profile Merge Rule] object dat met een [!DNL device graph] optie is gemaakt. Dit zijn de instellingen voor apparaatopties voor de [!UICONTROL Profile Link Device Graph], de [!DNL Adobe] en andere [!DNL device graph][!DNL device graph] opties van derden die voor u beschikbaar zijn.
 
-<table id="table_157EC6E5B5C44EB899854CA10B090F60"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Metrisch </th> 
-   <th colname="col2" class="entry"> Beschrijving </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Real-Time Population (bestaand)</span> </p> </td> 
-   <td colname="col2"> <p>Het werkelijke aantal apparaten dat in real time wordt gezien met huidige profielen die, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparatengrafiek worden aangesloten, de eigenschappen bevatten om voor het segment in aanmerking te komen het ogenblik het door <span class="keyword"> Audience Manager</span>werd gezien. </p> </td>
-  </tr>
-  <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Totale populatie (bestaand)</span> </p> </td> 
-   <td colname="col2"> <p>Het totale aantal apparaten met profielen dat, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparaatgrafiek worden aangesloten, allemaal in aanmerking kwamen voor het segment. </p> </td>
-  </tr>
- </tbody>
-</table>
+
+| Kolom A | Kolom B |
+---------|----------|
+| [!UICONTROL Real-Time Population (Existing) ] | Het werkelijke aantal apparaten dat in real time wordt gezien met huidige profielen die, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparatengrafiek worden aangesloten, de eigenschappen bevatten om voor het segment in aanmerking te komen het ogenblik het door Audience Manager werd gezien. |
+| [!UICONTROL Total Population (Existing)] | Het totale aantal apparaten met profielen dat, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparaatgrafiek worden aangesloten, allemaal in aanmerking kwamen voor het segment. |
 
 ### Beperkingen als gevolg van recentie- en frequentieredsies bij het schatten van segmentpopulaties
 
 [!UICONTROL Segment Builder] steunt de schattingen van de segmentgrootte voor segmentregels die tot 4 recentie en frequentiedragers bevatten. Als u bij het samenstellen van een segmentregel meer dan vier recentie- en frequentie-expressies kiest, wordt een fout weergegeven bij het schatten van de populatie.
 
-### Beperkingen vanwege samenvoegingsregels bij het schatten van segmentpopulaties
+### Beperkingen als gevolg van [!UICONTROL Merge Rules] bij schatting van segmentpopulaties
 
-Er is momenteel een bekende beperking omdat onze schatting van de segmentgrootte geen rekening houdt met de regels voor het samenvoegen van profielen. Kijk bijvoorbeeld naar segmenten met de regel **Geen geverifieerd profiel + Huidig apparaatprofiel**[](../../features/profile-merge-rules/merge-rule-definitions.md)samenvoegen. Wegens de manier wij momenteel de aantallen van de segmentraming berekenen, zullen de geschatte populaties voor authentiek verklaarde profielen omvatten. De bestaande segmentpopulaties negeren geverifieerde profielen echter op de juiste wijze.
+Momenteel is er een bekende beperking omdat onze schatting van de segmentgrootte niet in aanmerking komt voor [!UICONTROL profile merge rules]. Kijk bijvoorbeeld naar segmenten met de **[!UICONTROL No Authenticated Profile + Current Device Profile]** samenvoegregel[](../../features/profile-merge-rules/merge-rule-definitions.md). Wegens de manier wij momenteel de aantallen van de segmentraming berekenen, zullen de geschatte populaties voor authentiek verklaarde profielen omvatten. De bestaande segmentpopulaties negeren geverifieerde profielen echter op de juiste wijze.
 
 >[!MORELIKETHIS]
 >
