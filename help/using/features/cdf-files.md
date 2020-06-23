@@ -1,29 +1,27 @@
 ---
-description: Basic information about Customer Data Feed (CDF) files and instructions on how to get started. Start here if you're interested in receiving CDF files or just want more information.
+description: Basisinformatie over CDF-bestanden (Customer Data Feed) en instructies over hoe u aan de slag kunt gaan. Begin hier als u in het ontvangen van CDF- dossiers geinteresseerd bent of enkel meer informatie wilt.
 keywords: second party data;2nd party;2nd party data;second party
-seo-description: Basisinformatie over CDF-bestanden (Customer Data Feed) en instructies over hoe u aan de slag kunt gaan. Start here if you're interested in receiving CDF files or just want more information.
+seo-description: Basisinformatie over CDF-bestanden (Customer Data Feed) en instructies over hoe u aan de slag kunt gaan. Begin hier als u in het ontvangen van CDF- dossiers geinteresseerd bent of enkel meer informatie wilt.
 seo-title: Gegevensinvoer van klant
 solution: Audience Manager
 title: Gegevensinvoer van klant
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 620730ab1596d4777a768de4453b73538671279d
 workflow-type: tm+mt
-source-wordcount: '1890'
+source-wordcount: '1860'
 ht-degree: 0%
 
 ---
 
 
-# Gegevensinvoer van klant {#customer-data-feeds}
+# [!UICONTROL Customer Data Feeds] {#customer-data-feeds}
 
 Basisinformatie over [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) bestanden en instructies voor het aan de slag gaan. Begin hier als u in het ontvangen van [!UICONTROL CDF] dossiers geinteresseerd bent of enkel meer informatie wilt.
 
 ## Bestandsinhoud en doel {#file-contents-purpose}
 
-<!-- cdf-intro.xml -->
-
-A [!UICONTROL CDF] file contains the same data that an [!DNL Audience Manager] event call (`/event`) sends to our servers. Dit omvat gegevens zoals gebruiker IDs, eigenschap IDs, segment IDs, en alle andere parameters die door een gebeurtenisvraag worden gevangen. Interne [!DNL Audience Manager] systemen verwerken gebeurtenisgegevens in een [!UICONTROL CDF] bestand met inhoud die is ingedeeld in velden die in een ingestelde volgorde worden weergegeven. [!DNL Audience Manager] probeert [!UICONTROL CDF] bestanden per uur te genereren en slaat deze op in een beveiligd, klantspecifiek emmertje op een [!DNL Amazon S3] server. Deze bestanden zijn beschikbaar zodat u buiten de grenzen van de gebruikersinterface kunt werken met [!DNL Audience Manager] gegevens.
+Een [!UICONTROL CDF] bestand bevat dezelfde gegevens die een [!DNL Audience Manager] gebeurtenisaanroep (`/event`) naar onze servers verzendt. Dit omvat gegevens zoals gebruiker IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs]en alle andere parameters die door een gebeurtenisvraag worden gevangen. Interne [!DNL Audience Manager] systemen verwerken gebeurtenisgegevens in een [!UICONTROL CDF] bestand met inhoud die is ingedeeld in velden die in een ingestelde volgorde worden weergegeven. [!DNL Audience Manager] probeert [!UICONTROL CDF] bestanden per uur te genereren en slaat deze op in een beveiligd, klantspecifiek emmertje op een [!DNL Amazon S3] server. Deze bestanden zijn beschikbaar zodat u buiten de grenzen van de gebruikersinterface kunt werken met [!DNL Audience Manager] gegevens.
 
 >[!NOTE]
 >
@@ -42,13 +40,11 @@ Bestandsmeldingen en [!UICONTROL CDF] bestanden worden in uw [!DNL S3] emmertje 
 
 De onderstaande secties en de veelgestelde vragen over [klantgegevens](../faq/faq-cdf.md) kunnen u helpen vertrouwd te raken met deze service.
 
-## Inhoud van feed-gegevens van klant gedefinieerd {#cdf-defined}
+## [!UICONTROL Customer Data Feed] Gedefinieerde inhoud {#cdf-defined}
 
 Hiermee geeft u de gegevenselementen en arrays in een [!UICONTROL CDF] bestand op volgorde van weergave weer en definieert u deze. Definities omvatten gegevenstypen, maar deze informatie maakt geen deel uit van een [!UICONTROL CDF] bestand.
 
 ## Definities {#definitions}
-
-<!-- cdf-contents-defined.xml -->
 
 Een [!UICONTROL CDF] bestand bevat enkele of alle hieronder gedefinieerde velden. Voor informatie over interne dossierorganisatie, zie de Structuur [van het Dossier van het Gegevensvoer van de](#cdf-file-structure)Klant.
 
@@ -123,13 +119,11 @@ Een [!UICONTROL CDF] bestand bevat enkele of alle hieronder gedefinieerde velden
  </tbody> 
 </table>
 
-## Bestandsstructuur voor klantgegevens {#cdf-file-structure}
+## [!UICONTROL Customer Data Feed] Bestandsstructuur {#cdf-file-structure}
 
 Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] bestand weer en definieert u deze. Dit omvat gegevensreeksen, gebiedsscheidingen en scheidingstekens, een kaart van het gegevensdossier, en steekproefdossier.
 
 ## Id&#39;s en volgorde van gegevensvelden {#identifiers-and-sequence}
-
-<!-- cdf-file-structure.xml -->
 
 [!UICONTROL CDF] bestanden bevatten geen gelabelde kolommen of veldkoppen. In plaats daarvan definieert een [!UICONTROL CDF] bestand velden en arrays met niet-afdrukbare [!DNL ASCII] tekens. Bovendien worden in het [!UICONTROL CDF] bestand elk veld en elke array in een specifieke volgorde weergegeven. Als u de veld-id&#39;s en de volgorde begrijpt, kunt u het bestand op de juiste wijze parseren.
 
@@ -170,7 +164,7 @@ Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] bestand weer en de
  </tbody> 
 </table>
 
-## CDF-bestandstoewijzing {#cdf-file-map}
+## [!UICONTROL CDF] Bestandstoewijzing {#cdf-file-map}
 
 [!UICONTROL CDF] bestandsgegevens worden weergegeven in de volgorde hieronder.
 
@@ -178,21 +172,19 @@ Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] bestand weer en de
 
 ## Arrays identificeren
 
-Arrays in een [!UICONTROL CDF] bestand beginnen en eindigen met het `Ctrl + a` veldscheidingsteken. Hierdoor lijkt het eerste element in een array op een zelfstandig gegevensveld. De gerealiseerde array traits begint bijvoorbeeld met `^A1234`. Deze vermelding wordt `^B5678` gevolgd door het scheidingsteken voor arrays en de id. Als gevolg hiervan zou u geneigd kunnen zijn om te denken dat het eerste element in de gerealiseerde array met eigenschappen ID 5678 is (omdat het begint met `^B`). Dit is niet het geval, en daarom moet u met de opeenvolging en de structuur van een gegevensdossier vertrouwd zijn. Hoewel het eerste element in de gerealiseerde array trait (of een van de andere arrays in een [!UICONTROL CDF] bestand) begint met `^A`, wordt het begin van een array gedefinieerd door de volgorde van weergave of positie in het bestand. En het eerste element in een array wordt altijd gescheiden van de voorgaande vermelding door `^A`.
+Arrays in een [!UICONTROL CDF] bestand beginnen en eindigen met het `Ctrl + a` veldscheidingsteken. Hierdoor lijkt het eerste element in een array op een zelfstandig gegevensveld. De gerealiseerde [!UICONTROL traits] array begint bijvoorbeeld met `^A1234`. Deze vermelding wordt `^B5678` gevolgd door het scheidingsteken voor arrays en de id. Als gevolg hiervan zou u geneigd kunnen zijn te denken dat het eerste element in de gerealiseerde [!UICONTROL traits] array ID 5678 is (omdat het begint met `^B`). Dit is niet het geval, en daarom moet u met de opeenvolging en de structuur van een gegevensdossier vertrouwd zijn. Hoewel het eerste element in de gerealiseerde [!UICONTROL trait] array (of een van de andere arrays in een [!UICONTROL CDF] bestand) begint met `^A`, definieert de volgorde van weergave of positie in het bestand het begin van een array. En het eerste element in een array wordt altijd gescheiden van de voorgaande vermelding door `^A`.
 
-## Voorbeeld-CDF-bestand {#sample-file}
+## Voorbeeldbestand [!UICONTROL CDF] {#sample-file}
 
 Een voorbeeldbestand kan er [!UICONTROL CDF] ongeveer als volgt uitzien. In dit voorbeeld zijn regeleinden ingevoegd om deze aan te passen aan de pagina.
 
 ![](assets/CDF-sample.png)
 
-## Naamgevingsconventies voor bestanden met namen van klantgegevens {#cdf-naming-conventions}
+## [!UICONTROL Customer Data Feed] Naamgevingsconventies voor bestanden {#cdf-naming-conventions}
 
 In de onderstaande secties worden de elementen in uw [!UICONTROL CDF] bestandsnaam weergegeven en gedefinieerd.
 
-## CDF-bestandsnaam: Syntaxis en voorbeeld {#cdf-file-name}
-
-<!-- cdf-file-name.xml -->
+## [!UICONTROL CDF] Bestandsnaam: Syntaxis en voorbeeld {#cdf-file-name}
 
 Een typische [!UICONTROL CDF] bestandsnaam bevat de onderstaande elementen. Opmerking: *cursief* geeft een plaatsaanduiding voor variabelen aan:
 
@@ -210,7 +202,7 @@ s3://aam-cdf/dataCompany/day=2017-09-14/hour=17/AAM_CDF_1234_000058_0.gz
 
 In uw [!DNL S3] opslagemmer, worden de dossiers gesorteerd in stijgende orde door identiteitskaart van de Partner ([!UICONTROL PID]), dag, en uur.
 
-## CDF-bestandsnaamelementen gedefinieerd {#cdf-file-name-elements}
+## [!UICONTROL CDF] Bestandsnaamelementen gedefinieerd {#cdf-file-name-elements}
 
 In de volgende tabel worden de elementen in een [!UICONTROL CDF] bestandsnaam weergegeven en gedefinieerd.
 
@@ -253,13 +245,11 @@ In de volgende tabel worden de elementen in een [!UICONTROL CDF] bestandsnaam we
  </tbody> 
 </table>
 
-## Meldingen voor bestandsverwerking door klantgegevens {#cdf-file-processing-notifications}
+## [!UICONTROL Customer Data Feed] Meldingen voor bestandsverwerking {#cdf-file-processing-notifications}
 
 [!DNL Audience Manager] schrijft een `.info` bestand naar uw [!DNL S3] map om u te laten weten wanneer uw [!UICONTROL Customer Data File] ([!UICONTROL CDF]) kan worden gedownload. Het `.info` bestand bevat ook [!DNL JSON] opgemaakte metagegevens over de inhoud van uw [!UICONTROL CDF] bestanden. Controleer deze sectie voor informatie over de syntaxis en de gebieden die door dit berichtdossier worden gebruikt.
 
 ## Voorbeeldgegevensbestand {#sample-info-file}
-
-<!-- cdf-notifications.xml -->
 
 Elk `.info` bestand bevat een `Files` en een `Totals` sectie. De `Files` sectie bevat een array met specifieke meetgegevens voor elk uurbestand. De `Totals` sectie bevat cijfers die voor een bepaalde dag in al uw [!UICONTROL CDF] bestanden zijn geaggregeerd. De inhoud van het `.info` bestand kan er ongeveer als volgt uitzien.
 
@@ -358,13 +348,11 @@ In de volgende tabellen worden de elementen in een [!UICONTROL CDF] `.info` best
  </tbody> 
 </table>
 
-## De tijden van de Naam van het Dossier van het Dossier van de Invoer van de Gegevens van de Klant en de Tijd van de Inhoud van het Dossier zijn verschillend {#different-processing-times}
+## [!UICONTROL Customer Data Feed] Tijdstippen voor bestandsnaam en bestandsinhoud verschillen {#different-processing-times}
 
-Het [!UICONTROL CDF] bestand bevat tijdstempels in de bestandsnaam en -inhoud. Deze tijdstempels registreren verschillende gebeurtenisprocessen voor hetzelfde [!UICONTROL CDF] bestand. Het is niet ongebruikelijk om verschillende tijdstempels in de naam en inhoud van het zelfde dossier te zien. Wanneer u deze gegevens gebruikt of probeert te sorteren, kunt u algemene fouten voorkomen.
+Het [!UICONTROL CDF] bestand bevat tijdstempels in de bestandsnaam en -inhoud. Deze tijdstempels registreren verschillende gebeurtenisprocessen voor hetzelfde [!UICONTROL CDF] bestand. Het is niet ongebruikelijk om verschillende tijdstempels in de naam en inhoud van het zelfde dossier te zien. Als u een goed begrip van elk tijdstempel hebt, voorkomt u vaak voorkomende fouten wanneer u met deze gegevens werkt of probeert deze op tijd te sorteren.
 
-## Tijdstempels CDF-bestand zoeken {#locating-timestamps}
-
-<!-- cdf-time-differences.xml -->
+## Tijdstempels [!UICONTROL CDF] van bestand zoeken {#locating-timestamps}
 
 [!UICONTROL CDF] in bestanden wordt de tijd op twee verschillende locaties vastgelegd.
 
