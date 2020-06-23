@@ -7,33 +7,31 @@ solution: Audience Manager
 title: Batchgegevens naar Audience Manager verzenden - Overzicht
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 
-# Batchgegevens naar Audience Manager verzenden - Overzicht {#send-batch-data-to-audience-manager-overview}
+# Batchgegevens naar [!DNL Audience Manager] overzicht verzenden {#send-batch-data-to-audience-manager-overview}
 
 Een overzicht voor technische en niet-technische klanten die gegevens van andere systemen (off-line) in willen brengen [!DNL Audience Manager].
 
 ## Voordelen
 
-<!-- c_offline_to_online.xml -->
-
 U kunt gegevens van andere systemen beschikbaar maken in [!DNL Audience Manager]. Ons systeem kan u helpen waarde te ontgrendelen en gebruikersgegevens te benutten die u eerder hebt verzameld. Dit omvat informatie over aankopen, klantenonderzoeken, registratiegegevens, [!DNL CRM] gegevensbanken, enz. Hoewel elke integratie haar eigen uitdagingen oplevert, delen zij allen deze gemeenschappelijke stappen. Bekijk dit materiaal om de vereiste inspanning voor het online plaatsen van uw offlinegegevens te verminderen.
 
 ## Stap 1: Gebruikersnamen synchroniseren
 
-Hiermee [!DNL Audience Manager] wijst u tijdens de synchronisatie unieke id&#39;s toe aan klanten en hun gebruikers. Deze id&#39;s worden respectievelijk [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) en [!UICONTROL Unique User ID] ([!UICONTROL UUID]) genoemd. [!DNL Audience Manager] gebruikt de code [!UICONTROL DPID] en [!UICONTROL UUID] om gebruikers te identificeren en hen voor eigenschappen, segmenten, publieksgroepen, en voor rapportering te kwalificeren. Bovendien zoekt onze gegevensverzamelingscode ([!UICONTROL DIL]) naar deze id&#39;s om bezoekersgegevens van uw website vast te leggen. Wanneer deze stap is voltooid, [!DNL Audience Manager] en uw offline opslagplaats zou overeenkomstige IDs voor elk gebruikersverslag moeten bevatten.
+Hiermee [!DNL Audience Manager] wijst u tijdens de synchronisatie unieke id&#39;s toe aan klanten en hun gebruikers. Deze id&#39;s worden respectievelijk [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) en [!UICONTROL Unique User ID] ([!UICONTROL UUID]) genoemd. [!DNL Audience Manager] gebruikt de code [!UICONTROL DPID] en [!UICONTROL UUID] om gebruikers te identificeren en hen voor [!UICONTROL traits], [!UICONTROL segments], publieksgroepen, en voor rapportering te kwalificeren. Bovendien zoekt onze gegevensverzamelingscode ([!UICONTROL DIL]) naar deze id&#39;s om bezoekersgegevens van uw website vast te leggen. Wanneer deze stap is voltooid, [!DNL Audience Manager] en uw offline opslagplaats zou overeenkomstige IDs voor elk gebruikersverslag moeten bevatten.
 
 Belangrijke overwegingen met betrekking tot deze stap:
 
 * **Plaatsing client-id:** [!DNL Audience Manager] moet weten waar uw client-id op uw website wordt weergegeven (bijvoorbeeld: is deze opgeslagen in een cookie, een Analytics-variabele, in paginacode, enz.).
 * **Uitsluiten[!DNL PII]:** Gebruikersnamen mogen geen persoonlijk identificeerbare gegevens ([!DNL PII]) bevatten.
-* **Hoofdlettergebruik en inhoudsgevoeligheid:** Tijdens een realtime gegevenssynchronisatie [!DNL Audience Manager] moeten gebruikers-id&#39;s die van uw site worden vastgelegd, overeenkomen met id&#39;s die vanuit uw offline opslagplaats zijn doorgegeven. Als offlinerecords bijvoorbeeld informatie bevatten over [!DNL User123]de site die id weergeeft als [!DNL USER123], ziet de Audience Manager deze als verschillende bezoekers. Hierdoor kan de online-informatie voor deze bezoeker niet worden gekoppeld aan de corresponderende records in uw offlinedatabase. Id&#39;s moeten exact overeenkomen.
+* **Hoofdlettergebruik en inhoudsgevoeligheid:** Tijdens een realtime gegevenssynchronisatie [!DNL Audience Manager] moeten gebruikers-id&#39;s die van uw site worden vastgelegd, overeenkomen met id&#39;s die vanuit uw offline opslagplaats zijn doorgegeven. Als offlinerecords bijvoorbeeld informatie bevatten over de site, [!DNL User123]maar de id als [!DNL USER123]een id weergeeft, [!DNL Audience Manager] worden deze als verschillende bezoekers beschouwd. Hierdoor kan de online-informatie voor deze bezoeker niet worden gekoppeld aan de corresponderende records in uw offlinedatabase. Id&#39;s moeten exact overeenkomen.
 
 Zie [Identiteitssynchronisatie voor Binnenkomende Overdrachten](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)van Gegevens.
 
