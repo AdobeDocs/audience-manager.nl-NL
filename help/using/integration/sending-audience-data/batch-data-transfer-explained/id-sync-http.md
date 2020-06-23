@@ -6,21 +6,19 @@ solution: Audience Manager
 title: ID-synchronisatie voor binnenkomende gegevensoverdrachten
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '478'
 ht-degree: 3%
 
 ---
 
 
-# ID-synchronisatie voor binnenkomende gegevensoverdrachten{#id-synchronization-for-inbound-data-transfers}
+# ID-synchronisatie voor binnenkomende gegevensoverdrachten {#id-synchronization-for-inbound-data-transfers}
 
-Describes the syntax and parameters used in the initial `HTTP` call to synchronize user IDs between a vendor and [!DNL Audience Manager]. ID synchronization can begin after you send your data taxonomy to [!DNL Audience Manager].
+Beschrijft de syntaxis en de parameters die in de aanvankelijke `HTTP` vraag worden gebruikt om gebruikers IDs tussen een verkoper en [!DNL Audience Manager]. te synchroniseren. De synchronisatie van identiteitskaart kan beginnen nadat u uw gegevenstaxonomie naar verzendt [!DNL Audience Manager].
 
-<!-- c_id_sync_in.xml -->
-
-ID synchronization is the first step in the inbound, asynchronous data transfer process. In this step, [!DNL Audience Manager] and the vendor compare and match IDs for their respective site visitors. Zo kent een [!DNL Audience Manager] klant een gebruiker bijvoorbeeld op ID 123. Nochtans, kon uw gegevenspartner deze gebruiker met identiteitskaart 456 identificeren. Dankzij het synchronisatieproces kunnen [!DNL Audience Manager] en een leverancier van gegevens deze verschillende id&#39;s met elkaar combineren en gebruikers in hun respectieve systemen identificeren. Zodra volledig, [!DNL Audience Manager] en uw derdepartner overeenkomstige IDs voor elke unieke gebruiker zou moeten hebben die op onze netwerken wordt gezien.
+De synchronisatie van identiteitskaart is de eerste stap in het binnenkomende, asynchrone proces van de gegevensoverdracht. In deze stap vergelijkt [!DNL Audience Manager] en vergelijkt de leverancier ID&#39;s voor hun respectievelijke sitebezoekers. Zo kent een [!DNL Audience Manager] klant een gebruiker bijvoorbeeld op ID 123. Nochtans, kon uw gegevenspartner deze gebruiker met identiteitskaart 456 identificeren. Dankzij het synchronisatieproces kunnen [!DNL Audience Manager] en een leverancier van gegevens deze verschillende id&#39;s met elkaar combineren en gebruikers in hun respectieve systemen identificeren. Zodra volledig, [!DNL Audience Manager] en uw derdepartner overeenkomstige IDs voor elke unieke gebruiker zou moeten hebben die op onze netwerken wordt gezien.
 
 U kunt de volgende methoden gebruiken om uw gegevens in te voeren [!DNL Audience Manager]:
 
@@ -56,7 +54,7 @@ De [!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitsk
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;VENDOR_UUID&gt;</i> </code> </td> 
-   <td colname="col2"> <p>URL (Percent) Encoded representation of your Unique User ID. In addition to encoding reserved ASCII characters, any non-ASCII characters should be percent encoded based on the UTF-8 character encoding table. </p> <p>Zie de website <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> voor meer informatie. </p> </td> 
+   <td colname="col2"> <p>URL (percentage) gecodeerde representatie van je unieke gebruikersnaam. Naast het coderen van gereserveerde ASCII-tekens moeten niet-ASCII-tekens procentueel gecodeerd zijn op basis van de UTF-8-tabel voor tekencodering. </p> <p>Zie de website <a href="https://www.url-encode-decode.com" format="http" scope="external"> URL Encode/Decode Online</a> voor meer informatie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
@@ -73,7 +71,7 @@ De [!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitsk
  </tbody> 
 </table>
 
-## Gebeurtenis gedeclareerde id {#declared-id-event}
+## [!UICONTROL Declared ID] Gebeurtenis {#declared-id-event}
 
 Zie [Opgegeven id&#39;s](../../../features/declared-ids.md)voor meer informatie.
 
