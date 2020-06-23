@@ -7,12 +7,15 @@ solution: Audience Manager
 title: Op regels gebaseerde of niet-gecodeerde traits maken
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
 
-# Op regels gebaseerde of niet-gecodeerde traits maken {#create-rules-based-or-onboarded-traits}
+# Maken [!UICONTROL Rules-Based] of [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits}
 
 Beschrijft opstellingsstappen en eigenschappen specifiek voor het proces van de [!UICONTROL rules-based] en [!UICONTROL onboarded] eigenschap verwezenlijking.
 
@@ -20,7 +23,7 @@ Beschrijft opstellingsstappen en eigenschappen specifiek voor het proces van de 
 
 ## Basisinformatie over sporen {#basics}
 
-Met [!UICONTROL Trait Builder]de [!UICONTROL Basic Information] instellingen kunt u nieuwe kenmerken maken of bestaande kenmerken bewerken. De [!UICONTROL Basic Information] instellingen zijn gelijk voor op regels gebaseerde, niet-geregistreerde en algoritmische kenmerken. Als u een nieuwe eigenschap wilt maken, geeft u een naam (geen speciale tekens), een gegevensbron en selecteert u een opslagmap. Andere [!UICONTROL Basic Information] velden zijn optioneel.
+Met [!UICONTROL Trait Builder]de [!UICONTROL Basic Information] instellingen kunt u nieuwe instellingen maken of bestaande instellingen bewerken [!UICONTROL traits]. De [!UICONTROL Basic Information] instellingen zijn gelijk voor [!UICONTROL rules-based], [!UICONTROL onboarded] en [!UICONTROL algorithmic traits]. Als u een nieuwe naam wilt maken, geeft u een naam op (geen speciale tekens), een naam [!UICONTROL trait]en selecteert u een [!UICONTROL data source][!UICONTROL storage folder]naam. Andere [!UICONTROL Basic Information] velden zijn optioneel.
 
 <!-- c_tb_basics.xml -->
 
@@ -53,11 +56,11 @@ Met [!UICONTROL Trait Builder]de [!UICONTROL Basic Information] instellingen kun
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Gegevensbron</span></b> </td> 
-   <td colname="col2"> Koppelt de eigenschap aan een specifieke gegevensaanbieder. Vereist. <p>Gebruik het eerste vervolgkeuzemenu om te filteren tussen de gegevensbronnen van Audience Manager, Adobe Analytics-rapportreeksen of beide. Kies vervolgens de gegevensbron in het tweede keuzemenu.</p><p> Als u geen Adobe Analytics-rapportreeksen gebruikt, is de gegevensbrontypekiezer uitgeschakeld en standaard alleen ingesteld op Audience Manager-gegevensbronnen.</p>  </td> 
+   <td colname="col2"> Koppelt de eigenschap aan een specifieke gegevensaanbieder. Vereist. <p>Gebruik het eerste drop-down menu om tussen de gegevensbronnen van de Audience Manager, de rapportreeksen van Adobe Analytics, of allebei te filtreren. Kies vervolgens de gegevensbron in het tweede keuzemenu.</p><p> Als u geen Adobe Analytics-rapportreeksen gebruikt, is de gegevensbrontypekiezer uitgeschakeld en standaard alleen ingesteld op Audience Manager-gegevensbronnen.</p>  </td> 
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Type gebeurtenis</span></b> </td> 
-   <td colname="col2"> Wijst de eigenschap aan een type of een categorie toe, gewoonlijk volgens functie (b.v. omzetting, plaatsbezoeker, partner, paginamening, enz.). Optioneel. <p> Meer informatie over het maken van conversiekenmerken vindt u in de video <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Conversietaken</a>maken in Audience Manager. </p></td> 
+   <td colname="col2"> Wijst de eigenschap aan een type of een categorie toe, gewoonlijk volgens functie (b.v. omzetting, plaatsbezoeker, partner, paginamening, enz.). Optioneel. <p> Zie de video <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Conversie-overgangen</a>maken voor meer informatie over het maken van conversiekenmerken. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integratiecode</span></b> </td> 
@@ -78,15 +81,15 @@ Met [!UICONTROL Trait Builder]de [!UICONTROL Basic Information] instellingen kun
  </tbody> 
 </table>
 
-## Een interval voor verlopen van sporen instellen {#set-expiration-interval}
+## Een [!UICONTROL Trait] vervalinterval instellen {#set-expiration-interval}
 
-In [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] laat u een tijd-aan-levende ([!DNL TTL]) interval voor een eigenschap plaatsen. [!DNL TTL] bepaalt hoeveel dagen een gekwalificeerde bezoeker in een eigenschap blijft (120 dagen is standaard). Wanneer ingesteld op 0, verloopt het standaardlidmaatschap nooit.
+In [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] laat u een tijd-aan-levende ([!DNL TTL]) interval voor een [!UICONTROL trait]. [!DNL TTL] bepaalt hoeveel dagen een gekwalificeerde bezoeker in een [!UICONTROL trait] (standaard is 120 dagen) blijft. Wanneer ingesteld op 0, verloopt het [!UICONTROL trait] lidmaatschap nooit.
 
 <!-- t_tb_ttl.xml -->
 
-### TTL instellen voor een kenmerk
+### TTL instellen voor een [!UICONTROL trait]
 
-1. Vouw de [!UICONTROL Advanced Options] sectie uit en voer een getal in om een [!DNL TTL] waarde voor de eigenschap in te stellen.
+1. Vouw de [!UICONTROL Advanced Options] sectie uit en voer een getal in om een [!DNL TTL] waarde voor de sectie in te stellen [!UICONTROL trait].
 1. Klik op **[!UICONTROL Save]**.
 
    ![](assets/TTL.png)
