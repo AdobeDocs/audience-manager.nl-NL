@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Overzicht van gegevensprivacy
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ In de documentatie over privacy van gegevens wordt beschreven [!DNL Audience Man
 
 In onze voortdurende steun voor dit model, [!DNL Audience Manager] blijft u van de hulpmiddelen voorzien om uw vermogen te helpen om transparantie en controle aan uw consumenten te verstrekken, terwijl het leveren van gepersonaliseerde advertenties onderworpen aan de Zelfreguleringsprincipes [van het](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/)Online Gedrag (OBA).
 
-## GDPR {#gdpr}
+## [!DNL GDPR] {#gdpr}
 
-In de [algemene verordening inzake gegevensbescherming (GDPR)](https://eugdpr.org/) zijn diverse nieuwe rechten inzake gegevensbescherming ingevoerd voor leden van de Europese Unie, waaronder het **recht op toegang** en het **recht om te worden vergeten**. Dit betekent dat iedere EU-burger wiens persoonlijke gegevens door uw bedrijf zijn verzameld, op elk moment toegang kan vragen tot of kan verzoeken tot zijn gegevens. Als u deze verzoeken niet naleeft, kan dit leiden tot boetes van miljoenen dollar voor uw organisatie.
+In de [algemene verordening inzake gegevensbescherming (GDPR)](https://eugdpr.org/) zijn diverse nieuwe rechten inzake gegevensbescherming ingevoerd voor leden van de Europese Unie, waaronder het **recht op toegang** en het **recht om te worden vergeten**. Dit betekent dat iedere [!DNL EU] burger wiens persoonlijke gegevens door uw bedrijf zijn verzameld, op elk gewenst moment toegang kan vragen tot zijn gegevens of deze kan verwijderen. Als u deze verzoeken niet naleeft, kan dit leiden tot boetes van miljoenen dollar voor uw organisatie.
 
 Om te voldoen aan [!DNL GDPR], [!DNL Audience Manager] steunt gegevenstoegang en schrapt [verzoeken](data-privacy-requests.md).
 
-## CCPA {#ccpa}
+## [!DNL CCPA] {#ccpa}
 
 De [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), die op 1 januari 2020 in werking trad, verleent de inwoners van Californië nieuwe rechten met betrekking tot hun persoonlijke informatie en legt gegevensbeschermingstaken op aan bepaalde entiteiten die zaken in Californië leiden.
 
