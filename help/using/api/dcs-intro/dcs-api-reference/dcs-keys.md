@@ -7,15 +7,15 @@ title: Ondersteunde kenmerken voor DCS API-aanroepen
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
 
 
-# Ondersteunde kenmerken voor DCS API-aanroepen {#supported-attributes-for-dcs-api-calls}
+# Gesteunde Attributen voor [!DNL DCS] Vraag [!DNL API] {#supported-attributes-for-dcs-api-calls}
 
 Hiermee geeft u de syntaxis en ondersteunde kenmerken (of sleutelwaardeparen) weer die u kunt doorgeven aan de [!UICONTROL Data Collection Servers] ([!DNL DCS]). Deze informatie kan u helpen uw [!DNL DCS] verzoeken formatteren en de parameters begrijpen die door dit systeem zijn teruggekeerd.
 
@@ -50,7 +50,7 @@ Het [!DNL DCS] baseert zich op specifieke prefixen die aan de sleutels in zeer b
  </tbody> 
 </table>
 
-## d_ Attributen {#d-attributes}
+## [!DNL d_] Attributen {#d-attributes}
 
 Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wilt. Als u wilt dat de reactie [!DNL DCS] wordt geretourneerd, `d_rtbd=json` is dit vereist.
 
