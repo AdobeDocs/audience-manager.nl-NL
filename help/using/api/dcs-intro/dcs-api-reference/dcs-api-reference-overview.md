@@ -1,12 +1,12 @@
 ---
 description: Conceptuele informatie, beschrijvingen, en definities voor code DCS API, methodes, en processen.
-seo-description: Conceptuele informatie, beschrijvingen en definities voor DCS API-code, -methoden en -processen in Adobe Audience Manager (AAM).
+seo-description: Conceptuele informatie, beschrijvingen, en definities voor code DCS API, methodes, en processen in Adobe Audience Manager (AAM).
 seo-title: Overzicht DCS API-naslaggids in Adobe Audience Manager (AAM)
 title: Overzicht DCS API-naslaggids
 translation-type: tm+mt
-source-git-commit: 92751df14777335744db69bfb0c9b7b2f9088785
+source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Overzicht DCS API-naslaggids
 
-Conceptuele informatie, beschrijvingen, en definities voor code DCS API, methodes, en processen.
+Conceptuele informatie, beschrijvingen, en definities voor code, methodes, en processen. [!DNL DCS API]
 
 * [DCS API-methoden](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Gegevens naar de DCS API verzenden met GET- of POST-methoden.
+   Gegevens verzenden naar de [!DNL DCS API] methode GET of POST.
 
 * [DCS-foutcodes, berichten en voorbeelden](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
