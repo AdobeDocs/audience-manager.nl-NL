@@ -6,17 +6,17 @@ solution: Audience Manager
 title: Vereisten voor FTP-naam en bestandsgrootte voor binnenkomende gegevensbestanden
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
 
 
-# Vereisten voor FTP-naam en bestandsgrootte voor binnenkomende gegevensbestanden{#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP] Vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar een [!DNL FTP] map Audience Manager verzendt.
+Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar [!DNL Audience Manager]. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar een [!DNL FTP] map Audience Manager verzendt.
 
 >[!WARNING]
 >
