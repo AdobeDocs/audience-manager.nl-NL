@@ -5,9 +5,9 @@ seo-title: Overzicht van voorspellende doelgroepen
 solution: Audience Manager
 title: Audience Manager voorspellend publiek
 translation-type: tm+mt
-source-git-commit: ef098c35da49ae663d201b9b7f96034fb5c76323
+source-git-commit: f52321f3621d9eb6b9c5b643a3516f39f35466c2
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1251'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ Houd bij het configureren van uw [!UICONTROL Predictive Audiences] modellen reke
    >[!IMPORTANT]
    > Momenteel, wordt de [!UICONTROL Total Segment Population] van uw vooruitlopende segmenten getoond als 0, en de [Uitgaande Overdrachten](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) van Gegevens van de Partij worden niet gesteund voor [!UICONTROL Predictive Audiences]. Dit gedrag verandert in een toekomstige update.
 * [!UICONTROL Predictive Audiences] voert publieksclassificatie uit die op uw eerste partijeigenschappen, van al uw eerste-partijgegevensbronnen wordt gebaseerd.
-* De evaluatie van het segment voor [!UICONTROL Predictive Audiences] gebruikt het gebrek **[!UICONTROL Profile Merge Rule]** dat u in uw rekening bepaalde. Meer informatie over [!UICONTROL Profile Merge Rules] zie de specifieke [documentatie](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html).
+* De evaluatie van het segment voor [!UICONTROL Predictive Audiences] gebruikt het gebrek **[!UICONTROL Profile Merge Rule]** dat u in uw rekening bepaalde. Meer informatie over [!UICONTROL Profile Merge Rules] zie de specifieke [documentatie](../profile-merge-rules/merge-rules-overview.md).
 * Sommige kenmerken en segmenten worden niet ondersteund als basislijnen of doelgroepen. [!UICONTROL Predictive Audiences] modellen kunnen niet worden opgeslagen wanneer u een van de volgende opties kiest als basislijn of doelpubliek:
    * voorspellende kenmerken en segmenten die met voorspellende kenmerken zijn gecreëerd;
    * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) -kenmerken of -segmenten;
