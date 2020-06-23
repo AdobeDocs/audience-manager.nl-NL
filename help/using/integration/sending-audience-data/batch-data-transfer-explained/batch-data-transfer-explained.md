@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Batchgegevensoverdrachtproces beschreven
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Bij het integratieproces van batchgegevens worden bezoekersgegevens op onze serv
 ## Stappen voor gegevensintegratie
 
 1. Een gebruiker bezoekt een klantsite.
-1. Audience Manager en de externe gegevensaanbieder wijzen de bezoeker een unieke id toe (meestal met een cookie).
-1. Audience Manager roept de gegevensleverancier van de derde aan om bezoeker IDs aan te passen.
-1. Een gepland verzoek, gewoonlijk op een dagelijks interval, ruilt de gegevens van het bezoekerssegment tussen Audience Manager en uw derdegegevensleverancier.
+1. [!DNL Audience Manager] en de externe gegevensaanbieder wijst de bezoeker een unieke id toe (meestal met een cookie).
+1. [!DNL Audience Manager] roept de gegevensleverancier van de derde om bezoeker IDs aan te passen.
+1. Een gepland verzoek, gewoonlijk op een dagelijks interval, ruilt de gegevens van het bezoekerssegment tussen [!DNL Audience Manager] en uw derdegegevensleverancier.
 1. Wanneer een binnenkomend [!UICONTROL Server-to-Server] dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner. Voor meer informatie, zie het Bericht van de [Steekproef aan Partners na Binnenkomende Verwerking](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
