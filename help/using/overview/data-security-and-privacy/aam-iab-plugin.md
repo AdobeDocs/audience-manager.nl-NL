@@ -5,15 +5,15 @@ seo-title: Audience Manager-plug-in voor IAB TCF
 solution: Audience Manager
 title: Audience Manager-plug-in voor IAB TCF
 translation-type: tm+mt
-source-git-commit: 1fb8ee6c229418e48fcaa412a8ea0f1ab5f00331
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2449'
 ht-degree: 0%
 
 ---
 
 
-# Audience Manager-plug-in voor IAB TCF {#aam-iab-plugin}
+# [!DNL Audience Manager Plug-in for IAB TCF] {#aam-iab-plugin}
 
 ## Overzicht
 
@@ -43,6 +43,10 @@ Audience Manager biedt momenteel geen ondersteuning voor:
 
 * Workflows voor mobiele apparaten;
 * Toevoeging van toestemming voor het segmenteren van de uitvoer.
+
+## Upgrade uitvoeren naar [!DNL IAB TCF v2.0] {#upgrading}
+
+Klanten die hun [!DNL Audience Manager Plug-in for IAB TCF] implementatie upgraden van [!DNL IAB TCF] v1.1 naar [!DNL IAB TCF] v2.0 of die [!DNL IAB TCF] v2.0 voor het eerst inschakelen, moeten allemaal dezelfde richtlijnen volgen voor voorwaarden en implementatie als hieronder wordt beschreven.
 
 ## Vereisten {#prerequisites}
 
@@ -105,7 +109,7 @@ Audience Manager evalueert de keuzen van de gebruikers die in het koord IAB TC v
 >
 >Audience Manager heeft toestemming nodig voor doel 1 en doel 10, plus toestemming van de leverancier, om cookies te implementeren en ID-syncs te initiëren of te respecteren.
 >
->Conform [IAB-verordeningen](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_), wordt Speciale Doelstelling 1 (Beveiliging, Fraude voorkomen en fouten opsporen) altijd goedgekeurd en kunnen gebruikers er geen bezwaar tegen maken.
+>Conform [IAB-verordeningen](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_), wordt Speciale Doelstelling 1 (Veiligheid verzekeren, fraude verhinderen, en zuiveren) altijd goedgekeurd, en de gebruikers kunnen niet aan het bezwaar maken.
 
 ## Het gedrag van de Audience Manager hangt af van het feit of de gebruiker toestemming verleent {#aam-behavior-consent}
 
