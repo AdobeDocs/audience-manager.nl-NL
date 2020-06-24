@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Vastleggen van Campagne-indrukgegevens via pixelaanroepen
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 translation-type: tm+mt
-source-git-commit: aefd0a0798797b8bbe9cadc1af9f2e86e772bb4c
+source-git-commit: 3523cdb0d6d412c1a93694e4cbeab188154120f0
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '735'
 ht-degree: 17%
 
 ---
@@ -98,7 +98,7 @@ Aanroepen van indrukwekkende gebeurtenissen accepteren gegevens die in sleutelwa
   </tr> 
    <tr> 
    <td colname="col1"> <code>gdpr</code>  </td> 
-   <td colname="col2"> <p>Gerelateerd aan de <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-invoegtoepassing voor IAB TCF.</a></p> <p><code>gdpr</code> 0 (GDPR is niet van toepassing) of 1 (GDPR is van toepassing).</p> <p>De standaardwaarde is 0.</p><p>Optioneel.</p> </td> 
+   <td colname="col2"> <p>Gerelateerd aan de <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-invoegtoepassing voor IAB TCF.</a></p> <p><code>gdpr</code> 0 (GDPR is niet van toepassing) of 1 (GDPR is van toepassing).</p> <p>De standaardwaarde is 0.</p><p>Optioneel.</p><p>Als <code>gdpr=1</code>, dan zou de <code>gdpr_consent</code> parameter de de toestemmingsparameter moeten bevatten IAB TC om de gegevens met succes te verwerken. Anders worden alle gegevens verwijderd.</p> </td> 
   </tr>
    <tr> 
    <td colname="col1"> <code>gdpr_consent</code> </td> 
