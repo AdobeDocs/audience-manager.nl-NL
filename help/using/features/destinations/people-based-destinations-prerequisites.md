@@ -5,9 +5,9 @@ seo-title: Vereisten en overwegingen voor op mensen gebaseerde doelen
 solution: Audience Manager
 title: Vereisten en overwegingen
 translation-type: tm+mt
-source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
+source-git-commit: 02bde5060d50ba581937c504331397dfbbcdc19f
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,8 @@ Voordat u uw eerste-partijpubliek [!UICONTROL People-Based Destinations] [!UICON
 Voordat u [!UICONTROL People-Based Destinations] de doelsegmenten van de eerste partij naar kunt sturen, moet u ervoor zorgen dat uw [!DNL LinkedIn]account het machtigingsniveau [!DNL LinkedIn Campaign Manager] [!DNL Creative Manager] of hoger heeft.
 
 Leer hoe te om uw [!DNL LinkedIn Campaign Manager] gebruikerstoestemmingen uit te geven, zie [toevoegen, uitgeven, en verwijdert de Toestemmingen van de Gebruiker op Advertising Rekeningen](https://www.linkedin.com/help/lms/answer/5753) in de documentatie LinkedIn.
+
+Zie [Begrip en het Vormen LinkedIn op mensen-Gebaseerde Bestemming](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) voor videoinstructies.
 
 ## Gegevens aan boord {#data-onboarding}
 
