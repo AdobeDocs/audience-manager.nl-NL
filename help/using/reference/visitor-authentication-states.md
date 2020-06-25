@@ -1,20 +1,24 @@
 ---
-description: De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. Audience Manager handelt de verificatiestatus van de bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier af.
+description: De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
 keywords: dpm.demdex.net
-seo-description: De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. Audience Manager handelt de verificatiestatus van de bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier af.
+seo-description: De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
 seo-title: Verificatiestatus bezoeker in Audience Manager
 solution: Audience Manager
 title: Verificatiestatus bezoeker in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
+feature: reference
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 1%
 
 ---
 
 
 # Verificatiestatus bezoeker in Audience Manager{#visitor-authentication-states-in-audience-manager}
 
-De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. Audience Manager handelt de verificatiestatus van de bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier af.
+De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
 
 Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de `setCustomerID` methode het optionele `AuthState` object. `AuthState` identificeert bezoekers volgens hun [authentificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] behandelt de gerealiseerde eigenschappen verschillend, afhankelijk van de authentificatiestatus die in de vraag en de Regel [van de Fusie van het](../features/profile-merge-rules/merge-rules-dashboard.md) Profiel wordt overgegaan u voor segmentatie gebruikt.
 
