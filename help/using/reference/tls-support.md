@@ -5,8 +5,12 @@ seo-title: TLS 1.0 en 1.1 Deprectie
 solution: Audience Manager
 title: TLS 1.0 en 1.1 Deprectie
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
+feature: reference
 translation-type: tm+mt
-source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 3%
 
 ---
 
@@ -15,9 +19,9 @@ source-git-commit: 5f572a414f27bd8eea20a1c0596a02b1250b50fe
 
 TLS (Transport Layer Security) is een cryptografisch protocol dat wordt gebruikt om een beveiligd communicatiekanaal tussen twee systemen tot stand te brengen. Het wordt gebruikt om één of beide systemen voor authentiek te verklaren, en de vertrouwelijkheid en de integriteit van informatie te beschermen die tussen systemen overgaat. In mei 2018 waren er drie versies van het TLS-protocol in gebruik: TLS 1.0, 1.1 en 1.2.
 
-In maart 2019 [!DNL Adobe] is de steun voor het [!DNL TLS 1.0] protocol beëindigd. De functionaliteit van Adobe Audience Manager werkt niet voor eindgebruikers die browsers gebruiken die alleen ondersteuning bieden [!DNL TLS 1.0].
+In maart 2019 [!DNL Adobe] is de steun voor het [!DNL TLS 1.0] protocol beëindigd. De functionaliteit van Adobe Audience Managers werkt niet voor eindgebruikers die browsers gebruiken die alleen ondersteuning bieden [!DNL TLS 1.0].
 
-In maart 2020 [!DNL Adobe] zal de steun voor het [!DNL TLS 1.1] protocol worden stopgezet. De functionaliteit van Adobe Audience Manager werkt niet meer voor eindgebruikers die browsers gebruiken die alleen ondersteuning bieden [!DNL TLS 1.1].
+In maart 2020 [!DNL Adobe] zal de steun voor het [!DNL TLS 1.1] protocol worden stopgezet. De functionaliteit van Adobe Audience Managers werkt niet meer voor eindgebruikers die browsers gebruiken die alleen ondersteuning bieden [!DNL TLS 1.1].
 
 We raden het gebruik van [!DNL TLS 1.2], de nieuwste versie van het protocol op het moment van schrijven, ten zeerste aan. Alle moderne browsers gebruiken [!DNL TLS 1.2]. We hebben een lijst met browsers, versies en hun [!DNL TLS] ondersteuning voor u verzameld. Ga voor meer informatie naar [deze Wikipedia-link](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
