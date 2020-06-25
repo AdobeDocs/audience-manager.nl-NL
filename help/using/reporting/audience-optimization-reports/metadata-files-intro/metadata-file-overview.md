@@ -5,8 +5,12 @@ seo-title: Overzicht en toewijzingen voor metagegevensbestanden
 solution: Audience Manager
 title: Overzicht en toewijzingen voor metagegevensbestanden
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
+feature: log files
 translation-type: tm+mt
-source-git-commit: 13882a8f9300344e1bb0a3079666a67166945a83
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 0%
 
 ---
 
