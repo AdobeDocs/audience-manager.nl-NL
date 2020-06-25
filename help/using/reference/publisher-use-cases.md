@@ -1,19 +1,23 @@
 ---
-description: Een blik op sommige gemeenschappelijke uitgeversbehoeften die door de Manager van de Audience van Adobe worden voldaan.
-seo-description: Een blik op sommige gemeenschappelijke uitgeversbehoeften die door de Manager van de Audience van Adobe worden voldaan.
+description: Een blik op sommige gemeenschappelijke uitgeversbehoeften die door Adobe Audience Manager worden voorzien.
+seo-description: Een blik op sommige gemeenschappelijke uitgeversbehoeften die door Adobe Audience Manager worden voorzien.
 seo-title: Uitgever Gebruiksscenario's
 solution: Audience Manager
 title: Uitgever Gebruiksscenario's
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
+feature: reference
 translation-type: tm+mt
-source-git-commit: 7f9c7b74150682e8e8b839148dcae72f53d3b4ae
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
 
 ---
 
 
 # Uitgever Gebruiksscenario&#39;s{#publisher-use-cases}
 
-Een blik op sommige gemeenschappelijke uitgeversbehoeften die door de Manager van de Audience van Adobe worden voldaan.
+Een blik op sommige gemeenschappelijke uitgeversbehoeften die door Adobe Audience Manager worden voorzien.
 
 <!-- 
 
@@ -33,7 +37,7 @@ c_pub_use_case.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Maak één gegevensopslagruimte voor het publiek die u een overzicht biedt van al uw gebruikers en gegevenspunten. Dit omvat informatie zoals plaatsgedrag (potentieel van Analytics), vertoningsindrukkingen, off-line registratiegegevensbestanden, de gegevensbestanden van CRM, videogebruik, e-mailinitiatieven en bevorderingen. </p> </td> 
+   <td colname="col1"> <p>Maak één gegevensopslagruimte voor het publiek die u een overzicht biedt van al uw gebruikers en gegevenspunten. Dit omvat informatie zoals plaatsgedrag (potentieel van Analytics), vertoningsbeelden, off-line registratiegegevensbestanden, de gegevensbestanden van CRM, videogebruik, e-mailinitiatieven en bevorderingen. </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_FB6683152C7D4D65AF951BA55E123427"> 
       <li id="li_45C12198EDDE4107AE59947BBAA51A60">Ontdek het publiek, voer slimmere advertentie- of verkoopcampagnes uit en beheer het inzicht van de klant. </li> 
@@ -44,7 +48,7 @@ c_pub_use_case.xml
  </tbody> 
 </table>
 
-**Advertising Audience-segmenten maken met gegevens van eerste-partijanalyse**
+**Advertising Audience-segmenten maken met Analytics-gegevens van eerste partij**
 
 <table id="table_EE77D9F5BAD1473C8E058EE778AF2C3F"> 
  <thead> 
@@ -85,12 +89,12 @@ c_pub_use_case.xml
       <li id="li_0714139FF2F5492DA32FB95456699E54">Segmentgrootte, paginaweergaven en afbeeldingen vergroten. </li> 
       <li id="li_2CA4DFF2836D4F71A137829074F46D17">Maak een relevantere ervaring voor die sitebezoeker. </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> De real-time analyse van Audience Manager</span>helpt de publieksherkenning te verbeteren, wat de onsite ervaring verbetert door relevante, gepersonaliseerde inhoud te leveren. </p> <p>Zo hebt u de gelegenheid om inhoudpersonalisatie als een lijnitem toe te voegen aan uw populatieproducten van topkwaliteit. </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> De real-time analyse van de Audience Manager</span>helpt de publieksherkenning te verbeteren, wat de onsite ervaring verbetert door relevante, gepersonaliseerde inhoud te leveren. </p> <p>Zo hebt u de gelegenheid om inhoudpersonalisatie als een lijnitem toe te voegen aan uw populatieproducten van topkwaliteit. </p> </td> 
    <td colname="col3"> <p> 
      <ul id="ul_EEED2DAD504C486F8C00992219C893F7"> 
       <li id="li_E536F7C79824484DA3DC895809B849F4">Analytics verstrekt eerste-partijgegevens over publieksinteresse in reisinhoud. Maak op basis van deze informatie een segment met de naam "Travel Enthusiasts". </li> 
-      <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3">Integreer Audience Manager <span class="keyword"></span> met een systeem als Adobe CQ voor het beheer van campagnes voor het aanpassen van inhoud. </li> 
-      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">Richt het reissegment aan een luchtvaartmaatschappij, hotel, of de adverteerder van de gastvrijheid helpen advertentie verbeteren die door uw inventaris wordt geproduceerd. </li> 
+      <li id="li_DCB3A5F3772C4DCEB757A4AB6CABFBE3">Integreer <span class="keyword"> Audience Manager</span> met een systeem als Adobe CQ voor het beheer van campagnes voor het aanpassen van inhoud. </li> 
+      <li id="li_A9BFB7EB7504492BA83F182BE5E8CEF8">Target het reissegment naar een luchtvaartmaatschappij, hotel of adverteerder voor ziekenhuizen om de advertentie-inkomsten die door uw voorraad worden gegenereerd te helpen verbeteren. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -98,7 +102,7 @@ c_pub_use_case.xml
 
 **Externe bereikextensie verbeteren**
 
-Dit gebruiksgeval werkt met eerste-partij, gegevens van Analytics die naar een vraag-zijplatform (DSP) worden verzonden.
+Dit gebruikscase werkt met Analytics-gegevens van de eerste partij die naar een DSP (demand-side platform) worden verzonden.
 
 <table id="table_F88329D45D9441F1A8EDB9D6140FD02D"> 
  <thead> 
@@ -149,7 +153,7 @@ De documentatie [van](../features/algorithmic-models/understanding-models.md) Mo
      <ul id="ul_51091241D6B94A849A383538045D797C"> 
       <li id="li_88798E58BA574FA196CFC02C9C55A293">Identificeer "Xbox gamers" in uw klantendatabase. </li> 
       <li id="li_1136BBC68C8242CE9F116F2C70A4C164">Stel een blik-gelijkaardig model in werking om de meest invloedrijke gebruikers in dat segment te vinden en te identificeren. </li> 
-      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">Richt die segmenten om vertoning op plaats reclame met Test&amp;Target te optimaliseren. </li> 
+      <li id="li_8BAED15DF7BA41B28B51BE8DC71DFDE8">Target die segmenten om de advertenties op de site te optimaliseren met Test&amp;Target. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
