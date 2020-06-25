@@ -1,19 +1,23 @@
 ---
-description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in Audience Manager en deze gebruiken in de rapporten Audience Optimization en voor Actionable Log Files. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
-seo-description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in Audience Manager en deze gebruiken in de rapporten Audience Optimization en voor Actionable Log Files. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
+description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in de Audience Manager en gebruiken in de rapporten Audience Optimization en voor Actionable Log Files. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
+seo-description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in de Audience Manager en gebruiken in de rapporten Audience Optimization en voor Actionable Log Files. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
 seo-title: Gegevensbestanden voor publiek optimalisatierapporten en uitvoerbare logbestanden
 solution: Audience Manager
 title: Gegevensbestanden voor publiek optimalisatierapporten en uitvoerbare logbestanden
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
+feature: log files
 translation-type: tm+mt
-source-git-commit: 776aaad0c063a870ef804d166292228f83575f48
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 0%
 
 ---
 
 
 # Gegevensbestanden voor publiek optimalisatierapporten en uitvoerbare logbestanden {#data-files-for-audience-optimization-reports}
 
-Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in Audience Manager om deze weer te geven in de [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) en kenmerken maken met behulp van de gegevens via [Actionable Log Files](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
+Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in Audience Manager om deze weer te geven in de rapporten [voor optimalisatie van](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) publiek en kenmerken maken met behulp van de gegevens via [uitvoerbare logbestanden](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
 
 ## Overzicht {#overview}
 
@@ -167,7 +171,7 @@ In de volgende tabel worden deze elementen gedefinieerd in een pad voor het leve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dit zeer belangrijk-waardepaar bevat uw klant-identiteitskaart van de Manager <span class="keyword"></span> van het Publiek. </p> </td> 
+   <td colname="col2"> <p>Dit zeer belangrijk-waardepaar bevat uw <span class="keyword"> klant identiteitskaart van de Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
