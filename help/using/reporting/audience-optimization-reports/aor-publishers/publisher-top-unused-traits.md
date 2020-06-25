@@ -5,8 +5,12 @@ seo-title: Niet-gebruikte bovenste treinen
 solution: Audience Manager
 title: Niet-gebruikte bovenste treinen
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +39,7 @@ Gebruik de **[!UICONTROL Traits]** drop-down doos om te selecteren welke eigensc
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Order IDs], zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in de Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)van de Publiek wordt beschreven omvatten. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Order] in plaats van het [!UICONTROL Order ID].
+>Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Order IDs], zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)wordt beschreven omvatten. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Order] in plaats van het [!UICONTROL Order ID].
 
 ## De resultaten interpreteren {#interpreting-results}
 
