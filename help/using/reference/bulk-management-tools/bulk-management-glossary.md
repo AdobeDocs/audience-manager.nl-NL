@@ -5,8 +5,12 @@ seo-title: Opsommingsbeheertools Verklarende woordenlijst
 solution: Audience Manager
 title: Opsommingsbeheertools Verklarende woordenlijst
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
+feature: baaam
 translation-type: tm+mt
-source-git-commit: 8cc3d9d629536c48b7013ffede16c0b112704c89
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '346'
+ht-degree: 0%
 
 ---
 
@@ -71,7 +75,7 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>De signalen zijn beetjes gegevens die binnen tot de Manager <span class="keyword"> van de</span> Publiek worden overgegaan die op gebruikersactiviteit wordt gebaseerd. Deze worden verzonden als <a href="../../reference/key-value-pairs-explained.md"> sleutel-waardeparen</a>. De bronsleutel is een constante die niet verandert. Het helpt de bronwaarde categoriseren die kan veranderen. Zie <a href="../../features/derived-signals.md"> Afgeleide signalen</a>. </p> </td> 
+   <td colname="col2"> <p>Signalen zijn gegevensbits die worden doorgegeven aan de <span class="keyword"> Audience Manager</span> op basis van gebruikersactiviteit. Deze worden verzonden als <a href="../../reference/key-value-pairs-explained.md"> sleutel-waardeparen</a>. De bronsleutel is een constante die niet verandert. Het helpt de bronwaarde categoriseren die kan veranderen. Zie <a href="../../features/derived-signals.md"> Afgeleide signalen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
@@ -95,7 +99,7 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>De eigenlijke eigenschap of segmentregel die wordt gebruikt om gegevens te verzamelen. Een bulkverzoek keert de regels terug die in de Manager <span class="keyword"> van de</span> Auditie met de bouwer <a href="../../features/traits/about-trait-builder.md"> van de</a> trekkerregel of de <a href="../../features/segments/segment-builder.md"> de bouwer</a>van de segmentregel worden gecreeerd. U kunt deze hulpmiddelen ook gebruiken om regels te bouwen en hen in bulk toe te passen wanneer u een segment of een eigenschap bijwerkt. </p> <p>Zie ook: <a href="../../reference/bulk-management-tools/bulk-rules.md"> creeer of werk Regels en de Regels</a>van het Segment bij. </p> </td> 
+   <td colname="col2"> <p>De eigenlijke eigenschap of segmentregel die wordt gebruikt om gegevens te verzamelen. Een bulkverzoek keert de regels terug die in <span class="keyword"> Audience Manager</span> met de bouwer <a href="../../features/traits/about-trait-builder.md"> van de</a> trekkerregel of de <a href="../../features/segments/segment-builder.md"> segmentregelbouwer</a>worden gecreeerd. U kunt deze hulpmiddelen ook gebruiken om regels te bouwen en hen in bulk toe te passen wanneer u een segment of een eigenschap bijwerkt. </p> <p>Zie ook: <a href="../../reference/bulk-management-tools/bulk-rules.md"> creeer of werk Regels en de Regels</a>van het Segment bij. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
