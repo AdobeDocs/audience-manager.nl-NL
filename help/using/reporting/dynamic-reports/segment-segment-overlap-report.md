@@ -5,8 +5,9 @@ seo-title: Overlap-rapport segment-naar-segment
 solution: Audience Manager
 title: Overlap-rapport segment-naar-segment
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: a35be513c2cec40257f2df0731eaccbb98e3a000
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen 
 
 >[!NOTE]
 >
->De overlappende rapporten in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op de [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
+>De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op de [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
 
 <!-- 
 
@@ -68,7 +69,7 @@ popup voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hieronde
 | **[!UICONTROL Base Segment Uniques]** | Het aantal unieke bezoekers in uw basissegment. |
 | **[!UICONTROL Base Segment Uniques]** | Het aantal unieke bezoekers in uw overlappende segment. |
 | **[!UICONTROL Overlapping Uniques]** | Het aantal unieke bezoekers dat wordt gedeeld tussen de vergeleken segmenten. |
-| **[!UICONTROL Overlap %]** | Om de overlapping % te krijgen, gebruikt de Manager van de Publiek de volgende formule: Overlappende Uniques / (Base Segment Uniques + Overlappende Segment Uniques - Overlappende Uniques) |
+| **[!UICONTROL Overlap %]** | Audience Manager gebruikt de volgende formule om overlap % te verkrijgen: Overlappende Uniques / (Base Segment Uniques + Overlappende Segment Uniques - Overlappende Uniques) |
 
 
 
@@ -78,5 +79,5 @@ popup voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hieronde
 >* [Vormen, kleuren en grootten die worden gebruikt in interactieve rapporten](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Verklaarde pictogrammen en gereedschappen rapporteren](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapporten overlappen: Plan en minimale segmentgrootte bijwerken](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Gegevenssampling en foutenpercentages in de geselecteerde Rapporten van de Manager van de Publiek...](../../reporting/report-sampling.md)
+>* [Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van de Audience Manager...](../../reporting/report-sampling.md)
 >* [CSV-bestanden voor overlappende rapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
