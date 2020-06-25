@@ -5,8 +5,12 @@ seo-title: Statusupdates voor metagegevensbestanden
 solution: Audience Manager
 title: Statusupdates voor metagegevensbestanden
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
+feature: log files
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +69,7 @@ In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties va
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Sleutel </th> 
+   <th colname="col1" class="entry"> Key </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
