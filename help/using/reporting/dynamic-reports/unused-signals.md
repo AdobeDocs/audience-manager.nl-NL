@@ -1,23 +1,27 @@
 ---
-description: Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar Audience Manager zijn verzonden.
-seo-description: Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar Audience Manager zijn verzonden.
+description: Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar de Audience Manager zijn verzonden.
+seo-description: Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar de Audience Manager zijn verzonden.
 seo-title: Rapport Ongebruikte signalen
 solution: Audience Manager
 title: Rapport Ongebruikte signalen
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: dcc44161df89b44ca1a234070c4afbb0210dc723
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '613'
+ht-degree: 0%
 
 ---
 
 
 # Rapport Ongebruikte signalen{#unused-signals-report}
 
-Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar Audience Manager zijn verzonden. Voor toegang tot dit rapport gaat u naar **Analytics > Audience Reports > Other Reports > Unused Signals**.
+Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar de Audience Manager zijn verzonden. Ga naar **Analytics > Poortrapporten > Overige rapporten > Ongebruikte signalen** om dit rapport te openen.
 
 >[!NOTE]
 >
->Als het bericht &quot;U hebt geen toegang tot Audience Reports&quot; wordt weergegeven, neemt u contact op met uw consultant van Audience Manager of de klantenservice om het rapport aan u voor te leggen.
+>Als u het bericht &quot;U hebt geen toegang tot Audience Reports&quot; ziet, neemt u contact op met uw Audience Manager consultant of de klantenservice om het rapport voor u te verstrekken.
 
 ![Screenshot van het rapport Ongebruikte signalen](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
@@ -53,7 +57,7 @@ Herzie dit rapport helpen orphaned signalen identificeren die aan nieuwe of best
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Niet-toegewezen waarden zoeken</b> </p> </td> 
-   <td colname="col2"> <p>Controleer het rapport voor nummer 1. Het getal 1 in een <span class="wintitle"> rapport Ongebruikte signalen</span> vertegenwoordigt de waarde null. Dat is niet per se slecht. Het betekent eenvoudig dat een bepaalde sleutel geen bijbehorende waardetoewijzing heeft. Wanneer u veel van 1 waarden voor een belangrijke variabele ziet, raadpleegt u uw siteteam om te controleren of al uw pagina's correct zijn gecodeerd. </p> </td> 
+   <td colname="col2"> <p>Controleer het rapport voor nummer 1. Het getal 1 in een <span class="wintitle"> rapport Ongebruikte signalen</span> vertegenwoordigt de waarde null. Dat is niet per se slecht. Het betekent eenvoudig dat een bepaalde sleutel geen bijbehorende waardetoewijzing heeft. Wanneer u een hoop van 1 waarden voor een belangrijke variabele ziet, controleer met uw plaatsteam om ervoor te zorgen al uw pagina's correct worden geëtiketteerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
