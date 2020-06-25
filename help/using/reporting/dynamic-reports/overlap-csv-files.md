@@ -5,8 +5,12 @@ seo-title: CSV-bestanden voor overlappende rapporten
 solution: Audience Manager
 title: CSV-bestanden voor overlappende rapporten
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: d13b32999c5af4d20f33a92dfa805d7fe0babb2d
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '976'
+ht-degree: 0%
 
 ---
 
