@@ -5,8 +5,12 @@ seo-title: Componenten van gegevenshandeling
 solution: Audience Manager
 title: Componenten van gegevenshandeling
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
+feature: system components
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 0%
 
 ---
 
@@ -66,13 +70,13 @@ Om verkeer tussen [!UICONTROL IRIS] en segmentbestemmingen te optimaliseren, [!U
 
 1. **Nieuwe segmentuitsluiting**: wanneer een hulpmiddel niet meer voor een segment in aanmerking komt, [!UICONTROL IRIS] verzendt alle segmentkwalificaties en ontzettingen verbonden aan dat hulpmiddel naar alle bestemmingen die aan deze segmenten worden toegewezen.
 
-1. **Updates** voor doeltoewijzing: wanneer een bestemmingstoewijzing wordt bijgewerkt, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan een apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd de Manager van de Publiek het apparaat ziet.
+1. **Updates** voor doeltoewijzing: wanneer een bestemmingstoewijzing wordt bijgewerkt, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan een apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd ziet de Audience Manager het apparaat.
 
-1. **Apparaatgrafiek wordt bijgewerkt**: wanneer om het even welke apparatenidentiteitskaart wordt toegevoegd of verwijderd uit de apparatengrafiek die wordt gebruikt om een segment te evalueren, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan dat apparaat naar alle bestemmingen die aan deze segmenten in kaart worden gebracht, de volgende tijd de Manager van de Publiek het apparaat ziet.
+1. **Apparaatgrafiek wordt bijgewerkt**: wanneer om het even welke apparatenidentiteitskaart wordt toegevoegd of verwijderd uit de apparatengrafiek die wordt gebruikt om een segment te evalueren, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan dat apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd Audience Manager het apparaat ziet.
 
 >[!IMPORTANT]
 >
->Als de Manager van het Publiek geen updates hierboven 3 opeenvolgende dagen ontdekt, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan een apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd de Manager van de Publiek het apparaat ziet.
+>Als de Audience Manager geen updates hierboven 3 opeenvolgende dagen ontdekt, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan een apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd ziet de Audience Manager het apparaat.
 
 **Voorbeeldgegevensbestand**
 
