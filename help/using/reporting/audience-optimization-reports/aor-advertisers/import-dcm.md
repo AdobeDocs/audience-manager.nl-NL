@@ -1,25 +1,29 @@
 ---
-description: Stel een Google-groep in om uw DCM-gegevensbestanden (DoubleClick Campagne Manager) over te brengen naar Audience Manager. De inhoud in deze sectie geeft een overzicht van het integratieproces en bevat koppelingen naar DCM-bronnen om u te helpen aan de slag te gaan.
-seo-description: Stel een Google-groep in om uw DCM-gegevensbestanden (DoubleClick Campagne Manager) over te brengen naar Audience Manager. De inhoud in deze sectie geeft een overzicht van het integratieproces en bevat koppelingen naar DCM-bronnen om u te helpen aan de slag te gaan.
-seo-title: DCM-gegevensbestanden importeren in Auditiebeheer
+description: Stel een Google-groep in om uw DCM-gegevensbestanden (DoubleClick Campagne Manager) in de Audience Manager te plaatsen. De inhoud in deze sectie geeft een overzicht van het integratieproces en bevat koppelingen naar DCM-bronnen om u te helpen aan de slag te gaan.
+seo-description: Stel een Google-groep in om uw DCM-gegevensbestanden (DoubleClick Campagne Manager) in de Audience Manager te plaatsen. De inhoud in deze sectie geeft een overzicht van het integratieproces en bevat koppelingen naar DCM-bronnen om u te helpen aan de slag te gaan.
+seo-title: DCM-gegevensbestanden importeren in Audience Manager
 solution: Audience Manager
-title: DCM-gegevensbestanden importeren in Auditiebeheer
+title: DCM-gegevensbestanden importeren in Audience Manager
 uuid: 3578cfe1-6d30-4a73-ab75-8d272bebcd60
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 6%
 
 ---
 
 
-# DCM-gegevensbestanden importeren in Auditiebeheer {#import-dcm-data-files-into-audience-manager}
+# DCM-gegevensbestanden importeren in Audience Manager {#import-dcm-data-files-into-audience-manager}
 
-Stel een Google-groep in om uw DCM-gegevensbestanden (DoubleClick Campagne Manager) over te brengen naar Audience Manager. De inhoud in deze sectie geeft een overzicht van het integratieproces en bevat koppelingen naar DCM-bronnen om u te helpen aan de slag te gaan.
+Stel een Google-groep in om uw DCM-gegevensbestanden (DoubleClick Campagne Manager) in de Audience Manager te plaatsen. De inhoud in deze sectie geeft een overzicht van het integratieproces en bevat koppelingen naar DCM-bronnen om u te helpen aan de slag te gaan.
 
 ## Overzicht van integratie
 
 DCM is de vervanging van [!DNL Google] voor [!DNL DoubleClick for Advertisers] (DFA). Net als bij DFA kunnen DCM-klanten hun data importeren, weergeven en ermee werken in [!DNL Audience Manager]. [!DNL Audience Manager] kan echter niet rechtstreeks uw [!UICONTROL Data Transfer]- en [!UICONTROL Match Table]-bestanden openen en importeren. Het importeren van deze bestanden is een taak voor de klant.
 
-Nochtans, is de opstellingsprocedure goed gedocumenteerd in de Hulp [van de Manager van de Campagne](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456)Dubbelklik. U kunt ook de onderstaande stappen doornemen om aan de slag te gaan.
+Nochtans, is de opstellingsprocedure goed gedocumenteerd in de Hulp [van de Manager van de Campagne](https://support.google.com/dcm/partner/answer/2941575?hl=en&amp;ref_topic=6107456)Dubbelklik. U kunt ook de onderstaande stappen doornemen om aan de slag te gaan.
 
 >[!CAUTION]
 >
@@ -31,17 +35,17 @@ Nochtans, is de opstellingsprocedure goed gedocumenteerd in de Hulp [van de Mana
 
 ## Stappen
 
-1. [Maak een groep](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456).
+1. [Maak een groep](https://support.google.com/dcm/partner/answer/3370419?hl=en&amp;ref_topic=6107456).
 
    Groepen beheren de toegang tot uw DCM-gegevens. Uiteindelijk, zult u uitnodigen en [!DNL Audience Manager] aan deze groep toevoegen.
 
-1. [Controleer uw Google Cloud Storage-status](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456).
+1. [Controleer uw Google Cloud Storage-status](https://support.google.com/dcm/partner/answer/3370481?hl=en&amp;ref_topic=6107456).
 
    Google Cloud Storage bevat het gegevensemmertje dat uw [!UICONTROL Data Transfer] en [!UICONTROL Match Tables]. U zult een emmertje moeten opstelling of ervoor zorgen uw nieuwe groep toegang tot een bestaand emmertje van de gegevensopslag heeft.
 
-1. [Hiermee wordt de URL](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456)van een gegevensbestand opgehaald.
+1. [Hiermee wordt de URL](https://support.google.com/dcm/partner/answer/3370482?hl=en&amp;ref_topic=6107456)van een gegevensbestand opgehaald.
 
-   Werk met uw DCM-accountmanager of consultant voor platformoplossingen. Ze geven u een URL naar uw gegevensbestanden. [!DNL Google] In toekomstige versies kan de indeling voor bucket- en bestandsnamen veranderen. Werk opnieuw met uw DCM-accountmanager om te controleren of u de juiste indelingen gebruikt.
+   Werk met uw DCM-accountmanager of Platform Solutions Consultant. Ze geven u een URL naar uw gegevensbestanden. [!DNL Google] In toekomstige versies kan de indeling voor bucket- en bestandsnamen veranderen. Werk opnieuw met uw DCM-accountmanager om te controleren of u de juiste indelingen gebruikt.
 
 1. [Machtigingen](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission)voor emmertje instellen.
 
