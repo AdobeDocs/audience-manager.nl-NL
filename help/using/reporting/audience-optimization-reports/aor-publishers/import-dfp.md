@@ -1,25 +1,29 @@
 ---
-description: Voordat Audience Manager de optimalisatie van het publiek voor uitgevers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden die in dit artikel worden beschreven, wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
-seo-description: Voordat Audience Manager de optimalisatie van het publiek voor uitgevers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden die in dit artikel worden beschreven, wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
-seo-title: DFP-gegevensbestanden importeren in Auditions Manager
+description: Voordat Audience Manager Audience Optimization voor Publishers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden in dit artikel wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
+seo-description: Voordat Audience Manager Audience Optimization voor Publishers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden in dit artikel wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
+seo-title: DFP-gegevensbestanden importeren in Audience Manager
 solution: Audience Manager
-title: DFP-gegevensbestanden importeren in Auditions Manager
+title: DFP-gegevensbestanden importeren in Audience Manager
 uuid: c685f34f-3e50-4c4b-99fa-d8bbafe0b268
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9f091fa765e937fb47b3328d8f5f2dab24a85040
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 0%
 
 ---
 
 
-# DFP-gegevensbestanden importeren in Auditions Manager{#import-dfp-data-files-into-audience-manager}
+# DFP-gegevensbestanden importeren in Audience Manager{#import-dfp-data-files-into-audience-manager}
 
-Voordat Audience Manager de optimalisatie van het publiek voor uitgevers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden die in dit artikel worden beschreven, wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
+Voordat Audience Manager Audience Optimization voor Publishers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden in dit artikel wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
 
 ## Vereisten voor DFP Log Ingestie {#prereqs-dfp-ingestion}
 
 Merk op dat het proces in deze sectie wordt beschreven moet worden voltooid *alvorens* u zich op de eerste vereisten voor login enablement beweegt.
 
-Als u DFP ( [!DNL DoubleClick For Publishers]) logbestanden in wilt gebruiken, moet u eerst onze unieke gebruikersnaam (UUID) [!DNL Audience Manager]voor [](../../../reference/ids-in-aam.md) Audience Manager instellen in het aanroepen van de tag ad. Hierdoor is onze id opgenomen in de DFP-logboeken en kunnen we id&#39;s afstemmen tussen DFP en [!DNL Audience Manager]. Gebruik [!DNL Audience Manager] de [!UICONTROL DIL] code of [!UICONTROL Audience Management Module] om de [!DNL Audience Manager] UUID in te stellen in een cookie van de eerste partij.
+Als u DFP ( [!DNL DoubleClick For Publishers]) login dossiers wilt gebruiken [!DNL Audience Manager], moet u onze [Audience Manager Unieke Gebruiker - identiteitskaart (UUID)](../../../reference/ids-in-aam.md) in de vraag van de advertentiemarkering eerst plaatsen. Hierdoor is onze id opgenomen in de DFP-logboeken en kunnen we id&#39;s afstemmen tussen DFP en [!DNL Audience Manager]. Gebruik [!DNL Audience Manager] de [!UICONTROL DIL] code of [!UICONTROL Audience Management Module] om de [!DNL Audience Manager] UUID in te stellen in een cookie van de eerste partij.
 
 Hieronder wordt beschreven hoe u de [!DNL Audience Manager] id instelt in de aanroep van de tag ad, zoals wordt uitgelegd in de documentatie:
 
@@ -45,8 +49,8 @@ U moet de [!DNL Audience Manager] id zelf instellen en u kunt met [!DNL Audience
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Stap 1 </p> </td> 
-   <td colname="col2"> <p>Bevestig dat de vereiste stappen voor het instellen van de UUID voor <span class="keyword"> Audience Manager</span> (zie hierboven) zijn voltooid voordat u naar stap 2 gaat </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Customer Care of Consulting </p> </td> 
+   <td colname="col2"> <p>Bevestig dat de vereiste stappen voor het instellen van de UUID van de <span class="keyword"> Audience Manager</span> (hierboven beschreven) zijn voltooid voordat u naar Stap 2 gaat </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Klantenservice of advies </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stap 2 </p> </td> 
@@ -80,7 +84,7 @@ U moet de [!DNL Audience Manager] id zelf instellen en u kunt met [!DNL Audience
   <tr> 
    <td colname="col1"> <p>Stap 6 </p> </td> 
    <td colname="col2"> <p>Compileer de voorwaarden in een e-mail naar de klantenservice van AAM (aamsupport@adobe.com) om het inlogproces af te breken. Ontwerp de e-mail gebruikend het malplaatje in de volgende sectie. </p> </td> 
-   <td colname="col3"> <p>U, of de Manager <span class="keyword"></span> van het publiek die namens u raadpleegt </p> </td> 
+   <td colname="col3"> <p>U, of <span class="keyword"> Audience Manager</span> die namens u raadpleegt </p> </td> 
   </tr> 
  </tbody> 
 </table>
