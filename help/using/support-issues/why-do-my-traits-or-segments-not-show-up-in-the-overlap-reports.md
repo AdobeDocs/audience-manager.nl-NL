@@ -4,8 +4,12 @@ seo-description: Uitleg waarom kenmerken en segmenten niet worden weergegeven op
 seo-title: Waarom worden mijn kenmerken of segmenten niet weergegeven op de pagina Rapporten overlappen?
 solution: Audience Manager
 title: Waarom worden mijn kenmerken of segmenten niet weergegeven op de pagina Rapporten overlappen?
+feature: support
 translation-type: tm+mt
-source-git-commit: 0487a15c5fcd0e653bedf0e7fd8326f5cc363660
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 0%
 
 ---
 
@@ -25,4 +29,4 @@ Aan een minimale unieke bezoekersbehoefte moet worden voldaan om een kenmerk of 
 * Voor sporen: 28000 over een periode van 14 dagen
 * Voor segmenten: 70000 real-time gebruikers gedurende een periode van 14 dagen
 
-Meer informatie hierover vindt u op de pagina [Gegevensvoorbeeld en Foutsnelheden in de geselecteerde rapporten](..//reporting/report-sampling.md)van Audience Manager.
+Meer informatie hierover vindt u op de pagina [Gegevensvoorbeeld en Foutsnelheden in de rapporten](..//reporting/report-sampling.md)over geselecteerde Audience Managers.
