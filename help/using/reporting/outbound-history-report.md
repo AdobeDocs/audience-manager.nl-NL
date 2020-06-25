@@ -5,8 +5,12 @@ seo-title: Historie van uitgaande bestanden
 solution: Audience Manager
 title: Historie van uitgaande bestanden
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
+feature: inbound and outbound reports
 translation-type: tm+mt
-source-git-commit: ccff7a0337d59a2e2c65c91076a1ff38814a0dd1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 1%
 
 ---
 
@@ -46,7 +50,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Voltooid </td> 
-   <td colname="col2"> <p>Aantal verslagen die met succes van de Manager <span class="keyword"> van het</span> Publiek naar de bestemming werden verzonden. </p> </td> 
+   <td colname="col2"> <p>Aantal verslagen die met succes van <span class="keyword"> Audience Manager</span> naar de bestemming werden verzonden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mislukt </td> 
