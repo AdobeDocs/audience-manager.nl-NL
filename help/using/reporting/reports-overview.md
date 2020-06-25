@@ -3,8 +3,9 @@ description: Gebruik de opties in het menu Analytics om het dashboard en de vers
 seo-description: Met de opties in het menu Analytics kunt u het dashboard en de verschillende rapporten weergeven in Adobe Audience Manager (AAM).
 seo-title: Rapporterend Overzicht in Adobe Audience Manager (AAM)
 title: Overzicht van rapporten
+feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 0%
