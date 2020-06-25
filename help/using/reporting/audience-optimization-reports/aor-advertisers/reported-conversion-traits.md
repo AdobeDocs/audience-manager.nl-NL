@@ -5,8 +5,12 @@ seo-title: Gerapporteerde conversiekenmerken
 solution: Audience Manager
 title: Gerapporteerde conversiekenmerken
 uuid: b4b5eb9c-d83e-4e7f-8661-f5d9c855258b
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 76adee013246c68da7ad871cef57f6ef174a239c
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 5%
 
 ---
 
@@ -17,7 +21,7 @@ Het rapport Conversion Traits toont u alle eigenschappen die als omzettingskenme
 
 Conversietaken voor conversiegroepen kunnen van rapportage tot rapportuitvoering veranderen. In het rapport worden de conversietekenmerken per conversiegroep voor de geselecteerde rapportdatum weergegeven.
 
-Bekijk de onderstaande video voor meer informatie over het maken van omzettingskenmerken in Audience Manager:
+Bekijk de onderstaande video voor meer informatie over het maken van conversietekenmerken in Audience Manager:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23431/)
 
