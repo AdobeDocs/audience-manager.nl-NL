@@ -1,24 +1,28 @@
 ---
-description: In dit document worden de typen ID's van Audience Manager beschreven die u kunt gebruiken in privacyverzoeken voor gegevens.
-seo-description: In dit document worden de typen ID's van Audience Manager beschreven die u kunt gebruiken in privacyverzoeken voor gegevens.
-seo-title: Id's van Audience Manager
+description: In dit document worden de typen Audience Manager-id's beschreven die u kunt gebruiken in privacyverzoeken voor gegevens.
+seo-description: In dit document worden de typen Audience Manager-id's beschreven die u kunt gebruiken in privacyverzoeken voor gegevens.
+seo-title: Audience Manager-id's
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
-title: Id's van Audience Manager
+title: Audience Manager-id's
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 0%
 
 ---
 
 
-# Id&#39;s van Audience Manager {#aam-ids}
+# Audience Manager-id&#39;s {#aam-ids}
 
-Wanneer u [gegevensprivacyverzoeken](data-privacy-requests.md) naar Adobe Audience Manager verzendt, moet u een van de onderstaande id&#39;s (id&#39;s) opnemen. Meer informatie over de id-indelingen vindt u in onze [index met id&#39;s](../../reference/ids-in-aam.md)van Audience Manager.
+Wanneer u [gegevensprivacyverzoeken](data-privacy-requests.md) naar de Adobe Audience Manager verzendt, moet u een van de onderstaande id&#39;s (id&#39;s) opnemen. Meer informatie over de id-indelingen vindt u in onze [index met Audience Manager-id&#39;s](../../reference/ids-in-aam.md).
 
-## Unieke gebruikersnaam in Adobe Audience Manager
+## Unieke gebruikersnaam Adobe Audience Manager
 
 * **Gebruikersnaam**: `aam_uuid`
-* **Definitie**: Unieke gebruikersnaam in Adobe Audience Manager
+* **Definitie**: Unieke gebruikersnaam Adobe Audience Manager
 * **Naamruimte-id**: 0
 
 **JSON-voorbeeld**:
@@ -137,7 +141,7 @@ Wanneer u [gegevensprivacyverzoeken](data-privacy-requests.md) naar Adobe Audien
 
 **Definitie**: Klantnummer, zoals een cookie die u instelt voor anonieme sitebezoekers of een [!DNL CRM] id van een offline systeem of een gehashte gebruikersnaam.
 
-**Naamruimte-id**: Klantspecifiek. Ga naar de instantie Audience Manager.
+**Naamruimte-id**: Klantspecifiek. Ga naar de Audience Manager-instantie.
 
 **JSON-voorbeeld**:
 
