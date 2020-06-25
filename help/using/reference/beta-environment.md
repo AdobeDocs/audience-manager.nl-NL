@@ -1,20 +1,24 @@
 ---
-description: De bètaomgeving is bedoeld voor het testen van de implementatie van de Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Contacteer uw vertegenwoordiger van de Oplossingen van de Partner van de Manager van de Publiek als u in het gebruiken van het bètamilieu geinteresseerd bent.
+description: De bètaomgeving is bedoeld voor het testen van de implementatie van uw Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Neem contact op met de vertegenwoordiger van de Partner Solutions van uw Audience Manager als u geïnteresseerd bent in het gebruik van de bètaomgeving.
 keywords: sandbox
-seo-description: De bètaomgeving is bedoeld voor het testen van de implementatie van de Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Contacteer uw vertegenwoordiger van de Oplossingen van de Partner van de Manager van de Publiek als u in het gebruiken van het bètamilieu geinteresseerd bent.
+seo-description: De bètaomgeving is bedoeld voor het testen van de implementatie van uw Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Neem contact op met de vertegenwoordiger van de Partner Solutions van uw Audience Manager als u geïnteresseerd bent in het gebruik van de bètaomgeving.
 seo-title: Bètaomgeving
 solution: Audience Manager
 title: Bètaomgeving
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
+feature: reference
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 3%
 
 ---
 
 
 # Bètaomgeving {#beta-environment}
 
-De bètaomgeving is bedoeld voor het testen van de implementatie van de Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Contacteer uw vertegenwoordiger van de Oplossingen van de Partner van de Manager van de Publiek als u in het gebruiken van het bètamilieu geinteresseerd bent.
+De bètaomgeving is bedoeld voor het testen van de implementatie van uw Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Neem contact op met de vertegenwoordiger van de Partner Solutions van uw Audience Manager als u geïnteresseerd bent in het gebruik van de bètaomgeving.
 
 ## Overzicht
 
@@ -40,7 +44,7 @@ Added re: AAM-30826.
 
 | Service | URL/hostnaam | Hoe te om toegang te verkrijgen |
 |--- |--- | --- |
-| S3 | Neem contact op met de vertegenwoordiger van de Partner Solutions van de Manager van het publiek of met de klantenservice | Neem contact op met uw Partner Solutions-vertegenwoordiger of klantenservice van Audience Manager om een Amazon S3-emmertje voor uw bètainstantie in te stellen. Lees meer over de [voordelen van het gebruik van Amazon S3](../reference/amazon-s3.md). |
+| S3 | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of klantenservice | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of Customer Care om een Amazon S3-emmertje voor uw bètainstantie in te stellen. Lees meer over de [voordelen van het gebruik van Amazon S3](../reference/amazon-s3.md). |
 | DCS | `https://dcs-beta.demdex.net/...` | Zie [Toegang tot DCS in het Bètamilieu](../reference/beta-environment.md#access-dcs-beta-environment). |
 | UI | `https://bank-beta.demdex.com` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. |
 | API | `https://api-beta.demdex.com/...` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. We raden u aan een algemene API-gebruiker te maken. [Zie details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
