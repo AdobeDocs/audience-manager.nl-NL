@@ -1,11 +1,15 @@
 ---
-description: In dit artikel worden de concepten en de terminologie uitgelegd die door de California Consumer Privacy Act (CCPA) worden gebruikt, en wordt uitgelegd hoe Adobe Audience Manager verschillende CCPA-vereisten aanpakt.
-seo-description: In dit artikel worden de concepten en de terminologie uitgelegd die door de California Consumer Privacy Act (CCPA) worden gebruikt, en wordt uitgelegd hoe Adobe Audience Manager verschillende CCPA-vereisten aanpakt.
+description: Dit artikel verklaart de concepten en de terminologie die door de Wet van de Privacy van de Consument van Californië (CCPA) worden gebruikt, en hoe de Adobe Audience Manager diverse vereisten CCPA richt.
+seo-description: Dit artikel verklaart de concepten en de terminologie die door de Wet van de Privacy van de Consument van Californië (CCPA) worden gebruikt, en hoe de Adobe Audience Manager diverse vereisten CCPA richt.
 seo-title: Verklarende woordenlijst CCPA
 solution: Audience Manager
 title: Verklarende woordenlijst CCPA
+feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 0%
 
 ---
 
@@ -14,11 +18,11 @@ source-git-commit: f8184dfccdb7b5cbc3ace67831d988dd8061ea38
 
 ## Overzicht {#overview}
 
-Dit artikel verklaart de concepten en de terminologie die door de Wet van de Privacy van de Consument van Californië (CCPA) worden gebruikt, en hoe de Manager van het Publiek van Adobe, als Dienstverlener, diverse vereisten CCPA richt.
+Dit artikel verklaart de concepten en de terminologie die door de Wet van de Privacy van de consument van Californië (CCPA) worden gebruikt, en hoe de Adobe Audience Manager, als Dienstverlener, diverse vereisten CCPA richt.
 
-De California Consumer Privacy Act (CCPA), die op 1 januari 2020 in werking is getreden, is een andere gelegenheid om privacy tot een geïntegreerd onderdeel van uw consumentenervaring te maken. De Manager van de Publiek maakt gebruik van bestaande privacyinfrastructuur om u te helpen aan uw verplichtingen onder CCPA voldoen wanneer het gebruiken van de Manager van het Publiek, toestaand u om CCPA klaar te zijn.
+De California Consumer Privacy Act (CCPA), die op 1 januari 2020 in werking is getreden, is een andere gelegenheid om privacy tot een geïntegreerd onderdeel van uw consumentenervaring te maken. De Audience Manager leveraging bestaande privacyinfrastructuur om u te helpen aan uw verplichtingen onder CCPA voldoen wanneer het gebruiken van Audience Manager, toelatend u om CCPA klaar te zijn.
 
-Audience Manager ziet ernaar uit om met u samen te werken wanneer u nieuwe verplichtingen aangaat door gebruik te maken van onze functies voor gegevensbeheer en privacy via ontwerpen.
+Audience Manager ziet ernaar uit met u samen te werken wanneer u nieuwe verplichtingen aangaat door gebruik te maken van onze functies voor gegevensbeheer en privacy door middel van ontwerpen.
 
 ## Verklarende woordenlijst CCPA {#CCPA-glossary}
 
