@@ -1,17 +1,21 @@
 ---
-description: 'Audience Manager groepeert zijn systemen en processen in vier hoofdcategorieën: tagbeheer, gegevensverzameling, gegevensorganisatie en activering van gegevens.'
-seo-description: 'Audience Manager groepeert zijn systemen en processen in vier hoofdcategorieën: tagbeheer, gegevensverzameling, gegevensorganisatie en activering van gegevens.'
-seo-title: Belangrijkste componenten in het Systeem van de Manager van de Auditie
+description: De Audience Manager groepeert zijn systemen en processen in vier hoofdcategorieën markeringsbeheer, gegevensinzameling, gegevensorganisatie, en gegevensactionability.
+seo-description: De Audience Manager groepeert zijn systemen en processen in vier hoofdcategorieën markeringsbeheer, gegevensinzameling, gegevensorganisatie, en gegevensactionability.
+seo-title: Belangrijkste componenten in het systeem van de Audience Manager
 solution: Audience Manager
-title: Belangrijkste componenten in het Systeem van de Manager van de Auditie
+title: Belangrijkste componenten in het systeem van de Audience Manager
 uuid: dedb15e6-b8dd-4eea-ab84-d99f160e4d34
+feature: system components
 translation-type: tm+mt
-source-git-commit: b8b195f51186151fa7a8658451d1ee9aa7010a75
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 0%
 
 ---
 
 
-# Belangrijkste componenten in het Systeem van de Manager van de Auditie{#key-components-in-the-audience-manager-system}
+# Belangrijkste componenten in het systeem van de Audience Manager{#key-components-in-the-audience-manager-system}
 
 Audience Manager groepeert zijn systemen en processen in vier hoofdcategorieën: tagbeheer, gegevensverzameling, gegevensorganisatie en activering van gegevens.
 
