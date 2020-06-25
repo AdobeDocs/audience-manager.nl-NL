@@ -5,8 +5,12 @@ seo-title: Overlap-rapport segment-naar-spoor
 solution: Audience Manager
 title: Overlap-rapport segment-naar-spoor
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
+feature: overlap reports
 translation-type: tm+mt
-source-git-commit: c05541df2d0dfc8753b06eaa8f2baee9bc6c2a16
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen 
 
 >[!NOTE]
 >
->De overlappende rapporten in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten en eigenschappen van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op de [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
+>De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten en eigenschappen van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op de [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
 
 <!-- 
 
@@ -182,5 +186,5 @@ popup voor het [!UICONTROL Segment-to-Trait Overlap] rapport bevat de hieronder 
 >* [Vormen, kleuren en grootten die worden gebruikt in interactieve rapporten](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Verklaarde pictogrammen en gereedschappen rapporteren](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Rapporten overlappen: Plan en minimale segmentgrootte bijwerken](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Gegevenssampling en foutenpercentages in de geselecteerde Rapporten van de Manager van de Publiek...](../../reporting/report-sampling.md)
+>* [Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van de Audience Manager...](../../reporting/report-sampling.md)
 >* [CSV-bestanden voor overlappende rapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
