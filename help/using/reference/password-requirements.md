@@ -1,19 +1,23 @@
 ---
-description: De Manager van het publiek kan worden gevormd om wachtwoorden om de 30 dagen te verlopen. Neem contact op met de consultant van de Audience Manager of de klantenservice als u wachtwoordvervalsing wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
-seo-description: De Manager van het publiek kan worden gevormd om wachtwoorden om de 30 dagen te verlopen. Neem contact op met de consultant van de Audience Manager of de klantenservice als u wachtwoordvervalsing wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
+description: Audience Manager kan worden gevormd om wachtwoorden om de 30 dagen te verlopen. Neem contact op met de consultant van de Audience Manager of de klantenservice als u wachtwoordvervalsing wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
+seo-description: Audience Manager kan worden gevormd om wachtwoorden om de 30 dagen te verlopen. Neem contact op met de consultant van de Audience Manager of de klantenservice als u wachtwoordvervalsing wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
 seo-title: Wachtwoordvereisten, vergrendelde accounts en vergeten wachtwoorden
 solution: Audience Manager
 title: Wachtwoordvereisten, vergrendelde accounts en vergeten wachtwoorden
 uuid: bca892eb-3577-4382-8110-131f78d23069
+feature: reference
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
 
 # Wachtwoordvereisten, vergrendelde accounts en vergeten wachtwoorden{#password-requirements-locked-accounts-and-forgotten-passwords}
 
-De Manager van het publiek kan worden gevormd om wachtwoorden om de 30 dagen te verlopen. Neem contact op met de consultant van de Audience Manager of de klantenservice als u wachtwoordvervalsing wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
+Audience Manager kan worden gevormd om wachtwoorden om de 30 dagen te verlopen. Neem contact op met de consultant van de Audience Manager of de klantenservice als u wachtwoordvervalsing wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
 
 <!-- 
 
