@@ -5,8 +5,12 @@ seo-title: Dagelijks verslag over de variatie van het reisdoel
 solution: Audience Manager
 title: Dagelijks verslag over de variatie van het reisdoel
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 8f2ec880cbbe2f516ebc240a712337dc09c4e7f7
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Dit rapport retourneert een lijst met kenmerken die ten minste 10.000 keer zijn 
 
 >[!NOTE]
 >
->In het dagelijks verslag over de variatie van het reisdoel in Audience Manager worden de RBAC-beginselen in acht genomen. U kunt slechts eigenschappen van gegevensbronnen zien die u toegang hebt tot gebaseerd op de [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
+>In het dagelijks verslag over de variatie van de treinen in Audience Manager worden de RBAC-beginselen in acht genomen. U kunt slechts eigenschappen van gegevensbronnen zien die u toegang hebt tot gebaseerd op de [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
 
 Standaardafwijking meet de mate van variatie of spreiding ten opzichte van het gemiddelde (of de gemiddelde/verwachte waarde). Een lage standaardafwijking geeft aan dat de gegevenspunten zeer dicht bij het gemiddelde liggen. Een hoge standaardafwijking geeft aan dat de gegevenspunten worden uitgespreid over een groot waardebereik.
 
