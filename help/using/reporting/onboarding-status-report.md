@@ -1,12 +1,16 @@
 ---
 description: Het rapport Status Aan boord van de instapkaart controleert succes en mislukkingen voor verwerkingsverslagen in uw binnenkomende gegevensbrondossiers. Dit rapport bevat gegevens in een interactief staafdiagram en een overzicht van de afmetingen in tabelvorm. En, omvat het een optie die dossiers voor een vast tijdinterval steekproeven en de gemeenschappelijkste fouten voor elk foutentype toont. U vindt dit rapport in Analytics > On-boarding Status Report. Dit rapport is ook beschikbaar wanneer u een binnenkomende gegevensbron creeert.
 seo-description: Het rapport Status Aan boord van de instapkaart controleert succes en mislukkingen voor verwerkingsverslagen in uw binnenkomende gegevensbrondossiers. Dit rapport bevat gegevens in een interactief staafdiagram en een overzicht van de afmetingen in tabelvorm. En, omvat het een optie die dossiers voor een vast tijdinterval steekproeven en de gemeenschappelijkste fouten voor elk foutentype toont. U vindt dit rapport in Analytics > On-boarding Status Report. Dit rapport is ook beschikbaar wanneer u een binnenkomende gegevensbron creeert.
-seo-title: Statusrapport onboarding
+seo-title: Rapport over status aan boord
 solution: Audience Manager
-title: Statusrapport onboarding
+title: Rapport over status aan boord
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
+feature: inbound and outbound reports
 translation-type: tm+mt
-source-git-commit: dd5c3d28097251c58e1fb095aaf4076883d1c1a1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '1498'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Het rapport Status Aan boord van de instapkaart controleert succes en mislukking
 
 >[!NOTE]
 >
->Alleen gebruikers met beheerdersrechten kunnen dit rapport zien in de gebruikersinterface van Audience Manager. U kunt niet-admin gebruikers op de hoogte stellen van de status van de geüploade binnenkomende bestanden door hun e-mails aan het rapport toe te voegen. Zie E-mailmeldingen [](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)ontvangen.
+>Alleen gebruikers met beheerdersrechten kunnen dit rapport zien in de gebruikersinterface van de Audience Manager. U kunt niet-admin gebruikers op de hoogte stellen van de status van de geüploade binnenkomende bestanden door hun e-mails aan het rapport toe te voegen. Zie E-mailmeldingen [](/help/using/reporting/onboarding-status-report.md#receive-email-notifications)ontvangen.
 
 ## Rapport over status aan boord: Info {#onboarding-status-about}
 
@@ -118,7 +122,7 @@ Een naslaggids voor de labels en termen die in dit rapport worden gebruikt.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Bestandsnaam gegevenssynchronisatie</b> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u bestanden weer die <span class="keyword"> Audience Manager</span> heeft ontvangen en verwerkt van uw geselecteerde binnenkomende gegevensbron. </p> <p>Bestandsverwerking mislukt als de bestandsnaam onjuist is opgemaakt. De vereisten voor de bestandsnaam zijn afhankelijk van de manier waarop u deze gegevens naar <span class="keyword"> Audience Manager</span>verzendt. Tot de leveringsmethoden behoren <span class="keyword"> Amazon S3</span> en FTP. Zie voor instructies over het benoemen van bestanden: </p> <p> 
+   <td colname="col2"> <p>Hier worden bestanden weergegeven die de <span class="keyword"> Audience Manager</span> heeft ontvangen en verwerkt van de geselecteerde binnenkomende gegevensbron. </p> <p>Bestandsverwerking mislukt als de bestandsnaam onjuist is opgemaakt. De vereisten voor de bestandsnaam zijn afhankelijk van de manier waarop u deze gegevens naar de <span class="keyword"> Audience Manager</span>verzendt. Tot de leveringsmethoden behoren <span class="keyword"> Amazon S3</span> en FTP. Zie voor instructies over het benoemen van bestanden: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
       <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3-naamvereisten voor binnenkomende gegevensbestanden </a> </li> 
      </ul> </p> </td> 
@@ -129,7 +133,7 @@ Een naslaggids voor de labels en termen die in dit rapport worden gebruikt.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Ongeldige AAM-id</b> </p> </td> 
-   <td colname="col2"> <p>Hier wordt het aantal niet correct opgemaakte gebruikers-id's (UUID) voor <span class="keyword"> Audience Manager</span> weergegeven. Gewoonlijk geeft dit de id's aan: </p> 
+   <td colname="col2"> <p>Hiermee geeft u het aantal niet-correct opgemaakte gebruikers-id's voor <span class="keyword"> Audience Managers</span> (UUID) weer. Gewoonlijk geeft dit de id's aan: </p> 
     <ul id="ul_8304250E8F0F44918A50CF9D8D8D1F83"> 
      <li id="li_B100B4C2623B4E099E022869A4978357">Komt niet overeen met de verwachte 38-cijferindeling. </li> 
      <li id="li_44E8A9AD13174A20A5742E56ED786634">Bevat alfabetische tekens. Id's mogen alleen cijfers zijn. </li> 
@@ -138,7 +142,7 @@ Een naslaggids voor de labels en termen die in dit rapport worden gebruikt.
 
 <tr> 
    <td colname="col1"> <p> <b>Ongeldige apparaat-id</b> </p> </td> 
-   <td colname="col2"> <p>Hier wordt het aantal onjuist opgemaakte algemene apparaat-id's weergegeven. Zie <a href="../reference/ids-in-aam.md">Index van IDs in de Manager</a> van de Audience en de <a href="../features/global-data-sources.md">Globale Gegevensbronnen</a> voor details op hoe apparaat IDs zou moeten worden geformatteerd en welke globale gegevensbronnen u, gebaseerd op het apparatentype zou moeten gebruiken.</p>
+   <td colname="col2"> <p>Hier wordt het aantal onjuist opgemaakte algemene apparaat-id's weergegeven. Zie <a href="../reference/ids-in-aam.md">Index van IDs in Audience Manager</a> en <a href="../features/global-data-sources.md">Globale Gegevensbronnen</a> voor details over hoe apparaat IDs zou moeten worden geformatteerd en welke globale gegevensbronnen u zou moeten gebruiken, gebaseerd op het apparatentype.</p>
   <p>Het gedeelte met foutmonsters van het rapport bevat gedetailleerde informatie over de ongeldige apparaat-id's, zoals:</p>
    <ul>
     <li>De gegevensbron-id die overeenkomt met de ongeldige apparaat-id.</li>
@@ -151,7 +155,7 @@ Een naslaggids voor de labels en termen die in dit rapport worden gebruikt.
 
 <tr> 
    <td colname="col1"> <p> <b>Geen overeenkomende AAM-id</b> </p> </td> 
-   <td colname="col2"> <p>Deze ID's worden niet opgenomen in Audience Manager <span class="keyword"> van</span> het publiek en kunnen niet overeenkomen met een bestaande id. Id's aan boord kunnen deze status hebben als Audience Manager <span class="keyword"></span> nog geen id-synchronisatie heeft uitgevoerd of deze nog steeds niet met de id kan overeenkomen, zelfs niet nadat ze zijn gesynchroniseerd. </p> <p>In het geval van niet-overeenkomende mobiele id's zal <span class="keyword"> Audience Manager</span> : </p> 
+   <td colname="col2"> <p>Deze ID's worden niet opgenomen in de <span class="keyword"> Audience Manager</span> van een bestaande id. Id's aan boord van een computer kunnen deze status hebben als <span class="keyword"> Audience Manager</span> nog geen id-synchronisatie heeft uitgevoerd of deze nog steeds niet met de id kan overeenkomen, zelfs niet nadat ze zijn gesynchroniseerd. </p> <p>In het geval van niet-overeenkomende mobiele id's zal de <span class="keyword"> Audience Manager</span> : </p> 
     <ul id="ul_B0D6AF9EB27D4017B35E36824B403879"> 
      <li id="li_D141000A50D3463182CBA4571DCC5373">Sla deze id op en probeer deze te synchroniseren. </li> 
      <li id="li_2EFCEE716F254ABCBC5FBF749B7564E6">Registreer het als <span class="wintitle"> Opgeslagen Verslag</span> in het rapport als identiteitskaart niet kan worden gesynchroniseerd. </li> 
@@ -159,10 +163,10 @@ Een naslaggids voor de labels en termen die in dit rapport worden gebruikt.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Geen spoor gereproduceerd</b> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u een overzicht van de kenmerken die <span class="keyword"> Audience Manager</span> niet kan aanpassen aan een niet-gecodeerd kenmerk. Dit kan het gevolg zijn van: </p> 
+   <td colname="col2"> <p>Hiermee geeft u een overzicht van de kenmerken die <span class="keyword"> Audience Manager</span> niet kan overeenkomen met een niet-gecodeerde eigenschap. Dit kan het gevolg zijn van: </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
-     <li id="li_D4C6306BF2B143198108702B309CE8CF">Onjuist opgemaakte kenmerken in het binnenkomende gegevensbestand. Voor hoe te om uw gegevensdossier te formatteren, zie de <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Binnenkomende Inhoud van het Dossier van Gegevens: Syntaxis, variabelen en voorbeelden</a>. </li> 
-     <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">De sporen die nog niet in de Manager <span class="keyword"> van de</span>Publiek zijn bepaald. </li> 
+     <li id="li_D4C6306BF2B143198108702B309CE8CF">De onjuist geformatteerde eigenschappen in uw binnenkomend gegevensdossier. Voor hoe te om uw gegevensdossier te formatteren, zie de <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Binnenkomende Inhoud van het Dossier van Gegevens: Syntaxis, variabelen en voorbeelden</a>. </li> 
+     <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Treinen die nog niet in <span class="keyword"> Audience Manager</span>zijn gedefinieerd. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -175,11 +179,11 @@ Een naslaggids voor de labels en termen die in dit rapport worden gebruikt.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Opgeslagen records</b> </p> </td> 
-   <td colname="col2"> <p>Aantal records dat is opgeslagen. Vanwege fouten in de bestandsindeling worden sommige ontvangen records mogelijk niet opgeslagen door <span class="keyword"> Audience Manager</span>. Het aantal opgeslagen records kan lager zijn dan het aantal ontvangen records. </p> </td> 
+   <td colname="col2"> <p>Aantal records dat is opgeslagen. Vanwege fouten in de bestandsindeling worden sommige ontvangen records mogelijk niet door de <span class="keyword"> Audience Manager</span>opgeslagen. Het aantal opgeslagen records kan lager zijn dan het aantal ontvangen records. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Totaal gerealiseerde transacties</b> </p> </td> 
-   <td colname="col2"> <p>Het aantal eigenschappen voor alle gebruikers over alle binnenkomende dossiers die in het platform van de Manager <span class="keyword"> van de</span> Publiek worden opgeslagen. </p> </td> 
+   <td colname="col2"> <p>Het aantal eigenschappen voor alle gebruikers over alle binnenkomende dossiers die in het platform van de <span class="keyword"> Audience Manager</span> worden opgeslagen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Totaal aantal ongebruikte signalen</b> </p> </td> 
