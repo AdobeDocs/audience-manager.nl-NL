@@ -1,19 +1,23 @@
 ---
-description: Deze kaart bevat de belangrijkste systemen van de Manager van de Publiek. Het vertegenwoordigt visueel hoe de gegevens in, uit, en onder de componenten van de Manager van de Publiek stromen.
-seo-description: Deze kaart bevat de belangrijkste systemen van de Manager van de Publiek. Het vertegenwoordigt visueel hoe de gegevens in, uit, en onder de componenten van de Manager van de Publiek stromen.
-seo-title: Gegevensoverzicht van platformarchitectuur
+description: Deze kaart bevat de belangrijkste systemen voor Audience Manager. Het vertegenwoordigt visueel hoe de gegevens in, uit, en onder de componenten van de Audience Manager stromen.
+seo-description: Deze kaart bevat de belangrijkste systemen voor Audience Manager. Het vertegenwoordigt visueel hoe de gegevens in, uit, en onder de componenten van de Audience Manager stromen.
+seo-title: Gegevenstoewijzing gegevensstroom architectuur Platform
 solution: Audience Manager
-title: Gegevensoverzicht van platformarchitectuur
+title: Gegevenstoewijzing gegevensstroom architectuur Platform
 uuid: d845af1d-f448-4f4c-948e-b2c89f125086
+feature: system components
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
 
-# Platformarchitectuur: Gegevensdoorloop toewijzen{#platform-architecture-data-flow-map}
+# Architectuur van Platform: Gegevensdoorloop toewijzen{#platform-architecture-data-flow-map}
 
-Deze kaart bevat de belangrijkste systemen van de Manager van de Publiek. Het vertegenwoordigt visueel hoe de gegevens in, uit, en onder de componenten van de Manager van de Publiek stromen.
+Deze kaart bevat de belangrijkste systemen voor Audience Manager. Het vertegenwoordigt visueel hoe de gegevens in, uit, en onder de componenten van de Audience Manager stromen.
 
 ## Deze kaart lezen {#compmap}
 
