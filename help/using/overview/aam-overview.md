@@ -1,31 +1,35 @@
 ---
-description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde gegevens, segmentatie, rapportage en meer.
-seo-description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde gegevens, segmentatie, rapportage en meer.
-seo-title: Overzicht van Auditiebeheer
+description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde gegevens, segmentatie, rapportering, en meer.
+seo-description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde gegevens, segmentatie, rapportering, en meer.
+seo-title: Overzicht van Audience Manager
 solution: Audience Manager
-title: Overzicht van Auditiebeheer
+title: Overzicht van Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
+feature: overview
 translation-type: tm+mt
-source-git-commit: a13c64eb45fdbcb311bfecdb39b3203523d6b399
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
 
-# Overzicht van Auditiebeheer {#audience-manager-overview}
+# Overzicht van Audience Manager {#audience-manager-overview}
 
-Met behulp van Audience Manager kunt u de middelen voor publieksgegevens samenbrengen, zodat u eenvoudig commercieel relevante informatie over sitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en inhoud aan het juiste publiek kunt leveren. Bovendien biedt de Manager van de Publiek gemakkelijke merkplaatsing en beheer met robuuste gegevensinzameling, controle, en bescherming.
+Met Audience Manager kunt u uw publieksgegevenselementen samenbrengen, zodat u eenvoudig commercieel relevante informatie over sitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en inhoud aan het juiste publiek kunt leveren. Bovendien biedt Audience Manager eenvoudige implementatie en beheer van tags met robuuste gegevensverzameling, controle en beveiliging.
 
-Met Audience Manager ben je niet gebonden aan een gegevensverkoper, -uitwisseling of -platform. Bovendien, is de Manager van de Publiek volledig agnostisch wanneer het op de gegevensactiva van onze partners komt. Met toegang tot meerdere gegevensbronnen biedt Audience Manager digitale uitgevers de mogelijkheid om een groot aantal gegevens van derden en onze persoonlijke gegevens te gebruiken. Bespreek met ons team van Oplossingen van de Partner over hulp met het nemen van slimme en nauwkeurige besluiten over uw doelpubliek.
+Met Audience Manager ben je niet gebonden aan een gegevensverkoper, -uitwisseling of -platform. Bovendien is de Audience Manager volkomen agnostisch als het gaat om de gegevensmiddelen van onze partners. Met toegang tot meerdere gegevensbronnen biedt Audience Manager digitale uitgevers de mogelijkheid om een groot aantal gegevens van derden en onze persoonlijke gegevens te gebruiken. Bespreek met ons team van Oplossingen van de Partner over hulp met het nemen van slimme en nauwkeurige besluiten over uw doelpubliek.
 
-## Drie functies van een Data Management Platform (DMP) {#dmp-three-functions}
+## Drie functies van een Platform voor gegevensbeheer (DMP) {#dmp-three-functions}
 
-De functies van een Data Management Platform (DMP) kunnen in drie categorieën worden samengevat, zoals hieronder wordt getoond.
+De functies van een Platform voor gegevensbeheer (DMP) kunnen in drie categorieën worden samengevat, zoals hieronder wordt getoond.
 
 ![Afbeelding van drie DMP-functies: Gegevens in, Audience Creation, Data Out](/help/using/overview/assets/dmp-functions.png)
 
 **Gegevens in**
 
-Audience Manager verzamelt gegevens van de eerste partij van kanalen en apparaten (Web analytics, CRM, apparatengegevens, e-commerce, enz.).
+Audience Manager verzamelt gegevens van de eerste partij van kanalen en apparaten (Webanalyse, CRM, apparatengegevens, e-commerce, enz.).
 
 <br> 
 
@@ -42,9 +46,9 @@ Hiermee activeert u publiekssegmenten door ze naar DSP&#39;s (demand-side platfo
 ## Meer informatie {#more-information}
 
 Zie de volgende bronnen voor meer informatie:
-* [Overzicht van Auditiebeheer](https://www.adobe.com/analytics/audience-manager.html)
-* [Voordelen van Auditiebeheer](https://www.adobe.com/analytics/audience-manager/benefits.html)
-* [Functies in Audience Manager](https://www.adobe.com/analytics/audience-manager/features.html)
+* [Overzicht van Audience Manager](https://www.adobe.com/analytics/audience-manager.html)
+* [Audience Manager](https://www.adobe.com/analytics/audience-manager/benefits.html)
+* [Functies voor Audience Manager](https://www.adobe.com/analytics/audience-manager/features.html)
 
 
 <!--
