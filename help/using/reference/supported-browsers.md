@@ -1,19 +1,23 @@
 ---
-description: Hier worden de browsers weergegeven die door de gebruikersinterface van Audience Manager worden ondersteund. Cookies en JavaScript moeten in alle browsers zijn ingeschakeld.
-seo-description: Hier worden de browsers weergegeven die door de gebruikersinterface van Audience Manager worden ondersteund. Cookies en JavaScript moeten in alle browsers zijn ingeschakeld.
+description: Hier worden de browsers weergegeven die door de gebruikersinterface van de Audience Manager worden ondersteund. Cookies en JavaScript moeten in alle browsers zijn ingeschakeld.
+seo-description: Hier worden de browsers weergegeven die door de gebruikersinterface van de Audience Manager worden ondersteund. Cookies en JavaScript moeten in alle browsers zijn ingeschakeld.
 seo-title: Ondersteunde browsers
 solution: Audience Manager
 title: Ondersteunde browsers
 uuid: dffecdb5-d94d-4001-8f2a-9d1d77ce2213
+feature: reference
 translation-type: tm+mt
-source-git-commit: 662ddd04bde203a35440669ac9677eb067e136a1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
 
 # Ondersteunde browsers{#supported-browsers}
 
-Deze pagina bevat een lijst met browsers die worden ondersteund door de gebruikersinterface van Audience Manager. Cookies en JavaScript moeten in alle browsers zijn ingeschakeld.
+Deze pagina bevat een lijst met browsers die door de gebruikersinterface van de Audience Manager worden ondersteund. Cookies en JavaScript moeten in alle browsers zijn ingeschakeld.
 
 <!-- 
 
