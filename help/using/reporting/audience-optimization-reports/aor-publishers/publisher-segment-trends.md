@@ -1,12 +1,16 @@
 ---
-description: Het rapport van de Trend van het Segment keert gegevens over indrukkingen en klikthrough tarieven van in kaart gebrachte en unmapped segmenten in tijd terug. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Vergelijk trends en volume voor de geselecteerde metriek om een beter beeld te krijgen van hoe uw publiek zich gedraagt in de loop van de tijd.
-seo-description: Het rapport van de Trend van het Segment keert gegevens over indrukkingen en klikthrough tarieven van in kaart gebrachte en unmapped segmenten in tijd terug. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Vergelijk trends en volume voor de geselecteerde metriek om een beter beeld te krijgen van hoe uw publiek zich gedraagt in de loop van de tijd.
+description: Het rapport van de Trend van het Segment keert gegevens over indrukkingen en klikthrough tarieven van in kaart gebrachte en unmapped segmenten in tijd terug. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Compare trends and volume for your selected metrics to get a better picture of how your audiences behave over time.
+seo-description: The Segment Trend report returns data on impressions and click-through rates of mapped and unmapped segments over time. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Vergelijk trends en volume voor de geselecteerde metriek om een beter beeld te krijgen van hoe uw publiek zich gedraagt in de loop van de tijd.
 seo-title: Trend-rapport segment
 solution: Audience Manager
 title: Trend-rapport segment
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +45,7 @@ Gebruik de **[!UICONTROL Segment]** drop-down doos om te selecteren welke segmen
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor identiteitskaart [!UICONTROL Line Item] &#39;s omvatten, zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in de Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)van de Auditie wordt beschreven. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Line Item] in plaats van [!UICONTROL Line Item] identiteitskaart detailleert.
+>Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor identiteitskaart [!UICONTROL Line Item] &#39;s omvatten, zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)wordt beschreven. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Line Item] in plaats van [!UICONTROL Line Item] identiteitskaart detailleert.
 
 ## De resultaten interpreteren {#interpreting-results}
 
