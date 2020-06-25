@@ -1,12 +1,16 @@
 ---
 description: Een Algemeen rapport keert prestatiesgegevens over eigenschappen, segmenten, en bestemmingen terug.
-seo-description: Een Algemeen rapport in de Manager van de Publiek keert prestatiesgegevens over eigenschappen, segmenten, en bestemmingen terug.
+seo-description: Een Algemeen rapport in Audience Manager keert prestatiesgegevens over eigenschappen, segmenten, en bestemmingen terug.
 seo-title: Algemene rapporten in Audience Manager
 solution: Audience Manager
 title: Algemene rapporten
 uuid: 0cea75a0-969e-4ee3-971a-60b911711e52
+feature: general & trend reports
 translation-type: tm+mt
-source-git-commit: 723c75e8946c42779b4c27727ff9e6398b5fc9b1
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '866'
+ht-degree: 0%
 
 ---
 
@@ -126,11 +130,11 @@ De hieronder metriek is beschikbaar wanneer u een Algemeen rapport in werking st
 
 ### Realtime segmentpopulatie
 
-Deze metrisch vertegenwoordigt het daadwerkelijke aantal unieke bezoekers die in real time voor de gespecificeerde tijdwaaier worden gezien en die voor het segment op het ogenblik werden gekwalificeerd zij gezien door de Manager van het Publiek.
+Deze metrisch vertegenwoordigt het daadwerkelijke aantal unieke bezoekers die in real time voor de gespecificeerde tijdwaaier worden gezien en die voor het segment op het ogenblik gekwalificeerd waren dat zij door Audience Manager werden gezien.
 
 ### Totale segmentpopulatie
 
-Deze metrisch vertegenwoordigt het totale aantal UUIDs van de Manager van de Auditie die voor het segment binnen de terugblik-backperiode gekwalificeerd zijn u selecteerde. Uw 1 dag Totale Bevolking van het Segment vertegenwoordigt uw nauwkeurigste gebruikersbasis voor het richten.
+Deze metrisch vertegenwoordigt het totale aantal Audience Manager UUIDs die voor het segment binnen de terugblik-achterperiode gekwalificeerd zijn u selecteerde. Uw 1 dag Totale Bevolking van het Segment vertegenwoordigt uw nauwkeurigste gebruikersbasis voor het richten.
 
 >[!NOTE]
 >
@@ -146,11 +150,11 @@ De hieronder metriek is beschikbaar wanneer u een Algemeen rapport in werking st
 
 **Realtime segmentpopulatie**
 
-Deze metrisch vertegenwoordigt het daadwerkelijke aantal unieke bezoekers die in real time voor de gespecificeerde tijdwaaier worden gezien en die voor het segment op het ogenblik werden gekwalificeerd zij gezien door de Manager van het Publiek.
+Deze metrisch vertegenwoordigt het daadwerkelijke aantal unieke bezoekers die in real time voor de gespecificeerde tijdwaaier worden gezien en die voor het segment op het ogenblik gekwalificeerd waren dat zij door Audience Manager werden gezien.
 
 **Totale segmentpopulatie**
 
-Deze metrisch vertegenwoordigt het totale aantal UUIDs van de Manager van de Audience die tot een segment binnen de terugkijkperiode behoren, die naar een bestemming werden verzonden.
+Deze metrisch vertegenwoordigt het totale aantal Audience Manager UUIDs die tot een segment binnen de terugkijkperiode behoren, die werden verzonden naar een bestemming.
 
 In de onderstaande afbeelding ziet u de resultaten van het uitvoeren van een algemeen rapport voor het rapporttype Doelen.
 
