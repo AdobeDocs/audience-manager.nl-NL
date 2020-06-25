@@ -5,8 +5,12 @@ seo-title: Rapport Segmentprestaties
 solution: Audience Manager
 title: Rapport Segmentprestaties
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
+feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '718'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +44,7 @@ Gebruik de **[!UICONTROL Segment]** drop-down doos om te selecteren welke segmen
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Line Item IDs], zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in de Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)van de Publiek wordt beschreven omvatten. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Line Item] in plaats van het [!UICONTROL Line Item ID].
+>Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Line Item IDs], zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)wordt beschreven omvatten. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Line Item] in plaats van het [!UICONTROL Line Item ID].
 
 ## De resultaten interpreteren {#interpreting-results}
 
@@ -82,7 +86,7 @@ Uw [!UICONTROL Segment Performance] rapport kan er ongeveer zo uitzien als hiero
   </tr> 
   <tr> 
    <td colname="col1"> <p>Realtime segmentpopulatie </p> </td> 
-   <td colname="col2"> <p>Het daadwerkelijke aantal unieke bezoekers die in real time voor de gespecificeerde tijdwaaier werden gezien en die voor het segment werden gekwalificeerd op het ogenblik dat zij door de Manager <span class="keyword"> van het</span>Publiek werden gezien. </p> </td> 
+   <td colname="col2"> <p>Het werkelijke aantal unieke bezoekers dat in real time voor het opgegeven tijdbereik werd gezien en dat op het moment dat ze door de <span class="keyword"> Audience Manager</span>werden gezien, in aanmerking kwam voor het segment. </p> </td> 
   </tr> 
  </tbody> 
 </table>
