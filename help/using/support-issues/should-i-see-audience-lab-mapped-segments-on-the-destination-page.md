@@ -4,8 +4,12 @@ seo-description: Waarom het Laboratorium van het publiek in kaart gebrachte segm
 seo-title: Waarom het Laboratorium van het publiek in kaart gebrachte segmenten niet op de pagina van bestemmingsdetails zullen verschijnen.
 solution: Audience Manager
 title: Moet ik mijn in kaart gebrachte segmenten van het Laboratorium van het Publiek op de pagina van bestemmingsdetails zien?
+feature: support
 translation-type: tm+mt
-source-git-commit: dd68edc816c1739ec49f3178e776087d7737863b
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 0%
 
 ---
 
