@@ -1,19 +1,23 @@
 ---
-description: In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
-seo-description: In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
+description: In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van de Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
+seo-description: In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van de Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
 seo-title: Booleaanse expressies in Trait and Segment Builder
 solution: Audience Manager
 title: Booleaanse expressies in Trait and Segment Builder
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
+feature: reference
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 0%
 
 ---
 
 
 # Booleaanse expressies in Trait and Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
 
-In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
+In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van de Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
 
 <!-- 
 
@@ -74,7 +78,7 @@ De [!UICONTROL OR] operator is handig wanneer u signalen wilt maken met uitgebre
 
 **[!UICONTROL AND NOT]Voorbeeld van hoofdletters/kleine letters gebruiken **
 
-De [!UICONTROL AND NOT] operator is handig wanneer u een publiek makkelijker kunt definiëren door *uitsluiting* in plaats van *opname*. Bijvoorbeeld, zeg u een verkoop hebt en bezoekers in klanten willen segmenteren die volledige prijspunten slechts bekijken. In plaats van een lijst met signalen te maken voor alle in aanmerking komende items tegen volledige prijs of verkoopprijs, is het misschien eenvoudiger om bezoekers in aanmerking te nemen als ze *geen* koopprijsobject hebben gezien. Dit is administratief efficiënt, omdat je doorgaans minder objecten tegen de verkoopprijs hebt dan die voor de volledige prijs. Met een Booleaanse waarde [!UICONTROL NOT], *mogen bezoekers het verkoopsignaal niet* weergeven om in aanmerking te komen voor een lidmaatschap voor een publiek met volledige prijs. Daarentegen [!UICONTROL AND NOT] is dit het tegenovergestelde van het [!UICONTROL AND] gebruiksgeval, waaruit blijkt hoe het lidmaatschap van het publiek wordt bepaald door inclusie (de bezoeker heeft dus een kwalificatie op basis van twee expliciet vermelde signalen).
+De [!UICONTROL AND NOT] operator is handig wanneer u een publiek makkelijker kunt definiëren door *uitsluiting* in plaats van *opname*. Bijvoorbeeld, zeg u een verkoop hebt en bezoekers in klanten willen segmenteren die volledige prijspunten slechts bekijken. In plaats van een lijst met signalen te maken voor alle in aanmerking komende items tegen volledige prijs of verkoopprijs, is het misschien eenvoudiger om bezoekers in aanmerking te nemen als ze *geen* koopprijsobject hebben gezien. Dit is administratief efficiënt, omdat je doorgaans minder objecten tegen de verkoopprijs hebt dan die voor de volledige prijs. Met een Booleaanse waarde [!UICONTROL NOT], *mogen bezoekers het verkoopsignaal niet* weergeven om in aanmerking te komen voor een lidmaatschap voor een publiek met een volledige prijs. Daarentegen [!UICONTROL AND NOT] is dit het tegenovergestelde van het [!UICONTROL AND] gebruiksgeval, waaruit blijkt hoe het lidmaatschap van het publiek wordt bepaald door inclusie (de bezoeker heeft dus een kwalificatie op basis van twee expliciet vermelde signalen).
 
 >[!MORELIKETHIS]
 >
