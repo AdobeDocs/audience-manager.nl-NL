@@ -4,8 +4,12 @@ seo-description: De Ontdekkingsreiziger van Gegevens van het gebruik om op histo
 seo-title: Overzicht, Voordelen en Gebruik
 title: Overzicht, Voordelen en Gebruik
 uuid: 3bd32d4a-ade3-413d-837a-9edd14d415a5
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +48,6 @@ Nadat een reisdienstverlener nieuwe bestemmingen aan hun boekende website toevoe
 
 ### Gegevensverkenner gebruiken om het maken van sporen voor uw geregistreerde gegevens te valideren
 
-Een van de krachtigste functies van Audience Manager is de mogelijkheid om offline gegevens aan boord te nemen en deze aan uw onlinegegevens te koppelen. Leer in de onderstaande video hoe u kunt controleren [!UICONTROL Data Explorer] of u alle benodigde kenmerken hebt gemaakt om deze geregistreerde gegevens te gebruiken.
+Een van de krachtigste functies van Audience Manager is de mogelijkheid om offline gegevens aan boord te nemen en deze aan uw onlinegegevens te koppelen. Leer in de onderstaande video hoe u kunt controleren [!UICONTROL Data Explorer] of u alle benodigde kenmerken hebt gemaakt om deze geregistreerde gegevens te kunnen gebruiken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25149/)
