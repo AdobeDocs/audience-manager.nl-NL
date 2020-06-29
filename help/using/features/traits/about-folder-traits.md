@@ -6,8 +6,12 @@ seo-title: Maphandleidingen over
 solution: Audience Manager
 title: Maphandleidingen over
 uuid: e561ce8f-6c90-44a7-b034-685533f29030
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 9fa5a558c839da89286b1abdf77e835a92747c87
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 0%
 
 ---
 
@@ -62,6 +66,6 @@ Leer hoe u [!UICONTROL RBAC] machtigingen toewijst in onze [beheerdocumentatie](
 | Item | Beschrijving |
 |---|---|
 | Type overtrek | [!UICONTROL Onboarded traits] en [!UICONTROL algorithmic traits] ten hoogste 1 realisatie aan de frequentie [!UICONTROL folder trait]van een project bijdragen. |
-| Kenmerken verplaatsen tussen mappen | Als u een kenmerk van een map naar een andere map verplaatst, wordt die eigenschap niet meer in aanmerking genomen voor de eerste mapkenmerk en voor de tweede [!UICONTROL folder trait]. Dit betekent dat als u een eigenschap verwijdert of verplaatst uit de map, de gebruikers in de populatie van het kenmerk niet zijn gesegmenteerd van de segmenten en de mapeigenschap als segmentexpressie gebruiken. <br> Als u Adobe Analytics-segmenten toewijst aan uw Experience Cloud-organisatie, maakt Audience Manager automatisch nieuwe, overeenkomende, alleen-lezen segmenten en kenmerken. U kunt de opslaglocatie van deze kenmerken niet bewerken of wijzigen in Audience Manager. Elke wijziging die u uitvoert op uw toegewezen Adobe Analytics-segmenten of rapportsuites, wordt echter weerspiegeld in Audience Manager. |
+| Kenmerken verplaatsen tussen mappen | Als u een kenmerk van een map naar een andere map verplaatst, wordt die eigenschap niet meer in aanmerking genomen voor de eerste mapkenmerk en voor de tweede [!UICONTROL folder trait]. Dit betekent dat als u een eigenschap verwijdert of verplaatst uit de map, de gebruikers in de populatie van het kenmerk niet zijn gesegmenteerd van de segmenten en de mapeigenschap als segmentexpressie gebruiken. <br> Wanneer u Adobe Analytics-segmenten toewijst aan uw Experience Cloud-organisatie of deze gebruikt, maakt Audience Manager automatisch nieuwe, overeenkomende, alleen-lezen segmenten en kenmerken. U kunt de opslaglocatie van deze kenmerken niet bewerken of wijzigen vanuit Audience Manager. Elke wijziging die u uitvoert op uw toegewezen Adobe Analytics-segmenten of rapportsuites, wordt echter weerspiegeld in de Audience Manager. |
 | Systeemvariabelen | [!UICONTROL Folder traits] kan niet worden gerealiseerd in gebeurtenisvraag gebruikend de `d_sid` parameter. |
 | Rapportage | [!UICONTROL Folder traits] zijn automatisch berekende kenmerken en worden niet weergegeven in **[!UICONTROL Overlap Reports]**. |
