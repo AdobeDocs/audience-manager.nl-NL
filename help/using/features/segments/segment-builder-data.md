@@ -1,12 +1,13 @@
 ---
 description: Voeg en verwijder eigenschappen in de Bouwer van het Segment toe om daadwerkelijke vakpopulaties samen met daadwerkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
 seo-description: Voeg en verwijder eigenschappen in de Bouwer van het Segment toe om daadwerkelijke vakpopulaties samen met daadwerkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
-seo-title: Bevolkingsgegevens van het spoor en van het segment in de Bouwer van het Segment
+seo-title: Behandelings- en segmentpopulatiegegevens in Segment Builder
 solution: Audience Manager
-title: Bevolkingsgegevens van het spoor en van het segment in de Bouwer van het Segment
+title: Behandelings- en segmentpopulatiegegevens in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 4d4915b9a99ddcdf321d9f4970321f5f54e057ea
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 0%
