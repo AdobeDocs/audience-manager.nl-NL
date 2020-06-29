@@ -5,8 +5,9 @@ seo-title: DCS API's voor gegevensoverdracht van server naar server
 solution: Audience Manager
 title: DCS API's voor gegevensoverdracht van server naar server
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
+feature: DCS
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Server-aan-server ([!UICONTROL S2S]) [!DNL API]s verstrekt code en methodes die 
 
 ## Vaak Gebruik {#common-use-cases}
 
-[!UICONTROL Server-to-server] transfers can help you customize landing pages or other interactions based on visitor interests. Enkele gangbare gebruiksgevallen zijn:
+[!UICONTROL Server-to-server] met overgangen kunt u landingspagina&#39;s of andere interacties aanpassen op basis van de belangen van de bezoeker. Enkele gangbare gebruiksgevallen zijn:
 
 * Lokaal personaliseren: Leer de ervaring van een bezoeker op uw plaats door relevante inhoud en vraag aan actie dynamisch toe te voegen die op de segmenten wordt gebaseerd zij tot behoren.
 * De klantenservice verbeteren: Importeer [!DNL Audience Manager] segmenten in een [!DNL CRM] of ander systeem via gegevensoverdracht van server naar server. Deze gegevens kunnen de vraagdienst of online praatjeexploitanten van relevante, gepersonaliseerde informatie over een klant voorzien.
