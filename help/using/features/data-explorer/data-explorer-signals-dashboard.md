@@ -1,18 +1,22 @@
 ---
-description: Krijg een overzicht van de ongebruikte signalen die door de Manager van het Publiek in de afgelopen 7 dagen worden ontvangen en identificeer potentiële nieuwe eigenschappen. Ongebruikte signalen bereiken Audience Manager via uw online eigenschappen, maar worden niet gebruikt in een van uw bestaande kenmerken. Ga naar Poortgegevens > Signalen om het dashboard Signalen weer te geven. Het Signals Dashboard toont u actionable inzichten die op uw actiefste ongebruikte signalen worden gebaseerd.
-seo-description: Krijg een overzicht van de ongebruikte signalen die door de Manager van het Publiek in de afgelopen 7 dagen worden ontvangen en identificeer potentiële nieuwe eigenschappen. Ongebruikte signalen bereiken Audience Manager via uw online eigenschappen, maar worden niet gebruikt in een van uw bestaande kenmerken. Ga naar Poortgegevens > Signalen om het dashboard Signalen weer te geven. Het Signals Dashboard toont u actionable inzichten die op uw actiefste ongebruikte signalen worden gebaseerd.
+description: Bekijk een overzicht van de ongebruikte signalen die de Audience Manager de afgelopen 7 dagen heeft ontvangen en identificeer mogelijke nieuwe eigenschappen. De ongebruikte signalen bereiken Audience Manager van uw online eigenschappen, maar worden niet gebruikt in om het even welk van uw bestaande eigenschappen. Ga naar Poortgegevens > Signalen om het dashboard Signalen weer te geven. Het Signals Dashboard toont u actionable inzichten die op uw actiefste ongebruikte signalen worden gebaseerd.
+seo-description: Bekijk een overzicht van de ongebruikte signalen die de Audience Manager de afgelopen 7 dagen heeft ontvangen en identificeer mogelijke nieuwe eigenschappen. De ongebruikte signalen bereiken Audience Manager van uw online eigenschappen, maar worden niet gebruikt in om het even welk van uw bestaande eigenschappen. Ga naar Poortgegevens > Signalen om het dashboard Signalen weer te geven. Het Signals Dashboard toont u actionable inzichten die op uw actiefste ongebruikte signalen worden gebaseerd.
 seo-title: Signaaldashboard
 title: Signaaldashboard
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 0%
 
 ---
 
 
 # Signaaldashboard {#signals-dashboard}
 
-Krijg een overzicht van de ongebruikte signalen die door de Manager van het Publiek in de afgelopen 7 dagen worden ontvangen en identificeer potentiële nieuwe eigenschappen. Ongebruikte signalen bereiken Audience Manager via uw online eigenschappen, maar worden niet gebruikt in een van uw bestaande kenmerken. Ga naar [!UICONTROL Signals Dashboard]> [!UICONTROL Audience Data] [!UICONTROL Signals]om de afbeelding weer te geven. Het [!UICONTROL Signals Dashboard] toont u actionable inzichten die op uw actiefste ongebruikte signalen worden gebaseerd.
+Bekijk een overzicht van de ongebruikte signalen die de Audience Manager de afgelopen 7 dagen heeft ontvangen en identificeer mogelijke nieuwe eigenschappen. De ongebruikte signalen bereiken Audience Manager van uw online eigenschappen, maar worden niet gebruikt in om het even welk van uw bestaande eigenschappen. Ga naar [!UICONTROL Signals Dashboard]> [!UICONTROL Audience Data] [!UICONTROL Signals]om de afbeelding weer te geven. Het [!UICONTROL Signals Dashboard] toont u actionable inzichten die op uw actiefste ongebruikte signalen worden gebaseerd.
 
 >[!IMPORTANT]
 >
