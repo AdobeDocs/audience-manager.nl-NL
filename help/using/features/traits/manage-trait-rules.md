@@ -5,8 +5,12 @@ seo-title: Trait-regels beheren
 solution: Audience Manager
 title: Trait-regels beheren
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +36,7 @@ In [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] laat u regels tot
    >[!NOTE]
    >
    >Deze optie is alleen beschikbaar voor [!UICONTROL Data Explorer] klanten. Neem contact op met uw Adobe-consultant voor meer informatie.
-1. De testgebieden laten u combinaties signaalregels of [!DNL URL]s bevestigen die u wilt gebruiken wanneer het verzenden van gegevens naar de Manager van de Publiek.
+1. Met de testvelden kunt u combinaties van signaalregels of de [!DNL URL]s valideren die u wilt gebruiken wanneer u gegevens naar de Audience Manager verzendt.
 
 ## Een overtrekregel maken {#create-trait-rule}
 
@@ -87,7 +91,7 @@ In deze procedure wordt beschreven hoe u een eigenschap kunt bewerken.
 
 <!-- t_tb_edit.xml -->
 
-1. Houd de muisaanwijzer boven de [!UICONTROL Traits] kolom van het **[!UICONTROL Actions]** dashboard voor het kenmerk dat u wilt bewerken. Dit brengt de pictogrammen van het trekkenbeheer naar voren.
+1. Houd de muisaanwijzer boven de [!UICONTROL Traits] kolom voor het kenmerk dat u wilt bewerken in het **[!UICONTROL Actions]** dashboard. Dit brengt de pictogrammen van het trekkenbeheer naar voren.
 1. Klik op het potlood om de eigenschap te bewerken.
 
    ![](assets/tb_edit_trait.png)
