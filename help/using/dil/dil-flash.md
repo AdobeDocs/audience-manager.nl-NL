@@ -1,19 +1,23 @@
 ---
-description: Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk met die gegevens in Audience Manager.
-seo-description: Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk met die gegevens in Audience Manager.
+description: Verzamel gegevens die van FLA-bestanden naar Analytics zijn verzonden en werk in de Audience Manager met die gegevens.
+seo-description: Verzamel gegevens die van FLA-bestanden naar Analytics zijn verzonden en werk in de Audience Manager met die gegevens.
 seo-title: Flash DIL
 solution: Audience Manager
 title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 0%
 
 ---
 
 
 # Flash DIL{#flash-dil}
 
-Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk met die gegevens in Audience Manager.
+Verzamel gegevens die van FLA-bestanden naar Analytics zijn verzonden en werk in de Audience Manager met die gegevens.
 
 <!-- 
 
@@ -21,7 +25,7 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] is een [!DNL ActionScript] codebibliotheek waarmee u in Audience Manager kunt werken met videoafspeelgegevens. [!DNL Flash DIL] werkt door SWF-inhoud vast te leggen die de Adobe- [!UICONTROL AppMeasurement] bibliotheek doorgeeft aan Analytics. [!DNL Flash DIL] verzendt die gegevens naar de afzonderlijke module van de [!UICONTROL DIL] gegevensinzameling JavaScript, die die informatie tot de Manager van de Publiek overgaat. Analytische gegevens ( [!UICONTROL Props], [!UICONTROL eVars]gebeurtenissen, enz.) die zijn vastgelegd vanuit het [!DNL FLA] bestand, is beschikbaar in Audience Manager als kenmerkende of ongebruikte signalen.
+[!UICONTROL Flash DIL] is een [!DNL ActionScript] codebibliotheek waarmee u in Audience Manager kunt werken met videoafspeelgegevens. [!DNL Flash DIL] werkt door SWF-inhoud vast te leggen die de Adobe- [!UICONTROL AppMeasurement] bibliotheek doorgeeft aan Analytics. [!DNL Flash DIL] verzendt die gegevens naar de afzonderlijke module van de [!UICONTROL DIL] gegevensinzameling JavaScript, die die informatie tot Audience Manager overgaat. Analytics-gegevens ( [!UICONTROL Props], [!UICONTROL eVars], gebeurtenissen, enz.) die uit het [!DNL FLA] bestand zijn vastgelegd, is beschikbaar in de Audience Manager als karakteristieken of ongebruikte signalen.
 
 ## Vereisten voor Flash DIL-gegevensverzameling {#requirements}
 
@@ -95,9 +99,9 @@ De gegevens van deze parameters worden standaard verzameld:
 * `mediaAdParentPod` (De pod of het ad-einde binnen de primaire inhoud waar de advertentie wordt afgespeeld)
 * `mediaAdParentPodPos` (De numerieke positie binnen de pod waarin de advertentie wordt afgespeeld. Meer dan één advertentie kan in een pod worden afgespeeld.
 
-## Flash DIL-gegevens in Auditions Manager {#flash-dil-data}
+## Flash DIL-gegevens in Audience Manager {#flash-dil-data}
 
-De [!UICONTROL Flash DIL] module zet Adobe AppMeturement-gegevens om in Audience Manager-kenmerken en ongebruikte signalen.
+De [!UICONTROL Flash DIL] module zet Adobe AppMeturement-gegevens om in Audience Manager-eigenschappen en ongebruikte signalen.
 
 <!-- 
 
@@ -105,27 +109,27 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analyses [!UICONTROL Props], [!UICONTROL eVars]en gebeurtenissen werken als eigenschappen in Audience Manager. De sporen zijn zeer belangrijk-waardeparen en worden gebruikt om segmenten te bouwen. In een analyse-eigenschap als `c30=foo`deze `c30` is bijvoorbeeld de sleutel (een constante) en `foo` de waarde (een variabele).
+Analytics [!UICONTROL Props], [!UICONTROL eVars]en gebeurtenissen werken als eigenschappen in de Audience Manager. De sporen zijn zeer belangrijk-waardeparen en worden gebruikt om segmenten te bouwen. In een Analytics-proxy `c30=foo`is dit bijvoorbeeld `c30` de sleutel (een constante) en `foo` de waarde (een variabele).
 
-**Beheer doelgroepen afstemmen op variabelen voor analyse**
+**Audience Manager traits afstemmen op Analytics-variabelen**
 
-Als u de analysegegevens wilt gebruiken die door [!UICONTROL Flash DIL]zijn doorgegeven, moet u de kenmerken van Audience Manager maken met de hoofdwaarde vooraf bepaald `c_`.
+Als u de Analytics-gegevens wilt gebruiken die zijn doorgegeven, [!UICONTROL Flash DIL]moet u Audience Manager-eigenschappen maken waarvan de hoofdwaarde vooraf is bepaald `c_`.
 
 Zie de tabel voor voorbeelden:
 
-| Gegevenselement Analytics | Voorbeeld van analyse | Als Bedieningsbeheer |
+| Analytics-gegevenselement | Analytics-voorbeeld | Als Audience Manager |
 |---|---|---|
 | **prop** | `c30=foo` | `c_prop30=foo` |
 | **vervagen** | `v35=bar` | `c_evar35=bar` |
 | **gebeurtenissen** | `events=event10` | `c_events=event10` |
 
-**DIL/Analytics Data as Unused Signals**
+**DIL/Analytics-gegevens als ongebruikte signalen**
 
-Audience Manager accepteert analyses [!UICONTROL Props], [!UICONTROL eVars]en gebeurtenissen, zelfs zonder bijbehorend kenmerk. In dit geval zijn de gegevens niet beschikbaar voor het maken van sporen en worden deze in plaats daarvan weergegeven in het rapport [](../reporting/dynamic-reports/unused-signals.md) Ongebruikte signalen. Als u deze informatie optimaal wilt benutten, maakt u de kenmerken van Audience Manager die overeenkomen met de analysegegevens die door de [!UICONTROL Flash DIL] bibliotheek worden doorgegeven.
+Audience Manager accepteert Analytics [!UICONTROL Props], [!UICONTROL eVars]en gebeurtenissen zelfs zonder overeenkomende eigenschap. In dit geval zijn de gegevens niet beschikbaar voor het maken van sporen en worden deze in plaats daarvan weergegeven in het rapport [](../reporting/dynamic-reports/unused-signals.md) Ongebruikte signalen. Als u deze informatie optimaal wilt benutten, maakt u Audience Managers die overeenkomen met de Analytics-gegevens die door de [!UICONTROL Flash DIL] bibliotheek worden doorgegeven.
 
 ## Flash DIL ActionScript-bibliotheek {#flash-dil-actionscript}
 
-Code voor uw [!DNL Flash] object om analysegegevens naar Audience Manager te verzenden.
+Code voor uw [!DNL Flash] object om Analytics-gegevens naar de Audience Manager te verzenden.
 
 <!-- 
 
