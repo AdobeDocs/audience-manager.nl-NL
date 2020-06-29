@@ -6,8 +6,12 @@ seo-title: Een algoritmisemodel maken
 solution: Audience Manager
 title: Een algoritmisemodel maken
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 859e55fa5d93c7c56cef4bf2a112cdd4ff318d97
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 0%
 
 ---
 
@@ -94,7 +98,7 @@ Vul de vereiste velden eerst in de [!UICONTROL Basic Information] sectie in.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Algoritme selecteren (3)</b> </p> </td> 
-   <td colname="col2"> <p>Op dit moment werkt de Modelbouwer alleen met ons eigen algoritme voor <span class="keyword"> handelsgewicht</span> . <span class="keyword"> Audience Manager</span> kan andere algoritmische functies toevoegen aan volgende releases. </p> </td>
+   <td colname="col2"> <p>Op dit moment werkt de Modelbouwer alleen met ons eigen algoritme voor <span class="keyword"> handelsgewicht</span> . <span class="keyword"> Audience Manager</span> kan andere algoritmische functies toevoegen in volgende versies. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Modelgegevens selecteren uit gegevensbron (4)</b> </p> </td> 
