@@ -6,8 +6,9 @@ seo-title: Veelgestelde vragen over regels voor samenvoegen van profielen en app
 solution: Audience Manager
 title: Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 6876ca5ee0bc5f50c2aa1acd5c683b151a07fd59
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -73,7 +74,7 @@ U kunt op dit moment maximaal 4 [!UICONTROL Profile Merge Rules]maken. De vierde
 
 **Hoeveel apparaatprofielen worden[!DNL Audience Manager]samengevoegd en gelezen wanneer een apparaatgrafiek in een[!UICONTROL Profile Merge Rule]afbeelding wordt gebruikt?**
 
-Als u een apparaat kwalificeert voor een segment met behulp van een [!UICONTROL Profile Merge Rule]Audience Manager, wordt het huidige apparaatprofiel en maximaal 99 andere aanvullende apparaatprofielen samengevoegd en gelezen die zijn gekoppeld door de geselecteerde grafiekoptie van het apparaat.
+Wanneer een Audience Manager een apparaat kwalificeert voor een segment met behulp van een segment, wordt het huidige apparaatprofiel en maximaal 99 andere aanvullende apparaatprofielen die zijn gekoppeld door de geselecteerde grafiekoptie van het apparaat, samengevoegd en gelezen. [!UICONTROL Profile Merge Rule]
 
  
 
@@ -93,7 +94,7 @@ De apparaten [!DNL Audience Manager] voegen samen en lezen zijn de zelfde appara
 
 **Hoe maakt u het segment van een apparaat ongedaan wanneer het niet meer gekwalificeerd is voor een segment met een[!DNL Audience Manager][!UICONTROL Profile Merge Rule]apparaat dat een apparaatgrafiek gebruikt?**
 
-Audience Manager voegt maximaal 100 apparaten samen wanneer u segmenten evalueert met een grafiek [!UICONTROL Profile Merge Rule] die een apparaatgrafiek gebruikt. Als het unsegment signaal wordt uitgegeven, zullen het huidige apparaat en tot 99 extra apparaten uit het segment in de bestemming worden verwijderd. Voor meer informatie over unsegmentation, zie de Regels van de Fusie van het [Profiel en de Processen van de Apparaat Un-Segmentatie](../features/profile-merge-rules/merge-rule-unsegment.md).
+Audience Manager voegt maximaal 100 apparaten samen bij het evalueren van segmenten met een apparaatgrafiek [!UICONTROL Profile Merge Rule] . Als het unsegment signaal wordt uitgegeven, zullen het huidige apparaat en tot 99 extra apparaten uit het segment in de bestemming worden verwijderd. Voor meer informatie over unsegmentation, zie de Regels van de Fusie van het [Profiel en de Processen van de Apparaat Un-Segmentatie](../features/profile-merge-rules/merge-rule-unsegment.md).
 
  
 
@@ -123,7 +124,7 @@ Ja.
 
 **Als een segment[!UICONTROL Profile Merge Rule]met gebruikt[!UICONTROL No Cross-Device Profile]en de eigenschappen die apparaten voor het segment kwalificeren slechts op het dwars-apparatenprofiel worden opgeslagen, zal de totale bevolking van het segment 0 zijn?**
 
-Ja. De Manager van de publiek zal niet de eigenschappen tellen die op het dwars-apparatenprofiel in de segmentevaluatie worden opgeslagen wanneer de Regel van de Fusie van het Profiel aan [!UICONTROL No Cross-Device Profile]. wordt geplaatst.
+Ja. De Audience Manager zal niet de eigenschappen tellen die op het dwars-apparatenprofiel in de segmentevaluatie worden opgeslagen wanneer de Regel van de Fusie van het Profiel aan [!UICONTROL No Cross-Device Profile]. wordt geplaatst.
 
  
 
@@ -152,7 +153,7 @@ De vakfrequentie wordt gedefinieerd door de som van het aantal kwalificaties voo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Handelingen</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> leest de apparaatprofielen voor Device A en Device B en voegt deze samen. Hieruit zien we het volgende: </p> <p> 
+   <td colname="col2"> <p> <span class="keyword"> De Audience Manager</span> leest en voegt de apparatenprofielen voor Apparaat A en Apparaat B samen. Hieruit zien we het volgende: </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
       <li id="li_5760BEE513C94152AA307AEE10894718">Apparaat A heeft drie keer gekwalificeerd voor Trait. Het heeft een frequentie van 3 voor Trait 1. </li> 
       <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Apparaat B heeft vijf keer gekwalificeerd voor Trait. Het heeft een frequentie van 5 voor Trait 1. </li> 
@@ -160,7 +161,7 @@ De vakfrequentie wordt gedefinieerd door de som van het aantal kwalificaties voo
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultaten</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> somt de frequentie voor Trait 1 op en gebruikt 8 (3 + 5 = 8) om segmentkwalificatie te bepalen. Apparaat A en Apparaat B komen in aanmerking voor Segment 1 omdat het een frequentie van 8 heeft. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> geeft de frequentie voor Trait 1 aan en gebruikt 8 (3 + 5 = 8) om de segmentkwalificatie te bepalen. Apparaat A en Apparaat B komen in aanmerking voor Segment 1 omdat het een frequentie van 8 heeft. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,7 +209,7 @@ Ja. Met de metrische gegevens voor realtime-populaties worden segmentkwalificati
    <td colname="col1"> <p> <b>Resultaten</b> </p> </td> 
    <td colname="col2"> <p>Gezien de voorgaande elementen is de totale populatie voor segment 1 één. </p> <p>In dit geval, gebruikt de Regel <span class="wintitle"> van de Fusie van het</span> Profiel alle apparaten en hun eigenschappen om segmentkwalificatie te beslissen. Dit betekent Apparaten 1, 2, en 3 kwalificeren voor Segment 1, maar, zoals hierboven vermeld, is slechts Apparaat 1 inbegrepen in de segmentpopulatie in real time. Dit komt omdat: </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Apparaat 1 is het huidige apparaat dat met de Servers <span class="wintitle"> van de Inzameling van Gegevens van de Manager van de Auditie (</span> DCS<span class="wintitle"></span>) in real time in wisselwerking staat. </li> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Apparaat 1 is het huidige apparaat dat met de Servers <span class="wintitle"> van de Gegevensverzameling van de Audience Manager</span> (DCS<span class="wintitle"></span>) in real time in wisselwerking staat. </li> 
       <li id="li_57165E96289F4E20BF2244BC68B90BA3">Apparaten 2 en 3 worden aan Apparaat 1 geassocieerd door een apparatengrafiek maar zij communiceren niet met DCS tezelfdertijd zoals Apparaat 1. </li> 
      </ul> </p> <p>Dientengevolge, zijn de Apparaten 2 en 3 niet inbegrepen in de metrische populatie in real time. </p> </td> 
   </tr> 
@@ -261,16 +262,16 @@ Nee.
 
 **Waarom zie ik geen segmentpopulatie voor segmentexport naar Adobe Campaign na 16 maart 2020?**
 
-Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw instantie Audience Manager vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
+Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw Audience Manager-exemplaar vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
 
-Om de correcte integratie tussen uw instantie van de Manager van de Publiek en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals de Campagne van Adobe, zorg ervoor u aan de volgende vereisten voldoet:
+Om de correcte integratie tussen uw instantie van de Audience Manager en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals Adobe Campaign, zorg ervoor u aan de volgende vereisten voldoet:
 
-1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan het doel van de opgegeven Adobe-id voor campagne. De regel voor het samenvoegen van profielen moet de [!UICONTROL Last Authenticated Profile] optie gebruiken, zodat alle geverifieerde profielen kunnen worden opgenomen in de exportbewerking. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
-2. Selecteer de gegevensbron voor de door Adobe-campagne aangegeven id in de instellingen voor de samenvoegregel voor profielen.
+1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan de bestemming van de door Adobe Campaign aangegeven id. De regel voor het samenvoegen van profielen moet de [!UICONTROL Last Authenticated Profile] optie gebruiken, zodat alle geverifieerde profielen kunnen worden opgenomen in de exportbewerking. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
+2. Selecteer de gegevensbron voor de Adobe Campaign-declaratie-id in de instellingen voor de regel voor het samenvoegen van profielen.
 
 >[!NOTE]
 >
-> We hebben de limiet voor de regel voor het samenvoegen van profielen met 1 verhoogd voor klanten die met deze situatie worden geconfronteerd, zodat u een speciale regel voor het samenvoegen van profielen kunt maken voor de segmenten die zijn toegewezen aan de bestemming van de gedeclareerde id voor Adobe-campagne, zonder de regels voor het samenvoegen van profielen te wijzigen voor andere gebruiksgevallen.
+> Wij hebben de grens van de Regel van de Fusie van het Profiel met 1 voor klanten verhoogd die deze situatie onder ogen zien, zodat u een specifieke Regel van de Fusie van het Profiel voor de segmenten kunt tot stand brengen die aan de Adobe Campaign Verklaarde bestemming van identiteitskaart worden in kaart gebracht, zonder de Regels van de Fusie van het Profiel voor andere gebruiksgevallen te veranderen.
 
 >[!MORELIKETHIS]
 >
