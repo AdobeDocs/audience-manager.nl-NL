@@ -4,9 +4,12 @@ seo-description: Krijg levende trekaanbevelingen aangezien u uw segmenten bouwt.
 seo-title: Aanbevolen stappen
 solution: Audience Manager
 title: Aanbevolen stappen
-uuid: null
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 019396917482340f15b4eb23736b15322815bd84
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1573'
+ht-degree: 0%
 
 ---
 
@@ -27,10 +30,10 @@ In de volgende video wordt een overzicht gegeven van de workflow voor [!UICONTRO
 
 ## Overzicht
 
-[!UICONTROL Trait Recommendations], aangedreven door [!DNL Adobe Sensei], brengt gegevenswetenschap in uw dagelijkse werkschema&#39;s van de Manager van de Publiek.
+[!UICONTROL Trait Recommendations], aangedreven door [!DNL Adobe Sensei], brengt gegevenswetenschap in uw dagelijkse werkstromen van de Audience Manager.
 Met [!UICONTROL Trait Recommendations], wanneer u bouwt of een segment in de Bouwer [van het](segment-builder.md)Segment uitgeeft, krijgt u aanbevelingen op extra eigenschappen u kunt omvatten, die aan de eigenschappen in de segmentregel gelijkaardig zijn.
 
-De Manager van de Publiek toont u trekaanbevelingen zowel van uw eerste-partijeigenschappen, in de **[!UICONTROL Recommendations]** sectie, als van **[!UICONTROL Audience Marketplace]**, in de **[!UICONTROL Recommendations from Marketplace]** sectie.
+De Audience Manager toont u de aanbevelingen van de eigenschap van zowel uw eerste partij, in de **[!UICONTROL Recommendations]** sectie, als van **[!UICONTROL Audience Marketplace]**, in de **[!UICONTROL Recommendations from Marketplace]** sectie.
 
 Voeg de geadviseerde eigenschappen aan uw segment toe om uw doelpubliek te verhogen.
 
@@ -38,18 +41,18 @@ Voeg de geadviseerde eigenschappen aan uw segment toe om uw doelpubliek te verho
 
 **In een notendop:**
 
-* De Manager van de publiek toont de eerste partijeigenschappen in de [!UICONTROL Recommendations] sectie. De aanbevelingen van de Marketplace van openbare en privé voer u niet aan wordt geabonneerd zijn zichtbaar in de [!UICONTROL Recommendations from Marketplace] sectie. Klik op de naam van de feed waarnaar u wilt gaan [!UICONTROL Audience Marketplace] en zich wilt abonneren.
-* De Manager van het publiek toont een maximum van vijftig eigenschappen gelijkend op in de segmentregel.
+* In de [!UICONTROL Recommendations] sectie ziet u de eigenschappen van de eerste partij. De aanbevelingen van de Marketplace van openbare en privé voer u niet aan wordt geabonneerd zijn zichtbaar in de [!UICONTROL Recommendations from Marketplace] sectie. Klik op de naam van de feed waarnaar u wilt gaan [!UICONTROL Audience Marketplace] en zich wilt abonneren.
+* De Audience Manager toont een maximum van vijftig eigenschappen gelijkend op in de segmentregel.
 * U kunt de gegevensbronnen filteren waarvan u geen aanbevelingen wilt zien.
-* Bij het berekenen van gelijkenissen, overweegt de Manager van de Publiek [UUIDs](../../reference/ids-in-aam.md) die voor het bezit tijdens de laatste 30 dagen kwalificeerden.
-* Als het foutbericht &quot;Geen vergelijkbare kenmerken gevonden. Trait(s) kan(en) te nieuw zijn.&quot;, betekent dit dat er in de laatste 30 dagen geen activiteit voor die eigenschap was of dat Audience Manager de aanbevelingen voor die eigenschap nog niet heeft bijgewerkt. Probeer het over 24 uur opnieuw.
+* Bij het berekenen van gelijkenissen, beschouwt Audience Manager [UUIDs](../../reference/ids-in-aam.md) die voor het bezit in de afgelopen 30 dagen in aanmerking kwamen.
+* Als het foutbericht &quot;Geen vergelijkbare kenmerken gevonden. De eigenschap(pen) is mogelijk te nieuw.&quot;, wat betekent dat er in de laatste 30 dagen geen activiteit voor die eigenschap heeft plaatsgevonden, of dat de Audience Manager de aanbevelingen voor die eigenschap nog niet heeft bijgewerkt. Probeer het over 24 uur opnieuw.
 
 ## Gevallen gebruiken
 
-Met [!UICONTROL Trait Recommendations], kunt u uw werkschema&#39;s verbeteren, afhankelijk van hoe u de Manager van het Publiek gebruikt:
+Met [!UICONTROL Trait Recommendations], kunt u uw werkschema&#39;s verbeteren, afhankelijk van hoe u Audience Manager gebruikt:
 
 * Als marketeer, kunt u snel publiek vinden in complementaire producten met behulp van gelijkaardige eigenschappen, zodat u uw bereik kunt verhogen.
-* Als u Audience Manager als uitgever gebruikt, [!UICONTROL Trait Recommendations]kunt u publieksgedrag begrijpen en betere segmenten voor advertentieverkoop of gebruikersaanschaf bouwen.
+* Als u Audience Manager als uitgever gebruikt, met [!UICONTROL Trait Recommendations], kunt u publieksgedrag begrijpen en betere segmenten voor advertentieverkoop of gebruikersverwerving bouwen.
 * Als [!UICONTROL Audience Marketplace] gegevenskoper wil ik relevante gegevens van derden ontdekken zonder door een groot aantal feeds te bladeren.
 * Als [!UICONTROL Audience Marketplace] gegevensaanbieder wil ik kopers relevante gegevens aanbevelen zodat ik gebruik kan maken van optimale en relevante abonnementen.
 
@@ -109,7 +112,7 @@ Wanneer het bouwen van of het uitgeven van een segment in de Bouwer [van het](se
    >De uitgesloten gegevensbronnen worden net boven de lijst met aanbevolen kenmerken weergegeven. Klik op **X** in het grijze vak om de uitsluitingen te verwijderen en de resultaten van de respectievelijke gegevensbronnen weer te zien.
 1. Klik op het symbool **+** om aanbevolen kenmerken aan de segmentregel toe te voegen.
 
-Wanneer u een segment maakt of bewerkt en een kenmerk aan de segmentregel toevoegt, ziet u een maximum van vijftig aanbevolen kenmerken, vergelijkbaar met de eigenschap die u hebt toegevoegd. Als de segmentregel meer dan één eigenschap bevat, gebruikt de Manager van de Publiek een ronde methode van de robin om de beste gelijke voor elke eigenschap te tonen, dan de tweede-beste gelijke voor elk bezit, etc., voor de grootste vijftig eigenschappen door populatie, in de segmentregel.
+Wanneer u een segment maakt of bewerkt en een kenmerk aan de segmentregel toevoegt, ziet u een maximum van vijftig aanbevolen kenmerken, vergelijkbaar met de eigenschap die u hebt toegevoegd. Als de segmentregel meer dan één eigenschap bevat, gebruikt de Audience Manager een ronde robinmethode om de beste gelijke voor elk bezit te tonen, dan de tweede-beste gelijke voor elk bezit, etc., voor de grootste vijftig eigenschappen door populatie, in de segmentregel.
 
 ![Drie basiskenmerken](assets/three-base-traits.png)
 
@@ -139,11 +142,11 @@ Als u op een eersteklas kenmerk klikt, wordt een pop-upvenster geopend, zoals in
 
 ## Hoe het werkt
 
-Voor het opstellen van aanbevelingen voor gedrag berekent Audience Manager de [Jaccard-gelijkenis](https://en.wikipedia.org/wiki/Jaccard_index) tussen de doeleigenschap en alle andere kenmerken waartoe uw account toegang heeft, inclusief gegevens van derden. Audience Manager geeft vervolgens maximaal vijftig kenmerken weer die de grootste gelijkenis vertonen.
+Voor het opstellen van aanbevelingen op het gebied van de eigenschap, berekent de Audience Manager de [Jaccard gelijkenis](https://en.wikipedia.org/wiki/Jaccard_index) tussen de doeleigenschap en elke andere eigenschap waartoe uw account toegang heeft, met inbegrip van gegevens van derden. Audience Manager geeft dan tot vijftig kenmerken weer die het hoogst op elkaar lijken.
 
 ## Gelijksoortige score volgen {#trait-similarity-score}
 
-Audience Manager berekent de [!UICONTROL Trait Similarity Score] tussen twee kenmerken door de doorsnede en de samenvoeging te berekenen in termen van het aantal [!UICONTROL UUID]s en vervolgens de twee te verdelen. Voor twee kenmerken A en B ziet de berekening er als volgt uit:
+De Audience Manager berekent de [!UICONTROL Trait Similarity Score] tussen twee eigenschappen door de intersection en union te berekenen in termen van het aantal [!UICONTROL UUID]s en dan de twee te verdelen. Voor twee kenmerken A en B ziet de berekening er als volgt uit:
 
 ![jaccard-gelijkenis](assets/jaccard_similarity.png)
 
@@ -186,5 +189,5 @@ Lees meer over [!UICONTROL RBAC] besturingselementen [hier](../administration/ad
 
 ## Beperkingen
 
-* Audience Manager geeft momenteel de mapkenmerken niet als aanbevolen kenmerken weer. Lees [hier](../traits/manage-folder-traits.md)meer over mapkenmerken.
-* Bij het tonen van de Aanbevelingen van het Spoor, houdt de Manager van de Publiek geen rekening met [!DNL Boolean] exploitanten ([!DNL AND], [!DNL OR], [!DNL NOT]) in segmentregels.
+* Op dit moment worden mapkenmerken niet als aanbevolen kenmerken weergegeven in Audience Manager. Lees [hier](../traits/manage-folder-traits.md)meer over mapkenmerken.
+* Bij het tonen van de Aanbevelingen van het Spoor, houdt de Audience Manager geen rekening met [!DNL Boolean] exploitanten ([!DNL AND], [!DNL OR], [!DNL NOT]) in segmentregels.
