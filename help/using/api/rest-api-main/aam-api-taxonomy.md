@@ -1,19 +1,23 @@
 ---
-description: Methoden waarmee u de algemene taxonomie van Audience Manager kunt weergeven. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
-seo-description: Methoden waarmee u de algemene taxonomie van Audience Manager kunt weergeven. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
+description: Methoden waarmee u de algemene taxonomie van de Audience Manager kunt weergeven. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
+seo-description: Methoden waarmee u de algemene taxonomie van de Audience Manager kunt weergeven. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
 seo-title: Taxonomische API-methoden
 solution: Audience Manager
 title: Taxonomische API-methoden
 uuid: 4ee29ba5-e9ba-4498-a6ee-7343227dd7ba
+feature: API
 translation-type: tm+mt
-source-git-commit: ad81dd596434534906788223f3c9531ffa50d9b4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 0%
 
 ---
 
 
 # Taxonomische API-methoden {#taxonomic-api-methods}
 
-Methoden waarmee u de algemene taxonomie van Audience Manager kunt weergeven. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
+Methoden waarmee u de algemene taxonomie van de Audience Manager kunt weergeven. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
 
 <!-- c_rest_api_taxonomy.xml -->
 
