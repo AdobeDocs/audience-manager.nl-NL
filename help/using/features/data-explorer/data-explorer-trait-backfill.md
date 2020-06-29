@@ -4,8 +4,12 @@ seo-description: De realisaties van het terugvullingsspoor om historische publie
 seo-title: Redalisaties achtergrondvulling
 title: Redalisaties achtergrondvulling
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +20,7 @@ De realisaties van het terugvullingsspoor om historische publiek te vangen en ve
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill] is een premiumfunctie die de ervaring van Audience Manager verbetert door extra gebruiksgevallen te ontgrendelen. Voor een back-up is extra verwerkingskracht vereist en deze is tegen extra kosten beschikbaar voor alle klanten van Audience Manager. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
+>[!UICONTROL Data Explorer Trait Backfill] is een premiumfunctie die de Audience Manager-ervaring vergroot door het ontgrendelen van extra gebruiksgevallen. Voor back-up is extra verwerkingskracht nodig en deze is tegen extra kosten beschikbaar voor alle klanten van de Audience Manager. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 
 Wanneer u eigenschappen van ongebruikte signalen creeert, kunt u verkiezen om de karakterrealisaties over een specifieke periode te herhalen. [!DNL Audience Manager] vangt de historische gegevens over publiek dat voor het nieuwe spoor in aanmerking komt en slaat hen op het overeenkomstige profiel op. U kunt de sectie **[!UICONTROL Backfill Options]** in de [!UICONTROL Trait Expression] sectie van de **[Trait Builder](../../features/traits/about-trait-builder.md)**zien.
 
@@ -55,7 +59,7 @@ Bekijk de video hieronder voor een videodemonstratie van hoe u terugvullingseige
 
 Nieuwe traits maken het publiek twee tot drie uur na het maken vast. Vanwege het grote gegevensvolume dat dagelijks [!DNL Audience Manager] wordt uitgevoerd, wordt de achtergevulde populatie echter niet onmiddellijk weergegeven in de [!UICONTROL Unique Trait Realizations] en [!UICONTROL Total Trait Population] grafieken.
 
-Audience Manager werkt de [!UICONTROL Trait Graph] verzameling met de opgevulde populatie bij binnen 48 uur na het maken van de eigenschap.
+Audience Manager werkt het systeem binnen 48 uur na het creëren van de eigenschap bij [!UICONTROL Trait Graph] met de opgevulde populatie.
 
 ## Limiet voor achteruitvullen {#trait-backfilling-limit}
 
