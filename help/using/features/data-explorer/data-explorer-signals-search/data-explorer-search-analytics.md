@@ -1,18 +1,22 @@
 ---
-description: Klanten van Audience Manager die ook Adobe Analytics gebruiken, kunnen de nauwe integratie tussen de twee oplossingen benutten door de optie Geavanceerd zoeken naar Adobe Analytics in te schakelen.
-seo-description: Klanten van Audience Manager die ook Adobe Analytics gebruiken, kunnen de nauwe integratie tussen de twee oplossingen benutten door de optie Geavanceerd zoeken naar Adobe Analytics in te schakelen.
+description: Klanten die ook Adobe Analytics gebruiken, kunnen de nauwe integratie tussen de twee oplossingen benutten door de optie Geavanceerd zoeken naar Adobe Analytics in te schakelen.
+seo-description: Klanten die ook Adobe Analytics gebruiken, kunnen de nauwe integratie tussen de twee oplossingen benutten door de optie Geavanceerd zoeken naar Adobe Analytics in te schakelen.
 seo-title: Geavanceerd zoeken naar Adobe Analytics
 title: Geavanceerd zoeken naar Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 0%
 
 ---
 
 
 # Geavanceerd zoeken naar Adobe Analytics {#advanced-search-for-adobe-analytics}
 
-De klanten van de Manager van het publiek die ook gebruiken [!DNL Adobe Analytics] kunnen hefboomwerking de strakke integratie tussen de twee oplossingen door de [!UICONTROL Advanced Search for Adobe Analytics] optie toe te laten.
+Audience Manager klanten die ook gebruikmaken [!DNL Adobe Analytics] kunnen de nauwe integratie tussen de twee oplossingen benutten door de [!UICONTROL Advanced Search for Adobe Analytics] optie in te schakelen.
 
 Deze integratie staat u toe om de vriendschappelijke namen voor zeer belangrijk-waardeparen te zien die uit [!DNL Adobe Analytics] rapportsuites worden afgeleid. Dit doet u als volgt:
 
@@ -26,6 +30,6 @@ Deze integratie staat u toe om de vriendschappelijke namen voor zeer belangrijk-
    ![](assets/signals-search-analytics.png)
 1. De onderzoeksresultaten zullen u nu de vriendschappelijke namen voor de zeer belangrijk-waardeparen tonen ingegaan in de **[!UICONTROL Key or Key Name]** kolom, of voor alle signalen in de rapportreeks, als u de zeer belangrijk-waardegebieden leeg verliet.
 
-In de onderstaande video ziet u hoe u uw Adobe Analytics-gegevens kunt detecteren en gebruiken, inclusief het zoeken naar gebruikte en ongebruikte signalen, het maken van analysemogelijkheden en het begrijpen van de gegevens. [!UICONTROL Data Explorer]
+In de onderstaande video ziet u hoe u uw Adobe Analytics-gegevens kunt detecteren en gebruiken, zoals zoeken naar gebruikte en ongebruikte signalen, Analytics-kenmerken maken en de gegevens begrijpen. [!UICONTROL Data Explorer]
 
 >[!VIDEO](https://video.tv.adobe.com/v/25150)
