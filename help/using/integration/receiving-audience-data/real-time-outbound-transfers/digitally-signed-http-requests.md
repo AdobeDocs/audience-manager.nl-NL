@@ -5,15 +5,19 @@ seo-title: Digitaal ondertekende HTTP(S)-aanvragen
 solution: Audience Manager
 title: Digitaal ondertekende HTTP(S)-aanvragen
 uuid: 1183a70f-0c96-42cf-a4f5-37a83ffa1286
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 5dddaaae3a5cb2ce4c4649e2a153edf1992fa964
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 0%
 
 ---
 
 
 # Digitaal ondertekende `HTTP(S)` verzoeken {#digitally-signed-http-requests}
 
-Audience Manager vereist dat de aanvragen voor `HTTP(S)` server-naar-server digitaal worden ondertekend voor geldigheid. In dit document wordt beschreven hoe u `HTTP(S)` aanvragen met persoonlijke sleutels kunt ondertekenen.
+Audience Manager vereist dat de `HTTP(S)` server-aan-server verzoeken digitaal worden ondertekend voor geldigheid. In dit document wordt beschreven hoe u `HTTP(S)` aanvragen met persoonlijke sleutels kunt ondertekenen.
 
 ## Overzicht {#overview}
 
@@ -82,7 +86,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-RFC voor de [!DNL HMAC] knoeiboelimplementatie is [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Een testlocatie: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (houd er rekening mee dat u de hexadecimale codering moet [omzetten](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) in base64).
+RFC voor de [!DNL HMAC] knoeiboelimplementatie is [https://www.ietf.org/rfc/rfc2104.txt](https://www.ietf.org/rfc/rfc2104.txt). Een testlocatie: [https://asecuritysite.com/encryption/hmac](https://asecuritysite.com/encryption/hmac) (houd er rekening mee dat u de hexadecimale codering moet [converteren](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) naar base64).
 
 ## De persoonlijke sleutel roteren {#rotate-private-key}
 
