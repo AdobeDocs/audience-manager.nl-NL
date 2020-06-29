@@ -3,15 +3,19 @@ description: Overzicht van hoe u DFP kunt integreren met gebruik van Google Publ
 seo-description: Overzicht van hoe u DFP kunt integreren met gebruik van Google Publisher Tags (GPT) in Adobe Audience Manager (AAM).
 seo-title: DFP integreren met Google Publisher-tags (GPT) in Adobe Audience Manager (AAM)
 title: DFP integreren met Google Publisher-tags (GPT)
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: a1960a65058622c198bb07d7c20c1e21e2eaf00a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 0%
 
 ---
 
 
 # DFP integreren met Google Publisher-tags (GPT)
 
-De onderstaande artikelen bieden een overzicht van hoe u DFP kunt integreren met behulp van Google Publisher Tags (GPT). U kunt een server-zijintegratie gebruiken, of u kunt opstelling GPT als bestemming om de segmentgegevens van de Manager van de Publiek naar DFP te verzenden. U zult ook de noodzakelijke stappen leren om DFP logboekdossiers voor rapportering in de Manager van de Publiek in te gaan.
+De onderstaande artikelen bieden een overzicht van hoe u DFP kunt integreren met behulp van Google Publisher Tags (GPT). U kunt een server-zijintegratie gebruiken, of u kunt opstelling GPT als bestemming om Audience Manager segmentgegevens naar DFP te verzenden. U zult ook de noodzakelijke stappen leren om DFP logboekdossiers voor rapportering in Audience Manager in te gaan.
 
 * [Vereisten en methoden voor het verzenden van segmenten naar DFP met Google Publisher-tags (GPT)](/help/using/integration/gpt-aam-destination/gpt-aam-requirements.md)
 
@@ -19,12 +23,12 @@ De onderstaande artikelen bieden een overzicht van hoe u DFP kunt integreren met
 
 * [Een GPT-doel maken](/help/using/integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-   U kunt gekwalificeerde segmenten naar DFP door een cliënt-zijintegratie (browser-kant), of een server-zijintegratie verzenden. Als u kiest voor de integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
+   U kunt gekwalificeerde segmenten naar DFP door een cliënt-zijintegratie (browser-kant), of een server-zijintegratie verzenden. Als u kiest voor integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
 
 * [Wijzig de GPT setTargeting API Vraag](/help/using/integration/gpt-aam-destination/gpt-aam-modify-api.md)
 
-   Voeg een if-instructie toe om te controleren op cookies van Audience Manager voordat u de methode Google Publisher Tag.setTargeting aanroept.
+   Voeg een if-instructie toe om te controleren op cookies van Audience Managers voordat u de Google Publisher-tag .setTargeting-methode aanroept.
 
-* [Code Auditiemanager voor Google Publisher-tags](/help/using/integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+* [Audience Manager Code voor Google Publisher-tags](/help/using/integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
-   AamGpt is een JavaScript-functie die Cookgegevens van Audience Manager leest en die informatie naar Google Publisher-tags verzendt.
+   AamGpt is een JavaScript-functie die Audience Manager cookie-gegevens leest en die informatie naar Google Publisher-tags verzendt.
