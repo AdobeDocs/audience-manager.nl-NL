@@ -1,19 +1,23 @@
 ---
-description: Als optie kunt u gegevensbestanden versleutelen met PGP-codering wanneer u ze naar Audience Manager verzendt.
-seo-description: Als optie kunt u gegevensbestanden versleutelen met PGP-codering wanneer u ze naar Audience Manager verzendt.
+description: Als optie kunt u gegevensbestanden versleutelen met PGP-codering wanneer u ze naar de Audience Manager verzendt.
+seo-description: Als optie kunt u gegevensbestanden versleutelen met PGP-codering wanneer u ze naar de Audience Manager verzendt.
 seo-title: PGP-codering van bestand voor binnenkomende gegevenstypen
 solution: Audience Manager
 title: PGP-codering van bestand voor binnenkomende gegevenstypen
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b2e0b560a944f2ad63a48476be647f1355712342
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 0%
 
 ---
 
 
 # PGP-codering van bestand voor binnenkomende gegevenstypen{#file-pgp-encryption-for-inbound-data-types}
 
-U kunt gegevensbestanden coderen met [!DNL PGP] codering wanneer u deze naar Audience Manager verzendt.
+U kunt gegevensbestanden coderen met [!DNL PGP] codering wanneer u ze naar de Audience Manager verzendt.
 
 <!-- c_encryption.xml -->
 
@@ -21,11 +25,11 @@ U kunt gegevensbestanden coderen met [!DNL PGP] codering wanneer u deze naar Aud
 >
 >[!DNL PGP] codering omvat bestandscompressie. Wanneer het verzenden van [!DNL PGP] gecodeerde binnenkomende dossiers zorg ervoor u hen niet [comprimeert](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) gebruikend gzip (`.gz`).
 >
->[!DNL PGP] Gecodeerde binnenkomende bestanden die ook worden [gecomprimeerd](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) , zijn ongeldig in Audience Manager.
+>[!DNL PGP] versleutelde binnenkomende bestanden die ook zijn [gecomprimeerd](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) , zijn ongeldig in de Audience Manager.
 
 Volg de onderstaande stappen om binnenkomende gegevensbestanden te coderen.
 
-1. Download de openbare sleutel [van](./assets/adobe_pgp.pub)Audience Manager.
+1. Download de openbare sleutel van de [Audience Manager](./assets/adobe_pgp.pub).
 2. Importeer de openbare sleutel naar de vertrouwde opslag.
 
    Als u bijvoorbeeld [!DNL GPG]de opdracht gebruikt, kan deze op het volgende lijken:
@@ -52,4 +56,4 @@ Volg de onderstaande stappen om binnenkomende gegevensbestanden te coderen.
 
    >[!NOTE]
    >
-   >Audience Manager ondersteunt alleen het algoritme voor [!DNL Advanced Encryption Standard (AES)] gegevenscodering. Audience Manager ondersteunt alle sleutelgrootten.
+   >Audience Manager ondersteunt alleen het algoritme voor [!DNL Advanced Encryption Standard (AES)] gegevenscodering. Audience Manager ondersteunt elke sleutellengte.
