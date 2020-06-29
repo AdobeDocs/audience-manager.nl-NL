@@ -5,8 +5,12 @@ seo-title: Voorvoegselvereisten voor belangrijkste variabelen
 solution: Audience Manager
 title: Voorvoegselvereisten voor belangrijkste variabelen
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +43,7 @@ In de volgende tabel worden de algemene voorvoegsels gedefinieerd die worden geb
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Op het niveau van de Manager <span class="keyword"></span> van de Publiek. Deze gegevens zijn uniform over het ecosysteem <span class="keyword"> Audience Manager</span> . Zie <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Gesteunde Attributen voor Vraag</a> DCS API voor een volledigere lijst. <p>Signalen die dit voorvoegsel gebruiken, worden niet weergegeven in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signaal zoeken</a>.</p></p> </td> 
+   <td colname="col2"> <p>Op het niveau van de <span class="keyword"> Audience Manager</span> . Deze gegevens zijn uniform in het ecosysteem van de <span class="keyword"> Audience Manager</span> . Zie <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Gesteunde Attributen voor Vraag</a> DCS API voor een volledigere lijst. <p>Signalen die dit voorvoegsel gebruiken, worden niet weergegeven in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signaal zoeken</a>.</p></p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
