@@ -1,18 +1,22 @@
 ---
-description: Opstelling DFP als bestemming en verzendt de segmentgegevens van de Manager van de Publiek naar dat platform.
-seo-description: Opstelling DFP als bestemming en verzendt de segmentgegevens van de Manager van de Publiek naar dat platform.
-seo-title: DFP als Bestemming van de Manager van de Publiek
+description: Stel DFP in als een doel en verzend Audience Manager segmentgegevens naar dat platform.
+seo-description: Stel DFP in als een doel en verzend Audience Manager segmentgegevens naar dat platform.
+seo-title: DFP als Audience Manager-bestemming
 solution: Audience Manager
-title: DFP als Bestemming van de Manager van de Publiek
+title: DFP als Audience Manager-bestemming
 uuid: 12d6c2ce-f0fa-4a2c-8b88-fdad634df435
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '88'
+ht-degree: 0%
 
 ---
 
 
-# DFP als Bestemming van de Manager van de Publiek {#dfp-as-an-audience-manager-destination}
+# DFP als Audience Manager-bestemming {#dfp-as-an-audience-manager-destination}
 
-Opstelling [!DNL DFP] als bestemming en verzendt de segmentgegevens van de Manager van de Publiek naar dat platform.
+Opstelling [!DNL DFP] als bestemming en verzendt de gegevens van het het segmentsegment van de Audience Manager naar dat platform.
 
 De documentatie in deze sectie beschreef de verouderde methode om met te integreren [!DNL DFP] en is verwijderd. Zie DFP [!DNL DFP] integreren met Google Publisher-tags (GPT) [voor](../integration/gpt-aam-destination/gpt-aam-requirements.md)integratie.
