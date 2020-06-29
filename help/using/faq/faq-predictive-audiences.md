@@ -3,9 +3,13 @@ description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-t
 seo-description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-time in verschillende personen indelen met behulp van gegevenswetenschap.
 seo-title: Veelgestelde vragen over voorspellende doelgroepen
 solution: Audience Manager
-title: Voorspelend publiek van Auditiebeheer
+title: Audience Manager voorspellend publiek
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8cf504fa811e4043f83d0b9f11754065efccf7bb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '773'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +73,7 @@ Neem contact op met uw Adobe-vertegenwoordiger als het model niet binnen 24 uur 
 
 Om relevante resultaten te produceren, evalueert het [!UICONTROL Predictive Audiences] algoritme eigenschap en segmentrealisaties die op gebruikersactiviteit in real time door DCS worden gezien. Als u nieuwe basiskenmerken en segmenten selecteert die nog niet genoeg gebruikers hebben, kan het algoritme een paar dagen duren om uw publiek te classificeren.
 
-Voor optimale resultaten volgt u de voorgestelde richtlijnen uit de [selectiecriteria voor personen](../features/algorithmic-models/predictive-audiences.md#selection-personas) en de [selectiecriteria voor doelgroep](../features/algorithmic-models/predictive-audiences.md#selection-audience).
+Voor optimale resultaten volgt u de voorgestelde richtlijnen uit de [selectiecriteria voor persoonlijke personen](../features/algorithmic-models/predictive-audiences.md#selection-personas) en de [selectiecriteria voor Target Audience](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
