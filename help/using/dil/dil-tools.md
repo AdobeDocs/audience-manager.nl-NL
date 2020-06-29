@@ -5,8 +5,12 @@ seo-title: DIL-gereedschappen
 solution: Audience Manager
 title: DIL-gereedschappen
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: ac9e4f24a896ecae2ebf36dcf34a4ac8fab00cd8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +47,7 @@ Handtekening functie: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` accepteert:
 
-* *`{string}`*: *(Optioneel)* Een tekenreeks met de zoek-URL (gebruikt `document.referrer` indien niet gedefinieerd).
+* *`{string}`*: *(Optioneel)* Een tekenreeks die de zoek-URL bevat (wordt gebruikt `document.referrer` als deze niet is gedefinieerd).
 * *`{object}`*: *(Optioneel)* Een object met de configuratie voor de `hostPattern`, `queryParam`of `queryPattern`.
 
 En retourneert:
@@ -124,7 +128,7 @@ Handtekening functie: `DIL.tools.decomposeURI`
 
 `decomposeURI` accepteert:
 
-* *`uri {string}`*: *(Optioneel)* Een tekenreeks met de URI. Wordt standaard ingesteld `document.location.href` als deze niet is opgegeven.
+* *`uri {string}`*: *(Optioneel)* Een tekenreeks die de URI bevat. Wordt standaard ingesteld `document.location.href` als deze niet is opgegeven.
 
 En retourneert:
 
