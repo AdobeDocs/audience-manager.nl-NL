@@ -1,27 +1,31 @@
 ---
-description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Manager van de Publiek te richten.
-seo-description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Manager van de Publiek te richten.
-seo-title: Apparaatgericht met toetsen op platformniveau
+description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
+seo-description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
+seo-title: Apparaat gericht met Platform-vlakke sleutels
 solution: Audience Manager
-title: Apparaatgericht met toetsen op platformniveau
+title: Apparaat gericht met Platform-vlakke sleutels
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '219'
+ht-degree: 0%
 
 ---
 
 
-# Apparaatgericht met toetsen op platformniveau {#device-targeting-with-platform-level-keys}
+# Apparaat gericht met Platform-vlakke sleutels {#device-targeting-with-platform-level-keys}
 
-Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Manager van de Publiek te richten.
+Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
 
-## Doel van variabelen op platformniveau {#platform-variables}
+## Doel van variabelen op het niveau van de Platform {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Met variabelen op platformniveau kunt u gegevens van een bepaalde site gebruiken en deze beschikbaar maken voor alle eigenschappen in uw [!DNL Audience Manager] account. Deze variabelen worden gevormd door [sleutel-waardeparen](../../reference/key-value-pairs-explained.md) met de sleutel die door `d_` zoals hieronder wordt getoond vooraf wordt bepaald.
+Met variabelen op Platform-niveau kunt u gegevens van een bepaalde site gebruiken en deze beschikbaar maken voor alle eigenschappen in uw [!DNL Audience Manager] account. Deze variabelen worden gevormd door [sleutel-waardeparen](../../reference/key-value-pairs-explained.md) met de sleutel die door `d_` zoals hieronder wordt getoond vooraf wordt bepaald.
 
-## Sleutels op platformniveau die door de Agent van de Gebruiker worden bepaald {#keys-user-agent}
+## Sleutels op Platform-niveau die door de Agent van de Gebruiker worden bepaald {#keys-user-agent}
 
 De [!UICONTROL Data Collection Servers] extractie de waarden voor deze sleutels uit de kopbal [van de](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) gebruikersagent in `HTTP` verzoeken. De waarden vertegenwoordigen apparaatinformatie uit de [!UICONTROL Device Atlas] database. De signalen in de onderstaande tabel zijn beschikbaar, zoals u uit het voorbeeld van de gebruikersagent hebt opgehaald. [Download een lijst met de meest gebruikte toetsen](assets/device_keys.csv)op basis van [!UICONTROL Device Atlas] metingen.
 
