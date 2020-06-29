@@ -5,8 +5,12 @@ seo-title: Syntaxis en voorbeelden van uitgaande gegevensbestanden
 solution: Audience Manager
 title: Syntaxis en voorbeelden van uitgaande gegevensbestanden
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b32283a6cb3d001f0a1fc85f3e63fba651f32760
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '692'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +55,7 @@ De tabel definieert de elementen in de naam van een uitgaand gegevensbestand.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>Doel-id. </p> <p>In <span class="keyword"> de Manager van de Publiek </span>, is een bestemming de instantie van de integratie waar u uw doelsegmenten kunt in kaart brengen. De klanten kunnen veelvoudige bestemmingen, afhankelijk van het bedrijfsvereiste hebben. </p> </td> 
+   <td colname="col2"> <p>Doel-id. </p> <p>In <span class="keyword"> Audience Manager </span>, is een bestemming de instantie van de integratie waar u uw doelsegmenten kunt in kaart brengen. De klanten kunnen veelvoudige bestemmingen, afhankelijk van het bedrijfsvereiste hebben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
@@ -175,7 +179,7 @@ De tabel bevat variabelen die de inhoud van een gegevensbestand definiëren.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p>Een unieke gebruikersnaam die is toegewezen door <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Een unieke gebruikersnaam die door de <span class="keyword"> Audience Manager is toegewezen </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
