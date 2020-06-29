@@ -6,8 +6,12 @@ solution: Audience Manager
 title: Gebruiksscenario's voor ADL
 topic: DIL API
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +26,7 @@ U kunt verschillende typen en bronnen van modellen gebruiken in [!DNL Audience M
 
 <!-- audience-lab-compare-models.xml -->
 
-In dit geval vergelijkt u verschillende modellen. U kunt of modellen gebruiken die via een intern gegevenspakhuis worden gecreeerd en hen invoeren [!DNL Audience Manager] als [Onboard](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) of u kunt de eigenschap van de Modellen [van het](../../features/algorithmic-models/understanding-models.md) Algoritme in gebruiken [!DNL Audience Manager].
+In dit geval vergelijkt u verschillende modellen. U kunt of modellen gebruiken die via een interne data warehouse worden gecreeerd en hen invoeren [!DNL Audience Manager] als [Onboded Traits](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) of u kunt de eigenschap van de Modellen [van het](../../features/algorithmic-models/understanding-models.md) Algoritme in gebruiken [!DNL Audience Manager].
 
 1. Maak twee modellen in de [Modelbouwer](../../features/algorithmic-models/create-model.md)of via een extern platform.
 1. Maak [algoritmische kenmerken](../../features/traits/create-algorithmic-traits.md) van het algoritmische model of importeer uw eigen modellen als onboekbare kenmerken.
