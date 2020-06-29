@@ -1,20 +1,24 @@
 ---
-description: Met de DIL API's op instantieniveau kunt u programmatisch objecten van Audience Manager maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
+description: Met de DIL API's op instantieniveau kunt u programmatisch Audience Manager-objecten maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 keywords: create traits;create trait
-seo-description: Met de DIL API's op instantieniveau kunt u programmatisch objecten van Audience Manager maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
+seo-description: Met de DIL API's op instantieniveau kunt u programmatisch Audience Manager-objecten maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 seo-title: Instantie-niveau DIL-methoden
 solution: Audience Manager
 title: Instantie-niveau DIL-methoden
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 0%
 
 ---
 
 
 # Instantie-niveau DIL-methoden{#instance-level-dil-methods}
 
-Met API&#39; [!UICONTROL DIL] s op instantieniveau kunt u programmatisch objecten van Audience Manager maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
+Met API&#39; [!UICONTROL DIL] s op instantieniveau kunt u programmatisch Audience Managers maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 
 ## Aan de slag met DIL-methoden op instantieniveau {#get-started-dil-methods}
 
@@ -26,7 +30,7 @@ c_api_overview.xml
 
 Wanneer u werkt met API&#39; [!UICONTROL DIL] s op instantieniveau:
 
-* De toegang vereist een partnernaam en container namespace identiteitskaart (NSID). Neem contact op met uw accountmanager van Audience Manager voor deze informatie.
+* De toegang vereist een partnernaam en container namespace identiteitskaart (NSID). Neem contact op met de accountmanager van de Audience Manager voor deze informatie.
 * Vervang een *cursieve* voorbeeldtekst in de API-documentatie door waarde, id of andere variabele, zoals vereist door de methode waarmee u werkt.
 
 <!-- 
@@ -164,7 +168,7 @@ partnerObject.api.logs({
 
 ## indienen {#submit}
 
-Hiermee worden alle gegevens die in behandeling zijn, naar Audience Manager verzonden voor de [!UICONTROL DIL] instantie.
+Hiermee worden alle gegevens die in behandeling zijn voor de [!UICONTROL DIL] instantie naar de Audience Manager verzonden.
 
 <!-- 
 
@@ -483,7 +487,7 @@ state = {
 
 ## idSync {#idsync}
 
-Bestaat uit twee functies waarmee gegevenspartners gebruikers-id&#39;s onder elkaar en Audience Manager kunnen uitwisselen en synchroniseren.
+Bestaat uit twee functies waarmee gegevenspartners gebruikers-id&#39;s tussen elkaar en Audience Manager kunnen uitwisselen en synchroniseren.
 
 <!-- 
 
@@ -505,11 +509,11 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Tussen verschillende gegevenspartners en de Manager van de Publiek. Bijvoorbeeld, zou partner x dit gebruiken om een gebruiker - identiteitskaart met partner y te synchroniseren en dan dat naar de Manager van het Publiek te verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gebruik de <code> idSyncByURL </code> methode van de Adobe Experience Platform Identity Service-instantie. </p> </p> </td> 
+   <td colname="col2"> <p>Tussen verschillende gegevenspartners en Audience Manager. Bijvoorbeeld, zou partner x dit gebruiken om een gebruiker - identiteitskaart met partner y te synchroniseren en dan dat naar Audience Manager te verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gelieve te gebruiken de <code> idSyncByURL </code> methode van de instantie van de Dienst van de Identiteit van het Adobe Experience Platform. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Wanneer u de gebruikersnaam al kent en wilt verzenden naar Audience Manager. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gebruik de <code> idSyncByDataSource </code> methode van de Adobe Experience Platform Identity Service-instantie. </p> </p> </td> 
+   <td colname="col2"> <p>Wanneer u de gebruikersnaam al kent en deze naar de Audience Manager wilt verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gelieve te gebruiken de <code> idSyncByDataSource </code> methode van de instantie van de Dienst van de Identiteit van het Adobe Experience Platform. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -530,7 +534,7 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
   <tr valign="top"> 
    <td colname="col1"> <code> dpid </code> </td> 
    <td colname="col2"> String </td> 
-   <td colname="col3"> <p>Id van gegevensaanbieder die is toegewezen door Audience Manager. </p> </td> 
+   <td colname="col3"> <p>ID gegevensaanbieder toegewezen door Audience Manager. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dpuuid </code> </td> 
@@ -555,7 +559,7 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
 `idSync` Hiermee worden de volgende macro&#39;s geaccepteerd:
 
 * **`%TIMESTAMP%`:**Genereert een tijdstempel (in milliseconden). Wordt gebruikt voor het busten van cache.
-* **`%DID%`:**Voegt de Manager-id voor het publiek in voor de gebruiker.
+* **`%DID%`:**Voegt de Audience Manager-id voor de gebruiker in.
 * **`%HTTP_PROTO%`:**Hiermee stelt u het paginaprotocol (`http`of`https`) in.
 
 **Antwoord**
@@ -719,8 +723,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >
 >* [Naam vereisten voor belangrijkste variabelen](../features/traits/trait-key-name-requirements.md)
 >* [Voorvoegselvereisten voor belangrijkste variabelen](../features/traits/trait-variable-prefixes.md)
->* [Synchronisatiefuncties in de Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
+>* [Synchronisatiefuncties in de identiteitsservice van het Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL maken](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [Identiteitsdienst Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [CORS-ondersteuning in de identiteitsservice van het Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
 
