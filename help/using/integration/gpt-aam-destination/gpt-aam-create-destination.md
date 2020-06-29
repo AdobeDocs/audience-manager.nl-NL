@@ -1,12 +1,16 @@
 ---
-description: U kunt gekwalificeerde segmenten naar DFP door een cliënt-zijintegratie (browser-kant), of een server-zijintegratie verzenden. Als u kiest voor de integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
-seo-description: U kunt gekwalificeerde segmenten naar DFP door een cliënt-zijintegratie (browser-kant), of een server-zijintegratie verzenden. Als u kiest voor de integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
+description: U kunt gekwalificeerde segmenten naar DFP door een cliënt-zijintegratie (browser-kant), of een server-zijintegratie verzenden. Als u kiest voor integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
+seo-description: U kunt gekwalificeerde segmenten naar DFP door een cliënt-zijintegratie (browser-kant), of een server-zijintegratie verzenden. Als u kiest voor integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
 seo-title: Een GPT-doel maken
 solution: Audience Manager
 title: Een GPT-doel maken
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 6169e8aefc4c215c83d6229be7378f90453f19e9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ U kunt gekwalificeerde segmenten naar [!DNL DFP] een client-side (browser-side) 
 
 ## Doelen
 
-In de Manager van de Publiek, *`destination`* is een a een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De doelfuncties van Audience Manager bevinden zich in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]**en volg deze om aan de slag te gaan.
+In Audience Manager, *`destination`* is een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]**en volg deze om aan de slag te gaan.
 
 ## Basisinformatie
 
