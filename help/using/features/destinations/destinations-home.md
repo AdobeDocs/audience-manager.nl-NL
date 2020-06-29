@@ -4,8 +4,12 @@ seo-description: De bestemmingspagina maakt een lijst van al uw URL, koekje, en 
 seo-title: Doelen beheren
 solution: Audience Manager
 title: Doelen beheren
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 0%
 
 ---
 
@@ -22,8 +26,8 @@ De [!UICONTROL Destination] het landen pagina maakt een lijst van al uw [!DNL UR
 De standaard landende pagina maakt een lijst van uw bestemmingen, die op type worden gebaseerd. U kunt de bestemmingen filtreren door de vier beschikbare lusjes te gebruiken:
 
 * **Alles**: toont alle soorten bestemmingen.
-* **Adobe Experience Cloud**: worden doelen weergegeven die gegevens naar andere oplossingen van Adobe Experience Cloud verzenden. De enige ondersteunde optie is momenteel Adobe Analytics. Zie Een analysedoel [configureren](/help/using/features/destinations/create-analytics-destination.md).
-* **Geïntegreerde platforms**: toont op mensen-gebaseerde en op apparaat-gebaseerde bestemmingen (ook genoemd server-aan-server bestemmingen).
+* **Adobe Experience Cloud**: worden doelen weergegeven die gegevens naar andere oplossingen van Adobe Experience Cloud verzenden. Adobe Analytics is momenteel de enige ondersteunde optie. Zie Een Analytics-bestemming [configureren](/help/using/features/destinations/create-analytics-destination.md).
+* **Geïntegreerde Platforms**: toont op mensen-gebaseerde en op apparaat-gebaseerde bestemmingen (ook genoemd server-aan-server bestemmingen).
 * **Aangepast**: toont cookie- en URL-doelen.
 
 
