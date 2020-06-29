@@ -1,18 +1,22 @@
 ---
-description: Algemene vragen en problemen in het beheer van de doelgroep.
-seo-description: Algemene vragen en problemen in het beheer van de doelgroep.
-seo-title: Veelgestelde vragen over Auditiebeheer
+description: Algemene vragen en problemen met betrekking tot de Audience Manager.
+seo-description: Algemene vragen en problemen met betrekking tot de Audience Manager.
+seo-title: Veelgestelde vragen over Audience Manager
 solution: Audience Manager
-title: Veelgestelde vragen over Auditiebeheer
+title: Veelgestelde vragen over Audience Manager
+feature: Overview
 translation-type: tm+mt
-source-git-commit: b22302ebf16bc71c61a974e33dc399caafb96095
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 0%
 
 ---
 
 
-# Overzicht van veelgestelde vragen over Auditiebeheer {#audience-manager-faq}
+# Overzicht van veelgestelde vragen over Audience Manager {#audience-manager-faq}
 
-Deze sectie voegt een lijst van de categorieën van Veelgestelde vragen voor diverse functionaliteit van de Manager van de Publiek samen.
+Deze sectie voegt een lijst van de categorieën van Veelgestelde vragen voor diverse functionaliteit van Audience Manager samen.
 
 * [Veelgestelde vragen over API](faq-api.md)
 * [Veelgestelde vragen over publiek Lab](faq-audience-lab.md)
