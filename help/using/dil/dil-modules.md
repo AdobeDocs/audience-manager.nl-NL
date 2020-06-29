@@ -1,19 +1,23 @@
 ---
-description: Beschrijft methodes in DIL.modules namespace. Deze modules laten u programmatically gegevens verzamelen en met de voorwerpen van de Manager van de Publiek werken.
-seo-description: Beschrijft methodes in DIL.modules namespace. Deze modules laten u programmatically gegevens verzamelen en met de voorwerpen van de Manager van de Publiek werken.
+description: Beschrijft methodes in DIL.modules namespace. Deze modules laten u programmatically gegevens verzamelen en met de voorwerpen van de Audience Manager werken.
+seo-description: Beschrijft methodes in DIL.modules namespace. Deze modules laten u programmatically gegevens verzamelen en met de voorwerpen van de Audience Manager werken.
 seo-title: DIL-modules
 solution: Audience Manager
 title: DIL-modules
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 0%
 
 ---
 
 
 # DIL-modules{#dil-modules}
 
-Beschrijft methodes in `DIL.modules` namespace. Deze modules laten u programmatically gegevens verzamelen en met de voorwerpen van de Manager van de Publiek werken.
+Beschrijft methodes in `DIL.modules` namespace. Deze modules laten u programmatically gegevens verzamelen en met de voorwerpen van de Audience Manager werken.
 
 <!-- 
 
@@ -51,12 +55,12 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> names </code> </td> 
    <td colname="col2"> String </td> 
-   <td colname="col3"> <p>Een array van tekenreeksen die niet-opgesomde <span class="keyword"> analytische </span> variabelen zoals <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>, enz. bevat. </p> </td> 
+   <td colname="col3"> <p>Een array van tekenreeksen die niet-opgesomde <span class="keyword"> Analytics- </span> variabelen zoals <code> pageName </code>, <code> channel </code>, <code> campaign </code>, <code> product </code>enz. bevatten. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> Object </td> 
-   <td colname="col3"> <p>Een array met objecten die opgesomde <span class="keyword"> analytische </span> variabelen zoals props en evars bevat (bijvoorbeeld <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
+   <td colname="col3"> <p>Een array met objecten die opgesomde <span class="keyword"> Analytics- </span> variabelen zoals eigenschappen en gebeurtenissen bevat (bijvoorbeeld <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
@@ -66,7 +70,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
    <td colname="col2"> Object </td> 
-   <td colname="col3"> <p>Een object dat het <span class="keyword"> </span> object Analytics vertegenwoordigt. </p> </td> 
+   <td colname="col3"> <p>Een object dat het <span class="keyword"> Analytics- </span> object vertegenwoordigt. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dilInstance </code> </td> 
@@ -138,7 +142,7 @@ DIL.modules.siteCatalyst.init(s, scDil);
 
 ## GA.submitUniversalAnalytics {#ga-submit-universal-analytics}
 
-De `GA.submitUniversalAnalytics();` functie verzendt gegevens van Google&#39;s [!DNL Universal Analytics] naar Audience Manager. Deze [!UICONTROL DIL] functie is ontworpen om te werken met `analytics.js`, de nieuwste codebibliotheek voor Google [!DNL Universal Analytics].
+De `GA.submitUniversalAnalytics();` functie verzendt gegevens van Google [!DNL Universal Analytics] naar Audience Manager. Deze [!UICONTROL DIL] functie is ontworpen om te werken met `analytics.js`, de nieuwste codebibliotheek voor Google [!DNL Universal Analytics].
 
 <!-- 
 
@@ -173,7 +177,7 @@ De `GA.submitUniversalAnalytics();` functie accepteert de volgende eigenschappen
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> gaObject </code> </p> </td> 
-   <td colname="col2"> <p>De algemene variabele voor uw instantie van <span class="keyword"> Google Analytics </span>. Dit is doorgaans <code> ga </code> standaard, tenzij u uw <span class="keyword"> Google Analytics- </span> code hebt aangepast. </p> </td> 
+   <td colname="col2"> <p>De algemene variabele voor je instantie van <span class="keyword"> Google Analytics </span>. Dit is doorgaans <code> ga </code> standaard, tenzij u uw <span class="keyword"> Google Analytics- </span> code hebt aangepast. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> dilInstance </code> </p> </td> 
@@ -202,7 +206,7 @@ DIL.modules.GA.submitUniversalAnalytics(ga, dilInstance);
 
 ## GA.init {#ga-init}
 
-De `GA.init()` functie verzendt gegevens van erfenis/verouderde versie van [!DNL Google Analytics] aan de Manager van het Publiek.
+De `GA.init()` functie verzendt gegevens van erfenis/verouderde versie van [!DNL Google Analytics] naar Audience Manager.
 
 <!-- 
 
