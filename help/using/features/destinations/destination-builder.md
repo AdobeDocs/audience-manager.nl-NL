@@ -4,8 +4,12 @@ seo-description: Met Destination Builder kunt u op cookies gebaseerde of DNL URL
 seo-title: Bestemmingsbouwer
 solution: Audience Manager
 title: Bestemmingsbouwer
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 6f13bc32f00c81a67026bcedd72badbf536311e1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
