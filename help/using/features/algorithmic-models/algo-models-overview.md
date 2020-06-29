@@ -1,12 +1,16 @@
 ---
-description: Beschrijft de algoritmische modellen beschikbaar in de Manager van de Publiek.
+description: Beschrijft de algoritmische modellen beschikbaar in Audience Manager.
 keywords: algo models how works predictive audiences
-seo-description: Beschrijft de algoritmische modellen beschikbaar in de Manager van de Publiek.
+seo-description: Beschrijft de algoritmische modellen beschikbaar in Audience Manager.
 seo-title: Overzicht van algoritmische modellen
 solution: Audience Manager
 title: Overzicht van algoritmische modellen
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 82e649c93664b32d62123112802fed66bbf24ae4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 82e649c93664b32d62123112802fed66bbf24ae4
 
 ## Wat is Algorithmic Modeling{#what-algo-modeling}
 
-Algorithmic modelling in Audience Manager verwijst naar het gebruik van gegevenswetenschap om uw bestaande publiek uit te breiden of in persona&#39;s te classificeren.
+Algorithmic modelling in Audience Manager verwijst naar het gebruik van data science om uw bestaande publiek uit te breiden of hen in persona&#39;s te classificeren.
 
 Dit wordt gedaan door twee types van algoritmen: [!UICONTROL Look-Alike Modeling] en [!UICONTROL Predictive Audiences].
 
@@ -35,6 +39,6 @@ Meer over leren [!UICONTROL Look-Alike Modeling], zie het [Begrip van look-als M
 
 In een marketingcontext is een persoon een publiekssegment dat wordt gedefinieerd door bezoekers, gebruikers of potentiële kopers en dat een specifieke reeks kenmerken deelt, zoals demografie, bruisende gewoonten, winkelgeschiedenis, enz.
 
-[!UICONTROL Predictive Audiences] De modellen nemen dit concept een stap verder, door de machine het leren van de Manager van het Publiek te gebruiken mogelijkheden om onbekend publiek automatisch in verschillende karakters te classificeren. De Manager van het publiek bereikt dit door de neiging van uw onbekend publiek voor een reeks bekende soorten publiek te berekenen.
+[!UICONTROL Predictive Audiences] modellen zetten dit concept een stap verder door gebruik te maken van de computerleermogelijkheden van de Audience Manager om onbekend publiek automatisch in te delen in verschillende personen . Audience Manager bereikt dit door de neiging van uw onbekende publiek voor een reeks bekende soorten publiek te berekenen.
 
 Voor meer informatie over [!UICONTROL Predictive Audiences], zie het [Voorspellende Overzicht](predictive-audiences.md)van Soorten publiek.
