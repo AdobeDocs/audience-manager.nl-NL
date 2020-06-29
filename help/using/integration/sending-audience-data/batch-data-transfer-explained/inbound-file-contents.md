@@ -5,8 +5,9 @@ seo-title: De binnenkomende Syntaxis van de Inhoud van het Dossier van Gegevens,
 solution: Audience Manager
 title: De binnenkomende Syntaxis van de Inhoud van het Dossier van Gegevens, Ongeldige Karakters, Variabelen, en Voorbeelden
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 0%
@@ -274,7 +275,7 @@ In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnen
   <tr> 
    <td colname="col1"> <p>Je eigen CRM-id (DPUUID) </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-13"> Voorbeeld 13 </a> </p> </td> 
-   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Voorbeeld 15 </a> </p> </td> 
+   <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Voorbeeld 14 </a> </p> </td> 
    <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Voorbeeld 15 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-16"> Voorbeeld 16 </a> </p> </td> 
   </tr> 
@@ -457,7 +458,7 @@ Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Voorbeeld 14 {#example-14}
+### Voorbeeld 15 {#example-14}
 
 Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid te verzenden voor [!DNL DPUUIDs].
 
@@ -477,7 +478,7 @@ of
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Voorbeeld 14 {#example-15}
+### Voorbeeld 15 {#example-15}
 
 Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor toe te voegen [!DNL DPUUIDs].
 
