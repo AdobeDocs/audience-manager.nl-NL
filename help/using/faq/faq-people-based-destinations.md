@@ -4,8 +4,12 @@ seo-description: 'Antwoorden op gemeenschappelijke vragen over op mensen-Gebasee
 seo-title: Veelgestelde vragen over op mensen gebaseerde doelen
 solution: Audience Manager
 title: Veelgestelde vragen over op mensen gebaseerde doelen
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: a40d0be8ece674c1870e6f27003bfbe9d55d7316
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1105'
+ht-degree: 0%
 
 ---
 
@@ -16,15 +20,15 @@ Antwoorden op algemene vragen over [!DNL People-Based Destinations].
 
 ## Beschikbaarheid {#availability}
 
-**Ik kan niet zien[!DNL People-Based Destinations]in mijn account Audience Manager. Wat moet ik weten over beschikbaarheid?**
+**Ik zie[!DNL People-Based Destinations]mijn Audience Manager niet. Wat moet ik weten over beschikbaarheid?**
 
-[!DNL People-Based Destinations] is een premiumfunctie van Audience Manager die bij aankoop beschikbaar is. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie over prijzen en beschikbaarheid.
+[!DNL People-Based Destinations] is een premiumfunctie voor Audience Managers die bij aankoop beschikbaar is. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie over prijzen en beschikbaarheid.
 
 ## Gegevens aan boord {#data-onboarding}
 
-**Hoe kan ik de e-mailadressen van de klant in de Manager van het Publiek, zodat ik hen binnen kan gebruiken[!DNL People-Based Destinations]?**
+**Hoe kan ik de e-mailadressen van de klant in Audience Manager, zodat ik hen binnen kan gebruiken[!DNL People-Based Destinations]?**
 
-Er zijn twee manieren u uw off-line gegevens aan de Manager van het Publiek voor kunt brengen [!DNL People-Based Destinations].
+Er zijn twee manieren u uw off-line gegevens aan Audience Manager voor kunt brengen [!DNL People-Based Destinations].
 
 * **Synchronisatie** van op een bestand gebaseerde id gebruiken. Zie [Naam en Inhoudsvereisten voor ID-synchronisatiebestanden](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) voor meer informatie over hoe de id-synchronisatiebestanden eruit moeten zien. Wanneer u deze methode gebruikt, kunt u alle gehashte e-mailadressen vanuit uw [!DNL CRM] database als doel instellen.
 * **Gebruik gedeclareerde id&#39;s** om gehashte e-mailadressen te declareren wanneer u geautoriseerde klant-id&#39;s doorgeeft. Als u deze methode gebruikt, activeert Audience Manager alleen de gehashte e-mailadressen van gebruikers die online zijn geverifieerd. De e-mailadressen die via Facebook worden geactiveerd, zijn alleen de adressen in de oproepen voor gedeclareerde id-gebeurtenissen. Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in realtime geactiveerd.
@@ -39,8 +43,8 @@ Offlinegegevensinvoer is ontworpen ter ondersteuning van gebruiksgevallen zonder
 
 **Wat is de maximumfrequentie waarmee ik gehashte e-mailadressen kan verzenden/bijwerken?**
 
-* Wanneer het gebruiken van Verklaarde IDs, verzendt de Manager van de Publiek de gehakte e-mailadressen naar de bestemming in echt - tijd.
-* Wanneer het opnemen van gegevens door de dossiers van de synchronisatie van identiteitskaart, verwerkt de Manager van de Publiek hen op een dagelijkse basis.
+* Wanneer het gebruiken van Verklaarde IDs, verzendt de Audience Manager de gehakte e-mailadressen naar de bestemming in echt - tijd.
+* Wanneer het opnemen van gegevens door de dossiers van de synchronisatie van identiteitskaart, verwerkt de Audience Manager hen op een dagelijkse basis.
 
 **Hoe weet ik of het hashing van het e-mailadres correct wordt gedaan?**
 
@@ -65,15 +69,15 @@ Als u op het activeren van nieuwe off-line publiek in op mensen-gebaseerde kanal
 
 **Heb[!DNL People-Based Destinations]zicht in gelijke tarieven of adresseerbare publiek?**
 
-Nee. Wanneer het verzenden van publiekssegmenten naar [!DNL People-Based Destinations], publieksaanpassing gebeurt aan de partnerkant. Adobe heeft geen toegang tot deze gegevens. De Manager van het publiek toont u het maximum deelbare publiek voor elke bestemming en het aantal in real time van mensen die tot een segment behoren. Deze informatie kan u met campagneplanning en het voorspellen helpen.
+Nee. Wanneer het verzenden van publiekssegmenten naar [!DNL People-Based Destinations], publieksaanpassing gebeurt aan de partnerkant. Adobe heeft geen toegang tot deze gegevens. De Audience Manager toont u het maximum deelbare publiek voor elke bestemming en het aantal in real time van mensen die tot een segment behoren. Deze informatie kan u met campagneplanning en het voorspellen helpen.
 
 **Hoe zouden de tarieven die[!DNL People-Based Destinations]theoretisch vergelijken met andere methodes om publiek naar bestemmingsplatforms te verzenden?**
 
-Zolang het e-mailadres wordt gehasht en correct wordt opgenomen, zou er geen verschil in het gelijke tarief tussen [!DNL People-Based Destinations] en andere methodes moeten zijn. De enige reden een gelijke tarief onder 100% zou zijn is als de e-mailadressen die in de Manager van het Publiek worden gebracht niet met een e-mailadres in het de gebruikersbasis van het bestemmingsplatform kunnen worden aangepast.
+Zolang het e-mailadres wordt gehasht en correct wordt opgenomen, zou er geen verschil in het gelijke tarief tussen [!DNL People-Based Destinations] en andere methodes moeten zijn. De enige reden een gelijke tarief onder 100% zou zijn is als de e-mailadressen die in Audience Manager worden gebracht niet met een e-mailadres in het de gebruikersbasis van het bestemmingsplatform kunnen worden aangepast.
 
 **Ik verzamel werk-e-mailadressen van mijn klanten, die van de persoonlijke e-mailadressen verschillend zijn die in sociale netwerken worden gebruikt. Hoe kunt u identiteiten over veelvoudige e-mailadressen aanpassen?**
 
-Audience Manager kan per gebruiker maximaal 10 e-mails verzamelen en verzenden naar doelplatforms, maar de e-mailadressen moeten via synchronisatiebestanden worden vastgelegd. Nadat Audience Manager de e-mailadressen naar bestemmingsplatforms verzendt, is het aan de platforms om de e-mailadressen tegen hun eigen gebruikersbasis aan te passen. Sommige platforms hebben mogelijk extra e-mailadresgrafieken die overeenkomen met adressen die vanuit Audience Manager naar gebruikersprofielen worden verzonden.
+Audience Managers kunnen per gebruiker maximaal 10 e-mails verzamelen en verzenden naar doelplatforms, maar de e-mailadressen moeten via synchronisatiebestanden worden vastgelegd. Nadat de Audience Manager de e-mailadressen naar bestemmingsplatforms verzendt, is het aan de platforms om de e-mailadressen aan hun eigen gebruikersbasis aan te passen. Sommige platforms hebben mogelijk extra e-mailadresgrafieken die overeenkomen met adressen die van Audience Manager naar gebruikersprofielen worden verzonden.
 
 ## Besturingselementen voor gegevensexport {#data-export-controls}
 
@@ -105,6 +109,6 @@ U kunt toepassingen gebruiken [!DNL People-Based Destinations] uit [!DNL Faceboo
 
 [!DNL People-Based Destinations] hefboomwerkingen de [!DNL Custom Audiences (CA)] integratie met [!DNL Facebook]. Het verschil tussen [!DNL WCA] en [!DNL CA] integratie is de sleutel die de klanten gebruiken wanneer het verzenden van publiek naar [!DNL Facebook]. [!DNL WCA] gebruikt de [!DNL Facebook] pixel (die een identiteitskaart van de websitegebruiker zou zijn) terwijl [!DNL People-Based Destinations] gebruik gehakt e-mailadressen om met te integreren [!DNL CA].
 
-U kunt de [!DNL Facebook] integratie van Audience Manager zonder extra kosten gebruiken via de [!DNL WCA] [!DNL URL Destinations] functie.
+U kunt de [!DNL Facebook] integratie van de Audience Manager zonder extra kosten gebruiken via de [!DNL WCA] [!DNL URL Destinations] functie.
 
 Deze twee integraties zijn complementair; u kunt beide gebruiken om een betere publieksdekking te verzekeren. Een voorbeeld: [!DNL WCA] kan worden gebruikt voor prospectie wanneer een bedrijf websitebezoekers wil bereiken die geen account hebben geregistreerd, terwijl [!DNL People-Based Destinations] u bestaande klanten die hun e-mailadres hebben opgegeven maar de website misschien niet hebben bezocht, kunt helpen.
