@@ -6,8 +6,9 @@ seo-title: Gegevensinvoer van klant
 solution: Audience Manager
 title: Gegevensinvoer van klant
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
+feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 620730ab1596d4777a768de4453b73538671279d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 0%
@@ -350,7 +351,7 @@ In de volgende tabellen worden de elementen in een [!UICONTROL CDF] `.info` best
 
 ## [!UICONTROL Customer Data Feed] Tijdstippen voor bestandsnaam en bestandsinhoud verschillen {#different-processing-times}
 
-Het [!UICONTROL CDF] bestand bevat tijdstempels in de bestandsnaam en -inhoud. Deze tijdstempels registreren verschillende gebeurtenisprocessen voor hetzelfde [!UICONTROL CDF] bestand. Het is niet ongebruikelijk om verschillende tijdstempels in de naam en inhoud van het zelfde dossier te zien. Als u een goed begrip van elk tijdstempel hebt, voorkomt u vaak voorkomende fouten wanneer u met deze gegevens werkt of probeert deze op tijd te sorteren.
+Het [!UICONTROL CDF] bestand bevat tijdstempels in de bestandsnaam en -inhoud. Deze tijdstempels registreren verschillende gebeurtenisprocessen voor hetzelfde [!UICONTROL CDF] bestand. Het is niet ongebruikelijk om verschillende tijdstempels in de naam en inhoud van het zelfde dossier te zien. Wanneer u deze gegevens gebruikt of probeert te sorteren, kunt u algemene fouten voorkomen.
 
 ## Tijdstempels [!UICONTROL CDF] van bestand zoeken {#locating-timestamps}
 
