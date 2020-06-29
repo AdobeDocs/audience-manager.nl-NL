@@ -5,8 +5,12 @@ seo-title: Gebruiksscenario's voor grafiekgebruik van profielkoppeling
 solution: Audience Manager
 title: Gebruiksscenario's voor grafiekgebruik van profielkoppeling
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +25,7 @@ Bekijk de [!UICONTROL Profile Link] apparaatgrafiek voor campagnes die:
 
 * Een hoog verificatieniveau hebben voor alle digitale eigenschappen. Gebruik een [externe grafiekoptie](merge-rule-definitions.md#device-options) voor apparaten als u een kleine hoeveelheid geverifieerde gebruikers hebt.
 * Noodzaak van nauwkeurige gerichtheid op bekende doelgroepen. Het [!UICONTROL Profile Link Device Graph] is samengesteld met behulp van gegevens van de eerste partij die zijn geverifieerd.
-* Het bekende publiek van het doel over hun voor authentiek verklaarde en niet voor authentiek verklaarde staten in real time.
+* Target kende publiek in hun geverifieerde en niet-geverifieerde toestanden in real-time.
 
 ![](assets/merge-rule-triangle2.png)
 
@@ -37,7 +41,7 @@ Zelfs als John niet op alle drie bovengenoemde apparaten voor authentiek wordt v
 
 ![last-device-graph](assets/last-device-graph.png)
 
-Aangezien Audience Manager elk apparaatprofiel kwalificeert dat deelnam aan de profielsamenvoeging voor een segment, worden alle drie apparaatprofielen gesegmenteerd. Met [!UICONTROL Profile Link Device Graph] deze optie kan Audience Manager het gedrag op alle drie de apparaten bekijken en elk apparaat kwalificeren voor een segment waarvoor geen enkel apparaatprofiel afzonderlijk in aanmerking komt.
+Aangezien Audience Manager elk apparaatprofiel kwalificeert dat deelnam aan de profielsamenvoeging voor een segment, worden alle drie apparaatprofielen gesegmenteerd. Met [!UICONTROL Profile Link Device Graph] deze optie kan de Audience Manager het gedrag op alle drie de apparaten bekijken en elk apparaat kwalificeren voor een segment waarvoor geen enkel apparaatprofiel afzonderlijk in aanmerking komt.
 
 Dit [!UICONTROL Profile Merge Rule] laat marketers toe om een verenigbare ervaring aan alle apparaten te leveren die door één persoon worden bezeten, op de gebruikersactiviteit in plaats van de individuele apparatenactiviteit wordt gebaseerd.
 
