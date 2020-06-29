@@ -6,8 +6,9 @@ seo-title: Over look-Alike modellering
 solution: Audience Manager
 title: Over look-Alike modellering
 uuid: 39441e72-5316-453d-9aff-0e0b633aabcd
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 9a8c0650d3f00a95a8a1f05c248c21b420e727e0
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1590'
 ht-degree: 0%
@@ -74,7 +75,7 @@ Elke gebruiker in de geselecteerde gebruiker [!UICONTROL data sources] krijgt ee
 
 ### Stap 6: De betekenis van een [!UICONTROL Trait] verwerkingscyclus opnieuw evalueren
 
-Periodiek [!UICONTROL TraitWeight] herevalueert het belang van een [!UICONTROL trait] op basis van de omvang en de verandering van de bevolking van dat gebied [!UICONTROL trait]. Dit gebeurt als het aantal gebruikers dat voor die [!UICONTROL trait] uitbreiding in aanmerking komt, na verloop van tijd toeneemt of afneemt. Dit gedrag is het duidelijkst zichtbaar in eigenschappen die erg groot worden. Stel bijvoorbeeld dat het algoritme wordt gebruikt [!UICONTROL trait A] voor modellering. Naarmate de populatie van [!UICONTROL trait A] mensen toeneemt, [!UICONTROL TraitWeight] herbeoordeelt u het belang daarvan [!UICONTROL trait] en kan een lagere score worden toegekend of genegeerd. In dit geval [!UICONTROL trait A] is het te gebruikelijk of te groot om iets belangrijks over zijn bevolking te zeggen. Nadat de waarde van [!UICONTROL TraitWeight] (of het negeert in het model) is [!UICONTROL trait A] verminderd, neemt de populatie van de algoritmische eigenschap af. De lijst van invloedrijke factoren [!UICONTROL traits] weerspiegelt de ontwikkeling van de basispopulatie. Gebruik de lijst van invloedrijk [!UICONTROL traits] om te begrijpen waarom deze veranderingen voorkomen.
+Periodiek [!UICONTROL TraitWeight] herevalueert het belang van een [!UICONTROL trait] op basis van de omvang en de verandering van de bevolking van dat gebied [!UICONTROL trait]. Dit gebeurt als het aantal gebruikers dat voor die [!UICONTROL trait] uitbreiding in aanmerking komt, na verloop van tijd toeneemt of afneemt. Dit gedrag is het duidelijkst zichtbaar in kenmerken die erg groot worden. Stel bijvoorbeeld dat het algoritme wordt gebruikt [!UICONTROL trait A] voor modellering. Naarmate de populatie van [!UICONTROL trait A] mensen toeneemt, [!UICONTROL TraitWeight] herbeoordeelt u het belang daarvan [!UICONTROL trait] en kan een lagere score worden toegekend of genegeerd. In dit geval [!UICONTROL trait A] is het te gebruikelijk of te groot om iets belangrijks over zijn bevolking te zeggen. Nadat de waarde van [!UICONTROL TraitWeight] (of het negeert in het model) is [!UICONTROL trait A] verminderd, neemt de populatie van de algoritmische eigenschap af. De lijst van invloedrijke factoren [!UICONTROL traits] weerspiegelt de ontwikkeling van de basispopulatie. Gebruik de lijst van invloedrijk [!UICONTROL traits] om te begrijpen waarom deze veranderingen voorkomen.
 
 Verwante koppelingen:
 
