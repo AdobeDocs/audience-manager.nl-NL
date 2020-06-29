@@ -1,24 +1,28 @@
 ---
-description: Deze pagina maakt een lijst van douaneintegratie tussen de Manager van de Publiek en gegevenspartners.
-seo-description: Deze pagina maakt een lijst van douaneintegratie tussen de Manager van de Publiek en gegevenspartners.
+description: Deze pagina maakt een lijst van douaneintegratie tussen Audience Manager en gegevenspartners.
+seo-description: Deze pagina maakt een lijst van douaneintegratie tussen Audience Manager en gegevenspartners.
 seo-title: Aangepaste partnerintegratie
 solution: Audience Manager
 title: Aangepaste partnerintegratie
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c069c901df6d8737f611d27ce7dffd4072e50adf
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 0%
 
 ---
 
 
 # Aangepaste partnerintegratie {#custom-partner-integrations}
 
-Deze pagina maakt een lijst van douaneintegratie tussen de Manager van de Publiek en gegevenspartners.
+Deze pagina maakt een lijst van douaneintegratie tussen Audience Manager en gegevenspartners.
 
 ## Oracle Data Cloud {#oracle-data-cloud}
 
 ### Beschrijving
 
-Audience Manager neemt cookie- en mobiele-id-gegevens op van de Oracle Data Cloud for Audience Marketplace via binnenkomende gegevensbestanden. De hieronder beschreven specificaties voor aangepaste integratie verwijzen alleen naar binnenkomende gegevensbestanden die mobiele id&#39;s (IDFA en Android-apparaat-id&#39;s) bevatten.
+Audience Manager neemt cookie- en mobiele-id-gegevens op van de Oracle Data Cloud voor Audience Marketplace via binnenkomende gegevensbestanden. De hieronder beschreven specificaties voor aangepaste integratie verwijzen alleen naar binnenkomende gegevensbestanden die mobiele id&#39;s (IDFA en Android-apparaat-id&#39;s) bevatten.
 
 ### Integratiespecificaties
 
@@ -32,7 +36,7 @@ ODC-bestandsnamen hebben de volgende structuur:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Het `odc` bestandsnaamelement identificeert het bestand als geïmporteerd vanuit de Oracle Data Cloud en geeft de ingebouwde bestandsvalidator van Audience Manager de opdracht het als zodanig te verwerken.
+Het `odc` bestandsnaamelement identificeert het bestand als geïmporteerd vanuit de Oracle Data Cloud en geeft de Audience Manager de instructie het bestand als zodanig te verwerken.
 
 ### Bestandsinhoud
 
