@@ -5,8 +5,12 @@ seo-title: API-methoden voor gegevensintegratiebibliotheek
 solution: Audience Manager
 title: API-methoden voor gegevensintegratiebibliotheek
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
+feature: API
 translation-type: tm+mt
-source-git-commit: 5e08861f8bfe88559b089fae00bd14e576f2d0ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Methoden waarmee u programmatically met het [!UICONTROL Data Integration Library
 
 >[!IMPORTANT]
 >
->De API voor de gegevensintegratiebibliotheek is afgekeurd. Deze API gebruikt om DIL te genereren, die u nu zelf kunt downloaden: downloaden [van](https://github.com/Adobe-Marketing-Cloud/dil/releases)DIL.
+>De API voor de gegevensintegratiebibliotheek is afgekeurd. Deze API gebruikt om DIL te genereren, die u nu zelf kunt downloaden: [DIL-download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
