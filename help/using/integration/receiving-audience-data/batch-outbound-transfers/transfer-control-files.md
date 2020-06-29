@@ -1,19 +1,23 @@
 ---
-description: Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Manager van de Audience correct dossieroverdrachten behandelde.
-seo-description: Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Manager van de Audience correct dossieroverdrachten behandelde.
+description: Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
+seo-description: Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
 seo-title: Bestanden voor bestandsoverdracht overdragen van logbestanden
 solution: Audience Manager
 title: Bestanden voor bestandsoverdracht overdragen van logbestanden
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '308'
+ht-degree: 0%
 
 ---
 
 
 # Bestanden voor bestandsoverdracht overdragen van logbestanden {#transfer-control-files-for-log-file-transfers}
 
-Overdracht-controle ([!DNL .info]) de dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Manager van de Audience correct dossieroverdrachten behandelde.
+Overdracht-controle ([!DNL .info]) de dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
 
 [!DNL Audience Manager] verzendt een overdracht-controle dossier naar een partner met elke dossieroverdracht. Wegens de multi-thread aard van de [!DNL FTP] uitgever, zou het overdracht-controle dossier kunnen worden verzonden alvorens de daadwerkelijke dossiers worden gebeëindigd overbrengend.
 
@@ -27,9 +31,9 @@ Met de metagegevens in het [!DNL .info] bestand kunnen partners:
 
 Het overdrachtcontrole-bestand heeft dezelfde naam als de hoofdmap van de batch/reeks met een [!DNL .info] bestandsextensie.s
 
-Als het eerste bestand in de reeks bijvoorbeeld een naam had: [!DNL ftp_12345_67890_full_1500727351632-1.sync], zou het controledossier worden genoemd [!DNL ftp_12345_67890_iter_1500727351632.info].
+Als het eerste bestand in de reeks bijvoorbeeld een naam had: [!DNL ftp_12345_67890_full_1500727351632-1.sync], wordt het controlebestand een naam gegeven [!DNL ftp_12345_67890_iter_1500727351632.info].
 
-## Bestandsindeling {#file-format}
+## File Format {#file-format}
 
 ```
 {
