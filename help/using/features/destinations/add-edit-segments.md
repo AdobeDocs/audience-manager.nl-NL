@@ -1,11 +1,15 @@
 ---
 description: De Etiketten van de Uitvoer van gegevens werken met de Controles van de Uitvoer u op een gegevensbron plaatst. De Etiketten van de Uitvoer van gegevens verhinderen u beperkte eigenschappen aan een segment toe te voegen en segmentgegevens naar een bestemming te verzenden. U kunt meerdere exportlabels instellen op een nieuw of bestaand cookie- of URL-doel.
 seo-description: De Etiketten van de Uitvoer van gegevens werken met de Controles van de Uitvoer u op een gegevensbron plaatst. De Etiketten van de Uitvoer van gegevens verhinderen u beperkte eigenschappen aan een segment toe te voegen en segmentgegevens naar een bestemming te verzenden. U kunt meerdere exportlabels instellen op een nieuw of bestaand cookie- of URL-doel.
-seo-title: De Controles van de Uitvoer van Gegevens aan een Bestemming toevoegen
+seo-title: Segmenten voor server-naar-server doelen toevoegen of bewerken
 solution: Audience Manager
-title: De Controles van de Uitvoer van Gegevens aan een Bestemming toevoegen
+title: Segmenten voor server-naar-server doelen toevoegen of bewerken
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 96bf2e5fe403a550a4c1cc290381d2705629dbd3
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +22,7 @@ U kunt alleen segmenten voor een serverbestemming ([!DNL S2S]) toevoegen of bewe
 
 U kunt als volgt segmenttoewijzingen voor een [!DNL S2S] doel toevoegen of bewerken:
 
-1. Ga naar **[!UICONTROL Audience Data > Destinations]**. Selecteer **Geïntegreerde platforms > Op apparaat gebaseerd** en zoek de [!DNL S2S] bestemming waarmee u wilt werken.
+1. Ga naar **[!UICONTROL Audience Data > Destinations]**. Selecteer **Geïntegreerde Platforms > Op apparaat gebaseerd** en zoek de [!DNL S2S] bestemming u met wilt werken.
 2. Klik in de [!UICONTROL Action] kolom op het potloodpictogram om het doel te bewerken.
    * Typ in het **[!UICONTROL Search and Add Segments]** vak de naam van een segment of klik op **[!UICONTROL Browse All Segments]** Bladeren in een lijst met beschikbare segmenten.
    * Klik **[!UICONTROL Add Selected Segments]** wanneer u het segment vindt u wilt gebruiken. Als u een segment toevoegt, wordt het [!UICONTROL Edit Mapping] venster geopend.
