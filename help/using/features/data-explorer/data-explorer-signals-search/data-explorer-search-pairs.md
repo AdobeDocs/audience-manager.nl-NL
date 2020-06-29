@@ -4,8 +4,12 @@ seo-description: Zoek naar één of veelvoudige signalen, die op hun respectieve
 seo-title: Signalen zoeken op sleutelwaardeparen
 title: Signalen zoeken op sleutelwaardeparen
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: 2206b5e40f7024084953fed52bb02fcc46ea36f1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +33,13 @@ Wanneer het zoeken naar signalen die veelvoudige zeer belangrijk-waardeparen geb
 * [!DNL c_product == "smartphone"]
 * [!DNL c_location == "europe"]
 
-Deze zoekopdracht retourneert alleen resultaten die in aanmerking komen voor alle drie de filters in dezelfde aanroep: `c_creative == "12345"` `AND` `c_product == "smartphone"``AND` . `c_location == "europe"`.
+Deze zoekopdracht retourneert alleen resultaten die in aanmerking komen voor alle drie de filters in dezelfde aanroep: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`.
 
 ![](assets/signals-search.png)
 
 ## Signalen die zijn uitgesloten van Signal Search {#excluded-signals}
 
-De belangrijkste variabelen die door de Manager van de Auditie worden gebruikt en door de `d_` en `h_` prefixen worden voorgefixeerd worden niet bedekt door [!UICONTROL Signals Search]. Zie [Voorvoegselvereisten voor belangrijke variabelen](../../traits/trait-variable-prefixes.md) voor meer informatie.
+De belangrijkste variabelen die door Audience Manager worden gebruikt en door de `d_` en `h_` prefixen worden voorgefixeerd worden niet bedekt door [!UICONTROL Signals Search]. Zie [Voorvoegselvereisten voor belangrijke variabelen](../../traits/trait-variable-prefixes.md) voor meer informatie.
 
 ## Ongevoeligheid van hoofdletters en kleine letters zoeken {#case-insensitivity}
 
