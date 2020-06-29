@@ -5,8 +5,12 @@ seo-title: Regels voor het samenvoegen van profielen en processen voor onsegment
 solution: Audience Manager
 title: Regels voor het samenvoegen van profielen en processen voor onsegmentering van apparaten
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +45,7 @@ Ter herinnering, [!UICONTROL Device Options] zijn deze beschikbaar in de [!UICON
 >[!NOTE]
 >
 >**100 apparatengrens voor segmentbeoordeling en diskwalificatie**.
->Audience Manager voegt maximaal 100 apparaten samen bij het evalueren van segmenten met een profielsamenvoegregel die een apparaatgrafiek gebruikt. Audience Manager evalueert het huidige apparaat en maximaal 99 apparaten die aan het huidige apparaat zijn gekoppeld met een [geverifieerd profiel](../../reference/visitor-authentication-states.md) (apparaat-id). Als het unsegment signaal wordt uitgegeven, zullen het huidige apparaat en de extra apparaten uit het segment in de bestemming worden verwijderd.
+>Audience Manager voegt maximaal 100 apparaten samen bij het evalueren van segmenten met een profielsamenvoegregel die een apparaatgrafiek gebruikt. Audience Manager evalueert het huidige apparaat en tot 99 apparaten verbonden aan het huidige apparaat door een [voor authentiek verklaard profiel](../../reference/visitor-authentication-states.md) (dwars-apparaat identiteitskaart). Als het unsegment signaal wordt uitgegeven, zullen het huidige apparaat en de extra apparaten uit het segment in de bestemming worden verwijderd.
 
 ![](assets/last-device-graph.png)
 
