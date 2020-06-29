@@ -5,8 +5,12 @@ seo-title: Besturingselementen voor gegevensexport
 solution: Audience Manager
 title: Besturingselementen voor gegevensexport
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
+feature: Data Export Controls
 translation-type: tm+mt
-source-git-commit: 22657113512e136296be5c4bcb8e092e65f45c06
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +36,7 @@ Stel dat een segment is toegewezen aan een doel met het exportlabel **[!DNL This
    * De profielsamenvoegregel die door een inbegrepen segment wordt gebruikt;
    * Om het even welke gegevensbronnen die de het profielfusieregel van een inbegrepen segment gebruikt.
 
-[!UICONTROL Data Export Controls] zijn automatisch beschikbaar voor alle klanten van de Manager van de Publiek. Nochtans, hebt u beheerdertoestemmingen nodig om de uitvoercontroles aan een gegevensbron toe te voegen. Voor het toevoegen van exportlabels aan een bestemming zijn beheerdersmachtigingen *of* voldoende rechten vereist om een bestemming te maken of te bewerken.
+[!UICONTROL Data Export Controls] zijn automatisch beschikbaar voor alle klanten van de Audience Manager. Nochtans, hebt u beheerdertoestemmingen nodig om de uitvoercontroles aan een gegevensbron toe te voegen. Voor het toevoegen van exportlabels aan een bestemming zijn beheerdersmachtigingen *of* voldoende rechten vereist om een bestemming te maken of te bewerken.
 
 ## Besturingselementen en gedefinieerde labels {#controls-labels}
 
@@ -44,7 +48,7 @@ Bovendien moet ten minste één exportlabel overeenkomen met een exportbesturing
 
 >[!IMPORTANT]
 >
->U kunt niet de uitvoer van een segment blokkeren door een controle van de gegevensuitvoer op de gegevensbron van het segment te plaatsen, moet u de controle op één van beiden van plaatsen:
+>U kunt de uitvoer van een segment niet blokkeren door een controle van de gegevensuitvoer op de gegevensbron van het segment te plaatsen, moet u de controle op één van beiden van plaatsen:
 > * de gegevensbronnen van de in het segment gebruikte kenmerken;
 > * De profielsamenvoegregel die door het segment wordt gebruikt;
 > * Om het even welke gegevensbronnen die de het profielfusieregel van het segment gebruikt.
