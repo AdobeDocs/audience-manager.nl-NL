@@ -1,24 +1,28 @@
 ---
-description: Audience Manager stelt een maximumlimiet in voor het aantal kenmerken, segmenten, doelen en algoritmische modellen dat u voor een account kunt maken. De beperkingen zijn op deze punten van toepassing ongeacht of gecreeerd in het gebruikersinterface of programmatically door API methodes. Beperkingen van het gebruik helpen Audience Manager tegen geautomatiseerde processen te beschermen die onze API's of gebruikersinterface in gevaar kunnen brengen.
-seo-description: Audience Manager stelt een maximumlimiet in voor het aantal kenmerken, segmenten, doelen en algoritmische modellen dat u voor een account kunt maken. De beperkingen zijn op deze punten van toepassing ongeacht of gecreeerd in het gebruikersinterface of programmatically door API methodes. Beperkingen van het gebruik helpen Audience Manager tegen geautomatiseerde processen te beschermen die onze API's of gebruikersinterface in gevaar kunnen brengen.
+description: Audience Manager stelt een maximumlimiet in voor het aantal kenmerken, segmenten, doelen en algoritmische modellen dat u voor een account kunt maken. De beperkingen zijn op deze punten van toepassing ongeacht of gecreeerd in het gebruikersinterface of programmatically door API methodes. Beperkingen van het gebruik helpen Audience Manager te beschermen tegen geautomatiseerde processen die onze API's of gebruikersinterface in gevaar kunnen brengen.
+seo-description: Audience Manager stelt een maximumlimiet in voor het aantal kenmerken, segmenten, doelen en algoritmische modellen dat u voor een account kunt maken. De beperkingen zijn op deze punten van toepassing ongeacht of gecreeerd in het gebruikersinterface of programmatically door API methodes. Beperkingen van het gebruik helpen Audience Manager te beschermen tegen geautomatiseerde processen die onze API's of gebruikersinterface in gevaar kunnen brengen.
 seo-title: Gebruiksbeperkingen
 solution: Audience Manager
 title: Gebruiksbeperkingen
 keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
+feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 8493705b0f200b5b43d937dfd452210403a52b33
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 3%
 
 ---
 
 
 # Gebruiksbeperkingen {#usage-limits}
 
-Audience Manager stelt een maximumlimiet in voor het aantal kenmerken, segmenten, doelen en algoritmische modellen dat u voor een account kunt maken. De grenzen zijn op deze punten van toepassing ongeacht of gecreeerd in het gebruikersinterface of programmatically door [!DNL API] methodes. Beperkingen van het gebruik helpen de Manager van het publiek tegen geautomatiseerde processen beschermen die kunnen proberen om onze [!DNL API]s of gebruikersinterface in gevaar te brengen.
+Audience Manager stelt een maximumlimiet in voor het aantal kenmerken, segmenten, doelen en algoritmische modellen dat u voor een account kunt maken. De grenzen zijn op deze punten van toepassing ongeacht of gecreeerd in het gebruikersinterface of programmatically door [!DNL API] methodes. Beperkingen van het gebruik helpen Audience Manager tegen geautomatiseerde processen te beschermen die onze [!DNL API]s of gebruikersinterface in gevaar kunnen brengen.
 
 ## Limieten voor id-toewijzing {#id-mapping-limits}
 
-In de onderstaande tabel staan de limieten voor [id-toewijzing](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) voor apparaat-id&#39;s. Zodra een identiteitskaart om het even welke hieronder grenzen bereikt, voegt de Manager van de Publiek nieuwe die in kaart gebrachte identiteitskaart toe op een [!DNL FIFO] (eerste binnen, eerst uit) logica wordt gebaseerd, door de oudste opgeslagen afbeelding van identiteitskaart te verwijderen, en nieuwe toe te voegen. Raadpleeg [Index van id&#39;s](../../reference/ids-in-aam.md) in Audience Manager voor meer informatie over de id&#39;s die worden ondersteund door Audience Manager.
+In de onderstaande tabel staan de limieten voor [id-toewijzing](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) voor apparaat-id&#39;s. Zodra een identiteitskaart om het even welke hieronder grenzen bereikt, voegt de Audience Manager nieuwe die in kaart gebrachte identiteitskaart toe op een [!DNL FIFO] (eerste binnen, eerst uit) logica wordt gebaseerd, door de oudste opgeslagen afbeelding van identiteitskaart te verwijderen, en nieuwe toe te voegen. Raadpleeg [Index van id&#39;s](../../reference/ids-in-aam.md) in Audience Manager voor meer informatie over de id&#39;s die door Audience Manager worden ondersteund.
 
 | ID-toewijzing | Maximale limiet |
 |-----------|-------------- |
