@@ -4,8 +4,12 @@ seo-description: Maak nieuwe kenmerken van alle signalen, inclusief de signalen 
 seo-title: Traits maken van signalen
 title: Traits maken van signalen
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: f324838a5649722545ff36faba92bf3a13c2e805
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 0%
 
 ---
 
