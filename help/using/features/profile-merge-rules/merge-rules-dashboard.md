@@ -5,8 +5,12 @@ seo-title: Het dashboard Regels voor samenvoegen van profielen
 solution: Audience Manager
 title: Het dashboard Regels voor samenvoegen van profielen
 uuid: d6725218-7b36-4653-9900-d67b5f7702a0
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +31,7 @@ Wanneer u met [!UICONTROL Profile Merge Rules]werkt, kunt u:
 * Wijs een standaardsamenvoegregel aan. [De Bouwer](../segments/segment-builder.md) van het segment past automatisch de standaardregel op om het even welke nieuwe segmenten toe u creeert.
 * Pas de Controles [van de Uitvoer van](../data-export-controls.md) Gegevens op een fusieregel toe. [!UICONTROL Data Export Controls] verhindert u gegevens naar bestemmingen te verzenden wanneer dat gegevensprivacy zou schenden of overeenkomsten zou gebruiken.
 * Houd het gemiddelde aantal apparaten voor elke gebruiker bij.
-* Het werk met basiscontroles om, regels tot stand te brengen uit te geven en te schrappen. Alleen beheerders kunnen regels beheren, maar andere gebruikers kunnen deze weergeven en toepassen op segmenten. Zie Opties voor [profielsamenvoegregel gedefinieerd](merge-rule-definitions.md) en [Gebruik hoofdletters/kleine letters voor regels](merge-rule-targeting-options.md)voor samenvoegen.
+* Het werk met basiscontroles om, regels tot stand te brengen uit te geven en te schrappen. Alleen beheerders kunnen regels beheren, maar andere gebruikers kunnen deze weergeven en toepassen op segmenten. Zie Opties voor regel [voor samenvoegen van profielen gedefinieerd](merge-rule-definitions.md) en Gevallen [gebruiken voor regels](merge-rule-targeting-options.md)voor samenvoegen.
 
 >[!MORELIKETHIS]
 >
