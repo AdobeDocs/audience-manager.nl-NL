@@ -1,19 +1,23 @@
 ---
-description: Het in real time binnenkomende proces van gegevensopname gebruikt een reeks verzoeken van HTTP van browser van een gebruiker om gegevens tot de Manager van de Publiek over te gaan.
-seo-description: Het in real time binnenkomende proces van gegevensopname gebruikt een reeks verzoeken van HTTP van browser van een gebruiker om gegevens tot de Manager van de Publiek over te gaan.
+description: Het in real time binnenkomende proces van gegevensinvoer gebruikt een reeks verzoeken van HTTP van browser van een gebruiker om gegevens tot Audience Manager over te gaan.
+seo-description: Het in real time binnenkomende proces van gegevensinvoer gebruikt een reeks verzoeken van HTTP van browser van een gebruiker om gegevens tot Audience Manager over te gaan.
 seo-title: Real-Time Inbound van Gegevens
 solution: Audience Manager
 title: Real-Time Inbound van Gegevens
 uuid: 43cb0ebc-6c36-4391-bbfb-6b203d63c69a
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 0%
 
 ---
 
 
 # Real-Time Inbound van Gegevens {#real-time-inbound-data-ingestion}
 
-Het in real time binnenkomende proces van gegevensopname gebruikt een reeks `HTTP` verzoeken van browser van een gebruiker om gegevens tot de Manager van de Publiek over te gaan.
+Het in real time binnenkomende proces van gegevensinvoer gebruikt een reeks `HTTP` verzoeken van browser van een gebruiker om gegevens tot Audience Manager over te gaan.
 
 <!-- c_rt_inbound_real_time.xml -->
 
