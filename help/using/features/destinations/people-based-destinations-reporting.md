@@ -1,11 +1,15 @@
 ---
-description: 'Mensen-Gebaseerde Doelen introduceren het begrip van Aandeelbare Publiek aan de Manager van het Publiek. Deze metrisch helpt u begrijpen hoeveel van de gehakte e-mailadressen Manager van het Publiek met het bestemmingsplatform kunnen delen. '
-seo-description: 'Mensen-Gebaseerde Doelen introduceren het begrip van Aandeelbare Publiek aan de Manager van het Publiek. Deze metrisch helpt u begrijpen hoeveel van de gehakte e-mailadressen Manager van het Publiek met het bestemmingsplatform kunnen delen. '
+description: 'Mensen-Gebaseerde Doelen introduceren het begrip van Aandeelbare Publiek aan Audience Manager. Deze metrisch helpt u begrijpen hoeveel van de gehakte e-mailadressen Audience Manager met het bestemmingsplatform kan delen. '
+seo-description: 'Mensen-Gebaseerde Doelen introduceren het begrip van Aandeelbare Publiek aan Audience Manager. Deze metrisch helpt u begrijpen hoeveel van de gehakte e-mailadressen Audience Manager met het bestemmingsplatform kan delen. '
 seo-title: Aandeelbaar publiek
 solution: Audience Manager
 title: Aandeelbaar publiek
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 0%
 
 ---
 
@@ -15,19 +19,19 @@ source-git-commit: 75fe1e0f7321107930a28e354ca2f4a256a477ac
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
 
-[!DNL People-Based Destinations] breng het idee van [!DNL Shareable Audiences] aan de Manager van het Publiek. Deze metrisch helpt u begrijpen hoeveel van de gehakte e-mailadressen Manager van het Publiek met het bestemmingsplatform kunnen delen.
+[!DNL People-Based Destinations] het begrip Audience Manager [!DNL Shareable Audiences] te brengen. Deze metrisch helpt u begrijpen hoeveel van de gehakte e-mailadressen Audience Manager met het bestemmingsplatform kan delen.
 
 [!DNL Shareable Audiences] is metrisch die u helpt publieksgegevens in de context van interpreteren [!DNL People-Based Destinations]. U kunt deze metrische waarde op de [!UICONTROL Destinations] pagina en op de [!UICONTROL Segment] pagina zien.
 
 ## Segment Shareable Publiek {#segment-shareable-audiences}
 
-Metrisch in de segmentpagina wijst op het aantal gehakte e-mailadressen van de gegevensbron met passende [!DNL Segment Shareable Audience] DPUUIDs [](../../reference/ids-in-aam.md), die ook voor het bepaalde segment in de bepaalde terugkijkperiode kwalificeren, gezien de toegepaste regel van de profielfusie, en die Manager van de Audience met het bestemmingsplatform kan delen.
+Metrisch in de segmentpagina wijst op het aantal gehakte e-mailadressen van de gegevensbron met passende [!DNL Segment Shareable Audience] DPUUIDs [](../../reference/ids-in-aam.md), die ook voor het bepaalde segment in de bepaalde terugkijkperiode kwalificeren, gezien de toegepaste regel van de profielfusie, en die Audience Manager kan met het bestemmingsplatform delen.
 
 Deze metrische waarde heeft een terugkijkperiode van 1 dag. Dit helpt u het publieksbereik voor het segment in een specifieke bestemming begrijpen.
 
 ## Bestemmingsdeelbaar publiek {#destination-shareable-audience}
 
-Metrisch in een op mensen-gebaseerde bestemmingspagina wijst op het totale aantal gehakte e-mailadressen van de gegevensbron met passende [!DNL Destination Shareable Audience] DPUUIDs [](../../reference/ids-in-aam.md), die de Manager van de Publiek met het bestemmingsplatform, van alle segmenten kan delen die aan die bestemming worden in kaart gebracht.
+Metrisch in een op mensen-gebaseerde bestemmingspagina wijst op het totale aantal gehakte e-mailadressen van de gegevensbron met passende [!DNL Destination Shareable Audience] DPUUIDs [](../../reference/ids-in-aam.md), die Audience Manager met het bestemmingsplatform, van alle segmenten kan delen die aan die bestemming worden in kaart gebracht.
 
 ![deelbaar publiek](assets/dest-shareable-audiences.png)
 
@@ -35,7 +39,7 @@ Deze metrische waarde heeft een terugkijkperiode van het leven. Zo krijgt u meer
 
 ## Voorbeeld
 
-Een klant van de Manager van de Publiek heeft een gegevensbron met 110.000 [DPUUIDs](../../reference/ids-in-aam.md) (CRM IDs). Zij nemen 100.000 gehakte e-mailadressen in de Manager van het Publiek op, om hen met veelvoudige op mensen-gebaseerde bestemmingen te gebruiken, en een synchronisatie van identiteitskaart voor de 100.000 gehakte e-mailadressen tegen CRM IDs uit te voeren. De klant kan de [!DNL All Cross-Device Profiles] fusieregel gebruiken om drie publiekssegmenten tot stand te brengen:
+Een klant van de Audience Manager heeft een gegevensbron met 110.000 [DPUUIDs](../../reference/ids-in-aam.md) (CRM IDs). Zij nemen 100.000 gehakte e-mailadressen in Audience Manager op, om hen met veelvoudige op mensen-gebaseerde bestemmingen te gebruiken, en een synchronisatie van identiteitskaart voor de 100.000 gehakte e-mailadressen tegen CRM IDs uit te voeren. De klant kan de [!DNL All Cross-Device Profiles] fusieregel gebruiken om drie publiekssegmenten tot stand te brengen:
 
 * segment A met een bevolkingsaantal van 10.000, toegewezen aan bestemming A;
 * segment B met een bevolkingsaantal van 20.000, toegewezen aan bestemming A;
@@ -53,4 +57,4 @@ In dit scenario:
 
 >[!NOTE]
 >
->In het bovenstaande voorbeeld betekent dit niet dat alle 80.000 gehashte e-mailadressen van de drie segmenten overeenkomen met bestaande accounts op de doelplatforms. Het betekent slechts dat de Manager van de Publiek de gehakte herkenningstekens van de drie segmenten naar hun respectieve bestemmingen verzendt. Wanneer het verzenden van publiekssegmenten naar op mensen-gebaseerde bestemmingen, komt de publieksaanpassing op de partnerkant voor. Bestemming A kan tot 30.000 passende gebruikersrekeningen hebben, terwijl Bestemming B tot 50.000 passende gebruikersrekeningen kan hebben, maar er is geen garantie van gelijke tarieven. Adobe heeft geen toegang tot partnerspecifieke gegevens. Zie [Tarieven](../../faq/faq-people-based-destinations.md#match-rates) van de Gelijke voor vaak gestelde vragen over Op mensen-Gebaseerde de zichtbaarheid van Doelen in gelijke tarieven.
+>In het bovenstaande voorbeeld betekent dit niet dat alle 80.000 gehashte e-mailadressen van de drie segmenten overeenkomen met bestaande accounts op de doelplatforms. Het betekent slechts dat de Audience Manager de gehakte herkenningstekens van de drie segmenten naar hun respectieve bestemmingen verzendt. Wanneer het verzenden van publiekssegmenten naar op mensen-gebaseerde bestemmingen, komt de publieksaanpassing op de partnerkant voor. Bestemming A kan tot 30.000 passende gebruikersrekeningen hebben, terwijl Bestemming B tot 50.000 passende gebruikersrekeningen kan hebben, maar er is geen garantie van gelijke tarieven. Adobe heeft geen toegang tot partnerspecifieke gegevens. Zie [Tarieven](../../faq/faq-people-based-destinations.md#match-rates) van de Gelijke voor vaak gestelde vragen over Op mensen-Gebaseerde de zichtbaarheid van Doelen in gelijke tarieven.
