@@ -1,13 +1,17 @@
 ---
-description: Genereer een factureringsrapport Audience Marketplace om het gebruik van de gegevensfeed voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
-seo-description: Genereer een factureringsrapport Audience Marketplace om het gebruik van de gegevensfeed voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
+description: Een factureringsrapport voor Audience Marketplace genereren om het gebruik van de gegevensfeed voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
+seo-description: Een factureringsrapport voor Audience Marketplace genereren om het gebruik van de gegevensfeed voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
 seo-title: Facturering voor gegevensleveranciers
 solution: Audience Manager
 title: Facturering voor gegevensleveranciers
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +41,7 @@ Een factureringsrapport bevat de volgende informatie.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> PID gegevensaanbieder</span></b> </p> </td> 
-   <td colname="col2"> <p>De ID van de <span class="keyword"> gegevensaanbieder van Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>De gegevensaanbieder-id van uw <span class="keyword"> Audience Manager</span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Naam gegevensaanbieder</span></b> </p> </td> 
@@ -90,7 +94,7 @@ Een factureringsrapport bevat de volgende informatie.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Totale kosten</span></b> </p> </td> 
-   <td colname="col2"> <p>Het bedrag <span class="keyword"> Audience Manager</span> factureert een koper. </p> </td> 
+   <td colname="col2"> <p>De Audience Manager <span class="keyword"></span> betaalt een koper. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Factureringsperiode</span></b> </p> </td> 
@@ -112,8 +116,8 @@ Een factureringsrapport bevat de volgende informatie.
    <td colname="col1"> <p><b><span class="uicontrol"> Markering</span></b> </p> </td> 
    <td colname="col2"> <p> <i>Alleen</i>voor CPM-feeds. De vlagopties omvatten: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
-     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Geeft aan dat een abonnee gebruiksgegevens heeft gerapporteerd aan <span class="keyword"> Audience Manager</span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Geeft aan dat een abonnee geen gebruiksgegevens heeft gerapporteerd aan <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Geeft aan dat een abonnee gebruiksgegevens heeft gerapporteerd aan de <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Geeft aan dat een abonnee geen gebruiksgegevens aan de <span class="keyword"> Audience Manager</span>heeft gerapporteerd. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
