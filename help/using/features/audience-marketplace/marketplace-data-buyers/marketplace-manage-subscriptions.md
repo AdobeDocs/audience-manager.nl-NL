@@ -6,8 +6,9 @@ solution: Audience Manager
 title: Abonnementen gegevensfeed beheren
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2186'
 ht-degree: 0%
@@ -173,7 +174,7 @@ Abonnement op een gegevensfeed opzeggen:
 
 In kunnen [!UICONTROL Audience Marketplace]gegevensproviders de toegang tot uw geabonneerde gegevensfeeds intrekken. Wees niet verontrust als dit met je gebeurt. We hebben je bedekt. Herzie deze sectie voor processen en procedures met betrekking tot de deactivering van gegevensvoer.
 
-## Algemene redenen voor deactivering van gegevensdoorvoer {#reasons-for-deactivation}
+## Algemene redenen voor deactivering van gegevensfeed {#reasons-for-deactivation}
 
 <!-- marketplace-subscriber-deactivated.xml -->
 
