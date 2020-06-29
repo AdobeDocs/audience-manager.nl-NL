@@ -5,8 +5,12 @@ seo-title: Afgeleide signalen
 solution: Audience Manager
 title: Afgeleide signalen
 uuid: e52600e3-26d1-4607-9b96-afd6086a252d
+feature: Traits
 translation-type: tm+mt
-source-git-commit: f9a12cf38833cf243edf4bc4c4f4e91f83ee0ca2
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +39,7 @@ Een [!UICONTROL derived signal]:
 
 1. Selecteer **[!UICONTROL Derived Signals]** in het [!UICONTROL Tools] menu.
 1. Geef een overzicht:
-   * *(Optioneel)*[!UICONTROL Integration Code]
+   * *(Optioneel)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
    * [!UICONTROL Source Value]
    * [!UICONTROL Target Key]
