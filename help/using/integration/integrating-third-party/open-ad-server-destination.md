@@ -1,19 +1,23 @@
 ---
-description: Stel Open Ad Server in als een doel en verstuur de gegevens van Audience Manager naar dat platform.
-seo-description: Stel Open Ad Server in als een doel en verstuur de gegevens van Audience Manager naar dat platform.
-seo-title: OAS als Bestemming van Audience Manager
+description: Stel Open Ad Server in als een doel en verstuur de gegevens van de Audience Manager naar dat platform.
+seo-description: Stel Open Ad Server in als een doel en verstuur de gegevens van de Audience Manager naar dat platform.
+seo-title: OAS als Audience Manager-bestemming
 solution: Audience Manager
-title: OAS als Bestemming van Audience Manager
+title: OAS als Audience Manager-bestemming
 uuid: 5891a063-5a4b-4ea7-865f-b24e17ca735f
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 0%
 
 ---
 
 
-# OAS als Bestemming van Audience Manager {#oas-as-an-audience-manager-destination}
+# OAS als Audience Manager-bestemming {#oas-as-an-audience-manager-destination}
 
-Opstelling [!DNL Open Ad Server] als bestemming en verzendt de gegevens van de Manager van de Publiek naar dat platform.
+Opstelling [!DNL Open Ad Server] als bestemming en verzendt de gegevens van de Audience Manager naar dat platform.
 
 ## OAS-bestemmingsvereisten {#oas-requirements}
 
@@ -23,9 +27,9 @@ Normen voor codeplaatsing, gesteunde zeer belangrijk-waardeformaten, rapporten, 
 
 Voor dit doeltype is het volgende vereist:
 
-* **[!UICONTROL DIL]:**De[!UICONTROL Data Integration Library]code moet in uw voorraad worden geïmplementeerd.[!UICONTROL DIL]helpt u te voorkomen dat u speciale code hoeft te schrijven voor gegevensverzameling, integratie, het lezen van cookiewaarden en het herstellen van paginagegevens.
-* **`get_aamCookie`Functie:**Code waarmee de gebruikers-id en cookie-gegevens van Audience Manager worden vastgelegd. Plaats[deze code](../../features/destinations/get-aam-cookie-code.md)boven aan de pagina of in de`<head>`codeblok.
-* **Leveringslogboeken verzenden naar Audience Manager:** Als u (facultatief) een rapport van de segmentlevering wilt, verstrek de Manager van het Publiek van een dagelijks logboek dat indruk-vlakke leveringsgegevens bevat. De gegevens kunnen in onbewerkte indeling zijn, maar elke record moet de Audience Manager bevatten [!UICONTROL UUID]. Audience Manager kan deze via ophalen of ontvangen [!DNL FTP].
+* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library]code moet in uw voorraad worden geïmplementeerd.[!UICONTROL DIL]helpt u te voorkomen dat u speciale code hoeft te schrijven voor gegevensverzameling, integratie, het lezen van cookiewaarden en het herstellen van paginagegevens.
+* **`get_aamCookie`Functie:**Code waarmee de gebruikers-id en cookie-gegevens van de Audience Manager worden vastgelegd. Plaats[deze code](../../features/destinations/get-aam-cookie-code.md)boven aan de pagina of in de`<head>`codeblok.
+* **Leveringslogboeken naar Audience Manager verzenden:** Als u (facultatief) een rapport van de segmentlevering wilt, verstrek Audience Manager van een dagelijks logboek dat indruk-vlakke leveringsgegevens bevat. De gegevens kunnen in een RAW-indeling zijn, maar elke record moet de Audience Manager bevatten [!UICONTROL UUID]. Audience Managers kunnen deze ophalen of ontvangen via [!DNL FTP].
 
 ### Cookie-indeling en sleutelwaardengegevens
 
@@ -38,7 +42,7 @@ Audience Manager kan segmentgegevens als volgt naar een browsercookie verzenden:
 
 ### Alleen gekwalificeerde segmenten worden naar OAS verzonden
 
-De hoeveelheid gegevens die wordt doorgegeven aan, is [!DNL OAS] afhankelijk van het aantal segmenten waarvoor een bepaalde gebruiker in aanmerking komt. Stel bijvoorbeeld dat u 100 segmenten van Audience Manager hebt ingesteld. Als een bezoeker van de site voor vijf van hen in aanmerking komt, worden alleen die vijf segmenten naar OAS verzonden (niet alle 100).
+De hoeveelheid gegevens die wordt doorgegeven aan, is [!DNL OAS] afhankelijk van het aantal segmenten waarvoor een bepaalde gebruiker in aanmerking komt. Stel bijvoorbeeld dat u 100 Audience Manager-segmenten instelt. Als een bezoeker van de site voor vijf van hen in aanmerking komt, worden alleen die vijf segmenten naar OAS verzonden (niet alle 100).
 
 >[!MORELIKETHIS]
 >
@@ -48,11 +52,11 @@ De hoeveelheid gegevens die wordt doorgegeven aan, is [!DNL OAS] afhankelijk van
 
 ## Een OAS-doel maken {#oas-dest-setup}
 
-Maak een op cookies gebaseerde bestemming voor [!DNL OAS] in Audience Manager.
+Maak een op cookies gebaseerde bestemming voor [!DNL OAS] in de Audience Manager.
 
 <!-- aam-oas-destination-setup.xml -->
 
-In de Manager van de Publiek, is een *bestemming* een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Manager van het publiek worden gevestigd in de Gegevens van het *Publiek > Doelen*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]** en volg deze om aan de slag te gaan.
+In Audience Manager, is een *bestemming* een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in de Gegevens van het *Publiek > Doelen*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]** en volg deze om aan de slag te gaan.
 
 ### Stap 1: Basisinformatie
 
@@ -84,7 +88,7 @@ Een segment toevoegen aan een cookiebestemming:
 
 ## OAS Setup {#oas-code-setup}
 
-Wijzig [!DNL OAS] montages om met de segmentgegevens van de Manager van de Publiek te werken.
+Wijzig [!DNL OAS] montages om met Audience Manager segmentgegevens te werken.
 
 <!-- aam-oas-code.xml -->
 
