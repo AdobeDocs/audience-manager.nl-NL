@@ -5,8 +5,9 @@ seo-title: Gedefinieerde doelmacro's
 solution: Audience Manager
 title: Gedefinieerde doelmacro's
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: da0eb0244fc3ae158fa151727f4253625dcff2c4
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -40,16 +41,16 @@ Wanneer u een [!DNL URL] doel maakt, kunt u de volgende macro&#39;s in de [!DNL 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee voegt u de <span class="keyword"> Audience Manager</span> -id van de gebruiker in de doel-URL in. </p> </td> 
+   <td colname="col2"> <p>Voegt de <span class="keyword"> Audience Manager</span> -id van de gebruiker in de doel-URL in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>%dpid_<i>data source id</i>%</code> </p> </td> 
-   <td colname="col2"> <p>De <i>gegevensbron-id</i> komt overeen met de id voor een gegevensbron die wordt doorgegeven aan de macro. </p> <p>Laten we eens kijken hoe dit werkt in een eenvoudig voorbeeld. In dit geval, hebben wij een partner van de Manager <span class="keyword"> van de</span> Audience met volgende IDs en voorwaarden: </p> 
+   <td colname="col2"> <p>De <i>gegevensbron-id</i> komt overeen met de id voor een gegevensbron die wordt doorgegeven aan de macro. </p> <p>Laten we eens kijken hoe dit werkt in een eenvoudig voorbeeld. In dit geval, hebben wij een partner van de <span class="keyword"> Audience Manager</span> met de volgende identiteitskaart en de voorwaarden: </p> 
     <ul id="ul_697508B437EB4090B121AFA5D519AFBE"> 
      <li id="li_32D9F72A7D1543A892DC7E1529E98A96">Id gegevensbron: <code> 1</code> </li> 
      <li id="li_099F5B63D2244B5AADA9B26CB6152E6B">Een interne klant-id: <code> CustomerABC</code> </li> 
      <li id="li_0D9FE501C16444DDB388C8E934E5A8C6">Opgegeven id: De partner wil deze waarden als verklaarde identiteitskaart overgaan <code> 1:CustomerABC</code>. </li> 
-    </ul> <p>Om dit met te doen <code>%dpid_<i>data source id</i>%</code>, zou de partner van de Manager <span class="keyword"></span> van de Publiek de macro als volgt formatteren: </p> 
+    </ul> <p>Om dit met de <code>%dpid_<i>data source id</i>%</code>, de partner van de <span class="keyword"> Audience Manager</span> te doen zou macro als dit formatteren: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
     </ul> <p>De macro wordt vervangen <code> 1</code> door <code> CustomerABC</code>. </p> <p> 
@@ -76,11 +77,11 @@ Wanneer u een [!DNL URL] doel maakt, kunt u de volgende macro&#39;s in de [!DNL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %mcid%</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee voegt u de Cloud <span class="keyword"> -id voor</span> ervaring in de doel-URL in. </p> </td> 
+   <td colname="col2"> <p>Voegt de <span class="keyword"> Experience Cloud</span> -id in de doel-URL in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> %region%</code> </p> </td> 
-   <td colname="col2"> <p>Voegt het gebied van de Server van de Inzameling van <span class="wintitle"> Gegevens (DCS)</span> in bestemmingsURL in. Om latentie te minimaliseren, wanneer de bezoeker een vraag van HTTP aan de Manager <span class="keyword"> van het</span>Publiek maakt, worden zij opnieuw gericht aan het dichtstbijzijnde <span class="wintitle"> DCS</span> datacenter. Dit wordt bereikt door DNS, die de plaats van de bezoeker kan ontdekken en hen aan aangewezen datacenter leiden. </p> </td> 
+   <td colname="col2"> <p>Voegt het gebied van de Server van de Inzameling van <span class="wintitle"> Gegevens (DCS)</span> in bestemmingsURL in. Om latentie te minimaliseren, wanneer de bezoeker een vraag van HTTP aan <span class="keyword"> Audience Manager</span>maakt, worden zij opnieuw gericht aan het dichtstbijzijnde <span class="wintitle"> DCS</span> datacenter. Dit wordt bereikt door DNS, die de plaats van de bezoeker kan ontdekken en hen aan aangewezen datacenter leiden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %rnd%</code> </p> </td> 
