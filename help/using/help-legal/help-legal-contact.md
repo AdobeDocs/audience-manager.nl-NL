@@ -4,8 +4,12 @@ seo-description: Informatie die u helpt contact op te nemen met Adobe en inzicht
 seo-title: Contactgegevens en juridische informatie
 solution: Audience Manager
 title: Contactgegevens en juridische informatie
+feature: Support
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 1%
 
 ---
 
@@ -18,10 +22,10 @@ Informatie die u helpt contact op te nemen met Adobe en inzicht te krijgen in de
 
 Het team van de klantenservice van Adobe Experience Cloud is hier om u te helpen en biedt een aantal mechanismen waarmee zij zich kunnen engageren:
 
-* [Raadpleeg de pagina&#39;s met Help bij Experience Cloud voor advies, tips en veelgestelde vragen](https://helpx.adobe.com/support.ec.html)
+* [Raadpleeg de Experience Cloud Help-pagina&#39;s voor advies, tips en veelgestelde vragen](https://helpx.adobe.com/support.ec.html)
 * [Een korte vraag stellen op Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
 * [Neem rechtstreeks contact op met het zorgteam van de klant](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
-* [De beschikbaarheid en status van Experience Cloud Solutions controleren](https://status.adobe.com/)
+* [Beschikbaarheid en status van Experience Cloud-oplossingen controleren](https://status.adobe.com/)
 
 ## Service, mogelijkheden en facturering {#billing}
 
