@@ -5,8 +5,12 @@ seo-title: API-doelmethoden
 solution: Audience Manager
 title: API-doelmethoden
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
+feature: API
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +21,7 @@ Methoden waarmee u programmatisch kunt werken met doelfuncties.
 
 <!-- c_destinations_api.xml -->
 
-In de Manager van de Publiek, is een bestemming elk ander systeem (ad server, [!DNL DSP], en netwerk, uitwisseling, uw eigen eerstepartijkoekje, enz.) waarmee u gegevens wilt delen.
+In Audience Manager, is een bestemming om het even welk ander systeem (ad server, [!DNL DSP], en netwerk, uitwisseling, uw eigen eerstepartijkoekje, enz.) waarmee u gegevens wilt delen.
 
 ## Doeltypen: URL en cookie {#destination-types}
 
