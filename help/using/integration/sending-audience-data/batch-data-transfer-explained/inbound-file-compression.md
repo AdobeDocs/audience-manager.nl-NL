@@ -1,23 +1,27 @@
 ---
-description: Als optie kunt u gegevensbestanden comprimeren wanneer u deze naar Audience Manager verzendt.
-seo-description: Als optie kunt u gegevensbestanden comprimeren wanneer u deze naar Audience Manager verzendt.
+description: Als optie kunt u gegevensbestanden comprimeren wanneer u ze naar de Audience Manager verzendt.
+seo-description: Als optie kunt u gegevensbestanden comprimeren wanneer u ze naar de Audience Manager verzendt.
 seo-title: Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden
 solution: Audience Manager
 title: Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 392b17e5a97038169e2cd36f2e71f5b4b997070c
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 0%
 
 ---
 
 
 # Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden{#file-compression-for-inbound-data-transfer-files}
 
-U kunt gegevensbestanden comprimeren wanneer u deze naar Audience Manager verzendt.
+U kunt gegevensbestanden comprimeren wanneer u ze naar de Audience Manager verzendt.
 
 <!-- inbound-file-compression.xml -->
 
-Audience Manager biedt ondersteuning voor gzip-compressie (`.gz`) voor binnenkomende, asynchrone gegevensoverdracht.
+Audience Manager ondersteunt gzip-compressie (`.gz`) voor binnenkomende, asynchrone gegevensoverdracht.
 
 Audience Manager ondersteunt ook ongecomprimeerde bestanden.
 
