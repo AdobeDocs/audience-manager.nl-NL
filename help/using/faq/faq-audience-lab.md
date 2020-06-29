@@ -6,8 +6,12 @@ solution: Audience Manager
 title: Veelgestelde vragen over publiek Lab
 topic: DIL API
 uuid: b1daf99d-af60-4f65-987d-794a6d45d566
+feature: Audience Lab
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +40,7 @@ Ja, dat is toegestaan. Denk aan een geval van één test die een mannelijk segme
 
 <br> 
 
-**Stel dat een testgroep een geverifieerd profiel gebruikt voor de splitsing van het testsegment. Het geverifieerde profiel is gekoppeld aan 4 UUID&#39;s van[Audience Manager](../reference/ids-in-aam.md). Wanneer de bezoeker een omzettingskenmerk van één van de vier UUIDs tentoonstelt,[!UICONTROL Audience Lab]telt dit als één of vier omzettingen?**
+**Stel dat een testgroep een geverifieerd profiel gebruikt voor de splitsing van het testsegment. Het geverifieerde profiel is gekoppeld aan UUID&#39;s van 4[Audience Managers](../reference/ids-in-aam.md). Wanneer de bezoeker een omzettingskenmerk van één van de vier UUIDs tentoonstelt,[!UICONTROL Audience Lab]telt dit als één of vier omzettingen?**
 
 In dit geval telt [!UICONTROL Audience Lab] slechts één conversie.
 
