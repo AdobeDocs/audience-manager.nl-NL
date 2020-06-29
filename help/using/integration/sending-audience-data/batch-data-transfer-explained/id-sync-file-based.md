@@ -5,8 +5,12 @@ seo-title: Naam en inhoudsvereisten voor id-synchronisatiebestanden
 solution: Audience Manager
 title: Naam en inhoudsvereisten voor id-synchronisatiebestanden
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
+feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 84c860ca918ae7daf2a5225716fd7db7143089d9
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '781'
+ht-degree: 3%
 
 ---
 
@@ -110,7 +114,7 @@ Op basis van de naam en inhoud van het voorbeeld worden de id&#39;s als volgt to
 
 **Bestand 1** (voorbeeldbestand [](assets/adobe_id_0_12345_1476312152.sync)downloaden)
 
-| DPID 0 = UUID&#39;s van Adobe Audience Manager | DPID 12345 |
+| DPID 0 = Adobe Audience Manager UUIDs | DPID 12345 |
 |---|---|
 | 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR.38 |
 | 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
@@ -131,7 +135,7 @@ Stap 1: Bij het synchronisatieproces van de id worden de [!DNL DPUUID]s vanaf [!
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Stap 2: de [!DNL DPUUID]s van [!DNL DPID] 12345 zijn gesynchroniseerd in stap 1 met de Manager [!DNL UUID]van de Publiek. Deze id-synchronisatie synchroniseert de [!DNL DPUUID]s vanaf [!DNL DPID] 67890 met de Audience Manager [!DNL UUID]s vanaf stap 1.
+Stap 2: de [!DNL DPUUID]s vanaf [!DNL DPID] 12345 zijn in stap 1 gesynchroniseerd met de Audience Managers [!DNL UUID]en Deze id-synchronisatie synchroniseert de [!DNL DPUUID]s vanaf [!DNL DPID] 67890 met de Audience Manager [!DNL UUID]van stap 1.
 
 <br/>
 
