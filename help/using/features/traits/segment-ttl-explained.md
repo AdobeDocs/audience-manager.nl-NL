@@ -5,8 +5,12 @@ seo-title: Uitleg over segmentatie- en trainingstijd voor live
 solution: Audience Manager
 title: Tijd van segment voor live uitleg
 uuid: 5b2c6911-50b9-4b68-9dd4-21128d112eab
+feature: Traits
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +29,7 @@ Hoe het [!UICONTROL time-to-live] ([!DNL TTL]) interval van de eigenschap effect
 
 Wanneer het plaatsen van [!DNL TTL] aan 1 dag, begint de tijdopnemer van TTL de volgende dag na het merkrealisatie, niet het tellen van de resterende uren in de dag van de eigenlijke realisatie.
 
-Audience Manager berekent de [!DNL TTL] vervaldatum voor kenmerken met 1 dag [!DNL TTL] op basis van de volgende formule:
+Audience Manager berekent de [!DNL TTL] vervaldatum voor eigenschappen met 1 dag [!DNL TTL] op basis van de volgende formule:
 
 `24 + (24 - Hour of the day the trait was realized, in UTC)`
 
