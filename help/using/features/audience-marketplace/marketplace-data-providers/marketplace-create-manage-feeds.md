@@ -1,13 +1,17 @@
 ---
-description: Voor een gegevensfeed zijn een naam, beschrijving, gegevensbron en een overzichtstype vereist. De feeds worden uitgeschakeld totdat u de feed opslaat en activeert. Stel openbare of persoonlijke gegevensfeeds in via Audience Marketplace > Mijn gedeelde gegevens. Alleen beschikbaar voor verkopers van gegevens.
-seo-description: Voor een gegevensfeed zijn een naam, beschrijving, gegevensbron en een overzichtstype vereist. De feeds worden uitgeschakeld totdat u de feed opslaat en activeert. Stel openbare of persoonlijke gegevensfeeds in via Audience Marketplace > Mijn gedeelde gegevens. Alleen beschikbaar voor verkopers van gegevens.
+description: Voor een gegevensfeed zijn een naam, beschrijving, gegevensbron en een overzichtstype vereist. De feeds worden uitgeschakeld totdat u de feed opslaat en activeert. Stel openbare of persoonlijke gegevensfeeds in Audience Marketplace > Mijn gedeelde gegevens in. Alleen beschikbaar voor verkopers van gegevens.
+seo-description: Voor een gegevensfeed zijn een naam, beschrijving, gegevensbron en een overzichtstype vereist. De feeds worden uitgeschakeld totdat u de feed opslaat en activeert. Stel openbare of persoonlijke gegevensfeeds in Audience Marketplace > Mijn gedeelde gegevens in. Alleen beschikbaar voor verkopers van gegevens.
 seo-title: Gegevensfeeds maken, prijzen en beheren
 solution: Audience Manager
 title: Gegevensfeeds maken, prijzen en beheren
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: 979c853a3be94f1cda57e4f376d0033d6e8a06a5
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1304'
+ht-degree: 0%
 
 ---
 
