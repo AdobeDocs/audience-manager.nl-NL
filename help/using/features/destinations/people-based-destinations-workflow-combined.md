@@ -1,11 +1,15 @@
 ---
-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-line gegevens van CRM met gedragsgegevens te combineren die u reeds in de Manager van het Publiek hebt om nieuwe publiekssegmenten tot stand te brengen, dan deze publiekssegmenten naar Op mensen-Gebaseerde Doelen te verzenden.  '
-seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-line gegevens van CRM met gedragsgegevens te combineren die u reeds in de Manager van het Publiek hebt om nieuwe publiekssegmenten tot stand te brengen, dan deze publiekssegmenten naar Op mensen-Gebaseerde Doelen te verzenden.   '
+description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-line gegevens van CRM met gedragsgegevens te combineren die u reeds in Audience Manager hebt om nieuwe publiekssegmenten tot stand te brengen, dan deze publiekssegmenten naar Op mensen-Gebaseerde Doelen te verzenden.  '
+seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-line gegevens van CRM met gedragsgegevens te combineren die u reeds in Audience Manager hebt om nieuwe publiekssegmenten tot stand te brengen, dan deze publiekssegmenten naar Op mensen-Gebaseerde Doelen te verzenden.   '
 seo-title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens
 solution: Audience Manager
 title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens
+feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1180'
+ht-degree: 4%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: e8729366a62ec82aa906fe043cf594bff837c737
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
 
-Deze pagina omvat geleidelijke begeleiding op hoe te om off-line [!DNL CRM] gegevens met gedragsgegevens te combineren die u reeds in de Manager van het Publiek hebt om nieuwe publiekssegmenten tot stand te brengen, dan deze publiekssegmenten te verzenden naar [!DNL People-Based Destinations].
+Deze pagina omvat geleidelijke begeleiding op hoe te om off-line [!DNL CRM] gegevens met gedragsgegevens te combineren die u reeds in Audience Manager hebt om nieuwe publiekssegmenten tot stand te brengen, dan deze publiekssegmenten te verzenden naar [!DNL People-Based Destinations].
 
 ## Stap 1 - de Montages van de Gegevensbron vormen {#configure-data-source-settings}
 
@@ -35,7 +39,7 @@ In dit geval moet u de overeenkomstige gegevensbron als dusdanig etiketteren:
 1. Selecteer het **[!UICONTROL Emails(SHA256, lowercased)]** label voor deze gegevensbron in het keuzemenu.
    >[!IMPORTANT]
    >
-   >Met deze optie wordt alleen de gegevensbron gelabeld met gegevens die zijn gehasht met dat specifieke algoritme. Audience Manager verbergt de gegevens bij deze stap niet. Zorg ervoor dat de e-mailadressen die u bij het opslaan in deze gegevensbron wilt opslaan, al met het [!DNL SHA256] algoritme zijn gehasht. Anders kunt u het niet gebruiken voor [!DNL People-Based Destinations].
+   >Met deze optie wordt alleen de gegevensbron gelabeld met gegevens die zijn gehasht met dat specifieke algoritme. De Audience Manager hash de gegevens bij deze stap niet. Zorg ervoor dat de e-mailadressen die u bij het opslaan in deze gegevensbron wilt opslaan, al met het [!DNL SHA256] algoritme zijn gehasht. Anders kunt u het niet gebruiken voor [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Sla de gegevensbroninstellingen op.
@@ -46,14 +50,14 @@ In dit geval moet u de overeenkomstige gegevensbron als dusdanig etiketteren:
 
 In dit geval moet u een nieuwe gegevensbron voor meerdere apparaten maken waarin uw gehashte e-mailadressen worden opgeslagen. Dit doet u als volgt:
 
-1. Meld u aan bij uw account Audience Manager en ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]** en klik op **[!UICONTROL Add New]**.
+1. Meld u aan bij uw Audience Manager-account, ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]** en klik op **[!UICONTROL Add New]**.
 1. Voer een [!UICONTROL Name] en [!UICONTROL Description] voor de nieuwe gegevensbron in.
 1. In the **[!UICONTROL ID Type]** drop-down menu, select **[!UICONTROL Cross Device]**.
 1. Selecteer in de **[!UICONTROL Data Source Settings]** sectie zowel de **[!UICONTROL Inbound]** als de **[!UICONTROL Outbound]** opties en schakel de **[!UICONTROL Share associated cross-device IDs in people-based destinations]** optie in.
 1. Selecteer het **[!UICONTROL Emails(SHA256, lowercased)]** label voor deze gegevensbron in het keuzemenu.
    >[!IMPORTANT]
    >
-   >Met deze optie wordt alleen de gegevensbron gelabeld met gegevens die zijn gehasht met dat specifieke algoritme. Audience Manager verbergt de gegevens bij deze stap niet. Zorg ervoor dat de e-mailadressen die u bij het opslaan in deze gegevensbron wilt opslaan, al met het [!DNL SHA256] algoritme zijn gehasht. Anders kunt u het niet gebruiken voor [!DNL People-Based Destinations].
+   >Met deze optie wordt alleen de gegevensbron gelabeld met gegevens die zijn gehasht met dat specifieke algoritme. De Audience Manager hash de gegevens bij deze stap niet. Zorg ervoor dat de e-mailadressen die u bij het opslaan in deze gegevensbron wilt opslaan, al met het [!DNL SHA256] algoritme zijn gehasht. Anders kunt u het niet gebruiken voor [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 1. Sla de gegevensbroninstellingen op.
@@ -64,7 +68,7 @@ Bekijk de onderstaande video voor een videozelfstudie over het maken van een geg
 
 >[!NOTE]
 >
-> Zie [Gegevens onboarding](people-based-destinations-prerequisites.md#data-onboarding) voor vaak gestelde vragen over hoe u uw off-line gegevens in de Manager van de Publiek voor Op mensen-Gebaseerde Doelen zou moeten brengen.
+> Zie [Gegevens aan boord](people-based-destinations-prerequisites.md#data-onboarding) voor vaak gestelde vragen over hoe u uw off-line gegevens in Audience Manager voor op mensen-Gebaseerde Doelen zou moeten brengen.
 
 ## Stap 2 - Identiteitskaart van de Gelijke aan Onderbroken E-mailadressen via dossier-Gebaseerde Synchronisatie van identiteitskaart {#match-ids-emails}
 
@@ -124,7 +128,7 @@ De volgende stap is het creëren van een nieuwe fusieregel die u zal helpen de p
 >
 > Als u reeds een regel hebt die met de [!UICONTROL Current Authenticated Profiles] of de [!UICONTROL Last Authenticated Profiles] opties wordt bepaald, kunt u aan [Stap 4 overslaan - creeer de Segmenten](people-based-destinations-workflow-combined.md#create-audience-segments)van het Publiek.
 
-1. Meld u aan bij uw account Audience Manager en ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
+1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Profile Merge Rules]**.
 1. Klik op **[!UICONTROL Add New Rule]**.
 1. Voer een regel voor het samenvoegen van profielen in **[!UICONTROL Name]** en **[!UICONTROL Description]**.
 1. Selecteer in de **[!UICONTROL Profile Merge Rule Setup]** sectie de **[!UICONTROL Current Authenticated Profiles]** of **[!UICONTROL Last Authenticated Profiles]** opties.
@@ -132,18 +136,18 @@ De volgende stap is het creëren van een nieuwe fusieregel die u zal helpen de p
 
 ## Stap 4 - Audience-segmenten maken {#create-audience-segments}
 
-Om nieuwe publiekssegmenten tot stand te brengen, gebruik de Bouwer [van het](../segments/segment-builder.md)Segment. Als u bestaande publiekssegmenten hebt die u wilt verzenden naar [!DNL People-Based Destinations], overslaan aan [Stap 5 - vorm op mensen-Gebaseerde Authentificatie](people-based-destinations-workflow-combined.md#configure-authentication)van het Platform.
+Om nieuwe publiekssegmenten tot stand te brengen, gebruik de Bouwer [van het](../segments/segment-builder.md)Segment. Als u bestaande publiekssegmenten hebt die u naar wilt verzenden [!DNL People-Based Destinations], overslaan aan [Stap 5 - vorm op mensen-Gebaseerde Authentificatie](people-based-destinations-workflow-combined.md#configure-authentication)van het Platform.
 
 ## Stap 5 - Vorm op mensen-Gebaseerde Authentificatie van het Platform {#configure-authentication}
 
-1. Meld u aan bij uw account Audience Manager en ga naar **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Als u een eerder geconfigureerde integratie met een sociaal platform hebt, wordt deze in deze pagina weergegeven. Anders is de pagina leeg.
+1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Als u een eerder geconfigureerde integratie met een sociaal platform hebt, wordt deze in deze pagina weergegeven. Anders is de pagina leeg.
    ![op mensen gebaseerde integratie](assets/pbd-config.png)
 1. Klik op **[!UICONTROL Add Account]**.
 1. Gebruik het **[!UICONTROL People-Based Platform]** drop-down menu om het platform te selecteren dat u de integratie met wilt vormen.
    ![op mensen gebaseerd platform](assets/pbd-add.png)
 1. Klik **[!UICONTROL Confirm]** om naar de authentificatiepagina van het geselecteerde platform worden opnieuw gericht.
-1. Nadat u zich hebt aangemeld bij uw account voor het sociale platform, wordt u omgeleid naar Audience Manager waar de accounts van uw adverteerders worden weergegeven. Selecteer het adverteerderaccount dat u wilt gebruiken en klik op **[!UICONTROL Confirm]**.
-1. Audience Manager geeft boven aan de pagina een bericht weer om te laten weten of de account is toegevoegd. Met de melding kunt u ook een contact-e-mailadres toevoegen om meldingen te ontvangen wanneer de verificatie van het sociale platform bijna verlopen is.
+1. Nadat u zich hebt geverifieerd op uw account voor het sociale platform, wordt u omgeleid naar de Audience Manager waar de accounts van uw adverteerders moeten worden weergegeven. Selecteer het adverteerderaccount dat u wilt gebruiken en klik op **[!UICONTROL Confirm]**.
+1. Audience Manager geeft boven aan de pagina een melding weer om te laten weten of de account is toegevoegd. Met de melding kunt u ook een contact-e-mailadres toevoegen om meldingen te ontvangen wanneer de verificatie van het sociale platform bijna verlopen is.
 
 >[!IMPORTANT]
 >
@@ -151,9 +155,9 @@ Om nieuwe publiekssegmenten tot stand te brengen, gebruik de Bouwer [van het](..
 
 ## Stap 6 - creeer een op mensen-gebaseerde Bestemming {#create-destination}
 
-1. Meld u aan bij uw account Audience Manager, ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** en klik op **[!UICONTROL Create Destination]**.
+1. Meld u aan bij uw Audience Manager-account, ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** en klik op **[!UICONTROL Create Destination]**.
 1. Voer in de **[!UICONTROL Basic Information]** sectie een **[!UICONTROL Name]** en een **[!UICONTROL Description]** waarde in voor de nieuwe gegevensbron en gebruik de volgende instellingen:
-   * **[!UICONTROL Category]**: geïntegreerde platforms;
+   * **[!UICONTROL Category]**: geïntegreerde Platforms;
    * **[!UICONTROL Type]**: personen;
    * **[!UICONTROL Platform]**: selecteer het op mensen-gebaseerde platform dat u publiekssegmenten naar wilt verzenden;
    * **[!UICONTROL Account]**: Selecteer het gewenste adverteerderaccount dat aan het geselecteerde platform is gekoppeld.
