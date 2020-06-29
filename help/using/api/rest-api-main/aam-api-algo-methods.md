@@ -6,8 +6,12 @@ seo-title: Algorithmic API Methods
 solution: Audience Manager
 title: Algorithmic API Methods
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
+feature: API
 translation-type: tm+mt
-source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '65'
+ht-degree: 0%
 
 ---
 
@@ -21,4 +25,4 @@ Methoden waarmee u programmatisch kunt werken met functies voor algoritmische mo
 >De algoritmische modellen [!DNL API] zijn herschreven met [!DNL Swagger] en gemigreerd. Zie:
 >
 >* [Adobe Audience Manager API-documenten](https://bank.demdex.com/portal/swagger/index.html)
->* [Auditiebeheer API-codemigratie](../../api/api-swagger-migration.md)
+>* [Migratie van Audience Manager-API-code](../../api/api-swagger-migration.md)
