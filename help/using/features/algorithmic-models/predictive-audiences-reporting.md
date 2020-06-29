@@ -3,16 +3,20 @@ description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-t
 seo-description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-time in verschillende personen indelen met behulp van gegevenswetenschap.
 seo-title: Rapportage van voorspellende doelgroepen
 solution: Audience Manager
-title: Voorspelend publiek van Auditiebeheer
+title: Audience Manager voorspellend publiek
+feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 8259f07c91efa0efd88e8f7c87cb1829ffadd77d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '630'
+ht-degree: 0%
 
 ---
 
 
 # Rapportage van voorspellende doelgroepen
 
-Nadat u een [!UICONTROL Predictive Audiences] model hebt opgeslagen, wordt het door Audience Manager opgeleid. Binnen een paar uren, zal het berekende model beginnen publiek op de Servers [van de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)Gegevensverzameling te analyseren. Rapportage is de volgende dag beschikbaar.
+Nadat u een [!UICONTROL Predictive Audiences] model hebt opgeslagen, wordt het door de Audience Manager getraind. Binnen een paar uren, zal het berekende model beginnen publiek op de Servers [van de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)Gegevensverzameling te analyseren. Rapportage is de volgende dag beschikbaar.
 
 Als u de resultaten van uw [!UICONTROL Predictive Audiences] classificatie wilt zien, gaat u naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klikt u op uw model in de lijst.
 
@@ -22,7 +26,7 @@ Gebruik de filteropties aan de linkerkant om naar de modelnaam te zoeken of de r
 
 De modellenlijst toont u de volgende informatie:
 
-* **[!UICONTROL ID]**: de model-id identificeert elk model op unieke wijze in uw account van Audience Manager;
+* **[!UICONTROL ID]**: de model-id identificeert elk model op unieke wijze in uw Audience Manager-account;
 * **[!UICONTROL Name]**: de naam die u hebt opgegeven in de stap voor het maken van het model;
 * **[!UICONTROL Description]**: de beschrijving die u hebt opgegeven in de stap voor het maken van het model;
 * **[!UICONTROL Model Type]**: het type van elk model ([!UICONTROL Look-Alike Modeling] of [!UICONTROL Predictive Audiences]);
@@ -36,7 +40,7 @@ De modellenlijst toont u de volgende informatie:
 
 Wanneer u een model hebt gekozen, wordt de rapportpagina geladen. Bovenaan op de pagina ziet u de bovenste 5 grootste voorspellende segmenten, gebaseerd op één dag realtime realisatie, waarop het model uw doelpubliek heeft geclassificeerd. De **[!UICONTROL Other]** categorie omvat de overige personen, die niet in de vijf grootste voorspellende segmenten waren opgenomen.
 
-Audience Manager geeft zowel een kleurgecodeerde donutgrafiek als een tijdlijngrafiek voor uw [!UICONTROL Predictive Audiences]foto weer.
+Audience Manager geeft zowel een kleurgecodeerde donutgrafiek als een tijdlijngrafiek voor uw [!UICONTROL Predictive Audiences]afbeelding weer.
 
 Als u op de tabbladen met personen boven aan de pagina klikt, worden deze aan het diagram en de grafiek toegevoegd of eruit verwijderd.
 
