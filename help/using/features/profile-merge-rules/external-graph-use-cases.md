@@ -1,26 +1,30 @@
 ---
-description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties die Adobe heeft met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
-seo-description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties die Adobe heeft met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
+description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties die Adobe heeft met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
+seo-description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties die Adobe heeft met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
 seo-title: Gebruiksscenario's voor grafiek van externe apparaten
 solution: Audience Manager
 title: Gebruiksscenario's voor grafiek van externe apparaten
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 2%
 
 ---
 
 
 # Gebruiksscenario&#39;s voor grafiek van externe apparaten {#external-device-graph-use-cases}
 
-Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van Audience Manager. Dit omvat de [!DNL Adobe Experience Cloud Device Co-op] en andere integratie die Adobe heeft met externe deterministische of probabilistische bedrijven voor apparaatgrafieken.
+Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit omvat de [!DNL Adobe Experience Cloud Device Co-op] en andere integratie die Adobe heeft met externe deterministische of probabilistische bedrijven voor apparaatgrafieken.
 
 ## Aanbevelingen {#recommendations}
 
 Houd rekening met de grafiekopties voor apparaten [!DNL Experience Cloud Device Co-op] en apparaten van derden voor campagnes die:
 
 * Een laag verificatieniveau hebben voor alle digitale eigenschappen. Gebruik de optie [!UICONTROL Profile Link Device Graph option] als u een groot aantal geverifieerde gebruikers hebt.
-* Doelgroep: groot publiek. Apparaatgrafieken [!DNL Experience Cloud Device Co-op] en apparaatgrafieken van derden bevatten geverifieerde en niet-geverifieerde gegevens.
+* Target, groot publiek. Apparaatgrafieken [!DNL Experience Cloud Device Co-op] en apparaatgrafieken van derden bevatten geverifieerde en niet-geverifieerde gegevens.
 * Segment geauthenticeerde en/of ongeautoriseerde bezoekers op individueel en huishoudelijk niveau.
 
 ![](assets/merge-rule-triangle1.png)
