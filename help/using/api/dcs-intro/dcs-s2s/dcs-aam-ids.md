@@ -5,8 +5,9 @@ seo-title: Gebruikersnaam en regio's ophalen uit een DCS-reactie
 solution: Audience Manager
 title: Gebruikersnaam en regio's ophalen uit een DCS-reactie
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
+feature: DCS
 translation-type: tm+mt
-source-git-commit: 50c5b654d962649c98f1c740cd17967e70b957bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -23,9 +24,9 @@ Deze sectie beschrijft hoe te om een [!DNL DCS] reactie te ontleden om bezoeker 
 Een [!DNL DCS] reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar de [!DNL DCS]server.
 
 * De gebruikers-id is vereist om gegevens te identificeren en aan een bepaalde bezoeker te koppelen.
-* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS]server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst aan plaatsbezoekers zijn. Zie [DCS-regio-id&#39;s, -locaties en -hostnamen](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS]server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst bij plaatsbezoekers zijn. Zie [DCS-regio-id&#39;s, -locaties en -hostnamen](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Deze parameters worden hieronder beschreven. De *cursieve* code vertegenwoordigt een variabele placeholder.
+Deze parameters worden hieronder beschreven. De code in *cursief* staat voor een variabele plaatsaanduiding.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
