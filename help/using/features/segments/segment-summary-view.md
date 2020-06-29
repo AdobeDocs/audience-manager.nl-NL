@@ -6,8 +6,9 @@ solution: Audience Manager
 title: Pagina Segmentdetails
 uuid: e844e423-9701-42d4-9ba5-d82f41358adc
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
+feature: Segments
 translation-type: tm+mt
-source-git-commit: 3b56d7ecdef4375bf3b007fa9b325618c701c174
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -26,8 +27,8 @@ De bovenkant van de pagina van de segmentdetails bewaart de hulpmiddelen die u k
 1. **[!UICONTROL Add New]**: Met deze optie activeert u de segmenten [!UICONTROL Segment Builder] en maakt u nieuwe segmenten.
 2. **[!UICONTROL Edit]**: Gebruik deze optie om de configuratie van het huidige segment te wijzigen.
 3. **[!UICONTROL Duplicate]**: Gebruik deze optie om een kopie van het huidige segment te maken.
-4. **[!UICONTROL Delete]**: Gebruik deze optie om het huidige segment te verwijderen uit uw account van Audience Manager.
-5. **[!UICONTROL Marketplace Recommendations]**: Met deze optie kunt u vergelijkbare segmenten vinden als de segmenten die u bekijkt, op basis van [!UICONTROL Audience Marketplace] gegevensfeeds waarop u zich niet hebt geabonneerd. Zie Marketplace van het [publiek voor de Kopers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) van Gegevens om te leren hoe te om de Marketplace te navigeren en gelijkaardige segmenten te vinden.
+4. **[!UICONTROL Delete]**: Gebruik deze optie om het huidige segment uit uw rekening van de Audience Manager te verwijderen.
+5. **[!UICONTROL Marketplace Recommendations]**: Met deze optie kunt u vergelijkbare segmenten vinden als de segmenten die u bekijkt, op basis van [!UICONTROL Audience Marketplace] gegevensfeeds waarop u zich niet hebt geabonneerd. Zie [Audience Marketplace for Data Buyers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) om te leren hoe u door de Marketplace kunt navigeren en vergelijkbare segmenten kunt zoeken.
 
 ![basissegmentinformatie](assets/basic-segment-information.png)
 
@@ -46,7 +47,7 @@ Onder de hulpmiddelen van het segmentbeheer kunt u de volgende segmentinformatie
 
    >[!NOTE]
    >
-   >De Manager van de publiek toont slechts het [!UICONTROL Identity Type Breakdown] rapport als u dwars-apparaat IDs voor het segment gekwalificeerd hebt.
+   >De Audience Manager toont slechts het [!UICONTROL Identity Type Breakdown] rapport als u dwars-apparaat IDs voor het segment gekwalificeerd hebt.
 
    Bekijk de onderstaande video voor een overzicht van [!UICONTROL Identity Type Breakdown].
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
