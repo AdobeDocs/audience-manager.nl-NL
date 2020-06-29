@@ -4,8 +4,12 @@ seo-description: De Zorg van de klant is bereid om u te helpen om het even welke
 seo-title: Als er een probleem is
 solution: Audience Manager
 title: Als er een probleem is
+feature: Support
 translation-type: tm+mt
-source-git-commit: 0b32a48e99b35990dc7ccdcc03fcc68ba769d93e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 0%
 
 ---
 
@@ -49,12 +53,12 @@ Houd de volgende informatie bij de hand voordat u contact met ons opneemt.
    <td colname="col2"> <p>Geef uw: </p> <p> 
      <ul id="ul_6ACF6EF2165C4041A891FF36D78BBA63"> 
       <li id="li_86573CAAE8454BE6BDF44F9A8281FF95">Bedrijfsnaam. </li> 
-      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Het subdomein van Audience Manager</span> (indien bekend). Het subdomein is de URL van het domein dat gegevensverzamelingsgebeurtenissen naar <span class="keyword"> Adobe</span> verzendt (bijvoorbeeld <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
+      <li id="li_8259BB738BA84A13982A8E84BCF56B2A"><span class="keyword"> Audience Manager</span> subdomein (indien bekend). Het subdomein is de URL van het domein dat gegevensverzamelingsgebeurtenissen naar <span class="keyword"> Adobe</span> verzendt (bijvoorbeeld <code>https://<i>myCompany</i>.demdex.net</code>). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Stappen om te reproduceren</b> </p> </td> 
-   <td colname="col2"> <p>Neem zoveel mogelijk details op, inclusief URL's die nodig zijn om het probleem te dupliceren en het verwachte resultaat. Uw beschrijving moet voldoende details bevatten zodat iemand die niet bekend is met <span class="keyword"> Audience Manager</span> uw stappen of procedures kan volgen en het probleem kan reproduceren. </p> </td> 
+   <td colname="col2"> <p>Neem zoveel mogelijk details op, inclusief URL's die nodig zijn om het probleem te dupliceren en het verwachte resultaat. Uw beschrijving moet voldoende details bevatten om iemand die niet bekend is met de <span class="keyword"> Audience Manager</span> in staat te stellen uw stappen of procedures te volgen en het probleem te reproduceren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Prioriteit</b> </p> </td> 
@@ -73,7 +77,7 @@ Houd de volgende informatie bij de hand voordat u contact met ons opneemt.
 
 ## In geval van uitval {#outage}
 
-Als u vermoedt dat er een storing is, controleert u eerst de [Experience Cloud System Status page](https://status.adobe.com) ( [!DNL https://status.adobe.com]) This has a record of all outtages, incidenten and onderhoud for Experience Cloud Solutions, including Audience Manager, and includes latest updates from our Tech Ops team. Als u nog steeds hulp nodig hebt, moet u naast de bovenstaande informatie het volgende weten wanneer u contact opneemt met de klantenservice:
+Als u vermoedt dat er een storing is, controleert u eerst de [Experience Cloud System Status page](https://status.adobe.com) ( [!DNL https://status.adobe.com]) This has a record of all outtages, incidenten and onderhoud for Experience Cloud Solutions, include Audience Manager, and includes latest updates from our Tech Ops team. Als u nog steeds hulp nodig hebt, moet u naast de bovenstaande informatie het volgende weten wanneer u contact opneemt met de klantenservice:
 
 * Tijdverlies gestart
 * Uitleg van wat er gebeurt
