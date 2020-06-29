@@ -1,18 +1,22 @@
 ---
-description: Signalen zijn de kleinste gegevenseenheid binnen Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot de Manager van het Publiek om in trekkenregels worden gebruikt.
-seo-description: Signalen zijn de kleinste gegevenseenheid binnen Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot de Manager van het Publiek om in trekkenregels worden gebruikt.
+description: Signalen zijn de kleinste informatieeenheid binnen de Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot Audience Manager die in trekkenregels moet worden gebruikt.
+seo-description: Signalen zijn de kleinste informatieeenheid binnen de Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot Audience Manager die in trekkenregels moet worden gebruikt.
 seo-title: Signalen begrijpen
 title: Signalen begrijpen
 uuid: 04a0554e-954e-484a-8838-9161ef416872
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '396'
+ht-degree: 0%
 
 ---
 
 
 # Signalen begrijpen
 
-Signalen zijn de kleinste gegevenseenheid binnen Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot de Manager van het Publiek die in trekregels moet worden gebruikt.
+Signalen zijn de kleinste informatieeenheid binnen de Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot Audience Manager die in trekregels moet worden gebruikt.
 
 [!DNL Audience Manager] gebruikt sleutel-waardeparen om signalen te vertegenwoordigen. Het volgende signaal kan bijvoorbeeld aangeven dat een bezoeker een webpagina met elektronica heeft bereikt:
 
@@ -35,7 +39,7 @@ Het dashboard [](../../features/data-explorer/data-explorer-signals-dashboard.md
 
 ## Vernieuwingsfrequentie signaalgegevens
 
-Vanwege de grote hoeveelheid gegevens die Audience Manager dagelijks verwerkt, [!UICONTROL Data Explorer] vernieuwt u de weergegeven signaalgegevens met vaste tijdsintervallen, afhankelijk van het signaaltype:
+Wegens de grote hoeveelheid gegevens die de Audience Manager dagelijks verwerkt, verfrist de getoonde signaalgegevens bij vaste tijdintervallen, afhankelijk van het signaaltype: [!UICONTROL Data Explorer]
 
 * Signaalgegevens in real time (actionable logboekdossiers, [!DNL Adobe Analytics] gegevens, en algemene online gegevens) worden verfrist om de 4 tot 6 uur.
 * De gegevens van het aan boord gebrachte signaal worden elke 24 uur vernieuwd.
