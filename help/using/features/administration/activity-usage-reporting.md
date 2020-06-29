@@ -6,8 +6,9 @@ seo-title: Activiteitenverbruik rapporteren
 solution: Audience Manager
 title: Activiteitenverbruik rapporteren
 topic: Activity Usage Reporting
+feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 0869e016d7f80710cb194449c48675b82fdfa865
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -29,7 +30,7 @@ Het [!UICONTROL Activity Usage Report] is beschikbaar voor alle gebruikers van d
 
 >[!IMPORTANT]
 >
->Het [!UICONTROL Activity Usage Report] toont u de statistieken van het activiteitengebruik van uw instantie van de Audience Manager. Neem contact op met uw vertegenwoordiger van Adobe voor alle vragen over facturering die betrekking hebben op uw gebruik van activiteiten.
+>Het [!UICONTROL Activity Usage Report] toont u de statistieken van het activiteitengebruik van uw instantie van de Audience Manager. Neem contact op met uw Adobe-vertegenwoordiger voor alle vragen over facturering die betrekking hebben op uw gebruik van activiteiten.
 
 ## Gevallen gebruiken {#use-cases}
 
