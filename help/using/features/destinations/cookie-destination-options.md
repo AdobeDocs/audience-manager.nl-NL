@@ -4,8 +4,12 @@ seo-description: In de Bouwer van de Bestemming, bevat de sectie van de Configur
 seo-title: Optionele instellingen voor Cookie-doelen
 solution: Audience Manager
 title: Optionele instellingen voor Cookie-doelen
+feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +45,7 @@ In [!UICONTROL Destination Builder], [!UICONTROL Configuration section] bevat he
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Voorbeeld</b> </p> </td> 
-   <td colname="col2"> <p>Als eenvoudig voorbeeld, zeggen wij een fictieve plaats genoemd sport.com. Sports.com heeft domeinen voor golf, honkbal, en voetbal. Als u een cookie in alle sportdomeinen wilt instellen, typt u dat in het vak <span class="wintitle"> Koekjesdomein</span> , zoals hieronder wordt weergegeven: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Hiermee geeft u aan dat <span class="keyword"> Audience Manager</span> een cookie moet instellen in elk domein dat het patroon <code><i>something</i></code>.sport.com bevat. Zie hieronder voor een complexere reeks voorbeelden. </p> </td> 
+   <td colname="col2"> <p>Als eenvoudig voorbeeld, zeggen wij een fictieve plaats genoemd sport.com. Sports.com heeft domeinen voor golf, honkbal, en voetbal. Als u een cookie in alle sportdomeinen wilt instellen, typt u dat in het vak <span class="wintitle"> Koekjesdomein</span> , zoals hieronder wordt weergegeven: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Dit vertelt <span class="keyword"> Audience Manager</span> om een koekje in om het even welk domein te plaatsen dat patroon <code><i>something</i></code>.sport.com bevat. Zie hieronder voor een complexere reeks voorbeelden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
