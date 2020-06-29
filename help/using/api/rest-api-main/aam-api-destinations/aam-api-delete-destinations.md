@@ -1,12 +1,16 @@
 ---
-description: VERWIJDER en POST methodes die u bestemmingen en segmentafbeeldingen laten verwijderen.
-seo-description: VERWIJDER en POST methodes die u bestemmingen en segmentafbeeldingen laten verwijderen.
+description: DELETE- en POST-methoden waarmee u doelen en segmenttoewijzingen kunt verwijderen.
+seo-description: DELETE- en POST-methoden waarmee u doelen en segmenttoewijzingen kunt verwijderen.
 seo-title: Doelen verwijderen
 solution: Audience Manager
 title: Doelen verwijderen
 uuid: 38fb2228-e564-49a3-9930-3139f8799a8f
+feature: API
 translation-type: tm+mt
-source-git-commit: 1300c29cbd5dce26357dc698f2f6efc5bdb32bdb
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 0%
 
 ---
 
