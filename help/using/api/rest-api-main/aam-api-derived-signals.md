@@ -5,8 +5,12 @@ seo-title: Afgeleide API-methoden voor signalen
 solution: Audience Manager
 title: Afgeleide API-methoden voor signalen
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
+feature: API
 translation-type: tm+mt
-source-git-commit: 0fea73016eeed5d6fb5c8614d543a0a21638b25e
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '121'
+ht-degree: 0%
 
 ---
 
@@ -24,4 +28,4 @@ Voor meer informatie over afgeleide signalen, zie [Afgeleide Signalen](../../fea
 >De afgeleide [!DNL API] signaalmethodes zijn herschreven met [!DNL Swagger] en gemigreerd. Zie:
 >
 >* [Adobe Audience Manager API-documenten](https://bank.demdex.com/portal/swagger/index.html)
->* [Auditiebeheer API-codemigratie](../../api/api-swagger-migration.md)
+>* [Migratie van Audience Manager-API-code](../../api/api-swagger-migration.md)
