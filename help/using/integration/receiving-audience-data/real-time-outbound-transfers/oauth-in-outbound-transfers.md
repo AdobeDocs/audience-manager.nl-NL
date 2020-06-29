@@ -1,19 +1,23 @@
 ---
-description: Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan-server integratie in realtime, kan de Manager van de Publiek opstelling zijn om het gebruiken van OAuth 2.0 voor authentiek te verklaren wanneer het maken van de verzoeken. Dit stelt de capaciteit voor om voor authentiek verklaarde verzoeken van de Manager van het Publiek aan uw eindpunt uit te geven.
-seo-description: Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan-server integratie in realtime, kan de Manager van de Publiek opstelling zijn om het gebruiken van OAuth 2.0 voor authentiek te verklaren wanneer het maken van de verzoeken. Dit stelt de capaciteit voor om voor authentiek verklaarde verzoeken van de Manager van het Publiek aan uw eindpunt uit te geven.
+description: Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan-server integratie in real time, kan de Audience Manager opstelling zijn om het gebruiken van OAuth 2.0 voor authentiek te verklaren wanneer het maken van de verzoeken. Dit stelt de capaciteit voor om voor authentiek verklaarde verzoeken van Audience Manager aan uw eindpunt uit te geven.
+seo-description: Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan-server integratie in real time, kan de Audience Manager opstelling zijn om het gebruiken van OAuth 2.0 voor authentiek te verklaren wanneer het maken van de verzoeken. Dit stelt de capaciteit voor om voor authentiek verklaarde verzoeken van Audience Manager aan uw eindpunt uit te geven.
 seo-title: OAuth 2.0 Integratie voor Uitgaande Overdrachten in real time
 solution: Audience Manager
 title: OAuth 2.0 Integratie voor Uitgaande Overdrachten in real time
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 1cc8afd25331528fd67922183b6550288b9939bc
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 0%
 
 ---
 
 
 # [!DNL OAuth 2.0] Integratie voor Uitgaande Overdrachten in real time{#oauth-integration-for-real-time-outbound-transfers}
 
-Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan-server integratie in real time, kan de Manager van de Publiek opstelling zijn om het gebruiken voor authentiek te verklaren [!DNL OAuth 2.0] wanneer het maken van de verzoeken. Dit stelt de capaciteit voor om voor authentiek verklaarde verzoeken van de Manager van het Publiek aan uw eindpunt uit te geven.
+Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan-server integratie in real time, kan de Audience Manager opstelling zijn om voor authentiek te verklaren gebruikend [!DNL OAuth 2.0] wanneer het maken van de verzoeken. Dit stelt de capaciteit voor om voor authentiek verklaarde verzoeken van Audience Manager aan uw eindpunt uit te geven.
 
 ## Verificatiestroom {#auth-flow}
 
@@ -41,7 +45,7 @@ Dit eindpunt zal de geloofsbrieven goedkeuren die bij stap 1 worden verstrekt en
 * Het eindpunt moet de [!DNL Content-type] kopbal bekijken en bevestigen dat zijn waarde is `application/x-www-form-urlencoded ; charset=UTF-8`.
 * De inhoud van het verzoek zal worden `grant_type=client_credentials`.
 
-### Voorbeeld verzoek dat door de Manager van het Publiek aan het partnereindpunt wordt gemaakt om een dragertoken te verkrijgen
+### Voorbeeld verzoek dat door Audience Manager aan het partnereindpunt wordt gemaakt om een dragertoken te verkrijgen
 
 ```
 POST /oauth2/token HTTP/1.1
