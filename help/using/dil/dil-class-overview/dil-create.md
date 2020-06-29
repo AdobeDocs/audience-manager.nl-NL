@@ -5,8 +5,12 @@ seo-title: DIL maken
 solution: Audience Manager
 title: DIL maken
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
+feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +49,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>Geheel </p> </td> 
-   <td colname="col3"> <p>Met deze eigenschap wordt de container-id ingesteld die door Audience Manager wordt gebruikt <span class="keyword"> </span> voor ID-syncs. U zou plaatsen <code> containerNSID </code> als u <span class="wintitle"> DIL over veelvoudige plaatsen hebt </span> opgesteld. Elk van deze sites heeft een eigen container-id en id-syncs. Als u slechts 1 site hebt, is de container-id standaard 0 en hoeft u dit niet op de juiste wijze in te stellen. Neem contact op met uw consultant voor een lijst met uw sites en de bijbehorende container-id's. </p> <p>In de <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a>, komt de eigenschap <code> idSyncContainerID </code> overeen met <code> containerNSID </code> in <span class="wintitle"> DIL </span>. Let op het volgende als u <span class="wintitle"> DIL </span> en de dienst van identiteitskaart over veelvoudige plaatsen gebruikt <i></i> : </p> <p> 
+   <td colname="col3"> <p>Met deze eigenschap wordt de container-id ingesteld die door <span class="keyword"> Audience Manager wordt gebruikt </span> voor ID-syncs. U zou plaatsen <code> containerNSID </code> als u <span class="wintitle"> DIL over veelvoudige plaatsen hebt </span> opgesteld. Elk van deze sites heeft een eigen container-id en id-syncs. Als u slechts 1 site hebt, is de container-id standaard 0 en hoeft u dit niet op de juiste wijze in te stellen. Neem contact op met uw consultant voor een lijst met uw sites en de bijbehorende container-id's. </p> <p>In de dienst van de Identiteit van het <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a>, beantwoordt het bezit <code> idSyncContainerID </code> aan <code> containerNSID </code> in <span class="wintitle"> DIL </span>. Let op het volgende als u <span class="wintitle"> DIL </span> en de dienst van identiteitskaart over veelvoudige plaatsen gebruikt <i></i> : </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">Stel voor elke site dezelfde container-id's in op <code> containerNSID </code> en <code> idSyncContainerID </code>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF">Zowel <span class="wintitle"> DIL </span> als de ID-service proberen id-syncs naar ons iFrame voor gegevensverzameling te verzenden. De iFrame zorgt er echter voor dat <span class="wintitle"> DIL </span> geen id-synchronisatie start. Dit voorkomt dubbel werk. </li> 
@@ -57,12 +61,12 @@ r_dil_create.xml
    <td colname="col2"> <p>Object </p> </td> 
    <td colname="col3"> 
     <draft-comment> 
-     <p>Verzendt de <a href="../../features/declared-ids.md"> Gedeclareerde variabelen van identiteitskaart </a> op elke gebeurtenisvraag naar de Manager van het <span class="keyword"> Publiek </span>. </p> 
+     <p>Verzendt de <a href="../../features/declared-ids.md"> Gedeclareerde variabelen van identiteitskaart </a> op elke gebeurtenisvraag naar <span class="keyword"> Audience Manager </span>. </p> 
     </draft-comment> <p> <code> delcaredId </code> wordt gebruikt voor het passeren van: </p> 
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
-     <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Identiteitskaart van de partner van gegevens die aan u door de Manager van het <span class="keyword"> Publiek wordt toegewezen </span>. </li> 
+     <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Identiteitskaart van de partner van gegevens die aan u door <span class="keyword"> Audience Manager wordt toegewezen </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Je unieke id voor een gebruiker. </li> 
-    </ul> <p> <p>Belangrijk:  Gebruik alleen niet-gecodeerde waarden voor uw id's. Bij codering worden dubbelgecodeerde id's gemaakt. </p> </p> <p> <p>Opmerking:  Als u de identiteitsservice van het <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform gebruikt, stelt u de klant-id's in met de </a>methode in plaats van met <code> setCustomerIDs </code> DIL <span class="wintitle"> </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
+    </ul> <p> <p>Belangrijk:  Gebruik alleen niet-gecodeerde waarden voor uw id's. Bij codering worden dubbelgecodeerde id's gemaakt. </p> </p> <p> <p>Opmerking:  Als u de Dienst van de Identiteit van het <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform gebruikt </a>, plaats klant IDs met de <code> setCustomerIDs </code> methode in plaats van <span class="wintitle"> DIL </span>. See <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication States </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -72,7 +76,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDeclaredUUIDCookie </code> </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p> Onwaar door gebrek, wat betekent de Manager van het <span class="keyword"> Publiek een koekje in het domein van de partner </span> plaatst (plaatst een eerste partijkoekje). </p> </td> 
+   <td colname="col3"> <p> Onwaar door gebrek, wat betekent <span class="keyword"> Audience Manager een koekje in het domein van de partner </span> plaatst (plaatst een eerste partijkoekje). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
@@ -102,12 +106,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Vereist. </p> <p>Het <code> namespace </code> sleutelwaardepaar bevat uw <span class="keyword"> Experience Cloud </span> Organization ID. Als u deze id niet hebt, kunt u deze vinden in het gedeelte <span class="wintitle"> Beheer </span> van het dashboard <span class="keyword"> Experience Cloud </span> . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Raadpleeg de veelgestelde vragen over <a href="../../faq/faq-features.md"> productfuncties en -functies </a> en <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Beheer - Gebruikersbeheer en veelgestelde vragen </a>. </p> </td> 
+   <td colname="col3"> <p>Vereist. </p> <p>Het <code> namespace </code> sleutelwaardepaar bevat uw <span class="keyword"> Experience Cloud- </span> organisatie-id. Als u deze id niet hebt, kunt u deze vinden in het gedeelte <span class="wintitle"> Beheer </span> van het <span class="keyword"> Experience Cloud- </span> dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Raadpleeg de veelgestelde vragen over <a href="../../faq/faq-features.md"> productfuncties en -functies </a> en <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Beheer - Gebruikersbeheer en veelgestelde vragen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> partner </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Vereist. </p> <p> De naam van de partner zoals die door de Manager van het <span class="keyword"> Publiek wordt verstrekt </span>. </p> </td> 
+   <td colname="col3"> <p>Vereist. </p> <p> De naam van de partner zoals verstrekt door <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> removeFinishedScriptsAndCallbacks </code> </p> </td> 
@@ -117,12 +121,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> uuidCookie </code> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
-   <td colname="col3"> <p>Hiermee stelt u een cookie in met de unieke gebruikers-id die door <span class="keyword"> Audience Manager wordt geretourneerd </span>. Zie <a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props"> uidCookie-eigenschappen </a>. </p> </td> 
+   <td colname="col3"> <p>Stelt een cookie in met de unieke gebruikers-id die door de <span class="keyword"> Audience Manager wordt geretourneerd </span>. Zie <a href="../../dil/dil-class-overview/dil-create.md#uuidcookie-props"> uidCookie-eigenschappen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
-   <td colname="col3"> <p>Vereist met <span class="wintitle"> DIL </span> 6.2 of hoger. </p> <p> DIL vertrouwt op de <code> setCustomerIDs </code> functie in de <span class="wintitle"> Adobe Experience Platform Identity Service </span> om gedeclareerde id's door te geven aan <span class="keyword"> Audience Manager </span>. Raadpleeg <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> </a> Customer ID's en verificatiestatus voor meer informatie. </p> </td> 
+   <td colname="col3"> <p>Vereist met <span class="wintitle"> DIL </span> 6.2 of hoger. </p> <p> DIL vertrouwt op de functie in de Dienst van de Identiteit van het <code> setCustomerIDs </code> Adobe Experience Platform <span class="wintitle"> om gedeclareerde IDs tot </span> Audience Manager over te gaan <span class="keyword"> </span>. Raadpleeg <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> </a> Customer ID's en verificatiestatus voor meer informatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
