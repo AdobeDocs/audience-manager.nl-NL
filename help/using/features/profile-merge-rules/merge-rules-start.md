@@ -5,8 +5,9 @@ seo-title: Aan de slag met regels voor het samenvoegen van profielen
 solution: Audience Manager
 title: Aan de slag met regels voor het samenvoegen van profielen
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
+feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: 56a9626b1fa77926bdc31ef72b058d2aa9b58f43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -54,7 +55,7 @@ De [!UICONTROL Data Source Details] sectie voltooien:
 
 * **[!UICONTROL Use as a Device Graph]**: Deze controle is beschikbaar slechts aan rekeningen die als gegevensleverancier worden vermeld. Als u dit selectievakje inschakelt, wordt uw gegevensbron gemaakt als een apparaatgrafiek en kunt u deze delen met andere [!DNL Audience Manager] klanten. Werk samen met uw [!DNL Audience Manager] consultant om als een gegevensaanbieder op te zetten en te bepalen met welke klanten dit [!UICONTROL Data Source] moet worden gedeeld. Uw consultant zal uw account en apparaatgrafiek delen via een intern inrichtingsproces.
 
-* **[!UICONTROL Data retention for inactive Customer IDs]**: Met dit besturingselement kunt u de bewaarperiode voor inactieve id&#39;s van de klant instellen. Dit bepaalt hoe lang de Manager van de Publiek identiteitskaart van de Klant in ons gegevensbestand houdt nadat zij het laatst op het platform van de Manager van de Publiek werden gezien. De standaardwaarde is 24 maanden (720 dagen). De minimumwaarde die u kunt instellen is 1 maand en de maximumwaarde is 5 jaar. We tellen alle maanden als 30 dagen. Publiek Manager voert een proces uit dat inactieve identiteitskaart van de Klant één keer per week schrapt, overeenkomstig het gegevensbehoud u voor inactieve identiteitskaart van de Klant plaatst.
+* **[!UICONTROL Data retention for inactive Customer IDs]**: Met dit besturingselement kunt u de bewaarperiode voor inactieve id&#39;s van de klant instellen. Dit bepaalt hoe lang de Audience Manager identiteitskaart van de Klant in ons gegevensbestand houdt nadat zij het laatst op het platform van de Audience Manager werden gezien. De standaardwaarde is 24 maanden (720 dagen). De minimumwaarde die u kunt instellen is 1 maand en de maximumwaarde is 5 jaar. We tellen alle maanden als 30 dagen. Audience Manager voert een proces uit dat inactieve identiteitskaart van de Klant één keer per week schrapt, overeenkomstig het gegevensbehoud u voor inactieve identiteitskaart van de Klant plaatst.
 
 Met de tekstvelden die aan deze instellingen zijn gekoppeld, kunt u de naam van de toepassing wijzigen in een alias die wordt weergegeven in de opties [!UICONTROL Data Source] voor de regel voor het samenvoegen van [](merge-rule-definitions.md)profielen. Als u bijvoorbeeld een alias toevoegt aan **[!UICONTROL Use as Authenticated Profile]**, wordt die naam weergegeven in de [!UICONTROL Authenticated Profile Options] lijst. Als u een alias aan toevoegt **[!UICONTROL Use as a Device Graph]**, verschijnt die naam in de [!UICONTROL Device Options] lijst.
 
@@ -102,18 +103,18 @@ De [!UICONTROL Proflie Merge Rule Setup] sectie voltooien:
    * **[!UICONTROL Device Co-op]**
 4. Klik op **[!UICONTROL Save]**.
 
-### Overwegingen bij de bestemming van Adobe-campagnes waarbij gebruik wordt gemaakt van apparaat-id&#39;s als gebruikersidentificatietoetsen {#considerations}
+### Overwegingen bij Adobe Campaign-doelen die ID&#39;s voor andere apparaten gebruiken als gebruikersidentificatietoetsen {#considerations}
 
-Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw instantie Audience Manager vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
+Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw Audience Manager-exemplaar vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
 
-Om de correcte integratie tussen uw instantie van de Manager van de Publiek en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals de Campagne van Adobe, zorg ervoor u aan de volgende vereisten voldoet:
+Om de correcte integratie tussen uw instantie van de Audience Manager en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals Adobe Campaign, zorg ervoor u aan de volgende vereisten voldoet:
 
-1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan het doel van de opgegeven Adobe-id voor campagne. De regel voor het samenvoegen van profielen moet de [!UICONTROL Last Authenticated Profile] optie gebruiken, zodat alle geverifieerde profielen kunnen worden opgenomen in de exportbewerking. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
-2. Selecteer de gegevensbron voor de door Adobe-campagne aangegeven id in de instellingen voor de samenvoegregel voor profielen.
+1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan de bestemming van de door Adobe Campaign aangegeven id. De regel voor het samenvoegen van profielen moet de [!UICONTROL Last Authenticated Profile] optie gebruiken, zodat alle geverifieerde profielen kunnen worden opgenomen in de exportbewerking. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
+2. Selecteer de gegevensbron voor de Adobe Campaign-declaratie-id in de instellingen voor de regel voor het samenvoegen van profielen.
 
 >[!NOTE]
 >
-> We hebben de limiet voor de regel voor het samenvoegen van profielen met 1 verhoogd voor klanten die met deze situatie worden geconfronteerd, zodat u een speciale regel voor het samenvoegen van profielen kunt maken voor de segmenten die zijn toegewezen aan de bestemming van de gedeclareerde id voor Adobe-campagne, zonder de regels voor het samenvoegen van profielen te wijzigen voor andere gebruiksgevallen.
+> Wij hebben de grens van de Regel van de Fusie van het Profiel met 1 voor klanten verhoogd die deze situatie onder ogen zien, zodat u een specifieke Regel van de Fusie van het Profiel voor de segmenten kunt tot stand brengen die aan de Adobe Campaign Verklaarde bestemming van identiteitskaart worden in kaart gebracht, zonder de Regels van de Fusie van het Profiel voor andere gebruiksgevallen te veranderen.
 
 ## Code samenvoegregel configureren {#configure-merge-rule-code}
 
@@ -125,7 +126,7 @@ Volg deze instructies om opstelling de [!UICONTROL Adobe Experience Platform Ide
 
 U moet een [apparaatgegevensbron](#create-data-source) en [profielfusieregels](#create-profile-merge-rule) instellen *voordat* u deze procedures voltooit.
 
-## Voor klanten van Adobe Experience Platform Identity Service {#id-service-customers}
+## Voor klanten van de Dienst van de Identiteit van het Adobe Experience Platform {#id-service-customers}
 
 De [!UICONTROL Adobe Experience Platform Identity Service] en nieuwste versie van [DIL](../../dil/dil-overview.md) worden aanbevolen wanneer u werkt met [!UICONTROL Profile Merge Rules]. U hoeft deze functie echter niet te gebruiken [!UICONTROL Adobe Experience Platform Identity Service] om met deze functie te werken. Als u alleen werkt [!UICONTROL DIL], raadpleegt u de [oudere DIL-sectie](#legacy-dil) hieronder.
 
@@ -224,7 +225,7 @@ Controleer de methoden in de [!DNL SDK] code waarmee u gegevens kunt doorgeven [
  </tbody>
 </table>
 
-Zie ook Methoden voor [Audience Manager voor Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [Audience Manager Methods voor iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Zie ook [Audience Manager Methods voor Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [Audience Manager Methods voor iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
