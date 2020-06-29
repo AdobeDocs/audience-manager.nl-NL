@@ -4,9 +4,12 @@ seo-description: Globale gegevensbronnen gebruiken om apparaat-advertentie-id's 
 seo-title: Algemene gegevensbronnen
 solution: Audience Manager
 title: Algemene gegevensbronnen
-uuid: null
+feature: Data Sources
 translation-type: tm+mt
-source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 631111be50d8e1b2e8ec81a295ecda5ec3fd6fee
 
 ## Overzicht
 
-Globale gegevensbronnen zijn toegankelijk voor alle klanten van Audience Manager en bevatten apparaat advertentie-id&#39;s die worden gegenereerd door apparaatfabrikanten zoals [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku]en [!DNL Android] apparaatfabrikanten. Deze id&#39;s worden door de fabrikanten beschikbaar gesteld voor reclamedoeleinden. Klanten van Audience Manager kunnen globale gegevensbronnen gebruiken om apparaat-id&#39;s te synchroniseren en gegevens die van die toewijzingen zijn weggehaald, te importeren of te exporteren.
+Algemene gegevensbronnen zijn toegankelijk voor alle klanten van de Audience Manager en bevatten id&#39;s voor apparaatreclame die worden gegenereerd door apparaatfabrikanten zoals [!DNL Apple], [!DNL Samsung], [!DNL Microsoft], [!DNL Roku]en [!DNL Android] apparaatfabrikanten. Deze id&#39;s worden door de fabrikanten beschikbaar gesteld voor reclamedoeleinden. Klanten van Audience Managers kunnen globale gegevensbronnen gebruiken om apparaat-id&#39;s te synchroniseren en gegevens die van die toewijzingen zijn afgehaald, te importeren of te exporteren.
 
 In de volgende tabel worden de algemene gegevensbronnen beschreven die door Audience Manager worden ondersteund.
 
@@ -34,7 +37,7 @@ U kunt apparaat-id&#39;s van globale gegevensbronnen importeren via gegevensover
 
 >[!IMPORTANT]
 >
->Wanneer u gegevens naar Audience Manager verzendt met een algemene apparaat-id, moet u de bijbehorende gegevensbron voor de desbetreffende apparaat-id gebruiken. Voorbeeld: Gebruik de gegevensbron-id 20915 om gegevens te importeren voor [!DNL Apple IDFA].
+>Wanneer u gegevens naar de Audience Manager verzendt met een algemene apparaat-id, moet u ervoor zorgen dat u de bijbehorende gegevensbron voor de desbetreffende apparaat-id gebruikt. Voorbeeld: Gebruik de gegevensbron-id 20915 om gegevens te importeren voor [!DNL Apple IDFA].
 
 ## Beperkingen
 
@@ -42,9 +45,9 @@ Op apparaten met [!DNL iOS] en [!DNL Android] besturingssystemen kunnen alleen n
 
 ## Validatie van algemene apparaat-id
 
-Audience Manager valideert de door klanten geïmporteerde id&#39;s ([!UICONTROL DAID]) voor apparaatadvertenties op basis van hun indeling, om ervoor te zorgen dat deze overeenkomen met de standaardindeling die door apparaatfabrikanten wordt beschreven. Zie [Index van id&#39;s in Audience Manager](../reference/ids-in-aam.md) voor een gedetailleerde toewijzing van id&#39;s voor apparaatreclame aan globale gegevensbronnen en de juiste indeling voor elke id. Zorg ervoor dat u apparaat-id&#39;s in de juiste indeling importeert op basis van het apparaattype. Audience Manager weigert apparaat-id&#39;s die niet aan de juiste indeling voldoen en retourneert een foutbericht om aan te geven dat de id is afgewezen.
+Audience Manager valideert de door klanten geïmporteerde advertentie-id&#39;s ([!UICONTROL DAID]) voor het apparaat op basis van hun indeling, zodat deze overeenkomen met de standaardindeling die door apparaatfabrikanten wordt beschreven. Zie [Index van IDs in Audience Manager](../reference/ids-in-aam.md) voor een gedetailleerde afbeelding van apparaat reclame IDs aan globale gegevensbronnen en het juiste formaat voor elke identiteitskaart Zorg ervoor dat u apparaat-id&#39;s in de juiste indeling importeert op basis van het apparaattype. Audience Manager wijst apparaat-id&#39;s af die niet aan de juiste indeling voldoen en retourneert een foutbericht om aan te geven dat de id is afgewezen.
 
-* Foutberichten voor batchgegevensoverdracht worden hier beschreven: Voorwaarden en definities [](../reporting/onboarding-status-report.md#report-terms-conditions)van het rapport over de status van het instapsysteem.
+* Foutberichten voor batchgegevensoverdracht worden hier beschreven: [Voorwaarden en definities](../reporting/onboarding-status-report.md#report-terms-conditions)van statusrapport bij instapweigering.
 * Het overseinen van de fout voor gegevensoverdrachten in real time wordt hier geschetst: [DCS-foutcodes, -berichten en -voorbeelden](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
 ## Expiratiebeleid voor apparaat-id
@@ -53,7 +56,7 @@ Audience Manager verwijdert automatisch id&#39;s voor apparaatreclame na 120 dag
 
 ## Nieuwe globale gegevensbronnen aanvragen
 
-Als u nieuwe globale gegevensbronnen wilt aanvragen om aan Audience Manager te worden toegevoegd, neemt u contact op met Adobe Consulting of de klantenservice van Adobe en verstrekt u gedetailleerde informatie over de vereiste gegevensbronnen:
+Als u nieuwe globale gegevensbronnen wilt aanvragen om aan de Audience Manager te worden toegevoegd, neemt u contact op met Adobe Consulting of de klantenservice van Adobe en verstrekt u gedetailleerde informatie over de vereiste gegevensbronnen:
 
 * de naam van het gevraagde platform (bv. [!UICONTROL Apple IDFA]);
 * de naam van de onderneming/organisatie die het platform beheert (bv. [!UICONTROL Apple Inc.]);
