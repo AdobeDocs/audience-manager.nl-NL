@@ -1,20 +1,24 @@
 ---
-description: Kopers van gegevens van de Publiek Marktplaats komen overeen alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer tegen een kostprijs per duizend en op basis van indrukken (CPM). Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
-seo-description: Kopers van gegevens van de Publiek Marktplaats komen overeen alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer tegen een kostprijs per duizend en op basis van indrukken (CPM). Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
+description: Kopers van Audience Marketplace-gegevens komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukwekkende beelden (CPM) is geprijsd. Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
+seo-description: Kopers van Audience Marketplace-gegevens komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukwekkende beelden (CPM) is geprijsd. Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
 seo-title: Facturering voor kopers van gegevensfeed
 solution: Audience Manager
 title: Facturering voor kopers van gegevensfeed
 keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: a8320894c0efcf46bd3236494e1aa7b1eded24d1
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '2027'
+ht-degree: 0%
 
 ---
 
 
 # Facturering voor kopers van gegevensfeed {#billing-for-data-feed-buyers}
 
-Kopers van gegevens van de Audience Marketplace stemmen ermee in alle advertenties te melden die zijn gediend met gebruik van de kenmerken in de gegevenstoevoer tegen een prijs per duizend en op indrukwekkende ([!DNL CPM]) basis. [!DNL CPM] het gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
+Kopers van Audience Marketplace-gegevens komen overeen alle advertenties te melden die zijn gediend met gebruik van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukken ([!DNL CPM]) zijn geprijsd. [!DNL CPM] het gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
 
 <br> 
 
@@ -102,7 +106,7 @@ Het [!DNL CPM] bulkgebruik bijwerken:
 | Niet gevonden | Kan [!UICONTROL Segment Level Reporting]bijvoorbeeld [!DNL Audience Manager] de [!UICONTROL Segment ID] combinatie en de [!UICONTROL Destination ID] combinatie niet identificeren. Kan [!UICONTROL Feed Level Reporting]bijvoorbeeld [!DNL Audience Manager] de combinatie [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]en [!UICONTROL Use Case] combinatie niet identificeren. | Controleer [!UICONTROL Segment Level Reporting]bijvoorbeeld de geldigheid van de [!UICONTROL Segment ID] combinatie en de [!UICONTROL Destination ID] combinatie. Controleer [!UICONTROL Feed Level Reporting]bijvoorbeeld de geldigheid van de combinatie [!UICONTROL Data Provider Name], [!UICONTROL Feed Name]en [!UICONTROL Use Case] . |
 | Dubbele records gevonden | [!DNL Audience Manager] dubbele records met verschillende afbeeldingswaarden gedetecteerd. | Herzie het rapport en zorg ervoor u niet verschillende gebruikswaarden voor het zelfde gegeven of segment meldt. |
 | Waarden niet ondersteund | [!DNL Audience Manager] gedetecteerde niet-numerieke waarden in de [!DNL Audience Manager] kolom. | Controleer het rapport en zorg ervoor u slechts numerieke waarden in de [!DNL Audience Manager] kolom ingaat. |
-| Kopteksten voor verplichte velden ontbreken | [!DNL Audience Manager] ontbrekende tabelkoppen voor verplichte velden gevonden. De verplichte velden [!UICONTROL Segment Level Reporting]zijn bijvoorbeeld: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. De verplichte velden [!UICONTROL Feed Level Reporting]zijn bijvoorbeeld: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name], [!UICONTROL Use Case] | Controleer het rapport en zorg ervoor dat er niet met de tabelkoppen is geknoeid. |
+| Kopteksten voor verplichte velden ontbreken | [!DNL Audience Manager] ontbrekende tabelkoppen voor verplichte velden gevonden. De verplichte velden [!UICONTROL Segment Level Reporting]zijn bijvoorbeeld: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. De verplichte velden [!UICONTROL Feed Level Reporting]zijn bijvoorbeeld: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Controleer het rapport en zorg ervoor dat er niet met de tabelkoppen is geknoeid. |
 
 >[!NOTE]
 >Het verwijderen van rijen uit het [!DNL CSV] gebruiksrapport heeft geen effect op het bestaande gebruiksrapport. [!DNL Audience Manager] alleen de velden verwerkt die in het rapport zijn opgenomen.
@@ -122,11 +126,11 @@ Het [!DNL CPM] bulkgebruik bijwerken:
   <tr> 
    <td colname="col1"> <p><b>Het totale aantal afdrukken altijd rapporteren</b> </p> </td> 
    <td colname="col2"> <p>Voor CPM-schoktotalen: </p>
-   <p> Rapporteer het totale aantal indrukken, zonder decimalen te gebruiken. De Manager van het publiek berekent automatisch CPM die op het totale aantal wordt gebaseerd u rapporteert.</p><p>Als u 1.234.567 beelden moet melden, rapporteer het precies zo. U te hoeven niet om het totale aantal beelden door 1.000 te verdelen om CPM te berekenen.</p><p>De reizen die worden gebruikt om uw Web of toepassingsinhoud (de Optimalisering van de Inhoud) te optimaliseren gebruikend hulpmiddelen zoals het Doel van Adobe of een bestemming van de Analyse bijdragen niet tot de totalen van het Gebruik voor CPM- plannen. Gegevensleveranciers worden doorgaans gecompenseerd voor de optimalisatie van inhoud met behulp van platte vergoedingsplannen.</p><p>Zie de Attributie van <a href="#cost-attribution">Kosten voor CPM de Diefstal</a> van Gegevens voor meer informatie. </p> </td>
+   <p> Rapporteer het totale aantal indrukken, zonder decimalen te gebruiken. De Audience Manager berekent automatisch CPM dat op het totale aantal wordt gebaseerd u rapporteert.</p><p>Als u 1.234.567 beelden moet melden, rapporteer het precies zo. U te hoeven niet om het totale aantal beelden door 1.000 te verdelen om CPM te berekenen.</p><p>De reizen die worden gebruikt om uw Web of toepassingsinhoud (de Optimalisering van de Inhoud) te optimaliseren gebruikend hulpmiddelen zoals Adobe Target of een bestemming van Analytics dragen niet tot de totalen van het Gebruik voor CPM plannen bij. Gegevensleveranciers worden doorgaans gecompenseerd voor de optimalisatie van inhoud met behulp van platte vergoedingsplannen.</p><p>Zie de Attributie van <a href="#cost-attribution">Kosten voor CPM de Diefstal</a> van Gegevens voor meer informatie. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Aankruisen aan het maandelijkse rapporteringsinterval</b> </p> </td> 
-   <td colname="col2"> <p>Het rapportsysteem wordt na de 5e van elke maand gesloten. Als u er niet in slaagt om CPM gebruik tegen dan te melden, moet u dat bedrag aan het rapport voor de volgende maand toevoegen. Stel bijvoorbeeld dat u in oktober 1000 afbeeldingen gebruikt, de rapportdeadline van oktober mist en in november 1000 afbeeldingen gebruikt. In dit geval rapporteert u het totaal voor oktober en november (2000) in december, tussen de eerste en de vijfde.</p><p><b>Tip</b>: U zou altijd moeten proberen om CPM gebruik voor de vorige maand tussen de 1e en 5e dagen van de volgende maand te melden.</p><p>U kunt CPM gebruik zo laat zoals de 5e van de nieuwe kalendermaand melden, maar dit wordt niet geadviseerd. Het melden van gebruik CPM vóór de 5e van elke maand geeft de tijd van de Manager van de Publiek om de gegevens te controleren en te verwerken.</p> </td>
+   <td colname="col2"> <p>Het rapportsysteem wordt na de 5e van elke maand gesloten. Als u er niet in slaagt om CPM gebruik tegen dan te melden, moet u dat bedrag aan het rapport voor de volgende maand toevoegen. Stel bijvoorbeeld dat u in oktober 1000 afbeeldingen gebruikt, de rapportdeadline van oktober mist en in november 1000 afbeeldingen gebruikt. In dit geval rapporteert u het totaal voor oktober en november (2000) in december, tussen de eerste en de vijfde.</p><p><b>Tip</b>: U zou altijd moeten proberen om CPM gebruik voor de vorige maand tussen de 1e en 5e dagen van de volgende maand te melden.</p><p>U kunt CPM gebruik zo laat zoals de 5e van de nieuwe kalendermaand melden, maar dit wordt niet geadviseerd. Het melden van CPM gebruik vóór de 5e van elke maand geeft de Audience Manager tijd om de gegevens te controleren en te verwerken.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +170,7 @@ Het [!UICONTROL Activation] gebruiksgeval laat u eigenschappen in de overeenkoms
 Wanneer u het Gebruik van CPM op het Niveau [van de Diervoeders van Gegevens](#feed-level-report)Rapport, moet u beelden proportioneel voor elke gegevensvoer toewijzen, volgens de [!DNL Boolean] exploitanten die in de de kwalificatieregels van het bezit worden gebruikt. In de volgende tabel wordt aangegeven hoe u afbeeldingen op de juiste wijze kunt toewijzen door de Booleaanse regel of het type kenmerk.
 
 >[!TIP]
->[Het Gebruik van CPM van het rapport op het Niveau](#segment-level-report) van het Segment om het niveau van de gegevensvoer te hebben die automatisch door de Manager van de Publiek wordt gedaan.
+>[Het Gebruik van CPM van het rapport op het Niveau](#segment-level-report) van het Segment om het niveau van de gegevensvoer te hebben die automatisch door Audience Manager wordt gedaan.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
