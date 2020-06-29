@@ -5,8 +5,12 @@ seo-title: Uitgaande sjabloonmacro's
 solution: Audience Manager
 title: Uitgaande sjabloonmacro's
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 94984d14be6febf4de3ee3e0e79fba432e1cb15f
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '719'
+ht-degree: 0%
 
 ---
 
@@ -213,7 +217,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Gebruikersnaam voor </span> Audience Manager. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager- </span> gebruikersnaam. </p> </td> 
   </tr> 
  </tbody> 
 </table>
