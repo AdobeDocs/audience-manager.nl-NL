@@ -4,8 +4,12 @@ seo-description: De Etiketten van de Uitvoer van gegevens werken met de Controle
 seo-title: De Controles van de Uitvoer van Gegevens aan een Bestemming toevoegen
 solution: Audience Manager
 title: De Controles van de Uitvoer van Gegevens aan een Bestemming toevoegen
+feature: Data Export Controls
 translation-type: tm+mt
-source-git-commit: d6abb45fa8b88248920b64db3ac4e72c53ecee13
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 0%
 
 ---
 
