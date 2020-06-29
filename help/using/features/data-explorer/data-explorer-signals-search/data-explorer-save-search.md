@@ -1,11 +1,15 @@
 ---
-description: Optimaliseer de inspanningen van het signaalonderzoek door tot 10 reeksen onderzoekscriteria te bewaren om te gebruiken wanneer u hen nodig hebt, en hen te volgen op het Dashboard. Audience Manager laadt de opgeslagen zoekopdrachten elke keer dat u het dashboard laadt opnieuw.
-seo-description: Optimaliseer de inspanningen van het signaalonderzoek door tot 10 reeksen onderzoekscriteria te bewaren om te gebruiken wanneer u hen nodig hebt, en hen te volgen op het Dashboard. Audience Manager laadt de opgeslagen zoekopdrachten elke keer dat u het dashboard laadt opnieuw.
+description: Optimaliseer de inspanningen van het signaalonderzoek door tot 10 reeksen onderzoekscriteria te bewaren om te gebruiken wanneer u hen nodig hebt, en hen te volgen op het Dashboard. Audience Manager laadt de opgeslagen zoekopdrachten telkens opnieuw wanneer u het dashboard laadt.
+seo-description: Optimaliseer de inspanningen van het signaalonderzoek door tot 10 reeksen onderzoekscriteria te bewaren om te gebruiken wanneer u hen nodig hebt, en hen te volgen op het Dashboard. Audience Manager laadt de opgeslagen zoekopdrachten telkens opnieuw wanneer u het dashboard laadt.
 seo-title: Zoekcriteria opslaan
 title: Zoekcriteria opslaan
 uuid: c17b26e0-f489-47c9-b41b-bf895ca9d8a5
+feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: a1d75c83d5876090f3a4d284b18984e2d1a70313
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 0%
 
 ---
 
