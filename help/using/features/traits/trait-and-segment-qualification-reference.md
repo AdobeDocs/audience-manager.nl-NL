@@ -1,20 +1,24 @@
 ---
-description: De kwalificatie van het spoor, of de realisatie van het bezit, wordt behandeld verschillend in de Manager van de Auditie, afhankelijk van het handelstype. Zie de onderstaande tabel voor meer informatie over de kwalificatie van het kenmerk.
+description: De vakkwalificatie, of de verwezenlijking van het bezit, wordt behandeld verschillend in Audience Manager, afhankelijk van het handelstype. Zie de onderstaande tabel voor meer informatie over de kwalificatie van het kenmerk.
 keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
-seo-description: De kwalificatie van het spoor, of de realisatie van het bezit, wordt behandeld verschillend in de Manager van de Auditie, afhankelijk van het handelstype. Zie de onderstaande tabel voor meer informatie over de kwalificatie van het kenmerk.
+seo-description: De vakkwalificatie, of de verwezenlijking van het bezit, wordt behandeld verschillend in Audience Manager, afhankelijk van het handelstype. Zie de onderstaande tabel voor meer informatie over de kwalificatie van het kenmerk.
 seo-title: Verwijzing naar beroepskwalificatie
 solution: Audience Manager
 title: Verwijzing naar beroepskwalificatie
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 22780105bc356100af8b64b50e3c92137adeb83a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '825'
+ht-degree: 0%
 
 ---
 
 
 # Verwijzing naar de kwalificatie van het spoor en het segment {#trait-qualification-reference}
 
-De kwalificatie van het spoor, of de realisatie van het bezit, wordt behandeld verschillend in de Manager van de Auditie, afhankelijk van het handelstype. Zie Kwalificatie van [het Spoor door het Type](#trait-type) van het Spoor voor details over het type van eigenschap.
+De vakkwalificatie, of de verwezenlijking van het bezit, wordt behandeld verschillend in Audience Manager, afhankelijk van het handelstype. Zie Kwalificatie van [het Spoor door het Type](#trait-type) van het Spoor voor details over het type van eigenschap.
 
 Bovendien, zie de Bevolking van het Segment in [real time en de Totale Bevolking](#real-time-segment) van het Segment voor details over segmentkwalificatie.
 
@@ -25,10 +29,10 @@ Bovendien, zie de Bevolking van het Segment in [real time en de Totale Bevolking
 | Type overtrek | Kwalificatiecriteria |
 |---|---|
 | Op regels gebaseerde tradities | De vakkwalificatie gebeurt in real time, aangezien de gebruikers voor een eigenschap in hun browser kwalificeren. Uw gebruikers zullen ongeveer 4 uur na het [creëren van de eigenschap](create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) in UI beginnen in aanmerking te komen voor een op regel-gebaseerde eigenschap. De op regel-gebaseerde eigenschappen staan u toe om [recentie en frequentiecontroles](../segments/recency-and-frequency.md) voor het afschilderen van de frequentie en andere gebruiksgevallen te gebruiken. |
-| Treinen aan boord | De kwalificatie van het spoor gebeurt nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt [ingevoerd in de Manager](../../faq/faq-inbound-data-ingestion.md) van het Publiek en dat is wanneer de vakkwalificatie gebeurt. U moet ongeveer 4 uur wachten nadat u een ingebouwd kenmerk hebt gemaakt voordat u een binnenkomend bestand uploadt voor verwerking. Voor niet-geregistreerde kenmerken is het maximumaantal kwalificaties voor een gebruikersprofiel 1. |
+| Treinen aan boord | De lijnkwalificatie gebeurt nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt [ingevoerd in Audience Manager](../../faq/faq-inbound-data-ingestion.md) en dat is wanneer de karakterkwalificatie gebeurt. U moet ongeveer 4 uur wachten nadat u een ingebouwd kenmerk hebt gemaakt voordat u een binnenkomend bestand uploadt voor verwerking. Voor niet-geregistreerde kenmerken is het maximumaantal kwalificaties voor een gebruikersprofiel 1. |
 | Algorithmic Traits | Voor algoritmische kenmerken is het maximumaantal kwalificaties voor een gebruikersprofiel 1. |
 | Maptrajecten | Een mapkenmerk geeft een overzicht van de kwalificaties van de kenmerken die het bevat. Leesmaptraits [: Informatie over](about-folder-traits.md) meer informatie. |
-| Actieve doelgroepen en gesynchroniseerde gegevensbronnen | Een [!UICONTROL Active Audience] kenmerk bevat alle apparaten die worden beheerd in uw account van Audience Manager. [!UICONTROL Data Source Synced Traits] volgt alle gebruikers verbonden aan een gegevensbron. Lees meer over de Traits van het [Actieve Publiek en Gegevensbron de Gesynchroniseerde Tanden](client-activity-synced-audience-traits.md). |
+| Actieve doelgroepen en gesynchroniseerde gegevensbronnen | Een [!UICONTROL Active Audience] eigenschap bevat alle apparaten die in uw rekening van de Audience Manager worden beheerd. [!UICONTROL Data Source Synced Traits] volgt alle gebruikers verbonden aan een gegevensbron. Lees meer over de Traits van het [Actieve Publiek en Gegevensbron de Gesynchroniseerde Tanden](client-activity-synced-audience-traits.md). |
 
 ## Unieke realisaties van sporen en totale populatie van trekkers {#unique-trait-realizations}
 
