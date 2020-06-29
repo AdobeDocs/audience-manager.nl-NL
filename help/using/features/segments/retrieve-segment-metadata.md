@@ -1,19 +1,23 @@
 ---
-description: Wanneer de Manager van de Publiek segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of ander gebruikersinterface (UI). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
-seo-description: Wanneer de Manager van de Publiek segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of ander gebruikersinterface (UI). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
+description: Wanneer de Audience Manager segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of ander gebruikersinterface (UI). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
+seo-description: Wanneer de Audience Manager segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of ander gebruikersinterface (UI). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
 seo-title: Segmentmetagegevens ophalen
 solution: Audience Manager
 title: Segmentmetagegevens ophalen
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
+feature: Segments
 translation-type: tm+mt
-source-git-commit: c9737315132e2ae7d72c250d8c196abe8d9e0e43
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 0%
 
 ---
 
 
 # Segmentmetagegevens ophalen {#retrieving-segment-metadata}
 
-Wanneer de Manager van de Publiek segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of andere gebruikersinterfaces ([!DNL UI]). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
+Wanneer de Audience Manager segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of andere gebruikersinterfaces ([!DNL UI]). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
 
 ## Handmatige methode {#manual-method}
 
@@ -23,7 +27,7 @@ Als gegevenspartner, wordt u waarschijnlijk gewend aan het krijgen van publieksm
 
 [!DNL Audience Manager] verstrekt een reeks [REST APIs](../../api/rest-api-main/rest-api-main.md) die u segmentmeta-gegevens automatisch laten terugwinnen. Met [!DNL API], kunt u banen tot stand brengen die segmentmeta-gegevens met geplande intervallen of automatisch terugwinnen, wanneer u [!DNL Audience Manager] gegevens verwerkt en een nieuwe segmentidentiteitskaart vindt. Zie de onderstaande stappen voor meer informatie.
 
-### Stap 1: De API&#39;s van Audience Manager controleren
+### Stap 1: De Audience Manager-API&#39;s bekijken
 
 De sectie Aan de [slag met REST APIs](../../api/rest-api-main/aam-api-getting-started.md) bevat informatie over algemene vereisten, authentificatie, beschikbare methodes, enz. Dit is een goede plek om te beginnen als je nog niet met de [!DNL Audience Manager][!DNL API] eerder hebt gewerkt.
 
@@ -53,7 +57,7 @@ Nadat u de vorige stappen hebt uitgevoerd, kunt u een `GET` methode gebruiken om
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> destinationMappingId</code> </p> </td> 
-   <td colname="col2"> <p>De het segmentidentiteitskaart van de Manager <span class="keyword"></span> van de Publiek. </p> </td> 
+   <td colname="col2"> <p>De <span class="keyword"> Audience Manager</span> segment-id. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> elementName</code> </p> </td> 
