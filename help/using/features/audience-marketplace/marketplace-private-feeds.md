@@ -5,8 +5,12 @@ seo-title: Privédatafeeds
 solution: Audience Manager
 title: Privédatafeeds
 uuid: e4ca59ca-bbc9-4897-9374-8f3d54b2beee
+feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: 21b2505ac6cdf97b401bf0b0ac80bf1964f084b8
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 1%
 
 ---
 
@@ -119,9 +123,9 @@ Voor de eerste stap in het proces is tussenkomst van Adobe Consulting of de klan
 
 ### Stap 2 - de Leverancier van Gegevens - creeer Nieuwe Gegevensbron
 
-Maak in uw account Audience Manager een nieuwe gegevensbron voor cookies met:
+Maak in uw Audience Manager-account een nieuwe gegevensbron voor cookies met:
 
-* **Publiek Manager ID** als binnenkomende sleutel;
+* **Audience Manager-id** als binnenkomende sleutel;
 * De optie **Delen ingeschakeld** is ingeschakeld.
 
 ![](assets/create-datasource.png)
@@ -145,7 +149,7 @@ Maak vervolgens een gegevensfeed om uw kenmerken te delen met de koper van de ge
 
 >[!IMPORTANT]
 >
->Selecteer in Instellingen de optie Private. Als u dit gebied aan Openbaar plaatst, kan om het even welke klant van de Marketplaats van het Publiek aan uw voer intekenen.
+>Selecteer in Instellingen de optie Private. Als u dit veld instelt op Public, kan elke Audience Marketplace-klant zich abonneren op uw feed.
 
 ![](assets/create-data-feed.png)
 
@@ -155,11 +159,11 @@ Ga naar **Audience Marketplace > Marketplace**. Zoek naar de gegevensvoer die do
 
 ### Stap 6 - Gegevensaanbieder - Toegang verlenen
 
-Ga naar **Audience Marketplace > My Shared Data** en zoek naar de feed die u hebt gemaakt in stap 4. Klik in het nieuwe toegangsverzoek en de klik **staat Toegang** toe om het verzoek goed te keuren. Zie ook, [Overzicht, keur, of verwerp Privé Verzoeken](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)van de Diervoeders goed.
+Ga naar **Audience Marketplace > Mijn gedeelde gegevens** en zoek naar de feed die u in stap 4 hebt gemaakt. Klik in het nieuwe toegangsverzoek en de klik **staat Toegang** toe om het verzoek goed te keuren. Zie ook, [Overzicht, keur, of verwerp Privé Verzoeken](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests)van de Diervoeders goed.
 
 ### Stap 7 - Koper van gegevens - Abonnement inschakelen
 
-Nadat de gegevensleverancier toegang tot de gegevensvoer verleent, kunt u het voer in uw rekening in de Marketplace van het **Publiek zien > van de Markt**. Bekijk de details, schakel de knop Abonnement IN en klik op **Reviseren en abonneren**. Zie [Opslag voor Geabonneerde Gegevensvoer](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) voor informatie over waar te om de derdeeigenschappen te vinden.
+Nadat de gegevensaanbieder toegang tot de gegevensfeed heeft verleend, kunt u de feed in uw account bekijken in **Audience Marketplace > Marketplace**. Bekijk de details, schakel de knop Abonnement IN en klik op **Reviseren en abonneren**. Zie [Opslag voor Geabonneerde Gegevensvoer](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) voor informatie over waar te om de derdeeigenschappen te vinden.
 
 Deze kenmerken kunnen alleen worden bewerkt in de account van de gegevensaanbieder.
 
