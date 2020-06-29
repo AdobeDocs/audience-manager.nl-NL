@@ -1,19 +1,23 @@
 ---
-description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruikers IDs tussen de Manager van de Publiek en een derde gegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager-consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
-seo-description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruikers IDs tussen de Manager van de Publiek en een derde gegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager-consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
+description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
+seo-description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
 seo-title: De Synchronisatie van identiteitskaart voor Uitgaande Overdrachten van Gegevens
 solution: Audience Manager
 title: De Synchronisatie van identiteitskaart voor Uitgaande Overdrachten van Gegevens
 uuid: f3849be8-1094-47db-9296-7482f020af18
+feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: b1e438a77a472c192117a2c1ddcf63f4eb25d07d
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 3%
 
 ---
 
 
 # De Synchronisatie van identiteitskaart voor Uitgaande Overdrachten van Gegevens{#id-synchronization-for-outbound-data-transfers}
 
-Beschrijft de syntaxis en de parameters die in de aanvankelijke `HTTP` vraag worden gebruikt om gebruiker IDs tussen de Manager van het Publiek en een derde gegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager-consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
+Beschrijft de syntaxis en de parameters die in de aanvankelijke `HTTP` vraag worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
 
 <!-- c_id_sync_out.xml -->
 
@@ -60,7 +64,7 @@ De [!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitsk
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> 0 (GDPR is niet van toepassing) of 1 (GDPR is van toepassing).</p><p><b>Opmerking:</b> <ul><li>De <code>gdpr</code> en <code>gdpr_consent</code> parameters worden geleidelijk ingevoerd in de synchronisatie-URL's van de id met activeringspartners. Zie de partners van de Activering die IAB TCF in de Plug-in van de Manager van de <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience voor IAB TCF steunen.</a></li><li>Deze parameter kan alleen samen met <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> 0 (GDPR is niet van toepassing) of 1 (GDPR is van toepassing).</p><p><b>Opmerking:</b> <ul><li>De <code>gdpr</code> en <code>gdpr_consent</code> parameters worden geleidelijk ingevoerd in de synchronisatie-URL's van de id met activeringspartners. Zie Activeringspartners die IAB TCF in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager stop-binnen voor IAB TCF steunen.</a></li><li>Deze parameter kan alleen samen met <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
