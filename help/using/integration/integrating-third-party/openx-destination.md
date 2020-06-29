@@ -1,19 +1,23 @@
 ---
-description: Opstelling OpenX als bestemming en verzendt de segmentgegevens van de Manager van de Publiek naar dat platform.
-seo-description: Opstelling OpenX als bestemming en verzendt de segmentgegevens van de Manager van de Publiek naar dat platform.
-seo-title: OpenX als Bestemming van Audience Manager
+description: Opstelling OpenX als bestemming en verzend de gegevens van het het segmentsegment van de Audience Manager naar dat platform.
+seo-description: Opstelling OpenX als bestemming en verzend de gegevens van het het segmentsegment van de Audience Manager naar dat platform.
+seo-title: OpenX als Audience Manager-doel
 solution: Audience Manager
-title: OpenX als Bestemming van Audience Manager
+title: OpenX als Audience Manager-doel
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: 78a0a0e461ea3a74d0dbb0370a841db274a6f9be
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '695'
+ht-degree: 0%
 
 ---
 
 
-# OpenX als Bestemming van Audience Manager{#openx-as-an-audience-manager-destination}
+# OpenX als Audience Manager-doel{#openx-as-an-audience-manager-destination}
 
-Opstelling [!DNL OpenX] als bestemming en verzendt de segmentgegevens van de Manager van de Publiek naar dat platform.
+Opstelling [!DNL OpenX] als bestemming en verzendt de gegevens van het het segmentsegment van de Audience Manager naar dat platform.
 
 >[!NOTE]
 >
@@ -25,15 +29,15 @@ Normen voor codeplaatsing, gesteunde zeer belangrijk-waardeformaten, rapporten, 
 
 <!-- aam-openx-requirements.xml -->
 
-Controleer het volgende voordat u een bestemming [!DNL OpenX] voor Audience Manager instelt:
+Controleer het volgende voordat u een Audience Manager als doel instelt: [!DNL OpenX]
 
-* **[!UICONTROL DIL]:**U dient de code op uw site te plaatsen.[!UICONTROL Data Integration Library][!UICONTROL DIL]helpt u te voorkomen dat u speciale code hoeft te schrijven voor gegevensverzameling, integratie, het lezen van cookiewaarden en het herstellen van paginagegevens.
-* **`get_aamCookie`Functie:**Code waarmee de gebruikers-id en cookie-gegevens van Audience Manager worden vastgelegd. Plaats[deze code](../../features/destinations/get-aam-cookie-code.md)boven aan de pagina of in de`<head>`codeblok.
-* **Leveringslogboeken verzenden naar Audience Manager:** Als u (facultatief) een rapport van de segmentlevering wilt, verstrek de Manager van het Publiek van een dagelijks logboek dat indruk-vlakke leveringsgegevens bevat. De gegevens kunnen in onbewerkte indeling zijn, maar elke record moet de Audience Manager bevatten `UUID`. Audience Manager kan deze via ophalen of ontvangen [!DNL FTP].
+* **[!UICONTROL DIL]:**[!UICONTROL Data Integration Library]code moet op uw site worden geïmplementeerd.[!UICONTROL DIL]helpt u te voorkomen dat u speciale code hoeft te schrijven voor gegevensverzameling, integratie, het lezen van cookiewaarden en het herstellen van paginagegevens.
+* **`get_aamCookie`Functie:**Code waarmee de gebruikers-id en cookie-gegevens van de Audience Manager worden vastgelegd. Plaats[deze code](../../features/destinations/get-aam-cookie-code.md)boven aan de pagina of in de`<head>`codeblok.
+* **Leveringslogboeken naar Audience Manager verzenden:** Als u (facultatief) een rapport van de segmentlevering wilt, verstrek Audience Manager van een dagelijks logboek dat indruk-vlakke leveringsgegevens bevat. De gegevens kunnen in een RAW-indeling zijn, maar elke record moet de Audience Manager bevatten `UUID`. Audience Managers kunnen deze ophalen of ontvangen via [!DNL FTP].
 
 ### Sleutelwaarde-gegevens: Formuliervereisten
 
-Audience Manager verzendt gegevens in de vorm van sleutelwaardeparen. Maak sleutelwaardeparen volgens de volgende specificaties:
+Audience Manager verzendt gegevens in de vorm van sleutel-waardeparen. Maak sleutelwaardeparen volgens de volgende specificaties:
 
 * Voorvertoningstoetsen met `c.` (bijv. `c.color` of `c.price`).
 * Afzonderlijke geserialiseerde waarden die aan één toets zijn gekoppeld met een komma (bijvoorbeeld `c.color = red, green, blue`).
@@ -42,15 +46,15 @@ Audience Manager verzendt gegevens in de vorm van sleutelwaardeparen. Maak sleut
 
 ### Alleen gekwalificeerde segmenten worden verzonden naar OpenX
 
-De hoeveelheid gegevens die wordt doorgegeven aan, is [!DNL OpenX] afhankelijk van het aantal segmenten waarvoor een bepaalde gebruiker in aanmerking komt. Stel bijvoorbeeld dat u 100 segmenten van Audience Manager hebt ingesteld. Als een bezoeker van de site voor vijf van hen in aanmerking komt, worden alleen die vijf segmenten verzonden naar [!DNL OpenX] (niet alle 100).
+De hoeveelheid gegevens die wordt doorgegeven aan, is [!DNL OpenX] afhankelijk van het aantal segmenten waarvoor een bepaalde gebruiker in aanmerking komt. Stel bijvoorbeeld dat u 100 Audience Manager-segmenten instelt. Als een bezoeker van de site voor vijf van hen in aanmerking komt, worden alleen die vijf segmenten verzonden naar [!DNL OpenX] (niet alle 100).
 
 ## Een OpenX-doel maken {#openx-destination}
 
-Maak een cookiebestemming voor [!DNL OpenX] in Audience Manager.
+Maak een cookiebestemming voor [!DNL OpenX] in de Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-In de Manager van de Publiek, is een *bestemming* een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Manager van het publiek worden gevestigd in de Gegevens van het *Publiek > Doelen*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]** en volg deze om aan de slag te gaan.
+In Audience Manager, is een *bestemming* een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in de Gegevens van het *Publiek > Doelen*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]** en volg deze om aan de slag te gaan.
 
 ### Stap 1: Basisinformatie
 
@@ -82,14 +86,14 @@ Een segment toevoegen aan een cookiebestemming:
 
 ## OpenX instellen {#openx-code-setup}
 
-Wijzig [!DNL OpenX] montages om met de segmentgegevens van de Manager van de Publiek te werken.
+Wijzig [!DNL OpenX] montages om met Audience Manager segmentgegevens te werken.
 
 <!-- aam-openx-code.xml -->
 
 Instellen [!DNL OpenX]:
 
 * Installeer [!UICONTROL DIL] code op uw site.
-* Maken [!DNL OpenX] als een cookiebestemming in Audience Manager.
+* Maken [!DNL OpenX] als een koekjesdoel in de Audience Manager.
 * Plaats de `get_aamCookie` functie boven aan de pagina, idealiter in de `<head>` codeblok. De `get_aamCookie` code is [hier](../../features/destinations/get-aam-cookie-code.md)beschikbaar.
 * Wijzig uw advertentietag om de `get_aamCookie` functie te roepen en de koekjesnaam te omvatten u bij het opzetten van de [!DNL OpenX] bestemming verstrekte. Als u bijvoorbeeld de cookie een naam hebt gegeven `test_cookie`, moet de tag ad de naam van het cookie aanroepen `get_aamCookie` en ernaar verwijzen.
 * De advertentietag kan er ongeveer zo uitzien als hieronder.
