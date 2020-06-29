@@ -6,8 +6,12 @@ seo-title: Classificatie van handelsmerken met een gemeenschappelijke taxonomie
 solution: Audience Manager
 title: Classificatie van handelsmerken met een gemeenschappelijke taxonomie
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
+feature: Traits
 translation-type: tm+mt
-source-git-commit: 44bb4d511215a7bbc8889cc9518b3b5ffcb79a2a
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 0%
 
 ---
 
