@@ -5,23 +5,27 @@ seo-title: SDK-code
 solution: Audience Manager
 title: SDK-code
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
+feature: API
 translation-type: tm+mt
-source-git-commit: 88e196b4c7024c201a615a15a76f24d79c9f96df
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
 
 # [!DNL SDK] Code {#sdk-code}
 
-De Manager van de publiek verstrekt de kits ([!DNL SDK]s) van de softwareontwikkeling voor [!DNL Android] en [!DNL iOS].
+Audience Manager verstrekt de kits ([!DNL SDK]s) van de softwareontwikkeling voor [!DNL Android] en [!DNL iOS].
 
 >[!IMPORTANT]
 >
->Vanaf september 2018 hebben we een nieuwe, grote versie van de SDK uitgebracht. Deze nieuwe Adobe Experience Platform Mobile SDK&#39;s kunnen worden geconfigureerd via het [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+>Vanaf september 2018 hebben we een nieuwe, grote versie van de SDK uitgebracht. Deze nieuwe Adobe Experience Platform Mobile SDKs is configureerbaar door [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
 * Ga naar [Starten](https://launch.adobe.com/)om aan de slag te gaan.
-* Ga naar [Github om te zien wat er in de repositories van Experience Platform SDK staat: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Als u Audience Manager wilt implementeren in uw app en de nieuwe SDK v.5 gebruikt, leest u de documentatie [van](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) Adobe Audience Manager op de nieuwe SDK-pagina.
+* Ga naar [Github om te zien wat er in de SDK-opslagruimten van het Experience Platform staat: Adobe Experience Platform-SDK&#39;s](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Als u Audience Manager in uw app wilt implementeren met de nieuwe SDK v.5, leest u de documentatie [van de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) Adobe Audience Manager op de nieuwe SDK-pagina.
 
 <br> 
 
