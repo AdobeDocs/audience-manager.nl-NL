@@ -1,30 +1,34 @@
 ---
-description: Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van de Manager van de Audience (DMP). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het de implementatieproces van de Manager van de Publiek begrijpen. Aan de slag met Audience Manager kan ongeveer zes weken tot drie maanden in beslag nemen, afhankelijk van uw behoeften voor gegevensverzameling.
-seo-description: Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van de Manager van de Audience (DMP). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het de implementatieproces van de Manager van de Publiek begrijpen. Aan de slag met Audience Manager kan ongeveer zes weken tot drie maanden in beslag nemen, afhankelijk van uw behoeften voor gegevensverzameling.
-seo-title: Auditiebeheer implementeren
+description: Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van de Audience Manager (DMP). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het proces van de implementatie van de Audience Manager begrijpen. Aan de slag met de Audience Manager kan ongeveer zes weken tot drie maanden duren, afhankelijk van uw behoeften voor gegevensverzameling.
+seo-description: Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van de Audience Manager (DMP). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het proces van de implementatie van de Audience Manager begrijpen. Aan de slag met de Audience Manager kan ongeveer zes weken tot drie maanden duren, afhankelijk van uw behoeften voor gegevensverzameling.
+seo-title: Audience Manager implementeren
 solution: Audience Manager
-title: Auditiebeheer implementeren
+title: Audience Manager implementeren
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
+feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: c5f9845a48d9d4432f38e9a0aaa256d89f9c1c11
+source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 0%
 
 ---
 
 
-# Auditiebeheer implementeren {#implementing-audience-manager}
+# Audience Manager implementeren {#implementing-audience-manager}
 
-Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van de Manager van de Publiek ([!DNL DMP]). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het de implementatieproces van de Manager van de Publiek begrijpen. Aan de slag met Audience Manager kan ongeveer zes weken tot drie maanden in beslag nemen, afhankelijk van uw behoeften voor gegevensverzameling.
+Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van de Audience Manager ([!DNL DMP]). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het proces van de implementatie van de Audience Manager begrijpen. Aan de slag met de Audience Manager kan ongeveer zes weken tot drie maanden duren, afhankelijk van uw behoeften voor gegevensverzameling.
 
 Onze implementatietechnieken helpen een consultatief partnerschap met nieuwe klanten tot stand te brengen. Dit proces is bedoeld om:
 
 * Ontdek en begrijp uw bedrijfsvereisten.
 * een uitvoerbaar plan opstellen om aan deze eisen tegemoet te komen;
 * Aangepaste oplossingen ontwikkelen om te helpen aan unieke vereisten of gebruiksgevallen te voldoen;
-* Zorg ervoor dat uw eigen gegevens worden geïmporteerd en beschikbaar gesteld in Audience Manager.
+* Zorg ervoor dat uw eigen gegevens worden geïmporteerd en beschikbaar gesteld in de Audience Manager.
 
 Onze teams van de Oplossingen van de Partner en van het Beheer van de Rekening zullen nauw met u vóór, tijdens, en na het implementatieproces samenwerken.
 
-De Manager van de publiek neemt een gefaseerde benadering van opstelling en implementatie.
+Audience Manager volgt een gefaseerde benadering van opstelling en implementatie.
 
 ## Fase definiëren {#define-phase}
 
@@ -133,7 +137,7 @@ In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens
 De te leveren producten voor deze fase kunnen omvatten:
 
 * Een voltooide strategie voor het verzamelen van gegevens van eerste, tweede en derde partijen;
-* een volledig inreisplan [!DNL CRM] of een plan voor het innemen van data-entrepots;
+* een voltooid [!DNL CRM] of data warehouse-innameplan;
 * Gedefinieerde publiekssegmentatievereisten;
 * een voltooide datataxonomie;
 * Een ontwikkeld plan voor gegevensintegratie van derden.
@@ -153,13 +157,13 @@ In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens
 | Een strategie voor gegevensverzameling voorbereiden | Werk samen met technische Adobe-teams om een plan voor gegevensverzameling te maken dat aan uw bedrijfsvereisten voldoet | Bedrijfs- en technische teams |
 | Code implementeren en testen | Test de voorgestelde oplossing in een testomgeving en voer tests uit tussen verschillende browsers | Technische teams |
 | Functionaliteit controleren en fouten oplossen | Resultaten onderzoeken en communiceren, fouten oplossen en opnieuw testen | Technische teams |
-| Gebruikerstraining | Voorlichting en inzicht verschaffen in functies, gereedschappen en rapporten van Audience Manager | Bedrijfsteams |
+| Gebruikerstraining | Voorlichting en begrip van de eigenschappen, de hulpmiddelen en de rapporten van de Audience Manager verstrekken | Bedrijfsteams |
 
 De te leveren producten voor deze fase kunnen omvatten:
 
 * een voltooid en aanvaard plan voor gegevensverzameling;
 * end-to-end [!DNL QA] testen;
-* Basisinstructies over de gebruikersinterfacefuncties van Audience Manager;
+* Basisinstructies over de gebruikersinterfacefuncties van de Audience Manager;
 * Aanvaarding en aftekening.
 
 ## Fase starten, ondersteunen en optimaliseren {#launch-support-optimize-phase}
@@ -213,7 +217,7 @@ De taken voor deze fase kunnen omvatten:
 * Inzicht in aangepaste rapporten;
 * Hoe krijgt u productondersteuning?
 * Reageren op of vragen om functieverzoeken, fouten en feedback van gebruikers.
-* Meer bekendheid geven aan functies en rapporten van Audience Manager.
+* Meer bekendheid geven aan functies en rapporten van Audience Managers.
 
 ## Codeimplementatie {#code-implementation}
 
@@ -223,7 +227,7 @@ Hoewel het implementatieproces complex kan lijken, is de code-implementatie zo e
 
 ### Implementatie
 
-Het de codefragmentvraag van de Manager van de Publiek [!DNL Akamai] om de bedrijfsregels te downloaden die eerder in het gebruikersinterface worden geplaatst. Bovendien slaan clientbrowsers deze gegevens in cache, waardoor de pagina- en serverlaadtijden afnemen. Onze methodologie voor code en gegevensverzameling is ontworpen om de gebruikerservaring in uw overzicht te behouden.
+Het de codefragmentvraag van de Audience Manager [!DNL Akamai] om de bedrijfsregels te downloaden die eerder in het gebruikersinterface worden geplaatst. Bovendien slaan clientbrowsers deze gegevens in cache, waardoor de pagina- en serverlaadtijden afnemen. Onze methodologie voor code en gegevensverzameling is ontworpen om de gebruikerservaring in uw overzicht te behouden.
 
 ### Deelnemers
 
@@ -235,6 +239,6 @@ Onze gezamenlijke inspanningen stoppen niet met de definitieve implementatie. Na
 
 <!-- c_post_implement_support.xml -->
 
-Accountmanagers bieden ondersteuning en services voor overleg nadat de implementatie van het product is voltooid. U kunt regelmatige vergaderingen met uw accountmanager verwachten. Deze vergaderingen zorgen ervoor dat u de maximumhoeveelheid gebruik en waarde van de Manager van het Publiek krijgt.
+Accountmanagers bieden ondersteuning en services voor overleg nadat de implementatie van het product is voltooid. U kunt regelmatige vergaderingen met uw accountmanager verwachten. Deze vergaderingen zorgen ervoor dat u de maximumhoeveelheid gebruik en waarde van Audience Manager krijgt.
 
 Neem [hier](https://www.adobe.com/products/audiencemanager.html) contact met ons op voor meer informatie en om aan de slag te gaan met Audience Manager.
