@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Configureer Twitter-doelgroepen op maat als op apparaat gebaseerde zelfbediening
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -73,5 +73,4 @@ Wanneer het in kaart brengen van publiekssegmenten aan [!UICONTROL Twitter], zor
 
 ## Aandachtspunten {#match-rates-considerations}
 
-* Bij gebruik [!UICONTROL Twitter Tailored Audiences]worden op de doelpagina geen waarden weergegeven voor de waarden [!UICONTROL Segment Addressable Audience] en [!UICONTROL Segment Match Rate] metriek. Dit is normaal gedrag, aangezien de publiek die samen met de gelijke tarieven voor deze bestemming aanpassen worden behandeld en ontvangen door, [!UICONTROL Twitter]niet Adobe.
 * De integratie tussen Audience Manager en [!UICONTROL Twitter Tailored Audiences] steunt historische publieksbackfills. Alle segmentkwalificaties worden verzonden naar [!UICONTROL Twitter] wanneer u de bestemming maakt.
