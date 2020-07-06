@@ -1,31 +1,31 @@
 ---
-description: Rond 14 oktober 2019 merkte ik op dat mijn populaties met geëngageerde kenmerken voor de grafiek van het Apparaat ID zijn gedaald tot 0, waar ze vroeger veel hoger waren.
-seo-description: Rond 14 oktober 2019 merkte ik op dat mijn populaties met geëngageerde kenmerken voor de grafiek van het Apparaat ID zijn gedaald tot 0, waar ze vroeger veel hoger waren.
-seo-title: Waarom zijn mijn populaties van onboded-trait gedaald tot 0 rond 15 oktober?
+description: Rond 14 oktober 2019 merkte ik dat mijn populaties met de eigenschap Onboarded voor de Device ID-grafiek zijn gedaald tot 0, terwijl ze daarvoor veel hoger waren.
+seo-description: Rond 14 oktober 2019 merkte ik dat mijn populaties met de eigenschap Onboarded voor de Device ID-grafiek zijn gedaald tot 0, terwijl ze daarvoor veel hoger waren.
+seo-title: Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald?
 solution: Audience Manager
-title: Waarom zijn mijn populaties van onboded-trait gedaald tot 0 rond 15 oktober?
+title: Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald?
 feature: support
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Waarom zijn mijn populaties van onboded-trait gedaald tot 0 rond 15 oktober? {#why-did-my-onboarded-trait-populations-drop-to-0-around-october}
+# Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald? {#why-did-my-onboarded-trait-populations-drop-to-0-around-october}
 
 ## Vraag
 
-Rond 14 oktober 2019 merkte ik op dat mijn populaties met geëngageerde kenmerken voor de grafiek van het Apparaat ID zijn gedaald tot 0, waar ze vroeger veel hoger waren. Waarom is dit gebeurd?
+Rond 14 oktober 2019 merkte ik dat mijn populaties met de eigenschap Onboarded voor de Device ID-grafiek zijn gedaald tot 0, terwijl ze daarvoor veel hoger waren. Waarom is dit gebeurd?
 
-![Afbeelding van apparaat-id neerzetten](assets/device_id_populationdrop.png)
+![Afbeelding van Device ID neerzetten](assets/device_id_populationdrop.png)
 
 ## Antwoord
 
-Op 15 oktober, werd een update aan de functionaliteit van de Regel van de Samenvoeging van het Profiel van Audience Manager veranderd in waar de gegevens van Onboard van een identiteitskaart van CRM die aan een Gegevensbron van het Apparaat wordt geupload niet meer tegen apparatenids worden gerealiseerd.  Eerder realiseerde de Audience Manager zich tegen zowel dwars-Apparaat identiteitskaart (of identiteitskaart van CRM) als het kopiëren van die realisaties aan bijbehorende Audience Manager UUIDs (Apparaat IDs).  De wijziging is aangebracht om de aard van de gegevens over de eigenschap en de profielen die worden gerealiseerd, nauwkeuriger weer te geven.
+Op 15 oktober zorgde een update van de regel voor profielsamenvoeging in Audience Manager ervoor dat onboarded data niet meer werden gerealiseerd tegen apparaat-id’s als het ging om data op basis van een CRM-id die was geüpload naar een cross-device databron. Vroeger realiseerde Audience Manager tegen de cross-device id’s (of CRM-id) en kopieerde deze realisaties bovendien naar gekoppelde Audience Manager-UUID’s (apparaat-id’s). De wijziging is bedoeld om de aard van de eigenschapdata en de profielen die worden gerealiseerd nauwkeuriger weer te geven.
 
-Als u de karakteristieken wilt weergeven, selecteert u de optie &quot;Apparaatoverschrijdende id&quot; in de vervolgkeuzelijst rechtsboven in de weergave Trait.
+Als u de realisaties van de eigenschappen wilt weergeven, selecteert u de optie Cross-device id in de vervolgkeuzelijst rechtsboven in de weergave Eigenschap.
 
-![Weergaven per apparaat-id weergeven](assets/deviceid-crossdevice.png)
+![Realisaties weergeven per cross-device id](assets/deviceid-crossdevice.png)
