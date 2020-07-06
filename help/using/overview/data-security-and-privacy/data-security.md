@@ -1,97 +1,97 @@
 ---
-description: Audience Manager neemt gegevensbeveiliging en privacy zeer serieus. We werken eraan om onze systemen veilig te houden en uw waardevolle gegevens te beschermen.
-seo-description: Audience Manager neemt gegevensbeveiliging en privacy zeer serieus. We werken eraan om onze systemen veilig te houden en uw waardevolle gegevens te beschermen.
-seo-title: Data Security in Audience Manager
+description: Audience Manager neemt databeveiliging en privacy zeer serieus. We doen ons best om onze systemen te beveiligen en uw waardevolle data te beschermen.
+seo-description: Audience Manager neemt databeveiliging en privacy zeer serieus. We doen ons best om onze systemen te beveiligen en uw waardevolle data te beschermen.
+seo-title: Databeveiliging in Audience Manager
 solution: Audience Manager
-title: Gegevensbeveiliging in Audience Manager
+title: Databeveiliging in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
 
-# Gegevensbeveiliging in Audience Manager {#data-security}
+# Databeveiliging in Audience Manager {#data-security}
 
-Audience Manager neemt gegevensbeveiliging en privacy zeer serieus. We werken eraan om onze systemen veilig te houden en uw waardevolle gegevens te beschermen.
+Audience Manager neemt databeveiliging en privacy zeer serieus. We doen ons best om onze systemen te beveiligen en uw waardevolle data te beschermen.
 
-De veiligheidspraktijken van de Audience Manager omvatten externe en interne controles, activiteitenregistreren, opleiding, en andere procedures die worden ontworpen om onze systemen en uw waardevolle gegevens te helpen beschermen. Wij zijn van mening dat een veilig product helpt bij het opbouwen en onderhouden van het vertrouwen dat klanten in ons hebben.
+Audience Manager-beveiligingspraktijken omvatten externe en interne audits, activiteitenlogboekregistratie, training en andere procedures die zijn ontworpen om onze systemen en uw waardevolle data te helpen beschermen. Wij geloven dat een veilig product helpt bij het opbouwen en onderhouden van het vertrouwen dat klanten in ons hebben.
 
-In Audience Manager, we think about security in three main categories:
+In Audience Manager zien we beveiliging in drie hoofdcategorieën:
 
 | Beveiligingstype | Biedt ondersteuning voor |
 |---|---|
-| **Informatiebeveiliging** | Verificatie, codering en gegevensopslag op bedrijfsniveau |
-| **Gegevenslekken/transparantie** | Diep en actief inzicht in activiteiten ter plaatse die gegevenslekkage vormen of tot gegevenslekkage bijdragen |
-| **Verbeteringen in proces/beleid** | Clients, door samen te werken met de best practices uit de branche voor privacy en gegevensbeveiliging |
+| **Informatiebeveiliging** | Verificatie, versleuteling en dataopslag op bedrijfsniveau |
+| **Datalekken/transparantie** | Diep en actiegericht inzicht in onsite activiteiten die bestaan in, of bijdragen aan datalekkage |
+| **Verbeteringen in proces/beleid** | Clients, door samen te werken met de best practices uit de branche voor privacy en databeveiliging |
 
 ## Systemen, training en toegang {#systems-training-access}
 
-Processen die helpen ons systeem en uw gegevens veilig te houden.
+Processen die helpen ons systeem en uw data te beveiligen.
 
-**Validatie voor externe beveiliging:**  Audience Manager test de beveiliging op jaarbasis en driemaandelijks.
+**Validatie voor externe beveiliging:**  Audience Manager test de beveiliging elk jaar en elk kwartaal.
 
-* Jaarlijks: Eenmaal per jaar voert Audience Manager een volledige penetratietest uit die door een onafhankelijke derde onderneming wordt uitgevoerd. De test is ontworpen om beveiligingskwetsbaarheden in de toepassing te identificeren. De tests omvatten het aftasten voor dwars-plaats scripting, SQL injecties, de manipulatie van de vormparameter, en andere application-level kwetsbaarheid.
-* Driemaandelijks: Eenmaal per kwartaal controleren interne teams op beveiligingskwetsbaarheden. Deze tests omvatten netwerkscans voor open havens en de dienstkwetsbaarheid.
+* Elk jaar: Eenmaal per jaar ondergaat Audience Manager een volledige penetratietest die wordt uitgevoerd door een onafhankelijk, extern bedrijf. De test is ontworpen om zwakke punten in de beveiliging van de applicatie te identificeren. De tests omvatten het scannen op cross-site scripting, SQL-injecties, manipulatie van formulierparameters, en andere kwetsbaarheden op applicatieniveau.
+* Elk kwartaal: Eenmaal per kwartaal controleren interne teams op zwakke punten in de beveiliging. Deze tests omvatten netwerkscans voor open poorten en servicekwetsbaarheden.
 
-**Systeembeveiliging:**  Audience Manager voor het veilig en privé houden van gegevens:
+**Systeembeveiliging:**  Om data veilig en privé te houden doet Audience Manager het volgende:
 
-* Blokkeert verzoeken van onbevoegde IP adressen.
-* Beschermt gegevens achter firewalls, VPNs, en met Virtuele Privé opslag van de Wolk.
-* De veranderingen van sporen in de klant en controle-informatie gegevensbestanden met op trekker-gebaseerd controleregistreren. Deze logboeken volgen alle veranderingen op het gegevensbestandniveau, met inbegrip van gebruiker - identiteitskaart en IP adres waarvan veranderingen worden aangebracht.
+* Blokkeert aanvragen van onbevoegde IP-adressen.
+* Beschermt data achter firewalls en VPN’s, en met Virtual Private Cloud-opslag.
+* Houdt wijzigingen bij in de databases van klant- en beheerinformatie met op triggers gebaseerde auditlogboekregistratie. Deze logboeken volgen alle wijzigingen op databaseniveau, inclusief de gebruikers-id en het IP-adres vanwaar de wijzigingen worden aangebracht.
 
-**Beveiligingselementen:**  Audience Manager heeft een specifiek team van netwerkverrichtingen dat firewalls en indringingsapparaten controleert. Only key personnel have access to our security technology and data.
+**Beveiligingsasets:**  Audience Manager heeft een speciaal netwerkteam dat firewalls en apparaten voor indringerdetectie controleert. Alleen het belangrijkste personeel heeft toegang tot onze beveiligingstechnologie en -data.
 
-**Beveiligingstraining:**  Intern geldt onze inzet voor veiligheid ook voor ontwikkelaars die aan ons product werken. Adobe biedt ontwikkelaars formele training voor het maken van veilige toepassingen en services.
+**Beveiligingstraining:**  Intern geldt ons streven naar veiligheid ook voor ontwikkelaars die aan ons product werken. Adobe biedt ontwikkelaars een formele training voor het maken van veilige toepassingen en services.
 
-**Secure Access:**  Audience Manager requires strong passwords to log on to the system. See [password requirements](../../reference/password-requirements.md).
+**Beveiligde toegang:**  Audience Manager vereist sterke wachtwoorden voor aanmelding bij het systeem. Zie [wachtwoordvereisten](../../reference/password-requirements.md).
 
-## Privacy and Personally Identifiable Information (PII) {#pii}
+## Privacy en Personally Identifiable Information (PII) {#pii}
 
-Processes that help keep personal information safe. Zie het [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html)voor meer privacyinformatie.
+Processen die persoonlijke informatie beveiligen. Zie het [Adobe Privacy Center](https://www.adobe.com/nl/privacy/advertising-services.html) voor meer privacyinformatie.
 
-**PII-gegevens:**  Audience Manager verbiedt klanten en gegevenspartners contractueel PII-informatie naar ons systeem te verzenden. Bovendien bevat of gebruikt de unieke gebruikersnaam (UUID) geen PII-gegevens als onderdeel van het algoritme voor het genereren van id&#39;s.
+**PII-data:**  Audience Manager verbiedt klanten en datapartners contractueel om PII-informatie naar ons systeem te verzenden. Bovendien bevat of gebruikt de Unique User ID (UUID) geen PII-data als onderdeel van de algoritme voor het genereren van id’s.
 
-**IP-adressen:**  Audience Manager verzamelt wel IP-adressen. IP de adressen worden gebruikt in gegevens-verwerking en logboek-samenvoeging processen. Ze zijn ook vereist voor geografische en locatieopzoekingen en doelwitten. Bovendien, worden alle IP adressen binnen behouden logboekdossiers verduisterd binnen 90 dagen.
+**IP-adressen:**  Audience Manager verzamelt IP-adressen. IP-adressen worden gebruikt bij processen voor dataverwerking en logboeksamenvoeging. Ze zijn ook vereist voor opzoeken en targeting van geografische gebieden en locaties. Bovendien worden alle IP-adressen in bewaarde logboekbestanden binnen 90 dagen onzichtbaar gemaakt.
 
-## Gegevens partitioneren {#data-partitioning}
+## Datapartitionering {#data-partitioning}
 
-Processen die gegevens van individuele cliënten helpen beschermen.
+Processen die data van individuele klanten helpen beschermen.
 
-**Trait Data Partitioning:**  Your data ([!UICONTROL traits], IDs, etc.) wordt gepartitioneerd door de client. This helps prevent accidental information exposure between different clients. For example, trait data in cookies is partitioned by customer and stored in a client-specific sub-domain. It cannot be read or used accidentally by another Audience Manager client. Furthermore, trait data stored in the [!UICONTROL Profile Cache Servers (PCS)] is also partitioned by customer. This prevents other clients from accidentally using your data in an event call or other request.
+**Verdeling van gegevens over overtrekken:**  Uw gegevens ([!UICONTROL traits], id&#39;s, enz.) worden gepartitioneerd per client. Dit voorkomt onbedoelde openbaarmaking van informatie tussen verschillende clients. De data van eigenschappen in cookies worden bijvoorbeeld gepartitioneerd per klant en opgeslagen in een clientspecifiek subdomein. De data kunnen niet per ongeluk door een andere Audience Manager-client worden gelezen of gebruikt. Bovendien worden de eigenschapdata die op de [!UICONTROL Profile Cache Servers (PCS)] worden opgeslagen, eveneens per klant gepartitioneerd. Dit voorkomt dat andere clients uw data per ongeluk gebruiken in een gebeurteniscall of een andere aanvraag.
 
-**Gegevenspartitionering in rapporten:**  Clientid&#39;s maken deel uit van de identificatietoets in alle rapporttabellen en rapportquery&#39;s worden gefilterd op id. Zo voorkomt u dat uw gegevens worden weergegeven in de rapporten van een andere klant van de Audience Manager.
+**Datapartitionering in rapporten:**  Client-id’s maken deel uit van de identificatiesleutel in alle rapportagetabellen en rapportquery’s worden gefilterd op id. Dit voorkomt dat uw data worden weergegeven in de rapporten van een andere klant van Audience Manager.
 
-## Inbound Server-to-Server (S2S) Transfers {#inbound-s2s}
+## Binnenkomende server-naar-server (S2S)-overdracht {#inbound-s2s}
 
-Adobe Audience Manager ondersteunt twee hoofdmethoden voor het overdragen van S2S-gegevensbestanden aan boord naar onze systemen:
+Adobe Audience Manager ondersteunt twee hoofdmethoden voor het overdragen van onboarded S2S-databestanden naar onze systemen:
 
-Beide methodes worden ontworpen met de veiligheid van onze klant en partnergegevens in mening terwijl de gegevens tussen hun systemen en ons systeem in vlucht zijn.
+Beide methodes zijn ontworpen met het oog op de veiligheid van onze klant- en partnerdata terwijl de data zich bewegen tussen hun systemen en ons systeem.
 
-**SFTP:** Voor de optie SFTP kiezen de meeste klanten ervoor bestanden te leveren via het SFTP-protocol (Secure FTP), dat het SSH-protocol (Secure Shell) gebruikt. Deze methode zorgt ervoor dat bestanden tijdens de vlucht worden versleuteld tussen de systemen van de klant en het systeem van Adobe. Voor elke klant, creëren wij een gevangen drop-box plaats op onze servers SFTP, die aan een gebruikersrekening op dat systeem wordt gebonden. Alleen de gearchiveerde en geprivilegieerde gebruikers van het interne systeem hebben toegang tot deze locatie in de gevangenis. Deze gevangenis is nooit toegankelijk voor andere klanten.
+**SFTP:** Voor de optie SFTP kiezen de meeste klanten ervoor bestanden te leveren via het SFTP-protocol (Secure FTP), dat het SSH-protocol (Secure Shell) gebruikt. Deze methode zorgt ervoor dat bestanden versleuteld zijn terwijl ze onderweg zijn tussen de systemen van de klant en het systeem van Adobe. Voor elke klant maken we een jailed drop-boxlocatie op onze SFTP-servers, die is gekoppeld aan een gebruikersaccount op dat systeem. Alleen de interne systeemgebruikers met referenties en toestemmingen van de klant hebben toegang tot deze jailed drop-boxlocatie. Deze jail is nooit toegankelijk voor andere klanten.
 
-**[!UICONTROL Amazon Web Services S3]via HTTPS:**Voor de S3 leveringsoptie, adviseren wij dat alle klanten hun S3 cliënten vormen om de encryptiemethode HTTPS voor dossieroverdrachten te gebruiken (dit is niet het gebrek, zodat moet het uitdrukkelijk worden gevormd). De optie HTTPS wordt zowel ondersteund door het s3cmd-opdrachtregelprogramma als door de S3-bibliotheken die beschikbaar zijn in elke belangrijke programmeertaal. Als deze optie HTTPS is ingeschakeld, worden de gegevens van de klant gecodeerd tijdens de vlucht naar onze systemen. Voor elke klant, creëren wij een afzonderlijke subdirectory S3 emmertje die slechts door de geloofsbrieven van die klant en die van onze interne systeemgebruikers kan worden betreden.
+**[!UICONTROL Amazon Web Services S3]via HTTPS:**Voor de S3-leveringsoptie adviseren we dat alle klanten hun S3-clients configureren voor het gebruik van de HTTPS-versleutelingsmethode voor bestandsoverdracht (dat is niet de standaardinstelling, dus dit moet expliciet worden geconfigureerd). De HTTPS-optie wordt ondersteund door zowel het s3cmd-opdrachtregelprogramma als door de S3-bibliotheken die beschikbaar zijn in elke belangrijke programmeertaal. Als deze HTTPS-optie is ingeschakeld, worden de data van de klant versleuteld terwijl ze onderweg zijn tussen onze systemen. Voor elke klant maken we een afzonderlijke S3-bucket-submap die alleen toegankelijk is met de referenties van deze klant en die van onze interne systeemgebruikers.
 
-Als u PGP-versleuteling wilt toevoegen aan uw gegevensbestanden, raadpleegt u PGP-codering van [bestand voor binnenkomende gegevenstypen](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
+Als u PGP-versleuteling wilt toevoegen aan uw databestanden, raadpleegt u [PGP-bestandsversleuteling voor binnenkomende datatypen](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
-## Gegevens beveiligen met Escaping {#escaping-data}
+## Data beveiligen met Escaping {#escaping-data}
 
-Note that [!DNL Audience Manager] does not escape outgoing data to secure it against possible cross-site scripting (XSS), etc. Het is de verantwoordelijkheid van de klant om inkomende gegevens te verwijderen.
+Merk op dat [!DNL Audience Manager] geen escape uitvoert op uitgaande data om deze te beveiligen tegen mogelijke cross-site scripting (XSS), enz. Het is de verantwoordelijkheid van de klant om een escape uit te voeren op binnenkomende data.
 
-## HTTP Strikt vervoer-Veiligheid {#hsts}
+## HTTP Strict-Transport-Security {#hsts}
 
-[!DNL HTTP Strict-Transport-Security (HSTS)] is een beveiligingsmechanisme voor het hele bedrijfsleven dat bescherming biedt tegen het kapen van cookies en aanvallen die het protocol verlagen.
+[!DNL HTTP Strict-Transport-Security (HSTS)] is een branchebreed beveiligingsmechanisme dat bescherming biedt tegen het kapen van cookies en aanvallen die het protocol downgraden.
 
-Het beleid draagt Webbrowser op dat zodra een veilige [!DNL HTTPS] vraag aan een bepaald domein werd gemaakt, geen verdere onveilige vraag ([!DNL HTTP]) aan dat domein zou moeten worden toegestaan. Dit beschermt tegen man-in-de-middenaanvallen, waar een aanvaller zou kunnen proberen om [!DNL HTTPS] vraag aan onbeveiligde [!DNL HTTP] vraag te degraderen.&quot;
+Het beleid instrueert de webbrowser dat zodra er een veilige [!DNL HTTPS]-call is uitgevoerd naar een bepaald domein, er geen verdere onveilige calls ([!DNL HTTP]) aan dat domein moeten worden toegestaan. Dit beschermt tegen man-in-the-middle-aanvallen, waar een aanvaller kan proberen om [!DNL HTTPS]-calls te downgraden naar onbeveiligde [!DNL HTTP]-calls.”
 
-Dit beleid verbetert de gegevensbeveiliging tussen clients en Adobe [Edge](../../reference/system-components/components-edge.md) -servers.
+Dit beleid verbetert de databeveiliging tussen clients en Adobe [Edge](../../reference/system-components/components-edge.md)-servers.
 
 ### Voorbeeld {#hsts-example}
 
-Let&#39;s say the `yourcompany.demdex.com` domain sends traffic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] upgrades de vraag aan gebruik [!DNL HTTPS] in plaats daarvan, en alle verdere [!DNL DCS] vraag die uit `yourcompany.demdex.com` komt zal [!DNL HTTPS] in plaats van [!DNL HTTP]gebruiken.
+Let&#39;s say the `yourcompany.demdex.com` domain sends traffic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] werkt de calls bij om in plaats daarvan [!DNL HTTPS] te gebruiken, en alle volgende [!DNL DCS] calls van `yourcompany.demdex.com` zullen [!DNL HTTPS] gebruiken in plaats van [!DNL HTTP].
 
-See [HTTP Strict Transport Security - Wikipedia](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) for more information about HSTS.
+Zie [HTTP Strict Transport Security - Wikipedia](https://nl.wikipedia.org/wiki/HTTP_Strict_Transport_Security) voor meer informatie over HSTS.
