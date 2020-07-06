@@ -1,6 +1,6 @@
 ---
-description: Informatie die u helpt contact op te nemen met Adobe en inzicht te krijgen in de juridische problemen met betrekking tot uw gebruik van dit product en documentatie.
-seo-description: Informatie die u helpt contact op te nemen met Adobe en inzicht te krijgen in de juridische problemen met betrekking tot uw gebruik van dit product en documentatie.
+description: Informatie waarmee u contact kunt opnemen met Adobe, en de juridische kwesties kunt begrijpen in verband met uw gebruik van dit product en de documentatie.
+seo-description: Informatie waarmee u contact kunt opnemen met Adobe, en de juridische kwesties kunt begrijpen in verband met uw gebruik van dit product en de documentatie.
 seo-title: Contactgegevens en juridische informatie
 solution: Audience Manager
 title: Contactgegevens en juridische informatie
@@ -9,34 +9,34 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # Contactgegevens en juridische informatie {#legal-contact}
 
-Informatie die u helpt contact op te nemen met Adobe en inzicht te krijgen in de juridische problemen met betrekking tot uw gebruik van dit product en documentatie.
+Informatie waarmee u contact kunt opnemen met Adobe, en de juridische kwesties kunt begrijpen in verband met uw gebruik van dit product en de documentatie.
 
 ## Help en technische ondersteuning {#technical-support}
 
-Het team van de klantenservice van Adobe Experience Cloud is hier om u te helpen en biedt een aantal mechanismen waarmee zij zich kunnen engageren:
+Het Adobe Experience Cloud-klantenserviceteam is hier om u te helpen en biedt een aantal methoden waarmee het kan worden ingeschakeld:
 
-* [Raadpleeg de Experience Cloud Help-pagina&#39;s voor advies, tips en veelgestelde vragen](https://helpx.adobe.com/support.ec.html)
+* [De Experience Cloud Help-pagina’s raadplegen voor advies, tips en veelgestelde vragen](https://helpx.adobe.com/nl/support.ec.html)
 * [Een korte vraag stellen op Twitter @AdobeExpCare](https://twitter.com/AdobeExpCare)
-* [Neem rechtstreeks contact op met het zorgteam van de klant](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
-* [Beschikbaarheid en status van Experience Cloud-oplossingen controleren](https://status.adobe.com/)
+* [Rechtstreeks contact opnemen met het klantenserviceteam van de klant](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html)
+* [De beschikbaarheid en status van Experience Cloud-oplossingen controleren](https://status.adobe.com/)
 
 ## Service, mogelijkheden en facturering {#billing}
 
-Afhankelijk van uw oplossingsconfiguratie zijn sommige opties die in deze documentatie worden beschreven mogelijk niet beschikbaar voor u. Aangezien elke account uniek is, kunt u uw overeenkomst raadplegen voor prijzen, vervaldatums, voorwaarden en bepalingen. Neem contact op met uw accountmanager als u uw serviceniveau wilt uitbreiden of anderszins wilt wijzigen, of als u vragen hebt over uw huidige service.
+Afhankelijk van de configuratie van uw oplossing zijn sommige opties die in deze documentatie worden beschreven, mogelijk niet voor u beschikbaar. Aangezien elk account uniek is, kunt u het beste uw contract raadplegen voor prijzen, vervaldatums, voorwaarden en bepalingen. Neem contact op met uw accountmanager als u uw serviceniveau wilt wijzigen of uitbreiden, of als u vragen hebt over uw huidige service.
 
-## Juridisch {#legal}
+## Juridische informatie {#legal}
 
-Gepubliceerd door Adobe Systems Incorporated.
+Published by Adobe Systems Incorporated.
 
-[Gebruiksvoorwaarden](https://www.adobe.com/legal/terms.html) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Gebruiksvoorwaarden](https://www.adobe.com/nl/legal/terms.html) | [Privacy Center](https://www.adobe.com/nl/privacy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Een handelsmerksymbool (®, ™, enz.) duidt een Adobe-handelsmerk aan.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-Alle handelsmerken van derden zijn het eigendom van hun respectievelijke eigenaren. Bijgewerkte informatie/aanvullende informatie over code van derden is beschikbaar op [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/nl/products/eula/third_party/).
