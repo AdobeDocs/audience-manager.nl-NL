@@ -1,6 +1,6 @@
 ---
-description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde gegevens, segmentatie, rapportering, en meer.
-seo-description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde gegevens, segmentatie, rapportering, en meer.
+description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde data, segmentatie, rapportage en meer.
+seo-description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde data, segmentatie, rapportage en meer.
 seo-title: Overzicht van Audience Manager
 solution: Audience Manager
 title: Overzicht van Audience Manager
@@ -10,45 +10,45 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Overzicht van Audience Manager {#audience-manager-overview}
 
-Met Audience Manager kunt u uw publieksgegevenselementen samenbrengen, zodat u eenvoudig commercieel relevante informatie over sitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en inhoud aan het juiste publiek kunt leveren. Bovendien biedt Audience Manager eenvoudige implementatie en beheer van tags met robuuste gegevensverzameling, controle en beveiliging.
+Met behulp van Audience Manager kunt u de data-assets van uw doelgroep combineren, zodat u eenvoudig commercieel relevante informatie over websitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en content aan de juiste doelgroep kunt leveren. Bovendien biedt Audience Manager eenvoudig gebruik en beheer van tags mogelijk met een robuuste dataverzameling, controle en bescherming.
 
-Met Audience Manager ben je niet gebonden aan een gegevensverkoper, -uitwisseling of -platform. Bovendien is de Audience Manager volkomen agnostisch als het gaat om de gegevensmiddelen van onze partners. Met toegang tot meerdere gegevensbronnen biedt Audience Manager digitale uitgevers de mogelijkheid om een groot aantal gegevens van derden en onze persoonlijke gegevens te gebruiken. Bespreek met ons team van Oplossingen van de Partner over hulp met het nemen van slimme en nauwkeurige besluiten over uw doelpubliek.
+Met Audience Manager bent u niet gebonden aan een dataverkoper, aan data-uitwisseling of een demand-side platform. Bovendien maakt het voor Audience Manager helemaal niets uit als data-assets van onze partners komen. Dankzij de toegang tot meerdere databronnen biedt Audience Manager digitale uitgevers de mogelijkheid om een groot aantal data van derden te gebruiken naast onze privédatavoorraad. Praat met ons Partner Solutions-team over hulp bij het nemen van slimme en nauwkeurige beslissingen over uw doelgroep.
 
-## Drie functies van een Platform voor gegevensbeheer (DMP) {#dmp-three-functions}
+## Drie functies van een Data Management Platform (DMP) {#dmp-three-functions}
 
-De functies van een Platform voor gegevensbeheer (DMP) kunnen in drie categorieën worden samengevat, zoals hieronder wordt getoond.
+De functies van een Data Management Platform (DMP) kunnen in drie categorieën worden samengevat, zoals hieronder wordt getoond.
 
-![Afbeelding van drie DMP-functies: Gegevens in, Audience Creation, Data Out](/help/using/overview/assets/dmp-functions.png)
+![Afbeelding van drie DMP-functies: Data In, Audience Creation, Data Out](/help/using/overview/assets/dmp-functions.png)
 
-**Gegevens in**
+**Data In**
 
-Audience Manager verzamelt gegevens van de eerste partij van kanalen en apparaten (Webanalyse, CRM, apparatengegevens, e-commerce, enz.).
+Audience Manager verzamelt data van een eerste partij vanuit kanalen en apparaten (webanalytics, CRM, apparaatdata, e-commerce, enz.).
 
 <br> 
 
 **Audience Creation**
 
-Hiermee verenigt u gegevens in publieksprofielen en krijgt u een volledige klantweergave op alle apparaten en kanalen. Maak modellen die op het uiterlijk lijken, bouw publiekssegmenten en groepen profielen, en vervolledig met de gegevensbronnen van de tweede en derde partij.
+Hiermee worden data gecombineerd tot doelgroepprofielen en krijgt u een volledig klantbeeld op alle apparaten en kanalen. Maak look-alike modellen, bouw doelgroepsegmenten en profielgroepen, en vul dit aan vanuit databronnen van tweede en derde partijen.
 
 <br> 
 
-**Gegevens uit**
+**Data Out**
 
-Hiermee activeert u publiekssegmenten door ze naar DSP&#39;s (demand-side platforms), campagnebeheersystemen en andere marketingplatforms te verplaatsen.
+Hiermee worden doelgroepsegmenten geactiveerd door ze te pushen naar DSP’s (demand-side platforms), campagnebeheersystemen en andere marketingplatforms.
 
 ## Meer informatie {#more-information}
 
 Zie de volgende bronnen voor meer informatie:
-* [Overzicht van Audience Manager](https://www.adobe.com/analytics/audience-manager.html)
-* [Audience Manager](https://www.adobe.com/analytics/audience-manager/benefits.html)
-* [Functies voor Audience Manager](https://www.adobe.com/analytics/audience-manager/features.html)
+* [Overzicht van Audience Manager](https://www.adobe.com/nl/analytics/audience-manager.html)
+* [Voordelen van Audience Manager](https://www.adobe.com/nl/analytics/audience-manager/benefits.html)
+* [Onderdelen van Audience Manager](https://www.adobe.com/nl/analytics/audience-manager/features.html)
 
 
 <!--
