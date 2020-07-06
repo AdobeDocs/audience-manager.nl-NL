@@ -1,50 +1,50 @@
 ---
-description: Audience Manager biedt toonaangevende services voor gegevensbeheer voor onlinedoelgroepen. Met onze producten en services beschikken digitale adverteerders en uitgevers over de tools die ze nodig hebben om hun gegevensbestanden te beheren en te gebruiken om de verkoop te laten slagen.
-seo-description: Technische documentatie en zelfhulp voor Audience Manager (AAM). AAM biedt toonaangevende services voor gegevensbeheer voor onlinepubliek en biedt digitale adverteerders en uitgevers de tools die ze nodig hebben om hun gegevensbestanden te beheren en te gebruiken om de verkoop te doen slagen.
-seo-title: Technische documentatie van product Adobe Audience Manager
+description: Audience Manager biedt toonaangevende services voor online data management van doelgroepen. Onze producten en services verschaffen digitale adverteerders en uitgevers de tools die ze nodig hebben om hun data-assets te beheren en te gebruiken voor een steeds succesvollere verkoop.
+seo-description: Technische documentatie en zelfhulp voor Audience Manager (AAM). AAM biedt toonaangevende services voor online data management van doelgroepen en verschaffen digitale adverteerders en uitgevers de tools die ze nodig hebben om hun data-assets te beheren en te gebruiken voor een steeds succesvollere verkoop.
+seo-title: Technische documentatie bij Adobe Audience Manager-producten
 solution: Audience Manager
-title: Productdocumentatie Audience Manager
+title: Audience Manager-productdocumentatie
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 4%
+ht-degree: 98%
 
 ---
 
 
 
-# Productdocumentatie Audience Manager {#audience-manager-product-documentation}
+# Audience Manager-productdocumentatie {#audience-manager-product-documentation}
 
-Deze handleiding voor technische documentatie biedt zelfhulp voor Audience Manager - een toonaangevende service voor het beheer van online publieksgegevens. Met onze producten en services beschikken digitale adverteerders en uitgevers over de tools die ze nodig hebben om hun gegevensbestanden te beheren en te gebruiken om de verkoop te laten slagen.
+Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, een toonaangevende service voor online data management van doelgroepen. Onze producten en services verschaffen digitale adverteerders en uitgevers de tools die ze nodig hebben om hun data-assets te beheren en te gebruiken voor een steeds succesvollere verkoop.
 
-## Deze handleiding voor productdocumentatie gebruiken
+## Deze producthandleiding gebruiken
 
-* Onderzoek de inhoud door onderwerp en subtopic in de **linkernavigatie**.
-* Gebruik het **zoekveld** boven aan de pagina als u weet waarnaar u zoekt.
-* Gebruik de knop **Een uitgave** vastleggen rechtsboven op de pagina om onjuiste of verouderde documentatie aan te geven. Zie het overzicht [Samenwerkingsgids](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) voor meer informatie over het starten van een bijdrage.
+* Verken de content op onderwerp en subonderwerp in het **linker navigatiedeelvenster**.
+* Gebruik het **zoek** veld boven aan de pagina als u weet waarnaar u zoekt.
+* Gebruik de knop **Log an issue** rechtsboven aan de pagina om onjuiste of verouderde documentatie aan te geven. Zie het overzicht van de [Samenwerkingshandleiding](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) om te ontdekken hoe u kunt beginnen met bijdragen.
 
-## Deze pagina lezen
+## Hoe u deze pagina kunt lezen
 
-* Begin door de belangrijkste functionaliteit **van de** Audience Manager van de sectie voor een momentopname van de problemen te onderzoeken die de Audience Manager u kan helpen oplossen. Zie ook het overzicht [van de](/help/using/overview/aam-overview.md) Audience Manager en keer terug naar deze pagina.
-* Lees daarna **Get Started met Audience Manager** om met de concepten van de Audience Manager vertrouwd te maken. Controleer ook de handleidingen voor zakelijke en technische implementatie.
-* Zie de nieuwste opmerkingen bij de release van Audience Managers en lees de nieuwste functies in de sectie Opmerkingen bij de **release en Laatste functies**.
-* Tot slot kunt u meer Experience Cloud-bronnen verkennen, zoals forums, videozelfstudies, persoonlijke en online trainingscursussen in het sectie **Learning Center - Aanbevolen Audience Manager en Experience Cloud Resources**.
+* Begin met het verkennen van de sectie **Belangrijkste functies van Audience Manager** voor een momentopname van de problemen die u met behulp van Audience Manager kunt oplossen. Zie ook het [Overzicht van Audience Manager](/help/using/overview/aam-overview.md) en ga dan terug naar deze pagina.
+* Lees daarna **Aan de slag met Audience Manager** om u vertrouwd te maken met Audience Manager-begrippen. Bekijk ook de handleidingen voor zakelijke en technische implementatie.
+* Zie de nieuwste opmerkingen bij de release van Audience Manager en lees over de nieuwste functies in de sectie **Opmerkingen bij de release en nieuwe functies**.
+* Tot slot kunt u nog andere Experience Cloud-bronnen verkennen zoals forums, videotutorials en persoonlijke en online trainingscursussen in de sectie **Learning Center - Aanbevolen Audience Manager- en Experience Cloud-bronnen**.
 
 <br> 
 
-## Hoofdfunctionaliteit van Audience Manager
+## Belangrijkste functies van Audience Manager
 
 <table>
    <td>
-      <img alt="Gegevens in" src="/help/using/overview/assets/data-in.png"/>
+      <img alt="Data In" src="/help/using/overview/assets/data-in.png"/>
       <div>
-         <b>Gegevens importeren</b>
+         <b>Data importeren</b>
       </div>
       <p>
-         <em><ul><li><a href="/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md">Gegevensverzamelingsservers</a></li><li><a href="/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md">Batchgegevensinname</a></li><li><a href="/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md">Logbestandsindeling</a></li><li><a href="/help/using/integration/integration-other-solutions/audience-management-module.md">Adobe Analytics-gegevens doorsturen naar Audience Manager</a></li></ul></em>
+         <em><ul><li><a href="/help/using/api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md">Servers voor dataverzameling</a></li><li><a href="/help/using/integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md">Batchdata-opname</a></li><li><a href="/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md">Logboekbestanden opnemen</a></li><li><a href="/help/using/integration/integration-other-solutions/audience-management-module.md">Adobe Analytics-data doorsturen naar Audience Manager</a></li></ul></em>
       <p>
    </td>
    <td>
@@ -53,18 +53,18 @@ Deze handleiding voor technische documentatie biedt zelfhulp voor Audience Manag
          <b>Verrijken en segmenteren</b>
       </div>
       <p>
-       <em><ul><li><a href="/help/using/features/segments/segments-purpose.md">Segmentering</a></li><li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Regels voor samenvoegen van profielen</a></li><li><a href="/help/using/features/algorithmic-models/understanding-models.md">Algorithmic Modeling</a></li><li><a href="/help/using/overview/data-types-collected.md">Gegevens van derden</a></li></ul></em>
+       <em><ul><li><a href="/help/using/features/segments/segments-purpose.md">Segmentering</a></li><li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Regels voor profielsamenvoeging</a></li><li><a href="/help/using/features/algorithmic-models/understanding-models.md">Algorithmic Models</a></li><li><a href="/help/using/overview/data-types-collected.md">Data van tweede en derde partijen</a></li></ul></em>
       <p>
    </td>
    <td>
-      <img alt="Gegevens uit" src="/help/using/overview/assets/data-out.png"/>
+      <img alt="Data Out" src="/help/using/overview/assets/data-out.png"/>
       </a>
       <div>
-         <b>Gegevens exporteren</b>
+         <b>Data exporteren</b>
       </div>
       <p>
       <p>
-         <em><ul><li><a href="/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md">Gegevens in batch en realtime exporteren</a></li><li><a href="/help/using/features/destinations/destinations.md">Overzicht van doelen</a></li><li><a href="/help/using/features/destinations/device-based-destinations-list.md">Lijst met op apparaten gebaseerde doelen</a></li><li><a href="/help/using/features/destinations/people-based-destinations-overview.md">Op mensen gebaseerde bestemmingen</a></li></ul></em> 
+         <em><ul><li><a href="/help/using/integration/receiving-audience-data/receiving-audience-data-overview.md">Data in batch en in real time exporteren</a></li><li><a href="/help/using/features/destinations/destinations.md">Overzicht van bestemmingen</a></li><li><a href="/help/using/features/destinations/device-based-destinations-list.md">Lijst met apparaatgebaseerde bestemmingen</a></li><li><a href="/help/using/features/destinations/people-based-destinations-overview.md">Persoonsgebaseerde bestemmingen</a></li></ul></em> 
       <p>
       <p>
    </td>
@@ -78,22 +78,22 @@ Deze handleiding voor technische documentatie biedt zelfhulp voor Audience Manag
 <table> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>Belangrijke conceptuele documentatie</b></p>
-   <p>Lees de pagina's hieronder voor een beter begrip van de concepten van de Audience Manager: 
-   <ul><li><a href="/help/using/overview/aam-overview.md"> Overzicht van Audience Manager</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Signalen, Traits en Segmenten</a></li><li><a href="/help/using/reference/aam-glossary.md"> Verklarende woordenlijst</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Index van id's</a></li></ul></p>
+   <td colname="col1"> <p><b>Belangrijke documentatie over begrippen</b></p>
+   <p>Lees de pagina’s hieronder voor een dieper inzicht in de begrippen van Audience Manager: 
+   <ul><li><a href="/help/using/overview/aam-overview.md"> Overzicht van Audience Manager</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Signalen, eigenschappen en segmenten</a></li><li><a href="/help/using/reference/aam-glossary.md">Woordenlijst</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Index van id’s</a></li></ul></p>
    <br> 
    <p><b>Audience Manager implementeren</b></p>
-   <p> Begin met het implementeren van Audience Manager door de onderstaande pagina's te lezen:
+   <p> Ga aan de slag met de implementatie van Audience Manager door de onderstaande pagina’s te lezen:
      <ul>
-     <li><a href="/help/using/integration/data-integration-methods.md">Methoden voor gegevensintegratie</a></li>
+     <li><a href="/help/using/integration/data-integration-methods.md">Methoden voor Data Integration</a></li>
      <li><a href="/help/using/integration/implement-audience-manager.md">Implementatiehandleiding</a></li>
      </ul> </p>
      <br> 
-   <p> <b>Richtlijnen voor technische implementatie</b> </p> <p>Ga aan de slag met Audience Manager-API's en stel Audience Manager in uw app in:</p> <p> 
+   <p> <b>Handleidingen voor technische implementatie</b> </p> <p>Ga aan de slag met de API’s van Audience Manager en stel Audience Manager in uw app in:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
-     <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Aan de slag met REST API's</a></li>
-     <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Aan de slag met de DCS API</a></li>
-     <li><a href="https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">De extensie Audience Manager toevoegen aan Adobe Experience Platform starten</a></li>
+     <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Aan de slag met REST-API’s</a></li>
+     <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Aan de slag met de DCS-API</a></li>
+     <li><a href="https://docs.adobe.com/content/help/nl-NL/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">De extensie Audience Manager toevoegen aan Adobe Experience Platform Launch</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Audience Manager toevoegen aan uw app</a></li>
      </ul> </p>
     </td>
@@ -150,20 +150,20 @@ Deze handleiding voor technische documentatie biedt zelfhulp voor Audience Manag
 
 <br> 
 
-## Opmerkingen bij de release en nieuwste functies
+## Opmerkingen bij de release en nieuwe functies
 
 <table> 
  <tbody> 
   <tr> 
    <td> <p> <b>Opmerkingen bij de release</b> </p> <p> 
-     Zie de meest recente <a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external"> Opmerkingen bij de release voor Experience Cloud</a> voor nieuwe functies en oplossingen.</p> 
+     Zie de nieuwste <a href="https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud-releaseopmerkingen</a> voor nieuwe functies en oplossingen.</p> 
      <br> 
      <p> <b>Nieuwste functies</b> </p> <p> 
-     Lees meer over de nieuwste functies van de Audience Manager:</p>
-     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-plug-in voor IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Voorspelend publiek</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Activiteitenverbruik rapporteren</a></li>
-     <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA) Support and Privacy Documentation Overhead</a></li>
-     <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligente aanbevelingen voor Audience Marketplace Data, aangedreven door Adobe Sensei</a></li>
-     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Verbeteringen voor regels voor samenvoegen van profielen</a></li></ul><p>
+     Lees meer over de nieuwste functies van Audience Manager:</p>
+     <p><ul><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-plug-in voor IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictieve doelgroepen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Gebruik van activiteiten rapporteren</a></li>
+     <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA)-ondersteuning en herziening van privacydocumentatie</a></li>
+     <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligente aanbevelingen voor Audience Marketplace-data, aangestuurd door Adobe Sensei</a></li>
+     <li><a href="/help/using/features/profile-merge-rules/merge-rules-overview.md">Verbeteringen op het gebied van regels voor profielsamenvoeging</a></li></ul><p>
     </td>
   </tr> 
  </tbody> 
@@ -190,7 +190,7 @@ Read about the latest Audience Manager features:
 
 <br> 
 
-## Leercentrum - Aanbevolen bronnen voor Audience Manager en Experience Cloud
+## Learning Center - Aanbevolen Audience Manager- en Experience Cloud-bronnen
 
 
 <table> 
@@ -198,18 +198,18 @@ Read about the latest Audience Manager features:
   <tr> 
    <td colname="col2"> 
      <p> <b>Experience Cloud-bronnen</b> </p>
-     <p>Bezoek de onderstaande koppelingen om verbinding te maken met andere klanten van Audience Managers in de communityforums, om doorlopende zelfstudievideo's voor onze functies te bekijken of om problemen in het centrum voor leren en ondersteuning op te lossen.</p>
+     <p>Volg de onderstaande koppelingen om verbinding te maken met andere Audience Manager-klanten in de communityforums, om doorlopende tutorialvideo’s voor onze functies te bekijken, of om problemen op te lossen via het centrum voor Informatie en ondersteuning.</p>
      <p> 
      <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
-      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Forums van de Gemeenschap voor Audience Managers</a> </li>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Zelfstudies voor Audience Managers</a> </li> 
-      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/privacy.html" format="http" scope="external"> Adobe Privacy Center</a> </li>  
-      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training en certificaten</a> </li> 
-      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/support/experience-cloud.html" scope="external" format="https">Experience Cloud-productdocumentatie startpagina</a> </li> 
-      <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/support/audience-manager.html" format="https" scope="external"> Audience Manager - Meer informatie en ondersteuning</a> </li> 
+      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"><a href="https://forums.adobe.com/community/experience-cloud/analytics-cloud/audience-manager" format="https" scope="external"> Audience Manager-communityforums</a> </li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html" format="http" scope="external"> Audience Manager-tutorials</a> </li> 
+      <li id="li_1737D63307024F26B1F967621613A5AC"><a href="https://www.adobe.com/nl/privacy.html" format="http" scope="external"> Adobe Privacy Center</a> </li>  
+      <li id="li_1938F7044F544481A6CC0F45CC22B80A"> <a href="https://helpx.adobe.com/learning.html?promoid=KAUDK" scope="external" format="http"> Adobe Training en certificeringen</a> </li> 
+      <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/nl/support/experience-cloud.html" scope="external" format="https">Startpagina Experience Cloud Productdocumentatie</a> </li> 
+      <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/nl/support/audience-manager.html" format="https" scope="external"> Audience Manager Informatie en ondersteuning</a> </li> 
      </ul> </p> 
      <br> 
-     <p>Zie ook <a href="https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/documentation-updates/docs-2020.html"> 2020 Documentatie - Updates</a>. </p> </td>
+     <p>Zie ook <a href="https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/documentation-updates/docs-2020.html">Documentatie-updates 2020</a>. </p> </td>
   </tr> 
  </tbody> 
 </table>
