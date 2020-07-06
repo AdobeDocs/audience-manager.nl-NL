@@ -1,38 +1,38 @@
 ---
-description: GDPR-gebruikershulp voor klanten van Audience Managers
-seo-description: GDPR-gebruikershulp voor klanten van Audience Managers
-seo-title: GDPR-gebruikershulp voor klanten van Audience Managers
+description: Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten
+seo-description: Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten
+seo-title: Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten
 solution: Audience Manager
-title: GDPR-gebruikershulp voor klanten van Audience Managers
+title: Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# GDPR-richtlijnen voor gereedheid voor klanten van Audience Managers (gegevenscontrollers) {#gdpr-readiness-guidance}
+# Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten (datacontrollers) {#gdpr-readiness-guidance}
 
-Audience Manager beveelt aan proactief te zijn op het gebied van gegevensbeheer en organisatorische gereedheid. Dit zal u helpen ervoor zorgen dat uw consumentengegevens voor processen met betrekking tot toegang of schrappingsverzoeken worden georganiseerd, zullen uw teams worden toegelaten en gemachtigd om deze verzoeken te beheren, en uw consumenten (de Onderwerpen van Gegevens) zullen een positieve, onderscheiden ervaring met uw merk hebben.
+Audience Manager adviseert proactief te zijn op de gebieden van data-governance en organisatorische gereedheid. Dit zal u helpen ervoor te zorgen dat uw consumentendata zijn georganiseerd voor processen in verband met toegangs- of verwijderingsaanvragen, dat uw teams klaar zijn om deze aanvragen te begeren, en dat uw klanten (geregistreerde personen) een positieve, gedifferentieerde ervaring met uw merk hebben.
 
-Als uw gegevensprocessor kan Adobe geen juridisch advies geven over de GDPR-vereisten en het proces voor het verkrijgen van toestemming van de betrokkenen. Raadpleeg uw juridische adviseur voor advies over naleving van GDPR voor uw organisatie.
+Als uw dataprocessor kan Adobe geen juridisch advies geven over de GDPR (AVG)-vereisten en het proces voor het verkrijgen van toestemming van uw geregistreerde personen. Raadpleeg uw juridisch adviseur voor advies over naleving van GDPR (AVG) voor uw organisatie.
 
-## Gegevensbeheer: Beginnen hoe uw consumentengegevens in uw Audience Manager-instantie worden beheerd
+## Data Governance: Begin nu al met nadenken over de manier waarop uw consumentendata worden beheerd in uw Audience Manager-instantie
 
-* Herzie diverse klant IDs uw marketing teams gebruiken om gebruikers in Audience Manager, samen met de gegevensbronnen te identificeren waarin zij worden opgeslagen. Dit zal het proces voor verzoeken (zoals schrapping of toegang) stroomlijnen aangezien bepaalde gegevenstypes door uw teams voorafgaand aan opname in Audience Manager zullen worden gehakt.
-* IdFA/GAID mobiele apparaat-id&#39;s worden gebruikt voor meerdere gebruiksgevallen in Audience Manager. Als u Adobe Mobile SDK gebruikt, moet u de Experience Cloud-id (MID) samen met IDFA/GAID verzenden om te controleren of de GDPR-reacties zijn voltooid.
-* Aangezien de definitie van persoonlijke gegevens expansiever wordt, IP kunnen de adressen als persoonlijke gegevens in uw regio worden beschouwd. Neem proactief contact op met Adobe Consulting om de laatste octet te verduisteren.
-* Bepaal een bevestiging/authentificatiebeleid &amp; proces om de identiteit van een Onderwerp van Gegevens te bevestigen wanneer zij een verzoek GDPR indienen.
-* Overweeg het gebruiken van de Controles [van de Uitvoer van](../../features/data-export-controls.md) Gegevens om publieksactivering aan technologieën te blokkeren die persoonlijke gegevens huishouden. Segmenten met gegevens van derden moeten bijvoorbeeld niet worden gesynchroniseerd met e-mailserviceproviders. Stel een optie in [!UICONTROL Data Export Control] om ervoor te zorgen dat niemand in uw organisatie deze gegevens per ongeluk kan activeren.
-* Beginnen gebruikend [Rol Gebaseerde Controles](../../features/administration/administration-overview.md) van de Toegang om de juiste teams toegang tot voorgenomen gegevens te verzekeren.
-* Overweeg de juiste [bewaartermijnen](../../faq/faq-privacy.md#data-retention-faq) voor de gegevens.
-* Herziening van het beleid inzake identiteitsverbanden en privacy en wettelijke vereisten om te zien wanneer en waar het passend is om identiteitsreeksen te koppelen; gebruik correct via de Regels [van de Fusie van het](../../features/profile-merge-rules/merge-rules-overview.md)Profiel van de Audience Manager.
+* Bekijk de verschillende klant-id’s die uw marketingteams gebruiken om gebruikers in Audience Manager te identificeren, samen met de databronnen waarin ze zijn opgeslagen. Dit zal het proces voor aanvragen (zoals verwijdering of toegang) stroomlijnen, aangezien bepaalde datatypen door uw teams worden gehasht voordat ze in Audience Manager worden opgenomen.
+* Id’s van mobiele apparaten met IDFA/GAID worden gebruikt voor meerdere gebruiksscenario’s in Audience Manager. Als u Adobe Mobile SDK gebruikt, moet u de Experience Cloud ID (MID) samen met IDFA/GAID verzenden om ervoor te zorgen dat de GDPR (AVG)-reacties volledig zijn.
+* Aangezien de definitie van persoonlijke data uitgebreider wordt, is het mogelijk dat IP-adressen in uw regio als persoonlijke data worden beschouwd. Neem proactief contact op met Adobe Consulting om de laatste octet onzichtbaar te maken.
+* Stel een beleid en een proces op voor validatie/verificatie om de identiteit van een geregistreerde persoon te bevestigen wanneer deze een GDPR (AVG)-aanvraag indient.
+* Overweeg het gebruik van [Besturingselementen voor data-export ](../../features/data-export-controls.md) om de activering van doelgroepen met persoonlijke data te blokkeren voor technologieën. Segmenten met data van derden moeten bijvoorbeeld niet worden gesyndiceerd met e-mailserviceproviders. Stel een [!UICONTROL Data Export Control] in om ervoor te zorgen dat niemand in uw organisatie deze data per ongeluk kan activeren.
+* Begin met het gebruik van [Op rollen gebaseerd toegangsbeheer](../../features/administration/administration-overview.md) om ervoor te zorgen dat de juiste teams toegang hebben tot de beoogde data.
+* Denk na over geschikte [retentieperioden](../../faq/faq-privacy.md#data-retention-faq) voor de data.
+* Bekijk het privacybeleid, het beleid voor identiteitskoppeling en de wettelijke vereisten om te zien wanneer en waar het gepast is om identiteitsreeksen met elkaar te verbinden. Hanteer de [Regels voor profielsamenvoeging](../../features/profile-merge-rules/merge-rules-overview.md) van Audience Manager om op gepaste wijze te werk te gaan.
 
-## Gereedheid van organisatie: Een bedrijfsproces instellen
+## Organisatie-gereedheid: een bedrijfsproces instellen
 
-* Identificeer een proces om te ontvangen/op de verzoeken van het Onderwerp van Gegevens te antwoorden. Overweeg een geautomatiseerd programma te maken voor het verzenden van aanvragen naar de Audience Manager.
-* Wijs een privacy-aanspreekpunt aan binnen uw DMP-expertisecentrum. Verbind het privacy punt van uw organisatie van contact met uw team van het het productgebruik van de Audience Manager om te begrijpen hoe u uw vereisten van inputID zou kunnen beheren.
-* Voer een gegevenscontrole uit alvorens met het Onderwerp van Gegevens te delen. Documenteer de stappen u opstelde, om u te helpen verantwoordingsplicht vestigen.
+* Identificeer een proces voor het ontvangen en beantwoorden van aanvragen van geregistreerde personen. Overweeg een geautomatiseerde tool te maken voor het verzenden van aanvragen naar Audience Manager.
+* Wijs een privacyaanspreekpunt aan binnen uw DMP-expertisecentrum. Verbind het privacyaanspreekpunt van uw organisatie met het productgebruiksteam van Audience Manager om inzicht te krijgen in hoe u de id-vereisten voor uw invoer kunt beheren.
+* Voer een datacontrole uit voordat u data deelt met de geregistreerde persoon. Documenteer de stappen die u hebt geïmplementeerd, zodat u de verantwoordelijkheden kunt vaststellen.
