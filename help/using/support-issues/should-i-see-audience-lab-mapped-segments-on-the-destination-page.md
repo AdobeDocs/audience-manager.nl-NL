@@ -1,37 +1,37 @@
 ---
-description: Waarom het Laboratorium van het publiek in kaart gebrachte segmenten niet op de pagina van bestemmingsdetails zullen verschijnen.
-seo-description: Waarom het Laboratorium van het publiek in kaart gebrachte segmenten niet op de pagina van bestemmingsdetails zullen verschijnen.
-seo-title: Waarom het Laboratorium van het publiek in kaart gebrachte segmenten niet op de pagina van bestemmingsdetails zullen verschijnen.
+description: Waarom in Audience Lab toegewezen segmenten niet op de pagina met bestemmingsdetails worden getoond.
+seo-description: Waarom in Audience Lab toegewezen segmenten niet op de pagina met bestemmingsdetails worden getoond.
+seo-title: Waarom in Audience Lab toegewezen segmenten niet op de pagina met bestemmingsdetails worden getoond.
 solution: Audience Manager
-title: Moet ik mijn in kaart gebrachte segmenten van het Laboratorium van het Publiek op de pagina van bestemmingsdetails zien?
+title: Zou ik mijn in Audience Lab toegewezen segmenten moeten zien op de pagina met bestemmingsdetails?
 feature: support
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Moet ik mijn in kaart gebrachte segmenten van het Laboratorium van het Publiek op de pagina van bestemmingsdetails zien? {#audience-lab-segments-destination-page}
+# Zou ik mijn in Audience Lab toegewezen segmenten moeten zien op de pagina met bestemmingsdetails? {#audience-lab-segments-destination-page}
 
 ## Vraag
 
-Ik heb sommige testsegmenten binnen gecreeerd, [!UICONTROL Audience Lab]en hen in kaart gebracht aan een bestemming. Nochtans, als ik naar hen op de pagina van bestemmingsdetails zoek, zie ik hen niet.
+Ik heb een paar testsegmenten gemaakt in [!UICONTROL Audience Lab] en deze aan een bestemming toegewezen. Maar ik zie ze niet op de pagina met bestemmingsdetails.
 
-Wordt dit gedrag verwacht, of is dit een bug?
+Is dit normaal gedrag, of is het een bug?
 
 ## Antwoord
 
-Toegewezen segmenten die binnen worden gecreeerd [!UICONTROL Audience Lab] worden niet getoond op de pagina van bestemmingsdetails.
+Toegewezen segmenten die in [!UICONTROL Audience Lab] zijn gemaakt, worden niet weergegeven op de pagina met bestemmingsdetails.
 
-Bijvoorbeeld in de schermafbeeldingen hieronder, [!UICONTROL Test Segment 1] en [!UICONTROL Test Segment 2] worden in kaart gebracht aan de [!UICONTROL autofill SID - serialized] bestemming.
+Zo zijn bijvoorbeeld [!UICONTROL Test Segment 1] en [!UICONTROL Test Segment 2] in de onderstaande screenshots toegewezen aan de bestemming [!UICONTROL autofill SID - serialized].
 
-De segmenten verschijnen omhoog in de het segmenttest van het Laboratorium van de Publiek:
+De segmenten verschijnen in de segmenttest van Audience Lab:
 
-![Afbeelding van de Lab-segmentweergave van Audience](assets/should_i_see_my_aamlab01.png)
+![Afbeelding van Audience Lab-segmentweergave](assets/should_i_see_my_aamlab01.png)
 
-De segmenten worden echter niet weergegeven op de pagina met doeldetails:
+De segmenten verschijnen echter niet op de pagina met bestemmingsdetails:
 
-![Afbeelding van de pagina met doeldetails](assets/should_i_see_my_aamlab02.png)
+![Afbeelding van de pagina met bestemmingsdetails](assets/should_i_see_my_aamlab02.png)
