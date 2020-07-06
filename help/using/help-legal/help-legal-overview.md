@@ -1,6 +1,6 @@
 ---
-description: Bronnen voor klantenservice en juridische problemen in verband met het gebruik van dit product en documentatie.
-seo-description: Bronnen voor klantenservice en juridische problemen in verband met het gebruik van dit product en documentatie.
+description: Bronnen voor klantenservice en juridische problemen in verband met het gebruik van dit product en deze documentatie.
+seo-description: Bronnen voor klantenservice en juridische problemen in verband met het gebruik van dit product en deze documentatie.
 seo-title: Help en juridische bijstand
 solution: Audience Manager
 title: Help en juridische bijstand
@@ -10,16 +10,18 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Help en juridische bijstand{#help-and-legal}
+# Help en juridische bijstand {#help-and-legal}
 
-Bronnen voor klantenservice en juridische problemen in verband met het gebruik van dit product en documentatie.
+Bronnen voor klantenservice en juridische problemen in verband met het gebruik van dit product en deze documentatie.
 
-* [Als er een probleem](/help/using/help-legal/help-problem.md)is, is de klantenservice bereid u te helpen problemen op te lossen die zich kunnen voordoen. Geef zo veel mogelijk informatie op wanneer u contact opneemt met de klantenservice. Dit zal het team helpen uw kwestie begrijpen en oplossen.
+* [Als er een probleem is](/help/using/help-legal/help-problem.md)
+De klantenservice staat klaar om u te helpen bij het oplossen van alle eventuele problemen. Geef zo veel mogelijk informatie op wanneer u contact opneemt met de klantenservice. Hierdoor kan het team uw probleem beter begrijpen en oplossen.
 
 
-* [Neem contact op met de juridische informatie](/help/using/help-legal/help-legal-contact.md)om contact op te nemen met Adobe en de juridische problemen met betrekking tot uw gebruik van dit product en documentatie te begrijpen.
+* [Contact opnemen en juridische informatie](/help/using/help-legal/help-legal-contact.md)
+Informatie waarmee u contact kunt opnemen met Adobe, en de juridische kwesties kunt begrijpen in verband met uw gebruik van dit product en de documentatie.
