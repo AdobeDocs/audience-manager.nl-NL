@@ -1,19 +1,23 @@
 ---
-description: Veelvoorkomende gerichte vragen en problemen.
-seo-description: Veelvoorkomende gerichte vragen en problemen.
-seo-title: Veelgestelde vragen over doelen
+description: Algemene vragen en problemen in verband met targeting.
+seo-description: Algemene vragen en problemen in verband met targeting.
+seo-title: Veelgestelde vragen over targeting
 solution: Audience Manager
-title: Veelgestelde vragen over doelen
+title: Veelgestelde vragen over targeting
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
+feature: Match Rates
 translation-type: tm+mt
-source-git-commit: 412972b9d9a633d09de411c46528b93c74a64e3f
+source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Veelgestelde vragen over doelen{#targeting-faq}
+# Veelgestelde vragen over targeting {#targeting-faq}
 
-Veelvoorkomende gerichte vragen en problemen.
+Algemene vragen en problemen in verband met targeting.
 
 <br> 
 
@@ -23,76 +27,76 @@ faq_targeting.xml
 
  -->
 
-**Waar kan ik een volledige lijst van derdegegevensleveranciers vinden die door de Manager van het Publiek wordt gesteund?**
+**Waar kan ik een volledige lijst vinden met externe dataproviders die door Audience Manager worden ondersteund?**
 
-Raadpleeg de [Adobe Exchange-markt](https://exchange.adobe.com/experiencecloud.html) voor een volledige lijst met externe gegevensproviders die [!DNL Audience Manager] ondersteuning bieden.
-
-<br> 
-
-**Om gebruikers te richten die ik nooit op mijn plaats met derdegegevens heb gezien, zou ik derdegegevens in de Manager van het Publiek of in DSP moeten gebruiken?**
-
-Het antwoord hangt af van uw doelstellingen. Bijvoorbeeld, als uw campagne wordt ontworpen om nieuwe cliënten met derdegegevens te vinden, dan werk direct met DSP. Herinner me, de Manager van de Publiek synchroniseert gegevens met een derdegegevensleverancier slechts wanneer wij die gebruiker zien. Als we nog nooit een gebruiker hebben gezien, heeft ons systeem geen informatie voor die bezoeker van de site. Voor campagnes die slechts derdegegevens aan doelgebruikers willen gebruiken die nooit om het even welk van uw eigenschappen hebben bezocht, dan creeer die segmenten door DSP.
+Raadpleeg [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.html) voor een volledige lijst met externe dataproviders die door [!DNL Audience Manager] worden ondersteund.
 
 <br> 
 
-**Kan ik mensen op de markt brengen?**
+**Moet ik voor het targeten van gebruikers die ik nog nooit op mijn website met externe data heb gezien, externe data in Audience Manager gebruiken of in een DSP?**
 
-Met Audience Manager kunt u gebruikers samenvoegen en op basis van gedeelde kenmerken of kenmerken op de markt brengen. Om aan de industrieregels te voldoen, kunnen [!DNL Audience Manager] klanten echter geen persoonlijk identificeerbare informatie (PII) naar onze systemen verzenden. U kunt daarom geen e-mailadressen, individuele namen, fysieke adressen enzovoort gebruiken. voor doelwitten.
-
-<br> 
-
-**Hoe blijf ik het opnieuw richten gegevens veilig?**
-
-We raden u aan een server-naar-server verbinding te gebruiken om gegevens uit te wisselen met uw voorkeursplatform. De Manager van de publiek ruilt gegevens met de meeste belangrijkste DSPs door server-aan-server verbindingen. De server-aan-server gegevensoverdrachten helpen andere actoren verhinderen uw gegevens te onderscheppen en die publieksinformatie opnieuw te verkopen.
+Het antwoord hangt af van uw doelstellingen. Als uw campagne bijvoorbeeld is ontworpen om nieuwe klanten met externe data te vinden, werk dan rechtstreeks met een DSP. Bedenk dat Audience Manager data pas met een externe dataprovider synchroniseert wanneer we deze gebruiker zien. Als we een gebruiker nog nooit hebben gezien, heeft ons systeem geen informatie voor deze websitebezoeker. Maak deze segmenten via het DSP voor campagnes die alleen externe data willen gebruiken om gebruikers te targeten die nog nooit een van uw eigenschappen hebben bezocht.
 
 <br> 
 
-**Is de unieke gebruikers-id (UUID) van Audience Manager gekoppeld aan de unieke gebruikers-id van een advertentieserver door ID rechtstreeks op de pagina te synchroniseren?**
+**Kan ik mijn marketing richten op individuen?**
 
-Nee. ID-synchrone versies worden niet op de pagina gemaakt voor onsite uitgevers of servers. De UUID van Audience Manager wordt ingevoegd in het `u=` veld van de logbestanden van de advertentieserver. Dit gebeurt als segment binnen wordt overgegaan voor het richten. De DIL-codemodule voert deze functie uit. Dit is het zelfde mechanisme dat ons toestaat om de gebruiker van de server in kaart te brengen - identiteitskaart aan een gebruiker van de Manager van de Publiek voor segmentprestaties rapporterend. Als er echter een advertentieserver aanwezig is op de site, worden id&#39;s rechtstreeks op de pagina gesynchroniseerd.
-
-<br> 
-
-**Telt Audience Manager een gebruiker die zich bij verschillende apparaten aanmeldt als één unieke gebruiker of verschillende unieke gebruikers?**
-
-[Met gedeclareerde id-doelen](../features/declared-ids.md#declared-id-targeting) kan Audience Manager een bezoeker op meerdere apparaten identificeren met één unieke id. Nochtans, vanuit een gericht of bestemmingsperspectief, is dit nog 2 (of meer) gebruikers omdat DSPs die veelvoudige IDs niet kan in overeenstemming brengen.
+Met Audience Manager kunt u gebruikers samenvoegen en uw marketing op hen richten op basis van gedeelde kenmerken of eigenschappen. Om aan de branchevoorschriften te voldoen kunnen [!DNL Audience Manager]-klanten echter geen persoonlijk identificeerbare informatie (PII) naar onze systemen verzenden. U kunt daarom geen e-mailadressen, individuele namen, fysieke adressen, enzovoort gebruiken voor targeting.
 
 <br> 
 
-**Kan Audience Manager een gebruiker identificeren op basis van weergave en mobiele apparaten.**
+**Hoe houd ik retargeting data veilig?**
 
-Ja. Zie Waardering [voor gedeclareerde id&#39;s](../features/declared-ids.md#declared-id-targeting).
-
-<br> 
-
-**Kan ik gebruikers scoren met gegevens die online zijn verzameld en ze opnieuw toewijzen op basis van deze modelscore?**
-
-Ja. De Manager van de publiek kan gegevensdossiers verstrekken om u te helpen gebruikers scoren, maar u moet met andere verkopers of software samenwerken om deze informatie te analyseren en te rangschikken. Verzend deze gegevens naar Audience Manager in de vorm van sleutel-waardeparen. We kunnen deze gegevens naar bestaande gebruikersprofielen kopiëren en deze toevoegen. Neem contact op met de vertegenwoordiger van de Partner Solutions om dit proces te beoordelen.
+We raden u aan een server-naar-server-verbinding te gebruiken om data uit te wisselen met uw geprefereerde retargetingplatform. Audience Manager wisselt data uit met de meeste belangrijke DSP’s via server-naar-server-verbindingen. Server-naar-server-dataoverdrachten helpen voorkomen dat andere instanties uw data onderscheppen en deze doelgroepinformatie doorverkopen.
 
 <br> 
 
-**Wat zijn de cijfers voor het verwijderen van cookies in een bepaalde periode van 1 tot 2 maanden?**
+**Is de unieke gebruikers-id (UUID) van Audience Manager gekoppeld aan de unieke gebruikers-id van een advertentieserver door id-synchronisatie rechtstreeks op de pagina?**
 
-Verwijderen van cookies is moeilijk te meten. De meeste cookies worden verwijderd door een paar bezoekers die cookies vaak verwijderen. De meeste cookies in de browser zijn echter minstens 30 dagen stabiel, ook al hebben sommige een beperkte levensduur. Sommige studies suggereren dat het richten van de bovenste-trechter die meer dan 30 dagen is 7% van het browser doelpubliek over een periode van 30 dagen effectief elimineert. Zoals u weet, zijn campagnes van 30 dagen voor een bepaalde creatieve boodschap standaard in de industrie. Uit wat we hebben gezien, blijkt dat 7% korting correct is.
-
-Cookie-verwijdering heeft een negatief effect op bereik- en frequentieberekeningen. Als gevolg hiervan benadrukken we de waarde van gedragsgegevens wanneer we proberen de ware aard van de trends van de consument voor de planning van de weergavecampagne te begrijpen. Onze klanten kunnen de segmentoverlap van Audience Manager, de optimale rapporten van de impressiefrequentie, en unieke gebruikerstendensen over specifieke datumwaaiers gebruiken om wetenschappelijker over campagneplanning en optimale datumwaaiers voor het runnen van campagnes te zijn.
+Nee. Id-synchronisaties worden niet op de pagina uitgevoerd voor onsite uitgevers of servers. De Audience Manager-UUID wordt ingevoegd in het veld `u=` van de logboekbestanden van de advertentieserver. Dit gebeurt wanneer het segment wordt binnengehaald voor targeting. De DIL-codemodule voert deze functie uit. Dit is hetzelfde mechanisme waardoor we de gebruikers-id van de server kunnen toewijzen aan een Audience Manager-gebruiker voor rapportage van segmentprestaties. Als er echter een advertentieserver op de website aanwezig is, worden id’s rechtstreeks op de pagina gesynchroniseerd.
 
 <br> 
 
-**Wat is het verloopvenster voor de koekjes van de Manager van de Publiek?**
+**Telt Audience Manager een gebruiker mee die zich via verschillende apparaten aanmeldt als één unieke gebruiker of verschillende unieke gebruikers?**
 
-In de gebruikersinterface kunt u het interval voor het verlopen van het cookie bepalen. U kunt cookies instellen op verlopen na *n* dagen of nooit.
-
-<br> 
-
-**Zijn er meer kosten verbonden aan het uitvoeren van een creatieve campagne in een evenement?**
-
-Het hangt ervan af. De kosten zijn gebaseerd op unieke gebruikers. Als een campagne nieuwe gebruikers oplevert, dan zal dat inderdaad meer kosten. Als uw campagne plaatsen bereikt waar wij reeds gegevens verzamelen, dan zijn er geen extra kosten. Als uw campagne op verwante plaatsen loopt waar er significante overlapping is, zullen er extra kosten voor de nieuwe unieke gebruikers zijn wij zien.
+Met [Declared ID Targeting](../features/declared-ids.md#declared-id-targeting) kan Audience Manager een bezoeker op meerdere apparaten identificeren met één unieke id. Maar vanuit het oogpunt van targeting of bestemming zijn dit nog steeds twee (of meer) gebruikers, omdat DSP’s deze id’s niet met elkaar in overeenstemming kunnen brengen.
 
 <br> 
 
-**De Manager van de publiek toont[!UICONTROL Addressable Audiences]metriek en gelijke tarieven voor[!UICONTROL Server-to-Server]bestemmingen slechts. Kunt u verklaren waarom wij deze cijfers voor bestemmingen Cookie en URL niet zien?**
+**Kan Audience Manager een gebruiker identificeren op basis van display en mobiele apparaten?**
 
-Het komt neer op ID syncs. Voor [!UICONTROL Server-to-Server] bestemmingen, brengen wij gegevens offline (of real time of partij) over en wij moeten identiteitskaart verzenden die de bestemmingspartner begrijpt, zodat kunnen zij het terug naar browser in kaart brengen. Het adresseerbare aantal van het segment is een ondergroep van de totale segmentpopulatie.
+Ja. Zie [Declared ID Targeting](../features/declared-ids.md#declared-id-targeting).
 
-In het geval van Koekje en bestemmingen URL, is de gebruiker reeds op browser, en wat [!DNL Audience Manager] verzendt is enkel de segmenten die de gebruiker voor kwalificeerde. De bestemmingspartner kan enkel de segmentafbeeldingen opnemen en met die informatie werken. Neem dus de overeenkomende snelheden voor Cookie- en URL-doelen altijd 100% in overweging.
+<br> 
+
+**Kan ik gebruikers tellen met data die online zijn verzameld, en ze opnieuw toewijzen op basis van deze modelscore?**
+
+Ja. Audience Manager kan databestanden verschaffen om u te helpen gebruikers te tellen, maar u moet met andere leveranciers of software werken om deze informatie te analyseren en te rangschikken. Verzend deze data naar Audience Manager in de vorm van sleutelwaardeparen. We kunnen deze informatie aan bestaande gebruikersprofielen toevoegen. Neem contact op met uw Partner Solutions-vertegenwoordiger om dit proces te beoordelen.
+
+<br> 
+
+**Wat is het percentage van cookieverwijderingen in een bepaalde periode van 1 tot 2 maanden?**
+
+Het is moeilijk om de verwijdering van cookies te meten. De meeste cookies worden verwijderd door een paar bezoekers die cookies vaak verwijderen. De meeste browsercookies zijn echter minstens 30 dagen stabiel, ook al hebben sommige een beperkte levensduur. Sommige onderzoeken suggereren dat upper-funnel targeting gedurende meer dan 30 dagen in feite 7% van de browserdoelgroep verwijdert in een periode van 30 dagen. Zoals u weet zijn campagnes van 30 dagen voor een bepaalde creatieve boodschap standaard in de industrie. Uit wat we hebben gezien blijkt dat een uitval van 7% correct is.
+
+Cookieverwijdering heeft een negatief effect op de berekeningen van bereik en frequentie. Daarom benadrukken we de waarde van gedragsdata wanneer we proberen de ware aard van consumententrends te begrijpen voor onze planning van displaycampagnes. Onze klanten kunnen Audience Manager-rapporten voor segmentoverlap, optimale impressiefrequentie en unieke gebruikerstrends binnen specifieke datumbereiken gebruiken om hun campagneplanning en optimale datumbereiken voor het voeren van campagnes wetenschappelijker aan te pakken.
+
+<br> 
+
+**Wat is het verloopvenster voor Audience Manager-cookies?**
+
+In de gebruikersinterface kunt u het verloopinterval van cookies bepalen. U kunt cookies instellen om te verlopen na *n* dagen of nooit.
+
+<br> 
+
+**Zijn er meer kosten verbonden aan het implementeren van een creatieve campagne in een gebeurteniscall?**
+
+Dat hangt ervan af. Kosten zijn gebaseerd op unieke gebruikers. Als een campagne netto nieuwe gebruikers oplevert, zal dat inderdaad meer kosten. Als uw campagne plaatsen bereikt waar wij al data verzamelen, zijn er geen extra kosten. Als uw campagne wordt gevoerd op verwante websites een aanzienlijke overlapping is, zijn er extra kosten voor de nieuwe unieke gebruikers die we zien.
+
+<br> 
+
+**Audience Manager geeft alleen [!UICONTROL Addressable Audiences]-cijfers en matchpercentages weer voor [!UICONTROL Server-to-Server]-bestemmingen. Kunt u uitleggen waarom we deze cijfers voor cookie- en URL-bestemmingen niet zien?**
+
+Dat heeft te maken met id-synchronisaties. Voor [!UICONTROL Server-to-Server]-bestemmingen brengen we data offline (in real time of in batch) over en we moeten de id verzenden die de bestemmingspartner begrijpt, zodat ze deze kunnen weer kunnen toewijzen aan de browser. Het adresseerbare aantal van het segment is een subgroep van de totale segmentpopulatie.
+
+Bij cookie- en URL-bestemmingen is de gebruiker al in de browser en wat [!DNL Audience Manager] verzendt, zijn alleen de segmenten waarvoor de gebruiker in aanmerking komt. De bestemmingspartner kan alleen de segmenttoewijzingen oppakken en met die informatie werken. Beschouw de matchpercentages voor cookie- en URL-bestemmingen dus altijd als 100%.
