@@ -1,91 +1,91 @@
 ---
-description: Veelgestelde vragen over CDF-bestanden (Customer Data Feed).
-seo-description: Veelgestelde vragen over CDF-bestanden (Customer Data Feed).
-seo-title: Veelgestelde vragen over de gegevensfeed van de klant
+description: Veelgestelde vragen over CDF-bestanden (Customer Data Feed, ofwel klantdatafeeds).
+seo-description: Veelgestelde vragen over CDF-bestanden (Customer Data Feed, ofwel klantdatafeeds).
+seo-title: Veelgestelde vragen over klantdatafeeds
 solution: Audience Manager
-title: Veelgestelde vragen over de gegevensfeed van de klant
+title: Veelgestelde vragen over klantdatafeeds
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 feature: Customer Data Feeds
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Veelgestelde vragen over de gegevensfeed van de klant{#customer-data-feed-faq}
+# Veelgestelde vragen over klantdatafeeds {#customer-data-feed-faq}
 
-Veelgestelde vragen over CDF-bestanden (Customer Data Feed).
+Veelgestelde vragen over CDF-bestanden (Customer Data Feed, ofwel klantdatafeeds).
 
 ## Amazon S3-opslag {#amazon-s3-storage}
 
-**Waar wordt mijn CDF-bestand opgeslagen op[!DNL Amazon]?**
+**Waar wordt mijn CDF-bestand opgeslagen op [!DNL Amazon]?**
 
-Het CDF-bestand wordt opgeslagen in de `aam-cdf` hoofdmap op een [!DNL Amazon S3] server. Dit standaardemmertje wordt beheerd door [!DNL Audience Manager]. Zie ook conventies voor naamgeving van bestanden van [klantgegevens](../features/cdf-files.md#cdf-naming-conventions).
-
-<br> 
-
-**Is mijn opslagemmer veilig?**
-
-Ja. Klanten krijgen alleen toegang tot hun eigen opslagruimte. U hebt alleen-lezen toegang tot uw opslagemmertje. U hebt geen schrijftoegang.
+Het CDF-bestand wordt opgeslagen in de `aam-cdf`-hoofdmap op een [!DNL Amazon S3]-server. Deze standaardbucket wordt beheerd door [!DNL Audience Manager]. Zie ook [Naamgevingsconventies voor klantdatafeeds](../features/cdf-files.md#cdf-naming-conventions).
 
 <br> 
 
-**Kan ik mijn opslagemmertje aanpassen of dossiers in een andere folder opslaan?**
+**Is mijn opslagbucket veilig?**
 
-Nee. Aanpassings- en alternatieve opslagopties zijn niet beschikbaar.
+Ja. Klanten krijgen alleen toegang tot hun eigen opslagruimte. U hebt alleen-lezen toegang tot uw opslagbucket. U hebt geen schrijftoegang.
 
 <br> 
 
-**Mijn map ontbreekt een bestand voor een bepaald uur. Waar is het?**
+**Kan ik mijn opslagbucket aanpassen of bestanden in een andere map opslaan?**
 
-Een ontbrekend bestand betekent dat [!DNL Audience Manager] uw CDF-bestanden gedurende dat uur niet kunnen worden verwerkt. Dit gebeurt gewoonlijk wanneer onze servers achterop raken bij het verwerken van CDF-bestanden. In dit geval gaat uw bestand niet verloren. Het zal in een recentere uurfolder verschijnen nadat ons systeem een kans heeft om op te halen. Zie ook [Klantengegevens — meldingen](../features/cdf-files.md#cdf-file-processing-notifications)voor bestandsverwerking.
+Nee. Er zijn geen opties beschikbaar voor aanpassing en alternatieve opslag.
+
+<br> 
+
+**In mijn map ontbreekt een bestand voor een bepaald uur. Waar is het?**
+
+Een ontbrekend bestand betekent dat [!DNL Audience Manager] uw CDF-bestanden gedurende dat uur niet kon verwerken. Dit gebeurt gewoonlijk wanneer onze servers achterop raken bij de verwerking van CDF-bestanden. In dit geval gaat uw bestand niet verloren. Het zal in een map van een later uur verschijnen nadat ons systeem de achterstand heeft kunnen inhalen. Zie ook [Voortgangsmeldingen voor klantdatafeedbestanden](../features/cdf-files.md#cdf-file-processing-notifications).
 
 <br> 
 
 **Hoe weet ik wanneer mijn CDF-bestanden gereed zijn?**
 
-Zie Meldingen over bestandsverwerking door [klantgegevens](../features/cdf-files.md#cdf-file-processing-notifications).
+Zie [Voortgangsmeldingen voor klantdatafeedbestanden](../features/cdf-files.md#cdf-file-processing-notifications).
 
 <br> 
 
 ## Bestandsgrootten {#file-sizes}
 
-**Wat voor soort bestandsgrootten moet ik verwachten? Hoe groot is een gemiddeld CDF-bestand?**
+**Wat voor soort bestandsgrootten kan ik verwachten? Hoe groot is een gemiddeld CDF-bestand?**
 
-Het is moeilijk om de bestandsgrootte in te schatten. En elk bestand kan een andere grootte hebben. De grootten variëren van uur tot uur en dag tot dag. Als u CDF-bestanden ontvangt, kunt u beter een hoop gegevens beheren.
+Het is moeilijk om de bestandsgrootte in te schatten. En elk bestand kan een andere grootte hebben. De grootten variëren van uur tot uur en van dag tot dag. Als u CDF-bestanden gaat ontvangen, kunt u het best voorbereid zijn op veel data.
 
 <br> 
 
 **Hoeveel bestanden zal ik ontvangen?**
 
-Nogmaals, het is moeilijk om dit in te schatten. Nochtans, als u CDF dossiers zult ontvangen helpt het om worden voorbereid om veel gegevens te beheren.
+Nogmaals, dit is moeilijk in te schatten. Maar als u CDF-bestanden gaat ontvangen, kunt u het best voorbereid zijn op veel data.
 
 <br> 
 
-## Gegevensintegriteit {#data-integrity}
+## Data-integriteit {#data-integrity}
 
-**Hoe kan ik de integriteit controleren van de gegevens die naar Amazon S3 zijn geüpload?**
+**Hoe kan ik de integriteit controleren van de data die naar Amazon S3 zijn geüpload?**
 
-[!DNL Amazon] Hiermee splitst u grote bestanden in kleinere delen en uploadt u deze naar [!DNL Amazon S3] het uploaden van meerdere onderdelen. Vervolgens wordt een `ETag` waarde gegenereerd voor het uploaden van meerdere onderdelen. Eerst worden de afzonderlijke MD5-controlesommen van elk geüpload onderdeel berekend en vervolgens in één tekenreeks samengevoegd. Vervolgens wordt de MD5-controlesom van de tekenreeks berekend. De resulterende controlesom (de `ETag`) wordt vervolgens toegevoegd met een afbreekstreepje en het totale aantal onderdelen dat voor het uploaden wordt gebruikt. De `ETag` voor een bestand dat tijdens het uploaden in vijf delen is gesplitst, ziet er bijvoorbeeld ongeveer als volgt uit: `2c51427d19021e88cf3395365895b6d4-5`
+[!DNL Amazon] splitst grote bestanden in kleinere onderdelen en uploadt deze naar [!DNL Amazon S3] via een upload met meerdere onderdelen. Vervolgens wordt een `ETag`-waarde gegenereerd voor de upload met meerdere onderdelen. Eerst worden de afzonderlijke MD5-controlesommen van elk geüpload onderdeel berekend, en vervolgens worden ze in één tekenreeks samengevoegd. Daarna wordt de MD5-controlesom van de tekenreeks berekend. Aan de resulterende controlesom (de `ETag`) worden vervolgens met een afbreekstreepje het totale aantal onderdelen toegevoegd dat voor de upload is gebruikt. De `ETag` voor een bestand dat tijdens het uploaden in vijf delen is gesplitst, ziet er bijvoorbeeld ongeveer zo uit: `2c51427d19021e88cf3395365895b6d4-5`
 
 <br> 
 
-## Gegevens bewaren {#data-retension}
+## Dataretentie {#data-retension}
 
 **Hoe lang slaat u CDF-bestanden op?**
 
-Gegevens worden na 8 (8) dagen verwijderd.
+Data worden na 8 (acht) dagen verwijderd.
 
 <br> 
 
-**Kan ik CDF-bestanden terugdraaien of voor vorige dagen?**
+**Kan ik CDF-bestanden retroactief ophalen, of voor voorgaande dagen?**
 
-U kunt CDF-bestanden alleen gedurende de laatste 8 dagen genereren. CDF-bestanden voor intervallen ouder dan de afgelopen 8 dagen kunnen niet opnieuw worden gegenereerd.
+U kunt alleen CDF-bestanden genereren voor de afgelopen acht dagen. CDF-bestanden voor intervallen ouder dan de afgelopen acht dagen kunnen niet opnieuw worden gegenereerd.
 
 >[!MORELIKETHIS]
 >
->* [Gegevensinvoer van klant](../features/cdf-files.md)
+>* [Klantdatafeeds](../features/cdf-files.md)
 
