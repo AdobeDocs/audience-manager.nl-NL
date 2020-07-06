@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Veelgestelde vragen over rapportage{#reporting-faq}
+# Veelgestelde vragen over rapportage {#reporting-faq}
 
 Algemene vragen en problemen in verband met rapportage.
 
@@ -27,34 +27,34 @@ faq_reports.xml
 
  -->
 
-**Waarom geeft de eigenschap voor nieuwe onboded-eigenschappen[!UICONTROL Trait Graph]soms lagere getallen dan verwacht weer of 0?**
+**Waarom geeft de [!UICONTROL Trait Graph] voor nieuwe, onboarded eigenschappen soms onverwacht lagere getallen of 0 weer?**
 
-Soms geeft het programma, nadat u kenmerken hebt geüpload, [!UICONTROL Trait Graph] geen resultaten weer of geeft het lagere getallen dan u had verwacht. Dit gebeurt wanneer het volume van gegevens wij ontvangen zo groot is dat de binnenkomende verwerkingstaak niet kan beëindigen die deze informatie tot na de rapporteringsdeadline voor die dag inneemt.
+Soms geeft de [!UICONTROL Trait Graph] nadat u eigenschappen hebt geüpload, geen resultaten weer of lagere getallen dan u had verwacht. Dit gebeurt wanneer het datavolume dat we ontvangen, zo groot is dat de binnenkomende verwerkingstaak het opnemen van deze informatie pas kan beëindigen na de rapportagedeadline voor die dag.
 
-Dit heeft tot gevolg dat deze gegevens te laat naar het rapportagesysteem worden verzonden en niet worden weergegeven in het rapportageinterval van één dag dat wordt gebruikt voor het tekenen van de [!UICONTROL Trait Graph]gegevens. Nochtans, kunt u deze gegevens in 7, 14, 30, en 60 dagrapportintervallen in een [Tendens](../reporting/trend-reports.md#trend-report-overview) of [Algemeen Rapport](../reporting/general-reports.md#general-reports-overview) op de volgende dag bekijken.
-
-<br> 
-
-**Sommige segmenten ontbreken in een[!UICONTROL Overlap]rapport. Waar zijn ze?**
-
-Om de vraag naar berekeningen te verminderen, ontbreken deze rapporten statistisch onbelangrijke gegevens uit de resultaten. Uw segmenten ontbreken niet, ze worden gewoon verwijderd omdat ze geen betekenisvolle resultaten opleveren of nuttige groepen gebruikers waarop u zich kunt richten. Zie ook:
-
-* [Rapporten en de Methodologieën van de Steekproef van Gegevens](../reporting/report-sampling.md)
-* [Unieke gebruikers tellen in overlapping en algemene rapporten](../reporting/unique-user-counts.md).
+Dit heeft tot gevolg dat deze data laat naar het rapportagesysteem worden verzonden en niet worden weergegeven in het rapportage-interval van één dag dat wordt gebruikt voor het uitzetten van de [!UICONTROL Trait Graph]-data. U kunt deze data echter bekijken in de rapportage-intervallen van 7, 14, 30 en 60 dagen in een [Trendrapport](../reporting/trend-reports.md#trend-report-overview) of [Algemeen rapport](../reporting/general-reports.md#general-reports-overview) op de volgende dag.
 
 <br> 
 
-**Als ik een e-mailmarketingcampagne voer, hoe kan ik dan bepalen of omgeleide gebruikers naar mijn site komen vanuit die campagne of vanuit andere bronnen?**
+**Sommige segmenten ontbreken in een [!UICONTROL Overlap]-rapport. Waar zijn ze?**
 
-Voeg een campagne-specifieke vraagkoord aan URL van de plaatssectie toe u wilt controleren. Stel vervolgens een taakregel in om deze variabele vast te leggen. Als uw URL bijvoorbeeld een campagne-id als deze doorgeeft, maakt u `www.test123.com/electronics?campaign=123`een regel voor het kenmerk om die gegevens van de `h_referer` variabele vast te leggen met een regel die naar een koptekst als `h_referer = 'campaign=123'`) zoekt.
+Om de hoeveelheid berekeningen te verminderen worden in deze rapporten statistisch onbelangrijke data uit de resultaten weggelaten. Uw segmenten ontbreken niet, maar ze worden verwijderd omdat ze geen betekenisvolle resultaten of nuttige groepen gebruikers opleveren om te targeten. Zie ook:
+
+* [Rapporten en datasamplingmethodes](../reporting/report-sampling.md)
+* [Unieke gebruikers tellen in overlaprapporten en algemene rapporten](../reporting/unique-user-counts.md).
 
 <br> 
 
-**Wat is het verschil tussen de aantallen in real time en de totale segmentpopulatie?**
+**Als ik een e-mailmarketingcampagne voer, hoe kan ik dan bepalen of omgeleide gebruikers naar mijn website komen vanuit die campagne of vanuit andere bronnen?**
 
-* **In real time:** Het aantal unieke gebruikers die deel uitmaken van het segment en tijdens een ingestelde periode actief zijn op uw eigenschappen (d.w.z., [!DNL Audience Manager] moet activiteit voor die gebruiker voor de specifieke periode hebben geregistreerd).
+Voeg een campagnespecifieke querytekenreeks toe aan de URL van het websitegedeelte dat u wilt controleren. Stel vervolgens een eigenschapregel in om deze variabele vast te leggen. Als uw URL bijvoorbeeld op deze manier langskomt in een campagne-id: `www.test123.com/electronics?campaign=123`, maak dan een eigenschapregel om deze data vast te leggen van de `h_referer`-variabele met een eigenschapregel die zoekt naar een kop als `h_referer = 'campaign=123'`).
 
-* **Totale segmentpopulatie:** Een aggregatie van alle gebruikers die momenteel in dat segment zijn geclassificeerd.
+<br> 
+
+**Wat is het verschil tussen realtime-aantallen en totale aantallen van segmentpopulaties?**
+
+* **Real time:** het aantal unieke gebruikers die deel uitmaken van het segment en tijdens een ingestelde periode actief zijn op uw eigenschappen (dat betekent dat [!DNL Audience Manager] activiteit voor die gebruiker voor deze specifieke periode moet hebben geregistreerd).
+
+* **Totale segmentpopulatie:** een aggregatie van alle gebruikers die momenteel in dat segment zijn ondergebracht.
 
 <!-- 
 
@@ -65,9 +65,9 @@ Voeg een campagne-specifieke vraagkoord aan URL van de plaatssectie toe u wilt c
 
 <br> 
 
-**Ik heb een segment dat uit slechts één eigenschap bestaat. Wanneer ik de metriek van de Rapportering bekijk, passen hun tellingen niet aan. Waarom is dat?**
+**Ik heb een segment dat uit slechts één eigenschap bestaat. Wanneer ik de rapportagecijfers bekijk, komen de aantallen niet overeen. Hoe komt dat?**
 
-Zie [Trait and Segment Population Data in Segment Builder](../features/segments/segment-builder-data.md).
+Zie [Populatiedata van eigenschappen en segmenten in Segment Builder](../features/segments/segment-builder-data.md).
 
 <br> 
 
@@ -82,31 +82,31 @@ Zie [Trait and Segment Population Data in Segment Builder](../features/segments/
 
  -->
 
-**Ik binnenkomend een dossier en mijn Binnenkomend ontvangstbewijs toont een hoog aantal met succes verwerkte verslagen, maar het melden toont veel lagere aantallen. Waarom?**
+**Ik ‘inbound’ een bestand en mijn ontvangstbewijs toont een groot aantal succesvol verwerkte records, maar de rapportage toont veel lagere aantallen. Waarom?**
 
-Op de achtergrond, worden de geregistreerde gegevens verbonden slechts aan gebruikers die in AAM nog actief zijn (de gebruiker moet recente [!DNL DCS] activiteit in de afgelopen 120 dagen hebben gehad). Daarom als u gegevens aan boord voor gebruikers hebt die reeds binnen zijn verlopen [!DNL Audience Manager], [!UICONTROL Inbound] zou u kunnen vertellen dat een bepaald aantal gebruikersverslagen werden geregistreerd, maar als deze gebruikers geen recente activiteit hebben gehad, worden deze gegevens gelaten vallen wanneer het ons bereikt [!UICONTROL User Profile Store] en het melden zal dat behandelen.
-
-<br> 
-
-**Waarom zijn de traditie-uniques voor mijn cross-device onboded traits veel hoger dan het totale aantal onboded records?**
-
-Als u aan boord een dossier voor een dwars-apparatengegevensleverancier van klantenidentiteitskaart wordt gehouden, voert de Audience Manager een raadpleging uit om alle apparaat IDs te krijgen die met elk van de geregistreerde klant IDs worden geassocieerd. Audience Manager wijst vervolgens de geregistreerde kenmerken toe aan de apparaat-id die aan de klant-id is gekoppeld.
-
-Stel dat u 100 records hebt ingecheckt. Voor elk van deze klant IDs, gemiddeld, heeft AAM drie apparaat IDs geassocieerd. Dientengevolge, wordt het bezit dat werd ingezien toegewezen aan 300 apparaat IDs.
-
-Er zijn twee redenen waarom één enkele dwars-apparatenklant ID met veelvoudige apparaat IDs kan worden geassocieerd:
-
-* Gebruikers melden zich aan bij dezelfde apparaataccount vanaf meerdere computers/browsers.
-* Gebruikers wissen hun cookies. Opmerking: &quot;Verlaten&quot; cookies worden verwijderd na 120 dagen inactiviteit van de gebruiker.
+Op de achtergrond worden onboarded data alleen verbonden met gebruikers die nog actief zijn in AAM (de gebruiker moet recente [!DNL DCS]-activiteit hebben gehad in de afgelopen 120 dagen). Als u dus data ‘onboardt’ voor gebruikers die in [!DNL Audience Manager] al zijn verlopen, vertelt [!UICONTROL Inbound] u mogelijk dat een bepaald aantal gebruikersrecords zijn onboarded, maar als deze gebruikers geen recente activiteit hebben vertoond, worden deze data verwijderd wanneer ze onze [!UICONTROL User Profile Store] bereiken en dat komt naar boven in de rapportage.
 
 <br> 
 
-**Waarom zijn[!UICONTROL Total Trait Realizations]mijn ongekende kenmerken altijd 0?**
+**Waarom zijn de unieke eigenschappen voor mijn cross-device onboarded eigenschappen veel hoger dan het totale aantal onboarded records?**
 
-[!UICONTROL Total Trait Realizations] komt overeen met het laden van pagina&#39;s. [!UICONTROL Total Trait Realizations] Geef het aantal keren op dat deze specifieke eigenschap in real-time heeft geactiveerd. Dit aantal wordt berekend voor regel-gebaseerde slechts eigenschappen. Aan boord genomen kenmerken worden altijd weergegeven [!UICONTROL Total Trait Realizations] als 0.
+Als u een bestand ‘onboardt’ voor een cross-device dataprovider op basis van de klant-id, voert Audience Manager een zoekactie uit om alle apparaat-id’s op te halen die zijn gekoppeld aan elk van de onboarded klant-id’s. Audience Manager wijst vervolgens de onboarded eigenschappen toe aan de apparaat-id die aan de klant-id is gekoppeld.
+
+Stel dat u onboarded 100 records hebt. Aan elk van deze klant-id’s heeft AAM gemiddeld drie apparaat-id’s gekoppeld. Daardoor wordt de onboarded eigenschap toegewezen aan 300 apparaat-id’s.
+
+Er zijn twee redenen waarom één cross-device klant-id kan worden gekoppeld aan meerdere apparaat-id’s:
+
+* Gebruikers melden zich aan bij hetzelfde cross-device account vanaf meerdere computers/browsers.
+* Gebruikers wissen hun cookies. Opmerking: “verlaten” cookies worden verwijderd na 120 dagen inactiviteit van de gebruiker.
 
 <br> 
 
-**Ik creëerde een eigenschap en de[!UICONTROL Trait Graph]toont een groter aantal[!UICONTROL Unique Trait Realizations]dan de[!UICONTROL Total Trait Population]. Is dit normaal?**
+**Waarom zijn de [!UICONTROL Total Trait Realizations] voor mijn onboarded eigenschappen altijd 0?**
 
-Je ziet dit omdat het metriek in real time [!UICONTROL Unique Trait Realizations] zijn, maar de rapportbanen die we doen om de [!UICONTROL Total Trait Population] te berekenen zijn niet real time. De waarde [!UICONTROL Total Trait Population] [!UICONTROL Unique Trait Realizations] moet binnen een paar dagen groter zijn dan de waarde.
+[!UICONTROL Total Trait Realizations] komt overeen met het aantal keren laden van pagina’s. [!UICONTROL Total Trait Realizations] geeft het aantal keren aan dat deze specifieke eigenschap in real time is geactiveerd. Dit aantal wordt alleen berekend voor op regels gebaseerde eigenschappen. Onboarded eigenschappen geven [!UICONTROL Total Trait Realizations] altijd weer als 0.
+
+<br> 
+
+**Ik heb een eigenschap gemaakt en de [!UICONTROL Trait Graph] toont een groter aantal [!UICONTROL Unique Trait Realizations] dan de [!UICONTROL Total Trait Population]. Is dit normaal?**
+
+U ziet dit omdat de [!UICONTROL Unique Trait Realizations] realtimecijfers zijn, maar de rapportagetaken voor het berekenen van de [!UICONTROL Total Trait Population] worden niet in real time uitgevoerd. Het aantal [!UICONTROL Total Trait Population] moet binnen een paar dagen hoger zijn dan het aantal [!UICONTROL Unique Trait Realizations].
