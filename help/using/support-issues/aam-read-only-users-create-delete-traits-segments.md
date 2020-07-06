@@ -1,25 +1,25 @@
 ---
-description: Waarom worden mijn kenmerken of segmenten niet weergegeven op de pagina Rapporten overlappen?
-seo-description: Waarom worden mijn kenmerken of segmenten niet weergegeven op de pagina Rapporten overlappen?
-seo-title: Waarom worden mijn kenmerken of segmenten niet weergegeven op de pagina Rapporten overlappen?
+description: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
+seo-description: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
+seo-title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
 solution: Audience Manager
-title: Waarom worden mijn kenmerken of segmenten niet weergegeven op de pagina Rapporten overlappen?
+title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
 feature: support
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Waarom zijn onze gebruikers Alleen-lezen in staat om kenmerken en segmenten te maken, te bewerken of te verwijderen?
+# Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?
 
 ## Vraag
 
-Waarom zijn onze gebruikers Alleen-lezen in staat om kenmerken en segmenten te maken, te bewerken of te verwijderen?
+Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?
 
 ## Antwoord
 
-Naast het aanmaken van groepen en machtigingen in de sectie Beheer moet u contact opnemen met de klantenservice (`amsupport@adobe.com`), zodat een vertegenwoordiger [Rolgebaseerde Access Controls (RBAC)](../features/administration/administration-overview.md) voor uw account kan inschakelen.
+Naast het maken van groepen en toestemmingen in de beheersectie moet u contact opnemen met de klantenservice (`amsupport@adobe.com`), zodat een vertegenwoordiger [Op rollen gebaseerd toegangsbeheer ](../features/administration/administration-overview.md) voor uw account kan inschakelen.
