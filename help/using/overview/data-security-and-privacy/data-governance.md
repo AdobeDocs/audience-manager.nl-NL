@@ -1,49 +1,49 @@
 ---
-description: In dit document wordt uitgelegd hoe klantgegevens in Audience Manager worden beheerd.
-seo-description: In dit document wordt uitgelegd hoe klantgegevens in Audience Manager worden beheerd.
-seo-title: Gegevensbeheer
+description: In dit document wordt uitgelegd hoe klantdata in Audience Manager worden beheerd.
+seo-description: In dit document wordt uitgelegd hoe klantdata in Audience Manager worden beheerd.
+seo-title: Data Governance
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent, obfuscation, governance
-title: Gegevensbeheer
+title: Data Governance
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
 
-# Gegevensbeheer
+# Data Governance
 
 ## Overzicht {#overview}
 
-Het Beleid van gegevens in Audience Manager verwijst naar de levenscyclus van uw klantengegevens in Audience Manager, en het omvat het [Verzamelen en het Verduisteren IP Adressen](data-governance.md#collecting-ip-addresses), het Behouden [van](data-governance.md#data-retention)Gegevens, en de [Grensoverschrijdende Overdrachten](data-governance.md#data-transfers)van Gegevens.
+Data Governance in Audience Manager verwijst naar de levenscyclus van uw klantdata in Audience Manager, en omvat [IP-adressen verzamelen en onzichtbaar maken](data-governance.md#collecting-ip-addresses), [Dataretentie](data-governance.md#data-retention) en [Grensoverschrijdende dataoverdrachten](data-governance.md#data-transfers).
 
-## Het verzamelen van IP Adressen en IP de Obfuscatie van het Adres {#collecting-ip-addresses}
+## IP-adressen verzamelen en onzichtbaar maken {#collecting-ip-addresses}
 
-Het [!DNL IP] adres van een bezoeker van de website van een klant wordt verzonden naar Adobe [!DNL Data Processing Center] ([!DNL DPC]) waar het [!DNL IP] adres kan worden opgeslagen. Afhankelijk van de netwerkconfiguratie voor de bezoeker, kan het [!DNL IP] adres niet noodzakelijk het [!DNL IP] adres van de computer van de bezoeker vertegenwoordigen. Bijvoorbeeld, zou het [!DNL IP] adres het externe [!DNL IP] adres van een firewall van het Adres van het Netwerk (NATIONAAL), [!DNL HTTP] volmacht, of de gateway van Internet kunnen zijn.
+Het [!DNL IP]-adres van een bezoeker van een klantwebsite wordt verzonden naar een Adobe [!DNL Data Processing Center] ([!DNL DPC]) waar het [!DNL IP]-adres mogelijk wordt opgeslagen. Afhankelijk van de netwerkconfiguratie voor de bezoeker hoeft het [!DNL IP]-adres niet per se het [!DNL IP]-adres van de computer van de bezoeker te zijn. Het [!DNL IP]-adres kan bijvoorbeeld het externe [!DNL IP]-adres van een NAT-firewall (Network Address Translation) zijn, een [!DNL HTTP]-proxy of een internetgateway.
 
-**IP Obfuscation Methodology:** Volgens de beginselen van &quot;Privacy door Ontwerp&quot;, staat Adobe Audience Manager klanten toe om [!DNL IP] verwarring van UI, of globaal over alle geografische regio&#39;s of voor specifieke landen toe te laten. Wanneer u dit het plaatsen toelaat, wordt het laatste octet (het laatste gedeelte) van het [!DNL IP] adres onmiddellijk verworpen wanneer het [!DNL IP] adres in Audience Manager wordt opgenomen. De Audience Manager negeert dit deel van het [!DNL IP] adres voorafgaand aan verwerking (met inbegrip van vóór om het even welke facultatieve geografische raadpleging of registreren van het [!DNL IP] adres). Bijvoorbeeld:
+**Methode voor IP-onzichtbaarmaking:** volgens de principes van “Privacy by Design” kunnen klanten in Adobe Audience Manager [!DNL IP]-onzichtbaarmaking inschakelen vanuit de gebruikersinterface, zowel wereldwijd voor alle geografische regio’s als voor specifieke landen. Wanneer u deze instelling inschakelt, wordt het laatste octet (het laatste gedeelte) van het [!DNL IP]-adres onmiddellijk verwijderd wanneer het [!DNL IP]-adres in Audience Manager wordt opgenomen. Audience Manager verwijdert dit deel van het [!DNL IP]-adres voordat het wordt verwerkt (nog vóór een eventuele geografische zoekopdracht of registratie van het [!DNL IP]-adres). Bijvoorbeeld:
 
 * Voor: `255.255.255.255`
 * Na: `255.255.255.0`
 
 >[!NOTE]
 >
->Zie [IP de Obfuscatie](../../features/administration/ip-obfuscation.md) van het Adres leren hoe te om [!DNL IP] adresverwarring in het gebruikersinterface van de Audience Manager toe te laten.
+>See [IP Address Obfuscation](../../features/administration/ip-obfuscation.md) to learn how to enable [!DNL IP] address obfuscation in the Audience Manager user interface.
 
-Bekijk de video hieronder om te begrijpen hoe [!DNL IP] adresverwarring werkt in de Audience Manager.
+Bekijk de onderstaande video om te begrijpen hoe het onzichtbaar maken van [!DNL IP]-adressen in Audience Manager werkt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
-**Geografische segmentatie:** Als u [!DNL IP] adresverwarring toelaat, kunnen de resterende octetten van het [!DNL IP] adres nog voor geo-segmentatie en rapportering in Audience Manager worden gebruikt. Als u [!DNL IP] adresverwarring niet toelaat, gebruikt de Audience Manager het volledige [!DNL IP] adres. U kunt de functie Geografische segmentatie gebruiken waarmee u in beide gevallen een [!DNL IP] locatie per geografisch gebied kunt identificeren, maar waarbij de precisie enigszins afneemt wanneer [!DNL IP] verduistering wordt gebruikt. Het verkrijgen van informatie op het niveau van de stad zal waarschijnlijk aanzienlijk worden beïnvloed door de verduistering van het [!DNL IP] adres. Het verkrijgen van informatie op regionaal en nationaal niveau mag slechts een klein effect hebben. De geografische segmentatiegegevens worden alleen in korreligheid uitgedrukt op het niveau van de stad of de postcode, en niet op individueel niveau. Lees meer over [geotargeting](../../features/traits/trait-geotarget-keys.md) en hoe u eigenschappen met geografische variabelen instelt.
+**Geografische segmentatie:** als u onzichtbaarmaking van [!DNL IP]-adressen inschakelt, kunnen de resterende octetten van het [!DNL IP]-adres nog steeds worden gebruikt voor geosegmentatie en rapportage in Audience Manager. Als u onzichtbaarmaking van [!DNL IP]-adressen niet inschakelt, gebruikt Audience Manager het volledige [!DNL IP]-adres. U kunt de functie voor geografische segmentatie gebruiken waarmee u in beide gevallen een [!DNL IP]-locatie per geografische regio kunt identificeren, waarbij de precisie echter enigszins afneemt wanneer [!DNL IP]-onzichtbaarmaking wordt gebruikt. Het verkrijgen van informatie op plaatsniveau wordt waarschijnlijk sterk beïnvloed door onzichtbaarmaking van [!DNL IP]-adressen. Het verkrijgen van informatie op regionaal en nationaal niveau zal maar weinig worden beïnvloed. De data van geografische segmentatie zijn alleen granulair op het niveau van steden of postcodes, niet op individueel niveau. Lees meer over [geotargeting](../../features/traits/trait-geotarget-keys.md) en hoe u eigenschappen met geografische variabelen instelt.
 
-## Bewaren van gegevens in Audience Manager {#data-retention}
+## Dataretentie in Audience Manager {#data-retention}
 
-Het toepassen van een passend, veilig en tijdig beleid voor het bewaren van gegevens op uw gegevens is een belangrijk onderdeel van het naleven van de privacyregels voor gegevens. De Klanten van de Audience Manager hebben de capaciteit om de periodes van het douanebehoud op eigenschappen en segmenten te plaatsen door vereiste TTL (tijd te bepalen om te leven). Zie Veelgestelde vragen over [gegevensbewaring](../../faq/faq-privacy.md) voor meer informatie over bewaartermijnen.
+Het toepassen van een geschikt, veilig en tijdig dataretentiebeleid is een belangrijk onderdeel van de naleving van de voorschriften voor dataprivacy. Audience Manager-klanten kunnen aangepaste retentieperioden instellen op eigenschappen en segmenten door de vereiste TTL (Time To Live) in te stellen. Zie [Veelgestelde vragen over dataretentie](../../faq/faq-privacy.md) voor meer details over retentieperioden.
 
-## Grensoverschrijdende gegevensoverdracht {#data-transfers}
+## Grensoverschrijdende dataoverdrachten {#data-transfers}
 
-Wanneer de Audience Manager persoonsgegevens van klanten over de nationale grenzen overdraagt, doet de Audience Manager dat in overeenstemming met het toepasselijke recht. Ga naar het [Adobe Privacy Center](https://www.adobe.com/privacy/eudatatransfers.html) voor meer informatie.
+Wanneer Audience Manager persoonlijke data van klanten over nationale grenzen overdraagt, gebeurt dit in overeenstemming met het toepasselijke recht. Ga naar het [Adobe Privacy Center](https://www.adobe.com/nl/privacy/eudatatransfers.html) voor meer informatie.
