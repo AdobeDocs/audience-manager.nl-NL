@@ -1,28 +1,28 @@
 ---
-description: In dit document worden de typen Audience Manager-id's beschreven die u kunt gebruiken in privacyverzoeken voor gegevens.
-seo-description: In dit document worden de typen Audience Manager-id's beschreven die u kunt gebruiken in privacyverzoeken voor gegevens.
-seo-title: Audience Manager-id's
+description: In dit document worden de soorten Audience Manager-id’s besproken die u kunt gebruiken in Data Privacy-aanvragen.
+seo-description: In dit document worden de soorten Audience Manager-id’s besproken die u kunt gebruiken in Data Privacy-aanvragen.
+seo-title: Audience Manager-id’s
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, AAM ID
-title: Audience Manager-id's
+title: Audience Manager-id’s
 feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Audience Manager-id&#39;s {#aam-ids}
+# Audience Manager-id’s {#aam-ids}
 
-Wanneer u [gegevensprivacyverzoeken](data-privacy-requests.md) naar de Adobe Audience Manager verzendt, moet u een van de onderstaande id&#39;s (id&#39;s) opnemen. Meer informatie over de id-indelingen vindt u in onze [index met Audience Manager-id&#39;s](../../reference/ids-in-aam.md).
+Wanneer u [Data Privacy-aanvragen](data-privacy-requests.md) verzendt naar Adobe Audience Manager, moet u een van de hieronder vermelde id’s opnemen. U vindt meer informatie over de id-indelingen in onze [index met Audience Manager-id’s](../../reference/ids-in-aam.md).
 
-## Unieke gebruikersnaam Adobe Audience Manager
+## Unieke Adobe Audience Manager-gebruikers-id
 
-* **Gebruikersnaam**: `aam_uuid`
-* **Definitie**: Unieke gebruikersnaam Adobe Audience Manager
+* **Gebruikers-id**: `aam_uuid`
+* **Definitie**: unieke gebruikers-id in Adobe Audience Manager
 * **Naamruimte-id**: 0
 
 **JSON-voorbeeld**:
@@ -52,7 +52,7 @@ Wanneer u [gegevensprivacyverzoeken](data-privacy-requests.md) naar de Adobe Aud
 
 >[!NOTE]
 >
->U kunt ook de [!DNL CORE] naamruimte gebruiken.
+>U kunt ook de [!DNL CORE]-naamruimte gebruiken.
 
 ```json
  "users": [
@@ -77,15 +77,15 @@ Wanneer u [gegevensprivacyverzoeken](data-privacy-requests.md) naar de Adobe Aud
 ]
 ```
 
-## Adobe Experience Cloud-id
+## Adobe Experience Cloud ID
 
-* **Gebruikersnaam**: `mid`
-* **Definitie**: [!DNL Adobe Experience Cloud ID], voorheen bekend als [!DNL Visitor ID] of [!DNL Marketing Cloud ID]
+* **Gebruikers-id**: `mid`
+* **Definitie**: [!DNL Adobe Experience Cloud ID], vroeger bekend als [!DNL Visitor ID] of [!DNL Marketing Cloud ID]
 * **Naamruimte-id**: 4
 
 >[!NOTE]
 >
->U kunt ook de [!DNL ECID] naamruimte gebruiken. Zie het tweede [!DNL JSON] voorbeeld.
+>U kunt ook de [!DNL ECID]-naamruimte gebruiken. Zie het tweede [!DNL JSON]-voorbeeld.
 
 **JSON-voorbeeld**:
 
@@ -137,11 +137,11 @@ Wanneer u [gegevensprivacyverzoeken](data-privacy-requests.md) naar de Adobe Aud
 
 ## Klant-id
 
-**Gebruikersnaam**: `cid`
+**Gebruikers-id**: `cid`
 
-**Definitie**: Klantnummer, zoals een cookie die u instelt voor anonieme sitebezoekers of een [!DNL CRM] id van een offline systeem of een gehashte gebruikersnaam.
+**Definitie**: klant-id, zoals een cookie dat u instelt voor anonieme websitebezoekers of een [!DNL CRM]-id van een offline systeem of een gehashte gebruikersnaam.
 
-**Naamruimte-id**: Klantspecifiek. Ga naar de Audience Manager-instantie.
+**Naamruimte-id**: klantspecifiek. Haal deze uit uw Audience Manager-instantie.
 
 **JSON-voorbeeld**:
 
@@ -174,20 +174,20 @@ Wanneer u [gegevensprivacyverzoeken](data-privacy-requests.md) naar de Adobe Aud
 
 ## Mobiele advertentie-id
 
-**Gebruikersnaam**: `d_cid`
+**Gebruikers-id**: `d_cid`
 
-**Definitie**: Mobiele advertentie-id&#39;s.
+**Definitie**: mobiele advertentie-id’s.
 
 **Naamruimte-id**:
 
 * [!DNL IDFA:] 20915
 * [!DNL GAID:] 20914
 
-Zie [Algemene gegevensbronnen](../../features/global-data-sources.md) voor meer informatie.
+Zie [Algemene databronnen](../../features/global-data-sources.md) voor meer informatie.
 
 >[!IMPORTANT]
 >
-> Als u de mobiele telefoon gebruikt [!DNL SDK], moet u ook de Experience Cloud-id (`MID`) samen met de mobiele advertentie-id&#39;s verzenden voor volledige toegang en reacties verwijderen.
+> Als u de Mobile [!DNL SDK] gebruikt, moet u ook de Experience Cloud ID (`MID`) verzenden samen met mobiele advertentie-id’s voor volledige toegangs- en verwijderingsreacties.
 
 **JSON-voorbeeld**:
 
@@ -216,11 +216,11 @@ Zie [Algemene gegevensbronnen](../../features/global-data-sources.md) voor meer 
 
 ## Integratiecode
 
-**Gebruikersnaam**: `d_cid_ic`
+**Gebruikers-id**: `d_cid_ic`
 
-**Definitie**: Een integratiecode voor de gegevensbron. Dit kan in de aanvraag aan worden gebruikt in plaats van de id/naamruimte-id van de gegevensbron [!DNL API] [!DNL Adobe Experience Cloud Privacy Core Service].
+**Definitie**: een integratiecode voor de databron. Dit kan worden gebruikt in plaats van de databron-id/naamruimte-id in de [!DNL API]-aanvraag bij [!DNL Adobe Experience Cloud Privacy Core Service].
 
-**Naamruimte-id**: Niet van toepassing
+**Naamruimte-id**: niet van toepassing
 
 **JSON-voorbeeld**:
 
