@@ -2,21 +2,21 @@
 description: Met uitvoerbare logbestanden kunt u mediasignalen vastleggen uit logbestanden van een server om kenmerken in Audience Manager te maken. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u pixels hoeft toe te voegen.
 keywords: actionable logs, alf, ALF
 seo-description: Met uitvoerbare logbestanden kunt u mediasignalen vastleggen uit logbestanden van een server om kenmerken in Audience Manager te maken. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u pixels hoeft toe te voegen.
-seo-title: Werkbare logbestanden
+seo-title: Actiegerichte logboekbestanden
 solution: Audience Manager
-title: Werkbare logbestanden
+title: Actiegerichte logboekbestanden
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 2%
+source-wordcount: '1376'
+ht-degree: 3%
 
 ---
 
 
-# Werkbare logbestanden {#actionable-log-files}
+# Actiegerichte logboekbestanden {#actionable-log-files}
 
 [!UICONTROL Actionable Log Files] Hiermee kunt u mediagegevens vastleggen uit logbestanden van een advertentieserver en de gegevens gebruiken om eigenschappen in Audience Manager te maken. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u [pixels](../../integration/media-data-integration/impression-data-pixels.md)hoeft toe te voegen.
 
@@ -153,7 +153,11 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 Voor een gemiddeld-gerangschikt [!DNL DCM] logboekdossier van 2 miljoen lijnen, worden om het even welke die eigenschappen van actionable signalen worden gecreeerd gerealiseerd binnen ongeveer één uur nadat wij de logboeken verwerken.
 
->[!NOTE] {Important=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >De tijdstempel voor de gebeurtenis die in de [!DNL DCM] logboeken wordt opgegeven, wordt gerespecteerd en doorgegeven aan de [!UICONTROL Data Collection Servers]gebruiker.
 >
@@ -289,7 +293,7 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 
 [Met behulp van labels](https://support.google.com/dcm/partner/answer/4293719?hl=en) voor spotlightinformatie kunnen adverteerders de omzettingen van gebruikers bijhouden. Met [!UICONTROL Actionable Log Files], kunt u de [!DNL DCM] omzettingen in de Rapporten [van de Optimalisering van de](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Publiek of in het Laboratorium [van de](../../features/audience-lab/audience-lab.md)Publiek volgen:
 
-1. Maak een kenmerk en gebruik de volgende regel voor het vastleggen van een conversie van de logboeken van de advertentieserver:
+1. Maak een kenmerk en gebruik de volgende regel voor het vastleggen van een conversie uit de logboeken van de advertentieserver:
 
    `d_event == conv AND d_conversion == 123`
 
@@ -299,6 +303,6 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 
 >[!MORELIKETHIS]
 >
->* [DCM-gegevensbestanden importeren in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [Rapporten voor publiek optimaliseren](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+>* [DCM-databestanden importeren in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Audience Optimization-rapporten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
