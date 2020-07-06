@@ -1,33 +1,33 @@
 ---
-description: Veelgestelde vragen over het plaatsen van offline gegevens in de Audience Manager.
+description: Veelgestelde vragen over het opnemen van offline data in Audience Manager.
 keywords: ftp or s3;s3 or ftp
-seo-description: Veelgestelde vragen over het plaatsen van offline gegevens in de Audience Manager.
-seo-title: Binnenkomende Veelgestelde vragen over gegevensinvoer van klanten
+seo-description: Veelgestelde vragen over het opnemen van offline data in Audience Manager.
+seo-title: Veelgestelde vragen over opname van binnenkomende klantdata
 solution: Audience Manager
-title: Binnenkomende Veelgestelde vragen over gegevensinvoer van klanten
+title: Veelgestelde vragen over opname van binnenkomende klantdata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
 feature: Onboarding Offline Data
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1355'
-ht-degree: 1%
+ht-degree: 91%
 
 ---
 
 
-# Binnenkomende Veelgestelde vragen over gegevensinvoer van klanten{#inbound-customer-data-ingestion-faq}
+# Veelgestelde vragen over opname van binnenkomende klantdata {#inbound-customer-data-ingestion-faq}
 
-Veelgestelde vragen over het plaatsen van offline gegevens in de Audience Manager.
+Veelgestelde vragen over het opnemen van offline data in Audience Manager.
 
  
 
-**Kunt u het instapproces samenvatten?**
+**Kunt u het onboardingproces samenvatten?**
 
-Het instapproces bestaat uit twee stappen die worden beschreven in Overzicht [van batchgegevens](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)verzenden naar Audience Manager:
+Het onboardingproces bestaat uit twee stappen die worden beschreven in [Overzicht van batchdata verzenden naar Audience Manager](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md):
 
-* Stap 1: gebruikers-id&#39;s synchroniseren;
-* Stap 2: Maak en breng uw binnenkomende gegevensbestand over, door de vereisten van het dossierformaat te volgen.
+* Stap 1: synchroniseer gebruikers-id’s;
+* Stap 2: maak uw binnenkomende databestand en breng het over waarbij u zich houdt aan de vereisten van de bestandsindeling.
 
  
 
@@ -35,34 +35,34 @@ Het instapproces bestaat uit twee stappen die worden beschreven in Overzicht [va
 
 We raden het volgende aan:
 
-* Werk samen met uw gegevensaanbieder om het dagelijkse inkomende gegevensbestand volgens de specificaties van Adobe te formatteren. Zie de volgende documentatie voor dossier het noemen en syntaxisvereisten:
-   * [Naam en inhoudsvereisten voor id-synchronisatiebestanden](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-   * [Inhoud binnenkomend gegevensbestand: Syntaxis, ongeldige tekens, variabelen en voorbeelden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-   * [Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
-* Werk samen met uw [!DNL Adobe] consultant om een bestand met testgegevens naar [!DNL Adobe] te sturen voor formaatverificatie.
-* Werk samen met uw [!DNL Adobe] consultant om een taxonomie te maken die geschikt is voor het interpreteren van de inhoud van het gegevensbestand.
-* Bevestig in de testomgeving/ontwikkelomgeving dat de id-synchronisatie is geconfigureerd om de bezoeker-id van de gegevensaanbieder correct op te halen en in realtime naar de [!DNL Audience Manager] servers over te brengen.
-* DIL/ID-synchronisatie gebruiken voor productie. De synchronisatie van id&#39;s wordt al geconfigureerd als een module in de DIL-code door uw Adobe-consultant.
-* Productiegegevensbestanden overbrengen naar [!DNL Audience Manager]. Gezien de gebiedsdelen op de afbeeldingen van de synchronisatie van identiteitskaart, zou het zinvol kunnen zijn beginnen gegevens over te brengen tot één week na productie-code plaatsing, hoewel u kunt beginnen de gegevensdossiers over te brengen zodra de code in productie gaat.
+* Werk samen met uw dataprovider om het dagelijks binnenkomende databestand volgens de specificaties van Adobe in te delen. Zie de volgende documentatie voor vereisten voor bestandsnaamgeving en syntaxis:
+   * [Naam- en contentvereisten voor id-synchronisatiebestanden](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+   * [Content van binnenkomende databestanden: syntaxis, ongeldige tekens, variabelen en voorbeelden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+   * [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* Werk samen met uw [!DNL Adobe]-consultant om een testdatabestand naar [!DNL Adobe] te verzenden voor indelingverificatie.
+* Werk samen met uw [!DNL Adobe]-consultant om een taxonomie te maken die geschikt is voor het interpreteren van de content van het databestand.
+* Bevestig in de staging-/ontwikkelomgeving dat de id-synchronisatie is geconfigureerd om de bezoekers-id van de dataprovider correct op te halen en deze in real time naar de [!DNL Audience Manager]-servers over te brengen.
+* Gebruik DIL/ID-synchronisatie voor productie. De synchronisatie van id’s is door uw Adobe-consultant al geconfigureerd als een module in de DIL-code.
+* Breng productiedatabestanden over naar [!DNL Audience Manager]. Gezien de afhankelijkheden van id-synchronisatietoewijzingen is het misschien handig om de overdracht van data tot een week na productiecode-implementatie te starten, hoewel u de databestandsoverdracht kunt starten zodra de code in productie gaat.
 
  
 
-**Welke FTP-modus moet ik gebruiken om gecomprimeerde of gecodeerde bestanden over te brengen?**
+**Welke FTP-modus moet ik gebruiken om gecomprimeerde of versleutelde bestanden over te brengen?**
 
-Zie [Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+Zie [Bestandscompressie voor binnenkomende dataoverdrachtsbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
 >[!WARNING]
 >
->De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Hoewel de binnenkomende gegevensbestandsinvoer nog steeds wordt ondersteund in bestaande FTP-integratie, raden we u ten zeerste aan om Amazon S3 te gebruiken voor offline gegevens voor nieuwe integratie. Zie [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Hoewel de opname van binnenkomende databestanden nog steeds wordt ondersteund in bestaande FTP-integraties, raden we sterk aan om Amazon S3 te gebruiken voor het onboarden van offline data voor nieuwe integraties. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
  
 
-**Kan ik een binnenkomend databestand (bestand[!DNL .sync]of[!DNL .overwrite]) uploaden alvorens code[!DNL Audience Manager]in productie te implementeren?**
+**Kan ik een binnenkomend databestand ([!DNL .sync] - of [!DNL .overwrite] -bestand) uploaden alvorens code [!DNL Audience Manager] in productie te implementeren?**
 
-Ja. Zolang u een gebruikt [!UICONTROL cross-device data source] om de gegevens op te slaan van CRM die u uploadt, slaat de Audience Manager altijd de gegevens op. In feite, na de [!UICONTROL Profile Merge Rules] verhogingen die Audience Manager in oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u en actie op gegevens uploaden zonder de code van de Audience Manager in productie in het geheel op te stellen. Zie:
+Ja. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. Zie:
 
-* [Overzicht van verbeteringen in regels voor het samenvoegen van profielen](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br> 
 
@@ -129,74 +129,74 @@ Consider the following use cases in which the data provider is not configured to
 
 **Hoe laat moet ik mijn bestand overbrengen?**
 
-[!DNL Audience Manager] controleert en verwerkt dossiers veelvoudige tijden door de dag. Upload uw gegevens wanneer u klaar bent.
+[!DNL Audience Manager] controleert en verwerkt bestanden meermalen op een dag. Upload uw data wanneer u klaar bent.
 
  
 
-**Hoe lang duurt het voordat gegevens uit een geüpload bestand beschikbaar zijn voor de doelversie?**
+**Hoe lang duurt het voordat data uit een geüpload bestand beschikbaar zijn voor targeting?**
 
-Er zijn gegevens beschikbaar voor doelgericht gebruik na 48 uur. U moet de e-mail met de melding dat de gegevens zijn geüpload, ook niet interpreteren als een instructie dat de gegevens beschikbaar zijn. Dit betekent alleen dat het bestand [!DNL Audience Manager] is opgehaald en de eerste verwerkingsstap is voltooid.
-
- 
-
-**Hoe vaak moet ik bestanden verzenden en moeten deze volledige of incrementele bestanden zijn?**
-
-U kunt het beste één keer per dag een incrementeel bestand verzenden voor nieuwe bezoekers en voor bezoekers wier gegevens zijn gewijzigd. Veel [!DNL Audience Manager] klanten sturen één keer per maand een volledig bestand. Deze bestandsintervallen en -toenamen zijn echter flexibel. U moet gegevens in stappen verzenden en op momenten die voor u zinvol zijn.
+Data zijn na 48 uur beschikbaar voor targeting. Interpreteer de e-mail met de melding dat de data zijn geüpload, niet als een bevestiging dat de data beschikbaar zijn. Dit betekent alleen dat [!DNL Audience Manager] het bestand heeft opgehaald en de eerste verwerkingsstap heeft voltooid.
 
  
 
-**Hoe lang houdt de Audience Manager mijn dossiers op de server?**
+**Hoe vaak moet ik bestanden verzenden en moeten dit volledige of incrementele bestanden zijn?**
 
-FTP-bestanden worden verwijderd nadat ze zijn verwerkt. [!DNL S3] bestanden worden na 30 dagen verwijderd. Bestanden die niet kunnen worden verwerkt door een indeling, syntaxis of andere fout, worden verwijderd. Zie ook de veelgestelde vragen over [privacy en gegevensbewaring](../faq/faq-privacy.md).
+U kunt het beste eenmaal per dag een incrementeel bestand verzenden voor nieuwe bezoekers en voor bezoekers van wie de data zijn gewijzigd. Veel [!DNL Audience Manager]-klanten sturen één keer per maand een volledig bestand. Deze bestandsintervallen en incrementen zijn echter flexibel. U kunt data het best verzenden in stappen en op tijdstippen die voor u zinvol zijn.
+
+ 
+
+**Hoe lang bewaart Audience Manager mijn bestanden op de server?**
+
+FTP-bestanden worden verwijderd nadat ze zijn verwerkt. [!DNL S3]-bestanden worden na 30 dagen verwijderd. Bestanden die niet kunnen worden verwerkt vanwege de indeling, syntaxis of andere fouten, worden verwijderd. Zie ook [Veelgestelde vragen over privacy en dataretentie](../faq/faq-privacy.md).
 
  
 
 **Wat is het verschil tussen volledige en incrementele bestanden?**
 
-* **Volledig:** Een volledig bestand overschrijft alle bestaande bezoekersprofielen en vervangt deze door de gegevens in het bestand. Alle bestanden worden geïdentificeerd met de `.overwrite` tag die aan de bestandsnaam wordt toegevoegd. U kunt een `.overwrite` bestand gebruiken om de eigenschappen van de bezoeker opnieuw in te stellen of verouderde, verouderde kenmerken te verwijderen.
+* **Volledig:** een volledig bestand overschrijft alle bestaande bezoekersprofielen en vervangt deze door de data in het bestand. Volledige bestanden zijn te herkennen aan de `.overwrite`-tag die aan de bestandsnaam wordt toegevoegd. U kunt een `.overwrite`-bestand gebruiken om bezoekerseigenschappen opnieuw in te stellen of om verouderde eigenschappen te verwijderen.
 
    >[!NOTE]
    >
-   >De [!DNL .overwrite] bestanden overschrijven alleen de [!DNL Audience Manager] profielgegevens die aan deze gegevensaanbieder zijn gekoppeld. Met andere woorden, alle [!DNL Audience Manager] gegevens die aan de bezoeker zijn gekoppeld, blijven intact nadat een [!DNL .overwrite] bestand is verwerkt.
+   >De [!DNL .overwrite]-bestanden overschrijven alleen [!DNL Audience Manager]-profieldata die aan deze dataprovider zijn gekoppeld. Met andere woorden: alle [!DNL Audience Manager]-data die aan de bezoeker zijn gekoppeld, blijven intact nadat een [!DNL .overwrite]-bestand is verwerkt.
 
-* **Incrementeel:** Een incrementeel bestand voegt nieuwe gegevens toe aan uw bestaande bezoekersprofielen. Incrementele bestanden worden aangeduid met de `.sync` tag die aan de bestandsnaam wordt toegevoegd. Als u een incrementeel bestand verzendt, worden bestaande profielen niet gewist of overschreven.
+* **Incrementeel:** een incrementeel bestand voegt nieuwe data toe aan uw bestaande bezoekersprofielen. Incrementele bestanden zijn te herkennen aan de `.sync`-tag die aan de bestandsnaam wordt toegevoegd. Als u een incrementeel bestand verzendt, worden bestaande profielen niet gewist of overschreven.
 
-De volgende gebruiksgevallen tonen aan hoe deze bestandstypen van invloed zijn op opgeslagen bezoekersprofielen.
+De volgende gebruiksscenario’s tonen aan hoe deze bestandstypen van invloed zijn op opgeslagen bezoekersprofielen.
 
-| Hoofdletters gebruiken | Beschrijving |
+| Gebruiksscenario | Beschrijving |
 |---|---|
-| Incrementeel en volledig | <ul><li>Dag 1 `.sync` bestandsinhoud: `visitor123 = a,b,c`</li><li>Dag 2 `.overwrite` bestandsinhoud: `visitor123 = c,d,e`</li><li>Dag 3 bezoekersprofiel ID 123 inhoud: `c,d,e`</li></ul> |
-| Alleen incrementeel | <ul><li>Dag 1 `.sync` bestandsinhoud: `visitor123 = a,b,c`</li><li>Dag 2 `.sync` bestandsinhoud: `visitor123 = c,d,e`</li><li>Dag 3 bezoekersprofiel ID 123 inhoud: `a,b,c,d,e`</li></ul> |
+| Incrementeel en volledig | <ul><li>Dag 1 `.sync` bestandscontent: `visitor123 = a,b,c`</li><li>Dag 2 `.overwrite` bestandscontent: `visitor123 = c,d,e`</li><li>Dag 3 bezoekersprofiel-id 123 content: `c,d,e`</li></ul> |
+| Alleen incrementeel | <ul><li>Dag 1 `.sync` bestandscontent: `visitor123 = a,b,c`</li><li>Dag 2 `.sync` bestandscontent: `visitor123 = c,d,e`</li><li>Dag 3 bezoekersprofiel-id 123 content: `a,b,c,d,e`</li></ul> |
 
 Zie voor meer informatie over volledige en incrementele bestandstypen:
 
-* [Vereisten voor naam en bestandsgrootte van Amazon S3 voor binnenkomende gegevens...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-data...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**Wat gebeurt er als ik een bestand met id&#39;s verzend voor bezoekers die de id-synchronisatie op de pagina nog niet hebben uitgevoerd?**
+**Wat gebeurt er als ik een bestand met id’s verzend voor bezoekers die nooit id-synchronisatie op de pagina hebben uitgevoerd?**
 
-Hiermee slaat u tijdens de verwerking [!DNL Audience Manager] die record over en gaat u naar de volgende record. Als een [DPID (identiteitskaart van de Leverancier van Gegevens)](../reference/ids-in-aam.md) opstelling als dwars-apparaatDPID is, worden de gegevens die vóór een synchronisatie van identiteitskaart worden opgenomen bewaard en beschikbaar voor gebruik kort nadat de synchronisatie van identiteitskaart voorkomt.
+Tijdens de verwerking slaat [!DNL Audience Manager] deze record over en gaat naar de volgende. Als er een [DPID (Data Provider ID)](../reference/ids-in-aam.md) is ingesteld als cross-device DPID, worden data die zijn opgenomen vóór een id-synchronisatie, opgeslagen en zijn beschikbaar voor gebruik kort na de id-synchronisatie.
 
  
 
 **Wat is het tijdstempel, waarvoor is het en kunt u een voorbeeld geven?**
 
-Tijdstempels worden gebruikt voor loggen en vastleggen. Deze worden vereist door de syntaxis die wordt gebruikt voor een inbound-bestandsnaam met de juiste indeling. Zie:
+Tijdstempels worden gebruikt voor vastleggen en bewaren. Ze worden vereist door de syntaxis die wordt gebruikt voor correct geformatteerde namen van binnenkomende bestanden. Zie:
 
-* [Amazon S3-naamvereisten voor binnenkomende gegevensbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Amazon S3-naamvereisten voor binnenkomende databestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
 **Wat is een[!DNL Data Provider ID (DPID)]en hoe krijg ik het?**
 
-Uw Adobe-consultant wijst een driecijferige of viercijferige [DPID (Data Provider ID)](../reference/ids-in-aam.md) toe aan uw specifieke gegevensbron. Deze id is uniek en verandert niet.
+Uw Adobe-consultant wijst een driecijferige of viercijferige [DPID (Data Provider ID)](../reference/ids-in-aam.md) toe aan uw specifieke databron. Deze id is uniek en verandert niet.
 
  
 
-**Hoe groot kunnen de dagelijkse gegevensbestanden zijn?**
+**Hoe groot kunnen de dagelijkse databestanden zijn?**
 
-Zie [Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
+Zie [Bestandscompressie voor binnenkomende dataoverdrachtsbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md).
 
  
 
@@ -204,48 +204,48 @@ Zie [Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden](../integ
 
 Ja, zie:
 
-* [Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
-* [Amazon S3-naamvereisten voor binnenkomende gegevensbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Bestandscompressie voor binnenkomende dataoverdrachtbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+* [Amazon S3-naamvereisten voor binnenkomende databestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**De primaire sleutel in mijn gegevensbrongegevensbestand is een e-mailadres. Wordt dat beschouwd als persoonlijk identificeerbare informatie?**
+**De primaire sleutel in mijn databrondatabase is een e-mailadres. Wordt dat beschouwd als persoonlijk identificeerbare informatie?**
 
-Ja. [!DNL Audience Manager] e-mailadressen worden niet in de bijbehorende database opgeslagen. Bezoekers moeten een willekeurig gegenereerde id of een eenrichtingsversie van het e-mailadres krijgen voordat ze id-synchronisaties starten.
-
- 
-
-**Is de inhoud van het gegevensbestand case-sensitive? Hoe zit het met de synchronisatie van de id?**
-
-Een gegevensbestand bestaat uit twee basiscomponenten: A [!UICONTROL User ID] (zie [!UICONTROL User ID] in Gedefinieerde [](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)bestandsvariabelen) en profielgegevens, meestal in de vorm van sleutelwaardeparen of codes. Het [!UICONTROL User ID] is hoofdlettergevoelig. Doorgaans zijn profiel- of sleutelwaardegegevens niet hoofdlettergevoelig.
+Ja. [!DNL Audience Manager] slaat geen e-mailadressen op in zijn database. Bezoekers moeten een willekeurig gegenereerde id of een eenrichtingsversie van het e-mailadres krijgen voordat ze id-synchronisaties starten.
 
  
 
-**Moet ik FTP gebruiken of bestanden[!DNL Amazon S3]overbrengen?**
+**Is de content van het databestand hoofdlettergevoelig? Hoe zit het met de id-synchronisatie?**
 
-Als beste praktijken, adviseren wij [!DNL Amazon S3] omdat het proces eenvoudiger is. [!DNL Audience Manager] Hiermee worden FTP-bestanden naar [!DNL S3] elke gewenste locatie overgebracht. Het proces wordt dus gestroomlijnd als u de bestanden op [!DNL Amazon S3] uzelf neerzet. Bovendien delen klanten die tegelijkertijd uploaden naar FTP de FTP-bandbreedte, zodat ze lagere uploadsnelheden moeten verwachten. [!DNL Amazon S3] wordt ook gerepliceerd en gedistribueerd, zodat deze doorgaans veiliger en betrouwbaarder is dan een FTP-server. Zie [Informatie over Amazon S3](../reference/amazon-s3.md)voor meer informatie.
+Een databestand bestaat uit twee basisonderdelen: een [!UICONTROL User ID] (zie [!UICONTROL User ID] in [Definities van bestandsvariabelen](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#file-variables-defined)) en profieldata, meestal in de vorm van sleutelwaardeparen of codes. De [!UICONTROL User ID] is hoofdlettergevoelig. Doorgaans zijn profiel- of sleutelwaardedata niet hoofdlettergevoelig.
+
+ 
+
+**Moet ik FTP of [!DNL Amazon S3] gebruiken om bestanden over te brengen?**
+
+Als best practice adviseren wij [!DNL Amazon S3] omdat het proces eenvoudiger is. Met [!DNL Audience Manager] worden FTP-bestanden naar een willekeurige [!DNL S3]-locatie overgebracht, dus het proces is gestroomlijnder als u de bestanden zelf op [!DNL Amazon S3] neerzet. Bovendien gebruiken klanten die tegelijkertijd naar de FTP-server uploaden, dezelfde FTP-bandbreedte, zodat ze lagere uploadsnelheden kunnen verwachten. [!DNL Amazon S3] wordt ook gerepliceerd en gedistribueerd, zodat dit doorgaans veiliger en betrouwbaarder is dan een FTP-server. Zie [Informatie over Amazon S3](../reference/amazon-s3.md)voor meer informatie.
 
 >[!WARNING]
 >
->De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Terwijl de binnenkomende gegevensdossieropname nog in de bestaande integratie van FTP wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord off-line gegevens voor nieuwe integratie. Zie [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
  
 
-**Hoe verwerkt de Manager van de Publiek binnenkomende dossiers?**
+**Hoe verwerkt Audience Manager binnenkomende bestanden?**
 
-[!DNL Audience Manager] gebruik [!DNL Amazon Simple Queue Service (SQS)] voor binnenkomende gegevensverwerking. Dit werkt als volgt:
+[!DNL Audience Manager] Gebruikt [!DNL Amazon Simple Queue Service (SQS)] voor verwerking van binnenkomende data. Dit werkt als volgt:
 
-1. [!DNL Audience Manager] klanten uploaden hun binnenkomende gegevens naar een [!DNL Amazon S3] emmer.
-1. De gegevens gaan in de [!DNL Amazon SQS] wachtrij en wachten op verwerking door [!DNL Audience Manager].
-1. [!DNL Audience Manager] leest tot 119000 ingangen van de [!DNL Amazon SQS] rij en verdeelt hen in maximaal 3 partijen. Bestanden in elke batch worden tegelijkertijd verwerkt.
+1. [!DNL Audience Manager]-klanten uploaden hun binnenkomende data naar een [!DNL Amazon S3]-bucket.
+1. De data gaan naar de [!DNL Amazon SQS]-wachtrij en wachten op verwerking door [!DNL Audience Manager].
+1. [!DNL Audience Manager] leest tot 119000 vermeldingen van de [!DNL Amazon SQS]-wachtrij en verdeelt die in maximaal drie batches. De bestanden in elke batch worden tegelijkertijd verwerkt.
 
  
 
-**Ik moet meerdere bestanden tegelijk uploaden. Zullen de bestanden gelijktijdig worden verwerkt?**
+**Ik moet meerdere bestanden tegelijk uploaden. Worden de bestanden gelijktijdig verwerkt?**
 
-Het hangt ervan af. [!DNL Audience Manager] leest tot 119000 ingangen van de [!DNL Amazon SQS] rij en verdeelt hen in maximaal 3 partijen. Uw bestanden worden alleen tegelijkertijd verwerkt als ze in dezelfde batch terechtkomen. Vanwege de grote hoeveelheid gegevens die dagelijks [!DNL Audience Manager] worden ingevoerd, kunnen we echter geen enkele volgorde voor bestandsverwerking garanderen.
+Dat hangt ervan af. [!DNL Audience Manager] leest tot 119000 vermeldingen van de [!DNL Amazon SQS]-wachtrij en verdeelt die in maximaal drie batches. Uw bestanden worden alleen tegelijkertijd verwerkt als ze in dezelfde batch terechtkomen. Vanwege de grote hoeveelheid data die dagelijks door [!DNL Audience Manager] worden opgenomen, kunnen we echter geen enkele volgorde voor bestandsverwerking garanderen.
 
 >[!MORELIKETHIS]
 >
->* [Batchgegevensoverdrachtproces beschreven](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
+>* [Beschrijving van batchdataoverdracht](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
 
