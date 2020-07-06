@@ -1,114 +1,114 @@
 ---
-description: 'Antwoorden op gemeenschappelijke vragen over op mensen-Gebaseerde Doelen.  '
-seo-description: 'Antwoorden op gemeenschappelijke vragen over op mensen-Gebaseerde Doelen.  '
-seo-title: Veelgestelde vragen over op mensen gebaseerde doelen
+description: 'Antwoorden op veelgestelde vragen over persoonsgebaseerde bestemmingen.  '
+seo-description: 'Antwoorden op veelgestelde vragen over persoonsgebaseerde bestemmingen.  '
+seo-title: Veelgestelde vragen over persoonsgebaseerde bestemmingen
 solution: Audience Manager
-title: Veelgestelde vragen over op mensen gebaseerde doelen
+title: Veelgestelde vragen over persoonsgebaseerde bestemmingen
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Veelgestelde vragen over op mensen gebaseerde doelen {#people-based-destinations-faq}
+# Veelgestelde vragen over persoonsgebaseerde bestemmingen {#people-based-destinations-faq}
 
 Antwoorden op algemene vragen over [!DNL People-Based Destinations].
 
 ## Beschikbaarheid {#availability}
 
-**Ik zie[!DNL People-Based Destinations]mijn Audience Manager niet. Wat moet ik weten over beschikbaarheid?**
+**Ik kan [!DNL People-Based Destinations] niet zien in mijn Audience Manager-account. Wat moet ik weten over beschikbaarheid?**
 
-[!DNL People-Based Destinations] is een premiumfunctie voor Audience Managers die bij aankoop beschikbaar is. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie over prijzen en beschikbaarheid.
+[!DNL People-Based Destinations] is een premiumfunctie van Audience Manager die bij aankoop beschikbaar is. Neem contact op met uw Adobe-verkoopvertegenwoordiger voor meer informatie over prijzen en beschikbaarheid.
 
-## Gegevens aan boord {#data-onboarding}
+## Data-onboarding {#data-onboarding}
 
-**Hoe kan ik de e-mailadressen van de klant in Audience Manager, zodat ik hen binnen kan gebruiken[!DNL People-Based Destinations]?**
+**Hoe kan ik e-mailadressen van klanten onboarden in Audience Manager, zodat ik deze in [!DNL People-Based Destinations] kan gebruiken?**
 
-Er zijn twee manieren u uw off-line gegevens aan Audience Manager voor kunt brengen [!DNL People-Based Destinations].
+Er zijn twee manieren waarop u offline data in Audience Manager kunt opnemen voor [!DNL People-Based Destinations].
 
-* **Synchronisatie** van op een bestand gebaseerde id gebruiken. Zie [Naam en Inhoudsvereisten voor ID-synchronisatiebestanden](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) voor meer informatie over hoe de id-synchronisatiebestanden eruit moeten zien. Wanneer u deze methode gebruikt, kunt u alle gehashte e-mailadressen vanuit uw [!DNL CRM] database als doel instellen.
-* **Gebruik gedeclareerde id&#39;s** om gehashte e-mailadressen te declareren wanneer u geautoriseerde klant-id&#39;s doorgeeft. Als u deze methode gebruikt, activeert Audience Manager alleen de gehashte e-mailadressen van gebruikers die online zijn geverifieerd. De e-mailadressen die via Facebook worden geactiveerd, zijn alleen de adressen in de oproepen voor gedeclareerde id-gebeurtenissen. Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in realtime geactiveerd.
+* **Gebruik op bestand-id gebaseerde synchronisatie**. Zie [Naam- en contentvereisten voor id-synchronisatiebestanden](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) voor details over hoe id-synchronisatiebestanden eruit moeten zien. Wanneer u deze methode gebruikt, kunt u alle gehashte e-mailadressen vanuit uw [!DNL CRM]-database targeten.
+* **Gebruik gedeclareerde id’s** om gehashte e-mailadressen te declareren wanneer u geverifieerde klant-id’s doorgeeft. Als u deze methode gebruikt, activeert Audience Manager alleen de gehashte e-mailadressen van gebruikers die online zijn geverifieerd. De e-mailadressen die via Facebook worden geactiveerd, zijn alleen de adressen in gedeclareerde id-gebeurteniscalls. Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in real time geactiveerd.
 
-**Kan ik gehashte e-mailadressen verzamelen via een webformulier of mobiele app of moeten ze doorlopen in een batchbestand?**
+**Kan ik gehashte e-mailadressen verzamelen via een webformulier of mobiele app, of moeten ze doorkomen via een batchbestand?**
 
-U kunt gehashte e-mailadressen via webverificatie verzamelen met behulp [!DNL ECID] van [gedeclareerde id&#39;s](../features/declared-ids.md). Met het batchbestand kunt u ook gehashte e-mailadressen verzamelen die niet via verificatie kunnen worden verzonden (bijvoorbeeld slapende gebruikers in uw ([!DNL CRM])) en deze activeren in op personen gebaseerde doelen.
+U kunt gehashte e-mailadressen via webverificatie verzamelen met behulp van [!DNL ECID] met [gedeclareerde id’s](../features/declared-ids.md). Met het batchbestand kunt u ook gehashte e-mailadressen verzamelen die niet via verificatie kunnen worden verzonden (bijvoorbeeld slapende gebruikers in uw ([!DNL CRM])) en deze activeren in persoonsgebaseerde bestemmingen.
 
-**Hoe wordt het invoeren van gehashte e-mailadressen via webformulieren anders dan het uploaden van gehashte e-mailadressen via batchbestanden?**
+**Hoe is het opnemen van gehashte e-mailadressen via webformulieren anders dan het uploaden van gehashte e-mailadressen via batchbestanden?**
 
-Offlinegegevensinvoer is ontworpen ter ondersteuning van gebruiksgevallen zonder verificatie en een nieuwe regel voor het samenvoegen van profielen ([!UICONTROL All Cross-Device Profiles]) die wordt uitgevoerd op alle offline [!DNL CRM] profielen, ongeacht de verificatie, is beschikbaar als onderdeel van [!DNL People-Based Destinations]. Deze methode is bedoeld als aanvulling op de inname van geverifieerde doelgroepen via onlinebronnen.
+Offline dataopname is ontworpen ter ondersteuning van gebruiksscenario’s zonder verificatie, en er is een nieuwe regel voor profielsamenvoeging ([!UICONTROL All Cross-Device Profiles]) beschikbaar als onderdeel van [!DNL People-Based Destinations] die wordt uitgevoerd op alle offline [!DNL CRM]-profielen, ongeacht verificatie. Deze methode is bedoeld als aanvulling op de opname van geverifieerde doelgroepen via online bronnen.
 
-**Wat is de maximumfrequentie waarmee ik gehashte e-mailadressen kan verzenden/bijwerken?**
+**Wat is de maximale frequentie voor het verzenden/bijwerken van gehashte e-mailadressen?**
 
-* Wanneer het gebruiken van Verklaarde IDs, verzendt de Audience Manager de gehakte e-mailadressen naar de bestemming in echt - tijd.
-* Wanneer het opnemen van gegevens door de dossiers van de synchronisatie van identiteitskaart, verwerkt de Audience Manager hen op een dagelijkse basis.
+* Bij het gebruik van gedeclareerde id’s verzendt Audience Manager de gehashte e-mailadressen in real time naar de bestemming.
+* Bij het opnemen van data via id-synchronisatiebestanden verwerkt Audience Manager deze op dagelijkse basis.
 
-**Hoe weet ik of het hashing van het e-mailadres correct wordt gedaan?**
+**Hoe weet ik of het hashing van e-mailadressen correct is uitgevoerd?**
 
-Audience Manager neemt het onbewerkte e-mailadres niet op en we kunnen niet controleren of de hash correct is uitgevoerd. Zie [Vereisten en Overwegingen](../features/destinations/people-based-destinations-prerequisites.md) voor details over hoe u de ingekapselde gegevens zou moeten hakken.
+Audience Manager neemt het onbewerkte e-mailadres niet op en we kunnen niet controleren of de hash correct is uitgevoerd. Zie [Vereisten en overwegingen](../features/destinations/people-based-destinations-prerequisites.md) voor details over hoe u de onboarded data kunt hashen.
 
-## Regels voor samenvoegen van profielen {#profile-merge-rules}
+## Regels voor profielsamenvoeging {#profile-merge-rules}
 
-**Is er een nieuwe regel van de profielfusie die ik met kan gebruiken[!DNL People-Based Destinations]?**
+**Is er een nieuwe regel voor profielsamenvoeging die ik met [!DNL People-Based Destinations] kan gebruiken?**
 
-Ja. Klanten die aankopen [!DNL People-Based Destinations] krijgen ook toegang tot een nieuwe regel voor het samenvoegen van profielen voor offline segmentatie. De regel wordt geroepen [!DNL All Cross-Device Profiles] en het wordt gebruikt voor offline-slechts segmentatie. Wanneer u omhoog voor [!DNL People-Based Destinations], dit de vierde regel van de profielfusie bent die u, naast de drie bestaande op authentificatie-gebaseerde regels kunt tot stand brengen.
+Ja. Klanten die [!DNL People-Based Destinations] kopen, krijgen ook toegang tot een nieuwe regel voor profielsamenvoeging voor offline segmentatie. De regel heet [!DNL All Cross-Device Profiles] en wordt uitsluitend gebruikt voor offline segmentatie. Wanneer u zich aanmeldt voor [!DNL People-Based Destinations], is dit de vierde regel voor profielsamenvoeging die u kunt maken, afgezien van de drie bestaande op verificatie gebaseerde regels.
 
-**Moet ik mijn bestaande publiekssegmenten dupliceren om ze in te activeren[!DNL People-Based Destinations]?**
+**Moet ik mijn bestaande doelgroepsegmenten dupliceren om ze te activeren in [!DNL People-Based Destinations]?**
 
-Het hangt van uw gebruikscase af. Als u op het activeren van bestaande eerste-partijsegmenten in op mensen-gebaseerde kanalen van plan bent, te hoeven u om geen nieuwe segmenten tot stand te brengen. U kunt de segmenten alleen toewijzen aan een op mensen gebaseerd doel.
+Dat hangt van uw gebruiksscenario af. Als u van plan bent bestaande eigen segmenten te activeren in persoonsgebaseerde kanalen, hoeft u geen nieuwe segmenten te maken. U kunt de segmenten gewoon toewijzen aan een persoonsgebaseerde bestemming.
 
-Als u op het activeren van nieuwe off-line publiek in op mensen-gebaseerde kanalen van plan bent, moet u nieuwe eerste-partijsegmenten tot stand brengen gebruikend de [!DNL All Cross-Device Profiles] fusieregel.
+Als u van plan bent nieuwe offline doelgroepen te activeren in persoonsgebaseerde kanalen, moet u nieuwe eigen segmenten maken met de [!DNL All Cross-Device Profiles]-samenvoegingsregel.
 >[!NOTE]
 >
-> U kunt segmenten met gegevens van de eerste partij slechts in kaart brengen aan [!DNL People-Based Destinations]. Onze doelplatforms accepteren geen segmenten met gegevens van derden.
+> U kunt segmenten met eigen data alleen toewijzen aan [!DNL People-Based Destinations]. Onze bestemmingsplatforms accepteren geen segmenten met data van tweede en derde partijen.
 
-## Gelijke tarieven {#match-rates}
+## Matchpercentages {#match-rates}
 
-**Heb[!DNL People-Based Destinations]zicht in gelijke tarieven of adresseerbare publiek?**
+**Hebben [!DNL People-Based Destinations] zicht op matchpercentages of adresseerbare doelgroepen?**
 
-Nee. Wanneer het verzenden van publiekssegmenten naar [!DNL People-Based Destinations], publieksaanpassing gebeurt aan de partnerkant. Adobe heeft geen toegang tot deze gegevens. De Audience Manager toont u het maximum deelbare publiek voor elke bestemming en het aantal in real time van mensen die tot een segment behoren. Deze informatie kan u met campagneplanning en het voorspellen helpen.
+Nee. Bij het verzenden van doelgroepsegmenten naar [!DNL People-Based Destinations] vindt doelgroepmatching plaats aan de kant van de partner. Adobe heeft geen toegang tot deze cijfers. Audience Manager toont u de maximaal deelbare doelgroep voor elke bestemming en het realtime-aantal personen dat tot een segment behoort. Deze informatie kan u helpen bij campagneplanning en voorspellingen.
 
-**Hoe zouden de tarieven die[!DNL People-Based Destinations]theoretisch vergelijken met andere methodes om publiek naar bestemmingsplatforms te verzenden?**
+**Hoe zijn matchpercentages die gebruikmaken van [!DNL People-Based Destinations], theoretisch te vergelijken met andere methodes om doelgroepen naar bestemmingsplatforms te verzenden?**
 
-Zolang het e-mailadres wordt gehasht en correct wordt opgenomen, zou er geen verschil in het gelijke tarief tussen [!DNL People-Based Destinations] en andere methodes moeten zijn. De enige reden een gelijke tarief onder 100% zou zijn is als de e-mailadressen die in Audience Manager worden gebracht niet met een e-mailadres in het de gebruikersbasis van het bestemmingsplatform kunnen worden aangepast.
+Zolang het e-mailadres correct wordt gehasht en opgenomen, zou er geen verschil in matchpercentage moeten zijn tussen [!DNL People-Based Destinations] en andere methodes. De enige reden dat een matchpercentage onder de 100% komt, is als de e-mailadressen die in Audience Manager worden opgenomen, niet kunnen worden gematcht met een e-mailadres in de gebruikersbase van het bestemmingsplatform.
 
-**Ik verzamel werk-e-mailadressen van mijn klanten, die van de persoonlijke e-mailadressen verschillend zijn die in sociale netwerken worden gebruikt. Hoe kunt u identiteiten over veelvoudige e-mailadressen aanpassen?**
+**Ik verzamel werk-e-mailadressen van mijn klanten, die anders zijn dan de persoonlijke e-mailadressen die in sociale netwerken worden gebruikt. Hoe kunt u identiteiten matchen met meerdere e-mailadressen?**
 
-Audience Managers kunnen per gebruiker maximaal 10 e-mails verzamelen en verzenden naar doelplatforms, maar de e-mailadressen moeten via synchronisatiebestanden worden vastgelegd. Nadat de Audience Manager de e-mailadressen naar bestemmingsplatforms verzendt, is het aan de platforms om de e-mailadressen aan hun eigen gebruikersbasis aan te passen. Sommige platforms hebben mogelijk extra e-mailadresgrafieken die overeenkomen met adressen die van Audience Manager naar gebruikersprofielen worden verzonden.
+Audience Manager kan per gebruiker maximaal 10 e-mails verzamelen en naar bestemmingsplatforms verzenden, maar de e-mailadressen moeten via synchronisatiebestanden worden vastgelegd. Nadat Audience Manager de e-mailadressen naar bestemmingsplatforms heeft verzonden, is het aan de platforms om de e-mailadressen te matchen met hun eigen gebruikersbase. Sommige platforms hebben mogelijk extra e-mailadresgrafieken om adressen te matchen die vanuit Audience Manager naar gebruikersprofielen worden verzonden.
 
-## Besturingselementen voor gegevensexport {#data-export-controls}
+## Besturingselementen voor data-export {#data-export-controls}
 
-**Hoe[!DNL Data Export Controls]werkt u met[!DNL People-Based Destinations]?**
+**Hoe werken [!DNL Data Export Controls] met [!DNL People-Based Destinations]?**
 
-[!DNL Data Export Controls] zullen om het even welke segmenten blokkeren die tweede en derdegegevens bevatten die de gebruikers proberen te verzenden naar [!DNL People-Based Destinations]. [!DNL People-Based Destinations] staan alleen toe dat gegevens van de eerste partij voor het richten worden gebruikt. [!DNL Data Export Controls] bloksegmenten die ook worden gebruikt [!DNL Profile Merge Rules] met apparaatgrafieken. [!DNL People-Based Destinations] worden gemaakt met de juiste exportlabels voor gegevens ingeschakeld en u kunt de exportinstellingen niet overschrijven.
+[!DNL Data Export Controls] blokkeert alle segmenten met data van tweede en derde partijen die gebruikers proberen naar [!DNL People-Based Destinations] te verzenden. Met [!DNL People-Based Destinations] is alleen het gebruik van eigen data voor targeting toegestaan. [!DNL Data Export Controls] blokkeert ook segmenten die gebruikmaken van [!DNL Profile Merge Rules] met apparaatgrafieken. [!DNL People-Based Destinations] worden gemaakt met de juiste data-exportlabels ingeschakeld, en u kunt de exportinstellingen niet overschrijven.
 
 ## Specifieke vragen voor partners {#partner-specific-questions}
 
 ### [!DNL Facebook]
 
-**Wat moet ik doen voordat ik publiekssegmenten naar kan sturen[!DNL Facebook]?**
+**Wat moet ik doen voordat ik doelgroepsegmenten naar [!DNL Facebook] kan sturen?**
 
-Alvorens u kunt gebruiken [!DNL People-Based Destinations] [!DNL Facebook]om publiekssegmenten naar te verzenden, moet u de volgende configuratietaken uitvoeren:
+Voordat u [!DNL People-Based Destinations] kunt gebruiken om doelgroepsegmenten naar [!DNL Facebook] te sturen, moet u de volgende configuratietaken uitvoeren:
 
-1. Voeg het Adobe Experience Cloud-bedrijfsaccount toe als een advertentiepartner in uw [!DNL Facebook Ad Account]account. Gebruik `business ID=206617933627973`. Zie Partners aan Uw BedrijfsManager voor details toevoegen.
+1. Voeg het Adobe Experience Cloud-bedrijfsaccount als een advertentiepartner toe in uw [!DNL Facebook Ad Account]. Gebruik `business ID=206617933627973`. Zie Partners aan uw bedrijfsbeheer toevoegen voor meer informatie.
 
    >[!IMPORTANT]
    >
-   > Wanneer u de machtigingen voor Adobe Experience Cloud configureert, moet u de machtiging Campagnes beheren inschakelen. Dit is nodig voor de [!DNL People-Based Destinations] integratie.
+   > Wanneer u de toestemmingen voor Adobe Experience Cloud configureert, moet u de toestemming voor Campagnes beheren inschakelen. Dit is nodig voor de [!DNL People-Based Destinations]-integratie.
 
-1. Lees en onderteken de [!DNL Facebook Custom Audiences Terms of Service]handleiding. Om dit te doen, ga naar `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, waar `accountID` is je [!DNL Facebook Ad Account ID].
+1. Lees en onderteken de [!DNL Facebook Custom Audiences Terms of Service]. Ga daarvoor naar `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, waarbij `accountID` uw [!DNL Facebook Ad Account ID] is.
 
-**Biedt[!DNL People-Based Destinations]ondersteuning voor doelgroepen in andere[!DNL Facebook]apps, zoals[!DNL Instagram]?**
+**Ondersteunt [!DNL People-Based Destinations] doelgroeptargeting in andere [!DNL Facebook]-apps zoals [!DNL Instagram]?**
 
-U kunt toepassingen gebruiken [!DNL People-Based Destinations] uit [!DNL Facebook]de verschillende families die worden ondersteund door [!DNL Custom Audiences], inclusief [!DNL Facebook], [!DNL Instagram][!DNL Audience Network] en [!DNL Messenger]. De selectie van de app waarop u de campagne wilt uitvoeren, wordt aangegeven op het plaatsingsniveau in [!DNL Facebook Ads Manager].
+U kunt [!DNL People-Based Destinations] gebruiken in de hele [!DNL Facebook]-appfamilie die door [!DNL Custom Audiences] wordt ondersteund, inclusief [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] en [!DNL Messenger]. De selectie van de app waarin u de campagne wilt voeren, wordt aangegeven op het plaatsingsniveau in [!DNL Facebook Ads Manager].
 
-**Wat is het verschil tussen[!DNL People-Based Destinations]en[!DNL Website Custom Audiences]?**
+**Wat is het verschil tussen [!DNL People-Based Destinations] en [!DNL Website Custom Audiences]?**
 
-[!DNL People-Based Destinations] hefboomwerkingen de [!DNL Custom Audiences (CA)] integratie met [!DNL Facebook]. Het verschil tussen [!DNL WCA] en [!DNL CA] integratie is de sleutel die de klanten gebruiken wanneer het verzenden van publiek naar [!DNL Facebook]. [!DNL WCA] gebruikt de [!DNL Facebook] pixel (die een identiteitskaart van de websitegebruiker zou zijn) terwijl [!DNL People-Based Destinations] gebruik gehakt e-mailadressen om met te integreren [!DNL CA].
+[!DNL People-Based Destinations] maakt gebruik van de [!DNL Custom Audiences (CA)]-integratie met [!DNL Facebook]. Het verschil tussen [!DNL WCA]- en [!DNL CA]-integratie is de sleutel die de klanten gebruiken bij het verzenden van doelgroepen naar [!DNL Facebook]. [!DNL WCA] gebruikt de [!DNL Facebook]-pixel (een websitegebruikers-id) terwijl [!DNL People-Based Destinations] gehashte e-mailadressen gebruikt voor integratie met [!DNL CA].
 
-U kunt de [!DNL Facebook] integratie van de Audience Manager zonder extra kosten gebruiken via de [!DNL WCA] [!DNL URL Destinations] functie.
+U kunt de [!DNL Facebook] [!DNL WCA]-integratie van Audience Manager zonder extra kosten gebruiken via de functie [!DNL URL Destinations].
 
-Deze twee integraties zijn complementair; u kunt beide gebruiken om een betere publieksdekking te verzekeren. Een voorbeeld: [!DNL WCA] kan worden gebruikt voor prospectie wanneer een bedrijf websitebezoekers wil bereiken die geen account hebben geregistreerd, terwijl [!DNL People-Based Destinations] u bestaande klanten die hun e-mailadres hebben opgegeven maar de website misschien niet hebben bezocht, kunt helpen.
+Deze twee integraties zijn complementair; u kunt beide gebruiken om te zorgen voor een betere doelgroepdekking. Een voorbeeld: [!DNL WCA] kan worden gebruikt voor prospectie wanneer een bedrijf websitebezoekers wil targeten die geen account hebben geregistreerd, terwijl [!DNL People-Based Destinations] u kan helpen bestaande klanten te targeten die hun e-mailadres hebben opgegeven, maar de website misschien niet hebben bezocht.
