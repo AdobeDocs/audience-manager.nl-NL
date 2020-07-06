@@ -1,16 +1,16 @@
 ---
 description: Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en formaten van uw bestanden in volgens deze specificaties wanneer u gegevens naar een Audience Manager/Amazon S3-map verzendt.
 seo-description: Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en formaten van uw bestanden in volgens deze specificaties wanneer u gegevens naar een Audience Manager/Amazon S3-map verzendt.
-seo-title: Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden
+seo-title: Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden
 solution: Audience Manager
-title: Vereisten voor naam- en bestandsgrootte van Amazon S3 voor binnenkomende gegevensbestanden
+title: Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: d3fd387478ac00470537124110299cd264eac499
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 1%
+source-wordcount: '1152'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,11 @@ Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergro
 
 Voor andere toegelaten dossiernaamformaten, zie de Integraties [van de Partner van de](/help/using/integration/sending-audience-data/custom-partner-integrations.md)Douane.
 
->[!NOTE] {Important=&quot;high&quot;}
+<!--
+Removed  {importance="high"} for ExL
+-->
+
+>[!NOTE]
 >
 >[!DNL Audience Manager] alleen bestanden verwerkt [!DNL ASCII] en [!DNL UTF-8] gecodeerd.
 
@@ -66,7 +70,7 @@ De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
       <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20914_21_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat. Opmerking: ID 21 </li> 
       <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20915_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat. </li> 
      </ul> 
-    </draft-comment> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p><p>Zie <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Algemene gegevensbronnen</a> voor meer informatie.</p> <p>Zie ook de onderstaande <code><i>_DPID_TARGET_DATA_OWNER</i></code> vermelding. </p> </td> 
+    </draft-comment> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p><p>Zie <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Algemene databronnen</a> voor meer informatie.</p> <p>Zie ook de onderstaande <code><i>_DPID_TARGET_DATA_OWNER</i></code> vermelding. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
@@ -106,7 +110,7 @@ De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Gebruik alleen gzip-compressie wanneer u bestanden naar Amazon S3 verzendt. Wanneer deze bestanden zijn gecomprimeerd, krijgen ze de <code> .gz</code> extensie. Gebruik geen .zip-compressie. </p> <p>Gecomprimeerde bestanden moeten 3 GB of kleiner zijn. Neem contact op met de klantenservice als uw bestanden groter zijn. Hoewel Audience Manager grote bestanden kan verwerken, kunnen we u helpen de bestanden te verkleinen en de gegevensoverdracht efficiënter te maken. Zie <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden</a>. </p> </td> 
+   <td colname="col2"> <p>Gebruik alleen gzip-compressie wanneer u bestanden naar Amazon S3 verzendt. Wanneer deze bestanden zijn gecomprimeerd, krijgen ze de <code> .gz</code> extensie. Gebruik geen .zip-compressie. </p> <p>Gecomprimeerde bestanden moeten 3 GB of kleiner zijn. Neem contact op met de klantenservice als uw bestanden groter zijn. Hoewel Audience Manager grote bestanden kan verwerken, kunnen we u helpen de bestanden te verkleinen en de gegevensoverdracht efficiënter te maken. Zie <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Bestandscompressie voor binnenkomende dataoverdrachtsbestanden</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
