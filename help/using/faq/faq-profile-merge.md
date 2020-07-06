@@ -1,143 +1,143 @@
 ---
-description: Antwoorden op veelgestelde vragen over de samenvoegregel van het profiel en de apparaatgrafiek.
+description: Antwoorden op veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken.
 keywords: Organization ID
-seo-description: Antwoorden op veelgestelde vragen over de samenvoegregel van het profiel en de apparaatgrafiek.
-seo-title: Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek
+seo-description: Antwoorden op veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken.
+seo-title: Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken
 solution: Audience Manager
-title: Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek
+title: Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1548'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
 
-# Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek{#profile-merge-rules-and-device-graph-faq}
+# Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken {#profile-merge-rules-and-device-graph-faq}
 
-Antwoorden op veelgestelde vragen over de samenvoegregel van het profiel en de apparaatgrafiek.
+Antwoorden op veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken.
 
 <!-- profile-merge-faq.xml -->
 
-## Grondbeginselen van apparaatgrafiek {#device-graph-basics}
+## Basisbeginselen van apparaatgrafieken {#device-graph-basics}
 
 **Wat is een apparaatgrafiek?**
 
-Een apparaatgrafiek is een set id-toewijzingen die groepen anonieme apparaten definieert. Het associeert deze apparaten aan een persoon of een huishouden die op gemeenschappelijke elementen in de signalen wordt gebaseerd die van elk apparaat worden verzameld. Deze signalen helpen apparaten op individueel of huiselijk niveau identificeren.
+Een apparaatgrafiek is een set id-toewijzingen waarmee groepen van anonieme apparaten worden gedefinieerd. De grafiek koppelt deze apparaten aan één persoon of één huishouden op basis van gemeenschappelijke elementen in de signalen die van elk apparaat worden verzameld. Deze signalen helpen apparaten te identificeren op individueel of huishoudelijk niveau.
 
  
 
 **Wat is een externe apparaatgrafiek?**
 
-Een externe apparaatgrafiek is een apparaatgrafiek in [!DNL Audience Manager] die niet uitsluitend op basis van uw eigen apparaatgegevensbronnen is gemaakt. Wanneer u bijvoorbeeld een regel voor het samenvoegen van [profielen maakt en de grafiekopties voor apparaten](../features/profile-merge-rules/merge-rules-start.md) [!UICONTROL Co-op Device Graph] of apparaten van derden kiest, werkt u met een externe apparaatgrafiek. Zie [Apparaatopties](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Een externe apparaatgrafiek is een apparaatgrafiek in [!DNL Audience Manager] die niet uitsluitend op basis van uw eigen cross-device databronnen is gemaakt. Wanneer u bijvoorbeeld een [regel voor profielsamenvoeging ](../features/profile-merge-rules/merge-rules-start.md) maakt en de opties voor de [!UICONTROL Co-op Device Graph] of de externe apparaatgrafiek selecteert, werkt u met een externe apparaatgrafiek. Zie [Apparaatopties](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
-**Wat zijn enkele gangbare gebruiksgevallen voor het gebruik van een externe apparaatgrafiek in een[!UICONTROL Profile Merge Rule]grafiek?**
+**Wat zijn gangbare gebruiksscenario’s voor het gebruik van een externe apparaatgrafiek in een [!UICONTROL Profile Merge Rule]?**
 
-Het belangrijkste doel van het gebruik van een apparaatgrafiek in een [!UICONTROL Profile Merge Rule] is het evalueren en kwalificeren van meerdere apparaten die tot één persoon of huishouden behoren voor een bepaald segment. Het segment zelf kan veelvoudige toepassingen bijvoorbeeld hebben, richtend een publiek van vooruitzichten met een advertentie die door DSP wordt gediend of personaliserend de ervaring van een klant op-plaats via een onsite verpersoonlijkingsplatform. See [External Device Graph Use Cases](../features/profile-merge-rules/external-graph-use-cases.md).
+Het belangrijkste doel van het gebruik van een apparaatgrafiek in een [!UICONTROL Profile Merge Rule] is het evalueren en kwalificeren van meerdere apparaten die tot één persoon of huishouden behoren voor een bepaald segment. Het segment zelf kan op meerdere manieren worden gebruikt: het kan bijvoorbeeld zijn getarget op een doelgroep van prospects met een advertentie die beschikbaar wordt gemaakt door een DSP, of de onsite ervaring van een klant personaliseren via een onsite personalisatieplatform. Zie [Gebruiksscenario’s voor externe apparaatgrafieken](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
-**Biedt Audience Manager algemene ondersteuning voor externe apparaatgrafieken?**
+**Biedt Audience Manager globale ondersteuning voor externe apparaatgrafieken?**
 
 Nee. Externe apparaatgrafieken zijn alleen beschikbaar in de Verenigde Staten en Canada.
 
  
 
-**Hoe vaak worden de externe gegevens van de apparaatgrafiek[!DNL Audience Manager]bijgewerkt?**
+**Hoe vaak worden externe apparaatgrafieken in [!DNL Audience Manager] bijgewerkt?**
 
 Eenmaal per week.
 
  
 
-## Apparaatgrafieken en regels voor het samenvoegen van profielen {#device-graph-profile-merge-rules}
+## Apparaatgrafieken en regels voor profielsamenvoeging {#device-graph-profile-merge-rules}
 
-**Hoe wordt een apparaatgrafiek[!DNL Audience Manager]gebruikt?**
+**Hoe wordt een apparaatgrafiek in [!DNL Audience Manager] gebruikt?**
 
-In [!DNL Audience Manager], verschijnen de apparatengrafieken als configuratieopties wanneer u een Regel [van de Fusie van het Profiel](../features/profile-merge-rules/merge-rules-start.md)creeert. Aan de hand van deze apparaatgrafieken [!UICONTROL Profile Merge Rules]kunt u [!DNL Audience Manager]het volgende doen:
+In [!DNL Audience Manager] verschijnen apparaatgrafieken als configuratieopties wanneer u een [regel voor profielsamenvoeging maakt](../features/profile-merge-rules/merge-rules-start.md). Aan de hand van uw [!UICONTROL Profile Merge Rules] helpen deze apparaatgrafieken [!DNL Audience Manager] met het volgende:
 
-* Voeg meerdere apparaatprofielen samen. Hierdoor wordt één superset van kenmerken gemaakt.
-* Evalueer de eigenschap superset voor segmentkwalificatie (eerder dan evaluerend elk apparatenprofiel individueel).
-* Voeg gekwalificeerde apparaten toe aan beschikbare segmenten.
-
- 
-
-**Hoeveel[!UICONTROL Profile Merge Rules]kan ik maken?**
-
-U kunt op dit moment maximaal 4 [!UICONTROL Profile Merge Rules]maken. De vierde regel voor het samenvoegen van profielen ([!UICONTROL All Cross-Device Profiles]) is alleen beschikbaar voor klanten die de [!UICONTROL People-Based Destinations] invoegtoepassing aanschaffen.
+* Meerdere apparaatprofielen samenvoegen. Hierdoor wordt één superset van eigenschappen gemaakt.
+* De superset van eigenschappen evalueren voor segmentkwalificatie (in plaats van elk apparaatprofiel afzonderlijk te evalueren).
+* Gekwalificeerde apparaten toevoegen aan beschikbare segmenten.
 
  
 
-**Hoeveel apparaatprofielen worden[!DNL Audience Manager]samengevoegd en gelezen wanneer een apparaatgrafiek in een[!UICONTROL Profile Merge Rule]afbeelding wordt gebruikt?**
+**Hoeveel [!UICONTROL Profile Merge Rules] kan ik maken?**
 
-Wanneer een Audience Manager een apparaat kwalificeert voor een segment met behulp van een segment, wordt het huidige apparaatprofiel en maximaal 99 andere aanvullende apparaatprofielen die zijn gekoppeld door de geselecteerde grafiekoptie van het apparaat, samengevoegd en gelezen. [!UICONTROL Profile Merge Rule]
-
- 
-
-**Welke apparaten kwalificeren voor een segment wanneer het gebruiken van een apparatengrafiek in een[!UICONTROL Profile Merge Rule]?**
-
-De apparaten [!DNL Audience Manager] voegen samen en lezen zijn de zelfde apparaten die voor een segment worden gekwalificeerd.
+U kunt op dit moment maximaal vier [!UICONTROL Profile Merge Rules] maken. De vierde regel voor profielsamenvoeging ([!UICONTROL All Cross-Device Profiles]) is alleen beschikbaar voor klanten die de invoegtoepassing [!UICONTROL People-Based Destinations] aanschaffen.
 
  
 
-**Waar kan segmenten[!DNL Audience Manager]verzenden die door een[!UICONTROL Profile Merge Rule]die apparatengrafiek zijn gekwalificeerd?**
+**Hoeveel apparaatprofielen worden in [!DNL Audience Manager] samengevoegd en gelezen wanneer een apparaatgrafiek in een [!UICONTROL Profile Merge Rule] wordt gebruikt?**
 
-[!DNL Audience Manager] U kunt segmenten naar een doel verzenden in batchbestanden of in realtime.
-
- 
-
-## Segmenten, apparaatgrafieken en regels voor het samenvoegen van profielen {#segments-device-graphs-rules}
-
-**Hoe maakt u het segment van een apparaat ongedaan wanneer het niet meer gekwalificeerd is voor een segment met een[!DNL Audience Manager][!UICONTROL Profile Merge Rule]apparaat dat een apparaatgrafiek gebruikt?**
-
-Audience Manager voegt maximaal 100 apparaten samen bij het evalueren van segmenten met een apparaatgrafiek [!UICONTROL Profile Merge Rule] . Als het unsegment signaal wordt uitgegeven, zullen het huidige apparaat en tot 99 extra apparaten uit het segment in de bestemming worden verwijderd. Voor meer informatie over unsegmentation, zie de Regels van de Fusie van het [Profiel en de Processen van de Apparaat Un-Segmentatie](../features/profile-merge-rules/merge-rule-unsegment.md).
+Als Audience Manager een apparaat kwalificeert voor een segment met behulp van een [!UICONTROL Profile Merge Rule], leest en combineert Audience Manager het huidige apparaatprofiel en maximaal 99 andere apparaatprofielen die met elkaar zijn verbonden via de door u geselecteerde apparaatgrafiekoptie.
 
  
 
-**Als een bestemming apparaten kan ontsegmenteren, zullen de apparaten uit segmenten door[!UICONTROL Profile Merge Rules]die een apparatengrafiek worden verwijderd?**
+**Welke apparaten kwalificeren voor een segment bij gebruik van een apparaatgrafiek in een [!UICONTROL Profile Merge Rule]?**
+
+De apparaten die [!DNL Audience Manager] samenvoegt en leest, zijn dezelfde apparaten die voor een segment worden gekwalificeerd.
+
+ 
+
+**Waar kan [!DNL Audience Manager] segmenten naartoe verzenden die zijn gekwalificeerd door een [!UICONTROL Profile Merge Rule] die een apparaatgrafiek gebruikt?**
+
+[!DNL Audience Manager] kan segmenten naar een bestemming verzenden in batchbestanden of in real time.
+
+ 
+
+## Segmenten, apparaatgrafieken en regels voor profielsamenvoeging {#segments-device-graphs-rules}
+
+**Hoe desegmenteert [!DNL Audience Manager] een apparaat wanneer het niet langer kwalificeert voor een segment met een [!UICONTROL Profile Merge Rule] die een apparaatgrafiek gebruikt?**
+
+Audience Manager voegt maximaal 100 apparaten samen bij de evaluatie van segmenten met een [!UICONTROL Profile Merge Rule] die een apparaatgrafiek gebruikt. Als het desegmentatiesignaal wordt gegeven, worden het huidige apparaat en maximaal 99 andere apparaten uit het segment in de bestemming verwijderd. Raadpleeg [Regels voor profielsamenvoeging en processen voor apparaatdesegmentatie](../features/profile-merge-rules/merge-rule-unsegment.md) voor meer informatie over desegmentatie.
+
+ 
+
+**Als een bestemming apparaten kan desegmenteren, worden apparaten dan verwijderd uit segmenten door [!UICONTROL Profile Merge Rules] die een apparaatgrafiek gebruiken?**
 
 Ja. Zie de bovenstaande uitleg.
 
  
 
-**Als ik een segment met een segment bouwt[!UICONTROL Profile Merge Rule]die een apparatengrafiek gebruikt en het segment zowel gegevens in real time als gegevens op-board gebruikt, zal mijn segment worden bijgewerkt aangezien de gegevens op-boted veranderen?**
+**Als ik een segment maak met een [!UICONTROL Profile Merge Rule] die een apparaatgrafiek gebruikt, en het segment zowel realtimedata als onboarded data gebruikt, wordt mijn segment dan bijgewerkt wanneer de onboarded data worden gewijzigd?**
 
 Ja.
 
  
 
-**Omvatten de de schattingen van de segmentgrootte apparaten die voor een segment kwalificeren dat op verbindingen wordt gebaseerd die door een[!UICONTROL Profile Merge Rule]die een optie van de apparatengrafiek wordt verstrekt?**
+**Omvatten de schattingen van de segmentgrootte apparaten die voor een segment kwalificeren op basis van verbindingen geleverd door een [!UICONTROL Profile Merge Rule] die een apparaatgrafiekoptie gebruikt?**
 
-Nee. Zie de definities voor [!UICONTROL Estimated Real-Time Population] en [!UICONTROL Estimated Total Population] in de Gegevens van de Bevolking van het [Spoor en van het Segment in de Bouwer](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder-data.html)van het Segment.
+Nee. Zie de definities voor [!UICONTROL Estimated Real-Time Population] en [!UICONTROL Estimated Total Population] in [Populatiedata van eigenschappen en segmenten in Segment Builder](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
-**Omvat[!UICONTROL Addressable Audiences]apparaten die voor een segment kwalificeren dat op verbindingen wordt gebaseerd die door een[!UICONTROL Profile Merge Rule]die een optie van de apparatengrafiek wordt verstrekt?**
+**Omvat [!UICONTROL Addressable Audiences] apparaten die kwalificeren voor een segment op basis van verbindingen die worden verstrekt door een [!UICONTROL Profile Merge Rule] die een apparaatgrafiekoptie gebruikt?**
 
 Ja.
 
  
 
-**Als een segment[!UICONTROL Profile Merge Rule]met gebruikt[!UICONTROL No Cross-Device Profile]en de eigenschappen die apparaten voor het segment kwalificeren slechts op het dwars-apparatenprofiel worden opgeslagen, zal de totale bevolking van het segment 0 zijn?**
+**Als een segment een [!UICONTROL Profile Merge Rule] gebruikt met een [!UICONTROL No Cross-Device Profile], en de eigenschappen die apparaten voor het segment kwalificeren alleen in het cross-device profiel zijn opgeslagen, is de totale populatie van het segment dan 0?**
 
-Ja. De Audience Manager zal niet de eigenschappen tellen die op het dwars-apparatenprofiel in de segmentevaluatie worden opgeslagen wanneer de Regel van de Fusie van het Profiel aan [!UICONTROL No Cross-Device Profile]. wordt geplaatst.
+Ja. In Audience Manager worden voor de segmentevaluatie geen eigenschappen meegeteld die zijn opgeslagen in het cross-device profiel wanneer de regel voor profielsamenvoeging is ingesteld op [!UICONTROL No Cross-Device Profile].
 
  
 
-## Trait Frequency, Device Graphs en Profile Merge Rules {#trait-freq-device-rules}
+## Eigenschapfrequentie, apparaatgrafieken en regels voor profielsamenvoeging {#trait-freq-device-rules}
 
-**Hoe[!DNL Audience Manager]berekent u de frequentie van de eigenschap met een[!UICONTROL Profile Merge Rule]apparaatgrafiek?**
+**Hoe berekent [!DNL Audience Manager] de frequentie van eigenschappen met een [!UICONTROL Profile Merge Rule] die gebruikmaakt van een apparaatgrafiek?**
 
-De vakfrequentie wordt gedefinieerd door de som van het aantal kwalificaties voor een specifiek kenmerk voor meerdere apparaten. Om u dit te helpen begrijpen, neem een blik bij het volgende gebruiksgeval.
+De eigenschapfrequentie wordt gedefinieerd door de som van het aantal kwalificaties voor een bepaalde eigenschap op meerdere apparaten. Bestudeer het volgende gebruiksscenario om dit beter te kunnen begrijpen.
 
 <table id="table_DE7A308705C84B93B3089CAD2228569E"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Hoofdletters gebruiken </th> 
+   <th colname="col1" class="entry"> Gebruiksscenario </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
@@ -146,117 +146,117 @@ De vakfrequentie wordt gedefinieerd door de som van het aantal kwalificaties voo
    <td colname="col1"> <p> <b>Voorwaarden</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_52EA0F142E3F488CAAC7CF541E7F3472"> 
-      <li id="li_11228EC0266A4A02BB4057B77FE93A8A">Apparaat A en Apparaat B worden verbonden door een apparatengrafiek. </li> 
-      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">U hebt een <span class="wintitle"> regel</span> voor het samenvoegen van profielen waarin een optie voor apparaatgrafieken wordt gebruikt. </li> 
-      <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Eén segment (segment 1) bestaande uit één enkel kenmerk (Trait 1), waarbij Trait 1 een frequentie van 8 heeft. </li> 
+      <li id="li_11228EC0266A4A02BB4057B77FE93A8A">Apparaat A en apparaat B zijn gekoppeld door een apparaatgrafiek. </li> 
+      <li id="li_EB90B9D0D3F64A15AB24DA5D000EEBA5">U hebt een <span class="wintitle">regel voor profielsamenvoeging</span> die gebruikmaakt van een apparaatgrafiekoptie. </li> 
+      <li id="li_B46C4DE6CBD44D44B0F02EC9987140A5">Eén segment (segment 1) bestaande uit één eigenschap (eigenschap 1), waarbij eigenschap 1 een frequentie van 8 heeft. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Handelingen</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> De Audience Manager</span> leest en voegt de apparatenprofielen voor Apparaat A en Apparaat B samen. Hieruit zien we het volgende: </p> <p> 
+   <td colname="col1"> <p> <b>Acties</b> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword">Audience Manager</span> leest de apparaatprofielen voor apparaat A en apparaat B en voegt deze samen.Hierna zien we het volgende: </p> <p> 
      <ul id="ul_7AB307154C034695B4486E68D55CB084"> 
-      <li id="li_5760BEE513C94152AA307AEE10894718">Apparaat A heeft drie keer gekwalificeerd voor Trait. Het heeft een frequentie van 3 voor Trait 1. </li> 
-      <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Apparaat B heeft vijf keer gekwalificeerd voor Trait. Het heeft een frequentie van 5 voor Trait 1. </li> 
+      <li id="li_5760BEE513C94152AA307AEE10894718">Apparaat A kwalificeert drie keer voor eigenschap 1. Het heeft een frequentie van 3 voor eigenschap 1. </li> 
+      <li id="li_E20BC24CCCEC407C820A8032D56BC3F0">Apparaat B kwalificeert vijf keer voor eigenschap 1. Het heeft een frequentie van 5 voor eigenschap 1. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultaten</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> geeft de frequentie voor Trait 1 aan en gebruikt 8 (3 + 5 = 8) om de segmentkwalificatie te bepalen. Apparaat A en Apparaat B komen in aanmerking voor Segment 1 omdat het een frequentie van 8 heeft. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> telt de frequentie voor eigenschap 1 en gebruikt 8 (3 + 5 = 8) om de segmentkwalificatie te bepalen. Apparaat A en apparaat B kwalificeren voor segment 1 omdat dit een frequentie van 8 heeft. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
  
 
-## Rapporten, Apparaatgrafieken en Regels voor het samenvoegen van profielen {#reports-device-graphs-rules}
+## Rapporten, apparaatgrafieken en regels voor profielsamenvoeging {#reports-device-graphs-rules}
 
-**Kan ik het aantal apparaten zien dat kan worden bereikt door een[!UICONTROL Profile Merge Rule]apparaatgrafiek?**
+**Kan ik het aantal apparaten zien dat kan worden bereikt door een [!UICONTROL Profile Merge Rule] die gebruikmaakt van een apparaatgrafiek?**
 
-Ja. Hiermee worden gegevens op [!UICONTROL Profile Merge Rule] niveau geretourneerd. De rapportgegevens worden dagelijks bijgewerkt. De gegevens zijn gebaseerd op de apparaten in uw account, niet op de apparaten die zijn gekoppeld door een apparaatgrafiek. Zie Metriek [rapporteren voor regels](../features/profile-merge-rules/profile-link-metrics.md)voor het samenvoegen van profielen.
+Ja. Rapporten retourneren data op [!UICONTROL Profile Merge Rule]-niveau. Rapportdata worden dagelijks bijgewerkt. De data zijn gebaseerd op de apparaten die worden gedetecteerd in uw account, niet op de apparaten die zijn gekoppeld door een apparaatgrafiek. Zie [Cijfers rapporteren voor regels voor profielsamenvoeging](../features/profile-merge-rules/profile-link-metrics.md).
 
  
 
-**Kan ik het aantal apparaten zien die voor een specifiek segment in *real time*met[!UICONTROL Profile Merge Rules]die een apparatengrafiek worden gekwalificeerd?**
+**Kan ik in *real time* het aantal apparaten zien dat kwalificeert voor een specifiek segment met [!UICONTROL Profile Merge Rules] die gebruikmaken van een apparaatgrafiek?**
 
-Ja. Met de metrische gegevens voor realtime-populaties worden segmentkwalificaties voor het huidige apparaat (het apparaat dat in real-time wordt gezien) vastgelegd met behulp van de profielen van alle apparaten die zijn gekoppeld door een apparaatgrafiek.
+Ja. Met de realtime-populatiecijfers worden segmentkwalificaties vastgelegd voor het huidige apparaat (het apparaat dat in real time wordt gezien) aan de hand van de profielen van alle apparaten die door een apparaatgrafiek zijn gekoppeld.
 
 <table id="table_D37A51E99B314C04A96A084491A5FEC7"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Hoofdelement gebruiken </th> 
+   <th colname="col1" class="entry"> Gebruiksscenario-element </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Voorwaarden</b> </p> </td> 
-   <td colname="col2"> <p>Veronderstel wij hebben: </p> <p> 
+   <td colname="col2"> <p>Laten we uitgaan van het volgende: </p> <p> 
      <ul id="ul_B8B627FBF6A04C0CAE6C8543EA3EA56D"> 
-      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">Segment 1 is gebaseerd op deze kenmerken en kwalificatielogica: Segment 1 = Trait A en Trait B en Trait C. </li> 
-      <li id="li_F7D559B3C0CA424DA2C1A0703C1E1717">3 apparaatprofielen: Device 1 (huidige apparaat), Device 2 (apparaatgrafiek), Device 3 (apparaatgrafiek). </li> 
+      <li id="li_2557CE3F109C42DC8CB5E99B93E96265">Segment 1 is gebaseerd op deze eigenschappen en kwalificatielogica: segment 1 = eigenschap A en eigenschap B en eigenschap C. </li> 
+      <li id="li_F7D559B3C0CA424DA2C1A0703C1E1717">3 apparaatprofielen: apparaat 1 (huidige apparaat), apparaat 2 (apparaatgrafiek), apparaat 3 (apparaatgrafiek). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Handelingen</b> </p> </td> 
-   <td colname="col2"> <p>Elk beschikbaar kenmerk is gekoppeld aan een apparaat: </p> <p> 
+   <td colname="col1"> <p> <b>Acties</b> </p> </td> 
+   <td colname="col2"> <p>Elke beschikbare eigenschap is gekoppeld aan een apparaat: </p> <p> 
      <ul id="ul_E60A5CBBEC484BB78F2A4AB0D6306019"> 
-      <li id="li_26D7300BA0164426949FA43A60AC7023">Apparaat 1: Trait A </li> 
-      <li id="li_B0C3D7ACC7754ED985974317362AFF85">Apparaat 2: Vak B </li> 
-      <li id="li_32C32DD0E87F461AA2C7FB77FB35C6DA">Apparaat 3: Vak C </li> 
+      <li id="li_26D7300BA0164426949FA43A60AC7023">Apparaat 1: eigenschap A </li> 
+      <li id="li_B0C3D7ACC7754ED985974317362AFF85">Apparaat 2: eigenschap B </li> 
+      <li id="li_32C32DD0E87F461AA2C7FB77FB35C6DA">Apparaat 3: eigenschap C </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultaten</b> </p> </td> 
-   <td colname="col2"> <p>Gezien de voorgaande elementen is de totale populatie voor segment 1 één. </p> <p>In dit geval, gebruikt de Regel <span class="wintitle"> van de Fusie van het</span> Profiel alle apparaten en hun eigenschappen om segmentkwalificatie te beslissen. Dit betekent Apparaten 1, 2, en 3 kwalificeren voor Segment 1, maar, zoals hierboven vermeld, is slechts Apparaat 1 inbegrepen in de segmentpopulatie in real time. Dit komt omdat: </p> <p> 
+   <td colname="col2"> <p>Gezien de voorgaande elementen is de totale populatie voor segment 1 één. </p> <p>In dit geval gebruikt de <span class="wintitle">regel voor profielsamenvoeging</span> alle apparaten en hun eigenschappen om de segmentkwalificatie te bepalen. Dit betekent dat apparaten 1, 2 en 3 kwalificeren voor segment 1, maar zoals hierboven vermeld, is alleen apparaat 1 inbegrepen in de realtime-segmentpopulatie. Dat komt hierdoor: </p> <p> 
      <ul id="ul_5958E1A0E1514B6BA31DF5551401AF38"> 
-      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Apparaat 1 is het huidige apparaat dat met de Servers <span class="wintitle"> van de Gegevensverzameling van de Audience Manager</span> (DCS<span class="wintitle"></span>) in real time in wisselwerking staat. </li> 
-      <li id="li_57165E96289F4E20BF2244BC68B90BA3">Apparaten 2 en 3 worden aan Apparaat 1 geassocieerd door een apparatengrafiek maar zij communiceren niet met DCS tezelfdertijd zoals Apparaat 1. </li> 
-     </ul> </p> <p>Dientengevolge, zijn de Apparaten 2 en 3 niet inbegrepen in de metrische populatie in real time. </p> </td> 
+      <li id="li_E4F68B12ED944416ACBEAF7BF61CA4E7">Apparaat 1 is het huidige apparaat dat in real time communiceert met de <span class="wintitle">servers voor dataverzameling</span> (<span class="wintitle">DCS</span>) van Audience Manager. </li> 
+      <li id="li_57165E96289F4E20BF2244BC68B90BA3">Apparaten 2 en 3 zijn aan apparaat 1 gekoppeld door een apparaatgrafiek, maar communiceren niet met de DCS op hetzelfde moment als apparaat 1. </li> 
+     </ul> </p> <p>Daardoor worden apparaten 2 en 3 niet opgenomen in de cijfers van de realtime-segmentpopulatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
  
 
-**Kan ik het totale aantal apparaten zien die voor een specifiek segment met een[!UICONTROL Profile Merge Rule]die apparatengrafiek worden gekwalificeerd?**
+**Kan ik het totale aantal apparaten zien dat kwalificeert voor een specifiek segment met een [!UICONTROL Profile Merge Rule] die gebruikmaakt van een apparaatgrafiek?**
 
-Ja. De totale metrische segmentpopulatie omvat de extra apparaten die voor een segment gekwalificeerd hebben dat op de verbindingen van een apparatengrafiek wordt gebaseerd.
+Ja. Het cijfer van de totale segmentpopulatie omvat de extra apparaten die kwalificeren voor een segment op basis van de verbindingen van een apparaatgrafiek.
 
 <table id="table_932E61B1D4374DD58F673C3B35C365EB"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Hoofdelement gebruiken </th> 
+   <th colname="col1" class="entry"> Gebruiksscenario-element </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Voorwaarden</b> </p> </td> 
-   <td colname="col2"> <p>Veronderstel wij hebben: </p> <p> 
+   <td colname="col2"> <p>Laten we uitgaan van het volgende: </p> <p> 
      <ul id="ul_DC0AC0F79323451C8C2480E4A85AE2EB"> 
-      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">Segment 1 is gebaseerd op deze kenmerken en kwalificatielogica: Segment 1 = Trait A en Trait B en Trait C. </li> 
-      <li id="li_6628727DDD0644BF8F5B6A8A9FA71E67">3 apparaatprofielen: Device 1 (huidige apparaat), Device 2 (apparaatgrafiek), Device 3 (apparaatgrafiek). </li> 
+      <li id="li_790F24FA1F0747F385640EDB1AE9E59E">Segment 1 is gebaseerd op deze eigenschappen en kwalificatielogica: segment 1 = eigenschap A en eigenschap B en eigenschap C. </li> 
+      <li id="li_6628727DDD0644BF8F5B6A8A9FA71E67">3 apparaatprofielen: apparaat 1 (huidige apparaat), apparaat 2 (apparaatgrafiek), apparaat 3 (apparaatgrafiek). </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Associaties</b> </p> </td> 
-   <td colname="col2"> <p>Elk beschikbaar kenmerk is gekoppeld aan een apparaat: </p> <p> 
+   <td colname="col1"> <p> <b>Koppelingen</b> </p> </td> 
+   <td colname="col2"> <p>Elke beschikbare eigenschap is gekoppeld aan een apparaat: </p> <p> 
      <ul id="ul_FE16B1639D2541009110E77A605D2CE0"> 
-      <li id="li_25959C3822384CFAB8B18D3CD80A30DD">Apparaat 1: Trait A </li> 
-      <li id="li_CDAC38F4CF3A4BEDA49A92BAEC48583E">Apparaat 2: Vak B </li> 
-      <li id="li_6063A91C482E48FD9FC5C00600B05E31">Apparaat 3: Vak C </li> 
+      <li id="li_25959C3822384CFAB8B18D3CD80A30DD">Apparaat 1: eigenschap A </li> 
+      <li id="li_CDAC38F4CF3A4BEDA49A92BAEC48583E">Apparaat 2: eigenschap B </li> 
+      <li id="li_6063A91C482E48FD9FC5C00600B05E31">Apparaat 3: eigenschap C </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Resultaten</b> </p> </td> 
-   <td colname="col2"> <p>Gezien de voorgaande elementen bedraagt de totale populatie voor segment 1 drie (3). </p> <p>In dit geval, gebruikt de Regel <span class="wintitle"> van de Fusie van het</span> Profiel alle apparaten en hun eigenschappen om segmentkwalificatie te beslissen. Dit betekent Apparaten 1, 2, en 3 kwalificeren voor Segment 1 en alle drie zijn inbegrepen in de totale bevolking. </p> </td> 
+   <td colname="col2"> <p>Gezien de voorgaande elementen is de totale populatie voor segment 1 drie (3). </p> <p>In dit geval gebruikt de <span class="wintitle">regel voor profielsamenvoeging</span> alle apparaten en hun eigenschappen om de segmentkwalificatie te bepalen. Dit betekent dat apparaten 1, 2 en 3 kwalificeren voor segment 1 en dat ze alle drie zijn opgenomen in de totale populatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
  
 
-**Zijn de apparaten die voor een segment met een segment kwalificeren[!UICONTROL Profile Merge Rule]die een apparatengrafiek gebruikt inbegrepen in de[!UICONTROL Interactive]rapporten,[!UICONTROL Overlap]rapporten en[!UICONTROL Audience Optimization]rapporten?**
+**Zijn apparaten die kwalificeren voor een segment met een [!UICONTROL Profile Merge Rule] die gebruikmaakt van een apparaatgrafiek, opgenomen in de [!UICONTROL Interactive] rapporten, [!UICONTROL Overlap] rapporten en [!UICONTROL Audience Optimization]-rapporten?**
 
 Nee.
 
