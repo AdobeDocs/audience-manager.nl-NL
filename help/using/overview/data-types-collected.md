@@ -1,77 +1,77 @@
 ---
-description: Met Audience Manager kunt u gegevens van andere leveranciers, leveranciers en derden verzamelen en beheren.
-seo-description: Met Audience Manager kunt u gegevens van andere leveranciers, leveranciers en derden verzamelen en beheren.
-seo-title: Typen verzamelde gegevens
+description: Met Audience Manager kunt u data van eerste, tweede en derde partijen verzamelen en beheren.
+seo-description: Met Audience Manager kunt u data van eerste, tweede en derde partijen verzamelen en beheren.
+seo-title: Verzamelde datatypen
 solution: Audience Manager
-title: Typen verzamelde gegevens
+title: Verzamelde datatypen
 uuid: a2ddf470-32e6-41ec-a1d7-a6232ef084b9
 feature: overview
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '867'
-ht-degree: 0%
+ht-degree: 73%
 
 ---
 
 
-# Typen verzamelde gegevens {#types-of-data-collected}
+# Verzamelde datatypen {#types-of-data-collected}
 
-[!DNL Audience Manager] helpt u bij het verzamelen en beheren van gegevens van eerste en tweede partijen en van derden.
+[!DNL Audience Manager]Met kunt u data van eerste, tweede en derde partijen verzamelen en beheren.
 
-Het ontgrendelen van de middelen van de klanteninformatie die in veelvoudige silo&#39;s worden opgeslagen is één van de grootste gegevensuitdagingen waarmee bedrijven vandaag worden geconfronteerd. Van [!DNL CRM] gegevensbestanden, tot registratiesystemen, tot en met servers, etc., vereisen de bedrijven hulpmiddelen die helpen waardevolle gegevens centraliseren en klant/publieksinformatie als één enkel strategisch gegevensmiddel beheren. [!DNL Audience Manager] helpt u geïsoleerde klanteninformatie te ontgrendelen en gegevensinzameling van veelvoudige bronnen te beheren. De verzamelde gegevens kunnen worden beheerd gebaseerd op tijd-aan-levende ([!DNL TTL]) waarden van het gegevenselement, die de gegevensvervaldatum van de uitgever over alle bronnen helpt controleren. [!DNL Audience Manager] is ontworpen om u te helpen de volgende soorten gegevens beheren:
+Het ontgrendelen van klantinformatie-assets die zijn opgeslagen in meerdere silo’s, is één van de grootste uitdagingen voor data waarmee bedrijven tegenwoordig te maken hebben. From [!DNL CRM] databases, to registration systems, to ad servers, and so forth, companies require tools that help centralize valuable data and manage customer/audience information as a single strategic data asset. [!DNL Audience Manager] helpt u geïsoleerde klantinformatie te ontgrendelen en dataverzameling van meerdere bronnen te beheren. Collected data can be managed based on data element time-to-live ([!DNL TTL]) values, which helps the publisher control data expiration across all sources. [!DNL Audience Manager] is ontworpen om u te helpen de volgende datatypen te beheren:
 
-| Gegevenstype | Waarvan gegevens afkomstig zijn |
+| Datatype | Waar dat vandaan komen |
 |---|---|
-| **Eerste partij** | Klanten. Gegevens worden online (via consumenteninteracties op uw websites) of offline verzameld. |
+| **Eerste partij** | Klanten. Data worden online verzameld (via interacties met consumenten op uw websites) of offline. |
 | **Tweede partij** | Strategische partners en adverteerders. |
-| **Derden** | Verleners en/of uitwisseling van gegevens. De gegevens kunnen informatie zoals intent, demografie, sociale/levensstijl, psychografisch, en meer omvatten. |
+| **Derde partij** | Dataproviders en/of data-uitwisseling. Data kunnen informatie bevatten zoals intentie, demografie, sociale stijl/levensstijl, psychografie, en meer. |
 
-## Gegevensverzameling van eerste partijen {#first-party-data}
+## Dataverzameling van eerste partijen {#first-party-data}
 
-De gegevensinzameling van de eerste partij is een belangrijkste [!DNL Audience Manager] eigenschap. Met deze kerncompetentie wordt tegemoetgekomen aan de behoeften van onze klanten (uitgevers of adverteerders) die bedrijfseigen gegevens willen gebruiken als de hoeksteen van hun marketingprogramma&#39;s, of die zich willen richten op en modelleren van andere gegevensbronnen.
+First-party data collection is a main [!DNL Audience Manager] feature. Met deze kerncompetentie wordt tegemoetgekomen aan de behoeften van onze klanten (uitgevers of adverteerders) die bedrijfseigen data willen gebruiken als de hoeksteen van hun marketingprogramma’s, of die willen targeten en modelleren tegenover andere databronnen.
 
-[!DNL Audience Manager] werkt met klanten om hun gegevensstrategie te begrijpen en brengt dan die strategie terug naar een douane gegeven-inzamelingsplan in kaart. Ons team van Oplossingen van de Partner werkt met u om plaatsen, ruwe gegevenssignalen, en andere gebruikersinteractie op uw websites te evalueren. Op basis van deze informatie helpen we u een op maat gemaakte strategie voor gegevensverzameling te ontwikkelen waarmee op gebruikersniveau gegevenssignalen van verschillende pagina&#39;s in uw overzicht worden vastgelegd. Vastgelegde gegevens worden opgeslagen en terug toegewezen aan een vooraf bepaalde taxonomie, die op elk ogenblik kan worden bijgewerkt, aangezien uw bedrijfsbehoeften veranderen.
+[!DNL Audience Manager] werkt met klanten om hun datastrategie te begrijpen, en past die strategie vervolgens toe op een aangepast dataverzamelplan. Ons team voor partneroplossingen werkt met u samen om websites, onbewerkte datasignalen en andere gebruikersinteractie op uw websites te evalueren. Aan de hand van deze informatie helpen we u bij het maken van een aangepaste strategie voor dataverzameling die datasignalen op gebruikersniveau van diverse pagina’s in uw inventory vastlegt. Vastgelegde data worden opgeslagen en weer toegepast op een vooraf gedefinieerde taxonomie die op elk moment kan worden bijgewerkt, wanneer uw bedrijfsbehoeften veranderen.
 
-In het volgende voorbeeld ziet u hoe mogelijke gegevenselementen kunnen worden vastgelegd op een pagina waarop u monsters kunt nemen.
+In het volgende voorbeeld ziet u hoe mogelijke data-elementen kunnen worden vastgelegd van voorbeeldwinkelpagina.
 
-![winkelwagentje](assets/shopping-cart-data.png)
+![shopping-cart-data](assets/shopping-cart-data.png)
 
 | Item | Beschrijving |
 |---|---|
-| 1 | **Geslacht**. De voornaam van een winkelier geeft meestal het geslacht aan. In ons voorbeeld is de voornaam van de verkoopster Mary, dus we weten dat de verkoopster een vrouw is. Namen worden nooit door Audience Manager opgeslagen. |
-| 2 | **Belangen**. De artikelen in het winkelwagentje kunnen verschillende belangen aangeven. In ons voorbeeld besteedt Mary veel aan fitnessapparatuur. |
-| 3 | **Huisvestingstype**. Op basis van de verzendings- en/of factureringsadressen kunt u afleiden of Mary fitness-apparatuur voor zichzelf of voor een bedrijf koopt. |
+| 1 | **Geslacht**. De voornaam van iemand die winkelt, geeft meestal het geslacht aan. In ons voorbeeld is de voornaam van de winkelende persoon Mary, dus we weten dat het een vrouw is. Namen worden nooit opgeslagen door Audience Manager. |
+| 2 | **Interesses**. De artikelen in de winkelwagen kunnen op verschillende interesses wijzen. In ons voorbeeld besteedt Mary veel geld aan fitnessapparatuur. |
+| 3 | **Type adres**. Op basis van het verzend- en/of factuuradres kunt u afleiden of Mary fitnessapparatuur koopt voor zichzelf of voor een bedrijf. |
 | 4 | **Locatie**. [!DNL ZIP] codes zijn betrouwbaarder dan [!DNL IP] adressen wanneer het aanwijzen van een plaats aankomt. |
-| 5 | **Promotie-affiniteit**. Als een winkelier promotionele codes of cadeaukaarten gebruikt, is het waarschijnlijk een jager die naar de beste deals zoekt. |
-| 6 | **Besparing**. Prijsgegevens die correleerden met [!DNL ZIP+4] codes geven de bestedingskracht van een bepaalde locatie aan. |
+| 5 | **Affiniteit met aanbiedingen**. Als iemand die winkelt, reclamecodes of cadeaukaarten gebruikt, is het waarschijnlijk een koopjesjager die de beste deals zoekt. |
+| 6 | **Koopkracht**. Price data correlated with [!DNL ZIP+4] codes indicate spending power of a given location. |
 
-Nadat de onbewerkte gegevens zijn verzameld, worden deze opnieuw toegewezen aan door de klant gedefinieerde kenmerken binnen het [!DNL Audience Manager] platform. Zowel de taxonomie als de gegevenstoewijzingen kunnen op elk ogenblik worden aangepast zonder veranderingen in de code van de gegevensinzameling aan te brengen.
+After the raw data is collected, it gets mapped back to customer-defined traits within the [!DNL Audience Manager] platform. Zowel de taxonomie als de datatoewijzingen kunnen op elk moment worden aangepast zonder de code voor dataverzameling te hoeven wijzigen.
 
-## Gegevensverzameling van tweede partijen {#second-party-data}
+## Dataverzameling van tweede partijen {#second-party-data}
 
-De gegevens van de tweede partij komen van een strategische bedrijfspartner (het is geen uitgeversgegevens). Deze informatie wordt verzameld en beheerd enkel zoals de gegevens van de eerste partij.
+De data van tweede partijen komen van strategische bedrijfspartners (het zijn geen uitgeversdata). Deze informatie wordt net zo verzameld en beheerd als de data van eerste partijen.
 
-In een tweede gegevensscenario sturen adverteerders hun eigen gegevensmiddelen naar uitgevers zodat ze die informatie kunnen combineren met de gegevens van de uitgever en vervolgens een gerichter reclameprogramma kunnen uitvoeren. Bovendien kunnen uitgevers hun publiek uitbreiden door samen te werken met hun adverteerders. In de meeste gevallen, impliceren deze regelingen contractuele verhoudingen beperkt tot het zetten van de [!DNL Audience Manager] containermarkering op de partnerplaats om gegevensinzameling en het delen te vergemakkelijken.
+Een gebruiksscenario voor data van tweede partijen sturen adverteerders hun eigen data-assets naar uitgevers om die informatie te combineren met de data van de uitgever en vervolgens een beter getarget advertentieprogramma te kunnen uitvoeren. Bovendien kunnen uitgevers hun pool van doelgroepen uitbreiden door samen te werken met hun adverteerders. In most cases, these arrangements involve contractual relationships limited to putting the [!DNL Audience Manager] container tag on the partner site to facilitate data collection and sharing.
 
-Een voorbeeld van verzameling en hermarketing van gegevens van de tweede partij zou een kledinghandelaar kunnen omvatten die gegevens over zijn producten verzamelt en dan deze informatie met zeer belangrijke partners deelt. In dit geval kunnen de detailhandelaren verschillende advertenties op een [!DNL Audience Manager] partnersite leveren voor consumenten die verschillende jaskleuren en -grootten hebben gekozen.
+Een voorbeeld van het verzamelen en remarketen van data van tweede partijen is een kledinghandelaar die data verzamelt over zijn producten en deze informatie dan met belangrijke partners deelt. In this case, the retailed could serve different ads across an [!DNL Audience Manager] partner site for consumers who chose various jacket colors and sizes.
 
 ![](assets/shopping-cart-traits.png)
 
-## Gegevensverzameling van derden {#third-party-data}
+## Dataverzameling van derde partijen {#third-party-data}
 
-Gegevens van derden worden verzameld en gedeeld door leveranciers buiten [!DNL Audience Manager]de locatie.
+Data van derde partijen worden verzameld en gedeeld door leveranciers buiten [!DNL Audience Manager].
 
-Gegevens van derden kunnen worden gebruikt om bestaande gegevens te kwalificeren [!UICONTROL segments] (bijvoorbeeld leeftijd, inkomen van huishoudens, enzovoort), om gegevens te verstrekken die in vraag zijn maar niet anderszins beschikbaar zijn, of om te worden gebruikt in normale modellering tegen een bekende gebruikersbasis van gegevens van eerste en tweede partij. [!DNL Audience Manager] werkt met veel externe gegevensleveranciers en helpt u het type gegevens te begrijpen dat deze gegevensleveranciers verzamelen, zodat u de juiste strategische deals met elke leverancier kunt maken.
+Third-party data can be used to qualify existing data [!UICONTROL segments] (for example, age, household income, and so forth), provide data that is in demand but not otherwise available, or be used in lookalike modeling against a known user base from first-party and second-party data. [!DNL Audience Manager] werkt met veel externe dataleveranciers en helpt u begrijpen welk type data deze dataleveranciers verzamelen, waardoor u met elke provider de juiste strategische deals kunt maken.
 
 >[!NOTE]
 >
->Raadpleeg de [!DNL Audience Manager]Adobe Audience Finder voor een volledige lijst met gegevensproviders van derden die worden ondersteund door [Adobe](https://www.adobe-audience-finder.com/).
+>Zie [Adobe Audience Finder](https://www.adobe-audience-finder.com/) voor een volledige lijst met derdepartijdataleveranciers die worden ondersteund door [!DNL Audience Manager].
 
-[!DNL Audience Manager] integreert met andere gegevensleveranciers die op hun beschikbare [!DNL APIs] en gegevensreeksen worden gebaseerd. De inzameling van gegevens werkt in real time, aangezien een gebruiker uw plaats doorbladert, of via out-of-band methodes waar IDs tussen partners wordt gesynchroniseerd en het gegeven tussen servers wordt overgebracht nadat een gebruiker uw plaats heeft verlaten. In beide gevallen krijgen [!DNL Audience Manager] clients het voordeel dat gegevens van derden op ons platform worden gesynchroniseerd. Dit betekent dat elke client of domein geen eigen synchronisatie hoeft uit te voeren. Dit helpt bereik verhogen en vermindert servervraag van de pagina.
+[!DNL Audience Manager] integreert met andere gegevensleveranciers die op hun beschikbare [!DNL APIs] en gegevensreeksen worden gebaseerd. Dataverzameling werkt in real time, terwijl een gebruiker door uw website bladert, of via out-of-band methodes waar id’s worden gesynchroniseerd tussen partners en data worden overgedragen tussen servers nadat een gebruiker uw website heeft verlaten. In either case, [!DNL Audience Manager] clients get the benefit of having third-party data synchronized on our platform, which means each client, or domain, does not have to perform its own synchronization. Daardoor wordt het bereik groter en vermindert het aantal servercalls van de pagina.
 
-## Identieke partners {#match-partners}
+## Matchpartners {#match-partners}
 
-Vele cliënten verkiezen om met derdegegevens-gelijke partners te werken. Deze entiteiten hebben verhoudingen met plaatsen die registratievereisten hebben en kunnen dossiers van klantengegevens verwerken door hen (in real time) aan te passen die op hun registratienetwerk worden gebaseerd.
+Veel klanten werken bij voorkeur met derdepartij-datamatchpartners. Deze entiteiten hebben relaties met websites die registratievereisten hanteren, en kunnen klantdata verwerken door deze (in real time) te matchen tegen hun registratienetwerk.
 
 ![data-provider-match](assets/data-provider-match.png)
