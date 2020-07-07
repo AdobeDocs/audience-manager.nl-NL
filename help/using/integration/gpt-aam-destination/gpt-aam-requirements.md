@@ -1,23 +1,23 @@
 ---
-description: U kunt gekwalificeerde segmenten naar DFP of door een cliënt-kant of door een server-zijintegratie verzenden. Vereisten en gerelateerde informatie over beide methoden worden hieronder vermeld.
-seo-description: U kunt gekwalificeerde segmenten naar DFP of door een cliënt-kant of door een server-zijintegratie verzenden. Vereisten en gerelateerde informatie over beide methoden worden hieronder vermeld.
-seo-title: Vereisten en methoden voor het verzenden van segmenten naar DFP met Google Publisher-tags (GPT)
+description: U kunt gekwalificeerde segmenten naar Google Ad Manager verzenden via een client-side of via een serverintegratie. Vereisten en gerelateerde informatie over beide methoden worden hieronder vermeld.
+seo-description: U kunt gekwalificeerde segmenten naar Google Ad Manager verzenden via een client-side of via een serverintegratie. Vereisten en gerelateerde informatie over beide methoden worden hieronder vermeld.
+seo-title: Vereisten en methoden voor het verzenden van segmenten naar Google Ad Manager via Google Publisher-tags (GPT)
 solution: Audience Manager
-title: Vereisten en methoden voor het verzenden van segmenten naar DFP met Google Publisher-tags (GPT)
+title: Vereisten en methoden voor het verzenden van segmenten naar Google Ad Manager via Google Publisher-tags (GPT)
 uuid: 4b2ea81c-29bb-42d3-93d3-1d8e677790b6
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
 
-# Vereisten en methoden voor het verzenden van segmenten naar DFP met Google Publisher-tags (GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
+# Vereisten en methoden voor het verzenden van segmenten naar Google Ad Manager via Google Publisher-tags (GPT) {#requirements-and-methods-of-sending-segments-to-dfp-using-google-publisher-tags-gpt}
 
-U kunt gekwalificeerde segmenten naar [!DNL DFP] of door een cliënt-kant of door een server-zijintegratie verzenden. Vereisten en gerelateerde informatie over beide methoden worden hieronder vermeld.
+U kunt gekwalificeerde segmenten naar [!DNL Google Ad Manager] (voorheen DFP) verzenden via een client-side of via een serverintegratie. Vereisten en gerelateerde informatie over beide methoden worden hieronder vermeld.
 
 ## Integratie op de client {#client-side-integration}
 
@@ -47,7 +47,7 @@ De hoeveelheid gegevens die wordt doorgegeven aan, is [!DNL GPT] afhankelijk van
 
 ## Integratie op de server {#server-side-integration}
 
-Neem contact op met de consultant van de Audience Manager of de klantenservice als u een integratie op de server wilt instellen met [!DNL DFP]behulp van [!DNL GPT]de service. U zult uw identiteitskaart van het [!DNL DFP] RekeningNetwerk en identiteitskaart van de Verbinding van het Publiek moeten verstrekken.
+Neem contact op met de consultant van de Audience Manager of de klantenservice als u een integratie op de server wilt instellen met [!DNL Google Ad Manager]behulp van [!DNL GPT]de service. U zult uw identiteitskaart van het [!DNL Google Ad Manager] RekeningNetwerk en identiteitskaart van de Verbinding van het Publiek moeten verstrekken.
 
 >[!IMPORTANT]
 >
