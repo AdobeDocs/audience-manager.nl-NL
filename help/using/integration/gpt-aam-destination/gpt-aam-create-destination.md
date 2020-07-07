@@ -1,27 +1,27 @@
 ---
-description: U kunt gekwalificeerde segmenten naar DFP door een cliënt-zijintegratie (browser-kant), of een server-zijintegratie verzenden. Als u kiest voor integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
-seo-description: U kunt gekwalificeerde segmenten naar DFP door een cliënt-zijintegratie (browser-kant), of een server-zijintegratie verzenden. Als u kiest voor integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
-seo-title: Een GPT-doel maken
+description: U kunt gekwalificeerde segmenten naar Google Ad Manager verzenden via integratie op de client (browser) of via integratie op de server. Als u kiest voor integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
+seo-description: U kunt gekwalificeerde segmenten naar Google Ad Manager verzenden via integratie op de client (browser) of via integratie op de server. Als u kiest voor integratie op de client, moet u een op cookies gebaseerde bestemming maken voor Google Publisher-tags in Audience Manager.
+seo-title: Een GPT-bestemming maken
 solution: Audience Manager
-title: Een GPT-doel maken
+title: Een GPT-bestemming maken
 uuid: e3bbf327-a7e0-48da-bc84-8f531b7f6750
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 0%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
 
-# Een GPT-doel maken {#create-a-gpt-destination}
+# Een GPT-bestemming maken {#create-a-gpt-destination}
 
-U kunt gekwalificeerde segmenten naar [!DNL DFP] een client-side (browser-side) integratie of een server-side integratie sturen. Als u de client-side integratie kiest, moet u een op cookies gebaseerde bestemming maken voor [!DNL Google Publisher Tags] in Audience Manager.
+U kunt gekwalificeerde segmenten naar [!DNL Google Ad Manager] een client-side (browser-side) integratie of een server-side integratie sturen. Als u de client-side integratie kiest, moet u een op cookies gebaseerde bestemming maken voor [!DNL Google Publisher Tags] in Audience Manager.
 
-## Doelen
+## Bestemmingen 
 
-In Audience Manager, *`destination`* is een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]**en volg deze om aan de slag te gaan.
+In Audience Manager, *`destination`* is een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u data wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in *[!UICONTROL Audience Data]>[!UICONTROL Destinations]*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]**en volg deze om aan de slag te gaan.
 
 ## Basisinformatie
 
