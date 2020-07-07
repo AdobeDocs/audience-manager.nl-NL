@@ -8,9 +8,9 @@ title: Actiegerichte logboekbestanden
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: d3fd387478ac00470537124110299cd264eac499
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1597'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 3%
 Om met te beginnen [!UICONTROL Actionable Log Files], moet u logboekgegevens invoeren in [!DNL Audience Manager]. Aan de slag met de volgende koppelingen:
 
 * Zie DCM-gegevensbestanden [!UICONTROL Google DCM] importeren in Audience Manager [voor](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) logbestanden *en neem* contact op met uw [!DNL Audience Manager] consultant.
-* Zie DFP-gegevensbestanden [!UICONTROL Google DFP] importeren in Audience Manager [voor](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) logbestanden *en neem* contact op met uw [!DNL Audience Manager] consultant.
+* Zie DFP-gegevensbestanden [!UICONTROL Google Ad Manager] importeren in Audience Manager [voor logbestanden](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) (voorheen Google DFP) *en neem* contact op met uw [!DNL Audience Manager] consultant.
 * Zie [Gegevens- en metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *en neem* contact op met uw [!DNL Audience Manager] consultant voor andere aanmeldingen op de advertentieserver.
 
 Als u reeds logboekgegevens in invoert [!DNL Audience Manager], vraag uw [!DNL Audience Manager] consultant of [Klantenservice](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) om [!UICONTROL Actionable Log Files] voor u toe te laten.
@@ -163,6 +163,35 @@ Removed  {importance="high"} for ExL
 >
 >* Als een tijdstempel niet beschikbaar is voor een gegevensrij in het [!DNL DCM] logbestand, gebruiken we de tijd van de `HTTP` aanroep als tijdstempel voor de gebeurtenis.
 >* Als de gegevensrij in het [!DNL DCM] logbestand een verkeerd gevormde tijdstempel bevat, negeren we de hele rij.
+
+
+<br> 
+
+### Handbare signalen van [!DNL Google Ad Manager] logboeken {#ad-manager-logs-signals}
+
+De lijst maakt een lijst van de actioneerbare signalen van [!DNL Google Ad Manager] logboekdossiers:
+
+
+| Naam koptekst in logbestand | Signaal | Beschrijving |
+---------|----------|---------
+| `LineItemId` | `d_lineitem` | De numerieke id voor het geleverde regelitem Advertentiebeheer |
+| `OrderId` | `d_orderid` | De numerieke id voor de volgorde van Advertentiebeheer waarin het geleverde regelitem en de creatieve functie zijn opgenomen. |
+| `CreativeId` | `d_creative` | De numerieke id voor de geleverde advertentiemanager. |
+| `-` | `d_event` | Geeft het gebeurtenistype aan. Audience Manager leest het gebeurtenistype van het AdManager logboekdossier - naam en zet het in een actionable signaal om. Accepteerde waarden zijn: <br> <ul><li>d_event = imp voor impressies.</li><li>d_event = click voor kliks.</li><li>d_event = conv voor conversies en activiteiten.</li></ul> |
+| `-` | `d_src` | De id van de gegevensbron die u gebruikt om Advertentiebeheergegevens vast te leggen. Zie [Hoe te om een Gegevensbron](/help/using/features/manage-datasources.md)tot stand te brengen. |
+
+De signalen die in de lijst worden beschreven worden gevangen in Audience Manager als een vraag in real time van HTTP. De onderstaande voorbeeldaanroep bevat informatie over een conversiegebeurtenis van Google Ad Manager. De vraag moet niet noodzakelijk alle signalen in de voorbeeldvraag omvatten.
+
+```
+https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_lineitem=112&d_orderid=22223&d_creative=3983524
+```
+
+>[!NOTE]
+>
+>De tijdstempel voor de gebeurtenis die in de [!DNL Google Ad Manager] logboeken wordt opgegeven, wordt gerespecteerd en doorgegeven aan de [!UICONTROL Data Collection Servers]gebruiker.
+>
+>* Als een tijdstempel niet beschikbaar is voor een gegevensrij in het [!DNL Google Ad Manager] logbestand, gebruiken we de tijd van de `HTTP` aanroep als tijdstempel voor de gebeurtenis.
+>* Als de gegevensrij in het [!DNL Google Ad Manager] logbestand een verkeerd gevormde tijdstempel bevat, negeren we de hele rij.
 
 
 <br> 
