@@ -1,21 +1,21 @@
 ---
 description: Het rapport van de Prestaties van het Segment vergelijkt in kaart gebrachte en unmapped segmenten door impressies en in real time de Uniques van het Segment. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Het vergelijken van deze verschillende segmenttypes binnen en tussen rapporten helpt u bestaande campagnes optimaliseren en over het hoofd gezien segmenten vinden die u naar een bestemming voor het richten kunt verzenden.
 seo-description: Het rapport van de Prestaties van het Segment vergelijkt in kaart gebrachte en unmapped segmenten door impressies en in real time de Uniques van het Segment. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Het vergelijken van deze verschillende segmenttypes binnen en tussen rapporten helpt u bestaande campagnes optimaliseren en over het hoofd gezien segmenten vinden die u naar een bestemming voor het richten kunt verzenden.
-seo-title: Rapport Segmentprestaties
+seo-title: Segmentprestatierapport
 solution: Audience Manager
-title: Rapport Segmentprestaties
+title: Segmentprestatierapport
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 0%
+source-wordcount: '722'
+ht-degree: 1%
 
 ---
 
 
-# Rapport Segmentprestaties{#segment-performance-report}
+# Segmentprestatierapport{#segment-performance-report}
 
 Het rapport van de Prestaties van het Segment vergelijkt in kaart gebrachte en unmapped segmenten door impressies en in real time de Uniques van het Segment.
 
@@ -44,7 +44,7 @@ Gebruik de **[!UICONTROL Segment]** drop-down doos om te selecteren welke segmen
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Line Item IDs], zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)wordt beschreven omvatten. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Line Item] in plaats van het [!UICONTROL Line Item ID].
+>Wanneer u deze optie inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Audience Optimization for Publishers]de bestanden opnemen, zoals wordt beschreven in stap 3 van Google Ad Manager (voorheen DFP)-gegevensbestanden [!UICONTROL Line Item IDs]importeren in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Line Item] in plaats van het [!UICONTROL Line Item ID].
 
 ## De resultaten interpreteren {#interpreting-results}
 
