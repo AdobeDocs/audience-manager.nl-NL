@@ -7,10 +7,10 @@ title: Overlap van advertentie-eenheid
 uuid: e4467e81-acbf-474e-b501-89d57395651f
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '432'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Het **[!UICONTROL Ad Unit Overlap]** rapport wordt weergegeven als een warmtediagram dat hoge en lage overlappingen tussen uw advertentie-eenheden markeert.
 
-## Hoofdletters gebruiken {#use-cases}
+## Gebruiksscenario {#use-cases}
 
 Met het **[!UICONTROL Ad Unit Overlap]** rapport kunt u meer inzicht krijgen in waar uw publiek de wegeigenschappen overlapt. In het rapport worden uw 100 belangrijkste verwante eigenschappen besproken en wordt de overlapping tussen deze eigenschappen weergegeven.
 
@@ -33,7 +33,7 @@ Gebruik de **[!UICONTROL Base Ad Unit]** besturingselementen en de **[!UICONTROL
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Ad Unit IDs], zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)wordt beschreven omvatten. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Ad Unit] in plaats van het [!UICONTROL Ad Unit ID].
+>Wanneer u deze optie inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Audience Optimization for Publishers]de bestanden opnemen, zoals wordt beschreven in stap 3 van Google Ad Manager (voorheen DFP)-gegevensbestanden [!UICONTROL Ad Unit IDs]importeren in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Ad Unit] in plaats van het [!UICONTROL Ad Unit ID].
 
 ## De resultaten interpreteren {#interpreting-results}
 
@@ -59,11 +59,11 @@ Uw [!UICONTROL Ad Unit Overlap] rapport kan er ongeveer zo uitzien als hieronder
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aantal Unieke eenheden overlappen</span> </p> </td> 
-   <td colname="col2"> <p>Het aantal gebruikers dat de advertentie-eenheid 9-18 heeft bezocht. Deze informatie wordt uit de DFP-logboeken gehaald. </p> </td> 
+   <td colname="col2"> <p>Het aantal gebruikers dat de advertentie-eenheid 9-18 heeft bezocht. Deze informatie is afkomstig uit de logboeken van Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aantal Unieke eenheden basiseenheid</span> </p> </td> 
-   <td colname="col2"> <p>Het aantal gebruikers dat de advertentie-eenheid 1 - 8 heeft bezocht. Deze informatie wordt uit de DFP-logboeken gehaald. </p> </td> 
+   <td colname="col2"> <p>Het aantal gebruikers dat de advertentie-eenheid 1 - 8 heeft bezocht. Deze informatie is afkomstig uit de logboeken van Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aantal overlappingen</span> </p> </td> 
