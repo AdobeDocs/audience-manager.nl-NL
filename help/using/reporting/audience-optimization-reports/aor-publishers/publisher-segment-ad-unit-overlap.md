@@ -1,25 +1,25 @@
 ---
 description: Het rapport Segment to Ad Unit Overlap wordt weergegeven als een warmtegrafiek die hoge en lage overlap tussen uw advertentie-eenheden en Audience Manager-segmenten markeert.
 seo-description: Het rapport Segment to Ad Unit Overlap wordt weergegeven als een warmtegrafiek die hoge en lage overlap tussen uw advertentie-eenheden en Audience Manager-segmenten markeert.
-seo-title: Overlap segment naar advertentie-eenheid
+seo-title: Overlap van segment naar advertentie-eenheid
 solution: Audience Manager
-title: Overlap segment naar advertentie-eenheid
+title: Overlap van segment naar advertentie-eenheid
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
 
-# Overlap segment naar advertentie-eenheid{#segment-to-ad-unit-overlap}
+# Overlap van segment naar advertentie-eenheid{#segment-to-ad-unit-overlap}
 
 Het rapport Segment to Ad Unit Overlap wordt weergegeven als een warmtegrafiek die hoge en lage overlap tussen uw advertentie-eenheden en Audience Manager-segmenten markeert.
 
-## Hoofdletters gebruiken {#use-cases}
+## Gebruiksscenario {#use-cases}
 
 Met het [!UICONTROL Segment to Ad Unit Overlap] rapport kunt u begrijpen welk publiek uw wegeigenschappen bezoekt. Het rapport geeft de overlapping tussen leden van uw [!DNL Audience Manager] segmenten en het aantal bezoekers aan uw wegeigenschappen weer. Een hogere overlapping betekent dat veel leden van een segment uw webeigenschap bezoeken.
 
@@ -33,7 +33,7 @@ Gebruik de **[!UICONTROL Segment Name]** vakken en de **[!UICONTROL Ad Unit]** v
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Ad Unit IDs], zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)wordt beschreven omvatten. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Ad Unit] in plaats van het [!UICONTROL Ad Unit ID].
+>Wanneer u deze optie inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Audience Optimization for Publishers]de bestanden opnemen, zoals wordt beschreven in stap 3 van Google Ad Manager (voorheen DFP)-gegevensbestanden [!UICONTROL Ad Unit IDs]importeren in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Ad Unit] in plaats van het [!UICONTROL Ad Unit ID].
 
 ## De resultaten interpreteren {#interpreting-results}
 
@@ -59,7 +59,7 @@ Uw [!UICONTROL Segment to Ad Unit Overlap] rapport kan er ongeveer zo uitzien al
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aantal eenheden advertentie</span> </p> </td> 
-   <td colname="col2"> <p>Het aantal bezoekers voor deze specifieke advertentie-eenheid. Deze informatie wordt uit de DFP-logboeken gehaald. </p> </td> 
+   <td colname="col2"> <p>Het aantal bezoekers voor deze specifieke advertentie-eenheid. Deze informatie is afkomstig uit de logboeken van Google Ad Manager. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aantal overlappingen</span> </p> </td> 
