@@ -1,21 +1,21 @@
 ---
 description: Voeg een if-instructie toe om te controleren op cookies van Audience Managers voordat u de Google Publisher-tag .setTargeting-methode aanroept.
 seo-description: Voeg een if-instructie toe om te controleren op cookies van Audience Managers voordat u de Google Publisher-tag .setTargeting-methode aanroept.
-seo-title: Wijzig de GPT setTargeting API Vraag
+seo-title: De GPT setTargeting API-call wijzigen
 solution: Audience Manager
-title: Wijzig de GPT setTargeting API Vraag
+title: De GPT setTargeting API-call wijzigen
 uuid: 0cd38f30-5d29-4511-a779-d32587f1dafb
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# De GPT `setTargeting` API-aanroep wijzigen {#modify-the-gpt-settargeting-api-call}
+# Modify the GPT `setTargeting` API Call {#modify-the-gpt-settargeting-api-call}
 
 Voeg een if-instructie toe om te controleren op cookies van de Audience Manager voordat u de [!DNL Google Publisher Tag] `.setTargeting` methode aanroept.
 
@@ -38,11 +38,11 @@ if(typeof AamGpt.getCookie("aam_uuid") != "undefined" ){
 
 >[!IMPORTANT]
 >
->Afhankelijk van hoe u wilt integreren met [!DNL DFP], hebt u slechts enkele lijnen in het bovenstaande codevoorbeeld nodig:
+>Afhankelijk van hoe u wilt integreren met [!DNL Google Ad Manager], hebt u slechts enkele lijnen in het bovenstaande codevoorbeeld nodig:
 >
 >* Integratie op de client: alleen regel 1-3 gebruiken.
 >* Integratie op de server: geen van de regels is nodig .
->* Logbestanden [!DNL DFP] samenvoegen voor rapportage in [!DNL Audience Manager]: alleen de regels 4-6 gebruiken. Deze code voegt de waarde van het `aam_uuid` cookie in de logboeken in zodat deze kunnen worden ingepakt voor rapportage.
+>* Logbestanden [!DNL Google Ad Manager] samenvoegen voor rapportage in [!DNL Audience Manager]: alleen de regels 4-6 gebruiken. Deze code voegt de waarde van het `aam_uuid` cookie in de logboeken in zodat deze kunnen worden ingepakt voor rapportage.
 
 
 ### `AamGpt` Functies en gegevenstypen
@@ -78,6 +78,6 @@ Definieert de toetsvariabelen die in de `if` instructie worden gebruikt.
 
 >[!MORELIKETHIS]
 >
->* [Een GPT-doel maken](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
->* [Audience Manager Code voor Google Publisher-tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+>* [Een GPT-bestemming maken](../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
+>* [Audience Manager-code voor Google Publisher-tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
 
