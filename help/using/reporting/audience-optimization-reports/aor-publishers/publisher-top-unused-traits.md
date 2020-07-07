@@ -1,25 +1,25 @@
 ---
 description: De hoogste Ongebruikte Beetjes worden vertegenwoordigd als verstrooiingsdiagram van eigenschappen die nog geen leden van een segment zijn, die op het type van eigenschap, gegevensbron, en prestaties worden gebaseerd.
 seo-description: De hoogste Ongebruikte Beetjes worden vertegenwoordigd als verstrooiingsdiagram van eigenschappen die nog geen leden van een segment zijn, die op het type van eigenschap, gegevensbron, en prestaties worden gebaseerd.
-seo-title: Niet-gebruikte bovenste treinen
+seo-title: Eerste ongebruikte eigenschappen
 solution: Audience Manager
-title: Niet-gebruikte bovenste treinen
+title: Eerste ongebruikte eigenschappen
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: '647'
+ht-degree: 2%
 
 ---
 
 
-# Niet-gebruikte bovenste treinen{#top-unused-traits}
+# Eerste ongebruikte eigenschappen{#top-unused-traits}
 
 De hoogste Ongebruikte Beetjes worden vertegenwoordigd als verstrooiingsdiagram van eigenschappen die nog geen leden van een segment zijn, die op het type van eigenschap, gegevensbron, en prestaties worden gebaseerd.
 
-## Hoofdletters gebruiken {#use-cases}
+## Gebruiksscenario {#use-cases}
 
 Met het [!UICONTROL Top Unused Traits] rapport kunt u de prestaties analyseren en vergelijken van de kenmerken van de eerste en derde partij die momenteel niet aan een segment zijn toegewezen. Deze mening kan op de beste eigenschappen wijzen om in een publiekssegment voor of campagneroptimalisering of netto nieuwe kansen te gebruiken.
 
@@ -39,7 +39,7 @@ Gebruik de **[!UICONTROL Traits]** drop-down doos om te selecteren welke eigensc
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Order IDs], zoals die in Stap 3 van de Dossiers van Gegevens DFP van de [Invoer in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md)wordt beschreven omvatten. Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Order] in plaats van het [!UICONTROL Order ID].
+>Wanneer u deze optie inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Audience Optimization for Publishers]de bestanden opnemen, zoals wordt beschreven in stap 3 van Google Ad Manager (voorheen DFP)-gegevensbestanden [!UICONTROL Order IDs]importeren in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Order] in plaats van het [!UICONTROL Order ID].
 
 ## De resultaten interpreteren {#interpreting-results}
 
@@ -90,7 +90,7 @@ Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeel
 
 De positie van uw eigenschappen in een rapport kan u veel vertellen over welke eigenschappen u kon gebruiken om bestaande publiekssegmenten te optimaliseren.
 
-De kenmerken die zich hoger op de impressieas bevinden, zijn de kenmerken die u in uw campagnes wilt gebruiken. Voor eigenschappen met een laag aantal indrukkingen, is het onwaarschijnlijk dat u dit publiek op uw Web-eigenschap, gebaseerd op uw gegevens DFP bereikt.
+De kenmerken die zich hoger op de impressieas bevinden, zijn de kenmerken die u in uw campagnes wilt gebruiken. Voor eigenschappen met een laag aantal indrukkingen, is het onwaarschijnlijk dat u dit publiek op uw Web-eigenschap, gebaseerd op uw [!DNL Google Ad Manager] gegevens bereikt.
 
 Kijk links van de [!UICONTROL Unique Trait Realizations] as voor hoogst nauwkeurige eigenschappen en aan het recht voor eigenschappen die schaal kunnen drijven.
 
