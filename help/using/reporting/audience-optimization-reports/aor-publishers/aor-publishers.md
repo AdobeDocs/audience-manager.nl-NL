@@ -7,10 +7,10 @@ title: Doelgroepoptimalisatie voor uitgevers
 uuid: 8425e237-ec52-4615-bb00-84ece4ebffe1
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 4%
+source-wordcount: '274'
+ht-degree: 12%
 
 ---
 
@@ -21,19 +21,19 @@ De Optimalisering van het publiek voor Uitgevers kan u helpen potentiële presta
 
 ## Overzicht {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] voegt campagneresultaten op logniveau van [!UICONTROL DFP] met [!DNL Audience Manager] segmentmetriek samen. De rapporten zijn beschikbaar voor klanten die opstelling logboekopname van [!UICONTROL DFP] in [!DNL Audience Manager]. Als u nog geen opstelling logboekopname hebt, lees de Dossiers van Gegevens DFP van de [Invoer in Audience Manager](import-dfp.md) voor informatie over hoe te om het te doen.
+[!UICONTROL Audience Optimization for Publishers] voegt campagneresultaten op logniveau van [!DNL Google Ad Manager] met [!DNL Audience Manager] segmentmetriek samen. De rapporten zijn beschikbaar voor klanten die opstelling logboekopname van [!DNL Google Ad Manager]in [!DNL Audience Manager]. Als u nog geen logboekopname hebt ingesteld, leest u Google Ad Manager-gegevensbestanden [importeren in Audience Manager](import-dfp.md) voor meer informatie over hoe u dit kunt doen.
 
 ## Metagegevens {#metadata}
 
-De prestatiegegevens die in de rapporten worden weergegeven, worden vanuit uw [!UICONTROL DFP] exemplaar geïmporteerd. U moet metagegevensbestanden naar ons sturen, zodat we beschrijvende, vriendelijke namen aan uw items in de rapporten kunnen toevoegen in plaats van id&#39;s. Stap 3 in de Dossiers van de Gegevens van [Invoer DFP in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrijft hoe te om ons de meta-gegevens te verzenden.
+De prestatiegegevens die in de rapporten worden weergegeven, worden vanuit uw [!DNL Google Ad Manager] exemplaar geïmporteerd. U moet metagegevensbestanden naar ons sturen, zodat we beschrijvende, vriendelijke namen aan uw items in de rapporten kunnen toevoegen in plaats van id&#39;s. Stap 3 in de Gegevensbestanden van Google Ad Manager van de [Invoer in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrijft hoe te om ons de meta-gegevens te verzenden.
 
 ## Beschikbare rapporten {#available-reports}
 
 [!UICONTROL Audience Optimization for Publishers] biedt zes verschillende meningen aan die laag en serverprestaties tegen segmentatie die binnen wordt gecreeerd [!DNL Audience Manager] om voor uitgever centric bedrijfsdoelstellingen op te lossen.
 
-+ [Rapport Segmentprestaties](publisher-segment-performance.md)
-+ [Trend-rapport segment](publisher-segment-trends.md)
-+ [Niet-gebruikte bovenste treinen](publisher-top-unused-traits.md)
++ [Segmentprestatierapport](publisher-segment-performance.md)
++ [Segmenttrendrapport](publisher-segment-trends.md)
++ [Eerste ongebruikte eigenschappen](publisher-top-unused-traits.md)
 + [Overlap van advertentie-eenheid](publisher-ad-unit-overlap.md)
-+ [Overlap segment naar advertentie-eenheid](publisher-segment-ad-unit-overlap.md)
++ [Overlap van segment naar advertentie-eenheid](publisher-segment-ad-unit-overlap.md)
 + [Uniek gebruikersbereik](publisher-unique-reach.md)
