@@ -7,9 +7,9 @@ title: Cross-channelconversie
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 97129b435ab8e13def14bc85dcaab8254b2c4bda
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '262'
 ht-degree: 3%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Met de optie Kanaalconversie in de rapporten van de optimalisatie van het publiek kunt u offlineconversies toewijzen aan bediende onlinefosies of kunt u klikken.
 
-De [!UICONTROL Cross Channel Conversion] rapporten combineren resultaten van het [!DNL DoubleClick Campaign Manager] (DCM) platform met [!DNL Audience Manager] omzettingskenmerken. Hiermee kunt u offlineconversies koppelen aan onlineafbeeldingen of klikt u erop.
+In de [!UICONTROL Cross Channel Conversion] rapporten worden de resultaten van het [!DNL Google Campaign Manager] platform gecombineerd met [!DNL Audience Manager] conversiekenmerken. Hiermee kunt u offlineconversies koppelen aan onlineafbeeldingen of klikt u erop.
 
 U kunt de rapporten [!UICONTROL Cross Channel Conversion] voor de Prestaties [van het](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) Segment en [Optimale Frequentie](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) gebruiken.
 
-Selecteer het [!UICONTROL Cross Channel Conversion] item in de **[!UICONTROL AAM+DCM]** vervolgkeuzelijst om de **[!UICONTROL Platform]** rapporten weer te geven.
+Selecteer het [!UICONTROL Cross Channel Conversion] item in de **[!UICONTROL AAM + Ad Server Name]** vervolgkeuzelijst om de **[!UICONTROL Platform]** rapporten weer te geven.
 
 De volgende tabel bevat een overzicht van belangrijke overwegingen bij het instellen [!UICONTROL Cross Channel Conversion]:
 
@@ -41,7 +41,7 @@ De volgende tabel bevat een overzicht van belangrijke overwegingen bij het inste
   </tr>
   <tr> 
    <td> <p>Kenmerkvenster </p> </td> 
-   <td> <p> <b><span class="uicontrol"> Het AAM+DCM</span></b> attributievenster is 14 dagen, wat betekent dat alleen conversietekenmerken die in de laatste twee weken zijn tentoongesteld, in aanmerking worden genomen. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> Het toewijzingsvenster van AAM+Google Campagne Manager</span></b> is 14 dagen, wat betekent dat alleen conversietekenmerken die in de laatste twee weken zijn tentoongesteld, in aanmerking worden genomen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Last-touch-methodologie </p> </td> 
