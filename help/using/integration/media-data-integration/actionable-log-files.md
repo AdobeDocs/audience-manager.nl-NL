@@ -8,9 +8,9 @@ title: Actiegerichte logboekbestanden
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 translation-type: tm+mt
-source-git-commit: 86b328a186c5e864a080848cb022ecb1971595db
+source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1605'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 Om met te beginnen [!UICONTROL Actionable Log Files], moet u logboekgegevens invoeren in [!DNL Audience Manager]. Aan de slag met de volgende koppelingen:
 
-* Zie DCM-gegevensbestanden [!UICONTROL Google DCM] importeren in Audience Manager [voor](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) logbestanden *en neem* contact op met uw [!DNL Audience Manager] consultant.
+* Zie Gegevensbestanden van Google Campagne Manager [!UICONTROL Google Campaign Manager] importeren in Audience Manager [](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) en neem *contact op met uw* [!DNL Audience Manager] consultant voor logboeken.
 * Zie Google Ad Manager-gegevensbestanden [!UICONTROL Google Ad Manager] importeren in Audience Manager [](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) en neem *contact op met uw* consultant voor [!DNL Audience Manager] (voorheen Google DFP)-logbestanden.
 * Zie [Gegevens- en metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *en neem* contact op met uw [!DNL Audience Manager] consultant voor andere aanmeldingen op de advertentieserver.
 
@@ -62,9 +62,9 @@ Signalen zijn de [kleinste gegevenseenheden](../../reference/signal-trait-segmen
 
 Herinner me, om deze informatie voor publieksverwezenlijking en segmentatie te gebruiken, moet u opstelling de op regel-gebaseerde trekken zelf.
 
-### Handbare signalen van Google DCM-logs {#dcm-logs-signals}
+### Handbare signalen van Google Campagne Manager-logboeken {#dcm-logs-signals}
 
-De lijst maakt een lijst van de actioneerbare signalen van [!DNL DCM] logboekdossiers:
+De lijst maakt een lijst van de actioneerbare signalen van [!DNL Google Campaign Manager] logboekdossiers:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 
@@ -79,13 +79,13 @@ De lijst maakt een lijst van de actioneerbare signalen van [!DNL DCM] logboekdos
   <tr> 
    <td colname="col1"> <p> <code>Activity ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_conversion</code> </p> </td> 
-   <td colname="col3"> <p>Alleen beschikbaar voor conversiegebeurtenissen. </p> <p>Geeft de numerieke id aan voor de conversieactiviteit in DCM. Dit veld verwijst naar de activiteit-id van DCM. </p> <p> <p>Tip: U kunt meerdere of specifieke conversieactiviteiten vastleggen vanuit DCM. Maak kenmerken met gebruik <code> d_conversion = activity ID</code> van elke conversieactiviteit van DCM. </p> </p> </td> 
+   <td colname="col3"> <p>Alleen beschikbaar voor conversiegebeurtenissen. </p> <p>Vertegenwoordigt de numerieke id voor de conversieactiviteit in Google Campaign Manager. Dit veld verwijst naar de activiteit-id van Google Campaign Manager. </p> <p> <p>Tip: U kunt meerdere of specifieke conversieactiviteiten vastleggen via Google Campagne Manager. Maak kenmerken met <code> d_conversion = activity ID</code> behulp van Google Campagne Manager voor elke conversieactiviteit. </p> </p> </td> 
    <td colname="col4"> <p> <code> 24122</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Conversion ID</code> </p> </td> 
    <td colname="col2"> <p> <code>d_conversionType</code> </p> </td> 
-   <td colname="col3"> <p>Alleen beschikbaar voor conversiegebeurtenissen. </p> <p>Dit veld verwijst naar de conversie-id in DCM. Geeft de activiteit aan die voorafgaat aan de gebruikersconversie vanuit DCM. </p> <p>Accepteerde waarden zijn: </p> <p> 
+   <td colname="col3"> <p>Alleen beschikbaar voor conversiegebeurtenissen. </p> <p>Dit veld verwijst naar de conversie-id in Google Campagne Manager. Geeft de activiteit aan die voorafgaat aan de gebruikersconversie vanuit Google Campaign Manager. </p> <p>Accepteerde waarden zijn: </p> <p> 
      <ul id="ul_2256294F1C6F448B9F269D00D4DFEE65"> 
       <li id="li_29D3FF8919B7404297E80BACA913117A"> <code> 1</code> voor conversies na klikken. </li> 
       <li id="li_B5250A63A2C1413FAF1FDC8272BFFB97"> <code> 2</code> voor postimpressie. </li> 
@@ -102,25 +102,25 @@ De lijst maakt een lijst van de actioneerbare signalen van [!DNL DCM] logboekdos
   <tr> 
    <td colname="col1"> <p> <code>Advertiser Group ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_adsrc</code> </p> </td> 
-   <td colname="col3"><p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit niet met de gegevensbronnen van de Audience Manager verwant is.</p> <p>Dit veld verwijst naar de Advertiser Group ID van DCM. </p> </td> 
+   <td colname="col3"><p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit niet met de gegevensbronnen van de Audience Manager verwant is.</p> <p>Dit veld verwijst naar de groep-id Advertiser van Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 134243</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Advertiser ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_bu</code> </p> </td> 
-   <td colname="col3"> <p>Bedrijfs-eenheid-id. Dit veld wordt toegewezen aan de Advertiser-id van DCM. </p> </td> 
+   <td colname="col3"> <p>Bedrijfs-eenheid-id. Dit veld wordt toegewezen aan de Advertiser-id van Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 563332</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Campaign ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_campaign</code> </p> </td> 
-   <td colname="col3"> <p>De campagne-id van DCM.</p> </td> 
+   <td colname="col3"> <p>De campagne-id van Google Campaign Manager.</p> </td> 
    <td colname="col4"> <p> <code> 7892520</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>Creative ID</code> </p> </td> 
    <td colname="col2"> <p> <code> d_creative</code> </p> </td> 
-   <td colname="col3"> <p>De Creative ID van DCM. </p> </td> 
+   <td colname="col3"> <p>De Creative ID van Google Campaign Manager. </p> </td> 
    <td colname="col4"> <p> <code> 224221</code> </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ De lijst maakt een lijst van de actioneerbare signalen van [!DNL DCM] logboekdos
     <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_event</code> </p> </td> 
-   <td colname="col3"> <p>Geeft het gebeurtenistype aan. Audience Manager leest het gebeurtenistype van het DCM logboekdossier - naam en zet het in een actionable signaal om. </p> <p>Accepteerde waarden zijn: </p> <p> 
+   <td colname="col3"> <p>Geeft het gebeurtenistype aan. Audience Manager leest het gebeurtenistype uit de naam van het logbestand van Google Campagne Manager en zet het om in een actionabel signaal. </p> <p>Accepteerde waarden zijn: </p> <p> 
      <ul id="ul_58EB40E458844DA185ABAF160ADAF03E"> 
       <li id="li_71772CC106F74F4788E1784CC3D70BD3"> <code> d_event = imp</code> voor indrukken. </li> 
       <li id="li_33A629A32B87400F93269581154D566F"> <code> d_event = click</code> voor klikken. </li> 
@@ -143,19 +143,19 @@ De lijst maakt een lijst van de actioneerbare signalen van [!DNL DCM] logboekdos
   <tr> 
    <td colname="col1"> <p> <code>-</code> </p> </td> 
    <td colname="col2"> <p> <code> d_src</code> </p> </td> 
-   <td colname="col3"> <p>De id van de gegevensbron die u gebruikt om DCM-gegevens vast te leggen. Zie <a href="../../features/manage-datasources.md#create-data-source"> Hoe te om een Gegevensbron</a>tot stand te brengen. </p> </td> 
+   <td colname="col3"> <p>De id van de gegevensbron die u gebruikt om gegevens van Google Campaign Manager vast te leggen. Zie <a href="../../features/manage-datasources.md#create-data-source"> Hoe te om een Gegevensbron</a>tot stand te brengen. </p> </td> 
    <td colname="col4"> <p> <code> 743</code> </p> </td> 
   </tr>
  </tbody>
 </table>
 
-De signalen die in de lijst worden beschreven worden gevangen in [!DNL Audience Manager] als een `HTTP` vraag in real time. De onderstaande voorbeeldaanroep bevat informatie over een conversiegebeurtenis van [!DNL DCM]. De vraag moet niet noodzakelijk *alle* signalen in de voorbeeldvraag omvatten.
+De signalen die in de lijst worden beschreven worden gevangen in [!DNL Audience Manager] als een `HTTP` vraag in real time. De onderstaande voorbeeldaanroep bevat informatie over een conversiegebeurtenis van [!DNL Google Campaign Manager]. De vraag moet niet noodzakelijk *alle* signalen in de voorbeeldvraag omvatten.
 
 ```
 https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894272138&d_time=1504536233&d_event=conv&d_conversion=24122&d_conversionType=2&d_bu=3983524&d_campaign=7321391&d_adsrc=11111&d_creative=123456
 ```
 
-Voor een gemiddeld-gerangschikt [!DNL DCM] logboekdossier van 2 miljoen lijnen, worden om het even welke die eigenschappen van actionable signalen worden gecreeerd gerealiseerd binnen ongeveer één uur nadat wij de logboeken verwerken.
+Voor een gemiddeld-gerangschikt [!DNL Google Campaign Manager] logboekdossier van 2 miljoen lijnen, worden om het even welke die eigenschappen van actionable signalen worden gecreeerd gerealiseerd binnen ongeveer één uur nadat wij de logboeken verwerken.
 
 <!--
 Removed  {importance="high"} for ExL
@@ -163,10 +163,10 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->De tijdstempel voor de gebeurtenis die in de [!DNL DCM] logboeken wordt opgegeven, wordt gerespecteerd en doorgegeven aan de [!UICONTROL Data Collection Servers]gebruiker.
+>De tijdstempel voor de gebeurtenis die in de [!DNL Google Campaign Manager] logboeken wordt opgegeven, wordt gerespecteerd en doorgegeven aan de [!UICONTROL Data Collection Servers]gebruiker.
 >
->* Als een tijdstempel niet beschikbaar is voor een gegevensrij in het [!DNL DCM] logbestand, gebruiken we de tijd van de `HTTP` aanroep als tijdstempel voor de gebeurtenis.
->* Als de gegevensrij in het [!DNL DCM] logbestand een verkeerd gevormde tijdstempel bevat, negeren we de hele rij.
+>* Als een tijdstempel niet beschikbaar is voor een gegevensrij in het [!DNL Google Campaign Manager] logbestand, gebruiken we de tijd van de `HTTP` aanroep als tijdstempel voor de gebeurtenis.
+>* Als de gegevensrij in het [!DNL Google Campaign Manager] logbestand een verkeerd gevormde tijdstempel bevat, negeren we de hele rij.
 
 
 <br> 
@@ -322,9 +322,9 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 
 4. Wijs het segment [!DNL Retarget Users] aan een bestemming en doelgebruikers in de bestemming met creatieve 456 toe.
 
-### DCM-vullichtactiviteit gebruiken in de publieksoptimalisatierapporten of in Audience Lab
+### De Google Campagne Manager van de Vullight Activiteit in de Rapporten van de Optimalisering van de Publiek of in het Laboratorium van de Publiek gebruiken
 
-[Met behulp van labels](https://support.google.com/dcm/partner/answer/4293719?hl=en) voor spotlightinformatie kunnen adverteerders de omzettingen van gebruikers bijhouden. Met [!UICONTROL Actionable Log Files], kunt u de [!DNL DCM] omzettingen in de Rapporten [van de Optimalisering van de](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Publiek of in het Laboratorium [van de](../../features/audience-lab/audience-lab.md)Publiek volgen:
+[Met behulp van labels](https://support.google.com/dcm/partner/answer/4293719?hl=en) voor spotlightinformatie kunnen adverteerders de omzettingen van gebruikers bijhouden. Met [!UICONTROL Actionable Log Files], kunt u de [!DNL Google Campaign Manager] omzettingen in de Rapporten [van de Optimalisering van de](../../reporting/audience-optimization-reports/audience-optimization-reports.md) Publiek of in het Laboratorium [van de](../../features/audience-lab/audience-lab.md)Publiek volgen:
 
 1. Maak een kenmerk en gebruik de volgende regel voor het vastleggen van een conversie uit de logboeken van de advertentieserver:
 
@@ -336,6 +336,6 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 
 >[!MORELIKETHIS]
 >
->* [DCM-databestanden importeren in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [Google Campagne Manager-gegevensbestanden importeren in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Audience Optimization-rapporten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
