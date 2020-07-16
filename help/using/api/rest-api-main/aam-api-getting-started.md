@@ -1,16 +1,16 @@
 ---
 description: Informatie over algemene vereisten, authentificatie, facultatieve vraagparameters, verzoek URLs, en andere verwijzingen.
 seo-description: Informatie over algemene vereisten, authentificatie, facultatieve vraagparameters, verzoek URLs, en andere verwijzingen.
-seo-title: Aan de slag met REST API's
+seo-title: Aan de slag met REST-API’s
 solution: Audience Manager
-title: Aan de slag met REST API's
+title: Aan de slag met REST-API’s
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 1%
+source-wordcount: '1854'
+ht-degree: 2%
 
 ---
 
@@ -40,22 +40,28 @@ Let op het volgende wanneer u werkt met [Audience Manager API](https://bank.demd
 
 De [!DNL Audience Manager] [!DNL REST APIs] ondersteuning biedt twee verificatiemethoden.
 
-* [JWT-verificatie (serviceaccount)](#jwt). Dit is de geadviseerde authentificatiemethode.
+* [JWT-verificatie (serviceaccount)](#jwt) met [Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] is het ontwikkelaarsecosysteem en de ontwikkelaarscommunity van Adobe. Dit omvat de [Adobe I/O-ontwikkelaarsgereedschappen en API&#39;s](https://www.adobe.io/apis/experienceplatform.html) en [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html). Dit is de aanbevolen manier om instellingen en toepassingen in te stellen [!DNL Adobe][!DNL APIs].
 * [OAuth-verificatie (afgekeurd)](#oauth). Hoewel deze methode is afgekeurd, kunnen klanten met bestaande [!DNL OAuth] integratie deze methode blijven gebruiken.
 
 >[!IMPORTANT]
 >
 >Afhankelijk van uw authentificatiemethode, moet u uw verzoek [!DNL URLs] dienovereenkomstig aanpassen. Zie de sectie [Omgevingen](#environments) voor meer informatie over de hostnamen die u moet gebruiken.
 
-## [!DNL JWT] ([!DNL Service Account]) Verificatie {#jwt}
+## [!DNL JWT] ([!DNL Service Account]) Verificatie met behulp van Adobe I/O {#jwt}
+
+### Overzicht van Adobe I/O {#adobeio}
+
+[!DNL Adobe I/O] is het ontwikkelaarsecosysteem en de ontwikkelaarscommunity van Adobe. Dit omvat de [Adobe I/O-ontwikkelaarsgereedschappen en API&#39;s](https://www.adobe.io/apis/experienceplatform.html) en [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html).
+
+Dit is de aanbevolen manier om instellingen en toepassingen in te stellen [!DNL Adobe][!DNL APIs].
 
 ### Vereisten {#prerequisites}
 
-Voordat u [!DNL JWT] verificatie kunt configureren, moet u controleren of u toegang hebt tot de [Adobe Developer Console](https://console.adobe.io/). Neem contact op met uw organisatiebeheerder voor verzoeken om toegang.
+Voordat u [!DNL JWT] verificatie kunt configureren, moet u ervoor zorgen dat u toegang hebt tot de [Adobe Developer Console](https://console.adobe.io/) in [Adobe I/O](https://www.adobe.io/). Neem contact op met uw organisatiebeheerder voor verzoeken om toegang.
 
 ### Verificatie
 
-Voer de onderstaande stappen uit om [!DNL JWT (Service Account)] verificatie te configureren:
+Voer de onderstaande stappen uit om [!DNL JWT (Service Account)] verificatie te configureren met [!DNL Adobe I/O]:
 
 1. Meld u aan bij de [Adobe Developer Console](https://console.adobe.io/).
 1. Volg de stappen in de Verbinding [van de Rekening van de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Dienst.
