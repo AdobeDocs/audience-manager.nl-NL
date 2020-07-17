@@ -1,21 +1,21 @@
 ---
 description: Een samenvatting van de steekproefmethode die voor sommige rapporten wordt gebruikt, foutenpercentages van de steekproef, en een lijst van rapporten die informatie terugkeren die op bemonsterde gegevens wordt gebaseerd.
 seo-description: Een samenvatting van de steekproefmethode die voor sommige rapporten wordt gebruikt, foutenpercentages van de steekproef, en een lijst van rapporten die informatie terugkeren die op bemonsterde gegevens wordt gebaseerd.
-seo-title: Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van de Audience Manager
+seo-title: Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten
 solution: Audience Manager
-title: Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van de Audience Manager
+title: Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
 
-# Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van de Audience Manager{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
+# Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten{#data-sampling-and-error-rates-in-selected-audience-manager-reports}
 
 Een samenvatting van de steekproefmethode die voor sommige rapporten wordt gebruikt, foutenpercentages van de steekproef, en een lijst van rapporten die informatie terugkeren die op bemonsterde gegevens wordt gebaseerd.
 
