@@ -1,21 +1,21 @@
 ---
 description: Het uitgaande proces van de gegevensoverdracht in real time keert gebruikersgegevens als reeks voorwerpen JSON terug die binnen met een methode POST worden overgegaan.
 seo-description: Het uitgaande proces van de gegevensoverdracht in real time keert gebruikersgegevens als reeks voorwerpen JSON terug die binnen met een methode POST worden overgegaan.
-seo-title: Uitgaande gegevensoverdrachten in real time
+seo-title: Realtime-overdracht van uitgaande data
 solution: Audience Manager
-title: Uitgaande gegevensoverdrachten in real time
+title: Realtime-overdracht van uitgaande data
 uuid: 1895e818-7ab8-4569-a920-4b0a4c8b83d2
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Uitgaande gegevensoverdrachten in real time {#real-time-outbound-data-transfers}
+# Realtime-overdracht van uitgaande data {#real-time-outbound-data-transfers}
 
 Het uitgaande proces van de gegevensoverdracht in real time levert gebruikersgegevens als reeks [!DNL JSON] geformatteerde berichten aan een bestemmingsplatform.
 
@@ -53,7 +53,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Parameter </th> 
-   <th colname="col2" class="entry"> Gegevenstype </th> 
+   <th colname="col2" class="entry"> Datatype </th> 
    <th colname="col3" class="entry"> Beschrijving </th> 
   </tr>
  </thead>
@@ -106,7 +106,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> De <span class="keyword"> Audience Manager</span> regio-id waar we dit apparaat hebben gezien. Als het apparaat bijvoorbeeld enige activiteit had in Parijs (Europa), zou de regio-id zijn <code> 6</code>. Zie <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID's, locaties en hostnamen van DCS-regio's</a>. </td> 
+   <td colname="col3"> De <span class="keyword"> Audience Manager</span> regio-id waar we dit apparaat hebben gezien. Als het apparaat bijvoorbeeld enige activiteit had in Parijs (Europa), zou de regio-id zijn <code> 6</code>. See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> DCS Region IDs, Locations, and Host Names</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
