@@ -1,9 +1,9 @@
 ---
 description: Het Optimale rapport van de Frequentie helpt u de optimale balans tussen het aantal gediende beelden en omzettingen ontdekken. Hiermee kunt u het aantal afbeeldingen aanpassen dat u wilt weergeven voordat u begint met een afname van de geretourneerde waarden.
 seo-description: Het Optimale rapport van de Frequentie helpt u de optimale balans tussen het aantal gediende beelden en omzettingen ontdekken. Hiermee kunt u het aantal afbeeldingen aanpassen dat u wilt weergeven voordat u begint met een afname van de geretourneerde waarden.
-seo-title: Optimaal frequentierapport
+seo-title: Optimale-frequentierapport
 solution: Audience Manager
-title: Optimaal frequentierapport
+title: Optimale-frequentierapport
 uuid: 50459ce9-39ac-4401-93dd-7526937fc742
 feature: audience optimization reports
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 3%
 ---
 
 
-# Optimaal frequentierapport {#optimal-frequency-report}
+# Optimale-frequentierapport{#optimal-frequency-report}
 
 Het Optimale rapport van de Frequentie helpt u de optimale balans tussen het aantal gediende beelden en omzettingen ontdekken. Hiermee kunt u het aantal afbeeldingen aanpassen dat u wilt weergeven voordat u begint met een afname van de geretourneerde waarden.
 
