@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -24,9 +24,9 @@ Een optionele, Booleaanse configuratie die bepaalt of DIL gegevens verzendt (of 
 Als u `isCoopSafe` het volgende wilt gebruiken:
 
 * Gebruik [!UICONTROL DIL] v6.11 of hoger.
-* Neem deel aan de [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html). De perspectiefleden van coop zouden deze documentatie ook moeten herzien om te bepalen als `isCoopSafe` mogelijke bezorgdheid over hoe de gegevens worden gebruikt om de apparatengrafiek tot stand te brengen.
+* Neem deel aan de [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/home.html). De perspectiefleden van coop zouden deze documentatie ook moeten herzien om te bepalen als `isCoopSafe` mogelijke bezorgdheid over hoe de gegevens worden gebruikt om de apparatengrafiek tot stand te brengen.
 
-* Werk samen met uw [!DNL Adobe] consultant om een allowlist- of een denylist-vlag in te stellen op uw Device Co-op-account. Er is geen zelfbedieningspad om deze markeringen in te schakelen.
+* Werk samen met uw [!DNL Adobe] consultant om een lijst van gewenste personen of een markering voor een lijst van afgewezen personen in te stellen op uw account voor apparaatco-op. Er is geen zelfbedieningspad om deze markeringen in te schakelen.
 
 ## Gevallen gebruiken {#use-cases}
 
@@ -35,7 +35,7 @@ Als u `isCoopSafe` het volgende wilt gebruiken:
 <table id="table_A24C63D2A21F47EDBAC8FA5E7BE888D8"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Hoofdletters gebruiken </th> 
+   <th colname="col1" class="entry"> Gebruiksscenario </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
