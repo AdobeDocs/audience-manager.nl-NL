@@ -1,21 +1,21 @@
 ---
 description: Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen uw segmenten.
 seo-description: Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen uw segmenten.
-seo-title: Overlap-rapport segment-naar-segment
+seo-title: Overlaprapport Segment-naar-segment
 solution: Audience Manager
-title: Overlap-rapport segment-naar-segment
+title: Overlaprapport Segment-naar-segment
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Overlap-rapport segment-naar-segment{#segment-to-segment-overlap-report}
+# Overlaprapport Segment-naar-segment{#segment-to-segment-overlap-report}
 
 Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen uw segmenten.
 
@@ -75,9 +75,9 @@ popup voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hieronde
 
 >[!MORELIKETHIS]
 >
->* [Resultaten van filterrapporten met de gegevensregelaars](../../reporting/dynamic-reports/data-sliders.md)
+>* [Resultaten van filterrapporten met dataregelaars](../../reporting/dynamic-reports/data-sliders.md)
 >* [Vormen, kleuren en grootten die worden gebruikt in interactieve rapporten](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Verklaarde pictogrammen en gereedschappen rapporteren](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapporten overlappen: Plan en minimale segmentgrootte bijwerken](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van de Audience Manager...](../../reporting/report-sampling.md)
->* [CSV-bestanden voor overlappende rapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Overlaprapporten: updateplanning en minimale segmentgrootte](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten...](../../reporting/report-sampling.md)
+>* [CSV-bestanden voor overlaprapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
