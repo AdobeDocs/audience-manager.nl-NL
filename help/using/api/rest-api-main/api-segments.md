@@ -1,21 +1,21 @@
 ---
 description: Methoden waarmee u programmatisch met segmenten kunt werken.
 seo-description: Methoden waarmee u programmatisch met segmenten kunt werken.
-seo-title: Segment API-methoden
+seo-title: API-methoden voor segmenten
 solution: Audience Manager
-title: Segment API-methoden
+title: API-methoden voor segmenten
 uuid: a3ab199f-6181-4b36-a1d1-5c2dba7539d3
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
 
-# Segment API-methoden {#segment-api-methods}
+# API-methoden voor segmenten {#segment-api-methods}
 
 Methoden waarmee u programmatisch met segmenten kunt werken.
 
