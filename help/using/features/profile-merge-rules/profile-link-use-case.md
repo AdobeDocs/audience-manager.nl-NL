@@ -1,21 +1,21 @@
 ---
 description: Aanbevelingen en gebruiksgevallen voor het opnieuw richten van segmenten en gepersonaliseerde segmentkwalificatie met de het apparatengrafiek van de Verbinding van het Profiel.
 seo-description: Aanbevelingen en gebruiksgevallen voor het opnieuw richten van segmenten en gepersonaliseerde segmentkwalificatie met de het apparatengrafiek van de Verbinding van het Profiel.
-seo-title: Gebruiksscenario's voor grafiekgebruik van profielkoppeling
+seo-title: Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen
 solution: Audience Manager
-title: Gebruiksscenario's voor grafiekgebruik van profielkoppeling
+title: Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen
 uuid: bd5567fd-fcd5-40ba-b6f1-035d2ddbcd3a
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
 
-# Gebruiksscenario&#39;s voor grafiekgebruik van profielkoppeling {#profile-link-device-graph-use-cases}
+# Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen {#profile-link-device-graph-use-cases}
 
 Aanbevelingen en gebruiksgevallen voor segmentheroriëntering en gepersonaliseerde segmentkwalificatie met de [!UICONTROL Profile Link Device Graph]code.
 
@@ -49,7 +49,7 @@ Dit [!UICONTROL Profile Merge Rule] laat marketers toe om een verenigbare ervari
 
 >[!MORELIKETHIS]
 >
->* [Gebruiksscenario&#39;s voor grafiek van externe apparaten](external-graph-use-cases.md)
->* [Algemene gebruiksscenario&#39;s voor regels voor het samenvoegen van profielen](merge-rule-targeting-options.md)
+>* [Gebruiksscenario’s voor grafiek van externe apparaten](external-graph-use-cases.md)
+>* [Algemene gebruiksscenario’s voor regels voor profielsamenvoeging](merge-rule-targeting-options.md)
 >* [Veelgestelde vragen over regels voor samenvoegen van profielen](../../faq/faq-profile-merge.md)
 
