@@ -1,21 +1,21 @@
 ---
 description: In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van de Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
 seo-description: In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van de Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
-seo-title: Booleaanse expressies in Trait and Segment Builder
+seo-title: Booleaanse expressies in Trait en Segment Builder
 solution: Audience Manager
-title: Booleaanse expressies in Trait and Segment Builder
+title: Booleaanse expressies in Trait en Segment Builder
 uuid: 14f02d3f-4c84-41fe-bc91-b34f0d49574a
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Booleaanse expressies in Trait and Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
+# Booleaanse expressies in Trait en Segment Builder{#boolean-expressions-in-trait-and-segment-builder}
 
 In dit artikel wordt uitgelegd hoe de kenmerken en segmentgereedschappen van de Audience Manager de Booleaanse expressies AND, OR en NOT gebruiken.
 
@@ -51,7 +51,7 @@ U bouwt eigenschap en segmentkwalificatieregels met uitdrukkingen Van Boole. In 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b><span class="wintitle"> EN</span></b> </p> </td> 
+   <td colname="col1"> <p><b><span class="wintitle"> AND</span></b> </p> </td> 
    <td colname="col2"> <p>Smalle, gerichte vereisten voor publiekskwalificatie. </p> </td> 
    <td colname="col3"> <p>Gebruikers <i>moeten</i> tot alle opgegeven kenmerken of segmenten behoren. </p> </td> 
   </tr> 
