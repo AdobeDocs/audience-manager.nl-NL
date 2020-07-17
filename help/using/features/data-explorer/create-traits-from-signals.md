@@ -1,20 +1,20 @@
 ---
 description: Maak nieuwe kenmerken van alle signalen, inclusief de signalen die al worden gebruikt in kenmerken, en leg toekomstige doelgroepen vast die in aanmerking komen na het maken van sporen.
 seo-description: Maak nieuwe kenmerken van alle signalen, inclusief de signalen die al worden gebruikt in kenmerken, en leg toekomstige doelgroepen vast die in aanmerking komen na het maken van sporen.
-seo-title: Traits maken van signalen
-title: Traits maken van signalen
+seo-title: Eigenschappen maken van signalen
+title: Eigenschappen maken van signalen
 uuid: 4f324404-0c24-4e3b-96c1-7c1b28a4536d
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '359'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Traits maken van signalen
+# Eigenschappen maken van signalen
 
 Maak nieuwe kenmerken van alle signalen, inclusief de signalen die al worden gebruikt in kenmerken, en leg toekomstige doelgroepen vast die in aanmerking komen na het maken van sporen. Bekijk de video voor een snelle demonstratie of lees de video voor gedetailleerde informatie:
 
@@ -46,6 +46,7 @@ Zoek naar specifieke signalen en creeer op regel-gebaseerde of ongebogen eigensc
 2. Identificeer de signalen die u in het bezit, in de resultatenlijst wilt gebruiken.
    * Als u een kenmerk wilt maken van één signaal, klikt u op de bijbehorende **[!UICONTROL Create Rule-Based Trait]** of **[!UICONTROL Create Onboarded Trait]** koppeling.
    * Als u een eigenschap wilt maken van meerdere signalen, klikt u op het bijbehorende selectievakje van elk signaal en vervolgens klikt u **[!UICONTROL Create Trait from Multiple Signals]**.
+
    >[!NOTE]
    >U kunt eigenschappen van signalen van het zelfde type slechts tot stand brengen. U kunt geen eigenschap tot stand brengen die op een combinatie van een signaal in real time en aan boord wordt gebaseerd.
    >
