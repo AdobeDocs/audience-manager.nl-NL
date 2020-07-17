@@ -1,21 +1,21 @@
 ---
 description: Dit zijn speciale eigenschappen die door Adresseerbare Publiek worden gebruikt. De actieve Begeleiding en de Synced Verrichting van de Gegevensbron worden van de Audience gevestigd in de Gegevens van het Publiek > Beetjes > de Beetjes van het Publiek.
 seo-description: Dit zijn speciale eigenschappen die door Adresseerbare Publiek worden gebruikt. De actieve Begeleiding en de Synced Verrichting van de Gegevensbron worden van de Audience gevestigd in de Gegevens van het Publiek > Beetjes > de Beetjes van het Publiek.
-seo-title: Actieve doelgroepen en gesynchroniseerde gegevensbronnen
+seo-title: Actieve doelgroepeigenschappen en met databron gesynchroniseerde eigenschappen
 solution: Audience Manager
-title: Actieve doelgroepen en gesynchroniseerde gegevensbronnen
+title: Actieve doelgroepeigenschappen en met databron gesynchroniseerde eigenschappen
 uuid: b4f145ab-f343-4d71-86d1-5d03f7b03809
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Actieve doelgroepen en gesynchroniseerde gegevensbronnen {#active-audience-traits-and-data-source-synced-traits}
+# Actieve doelgroepeigenschappen en met databron gesynchroniseerde eigenschappen {#active-audience-traits-and-data-source-synced-traits}
 
 Dit zijn speciale kenmerken die worden gebruikt door [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] en [!UICONTROL Data Source Synced Traits] bevinden zich in [!UICONTROL Audience Data > Traits > Audience Traits].
 
@@ -41,5 +41,5 @@ Een [!UICONTROL Active Audience] kenmerk bevat alle apparaten die in uw [!DNL Au
 
 >[!MORELIKETHIS]
 >
->* [Adresseerbaar publiek](../../features/addressable-audiences.md)
+>* [Addressable Audiences](../../features/addressable-audiences.md)
 
