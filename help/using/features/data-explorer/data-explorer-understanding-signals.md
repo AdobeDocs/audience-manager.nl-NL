@@ -1,20 +1,20 @@
 ---
 description: Signalen zijn de kleinste informatieeenheid binnen de Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot Audience Manager die in trekkenregels moet worden gebruikt.
 seo-description: Signalen zijn de kleinste informatieeenheid binnen de Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot Audience Manager die in trekkenregels moet worden gebruikt.
-seo-title: Signalen begrijpen
-title: Signalen begrijpen
+seo-title: Inzicht in Signalen
+title: Inzicht in Signalen
 uuid: 04a0554e-954e-484a-8838-9161ef416872
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Signalen begrijpen
+# Inzicht in Signalen
 
 Signalen zijn de kleinste informatieeenheid binnen de Audience Manager. Zij vertegenwoordigen gebruikersinteractie of gebruikersactiviteit op uw online eigenschappen, en worden overgegaan tot Audience Manager die in trekregels moet worden gebruikt.
 
@@ -46,4 +46,4 @@ Wegens de grote hoeveelheid gegevens die de Audience Manager dagelijks verwerkt,
 
 ## Verwante concepten
 
-[Signalen, Traits en Segmenten](/help/using/reference/signal-trait-segment.md)
+[Signalen, eigenschappen en segmenten](/help/using/reference/signal-trait-segment.md)
