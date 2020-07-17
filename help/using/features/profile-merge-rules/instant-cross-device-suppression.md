@@ -1,20 +1,20 @@
 ---
 description: Onmiddellijke onderdrukking van apparaten is de capaciteit om gebruikers over veelvoudige apparaten te onderdrukken die met hen worden verbonden wanneer een bepaalde ervaring op om het even welk van deze apparaten voorkomt. Met de functie Onmiddellijke ondersteuning voor apparaten kunt u uw gebruikers een consistente ervaring bieden op alle apparaten. Deze ervaring wordt mogelijk gemaakt door de real-time unsegment mogelijkheden in Audience Manager.
 seo-description: Onmiddellijke onderdrukking van apparaten is de capaciteit om gebruikers over veelvoudige apparaten te onderdrukken die met hen worden verbonden wanneer een bepaalde ervaring op om het even welk van deze apparaten voorkomt. Met de functie Onmiddellijke ondersteuning voor apparaten kunt u uw gebruikers een consistente ervaring bieden op alle apparaten. Deze ervaring wordt mogelijk gemaakt door de real-time unsegment mogelijkheden in Audience Manager.
-seo-title: Onmiddellijke ondersteuning voor apparaten
-title: Onmiddellijke ondersteuning voor apparaten
+seo-title: Onmiddellijke cross-device ondersteuning
+title: Onmiddellijke cross-device ondersteuning
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '829'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Onmiddellijke ondersteuning voor apparaten {#instant-cross-device-suppression}
+# Onmiddellijke cross-device ondersteuning {#instant-cross-device-suppression}
 
 [!UICONTROL Instant Cross-Device Suppression] is de capaciteit om gebruikers over veelvoudige apparaten te onderdrukken die met hen worden verbonden wanneer een bepaalde ervaring op om het even welk van deze apparaten voorkomt. Gebruik de [!UICONTROL Instant Cross-Device Suppression] mogelijkheid om uw gebruikers een consistente ervaring op verschillende apparaten te bieden. Deze ervaring wordt mogelijk gemaakt door de real-time unsegment mogelijkheden in Audience Manager.
 
