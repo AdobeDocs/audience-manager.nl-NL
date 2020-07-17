@@ -1,21 +1,21 @@
 ---
 description: Ga hier voor informatie over hoe te om om een reactie DCS in een /event vraag te verzoeken. Deze sectie omvat een reactievoorbeeld en definities voor gemeenschappelijke gegevenselementen in een reactie.
 seo-description: Ga hier voor informatie over hoe te om om een reactie DCS in een /event vraag te verzoeken. Deze sectie omvat een reactievoorbeeld en definities voor gemeenschappelijke gegevenselementen in een reactie.
-seo-title: Gegevens ontvangen van de DCS
+seo-title: Data ontvangen van de DCS
 solution: Audience Manager
-title: Gegevens ontvangen van de DCS
+title: Data ontvangen van de DCS
 uuid: fbb77197-8530-48a8-b708-d785f7214494
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Gegevens ontvangen van de DCS {#receive-data-from-the-dcs}
+# Data ontvangen van de DCS {#receive-data-from-the-dcs}
 
 Ga hier voor informatie over hoe te om een [!DNL DCS] reactie in een `/event` vraag te verzoeken. Deze sectie omvat een reactievoorbeeld en definities voor gemeenschappelijke gegevenselementen in een reactie.
 
@@ -57,7 +57,7 @@ De onderstaande tabel bevat een lijst met en definieert de meer algemene paramet
 | `cv` | De waarden die naar het doel worden verzonden dat door de parameter &quot;cn&quot;:&quot;(doelnaam) wordt gedefinieerd. |
 | `dcs_region` | De [server-aan-server DCS vraag](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Dit object bevat informatie voor alle URL-doelen die in de gebruikersinterface zijn geconfigureerd. De lijst van dit object is dynamisch op basis van de acties van de gebruiker. |
-| `dmn` | Dit is het domein dat is opgegeven in het veld Cookie-domein voor een cookie-bestemming. Zie [Optionele instellingen voor Cookie-doelen](../../../features/destinations/cookie-destination-options.md).  Voor Server aan de integratie van de Server adviseren wij gebruikend een domein als `aam-api.com`. |
+| `dmn` | Dit is het domein dat is opgegeven in het veld Cookie-domein voor een cookie-bestemming. See [Optional Settings for Cookie Destinations](../../../features/destinations/cookie-destination-options.md).  Voor Server aan de integratie van de Server adviseren wij gebruikend een domein als `aam-api.com`. |
 | `e` | De beveiligde URL die is ingesteld in een URL-doel. |
 | `stuff` | Dit object bevat informatie voor alle Cookie-doelen. De lijst van dit object is dynamisch op basis van de acties van de gebruiker. |
 | `tid` | Transactie-id. Dit is een unieke id van 12 tekens die wordt gebruikt voor foutopsporingsdoeleinden. Elke /event vraag aan DCS ontvangt een tid die u in steunonderzoeken voor een betere en snellere reactie kunt van verwijzingen voorzien. |
