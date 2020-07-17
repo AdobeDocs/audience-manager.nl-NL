@@ -1,21 +1,21 @@
 ---
 description: Beschrijft opstellingsstappen en eigenschappen uniek aan het algoritmische proces van de karakterverwezenlijking.
 seo-description: Beschrijft opstellingsstappen en eigenschappen uniek aan het algoritmische proces van de karakterverwezenlijking.
-seo-title: Algoritmische kenmerken maken
+seo-title: Algoritmische eigenschappen maken
 solution: Audience Manager
-title: Algoritmische kenmerken maken
+title: Algoritmische eigenschappen maken
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Algoritmische kenmerken maken {#create-algorithmic-traits}
+# Algoritmische eigenschappen maken {#create-algorithmic-traits}
 
 <!-- t_algo_trait_build.xml -->
 
@@ -40,7 +40,7 @@ In [!UICONTROL Trait Builder], laat de [!UICONTROL Configuration] sectie u een a
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [Maak een model](../../features/algorithmic-models/create-model.md)dat er uitziet.
+* [Een look-alike-model maken](../../features/algorithmic-models/create-model.md).
 * Wacht op het bericht-e-mail die u laat weten dat de modelgegevens zijn uitgevoerd.
 * Vul de vereiste velden in de sectie [Basisinformatie](../../features/traits/create-onboarded-rule-based-traits.md) in.
 
@@ -55,5 +55,5 @@ In [!UICONTROL Trait Builder], laat de [!UICONTROL Configuration] sectie u een a
 
 >[!MORELIKETHIS]
 >
->* [Nauwkeurigheid en Bereik](../../features/traits/trait-accuracy-reach.md)
+>* [Nauwkeurigheid en bereik](../../features/traits/trait-accuracy-reach.md)
 
