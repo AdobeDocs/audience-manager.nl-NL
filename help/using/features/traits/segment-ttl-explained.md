@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Uitleg voor segment- en trainingstijd {#segment-time-to-live-explained}
+# De levensduur van segmenten en eigenschappen {#segment-time-to-live-explained}
 
 Hoe het [!UICONTROL time-to-live] ([!DNL TTL]) interval van de eigenschap effect op segmentlidmaatschap heeft.
 
@@ -23,7 +23,7 @@ Hoe het [!UICONTROL time-to-live] ([!DNL TTL]) interval van de eigenschap effect
 
 ## Tijd om te leven
 
-[!DNL TTL] Hiermee bepaalt u hoe lang een sitebezoeker in een segment blijft na de laatste kwalificatiegebeurtenis. [!DNL TTL] wordt ingesteld op kenmerken en niet op segmenten. Bezoekers vallen buiten een segment als zij niet voor het einde van het [!DNL TTL] interval in aanmerking komen voor een eigenschap. De standaardinstelling [!DNL TTL] voor nieuwe kenmerken is 120 dagen. Wanneer ingesteld op 0 dagen, verloopt de eigenschap nooit. [Stel de TTL-waarde](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) in wanneer u een eigenschap maakt of bewerkt in het [!UICONTROL Advanced Options] gedeelte van de interface voor het maken van de eigenschap.
+[!DNL TTL] Hiermee bepaalt u hoe lang een sitebezoeker in een segment blijft na de laatste kwalificatiegebeurtenis. [!DNL TTL] wordt ingesteld op eigenschappen en niet op segmenten. Visitors fall out of a segment if they do not qualify for a trait before the end of the [!DNL TTL] interval. De standaardinstelling [!DNL TTL] voor nieuwe kenmerken is 120 dagen. Wanneer ingesteld op 0 dagen, verloopt de eigenschap nooit. [Stel de TTL-waarde](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) in wanneer u een eigenschap maakt of bewerkt in het [!UICONTROL Advanced Options] gedeelte van de interface voor het maken van de eigenschap.
 
 ### 1 dag TTL toegelicht
 
