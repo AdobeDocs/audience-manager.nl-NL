@@ -1,16 +1,16 @@
 ---
 description: De Optimalisering van het publiek voor Advertisers kan u helpen potentiële prestatiemogelijkheden voor de segmenten van de Audience Manager over uw betaalde media campagnes identificeren. In deze rapporten worden de gegevens van de campagneresultaten op het niveau van het logbestand gecombineerd met de gegevens van het Audience Manager-segment om op segment gerichte optimalisaties en een effectieve kanaalmix te informeren.
 seo-description: De Optimalisering van het publiek voor Advertisers kan u helpen potentiële prestatiemogelijkheden voor de segmenten van de Audience Manager over uw betaalde media campagnes identificeren. In deze rapporten worden de gegevens van de campagneresultaten op het niveau van het logbestand gecombineerd met de gegevens van het Audience Manager-segment om op segment gerichte optimalisaties en een effectieve kanaalmix te informeren.
-seo-title: Publiek optimaliseren voor adverteerders
+seo-title: Audience Optimization voor adverteerders
 solution: Audience Manager
-title: Publiek optimaliseren voor adverteerders
+title: Audience Optimization voor adverteerders
 uuid: 852d550e-3c7f-4750-9abc-365c3a6f7883
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
