@@ -2,16 +2,16 @@
 description: Basisinformatie over CDF-bestanden (Customer Data Feed) en instructies over hoe u aan de slag kunt gaan. Begin hier als u in het ontvangen van CDF- dossiers geinteresseerd bent of enkel meer informatie wilt.
 keywords: second party data;2nd party;2nd party data;second party
 seo-description: Basisinformatie over CDF-bestanden (Customer Data Feed) en instructies over hoe u aan de slag kunt gaan. Begin hier als u in het ontvangen van CDF- dossiers geinteresseerd bent of enkel meer informatie wilt.
-seo-title: Gegevensinvoer van klant
+seo-title: Klantdatafeeds
 solution: Audience Manager
-title: Gegevensinvoer van klant
+title: Klantdatafeeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1860'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Basisinformatie over [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) bestande
 
 ## Bestandsinhoud en doel {#file-contents-purpose}
 
-Een [!UICONTROL CDF] bestand bevat dezelfde gegevens die een [!DNL Audience Manager] gebeurtenisaanroep (`/event`) naar onze servers verzendt. Dit omvat gegevens zoals gebruiker IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs]en alle andere parameters die door een gebeurtenisvraag worden gevangen. Interne [!DNL Audience Manager] systemen verwerken gebeurtenisgegevens in een [!UICONTROL CDF] bestand met inhoud die is ingedeeld in velden die in een ingestelde volgorde worden weergegeven. [!DNL Audience Manager] probeert [!UICONTROL CDF] bestanden per uur te genereren en slaat deze op in een beveiligd, klantspecifiek emmertje op een [!DNL Amazon S3] server. Deze bestanden zijn beschikbaar zodat u buiten de grenzen van de gebruikersinterface kunt werken met [!DNL Audience Manager] gegevens.
+Een [!UICONTROL CDF]-bestand bevat dezelfde data die een [!DNL Audience Manager]-gebeurteniscall (`/event`) naar onze servers verzendt. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Interne [!DNL Audience Manager] systemen verwerken gebeurtenisgegevens in een [!UICONTROL CDF] bestand met inhoud die is ingedeeld in velden die in een ingestelde volgorde worden weergegeven. [!DNL Audience Manager] probeert [!UICONTROL CDF] bestanden per uur te genereren en slaat deze op in een beveiligd, klantspecifiek emmertje op een [!DNL Amazon S3] server. Deze bestanden zijn beschikbaar zodat u buiten de grenzen van de gebruikersinterface kunt werken met [!DNL Audience Manager] gegevens.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Er is geen zelfbedieningsproces om de [!UICONTROL CDF] bestandslevering te start
 * Stel uw [!DNL Amazon S3] opslagemmertje in.
 * Geef alleen-lezen [!DNL S3] verificatiereferenties op voor uw opslagemmertje voor bestanden. U kunt geen mappen en bestanden zien of openen die bij andere klanten horen.
 
-Bestandsmeldingen en [!UICONTROL CDF] bestanden worden in uw [!DNL S3] emmertje weergegeven wanneer ze kunnen worden gedownload. U bent verantwoordelijk voor het controleren en downloaden van bestanden uit de toegewezen [!DNL S3] map. Zie Meldingen over bestandsverwerking door [klantgegevens](#cdf-file-processing-notifications).
+Bestandsmeldingen en [!UICONTROL CDF] bestanden worden in uw [!DNL S3] emmertje weergegeven wanneer ze kunnen worden gedownload. U bent verantwoordelijk voor het controleren en downloaden van bestanden uit de toegewezen [!DNL S3] map. Zie [Voortgangsmeldingen voor klantdatafeedbestanden](#cdf-file-processing-notifications).
 
 ## Volgende stappen {#next-steps}
 
@@ -53,7 +53,7 @@ Een [!UICONTROL CDF] bestand bevat enkele of alle hieronder gedefinieerde velden
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> Veld </th> 
-   <th colname="col2" class="entry"> Gegevenstype </th> 
+   <th colname="col2" class="entry"> Datatype </th> 
    <th colname="col3" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
@@ -70,7 +70,7 @@ Een [!UICONTROL CDF] bestand bevat enkele of alle hieronder gedefinieerde velden
   <tr> 
    <td colname="col1"> <p><code> Device</code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Dit is de <span class="wintitle"> unieke gebruikersnaam</span> (UUID), een apparaat-id van 38 cijfers voor uw sitebezoeker. Zie ook <a href="../reference/ids-in-aam.md"> Index van id's in Audience Manager</a>. </p> </td> 
+   <td colname="col3"> <p>Dit is de <span class="wintitle"> unieke gebruikersnaam</span> (UUID), een apparaat-id van 38 cijfers voor uw sitebezoeker. See also, <a href="../reference/ids-in-aam.md"> Index of IDs in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
@@ -105,7 +105,7 @@ Een [!UICONTROL CDF] bestand bevat enkele of alle hieronder gedefinieerde velden
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>De <span class="keyword"> Experience Cloud</span> -id (MID) die aan de sitebezoeker is toegewezen. Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a>. </p> </td> 
+   <td colname="col3"> <p>De <span class="keyword"> Experience Cloud</span> -id (MID) die aan de sitebezoeker is toegewezen. Zie ook <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Adobe Experience Platform Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -157,7 +157,7 @@ Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] bestand weer en de
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parameters aanvragen </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Verwijzing </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-adres </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (of MID). Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Dienst van de Identiteit van het Adobe Experience Platform</a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (of MID). See also, <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Adobe Experience Platform Identity Service</a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle segmenten </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle sporen </li> 
      </ol> </p> <p>Voor gebiedsbeschrijvingen, zie de Gedefinieerde <a href="#cdf-defined"> Inhoud van de Diervoeders van de Gegevens van de</a>Klant. </p> </td> 
@@ -307,7 +307,7 @@ In de volgende tabellen worden de elementen in een [!UICONTROL CDF] `.info` best
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>De bestandsnaam. Zie conventies <a href="#cdf-naming-conventions"></a>voor naamgeving van bestanden met klantgegevens. </p> </td> 
+   <td colname="col2"> <p>De bestandsnaam. See <a href="#cdf-naming-conventions"> Customer Data Feed File Naming Conventions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileSequenceNumber</code> </p> </td> 
@@ -370,5 +370,5 @@ De volgende tabel bevat aanvullende informatie over de tijdstempels van uw [!UIC
 
 >[!MORELIKETHIS]
 >
->* [Veelgestelde vragen over de gegevensfeed van de klant](../faq/faq-cdf.md)
+>* [Veelgestelde vragen over klantdatafeeds](../faq/faq-cdf.md)
 
