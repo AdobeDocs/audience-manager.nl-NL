@@ -1,21 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel
+seo-title: Klikdata campagne vastleggen via pixelcalls
 solution: Audience Manager
-title: Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel
+title: Klikdata campagne vastleggen via pixelcalls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
 
-# Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel {#capturing-campaign-click-data-via-pixel-calls}
+# Klikdata campagne vastleggen via pixelcalls {#capturing-campaign-click-data-via-pixel-calls}
 
 Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd. Net als bij het verzamelen [van](/help/using/integration/media-data-integration/impression-data-pixels.md)afbeeldingen, wordt een gebeurtenisaanroep voor verwerking verzonden naar de [!DNL Audience Manager] gegevensverzamelingsservers ([!DNL DCS]). De bezoeker wordt dan omgeleid aan het voorgenomen Webadres.
 
@@ -97,7 +97,7 @@ Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. E
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud</span> -ID (ECID). Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a>voor meer informatie over de ECID. </p> <p>Optioneel. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Zie <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a>voor meer informatie over de ECID. </p> <p>Optioneel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
