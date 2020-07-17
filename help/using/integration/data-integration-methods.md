@@ -1,21 +1,21 @@
 ---
 description: Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
 seo-description: Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
-seo-title: Methoden voor gegevensintegratie
+seo-title: Methoden voor Data Integration
 solution: Audience Manager
-title: Methoden voor gegevensintegratie
+title: Methoden voor Data Integration
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1085'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Methoden voor gegevensintegratie {#data-integration-methods}
+# Methoden voor Data Integration {#data-integration-methods}
 
 Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
 
@@ -122,7 +122,7 @@ Beschrijft technische en bedrijfsredenen om gegevens via synchrone (real time) o
 * **Technische overwegingen:** De levering van gegevens hangt van de technische mogelijkheden van de gegevenspartner af. Audience Manager kan gegevens in real time van browser of door partijupdates verzenden/ontvangen door off-line, server-aan-server communicatie processen.
 * **Overwegingen voor bedrijven:** De bedrijfsredenen om één leveringsmethode of een andere te selecteren hangen van de technische mogelijkheden van uw bestemmingspartner af en hoe u deze gegevens wilt gebruiken. Over het algemeen zijn synchrone gegevensoverdrachten handig wanneer u onmiddellijk actie moet ondernemen met betrekking tot gebruikersgegevens. Asynchrone gegevensoverdrachten kunnen nuttig zijn wanneer de directe actie niet wordt vereist en wanneer u tijd hebt om diepere gebruikersprofielen voor later gebruik te bouwen.
 
-## Real-time gegevensoverdrachtproces {#real-time-data-transfer-process}
+## Real-Time Data Transfer Process {#real-time-data-transfer-process}
 
 Een algemeen overzicht van hoe de Audience Manager een synchrone gegevensuitwisseling met een derde verkoper uitvoert.
 
@@ -144,7 +144,7 @@ Het integratieproces van gegevens in real time werkt als volgt:
 
 ![](assets/rt_reduce70.png)
 
-## Batchgegevensoverdrachtproces {#batch-data-transfer-process}
+## Proces voor batchdataoverdracht {#batch-data-transfer-process}
 
 Een algemeen overzicht van hoe de Audience Manager gegevens synchroon (in real time) met een derdeverkoper ruilt.
 
