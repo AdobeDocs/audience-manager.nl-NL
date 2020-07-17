@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Inhoud binnenkomend gegevensbestand: Syntaxis, ongeldige tekens, variabelen en voorbeelden {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
+# Content van binnenkomende databestanden: syntaxis, ongeldige tekens, variabelen en voorbeelden {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
 De vereiste gebieden, syntaxis, en regels u zouden moeten volgen wanneer het formatteren van een binnenkomend dossier van eigenschapsgegevens.
 
@@ -64,8 +64,8 @@ De tabel bevat een lijst met en definieert de variabelen die worden gebruikt in 
       <li id="li_52ABF6CCBCD147E2BD84D056F7461BA0">Een mobiele Android- of iOS-apparaat-id in het oorspronkelijke, ongewijzigde formulier zoals deze wordt weergegeven door het mobiele besturingssysteem. </li> 
      </ul> </p> <p>Voor mobiele id's: </p> <p> 
      <ul id="ul_717A17E11565427E9E2D9D7554BB231B"> 
-      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA-indeling: Id's moeten hoofdletters/kleine letters zijn en geen hashes. Bijvoorbeeld: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android-indeling: Id's moeten kleine letters zijn en geen hashes. Bijvoorbeeld: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_83BC5EA1E0294651A1F11D7E78EBCE98">IDFA-indeling: Id's moeten hoofdletters/kleine letters zijn en geen hashes. Bijvoorbeeld, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_27F298E62A1E46F88ECF52A01B752D3A">Android-indeling: Id's moeten kleine letters zijn en geen hashes. Bijvoorbeeld, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -93,11 +93,11 @@ In de volgende tabel worden de voorvoegsels beschreven waarmee [!UICONTROL trait
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_sid= </code> </p> </td> 
-   <td colname="col2"> <p>Het <code> d_sid </code> voorvoegsel vertelt ons systeem dat de id een <span class="keyword"> Audience Manager- </span> kenmerk-id is. Dit is dezelfde id die in de gebruikersinterface wordt weergegeven. U kunt ook doel-id's retourneren met de API- <code> GET </code> methode. Zie <a href="../../../api/rest-api-main/api-traits.md"> Trait API-methoden </a>. </p> </td>
+   <td colname="col2"> <p>Het <code> d_sid </code> voorvoegsel vertelt ons systeem dat de id een <span class="keyword"> Audience Manager- </span> kenmerk-id is. Dit is dezelfde id die in de gebruikersinterface wordt weergegeven. U kunt ook doel-id's retourneren met de API- <code> GET </code> methode. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> d_unsid= </code> </p> </td> 
-   <td colname="col2"> <p>Gegevens die vooraf met zijn vastgesteld, <code> d_unsid </code> verwijderen gebruikers uit die eigenschap. Het <code> d_unsid </code> voorvoegsel wordt genegeerd in een <code> overwrite </code> bestand. </p> <p>Het <code> d_unsid= </code> voorvoegsel vertelt ons systeem dat de id een <span class="keyword"> Audience Manager- </span> kenmerk-id is. Dit is dezelfde id die in de gebruikersinterface wordt weergegeven. U kunt ook doel-id's retourneren met de API- <code> GET </code> methode. Zie <a href="../../../api/rest-api-main/api-traits.md"> Trait API-methoden </a>. </p> </td>
+   <td colname="col2"> <p>Gegevens die vooraf met zijn vastgesteld, <code> d_unsid </code> verwijderen gebruikers uit die eigenschap. Het <code> d_unsid </code> voorvoegsel wordt genegeerd in een <code> overwrite </code> bestand. </p> <p>Het <code> d_unsid= </code> voorvoegsel vertelt ons systeem dat de id een <span class="keyword"> Audience Manager- </span> kenmerk-id is. Dit is dezelfde id die in de gebruikersinterface wordt weergegeven. U kunt ook doel-id's retourneren met de API- <code> GET </code> methode. See <a href="../../../api/rest-api-main/api-traits.md"> Trait API Methods </a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> ic= </code> </p> </td> 
@@ -149,8 +149,8 @@ In de volgende tabel worden de voorvoegsels beschreven waarmee [!UICONTROL trait
    <td colname="col1"> <p>Mobiele iOS (IDFA) of Android-apparaat-id </p> </td> 
    <td colname="col2"> <p>Mobiele apparaat-id's moeten strikt zijn opgemaakt zoals hieronder wordt weergegeven: </p> <p> 
      <ul id="ul_6AEFB6CFA54444D9B75F03BCE7916696"> 
-      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA-indeling: Id's moeten hoofdletters/kleine letters zijn en geen hashes. Bijvoorbeeld: <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
-      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android-indeling: Id's moeten kleine letters zijn en geen hashes. Bijvoorbeeld: <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
+      <li id="li_45B272D5EEE944FC9D5C89A0924465F7">IDFA-indeling: Id's moeten hoofdletters/kleine letters zijn en geen hashes. Bijvoorbeeld, <code> 6D92078A-8246-4BA4-AE5B-76104861E7DC </code> </li> 
+      <li id="li_2DA0347293814C70ADCD253BF01A81F5">Android-indeling: Id's moeten kleine letters zijn en geen hashes. Bijvoorbeeld, <code> 97987bca-ae59-4c7d-94ba-ee4f19ab8c21 </code> </li> 
      </ul> </p> </td>
   </tr>
  </tbody>
@@ -276,13 +276,13 @@ In het onderstaande diagram ziet u voorbeelden van de juiste manier om uw binnen
    <td colname="col1"> <p>Je eigen CRM-id (DPUUID) </p> </td> 
    <td colname="col2"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-13"> Voorbeeld 13 </a> </p> </td> 
    <td colname="col3"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-14"> Voorbeeld 14 </a> </p> </td> 
-   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Voorbeeld 15 </a> </p> </td> 
+   <td colname="col4"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-15"> Voorbeeld 14 </a> </p> </td> 
    <td colname="col5"> <p> <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#example-16"> Voorbeeld 16 </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Voorbeeld 1 {#example-1}
+### Example 1 {#example-1}
 
 Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens te verzenden voor [!DNL Audience Manager] [!DNL UUIDs].
 
@@ -290,7 +290,7 @@ Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens te ver
 59767559181262060060278870901087098252 <TAB> d_sid=24, d_sid=26, d_sid=27
 ```
 
-### Voorbeeld 2 {#example-2}
+### Example 2 {#example-2}
 
 Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid te verzenden voor [!DNL Audience Manager] [!DNL UUIDs].
 
@@ -310,7 +310,7 @@ of
 59767559181262060060278870901087098252 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Voorbeeld 3 {#example-3}
+### Example 3 {#example-3}
 
 Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor [!DNL Audience Manager] [!DNL UUIDs]toe te voegen.
 
@@ -324,7 +324,7 @@ of
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Voorbeeld 4 {#example-4}
+### Example 4 {#example-4}
 
 Gebruik het `ic` voorvoegsel om [!UICONTROL trait] kwalificatiegegevens te verzenden voor [!DNL Audience Manager] [!DNL UUIDs].
 
@@ -338,7 +338,7 @@ of
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Voorbeeld 5 {#example-5}
+### Example 5 {#example-5}
 
 Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens voor [!DNL Android] apparaten te verzenden.
 
@@ -346,7 +346,7 @@ Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens voor [
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Voorbeeld 6 {#example-6}
+### Example 6 {#example-6}
 
 Gebruik deze optie [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid voor [!DNL Android] apparaten te verzenden.
 
@@ -366,7 +366,7 @@ of
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Voorbeeld 7 {#example-7}
+### Example 7 {#example-7}
 
 Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor [!DNL Android] apparaten toe te voegen.
 
@@ -380,7 +380,7 @@ of
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Voorbeeld 8 {#example-8}
+### Example 8 {#example-8}
 
 Gebruik het `ic` voorvoegsel om [!UICONTROL trait] kwalificatiegegevens voor [!DNL Android] apparaten te verzenden.
 
@@ -394,7 +394,7 @@ of
 e4fe9bde-caa0-47b6-908d-ffba3fa184f2 <TAB> ic=52,ic=55
 ```
 
-### Voorbeeld 9 {#example-9}
+### Example 9 {#example-9}
 
 Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens voor [!DNL iOS] apparaten te verzenden.
 
@@ -402,7 +402,7 @@ Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens voor [
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Voorbeeld 10 {#example-10}
+### Example 10 {#example-10}
 
 Gebruik deze optie [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid voor [!DNL iOS] apparaten te verzenden.
 
@@ -422,7 +422,7 @@ of
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Voorbeeld 11 {#example-11}
+### Example 11 {#example-11}
 
 Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor [!DNL iOS] apparaten toe te voegen.
 
@@ -436,7 +436,7 @@ of
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Voorbeeld 12 {#example-12}
+### Example 12 {#example-12}
 
 Gebruik het `ic` voorvoegsel om [!UICONTROL trait] kwalificatiegegevens voor [!DNL iOS] apparaten te verzenden.
 
@@ -450,7 +450,7 @@ of
 6D92078A-8246-4BA4-AE5B-76104861E7DC <TAB> ic=52,ic=55
 ```
 
-### Voorbeeld 13 {#example-13}
+### Example 13 {#example-13}
 
 Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens te verzenden voor [!DNL DPUUIDs].
 
@@ -458,7 +458,7 @@ Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatiegegevens
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> d_sid=24, d_sid=25, d_sid=26
 ```
 
-### Voorbeeld 15 {#example-14}
+### Example 14 {#example-14}
 
 Wordt gebruikt [!UICONTROL trait IDs] om [!UICONTROL trait] informatie over ongeschiktheid te verzenden voor [!DNL DPUUIDs].
 
@@ -478,7 +478,7 @@ of
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> 24:-1, 26:-1, 27:-1
 ```
 
-### Voorbeeld 15 {#example-15}
+### Example 15 {#example-15}
 
 Verzend in sleutel-waardeparen om [!UICONTROL trait] kwalificatieinformatie voor toe te voegen [!DNL DPUUIDs].
 
@@ -492,7 +492,7 @@ of
 DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Voorbeeld 16 {#example-16}
+### Example 16 {#example-16}
 
 Gebruik het `ic` voorvoegsel om [!UICONTROL trait] kwalificatiegegevens te verzenden voor [!DNL DPUUIDs].
 
@@ -508,5 +508,5 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORELIKETHIS]
 >
->* [Trait Builder](../../../features/traits/about-trait-builder.md)
+>* [Eigenschapbuilder ](../../../features/traits/about-trait-builder.md)
 
