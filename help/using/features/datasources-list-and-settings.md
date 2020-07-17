@@ -1,16 +1,16 @@
 ---
 description: Bekijk een lijst van uw momenteel gevormde gegevensbronnen, voeg nieuwe gegevensbronnen toe, en geef bestaande bronnen uit.
 seo-description: Bekijk een lijst van uw momenteel gevormde gegevensbronnen, voeg nieuwe gegevensbronnen toe, en geef bestaande bronnen uit.
-seo-title: Lijst met gegevensbronnen en instellingen
+seo-title: Lijst met databronnen en -instellingen
 solution: Audience Manager
-title: Lijst met gegevensbronnen en instellingen
+title: Lijst met databronnen en -instellingen
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
 feature: Data Sources
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -113,7 +113,7 @@ Schakel het **[!UICONTROL Inbound]** selectievakje in wanneer uw gegevensbron is
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Klant-id</span></b>: Identificeert binnenkomende gegevens met een klant identiteitskaart </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager-id</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Audience Manager</span> identiteitskaart </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-id</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Experience Cloud</span> -id. See <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-id</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Experience Cloud</span> -id. See <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies and the Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
