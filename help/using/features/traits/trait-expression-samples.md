@@ -1,21 +1,21 @@
 ---
 description: De voorbeelden u kunt naar voor het creëren van uitdrukkingen in de de coderedacteur van de Bouwer van de Uitdrukking verwijzen.
 seo-description: De voorbeelden u kunt naar voor het creëren van uitdrukkingen in de de coderedacteur van de Bouwer van de Uitdrukking verwijzen.
-seo-title: Voorbeeldexpressies met Booleaanse en vergelijkingsoperatoren
+seo-title: Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren
 solution: Audience Manager
-title: Voorbeeldexpressies met Booleaanse en vergelijkingsoperatoren
+title: Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Voorbeeldexpressies met Booleaanse en vergelijkingsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
+# Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
 
 Voorbeelden waarnaar u kunt verwijzen voor het maken van expressies in de [!UICONTROL Expression Builder] code-editor.
 
