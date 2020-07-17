@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Rapporten overlappen: Plan en minimale segmentgrootte bijwerken{#overlap-reports-update-schedule-and-minimum-segment-size}
+# Overlaprapporten: updateplanning en minimale segmentgrootte{#overlap-reports-update-schedule-and-minimum-segment-size}
 
 Beschrijft de de grootte van het segment en de vereisten van de aanmaaktijd die door het proces van de het rapportupdate van de Overlapping worden vereist.
 
@@ -34,7 +34,7 @@ Als u geen segment in één van de [!UICONTROL Overlap] rapporten ziet, kan het 
 <table id="table_BE2937C1FA314BBDBD1D026321D6E6B1"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Hoofdletters gebruiken </th> 
+   <th colname="col1" class="entry"> Gebruiksscenario </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
@@ -52,7 +52,7 @@ Als u geen segment in één van de [!UICONTROL Overlap] rapporten ziet, kan het 
 
 >[!MORELIKETHIS]
 >
->* [Rapport overlappingen trait-to-Trait](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
->* [Overlap-rapport segment-naar-spoor](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
->* [Overlap-rapport segment-naar-segment](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
+>* [Overlaprapport Eigenschap-naar-eigenschap](../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report)
+>* [Overlaprapport Segment-naar-eigenschap](../../reporting/dynamic-reports/segment-trait-overlap-report.md)
+>* [Overlaprapport Segment-naar-segment](../../reporting/dynamic-reports/segment-segment-overlap-report.md)
 
