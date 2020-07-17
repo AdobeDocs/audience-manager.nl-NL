@@ -1,21 +1,21 @@
 ---
 description: De regionale DCS servergastheernaam wordt vereist om vraag aan DCS te maken. Dit komt doordat in de DCS informatie wordt opgeslagen in datacenters die geografisch dicht bij sitebezoekers liggen. Uw vragen zullen werken als u hen naar verkeerde DCS verzendt, maar deze vraag is inefficiënt en kan de reactie vertragen. Als u een DCS-aanvraag wilt maken, moet u de regio-id afstemmen op de corresponderende regionale hostnaam en de query met de juiste hostnaam configureren.
 seo-description: De regionale DCS servergastheernaam wordt vereist om vraag aan DCS te maken. Dit komt doordat in de DCS informatie wordt opgeslagen in datacenters die geografisch dicht bij sitebezoekers liggen. Uw vragen zullen werken als u hen naar verkeerde DCS verzendt, maar deze vraag is inefficiënt en kan de reactie vertragen. Als u een DCS-aanvraag wilt maken, moet u de regio-id afstemmen op de corresponderende regionale hostnaam en de query met de juiste hostnaam configureren.
-seo-title: Id's, locaties en hostnamen van DCS-regio's
+seo-title: Id’s, locaties en hostnamen van DCS-regio’s
 solution: Audience Manager
-title: Id's, locaties en hostnamen van DCS-regio's
+title: Id’s, locaties en hostnamen van DCS-regio’s
 uuid: ad150ffe-4583-472b-ac8b-fb900a7966e4
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Id&#39;s, locaties en hostnamen van DCS-regio&#39;s {#dcs-region-ids-locations-and-host-names}
+# Id’s, locaties en hostnamen van DCS-regio’s {#dcs-region-ids-locations-and-host-names}
 
 De regionale hostnaam van de [!DNL DCS] server is vereist om oproepen te doen naar de [!DNL DCS]. Dit komt omdat de [!DNL DCS] informatie in gegevenscentra wordt opgeslagen die geografisch dicht bij plaatsbezoekers zijn. Uw vragen zullen werken als u hen naar het verkeerde [!DNL DCS]verzendt, maar deze vraag is inefficiënt en kan de reactie vertragen. Als u een [!DNL DCS] aanvraag wilt indienen, dient u de regio-id aan te passen aan de corresponderende regionale hostnaam en de query met de juiste hostnaam te vormen.
 
@@ -71,4 +71,4 @@ De regionale hostnaam van de [!DNL DCS] server is vereist om oproepen te doen na
  </tbody> 
 </table>
 
-U kunt ook [!DNL API] methoden gebruiken om een lijst met beschikbare [!DNL DCS] gebieden op te halen. Zie API-methoden voor [DCS-regio](../../../api/rest-api-main/aam-api-dcs-regions.md).
+U kunt ook [!DNL API] methoden gebruiken om een lijst met beschikbare [!DNL DCS] gebieden op te halen. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
