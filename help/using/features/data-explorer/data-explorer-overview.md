@@ -9,12 +9,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# De Ontdekkingsreiziger van gegevens - Overzicht, Voordelen, en Gevallen van het Gebruik {#overview-benefits-and-use-cases}
+# Data Explorer - overzicht, voordelen en gebruiksscenario’s {#overview-benefits-and-use-cases}
 
 Gebruik deze methode [!UICONTROL Data Explorer] om gebruik te maken van het historische publiek door op gebruikte en ongebruikte signalen gebaseerde kenmerken te bouwen en deze terug te vullen met historische gegevens om mogelijk verlies van relevant publiek te voorkomen.
 
