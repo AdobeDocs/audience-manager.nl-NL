@@ -1,21 +1,21 @@
 ---
 description: Codevoorbeelden en beschrijvingen voor specifieke gevallen van DIL-gebruik.
 seo-description: Codevoorbeelden en beschrijvingen voor specifieke gevallen van DIL-gebruik.
-seo-title: DIL-gebruik van tassen en codevoorbeelden
+seo-title: DIL-gebruiksscenario’s en codevoorbeelden
 solution: Audience Manager
-title: DIL-gebruik van tassen en codevoorbeelden
+title: DIL-gebruiksscenario’s en codevoorbeelden
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# DIL-gebruik van tassen en codevoorbeelden{#dil-use-cases-and-code-samples}
+# DIL-gebruiksscenario’s en codevoorbeelden{#dil-use-cases-and-code-samples}
 
 Codevoorbeelden en beschrijvingen voor specifieke gevallen van DIL-gebruik.
 
@@ -244,5 +244,5 @@ U kunt als volgt het `dil.js` bestand verzenden in GTM:
 >
 >* [Google Tag Manager Help Center](https://support.google.com/tagmanager#topic=3441530)
 >* [Signalen](../dil/dil-instance-methods.md#signals)
->* [Voorvoegselvereisten voor belangrijkste variabelen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+>* [Voorvoegselvereisten voor belangrijke variabelen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
