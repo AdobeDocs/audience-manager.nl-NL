@@ -1,21 +1,21 @@
 ---
 description: Als optie kunt u gegevensbestanden comprimeren wanneer u ze naar de Audience Manager verzendt.
 seo-description: Als optie kunt u gegevensbestanden comprimeren wanneer u ze naar de Audience Manager verzendt.
-seo-title: Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden
+seo-title: Bestandscompressie voor binnenkomende dataoverdrachtbestanden
 solution: Audience Manager
-title: Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden
+title: Bestandscompressie voor binnenkomende dataoverdrachtbestanden
 uuid: 2a68f69c-60b0-4002-863b-302d2320e356
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden{#file-compression-for-inbound-data-transfer-files}
+# Bestandscompressie voor binnenkomende dataoverdrachtbestanden{#file-compression-for-inbound-data-transfer-files}
 
 U kunt gegevensbestanden comprimeren wanneer u ze naar de Audience Manager verzendt.
 
