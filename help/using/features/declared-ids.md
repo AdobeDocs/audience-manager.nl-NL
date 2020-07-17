@@ -2,16 +2,16 @@
 description: Hoe gedeclareerde id's werken, instellingsprocedures, codevoorbeelden en variabelen.
 keywords: id sync
 seo-description: Hoe gedeclareerde id's werken, instellingsprocedures, codevoorbeelden en variabelen.
-seo-title: Opgegeven id's
+seo-title: Gedeclareerde id’s
 solution: Audience Manager
-title: Opgegeven id's
+title: Gedeclareerde id’s
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1191'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ Sommige browsers, en de meeste mobiele apparaten, accepteren geen derde [!DNL co
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Gebeurtenisoproep</b> </td> 
-   <td colname="col2"> <p>Om te werken, hebt u <span class="wintitle"> DIL </span> en de code van de Dienst van de Identiteit van het <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a> op de pagina nodig. <span class="wintitle"> DIL </span> krijgt gedeclareerde id's <span class="wintitle"> van de </span> functie die wordt geleverd door de <code> setVisitorID </code> identiteitsdienst van het Adobe Experience Platform <span class="keyword"> en geeft die door aan de </span> Audience Manager <span class="keyword"> </span>. </p> </td> 
+   <td colname="col2"> <p>Om te werken, hebt u <span class="wintitle"> DIL </span> en de code van de Dienst van de Identiteit van het <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a> op de pagina nodig. <span class="wintitle"> DIL </span> krijgt gedeclareerde id's <span class="wintitle"> van de </span> functie die wordt geleverd door de <code> setVisitorID </code> identiteitsdienst van het Adobe Experience Platform <span class="keyword"> en geeft die door aan de </span> Audience Manager <span class="keyword"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identiteitskaart afstemmen</b> </td> 
@@ -59,7 +59,7 @@ Om te beginnen, moet u de dienst van [!DNL Experience Cloud] [!UICONTROL DIL] id
 
 ## Uitgaande oproepen {#opt-out-calls}
 
-Bij dit [!UICONTROL declared ID] proces worden de voorkeuren van de sitebezoeker aangehouden om te weigeren zich op uw website te [!DNL Audience Manager] richten. Wanneer [!DNL Audience Manager] een opt-outverzoek ontvangt, bevat de [!DNL JSON] teruggekeerde fout code 171, met het bericht [!DNL DCS] , in plaats van `Encountered opt out tag`[!DNL Audience Manager] gebruiker - identiteitskaart.
+Bij dit [!UICONTROL declared ID] proces worden de voorkeuren van de sitebezoeker aangehouden om te weigeren zich op uw website te [!DNL Audience Manager] richten. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] een [!UICONTROL declared ID] opt-out kan doorgeven naast een [!DNL Audience Manager] in de [!UICONTROL UUID] [!DNL URL].
 * De [!UICONTROL declared ID] opt-out wordt opgeslagen in [!UICONTROL de Server van het Geheime voorgeheugen van het Profiel ([!UICONTROL PCS]) op een per-partnerbasis. Er is geen opt-out op platformniveau [!UICONTROL declared IDs]. Bovendien [!DNL Audience Manager] kiest u ervoor dat de gebruiker uit dat bepaalde gebied aan de rand komt (de optie Weigeren overschrijdt niet de [!DNL DCS] regio&#39;s).
@@ -68,22 +68,22 @@ Zie [Gegevensprivacy](../overview/data-security-and-privacy/data-privacy.md) voo
 
 ## [!UICONTROL Declared ID] Voorbeelden voor uitschakelen {#opt-out-examples}
 
-U kunt een [!UICONTROL declared ID] opt-out-aanvraag indienen met de `d_cid` combinatie sleutel- `d_cid_ic` waardeparen. De oudere parameters werken `d_dpid` `d_dpuuid` nog steeds, maar worden beschouwd als afgekeurd. Zie [CID vervangt DPID en DPUUID](../reference/cid.md). In de voorbeelden geeft *cursief* een plaatsaanduiding voor variabelen aan.
+You can make a [!UICONTROL declared ID] opt-out requests with the `d_cid` and `d_cid_ic` key-value pairs. De oude parameters zoals `d_dpid` en `d_dpuuid` werken nog steeds, maar worden beschouwd als afgekeurd. Zie [CID vervangt DPID en DPUUID](../reference/cid.md). In de voorbeelden geeft *cursief* een plaatsaanduiding voor variabelen aan.
 
 ### Opt-out met [!UICONTROL CID] en [!UICONTROL CID_IC]
 
-Zie [URL-variabelen en syntaxis voor gedeclareerde id&#39;s voor een beschrijving en syntaxis](../features/declared-ids.md#variables-and-syntax).
+Zie [URL-variabelen en syntaxis voor gedeclareerde id’s](../features/declared-ids.md#variables-and-syntax) voor een beschrijving en syntaxis.
 
 <table id="table_159D92242D8F4FCBAC733295DE474CA6"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Weigeren met </th> 
+   <th colname="col1" class="entry"> Opt-out met </th> 
    <th colname="col2" class="entry"> Codevoorbeeld </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>A data provider ID and user ID. </p> </td> 
+   <td colname="col1"> <p>Een dataprovider-id en een gebruikers-id. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/demoptout.jpg?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -143,11 +143,11 @@ In elk zeer belangrijk-waardepaar:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid =<i>data provider ID</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Bevat een gegevensleverancier-id en een bijbehorende unieke gebruikers-id in één sleutel-waardepaar. <code> d_cid </code> vervangt <code> d_dpid </code> en <code> d_dpuuid </code>, die als afgekeurd worden beschouwd, maar nog gesteund. Zie <a href="../reference/cid.md"> CID vervangt DPID en DPUUID </a>. </p> </td> 
+   <td colname="col2"> <p>Bevat een gegevensleverancier-id en een bijbehorende unieke gebruikers-id in één sleutel-waardepaar. <code> d_cid </code> vervangt <code> d_dpid </code> en <code> d_dpuuid </code>, die als afgekeurd worden beschouwd, maar nog gesteund. Zie <a href="../reference/cid.md">CID vervangt DPID en DPUUID</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_cid_ic =<i>integration code</i> %01<i>user ID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Bevat een integratiecode en een bijbehorende unieke gebruiker - identiteitskaart in één enkel zeer belangrijk-waardepaar. <code> d_cid_ic </code> vervangt <code> d_dpid </code> en <code> d_dpuuid </code>, die verouderd, maar nog gesteund zijn. Zie <a href="../reference/cid.md"> CID vervangt DPID en DPUUID </a>. </p> </td> 
+   <td colname="col2"> <p>Bevat een integratiecode en een bijbehorende unieke gebruiker - identiteitskaart in één enkel zeer belangrijk-waardepaar. <code> d_cid_ic </code> vervangt <code> d_dpid </code> en <code> d_dpuuid </code>, die verouderd, maar nog gesteund zijn. Zie <a href="../reference/cid.md">CID vervangt DPID en DPUUID</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -165,7 +165,7 @@ Op basis van deze sleutelwaardeparen en hun vereiste syntaxis kunt u gebeurtenis
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>A data provider ID and user ID. </p> </td> 
+   <td colname="col1"> <p>Een dataprovider-id en een gebruikers-id. </p> </td> 
    <td colname="col2"> <p> <code> https://<i>domain name</i>/event?d_cid=123%01987... </code> </p> </td> 
   </tr> 
   <tr> 
@@ -185,7 +185,7 @@ Beschrijft de configuratievariabelen die worden gebruikt om door te gaan [!UICON
 
 ## [!UICONTROL DIL] gebruikt de optie [!DNL Adobe Experience Platform Identity Service] Voldoende [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Wanneer gebruikt met de Dienst [van de Identiteit van het](https://docs.adobe.com/content/help/en/id-service/using/home.html)Adobe Experience Platform, hoeft u niet meer binnen [!UICONTROL declared IDs] met verouderde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] zich op de `visitorService` functie om van de [!UICONTROL declared IDs] functie in de `setCustomerIDs` functie te krijgen [!UICONTROL Adobe Experience Platform Identity Service]. Zie [Klantnamen en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)voor meer informatie. Je belt `visitorService` in `DIL.create` zoals hieronder weergegeven.
+Wanneer gebruikt met de Dienst [van de Identiteit van het](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html)Adobe Experience Platform, hoeft u niet meer binnen [!UICONTROL declared IDs] met verouderde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] zich op de `visitorService` functie om van de [!UICONTROL declared IDs] functie in de `setCustomerIDs` functie te krijgen [!UICONTROL Adobe Experience Platform Identity Service]. Zie [Klantnamen en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)voor meer informatie. Je belt `visitorService` in `DIL.create` zoals hieronder weergegeven.
 
 ```js
 var vDil = DIL.create({
