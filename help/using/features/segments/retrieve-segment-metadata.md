@@ -1,21 +1,21 @@
 ---
 description: Wanneer de Audience Manager segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of ander gebruikersinterface (UI). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
 seo-description: Wanneer de Audience Manager segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of ander gebruikersinterface (UI). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
-seo-title: Segmentmetagegevens ophalen
+seo-title: Metadata van segmenten ophalen
 solution: Audience Manager
-title: Segmentmetagegevens ophalen
+title: Metadata van segmenten ophalen
 uuid: 719e2c41-8788-4e8a-967a-e367421f9f84
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Segmentmetagegevens ophalen {#retrieving-segment-metadata}
+# Metadata van segmenten ophalen {#retrieving-segment-metadata}
 
 Wanneer de Audience Manager segmentinformatie naar een gegevenspartner verzendt, identificeert het deze voorwerpen met numerieke IDs. Als gegevenspartner, wanneer u deze informatie met uw klanten (of het werk met het zelf) deelt, verstrekken een daadwerkelijke naam en een beschrijving een betere ervaring voor klanten in rapporten, dashboards, of andere gebruikersinterfaces ([!DNL UI]). De partners van gegevens kunnen deze vriendschappelijke namen ter beschikking stellen aan hun klanten met of de hand of geautomatiseerde methodes die in deze sectie worden beschreven.
 
