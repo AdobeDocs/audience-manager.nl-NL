@@ -1,21 +1,21 @@
 ---
 description: API-methoden waarmee u met afgeleide signalen kunt werken. Een afgeleid signaal kwalificeert sitebezoekers voor extra kenmerken op basis van een kenmerk dat ze al hebben gezien.
 seo-description: API-methoden waarmee u met afgeleide signalen kunt werken. Een afgeleid signaal kwalificeert sitebezoekers voor extra kenmerken op basis van een kenmerk dat ze al hebben gezien.
-seo-title: Afgeleide API-methoden voor signalen
+seo-title: API-methoden voor afgeleide signalen
 solution: Audience Manager
-title: Afgeleide API-methoden voor signalen
+title: API-methoden voor afgeleide signalen
 uuid: 698019bc-d7f6-41e0-a78a-1ab0bf0e65a0
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '121'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
 
-# Afgeleide API-methoden voor signalen {#derived-signals-api-methods}
+# API-methoden voor afgeleide signalen {#derived-signals-api-methods}
 
 [!DNL API] methoden waarmee u met afgeleide signalen kunt werken. Een afgeleid signaal kwalificeert sitebezoekers voor extra kenmerken op basis van een kenmerk dat ze al hebben gezien.
 
