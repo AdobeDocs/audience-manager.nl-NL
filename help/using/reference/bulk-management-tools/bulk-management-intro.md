@@ -2,21 +2,21 @@
 description: Met de gereedschappen voor bulkbeheer kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt Bulk de Hulpmiddelen van het Beheer gebruiken om met gegevensbronnen, afgeleide signalen, bestemmingen, omslagen, segmenten, en trekken te werken.
 keywords: baaam;BAAAM;download baaam
 seo-description: Met de gereedschappen voor bulkbeheer kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt Bulk de Hulpmiddelen van het Beheer gebruiken om met gegevensbronnen, afgeleide signalen, bestemmingen, omslagen, segmenten, en trekken te werken.
-seo-title: Aan de slag met Bulk Management
+seo-title: Aan de slag met Bulkbeheer
 solution: Audience Manager
-title: Aan de slag met Bulk Management
+title: Aan de slag met Bulkbeheer
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Aan de slag met Bulk Management{#getting-started-with-bulk-management}
+# Aan de slag met Bulkbeheer{#getting-started-with-bulk-management}
 
 Met [!DNL Bulk Management Tools] deze opdracht kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt gebruiken [!DNL Bulk Management Tools] om met [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], en [!UICONTROL traits]te werken.
 
@@ -32,11 +32,11 @@ c_bulk_start.xml
 
 ## Overzicht {#overview}
 
-Deze eigenschap gebruikt een [!DNL Microsoft Excel] [!DNL Audience Manager] spreadsheet met macro&#39;s die veilige, voor authentiek verklaarde vraag aan APIs maken. De API biedt de methoden en services waarmee u bulksgewijs wijzigingen kunt aanbrengen. U hoeft niet te weten hoe u code kunt schrijven of met onze API&#39;s kunt werken om deze te gebruiken. Het werkblad bevat kolomkoppen en -tabbladen die specifieke functies voor bulkwijzigingen uitvoeren. Als u bulksgewijs wijzigingen wilt aanbrengen, voegt u alleen de vooraf gedefinieerde kopteksten toe aan specifieke werkbladen, geeft u de informatie op die u bulksgewijs wilt wijzigen en klikt u op een actieknop. Het werkblad en de API&#39;s doen de rest van het werk voor u.
+This feature uses a [!DNL Microsoft Excel] spreadsheet with macros that make secure, authenticated calls to the [!DNL Audience Manager] APIs. De API biedt de methoden en services waarmee u bulksgewijs wijzigingen kunt aanbrengen. U hoeft niet te weten hoe u code kunt schrijven of met onze API&#39;s kunt werken om deze te gebruiken. Het werkblad bevat kolomkoppen en -tabbladen die specifieke functies voor bulkwijzigingen uitvoeren. Als u bulksgewijs wijzigingen wilt aanbrengen, voegt u alleen de vooraf gedefinieerde kopteksten toe aan specifieke werkbladen, geeft u de informatie op die u bulksgewijs wilt wijzigen en klikt u op een actieknop. Het werkblad en de API&#39;s doen de rest van het werk voor u.
 
 ## Downloaden {#download}
 
-Download **[hier](assets/BAAAM_V2_20200502.xlsm)**het nieuwste werkblad.
+Download the latest worksheet **[here](assets/BAAAM_V2_20200502.xlsm)**.
 
 ## Vereisten {#prereqs}
 
@@ -82,7 +82,7 @@ In de onderstaande tabel staan de bewerkingen die u kunt uitvoeren en items die 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Handelingen </th> 
+   <th colname="col1" class="entry"> Acties </th> 
    <th colname="col2" class="entry"> Objecten </th> 
   </tr> 
  </thead>
@@ -100,11 +100,11 @@ In de onderstaande tabel staan de bewerkingen die u kunt uitvoeren en items die 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Gegevensbronnen</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Afgeleide signalen</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Doelen</a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Bestemmingen </a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modellen</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Mappen</a> en segmentmappen doorlopen </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segmenten</a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Treinen</a> </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmenten </a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Eigenschappen </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
