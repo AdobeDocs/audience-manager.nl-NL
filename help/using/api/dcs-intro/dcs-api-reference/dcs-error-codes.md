@@ -1,21 +1,21 @@
 ---
 description: Foutcodes en berichten die worden gegenereerd door de gegevensverzamelingsservers (DCS) in numerieke volgorde op basis van code-id.
 seo-description: Foutcodes en berichten die worden gegenereerd door de gegevensverzamelingsservers (DCS) in numerieke volgorde op basis van code-id.
-seo-title: DCS-foutcodes, berichten en voorbeelden
+seo-title: DCS-foutcodes, -berichten en -voorbeelden
 solution: Audience Manager
-title: DCS-foutcodes, berichten en voorbeelden
+title: DCS-foutcodes, -berichten en -voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1509'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# DCS-foutcodes, berichten en voorbeelden {#dcs-error-codes-messages-and-examples}
+# DCS-foutcodes, -berichten en -voorbeelden {#dcs-error-codes-messages-and-examples}
 
 Foutcodes en berichten die worden gegenereerd door de [!UICONTROL Data Collection Servers] ([!DNL DCS]) in numerieke volgorde door code-id.
 
@@ -159,22 +159,22 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   <tr> 
    <td colname="col1"> <p>303 </p> </td> 
    <td colname="col2"> <p>Geblokkeerde klant-id <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Wordt geretourneerd wanneer de klant-id als kwaadaardig is geïdentificeerd en aan een denylist is toegevoegd. </p> </td> 
+   <td colname="col3"> <p>Wordt geretourneerd wanneer de klant-id als kwaadaardig is geïdentificeerd en aan een lijst van afgewezen personen is toegevoegd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>304 </p> </td> 
    <td colname="col2"> <p>Id van geblokkeerde gegevensbron <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Geretourneerd wanneer gegevensbron ID als kwaadwillig is geïdentificeerd en aan een ontkenningslijst is toegevoegd </p> </td> 
+   <td colname="col3"> <p>Geretourneerd wanneer gegevensbron ID als kwaadwillig is geïdentificeerd en aan een lijst van afgewezen personen is toegevoegd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>306 </p> </td> 
    <td colname="col2"> <p>Opgegeven apparaat met blokkering <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>De apparaat-id is als kwaadaardig geïdentificeerd en is toegevoegd aan een denylist Dit kan gebeuren wanneer er een zeer grote hoeveelheid <span class="wintitle"> DCS</span> -verzoeken met deze apparaat-id wordt ontvangen. </p> </td>
+   <td colname="col3"> <p>De apparaat-id is als kwaadaardig geïdentificeerd en is toegevoegd aan een lijst van afgewezen personen Dit kan gebeuren wanneer er in een korte tijd een enorme hoeveelheid <span class="wintitle"> DCS</span> -verzoeken met deze apparaat-id wordt ontvangen. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>307 </p> </td> 
    <td colname="col2"> <p>Geblokkeerde profielbewerking voor <code><i>ID</i></code> </p> </td> 
-   <td colname="col3"> <p>Een lees-/schrijfactie is geblokkeerd omdat een id is geïdentificeerd als kwaadaardig en is toegevoegd aan een denylist Zie foutcode 306. </p> </td> 
+   <td colname="col3"> <p>Een lees-/schrijfactie is geblokkeerd omdat een id is geïdentificeerd als kwaadaardig en is toegevoegd aan een lijst van afgewezen personen Zie foutcode 306. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
@@ -245,4 +245,4 @@ De [!DNL DCS] functie retourneert foutcodes en berichten in een [!DNL JSON] obje
 
 Foutcodes die door de X-header worden vastgelegd, worden als volgt in de URL-tekenreeks weergegeven `X-Error: 101,102`.
 
-[Voorwaarden van ruimte en foutafhandeling](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
+[Racevoorwaarden en foutafhandeling](../../../api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
