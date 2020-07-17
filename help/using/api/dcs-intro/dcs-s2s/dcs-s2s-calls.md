@@ -1,19 +1,19 @@
 ---
-seo-title: Server-aan-Server DCS API Vraag maken
+seo-title: Server-naar-server DCS-API-calls uitvoeren
 solution: Audience Manager
-title: Server-aan-Server DCS API Vraag maken
+title: Server-naar-server DCS-API-calls uitvoeren
 uuid: bdfe3430-e27f-4a5c-88d9-ae164d28f601
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Server-aan-Server DCS API Vraag maken {#making-server-to-server-dcs-api-calls}
+# Server-naar-server DCS-API-calls uitvoeren {#making-server-to-server-dcs-api-calls}
 
 De vraag vereist de gastheernaam van de regionale server DCS en gebruiker - identiteitskaart Als u niet over de vereiste gebruikers- en regio-id&#39;s beschikt, raadpleegt u [Gebruikersnamen en -gebieden ophalen uit een DCS-reactie](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) en/of [Experience Cloud](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md). Zodra u gebruiker en gebied IDs hebt, kunt u server-aan-server vraag aan DCS maken. Zie deze sectie voor syntaxis en voorbeelden.
 
@@ -50,12 +50,12 @@ Een steekproefvraag kijkt gelijkaardig aan het volgende voorbeeld.
    <td colname="col2"> <p>Dit deel van de vraag bevat: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Uw domeinalias toegewezen door <span class="keyword"> Audience Manager</span> (bijvoorbeeld <i><code> my_domain.demdex.net</code></i>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Het doeldomein, dat altijd is <i><code> demdex.net</code></i>. Zie het <a href="../../../reference/demdex-calls.md"> Begrip van Vraag aan het Domein</a>van de Index. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Het doeldomein, dat altijd is <i><code> demdex.net</code></i>. Zie <a href="../../../reference/demdex-calls.md">Inzicht in calls naar het Demdex-domein</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> <i>DCS host name</i>.demdex.net</code> </p> </td> 
-   <td colname="col2"> <p>De http-headerhostparameter die de naam van de regionale <span class="wintitle"> DCS</span> -server weergeeft. De gastheernaam is gebonden aan een gebiedsidentiteitskaart, die is waarom u dit alvorens deze types van vraag nodig hebt te maken. Zie <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> ID's, locaties en hostnamen van DCS-regio's</a>. </p> </td> 
+   <td colname="col2"> <p>De http-headerhostparameter die de naam van de regionale <span class="wintitle"> DCS</span> -server weergeeft. De gastheernaam is gebonden aan een gebiedsidentiteitskaart, die is waarom u dit alvorens deze types van vraag nodig hebt te maken. See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> DCS Region IDs, Locations, and Host Names</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> /event?</code> </p> </td> 
@@ -87,4 +87,4 @@ Een steekproefvraag kijkt gelijkaardig aan het volgende voorbeeld.
 
 ## Samplereactie {#sample-response}
 
-Zie Gegevens [ontvangen van DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
