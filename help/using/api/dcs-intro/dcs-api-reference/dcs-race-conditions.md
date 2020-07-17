@@ -1,21 +1,21 @@
 ---
 description: Beschrijft hoe te om rasvoorwaarden en fout te verhinderen DCS behandeling.
 seo-description: Beschrijft hoe te om rasvoorwaarden en fout te verhinderen DCS behandeling.
-seo-title: Voorwaarden van ruimte en foutafhandeling
+seo-title: Racevoorwaarden en foutafhandeling
 solution: Audience Manager
-title: Voorwaarden van ruimte en foutafhandeling
+title: Racevoorwaarden en foutafhandeling
 uuid: b0aac960-6732-4e96-87a5-40ba2755e02d
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Voorwaarden van ruimte en foutafhandeling {#race-conditions-and-error-handling}
+# Racevoorwaarden en foutafhandeling {#race-conditions-and-error-handling}
 
 Beschrijft hoe te om rasvoorwaarden en [!DNL DCS] foutenbehandeling te verhinderen.
 
@@ -34,4 +34,4 @@ Foutafhandeling is beperkt voor ongeldige of onjuist gevormde query&#39;s. Een o
 * Komt uit een ongeldig/niet-geselecteerd geografisch gebied.
 * Hiermee schakelt u browsercookies uit (alles of van derden).
 
-Zie ook [DCS-foutcodes, berichten en voorbeelden](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
+See also, [DCS Error Codes, Messages, and Examples](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
