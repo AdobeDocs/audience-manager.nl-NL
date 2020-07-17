@@ -1,21 +1,21 @@
 ---
 description: Kolomkoplabels gedefinieerd.
 seo-description: Kolomkoplabels gedefinieerd.
-seo-title: Opsommingsbeheertools Verklarende woordenlijst
+seo-title: Woordenlijst voor Bulk Management Tools
 solution: Audience Manager
-title: Opsommingsbeheertools Verklarende woordenlijst
+title: Woordenlijst voor Bulk Management Tools
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Opsommingsbeheertools Verklarende woordenlijst{#bulk-management-tools-glossary}
+# Woordenlijst voor Bulk Management Tools{#bulk-management-tools-glossary}
 
 Kolomkoplabels gedefinieerd.
 
@@ -99,7 +99,7 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>De eigenlijke eigenschap of segmentregel die wordt gebruikt om gegevens te verzamelen. Een bulkverzoek keert de regels terug die in <span class="keyword"> Audience Manager</span> met de bouwer <a href="../../features/traits/about-trait-builder.md"> van de</a> trekkerregel of de <a href="../../features/segments/segment-builder.md"> segmentregelbouwer</a>worden gecreeerd. U kunt deze hulpmiddelen ook gebruiken om regels te bouwen en hen in bulk toe te passen wanneer u een segment of een eigenschap bijwerkt. </p> <p>Zie ook: <a href="../../reference/bulk-management-tools/bulk-rules.md"> creeer of werk Regels en de Regels</a>van het Segment bij. </p> </td> 
+   <td colname="col2"> <p>De eigenlijke eigenschap of segmentregel die wordt gebruikt om gegevens te verzamelen. Een bulkverzoek keert de regels terug die in <span class="keyword"> Audience Manager</span> met de bouwer <a href="../../features/traits/about-trait-builder.md"> van de</a> trekkerregel of de <a href="../../features/segments/segment-builder.md"> segmentregelbouwer</a>worden gecreeerd. U kunt deze hulpmiddelen ook gebruiken om regels te bouwen en hen in bulk toe te passen wanneer u een segment of een eigenschap bijwerkt. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
