@@ -1,21 +1,21 @@
 ---
 description: Een trendrapport retourneert trendgegevens over kenmerken en segmenten.
 seo-description: Een trendrapport retourneert trendgegevens over kenmerken en segmenten.
-seo-title: Trend Reports
+seo-title: Trendrapporten
 solution: Audience Manager
-title: Trend Reports
+title: Trendrapporten
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: general & trend reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Trend Reports{#trend-reports}
+# Trendrapporten{#trend-reports}
 
 Een trendrapport retourneert trendgegevens over kenmerken en segmenten.
 
