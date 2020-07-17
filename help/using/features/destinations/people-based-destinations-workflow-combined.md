@@ -1,20 +1,20 @@
 ---
 description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-line gegevens van CRM met gedragsgegevens te combineren die u reeds in Audience Manager hebt om nieuwe publiekssegmenten tot stand te brengen, dan deze publiekssegmenten naar Op mensen-Gebaseerde Doelen te verzenden.  '
 seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-line gegevens van CRM met gedragsgegevens te combineren die u reeds in Audience Manager hebt om nieuwe publiekssegmenten tot stand te brengen, dan deze publiekssegmenten naar Op mensen-Gebaseerde Doelen te verzenden.   '
-seo-title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens
+seo-title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offline data
 solution: Audience Manager
-title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens
+title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offline data
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1180'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
 
-# Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens {#workflow-a}
+# Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offline data {#workflow-a}
 
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
