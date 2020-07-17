@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Naam uitgaand gegevensbestand: Syntaxis en voorbeelden{#outbound-data-file-name-syntax-and-examples}
+# Naam van uitgaande-databestand: syntaxis en voorbeelden{#outbound-data-file-name-syntax-and-examples}
 
 Beschrijft de vereiste gebieden, de syntaxis, en de overeenkomsten die worden gebruikt om een uitgaand gegevensdossier te noemen.
 
@@ -64,7 +64,7 @@ De tabel definieert de elementen in de naam van een uitgaand gegevensbestand.
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser ID </span> (raw, unhashed) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID for Advertisers </span> (raw, unhashed) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">Leveranciers-id - gebruikers-id's van derden (web/cookie) </li> 
-     </ul> </p> <p>Zie <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Algemene gegevensbronnen</a> voor meer informatie.</p></td> 
+     </ul> </p> <p>Zie <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html">Algemene databronnen</a> voor meer informatie.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 
@@ -191,7 +191,7 @@ De tabel bevat variabelen die de inhoud van een gegevensbestand definiëren.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>REMOVED_SEGMENT_N </i></code> </p> </td> 
-   <td colname="col2"> <p>De segment-id waarvan de gebruiker is uitgesloten. Scheid meerdere segmenten met een komma. Met een volledige synchronisatie, kunt u de verwijderde segmenten negeren omdat het gegevensdossier de volledige lijst van huidige segmenten voor de gebruiker zal bevatten. Gewoonlijk, wilt u over segmenten weten een gebruiker tot eerder dan die behoort die zij uit zijn verwijderd. Zie ook <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Naam uitgaand gegevensbestand: Syntaxis en voorbeelden </a>. </p> </td> 
+   <td colname="col2"> <p>De segment-id waarvan de gebruiker is uitgesloten. Scheid meerdere segmenten met een komma. Met een volledige synchronisatie, kunt u de verwijderde segmenten negeren omdat het gegevensdossier de volledige lijst van huidige segmenten voor de gebruiker zal bevatten. Gewoonlijk, wilt u over segmenten weten een gebruiker tot eerder dan die behoort die zij uit zijn verwijderd. See also <a href="../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md#outbound-data-file-name-syntax-and-examples"> Outbound Data File Name: Syntax and Examples </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
