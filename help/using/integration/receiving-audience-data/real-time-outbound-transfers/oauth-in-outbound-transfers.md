@@ -1,16 +1,16 @@
 ---
 description: Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan-server integratie in real time, kan de Audience Manager opstelling zijn om het gebruiken van OAuth 2.0 voor authentiek te verklaren wanneer het maken van de verzoeken. Dit stelt de capaciteit voor om voor authentiek verklaarde verzoeken van Audience Manager aan uw eindpunt uit te geven.
 seo-description: Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan-server integratie in real time, kan de Audience Manager opstelling zijn om het gebruiken van OAuth 2.0 voor authentiek te verklaren wanneer het maken van de verzoeken. Dit stelt de capaciteit voor om voor authentiek verklaarde verzoeken van Audience Manager aan uw eindpunt uit te geven.
-seo-title: OAuth 2.0 Integratie voor Uitgaande Overdrachten in real time
+seo-title: OAuth 2.0-integratie voor uitgaande realtime-overdracht
 solution: Audience Manager
-title: OAuth 2.0 Integratie voor Uitgaande Overdrachten in real time
+title: OAuth 2.0-integratie voor uitgaande realtime-overdracht
 uuid: a39e370c-b3bd-4b06-a1af-60a024ee7ee4
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
