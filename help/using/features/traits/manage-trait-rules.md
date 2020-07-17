@@ -1,21 +1,21 @@
 ---
 description: In Trait Builder kunt u met Expression Builder regels maken en testen die kwalificatievereisten voor het publiek vaststellen. Regels bestaan uit sleutelwaardeparen zoals "color == blue" of "price > 100". Vergelijkingsoperatoren bepalen de relatie tussen sleutels en waarden. Booleaanse expressies bepalen de relatie tussen regelgroepen.
 seo-description: In Trait Builder kunt u met Expression Builder regels maken en testen die kwalificatievereisten voor het publiek vaststellen. Regels bestaan uit sleutelwaardeparen zoals "color == blue" of "price > 100". Vergelijkingsoperatoren bepalen de relatie tussen sleutels en waarden. Booleaanse expressies bepalen de relatie tussen regelgroepen.
-seo-title: Trait-regels beheren
+seo-title: Eigenschapregels beheren
 solution: Audience Manager
-title: Trait-regels beheren
+title: Eigenschapregels beheren
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Trait-regels beheren {#managing-trait-rules}
+# Eigenschapregels beheren {#managing-trait-rules}
 
 In [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] laat u regels tot stand brengen en testen die de vereisten van de publiekskwalificatie bepalen. Regels bestaan uit sleutel-waardeparen zoals `color == blue` of `price > 100`. Vergelijkingsoperatoren bepalen de relatie tussen sleutels en waarden. [!DNL Boolean] expressies bepalen de relatie tussen regelgroepen.
 
