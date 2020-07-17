@@ -10,18 +10,18 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Segmenten: Doel, samenstelling en regels {#segments-purpose-composition-and-rules}
+# Segmenten: doel, samenstelling en regels {#segments-purpose-composition-and-rules}
 
 Beschrijft [!UICONTROL segments], hun samenstellende delen, en lijnverwezenlijking met [!UICONTROL Segment Builder].
 
 ## Doel van [!UICONTROL Segments]
 
-Een *`segment`* (of een *`audience`*) is een set gebruikers die gemeenschappelijke kenmerken delen. In Audience Manager, creeert u [!UICONTROL segments] met server-zijregels. Met deze regels kunt u publieksgroepen samenstellen op basis van kenmerken van sitebezoekers, zoals:
+A *`segment`* (or an *`audience`*) is a set of users who share common attributes. In Audience Manager, creeert u [!UICONTROL segments] met server-zijregels. Met deze regels kunt u publieksgroepen samenstellen op basis van kenmerken van sitebezoekers, zoals:
 
 * Gedrag;
 * Demografische gegevens (leeftijd, geslacht, inkomen, enz.);
@@ -37,7 +37,7 @@ Wanneer u Adobe Analytics toewijst [!UICONTROL segments] of pakketten rapporteer
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] verschilt van [!DNL Adobe Analytics][!UICONTROL segments]. Lees Segmenten [begrijpen in Analytics en Audience Manager](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) voor een diepgaande beschrijving van de verschillen.
+>Audience Manager [!UICONTROL segments] verschilt van [!DNL Adobe Analytics][!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/nl-NL/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
 
 ## Regels maken [!UICONTROL Segments] met [!UICONTROL Segment Builder]
 
@@ -54,5 +54,5 @@ In tegenstelling tot traditionele pixels die in reactie op eenvoudige ja/nee-voo
 
 >[!MORELIKETHIS]
 >
->* [Signalen, Traits en Segmenten](../../reference/signal-trait-segment.md)
+>* [Signalen, eigenschappen en segmenten](../../reference/signal-trait-segment.md)
 
