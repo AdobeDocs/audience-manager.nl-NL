@@ -1,21 +1,21 @@
 ---
 description: De Etiketten van de Uitvoer van gegevens werken met de Controles van de Uitvoer u op een gegevensbron plaatst. De Etiketten van de Uitvoer van gegevens verhinderen u beperkte eigenschappen aan een segment toe te voegen en segmentgegevens naar een bestemming te verzenden. U kunt meerdere exportlabels instellen op een nieuw of bestaand cookie- of URL-doel.
 seo-description: De Etiketten van de Uitvoer van gegevens werken met de Controles van de Uitvoer u op een gegevensbron plaatst. De Etiketten van de Uitvoer van gegevens verhinderen u beperkte eigenschappen aan een segment toe te voegen en segmentgegevens naar een bestemming te verzenden. U kunt meerdere exportlabels instellen op een nieuw of bestaand cookie- of URL-doel.
-seo-title: De Controles van de Uitvoer van Gegevens aan een Bestemming toevoegen
+seo-title: Besturingselementen voor data-export aan een bestemming toevoegen
 solution: Audience Manager
-title: De Controles van de Uitvoer van Gegevens aan een Bestemming toevoegen
+title: Besturingselementen voor data-export aan een bestemming toevoegen
 feature: Data Export Controls
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
 
-# Labels voor gegevensexport toevoegen aan een doel {#add-data-export-labels}
+# Add Data Export Labels to a Destination {#add-data-export-labels}
 
 [!DNL Data Export Labels] werken met de gegevensbron die [!DNL Export Controls] u instelt. [!DNL Data Export Labels] verhindert u beperkte eigenschappen aan een segment toe te voegen en segmentgegevens naar een bestemming te verzenden. U kunt meerdere exportlabels instellen op een nieuw of bestaand [!DNL cookie] of een [!DNL URL] doel.
 
@@ -35,6 +35,7 @@ Exportlabels toevoegen aan een doel:
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
    >Exportbeperkingen werken alleen als u een [overeenkomend exportbesturingselement](../../features/data-export-controls.md) voor een gegevensbron instelt.
@@ -42,4 +43,4 @@ Exportlabels toevoegen aan een doel:
 
 >[!MORELIKETHIS]
 >
->* [Een gegevensbron maken](../../features/manage-datasources.md#create-data-source)
+>* [Een databron maken](../../features/manage-datasources.md#create-data-source)
