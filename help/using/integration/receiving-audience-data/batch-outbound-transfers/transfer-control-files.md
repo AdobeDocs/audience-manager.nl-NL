@@ -1,21 +1,21 @@
 ---
 description: Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
 seo-description: Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
-seo-title: Bestanden voor bestandsoverdracht overdragen van logbestanden
+seo-title: Overdrachtbeheerbestanden voor logboekbestandoverdracht
 solution: Audience Manager
-title: Bestanden voor bestandsoverdracht overdragen van logbestanden
+title: Overdrachtbeheerbestanden voor logboekbestandoverdracht
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Bestanden voor bestandsoverdracht overdragen van logbestanden {#transfer-control-files-for-log-file-transfers}
+# Overdrachtbeheerbestanden voor logboekbestandoverdracht {#transfer-control-files-for-log-file-transfers}
 
 Overdracht-controle ([!DNL .info]) de dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
 
