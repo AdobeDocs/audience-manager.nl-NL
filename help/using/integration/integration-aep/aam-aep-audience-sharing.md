@@ -1,21 +1,21 @@
 ---
 description: In dit artikel wordt beschreven hoe publiek wordt gedeeld tussen Audience Manager en Adobe Experience Platform.
 seo-description: In dit artikel wordt beschreven hoe publiek wordt gedeeld tussen Audience Manager en Adobe Experience Platform.
-seo-title: Het Delen van het publiek tussen Audience Manager en Adobe Experience Platform
+seo-title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 solution: Audience Manager
-title: Het Delen van het publiek tussen Audience Manager en Adobe Experience Platform
+title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Het Delen van het publiek tussen Audience Manager en Adobe Experience Platform {#aam-aep-audience-sharing}
+# Doelgroepen delen tussen Audience Manager en Adobe Experience Platform {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Bovendien worden uw Experience Platforms segmenten gedeeld met andere Experience
 
 Zie de onderstaande tabel voor een overzicht van de gebruikte gevallen voor het delen van het publiek:
 
-| **Hoofdletters gebruiken** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
+| **Gebruiksscenario** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
 ---------|----------|---------|---------
 | **Delen van publiek** | <ul><li>Klantprofielen verrijken met Audience Manager-gegevens</li><li>Audience Manager-gegevens gebruiken in segmentatie van Experience Platform</li></ul> | <ul><li>Gegevens van derden toevoegen aan segmenten</li><li>Algorithmming</li><li>Activering naar andere bestemmingen</li></ul> | Gebruik Experience Platform-segmenten in andere Experience Cloud-oplossingen, zoals Adobe Target of Analytics. |
 
@@ -60,7 +60,7 @@ De segmenten die u in Experience Platform creeert verschijnen in uw interface va
 * Trait: De gedragregel is identiteitskaart van het segment van het Experience Platform.
 * Segment: Het segment bestaat uit de hierboven beschreven kenmerken.
 
-### Treinen {#aep-segments-as-aam-traits}
+### Eigenschappen {#aep-segments-as-aam-traits}
 
 Audience Manager maakt automatisch een map met het kenmerk **Experience Platforms** in de opslagruimte.
 
