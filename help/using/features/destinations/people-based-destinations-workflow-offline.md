@@ -1,20 +1,20 @@
 ---
 description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om publiekssegmenten van off-line-enige klantengegevens te bouwen, en hen te verzenden naar op mensen-Gebaseerde Doelen.  '
 seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om publiekssegmenten van off-line-enige klantengegevens te bouwen, en hen te verzenden naar op mensen-Gebaseerde Doelen.  '
-seo-title: Workflow B - Personalisatie gebaseerd op gegevens die alleen offline beschikbaar zijn
+seo-title: Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn
 solution: Audience Manager
-title: Workflow B - Personalisatie gebaseerd op gegevens die alleen offline beschikbaar zijn
+title: Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 
-# Workflow B - Personalisatie gebaseerd op gegevens die alleen offline beschikbaar zijn {#workflow-b}
+# Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn {#workflow-b}
 
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
@@ -35,7 +35,7 @@ Ongeacht of uw bestaande klant-id&#39;s van de Audience Manager ([DPUUIDs](../..
 
 U wilt de klant-id&#39;s uit de onderstaande tabel kwalificeren voor de bijbehorende onbeheerde handels-id&#39;s. Denk eraan dat uw [DPUUIDs](../../reference/ids-in-aam.md) in een gegevensbron met identiteitskaart 999999 wordt opgeslagen, en uw identiteitskaart van de Partner van de Audience Manager is 123.
 
-| Klant-id (DPUUID) | Aan boord genomen Trait ID |
+| Customer ID (DPUUID) | Aan boord genomen Trait ID |
 | -------------------------------------- | ------------------- |
 | 68079982765673198504052656074456196039 | 12345, 23456 |
 | 67412682083411995725538770443620307584 | 45678 |
@@ -43,7 +43,7 @@ U wilt de klant-id&#39;s uit de onderstaande tabel kwalificeren voor de bijbehor
 
 <br />
 
-Als u de klant-id&#39;s in het bovenstaande voorbeeld wilt kwalificeren voor de overeenkomende ongeregistreerde kenmerken, moet u een [binnenkomend gegevensbestand](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) uploaden met de volgende inhoud:
+To qualify the customer IDs in the example above for the corresponding onboarded traits, you must upload an [inbound data file](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) with the following contents:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -51,8 +51,8 @@ Als u de klant-id&#39;s in het bovenstaande voorbeeld wilt kwalificeren voor de 
 89159024796760343733111707646026765593<TAB>d_sid=11223,d_sid=93342,d_sid=27341
 ```
 
-De bestandsnaam zou er als volgt uitzien: `ftp_dpm_999999_123_TIMESTAMP.sync.gz`.
-Zie [Amazon S3 Name and File Size Requirements for Inbound Data Files](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie over de structuur van de bestandsnaam.
+The file name would look like this: `ftp_dpm_999999_123_TIMESTAMP.sync.gz`.
+See [Amazon S3 Name and File Size Requirements for Inbound Data Files](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) for detailed information on the file name structure.
 
 ## Stap 2 - de Montages van de Gegevensbron vormen {#configure-data-source-settings}
 
