@@ -1,21 +1,21 @@
 ---
 description: Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen een bepaald kenmerk en een volledig segment.
 seo-description: Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen een bepaald kenmerk en een volledig segment.
-seo-title: Overlap-rapport segment-naar-spoor
+seo-title: Overlaprapport Segment-naar-eigenschap
 solution: Audience Manager
-title: Overlap-rapport segment-naar-spoor
+title: Overlaprapport Segment-naar-eigenschap
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Overlap-rapport segment-naar-spoor{#segment-to-trait-overlap-report}
+# Overlaprapport Segment-naar-eigenschap{#segment-to-trait-overlap-report}
 
 Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen een bepaald kenmerk en een volledig segment.
 
@@ -73,7 +73,7 @@ Als u de overlapping tussen kenmerken en segmenten bekijkt, kunt u de totale bes
 <table id="table_5B211EF95216426299EB20253A5A9C1B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Hoofdletters gebruiken </th> 
+   <th colname="col1" class="entry"> Gebruiksscenario </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr>
  </thead>
@@ -182,9 +182,9 @@ popup voor het [!UICONTROL Segment-to-Trait Overlap] rapport bevat de hieronder 
 
 >[!MORELIKETHIS]
 >
->* [Resultaten van filterrapporten met de gegevensregelaars](../../reporting/dynamic-reports/data-sliders.md)
+>* [Resultaten van filterrapporten met dataregelaars](../../reporting/dynamic-reports/data-sliders.md)
 >* [Vormen, kleuren en grootten die worden gebruikt in interactieve rapporten](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
 >* [Verklaarde pictogrammen en gereedschappen rapporteren](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
->* [Rapporten overlappen: Plan en minimale segmentgrootte bijwerken](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van de Audience Manager...](../../reporting/report-sampling.md)
->* [CSV-bestanden voor overlappende rapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
+>* [Overlaprapporten: updateplanning en minimale segmentgrootte](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
+>* [Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten...](../../reporting/report-sampling.md)
+>* [CSV-bestanden voor overlaprapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
