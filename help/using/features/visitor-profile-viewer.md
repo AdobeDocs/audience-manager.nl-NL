@@ -2,21 +2,21 @@
 description: Gebruik de Viewer van het Profiel van de bezoeker om de huidige status van een gebruikersprofiel voor de huidige browser, met inbegrip van zijn eigenschappen en segmenten te tonen. Voor elk bezit, kunt u zijn SID, naam, details over bekijken hoe de bezoekerssporen (eerste of derde), de realisatiedatum, en de frequentie van realisaties werden gerealiseerd. Voor elk segment, kunt u zijn SID, naam, en de datum van het segmentlidmaatschap bekijken. U kunt ook het bezoekersprofiel voor een andere Audience Manager-profiel-id (UUID) bekijken. De viewer voor het profiel Bezoeker is handig voor het oplossen van problemen.
 keywords: location;location parameter
 seo-description: Gebruik de Viewer van het Profiel van de bezoeker om de huidige status van een gebruikersprofiel voor de huidige browser, met inbegrip van zijn eigenschappen en segmenten te tonen. Voor elk bezit, kunt u zijn SID, naam, details over bekijken hoe de bezoekerssporen (eerste of derde), de realisatiedatum, en de frequentie van realisaties werden gerealiseerd. Voor elk segment, kunt u zijn SID, naam, en de datum van het segmentlidmaatschap bekijken. U kunt ook het bezoekersprofiel voor een andere Audience Manager-profiel-id (UUID) bekijken. De viewer voor het profiel Bezoeker is handig voor het oplossen van problemen.
-seo-title: Bezoekerprofiel Viewer
+seo-title: Bezoekersprofiel-viewer
 solution: Audience Manager
-title: Bezoekerprofiel Viewer
+title: Bezoekersprofiel-viewer
 uuid: 77ffe134-e08f-41de-8fc4-15494847b1d0
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Bezoekerprofiel Viewer {#visitor-profile-viewer}
+# Bezoekersprofiel-viewer {#visitor-profile-viewer}
 
 Gebruik deze optie [!UICONTROL Visitor Profile Viewer] om de huidige status van een gebruikersprofiel voor de huidige browser weer te geven, inclusief de kenmerken en segmenten ervan. Voor elke eigenschap, kunt u zijn [!UICONTROL SID], naam, details bekijken over hoe de bezoekerseigenschappen (eerste of derde) werden gerealiseerd, de realisatiedatum, en de frequentie van realisaties. Voor elk segment, kunt u zijn [!UICONTROL SID], naam, en de datum van het segmentlidmaatschap bekijken. U kunt ook het bezoekersprofiel voor een andere Audience Manager-profiel-id ([!UICONTROL UUID]) bekijken. Dit [!UICONTROL Visitor Profile Viewer] is handig voor probleemoplossing.
 
