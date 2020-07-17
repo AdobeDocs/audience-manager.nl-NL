@@ -1,15 +1,15 @@
 ---
-description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-time in verschillende personen indelen met behulp van gegevenswetenschap.
-seo-description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-time in verschillende personen indelen met behulp van gegevenswetenschap.
-seo-title: Overzicht van voorspellende doelgroepen
+description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
+seo-description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
+seo-title: Overzicht van Predictieve doelgroepen
 solution: Audience Manager
-title: Audience Manager voorspellend publiek
+title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
 
-In een marketingcontext is een persoon een publiekssegment dat wordt gedefinieerd door bezoekers, gebruikers of potentiële kopers en dat een specifieke reeks kenmerken deelt, zoals demografie, bruisende gewoonten, winkelgeschiedenis, enz.
+In een marketingcontext is een persona een doelgroepsegment dat wordt gedefinieerd door bezoekers, gebruikers of potentiële kopers die een specifieke reeks kenmerken delen zoals demografie, browsegewoonten, koopgeschiedenis, enz.
 
-[!UICONTROL Predictive Audiences] modellen zetten dit concept een stap verder door u in staat te stellen de computer leermogelijkheden van de Audience Manager te gebruiken om onbekend publiek in verschillende personen te classificeren. Audience Manager helpt u dit te bereiken door de neiging van uw onbekend publiek van de eerste partij voor een reeks bekende eerstepartijpubliek te berekenen.
+[!UICONTROL Predictive Audiences]-modellen gaan met dit concept een stap verder: hiermee kunt u de Audience Manager-mogelijkheden voor machine learning gebruiken om onbekende doelgroepen te classificeren als verschillende persona&#39;s. Audience Manager helpt u hierbij door de neigingen van uw onbekende eigen doelgroep te berekenen voor een reeks bekende eigen doelgroepen.
 
 Wanneer u een [!UICONTROL Predictive Audiences] model creeert, de eerste stap de basislijnkenmerken of de segmenten kiest die u uw doelpubliek wilt worden geclassificeerd door. Met deze kenmerken of segmenten worden uw persona&#39;s gedefinieerd.
 
@@ -105,7 +105,7 @@ Bij het evalueren van het publiek van de eerste partij en het toewijzen van scor
 
 Houd bij het configureren van uw [!UICONTROL Predictive Audiences] modellen rekening met de volgende overwegingen en beperkingen:
 
-* U kunt maximaal 10 [!UICONTROL Predictive Audiences] modellen maken.
+* U kunt maximaal tien [!UICONTROL Predictive Audiences]-modellen maken.
 * Voor elk model kunt u maximaal 50 basiskenmerken/segmenten kiezen.
 * Gegevens van derden en derden worden momenteel niet ondersteund in [!UICONTROL Predictive Audiences].
 * De classificatie van het publiek wordt gedaan slechts voor echt - tijd eerste-partijpubliek. In een toekomstige update wordt mogelijk ondersteuning geboden voor gebruikers met de classificatie van eerste partijen aan boord.
