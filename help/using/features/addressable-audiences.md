@@ -2,9 +2,9 @@
 description: Een overzicht van de Adresseerbare eigenschap van het Publiek en gebruiksgevallen.
 keywords: DIL
 seo-description: Een overzicht van de Adresseerbare eigenschap van het Publiek en gebruiksgevallen.
-seo-title: Adresseerbaar publiek
+seo-title: Addressable Audiences
 solution: Audience Manager
-title: Adresseerbaar publiek
+title: Addressable Audiences
 topic: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
 feature: Match Rates
@@ -32,10 +32,10 @@ De [!UICONTROL Addressable Audiences] functie toont de overlap tussen het publie
 |---|---|
 | [!UICONTROL Audience Manager Addressable Audience] voor een [!UICONTROL Destination] | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op platform-niveau tijdens de rapportterugblik periode hebben interactie gehad en die met uw gekozen zouden kunnen worden aangepast [!UICONTROL destination]. <br><br>Deze metrisch is nuttig omdat het u toont: <ul><li>De grootte van het totaal [!UICONTROL addressable audience] dat op een bepaalde gerichte doelstelling [!DNL Audience Manager] kan bereiken [!UICONTROL destination].</li><li>Hoe groot is de [!DNL Audience Manager] profielpool voor een doelplatform en de grootte van hun publiek.</li></ul> |
 | [!UICONTROL Customer Total Audience] | Een aantal apparaten die of een [!UICONTROL rule-based trait] op uw eigenschappen of een [!UICONTROL onboarded trait] van uw off-line dossiers tijdens het terugblik-achtervenster hebben gerealiseerd. |
-| [!UICONTROL Addressable Audience Match Rate] | Een telling van overlapping van apparaten die of een [!UICONTROL rule-based trait] of een [!UICONTROL onboarded trait] tijdens het terugblik-achtervenster en apparaten hebben dat wij een identiteitskaart synchronisatie met gekozen [!UICONTROL destination] ongeacht de tijd van syncs hebben.<br><br>Deze metrische waarde vertegenwoordigt apparaten die:<ul><li>Tijdens het terugkijkvenster een [!UICONTROL rule-based] of een [!UICONTROL onboarded trait] gebeurtenis hebben gerealiseerd `AND`</li><li>Een id synchroniseren met de gekozen id, [!UICONTROL destination] ongeacht de tijd van de syncs.</li> |
+| [!UICONTROL Addressable Audience Match Rate] | Een telling van overlapping van apparaten die of een [!UICONTROL rule-based trait] of een [!UICONTROL onboarded trait] tijdens het terugblik-achtervenster en apparaten hebben dat wij een identiteitskaart synchronisatie met gekozen [!UICONTROL destination] ongeacht de tijd van syncs hebben.<br><br>Deze metrische waarde vertegenwoordigt apparaten die:<ul><li>Have realized either a [!UICONTROL rule-based] or an [!UICONTROL onboarded trait] during the look-back window `AND`</li><li>Have an ID sync with the chosen [!UICONTROL destination] regardless of the time of syncs.</li> |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] Ht [!UICONTROL Customer Total Audience] uitgedrukt als percentage. |
-| [!UICONTROL Total Segment Population] | Een telling van alle apparaten die een lid van uw [!UICONTROL segment] tijdens de rapport terugkerende periode waren. |
-| [!UICONTROL Segment Addressable Audience] | Het aantal gebruikers dat [!UICONTROL segment] tijdens de terugblik-achter periode van het rapport behoorde en een actieve synchronisatie van identiteitskaart op uw plaats hebben. [!UICONTROL Segments] U kunt uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij via [!UICONTROL traits] de [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)opnemen. <br><br>Tip: Wanneer gebruikt met de periode van de 1 dag terugblik-rug, kan metrisch u helpen de huidige staat van uw begrijpen [!UICONTROL segments]. Dit is omdat [!UICONTROL Segment Addressable Audience] metrisch de gebruikers vertegenwoordigt die in een [!UICONTROL segment] door de vorige dag bleven. Combineer dit met het feit dat [!DNL Audience Manager] verfrist [!UICONTROL Addressable Audiences] dagelijks, combinerend deze metrische en raadplegingsperiode de meest bijgewerkte momentopname van uw [!UICONTROL segments]. |
+| [!UICONTROL Total Segment Population] | A count of all the devices that were a member of your [!UICONTROL segment] during the report look-back period. |
+| [!UICONTROL Segment Addressable Audience] | The number of users who have belonged to the [!UICONTROL segment] during the report look-back period and have an active ID sync on your site. [!UICONTROL Segments] U kunt uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij via [!UICONTROL traits] de [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)opnemen. <br><br>Tip: Wanneer gebruikt met de periode van de 1 dag terugblik-rug, kan metrisch u helpen de huidige staat van uw begrijpen [!UICONTROL segments]. Dit is omdat [!UICONTROL Segment Addressable Audience] metrisch de gebruikers vertegenwoordigt die in een [!UICONTROL segment] door de vorige dag bleven. Combineer dit met het feit dat [!DNL Audience Manager] verfrist [!UICONTROL Addressable Audiences] dagelijks, combinerend deze metrische en raadplegingsperiode de meest bijgewerkte momentopname van uw [!UICONTROL segments]. |
 | [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] Ht [!UICONTROL Total Segment Population] uitgedrukt als percentage. |
 
 ## [!UICONTROL Addressable Audiences] Interface {#addressable-audience-interface}
@@ -90,7 +90,7 @@ Rapporten voor uw [!UICONTROL Addressable Audiences] en [Doelen](../features/des
 * [!UICONTROL Last 90 Days]
 * [!UICONTROL Lifetime]
 
-Alle datums en datumbereiken worden ingesteld in de [!DNL UTC] tijdzone. Zie [Tijdzones in Audience Manager](../reference/aam-time-zones.md).
+Alle datums en datumbereiken worden ingesteld in de [!DNL UTC] tijdzone. See [Time Zones in Audience Manager](../reference/aam-time-zones.md).
 
 ## Gegevens in Datumbereik Intervallen {#date-range-intervals}
 
@@ -115,7 +115,7 @@ Deze metriek retourneert gegevens voor kenmerken die worden gerealiseerd wanneer
 
 | Metrisch | Beschrijving |
 |---|---|
-| [!UICONTROL Customer Addressable Audience] | Een telling van overlapping van apparaten die of een [!UICONTROL rule-based trait] of een [!UICONTROL onboarded trait] tijdens het terugblik-achtervenster en apparaten hebben dat wij een identiteitskaart synchronisatie met de gekozen bestemming ongeacht de tijd van syncs hebben.<br><br>Deze metrische waarde vertegenwoordigt apparaten die:<ul><li>Tijdens het terugkijkvenster een [!UICONTROL rule-based] of een [!UICONTROL onboarded trait] gebeurtenis hebben gerealiseerd `AND`</li><li>Een id synchroniseren met de gekozen id, [!UICONTROL destination] ongeacht de tijd van de syncs.</li></ul> |
+| [!UICONTROL Customer Addressable Audience] | Een telling van overlapping van apparaten die of een [!UICONTROL rule-based trait] of een [!UICONTROL onboarded trait] tijdens het terugblik-achtervenster en apparaten hebben dat wij een identiteitskaart synchronisatie met de gekozen bestemming ongeacht de tijd van syncs hebben.<br><br>Deze metrische waarde vertegenwoordigt apparaten die:<ul><li>Have realized either a [!UICONTROL rule-based] or an [!UICONTROL onboarded trait] during the look-back window `AND`</li><li>Have an ID sync with the chosen [!UICONTROL destination] regardless of the time of syncs.</li></ul> |
 | [!UICONTROL Customer Total Audience] | Een aantal apparaten die of een [!UICONTROL rule-based trait] op uw eigenschappen of een [!UICONTROL onboarded trait] van uw off-line dossiers tijdens het terugblik-achtervenster hebben gerealiseerd. |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] Ht [!UICONTROL Customer Total Audience] uitgedrukt als percentage. |
 
@@ -129,8 +129,8 @@ Deze cijfers geven gegevens over [!UICONTROL segment] lidmaatschap. Ze zorgen vo
 
 | Metrisch | Beschrijving |
 |---|---|
-| [!UICONTROL Segment Addressable Audience] | Het aantal gebruikers dat [!UICONTROL segment] tijdens de terugblik-achter periode van het rapport behoorde en een actieve synchronisatie van identiteitskaart op uw plaats hebben. Segmenten kunnen uw eigen gegevens van de eerste partij en gegevens van de tweede en derde partij bevatten, via [!UICONTROL traits] overgenomen in de [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Tip: Wanneer gebruikt met de periode van de 1 dag terugblik-rug, kan metrisch u helpen de huidige staat van uw begrijpen [!UICONTROL segments]. Dit is omdat [!UICONTROL Segment Addressable Audience] metrisch de gebruikers vertegenwoordigt die in een [!UICONTROL segment] door de vorige dag bleven. Combineer dit met het feit dat [!DNL Audience Manager] verfrist [!UICONTROL Addressable Audiences] dagelijks, combinerend deze metrische en raadplegingsperiode de meest bijgewerkte momentopname van uw [!UICONTROL segments]. |
-| [!UICONTROL Total Segment Population] | Een telling van alle apparaten die een lid van uw [!UICONTROL segment] tijdens de rapport terugkerende periode waren. |
+| [!UICONTROL Segment Addressable Audience] | The number of users who have belonged to the [!UICONTROL segment] during the report look-back period and have an active ID sync on your site. Segments can include your own first-party data and second party and third party data, via [!UICONTROL traits] acquired in the [Audience Marketplace](../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md).<br><br>Tip: Wanneer gebruikt met de periode van de 1 dag terugblik-rug, kan metrisch u helpen de huidige staat van uw begrijpen [!UICONTROL segments]. Dit is omdat [!UICONTROL Segment Addressable Audience] metrisch de gebruikers vertegenwoordigt die in een [!UICONTROL segment] door de vorige dag bleven. Combineer dit met het feit dat [!DNL Audience Manager] verfrist [!UICONTROL Addressable Audiences] dagelijks, combinerend deze metrische en raadplegingsperiode de meest bijgewerkte momentopname van uw [!UICONTROL segments]. |
+| [!UICONTROL Total Segment Population] | A count of all the devices that were a member of your [!UICONTROL segment] during the report look-back period. |
 | [!UICONTROL Segment Match Rate] | [!UICONTROL Segment Addressable Audience] Ht [!UICONTROL Total Segment Population] uitgedrukt als percentage. |
 
 ### Metriek op Platform-niveau {#platform-level-metrics}
