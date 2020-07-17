@@ -1,21 +1,21 @@
 ---
 description: In de Bouwer van het Segment, laten de recentie en de frequentie u bezoekers segmenteren die op acties voorkomen of zich over een bepaald dagelijks interval herhalen.
 seo-description: In de Bouwer van het Segment, laten de recentie en de frequentie u bezoekers segmenteren die op acties voorkomen of zich over een bepaald dagelijks interval herhalen.
-seo-title: Recente en frequente
+seo-title: Recentheid en frequentie
 solution: Audience Manager
-title: Recente en frequente
+title: Recentheid en frequentie
 uuid: faadd18a-bf27-4b73-995e-9809f52f5350
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Recente en frequente {#recency-and-frequency}
+# Recentheid en frequentie {#recency-and-frequency}
 
 Met [!UICONTROL Segment Builder]de frequentie en de frequentie kunt u bezoekers segmenteren op basis van acties die plaatsvinden of herhalen gedurende een ingesteld dagelijks interval.
 
@@ -84,8 +84,8 @@ U kunt deze limieten en regels controleren en begrijpen wanneer u de frequentie 
    <td colname="col2"> <p>U kunt frequentievereisten configureren <i>zonder</i> de noodvereisten te configureren. Stel gewoon een frequentiewaarde in en laat het veld voor recentie leeg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Regels voor samenvoegen van profielen</b> </p> </td> 
-   <td colname="col2"> <p>Zie Frequentie <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> overtrekken, Externe apparaatgrafieken en Regels</a>voor het samenvoegen van profielen. </p> </td> 
+   <td colname="col1"> <p><b>Regels voor profielsamenvoeging</b> </p> </td> 
+   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -126,5 +126,5 @@ De frequentie-begrenzende uitdrukkingen omvatten alle gebruikers het waarvan aan
 >[!MORELIKETHIS]
 >
 >* [Besturingselementen voor Segment Builder: Sectie Traits](../../features/segments/segment-builder.md#segment-builder-controls-traits)
->* [Code Syntax used in the Segment Expression Editor](../../features/segments/segment-code-syntax.md)
+>* [Gebruikte codesyntaxis in de Segment Expression Editor](../../features/segments/segment-code-syntax.md)
 
