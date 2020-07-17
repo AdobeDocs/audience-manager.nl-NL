@@ -1,21 +1,21 @@
 ---
 description: Maak de inhoud van het metagegevensbestand voor de optimalisatie van het publiek op volgens deze specificaties.
 seo-description: Maak de inhoud van het metagegevensbestand voor de optimalisatie van het publiek op volgens deze specificaties.
-seo-title: Indeling van inhoud voor metagegevensbestanden
+seo-title: Indeling van content voor metadatabestanden
 solution: Audience Manager
-title: Indeling van inhoud voor metagegevensbestanden
+title: Indeling van content voor metadatabestanden
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Indeling van inhoud voor metagegevensbestanden{#content-format-for-metadata-files}
+# Indeling van content voor metadatabestanden{#content-format-for-metadata-files}
 
 Maak de inhoud van het metagegevensbestand voor de optimalisatie van het publiek op volgens deze specificaties.
 
