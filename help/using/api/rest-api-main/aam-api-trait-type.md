@@ -1,21 +1,21 @@
 ---
 description: Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebruiker gedefinieerd type of categorie, meestal op basis van de functie of voor uw eigen interne rapportageprocessen.
 seo-description: Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebruiker gedefinieerd type of categorie, meestal op basis van de functie of voor uw eigen interne rapportageprocessen.
-seo-title: Methoden voor type traditie
+seo-title: Methoden voor eigenschaptypen
 solution: Audience Manager
-title: Methoden voor type traditie
+title: Methoden voor eigenschaptypen
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Methoden voor type traditie {#trait-type-methods}
+# Methoden voor eigenschaptypen {#trait-type-methods}
 
 Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebruiker gedefinieerd type of categorie, meestal op basis van de functie of voor uw eigen interne rapportageprocessen.
 
