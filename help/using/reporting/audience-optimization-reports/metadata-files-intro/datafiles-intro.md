@@ -1,21 +1,21 @@
 ---
 description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in de Audience Manager en gebruiken in de rapporten Audience Optimization en voor Actionable Log Files. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
 seo-description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in de Audience Manager en gebruiken in de rapporten Audience Optimization en voor Actionable Log Files. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
-seo-title: Gegevensbestanden voor publiek optimalisatierapporten en uitvoerbare logbestanden
+seo-title: Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden
 solution: Audience Manager
-title: Gegevensbestanden voor publiek optimalisatierapporten en uitvoerbare logbestanden
+title: Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1042'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Gegevensbestanden voor publiek optimalisatierapporten en uitvoerbare logbestanden {#data-files-for-audience-optimization-reports}
+# Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden {#data-files-for-audience-optimization-reports}
 
 Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in Audience Manager om deze weer te geven in de rapporten [voor optimalisatie van](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) publiek en kenmerken maken met behulp van de gegevens via [uitvoerbare logbestanden](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
 
@@ -25,7 +25,7 @@ Met een bestand met een correcte naam en opmaak kunt u indruk-, klik- of convers
 
 Een gegevensbestand moet vergezeld gaan van een metagegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie [Overzicht en Toewijzingen voor de Dossiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)van Meta-gegevens.
 
-## Naamgevingsconventies voor gegevensbestanden {#naming-conventions}
+## Naming Conventions for Data Files {#naming-conventions}
 
 De volgende syntaxis definieert de structuur van een goed gevormde naam van een gegevensbestand. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan die afhankelijk van de bestandsinhoud verandert.
 
@@ -43,7 +43,7 @@ Geef uw gegevensbestanden, op basis van de inhoud van de bestanden, de volgende 
 * Klik op gegevens: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
 * Conversiegegevens: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
-## Indeling van inhoud voor gegevensbestanden {#content-format}
+## Content Format for Data Files {#content-format}
 
 De volgende syntaxis definieert de inhoudsstructuur in een correct samengesteld gegevensbestand. Opmerking: *cursief* geeft een plaatsaanduiding voor variabelen aan en wordt vervangen door een label in een feitelijk gegevensbestand.
 
@@ -141,7 +141,7 @@ In de onderstaande tabel vindt u een overzicht en beschrijving van de kolomkoppe
  </tbody> 
 </table>
 
-## Leveringsmethoden voor gegevensbestanden {#delivery-methods}
+## Delivery Methods for Data Files {#delivery-methods}
 
 Upload uw afbeeldings-, klik- of conversiegegevensbestanden naar een Amazon S3-directory voor uw [!DNL Audience Manager] account. Raadpleeg deze sectie voor informatie over levering/directorypaden, verwerkingstijden en updates.
 
