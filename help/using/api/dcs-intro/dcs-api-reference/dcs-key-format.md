@@ -1,25 +1,25 @@
 ---
 description: Wanneer het doen van een vraag, keurt DCS zeer belangrijke-waardegegevens in standaard of geserialiseerde formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
 seo-description: Wanneer het doen van een vraag, keurt DCS zeer belangrijke-waardegegevens in standaard of geserialiseerde formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
-seo-title: Het opmaken van zeer belangrijke-waardeparen in Vraag DCS
+seo-title: Het opmaken van sleutelwaardeparen in DCS-calls
 solution: Audience Manager
-title: Het opmaken van zeer belangrijke-waardeparen in Vraag DCS
+title: Het opmaken van sleutelwaardeparen in DCS-calls
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Het opmaken van zeer belangrijke-waardeparen in Vraag DCS {#formatting-key-value-pairs-in-dcs-calls}
+# Het opmaken van sleutelwaardeparen in DCS-calls {#formatting-key-value-pairs-in-dcs-calls}
 
 Wanneer het doen van een vraag, [!DNL DCS] keurt zeer belangrijk-waardegegevens in standaard of in series vervaardigd formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
 
-## Standaard en seriële sleutelwaardeparen {#standard-serialized}
+## Standard and Serialized Key-Value Pairs {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
@@ -71,7 +71,7 @@ Met geserialiseerde sleutel-waarde paren, moet u de tellers specificeren die waa
 
 >[!MORELIKETHIS]
 >
->* [Gegevens verzenden naar de DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
+>* [Data verzenden naar de DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
 >* [Belangrijke voorvoegsels en variabelen die door DCS worden ondersteund](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md)
->* [Belangrijke paar uitgelegd](../../../reference/key-value-pairs-explained.md)
+>* [Sleutelwaardeparen](../../../reference/key-value-pairs-explained.md)
 
