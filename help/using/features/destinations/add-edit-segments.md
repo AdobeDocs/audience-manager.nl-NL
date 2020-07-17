@@ -1,20 +1,20 @@
 ---
 description: De Etiketten van de Uitvoer van gegevens werken met de Controles van de Uitvoer u op een gegevensbron plaatst. De Etiketten van de Uitvoer van gegevens verhinderen u beperkte eigenschappen aan een segment toe te voegen en segmentgegevens naar een bestemming te verzenden. U kunt meerdere exportlabels instellen op een nieuw of bestaand cookie- of URL-doel.
 seo-description: De Etiketten van de Uitvoer van gegevens werken met de Controles van de Uitvoer u op een gegevensbron plaatst. De Etiketten van de Uitvoer van gegevens verhinderen u beperkte eigenschappen aan een segment toe te voegen en segmentgegevens naar een bestemming te verzenden. U kunt meerdere exportlabels instellen op een nieuw of bestaand cookie- of URL-doel.
-seo-title: Segmenten voor server-naar-server doelen toevoegen of bewerken
+seo-title: Segmenten voor server-naar-server-bestemmingen toevoegen of bewerken
 solution: Audience Manager
-title: Segmenten voor server-naar-server doelen toevoegen of bewerken
+title: Segmenten voor server-naar-server-bestemmingen toevoegen of bewerken
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# Segmenten voor server-naar-server doelen toevoegen of bewerken {#add-edit-segments}
+# Segmenten voor server-naar-server-bestemmingen toevoegen of bewerken {#add-edit-segments}
 
 U kunt alleen segmenten voor een serverbestemming ([!DNL S2S]) toevoegen of bewerken. U kunt geen [!DNL S2S] bestemmingen met [!UICONTROL [de Bouwer](/help/using/features/destinations/destination-builder.md)van de Bestemming tot stand brengen]. Neem contact op met uw consultant om [!DNL S2S] doelen in te stellen. Volg deze instructies om segmenten voor een [!DNL S2S] bestemming toe te voegen of uit te geven.
 
