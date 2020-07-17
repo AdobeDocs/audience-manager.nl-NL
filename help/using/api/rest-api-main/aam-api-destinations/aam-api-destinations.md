@@ -1,27 +1,27 @@
 ---
 description: Methoden waarmee u programmatisch kunt werken met doelfuncties.
 seo-description: Methoden waarmee u programmatisch kunt werken met doelfuncties.
-seo-title: API-doelmethoden
+seo-title: 'API-methoden voor bestemmingen '
 solution: Audience Manager
-title: API-doelmethoden
+title: 'API-methoden voor bestemmingen '
 uuid: 048bcdb9-2b31-46f4-8b80-4ba25bf06640
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
 
-# API-doelmethoden {#destination-api-methods}
+# API-methoden voor bestemmingen {#destination-api-methods}
 
 Methoden waarmee u programmatisch kunt werken met doelfuncties.
 
 <!-- c_destinations_api.xml -->
 
-In Audience Manager, is een bestemming om het even welk ander systeem (ad server, [!DNL DSP], en netwerk, uitwisseling, uw eigen eerstepartijkoekje, enz.) waarmee u gegevens wilt delen.
+In Audience Manager, is een bestemming om het even welk ander systeem (ad server, [!DNL DSP], en netwerk, uitwisseling, uw eigen eerstepartijkoekje, enz.) waarmee u data wilt delen.
 
 ## Doeltypen: URL en cookie {#destination-types}
 
