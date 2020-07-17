@@ -1,9 +1,9 @@
 ---
 description: De markt is waar de gegevenskopers naar onderzoek gaan en zich abonneren op openbare en particuliere gegevensfeeds. Voer de volgende stappen uit om u te abonneren op een openbare gegevensfeed.
 seo-description: De markt is waar de gegevenskopers naar onderzoek gaan en zich abonneren op openbare en particuliere gegevensfeeds. Voer de volgende stappen uit om u te abonneren op een openbare gegevensfeed.
-seo-title: Abonnementen gegevensfeed beheren
+seo-title: Lidmaatschappen voor datafeeds beheren
 solution: Audience Manager
-title: Abonnementen gegevensfeed beheren
+title: Lidmaatschappen voor datafeeds beheren
 topic: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2186'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Abonnementen gegevensfeed beheren {#manage-data-feed-subscriptions}
+# Lidmaatschappen voor datafeeds beheren {#manage-data-feed-subscriptions}
 
 In [!UICONTROL Marketplace] dit geval gaan kopers van gegevens naar onderzoek en abonneren ze op openbare en particuliere gegevensfeeds. Voer de volgende stappen uit om u te abonneren op een openbare gegevensfeed.
 
@@ -39,12 +39,14 @@ Abonneren op een openbare gegevensfeed:
 1. Kies een gebruiksscenario in de tabel met abonnementen en:
    * Verplaats de **[!UICONTROL Subscription]** schuifregelaar naar **[!UICONTROL On]**.
    * Klik op **[!UICONTROL Review & Subscribe]**. Hiermee opent u het [!UICONTROL Terms and Conditions] venster.
+
    ![inschrijven](assets/subscribe3.png)
 
 1. In het [!UICONTROL Terms and Conditions] venster:
 
    * **Belangrijk:** Laat het **[!UICONTROL ID sync]** selectievakje ingeschakeld. Met deze instelling kunt u de gegevensaanbieder een betere overeenkomst bieden.
    * Controleer de voorwaarden en bepalingen en klik om het abonnementsproces **[!UICONTROL Accept]** te voltooien.
+
    ![inschrijven](assets/subscribe4.png)
 
 ### Volgende stappen
@@ -313,7 +315,7 @@ Met dit gebruiksgeval kunt u de eigenschappen van de leverancier vergelijken met
 
 ### Activering
 
-Met dit gebruiksgeval kunt u gegevens naar een [doel](../../../features/destinations/destinations.md)verzenden. In [!DNL Audience Manager], is een bestemming om het even welk derdesysteem (ad server, [!DNL DSP], [!DNL DMP], uitwisseling, enz.) waarmee u gegevens wilt delen. Met een [!UICONTROL Activation] gebruiksscenario kunt u echter geen overlappende rapporten uitvoeren of de gegevens in een algoritmisch model testen.
+Met dit gebruiksgeval kunt u gegevens naar een [doel](../../../features/destinations/destinations.md)verzenden. In [!DNL Audience Manager], is een bestemming om het even welk derdesysteem (ad server, [!DNL DSP], [!DNL DMP], uitwisseling, enz.) waarmee u data wilt delen. Met een [!UICONTROL Activation] gebruiksscenario kunt u echter geen overlappende rapporten uitvoeren of de gegevens in een algoritmisch model testen.
 
 >[!MORELIKETHIS]
 >
