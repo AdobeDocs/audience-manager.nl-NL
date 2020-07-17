@@ -1,21 +1,21 @@
 ---
 description: Wanneer een binnenkomend server-aan-server dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner.
 seo-description: Wanneer een binnenkomend server-aan-server dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner.
-seo-title: Het Bericht van de steekproef aan Partners na Binnenkomende Verwerking
+seo-title: Voorbeeldbericht aan partners na verwerking van binnenkomende data
 solution: Audience Manager
-title: Het Bericht van de steekproef aan Partners na Binnenkomende Verwerking
+title: Voorbeeldbericht aan partners na verwerking van binnenkomende data
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Het Bericht van de steekproef aan Partners na Binnenkomende Verwerking{#sample-message-to-partners-after-inbound-processing}
+# Voorbeeldbericht aan partners na verwerking van binnenkomende data{#sample-message-to-partners-after-inbound-processing}
 
 Wanneer een binnenkomend [!UICONTROL Server-to-Server] dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner.
 
