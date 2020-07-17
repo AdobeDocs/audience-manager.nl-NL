@@ -1,20 +1,20 @@
 ---
 description: In de Bouwer van de Bestemming, bevat de sectie van de Configuratie het Domein van de Koek en publiceert Gegevens aan gebieden. Hiermee kunt u regels maken om te bepalen of een doel een cookie instelt of een cookie retourneert. Cookie-domein en publicatiegegevens om onafhankelijk van elkaar te werken en zijn optioneel. U kunt een koekjesbestemming tot stand brengen zonder één van beiden van hen te gebruiken.
 seo-description: In de Bouwer van de Bestemming, bevat de sectie van de Configuratie het Domein van de Koek en publiceert Gegevens aan gebieden. Hiermee kunt u regels maken om te bepalen of een doel een cookie instelt of een cookie retourneert. Cookie-domein en publicatiegegevens om onafhankelijk van elkaar te werken en zijn optioneel. U kunt een koekjesbestemming tot stand brengen zonder één van beiden van hen te gebruiken.
-seo-title: Optionele instellingen voor Cookie-doelen
+seo-title: Optionele instellingen voor cookiebestemmingen
 solution: Audience Manager
-title: Optionele instellingen voor Cookie-doelen
+title: Optionele instellingen voor cookiebestemmingen
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Optionele instellingen voor Cookie-doelen {#optional-settings-cookies}
+# Optionele instellingen voor cookiebestemmingen {#optional-settings-cookies}
 
 In [!UICONTROL Destination Builder], [!UICONTROL Configuration section] bevat het de [!UICONTROL Cookie Domain] en [!UICONTROL Publish Data To] gebieden. Hiermee kunt u regels maken om te bepalen of een doel een cookie instelt of een cookie retourneert. [!UICONTROL Cookie Domain] en [!UICONTROL Publish Data To] werken onafhankelijk van elkaar en zijn optioneel. U kunt een koekjesbestemming tot stand brengen zonder één van beiden van hen te gebruiken.
 
