@@ -1,21 +1,21 @@
 ---
 description: In deze sectie wordt beschreven hoe u een DCS-reactie kunt parseren om de id's van de bezoeker en regio op te halen die nodig zijn om real-time aanroepen naar de DCS uit te voeren.
 seo-description: In deze sectie wordt beschreven hoe u een DCS-reactie kunt parseren om de id's van de bezoeker en regio op te halen die nodig zijn om real-time aanroepen naar de DCS uit te voeren.
-seo-title: Gebruikersnaam en regio's ophalen uit een DCS-reactie
+seo-title: Gebruikers-id’s en -regio’s ontvangen van een DCS-reactie
 solution: Audience Manager
-title: Gebruikersnaam en regio's ophalen uit een DCS-reactie
+title: Gebruikers-id’s en -regio’s ontvangen van een DCS-reactie
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Gebruikersnaam en regio&#39;s ophalen uit een DCS-reactie {#get-user-ids-and-regions-from-a-dcs-response}
+# Gebruikers-id’s en -regio’s ontvangen van een DCS-reactie {#get-user-ids-and-regions-from-a-dcs-response}
 
 Deze sectie beschrijft hoe te om een [!DNL DCS] reactie te ontleden om bezoeker en gebied IDs terug te winnen die wordt vereist om vraag in real time aan [!DNL DCS]te maken.
 
@@ -24,7 +24,7 @@ Deze sectie beschrijft hoe te om een [!DNL DCS] reactie te ontleden om bezoeker 
 Een [!DNL DCS] reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar de [!DNL DCS]server.
 
 * De gebruikers-id is vereist om gegevens te identificeren en aan een bepaalde bezoeker te koppelen.
-* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS]server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst bij plaatsbezoekers zijn. Zie [DCS-regio-id&#39;s, -locaties en -hostnamen](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS]server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst bij plaatsbezoekers zijn. See [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 Deze parameters worden hieronder beschreven. De code in *cursief* staat voor een variabele plaatsaanduiding.
 
