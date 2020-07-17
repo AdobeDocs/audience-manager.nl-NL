@@ -1,21 +1,21 @@
 ---
 description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruikers IDs tussen een verkoper en een Audience Manager te synchroniseren. De synchronisatie van identiteitskaart kan beginnen nadat u uw gegevenstaxonomie naar Audience Manager verzendt.
 seo-description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruikers IDs tussen een verkoper en een Audience Manager te synchroniseren. De synchronisatie van identiteitskaart kan beginnen nadat u uw gegevenstaxonomie naar Audience Manager verzendt.
-seo-title: ID-synchronisatie voor binnenkomende gegevensoverdrachten
+seo-title: Id-synchronisatie voor overdracht van binnenkomende data
 solution: Audience Manager
-title: ID-synchronisatie voor binnenkomende gegevensoverdrachten
+title: Id-synchronisatie voor overdracht van binnenkomende data
 uuid: 037e74a6-acfd-4cef-b693-16b7aaa8e976
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '478'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
 
-# ID-synchronisatie voor binnenkomende gegevensoverdrachten {#id-synchronization-for-inbound-data-transfers}
+# Id-synchronisatie voor overdracht van binnenkomende data {#id-synchronization-for-inbound-data-transfers}
 
 Beschrijft de syntaxis en de parameters die in de aanvankelijke `HTTP` vraag worden gebruikt om gebruikers IDs tussen een verkoper en [!DNL Audience Manager]. te synchroniseren. De synchronisatie van identiteitskaart kan beginnen nadat u uw gegevenstaxonomie naar verzendt [!DNL Audience Manager].
 
@@ -67,7 +67,7 @@ De [!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitsk
   </tr> 
   <tr> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"> <p>Optioneel. Voeg deze parameter toe als u de Plug-in van de <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager voor IAB TCF gebruikt.</a></p> <p><code>gdpr_consent</code> is de URL-veilige base64-gecodeerde GDPR toestemmingstekenreeks (zie <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-specificatie</a>). </p> <p> <b>Opmerking:</b> Deze parameter kan alleen samen met <code>gdpr</code>worden gebruikt.</p> </td> 
+   <td colname="col2"> <p>Optioneel. Voeg deze parameter toe als u de Plug-in van de <a href="../../../overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager voor IAB TCF gebruikt.</a></p> <p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>). </p> <p> <b>Opmerking:</b> Deze parameter kan alleen samen met <code>gdpr</code>worden gebruikt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,5 +82,5 @@ De indeling voor overeenkomende id&#39;s via een e-mailafbeelding is dezelfde al
 
 >[!MORELIKETHIS]
 >
->* [Componenten gegevensverzameling](../../../reference/system-components/components-data-collection.md)
+>* [Onderdelen voor dataverzameling](../../../reference/system-components/components-data-collection.md)
 
