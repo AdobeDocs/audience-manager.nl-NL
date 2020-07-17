@@ -1,21 +1,21 @@
 ---
 description: De uitgaande informatie van de partijbaangeschiedenis van de mening voor een gespecificeerde bestemming en tijdspanne.
 seo-description: De uitgaande informatie van de partijbaangeschiedenis van de mening voor een gespecificeerde bestemming en tijdspanne.
-seo-title: Historie van uitgaande bestanden
+seo-title: Geschiedenis van uitgaande bestanden
 solution: Audience Manager
-title: Historie van uitgaande bestanden
+title: Geschiedenis van uitgaande bestanden
 uuid: 3621a59d-2bb5-4828-86f6-4c9bfa580764
 feature: inbound and outbound reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '168'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
 
-# Historie van uitgaande bestanden {#outbound-file-history}
+# Geschiedenis van uitgaande bestanden {#outbound-file-history}
 
 De uitgaande informatie van de partijbaangeschiedenis van de mening voor een gespecificeerde bestemming en tijdspanne.
 
