@@ -1,16 +1,16 @@
 ---
 description: Beschrijft de componenten van een segment van de Audience Manager, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
 seo-description: Beschrijft de componenten van een segment van de Audience Manager, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
-seo-title: Signalen, Traits en Segmenten
+seo-title: Signalen, eigenschappen en segmenten
 solution: Audience Manager
-title: Signalen, Traits en Segmenten
+title: Signalen, eigenschappen en segmenten
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -45,5 +45,5 @@ Een gebeurtenisaanroep verzendt gegevens van uw website naar [!DNL Audience Mana
 
 >[!MORELIKETHIS]
 >
->* [Segmenten: Doel, samenstelling en regels](../features/segments/segments-purpose.md)
+>* [Segmenten: doel, samenstelling en regels](../features/segments/segments-purpose.md)
 
