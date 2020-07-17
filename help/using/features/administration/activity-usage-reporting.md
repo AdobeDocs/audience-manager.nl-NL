@@ -2,16 +2,16 @@
 description: De Rapportering van het Gebruik van de activiteit helpt u het activiteitengebruik voor uw instantie van de Audience Manager bekijken en volgen, zodat kunt u uw daadwerkelijke gebruik met uw contractuele verplichting vergelijken.
 keywords: activity, usage, reporting, commitment
 seo-description: De Rapportering van het Gebruik van de activiteit helpt u het activiteitengebruik voor uw instantie van de Audience Manager bekijken en volgen, zodat kunt u uw daadwerkelijke gebruik met uw contractuele verplichting vergelijken.
-seo-title: Activiteitenverbruik rapporteren
+seo-title: Gebruik van activiteiten rapporteren
 solution: Audience Manager
-title: Activiteitenverbruik rapporteren
+title: Gebruik van activiteiten rapporteren
 topic: Activity Usage Reporting
 feature: Usage and Billing
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-Het [!UICONTROL Activity Usage Report] helpt u het activiteitengebruik van uw instantie van de Audience Manager bekijken en volgen, die u een duidelijk idee geeft van hoe uw activiteitengebruik met uw contractuele verplichting vergelijkt.
+Het [!UICONTROL Activity Usage Report] helpt u het gebruik van activiteiten van uw Audience Manager-instantie te zien en te volgen, zodat u een duidelijk beeld krijgt van uw gebruik van activiteiten vergeleken bij uw contractuele verplichting.
 
 Bovendien kunt u de gegevens op elk gewenst moment downloaden voor het bijhouden van records en aangepaste analyses. [!UICONTROL Activity Usage Report]
 
 ## Overwegingen {#considerations}
 
-Het [!UICONTROL Activity Usage Report] is beschikbaar voor alle gebruikers van de Audience Manager met [beheerdersrechten](edit-account-settings.md).
+Het [!UICONTROL Activity Usage Report] is beschikbaar aan alle gebruikers van de Audience Manager met [beheerdervoorrechten](edit-account-settings.md).
 
 >[!IMPORTANT]
 >
