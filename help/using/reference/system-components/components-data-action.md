@@ -1,21 +1,21 @@
 ---
 description: De de actiecomponenten van gegevens omvatten de Diefstal van de Gegevens van de Klant, de Server van de Inzameling van Gegevens, SFTP/S3/HTTP uitgevers, IRIS, en de Server van het Geheime voorgeheugen van het Profiel.
 seo-description: De de actiecomponenten van gegevens omvatten de Diefstal van de Gegevens van de Klant, de Server van de Inzameling van Gegevens, SFTP/S3/HTTP uitgevers, IRIS, en de Server van het Geheime voorgeheugen van het Profiel.
-seo-title: Componenten van gegevenshandeling
+seo-title: Onderdelen voor actie op data
 solution: Audience Manager
-title: Componenten van gegevenshandeling
+title: Onderdelen voor actie op data
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Componenten van gegevenshandeling{#data-action-components}
+# Onderdelen voor actie op data{#data-action-components}
 
 De de actiecomponenten van gegevens omvatten de Diefstal van de Gegevens van de Klant, de Server van de Inzameling van Gegevens, SFTP/S3/HTTP uitgevers, IRIS, en de Server van het Geheime voorgeheugen van het Profiel.
 
@@ -27,13 +27,13 @@ c_compact.xml
 
 Actiecomponenten zijn systemen en processen waarmee u gegevens in en uit kunt verplaatsen [!DNL Audience Manager] en er (bij gebrek aan een betere uitdrukking) dingen mee kunt doen. Deze [!DNL Audience Manager] onderdelen zijn:
 
-## CDF (Customer Data Feeds) {#cdf}
+## CDF (Customer Data Feeds, klantdatafeeds) {#cdf}
 
 [!UICONTROL CDF] Dit zijn bestanden die per uur naar klanten worden verzonden. Deze bevatten gebruikers-id&#39;s samen met de bijbehorende segment-id&#39;s, teken-id&#39;s en andere gegevens. Voor meer informatie, zie het Overzicht [van de Invoer van de Gegevens van de](../../features/cdf-files.md)Klant.
 
 ## Data Collection Server (DCS) {#dcs}
 
-Zie [Componenten](../../reference/system-components/components-data-collection.md)voor gegevensverzameling.
+Zie [Onderdelen voor dataverzameling](../../reference/system-components/components-data-collection.md).
 
 ## SFTP/S3 {#sftp-s3}
 
@@ -150,4 +150,4 @@ Het volgende voorbeeld bevat real-time segmentgegevens van [!UICONTROL IRIS]. Ho
 
 ## Profile Cache Server (PCS) {#pcs}
 
-Zie [Componenten](../../reference/system-components/components-data-collection.md)voor gegevensverzameling.
+Zie [Onderdelen voor dataverzameling](../../reference/system-components/components-data-collection.md).
