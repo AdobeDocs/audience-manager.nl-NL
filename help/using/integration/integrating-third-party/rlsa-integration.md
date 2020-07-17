@@ -1,21 +1,21 @@
 ---
 description: Deze procedure vereist een AdWords remarketing lijst, pixelcode, en een Audience Manager URL bestemming. Het is ook gekend als remarketing lijst voor de integratie van onderzoeksadvertenties (RLSA). Alleen van toepassing op betaalde zoekopdrachten.
 seo-description: Deze procedure vereist een AdWords remarketing lijst, pixelcode, en een Audience Manager URL bestemming. Het is ook gekend als remarketing lijst voor de integratie van onderzoeksadvertenties (RLSA). Alleen van toepassing op betaalde zoekopdrachten.
-seo-title: Segmenten verzenden naar een Google AdWords-opmerkinglijst
+seo-title: Segmenten verzenden naar een Google AdWords-remarketinglijst
 solution: Audience Manager
-title: Segmenten verzenden naar een Google AdWords-opmerkinglijst
+title: Segmenten verzenden naar een Google AdWords-remarketinglijst
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 0%
+source-wordcount: '334'
+ht-degree: 5%
 
 ---
 
 
-# Segmenten verzenden naar een Google Ads-opmerkinglijst {#send-segments-to-a-google-adwords-remarketing-list}
+# Send Segments to a Google Ads Remarketing List {#send-segments-to-a-google-adwords-remarketing-list}
 
 Voor deze procedure is een [!DNL Google Ads] lijst met opnieuw in de handel brengen, pixelcode en Audience Manager vereist [!DNL URL] [!DNL destination]. Het wordt ook wel een lijst met opnieuw op de markt gebrachte zoekopdrachten ([!DNL RLSA]) genoemd. Alleen van toepassing op betaalde zoekopdrachten.
 
@@ -31,7 +31,7 @@ Een [!DNL Google Ads] lijst voor opnieuw in de handel brengen instellen als een 
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. In Audience Manager [maakt u een [!DNL URL-doel]](../../features/destinations/create-url-destination.md) of bewerkt u een bestaand doel [!DNL destination]. Gebruik de volgende instellingen bij het maken van het [!DNL destination]bestand:
+1. In Audience Manager, [creeer een [!DNL URL destination]](../../features/destinations/create-url-destination.md) of geef bestaand uit [!DNL destination]. Gebruik de volgende instellingen bij het maken van het [!DNL destination]bestand:
    * Type: URL
    * Serienummering: Ingeschakeld
    * Scheidingsteken: Puntkomma (;)
@@ -72,7 +72,7 @@ Een voltooide afbeelding kan er ongeveer als volgt uitzien:
 >[!MORELIKETHIS]
 >
 >* [[!DNL-doelen]](../../features/destinations/destinations.md)
->* [Een [!DNL URL-doel] maken](../../features/destinations/create-url-destination.md)
+>* [Een [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
 >* [Info over ADWoorden markeringslijsten](https://support.google.com/adwords/answer/2472738)
 >* [Procedure voor markeren van woorden](https://support.google.com/adwords/answer/2454000)
 
