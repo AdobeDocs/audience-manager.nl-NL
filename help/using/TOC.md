@@ -236,7 +236,7 @@ ht-degree: 94%
          + [Overzicht van DCS-API-referenties](api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md)
          + [DCS-API-methoden](api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
          + [DCS-foutcodes, -berichten en -voorbeelden](api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
-         + [ID-controle en Afwijzing](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
+         + [ID-controle en Toevoegend op lijst van gewenste personen maken](api/dcs-intro/dcs-api-reference/id-monitoring-denylisting.md)
          + [Id’s, locaties en hostnamen van DCS-regio’s](api/dcs-intro/dcs-api-reference/dcs-regions.md)
          + [Het opmaken van sleutelwaardeparen in DCS-calls](api/dcs-intro/dcs-api-reference/dcs-key-format.md)
          + [Racevoorwaarden en foutafhandeling](api/dcs-intro/dcs-api-reference/dcs-race-conditions.md)
