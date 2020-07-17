@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -37,10 +37,10 @@ Neem contact op met uw Adobe-vertegenwoordiger om deze premiumfunctie te gebruik
 Voordat u uw eerste-partijpubliek [!UICONTROL People-Based Destinations] [!UICONTROL segments] [!DNL Facebook]naar kunt sturen, moet u controleren of aan de volgende vereisten is voldaan:
 
 1. Voor uw [!DNL Facebook] gebruikersaccount moet de machtiging **Campagnes** beheren zijn ingeschakeld voor de advertentieaccount die u wilt gebruiken.
-2. Voeg het **Adobe Experience Cloud** -bedrijfsaccount toe als een advertentiepartner in uw [!DNL Facebook Ad Account]. Gebruik `business ID=206617933627973`. Zie Partners [toevoegen aan uw Business Manager](https://www.facebook.com/business/help/1717412048538897) voor meer informatie.
+2. Add the **Adobe Experience Cloud** business account as an advertising partner in your [!DNL Facebook Ad Account]. Gebruik `business ID=206617933627973`. See [Add Partners to Your Business Manager](https://www.facebook.com/business/help/1717412048538897) for details.
    >[!IMPORTANT]
-   > Wanneer u de machtigingen voor Adobe Experience Cloud configureert, moet u de machtiging **Campagnes** beheren inschakelen. Dit is nodig voor de [!UICONTROL People-Based Destinations] integratie.
-3. Lees en onderteken de [!DNL Facebook Custom Audiences] Servicevoorwaarden. Om dit te doen, ga naar `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, waar `accountID` is je [!DNL Facebook Ad Account ID].
+   > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. Dit is nodig voor de [!UICONTROL People-Based Destinations]-integratie.
+3. Lees en onderteken de [!DNL Facebook Custom Audiences] Servicevoorwaarden. Ga daarvoor naar `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, waarbij `accountID` uw [!DNL Facebook Ad Account ID] is.
 
 ### [!DNL LinkedIn]
 
@@ -50,13 +50,13 @@ Leer hoe te om uw [!DNL LinkedIn Campaign Manager] gebruikerstoestemmingen uit t
 
 Zie [Begrip en het Vormen LinkedIn op mensen-Gebaseerde Bestemming](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) voor videoinstructies.
 
-## Gegevens aan boord {#data-onboarding}
+## Data-onboarding {#data-onboarding}
 
 Gegevensinvoer voor [!UICONTROL People-Based Destinations] momenteel ondersteunt maximaal 10 gehashte e-mailadressen gekoppeld aan één klant-id ([!DNL CRM ID]) per batchoverdracht. Het uploaden van meer dan 10 gehakte e-mailadressen verbonden aan één klant identiteitskaart veroorzaakt Audience Manager om 10 van hen in te gaan, in geen specifieke orde.
 
 Door meer dan 10 gehashte e-mailadressen te uploaden die aan één klant-id zijn gekoppeld in meerdere batchoverdrachten, behoudt de Audience Manager de meest recente 10 toegevoegde e-mailadressen.
 
-## Gegevensprivacy {#data-privacy}
+## Data Privacy {#data-privacy}
 
 Hoewel u [!UICONTROL People-Based Destinations] doelgroepen kunt kiezen op basis van hashed-e-mailadressen die door u zijn geüpload, kunt u nog steeds geen rechtstreeks identificeerbare bezoekersgegevens naar de Audience Manager uploaden. In de gegevensinstapfase moet u ervoor zorgen dat de e-mailadressen die u wilt gebruiken, met het [!DNL SHA256] algoritme worden gehasht. Anders kunt u ze niet gebruiken in [!UICONTROL People-Based Destinations].
 
@@ -99,7 +99,7 @@ Wanneer het gebruiken [!UICONTROL People-Based Destinations], de Controles [van 
 
 ## Aan boord voor authentiek verklaarde Hashed IDs door Verklaarde identiteitskaart richtend {#onboard-authenticated-declared-id}
 
-Er zijn twee manieren u uw off-line gegevens aan Audience Manager voor kunt brengen [!UICONTROL People-Based Destinations].
+Er zijn twee manieren waarop u offline data in Audience Manager kunt opnemen voor [!UICONTROL People-Based Destinations].
 
 * [Batchgegevens](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar Audience Manager verzenden om gehashte e-mailadressen in te voeren. Met deze methode kunt u ervoor kiezen om de gehashte e-mailadressen van uw [!DNL CRM] database in te gebruiken [!UICONTROL People-Based Destinations]. Als u deze methode gebruikt, kunt u bovendien ook de gehashte e-mailadressen kwalificeren voor [ongeregistreerde kenmerken](../traits/trait-and-segment-qualification-reference.md).
-* Gebruik [gedeclareerde id&#39;s](../declared-ids.md) om gehashte e-mailadressen te declareren wanneer u geverifieerde klant-id&#39;s doorgeeft. Wanneer u deze methode gebruikt, stuurt Audience Manager namens u alleen de gehashte e-mailadressen naar [!UICONTROL People-Based Destinations] de gebruikers die online zijn geverifieerd. De e-mailadressen die via op personen gebaseerde kanalen worden geactiveerd, zijn alleen de adressen in de gedeclareerde id-gebeurtenisaanroepen. Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in realtime verzonden.
+* Use [Declared IDs](../declared-ids.md) to declare hashed email addresses when passing in authenticated customer IDs. When using this method, Audience Manager, on your behalf, only sends to [!UICONTROL People-Based Destinations] the hashed email addresses from users who have authenticated online. De e-mailadressen die via op personen gebaseerde kanalen worden geactiveerd, zijn alleen de adressen in de gedeclareerde id-gebeurtenisaanroepen. Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in realtime verzonden.
