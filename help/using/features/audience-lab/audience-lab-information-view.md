@@ -1,9 +1,9 @@
 ---
 description: Deze sectie bevat algemene informatie over de testgroep en de testsegmenten waarin deze is verdeeld, de geselecteerde omzettingskenmerken en toegewezen bestemmingen. De sectie verstrekt ook controles voor het dupliceren of het schrappen van de testgroep.
 seo-description: Deze sectie bevat algemene informatie over de testgroep en de testsegmenten waarin deze is verdeeld, de geselecteerde omzettingskenmerken en toegewezen bestemmingen. De sectie verstrekt ook controles voor het dupliceren of het schrappen van de testgroep.
-seo-title: Gegevens testgroep
+seo-title: Testgroepgegevens
 solution: Audience Manager
-title: Gegevens testgroep
+title: Testgroepgegevens
 topic: DIL API
 uuid: a49dfdb3-21e1-4c3d-b957-4d445f890124
 feature: Audience Lab
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Gegevens testgroep {#test-group-information}
+# Testgroepgegevens {#test-group-information}
 
 Deze sectie bevat algemene informatie over de testgroep en de testsegmenten waarin deze is verdeeld, de geselecteerde omzettingskenmerken en toegewezen bestemmingen. De sectie verstrekt ook controles voor het dupliceren of het schrappen van de testgroep.
 
