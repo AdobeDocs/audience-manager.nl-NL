@@ -1,9 +1,9 @@
 ---
 description: Kopers van Audience Marketplace-gegevens komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukwekkende beelden (CPM) is geprijsd. Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
 seo-description: Kopers van Audience Marketplace-gegevens komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukwekkende beelden (CPM) is geprijsd. Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
-seo-title: Facturering voor kopers van gegevensfeed
+seo-title: Facturering voor datafeedkopers
 solution: Audience Manager
-title: Facturering voor kopers van gegevensfeed
+title: Facturering voor datafeedkopers
 keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '2027'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Facturering voor kopers van gegevensfeed {#billing-for-data-feed-buyers}
+# Facturering voor datafeedkopers {#billing-for-data-feed-buyers}
 
 Kopers van Audience Marketplace-gegevens komen overeen alle advertenties te melden die zijn gediend met gebruik van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukken ([!DNL CPM]) zijn geprijsd. [!DNL CPM] het gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
 
@@ -181,7 +181,7 @@ Wanneer u het Gebruik van CPM op het Niveau [van de Diervoeders van Gegevens](#f
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> EN</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> AND</span> </p> </td> 
    <td colname="col2"> <p>Pas 100% van de geleverde beeldtotalen op alle leverancierseigenschappen in een op regels gebaseerd segment toe dat een Booleaanse <span class="wintitle"> EN</span> voorwaarde gebruikt. </p> </td> 
   </tr> 
   <tr> 
