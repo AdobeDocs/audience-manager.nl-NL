@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1178'
-ht-degree: 11%
+ht-degree: 59%
 
 ---
 
@@ -23,13 +23,13 @@ Deze pagina bevat alleen de huidige [server-naar-server integratie](/help/using/
 
 * **Bijgewerkt** = toont de laatste datum toen er een update voor deze activeringspartner was.
 * **Unsegment** = Unsegmentation beschrijft processen die apparatenprofielen van segmenten onbruikbaar maken en verwijderen. De mogelijkheid om een apparaatprofiel uit een segment te verwijderen, is afhankelijk van de apparaatoptie die wordt gebruikt om een regel voor het samenvoegen van profielen te maken. Unsegmentation wordt ook gebruikt in de context van GDPR schrapt verzoeken de Regels van de Fusie van het [Profiel en de Processen](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) van de Ontsegmentatie van het Apparaat en de Partners van de [Audience Manager met UnsegmentationCapabilities](/help/using/overview/data-security-and-privacy/aam-gdpr-partners.md#aam-partners-with-unsegmentation)lezen. De Audience Manager verzendt unsegment informatie naar de bestemmingen die met ja hieronder worden gemerkt.
-* **Het ontvangen van TCF toestemmingssignalen** IAB = De Audience Manager stop-binnen voor IAB TCF laat u toe om het koord IAB TC aan activeringspartners door te sturen terwijl het eerbiedigen van de privacykeuzen van gebruikers. Plug-in [Audience Manager lezen voor IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
-* **ICDS** = Deze kolom maakt een lijst van de partners die de Onmiddellijke Onderdrukking van dwars-Apparaat steunen. Lees de [directe onderdrukking](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)van apparaten.
+* **Het ontvangen van TCF toestemmingssignalen** IAB = De Audience Manager stop-binnen voor IAB TCF laat u toe om het koord IAB TC aan activeringspartners door te sturen terwijl het eerbiedigen van de privacykeuzen van gebruikers. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners).
+* **ICDS** = Deze kolom maakt een lijst van de partners die de Onmiddellijke Onderdrukking van dwars-Apparaat steunen. Read [Instant Cross-Device Suppression](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **Mobiel apparaat-id&#39;s** = Deze kolom bevat partners die mobiele apparaat-id&#39;s van Audience Manager kunnen ontvangen.
 
 <br> 
 
-| Integratie | Bijgewerkt | Segment opheffen | Het ontvangen van TCF van IAB toestemmingssignalen | ICDS | Mobiele apparaat-id&#39;s |
+| Integratie | Bijgewerkt | Segment opheffen | Het ontvangen van TCF van IAB toestemmingssignalen | ICDS | Mobiele apparaat-id’s |
 |---------------------------------------------------|------------|-----------|-----------------------------------|------|-------------------|
 | 4C-inzichten | 26/09/2018 | Ja | Nee | Nee | Ja |
 | 4info | 09/02/2017 | Nee | Nee | Nee | Ja |
