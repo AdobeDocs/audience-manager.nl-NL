@@ -1,21 +1,21 @@
 ---
 description: Één benadering voor het verzenden van media gegevens naar Audience Manager gebruikt en servermacro's om campagnerekenmerken naar Audience Manager te verzenden.
 seo-description: Één benadering voor het verzenden van media gegevens naar Audience Manager gebruikt en servermacro's om campagnerekenmerken naar Audience Manager te verzenden.
-seo-title: Vastleggen van Campagne-indrukgegevens via pixelaanroepen
+seo-title: Campagne-impressiedata vastleggen via pixelcalls
 solution: Audience Manager
-title: Vastleggen van Campagne-indrukgegevens via pixelaanroepen
+title: Campagne-impressiedata vastleggen via pixelcalls
 uuid: 6ac44100-4c55-4992-8835-0d578bb4e5c2
 feature: Integration with Campaign
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
 
-# Vastleggen van Campagne-indrukgegevens via pixelaanroepen{#capturing-campaign-impression-data-via-pixel-calls}
+# Campagne-impressiedata vastleggen via pixelcalls{#capturing-campaign-impression-data-via-pixel-calls}
 
 Één benadering voor het verzenden van media gegevens naar Audience Manager gebruikt en servermacro&#39;s om campagnerekenmerken naar Audience Manager te verzenden.
 
