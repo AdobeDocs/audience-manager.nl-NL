@@ -1,21 +1,21 @@
 ---
 description: Het dashboard van Segmenten is een gecentraliseerde werkruimte voor het beheren van bestemmingen.
 seo-description: Het dashboard van Segmenten is een gecentraliseerde werkruimte voor het beheren van bestemmingen.
-seo-title: Weergave Segmentlijst
+seo-title: Weergave Segmentenlijst
 solution: Audience Manager
-title: Weergave Segmentlijst
+title: Weergave Segmentenlijst
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Weergave Segmentlijst {#segments-list-view}
+# Weergave Segmentenlijst {#segments-list-view}
 
 Het dashboard [](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) Segmenten is een gecentraliseerde werkruimte voor het beheer van uw publiekssegmenten. U kunt het [!UICONTROL Segments] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** te navigeren.
 
