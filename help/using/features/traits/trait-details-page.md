@@ -1,9 +1,9 @@
 ---
 description: De detailspagina voor een individueel bezit verstrekt overzicht van informatie zoals de het handelsnaam, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit bepalen, segmenten het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar Audience Data > Traits en klikt u op de naam van het kenmerk waarmee u wilt werken.
 seo-description: De detailspagina voor een individueel bezit verstrekt overzicht van informatie zoals de het handelsnaam, identiteitskaart, prestatiesmetriek, uitdrukkingen die het bezit bepalen, segmenten het tot, en het logboek van de activiteitencontrole behoort. Als u deze details wilt weergeven, gaat u naar Audience Data > Traits en klikt u op de naam van het kenmerk waarmee u wilt werken.
-seo-title: Detailpagina Trait
+seo-title: Detailpagina van eigenschappen
 solution: Audience Manager
-title: Detailpagina van taak
+title: Detailpagina van eigenschappen
 uuid: 23301376-c1cc-4778-b8c4-9831f6739db9
 keywords: identity type breakdown, identity breakdown, audience identity reporting, cross-device, cross-device ID, device ID
 feature: Traits
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -72,7 +72,7 @@ In het [!UICONTROL Trait Expression] gedeelte ziet u aan welke criteria gebruike
 
 ![](assets/traitExpression.png)
 
-## [!UICONTROL Trait] Segmenten {#trait-segments}
+## [!UICONTROL Trait]Segmenten {#trait-segments}
 
 In de [!UICONTROL Segments with this Trait] sectie worden alle segmenten weergegeven waartoe de geselecteerde segmenten [!UICONTROL trait] behoren. U kunt op een segmentnaam klikken om details over dat segment te zien.
 
