@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Een model maken dat lijkt op het uiterlijk {#create-an-algorithmic-model}
+# Een look-alike-model maken {#create-an-algorithmic-model}
 
 Beschrijft de vereiste en facultatieve stappen die u een [!UICONTROL Look-Alike Model]laten tot stand brengen.
 
