@@ -2,21 +2,21 @@
 description: De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
 keywords: dpm.demdex.net
 seo-description: De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
-seo-title: Verificatiestatus bezoeker in Audience Manager
+seo-title: Verificatiestatus van bezoekers in Audience Manager
 solution: Audience Manager
-title: Verificatiestatus bezoeker in Audience Manager
+title: Verificatiestatus van bezoekers in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Verificatiestatus bezoeker in Audience Manager{#visitor-authentication-states-in-audience-manager}
+# Verificatiestatus van bezoekers in Audience Manager{#visitor-authentication-states-in-audience-manager}
 
 De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
 
