@@ -1,21 +1,21 @@
 ---
 description: De componenten van de inzameling van gegevens omvatten de Servers van de Inzameling van Gegevens, DIL API, binnenkomende server-aan-server gegevensoverdrachten, en logboekdossiers.
 seo-description: De componenten van de inzameling van gegevens omvatten de Servers van de Inzameling van Gegevens, DIL API, binnenkomende server-aan-server gegevensoverdrachten, en logboekdossiers.
-seo-title: Componenten gegevensverzameling
+seo-title: Onderdelen voor dataverzameling
 solution: Audience Manager
-title: Componenten gegevensverzameling
+title: Onderdelen voor dataverzameling
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Componenten gegevensverzameling{#data-collection-components}
+# Onderdelen voor dataverzameling{#data-collection-components}
 
 De componenten van de inzameling van gegevens omvatten de Servers van de Inzameling van Gegevens, DIL API, binnenkomende server-aan-server gegevensoverdrachten, en logboekdossiers.
 
@@ -58,11 +58,11 @@ In een gebeurtenisvraag, wordt de geografische plaats gevangen in een zeer belan
 
 ![](assets/dcs-map.png)
 
-Als klant gaat u [!DNL DCS] indirect via onze code voor gegevensverzameling aan met de klant. U kunt ook rechtstreeks met de API&#39;s werken [!DNL DCS] via een set. Zie API-methoden en -code [voor DCS (](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)Data Collection Server).
+Als klant gaat u [!DNL DCS] indirect via onze code voor gegevensverzameling aan met de klant. U kunt ook rechtstreeks met de API&#39;s werken [!DNL DCS] via een set. See [Data Collection Server (DCS) API Methods and Code](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md).
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-Het [!UICONTROL PCS] is een grote database (eigenlijk een grote server-side cookie). Er worden gegevens opgeslagen die voor actieve gebruikers zijn ontvangen van server-naar-server overdrachten en de [!DNL DCS]gegevens. [!UICONTROL PCS] gegevens bestaan uit apparaat-id&#39;s, geverifieerde profiel-id&#39;s en de bijbehorende kenmerken. Wanneer de gebruiker een vraag in real time [!DNL DCS] ontvangt, controleert het [!UICONTROL PCS] voor andere eigenschappen een gebruiker tot kan behoren of voor kwalificeert. En als een eigenschap later aan een segment wordt toegevoegd, worden deze eigenschap-id&#39;s toegevoegd aan het segment [!UICONTROL PCS] en kunnen gebruikers automatisch in aanmerking komen voor dat segment, zonder een bezoek aan een bepaalde site of app. De [!UICONTROL PCS] hulp vergroot [!DNL Audience Manager]het begrip van uw gebruikers omdat het gebruikers in echt - tijd of achter de scènes met nieuwe en historische bezitsgegevens kan aanpassen en segmenteren. Dit gedrag geeft u een vollediger en nauwkeuriger beeld van uw gebruikers dan van kwalificaties in real time alleen.
+Het [!UICONTROL PCS] is een grote database (eigenlijk een grote server-side cookie). Er worden data opgeslagen voor actieve gebruikers van server-naar-server overdrachten en de [!DNL DCS]. [!UICONTROL PCS]-data bestaan uit apparaat-id’s, geverifieerde profiel-id’s en de gekoppelde eigenschappen. Wanneer de gebruiker een vraag in real time [!DNL DCS] ontvangt, controleert het [!UICONTROL PCS] voor andere eigenschappen een gebruiker tot kan behoren of voor kwalificeert. En als een eigenschap later aan een segment wordt toegevoegd, worden deze eigenschap-id&#39;s toegevoegd aan het segment [!UICONTROL PCS] en kunnen gebruikers automatisch in aanmerking komen voor dat segment, zonder een bezoek aan een bepaalde site of app. De [!UICONTROL PCS] hulp vergroot [!DNL Audience Manager]het begrip van uw gebruikers omdat het gebruikers in echt - tijd of achter de scènes met nieuwe en historische bezitsgegevens kan aanpassen en segmenteren. Dit gedrag geeft u een vollediger en nauwkeuriger beeld van uw gebruikers dan van kwalificaties in real time alleen.
 
 Er zijn geen controles UI die onze klanten met het [!UICONTROL PCS]laten werken. De toegang van de klant tot het [!UICONTROL PCS] is indirect, door zijn rol als gegevensopslag en gegevensoverdrachten. Het [!UICONTROL PCS] loopt op Apache Cassandra.
 
@@ -83,7 +83,7 @@ De [!UICONTROL PCS] flushes kenmerkt zich als ze 17 dagen inactief zijn. Deze ke
 
 **Andere[!UICONTROL DCS/PCS]processen: Privacy opt-out**
 
-Deze serversystemen verwerken privacy- en gebruikersuitsluitingsverzoeken. De gegevens van het gebruikerscookie worden niet verzameld in het logbestand als een gebruiker ervoor heeft gekozen geen gegevens meer te verzamelen. Zie het [Adobe Privacy Center](https://www.adobe.com/privacy/advertising-services.html)voor meer informatie over ons privacybeleid.
+Deze serversystemen verwerken privacy- en gebruikersuitsluitingsverzoeken. De gegevens van het gebruikerscookie worden niet verzameld in het logbestand als een gebruiker ervoor heeft gekozen geen gegevens meer te verzamelen. Zie het [Adobe Privacy Center](https://www.adobe.com/nl/privacy/advertising-services.html)voor meer informatie over ons privacybeleid.
 
 ## Data Integration Library (DIL) {#dil}
 
@@ -99,5 +99,5 @@ De code [!UICONTROL PCS] maakt gegevens en schrijft deze naar de logbestanden. D
 
 >[!MORELIKETHIS]
 >
->* [Adobe Privacy Center](https://www.adobe.com/privacy.html)
+>* [Adobe Privacy Center](https://www.adobe.com/nl/privacy.html)
 
