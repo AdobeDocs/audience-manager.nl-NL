@@ -1,21 +1,21 @@
 ---
 description: Methoden waarmee u programmatisch kunt werken met trait- en segmentmappen. Mappen zijn mappen die kenmerken en segmenten in logische groepen bevatten en ordenen.
 seo-description: Methoden waarmee u programmatisch kunt werken met trait- en segmentmappen. Mappen zijn mappen die kenmerken en segmenten in logische groepen bevatten en ordenen.
-seo-title: Methoden van de map API
+seo-title: API-methoden voor mappen
 solution: Audience Manager
-title: Methoden van de map API
+title: API-methoden voor mappen
 uuid: ebb6290e-98c0-472e-ba04-eb5dac036425
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
 
-# Methoden van de map API {#folder-api-methods}
+# API-methoden voor mappen {#folder-api-methods}
 
 Methoden waarmee u programmatisch kunt werken met trait- en segmentmappen. Mappen zijn mappen die kenmerken en segmenten in logische groepen bevatten en ordenen.
 
