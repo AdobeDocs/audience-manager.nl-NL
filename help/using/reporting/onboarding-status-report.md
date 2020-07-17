@@ -1,21 +1,21 @@
 ---
 description: Het rapport Status Aan boord van de instapkaart controleert succes en mislukkingen voor verwerkingsverslagen in uw binnenkomende gegevensbrondossiers. Dit rapport bevat gegevens in een interactief staafdiagram en een overzicht van de afmetingen in tabelvorm. En, omvat het een optie die dossiers voor een vast tijdinterval steekproeven en de gemeenschappelijkste fouten voor elk foutentype toont. U vindt dit rapport in Analytics > On-boarding Status Report. Dit rapport is ook beschikbaar wanneer u een binnenkomende gegevensbron creeert.
 seo-description: Het rapport Status Aan boord van de instapkaart controleert succes en mislukkingen voor verwerkingsverslagen in uw binnenkomende gegevensbrondossiers. Dit rapport bevat gegevens in een interactief staafdiagram en een overzicht van de afmetingen in tabelvorm. En, omvat het een optie die dossiers voor een vast tijdinterval steekproeven en de gemeenschappelijkste fouten voor elk foutentype toont. U vindt dit rapport in Analytics > On-boarding Status Report. Dit rapport is ook beschikbaar wanneer u een binnenkomende gegevensbron creeert.
-seo-title: Rapport over status aan boord
+seo-title: Rapport Onboardingstatus
 solution: Audience Manager
-title: Rapport over status aan boord
+title: Rapport Onboardingstatus
 uuid: 6ca8a90a-436b-4fce-adf1-48f3b96b3ed2
 feature: inbound and outbound reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '1498'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Rapport over status aan boord{#onboarding-status-report-about}
+# Rapport Onboardingstatus{#onboarding-status-report-about}
 
 Het rapport Status Aan boord van de instapkaart controleert succes en mislukkingen voor verwerkingsverslagen in uw binnenkomende gegevensbrondossiers. Dit rapport bevat gegevens in een interactief staafdiagram en een overzicht van de afmetingen in tabelvorm. En, omvat het een optie die dossiers voor een vast tijdinterval steekproeven en de gemeenschappelijkste fouten voor elk foutentype toont. U vindt dit rapport in Analytics > On-boarding Status Report. Dit rapport is ook beschikbaar wanneer u een binnenkomende gegevensbron creeert.
 
@@ -124,7 +124,7 @@ Een naslaggids voor de labels en termen die in dit rapport worden gebruikt.
    <td colname="col1"> <p> <b>Bestandsnaam gegevenssynchronisatie</b> </p> </td> 
    <td colname="col2"> <p>Hier worden bestanden weergegeven die de <span class="keyword"> Audience Manager</span> heeft ontvangen en verwerkt van de geselecteerde binnenkomende gegevensbron. </p> <p>Bestandsverwerking mislukt als de bestandsnaam onjuist is opgemaakt. De vereisten voor de bestandsnaam zijn afhankelijk van de manier waarop u deze gegevens naar de <span class="keyword"> Audience Manager</span>verzendt. Tot de leveringsmethoden behoren <span class="keyword"> Amazon S3</span> en FTP. Zie voor instructies over het benoemen van bestanden: </p> <p> 
      <ul id="ul_9A32906A14CA41C5AED0E13930DB31BA"> 
-      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3-naamvereisten voor binnenkomende gegevensbestanden </a> </li> 
+      <li id="li_A5A0E6ED711D4002B52092619F87C7D6"> <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md"> Amazon S3-naamvereisten voor binnenkomende databestanden </a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -165,7 +165,7 @@ Een naslaggids voor de labels en termen die in dit rapport worden gebruikt.
    <td colname="col1"> <p> <b>Geen spoor gereproduceerd</b> </p> </td> 
    <td colname="col2"> <p>Hiermee geeft u een overzicht van de kenmerken die <span class="keyword"> Audience Manager</span> niet kan overeenkomen met een niet-gecodeerde eigenschap. Dit kan het gevolg zijn van: </p> 
     <ul id="ul_43619035AB6641B6949302FB50BDB5B1"> 
-     <li id="li_D4C6306BF2B143198108702B309CE8CF">De onjuist geformatteerde eigenschappen in uw binnenkomend gegevensdossier. Voor hoe te om uw gegevensdossier te formatteren, zie de <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Binnenkomende Inhoud van het Dossier van Gegevens: Syntaxis, variabelen en voorbeelden</a>. </li> 
+     <li id="li_D4C6306BF2B143198108702B309CE8CF">Onjuist opgemaakte kenmerken in het binnenkomende gegevensbestand. Voor hoe te om uw gegevensdossier te formatteren, zie de <a href="../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md"> Binnenkomende Inhoud van het Dossier van Gegevens: Syntaxis, variabelen en voorbeelden</a>. </li> 
      <li id="li_A1C708A007D24EE09B7C629AFC6E43C3">Treinen die nog niet in <span class="keyword"> Audience Manager</span>zijn gedefinieerd. </li> 
     </ul> </td> 
   </tr> 
