@@ -1,20 +1,20 @@
 ---
 description: Globale gegevensbronnen gebruiken om apparaat-advertentie-id's te importeren.
 seo-description: Globale gegevensbronnen gebruiken om apparaat-advertentie-id's te importeren.
-seo-title: Algemene gegevensbronnen
+seo-title: Algemene databronnen
 solution: Audience Manager
-title: Algemene gegevensbronnen
+title: Algemene databronnen
 feature: Data Sources
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
 
-# Algemene gegevensbronnen {#global-data-sources}
+# Algemene databronnen {#global-data-sources}
 
 ## Overzicht
 
