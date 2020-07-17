@@ -1,21 +1,21 @@
 ---
 description: In dit artikel worden de vergelijkingsoperatoren beschreven die door Trait Builder worden gebruikt.
 seo-description: In dit artikel worden de vergelijkingsoperatoren beschreven die door Trait Builder worden gebruikt.
-seo-title: Werken met vergelijkingsoperatoren in Trait Builder
+seo-title: Werken met vergelijkingsoperatoren in Eigenschapbuilder
 solution: Audience Manager
-title: Werken met vergelijkingsoperatoren in Trait Builder
+title: Werken met vergelijkingsoperatoren in Eigenschapbuilder
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Werken met vergelijkingsoperatoren in Trait Builder {#working-with-comparison-operators-in-trait-builder}
+# Werken met vergelijkingsoperatoren in Eigenschapbuilder {#working-with-comparison-operators-in-trait-builder}
 
 In dit artikel worden de vergelijkingsoperatoren beschreven die door [!UICONTROL Trait Builder]worden gebruikt.
 
@@ -56,8 +56,8 @@ U kunt regels maken met de volgende benoemde operatoren:
 
 >[!MORELIKETHIS]
 >
->* [Booleaanse expressies in Trait and Segment Builder](../../reference/boolean-expressions-tsb.md)
+>* [Booleaanse expressies in Trait en Segment Builder](../../reference/boolean-expressions-tsb.md)
 >* [Booleaanse expressies begrijpen in TraitBuilder](../../reference/boolean-expressions-tsb.md)
 >* [Orde van Verrichtingen in Uitdrukkingen TraitBuilder](../../features/traits/trait-operator-precedence.md)
->* [Voorbeeldexpressies met Booleaanse en vergelijkingsoperatoren](../../features/traits/trait-expression-samples.md)
+>* [Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren](../../features/traits/trait-expression-samples.md)
 
