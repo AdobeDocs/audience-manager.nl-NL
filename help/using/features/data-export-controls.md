@@ -1,21 +1,21 @@
 ---
 description: De Controles van de Uitvoer van gegevens verhinderen u gegevens naar bestemmingen te verzenden wanneer deze actie gegevensprivacy of overeenkomsten van het gegevensgebruik schendt.
 seo-description: De Controles van de Uitvoer van gegevens verhinderen u gegevens naar bestemmingen te verzenden wanneer deze actie gegevensprivacy of overeenkomsten van het gegevensgebruik schendt.
-seo-title: Besturingselementen voor gegevensexport
+seo-title: Besturingselementen voor data-export
 solution: Audience Manager
-title: Besturingselementen voor gegevensexport
+title: Besturingselementen voor data-export
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Besturingselementen voor gegevensexport {#data-export-controls}
+# Besturingselementen voor data-export {#data-export-controls}
 
 [!UICONTROL Data Export Controls] verhindert u gegevens naar bestemmingen te verzenden wanneer deze actie gegevensprivacy of overeenkomsten van het gegevensgebruik schendt.
 
@@ -113,5 +113,5 @@ Bovendien moet ten minste één exportlabel overeenkomen met een exportbesturing
 
 Om te beginnen, herzie de gegevensbron en bestemmingsdocumentatie. Deze artikelen bieden instructies voor het toevoegen van besturingselementen en labels voor exporteren aan uw gegevensbronnen en doelen.
 
-* [Een gegevensbron maken](../features/manage-datasources.md#create-data-source)
+* [Een databron maken](../features/manage-datasources.md#create-data-source)
 * [Labels voor gegevensexport toevoegen aan een doel](../features/destinations/add-data-export-labels.md)
