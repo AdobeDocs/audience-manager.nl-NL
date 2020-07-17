@@ -1,21 +1,21 @@
 ---
 description: De metriek van de Verbinding van het profiel verstrekt gegevens over mensen en apparaten die aan uw plaats voor authentiek verklaren. De gegevens en grafieken in de Verbinding van het Profiel werken dynamisch bij aangezien u een fusieregels creeert of wanneer u een bestaande regel van het dashboard van de Regels van de Fusie van het Profiel klikt. Deze cijfers kunnen apparaatgrafieken van de Adobe Experience Cloud Device Co-op of andere apparaatgrafiekbronnen van derden bevatten.
 seo-description: De metriek van de Verbinding van het profiel verstrekt gegevens over mensen en apparaten die aan uw plaats voor authentiek verklaren. De gegevens en grafieken in de Verbinding van het Profiel werken dynamisch bij aangezien u een fusieregels creeert of wanneer u een bestaande regel van het dashboard van de Regels van de Fusie van het Profiel klikt. Deze cijfers kunnen apparaatgrafieken van de Adobe Experience Cloud Device Co-op of andere apparaatgrafiekbronnen van derden bevatten.
-seo-title: Metriek rapporteren voor regels voor het samenvoegen van profielen
+seo-title: Cijfers rapporteren voor regels voor profielsamenvoeging
 solution: Audience Manager
-title: Metriek rapporteren voor regels voor het samenvoegen van profielen
+title: Cijfers rapporteren voor regels voor profielsamenvoeging
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Metriek rapporteren voor regels voor het samenvoegen van profielen {#report-metrics-for-profile-merge-rules}
+# Cijfers rapporteren voor regels voor profielsamenvoeging {#report-metrics-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rule] metriek biedt gegevens over personen en apparaten die voor uw site worden geverifieerd. De gegevens en grafieken in [!UICONTROL Profile Merge Rule Reports] worden dynamisch bijgewerkt terwijl u een samenvoegregel maakt of wanneer u op een bestaande regel van het [!UICONTROL Profile Merge Rules] dashboard klikt. Deze meetgegevens kunnen apparaatgrafieken van de grafiekbronnen van het apparaat [!DNL Adobe Experience Cloud Device Co-op] of van andere derden bevatten.
 
