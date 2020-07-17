@@ -1,21 +1,21 @@
 ---
 description: In dit artikel worden de naamconventies beschreven die door de toetsvariabele in een sleutelwaardepaar worden gebruikt.
 seo-description: In dit artikel worden de naamconventies beschreven die door de toetsvariabele in een sleutelwaardepaar worden gebruikt.
-seo-title: Naam vereisten voor belangrijkste variabelen
+seo-title: Naamvereisten voor belangrijke variabelen
 solution: Audience Manager
-title: Naam vereisten voor belangrijkste variabelen
+title: Naamvereisten voor belangrijke variabelen
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
 
-# Naam vereisten voor belangrijkste variabelen {#name-requirements-for-key-variables}
+# Naamvereisten voor belangrijke variabelen {#name-requirements-for-key-variables}
 
 In dit artikel worden de naamconventies beschreven die door de toetsvariabele in een sleutelwaardepaar worden gebruikt.
 
