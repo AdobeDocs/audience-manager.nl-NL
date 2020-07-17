@@ -1,21 +1,21 @@
 ---
 description: Gebruik het dashboard om informatie over de unieke bezoekerscijfers van uw partners te bekijken die door trekkentypes en segmenten voor een gespecificeerd tijdkader worden verdeeld.
 seo-description: Gebruik het dashboard om informatie over de unieke bezoekerscijfers van uw partners te bekijken die door trekkentypes en segmenten voor een gespecificeerd tijdkader worden verdeeld.
-seo-title: Rapportendashboard
+seo-title: Dashboard voor rapporten
 solution: Audience Manager
-title: Rapportendashboard
+title: Dashboard voor rapporten
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Rapportendashboard {#reports-dashboard}
+# Dashboard voor rapporten {#reports-dashboard}
 
 Gebruik het dashboard om informatie over uw unieke bezoekerstellingen te bekijken die door trekkentypes en segmenten, voor een gespecificeerd tijdkader worden verdeeld.
 
