@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -92,8 +92,8 @@ De [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/inde
 ---------|----------
 | **[!UICONTROL Algorithmic Models**] | [Algorithmic Models](https://bank.demdex.com/portal/swagger/index.html#/Algorithmic_Models_API) |
 | **[!UICONTROL Audience Marketplace]** | <ul><li>[Gegevensfeeds](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/get_available_data_feeds_)</li><li>[Verzoek gegevensdoorvoer](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Buyer%20API/post_available_data_feeds__dataSourceId__requests)</li><li>[Gegevensfeed-financiering](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Finance%20API/get_data_feeds_billing_report)</li><li>[Gegevensvoederplannen](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__plans_)</li><li>[Abonnementen gegevensfeed](https://bank.demdex.com/portal/swagger/index.html#/Audience%20Marketplace%20Seller%20API/get_data_feeds__dataSourceId__subscriptions)</li></ul> |
-| **[!UICONTROL Data Sources]** | [Gegevensbronnen ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
+| **[!UICONTROL Data Sources]** | [Databronnen ](https://bank.demdex.com/portal/swagger/index.html#/Data_Source_API) |
 | **[!UICONTROL Folders]** | <ul><li>[Segmentmappen](https://bank.demdex.com/portal/swagger/index.html#/Segment_Folder_API)</li><li>[Mappen overtrekken](https://bank.demdex.com/portal/swagger/index.html#/Trait%20Folder%20API)</li></ul> |
 | **[!UICONTROL Reporting]** | [Rapportage](https://bank.demdex.com/portal/swagger/index.html#/Reporting%20API) |
-| **[!UICONTROL Segments]** | <ul><li>[Segmenten](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Segmenttestgroepen](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[Concept-API voor segmenttestgroep](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
-| **[!UICONTROL Traits]** | [Treinen](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
+| **[!UICONTROL Segments]** | <ul><li>[Segmenten ](https://bank.demdex.com/portal/swagger/index.html#/Segments%20API)</li><li>[Segmenttestgroepen](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API)</li><li>[Concept-API voor segmenttestgroep](https://bank.demdex.com/portal/swagger/index.html#/Segment%20Test%20Group%20API/post_segment_test_groups_drafts)</li></ul> |
+| **[!UICONTROL Traits]** | [Eigenschappen ](https://bank.demdex.com/portal/swagger/index.html#/Traits%20API) |
