@@ -2,21 +2,21 @@
 description: Mapkenmerken maken, bewerken en verwijderen.
 keywords: Folder Trait;Folder Traits;folder traits;folder trait
 seo-description: Mapkenmerken maken, bewerken en verwijderen.
-seo-title: Maptrajecten beheren
+seo-title: Mapeigenschappen beheren
 solution: Audience Manager
-title: Maptrajecten beheren
+title: Mapeigenschappen beheren
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
 
-# Maptrajecten beheren {#manage-folder-traits}
+# Mapeigenschappen beheren {#manage-folder-traits}
 
 Mapkenmerken maken, bewerken en verwijderen.
 
@@ -30,7 +30,8 @@ Er [!UICONTROL folder trait] wordt automatisch een map gemaakt wanneer u een nie
 1. Houd de muisaanwijzer in het [!UICONTROL Trait Storage] venster boven:
 
    * Tekst Alle sporen om een nieuwe hoofdmap toe te voegen.
-   * Een bestaande bovenliggende map om een nieuwe onderliggende map toe te voegen.
+   * Een bestaande bovenliggende map om een nieuwe ondergeschikte map toe te voegen.
+
    ![](assets/folder_traits_create.PNG)
 
 1. Klik op het pictogram + om de map te maken. U kunt maximaal 2.000 mappen maken in uw taxonomie. Raadpleeg de documentatie over [gebruikslimieten](../../features/administration/usage-limits.md) voor meer informatie.
