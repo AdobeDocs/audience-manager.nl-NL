@@ -12,7 +12,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -31,6 +31,6 @@ Bespreek het met uw [!DNL Audience Manager] verkoopspecialist om aan de slag te 
 > * Gebruikers kunnen alleen feeds zoeken en weergeven.
 
 
-* [Audience Marketplace for Data Providers](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
-* [Audience Marketplace for Data Buyers](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
+* [Audience Marketplace voor dataproviders](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
+* [Audience Marketplace voor datakopers](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
 * [Privédatafeeds](/help/using/features/audience-marketplace/marketplace-private-feeds.md)
