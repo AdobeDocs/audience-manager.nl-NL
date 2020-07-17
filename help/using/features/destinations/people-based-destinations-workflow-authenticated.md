@@ -1,20 +1,20 @@
 ---
 description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-line gegevens van CRM met gedragsgegevens in real time voor voor authentiek verklaarde gebruikers te combineren om publiekssegmenten tot stand te brengen, dan deze publiekssegmenten naar Op mensen-Gebaseerde Doelen te verzenden. '
 seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-line gegevens van CRM met gedragsgegevens in real time voor voor authentiek verklaarde gebruikers te combineren om publiekssegmenten tot stand te brengen, dan deze publiekssegmenten naar Op mensen-Gebaseerde Doelen te verzenden.  '
-seo-title: Workflow C - Personalisatie gebaseerd op geverifieerde activiteiten gecombineerd met offlinegegevens
+seo-title: Workflow C - Personalisatie gebaseerd op geverifieerde activiteit gecombineerd met offline data
 solution: Audience Manager
-title: Workflow C - Personalisatie gebaseerd op geverifieerde activiteiten gecombineerd met offlinegegevens
+title: Workflow C - Personalisatie gebaseerd op geverifieerde activiteit gecombineerd met offline data
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
 
-# Workflow C - Personalisatie gebaseerd op geverifieerde activiteiten gecombineerd met offlinegegevens {#workflow-c}
+# Workflow C - Personalisatie gebaseerd op geverifieerde activiteit gecombineerd met offline data {#workflow-c}
 
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
@@ -73,7 +73,7 @@ Stel dat u de volgende twee gegevensbronnen hebt gemaakt.
 
 Vervolgens wilt u de onderstaande CRM-id&#39;s kwalificeren voor de eigenschap in de tabel.
 
-| DPUUID (CRM-ID) | E-mailadres | Onderbroken e-mailadres | Trait |
+| DPUUID (CRM-ID) | E-mailadres | Onderbroken e-mailadres | Eigenschap |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- | ------------- |
 | 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 | location = US |
 
