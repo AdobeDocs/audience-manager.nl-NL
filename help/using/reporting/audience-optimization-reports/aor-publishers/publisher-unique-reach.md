@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Het unieke rapport van het Bereik van de Gebruiker keert gegevens in een borrelgrafiek terug. De grootte van elke ballon wordt afgestemd op het aantal unieke gebruikers voor de geselecteerde advertentie-eenheden. Een grotere bel wijst op groter bereik dan een kleinere bel. Met het rapport Unieke gebruikersBereik kunt u de advertentie-eenheid vinden die het breedste bereik biedt ten opzichte van de beoogde gebruikers.
 
-## Hoofdletters gebruiken {#use-cases}
+## Gebruiksscenario {#use-cases}
 
 Met het [!UICONTROL Unique User Reach] rapport kunt u de eigenschappen in uw portfolio identificeren die een groot aantal unieke gebruikers aantrekken.
 
