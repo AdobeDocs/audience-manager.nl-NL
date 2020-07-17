@@ -1,21 +1,21 @@
 ---
 description: Een GET methode die de bestemming voor gespecificeerde destinationId terugkeert.
 seo-description: Een GET methode die de bestemming voor gespecificeerde destinationId terugkeert.
-seo-title: Retourneer een doel op doel-id
+seo-title: Een bestemming retourneren op destinatie-id
 solution: Audience Manager
-title: Retourneer een doel op doel-id
+title: Een bestemming retourneren op destinatie-id
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Retourneer een doel op doel-id {#return-a-destination-by-destination-id}
+# Een bestemming retourneren op destinatie-id {#return-a-destination-by-destination-id}
 
 Een `GET` methode die de bestemming voor gespecificeerde `destinationId`.
 
