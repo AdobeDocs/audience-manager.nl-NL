@@ -1,9 +1,9 @@
 ---
 description: Voor een gegevensfeed zijn een naam, beschrijving, gegevensbron en een overzichtstype vereist. De feeds worden uitgeschakeld totdat u de feed opslaat en activeert. Stel openbare of persoonlijke gegevensfeeds in Audience Marketplace > Mijn gedeelde gegevens in. Alleen beschikbaar voor verkopers van gegevens.
 seo-description: Voor een gegevensfeed zijn een naam, beschrijving, gegevensbron en een overzichtstype vereist. De feeds worden uitgeschakeld totdat u de feed opslaat en activeert. Stel openbare of persoonlijke gegevensfeeds in Audience Marketplace > Mijn gedeelde gegevens in. Alleen beschikbaar voor verkopers van gegevens.
-seo-title: Gegevensfeeds maken, prijzen en beheren
+seo-title: Datafeeds maken, prijzen en beheren
 solution: Audience Manager
-title: Gegevensfeeds maken, prijzen en beheren
+title: Datafeeds maken, prijzen en beheren
 topic: DIL API
 uuid: e28c20b3-33fc-4485-8ee9-8530d126f741
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Gegevensfeeds maken, prijzen en beheren {#create-price-and-manage-data-feeds}
+# Datafeeds maken, prijzen en beheren {#create-price-and-manage-data-feeds}
 
 ## Een openbare of persoonlijke gegevensfeed maken {#create-public-private-data-feed}
 
@@ -46,6 +46,7 @@ Een gegevensfeed maken:
 1. Een gegevensfeed opslaan en activeren:
    1. Verplaats de **[!UICONTROL Availability]** schuifregelaar naar **[!UICONTROL Active]**.
    1. Klik op **[!UICONTROL Save]**.
+
    >[!NOTE]
    >
    >* Opgeslagen en geactiveerde gegevensfeeds kunnen niet worden verwijderd.
