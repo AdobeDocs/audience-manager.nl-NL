@@ -69,7 +69,7 @@ In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties va
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Key </th> 
+   <th colname="col1" class="entry"> Sleutel </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr> 
  </thead>
@@ -92,11 +92,11 @@ In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties va
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de onderliggende id in uw bestandsnaam. </p> <p>Zie <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naamgevingsconventies voor metagegevensbestanden</a>. </p> </td> 
+   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de onderliggende id in uw bestandsnaam. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de bovenliggende id in uw bestandsnaam. </p> <p>Zie <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naamgevingsconventies voor metagegevensbestanden</a>. </p> </td> 
+   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de bovenliggende id in uw bestandsnaam. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
