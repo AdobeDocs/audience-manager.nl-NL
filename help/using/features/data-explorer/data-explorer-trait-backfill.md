@@ -1,20 +1,20 @@
 ---
 description: De realisaties van het terugvullingsspoor om historische publiek te vangen en verlies van relevante gegevens te vermijden voorafgaand aan een de aanmaakdatum van het spoor.
 seo-description: De realisaties van het terugvullingsspoor om historische publiek te vangen en verlies van relevante gegevens te vermijden voorafgaand aan een de aanmaakdatum van het spoor.
-seo-title: Redalisaties achtergrondvulling
-title: Redalisaties achtergrondvulling
+seo-title: Aanvulling van eigenschaprealisaties
+title: Aanvulling van eigenschaprealisaties
 uuid: 8b0ef4e6-d16a-4d1d-94f1-b84eebffa9a5
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Redalisaties achtergrondvulling {#backfill-trait-realizations}
+# Aanvulling van eigenschaprealisaties {#backfill-trait-realizations}
 
 De realisaties van het terugvullingsspoor om historische publiek te vangen en verlies van relevante gegevens te vermijden voorafgaand aan een de aanmaakdatum van het spoor.
 
