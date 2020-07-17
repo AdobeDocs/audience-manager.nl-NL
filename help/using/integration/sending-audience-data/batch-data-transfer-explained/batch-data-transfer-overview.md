@@ -2,21 +2,21 @@
 description: Een overzicht voor technische en niet-technische klanten die gegevens van andere systemen (off-line) in Audience Manager willen brengen.
 keywords: inbound, batch, batch upload, batch data
 seo-description: Een overzicht voor technische en niet-technische klanten die gegevens van andere systemen (off-line) in Audience Manager willen brengen. Gebruik hiervoor de optie voor batchupload in Audience Manager.
-seo-title: Batchgegevens naar Audience Manager verzenden - Overzicht
+seo-title: Overzicht van batchdata verzenden naar Audience Manager
 solution: Audience Manager
-title: Batchgegevens naar Audience Manager verzenden - Overzicht
+title: Overzicht van batchdata verzenden naar Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Batchgegevens naar [!DNL Audience Manager] overzicht verzenden {#send-batch-data-to-audience-manager-overview}
+# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
 
 Een overzicht voor technische en niet-technische klanten die gegevens van andere systemen (off-line) in willen brengen [!DNL Audience Manager].
 
@@ -34,13 +34,13 @@ Belangrijke overwegingen met betrekking tot deze stap:
 * **Uitsluiten[!DNL PII]:** Gebruikersnamen mogen geen persoonlijk identificeerbare gegevens ([!DNL PII]) bevatten.
 * **Hoofdlettergebruik en inhoudsgevoeligheid:** Tijdens een realtime gegevenssynchronisatie [!DNL Audience Manager] moeten gebruikers-id&#39;s die van uw site worden vastgelegd, overeenkomen met id&#39;s die vanuit uw offline opslagplaats zijn doorgegeven. Als offlinerecords bijvoorbeeld informatie bevatten over de site, [!DNL User123]maar de id als [!DNL USER123]een id weergeeft, [!DNL Audience Manager] worden deze als verschillende bezoekers beschouwd. Hierdoor kan de online-informatie voor deze bezoeker niet worden gekoppeld aan de corresponderende records in uw offlinedatabase. Id&#39;s moeten exact overeenkomen.
 
-Zie [Identiteitssynchronisatie voor Binnenkomende Overdrachten](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)van Gegevens.
+See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
 ## Stap 2: Gegevensbestandsindeling
 
 Bestandsnamen en inhoud volgen strikte richtlijnen. U *moet* gegevensbestanden een naam geven en ordenen volgens deze specificaties in deze handleiding. Zie:
 
-* [Amazon S3-naamvereisten voor binnenkomende gegevensbestanden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Amazon S3-naamvereisten voor binnenkomende databestanden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * [Inhoud binnenkomend gegevensbestand: Syntaxis, variabelen en voorbeelden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Online gegevens zijn beschikbaar voor offlinemarketinginspanningen
