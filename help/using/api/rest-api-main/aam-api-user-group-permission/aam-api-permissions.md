@@ -1,21 +1,21 @@
 ---
 description: Stel API-methoden in om machtigingen voor objecten en groepen te beheren.
 seo-description: Stel API-methoden in om machtigingen voor objecten en groepen te beheren.
-seo-title: API-methoden voor machtigingenbeheer
+seo-title: API-methoden voor toestemmingenbeheer
 solution: Audience Manager
-title: API-methoden voor machtigingenbeheer
+title: API-methoden voor toestemmingenbeheer
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '110'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# API-methoden voor machtigingenbeheer {#permissions-management-api-methods}
+# API-methoden voor toestemmingenbeheer {#permissions-management-api-methods}
 
 Stel methoden in [!DNL API] om machtigingen voor objecten en groepen te beheren.
 
