@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1092'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -135,7 +135,7 @@ In [!UICONTROL Segment Builder], laat de [!UICONTROL Traits] sectie u [!UICONTRO
 | Zoeken | Hiermee kunt u zoeken [!UICONTROL traits] om een object toe te voegen [!UICONTROL segment]. |
 | Aanbevelingen | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van uw eerste partij [!UICONTROL traits] en [!UICONTROL Audience Marketplace] gegevensvoer dat u aan wordt geabonneerd. Voeg deze aanbevelingen aan de [!UICONTROL segment] regel toe om uw publiek uit te breiden. Lees meer in de Aanbevelingen [van het](trait-recommendations.md)Spoor. |
 | **[!UICONTROL Marketplace Recommendations]** | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van [!UICONTROL Audience Marketplace] gegevensvoer dat u niet aan wordt geabonneerd. Lees meer in de Aanbevelingen [van het](trait-recommendations.md)Spoor. |
-| Gegevens over werkelijke en geschatte [!UICONTROL Segment] grootte | Zie [Trait and Segment Population Data in Segment Builder](segment-builder-data.md). |
+| Gegevens over werkelijke en geschatte [!UICONTROL Segment] grootte | Zie [Populatiedata van eigenschappen en segmenten in Segment Builder](segment-builder-data.md). |
 
 ## Verwijderen [!UICONTROL Traits] uit een [!UICONTROL Segment] {#remove-traits}
 
