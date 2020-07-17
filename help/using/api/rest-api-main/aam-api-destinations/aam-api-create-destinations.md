@@ -1,21 +1,21 @@
 ---
 description: Maak doelen met deze RESTful API-methoden.
 seo-description: Maak doelen met deze RESTful API-methoden.
-seo-title: Doelen maken
+seo-title: Bestemmingen maken
 solution: Audience Manager
-title: Doelen maken
+title: Bestemmingen maken
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Doelen maken {#create-destinations}
+# Bestemmingen maken {#create-destinations}
 
 Maak doelen met deze [!UICONTROL RESTful API] methoden.
 
@@ -412,7 +412,7 @@ Een geslaagde update retourneert de antwoordcode `201 created` en de bestemming.
 
 >[!MORELIKETHIS]
 >
->* [Doelen](../../../features/destinations/destinations.md)
+>* [Bestemmingen ](../../../features/destinations/destinations.md)
 >* [Serienummering bestemming](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Belangrijke paar uitgelegd](../../../reference/key-value-pairs-explained.md)
+>* [Sleutelwaardeparen](../../../reference/key-value-pairs-explained.md)
 
