@@ -14,7 +14,7 @@ ht-degree: 0%
 ---
 
 
-# Kijk-als modellering: Trait Exclusion {#algorithmic-models-trait-exclusion}
+# Look-alike modellering: eigenschappen uitsluiten {#algorithmic-models-trait-exclusion}
 
 [!UICONTROL Trait Exclusion] biedt extra besturingselementen in uw modelleringsworkflow, zodat u de vereiste beveiligingsrails aan het model kunt toevoegen op basis van uw expertise op het domein en uw vereisten op het gebied van regelgeving. Gebruik de [!UICONTROL Exclusions] optie om te selecteren welke kenmerken moeten worden genegeerd wanneer het creëren van modellen van één of meerdere gegevensbronnen.
 
