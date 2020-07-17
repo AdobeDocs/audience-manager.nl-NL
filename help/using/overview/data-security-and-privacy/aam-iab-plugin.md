@@ -8,8 +8,8 @@ feature: data governance & privacy
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2449'
+ht-degree: 40%
 
 ---
 
@@ -110,7 +110,7 @@ Audience Manager evalueert de keuzen van de gebruikers die in het koord IAB TC v
 >
 >Audience Manager heeft toestemming nodig voor doel 1 en doel 10, plus toestemming van de leverancier, om cookies te implementeren en ID-syncs te initiëren of te respecteren.
 >
->Conform [IAB-verordeningen](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_), wordt Speciale Doelstelling 1 (Veiligheid verzekeren, fraude verhinderen, en zuiveren) altijd goedgekeurd, en de gebruikers kunnen niet aan het bezwaar maken.
+>Conform [IAB-verordeningen](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Special_Purpose_1__Ensure_security_prevent_fraud_and_debug_), wordt Speciale Doelstelling 1 (Beveiliging, Fraude voorkomen en fouten opsporen) altijd goedgekeurd en kunnen gebruikers er geen bezwaar tegen maken.
 
 ## Het gedrag van Audience Manager zijn afhankelijk van de toestemming van de gebruiker {#aam-behavior-consent}
 
