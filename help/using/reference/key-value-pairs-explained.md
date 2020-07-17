@@ -2,21 +2,21 @@
 description: Bepaalt en beschrijft standaard en geserialiseerde sleutel-waarde paren.
 keywords: integration code
 seo-description: Bepaalt en beschrijft standaard en geserialiseerde sleutel-waarde paren.
-seo-title: Belangrijke paar uitgelegd
+seo-title: Sleutelwaardeparen
 solution: Audience Manager
-title: Belangrijke paar uitgelegd
+title: Sleutelwaardeparen
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Belangrijke paar uitgelegd{#key-value-pairs-explained}
+# Sleutelwaardeparen{#key-value-pairs-explained}
 
 Bepaalt en beschrijft standaard en geserialiseerde sleutel-waarde paren.
 
@@ -32,7 +32,7 @@ Een sleutelwaardepaar bestaat uit twee gerelateerde gegevenselementen: Een sleut
 * `color = green`
 * `price > 100`
 
-## Standaard en seriële sleutelwaardeparen {#standard-serialized-pairs}
+## Standard and Serialized Key-Value Pairs {#standard-serialized-pairs}
 
 Doelen accepteren sleutelwaardegegevens in *`standard`* of *`serialized`* formaat. Bij de standaardopmaak worden gegevens in afzonderlijke sleutelwaardeparen ingedeeld. Elke toets wordt expliciet vermeld, zelfs wanneer deze opnieuw wordt gebruikt om een andere waarde te definiëren. Door geserialiseerde opmaak daarentegen worden meerdere waarden omgezet in één set die door één toets wordt gedefinieerd. Ook, in een geserialiseerd paar, wordt een speciale indicator gebruikt om de waarden binnen de zeer belangrijk-waardereeks te scheiden. Tot slot kunnen de standaard en geserialiseerde sleutel-waarden enige of veelvoudige waarden bevatten. De volgende tabel bevat voorbeelden van standaardindelingen en indelingen voor seriële sleutels en waarden.
 
