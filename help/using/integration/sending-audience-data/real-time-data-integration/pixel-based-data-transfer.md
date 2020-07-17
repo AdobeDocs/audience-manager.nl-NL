@@ -1,21 +1,21 @@
 ---
 description: Eenvoudige pixels (die kunnen worden gebruikt om gebruikers voor kenmerken in aanmerking te laten komen) voeren realtime gegevensoverdracht uit. De interface van de Audience Manager laat cliënten om het even welk aantal pixel op een zelfbediening basis tot stand brengen. Pixeltekenreeksen bestaan uit eenvoudige id's of sleutelwaardeparen.
 seo-description: Eenvoudige pixels (die kunnen worden gebruikt om gebruikers voor kenmerken in aanmerking te laten komen) voeren realtime gegevensoverdracht uit. De interface van de Audience Manager laat cliënten om het even welk aantal pixel op een zelfbediening basis tot stand brengen. Pixeltekenreeksen bestaan uit eenvoudige id's of sleutelwaardeparen.
-seo-title: Op pixels gebaseerde gegevensoverdracht
+seo-title: Op pixels gebaseerde dataoverdracht
 solution: Audience Manager
-title: Op pixels gebaseerde gegevensoverdracht
+title: Op pixels gebaseerde dataoverdracht
 uuid: 8773bfc0-6b8d-4a6a-a8b7-e043744486ab
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Op pixels gebaseerde gegevensoverdracht {#pixel-based-data-transfers}
+# Op pixels gebaseerde dataoverdracht {#pixel-based-data-transfers}
 
 Eenvoudige pixels (die kunnen worden gebruikt om gebruikers voor kenmerken in aanmerking te laten komen) voeren realtime gegevensoverdracht uit. De interface van de Audience Manager laat cliënten om het even welk aantal pixel op een zelfbediening basis tot stand brengen. Pixeltekenreeksen bestaan uit eenvoudige id&#39;s of sleutelwaardeparen.
 
