@@ -1,21 +1,21 @@
 ---
 description: Een metagegevensbestand koppelt numerieke id's met namen die u kunt lezen en begrijpen. De rapporten van de Optimalisering van de Publiek tonen leesbare namen in de diverse menu's van rapportopties.
 seo-description: Een metagegevensbestand koppelt numerieke id's met namen die u kunt lezen en begrijpen. De rapporten van de Optimalisering van de Publiek tonen leesbare namen in de diverse menu's van rapportopties.
-seo-title: Overzicht en toewijzingen voor metagegevensbestanden
+seo-title: Overzicht en toewijzingen voor metadatabestanden
 solution: Audience Manager
-title: Overzicht en toewijzingen voor metagegevensbestanden
+title: Overzicht en toewijzingen voor metadatabestanden
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '824'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Overzicht en toewijzingen voor metagegevensbestanden{#overview-and-mappings-for-metadata-files}
+# Overzicht en toewijzingen voor metadatabestanden{#overview-and-mappings-for-metadata-files}
 
 Een metagegevensbestand koppelt numerieke id&#39;s met namen die u kunt lezen en begrijpen. De rapporten van de Optimalisering van de Publiek tonen leesbare namen in de diverse menu&#39;s van rapportopties.
 
@@ -41,7 +41,7 @@ Een metagegevensbestand met de juiste indeling kan dit creatieve bestand echter 
 
 Eerst, worden een meta-gegevensdossier, en alle hieronder vermelde parameters, vereist in een gebeurtenisvraag wanneer u de Rapporten [van de Optimalisering van de](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Publiek wilt gebruiken.
 
-Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar verzendt [!DNL Audience Manager] of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. Bevat bijvoorbeeld [!DNL Audience Manager] een integratie met Google&#39;s [Dubbelklik op Campagne Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Wegens deze verhouding, [!DNL Audience Manager] kan identiteitskaarts met namen en beschrijvingen associëren die door de rapportopties worden gebruikt. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
+Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar verzendt [!DNL Audience Manager] of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. Bijvoorbeeld, [!DNL Audience Manager] heeft een integratie met de Manager van de Campagne van Google [tweemaal klikken](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Wegens deze verhouding, [!DNL Audience Manager] kan identiteitskaarts met namen en beschrijvingen associëren die door de rapportopties worden gebruikt. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
 
 ![](assets/metadata_menu.png)
 
@@ -63,7 +63,7 @@ De volgende lijst maakt een lijst van de zeer belangrijk-waardeparen die gegeven
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adverteerder </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dit is de gegevensbronidentiteitskaart van de adverteerder of integratiecode die wanneer het creëren van een gegevensbron wordt verstrekt. Zie <a href="../../../features/manage-datasources.md#create-data-source"> Een gegevensbron</a>maken. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dit is de gegevensbronidentiteitskaart van de adverteerder of integratiecode die wanneer het creëren van een gegevensbron wordt verstrekt. See <a href="../../../features/manage-datasources.md#create-data-source"> Create a Data Source</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bedrijfseenheid (BU) </p> </td> 
@@ -126,7 +126,7 @@ In een bestandsnaam:
 
 ![](assets/metadata_file_name.png)
 
-Zie [Naamgevingsconventies voor metagegevensbestanden](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Bestandsinhoud
 
@@ -134,15 +134,15 @@ In dit voorbeeld weerspiegelt de bestandsinhoud de creatieve id&#39;s en campagn
 
 ![](assets/metadata_file_contents.png)
 
-Zie [Indeling van inhoud voor metagegevensbestanden](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
+See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Bestandslevering
 
-Nadat u de naam hebt gegeven en gegevens aan een bestand hebt toegevoegd, verzendt u het bestand naar de opslagmap van Amazon S3 die wordt geleverd door [!DNL Audience Manager]. Zie [Leveringsmethoden voor metagegevensbestanden](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Nadat u de naam hebt gegeven en gegevens aan een bestand hebt toegevoegd, verzendt u het bestand naar de opslagmap van Amazon S3 die wordt geleverd door [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
 >* [Gegevensbestanden voor publiek optimalisatierapporten](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
->* [Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel](../../../integration/media-data-integration/click-data-pixels.md)
->* [Vastleggen van Campagne-indrukgegevens via pixelaanroepen](../../../integration/media-data-integration/impression-data-pixels.md)
+>* [Klikdata campagne vastleggen via pixelcalls](../../../integration/media-data-integration/click-data-pixels.md)
+>* [Campagne-impressiedata vastleggen via pixelcalls](../../../integration/media-data-integration/impression-data-pixels.md)
 
