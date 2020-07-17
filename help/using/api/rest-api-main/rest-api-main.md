@@ -1,16 +1,16 @@
 ---
 description: Met RESTful APIs kunt u programmatically met Audience Manager werken.
 seo-description: Met RESTful APIs kunt u programmatically met Audience Manager werken.
-seo-title: REST API's
+seo-title: 'REST-API’s '
 solution: Audience Manager
-title: REST API's
+title: 'REST-API’s '
 uuid: f575c8dd-7381-4b55-8228-26eb87fbef64
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
