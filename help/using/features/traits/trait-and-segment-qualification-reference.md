@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '825'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Verwijzing naar de kwalificatie van het spoor en het segment {#trait-qualification-reference}
+# Referenties voor eigenschap- en segmentkwalificaties {#trait-qualification-reference}
 
 De vakkwalificatie, of de verwezenlijking van het bezit, wordt behandeld verschillend in Audience Manager, afhankelijk van het handelstype. Zie Kwalificatie van [het Spoor door het Type](#trait-type) van het Spoor voor details over het type van eigenschap.
 
@@ -32,7 +32,7 @@ Bovendien, zie de Bevolking van het Segment in [real time en de Totale Bevolking
 | Treinen aan boord | De lijnkwalificatie gebeurt nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt [ingevoerd in Audience Manager](../../faq/faq-inbound-data-ingestion.md) en dat is wanneer de karakterkwalificatie gebeurt. U moet ongeveer 4 uur wachten nadat u een ingebouwd kenmerk hebt gemaakt voordat u een binnenkomend bestand uploadt voor verwerking. Voor niet-geregistreerde kenmerken is het maximumaantal kwalificaties voor een gebruikersprofiel 1. |
 | Algorithmic Traits | Voor algoritmische kenmerken is het maximumaantal kwalificaties voor een gebruikersprofiel 1. |
 | Maptrajecten | Een mapkenmerk geeft een overzicht van de kwalificaties van de kenmerken die het bevat. Leesmaptraits [: Informatie over](about-folder-traits.md) meer informatie. |
-| Actieve doelgroepen en gesynchroniseerde gegevensbronnen | Een [!UICONTROL Active Audience] eigenschap bevat alle apparaten die in uw rekening van de Audience Manager worden beheerd. [!UICONTROL Data Source Synced Traits] volgt alle gebruikers verbonden aan een gegevensbron. Lees meer over de Traits van het [Actieve Publiek en Gegevensbron de Gesynchroniseerde Tanden](client-activity-synced-audience-traits.md). |
+| Actieve doelgroepeigenschappen en met databron gesynchroniseerde eigenschappen | Een [!UICONTROL Active Audience] eigenschap bevat alle apparaten die in uw rekening van de Audience Manager worden beheerd. [!UICONTROL Data Source Synced Traits] volgt alle gebruikers verbonden aan een gegevensbron. Lees meer over de Traits van het [Actieve Publiek en Gegevensbron de Gesynchroniseerde Tanden](client-activity-synced-audience-traits.md). |
 
 ## Unieke realisaties van sporen en totale populatie van trekkers {#unique-trait-realizations}
 
