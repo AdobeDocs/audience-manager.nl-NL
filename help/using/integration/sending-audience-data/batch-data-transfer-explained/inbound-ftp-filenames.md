@@ -1,16 +1,16 @@
 ---
 description: Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en grootten van de bestanden in volgens deze specificaties wanneer u gegevens naar een FTP-map van een Audience Manager verzendt.
 seo-description: Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar Audience Manager. Stel de namen en grootten van de bestanden in volgens deze specificaties wanneer u gegevens naar een FTP-map van een Audience Manager verzendt.
-seo-title: Vereisten voor FTP-naam en bestandsgrootte voor binnenkomende gegevensbestanden
+seo-title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databestanden
 solution: Audience Manager
-title: Vereisten voor FTP-naam en bestandsgrootte voor binnenkomende gegevensbestanden
+title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databestanden
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergro
 
 >[!WARNING]
 >
->Wij nemen geleidelijk de steun voor [!DNL FTP] configuraties af. Terwijl de binnenkomende gegevensdossieropname nog in bestaande [!DNL FTP] integratie wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord off-line gegevens voor nieuwe integratie. Zie [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Gzip is de toegestane compressie-indeling voor een FTP-bestandsnaam. Als u bestandscompressie gebruikt, moet u ervoor zorgen dat de bestandsnaam de juiste extensie heeft. </p> <p>Gecomprimeerde bestanden moeten 3 GB of kleiner zijn. Neem contact op met de klantenservice als uw bestanden groter zijn. Hoewel Audience Manager grote bestanden kan verwerken, kunnen we u helpen de bestanden te verkleinen en de gegevensoverdracht efficiënter te maken. Zie <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md"> Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden</a> . </p> </td> 
+   <td colname="col2"> <p>Gzip is de toegestane compressie-indeling voor een FTP-bestandsnaam. Als u bestandscompressie gebruikt, moet u ervoor zorgen dat de bestandsnaam de juiste extensie heeft. </p> <p>Gecomprimeerde bestanden moeten 3 GB of kleiner zijn. Neem contact op met de klantenservice als uw bestanden groter zijn. Hoewel Audience Manager grote bestanden kan verwerken, kunnen we u helpen de bestanden te verkleinen en de gegevensoverdracht efficiënter te maken. Zie <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Bestandscompressie voor binnenkomende dataoverdrachtsbestanden</a> . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,5 +143,5 @@ Houd rekening met de onderstaande cijfers voor de snelste/vroegste verwerking va
 
 >[!MORELIKETHIS]
 >
->* [Amazon S3-naamvereisten voor binnenkomende gegevensbestanden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+>* [Amazon S3-naamvereisten voor binnenkomende databestanden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
