@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1379'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -78,8 +78,8 @@ Afhankelijk van het type klant-id&#39;s in Audience Manager (zie [3). Identifice
 
 **B) Maak een nieuwe gegevensbron**. Deze optie is van toepassing op het scenario waarin uw klant-id&#39;s ([DPUUID&#39;s](../../reference/ids-in-aam.md)) van de Audience Manager geen gehashte e-mailadressen zijn. In dit geval moet u een nieuwe gegevensbron voor alle apparaten maken en de gehashte e-mailadressen aan boord van deze gegevensbron plaatsen. U kunt dit op twee manieren doen:
 
-* Synchronisatie van op een bestand gebaseerde id gebruiken. Zie [Naam en Inhoudsvereisten voor ID-synchronisatiebestanden](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) voor meer informatie over hoe de id-synchronisatiebestanden eruit moeten zien. Wanneer u deze methode gebruikt, kunt u al uw gehashte e-mailadressen vanuit uw [!DNL CRM] database als doel instellen.
-* Gebruik [gedeclareerde id&#39;s](../declared-ids.md) om uw gehashte e-mailadressen te declareren wanneer u geverifieerde klant-id&#39;s doorgeeft. Wanneer u deze methode gebruikt, richt Audience Manager namens u alleen uw gehashte e-mailadressen op van gebruikers die online zijn geverifieerd. De e-mailadressen die in op mensen-gebaseerde kanalen worden gericht zijn slechts degenen in de verklaarde de gebeurtenisvraag van identiteitskaart Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in realtime geactiveerd.
+* Gebruik op bestand-id gebaseerde synchronisatie. Zie [Naam- en contentvereisten voor id-synchronisatiebestanden](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) voor details over hoe id-synchronisatiebestanden eruit moeten zien. When using this method, you can target all of your hashed email addresses from your [!DNL CRM] database.
+* Use [declared IDs](../declared-ids.md) to declare your hashed email addresses when passing in authenticated customer IDs. Wanneer u deze methode gebruikt, richt Audience Manager namens u alleen uw gehashte e-mailadressen op van gebruikers die online zijn geverifieerd. De e-mailadressen die in op mensen-gebaseerde kanalen worden gericht zijn slechts degenen in de verklaarde de gebeurtenisvraag van identiteitskaart Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in real time geactiveerd.
 
 ## 6. Een regel voor het samenvoegen van profielen gebruiken voor segmentatie {#use-profile-merge-rules}
 
