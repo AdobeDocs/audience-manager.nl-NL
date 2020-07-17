@@ -1,21 +1,21 @@
 ---
 description: Het dashboard van Verrichtingen is een gecentraliseerde werkruimte voor het beheren van eigenschappen.
 seo-description: Het dashboard van Verrichtingen is een gecentraliseerde werkruimte voor het beheren van eigenschappen.
-seo-title: Traits dashboard
+seo-title: Dashboard voor eigenschappen
 solution: Audience Manager
-title: Traits dashboard
+title: Dashboard voor eigenschappen
 uuid: 31b8f958-f67d-4af2-8d78-e37e2dfe810d
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Traits dashboard {#traits-dashboard}
+# Dashboard voor eigenschappen {#traits-dashboard}
 
 Het dashboard [](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) Traits is een gecentraliseerde werkruimte voor het beheer van kenmerken. U kunt het [!UICONTROL Traits] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** te navigeren.
 
