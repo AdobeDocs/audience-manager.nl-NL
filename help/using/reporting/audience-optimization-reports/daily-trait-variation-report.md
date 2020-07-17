@@ -1,21 +1,21 @@
 ---
 description: Dit rapport retourneert een lijst met kenmerken die ten minste 10.000 keer zijn gerealiseerd in de 30 dagen voorafgaand aan de geselecteerde datum of data en die een standaardafwijking van 1,7 of meer hebben in dezelfde tijdsinterval. Het rapport helpt u evalueren hoe het aantal indrukken van unieke gebruikers in een kenmerk in de loop der tijd fluctueert.
 seo-description: Dit rapport retourneert een lijst met kenmerken die ten minste 10.000 keer zijn gerealiseerd in de 30 dagen voorafgaand aan de geselecteerde datum of data en die een standaardafwijking van 1,7 of meer hebben in dezelfde tijdsinterval. Het rapport helpt u evalueren hoe het aantal indrukken van unieke gebruikers in een kenmerk in de loop der tijd fluctueert.
-seo-title: Dagelijks verslag over de variatie van het reisdoel
+seo-title: Rapport Dagelijkse eigenschapvariatie
 solution: Audience Manager
-title: Dagelijks verslag over de variatie van het reisdoel
+title: Rapport Dagelijkse eigenschapvariatie
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Dagelijks verslag over de variatie van het reisdoel {#daily-trait-variation-report}
+# Rapport Dagelijkse eigenschapvariatie {#daily-trait-variation-report}
 
 Dit rapport retourneert een lijst met kenmerken die ten minste 10.000 keer zijn gerealiseerd in de 30 dagen voorafgaand aan de geselecteerde datum of data en die een standaardafwijking van 1,7 of meer hebben in dezelfde tijdsinterval. Het rapport helpt u evalueren hoe het aantal indrukken van unieke gebruikers in een kenmerk in de loop der tijd fluctueert.
 
