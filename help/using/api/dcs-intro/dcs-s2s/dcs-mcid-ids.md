@@ -1,30 +1,30 @@
 ---
 description: Gebruikers van id-services moeten naar deze sectie verwijzen voor informatie over het lezen van het bezoekerscookie voor de id's die nodig zijn om DCS API-aanroepen te maken.
 seo-description: Gebruikers van id-services moeten naar deze sectie verwijzen voor informatie over het lezen van het bezoekerscookie voor de id's die nodig zijn om DCS API-aanroepen te maken.
-seo-title: Gebruikersnaam en regio's ophalen via de identiteitsservice van het Adobe Experience Platform
+seo-title: Gebruikers-id’s en -regio’s ontvangen via de Adobe Experience Platform Identity Service
 solution: Audience Manager
-title: Gebruikersnaam en regio's ophalen via de identiteitsservice van het Adobe Experience Platform
+title: Gebruikers-id’s en -regio’s ontvangen via de Adobe Experience Platform Identity Service
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# Gebruikersnaam en regio&#39;s ophalen via de identiteitsservice van het Adobe Experience Platform {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
+# Gebruikers-id’s en -regio’s ontvangen via de Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
 De de dienstklanten van identiteitskaart zouden naar deze sectie voor informatie over moeten verwijzen hoe te om het bezoekerskoekje voor IDs te lezen die wordt vereist om [!DNL DCS] API vraag te maken.
 
 ## De gebruikersnaam ophalen van de ID Service Cookie {#get-user-ids-from-service-cookie}
 
-De identiteitsservice [van](https://docs.adobe.com/content/help/en/id-service/using/home.html) Adobe Experience Platforms wijst bezoeker- en regio-id&#39;s toe aan gebruikers die naar uw website komen. Deze IDs identificeert gebruikers over alle oplossingen in het [!DNL Experience Cloud] en zij worden vereist als u [!DNL DCS] vraag wilt maken.
+De identiteitsservice [van](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) Adobe Experience Platforms wijst bezoeker- en regio-id&#39;s toe aan gebruikers die naar uw website komen. Deze IDs identificeert gebruikers over alle oplossingen in het [!DNL Experience Cloud] en zij worden vereist als u [!DNL DCS] vraag wilt maken.
 
 * De gegevens [!UICONTROL user ID] zijn vereist om gegevens te identificeren en aan een bepaalde bezoeker te koppelen.
-* Dit [!UICONTROL region ID] [!DNL DCS]is vereist omdat het is gekoppeld aan een regionale servernaam, die u gegevens naar de server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst bij plaatsbezoekers zijn. Zie [DCS-regio-id&#39;s, -locaties en -hostnamen](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Dit [!UICONTROL region ID] [!DNL DCS]is vereist omdat het is gekoppeld aan een regionale servernaam, die u gegevens naar de server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst aan plaatsbezoekers zijn. See [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 De de dienstklanten van identiteitskaart kunnen deze informatie uit het de dienstkoekje van identiteitskaart halen of door een functie te roepen. In de onderstaande tabel worden de taken of stappen beschreven die u moet uitvoeren om aan de slag te gaan.
 
@@ -48,7 +48,7 @@ De code in *cursief* staat voor een variabele plaatsaanduiding.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Het cookie van de <span class="keyword"> id-service</span> lezen</b> </p> </td> 
-   <td colname="col2"> <p>De <span class="keyword"> -id-service</span> slaat de gebruikers- en regio-id op in het AMCV-cookie. De volledige naam van de cookie is <code>AMCV_<i>###</i>@AdobeOrg</code>. De <code><i>###</i></code> elementen zijn plaatsaanduidingen voor uw organisatie-id. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a> voor meer informatie. </p> <p>Parseer het cookie van AMCV voor deze sleutelwaardeparen: </p> <p> 
+   <td colname="col2"> <p>De <span class="keyword"> -id-service</span> slaat de gebruikers- en regio-id op in het AMCV-cookie. De volledige naam van de cookie is <code>AMCV_<i>###</i>@AdobeOrg</code>. De <code><i>###</i></code> elementen zijn plaatsaanduidingen voor uw organisatie-id. Zie <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a> voor meer informatie. </p> <p>Parseer het cookie van AMCV voor deze sleutelwaardeparen: </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
       <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: Dit sleutelwaardepaar bevat de <span class="keyword"> Experience Cloud</span> -gebruikersnaam. </li> 
       <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: Dit zeer belangrijk-waardepaar houdt gebiedsidentiteitskaart (soms genoemd een <span class="term"> plaatswenk</span>) die met een regionale servernaam wordt geassocieerd. </li> 
