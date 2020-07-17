@@ -1,21 +1,21 @@
 ---
 description: U kunt een .csv- dossier voor een Rapport van de Overlapping verzoeken wanneer dat rapport zijn 1 miljoen verslaggrens bereikt. Een rapport kan deze limiet hebben bereikt wanneer u het bericht "Onverwachte fout is opgetreden" ziet. Neem contact op met de klantenservice om een gecomprimeerd .csv-bestand aan te vragen waarmee u in uw eigen databasesysteem kunt importeren en werken. De dossiers zijn beschikbaar voor segment-aan-segment, segment-aan-eigenschap, en de eigenschap-aan-lijn overlappende rapporten.
 seo-description: U kunt een .csv- dossier voor een Rapport van de Overlapping verzoeken wanneer dat rapport zijn 1 miljoen verslaggrens bereikt. Een rapport kan deze limiet hebben bereikt wanneer u het bericht "Onverwachte fout is opgetreden" ziet. Neem contact op met de klantenservice om een gecomprimeerd .csv-bestand aan te vragen waarmee u in uw eigen databasesysteem kunt importeren en werken. De dossiers zijn beschikbaar voor segment-aan-segment, segment-aan-eigenschap, en de eigenschap-aan-lijn overlappende rapporten.
-seo-title: CSV-bestanden voor overlappende rapporten
+seo-title: CSV-bestanden voor overlaprapporten
 solution: Audience Manager
-title: CSV-bestanden voor overlappende rapporten
+title: CSV-bestanden voor overlaprapporten
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '976'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# CSV-bestanden voor overlappende rapporten{#csv-files-for-overlap-reports}
+# CSV-bestanden voor overlaprapporten{#csv-files-for-overlap-reports}
 
 U kunt een .csv- dossier voor een Rapport van de Overlapping verzoeken wanneer dat rapport zijn 1 miljoen verslaggrens bereikt. Een rapport kan deze limiet hebben bereikt wanneer u het bericht &quot;Onverwachte fout is opgetreden&quot; ziet. Neem contact op met de klantenservice om een gecomprimeerd .csv-bestand aan te vragen waarmee u in uw eigen databasesysteem kunt importeren en werken. De dossiers zijn beschikbaar voor segment-aan-segment, segment-aan-eigenschap, en de eigenschap-aan-lijn overlappende rapporten.
 
