@@ -1,21 +1,21 @@
 ---
 description: Geef het metagegevensbestand voor de optimalisatie van het publiek een naam volgens deze specificaties.
 seo-description: Geef het metagegevensbestand voor de optimalisatie van het publiek een naam volgens deze specificaties.
-seo-title: Naamgevingsconventies voor metagegevensbestanden
+seo-title: Naamgevingsconventies voor metadatabestanden
 solution: Audience Manager
-title: Naamgevingsconventies voor metagegevensbestanden
+title: Naamgevingsconventies voor metadatabestanden
 uuid: cab55b2a-2e54-45f6-aeea-3735b911f821
 feature: log files
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Naamgevingsconventies voor metagegevensbestanden{#naming-conventions-for-metadata-files}
+# Naamgevingsconventies voor metadatabestanden{#naming-conventions-for-metadata-files}
 
 Geef het metagegevensbestand voor de optimalisatie van het publiek een naam volgens deze specificaties.
 
