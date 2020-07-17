@@ -1,16 +1,16 @@
 ---
 description: Gegevens naar de DCS API verzenden met GET- of POST-methoden.
 seo-description: Gegevens naar de DCS API verzenden met GET- of POST-methoden.
-seo-title: DCS API-methoden
+seo-title: DCS-API-methoden
 solution: Audience Manager
-title: DCS API-methoden
+title: DCS-API-methoden
 uuid: 6e407458-11d4-4342-a84a-512afa5fc183
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
