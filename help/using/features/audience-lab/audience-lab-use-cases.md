@@ -1,9 +1,9 @@
 ---
 description: Het Laboratorium van het publiek laat verscheidene gebruiksgevallen toe door u toe te staan om basislijnsegmenten voor het creëren van testgroepen te gebruiken. U kunt testgroepen in verscheidene wederzijds uitsluitende testsegmenten verdelen, deze aan verschillende bestemmingen in kaart brengen en dan bepalen welke van de segmenten het meest effectief in het drijven omzettingen zijn.
 seo-description: Het Laboratorium van het publiek laat verscheidene gebruiksgevallen toe door u toe te staan om basislijnsegmenten voor het creëren van testgroepen te gebruiken. U kunt testgroepen in verscheidene wederzijds uitsluitende testsegmenten verdelen, deze aan verschillende bestemmingen in kaart brengen en dan bepalen welke van de segmenten het meest effectief in het drijven omzettingen zijn.
-seo-title: Gebruiksscenario's voor ADL
+seo-title: Gebruiksscenario’s voor Audience Lab
 solution: Audience Manager
-title: Gebruiksscenario's voor ADL
+title: Gebruiksscenario’s voor Audience Lab
 topic: DIL API
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
 feature: Audience Lab
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '623'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Gebruiksscenario&#39;s voor ADL {#audience-lab-use-cases}
+# Gebruiksscenario’s voor Audience Lab {#audience-lab-use-cases}
 
 [!UICONTROL Audience Lab] laat verscheidene gebruiksgevallen toe door u toe te staan om basislijnsegmenten voor het creëren van testgroepen te gebruiken. U kunt testgroepen in verscheidene wederzijds uitsluitende testsegmenten verdelen, deze aan verschillende bestemmingen in kaart brengen en dan bepalen welke van de segmenten het meest effectief in het drijven omzettingen zijn.
 
