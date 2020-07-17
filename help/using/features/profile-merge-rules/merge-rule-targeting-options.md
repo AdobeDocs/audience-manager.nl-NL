@@ -1,21 +1,21 @@
 ---
 description: De opties van de Regels van de Fusie van het profiel laten u publieksnadruk op specifiek publiek uitbreiden of versterken dat op bedrijfsbehoeften of doelstellingen wordt gebaseerd. Deze algemene gebruiksgevallen onderzoeken hoe u beschikbare opties kunt gebruiken en fusieregels kunt maken voor individuele, huishoudelijke en apparaatspecifieke toepassingen.
 seo-description: De opties van de Regels van de Fusie van het profiel laten u publieksnadruk op specifiek publiek uitbreiden of versterken dat op bedrijfsbehoeften of doelstellingen wordt gebaseerd. Deze algemene gebruiksgevallen onderzoeken hoe u beschikbare opties kunt gebruiken en fusieregels kunt maken voor individuele, huishoudelijke en apparaatspecifieke toepassingen.
-seo-title: Algemene gebruiksscenario's voor regels voor het samenvoegen van profielen
+seo-title: Algemene gebruiksscenario’s voor regels voor profielsamenvoeging
 solution: Audience Manager
-title: Algemene gebruiksscenario's voor regels voor het samenvoegen van profielen
+title: Algemene gebruiksscenario’s voor regels voor profielsamenvoeging
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Algemene gebruiksscenario&#39;s voor regels voor het samenvoegen van profielen {#general-use-cases-for-profile-merge-rules}
+# Algemene gebruiksscenario’s voor regels voor profielsamenvoeging {#general-use-cases-for-profile-merge-rules}
 
 [!UICONTROL Profile Merge Rules] met opties kunt u de doelgroep meer of sterker richten op specifieke doelgroepen op basis van zakelijke behoeften of doelstellingen. Deze algemene gebruiksgevallen onderzoeken hoe u beschikbare opties kunt gebruiken en fusieregels kunt maken voor individuele, huishoudelijke en apparaatspecifieke toepassingen. [!UICONTROL Profile Merge Rules] werken met realtime en batchbestemmingen.
 
@@ -81,7 +81,7 @@ Meer over deze optie leren, zie Op [mensen-Gebaseerde Doelen](../destinations/pe
 
 ## Grafiekopties apparaat {#device-graph-options}
 
-Het kiezen van een [!UICONTROL device graph] optie voor een [!UICONTROL Profile Merge] regel hangt van voorwaarden uniek aan uw digitale eigenschappen en bedrijfsdoelstellingen af. Deze algemene richtlijnen kunnen u helpen begrijpen wanneer om één type van grafiek tegenover een andere te gebruiken. Als u deze opties wilt gebruiken, moet u lid zijn van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html) of een contractuele relatie hebben met een externe apparaatgrafiek. Raadpleeg de onderstaande tabel voor algemene informatie over de keuze van een grafiekoptie voor apparaten. Voor specifieke gebruiksgevallen, zie de Gevallen van het Gebruik van de Grafiek van het Apparaat van de Verbinding van het [Profiel en](profile-link-use-case.md) Externe Gevallen [](external-graph-use-cases.md)van het Gebruik van de Grafiek van het Apparaat.
+Het kiezen van een [!UICONTROL device graph] optie voor een [!UICONTROL Profile Merge] regel hangt van voorwaarden uniek aan uw digitale eigenschappen en bedrijfsdoelstellingen af. Deze algemene richtlijnen kunnen u helpen begrijpen wanneer om één type van grafiek tegenover een andere te gebruiken. Als u deze opties wilt gebruiken, moet u lid zijn van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/home.html) of een contractuele relatie hebben met een externe apparaatgrafiek. Raadpleeg de onderstaande tabel voor algemene informatie over de keuze van een grafiekoptie voor apparaten. Voor specifieke gebruiksgevallen, zie de Gevallen van het Gebruik van de Grafiek van het Apparaat van de Verbinding van het [Profiel en](profile-link-use-case.md) Externe Gevallen [](external-graph-use-cases.md)van het Gebruik van de Grafiek van het Apparaat.
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -118,7 +118,7 @@ Bekijk de onderstaande video voor een overzicht van mogelijke gebruiksgevallen v
 
 >[!MORELIKETHIS]
 >
->* [Gebruiksscenario&#39;s voor grafiekgebruik van profielkoppeling](profile-link-use-case.md)
->* [Gebruiksscenario&#39;s voor grafiek van externe apparaten](external-graph-use-cases.md)
+>* [Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen](profile-link-use-case.md)
+>* [Gebruiksscenario’s voor grafiek van externe apparaten](external-graph-use-cases.md)
 >* [Veelgestelde vragen over regels voor samenvoegen van profielen](../../faq/faq-profile-merge.md)
 
