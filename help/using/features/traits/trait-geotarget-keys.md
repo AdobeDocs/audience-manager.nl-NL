@@ -1,21 +1,21 @@
 ---
 description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met geografische variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
 seo-description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met geografische variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
-seo-title: Uitlijnen met toetsen op het niveau van het Platform
+seo-title: Geotargeting met sleutels op platformniveau
 solution: Audience Manager
-title: Uitlijnen met toetsen op het niveau van het Platform
+title: Geotargeting met sleutels op platformniveau
 uuid: c7e4cbfe-e564-404e-a565-bbe5fd2fb519
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
 
-# Uitlijnen met toetsen op het niveau van het Platform {#geotargeting-with-platform-level-keys}
+# Geotargeting met sleutels op platformniveau {#geotargeting-with-platform-level-keys}
 
 Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met geografische variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
 
@@ -39,7 +39,7 @@ U geeft de waarde op wanneer u kenmerken samenstelt met deze sleutelwaardeparen:
 
 ## Sleutels van het Niveau van het Platform die door IP Adres worden bepaald {#keys-ip-address}
 
-We werken samen met [Digital Envoy](https://www.digitalenvoy.com/) om de demografische en geografische gegevens voor de onderstaande sleutels te verkrijgen en bij te werken. De waarden voor deze sleutels worden bepaald door overeenkomstige [!DNL IP] adressen aan overeenkomstige geografische en demografische gegevens aan te passen. Nochtans, zult u nog de waardeparameter moeten ingaan wanneer het creëren van het sleutel-waarde paar binnen [!UICONTROL Trait Builder].
+We werken samen met [Digital Envoy](https://www.digitalenvoy.com/) om de demografische en geografische gegevens voor de onderstaande sleutels te verkrijgen en bij te werken. De waarden voor deze sleutels worden bepaald door overeenkomstige [!DNL IP] adressen aan overeenkomstige geografische en demografische gegevens aan te passen. Nochtans, zult u nog de waardeparameter moeten ingaan wanneer het creëren van het sleutel-waardepaar binnen [!UICONTROL Trait Builder].
 
 | Sleutel | Voor gerichte |
 |--- |--- |
@@ -58,5 +58,5 @@ De lijst van [alle op locatie gebaseerde signalen](assets/all.txt) omvat alle bo
 
 >[!MORELIKETHIS]
 >
->* [Voorvoegselvereisten voor belangrijkste variabelen](../../features/traits/trait-variable-prefixes.md)
+>* [Voorvoegselvereisten voor belangrijke variabelen](../../features/traits/trait-variable-prefixes.md)
 
