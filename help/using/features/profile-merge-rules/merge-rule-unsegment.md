@@ -1,21 +1,21 @@
 ---
 description: Unsegmentation beschrijft processen die apparatenprofielen van segmenten onbruikbaar maken en verwijderen. De mogelijkheid om een apparaatprofiel uit een segment te verwijderen, is afhankelijk van de apparaatoptie die wordt gebruikt om een regel voor het samenvoegen van profielen te maken.
 seo-description: Unsegmentation beschrijft processen die apparatenprofielen van segmenten onbruikbaar maken en verwijderen. De mogelijkheid om een apparaatprofiel uit een segment te verwijderen, is afhankelijk van de apparaatoptie die wordt gebruikt om een regel voor het samenvoegen van profielen te maken.
-seo-title: Regels voor het samenvoegen van profielen en processen voor onsegmentering van apparaten
+seo-title: Regels voor profielsamenvoeging en processen voor apparaatdesegmentatie
 solution: Audience Manager
-title: Regels voor het samenvoegen van profielen en processen voor onsegmentering van apparaten
+title: Regels voor profielsamenvoeging en processen voor apparaatdesegmentatie
 uuid: b61c6de3-5fe4-4892-a05a-96a4cb35af34
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Regels voor het samenvoegen van profielen en processen voor onsegmentering van apparaten {#profile-merge-rules-and-device-un-segmentation-processes}
+# Regels voor profielsamenvoeging en processen voor apparaatdesegmentatie {#profile-merge-rules-and-device-un-segmentation-processes}
 
 Unsegmentation beschrijft processen die apparatenprofielen van segmenten onbruikbaar maken en verwijderen. Uw capaciteit om een apparatenprofiel uit een segment te verwijderen hangt van de apparatenoptie af die wordt gebruikt om tot een [!UICONTROL Profile Merge Rule]. te leiden.
 
@@ -51,6 +51,6 @@ Ter herinnering, [!UICONTROL Device Options] zijn deze beschikbaar in de [!UICON
 
 >[!MORELIKETHIS]
 >
->* [Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek](../../faq/faq-profile-merge.md)
->* [Onmiddellijke ondersteuning voor apparaten](instant-cross-device-suppression.md)
+>* [Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken](../../faq/faq-profile-merge.md)
+>* [Onmiddellijke cross-device ondersteuning](instant-cross-device-suppression.md)
 
