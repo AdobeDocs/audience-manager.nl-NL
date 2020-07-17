@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Maptraits: Info {#folder-traits-about}
+# Mapeigenschappen: Info {#folder-traits-about}
 
 [!UICONTROL Folder traits] Hiermee kunt u kenmerken die zich in dezelfde map bevinden en alle onderliggende mappen automatisch samenvoegen tot een doelsegment.
 
