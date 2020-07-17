@@ -1,21 +1,21 @@
 ---
 description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties die Adobe heeft met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
 seo-description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties die Adobe heeft met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
-seo-title: Gebruiksscenario's voor grafiek van externe apparaten
+seo-title: Gebruiksscenario’s voor grafiek van externe apparaten
 solution: Audience Manager
-title: Gebruiksscenario's voor grafiek van externe apparaten
+title: Gebruiksscenario’s voor grafiek van externe apparaten
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Gebruiksscenario&#39;s voor grafiek van externe apparaten {#external-device-graph-use-cases}
+# Gebruiksscenario’s voor grafiek van externe apparaten {#external-device-graph-use-cases}
 
 Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit omvat de [!DNL Adobe Experience Cloud Device Co-op] en andere integratie die Adobe heeft met externe deterministische of probabilistische bedrijven voor apparaatgrafieken.
 
@@ -129,7 +129,7 @@ Door **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op De
 
 >[!MORELIKETHIS]
 >
->* [Gebruiksscenario&#39;s voor grafiekgebruik van profielkoppeling](profile-link-use-case.md)
->* [Algemene gebruiksscenario&#39;s voor regels voor het samenvoegen van profielen](merge-rule-targeting-options.md)
+>* [Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen](profile-link-use-case.md)
+>* [Algemene gebruiksscenario’s voor regels voor profielsamenvoeging](merge-rule-targeting-options.md)
 >* [Veelgestelde vragen over regels voor samenvoegen van profielen](../../faq/faq-profile-merge.md)
 
