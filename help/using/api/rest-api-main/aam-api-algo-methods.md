@@ -2,21 +2,21 @@
 description: Methoden waarmee u programmatisch kunt werken met functies voor algoritmische modellering.
 keywords: api getting started;get started api
 seo-description: Methoden waarmee u programmatisch kunt werken met functies voor algoritmische modellering.
-seo-title: Algorithmic API Methods
+seo-title: Algoritmische API-methoden
 solution: Audience Manager
-title: Algorithmic API Methods
+title: Algoritmische API-methoden
 uuid: 8d5304d7-c1cf-42df-94e7-3f583944bd62
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
 
-# Algorithmic API Methods {#algorithmic-api-methods}
+# Algoritmische API-methoden {#algorithmic-api-methods}
 
 Methoden waarmee u programmatisch kunt werken met functies voor algoritmische modellering.
 
