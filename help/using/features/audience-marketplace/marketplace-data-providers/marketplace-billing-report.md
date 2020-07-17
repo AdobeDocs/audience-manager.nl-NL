@@ -1,9 +1,9 @@
 ---
 description: Een factureringsrapport voor Audience Marketplace genereren om het gebruik van de gegevensfeed voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
 seo-description: Een factureringsrapport voor Audience Marketplace genereren om het gebruik van de gegevensfeed voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
-seo-title: Facturering voor gegevensleveranciers
+seo-title: Facturering voor datafeedproviders
 solution: Audience Manager
-title: Facturering voor gegevensleveranciers
+title: Facturering voor datafeedproviders
 topic: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Facturering voor gegevensleveranciers {#billing-for-data-feed-providers}
+# Facturering voor datafeedproviders {#billing-for-data-feed-providers}
 
 Genereer een factureringsrapport om het gebruik van de gegevensfeed voor de vorige maand voor elk van uw abonnees te bekijken. [!DNL Audience Marketplace] U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
 
