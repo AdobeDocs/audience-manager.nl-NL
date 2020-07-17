@@ -1,20 +1,20 @@
 ---
-description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-time in verschillende personen indelen met behulp van gegevenswetenschap.
-seo-description: Met voorspellende doelgroepen kunt u een onbekend publiek in real-time in verschillende personen indelen met behulp van gegevenswetenschap.
-seo-title: Rapportage van voorspellende doelgroepen
+description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
+seo-description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
+seo-title: Rapportage in Predictieve doelgroepen
 solution: Audience Manager
-title: Audience Manager voorspellend publiek
+title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '630'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Rapportage van voorspellende doelgroepen
+# Rapportage in Predictieve doelgroepen
 
 Nadat u een [!UICONTROL Predictive Audiences] model hebt opgeslagen, wordt het door de Audience Manager getraind. Binnen een paar uren, zal het berekende model beginnen publiek op de Servers [van de](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs)Gegevensverzameling te analyseren. Rapportage is de volgende dag beschikbaar.
 
