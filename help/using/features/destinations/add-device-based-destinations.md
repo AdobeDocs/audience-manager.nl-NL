@@ -1,20 +1,20 @@
 ---
 description: Dit artikel verklaart hoe te om nieuwe op apparaat-gebaseerde bestemmingen van het gebruikersinterface van de Audience Manager te vormen.
 seo-description: Dit artikel verklaart hoe te om nieuwe op apparaat-gebaseerde bestemmingen van het gebruikersinterface van de Audience Manager te vormen.
-seo-title: Nieuwe apparaatgebaseerde doelen toevoegen
+seo-title: Nieuwe apparaatgebaseerde bestemmingen toevoegen
 solution: Audience Manager
-title: Nieuwe apparaatgebaseerde doelen toevoegen
+title: Nieuwe apparaatgebaseerde bestemmingen toevoegen
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Nieuwe apparaatgebaseerde doelen toevoegen {#add-new-device-based-destinations}
+# Nieuwe apparaatgebaseerde bestemmingen toevoegen {#add-new-device-based-destinations}
 
 Dit artikel verklaart hoe te om nieuwe op apparaat-gebaseerde bestemmingen van het gebruikersinterface van de Audience Manager te vormen.
 
