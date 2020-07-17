@@ -1,21 +1,21 @@
 ---
 description: Beschrijft de macro's u aan een bestemmingsURL kunt toevoegen.
 seo-description: Beschrijft de macro's u aan een bestemmingsURL kunt toevoegen.
-seo-title: Gedefinieerde doelmacro's
+seo-title: Definities van bestemmingsmacro’s
 solution: Audience Manager
-title: Gedefinieerde doelmacro's
+title: Definities van bestemmingsmacro’s
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Gedefinieerde doelmacro&#39;s {#destination-macros-defined}
+# Definities van bestemmingsmacro’s {#destination-macros-defined}
 
 Beschrijft de macro&#39;s u aan een bestemming kunt toevoegen [!DNL URL].
 
@@ -115,4 +115,4 @@ Beide macro&#39;s voorkomen caching, maar `%rnd%` kunnen efficiënter zijn. Als 
 
 >[!MORELIKETHIS]
 >
->* [Gedefinieerde doelmacro&#39;s](../../features/destinations/destination-macros.md#destination-macros-defined)
+>* [Definities van bestemmingsmacro’s](../../features/destinations/destination-macros.md#destination-macros-defined)
