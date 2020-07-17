@@ -1,21 +1,21 @@
 ---
 description: In het rapport Segmentprestaties worden de in kaart gebrachte en niet-toegewezen segmenten vergeleken op basis van indrukkingen en conversiesnelheden. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Het vergelijken van deze verschillende segmenttypes binnen en tussen rapporten helpt u bestaande campagnes optimaliseren en over het hoofd gezien segmenten vinden die u naar een bestemming voor het richten kunt verzenden.
 seo-description: In het rapport Segmentprestaties worden de in kaart gebrachte en niet-toegewezen segmenten vergeleken op basis van indrukkingen en conversiesnelheden. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Het vergelijken van deze verschillende segmenttypes binnen en tussen rapporten helpt u bestaande campagnes optimaliseren en over het hoofd gezien segmenten vinden die u naar een bestemming voor het richten kunt verzenden.
-seo-title: Rapport Segmentprestaties
+seo-title: Segmentprestatierapport
 solution: Audience Manager
-title: Rapport Segmentprestaties
+title: Segmentprestatierapport
 uuid: 5156a4c7-831d-4a95-a1be-eb516f0d91b7
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Rapport Segmentprestaties{#segment-performance-report}
+# Segmentprestatierapport{#segment-performance-report}
 
 Het [!UICONTROL Segment Performance] rapport vergelijkt in kaart gebrachte en unmapped segmenten door beelden en omzettingspercentages. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Het vergelijken van deze verschillende segmenttypes binnen en tussen rapporten helpt u bestaande campagnes optimaliseren en over het hoofd gezien segmenten vinden die u naar een bestemming voor het richten kunt verzenden.
 
