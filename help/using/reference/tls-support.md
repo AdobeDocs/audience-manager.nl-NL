@@ -1,21 +1,21 @@
 ---
 description: TLS (Transport Layer Security) is een cryptografisch protocol dat wordt gebruikt om een beveiligd communicatiekanaal tussen twee systemen tot stand te brengen. Het wordt gebruikt om één of beide systemen voor authentiek te verklaren, en de vertrouwelijkheid en de integriteit van informatie te beschermen die tussen systemen overgaat. In mei 2018 waren er drie versies van het TLS-protocol in gebruik met TLS 1.0, 1.1 en 1.2.
 seo-description: TLS (Transport Layer Security) is een cryptografisch protocol dat wordt gebruikt om een beveiligd communicatiekanaal tussen twee systemen tot stand te brengen. Het wordt gebruikt om één of beide systemen voor authentiek te verklaren, en de vertrouwelijkheid en de integriteit van informatie te beschermen die tussen systemen overgaat. In mei 2018 waren er drie versies van het TLS-protocol in gebruik met TLS 1.0, 1.1 en 1.2.
-seo-title: TLS 1.0 en 1.1 Deprectie
+seo-title: Afschaffing van TLS 1.0 en 1.1
 solution: Audience Manager
-title: TLS 1.0 en 1.1 Deprectie
+title: Afschaffing van TLS 1.0 en 1.1
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '606'
-ht-degree: 3%
+ht-degree: 18%
 
 ---
 
 
-# TLS 1.0 en 1.1 Deprectie{#tls-deprecation}
+# Afschaffing van TLS 1.0 en 1.1{#tls-deprecation}
 
 TLS (Transport Layer Security) is een cryptografisch protocol dat wordt gebruikt om een beveiligd communicatiekanaal tussen twee systemen tot stand te brengen. Het wordt gebruikt om één of beide systemen voor authentiek te verklaren, en de vertrouwelijkheid en de integriteit van informatie te beschermen die tussen systemen overgaat. In mei 2018 waren er drie versies van het TLS-protocol in gebruik: TLS 1.0, 1.1 en 1.2.
 
