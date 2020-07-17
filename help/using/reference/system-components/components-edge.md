@@ -1,21 +1,21 @@
 ---
 description: De Audience Manager gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
 seo-description: De Audience Manager gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
-seo-title: Werken met Edge Data Center
+seo-title: Werken met het Edge-datacenter
 solution: Audience Manager
-title: Werken met Edge Data Center
+title: Werken met het Edge-datacenter
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Werken met Edge Data Center{#understanding-the-edge-data-center}
+# Werken met het Edge-datacenter{#understanding-the-edge-data-center}
 
 De Audience Manager gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
 
