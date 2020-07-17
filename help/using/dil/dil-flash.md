@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -158,8 +158,8 @@ s.loadModule(d);
 
 >[!MORELIKETHIS]
 >
->* [Treinen](../features/traits/trait-details-page.md)
->* [Signalen, Traits en Segmenten](../reference/signal-trait-segment.md)
->* [Belangrijke paar uitgelegd](../reference/key-value-pairs-explained.md)
->* [Voorvoegselvereisten voor belangrijkste variabelen](../features/traits/trait-variable-prefixes.md)
+>* [Eigenschappen ](../features/traits/trait-details-page.md)
+>* [Signalen, eigenschappen en segmenten](../reference/signal-trait-segment.md)
+>* [Sleutelwaardeparen](../reference/key-value-pairs-explained.md)
+>* [Voorvoegselvereisten voor belangrijke variabelen](../features/traits/trait-variable-prefixes.md)
 
