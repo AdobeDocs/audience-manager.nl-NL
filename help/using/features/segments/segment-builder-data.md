@@ -1,16 +1,16 @@
 ---
 description: Voeg en verwijder eigenschappen in de Bouwer van het Segment toe om daadwerkelijke vakpopulaties samen met daadwerkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
 seo-description: Voeg en verwijder eigenschappen in de Bouwer van het Segment toe om daadwerkelijke vakpopulaties samen met daadwerkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
-seo-title: Behandelings- en segmentpopulatiegegevens in Segment Builder
+seo-title: Populatiedata van eigenschappen en segmenten in Segment Builder
 solution: Audience Manager
-title: Behandelings- en segmentpopulatiegegevens in Segment Builder
+title: Populatiedata van eigenschappen en segmenten in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1250'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -88,7 +88,7 @@ In de volgende tabel worden de geschatte bevolkingscijfers weergegeven.
 
 ## Bestaande (werkelijke) segmentpopulatiegegevens gedefinieerd {#existing-segment-population}
 
-[!UICONTROL Profile Merge Rules] van invloed zijn op de werkelijke aantallen in real time en de totale bevolking. Deze totalen zijn afhankelijk van het feit of het segment [!UICONTROL Profile Merge Rule] behoort tot een apparaatgrafiekoptie of niet. Zie ook: Opties voor [profielsamenvoegregel gedefinieerd](../../features/profile-merge-rules/merge-rule-definitions.md).
+[!UICONTROL Profile Merge Rules] van invloed zijn op de werkelijke aantallen in real time en de totale bevolking. Deze totalen zijn afhankelijk van het feit of het segment [!UICONTROL Profile Merge Rule] behoort tot een apparaatgrafiekoptie of niet. See also, [Profile Merge Rule Options Defined](../../features/profile-merge-rules/merge-rule-definitions.md).
 
 ### Bevolkingsgegevens segment voor [!UICONTROL Merge Rules] zonder een [!UICONTROL Device Graph Option]
 
@@ -131,12 +131,12 @@ In de volgende tabel worden de werkelijke cijfers voor real-time en de totale be
 
 [!UICONTROL Segment Builder] steunt de schattingen van de segmentgrootte voor segmentregels die tot 4 recentie en frequentiedragers bevatten. Als u bij het samenstellen van een segmentregel meer dan vier recentie- en frequentie-expressies kiest, wordt een fout weergegeven bij het schatten van de populatie.
 
-### Beperkingen als gevolg van [!UICONTROL Merge Rules] bij schatting van segmentpopulaties
+### Beperkingen vanwege [!UICONTROL Merge Rules] bij schatting van segmentpopulaties
 
 Momenteel is er een bekende beperking omdat onze schatting van de segmentgrootte niet in aanmerking komt voor [!UICONTROL profile merge rules]. Kijk bijvoorbeeld naar segmenten met de **[!UICONTROL No Authenticated Profile + Current Device Profile]** samenvoegregel[](../../features/profile-merge-rules/merge-rule-definitions.md). Wegens de manier wij momenteel de aantallen van de segmentraming berekenen, zullen de geschatte populaties voor authentiek verklaarde profielen omvatten. De bestaande segmentpopulaties negeren geverifieerde profielen echter op de juiste wijze.
 
 >[!MORELIKETHIS]
 >
->* [Veelgestelde vragen over regels voor samenvoegen van profielen en apparaatgrafiek](../../faq/faq-profile-merge.md)
+>* [Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken](../../faq/faq-profile-merge.md)
 >* [Profielkoppeling](../profile-merge-rules/merge-rules-overview.md)
 
