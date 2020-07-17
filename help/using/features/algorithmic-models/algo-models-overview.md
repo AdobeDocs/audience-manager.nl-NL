@@ -2,20 +2,20 @@
 description: Beschrijft de algoritmische modellen beschikbaar in Audience Manager.
 keywords: algo models how works predictive audiences
 seo-description: Beschrijft de algoritmische modellen beschikbaar in Audience Manager.
-seo-title: Overzicht van algoritmische modellen
+seo-title: Overzicht van Algorithmic Models
 solution: Audience Manager
-title: Overzicht van algoritmische modellen
+title: Overzicht van Algorithmic Models
 feature: Algorithmic Models
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 0%
+ht-degree: 15%
 
 ---
 
 
-# Overzicht van algoritmische modellen
+# Overzicht van Algorithmic Models
 
 ## Wat is Algorithmic Modeling{#what-algo-modeling}
 
@@ -23,7 +23,7 @@ Algorithmic modelling in Audience Manager verwijst naar het gebruik van data sci
 
 Dit wordt gedaan door twee types van algoritmen: [!UICONTROL Look-Alike Modeling] en [!UICONTROL Predictive Audiences].
 
-## Look-Alike modellering{#lam}
+## Look-alike modellering{#lam}
 
 [!UICONTROL Look-Alike Modeling] helpt u nieuwe, unieke doelgroepen te ontdekken via geautomatiseerde gegevensanalyse. Het proces begint wanneer u een eigenschap of een segment, een tijdinterval, en eerste en derde gegevensbronnen selecteert. Uw keuzen verstrekken de input voor het algoritmische model. Wanneer het analyseproces loopt, zoekt het naar in aanmerking komende gebruikers die op gedeelde kenmerken van de geselecteerde bevolking worden gebaseerd.
 
@@ -33,11 +33,11 @@ Na voltooiing zijn deze gegevens beschikbaar in [Trait Builder](../../features/t
 
 Meer over leren [!UICONTROL Look-Alike Modeling], zie het [Begrip van look-als Modellering](understanding-models.md).
 
-## Voorspelend publiek{#predictive-audiences}
+## Predictieve doelgroepen{#predictive-audiences}
 
 [!UICONTROL Predictive Audiences] kunt u een onbekend publiek in real-time in verschillende personen classificeren met behulp van geavanceerde technieken voor gegevenswetenschap.
 
-In een marketingcontext is een persoon een publiekssegment dat wordt gedefinieerd door bezoekers, gebruikers of potentiële kopers en dat een specifieke reeks kenmerken deelt, zoals demografie, bruisende gewoonten, winkelgeschiedenis, enz.
+In een marketingcontext is een persona een doelgroepsegment dat wordt gedefinieerd door bezoekers, gebruikers of potentiële kopers die een specifieke reeks kenmerken delen zoals demografie, browsegewoonten, koopgeschiedenis, enz.
 
 [!UICONTROL Predictive Audiences] modellen zetten dit concept een stap verder door gebruik te maken van de computerleermogelijkheden van de Audience Manager om onbekend publiek automatisch in te delen in verschillende personen . Audience Manager bereikt dit door de neiging van uw onbekende publiek voor een reeks bekende soorten publiek te berekenen.
 
