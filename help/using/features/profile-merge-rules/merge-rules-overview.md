@@ -1,16 +1,16 @@
 ---
 description: Met de Regels van de Fusie van het Profiel krijgt u controle over de gegevensreeksen die voor segmentatie worden gebruikt en kan een persoon nauwkeurig over veelvoudige apparaten richten.
 seo-description: Met de Regels van de Fusie van het Profiel krijgt u controle over de gegevensreeksen die voor segmentatie worden gebruikt en kan een persoon nauwkeurig over veelvoudige apparaten richten.
-seo-title: Overzicht van regels voor samenvoegen van profielen
+seo-title: Overzicht van de regels voor profielsamenvoeging
 solution: Audience Manager
-title: Overzicht van regels voor samenvoegen van profielen
+title: Overzicht van de regels voor profielsamenvoeging
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '362'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +27,7 @@ Doorgaans is segmentering van het publiek en gericht afhankelijk van gegevens di
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] verandert fundamenteel hoe de gegevens en de segmentgebruikers voor het richten [!DNL Audience Manager] verzamelen. Hiermee kunt u werken met twee verschillende typen profielen, een apparaatprofiel en een [geverifieerd profiel](../../reference/visitor-authentication-states.md).
+[!UICONTROL Profile Merge Rules] verandert fundamenteel hoe gegevens en segmenten gebruikers voor het richten [!DNL Audience Manager] verzamelen. Hiermee kunt u werken met twee verschillende typen profielen, een apparaatprofiel en een [geverifieerd profiel](../../reference/visitor-authentication-states.md).
 
 | Profieltype | Beschrijving |
 |---|---|
