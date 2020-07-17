@@ -74,6 +74,7 @@ To create a new [!UICONTROL Segment Test Group]:
    * Doelen worden grijs weergegeven als ze niet beschikbaar zijn voor een bepaald testsegment op basis van [gegevensexportbesturingselementen](../../features/data-export-controls.md).
    * De gebruikers zullen slechts de bestemmingen zien zij tot gebaseerd op de [RBAC Gebruikersgroep](../../features/administration/administration-overview.md) hebben zij tot behoren.
    * Tot slot moet u een begindatum voor uw testgroep selecteren. Deze datum geeft het begin aan van de periode waarin uw testgroep wordt gepubliceerd naar bestemmingen. Selecteer **Geen einddatum** voor een onbepaalde vergelijking van de testsegmenten.
+
    >[!NOTE]
    >
    >[!UICONTROL Profile Merge Rules] met een geverifieerd profiel alleen worden ondersteund in realtime-doelen. Als een testsegment met een regel van de profielfusie van die configuratie naar een op dossier-gebaseerde server-aan-server bestemming wordt verzonden, zou het publiek niet kunnen bevolken.
@@ -84,6 +85,7 @@ To create a new [!UICONTROL Segment Test Group]:
 
    * Controleer de gegevens die u in de vorige stappen hebt toegevoegd en selecteer **[!UICONTROL Finalize Group]**.
    * Vergeet niet dat een testgroep na het voltooien ervan kan worden gedupliceerd of verwijderd, maar niet kan worden bewerkt.
+
    >[!NOTE]
    >* U kunt de testgroepen op elk gewenst moment in het ontwerpproces opslaan en later terugkeren naar de wizard. De status van de testgroep zal zijn **[!UICONTROL Draft]** en de testgroep zal geen gegevens naar bestemmingen verzenden tot u de groep van de segmenttest voltooit.
    >* Voor ontwerp tests, kunt u terug gaan en de testgroepen uitgeven door in de kaart van de testgroep in de belangrijkste **[!UICONTROL Edit]** [!UICONTROL Audience Lab] mening te klikken.
