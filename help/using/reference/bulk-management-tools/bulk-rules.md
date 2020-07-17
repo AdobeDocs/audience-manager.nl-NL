@@ -1,21 +1,21 @@
 ---
 description: De aantekenwerkbladen maken en bijwerken accepteren een header traitRule waarmee u meerdere regels in één bewerking kunt toepassen. Volg deze instructies om bulkregelverzoeken te maken.
 seo-description: De aantekenwerkbladen maken en bijwerken accepteren een header traitRule waarmee u meerdere regels in één bewerking kunt toepassen. Volg deze instructies om bulkregelverzoeken te maken.
-seo-title: Regels en segmentregels voor overtrekken maken of bijwerken
+seo-title: Regels en segmentregels voor eigenschappen maken of bijwerken
 solution: Audience Manager
-title: Regels en segmentregels voor overtrekken maken of bijwerken
+title: Regels en segmentregels voor eigenschappen maken of bijwerken
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# Regels en segmentregels voor overtrekken maken of bijwerken{#create-or-update-trait-rules-and-segment-rules}
+# Regels en segmentregels voor eigenschappen maken of bijwerken{#create-or-update-trait-rules-and-segment-rules}
 
 De aantekenwerkbladen maken en bijwerken accepteren een header traitRule waarmee u meerdere regels in één bewerking kunt toepassen. Volg deze instructies om bulkregelverzoeken te maken.
 
@@ -59,6 +59,6 @@ Je kunt je eigen regels schrijven buiten [!UICONTROL Rule Builder]om. Lees voord
 
 * [Werken met vergelijkingsoperatoren in Trait Builder](../../features/traits/trait-comparison-operators.md)
 * [Volgorde van de werkzaamheden](../../features/traits/trait-operator-precedence.md)
-* [Voorvoegselvereisten voor belangrijkste variabelen](../../features/traits/trait-variable-prefixes.md)
-* [Voorbeeldexpressies met Booleaanse en vergelijkingsoperatoren](../../features/traits/trait-expression-samples.md)
+* [Voorvoegselvereisten voor belangrijke variabelen](../../features/traits/trait-variable-prefixes.md)
+* [Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren](../../features/traits/trait-expression-samples.md)
 
