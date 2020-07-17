@@ -1,21 +1,21 @@
 ---
 description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
 seo-description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
-seo-title: Apparaat gericht met Platform-vlakke sleutels
+seo-title: Apparaattargeting met sleutels op platformniveau
 solution: Audience Manager
-title: Apparaat gericht met Platform-vlakke sleutels
+title: Apparaattargeting met sleutels op platformniveau
 uuid: bc048cc5-3df1-49bc-ac78-0ea5d7edd9cc
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Apparaat gericht met Platform-vlakke sleutels {#device-targeting-with-platform-level-keys}
+# Apparaattargeting met sleutels op platformniveau {#device-targeting-with-platform-level-keys}
 
 Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
 
@@ -49,5 +49,5 @@ De [!UICONTROL Data Collection Servers] extractie de waarden voor deze sleutels 
 
 >[!MORELIKETHIS]
 >
->* [Voorvoegselvereisten voor belangrijkste variabelen](../../features/traits/trait-variable-prefixes.md)
+>* [Voorvoegselvereisten voor belangrijke variabelen](../../features/traits/trait-variable-prefixes.md)
 
