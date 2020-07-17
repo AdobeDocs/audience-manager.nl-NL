@@ -10,16 +10,16 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Architectuur van Platform: Gegevensdoorloop toewijzen{#platform-architecture-data-flow-map}
+# Platformarchitectuur: datastroomkaart{#platform-architecture-data-flow-map}
 
 Deze kaart bevat de belangrijkste systemen voor Audience Manager. Het vertegenwoordigt visueel hoe de gegevens in, uit, en onder de componenten van de Audience Manager stromen.
 
-## Deze kaart lezen {#compmap}
+## How to read this map {#compmap}
 
 <!-- 
 
