@@ -1,21 +1,21 @@
 ---
 description: Een algemeen overzicht van hoe de Audience Manager een asynchrone uitwisseling van partijgegevens met een derdeverkoper uitvoert.
 seo-description: Een algemeen overzicht van hoe de Audience Manager een asynchrone uitwisseling van partijgegevens met een derdeverkoper uitvoert.
-seo-title: Batchgegevensoverdrachtproces beschreven
+seo-title: Beschrijving van batchdataoverdracht
 solution: Audience Manager
-title: Batchgegevensoverdrachtproces beschreven
+title: Beschrijving van batchdataoverdracht
 uuid: a9eee940-151c-44f8-9fe9-8ab47d8fa45c
 feature: null
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Batchgegevensoverdrachtproces beschreven {#batch-data-transfer-process-described}
+# Beschrijving van batchdataoverdracht {#batch-data-transfer-process-described}
 
 Een algemeen overzicht van hoe een asynchrone uitwisseling van partijgegevens met een derdeverkoper [!DNL Audience Manager] uitvoert.
 
