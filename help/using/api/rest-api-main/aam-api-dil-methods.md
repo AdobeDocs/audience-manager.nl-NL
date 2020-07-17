@@ -1,21 +1,21 @@
 ---
 description: Methoden waarmee u programmatically met de Bibliotheek van de Integratie van Gegevens (DIL) kunt werken.
 seo-description: Methoden waarmee u programmatically met de Bibliotheek van de Integratie van Gegevens (DIL) kunt werken.
-seo-title: API-methoden voor gegevensintegratiebibliotheek
+seo-title: API-methoden voor Data Integration Library
 solution: Audience Manager
-title: API-methoden voor gegevensintegratiebibliotheek
+title: API-methoden voor Data Integration Library
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# API-methoden voor gegevensintegratiebibliotheek {#data-integration-library-api-methods}
+# API-methoden voor Data Integration Library {#data-integration-library-api-methods}
 
 Methoden waarmee u programmatically met het [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
 
