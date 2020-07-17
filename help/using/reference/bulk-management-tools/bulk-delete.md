@@ -1,21 +1,21 @@
 ---
 description: Met Bulk verwijderen kunt u meerdere segmenten, kenmerken, mappen, afgeleide signalen, gegevensbronnen, modellen en doelen met één bewerking verwijderen. Volg de onderstaande instructies om een aanvraag voor bulkverwijdering in te dienen.
 seo-description: Met Bulk verwijderen kunt u meerdere segmenten, kenmerken, mappen, afgeleide signalen, gegevensbronnen, modellen en doelen met één bewerking verwijderen. Volg de onderstaande instructies om een aanvraag voor bulkverwijdering in te dienen.
-seo-title: Bulk verwijderen
+seo-title: Bulkverwijdering
 solution: Audience Manager
-title: Bulk verwijderen
+title: Bulkverwijdering
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Bulk verwijderen{#bulk-delete}
+# Bulkverwijdering{#bulk-delete}
 
 Met Bulk verwijderen kunt u meerdere segmenten, kenmerken, mappen, afgeleide signalen, gegevensbronnen, modellen en doelen met één bewerking verwijderen. Volg de onderstaande instructies om een aanvraag voor bulkverwijdering in te dienen.
 
