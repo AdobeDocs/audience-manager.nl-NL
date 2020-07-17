@@ -1,21 +1,21 @@
 ---
 description: Server-aan-server (S2S) APIs verstrekt code en methodes die u DCS gebruikersgegevens verzenden en laten ontvangen en met deze informatie in uw eigen systemen of toepassingen werken.
 seo-description: Server-aan-server (S2S) APIs verstrekt code en methodes die u DCS gebruikersgegevens verzenden en laten ontvangen en met deze informatie in uw eigen systemen of toepassingen werken.
-seo-title: DCS API's voor gegevensoverdracht van server naar server
+seo-title: DCS-API’s voor server-naar-server overdrachten
 solution: Audience Manager
-title: DCS API's voor gegevensoverdracht van server naar server
+title: DCS-API’s voor server-naar-server overdrachten
 uuid: 8c369166-c8a7-46b0-9913-4c027f5b1df9
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
 
-# DCS API&#39;s voor gegevensoverdracht van server naar server{#dcs-apis-for-server-to-server-data-transfers}
+# DCS-API’s voor server-naar-server overdrachten{#dcs-apis-for-server-to-server-data-transfers}
 
 Server-aan-server ([!UICONTROL S2S]) [!DNL API]s verstrekt code en methodes die u [!DNL DCS] gebruikersgegevens verzenden en laten ontvangen en met deze informatie in uw eigen systemen of toepassingen werken.
 
@@ -44,11 +44,11 @@ Deze handleiding behandelt momenteel het volgende:
 
 We voegen nieuwe methoden toe zodra deze beschikbaar zijn. Raadpleeg de volgende secties om aan de slag te gaan.
 
-* [Gebruikersnaam en regio&#39;s ophalen uit een DCS-reactie](dcs-aam-ids.md)
+* [Gebruikers-id’s en -regio’s ontvangen van een DCS-reactie](dcs-aam-ids.md)
 * [Gebruikersnaam en -regio&#39;s ophalen via de Experience Cloud-id...](dcs-mcid-ids.md)
-* [Server-aan-Server DCS API Vraag maken](dcs-s2s-calls.md)
+* [Server-naar-server DCS-API-calls uitvoeren](dcs-s2s-calls.md)
 
 >[!MORELIKETHIS]
 >
->* [DCS API-naslag](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [DCS-API-referenties ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
