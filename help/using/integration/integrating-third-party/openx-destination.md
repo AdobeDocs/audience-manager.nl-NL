@@ -1,21 +1,21 @@
 ---
 description: Opstelling OpenX als bestemming en verzend de gegevens van het het segmentsegment van de Audience Manager naar dat platform.
 seo-description: Opstelling OpenX als bestemming en verzend de gegevens van het het segmentsegment van de Audience Manager naar dat platform.
-seo-title: OpenX als Audience Manager-doel
+seo-title: OpenX als Audience Manager-bestemming
 solution: Audience Manager
-title: OpenX als Audience Manager-doel
+title: OpenX als Audience Manager-bestemming
 uuid: 5e86ba73-281c-403b-af06-64a1d427526a
 feature: Third Party Integrations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# OpenX als Audience Manager-doel{#openx-as-an-audience-manager-destination}
+# OpenX als Audience Manager-bestemming{#openx-as-an-audience-manager-destination}
 
 Opstelling [!DNL OpenX] als bestemming en verzendt de gegevens van het het segmentsegment van de Audience Manager naar dat platform.
 
@@ -54,7 +54,7 @@ Maak een cookiebestemming voor [!DNL OpenX] in de Audience Manager.
 
 <!-- aam-openx-destination.xml -->
 
-In Audience Manager, is een *bestemming* een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in de Gegevens van het *Publiek > Doelen*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]** en volg deze om aan de slag te gaan.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) waarmee u data wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in de Gegevens van het *Publiek > Doelen*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]** en volg deze om aan de slag te gaan.
 
 ### Stap 1: Basisinformatie
 
