@@ -1,9 +1,9 @@
 ---
 description: Hiermee geeft u een overzicht en beschrijving van de syntaxis en ondersteunde kenmerken (of sleutelwaardeparen) die u kunt doorgeven aan de gegevensverzamelingsservers (DCS). Deze informatie kan u helpen uw DCS- verzoeken formatteren en de parameters begrijpen die door dit systeem zijn teruggekeerd.
 seo-description: Hiermee geeft u een overzicht en beschrijving van de syntaxis en ondersteunde kenmerken (of sleutelwaardeparen) die u kunt doorgeven aan de gegevensverzamelingsservers (DCS). Deze informatie kan u helpen uw DCS- verzoeken formatteren en de parameters begrijpen die door dit systeem zijn teruggekeerd.
-seo-title: Ondersteunde kenmerken voor DCS API-aanroepen
+seo-title: Ondersteunde attributen voor DCS-API-calls
 solution: Audience Manager
-title: Ondersteunde kenmerken voor DCS API-aanroepen
+title: Ondersteunde attributen voor DCS-API-calls
 keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -73,11 +73,11 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wil
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Bevat één of meerdere paren gegevensleverancier IDs (<code> DPID</code>) en gegevensleverancier gebruiker IDs (<code> DPUUID</code>) die door <span class="keyword"> Audience Manager</span>wordt toegewezen. Als u meerdere paren <code> DPID</code>s en <code> DPUUID</code>s gebruikt, scheidt u elk paar met het niet-afdrukbare teken <code> %01</code>. Bijvoorbeeld: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die afgekeurd maar nog gesteund zijn. Zie <a href="../../../reference/cid.md"> CID vervangt DPID en DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Bevat één of meerdere paren gegevensleverancier IDs (<code> DPID</code>) en gegevensleverancier gebruiker IDs (<code> DPUUID</code>) die door <span class="keyword"> Audience Manager</span>wordt toegewezen. Als u meerdere paren <code> DPID</code>s en <code> DPUUID</code>s gebruikt, scheidt u elk paar met het niet-afdrukbare teken <code> %01</code>. Bijvoorbeeld: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die afgekeurd maar nog gesteund zijn. Zie <a href="../../../reference/cid.md">CID vervangt DPID en DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
-   <td colname="col2"> <p>Bevat een integratiecode en een bijbehorende unieke gebruiker - identiteitskaart in één enkel zeer belangrijk-waardepaar. </p> <p><code> d_cid_ic</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die afgekeurd maar nog gesteund zijn. Zie <a href="../../../reference/cid.md"> CID vervangt DPID en DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Bevat een integratiecode en een bijbehorende unieke gebruiker - identiteitskaart in één enkel zeer belangrijk-waardepaar. </p> <p><code> d_cid_ic</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die afgekeurd maar nog gesteund zijn. Zie <a href="../../../reference/cid.md">CID vervangt DPID en DPUUID</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
@@ -123,7 +123,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wil
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die door de <span class="keyword"> Experience Cloud</span> -id-service wordt ingesteld en gebruikt. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a>voor meer informatie over de ECID. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die door de <span class="keyword"> Experience Cloud</span> -id-service wordt ingesteld en gebruikt. Zie <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a>voor meer informatie over de ECID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
