@@ -1,21 +1,21 @@
 ---
 description: Begin hier voor informatie over het maken van /event vraag aan DCS. Deze sectie omvat informatie over vraagsyntaxis, parameters, het formatteren, en een verzoekvoorbeeld.
 seo-description: Begin hier voor informatie over het maken van /event vraag aan DCS. Deze sectie omvat informatie over vraagsyntaxis, parameters, het formatteren, en een verzoekvoorbeeld.
-seo-title: Gegevens verzenden naar de DCS
+seo-title: Data verzenden naar de DCS
 solution: Audience Manager
-title: Gegevens verzenden naar de DCS
+title: Data verzenden naar de DCS
 uuid: 024e307d-bfcb-46cf-ac3a-fc71df0248fe
 feature: DCS
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Gegevens verzenden naar de DCS {#send-data-to-the-dcs}
+# Data verzenden naar de DCS {#send-data-to-the-dcs}
 
 Begin hier voor informatie over het maken van `/event` vraag aan [!DNL DCS]. Deze sectie omvat informatie over vraagsyntaxis, parameters, het formatteren, en een verzoekvoorbeeld.
 
@@ -52,7 +52,7 @@ De volgende lijst bepaalt de basiscomponenten van een eenvoudige [!DNL DCS] vraa
    <td colname="col2"> <p>Dit deel van de vraag bevat: </p> <p> 
      <ul id="ul_3EDA9C7BA6794D06BCB07A75A9BD2372"> 
       <li id="li_74624CA78D6F4536A8164AE1FA1DECB9">Uw domeinalias toegewezen door <span class="keyword"> Audience Manager</span> (bijvoorbeeld <code> my_domain.demdex.net</code>). </li> 
-      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Het doeldomein, dat altijd is <code> demdex.net</code>. Zie het <a href="../../../reference/demdex-calls.md"> Begrip van Vraag aan het Domein</a>van de Index. </li> 
+      <li id="li_08ABE91CA247403AA480B3FB4BEF83BA">Het doeldomein, dat altijd is <code> demdex.net</code>. Zie <a href="../../../reference/demdex-calls.md">Inzicht in calls naar het Demdex-domein</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ De volgende lijst bepaalt de basiscomponenten van een eenvoudige [!DNL DCS] vraa
      <ul id="ul_624DC78759F74AD8920220058E54E083"> 
       <li id="li_091E5B4820EC4A93B775433E428E74AB">Tekenreeksgegevens tussen dubbele aanhalingstekens plaatsen (bijvoorbeeld <code> age="41 to 55"</code>). </li> 
       <li id="li_C558E3BA6EE34413BBBB962D4CD0D10E">U kunt meerdere toetsen binnen op één waarde (bijvoorbeeld <i><code>key</i>=<i>val1,val2,val3</i></code></i>). </li> 
-     </ul> </p> <p>Zie het Opmaken van zeer belangrijke-waardeparen in Vraag <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"></a>DCS. </p> </td>
+     </ul> </p> <p>See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-key-format.md"> Formatting Key-Value Pairs in DCS Calls</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
@@ -97,9 +97,9 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Volgende stappen {#dcs-next-steps}
 
-Nu je bekend bent met het verzenden van gegevens naar de [!DNL DCS], is het tijd om te bekijken hoe je gegevens ervan kunt terugkrijgen en die informatie kan parseren. Zie Gegevens [ontvangen van DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
+Nu je bekend bent met het verzenden van gegevens naar de [!DNL DCS], is het tijd om te bekijken hoe je gegevens ervan kunt terugkrijgen en die informatie kan parseren. See [Receive Data From the DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md).
 
 >[!MORELIKETHIS]
 >
->* [Belangrijke paar uitgelegd](../../../reference/key-value-pairs-explained.md)
+>* [Sleutelwaardeparen](../../../reference/key-value-pairs-explained.md)
 
