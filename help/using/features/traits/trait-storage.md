@@ -1,21 +1,21 @@
 ---
 description: Trait storage folders store and help you organize traits.
 seo-description: Trait storage folders store and help you organize traits.
-seo-title: Trait-opslag
+seo-title: Opslag van eigenschappen
 solution: Audience Manager
-title: Trait-opslag
+title: Opslag van eigenschappen
 uuid: e72685ee-0c64-44a4-a8e2-d6ee5c968ba0
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
 
-# Trait-opslag {#trait-storage}
+# Opslag van eigenschappen {#trait-storage}
 
 Trait storage folders store and help you organize traits.
 
@@ -39,7 +39,7 @@ Een nieuwe opslagmap maken:
 
 1. Houd de muisaanwijzer in het [!UICONTROL Trait Storage] venster boven:
    * **[!UICONTROL All Traits]** om een nieuwe hoofdmap toe te voegen.
-   * Een bestaande bovenliggende map om een nieuwe onderliggende map toe te voegen.
+   * Een bestaande bovenliggende map om een nieuwe ondergeschikte map toe te voegen.
 1. Klik op het pictogram + om de map te maken.
 1. Geef de map een naam en klik op **[!UICONTROL Save]**.
 
