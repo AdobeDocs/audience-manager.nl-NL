@@ -1,23 +1,23 @@
 ---
 description: Met de opties voor samenvoegregels kunt u het type gegevens bepalen dat Audience Manager gebruikt voor segmentatie. Een samenvoegregel kan apparaatprofielen bevatten die zijn toegewezen door de apparaatgrafiek van de profielkoppeling, de Adobe Experience Cloud Device Co-op en/of andere apparaatgrafiekproviders van derden die zijn geïntegreerd met Audience Manager. U kunt maximaal vier regels voor het samenvoegen van profielen maken.
 seo-description: Met de opties voor samenvoegregels kunt u het type gegevens bepalen dat Audience Manager gebruikt voor segmentatie. Een samenvoegregel kan apparaatprofielen bevatten die zijn toegewezen door de apparaatgrafiek van de profielkoppeling, de Adobe Experience Cloud Device Co-op en/of andere apparaatgrafiekproviders van derden die zijn geïntegreerd met Audience Manager. U kunt maximaal vier regels voor het samenvoegen van profielen maken.
-seo-title: Opties voor regel voor samenvoegen van profiel gedefinieerd
+seo-title: Definities van opties voor regels voor profielsamenvoeging.
 solution: Audience Manager
-title: Opties voor regel voor samenvoegen van profiel gedefinieerd
+title: Definities van opties voor regels voor profielsamenvoeging.
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1029'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
 # [!UICONTROL Profile Merge Rules] Gedefinieerde opties {#profile-merge-rule-options-defined}
 
-Met de [!UICONTROL profile merge rule] opties kunt u het type gegevens bepalen dat voor segmentatie wordt [!DNL Audience Manager] gebruikt. Een [!UICONTROL profile merge rule] definitie kan apparaatprofielen bevatten die zijn toegewezen door de [!UICONTROL Profile Link] apparaatgrafiek, de [!UICONTROL Adobe Experience Cloud Device Co-op]en/of andere externe apparaatgrafiekproviders die zijn geïntegreerd met [!DNL Audience Manager]. U kunt maximaal 4 maken [!UICONTROL Profile Merge Rules]. De vierde optie [!UICONTROL Profile Merge Rule] is uitsluitend beschikbaar voor klanten die de [!UICONTROL People-Based Destinations] invoegtoepassing hebben aangeschaft.
+The [!UICONTROL profile merge rule] options let you control the type of data [!DNL Audience Manager] uses for segmentation. Een [!UICONTROL profile merge rule] definitie kan apparaatprofielen bevatten die zijn toegewezen door de [!UICONTROL Profile Link] apparaatgrafiek, de [!UICONTROL Adobe Experience Cloud Device Co-op]en/of andere externe apparaatgrafiekproviders die zijn geïntegreerd met [!DNL Audience Manager]. You can create a maximum of 4 [!UICONTROL Profile Merge Rules]. De vierde optie [!UICONTROL Profile Merge Rule] is uitsluitend beschikbaar voor klanten die de [!UICONTROL People-Based Destinations] invoegtoepassing hebben aangeschaft.
 
 U maakt een definitie [!UICONTROL Profile Merge Rule] door een selectie te maken uit de opties die hieronder worden beschreven, in [!UICONTROL Profile Merge Rule Setup].
 
@@ -108,13 +108,13 @@ Hiermee [!UICONTROL Device Options] kunt u het type *`device profile`* selectere
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Apparaatgrafiek profielkoppeling</span></b> </p> </td> 
-   <td colname="col2"> <p>Hiermee krijgt <span class="keyword"> Audience Manager</span> de opdracht om de profielen van het huidige apparaat en maximaal 100 andere apparaten te lezen waaruit de gebruiker is geverifieerd. Deze apparaatgrafiek is gebaseerd op uw eigen gegevens van de eerste partij in <span class="keyword"> Audience Manager</span>. Dit is ideaal voor klanten die een hoog verificatieniveau hebben voor hun digitale eigenschappen. De het apparatengrafiek van de Verbinding <span class="wintitle"></span> van het Profiel wordt bijgewerkt in echt - tijd. Deze optie is beschikbaar wanneer u <b><span class="uicontrol"> Huidig geverifieerd profiel</span></b> of <b><span class="uicontrol"> Laatst geverifieerd profiel</span></b>selecteert. Als u deze optie gebruikt, kunt u slechts één geverifieerd profiel kiezen (de overige profielen worden automatisch door de<span class="keyword"> Audience Manager</span> grijs weergegeven). Zie ook <a href="profile-link-use-case.md"> Kwesties voor grafiekgebruik van profielkoppeling</a>. </p> </td>
+   <td colname="col2"> <p>Hiermee krijgt <span class="keyword"> Audience Manager</span> de opdracht om de profielen van het huidige apparaat en maximaal 100 andere apparaten te lezen waaruit de gebruiker is geverifieerd. Deze apparaatgrafiek is gebaseerd op uw eigen gegevens van de eerste partij in <span class="keyword"> Audience Manager</span>. Dit is ideaal voor klanten die een hoog verificatieniveau hebben voor hun digitale eigenschappen. De het apparatengrafiek van de Verbinding <span class="wintitle"></span> van het Profiel wordt bijgewerkt in echt - tijd. Deze optie is beschikbaar wanneer u <b><span class="uicontrol"> Huidig geverifieerd profiel</span></b> of <b><span class="uicontrol"> Laatst geverifieerd profiel</span></b>selecteert. Als u deze optie gebruikt, kunt u slechts één geverifieerd profiel kiezen (de overige profielen worden automatisch door de<span class="keyword"> Audience Manager</span> grijs weergegeven). See also, <a href="profile-link-use-case.md"> Profile Link Device Graph Use Cases</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Afbeelding van apparaat voor coop</span></b> </p> </td> 
    <td colname="col2"> <p>Hiermee krijgt <span class="keyword"> Audience Manager</span> de opdracht om de profielen van het huidige apparaat en maximaal 100 andere apparaten te lezen met de koppelingen die worden geleverd door de <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a>. </p> <p>De <span class="keyword"> Device Co-op</span> is een digitale coöperatie waar deelnemende klanten koppelingsinformatie over apparaten delen. De <span class="keyword"> -op-knop</span> van het apparaat verwerkt deze gegevens in een <span class="term"> apparaatgrafiek</span>. Een apparaatgrafiek koppelt apparaten aan elkaar in apparaatclusters. Deze verbindingen worden gebouwd van <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"> probabilistische en deterministische gegevens</a>. De clusters vertegenwoordigen een groep apparaten die door een onbekende persoon worden gebruikt. De <span class="keyword"> Device Co-op</span> deelt deze clusters onder zijn leden, wat hen helpt waardevolle en verenigbare overkoepelende ervaringen aan hun klanten leveren. </p> <p> Raadpleeg de volgende bronnen voor meer informatie over de <span class="wintitle"> apparaatcoop</span>: </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> Samenvatting van apparaten</a> </li> 
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/nl-NL/device-co-op/using/home.html" format="https" scope="external"> Samenvatting van apparaten</a> </li> 
       <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> Lidmaatschapseisen</a> </li> 
       <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Apparaatgrafiek: Interne processen en uitvoer</a> </li>
      </ul> </p> </td>
@@ -132,7 +132,7 @@ Hiermee [!UICONTROL Device Options] kunt u het type *`device profile`* selectere
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-De segmenten van het publiek die automatisch van andere [!DNL Experience Cloud] oplossingen werden gecreeerd, die op fusieregels buiten [!DNL Audience Manager]worden bepaald, worden duidelijk zoals het gebruiken van [!UICONTROL External Merge Policy]. Zie bijvoorbeeld Delen van [publiek tussen Audience Manager en Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
+De segmenten van het publiek die automatisch van andere [!DNL Experience Cloud] oplossingen werden gecreeerd, die op fusieregels buiten [!DNL Audience Manager]worden bepaald, worden duidelijk zoals het gebruiken van [!UICONTROL External Merge Policy]. For example, see [Audience Sharing Between Audience Manager and Adobe Experience Platform](../../integration/integration-aep/aam-aep-audience-sharing.md).
 
 >[!MORELIKETHIS]
 >
