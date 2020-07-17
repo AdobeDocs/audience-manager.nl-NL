@@ -1,21 +1,21 @@
 ---
 description: Plaats gegevens in het rapport van de Prestaties van de Levering logboekdossiers in lijsten die slechts IDs bevatten. Plaats niet-id-metagegevens in aparte opzoektabellen om de bestandsgrootte en de verwerkingstijd te beperken.
 seo-description: Plaats gegevens in het rapport van de Prestaties van de Levering logboekdossiers in lijsten die slechts IDs bevatten. Plaats niet-id-metagegevens in aparte opzoektabellen om de bestandsgrootte en de verwerkingstijd te beperken.
-seo-title: Verbeter de verwerkingstijd van logbestanden met tabellen voor opzoeken
+seo-title: Verwerkingstijd logboekbestanden verbeteren met opzoektabellen
 solution: Audience Manager
-title: Verbeter de verwerkingstijd van logbestanden met tabellen voor opzoeken
+title: Verwerkingstijd logboekbestanden verbeteren met opzoektabellen
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 feature: reporting reference
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 8%
+ht-degree: 13%
 
 ---
 
 
-# Verbeter de verwerkingstijd van logbestanden met tabellen voor opzoeken{#improve-log-file-processing-times-with-lookup-tables}
+# Verwerkingstijd logboekbestanden verbeteren met opzoektabellen{#improve-log-file-processing-times-with-lookup-tables}
 
 Plaats gegevens in het rapport van de Prestaties van de Levering logboekdossiers in lijsten die slechts IDs bevatten. Plaats niet-id-metagegevens in aparte opzoektabellen om de bestandsgrootte en de verwerkingstijd te beperken.
 
@@ -41,7 +41,7 @@ Om de prestaties te verbeteren, mag het hoofdgegevensbestand alleen id&#39;s bev
 
 Stel dat u een gegevensbestand hebt dat er ongeveer zo uitziet als hieronder.
 
-| Gebruikersnaam | ID advertentie | Advertentienaam | Order-id | Naam van bestelling | Adverteerder-id | Naam adverteerder |
+| Gebruikers-id | ID advertentie | Advertentienaam | Order-id | Naam van bestelling | Adverteerder-id | Naam adverteerder |
 |---|---|---|---|---|---|---|
 | 1 | 111 | Shoe A | 456 | Sneakers | 27 | Onderneming A |
 | 2 | 111 | Shoe A | 456 | Sneakers | 27 | Onderneming A |
@@ -53,7 +53,7 @@ Stel dat u een gegevensbestand hebt dat er ongeveer zo uitziet als hieronder.
 
 Hier is hetzelfde logbestand met de verwijderde metagegevens. Het bestand is kleiner en gemakkelijker te verwerken wanneer het alleen uit id&#39;s bestaat.
 
-| Gebruikersnaam | ID advertentie | Order-id | Adverteerder-id |
+| Gebruikers-id | ID advertentie | Order-id | Adverteerder-id |
 |---|---|---|---|
 | 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
