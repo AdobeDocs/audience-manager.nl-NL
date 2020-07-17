@@ -1,20 +1,20 @@
 ---
 description: 'Deze pagina bevat richtlijnen voor het configureren en beheren van de integratie tussen Audience Manager- en op mensen gebaseerde platforms. '
 seo-description: 'Deze pagina bevat richtlijnen voor het configureren en beheren van de integratie tussen Audience Manager- en op mensen gebaseerde platforms. '
-seo-title: Verificatie met Platforms op basis van personen
+seo-title: Verificatie met persoonsgebaseerde platforms
 solution: Audience Manager
-title: Verificatie met Platforms op basis van personen
+title: Verificatie met persoonsgebaseerde platforms
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Verificatie met Platforms op basis van personen {#authentication-with-people-based-platforms}
+# Verificatie met persoonsgebaseerde platforms {#authentication-with-people-based-platforms}
 
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
