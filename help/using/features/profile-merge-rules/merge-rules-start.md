@@ -1,27 +1,27 @@
 ---
 description: Als u de revisie Regels voor samenvoegen van profielen wilt maken, voert u de stappen uit in elk van de procedures die in deze sectie worden beschreven.
 seo-description: Als u de revisie Regels voor samenvoegen van profielen wilt maken, voert u de stappen uit in elk van de procedures die in deze sectie worden beschreven.
-seo-title: Aan de slag met regels voor het samenvoegen van profielen
+seo-title: Aan de slag met de regels voor profielsamenvoeging
 solution: Audience Manager
-title: Aan de slag met regels voor het samenvoegen van profielen
+title: Aan de slag met de regels voor profielsamenvoeging
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Aan de slag met regels voor het samenvoegen van profielen {#getting-started-with-profile-merge-rules}
+# Aan de slag met de regels voor profielsamenvoeging {#getting-started-with-profile-merge-rules}
 
 Om de stappen in elk van de in deze sectie beschreven procedures te creëren [!UICONTROL Profile Merge Rules], te herzien en te voltooien.
 
 <!-- merge-rules-start.xml -->
 
-## Een apparaatgegevensbron maken {#create-data-source}
+## Create a Cross-Device Data Source {#create-data-source}
 
 Als u een apparaatgegevensbron wilt maken, gaat u naar **[!UICONTROL Audience Data > Data Sources > Add New]** en voert u de stappen uit voor elke sectie die hier wordt beschreven. Beheerdersmachtigingen zijn vereist voor het maken of bewerken van een apparaatgegevensbron.
 
@@ -43,7 +43,7 @@ De [!UICONTROL Data Source Details] sectie voltooien:
    * **[!UICONTROL Person]**: Een id die één persoon definieert. Deze id kan aan meerdere id&#39; [!DNL Audience Manager] s worden toegewezen.
    * **[!UICONTROL Household]**: Een id die een groep personen definieert. Deze id kan aan meerdere id&#39; [!DNL Audience Manager] s worden toegewezen.
 
-## Besturingselementen voor gegevensexport {#export-controls}
+## Besturingselementen voor data-export {#export-controls}
 
 [De Controles](../data-export-controls.md) van de Uitvoer van gegevens zijn facultatieve classificatieregels u op een gegevensbron en een bestemming kunt toepassen. Ze verhinderen dat u gegevens naar een bestemming verzendt wanneer die handeling een inbreuk vormt op de privacy van gegevens of een gebruiksovereenkomst. Sla deze sectie over als u deze niet gebruikt [!UICONTROL Data Export Controls].
 
@@ -69,7 +69,7 @@ Beheerdersmachtigingen zijn vereist voor het maken, bewerken of verwijderen van 
 
 <!-- create-profile-merge-rule.xml -->
 
-**Vereisten:** Voor het samenstellen van een [!UICONTROL Profile Merge Rule]bestand is een apparaatgegevensbron vereist. Zie [Een gegevensbron](../manage-datasources.md#create-data-source)maken.
+**Vereisten:** Voor het samenstellen van een [!UICONTROL Profile Merge Rule]bestand is een apparaatgegevensbron vereist. See [Create a Data Source](../manage-datasources.md#create-data-source).
 
 >[!TIP]
 >
@@ -83,7 +83,7 @@ De [!UICONTROL Basic Information] sectie voltooien:
 2. *(Optioneel)* Beschrijf de [!UICONTROL Profile Merge Rule]. Een beknopte beschrijving helpt u de rol of het doel van uw regel bepalen.
 3. *(Optioneel)* Selecteer deze optie **[!UICONTROL Set as default]** als u deze standaard wilt maken [!UICONTROL Profile Merge Rule]. Nieuwe segmenten worden automatisch gekoppeld aan de standaardregel.
 
-## Besturingselementen voor gegevensexport {#data-export-controls}
+## Besturingselementen voor data-export {#data-export-controls}
 
 [De Controles](../data-export-controls.md) van de Uitvoer van gegevens zijn facultatieve classificatieregels u op uw [!UICONTROL Profile Merge Rule]. Ze verhinderen dat u gegevens naar een bestemming verzendt wanneer die handeling een inbreuk vormt op de privacy van gegevens of een gebruiksovereenkomst. Sla deze sectie over als u deze niet gebruikt [!UICONTROL Data Export Controls].
 
@@ -167,7 +167,7 @@ var vDil = DIL.create({
 });
 ```
 
-In het naamruimte-sleutelwaardepaar is de `*`MCORG`*` -variabele uw [!DNL Experience Cloud] organisatie-id. Als u deze id niet hebt, vindt u deze in het [!UICONTROL Administration] gedeelte van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Toediening: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+In het naamruimte-sleutelwaardepaar is de `*`MCORG`*` -variabele uw [!DNL Experience Cloud] organisatie-id. Als u deze id niet hebt, vindt u deze in het [!UICONTROL Administration] gedeelte van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Toediening: Core Services](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### SDK&#39;s configureren
 
@@ -229,5 +229,5 @@ Zie ook [Audience Manager Methods voor Android](hhttps://docs.adobe.com/content/
 
 >[!MORELIKETHIS]
 >
->* [Een gegevensbron maken](../manage-datasources.md#create-data-source)
+>* [Een databron maken](../manage-datasources.md#create-data-source)
 
