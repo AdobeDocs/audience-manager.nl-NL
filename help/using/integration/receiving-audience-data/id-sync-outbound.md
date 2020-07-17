@@ -1,21 +1,21 @@
 ---
 description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
 seo-description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
-seo-title: De Synchronisatie van identiteitskaart voor Uitgaande Overdrachten van Gegevens
+seo-title: Id-synchronisatie voor overdracht van uitgaande data
 solution: Audience Manager
-title: De Synchronisatie van identiteitskaart voor Uitgaande Overdrachten van Gegevens
+title: Id-synchronisatie voor overdracht van uitgaande data
 uuid: f3849be8-1094-47db-9296-7482f020af18
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '376'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
 
-# De Synchronisatie van identiteitskaart voor Uitgaande Overdrachten van Gegevens{#id-synchronization-for-outbound-data-transfers}
+# Id-synchronisatie voor overdracht van uitgaande data{#id-synchronization-for-outbound-data-transfers}
 
 Beschrijft de syntaxis en de parameters die in de aanvankelijke `HTTP` vraag worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
 
@@ -69,13 +69,13 @@ De [!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitsk
     </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"><p><code>gdpr_consent</code> is de URL-veilige base64-gecodeerde GDPR toestemmingstekenreeks (zie <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-specificatie</a>).</p><p><b>Opmerking:</b> Deze parameter kan alleen samen met <code>gdpr</code>worden gebruikt.</p> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> is the URL-safe base64-encoded GDPR consent string (see <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specification</a>).</p><p><b>Opmerking:</b> Deze parameter kan alleen samen met <code>gdpr</code>worden gebruikt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!MORELIKETHIS]
 >
->* [API-methoden en code voor gegevensverzamelingsserver (DCS)](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
->* [Componenten gegevensverzameling](../../reference/system-components/components-data-collection.md)
+>* [API-methoden en -code van Data Collection Server (DCS) ](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
+>* [Onderdelen voor dataverzameling](../../reference/system-components/components-data-collection.md)
 
