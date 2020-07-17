@@ -2,9 +2,9 @@
 description: Overzicht en workflow voor gegevensleveranciers die gegevens vanuit de Audience Manager willen verkopen.
 keywords: Google analytics
 seo-description: Overzicht en workflow voor gegevensleveranciers die gegevens vanuit de Audience Manager willen verkopen.
-seo-title: Audience Marketplace for Data Providers
+seo-title: Audience Marketplace voor dataproviders
 solution: Audience Manager
-title: Audience Marketplace for Data Providers
+title: Audience Marketplace voor dataproviders
 topic: DIL API
 uuid: 80e60d33-63e7-496c-82c5-205ecf0ec03a
 feature: Audience Marketplace
@@ -12,12 +12,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Audience Marketplace for Data Providers {#audience-marketplace-for-data-providers}
+# Audience Marketplace voor dataproviders {#audience-marketplace-for-data-providers}
 
 Overzicht en workflow voor gegevensleveranciers die gegevens vanuit de toepassing willen verkopen [!DNL Audience Manager].
 
