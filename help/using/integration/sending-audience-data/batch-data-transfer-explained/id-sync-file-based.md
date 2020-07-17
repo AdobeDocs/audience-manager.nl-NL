@@ -1,21 +1,21 @@
 ---
 description: Beschrijft de vereiste gebieden, de syntaxis, en de noemende overeenkomsten die voor op dossier-gebaseerde synchronisatie van identiteitskaart worden gebruikt. Geef de bestandsinhoud een naam en ordent deze volgens deze specificaties.
 seo-description: Beschrijft de vereiste gebieden, de syntaxis, en de noemende overeenkomsten die voor op dossier-gebaseerde synchronisatie van identiteitskaart worden gebruikt. Geef de bestandsinhoud een naam en ordent deze volgens deze specificaties.
-seo-title: Naam en inhoudsvereisten voor id-synchronisatiebestanden
+seo-title: Naam- en contentvereisten voor id-synchronisatiebestanden
 solution: Audience Manager
-title: Naam en inhoudsvereisten voor id-synchronisatiebestanden
+title: Naam- en contentvereisten voor id-synchronisatiebestanden
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 
-# Naam en inhoudsvereisten voor id-synchronisatiebestanden {#name-and-content-requirements-for-id-synchronization-files}
+# Naam- en contentvereisten voor id-synchronisatiebestanden {#name-and-content-requirements-for-id-synchronization-files}
 
 Beschrijft de vereiste gebieden, de syntaxis, en de noemende overeenkomsten die voor op dossier-gebaseerde synchronisatie van identiteitskaart worden gebruikt. Geef de bestandsinhoud een naam en ordent deze volgens deze specificaties.
 
@@ -49,11 +49,11 @@ Namen van id-bestanden bevatten de volgende vereiste en optionele elementen:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> De id van de hoofdgegevensaanbieder is de bovenliggende id van de DPID's in de bestandsnaam. De eerste gebruiker-id in het gegevensbestand komt ook overeen met de hoofd-id. Verdere DPIDs is andere herkenningstekens die tot het hoofd behoren. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </td> 
+   <td colname="col2"> De master gegevensleverancier ID is ouderidentiteitskaart van DPIDs in het dossier - naam. De eerste gebruiker-id in het gegevensbestand komt ook overeen met de master id. Verdere DPIDs is andere herkenningstekens die tot master behoren. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
-   <td colname="col2"> <p>ID's van gegevensaanbieder. Deze id's vertegenwoordigen entiteiten of gegevensbronnen die aan de hoofd-DPID zijn gekoppeld. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </p> <p>Het aantal DPID's in de bestandsnaam moet overeenkomen met het aantal UUID's in het gegevensbestand. Stel dat uw bestandsnaam een hoofd-DPID en 3 DPID's bevat. Uw gegevensbestand moet vier overeenkomstige kolommen van UUIDs omvatten, die zoals die in de hieronder sectie van de dossierinhoud wordt beschreven wordt geformatteerd. </p> </td> 
+   <td colname="col2"> <p>ID's van gegevensaanbieder. Deze id's vertegenwoordigen entiteiten of gegevensbronnen die zijn gekoppeld aan de master DPID. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </p> <p>Het aantal DPID's in de bestandsnaam moet overeenkomen met het aantal UUID's in het gegevensbestand. Stel dat uw bestandsnaam een master DPID en 3 DPID's bevat. Uw gegevensbestand moet vier overeenkomstige kolommen van UUIDs omvatten, die zoals die in de hieronder sectie van de dossierinhoud wordt beschreven wordt geformatteerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code><i>timestamp</i></code> </td> 
@@ -102,7 +102,7 @@ abc123 def456 ghi789 xyz987
 
 ## Synchronisatie stemt overeen met DPUUID&#39;s met UUID&#39;s {#sync-matches-dpuuids-uuids}
 
-Het doel van een ID-synchronisatiebestand is om de [DPUUID&#39;s](../../../reference/ids-in-aam.md) vanuit uw eigen gegevensbronnen te synchroniseren met [!DNL Audience Manager] UUID&#39;s. De synchronisatie brengt de [!DNL DPUUID]s van de meester [!DNL DPID] en zijn verwante [!DNL DPID]s aan [!DNL Audience Manager] [!DNL UUID]s in kaart. Wanneer u de id&#39;s in de bestandsnaam en de hoofdtekst plaatst, bepaalt u hoe deze id&#39;s aan elkaar worden toegewezen. Neem bijvoorbeeld de volgende twee voorbeeldbestanden:
+Het doel van een ID-synchronisatiebestand is om de [DPUUID&#39;s](../../../reference/ids-in-aam.md) vanuit uw eigen gegevensbronnen te synchroniseren met [!DNL Audience Manager] UUID&#39;s. De synchronisatie brengt de [!DNL DPUUID]s van master [!DNL DPID] en zijn verwante [!DNL DPID]s aan [!DNL Audience Manager] [!DNL UUID]s in kaart. Wanneer u de id&#39;s in de bestandsnaam en de hoofdtekst plaatst, bepaalt u hoe deze id&#39;s aan elkaar worden toegewezen. Neem bijvoorbeeld de volgende twee voorbeeldbestanden:
 
 * **Bestand 1:** `adobe_id_0_12345_1476312152.sync`
 
