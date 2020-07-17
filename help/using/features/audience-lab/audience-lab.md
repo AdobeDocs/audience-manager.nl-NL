@@ -1,9 +1,9 @@
 ---
 description: Maak wederzijds uitsluitende testsegmenten in Segment Test Group om de effectiviteit van verschillende doelen te vergelijken en te meten. U kunt een controlegroep opzij zetten en uw segment in percentages van een geheel verdelen, om doeltreffendheid te testen.
 seo-description: Maak wederzijds uitsluitende testsegmenten in Segment Test Group om de effectiviteit van verschillende doelen te vergelijken en te meten. U kunt een controlegroep opzij zetten en uw segment in percentages van een geheel verdelen, om doeltreffendheid te testen.
-seo-title: Audience Lab
+seo-title: 'Audience Lab '
 solution: Audience Manager
-title: Audience Lab
+title: 'Audience Lab '
 topic: DIL API
 uuid: aaee820c-1e78-4fd4-bd8f-2629085d78e9
 feature: Audience Lab
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -26,8 +26,8 @@ Maak wederzijds uitsluitende testsegmenten in [!UICONTROL Segment Test Groups] o
 
 In de [!UICONTROL Audience Lab] standaardweergave wordt een kaart weergegeven voor elk van de testgroepen. Klik op een kaart om de **[!UICONTROL Test Group]** weergave te openen. Deze weergave bevat de volgende informatie:
 
-* **[Gegevens testgroep](../../features/audience-lab/audience-lab-information-view.md)**
-* **[Rapportering testgroep](../../features/audience-lab/audience-lab-reporting-view.md)**
+* **[Testgroepgegevens](../../features/audience-lab/audience-lab-information-view.md)**
+* **[Testgroeprapportage](../../features/audience-lab/audience-lab-reporting-view.md)**
 
 U kunt **maximaal 10 testgroepen** maken, elk met **maximaal 15 testsegmenten**.
 
@@ -85,7 +85,7 @@ De status van een testgroep kan actief, gepland, gepauzeerd, concept of voltooid
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Handelingen </th> 
+   <th colname="col1" class="entry"> Acties </th> 
    <th colname="col2" class="entry"> Beschrijving </th>
   </tr>
  </thead>
