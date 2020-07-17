@@ -1,21 +1,21 @@
 ---
 description: Beschrijft de verhouding tussen nauwkeurigheid en bereik in algoritmische eigenschappen.
 seo-description: Beschrijft de verhouding tussen nauwkeurigheid en bereik in algoritmische eigenschappen.
-seo-title: Nauwkeurigheid en Bereik
+seo-title: Nauwkeurigheid en bereik
 solution: Audience Manager
-title: Nauwkeurigheid en Bereik
+title: Nauwkeurigheid en bereik
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Nauwkeurigheid en Bereik {#accuracy-and-reach}
+# Nauwkeurigheid en bereik {#accuracy-and-reach}
 
 Beschrijft de verhouding tussen nauwkeurigheid en bereik in algoritmische eigenschappen.
 
