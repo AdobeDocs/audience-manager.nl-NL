@@ -1,21 +1,21 @@
 ---
 description: Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontbreekt.
 seo-description: Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontbreekt.
-seo-title: Tips voor het oplossen van problemen voor Bulk Management Tools
+seo-title: Tips voor het oplossen van problemen met Bulk Management Tools
 solution: Audience Manager
-title: Tips voor het oplossen van problemen voor Bulk Management Tools
+title: Tips voor het oplossen van problemen met Bulk Management Tools
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '402'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Tips voor het oplossen van problemen voor Bulk Management Tools{#troubleshooting-tips-for-bulk-management-tools}
+# Tips voor het oplossen van problemen met Bulk Management Tools{#troubleshooting-tips-for-bulk-management-tools}
 
 Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontbreekt.
 
