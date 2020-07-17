@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Werk uw code bij voor gebruik `d_cid` of `d_cid_ic` in plaats van `d_dpid` en `d
 
 ## DPID en DPUUID: Een revisie {#dpid-dpuuid-review}
 
-DPID en DPUUID zijn zeer belangrijk-waardeparen die een gegevensleverancier identiteitskaart en een gebruiker - identiteitskaart bevatten. Deze sleutelwaardeparen koppelen leverancier-id&#39;s aan gebruiker-id&#39;s. Zij verzenden in gegevens tijdens gebeurtenisvraag, voor binnenkomende synchronisatiegebeurtenissen, en voor de vraag van identiteitskaart. Zonder deze id&#39;s zouden [!DNL Audience Manager]en andere services of functies geen manier zijn om id&#39;s aan te passen en te synchroniseren. Deze variabelen worden soms uitgedrukt met of zonder het `d_` voorvoegsel zoals hieronder weergegeven. In de code geeft *cursief* een plaatsaanduiding voor variabelen aan.
+DPID en DPUUID zijn zeer belangrijk-waardeparen die een gegevensleverancier identiteitskaart en een gebruiker - identiteitskaart bevatten. Deze sleutelwaardeparen koppelen leverancier-id&#39;s aan gebruiker-id&#39;s. Zij verzenden in gegevens tijdens gebeurtenisvraag, voor binnenkomende synchronisatiegebeurtenissen, en voor de vraag van identiteitskaart. Zonder deze id&#39;s zouden [!DNL Audience Manager]en andere services of functies geen manier zijn om id&#39;s aan te passen en te synchroniseren. Deze variabelen worden soms uitgedrukt met of zonder het `d_` voorvoegsel zoals hieronder weergegeven. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -59,7 +59,7 @@ De sleutel-waardeparen CID en CID_IC vervangen DPID en DPUUID. Zij verstrekken d
 * Het symbool = scheidt de sleutel van zijn verwante waarden.
 * Het niet-afdrukbare ASCII-teken %01 scheidt de waarden.
 
-`d_cid` en `d_cid_ic` gebruik de hieronder getoonde syntaxis. In de code geeft *cursief* een plaatsaanduiding voor variabelen aan.
+`d_cid` en `d_cid_ic` gebruik de hieronder getoonde syntaxis. Note, in the code, *italics* indicates a variable placeholder.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
