@@ -80,7 +80,7 @@ Periodiek [!UICONTROL TraitWeight] herevalueert het belang van een [!UICONTROL t
 Verwante koppelingen:
 
 * [Model Builder](../../features/algorithmic-models/create-model.md)
-* [Nauwkeurigheid en Bereik](../../features/traits/trait-accuracy-reach.md)
+* [Nauwkeurigheid en bereik](../../features/traits/trait-accuracy-reach.md)
 
 ## Plan bijwerken voor [!UICONTROL Look-Alike Models] en [!UICONTROL Traits] {#update-schedule}
 
@@ -191,7 +191,7 @@ De overzichtspagina van het model bevat de volgende secties.
 
 >[!MORELIKETHIS]
 >
->* [Doelen](../../features/destinations/destinations.md)
->* [Treinen](../../features/traits/trait-details-page.md)
->* [Segmenten](../../features/segments/segments-purpose.md)
+>* [Bestemmingen ](../../features/destinations/destinations.md)
+>* [Eigenschappen ](../../features/traits/trait-details-page.md)
+>* [Segmenten ](../../features/segments/segments-purpose.md)
 
