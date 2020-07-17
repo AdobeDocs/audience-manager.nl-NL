@@ -1,20 +1,20 @@
 ---
-description: Een koekjesbestemming keert en schrijft gegevens aan een koekje in browser van de gebruiker terug. Het cookie bevat gegevens die kunnen worden gelezen door andere platforms die toegang hebben tot de pagina. Volg deze instructies om een koekjesbestemming met [!UICONTROL de Bouwer van de Bestemming te creëren].
-seo-description: Een koekjesbestemming keert en schrijft gegevens aan een koekje in browser van de gebruiker terug. Het cookie bevat gegevens die kunnen worden gelezen door andere platforms die toegang hebben tot de pagina. Volg deze instructies om een koekjesbestemming met [!UICONTROL de Bouwer van de Bestemming te creëren].
-seo-title: Een Cookie-bestemming configureren
+description: Een koekjesbestemming keert en schrijft gegevens aan een koekje in browser van de gebruiker terug. Het cookie bevat gegevens die kunnen worden gelezen door andere platforms die toegang hebben tot de pagina. Volg deze instructies om een koekjesbestemming met te creëren [!UICONTROL Destination Builder].
+seo-description: Een koekjesbestemming keert en schrijft gegevens aan een koekje in browser van de gebruiker terug. Het cookie bevat gegevens die kunnen worden gelezen door andere platforms die toegang hebben tot de pagina. Volg deze instructies om een koekjesbestemming met te creëren [!UICONTROL Destination Builder].
+seo-title: Een cookiebestemming configureren
 solution: Audience Manager
-title: Een Cookie-bestemming configureren
+title: Een cookiebestemming configureren
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 2%
 
 ---
 
 
-# Een Cookie-bestemming configureren {#create-cookie-destination}
+# Een cookiebestemming configureren {#create-cookie-destination}
 
 Een koekjesbestemming keert en schrijft gegevens aan een koekje in browser van de gebruiker terug. Het cookie bevat gegevens die kunnen worden gelezen door andere platforms die toegang hebben tot de pagina. Volg deze instructies om een koekjesbestemming met te creëren [!UICONTROL Destination Builder].
 
