@@ -1,16 +1,16 @@
 ---
 description: In deze rapporten worden gegevens over afbeeldingen, doorkliksnelheden en omzettingen voor een groot aantal verschillende advertentiegrootten geretourneerd. Vergelijk trends en volume voor uw geselecteerde metriek om een beter beeld te krijgen van hoe uw campagne in tijd presteert.
 seo-description: In deze rapporten worden gegevens over afbeeldingen, doorkliksnelheden en omzettingen voor een groot aantal verschillende advertentiegrootten geretourneerd. Vergelijk trends en volume voor uw geselecteerde metriek om een beter beeld te krijgen van hoe uw campagne in tijd presteert.
-seo-title: Trend Analysis en Volume Analysis
+seo-title: Trendanalyse en volumeanalyse
 solution: Audience Manager
-title: Trend Analysis en Volume Analysis
+title: Trendanalyse en volumeanalyse
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
 feature: audience optimization reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
