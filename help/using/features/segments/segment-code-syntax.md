@@ -1,21 +1,21 @@
 ---
 description: De Bouwer van het segment laat u eigenschapregels voor een segment bouwen gebruikend een coderedacteur. Klik op het tabblad Segmentexpressies (Codeweergave) in het deelvenster Vertrekken om deze functie te openen.
 seo-description: De Bouwer van het segment laat u eigenschapregels voor een segment bouwen gebruikend een coderedacteur. Klik op het tabblad Segmentexpressies (Codeweergave) in het deelvenster Vertrekken om deze functie te openen.
-seo-title: Code Syntax used in the Segment Expression Editor
+seo-title: Gebruikte codesyntaxis in de Segment Expression Editor
 solution: Audience Manager
-title: Code Syntax used in the Segment Expression Editor
+title: Gebruikte codesyntaxis in de Segment Expression Editor
 uuid: 7b4b06ca-7879-4501-8ba7-b2b6467b8a3b
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# Code Syntax used in the Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
+# Gebruikte codesyntaxis in de Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
 [!UICONTROL Segment Builder] Hiermee kunt u met een code-editor eigenschapsregels voor een segment maken. Klik op het **[!UICONTROL Segment Expressions (Code View)]** tabblad in het [!UICONTROL Traits] deelvenster om deze functie te openen.
 
@@ -79,8 +79,8 @@ Stel [de frequentie](../../features/segments/recency-and-frequency.md) - en rece
 
 >[!MORELIKETHIS]
 >
->* [Recente en frequente](../../features/segments/recency-and-frequency.md)
->* [Booleaanse expressies in Trait and Segment Builder](../../reference/boolean-expressions-tsb.md)
+>* [Recentheid en frequentie](../../features/segments/recency-and-frequency.md)
+>* [Booleaanse expressies in Trait en Segment Builder](../../reference/boolean-expressions-tsb.md)
 >* [Werken met vergelijkingsoperatoren in TraitBuilder](../../features/traits/trait-comparison-operators.md)
 >* [Orde van Verrichtingen in Uitdrukkingen TraitBuilder](../../features/traits/trait-operator-precedence.md)
 
