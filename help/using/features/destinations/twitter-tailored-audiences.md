@@ -1,15 +1,15 @@
 ---
 description: In dit artikel wordt uitgelegd hoe u het Twitter-publiek op maat kunt configureren voor zowel nieuwe als bestaande integratie.
 seo-description: In dit artikel wordt uitgelegd hoe u het Twitter-publiek op maat kunt configureren voor zowel nieuwe als bestaande integratie.
-seo-title: Configureer Twitter-doelgroepen op maat als op apparaat gebaseerde zelfbediening
+seo-title: Aangepaste Twitter-doelgroepen configureren als apparaatgebaseerde, selfservice bestemming
 solution: Audience Manager
-title: Configureer Twitter-doelgroepen op maat als op apparaat gebaseerde zelfbediening
+title: Aangepaste Twitter-doelgroepen configureren als apparaatgebaseerde, selfservice bestemming
 feature: People-Based Destinations
 translation-type: tm+mt
 source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
