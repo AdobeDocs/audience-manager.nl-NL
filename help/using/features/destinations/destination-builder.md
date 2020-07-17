@@ -1,20 +1,20 @@
 ---
 description: Met Destination Builder kunt u op cookies gebaseerde of DNL URL-doelen maken. U kunt geen server-aan-server (S2S) bestemmingen met de Bouwer van de Bestemming tot stand brengen, maar u kunt hun segmentafbeeldingen beheren. Neem contact op met uw consultant om een S2S-bestemming in te stellen. De Bouwer van de bestemming wordt gevestigd in de Gegevens van het Publiek > Doelen.
 seo-description: Met Destination Builder kunt u op cookies gebaseerde of DNL URL-doelen maken. U kunt geen server-aan-server (S2S) bestemmingen met de Bouwer van de Bestemming tot stand brengen, maar u kunt hun segmentafbeeldingen beheren. Neem contact op met uw consultant om een S2S-bestemming in te stellen. De Bouwer van de bestemming wordt gevestigd in de Gegevens van het Publiek > Doelen.
-seo-title: Bestemmingsbouwer
+seo-title: Bestemmingsbuilder
 solution: Audience Manager
-title: Bestemmingsbouwer
+title: Bestemmingsbuilder
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Bestemmingsbouwer {#destination-builder}
+# Bestemmingsbuilder {#destination-builder}
 
 [!UICONTROL Destination Builder] Hiermee kunt u op cookies gebaseerde of [!DNL URL] doelen maken. U kunt geen server-aan-server ([!DNL S2S]) bestemmingen met tot stand brengen [!UICONTROL Destination Builder], maar u kunt hun segmentafbeeldingen beheren. Neem contact op met uw consultant om een [!DNL S2S] bestemming in te stellen. [!UICONTROL Destination Builder] bevindt zich in **[!UICONTROL Audience Data > Destinations]**.
 
