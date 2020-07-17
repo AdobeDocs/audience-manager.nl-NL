@@ -2,21 +2,21 @@
 description: Met de DIL API's op instantieniveau kunt u programmatisch Audience Manager-objecten maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 keywords: create traits;create trait
 seo-description: Met de DIL API's op instantieniveau kunt u programmatisch Audience Manager-objecten maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
-seo-title: Instantie-niveau DIL-methoden
+seo-title: DIL-methoden op instantieniveau
 solution: Audience Manager
-title: Instantie-niveau DIL-methoden
+title: DIL-methoden op instantieniveau
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1105'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Instantie-niveau DIL-methoden{#instance-level-dil-methods}
+# DIL-methoden op instantieniveau{#instance-level-dil-methods}
 
 Met API&#39; [!UICONTROL DIL] s op instantieniveau kunt u programmatisch Audience Managers maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 
@@ -101,7 +101,7 @@ var obj = { key : ['a', 'b', 'c'] };
 dataLib.api.signals(obj, 'c_').submit(); 
 </code></pre>
 
-## kenmerken {#traits}
+## traits {#traits}
 
 Voegt SIDs aan het vraagkoord van een hangend verzoek toe.
 
@@ -684,6 +684,7 @@ var dilInstance = DIL.create({
 >
 >* We raden u aan deze instelling `useCORSOnly: true` alleen in te stellen als u zeker weet dat bezoekers van de site browsers hebben die deze functie ondersteunen.
 >* Wanneer `useCORSOnly: true`, [!UICONTROL DIL] zal geen vraag van identiteitskaart van versie 9 van Internet Explorer of ouder maken.
+
 >
 
 
@@ -721,8 +722,8 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 
 >[!MORELIKETHIS]
 >
->* [Naam vereisten voor belangrijkste variabelen](../features/traits/trait-key-name-requirements.md)
->* [Voorvoegselvereisten voor belangrijkste variabelen](../features/traits/trait-variable-prefixes.md)
+>* [Naamvereisten voor belangrijke variabelen](../features/traits/trait-key-name-requirements.md)
+>* [Voorvoegselvereisten voor belangrijke variabelen](../features/traits/trait-variable-prefixes.md)
 >* [Synchronisatiefuncties in de identiteitsservice van het Adobe Experience Platform](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
 >* [DIL maken](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Identiteitsdienst Adobe Experience Platform: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
