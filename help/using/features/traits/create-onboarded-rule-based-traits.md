@@ -2,16 +2,16 @@
 description: Beschrijft opstellingsstappen en eigenschappen specifiek voor het op regel-gebaseerde en ongebogen proces van de de eigenaarverwezenlijking.
 keywords: create trait;create traits
 seo-description: Beschrijft opstellingsstappen en eigenschappen specifiek voor het op regel-gebaseerde en ongebogen proces van de de eigenaarverwezenlijking.
-seo-title: Op regels gebaseerde of niet-gecodeerde traits maken
+seo-title: Op regels gebaseerde of onboarded eigenschappen maken
 solution: Audience Manager
-title: Op regels gebaseerde of niet-gecodeerde traits maken
+title: Op regels gebaseerde of onboarded eigenschappen maken
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
