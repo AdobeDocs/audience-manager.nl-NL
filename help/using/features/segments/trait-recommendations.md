@@ -1,20 +1,20 @@
 ---
 description: Met de Aanbevelingen van het Aanzicht, wanneer u een segment in de Bouwer van het Segment bouwt of uitgeeft, krijgt u aanbevelingen op extra eigenschappen u kunt omvatten, die aan de eigenschappen in de segmentregel gelijkaardig zijn. Voeg de geadviseerde eigenschappen aan uw segment toe om uw doelpubliek te verhogen.
 seo-description: Krijg levende trekaanbevelingen aangezien u uw segmenten bouwt.
-seo-title: Aanbevolen stappen
+seo-title: Trait Recommendations
 solution: Audience Manager
-title: Aanbevolen stappen
+title: Trait Recommendations
 feature: Segments
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '1573'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# Aanbevolen stappen
+# Trait Recommendations
 
 Krijg de levende aanbevelingen van het dienstreis aangezien u uw segmenten, van uw eigen eerstepartijeigenschappen, en [!UICONTROL Audience Marketplace] gegevensvoer bouwt.
 
@@ -60,20 +60,20 @@ Met [!UICONTROL Trait Recommendations], kunt u uw werkschema&#39;s verbeteren, a
 
 ### Algorithmic Models
 
-[!UICONTROL Algorithmic Models] niet alleen de meest invloedrijke kenmerken worden gevonden , maar ook gebruikers worden op basis van deze kenmerken gescand en aan iedere gebruiker wordt een individuele score toegekend . Vervolgens maakt u algoritmische kenmerken om uw gebruikers als doel in te stellen. Met nauwkeurigheid en bereikbesturingselementen in de [!UICONTROL Trait Builder]handleiding kunt u opgeven welke gebruikers u wilt gebruiken onder alle gebruikers die de invloedrijke kenmerken hebben waarop u zich wilt richten.
+[!UICONTROL Algorithmic Models]Met worden niet alleen de meest invloedrijke eigenschappen gevonden, maar worden gebruikers ook geturfd op basis van deze eigenschappen en wordt aan elke gebruiker een afzonderlijke score toegewezen. Vervolgens maakt u algoritmische eigenschappen om uw gebruikers te targeten. With accuracy and reach controls in the [!UICONTROL Trait Builder], you can specify which users amongst all those who have the influential traits you want to target.
 
-[!UICONTROL Algorithmic Models] Hiermee kunt u gebruikers op verschillende nauwkeurigheidsniveaus selecteren en testen [!UICONTROL Audience Lab] welke gebruikersgroep het beste converteert. Zie het gedetailleerde gebruiksgeval in [Compare Modellen in het Laboratorium](../../features/audience-lab/audience-lab-use-cases.md#compare-models)van de Publiek.
+[!UICONTROL Algorithmic Models]Met kunt u gebruikers op verschillende nauwkeurigheidsniveaus selecteren en in testen welke groep gebruikers het beste converteert.[!UICONTROL Audience Lab] Zie het gedetailleerde gebruiksscenario in [Modellen vergelijken in Audience Lab](../../features/audience-lab/audience-lab-use-cases.md#compare-models).
 
-In [!UICONTROL Algorithmic Models], loopt het model om acht dagen en verfrist de gebruikers die voor algoritmische eigenschappen worden gekwalificeerd.
+In [!UICONTROL Algorithmic Models], the model runs every 8 days and refreshes the users qualified for algorithmic traits.
 
-### Aanbevolen stappen
+### Trait Recommendations
 
-[!UICONTROL Trait Recommendations] Dit is een snelle manier om inzicht te krijgen in andere eigenschappen die vergelijkbaar zijn met de eigenschappen die u in een segment gebruikt.
+[!UICONTROL Trait Recommendations] is een snelle manier om inzicht te krijgen in andere eigenschappen die lijken op degene die u in een segment gebruikt.
 
-U dient te gebruiken [!UICONTROL Trait Recommendations] wanneer:
+You should use [!UICONTROL Trait Recommendations] when:
 
-* U hebt snelle inzichten nodig terwijl het bouwen van een segment;
-* U gebruikt de segmenten voor korte campagnes of wanneer u publiek snel wilt onderdrukken die omzet;
+* U hebt snelle inzichten nodig tijdens het bouwen van een segment;
+* U gebruikt de segmenten voor korte campagnes of wanneer u snelle suppressie wilt toepassen op een converterende doelgroep;
 * U probeert het bereik te maximaliseren.
 
 ## Workflow
