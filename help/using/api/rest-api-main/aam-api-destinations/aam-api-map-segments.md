@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -482,7 +482,7 @@ Retourneert een array met gemaakte toewijzingen.
 ]
 ```
 
-## Een doel bijwerken op doel-id {#update-dest-data-order}
+## Update a Destination by Destination ID {#update-dest-data-order}
 
 Een `PUT` methode waarmee u een bestaand doel kunt bijwerken `destinationId`.
 
@@ -584,7 +584,7 @@ Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 >[!MORELIKETHIS]
 >
->* [Doelen](../../../features/destinations/destinations.md)
+>* [Bestemmingen ](../../../features/destinations/destinations.md)
 >* [Serienummering bestemming](../../../features/destinations/key-value-pairs.md#destination-serialized)
->* [Belangrijke paar uitgelegd](../../../reference/key-value-pairs-explained.md)
+>* [Sleutelwaardeparen](../../../reference/key-value-pairs-explained.md)
 
