@@ -1,15 +1,15 @@
 ---
 description: Een doel URL maakt pixelvraag van een pagina aan uw bestemming. Volg deze instructies om een bestemming tot stand te brengen URL met de Bouwer van de Bestemming.
 seo-description: Een doel URL maakt pixelvraag van een pagina aan uw bestemming. Volg deze instructies om een bestemming tot stand te brengen URL met de Bouwer van de Bestemming.
-seo-title: Een URL-doel configureren
+seo-title: Een URL-bestemming configureren
 solution: Audience Manager
-title: Een URL-doel configureren
+title: Een URL-bestemming configureren
 feature: Destination Basics
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
