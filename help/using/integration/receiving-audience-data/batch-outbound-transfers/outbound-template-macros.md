@@ -1,21 +1,21 @@
 ---
 description: Hiermee geeft u de macro's weer die u kunt gebruiken om uitgaande sjablonen te maken. Dit zijn onder andere bestandsnaammacro's, koptekstmacro's en inhoudmacro's.
 seo-description: Hiermee geeft u de macro's weer die u kunt gebruiken om uitgaande sjablonen te maken. Dit zijn onder andere bestandsnaammacro's, koptekstmacro's en inhoudmacro's.
-seo-title: Uitgaande sjabloonmacro's
+seo-title: Uitgaande sjabloonmacro’s
 solution: Audience Manager
-title: Uitgaande sjabloonmacro's
+title: Uitgaande sjabloonmacro’s
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Uitgaande sjabloonmacro&#39;s {#outbound-template-macros}
+# Uitgaande sjabloonmacro’s {#outbound-template-macros}
 
 Hiermee geeft u de macro&#39;s weer die u kunt gebruiken om uitgaande sjablonen te maken. Dit zijn onder andere bestandsnaammacro&#39;s, koptekstmacro&#39;s en inhoudmacro&#39;s.
 
@@ -115,7 +115,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Keert een lijst terug die veelvoudige IDs voor een gegevenspartner bevat. Dit is nuttig als u een grote organisatie met veelvoudige onderverdelingen of andere organisatorische groepen hebt u gegevens met mag delen. Deze macro retourneert een lijst met de id's voor die onderliggende groepen. </p> </td> 
+   <td colname="col2"> <p>Keert een lijst terug die veelvoudige IDs voor een gegevenspartner bevat. Dit is nuttig als u een grote organisatie met veelvoudige onderverdelingen of andere organisatorische groepen hebt u gegevens met mag delen. Deze macro keert een lijst van identiteitskaarts voor die ondergeschikte groepen terug. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -131,7 +131,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> -id. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud ID.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
