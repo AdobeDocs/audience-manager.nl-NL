@@ -1,21 +1,21 @@
 ---
 description: Gegevensverwerkingscomponenten omvatten Hadoop, Snowflake, SOLR en Tableau.
 seo-description: Gegevensverwerkingscomponenten omvatten Hadoop, Snowflake, SOLR en Tableau.
-seo-title: Componenten gegevensverwerking
+seo-title: Onderdelen voor dataverwerking
 solution: Audience Manager
-title: Componenten gegevensverwerking
+title: Onderdelen voor dataverwerking
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
 feature: system components
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Componenten gegevensverwerking{#data-processing-components}
+# Onderdelen voor dataverwerking{#data-processing-components}
 
 Gegevensverwerkingscomponenten omvatten Hadoop, Snowflake, SOLR en Tableau.
 
@@ -47,9 +47,9 @@ Klanten hebben geen directe toegang tot deze systemen. Klanten werken echter ind
 
 Dit is geenszins een uitgebreide lijst, maar een aantal gemeenschappelijke dashboardrapporten die verantwoordelijk [!UICONTROL Snowflake] zijn voor:
 
-* [Dagelijks verslag over de variatie van het reisdoel](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
+* [Rapport Dagelijkse eigenschapvariatie](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
 * Alle overlappende rapporten (zie de [Interactieve sectie van Rapporten](/help/using/reporting/dynamic-reports/dynamic-reports.md) voor informatie over elk overlappend rapport).
-* [Rapport Ongebruikte signalen](/help/using/reporting/dynamic-reports/unused-signals.md)
+* [Ongebruikte-signalenrapport](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
 
