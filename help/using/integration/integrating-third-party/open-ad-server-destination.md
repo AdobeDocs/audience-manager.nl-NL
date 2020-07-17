@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -47,7 +47,7 @@ De hoeveelheid gegevens die wordt doorgegeven aan, is [!DNL OAS] afhankelijk van
 >[!MORELIKETHIS]
 >
 >* [get_aamCookie-code](../../features/destinations/get-aam-cookie-code.md)
->* [Belangrijke paar uitgelegd](../../reference/key-value-pairs-explained.md)
+>* [Sleutelwaardeparen](../../reference/key-value-pairs-explained.md)
 
 
 ## Een OAS-doel maken {#oas-dest-setup}
@@ -56,7 +56,7 @@ Maak een op cookies gebaseerde bestemming voor [!DNL OAS] in de Audience Manager
 
 <!-- aam-oas-destination-setup.xml -->
 
-In Audience Manager, is een *bestemming* een ander systeem (ad server, [!DNL DSP], en netwerk, enz.) waarmee u gegevens wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in de Gegevens van het *Publiek > Doelen*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]** en volg deze om aan de slag te gaan.
+In Audience Manager, a *destination* is any other system (ad server, [!DNL DSP], ad network, etc.) waarmee u data wilt delen. [!UICONTROL Destination Builder] biedt de gereedschappen waarmee u deze processen voor gegevenslevering kunt maken en beheren. De bestemmingseigenschappen van de Audience Manager worden gevestigd in de Gegevens van het *Publiek > Doelen*. Klik op de onderstaande stappen **[!UICONTROL Add New Destination]** en volg deze om aan de slag te gaan.
 
 ### Stap 1: Basisinformatie
 
