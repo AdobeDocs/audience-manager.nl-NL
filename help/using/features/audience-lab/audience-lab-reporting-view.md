@@ -1,9 +1,9 @@
 ---
 description: De rapporteringssectie van de testgroep bevat informatie over de omzettingen van de testgroep, zodat de werkzaamheid van het testsegment gemakkelijk kan worden vergeleken. Er zijn talrijke filters en afmetingen beschikbaar voor gegevensvisualisatie.
 seo-description: De rapporteringssectie van de testgroep bevat informatie over de omzettingen van de testgroep, zodat de werkzaamheid van het testsegment gemakkelijk kan worden vergeleken. Er zijn talrijke filters en afmetingen beschikbaar voor gegevensvisualisatie.
-seo-title: Rapportering testgroep
+seo-title: Testgroeprapportage
 solution: Audience Manager
-title: Rapportering testgroep
+title: Testgroeprapportage
 topic: DIL API
 uuid: 21303c3e-4c05-4728-a759-96c2a1d99b69
 feature: Audience Lab
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Rapportering testgroep {#test-group-reporting}
+# Testgroeprapportage {#test-group-reporting}
 
 De rapporteringssectie van de testgroep bevat informatie over de omzettingen van de testgroep, zodat de werkzaamheid van het testsegment gemakkelijk kan worden vergeleken. Er zijn talrijke filters en afmetingen beschikbaar voor gegevensvisualisatie.
 
