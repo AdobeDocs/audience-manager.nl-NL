@@ -2,18 +2,18 @@
 description: Uw bedrijf kan IP adres in vele landen wegens mondiale privacyverordeningen willen verduisteren. Met Audience Manager kunt u IP-adressen van bezoekers globaal of per land verduisteren.
 seo-description: Uw bedrijf kan IP adres in vele landen wegens mondiale privacyverordeningen willen verduisteren. Met Audience Manager kunt u IP-adressen van bezoekers globaal of per land verduisteren.
 solution: Audience Manager
-title: IP de Obfuscatie van het Adres
+title: IP-adressen onzichtbaar maken
 feature: Data Governance and Privacy
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# IP de Obfuscatie van het Adres {#ip-obfuscation}
+# IP-adressen onzichtbaar maken {#ip-obfuscation}
 
 Gebruik deze eigenschap om IP adressen te verduisteren die in Audience Manager worden verzameld.
 
@@ -55,9 +55,9 @@ Om IP adresverwarring globaal onbruikbaar te maken, ga naar **Beleid > Privacy**
 
 Om IP adresverwarring voor specifieke landen onbruikbaar te maken, vind de landen in **Geselecteerd voor Verduistering** lijst, dan hun overeenkomstige **X** pictogram klikken. Klik op **Opslaan** als u klaar bent.
 
-## Verwante concepten {#related-concepts}
+## Verwante begrippen {#related-concepts}
 
-* [Gegevensprivacy](/help/using/overview/data-security-and-privacy/data-privacy.md)
+* [Data Privacy](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP de Demonstratie van de Video van de Verduistering van het Adres
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
 
