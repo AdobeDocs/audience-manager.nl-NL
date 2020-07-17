@@ -1,9 +1,9 @@
 ---
 description: Overzicht en workflow voor gegevenskopers die gegevens van derden willen kopen vanuit de Audience Manager
 seo-description: Overzicht en workflow voor gegevenskopers die gegevens van derden willen kopen vanuit de Audience Manager
-seo-title: Audience Marketplace for Data Buyers
+seo-title: Audience Marketplace voor datakopers
 solution: Audience Manager
-title: Audience Marketplace for Data Buyers
+title: Audience Marketplace voor datakopers
 topic: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -80,7 +80,7 @@ Klik op het nummer in de **[!UICONTROL Similar Traits]** kolom om de volledige l
 >
 > In Audience Marketplace worden de 500 meest vergelijkbare [!UICONTROL trait] resultaten van de gegevensinvoer weergegeven.
 
-Bekijk de video hieronder voor een volledig overzicht van het vinden van gelijkaardig [!UICONTROL traits].
+Bekijk de video hieronder voor een volledig overzicht van hoe u vergelijkbare objecten kunt vinden [!UICONTROL traits].
 
 >[!VIDEO](https://video.tv.adobe.com/v/29370/)
 
