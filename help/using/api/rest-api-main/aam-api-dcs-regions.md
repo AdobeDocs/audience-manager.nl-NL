@@ -1,21 +1,21 @@
 ---
 description: Methoden waarmee u DCS-gebieden van Audience Managers programmatisch kunt weergeven.
 seo-description: Methoden waarmee u DCS-gebieden van Audience Managers programmatisch kunt weergeven.
-seo-title: Methoden van DCS Region API
+seo-title: API-methoden voor DCS-regio’s
 solution: Audience Manager
-title: Methoden van DCS Region API
+title: API-methoden voor DCS-regio’s
 uuid: 00b70927-b3b7-46bb-8be1-37c6100ecf80
 feature: API
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Methoden van DCS Region API {#dcs-region-api-methods}
+# API-methoden voor DCS-regio’s {#dcs-region-api-methods}
 
 Methoden waarmee u programmatisch [!DNL DCS] gebieden van Audience Managers kunt weergeven.
 
