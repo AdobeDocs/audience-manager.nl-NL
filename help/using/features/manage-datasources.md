@@ -2,7 +2,7 @@
 description: Als u een nieuwe gegevensbron wilt maken, gaat u naar Poortgegevens > Gegevensbronnen > Nieuwe toevoegen en voert u de stappen voor elke hier beschreven sectie in. Beheerdersmachtigingen zijn vereist voor het maken van een gegevensbron.
 keywords: data sources;manage data source;audience manager data source
 seo-description: Als u een nieuwe gegevensbron wilt maken, gaat u naar Poortgegevens > Gegevensbronnen > Nieuwe toevoegen en voert u de stappen voor elke hier beschreven sectie in. Beheerdersmachtigingen zijn vereist voor het maken van een gegevensbron.
-seo-title: Een gegevensbron maken
+seo-title: Een databron maken
 solution: Audience Manager
 title: Gegevensbronnen beheren
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -37,7 +37,7 @@ De [!UICONTROL Data Source Details] sectie voltooien:
 1. Geef een [!UICONTROL integration code]wachtwoord op. Over het algemeen [!UICONTROL integration codes] zijn deze opties optioneel. Deze zijn vereist wanneer u wilt:
 
    * [Maak een gegevensbron](../features/profile-merge-rules/merge-rules-start.md#create-data-source)voor alle apparaten.
-   * Gebruik de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+   * Use the [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html).
    * Werken met [Profielsamenvoegregels](../features/profile-merge-rules/merge-rules-start.md).
 
 1. Kies een **[!UICONTROL ID Type]**. [!UICONTROL ID Type] opties zijn:
