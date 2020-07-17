@@ -1,21 +1,21 @@
 ---
 description: Als optie kunt u gegevensbestanden versleutelen met PGP-codering wanneer u ze naar de Audience Manager verzendt.
 seo-description: Als optie kunt u gegevensbestanden versleutelen met PGP-codering wanneer u ze naar de Audience Manager verzendt.
-seo-title: PGP-codering van bestand voor binnenkomende gegevenstypen
+seo-title: PGP-bestandsversleuteling voor binnenkomende datatypen
 solution: Audience Manager
-title: PGP-codering van bestand voor binnenkomende gegevenstypen
+title: PGP-bestandsversleuteling voor binnenkomende datatypen
 uuid: 89caace1-0259-48fc-865b-d525ec7822f7
 feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# PGP-codering van bestand voor binnenkomende gegevenstypen{#file-pgp-encryption-for-inbound-data-types}
+# PGP-bestandsversleuteling voor binnenkomende datatypen{#file-pgp-encryption-for-inbound-data-types}
 
 U kunt gegevensbestanden coderen met [!DNL PGP] codering wanneer u ze naar de Audience Manager verzendt.
 
