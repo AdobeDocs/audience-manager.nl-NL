@@ -1,20 +1,20 @@
 ---
 description: Klanten die ook Adobe Analytics gebruiken, kunnen de nauwe integratie tussen de twee oplossingen benutten door de optie Geavanceerd zoeken naar Adobe Analytics in te schakelen.
 seo-description: Klanten die ook Adobe Analytics gebruiken, kunnen de nauwe integratie tussen de twee oplossingen benutten door de optie Geavanceerd zoeken naar Adobe Analytics in te schakelen.
-seo-title: Geavanceerd zoeken naar Adobe Analytics
-title: Geavanceerd zoeken naar Adobe Analytics
+seo-title: Geavanceerd zoeken voor Adobe Analytics
+title: Geavanceerd zoeken voor Adobe Analytics
 uuid: 20177820-10e1-49d9-bb2c-3a62141a498e
 feature: Data Explorer
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
 
-# Geavanceerd zoeken naar Adobe Analytics {#advanced-search-for-adobe-analytics}
+# Geavanceerd zoeken voor Adobe Analytics {#advanced-search-for-adobe-analytics}
 
 Audience Manager klanten die ook gebruikmaken [!DNL Adobe Analytics] kunnen de nauwe integratie tussen de twee oplossingen benutten door de [!UICONTROL Advanced Search for Adobe Analytics] optie in te schakelen.
 
