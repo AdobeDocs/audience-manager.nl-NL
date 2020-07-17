@@ -1,21 +1,21 @@
 ---
 description: In dit artikel worden de voorvoegsels beschreven die u aan belangrijke variabelen moet koppelen bij het maken van regels voor kenmerken.
 seo-description: In dit artikel worden de voorvoegsels beschreven die u aan belangrijke variabelen moet koppelen bij het maken van regels voor kenmerken.
-seo-title: Voorvoegselvereisten voor belangrijkste variabelen
+seo-title: Voorvoegselvereisten voor belangrijke variabelen
 solution: Audience Manager
-title: Voorvoegselvereisten voor belangrijkste variabelen
+title: Voorvoegselvereisten voor belangrijke variabelen
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 translation-type: tm+mt
 source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Voorvoegselvereisten voor belangrijkste variabelen {#prefix-requirements-for-key-variables}
+# Voorvoegselvereisten voor belangrijke variabelen {#prefix-requirements-for-key-variables}
 
 In dit artikel worden de voorvoegsels beschreven die u aan belangrijke variabelen moet koppelen bij het maken van regels voor kenmerken.
 
@@ -59,5 +59,5 @@ In de volgende tabel worden de algemene voorvoegsels gedefinieerd die worden geb
 >[!MORELIKETHIS]
 >
 >* [Basisinformatie - overzicht](../../features/traits/create-onboarded-rule-based-traits.md)
->* [Trait-regels beheren](../../features/traits/manage-trait-rules.md#managing-trait-rules)
+>* [Eigenschapregels beheren](../../features/traits/manage-trait-rules.md#managing-trait-rules)
 
