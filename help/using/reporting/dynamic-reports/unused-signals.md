@@ -1,21 +1,21 @@
 ---
 description: Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar de Audience Manager zijn verzonden.
 seo-description: Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar de Audience Manager zijn verzonden.
-seo-title: Rapport Ongebruikte signalen
+seo-title: Ongebruikte-signalenrapport
 solution: Audience Manager
-title: Rapport Ongebruikte signalen
+title: Ongebruikte-signalenrapport
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: overlap reports
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Rapport Ongebruikte signalen{#unused-signals-report}
+# Ongebruikte-signalenrapport{#unused-signals-report}
 
 Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar de Audience Manager zijn verzonden. Ga naar **Analytics > Poortrapporten > Overige rapporten > Ongebruikte signalen** om dit rapport te openen.
 
@@ -57,7 +57,7 @@ Herzie dit rapport helpen orphaned signalen identificeren die aan nieuwe of best
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Niet-toegewezen waarden zoeken</b> </p> </td> 
-   <td colname="col2"> <p>Controleer het rapport voor nummer 1. Het getal 1 in een <span class="wintitle"> rapport Ongebruikte signalen</span> vertegenwoordigt de waarde null. Dat is niet per se slecht. Het betekent eenvoudig dat een bepaalde sleutel geen bijbehorende waardetoewijzing heeft. Wanneer u een hoop van 1 waarden voor een belangrijke variabele ziet, controleer met uw plaatsteam om ervoor te zorgen al uw pagina's correct worden geëtiketteerd. </p> </td> 
+   <td colname="col2"> <p>Controleer het rapport voor nummer 1. Het getal 1 in een <span class="wintitle"> rapport Ongebruikte signalen</span> vertegenwoordigt de waarde null. Dat is niet per se slecht. Het betekent eenvoudig dat een bepaalde sleutel geen bijbehorende waardetoewijzing heeft. Wanneer u veel van 1 waarden voor een belangrijke variabele ziet, raadpleegt u uw siteteam om te controleren of al uw pagina's correct zijn gecodeerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
