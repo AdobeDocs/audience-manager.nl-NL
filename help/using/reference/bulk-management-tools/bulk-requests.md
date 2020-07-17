@@ -1,21 +1,21 @@
 ---
 description: Een bulkverzoek keert gegevens terug u met de verschillende kopballen in de Update, creeert, schat, en schrap aantekenvellen kunt gebruiken.
 seo-description: Een bulkverzoek keert gegevens terug u met de verschillende kopballen in de Update, creeert, schat, en schrap aantekenvellen kunt gebruiken.
-seo-title: Bulkverzoeken
+seo-title: Bulkaanvragen
 solution: Audience Manager
-title: Bulkverzoeken
+title: Bulkaanvragen
 uuid: 0192d26a-4cea-4e12-9fea-388b92b382f1
 feature: baaam
 translation-type: tm+mt
 source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Bulkverzoeken{#bulk-requests}
+# Bulkaanvragen{#bulk-requests}
 
 Een bulkverzoek keert gegevens terug u met de verschillende kopballen in de Update, creeert, schat, en schrap aantekenvellen kunt gebruiken.
 
@@ -41,8 +41,9 @@ Om bulkverzoeken te maken, open het [!UICONTROL Bulk Management Tools] aantekenv
    * Afgeleide signalen
    * Doeltoewijzingen
    * Algorithmic, rule-based, and on-boeded traits
-   * Segmenten
+   * Segmenten 
    * Trait and segment folder IDs
+
    De [!DNL Audience Manager] API schrijft bulkgegevens terug naar het [!UICONTROL Request] werkblad.
 
 >[!NOTE]
