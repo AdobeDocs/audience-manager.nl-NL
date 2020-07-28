@@ -7,10 +7,10 @@ title: DCS-foutcodes, -berichten en -voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 11b79d46e7358c736c797bcf0809af4937717fc5
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 3%
+source-wordcount: '1518'
+ht-degree: 4%
 
 ---
 
@@ -23,22 +23,22 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
 
 ## Systeemfoutcodes {#system-error-codes}
 
-|Foutcode|Foutbericht|Beschrijving|
-|—|—|—|
-|0|Niet-gespecificeerde fout|Dit is een catch-all fout die gebeurtenissen behandelt die niet door de andere foutenmanagers worden behandeld. Het oplossen van problemen met deze fout is moeilijk. Het kan worden veroorzaakt door een verscheidenheid van onbekende acties of gebeurtenissen. Als deze fout is opgetreden, probeert u het [!DNL DCS] verzoek opnieuw. Neem contact op met uw [!DNL Adobe] vertegenwoordiger als het probleem zich blijft voordoen.|
-|1|Kan configuratie voor hostnaam niet vinden: `hostname`|De gastheernaam die in het verzoek wordt verzonden is niet opstelling door ons team van de partnerlevering. Neem contact op met uw [!DNL Adobe] vertegenwoordiger als dit foutbericht wordt weergegeven.|
-|2|Ongeldige `d_orgid` waarde (kan geen config voor deze org-id vinden): `ID`|De organisatie-id is onjuist. Controleer uw id en probeer het verzoek opnieuw. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie [Organisaties en account met koppelingen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) in de sectie &quot;Beheerpagina&quot; voor informatie over hoe u deze kunt vinden.|
+| Foutcode | Foutbericht | Beschrijving |
+|---|---|---|
+| 0 | Onbekende fout | Dit is een catch-all fout die gebeurtenissen behandelt die niet door de andere foutenmanagers worden behandeld. Het oplossen van problemen met deze fout is moeilijk. Het kan worden veroorzaakt door een verscheidenheid van onbekende acties of gebeurtenissen. Als deze fout is opgetreden, probeert u het [!DNL DCS] verzoek opnieuw. Neem contact op met uw [!DNL Adobe] vertegenwoordiger als het probleem zich blijft voordoen. |
+| 1 | Kan configuratie voor hostnaam niet vinden: `hostname` | De gastheernaam die in het verzoek wordt verzonden is niet opstelling door ons team van de partnerlevering. Neem contact op met uw [!DNL Adobe] vertegenwoordiger als dit foutbericht wordt weergegeven. |
+| 2 | Ongeldige `d_orgid` waarde (kan geen config voor deze org-id vinden): `ID` | De organisatie-id is onjuist. Controleer uw id en probeer het verzoek opnieuw. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie [Organisaties en account met koppelingen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) van de sectie &quot;Beheerpagina&quot; voor informatie over hoe u deze kunt vinden. |
 
 ## Integratiefoutcodes {#integration-error-codes}
 
-|Foutcode|Foutbericht|Beschrijving|
-|—|—|—|
-|100|Kan de hostnaam voor het verzoek niet ophalen|Een [!DNL API] oproep heeft de host- [!DNL HTTP] header in het verzoek niet verzonden. Voeg de gastheerkopbal aan de vraag toe en probeer opnieuw. De meeste browsers en [!DNL API] clients doen dit automatisch. |
-|101|Ongeldige [!DNL Experience Cloud] id doorgegeven `ID`|De [!DNL DCS] oproep bevat een ongeldige [!DNL Experience Cloud] id. Controleer het `d_mid=` sleutelwaardepaar in de koptekstreeks. Geef de juiste [!DNL Experience Cloud] id door en probeer het verzoek opnieuw. |
-|102|Ongeldige [!DNL AAM ID] aanvraag `ID`|De [!DNL DCS] oproep bevat een ongeldige [!DNL Audience Manager] id. Controleer het `d_uuid=` sleutelwaardepaar in de koptekstreeks. Geef de juiste [!DNL Audience Manager] id door en probeer het verzoek opnieuw. |
-|104|Alle klant-id&#39;s zijn ongeldig | Alle klant-id&#39;s in uw oproep zijn ongeldig. Controleer uw id&#39;s en probeer het opnieuw.|
-|109|Referer `HTTP referer` is niet toegestaan voor partner `Partner ID`|De `HTTP referer` kopbal op de vraag wordt niet toegestaan voor partneridentiteitskaart op de vraag. Controleer of de `HTTP referer` koptekst juist is.|
-|111|Ongeldige `IMS` token ontvangen|Geretourneerd voor [!DNL Audience Manager] - [!DNL Adobe Target] integratie. De fout wordt geworpen wanneer een vraag aan [!DNL DCS]wordt gemaakt, die een ongeldig [!DNL IMS] teken bevatten. Het token kan onjuist zijn geformuleerd, verlopen of de gebruiker is mogelijk niet gemachtigd om toegang te krijgen tot de vereiste resource.|
+| Foutcode | Foutbericht | Beschrijving |
+|---|---|---|
+| 100 | Kan de hostnaam voor de aanvraag niet ophalen | Een [!DNL API] vraag verzond niet de gastheer [!DNL HTTP] kopbal in het verzoek. Voeg de gastheerkopbal aan de vraag toe en probeer opnieuw. De meeste browsers en [!DNL API] clients doen dit automatisch. |
+| 101 | Ongeldige [!DNL Experience Cloud] id doorgegeven `ID` | De [!DNL DCS] oproep bevat een ongeldige [!DNL Experience Cloud] id. Controleer het `d_mid=` sleutelwaardepaar in de koptekstreeks. Geef de juiste [!DNL Experience Cloud] id door en probeer het verzoek opnieuw. |
+| 102 | Ongeldige [!DNL AAM ID] doorgegeven aanvraag `ID` | De [!DNL DCS] oproep bevat een ongeldige [!DNL Audience Manager] id. Controleer het `d_uuid=` sleutelwaardepaar in de koptekstreeks. Geef de juiste [!DNL Audience Manager] id door en probeer het verzoek opnieuw. |
+| 104 | Alle klant-id&#39;s zijn ongeldig | Alle klant IDs in uw vraag is ongeldig. Controleer uw id&#39;s en probeer het opnieuw. |
+| 109 | Referer `HTTP referer` is niet toegestaan voor partner `Partner ID` | De `HTTP referer` kopbal op de vraag wordt niet toegestaan voor partneridentiteitskaart op de vraag. Controleer of de `HTTP referer` koptekst juist is. |
+| 111 | Ongeldig `IMS` token ontvangen | Geretourneerd voor [!DNL Audience Manager] - [!DNL Adobe Target] integratie. De fout wordt geworpen wanneer een vraag aan [!DNL DCS]wordt gemaakt, die een ongeldig [!DNL IMS] teken bevatten. Het token kan onjuist zijn geformuleerd, verlopen of de gebruiker is mogelijk niet gemachtigd om toegang te krijgen tot de vereiste resource. |
 
 ## Foutcodes voor uitschakelen {#opt-out-error-codes}
 
@@ -120,12 +120,12 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   <tr> 
    <td colname="col1"> <p>204 </p> </td> 
    <td colname="col2"> <p>Kan migratie niet uitvoeren omdat het lezen van het profiel voor het primaire apparaat is mislukt </p> </td> 
-   <td colname="col3"> <p>Als deze fout optreedt, kunnen er zich problemen voordoen met de schaalbaarheid van onze gegevensopslag (<span class="wintitle"> PCS</span>). Neem contact op met uw vertegenwoordiger van Adobe als het probleem zich blijft voordoen. </p> </td> 
+   <td colname="col3"> <p>Als deze fout optreedt, kunnen er zich problemen voordoen met de schaalbaarheid van onze gegevensopslag (<span class="wintitle"> PCS</span>). Neem contact op met uw Adobe als het probleem zich blijft voordoen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
    <td colname="col2"> <p>Kan migratie van <code><i>ID</i></code> <code><i>ID</i></code>naar niet uitvoeren, omdat het lezen van het profiel is mislukt voor <code><i>ID</i></code> </p> </td>
-   <td colname="col3"> <p>Als deze fout optreedt, kunnen er zich problemen voordoen met de schaalbaarheid van onze gegevensopslag (<span class="wintitle"> PCS</span>). Neem contact op met uw vertegenwoordiger van Adobe als het probleem zich blijft voordoen. </p> </td> 
+   <td colname="col3"> <p>Als deze fout optreedt, kunnen er zich problemen voordoen met de schaalbaarheid van onze gegevensopslag (<span class="wintitle"> PCS</span>). Neem contact op met uw Adobe als het probleem zich blijft voordoen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -194,7 +194,7 @@ In de onderstaande tabellen staat *cursief voor een variabele plaatsaanduiding* 
   <tr> 
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Aanvraag bevat een ongeldige globale apparaat-id </p> </td> 
-   <td colname="col3"> <p>De <span class="wintitle">DCS</span> retourneert deze foutcode wanneer de aanvraag een ongeldige algemene apparaat-id bevat. DCS negeert de ongeldige identiteitskaart en werpt een fout 312 samen met de specifieke fouten van ongeldige identiteitskaart Zie <a href="../../../features/global-data-sources.md" format="dita" scope="local">Algemene gegevensbronnen</a> en <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index van id's in Audience Manager</a> voor gedetailleerde informatie over de correcte formaten van adverteren-id van apparaten en overeenkomstige globale gegevensbronnen.</p>
+   <td colname="col3"> <p>De <span class="wintitle">DCS</span> retourneert deze foutcode wanneer de aanvraag een ongeldige algemene apparaat-id bevat. DCS negeert de ongeldige identiteitskaart en werpt een fout 312 samen met de specifieke fouten van ongeldige identiteitskaart Zie <a href="../../../features/global-data-sources.md" format="dita" scope="local">Algemene gegevensbronnen</a> en <a href="../../../reference/ids-in-aam.md" format="dita" scope="local">Index van id's in Audience Manager</a> voor gedetailleerde informatie over de correcte formaten van adverteren-id van apparaten en de overeenkomstige globale gegevensbronnen.</p>
    <p>Voorbeeld van een onjuiste aanroep: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Uitleg: Een <span class="keyword">IDFA (DPID 20915)</span> moet een hoofdletter-id zijn. De id in het verzoek is in kleine letters.</p>
    </td>
