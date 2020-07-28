@@ -7,9 +7,9 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
+source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1441'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ## Overzicht {#overview}
 
-De publiek delende functionaliteit tussen Audience Manager en Adobe Experience Platform staat u toe om uw eigenschappen en segmenten van de Audience Manager aan Adobe Experience Platform en vice versa te delen. U hebt de Schakelaar [van de](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) Audience Manager nodig om publiek toe te laten delend tussen Audience Manager en Adobe Experience Platform.
+De publiek delende functionaliteit tussen Audience Manager en Adobe Experience Platform staat u toe om uw eigenschappen en segmenten van de Audience Manager aan Adobe Experience Platform en vice versa te delen. U hebt de [[!DNL-aansluiting voor Audience Managers]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) nodig om publiek delen tussen Audience Manager en Adobe Experience Platform mogelijk te maken.
 
 U kunt de eigenschappen en de segmenten van de Audience Manager in Experience Platform gebruiken om de gegevens van de Audience Manager aan uw klantenprofielen toe te voegen en van de dienst [van de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentatie van het Experience Platform te profiteren.
 
@@ -149,7 +149,7 @@ Audience Manager werkt rapportaantallen in de interface eens per dag bij.   De t
 
 ### Verschillen tussen de Regels van de Fusie van het Profiel en het Beleid van de Fusie
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager en het Beleid [van de](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) Fusie in Experience Platform werken verschillend, en de identiteitsgrafiek die voor elk wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager en [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform werken verschillend, en de identiteitsgrafiek die voor elk wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
 
 ### Segmentsamenstelling in Experience Platform
 
