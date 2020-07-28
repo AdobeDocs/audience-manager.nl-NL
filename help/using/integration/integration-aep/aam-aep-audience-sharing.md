@@ -7,10 +7,10 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 37b0cf4059b8b44329103eb69d611279c52e8236
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 3%
+source-wordcount: '1442'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
-> Neem contact op met uw Adobe-vertegenwoordiger om de toegang tot deze functionaliteit te ontgrendelen.
+> Neem contact op met uw Adobe-verkoper om de toegang tot deze functie te ontgrendelen.
 
 ## Overzicht {#overview}
 
@@ -32,7 +32,7 @@ In Audience Manager, kunt u de segmenten van het Experience Platform voor de geb
 * [Algorithmic modelling](/help/using/features/algorithmic-models/understanding-models.md);
 * Activeer uw segmenten aan bestemmingen die nog niet in de [bestemmingscatalogus](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)van het Experience Platform worden gesteund.
 
-Bovendien worden uw Experience Platforms segmenten gedeeld met andere Experience Cloud-oplossingen, via [Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+Bovendien, worden uw segmenten van het Experience Platform gedeeld aan andere oplossingen van Experience Cloud, via [de Diensten](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)van de Kern.
 
 <br> 
 
@@ -56,9 +56,17 @@ Uw sporen en de segmenten van de Audience Manager verschijnen in Experience Plat
 
 ## Adobe Experience Platforms segmenten in Audience Manager {#aep-segments-in-aam}
 
-De segmenten die u in Experience Platform creeert verschijnen in uw interface van de Audience Manager als trekken en segmenten, met de volgende samenstellingsregels:
+De segmenten die u in Experience Platform creeert verschijnen in uw interface van de Audience Manager als signalen, trekken, en segmenten, met de volgende samenstellingsregels:
+
+* Signaal: Voor elk segment van het Experience Platform, zou u signalen in de vorm moeten zien `segID = segment ID`.
 * Trait: De gedragregel is identiteitskaart van het segment van het Experience Platform.
 * Segment: Het segment bestaat uit de hierboven beschreven kenmerken.
+
+### Signalen {#aep-segments-as-aam-signals}
+
+Selecteer **[!UICONTROL Audience Data > Signals > General Online Data]** en zoek op `SegId` om signalen te zoeken die vanuit het Experience Platform binnenkomen. U kunt dit scherm voor het zuiveren doeleinden gebruiken, om te controleren of is de integratie tussen Experience Platform en Audience Manager correct opstelling.
+
+![Zie Experience Platform signalen in Audience Manager in het dashboard van Signals](/help/using/integration/integration-aep/assets/aep-signals-in-aam.png)
 
 ### Eigenschappen {#aep-segments-as-aam-traits}
 
@@ -66,7 +74,7 @@ Audience Manager maakt automatisch een map met het kenmerk **Experience Platform
 
 ![Traits van het dashboard van het Experience Platform](/help/using/integration/integration-aep/assets/aep-traits-dashboard.png)
 
-U kunt automatisch gemaakte kenmerken in segmenten naast andere kenmerken gebruiken. U kunt bijvoorbeeld kenmerken die zijn gemaakt op basis van Experience Platform-segmenten, combineren met externe transacties die zijn aangeschaft via de [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md).
+U kunt automatisch gemaakte kenmerken in segmenten naast andere kenmerken gebruiken. Bijvoorbeeld, kunt u eigenschappen mengen die van de segmenten van het Experience Platform met derderderdeverrichtingen worden gecreeerd die door de [Audience Marketplace](/help/using/features/audience-marketplace/audience-marketplace.md)worden verworven.
 
 Zie de onderstaande schermafbeelding voor een voorbeeld van een eigenschap die automatisch wordt gemaakt van een Experience Platform-segment:
 
@@ -133,10 +141,38 @@ In de volgende tabel wordt aangegeven hoe specifieke gegevensuitvoerlabels worde
 
 ## Begrijp de verschillen van de segmentpopulatie tussen Audience Manager en Experience Platform
 
-De de bevolkingsaantallen van het segment kunnen tussen uw Audience Manager en Experience Platform segmenten variëren. Hoewel segmentnummers voor vergelijkbare of identieke doelgroepen dicht bij elkaar moeten liggen, kunnen verschillen in populaties het gevolg zijn van:
+De de bevolkingsaantallen van het segment kunnen tussen uw Audience Manager en Experience Platform segmenten variëren. Hoewel segmentnummers voor vergelijkbare of identieke doelgroepen dicht bij elkaar moeten liggen, kunnen verschillen in populaties het gevolg zijn van de hieronder vermelde factoren.
 
-* Segmentatietaken worden uitgevoerd. Audience Manager stelt een segmentatietaak in werking die de aantallen in de interface eens per dag bijwerkt. Deze baan richt zich zelden op de segmentatietaken in Experience Platform.
-* [De Regels](/help/using/features/profile-merge-rules/merge-rules-overview.md) van de Fusie van het profiel in Audience Manager en het Beleid [van de](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) Fusie in Experience Platform werken verschillend, en de identiteitsgrafiek die voor elk wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
+### Segmentbeoordeling in Experience Platform
+
+Audience Manager werkt rapportaantallen in de interface eens per dag bij.   De timing van deze update richt zich zelden op de tijd van de segmentevaluatie in Experience Platform.
+
+### Verschillen tussen de Regels van de Fusie van het Profiel en het Beleid van de Fusie
+
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager en het Beleid [van de](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) Fusie in Experience Platform werken verschillend, en de identiteitsgrafiek die voor elk wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
+
+### Segmentsamenstelling in Experience Platform
+
+De integratie tussen Adobe Experience Platform en Audience Manager deelt een aantal standaard [identiteitsnamespaces](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) voor alle klanten: ECID, IDFA, GAID, gehashte e-mailadressen (EMAIL_LC_SHA256), AdCloud-id, enz. Als in uw Experience Platform-segmenten een van deze profielen wordt gebruikt als primaire identiteit voor de gekwalificeerde profielen, worden de profielen geteld in de kenmerken en segmenten van de Audience Manager.
+
+Bovendien, kan de Audience Manager de inkomende realisaties voor om het even welke naamruimten registreren van de douanetrouw die u in de segmenten van het Experience Platform gebruikt als u reeds een overeenkomstige gegevensbron in Audience Manager hebt die van die herkenningsteken wordt gehouden.
+
+>[!NOTE]
+>
+> Soorten publiek in Experience Platform met identiteiten die rauwe e-mails afspelen, komen nooit voor in de Audience Manager.
+
+Bijvoorbeeld, als u een segment van het Experience Platform &quot;Al mijn klanten&quot;had, en de gekwalificeerde profielen CRM IDs, ECID, IDFA, ruw en gehashed e-mailadressen waren, zou het overeenkomstige segment in Audience Manager slechts profielen omvatten die van CRM IDs, ECID, IDFA, en gehakt e-mailadressen worden afgevinkt. De segmentpopulatie in Audience Manager zou kleiner zijn dan die in Experience Platform.
+
+![Experience Platform tot delen van Audience Manager - segmentcompositie](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+
+<!--
+
+If you created a data source in Audience Manager for the CRM IDs in Experience Platform, then the qualified profiles keyed off those CRM IDs would appear in Audience Manager and the segment population in Audience Manager would increase.
+
+![AEP to AAM segment sharing - segment composition after creating a data source for CRM IDs in Audience Manager](/help/using/integration/integration-aep/assets/AEP-to-AAM-identities2.png)
+
+-->
+
 
 >[!MORELIKETHIS]
 >
