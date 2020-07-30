@@ -7,7 +7,7 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: db4706673b72980652942e23d83ae5cf180972e9
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 2%
@@ -139,7 +139,7 @@ In de volgende tabel wordt aangegeven hoe specifieke gegevensuitvoerlabels worde
 | Deze bestemming kan worden gebruikt voor on-site en doelgericht | Onsite reclame |
 | Deze bestemming kan voor onsite en verpersoonlijking worden gebruikt | Onsite personalisatie |
 
-## Begrijp de verschillen van de segmentpopulatie tussen Audience Manager en Experience Platform
+## Begrijp de verschillen van de segmentpopulatie tussen Audience Manager en Experience Platform {#aep-aam-segment-population-differences}
 
 De de bevolkingsaantallen van het segment kunnen tussen uw Audience Manager en Experience Platform segmenten variëren. Hoewel segmentnummers voor vergelijkbare of identieke doelgroepen dicht bij elkaar moeten liggen, kunnen verschillen in populaties het gevolg zijn van de hieronder vermelde factoren.
 
