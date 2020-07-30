@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 1be20c2412a272e6374b8b84e6a5c1628da18497
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 9%
+source-wordcount: '1530'
+ht-degree: 7%
 
 ---
 
@@ -67,7 +67,7 @@ Wanneer u een [!UICONTROL Predictive Audiences] model creeert, gaat u door drie 
 
 1. Eerst selecteert u minimaal twee kenmerken of twee segmenten die uw persona&#39;s definiëren.
 1. Vervolgens kiest u een kenmerk of segment dat het doelpubliek definieert dat u wilt classificeren.
-1. Tot slot kiest u een naam voor het model en selecteert u een gegevensbron die de voorspellende segmenten opslaat.
+1. Tot slot kiest u een naam voor het model, een gegevensbron die de vooruitlopende segmenten, en een naam [!UICONTROL Profile Merge Rule] voor het model zal opslaan.
 
 ### Selectiecriteria voor personeel {#selection-personas}
 
@@ -75,13 +75,17 @@ U kunt om het even welk van uw eerstepartijeigenschappen of segmenten kiezen om 
 
 * Kies uw persoonlijke kenmerken of segmenten zodat elke persoon minstens een paar honderd [apparaat-id&#39;s heeft](../../reference/ids-in-aam.md).
 * Als uw eigenschappen op [cross-device IDs](../../reference/ids-in-aam.md)gebaseerd zijn, kunt u hen in segmenten met de Regels [van de Fusie van het](../profile-merge-rules/merge-rules-overview.md) Profiel verpakken die [apparaat IDs](../../reference/ids-in-aam.md), zoals [!UICONTROL Device Graph]. gebruiken. Dit zal ervoor zorgen er genoeg [apparaat IDs](../../reference/ids-in-aam.md) zijn dat het algoritme van kan leren.
-* Wij adviseren het kiezen van eigenschappen of eenvoudige segmenten voor uw personen, die uit 1 tot 3 eigenschappen bestaan.
+* Wij adviseren het kiezen van eigenschappen of eenvoudige segmenten voor uw persona&#39;s, die uit 1 tot 3 eigenschappen bestaan.
 * Kies basislijnkenmerken of segmenten met minimale overlapping.
 * Zorg ervoor dat u granulaire kenmerken vastlegt over de digitale eigenschappen.
 
 ### Selectiecriteria voor de Target-doelgroep {#selection-audience}
 
-Net als een persoonlijke selectie moet u uw kenmerk of segment kiezen dat het doelpubliek zo definieert dat het realtime gebruikers met rijke sets kenmerken heeft, zodat het kan worden ingedeeld in de juiste persoon.
+Net als een persoonlijke selectie moet u uw doelpubliek kiezen [!UICONTROL trait] of [!UICONTROL segment] dat het doelpubliek zo definieert dat het realtime gebruikers met rijke sets gebruikers heeft, [!UICONTROL traits]zodat het kan worden ingedeeld in de juiste persoon.
+
+Wanneer het selecteren van het doelpubliek, analyseer uw gebruiksgeval en besluit welke types van identiteitskaarts u wilt classificeren: [!UICONTROL device IDs] of [!UICONTROL cross-device IDs]. De gegevens [!UICONTROL Profile Merge Rule] die u selecteert bij het maken van het model, definiëren de gegevens die worden gebruikt om elke gebruiker in de voorspellende situatie te plaatsen [!UICONTROL segments].
+
+Als beste praktijken, adviseren wij het kiezen [!UICONTROL Profile Merge Rule] die de zelfde configuratie zoals uw doelpubliek heeft [!UICONTROL Profile Merge Rule], of één die het profieltype (apparatenprofiel of voor authentiek verklaard profiel) van uw doelpubliek omvat.
 
 ### [!UICONTROL Predictive Audiences] Modeltrainingsfase {#model-training}
 
@@ -110,9 +114,9 @@ Houd bij het configureren van uw [!UICONTROL Predictive Audiences] modellen reke
 * Gegevens van derden en derden worden momenteel niet ondersteund in [!UICONTROL Predictive Audiences].
 * De classificatie van het publiek wordt gedaan slechts voor echt - tijd eerste-partijpubliek. In een toekomstige update wordt mogelijk ondersteuning geboden voor gebruikers met de classificatie van eerste partijen aan boord.
    >[!IMPORTANT]
-   > Momenteel, wordt de [!UICONTROL Total Segment Population] van uw vooruitlopende segmenten getoond als 0, en de [Uitgaande Overdrachten](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) van Gegevens van de Partij worden niet gesteund voor [!UICONTROL Predictive Audiences]. Dit gedrag verandert in een toekomstige update.
+   > Momenteel, kunnen de vooruitlopende segmenten in bestemmingen in real time slechts worden geactiveerd. De [!UICONTROL Total Segment Population] en [!UICONTROL Addressable Audience] van uw vooruitlopende segmenten worden weergegeven als 0 en de uitgaande gegevensoverdrachten [van de](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) Partij worden niet ondersteund voor [!UICONTROL Predictive Audiences]. Dit gedrag verandert in een toekomstige update.
 * [!UICONTROL Predictive Audiences] voert publieksclassificatie uit die op uw eerste partijeigenschappen, van al uw eerste-partijgegevensbronnen wordt gebaseerd.
-* De evaluatie van het segment voor [!UICONTROL Predictive Audiences] gebruikt het gebrek **[!UICONTROL Profile Merge Rule]** dat u in uw rekening bepaalde. Meer informatie over [!UICONTROL Profile Merge Rules] zie de specifieke [documentatie](../profile-merge-rules/merge-rules-overview.md).
+* De evaluatie van het segment voor [!UICONTROL Predictive Audiences] gebruikt **[!UICONTROL Profile Merge Rule]** die u tijdens modelverwezenlijking kiest. Meer informatie over [!UICONTROL Profile Merge Rules] zie de specifieke [documentatie](../profile-merge-rules/merge-rules-overview.md).
 * Sommige kenmerken en segmenten worden niet ondersteund als basislijnen of doelgroepen. [!UICONTROL Predictive Audiences] modellen kunnen niet worden opgeslagen wanneer u een van de volgende opties kiest als basislijn of doelpubliek:
    * voorspellende kenmerken en segmenten die met voorspellende kenmerken zijn gecreëerd;
    * [Adobe Experience Platform](../integration/../../integration/integration-aep/aam-aep-audience-sharing.md) -kenmerken of -segmenten;
@@ -124,11 +128,23 @@ Houd bij het configureren van uw [!UICONTROL Predictive Audiences] modellen reke
 De voorspellende segmenten die door [!UICONTROL Predictive Audiences] modellen worden gecreeerd erven de Controles [van de Uitvoer van](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) Gegevens van de volgende eerste gegevensbronnen:
 
 1. De eerste gegevensbron die u kiest bij het bouwen van het model.
-1. De gegevensbronnen van de eerste partij van uw doelpubliek. Specifiek, de controles van de gegevensuitvoer van de eigenschappen of de segmenten die omhoog uw doelpubliek maken.
+1. De gegevensbronnen van de eerste partij van uw doelpubliek. Specifiek, de controles van de gegevensuitvoer van het [!UICONTROL traits] of [!UICONTROL segments] die omhoog uw doelpubliek maken.
+1. De controles [van de Uitvoer van](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html) Gegevens van [!UICONTROL Profile Merge Rule] die u voor het model selecteerde.
 
-De nieuwe voorspellende kenmerken en segmenten zullen dezelfde privacybeperkingen hebben als de samenvoeging van de hierboven beschreven bronnen van de eerste partij.
+De nieuwe voorspellende [!UICONTROL traits] en [!UICONTROL segments] zullen dezelfde privacybeperkingen hebben als de samenvoeging van de hierboven beschreven gegevensbronnen van de eerste partij.
 
 Traits die aanvullende beperkingen hebben die geen deel uitmaken van de privacybeperkingen voor [!UICONTROL Predictive Audiences] segmenten, worden uitgesloten van de trainingsfase en zullen niet van invloed worden op het model.
+
+## [!UICONTROL Profile Merge Rules] {#pmr}
+
+Aan alle voorspellende segmenten wordt de geselecteerde segmenten toegewezen bij het maken van het model. [!UICONTROL Profile Merge Rule] De [!UICONTROL Profile Merge Rule] keuze die u kiest, is om de volgende redenen belangrijk:
+
+* Daarin wordt gedefinieerd met welke apparaten en/of geverifieerde profielen rekening moet worden gehouden wanneer het model de invloedrijke factoren analyseert [!UICONTROL traits], op het moment dat een gebruiker in een voorspellend profiel wordt ingedeeld [!UICONTROL segment].
+* Het bepaalt welke [!UICONTROL trait] typen (apparaatniveau of apparaatniveau) tijdens de modeltrainingsstap moeten worden gebruikt en als invloedrijk moeten worden beschouwd [!UICONTROL traits]. Voorspelend [!UICONTROL segments] zijn subsets van uw doelpubliek.
+   * Als het doelpubliek een segment is, adviseren wij dat u het zelfde [!UICONTROL Profile Merge Rule] voor het model zoals aan uw doelpubliek wordt toegewezen, of [!UICONTROL Profile Merge Rule] die het profieltype van uw doelpubliek omvat.
+   * Als het doelpubliek een [!UICONTROL trait]doelgroep is, raden we u aan een interface te selecteren [!UICONTROL Profile Merge Rule] die toegang heeft tot hetzelfde type gegevens als het doelpubliek (apparaatprofielgegevens of apparaatprofielgegevens).
+
+Als u een component selecteert [!UICONTROL Profile Merge Rule] waarin zowel apparaatgegevens als apparaatgegevens worden gebruikt, maximaliseert u het aantal gegevens [!UICONTROL traits] dat kan worden gebruikt voor modeltraining en gebruikersclassificatie in het voorspellende gedeelte [!UICONTROL segments].
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
