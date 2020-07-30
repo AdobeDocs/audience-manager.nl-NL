@@ -7,7 +7,7 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4f76bbd6f7c2f1866954bbbf14e8987dc3384c47
+source-git-commit: abe2a63c2ee9ad1028dac0a69ecb006a0fbdd029
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 2%
@@ -150,6 +150,7 @@ Audience Manager werkt rapportaantallen in de interface eens per dag bij.   De t
 ### Verschillen tussen de Regels van de Fusie van het Profiel en het Beleid van de Fusie
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager en [[!UICONTROL Merge Policies]](https://docs.adobe.com/content/help/en/experience-platform/profile/ui/merge-policies.html) in Experience Platform werken verschillend, en de identiteitsgrafiek die voor elk wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
+
 
 ### Segmentsamenstelling in Experience Platform
 
