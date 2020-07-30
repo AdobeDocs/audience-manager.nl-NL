@@ -8,9 +8,9 @@ title: Klantdatafeeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1893'
 ht-degree: 3%
 
 ---
@@ -24,9 +24,13 @@ Basisinformatie over [!UICONTROL Customer Data Feed] ([!UICONTROL CDF]) bestande
 
 Een [!UICONTROL CDF]-bestand bevat dezelfde data die een [!DNL Audience Manager]-gebeurteniscall (`/event`) naar onze servers verzendt. This includes data like user IDs, [!UICONTROL trait IDs], [!UICONTROL segment IDs], and all the other parameters captured by an event call. Interne [!DNL Audience Manager] systemen verwerken gebeurtenisgegevens in een [!UICONTROL CDF] bestand met inhoud die is ingedeeld in velden die in een ingestelde volgorde worden weergegeven. [!DNL Audience Manager] probeert [!UICONTROL CDF] bestanden per uur te genereren en slaat deze op in een beveiligd, klantspecifiek emmertje op een [!DNL Amazon S3] server. Deze bestanden zijn beschikbaar zodat u buiten de grenzen van de gebruikersinterface kunt werken met [!DNL Audience Manager] gegevens.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Gebruik geen [!UICONTROL CDF] bestanden als proxy om het paginaverkeer te controleren, verschillen in rapporten of facturering op elkaar af te stemmen, enzovoort.
+>Houd rekening met de volgende beperkingen wanneer u werkt met CDF-bestanden:
+>
+>* Voordat u CDF-bestandslevering instelt, moet u ervoor zorgen dat u over de juiste machtigingen van externe gegevensleveranciers beschikt voor het exporteren van externe traits.
+>* Gebruik geen [!UICONTROL CDF] bestanden als proxy om het paginaverkeer te controleren, verschillen in rapporten of facturering op elkaar af te stemmen, enzovoort.
+
 
 ## Aan de slag {#getting-started}
 
@@ -217,7 +221,7 @@ In de volgende tabel worden de elementen in een [!UICONTROL CDF] bestandsnaam we
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> s3://aam-cdf/</code> </p> </td> 
-   <td colname="col2"> <p>Dit is het standaard, basisopslagsegment voor uw CDF-bestand op een Amazon S3-server. </p> </td> 
+   <td colname="col2"> <p>Dit is het standaard, basisopslagemmertje voor uw CDF-bestand op een Amazon S3-server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>your S3 bucket name</i> </code> </p> </td> 
@@ -351,7 +355,7 @@ In de volgende tabellen worden de elementen in een [!UICONTROL CDF] `.info` best
 
 ## [!UICONTROL Customer Data Feed] Tijdstippen voor bestandsnaam en bestandsinhoud verschillen {#different-processing-times}
 
-Het [!UICONTROL CDF] bestand bevat tijdstempels in de bestandsnaam en -inhoud. Deze tijdstempels registreren verschillende gebeurtenisprocessen voor hetzelfde [!UICONTROL CDF] bestand. Het is niet ongebruikelijk om verschillende tijdstempels in de naam en inhoud van het zelfde dossier te zien. Wanneer u deze gegevens gebruikt of probeert te sorteren, kunt u algemene fouten voorkomen.
+Het [!UICONTROL CDF] bestand bevat tijdstempels in de bestandsnaam en -inhoud. Deze tijdstempels registreren verschillende gebeurtenisprocessen voor hetzelfde [!UICONTROL CDF] bestand. Het is niet ongebruikelijk om verschillende tijdstempels in de naam en inhoud van het zelfde dossier te zien. Als u een goed begrip van elk tijdstempel hebt, voorkomt u vaak voorkomende fouten wanneer u met deze gegevens werkt of probeert deze op tijd te sorteren.
 
 ## Tijdstempels [!UICONTROL CDF] van bestand zoeken {#locating-timestamps}
 
