@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '576'
 ht-degree: 5%
 
 ---
@@ -65,9 +65,11 @@ In de tabellen worden de huidige limieten per itemtype weergegeven. U kunt geen 
 
 | Item | Maximale limiet |
 | -------- | ----- |
-| Active Algorithmic Models | 20. Audience Manager telt alleen *actieve* algoritmische modellen tegen de limiet. |
-| Algorithmic Models maximum publiek size | 25,000,000.  Deze limiet kan niet worden verhoogd. U kunt de publieksgrootte verminderen door minder gegevensbronnen voor het model te selecteren of door een korter terugblik venster te selecteren. |
-| Maximumaantal uitgesloten kenmerken voor een model | 500 Zie [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Actief [!UICONTROL Look-Alike Models] | 20. Audience Manager telt alleen *actieve* algoritmische modellen tegen de limiet. |
+| [!UICONTROL Look-Alike Models] maximale doelgrootte | 25,000,000.  Deze limiet kan niet worden verhoogd. U kunt de publieksgrootte verminderen door minder gegevensbronnen voor het model te selecteren of door een korter terugblik venster te selecteren. |
+| Maximumaantal uitgesloten kenmerken voor een [!UICONTROL Look-Alike Model] | 500 Zie [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
+| Naximum [!UICONTROL Predictive Audiences Models] | 10 |
+| Maximaal aantal basislijnpersona&#39;s voor [!UICONTROL Predictive Audiences] modellen | 50 |
 
 ### Maplimieten
 
