@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29a2e0ec7859bec5658218fb5095b7bac74a3371
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 6%
@@ -34,7 +34,7 @@ De modellenlijst toont u de volgende informatie:
    * **[!UICONTROL Pending]**: het model wordt geïnitialiseerd en zal binnenkort resultaten opleveren ;
    * **[!UICONTROL Active]**: het model functioneert met succes en levert resultaten op;
    * **[!UICONTROL Warning]**: het model heeft geen resultaten opgeleverd omdat er onvoldoende gegevens beschikbaar zijn (d.w.z. een lage basislijnpopulatie, gebruikersprofielen zijn niet rijk);
-   * **[!UICONTROL Error]**: het model is niet uitgevoerd. Neem contact op met uw vertegenwoordiger van Adobe.
+   * **[!UICONTROL Error]**: het model is niet uitgevoerd. Neem contact op met uw Adobe-vertegenwoordiger.
 
 ## Rapport modeloverzicht{#model-report}
 
