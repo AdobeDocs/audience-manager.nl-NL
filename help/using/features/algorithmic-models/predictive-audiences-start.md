@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '492'
 ht-degree: 8%
 
 ---
@@ -39,9 +39,10 @@ Volg de onderstaande stappen als u weet welke gegevensbron u wilt gebruiken.
    ![smart-persona-select-publiek](assets/predictive-audiences-audience.png)
 1. Klik **[!UICONTROL Next]** nadat u uw publiek hebt gekozen.
 1. Vul de modelgegevens in:
-   1. **[!UICONTROL Model Name]**: Voer een beschrijvende naam in voor het model, zodat u het later kunt herkennen. De namen van de segmenten die door het model worden gegenereerd, beginnen met de naam van het model.
-   2. **[!UICONTROL Description]**: Voer een beschrijving in van het model dat u helpt bij het identificeren van het gebruikte hoofdlettergebruik.
-   3. **[!UICONTROL Data Source]**: Selecteer de eerste gegevensbron waaraan u de [!UICONTROL Predictive Audiences] segmenten van dit model wilt toewijzen.
+   * **[!UICONTROL Model Name]**: Voer een beschrijvende naam in voor het model, zodat u het later kunt herkennen. De namen van de segmenten die door het model worden gegenereerd, beginnen met de naam van het model.
+   * **[!UICONTROL Description]**: Voer een beschrijving in van het model dat u helpt bij het identificeren van het gebruikte hoofdlettergebruik.
+   * **[!UICONTROL Data Source]**: Selecteer de eerste gegevensbron waaraan u de [!UICONTROL Predictive Audiences] segmenten van dit model wilt toewijzen.
+   * **[!UICONTROL Profile Merge Rule]**: Selecteer de [!UICONTROL Profile Merge Rule] waarde die moet worden toegewezen voor alle voorspellende kenmerken die door dit model worden [!UICONTROL segments] gemaakt. Als uw geselecteerde doelpubliek een [!UICONTROL segment]doelpubliek is, raden we u aan hetzelfde [!UICONTROL Profile Merge Rule] doelpubliek te selecteren.
       ![voorspellend publiek-sparen](assets/predictive-audiences-save.png)
 1. Klik op **[!UICONTROL Save]**.
 
