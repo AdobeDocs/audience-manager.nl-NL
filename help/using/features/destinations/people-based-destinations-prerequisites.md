@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Vereisten en overwegingen
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 0ca118abd4e4e8aa3eb8b01123d1f02b712841b2
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 4%
+source-wordcount: '1015'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Hieronder vindt u een overzicht van de behoeften van klanten waaraan u moet vold
 
 [!UICONTROL People-Based Destinations] is een premiumfunctie die uw Audience Manager-ervaring vergroot door u toe te staan om uw eersteklas publiekssegmenten in op mensen gebaseerde omgevingen te activeren, door uw publiek te richten op aangepaste aanbiedingen op sociale netwerken of via e-mailmarketing.
 
-Neem contact op met uw Adobe-vertegenwoordiger om deze premiumfunctie te gebruiken.
+Neem contact op met uw Adobe-vertegenwoordiger om gebruik te maken van deze premiumfunctie.
 
 ## Partner-specifieke vereisten {#partner-prerequisites}
 
@@ -49,6 +49,14 @@ Voordat u [!UICONTROL People-Based Destinations] de doelsegmenten van de eerste 
 Leer hoe te om uw [!DNL LinkedIn Campaign Manager] gebruikerstoestemmingen uit te geven, zie [toevoegen, uitgeven, en verwijdert de Toestemmingen van de Gebruiker op Advertising Rekeningen](https://www.linkedin.com/help/lms/answer/5753) in de documentatie LinkedIn.
 
 Zie [Begrip en het Vormen LinkedIn op mensen-Gebaseerde Bestemming](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) voor videoinstructies.
+
+### [!DNL Google Customer Match]
+
+Alvorens u kunt gebruiken [!UICONTROL People-Based Destinations] om uw segment van het eerste partijpubliek naar een [!DNL Google Customer Match] bestemming te verzenden, is het verplicht dat u aan hun lijst van gewenste personen [!DNL Google] toevoegt.
+
+Neem contact op met uw [!DNL Google] vertegenwoordiger en volg de instructies van de lijst van gewenste personen die in de [Use Customer Match Partners worden beschreven om uw gegevensdocumentatie](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) te uploaden [!DNL Google] .
+
+Zodra dit proces is voltooid, kunt u uw [!UICONTROL People-Based Destination]tot stand brengen.
 
 ## Data-onboarding {#data-onboarding}
 
@@ -81,7 +89,7 @@ Bekijk de onderstaande video om te zien wat de hashingvereisten zijn voor [!UICO
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Met Adobe Experience Cloud kunt u de id&#39;s van de klant via het [!DNL Adobe Experience Platform Identity Service (ECID)]dialoogvenster verbergen. Zie [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) voor gedetailleerde informatie over hoe te om ECID te gebruiken om klant IDs te hakken.
+Adobe Experience Cloud biedt u de mogelijkheid om de klant-id&#39;s via het [!DNL Adobe Experience Platform Identity Service (ECID)]venster te verbergen. Zie [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) voor gedetailleerde informatie over hoe te om ECID te gebruiken om klant IDs te hakken.
 
 ## Gebruikersmachtiging verkrijgen {#obtaining-user-permission}
 
