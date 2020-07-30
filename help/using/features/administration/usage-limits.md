@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: aa583c0f2f8883249d7e8038b7bf2fb4c8951962
+source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 5%
 
 ---
@@ -69,7 +69,7 @@ In de tabellen worden de huidige limieten per itemtype weergegeven. U kunt geen 
 | [!UICONTROL Look-Alike Models] maximale doelgrootte | 25,000,000.  Deze limiet kan niet worden verhoogd. U kunt de publieksgrootte verminderen door minder gegevensbronnen voor het model te selecteren of door een korter terugblik venster te selecteren. |
 | Maximumaantal uitgesloten kenmerken voor een [!UICONTROL Look-Alike Model] | 500 Zie [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Naximum [!UICONTROL Predictive Audiences Models] | 10 |
-| Maximaal aantal basislijnpersona&#39;s voor [!UICONTROL Predictive Audiences] modellen | 50 |
+| Maximaal aantal basislijnpersona&#39;s voor [!UICONTROL Predictive Audiences Models] | 50 |
 
 ### Maplimieten
 
