@@ -8,9 +8,9 @@ title: Klantdatafeeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 translation-type: tm+mt
-source-git-commit: 670356016a7d8256af2e475d0aef49e1156f82e6
+source-git-commit: 9b17925f9759a7f47629032182b367cf612bebbc
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1922'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Een [!UICONTROL CDF]-bestand bevat dezelfde data die een [!DNL Audience Manager]
 >
 >Houd rekening met de volgende beperkingen wanneer u werkt met CDF-bestanden:
 >
->* Voordat u CDF-bestandslevering instelt, moet u ervoor zorgen dat u over de juiste machtigingen van externe gegevensleveranciers beschikt voor het exporteren van externe traits.
+>* Voordat u CDF-bestandslevering instelt, moet u ervoor zorgen dat u over de juiste machtigingen van externe gegevensleveranciers beschikt voor het exporteren van externe traits. Audience Manager ondersteunt momenteel geen functionaliteit in de gebruikersinterface om CDF-toestemming voor het exporteren van bestanden van gegevensleveranciers van derden te vragen. Neem daarom een onafhankelijk contact op met deze leveranciers.
 >* Gebruik geen [!UICONTROL CDF] bestanden als proxy om het paginaverkeer te controleren, verschillen in rapporten of facturering op elkaar af te stemmen, enzovoort.
 
 
@@ -355,7 +355,7 @@ In de volgende tabellen worden de elementen in een [!UICONTROL CDF] `.info` best
 
 ## [!UICONTROL Customer Data Feed] Tijdstippen voor bestandsnaam en bestandsinhoud verschillen {#different-processing-times}
 
-Het [!UICONTROL CDF] bestand bevat tijdstempels in de bestandsnaam en -inhoud. Deze tijdstempels registreren verschillende gebeurtenisprocessen voor hetzelfde [!UICONTROL CDF] bestand. Het is niet ongebruikelijk om verschillende tijdstempels in de naam en inhoud van het zelfde dossier te zien. Als u een goed begrip van elk tijdstempel hebt, voorkomt u vaak voorkomende fouten wanneer u met deze gegevens werkt of probeert deze op tijd te sorteren.
+Het [!UICONTROL CDF] bestand bevat tijdstempels in de bestandsnaam en -inhoud. Deze tijdstempels registreren verschillende gebeurtenisprocessen voor hetzelfde [!UICONTROL CDF] bestand. Het is niet ongebruikelijk om verschillende tijdstempels in de naam en inhoud van het zelfde dossier te zien. Wanneer u deze gegevens gebruikt of probeert te sorteren, kunt u algemene fouten voorkomen.
 
 ## Tijdstempels [!UICONTROL CDF] van bestand zoeken {#locating-timestamps}
 
