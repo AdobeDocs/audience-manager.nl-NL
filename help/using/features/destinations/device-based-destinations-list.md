@@ -1,15 +1,15 @@
 ---
-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Raadpleeg de Adobe Exchange-lijst (indien beschikbaar) of neem contact op met uw Adobe Consultant of de klantenservice voor meer informatie over een integratie.
-seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Raadpleeg de Adobe Exchange-lijst (indien beschikbaar) of neem contact op met uw Adobe Consultant of de klantenservice voor meer informatie over een integratie.
+description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
+seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
 seo-title: Server-aan-server Doelen van de Adobe Audience Manager
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Server-aan-server Doelen van de Adobe Audience Manager
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1116'
 ht-degree: 71%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 71%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Deze pagina bevat alleen de huidige, op [!DNL Audience Manager] apparaten gebaseerde doelen [](/help/using/features/destinations/add-device-based-destinations.md) . In [!DNL Audience Manager], worden [!UICONTROL device-based destinations] ook geroepen [!UICONTROL server-to-server destinations]. Raadpleeg de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -lijst (indien beschikbaar) of neem contact op met uw [!DNL Adobe] consultant of de klantenservice voor meer informatie over een integratie.
+Deze pagina bevat alleen de huidige, op [!DNL Audience Manager] apparaten gebaseerde doelen [](/help/using/features/destinations/add-device-based-destinations.md) . In [!DNL Audience Manager], worden [!UICONTROL device-based destinations] ook geroepen [!UICONTROL server-to-server destinations]. Raadpleeg voor meer informatie over een integratie de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -lijst (indien beschikbaar) of neem contact op met uw [!DNL Adobe] consultant of de klantenservice.
 
  
 
 * **Laatst bijgewerkt** = Geeft de laatste datum weer waarop er een update voor dit [!UICONTROL device-based destination]bestand is uitgevoerd.
 * **Updates** = wijst erop of [!DNL Audience Manager] verzendt gegevens in real time of partij (1xday) aan dit [!UICONTROL destination].
-* **Unsegment** = Unsegmentation beschrijft processen die apparatenprofielen van diskwalificeren en verwijderen [!UICONTROL segments]. De mogelijkheid om een apparaatprofiel te verwijderen van een apparaat [!UICONTROL segment] hangt af van de apparaatoptie die wordt gebruikt om een [!UICONTROL Profile Merge Rule]profiel te maken. Onsegmentatie wordt ook gebruikt in de context van [!DNL GDPR] verwijderingsverzoeken. Lees de Regels van de Fusie van het [Profiel en de Verwerken](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) van de Ontsegmentatie van het Apparaat en de Partners van de [Audience Manager met Unsegmentation Mogelijkheden](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] verzendt unsegment informatie naar [!UICONTROL destinations] duidelijk met **ja** hieronder.
+* **Unsegment** = Unsegmentation beschrijft processen die apparatenprofielen van deskwalificeren en verwijderen [!UICONTROL segments]. De mogelijkheid om een apparaatprofiel te verwijderen van een apparaat [!UICONTROL segment] hangt af van de apparaatoptie die wordt gebruikt om een [!UICONTROL Profile Merge Rule]profiel te maken. Onsegmentatie wordt ook gebruikt in de context van [!DNL GDPR] verwijderingsverzoeken. Lees de Regels van de Fusie van het [Profiel en de Verwerken](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) van de Ontsegmentatie van het Apparaat en de Partners van de [Audience Manager met Unsegmentation Mogelijkheden](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] verzendt unsegment informatie naar [!UICONTROL destinations] duidelijk met **ja** hieronder.
 * **Het ontvangen van[!DNL IAB TCF]toestemmingssignalen** = [!DNL Audience Manager Plug-in for IAB TCF] laat u toe om het [!DNL IAB TC] koord aan activeringspartners door te sturen terwijl het eerbiedigen van de privacykeuzen van gebruikers. Read [Audience Manager Plug-in for IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
 * **[!DNL ICDS]** = Deze kolom maakt een lijst van de partners die steunen [!UICONTROL Instant Cross-Device Suppression]. Lees meer over [Onmiddellijke ondersteuning](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md)voor verschillende apparaten.
 * **Mobiel apparaat-id&#39;s** = Deze kolom bevat partners die mobiele apparaat-id&#39;s kunnen ontvangen van [!DNL Audience Manager].
@@ -84,7 +84,6 @@ Deze pagina bevat alleen de huidige, op [!DNL Audience Manager] apparaten gebase
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Ja | Ja | Nee | Ja |
 | [!DNL Gamut Media] | 03/03/2017 | In real time |  | Nee | Nee |  |
-| [!DNL Google AdsWords Display] | 02/08/2018 | In real time | Ja | Ja | Nee | Ja |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 24/04/2017 | In real time | Ja | Ja | Ja | Ja |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 24/04/2017 | In real time | Ja | Ja | Ja | Ja |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 24/04/2017 | In real time | Ja | Ja | Ja | Ja |
