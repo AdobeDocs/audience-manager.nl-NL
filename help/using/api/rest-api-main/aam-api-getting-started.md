@@ -7,9 +7,9 @@ title: Aan de slag met REST-API’s
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: 0fd2b2a58274199ecc2fd58738113165c804ceb8
+source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1860'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Let op het volgende wanneer u werkt met [Audience Manager API](https://bank.demd
 
 De [!DNL Audience Manager] [!DNL REST APIs] ondersteuning biedt twee verificatiemethoden.
 
-* [JWT-verificatie (serviceaccount)](#jwt) met [Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] is het ontwikkelaarsecosysteem en de ontwikkelaarscommunity van Adobe. Dit omvat de [Adobe I/O-ontwikkelaarsgereedschappen en API&#39;s](https://www.adobe.io/apis/experienceplatform.html) en [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html). Dit is de aanbevolen manier om instellingen en toepassingen in te stellen [!DNL Adobe][!DNL APIs].
+* [JWT-verificatie (serviceaccount)](#jwt) met [Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] is Adobe. Het bevat de [Adobe I/O-ontwikkelaarsgereedschappen en API&#39;s](https://www.adobe.io/apis/experienceplatform.html) en [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html). Dit is de aanbevolen manier om instellingen en toepassingen in te stellen [!DNL Adobe][!DNL APIs].
 * [OAuth-verificatie (afgekeurd)](#oauth). Hoewel deze methode is afgekeurd, kunnen klanten met bestaande [!DNL OAuth] integratie deze methode blijven gebruiken.
 
 >[!IMPORTANT]
@@ -49,9 +49,9 @@ De [!DNL Audience Manager] [!DNL REST APIs] ondersteuning biedt twee verificatie
 
 ## [!DNL JWT] ([!DNL Service Account]) Verificatie met behulp van Adobe I/O {#jwt}
 
-### Overzicht van Adobe I/O {#adobeio}
+### Adobe I/O-overzicht {#adobeio}
 
-[!DNL Adobe I/O] is het ontwikkelaarsecosysteem en de ontwikkelaarscommunity van Adobe. Dit omvat de [Adobe I/O-ontwikkelaarsgereedschappen en API&#39;s](https://www.adobe.io/apis/experienceplatform.html) en [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html).
+[!DNL Adobe I/O] is Adobe. Het bevat de [Adobe I/O-ontwikkelaarsgereedschappen en API&#39;s](https://www.adobe.io/apis/experienceplatform.html) en [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html).
 
 Dit is de aanbevolen manier om instellingen en toepassingen in te stellen [!DNL Adobe][!DNL APIs].
 
@@ -65,8 +65,8 @@ Voer de onderstaande stappen uit om [!DNL JWT (Service Account)] verificatie te 
 
 1. Meld u aan bij de [Adobe Developer Console](https://console.adobe.io/).
 1. Volg de stappen in de Verbinding [van de Rekening van de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Dienst.
-   * Tijdens [stap 2: Voeg een API aan uw project toe gebruikend de authentificatie](https://www.adobe.io/authentication/auth-methods.html#step-2-add-an-api-to-your-project-using-service-account-authentication)van de Rekening van de Dienst, kies de [!DNL Audience Manager] [!DNL API] optie.
-1. Probeer uit de verbinding door uw eerste [!DNL API] vraag te maken die op de instructies van [Stap 3](https://www.adobe.io/authentication/auth-methods.html#step-3-try-it.)wordt gebaseerd.
+   * Tijdens [stap 2: Voeg een API aan uw project toe gebruikend de authentificatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)van de Rekening van de Dienst, kies de [!DNL Audience Manager] [!DNL API] optie.
+1. Probeer uit de verbinding door uw eerste [!DNL API] vraag te maken die op de instructies van [Stap 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)wordt gebaseerd.
 
 >[!NOTE]
 >
@@ -195,7 +195,7 @@ U kunt deze optionele parameters gebruiken met [!DNL API] methoden die *alle* ei
 | `descending` | Sorteert en retourneert resultaten in aflopende volgorde. `ascending` is standaard. |
 | `search` | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Stel dat u resultaten wilt zoeken voor alle modellen die het woord &quot;Testen&quot; hebben in een van de waardevelden voor dat item. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://aam.adobe.io/v1/models/?search=Test`.  U kunt zoeken op elke waarde die door de methode &quot;[!DNL get all]&quot; wordt geretourneerd. |
 | `folderId` | Retourneert alle id&#39;s voor [!UICONTROL traits] de opgegeven map. Niet beschikbaar voor alle methoden. |
-| `permissions` | Retourneert een lijst met segmenten op basis van de opgegeven machtiging. `READ` is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u deze door `"permissions":"READ"`, `"permissions":"WRITE"` . |
+| `permissions` | Retourneert een lijst met segmenten op basis van de opgegeven machtiging. `READ` is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u het bestand door `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Reeks aan `true` om uw toestemmingen voor het segment terug te keren. Standaard is dit `false`. |
 
 ### Een opmerking over paginaopties
