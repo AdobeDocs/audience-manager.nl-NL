@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Vereisten en overwegingen
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: f9e6aedb408db218c548f469330ece584db75853
+source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 4%
+source-wordcount: '1015'
+ht-degree: 3%
 
 ---
 
@@ -49,6 +49,14 @@ Voordat u [!UICONTROL People-Based Destinations] de doelsegmenten van de eerste 
 Leer hoe te om uw [!DNL LinkedIn Campaign Manager] gebruikerstoestemmingen uit te geven, zie [toevoegen, uitgeven, en verwijdert de Toestemmingen van de Gebruiker op Advertising Rekeningen](https://www.linkedin.com/help/lms/answer/5753) in de documentatie LinkedIn.
 
 Zie [Begrip en het Vormen LinkedIn op mensen-Gebaseerde Bestemming](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) voor videoinstructies.
+
+### [!DNL Google Customer Match]
+
+Alvorens u kunt gebruiken [!UICONTROL People-Based Destinations] om uw segment van het eerste partijpubliek naar een [!DNL Google Customer Match] bestemming te verzenden, is het verplicht dat u aan hun lijst van gewenste personen [!DNL Google] toevoegt.
+
+Neem contact op met uw [!DNL Google] vertegenwoordiger en volg de instructies van de lijst van gewenste personen die in de [Use Customer Match Partners worden beschreven om uw gegevensdocumentatie](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) te uploaden [!DNL Google] .
+
+Zodra dit proces is voltooid, kunt u uw [!UICONTROL People-Based Destination]tot stand brengen.
 
 ## Data-onboarding {#data-onboarding}
 
