@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Vereisten en overwegingen
 feature: People-Based Destinations
 translation-type: tm+mt
-source-git-commit: 2e32f9ebff487ae8dfb2088ec1bbfcea1daa00a1
+source-git-commit: d3184195d6a51ff013a3d1fc8526ca9afd3386c2
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 3%
@@ -32,7 +32,7 @@ Neem contact op met uw Adobe-vertegenwoordiger om gebruik te maken van deze prem
 
 ## Partner-specifieke vereisten {#partner-prerequisites}
 
-### [!DNL Facebook]
+### [!DNL Facebook] {#facebook}
 
 Voordat u uw eerste-partijpubliek [!UICONTROL People-Based Destinations] [!UICONTROL segments] [!DNL Facebook]naar kunt sturen, moet u controleren of aan de volgende vereisten is voldaan:
 
@@ -42,7 +42,7 @@ Voordat u uw eerste-partijpubliek [!UICONTROL People-Based Destinations] [!UICON
    > When configuring the permissions for Adobe Experience Cloud, you must enable the **Manage campaigns** permission. Dit is nodig voor de [!UICONTROL People-Based Destinations]-integratie.
 3. Lees en onderteken de [!DNL Facebook Custom Audiences] Servicevoorwaarden. Ga daarvoor naar `https://business.facebook.com/ads/manage/customaudiences/tos/?act=[accountID]`, waarbij `accountID` uw [!DNL Facebook Ad Account ID] is.
 
-### [!DNL LinkedIn]
+### [!DNL LinkedIn] {#linkedin}
 
 Voordat u [!UICONTROL People-Based Destinations] de doelsegmenten van de eerste partij naar kunt sturen, moet u ervoor zorgen dat uw [!DNL LinkedIn]account het machtigingsniveau [!DNL LinkedIn Campaign Manager] [!DNL Creative Manager] of hoger heeft.
 
@@ -50,7 +50,7 @@ Leer hoe te om uw [!DNL LinkedIn Campaign Manager] gebruikerstoestemmingen uit t
 
 Zie [Begrip en het Vormen LinkedIn op mensen-Gebaseerde Bestemming](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) voor videoinstructies.
 
-### [!DNL Google Customer Match]
+### [!DNL Google Customer Match] {#gcm}
 
 Alvorens u kunt gebruiken [!UICONTROL People-Based Destinations] om uw segment van het eerste partijpubliek naar een [!DNL Google Customer Match] bestemming te verzenden, is het verplicht dat u aan hun lijst van gewenste personen [!DNL Google] toevoegt.
 
