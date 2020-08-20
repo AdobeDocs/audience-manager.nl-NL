@@ -7,7 +7,7 @@ title: Uitgaande sjabloonmacro’s
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 31366fb83fc9aaeffc6d4a078dc2e07a0fd727a4
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 2%
@@ -107,7 +107,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Voegt een haakje sluiten }-teken in. </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een haakje sluiten <code>}</code> in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -135,7 +135,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Hiermee voegt u een open accolade {-teken in. </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een open haakje <code>{</code> in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
