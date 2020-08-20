@@ -8,9 +8,9 @@ title: Gedeclareerde id’s
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
 feature: ID Syncs
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1187'
 ht-degree: 9%
 
 ---
@@ -38,7 +38,7 @@ Sommige browsers, en de meeste mobiele apparaten, accepteren geen derde [!DNL co
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Gebeurtenisoproep</b> </td> 
-   <td colname="col2"> <p>Om te werken, hebt u <span class="wintitle"> DIL </span> en de code van de Dienst van de Identiteit van het <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform </a> op de pagina nodig. <span class="wintitle"> DIL </span> krijgt gedeclareerde id's <span class="wintitle"> van de </span> functie die wordt geleverd door de <code> setVisitorID </code> identiteitsdienst van het Adobe Experience Platform <span class="keyword"> en geeft die door aan de </span> Audience Manager <span class="keyword"> </span>. </p> </td> 
+   <td colname="col2"> <p>Als u wilt werken, hebt u <span class="wintitle"> DIL </span> en de <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service- </a> code op de pagina nodig. <span class="wintitle"> DIL krijgt </span> verklaarde IDs <span class="wintitle"> van de </span> functie die door de Dienst van de Identiteit van <code> setVisitorID </code> Adobe Experience Platform wordt verstrekt <span class="keyword"> en gaat dat op </span> Audience Manager over <span class="keyword"> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identiteitskaart afstemmen</b> </td> 
@@ -55,14 +55,14 @@ Sommige browsers, en de meeste mobiele apparaten, accepteren geen derde [!DNL co
  </tbody>
 </table>
 
-Om te beginnen, moet u de dienst van [!DNL Experience Cloud] [!UICONTROL DIL] identiteitskaart en over de pagina&#39;s op uw plaats vormen die u voor gegevensinzameling wilt gebruiken. Zie [DIL voor het maken](../dil/dil-class-overview/dil-create.md#dil-create) en [declareren van id-variabelen](../features/declared-ids.md#declared-id-variables).
+Om te beginnen, moet u de dienst van [!DNL Experience Cloud] [!UICONTROL DIL] identiteitskaart en over de pagina&#39;s op uw plaats vormen die u voor gegevensinzameling wilt gebruiken. Zie [DIL variabelen](../dil/dil-class-overview/dil-create.md#dil-create) maken en [declareren](../features/declared-ids.md#declared-id-variables).
 
 ## Uitgaande oproepen {#opt-out-calls}
 
 Bij dit [!UICONTROL declared ID] proces worden de voorkeuren van de sitebezoeker aangehouden om te weigeren zich op uw website te [!DNL Audience Manager] richten. When [!DNL Audience Manager] receives an opt-out request, the [!DNL JSON] returned by the [!DNL DCS] contains the error code 171, with the message `Encountered opt out tag`, instead of the [!DNL Audience Manager] user ID.
 
 * [!DNL Audience Manager] een [!UICONTROL declared ID] opt-out kan doorgeven naast een [!DNL Audience Manager] in de [!UICONTROL UUID] [!DNL URL].
-* De [!UICONTROL declared ID] opt-out wordt opgeslagen in [!UICONTROL de Server van het Geheime voorgeheugen van het Profiel ([!UICONTROL PCS]) op een per-partnerbasis. Er is geen opt-out op platformniveau [!UICONTROL declared IDs]. Bovendien [!DNL Audience Manager] kiest u ervoor dat de gebruiker uit dat bepaalde gebied aan de rand komt (de optie Weigeren overschrijdt niet de [!DNL DCS] regio&#39;s).
+* De [!UICONTROL declared ID] opt-out wordt opgeslagen in [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) per partner. Er is geen opt-out op platformniveau [!UICONTROL declared IDs]. Bovendien [!DNL Audience Manager] kiest u ervoor dat de gebruiker uit dat bepaalde gebied aan de rand komt (de optie Weigeren overschrijdt niet de [!DNL DCS] regio&#39;s).
 
 Zie [Gegevensprivacy](../overview/data-security-and-privacy/data-privacy.md) voor meer informatie over het opting-out van gegevensinzameling.
 
@@ -115,11 +115,11 @@ Deze methoden werken nog wel, maar worden als afgekeurd beschouwd. Deze informat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Optie op partnerniveau </p> </td> 
-   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Een opt-out van het partnerniveau wordt opgeslagen voor de recentste afbeelding van dit <code> dpid </code> + <code> dpuuid </code> paar aan AAM UUID. Als er geen eerder bestaande afbeelding is, controleert de Audience Manager of de aanvraag een AAM UUID in het cookie bevat, en als dit het geval is, gebruikt deze om de opt-out op te slaan. Anders, produceert de Audience Manager een nieuwe UUID AAM en slaat opt uit onder het op. </p> </td> 
+   <td colname="col2"> <p> <code> https://demoptout.jpg?d_dpuuid= user ID&amp;d_dpid= data provider ID </code> </p> <p>Een opt-out van het partnerniveau wordt opgeslagen voor de recentste afbeelding van dit <code> dpid </code> + <code> dpuuid </code> paar aan AAM UUID. Als er nog geen bestaande toewijzing is, controleert de Audience Manager of de aanvraag een AAM UUID in het cookie bevat en, als dit het geval is, gebruikt deze om de opt-out op te slaan. Anders genereert Audience Manager een nieuwe AAM UUID en slaat de opt-out onder deze UID op. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_dpuuid </code> + <code> d_dpid </code> en expliciet <code> d_uuid </code> </p> </td> 
-   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> heeft altijd voorrang. Als de combinatie <code> dpid </code> + <code> dpuuid </code> aan een andere UUID AAM toewijst, wordt opt-out opgeslagen onder AAM UUID die in het verzoek ( <code> d_uuid </code>) wordt overgegaan. </p> </td> 
+   <td colname="col2"> <p> <code> https://<i>domain</i>/demoptout.jpg?d_uuid= user ID&amp;d_dpuuid= data provider's user ID&amp;<i>d_dpid=data provider ID</i> </code> </p> <p> <code> d_uuid </code> heeft altijd voorrang. Als de combinatie <code> dpid </code> + <code> dpuuid </code> aan een andere AAM UUID in kaart brengt, wordt opt-out opgeslagen onder AAM UUID die in het verzoek ( <code> d_uuid </code>) wordt overgegaan. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -185,7 +185,7 @@ Beschrijft de configuratievariabelen die worden gebruikt om door te gaan [!UICON
 
 ## [!UICONTROL DIL] gebruikt de optie [!DNL Adobe Experience Platform Identity Service] Voldoende [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Wanneer gebruikt met de Dienst [van de Identiteit van het](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html)Adobe Experience Platform, hoeft u niet meer binnen [!UICONTROL declared IDs] met verouderde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] zich op de `visitorService` functie om van de [!UICONTROL declared IDs] functie in de `setCustomerIDs` functie te krijgen [!UICONTROL Adobe Experience Platform Identity Service]. Zie [Klantnamen en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)voor meer informatie. Je belt `visitorService` in `DIL.create` zoals hieronder weergegeven.
+Wanneer gebruikt met de Dienst [van de Identiteit van](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html)Adobe Experience Platform, te hoeven u niet meer om binnen [!UICONTROL declared IDs] met verouderde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] zich op de `visitorService` functie om van de [!UICONTROL declared IDs] functie in de `setCustomerIDs` functie te krijgen [!UICONTROL Adobe Experience Platform Identity Service]. Zie [Klantnamen en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)voor meer informatie. Je belt `visitorService` in `DIL.create` zoals hieronder weergegeven.
 
 ```js
 var vDil = DIL.create({
@@ -275,7 +275,7 @@ myCallback({
 })
 ```
 
-## Geen Target- en Uitschakelen-Vraag {#do-not-target}
+## Niet de Vraag van het Doel en van de Weigering {#do-not-target}
 
 Bij dit [!UICONTROL declared ID] proces worden de voorkeuren van de sitebezoeker aangehouden om te weigeren zich op uw website te [!DNL Audience Manager] richten. Wanneer [!DNL Audience Manager] een opt-out-aanvraag wordt ontvangen, wordt een leeg [!DNL DCS] object geretourneerd in plaats van de [!DNL JSON] [!DNL Audience Manager] gebruikersnaam.
 
