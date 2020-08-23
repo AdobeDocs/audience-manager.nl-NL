@@ -7,9 +7,9 @@ title: Overdrachtbeheerbestanden voor logboekbestandoverdracht
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 033057e080a72c82ec8ff9233e199d5e204a622c
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '307'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Overdrachtbeheerbestanden voor logboekbestandoverdracht {#transfer-control-files-for-log-file-transfers}
 
-Overdracht-controle ([!DNL .info]) de dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
+Overdracht-controle ([!DNL .info]) de dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correcte dossieroverdrachten behandelde.
 
 [!DNL Audience Manager] verzendt een overdracht-controle dossier naar een partner met elke dossieroverdracht. Wegens de multi-thread aard van de [!DNL FTP] uitgever, zou het overdracht-controle dossier kunnen worden verzonden alvorens de daadwerkelijke dossiers worden gebeëindigd overbrengend.
 
@@ -76,7 +76,7 @@ Als het eerste bestand in de reeks bijvoorbeeld een naam had: [!DNL ftp_12345_67
 }
 ```
 
->[OPMERKING]
+>[!NOTE]
 >
 > Het totale aantal batches is exclusief voor het [!DNL .info] bestand zelf. Dat wil zeggen dat de totalen niet het [!DNL .info] bestand, de byte of het aantal regels bevatten.
 >
