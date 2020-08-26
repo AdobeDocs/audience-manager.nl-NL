@@ -7,9 +7,9 @@ title: Aan de slag met de regels voor profielsamenvoeging
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profile Merge Rules
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dc22ed98b51b5633532bab45a79a14ee14dba5f5
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1304'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Met de tekstvelden die aan deze instellingen zijn gekoppeld, kunt u de naam van 
 
 Als u een sectie wilt maken, gaat u naar [!UICONTROL Profile Merge Rule]**[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** en voert u de stappen uit voor elke sectie die hier wordt beschreven.
 
-U kunt maximaal drie samenvoegregels maken nadat u een apparaatgegevensbron hebt ingesteld. U krijgt toegang tot een vierde Regel van de Fusie van het Profiel ([!UICONTROL All Cross-Device Profiles]) als u omhoog voor [Mensen-Gebaseerde Doelen](../destinations/people-based-destinations-overview.md)ondertekent.
+U kunt maximaal drie samenvoegregels maken nadat u een gegevensbron voor meerdere apparaten hebt ingesteld. U krijgt toegang tot een vierde Regel van de Fusie van het Profiel ([!UICONTROL All Cross-Device Profiles]) als u omhoog voor [Mensen-Gebaseerde Doelen](../destinations/people-based-destinations-overview.md)ondertekent.
 
 Beheerdersmachtigingen zijn vereist voor het maken, bewerken of verwijderen van een regel. Alle gebruikers kunnen bestaande bestanden weergeven en gebruiken [!UICONTROL Profile Merge Rules].
 
@@ -105,7 +105,7 @@ De [!UICONTROL Proflie Merge Rule Setup] sectie voltooien:
 
 ### Overwegingen bij Adobe Campaign-doelen die ID&#39;s voor andere apparaten gebruiken als gebruikersidentificatietoetsen {#considerations}
 
-Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw Audience Manager-exemplaar vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
+Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw Audience Manager-instantie die op maandag 16 maart 2020 wordt gestart. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
 
 Om de correcte integratie tussen uw instantie van de Audience Manager en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals Adobe Campaign, zorg ervoor u aan de volgende vereisten voldoet:
 
@@ -114,7 +114,7 @@ Om de correcte integratie tussen uw instantie van de Audience Manager en bestemm
 
 >[!NOTE]
 >
-> Wij hebben de grens van de Regel van de Fusie van het Profiel met 1 voor klanten verhoogd die deze situatie onder ogen zien, zodat u een specifieke Regel van de Fusie van het Profiel voor de segmenten kunt tot stand brengen die aan de Adobe Campaign Verklaarde bestemming van identiteitskaart worden in kaart gebracht, zonder de Regels van de Fusie van het Profiel voor andere gebruiksgevallen te veranderen.
+> Als u uw maximumaantal hebt bereikt [!UICONTROL Profile Merge Rules] en hulp nodig hebt bij het configureren van deze op basis van de bovenstaande instructies, neemt u contact op met de klantenservice.
 
 ## Code samenvoegregel configureren {#configure-merge-rule-code}
 
@@ -126,9 +126,9 @@ Volg deze instructies om opstelling de [!UICONTROL Adobe Experience Platform Ide
 
 U moet een [apparaatgegevensbron](#create-data-source) en [profielfusieregels](#create-profile-merge-rule) instellen *voordat* u deze procedures voltooit.
 
-## Voor klanten van de Dienst van de Identiteit van het Adobe Experience Platform {#id-service-customers}
+## Voor klanten van Adobe Experience Platform Identity Service {#id-service-customers}
 
-De [!UICONTROL Adobe Experience Platform Identity Service] en nieuwste versie van [DIL](../../dil/dil-overview.md) worden aanbevolen wanneer u werkt met [!UICONTROL Profile Merge Rules]. U hoeft deze functie echter niet te gebruiken [!UICONTROL Adobe Experience Platform Identity Service] om met deze functie te werken. Als u alleen werkt [!UICONTROL DIL], raadpleegt u de [oudere DIL-sectie](#legacy-dil) hieronder.
+De [!UICONTROL Adobe Experience Platform Identity Service] en de nieuwste versie van [DIL](../../dil/dil-overview.md) worden aanbevolen wanneer u werkt met [!UICONTROL Profile Merge Rules]. U hoeft deze functie echter niet te gebruiken [!UICONTROL Adobe Experience Platform Identity Service] om met deze functie te werken. Als je alleen werkt [!UICONTROL DIL], zie de [oudere DIL sectie](#legacy-dil) hieronder.
 
 ### De functie Customer ID instellen configureren
 
@@ -173,7 +173,7 @@ In het naamruimte-sleutelwaardepaar is de `*`MCORG`*` -variabele uw [!DNL Experi
 
 Zie de sectie SDK&#39;s [configureren](#configure-sdks-legacy-dil) hieronder.
 
-## Verouderde DIL {#legacy-dil}
+## Legacy DIL {#legacy-dil}
 
 Als je het nog niet gebruikt, zou je het echt moeten doen. [!DNL Adobe Experience Platform Identity Service] Maar we begrijpen dat de overgang naar nieuwe code zorgvuldig moet worden overwogen en getest. Controleer in deze gevallen of deze `DIL.create` functie op de juiste wijze is ingesteld, zoals in het onderstaande codevoorbeeld wordt getoond.
 
