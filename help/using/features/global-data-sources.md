@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Algemene databronnen
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '444'
 ht-degree: 3%
 
 ---
@@ -24,12 +24,12 @@ In de volgende tabel worden de algemene gegevensbronnen beschreven die door Audi
 
 | Gegevensbron-id | Beschrijving |
 |---|---|
-| 20914 | **Google Advertising ID** - **** GAID&#39;s vertegenwoordigen apparaten die het [!DNL Android] besturingssysteem uitvoeren. |
-| 20915 | **Apple ID For Advertising** - **** IDFA&#39;s vertegenwoordigen apparaten die het [!DNL iOS] besturingssysteem uitvoeren. |
-| 121963 | **Roku ID for Advertising** - **** RIDA&#39;s vertegenwoordigen [!DNL Roku] streamingapparaten. |
-| 389146 | **Microsoft Advertising ID** - **** MAID&#39;s vertegenwoordigen apparaten waarop het [!DNL Windows 10] besturingssysteem wordt uitgevoerd. |
-| 404660 | **Samsung** DUID&#39;s vertegenwoordigen [!DNL Samsung] slimme tv&#39;s. |
-| 488258 | **Reclame-** id&#39;s voor Amazon Fire TV vertegenwoordigen apparaten die worden uitgevoerd [!DNL Amazon Fire OS] |
+| 20914 | **[!DNL Google Advertising ID]** - **[!DNL GAID]** Id&#39;s zijn apparaten die het [!DNL Android] besturingssysteem uitvoeren. |
+| 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** Id&#39;s zijn apparaten die het [!DNL iOS] besturingssysteem uitvoeren. |
+| 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** ID&#39;s vertegenwoordigen [!DNL Roku] streamingapparaten. |
+| 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** Id&#39;s zijn apparaten waarop het [!DNL Windows 10] besturingssysteem wordt uitgevoerd. |
+| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** ID&#39;s zijn [!DNL Samsung] slimme tv&#39;s. |
+| 488258 | **[!DNL Amazon Fire TV Advertising IDs]** vertegenwoordigen apparaten die [!DNL Amazon Fire OS] |
 
 ## Gegevens uit globale gegevensbronnen importeren
 
@@ -56,7 +56,7 @@ Audience Manager verwijdert automatisch id&#39;s voor apparaatreclame na 120 dag
 
 ## Nieuwe globale gegevensbronnen aanvragen
 
-Als u nieuwe globale gegevensbronnen wilt aanvragen om aan de Audience Manager te worden toegevoegd, neemt u contact op met Adobe Consulting of de klantenservice van Adobe en verstrekt u gedetailleerde informatie over de vereiste gegevensbronnen:
+Om nieuwe globale gegevensbronnen te verzoeken om aan Audience Manager te worden toegevoegd, contacteer de Raadpleging van de Adobe of Adobe de Zorg van de Klant en verstrek gedetailleerde informatie over de vereiste gegevensbronnen:
 
 * de naam van het gevraagde platform (bv. [!UICONTROL Apple IDFA]);
 * de naam van de onderneming/organisatie die het platform beheert (bv. [!UICONTROL Apple Inc.]);
