@@ -8,9 +8,9 @@ title: Mapeigenschappen beheren
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4ea5ba4ebd8cd4c13c99c8272f4b5733ab5fa125
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '362'
 ht-degree: 9%
 
 ---
@@ -36,7 +36,7 @@ Er [!UICONTROL folder trait] wordt automatisch een map gemaakt wanneer u een nie
 
 1. Klik op het pictogram + om de map te maken. U kunt maximaal 2.000 mappen maken in uw taxonomie. Raadpleeg de documentatie over [gebruikslimieten](../../features/administration/usage-limits.md) voor meer informatie.
 1. Geef de map een naam en klik op **Opslaan**. Een map met de naam Electronics heeft bijvoorbeeld een mapkenmerk met de naam &#39;Electronics Folder Trait&#39;. U kunt de nieuwe mapkenmerken weergeven en selecteren op het dashboard met kenmerken.
-1. Het nieuwe mapkenmerk wordt automatisch toegewezen aan de [!DNL Audience Manager] gegenereerde gegevensbron. Uw gebruikers met de juiste machtigingen [!UICONTROL Role-Based Access Control ([!DNL RBAC])] kunnen de gegevensbron wijzigen in de workflow voor het bewerken van de mapmap. Zie Een mapmap [bewerken](../../features/traits/manage-folder-traits.md#edit-folder-trait).
+1. Het nieuwe mapkenmerk wordt automatisch toegewezen aan de [!DNL Audience Manager] gegenereerde gegevensbron. Gebruikers met de juiste [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) machtigingen kunnen de gegevensbron wijzigen in de workflow voor het bewerken van de map. Zie Een mapmap [bewerken](../../features/traits/manage-folder-traits.md#edit-folder-trait).
 
 ## Een mappenset bewerken {#edit-folder-trait}
 
