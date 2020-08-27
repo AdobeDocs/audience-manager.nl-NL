@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Algemene databronnen
 feature: Data Sources
 translation-type: tm+mt
-source-git-commit: b8b848ad04d1ec07c12e57d94e4f3c6e672dc102
+source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 3%
@@ -28,7 +28,7 @@ In de volgende tabel worden de algemene gegevensbronnen beschreven die door Audi
 | 20915 | **[!DNL Apple ID For Advertising]** - **[!DNL IDFA]** Id&#39;s zijn apparaten die het [!DNL iOS] besturingssysteem uitvoeren. |
 | 121963 | **[!DNL Roku ID for Advertising]** - **[!DNL RIDA]** ID&#39;s vertegenwoordigen [!DNL Roku] streamingapparaten. |
 | 389146 | **[!DNL Microsoft Advertising ID]** - **[!DNL MAID]** Id&#39;s zijn apparaten waarop het [!DNL Windows 10] besturingssysteem wordt uitgevoerd. |
-| 404660 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** ID&#39;s zijn [!DNL Samsung] slimme tv&#39;s. |
+| 963906 | **[!DNL Samsung Tizen IDs for Advertising]** - **[!DNL TIFA]** ID&#39;s zijn [!DNL Samsung] slimme tv&#39;s. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** vertegenwoordigen apparaten die [!DNL Amazon Fire OS] |
 
 ## Gegevens uit globale gegevensbronnen importeren
