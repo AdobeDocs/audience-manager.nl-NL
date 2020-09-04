@@ -7,10 +7,10 @@ title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databestande
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
+source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 7%
+source-wordcount: '863'
+ht-degree: 8%
 
 ---
 
@@ -92,9 +92,9 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
    <td colname="col2"> <p>Een tijdstempel van 10 cijfers (UTC UNIX) in seconden. Met de tijdstempel kunt u elke bestandsnaam uniek maken. </p> 
-    <draft-comment> 
-     <p> <p>Opmerking:  Audience Manager gebruikt de tijdstempel niet tijdens het verwerken van binnenkomende bestanden. Het tijdstempel in de bestandsnaam is afgekeurd in de Audience Manager, maar is nog steeds vereist voor achterwaartse compatibiliteit. </p> </p> 
-    </draft-comment> </td> 
+    <!-- 
+     <p> <p>Note:  Audience Manager does not use the timestamp during processing of inbound files. The timestamp in the filename has been deprecated in Audience Manager but is still required for backwards compatibility. </p> </p> 
+    --> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
