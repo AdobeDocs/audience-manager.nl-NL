@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 1be20c2412a272e6374b8b84e6a5c1628da18497
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1551'
 ht-degree: 7%
 
 ---
@@ -57,7 +57,7 @@ Als adverteerder wil ik mijn eerste-partijpubliek in real-time classificeren, zo
 
 Als marketeer wil ik voorspellen in welke reisfase mijn websitebezoekers verkeren, zoals detectie, betrokkenheid, aankoop of retentie, zodat ik hen dienovereenkomstig kan richten.
 
-### Hoofdletters gebruiken #6
+### Hoofdletters en kleine letters gebruiken #6
 
 Als mediabedrijf wil ik mijn publiek categoriseren, zodat ik mijn advertentieruimte tegen een hoge prijs kan verkopen en mijn bezoekers relevante advertenties kan aanbieden.
 
@@ -79,7 +79,7 @@ U kunt om het even welk van uw eerstepartijeigenschappen of segmenten kiezen om 
 * Kies basislijnkenmerken of segmenten met minimale overlapping.
 * Zorg ervoor dat u granulaire kenmerken vastlegt over de digitale eigenschappen.
 
-### Selectiecriteria voor de Target-doelgroep {#selection-audience}
+### Selectiecriteria voor doelgroep {#selection-audience}
 
 Net als een persoonlijke selectie moet u uw doelpubliek kiezen [!UICONTROL trait] of [!UICONTROL segment] dat het doelpubliek zo definieert dat het realtime gebruikers met rijke sets gebruikers heeft, [!UICONTROL traits]zodat het kan worden ingedeeld in de juiste persoon.
 
@@ -113,6 +113,9 @@ Houd bij het configureren van uw [!UICONTROL Predictive Audiences] modellen reke
 * Voor elk model kunt u maximaal 50 basiskenmerken/segmenten kiezen.
 * Gegevens van derden en derden worden momenteel niet ondersteund in [!UICONTROL Predictive Audiences].
 * De classificatie van het publiek wordt gedaan slechts voor echt - tijd eerste-partijpubliek. In een toekomstige update wordt mogelijk ondersteuning geboden voor gebruikers met de classificatie van eerste partijen aan boord.
+   >[!IMPORTANT]
+   > Als u een voorspelbaar kenmerk toevoegt aan een regulier segment, wordt het een voorspellend segment. Alle gekoppelde profielen zijn daarom niet-gesegmenteerd.
+
    >[!IMPORTANT]
    > Momenteel, kunnen de vooruitlopende segmenten in bestemmingen in real time slechts worden geactiveerd. De [!UICONTROL Total Segment Population] en [!UICONTROL Addressable Audience] van uw vooruitlopende segmenten worden weergegeven als 0 en de uitgaande gegevensoverdrachten [van de](../../integration/receiving-audience-data/batch-outbound-transfers/batch-outbound-overview.md) Partij worden niet ondersteund voor [!UICONTROL Predictive Audiences]. Dit gedrag verandert in een toekomstige update.
 * [!UICONTROL Predictive Audiences] voert publieksclassificatie uit die op uw eerste partijeigenschappen, van al uw eerste-partijgegevensbronnen wordt gebaseerd.
