@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager-plug-in voor IAB TCF
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
 source-wordcount: '2449'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -76,7 +76,7 @@ U moet aan de volgende voorwaarden voldoen om de Plug-in van de Audience Manager
 
 Voor het inschakelen van IAB TCF-ondersteuning in Audience Manager leest u onze documentatie over het [instellen van IAB met Opt-in](https://docs.adobe.com/content/help/nl-NL/id-service/using/implementation/opt-in-service/iab.html).
 
-De eenvoudigste manier om dit te doen, is door [Adobe Experience Platform starten](https://docs.adobe.com/content/help/en/launch/using/overview.html) te gebruiken om [!DNL ECID Opt-in] aan uw eigenschappen toe te voegen. Lees de documentatie voor de [ECID Opt-in-uitbreiding](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) om te ontdekken hoe u de Launch-uitbreiding kunt instellen.
+De eenvoudigste manier om dit te doen, is door [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) te gebruiken om [!DNL ECID Opt-in] uw eigenschappen toe te voegen. Lees de documentatie voor de [ECID Opt-in-uitbreiding](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) om te ontdekken hoe u de Launch-uitbreiding kunt instellen.
 
 ## Workflow voor gebruikersopties bij gebruik van het IAB-kader {#user-choice-workflow}
 
@@ -90,7 +90,7 @@ De onderstaande afbeelding is een voorbeeld van een CMP-dialoogvenster dat wordt
 
 Details over de verschillende doeleinden en toestemmingen inbegrepen in IAB TCF v2.0 zijn behandeld in het Beleid van het Kader van het Kader van de Transparantie &amp; van de Toestemming van [IAB Europa](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
 
-Gebruikers kunnen hun toestemming of gewettigd belang (indien beschikbaar) verlenen voor een combinatie van doeleinden en verkopers. Gebruikers zouden bijvoorbeeld hun toestemming kunnen verlenen om informatie op een apparaat op te slaan, producten te ontwikkelen en te verbeteren, en hun toestemming kunnen verlenen aan alle derde leveranciers die door het CMP worden weergegeven.
+Gebruikers kunnen hun toestemming of gewettigd belang (indien beschikbaar) verlenen voor een combinatie van doeleinden en verkopers. Gebruikers zouden bijvoorbeeld hun toestemming kunnen verlenen om informatie op een apparaat op te slaan, producten te ontwikkelen en te verbeteren, en hun toestemming kunnen geven aan alle externe leveranciers die door het CMP worden weergegeven.
 
 Of in een ander voorbeeld zouden zij hun toestemming of rechtmatig belang voor alle doeleinden kunnen verlenen, maar slechts toestemming of rechtmatig belang kunnen verlenen aan een aantal verkopers die door het CMP worden getoond.
 
@@ -118,13 +118,13 @@ Audience Manager werkt anders, afhankelijk van of de IAB TC-tekenreeks toestemmi
 
 Wij controleren ook gebruikerstoestemming voor alle bestemmingen die u in Audience Manager werkt, zolang die bestemmingen met IAB TCF worden geregistreerd.
 
-| Wanneer uw gebruiker *toestemming verleent*, doet Audience Manager het volgende: | Als uw gebruiker *geen* toestemming verleent, doet Audience Manager het volgende: |
+| When your user *provides* consent, Audience Manager: | Als uw gebruiker *geen* toestemming verleent, doet Audience Manager het volgende: |
 |---|---|
 | <ul><li>voert alle Audience Manager-gebruiksscenario’s uit die u hebt aangevraagd.</li><li>Conveys consent to third parties in ID syncs (by passing `gdpr = 1` and the consent string as `gdpr_consent` on ID sync calls).</li><li>evalueert en honoreert toestemming die door advertentieserverpixels is doorgegeven.</li><li>honoreert door partner geïnitieerde id-synchronisaties.</li></ul> | <ul><li>slaat geen nieuwe gebruikersdata op in uw instantie. Dit omvat partner-id’s, signalen, eigenschappen of pixeldata.</li><li>initieert geen id-synchronisaties van derden.</li><li>honoreert geen door partner geïnitieerde id-synchronisaties.</li><li>Hiermee wordt de gebruiker uitgesloten van verdere gegevensverzameling.</li></ul> |
 
 ## Gebruiksscenario voor uitgevers {#publisher-use-case}
 
-Door de plug-in Audience Manager voor IAB TCF te implementeren, hoeft u geen aangepaste code te onderhouden voor het beheer van uw toestemming op uw wegeigenschappen via een ander mechanisme met Adobe of andere externe leveranciers. Het gebruiksscenario wordt beschreven in de afbeelding en in de onderstaande stappen. Begin aan de linkerkant van de afbeelding:
+Door de Audience Manager-plug-in voor IAB TCF te implementeren, hoeft u geen aangepaste code te onderhouden voor het beheer van de toestemming op uw wegeigenschappen via een ander mechanisme met Adobe of andere externe leveranciers. Het gebruiksscenario wordt beschreven in de afbeelding en in de onderstaande stappen. Begin aan de linkerkant van de afbeelding:
 
 1. Een gebruiker bezoekt een van uw webeigenschappen. Zolang u de nieuwste versies van de ECID- en DIL-bibliotheken gebruikt (zie [Voorwaarden](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md#prerequisites)), is de opt-in-stroom geactiveerd.
 2. Audience Manager controleert of de IAB-stroom van toepassing is (`isIabContext=true`). Zie [Aanbevelingen en de implementatie daarvan](aam-iab-plugin.md#recommendations).
