@@ -1,13 +1,13 @@
 ---
-description: Codevoorbeelden en beschrijvingen voor specifieke gevallen van DIL-gebruik.
-seo-description: Codevoorbeelden en beschrijvingen voor specifieke gevallen van DIL-gebruik.
+description: Codevoorbeelden en beschrijvingen voor specifieke gevallen waarin DIL wordt gebruikt.
+seo-description: Codevoorbeelden en beschrijvingen voor specifieke gevallen waarin DIL wordt gebruikt.
 seo-title: DIL-gebruiksscenario’s en codevoorbeelden
 solution: Audience Manager
 title: DIL-gebruiksscenario’s en codevoorbeelden
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # DIL-gebruiksscenario’s en codevoorbeelden{#dil-use-cases-and-code-samples}
 
-Codevoorbeelden en beschrijvingen voor specifieke gevallen van DIL-gebruik.
+Codevoorbeelden en beschrijvingen voor specifieke gevallen waarin DIL wordt gebruikt.
 
 <!-- 
 
@@ -27,7 +27,7 @@ c_dil_use_case.xml
 
 ## Gegevenselementen naar Audience Manager verzenden met DIL {#send-data-elements-dil}
 
-Maak een objectvariabele die informatie over pagina-elementen naar de Audience Manager verzendt. Dit is handig voor algemene gegevensverzameling of als alternatief voor het verzamelen van gegevens met Analytics-variabelen.
+Maak een objectvariabele die informatie over pagina-elementen naar de Audience Manager verzendt. Dit is nuttig voor algemene gegevensinzameling of als alternatief aan het verzamelen van gegevens met variabelen van de Analyse.
 
 <!-- 
 
@@ -47,35 +47,35 @@ Vergeet niet de eigenschappen van de waarde gelijk te houden wanneer u gegevens 
 
 In dit eenvoudige voorbeeld worden kleur- en prijsgegevens naar de Audience Manager verzonden in de vorm van sleutelwaardeparen. De code kan er ongeveer als volgt uitzien:
 
-<pre class="&ldquo;java&rdquo;"><code>
-var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
+```
+var sample_dil = DIL.create({partner:"partner name"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
 }); 
 sample_dil.api.submit();
-</code></pre>
+```
 
 **Voorbeeld 2: Gegevens verzenden in een object**
 
 In dit geavanceerde voorbeeld wordt getoond hoe gegevens in een object naar Audience Manager worden verzonden. Wanneer u met deze methode werkt, [!UICONTROL DIL] kunt u een object als functieparameter doorgeven aan de [!DNL signals()] methode. [!UICONTROL DIL] De code kan er ongeveer als volgt uitzien:
 
-<pre class="java"><code>
+```js
 var my_object = { 
    color : "blue", 
    price : "900" 
 }; 
  
-var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+var sample_dil = DIL.create({ partner : "partner name" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
 sample_dil.api.signals(my_object,"c_").submit();
-</code></pre>
+```
 
 **Voorbeeld 3: Paginagegevens verzenden in een array**
 
 In dit geval `my_object` gebruikt de variabele een array om gegevens op te slaan. Dit voorbeeld bouwt op de informatie voort die door de geadviseerde methode hierboven wordt overgegaan, maar voegt een extra laag toe om een producttype en een model aan te passen. De code kan er ongeveer als volgt uitzien:
 
-<pre class="java"><code>
+```js
 var my_objects = [{ 
    color : "blue", 
    price : "900" 
@@ -84,7 +84,7 @@ var my_objects = [{
    model : "tl" 
 }]; 
  
-var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+var sample_dil = DIL.create({ partner : "partner name" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
@@ -92,7 +92,7 @@ for (var i = 0; i < my_objects.length; i++)
     sample_dil.api.signals(my_objects[i], "c_"); 
 } 
 sample_dil.api.submit();
-</code></pre>
+```
 
 ## URL van vastlegverwijzing {#capture-referring-url}
 
@@ -112,10 +112,10 @@ c_dil_hrefer_over_https.xml
 
 De code kan er ongeveer als volgt uitzien:
 
-<pre class="java"><code>
-var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
+```js
+var adobe_dil = DIL.create({ partner : "partner name" }); 
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
-</code></pre>
+```
 
 ## Typen zoekmachines vastleggen en zoektermen vastleggen {#capture-search-engine-types}
 
@@ -123,7 +123,7 @@ Gegevens over zoekmachinetypen en trefwoordzoekopdrachten naar Audience Manager 
 
 >[!IMPORTANT]
 >
->In deze sectie wordt de oudere functionaliteit beschreven. Deze wordt niet ondersteund in de nieuwste versies van DIL.
+>In deze sectie wordt de oude functionaliteit beschreven die niet wordt ondersteund in de nieuwste versies van DIL.
 
 **Ondersteunde zoekmachines**
 
@@ -143,16 +143,16 @@ In de volgende code ziet u hoe u de zoekreferentie ophaalt voor een van de onder
 
 De basiscode voor het ophalen van de zoekverwijzer (bijvoorbeeld van `google.com`) ziet er als volgt uit:
 
-```java
+```js
 var search_referrer = DIL.tools.getSearchReferrer();
 ```
 
 **Voorbeeld code van vermelde zoekmachine**
 
-In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van [!DNL Google] Canada ( `www.google.ca`) zocht. Let op hoe de code de vereiste `c_` parameter vooraf vastlegt aan zoekmachine ( `c_se`) en zoekterm ( `c_st`). `c_` is een [vereist prefix](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
+In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van [!DNL Google] Canada ( `www.google.ca`) zocht. Let op hoe de code de vereiste `c_` parameter vooraf definieert voor zoekprogramma&#39;s ( `c_se`) en zoektermen ( `c_st`). `c_` is een [vereist prefix](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
 
-<pre class="java"><code>
-var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
+```js
+var adobe_dil = DIL.create({partner:"partner name"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
 if (search_referrer && search_referrer.valid) { 
@@ -161,14 +161,14 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-</code></pre>
+```
 
 **Voorbeeld van code van niet-vermelde zoekmachine**
 
-In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van `dogpile.com`zocht. Omdat [!DNL Dogpile] dit zoekprogramma niet standaard wordt ondersteund, kunt u DIL zodanig configureren dat dit wordt herkend en de zoektermen terugkeren naar Audience Manager. De code kan er ongeveer als volgt uitzien:
+In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van `dogpile.com`zocht. Omdat [!DNL Dogpile] standaard niet wordt ondersteund, kunt u DIL configureren om deze zoekmachine te herkennen en de zoektermen terug te sturen naar Audience Manager. De code kan er ongeveer als volgt uitzien:
 
-<pre class="java"><code>
-var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
+```js
+var adobe_dil = DIL.create({partner:"partner name"}); 
 var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
@@ -180,7 +180,7 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-</code></pre>
+```
 
 ## Sleutelwaarden toewijzen aan andere toetsen {#map-key-values}
 
@@ -202,7 +202,7 @@ Als voorbeeld verzamelt u ZIP-codegegevens van een bepaalde site, maar wilt u de
 
 De code kan er ongeveer als volgt uitzien:
 
-```java
+```js
 var adobe_dil = DIL.create({ 
     partner : "adobe", 
     mappings : { 
@@ -214,9 +214,9 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
-## Traffic DIL in Google Tag Manager (GTM) {#traffic-dil-gtm}
+## DIL in Google Tag Manager (GTM) {#traffic-dil-gtm}
 
-DIL instellen en bedienen met een GTM-tag.
+Stel DIL in en bedien deze met een GTM-tag.
 
 <!-- 
 
