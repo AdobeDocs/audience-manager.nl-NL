@@ -8,9 +8,9 @@ title: Verificatiestatus van bezoekers in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '440'
 ht-degree: 5%
 
 ---
@@ -24,25 +24,10 @@ Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de `setCustomerID` methode 
 
 ## Verificatiestatus: ONBEKEND {#auth-status-unknown}
 
-<table id="table_E1EA51533FAE4BBFB338D6F6116BC1F9"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Aanvraagwaarde </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel lezen</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nieuwe kenmerken naar het geverifieerde profiel schrijven</b> </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 0 </code> </p> </td> 
-   <td colname="col2"> <p>Ja, als de voor authentiek verklaarde Optie Regel van de Fusie = "Laatste Voor authentiek verklaarde Profielen". </p> </td> 
-   <td colname="col3" morerows="1"> <p>Nee, de gegevens over de eigenschap worden toegevoegd aan het apparaatprofiel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Nee, als de regel Samenvoegen van geverifieerde optie = "Huidige geverifieerde profielen" of "Geen geverifieerd profiel" is. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Aanvraagwaarde | **Informatie uit het geverifieerde profiel lezen** | **Nieuwe kenmerken naar het geverifieerde profiel schrijven** |
+---------|----------|---------
+| 0 | <ul><li>Ja, als de voor authentiek verklaarde Optie Regel van de Fusie = &quot;Laatste Voor authentiek verklaarde Profielen&quot;.</li><li>Nee, als de regel Samenvoegen van geverifieerde optie = &quot;Huidige geverifieerde profielen&quot; of &quot;Geen geverifieerd profiel&quot; is.</li></ul> | Nee, de gegevens over de eigenschap worden toegevoegd aan het apparaatprofiel. |
+
 
 Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wordt gemarkeerd):
 
@@ -50,25 +35,9 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
 
 ## Verificatiestatus: GEAUTHENTIFICEERD {#auth-status-authenticated}
 
-<table id="table_956ABF96024744308F7773E1F96482B7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Aanvraagwaarde </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel lezen</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nieuwe kenmerken naar het geverifieerde profiel schrijven</b> </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 1 </code> </p> </td> 
-   <td colname="col2"> <p>Ja, als de regel Samenvoegen van geverifieerde optie = "Huidige geverifieerde profielen" of "Laatste geverifieerde profielen" is. </p> </td> 
-   <td colname="col3" morerows="1"> <p>Ja, de gegevens van de eigenschap worden toegevoegd aan het geverifieerde profiel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>Nr, als de Voor authentiek verklaarde Optie Regel van de Fusie = "Geen Voor authentiek verklaard Profiel". </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Aanvraagwaarde | **Informatie uit het geverifieerde profiel lezen** | **Nieuwe kenmerken naar het geverifieerde profiel schrijven** |
+---------|----------|---------
+| 1 | <ul><li>Ja, als de regel Samenvoegen van geverifieerde optie = &quot;Huidige geverifieerde profielen&quot; of &quot;Laatste geverifieerde profielen&quot; is.</li><li>Nr, als de Voor authentiek verklaarde Optie Regel van de Fusie = &quot;Geen Voor authentiek verklaard Profiel&quot;.</li></ul> | Ja, de gegevens van de eigenschap worden toegevoegd aan het geverifieerde profiel. |
 
 Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wordt gemarkeerd):
 
@@ -76,25 +45,9 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
 
 ## Verificatiestatus: LOGGED_OUT {#auth-status-logged-out}
 
-<table id="table_783F0CBB0431482AA49F41468FA65B19"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Aanvraagwaarde </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel lezen</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nieuwe kenmerken naar het geverifieerde profiel schrijven</b> </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1" morerows="1"> <p> <code> 2 </code> </p> </td> 
-   <td colname="col2"> Ja, als de voor authentiek verklaarde Optie Regel van de Fusie = "Laatste Voor authentiek verklaarde Profielen" </td> 
-   <td colname="col3" morerows="1"> <p>Nee, de gegevens over de eigenschap worden naar het apparaatprofiel geschreven. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> Nee, als de regel voor het samenvoegen van geverifieerde opties = "Huidige geverifieerde profielen" of "Geen geverifieerd profiel" is </td> 
-  </tr> 
- </tbody> 
-</table>
+| Aanvraagwaarde | **Informatie uit het geverifieerde profiel lezen** | **Nieuwe kenmerken naar het geverifieerde profiel schrijven** |
+---------|----------|---------
+| 2 | <ul><li>Ja, als de voor authentiek verklaarde Optie Regel van de Fusie = &quot;Laatste Voor authentiek verklaarde Profielen&quot;</li><li>Nee, als de regel voor het samenvoegen van geverifieerde opties = &quot;Huidige geverifieerde profielen&quot; of &quot;Geen geverifieerd profiel&quot; is</li></ul> | Nee, de gegevens over de eigenschap worden naar het apparaatprofiel geschreven. |
 
 Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wordt gemarkeerd):
 
