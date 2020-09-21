@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 67%
+source-wordcount: '1024'
+ht-degree: 64%
 
 ---
 
@@ -115,6 +115,12 @@ Ja, dat kan wanneer de gebruiker geen eigenschappen in zijn/haar profiel heeft. 
 **Kan een gebruiker die in één van de voorspellende segmenten is geclassificeerd, opnieuw worden geclassificeerd in een ander [!UICONTROL Predictive Audiences]-segment?**
 
 Ja. Aangezien de algoritme dagelijks wordt getraind, past deze de wijzigingen voor alle persona’s aan in termen van eigenschapscores. Als een gebruiker die in een [!UICONTROL Predictive Audiences]-segment thuishoort, actief is, kunnen de wijzigingen in zijn of haar eigenschapscore de classificatie wijzigen op basis van de activiteit van de afgelopen 30 dagen.
+
+ 
+
+**Kan ik voorspellende eigenschappen aan regelmatige segmenten toevoegen?**
+
+Wanneer u een vooruitlopende eigenschap aan een normaal segment toevoegt, wordt het segment een vooruitstrevend segment. Alle gekoppelde profielen zijn daarom niet-gesegmenteerd. De voorspellende segmenten kunnen slechts naar bestemmingen in real time worden verzonden.
 
  
 
