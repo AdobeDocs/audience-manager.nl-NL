@@ -1,27 +1,27 @@
 ---
-description: Een metagegevensbestand koppelt numerieke id's met namen die u kunt lezen en begrijpen. De rapporten van de Optimalisering van de Publiek tonen leesbare namen in de diverse menu's van rapportopties.
-seo-description: Een metagegevensbestand koppelt numerieke id's met namen die u kunt lezen en begrijpen. De rapporten van de Optimalisering van de Publiek tonen leesbare namen in de diverse menu's van rapportopties.
+description: Een metagegevensbestand koppelt numerieke id's met namen die u kunt lezen en begrijpen. De Audience Optimization rapporten tonen leesbare namen in de diverse menu's van rapportopties.
+seo-description: Een metagegevensbestand koppelt numerieke id's met namen die u kunt lezen en begrijpen. De Audience Optimization rapporten tonen leesbare namen in de diverse menu's van rapportopties.
 seo-title: Overzicht en toewijzingen voor metadatabestanden
 solution: Audience Manager
 title: Overzicht en toewijzingen voor metadatabestanden
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 4%
+source-wordcount: '836'
+ht-degree: 3%
 
 ---
 
 
 # Overzicht en toewijzingen voor metadatabestanden{#overview-and-mappings-for-metadata-files}
 
-Een metagegevensbestand koppelt numerieke id&#39;s met namen die u kunt lezen en begrijpen. De rapporten van de Optimalisering van de Publiek tonen leesbare namen in de diverse menu&#39;s van rapportopties.
+Een metagegevensbestand koppelt numerieke id&#39;s met namen die u kunt lezen en begrijpen. De Audience Optimization rapporten tonen leesbare namen in de diverse menu&#39;s van rapportopties.
 
 ## Overzicht {#overview}
 
-Een overzicht van metagegevens en hoe deze worden gebruikt. Een metagegevensbestand moet vergezeld gaan van een gegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie de Dossiers van [Gegevens voor de Rapporten van de Optimalisering van het Publiek en de Acteerbare Dossiers](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)van het Logboek.
+Een overzicht van metagegevens en hoe deze worden gebruikt. Een metagegevensbestand moet vergezeld gaan van een gegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie de Dossiers van [Gegevens voor de Rapporten van de Audience Optimization en Acteerbare Logdossiers](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### Metagegevensbestanden bevatten gegevens over andere gegevens
 
@@ -39,9 +39,9 @@ Een metagegevensbestand met de juiste indeling kan dit creatieve bestand echter 
 
 ### Wanneer hebt u een metagegevensbestand nodig
 
-Eerst, worden een meta-gegevensdossier, en alle hieronder vermelde parameters, vereist in een gebeurtenisvraag wanneer u de Rapporten [van de Optimalisering van de](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Publiek wilt gebruiken.
+Eerst, worden een meta-gegevensdossier, en alle hieronder vermelde parameters, vereist in een gebeurtenisvraag wanneer u de Rapporten [van de](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audience Optimization wilt gebruiken.
 
-Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar verzendt [!DNL Audience Manager] of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. Bijvoorbeeld, [!DNL Audience Manager] heeft een integratie met de Manager van de Campagne van Google [tweemaal klikken](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Wegens deze verhouding, [!DNL Audience Manager] kan identiteitskaarts met namen en beschrijvingen associëren die door de rapportopties worden gebruikt. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
+Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar verzendt [!DNL Audience Manager] of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. Bevat bijvoorbeeld [!DNL Audience Manager] een integratie met Google&#39;s [Dubbelklik op Campagne Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Wegens deze verhouding, [!DNL Audience Manager] kan identiteitskaarts met namen en beschrijvingen associëren die door de rapportopties worden gebruikt. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
 
 ![](assets/metadata_menu.png)
 
@@ -112,7 +112,7 @@ Met de id&#39;s die door deze sleutelwaardeparen worden doorgegeven, kunt u de n
 
 In dit voorbeeld maken we een metagegevensbestand dat creatieve namen aan een [!UICONTROL Audience Optimization] rapport toevoegt. Hiervoor moeten we creatieve id&#39;s, campagne- en gegevensbronid&#39;s ophalen uit een gebeurtenisaanroep.
 
-![](assets/metadata_file_event.png)
+![gebeurtenisschema voor metagegevensbestand](assets/metadata_file_event.png)
 
 ### Bestandsnaam
 
@@ -124,7 +124,7 @@ In een bestandsnaam:
 
 * De creatieve id&#39;s en campagne-id&#39;s vertegenwoordigen een categorie in plaats van een werkelijke id.
 
-![](assets/metadata_file_name.png)
+![naamschema metagegevensbestand](assets/metadata_file_name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,17 +132,17 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 In dit voorbeeld weerspiegelt de bestandsinhoud de creatieve id&#39;s en campagne-id&#39;s die zijn doorgegeven aan de gebeurtenisaanroep. Het nieuwe element hier is een leesbare naam. Na verwerking wordt de naam in dit bestand als een optie weergegeven in het menu Creatief van een [!UICONTROL Audience Optimization] rapport.
 
-![](assets/metadata_file_contents.png)
+![inhoudsschema metagegevensbestand](assets/metadata_file_contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Bestandslevering
 
-Nadat u de naam hebt gegeven en gegevens aan een bestand hebt toegevoegd, verzendt u het bestand naar de opslagmap van Amazon S3 die wordt geleverd door [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Nadat u een naam hebt gegeven en gegevens aan een bestand hebt toegevoegd, verzendt u deze naar een Amazon S3-opslagmap die wordt geleverd door [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
->* [Gegevensbestanden voor publiek optimalisatierapporten](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [Gegevensbestanden voor Audience Optimization-rapporten](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Klikdata campagne vastleggen via pixelcalls](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Campagne-impressiedata vastleggen via pixelcalls](../../../integration/media-data-integration/impression-data-pixels.md)
 
