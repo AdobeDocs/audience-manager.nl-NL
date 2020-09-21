@@ -1,15 +1,15 @@
 ---
-description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in de Audience Manager en gebruiken in de rapporten Audience Optimization en voor Actionable Log Files. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
-seo-description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in de Audience Manager en gebruiken in de rapporten Audience Optimization en voor Actionable Log Files. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
+description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in de Audience Manager en gebruiken in de Audience Optimization-rapporten en voor uitvoerbare logbestanden. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
+seo-description: Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in de Audience Manager en gebruiken in de Audience Optimization-rapporten en voor uitvoerbare logbestanden. Maak uw gegevensbestanden op volgens de specificaties in deze sectie.
 seo-title: Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden
 solution: Audience Manager
 title: Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1010'
 ht-degree: 3%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 3%
 
 # Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden {#data-files-for-audience-optimization-reports}
 
-Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in Audience Manager om deze weer te geven in de rapporten [voor optimalisatie van](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) publiek en kenmerken maken met behulp van de gegevens via [uitvoerbare logbestanden](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
+Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in Audience Manager om deze weer te geven in de [Audience Optimization-rapporten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) en kenmerken maken met behulp van de gegevens via [uitvoerbare logbestanden](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
 
 ## Overzicht {#overview}
 
-Met een bestand met een correcte naam en opmaak kunt u indruk-, klik- of conversiegegevens importeren naar de rapporten [voor optimalisatie van](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)doelgroepen. Dit is nuttig wanneer het werken met een partner die niet met geïntegreerd is [!DNL Audience Manager] en u met hun gegevens in die rapportreeks wilt werken. Voor dit proces zijn aparte bestanden nodig voor de weergave, klik en conversie van gegevens. Meng deze gebeurtenissen niet in één bestand.
+Met een bestand met een correcte naam en opmaak kunt u indruk-, klik- of conversiegegevens importeren naar [Audience Optimization-rapporten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Dit is nuttig wanneer het werken met een partner die niet met geïntegreerd is [!DNL Audience Manager] en u met hun gegevens in die rapportreeks wilt werken. Voor dit proces zijn aparte bestanden nodig voor de weergave, klik en conversie van gegevens. Meng deze gebeurtenissen niet in één bestand.
 
 Een gegevensbestand moet vergezeld gaan van een metagegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie [Overzicht en Toewijzingen voor de Dossiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)van Meta-gegevens.
 
@@ -29,7 +29,7 @@ Een gegevensbestand moet vergezeld gaan van een metagegevensbestand. De inhoud v
 
 De volgende syntaxis definieert de structuur van een goed gevormde naam van een gegevensbestand. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan die afhankelijk van de bestandsinhoud verandert.
 
-**Syntaxis:** <pre><i>gebeurtenistype</i>_<i>jjjjjjmmdd</i></code></pre>
+**Syntaxis:** `event type_yyyymmdd`
 
 In een bestandsnaam:
 
@@ -39,15 +39,15 @@ In een bestandsnaam:
 
 Geef uw gegevensbestanden, op basis van de inhoud van de bestanden, de volgende naam op basis van deze vereisten:
 
-* Impressiegegevens: <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
-* Klik op gegevens: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
-* Conversiegegevens: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* Impressiegegevens: `impressions_yyyymmdd.gz`
+* Klik op gegevens: `clicks_yyyymmdd.gz`
+* Conversiegegevens: `conversions_yyyymmdd.gz`
 
 ## Content Format for Data Files {#content-format}
 
 De volgende syntaxis definieert de inhoudsstructuur in een correct samengesteld gegevensbestand. Opmerking: *cursief* geeft een plaatsaanduiding voor variabelen aan en wordt vervangen door een label in een feitelijk gegevensbestand.
 
-**Syntaxis:** <pre><i>koptekstlabel 1</i> | <i>Koptekstlabel 2</i> ... <i>koptekstlabel n</i> | <i>versie</i></code></pre>
+**Syntaxis:** `header label 1 | header label 2 ... header label n | version`
 
 In de bestandsinhoud:
 
@@ -153,7 +153,7 @@ Upload uw afbeeldings-, klik- of conversiegegevensbestanden naar een Amazon S3-d
 
 Gegevens worden in een aparte naamruimte voor elke klant in een [!DNL Amazon S3] map opgeslagen. Het bestandspad volgt de onderstaande syntaxis. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan. Andere elementen zijn constanten of sleutels en veranderen niet.
 
-**Syntaxis:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>bestandstype</i>_<i>yyyymmdd</i></code></pre>
+**Syntaxis:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
 
 In de volgende tabel worden deze elementen gedefinieerd in een pad voor het leveren van bestanden.
 
