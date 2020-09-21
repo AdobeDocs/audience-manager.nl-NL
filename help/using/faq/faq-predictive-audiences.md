@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 91ed0e755982375f41ed5eb484fa8e60bbe6f8e5
+source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 64%
 
 ---
@@ -106,6 +106,8 @@ Als u echter een profiel selecteert dat alleen is gebaseerd op apparaatprofielen
 
 Analyseer uw gebruiksgeval zorgvuldig en bepaal welke [!UICONTROL trait] types u het model van en welk type van gegevens wilt leren u het model voor classificatie wilt gebruiken.
 
+ 
+
 **Kan het zijn dat een gebruiker uit de doelgroep die geen deel uitmaakt van een persona-eigenschap/segment niet is geclassificeerd?**
 
 Ja, dat kan wanneer de gebruiker geen eigenschappen in zijn/haar profiel heeft. In dat geval krijgt de gebruiker een matchscore van 0 voor alle persona-eigenschappen/segmenten en wordt daarom niet in een van de voorspellende segmenten geclassificeerd.
@@ -120,7 +122,7 @@ Ja. Aangezien de algoritme dagelijks wordt getraind, past deze de wijzigingen vo
 
 **Kan ik voorspellende eigenschappen aan regelmatige segmenten toevoegen?**
 
-Wanneer u een vooruitlopende eigenschap aan een normaal segment toevoegt, wordt het segment een vooruitstrevend segment. Alle gekoppelde profielen zijn daarom niet-gesegmenteerd. De voorspellende segmenten kunnen slechts naar bestemmingen in real time worden verzonden.
+Wanneer u een vooruitstrevend bezit aan een regelmatig segment toevoegt, wordt het een vooruitstrevend segment. Alle gekoppelde profielen zijn daarom niet-gesegmenteerd. De voorspellende segmenten kunnen slechts naar bestemmingen in real time worden verzonden.
 
  
 
