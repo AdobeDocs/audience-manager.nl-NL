@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Toegankelijkheid in Audience Manager
 feature: overview
 translation-type: tm+mt
-source-git-commit: 032e01f2483543271680093ae3286bcf3b3b3740
+source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ We hebben ondersteuning voor meerdere toegankelijkheidsfuncties ontwikkeld om ie
 
    ![toegankelijkheid - markering](assets/accesibility-highlight.png)
 
-* Met de `Return` toetsen en `Space` toetsen activeert u het geselecteerde item.
+* Met de `Return` (`Enter`) en `Space` toetsen activeert u het geselecteerde item.
 
 ## Toegankelijke tabelsortering {#table-sorting}
 
@@ -62,6 +62,4 @@ Voorbeeld: laadschermen bevatten een spinner in een wit modaal vak, alles boven 
 
 [!DNL Audience Manager] streeft ernaar een steeds grotere mate van toegankelijkheid te bieden , waardoor het product voor iedereen gebruiksvriendelijk wordt gemaakt .
 
-Zie het rapport over toegankelijkheidsconformiteit voor meer informatie over de verbeteringen in toegankelijkheid en de compatibiliteitsstatus.
-
-Daarnaast raden we u aan het feedbackformulier [voor toegankelijkheid van](https://www.adobe.com/accessibility/feedback.html) Adobe te gebruiken om verbeteringssuggesties en toegankelijkheidsproblemen te verzenden. We zijn erg blij dat je rekening houdt met je feedback en deze verbetert [!DNL Audience Manager].
+We raden u aan het feedbackformulier [voor toegankelijkheid van](https://www.adobe.com/accessibility/feedback.html) Adobe te gebruiken om ons suggesties voor verbeteringen en toegankelijkheidsproblemen te sturen. We zijn erg blij dat je rekening houdt met je feedback en deze verbetert [!DNL Audience Manager].
