@@ -8,9 +8,9 @@ title: Een algoritmisemodel maken
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: bff108115e7ebd4375d81c1c32ec9bb7d1a207c1
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '638'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Voer de onderstaande stappen uit om een [!UICONTROL Look-Alike Model]:
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/)
 
 ## Basisinformatie voor algoritmische modellen {#basic-information}
 
@@ -68,7 +68,7 @@ Met [!UICONTROL Model Builder]de [!UICONTROL Basic Information] instellingen kun
 | **[!UICONTROL Description]** | Een veld voor aanvullende beschrijvende informatie over het model. |
 | **[!UICONTROL Status]** | Hiermee activeert of deactiveert u het model (standaard geactiveerd). |
 
-## Configuratie {#configuration}
+## configuratie {#configuration}
 
 In [!UICONTROL Model Builder], laat de [!UICONTROL Configuration] sectie u eigenschappen of segmenten aan het model toevoegen. Selecteer in deze sectie een basislijnkenmerk of -segment, een terugkijkperiode en gegevens uit uw eerste en derde gegevensbronnen.
 
