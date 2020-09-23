@@ -7,9 +7,9 @@ title: Overzicht en toewijzingen voor metadatabestanden
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
 feature: log files
 translation-type: tm+mt
-source-git-commit: e075bbfc3c2316518838ad428577eae191e45eda
+source-git-commit: f37ba905d603a3b95fda3ab797bb882f94e0066d
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '839'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Eerst, worden een meta-gegevensdossier, en alle hieronder vermelde parameters, v
 
 Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar verzendt [!DNL Audience Manager] of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. Bevat bijvoorbeeld [!DNL Audience Manager] een integratie met Google&#39;s [Dubbelklik op Campagne Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Wegens deze verhouding, [!DNL Audience Manager] kan identiteitskaarts met namen en beschrijvingen associëren die door de rapportopties worden gebruikt. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
 
-![](assets/metadata-menu.png)
+![schema voor metagegevensmenu](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-menu.png)
 
 ## Bestandstoewijzingen {#file-mappings}
 
@@ -112,7 +112,7 @@ Met de id&#39;s die door deze sleutelwaardeparen worden doorgegeven, kunt u de n
 
 In dit voorbeeld maken we een metagegevensbestand dat creatieve namen aan een [!UICONTROL Audience Optimization] rapport toevoegt. Hiervoor moeten we creatieve id&#39;s, campagne- en gegevensbronid&#39;s ophalen uit een gebeurtenisaanroep.
 
-![gebeurtenisschema voor metagegevensbestand](assets/metadata-file-event.png)
+![gebeurtenisschema voor metagegevensbestand](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-event.png)
 
 ### Bestandsnaam
 
@@ -124,7 +124,7 @@ In een bestandsnaam:
 
 * De creatieve id&#39;s en campagne-id&#39;s vertegenwoordigen een categorie in plaats van een werkelijke id.
 
-![naamschema metagegevensbestand](assets/metadata-file-name.png)
+![naamschema metagegevensbestand](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-name.png)
 
 See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
@@ -132,7 +132,7 @@ See [Naming Conventions for Metadata Files](../../../reporting/audience-optimiza
 
 In dit voorbeeld weerspiegelt de bestandsinhoud de creatieve id&#39;s en campagne-id&#39;s die zijn doorgegeven aan de gebeurtenisaanroep. Het nieuwe element hier is een leesbare naam. Na verwerking wordt de naam in dit bestand als een optie weergegeven in het menu Creatief van een [!UICONTROL Audience Optimization] rapport.
 
-![inhoudsschema metagegevensbestand](assets/metadata-file-contents.png)
+![inhoudsschema metagegevensbestand](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata-file-contents.png)
 
 See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
