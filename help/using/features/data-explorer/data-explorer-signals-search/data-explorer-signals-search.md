@@ -1,19 +1,19 @@
 ---
 description: Zoek naar gebruikte en ongebruikte signalen die over specifieke periodes worden ontvangen. Als u naar signalen wilt zoeken, gaat u naar Geluidsgegevens > Signalen > Zoeken.
 seo-description: Zoek naar gebruikte en ongebruikte signalen die over specifieke periodes worden ontvangen. Als u naar signalen wilt zoeken, gaat u naar Geluidsgegevens > Signalen > Zoeken.
-seo-title: 'Signalen zoeken '
-title: 'Signalen zoeken '
+seo-title: Signaalzoekopdracht
+title: Signaalzoekopdracht
 feature: Data Explorer
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: f420534f6c9e979a01b5fd9150a0d736efd2b87f
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 29%
+ht-degree: 21%
 
 ---
 
 
-# Overzicht van signalen zoeken {#signals-search}
+# Overzicht van Signal Search {#signal-search}
 
 Zoek naar gebruikte en ongebruikte signalen die over specifieke periodes worden ontvangen. Als u naar signalen wilt zoeken, gaat u naar Geluidsgegevens > Signalen > Zoeken.
 
