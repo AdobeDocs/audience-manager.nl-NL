@@ -1,6 +1,6 @@
 ---
-description: Kopers van Audience Marketplace-gegevens komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukwekkende beelden (CPM) is geprijsd. Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
-seo-description: Kopers van Audience Marketplace-gegevens komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukwekkende beelden (CPM) is geprijsd. Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
+description: Kopers van gegevens van Audience Marketplace komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer tegen een prijs per duizend en op basis van indrukken (CPM). Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
+seo-description: Kopers van gegevens van Audience Marketplace komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer tegen een prijs per duizend en op basis van indrukken (CPM). Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
 seo-title: Facturering voor datafeedkopers
 solution: Audience Manager
 title: Facturering voor datafeedkopers
@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Facturering voor datafeedkopers {#billing-for-data-feed-buyers}
 
-Kopers van Audience Marketplace-gegevens komen overeen alle advertenties te melden die zijn gediend met gebruik van de kenmerken in de gegevenstoevoer die op basis van kosten per duizend en indrukken ([!DNL CPM]) zijn geprijsd. [!DNL CPM] het gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
+Kopers van Audience Marketplace-gegevens komen overeen alle advertenties te melden die zijn gediend met gebruik van de kenmerken in de gegevenstoevoer die op basis van de kostprijs per duizend en indrukken ([!DNL CPM]) zijn geprijsd. [!DNL CPM] het gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
 
 <br> 
 
@@ -70,7 +70,7 @@ Om [!DNL CPM] gebruik op segmentniveau te melden:
 2. Selecteer het **[!UICONTROL Feed Usage]** tabblad.
 3. Gebruik het [!UICONTROL Search] vakje om de gegevensvoer te filtreren en degenen te identificeren die u gebruik voor moet melden.
 4. Klik op **[!UICONTROL Edit Feeds Usage]**.
-5. Bereken het [!DNL CPM] gebruik voor elke gegevensvoer die op de Attributie van de [Kosten voor de Dieven](#cost-attribution)van Gegevens CPM wordt gebaseerd, en ga het in de [!UICONTROL Usage] kolom in.
+5. Bereken het [!DNL CPM] gebruik voor elke gegevensvoer die op de Attributie van de [Kosten voor de Dichtheid](#cost-attribution)van Gegevens CPM wordt gebaseerd, en ga het in de [!UICONTROL Usage] kolom in.
 6. Klik **[!UICONTROL Save]** wanneer u klaar bent en bekijk het bevestigingsvenster.
 
    ![bevestiging van het gebruik van diervoeders](assets/confirm-feed-usage.png)
@@ -118,7 +118,7 @@ Het [!DNL CPM] bulkgebruik bijwerken:
 <table id="table_E68FA2130D1C495FAB8982DFB6A31FD9"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Aanbevelingen </th> 
+   <th colname="col1" class="entry"> Recommendations </th> 
    <th colname="col2" class="entry"> Beschrijving </th> 
   </tr>
  </thead>
@@ -126,7 +126,7 @@ Het [!DNL CPM] bulkgebruik bijwerken:
   <tr> 
    <td colname="col1"> <p><b>Het totale aantal afdrukken altijd rapporteren</b> </p> </td> 
    <td colname="col2"> <p>Voor CPM-schoktotalen: </p>
-   <p> Rapporteer het totale aantal indrukken, zonder decimalen te gebruiken. De Audience Manager berekent automatisch CPM dat op het totale aantal wordt gebaseerd u rapporteert.</p><p>Als u 1.234.567 beelden moet melden, rapporteer het precies zo. U te hoeven niet om het totale aantal beelden door 1.000 te verdelen om CPM te berekenen.</p><p>De reizen die worden gebruikt om uw Web of toepassingsinhoud (de Optimalisering van de Inhoud) te optimaliseren gebruikend hulpmiddelen zoals Adobe Target of een bestemming van Analytics dragen niet tot de totalen van het Gebruik voor CPM plannen bij. Gegevensleveranciers worden doorgaans gecompenseerd voor de optimalisatie van inhoud met behulp van platte vergoedingsplannen.</p><p>Zie de Attributie van <a href="#cost-attribution">Kosten voor CPM de Diefstal</a> van Gegevens voor meer informatie. </p> </td>
+   <p> Rapporteer het totale aantal indrukken, zonder decimalen te gebruiken. De Audience Manager berekent automatisch CPM dat op het totale aantal wordt gebaseerd u rapporteert.</p><p>Als u 1.234.567 beelden moet melden, rapporteer het precies zo. U te hoeven niet om het totale aantal beelden door 1.000 te verdelen om CPM te berekenen.</p><p>De reizen die worden gebruikt om uw Web of toepassingsinhoud (de Optimalisering van de Inhoud) te optimaliseren gebruikend hulpmiddelen zoals Adobe Target of een bestemming van de Analyse bijdragen niet tot de totalen van het Gebruik voor CPM plannen. Gegevensleveranciers worden doorgaans gecompenseerd voor de optimalisatie van inhoud met behulp van platte vergoedingsplannen.</p><p>Zie de Attributie van <a href="#cost-attribution">Kosten voor CPM de Diefstal</a> van Gegevens voor meer informatie. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Aankruisen aan het maandelijkse rapporteringsinterval</b> </p> </td> 
@@ -170,7 +170,8 @@ Het [!UICONTROL Activation] gebruiksgeval laat u eigenschappen in de overeenkoms
 Wanneer u het Gebruik van CPM op het Niveau [van de Diervoeders van Gegevens](#feed-level-report)Rapport, moet u beelden proportioneel voor elke gegevensvoer toewijzen, volgens de [!DNL Boolean] exploitanten die in de de kwalificatieregels van het bezit worden gebruikt. In de volgende tabel wordt aangegeven hoe u afbeeldingen op de juiste wijze kunt toewijzen door de Booleaanse regel of het type kenmerk.
 
 >[!TIP]
->[Het Gebruik van CPM van het rapport op het Niveau](#segment-level-report) van het Segment om het niveau van de gegevensvoer te hebben die automatisch door Audience Manager wordt gedaan.
+>
+> [Het Gebruik van CPM van het rapport op het Niveau](#segment-level-report) van het Segment om het niveau van de gegevensvoer te hebben die automatisch door Audience Manager wordt gedaan.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -267,6 +268,6 @@ De uitsplitsing in één oogopslag per gegevenstoevoer en gebruikscase is als vo
 
 ## Facturerings- en impressietoewijzing voor gegevens met vaste kosten {#billing-flat-fee}
 
-Bij een vaste vergoeding voor de gegevens in de feed wordt u elke maand een vast bedrag aangerekend, ongeacht wanneer het abonnement wordt gestart of hoeveel indrukken u gebruikt. De kosten worden niet geprorgeerd voor gedeeltelijk maandgebruik of intervallen. Net als bij CPM-facturering genereert Adobe een factuur en factureert het u tegen het maandelijkse, vaste tarief voor uw geabonneerde gegevensfeeds.
+Bij een vaste vergoeding voor de gegevens in de feed wordt u elke maand een vast bedrag aangerekend, ongeacht wanneer het abonnement wordt gestart of hoeveel indrukken u gebruikt. De kosten worden niet geprorgeerd voor gedeeltelijk maandgebruik of intervallen. Net als bij CPM-facturering zal Adobe een factuur genereren en u factureren tegen het maandelijkse, vaste tarief voor uw geabonneerde gegevensfeeds.
 
 Stel bijvoorbeeld dat je bepaalde eigenschappen in een voer in het midden van de maand wilde inschakelen. Je krijgt nog steeds de volledige, maandelijkse factuur, ongeacht wanneer je het abonnement hebt gestart of specifieke aanbiedingen hebt geactiveerd.
