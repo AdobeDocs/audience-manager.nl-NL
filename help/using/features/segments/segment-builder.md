@@ -7,9 +7,9 @@ title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Begin door de Create Segments in de video [](https://images-tv.adobe.com/avp/vr/
 
    * Geef de naam [!UICONTROL segment]. De maximale lengte van een [!UICONTROL segment] naam is 255 tekens.
    * Stel de [!UICONTROL segment] status in (actief is standaard).
-   * Kies een [!UICONTROL data source]. Gebruik het eerste vervolgkeuzemenu om te filteren tussen Audience Manager [!UICONTROL data sources], Adobe Analytics-rapportreeksen of beide. Kies vervolgens het tweede vervolgkeuzemenu [!UICONTROL data source]. Als u geen Adobe Analytics-rapportreeksen gebruikt, is de [!UICONTROL data source] typekiezer uitgeschakeld en wordt deze standaard alleen ingesteld op Audience Manager-gegevensbronnen.
+   * Kies een [!UICONTROL data source]. Gebruik het eerste drop-down menu om tussen Audience Manager [!UICONTROL data sources], Adobe Analytics rapportreeksen, of allebei te filtreren. Kies vervolgens het tweede vervolgkeuzemenu [!UICONTROL data source]. Als u Adobe Analytics-rapportreeksen niet gebruikt, is de [!UICONTROL data source] typekiezer uitgeschakeld en wordt deze standaard alleen ingesteld op Audience Manager-gegevensbronnen.
    * Selecteer een [!UICONTROL profile merge rule] voor [!UICONTROL segment] kwalificatie.
    * Wijs de map toe [!UICONTROL segment] aan een opslagmap.
 
@@ -59,7 +59,7 @@ Begin door de Create Segments in de video [](https://images-tv.adobe.com/avp/vr/
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445/)
 
 ## [!UICONTROL Segment Builder] Besturingselementen: [!UICONTROL Basic Information] Sectie {#segment-builder-controls-basics}
 
@@ -115,7 +115,7 @@ Met [!UICONTROL Segment Builder]de [!UICONTROL the Basic Information] instelling
 | **[!UICONTROL Name]** | Geef het segment een korte, logische naam die zijn functie of doel beschrijft. Vermijd afkortingen en speciale tekens. De maximumlengte van een segmentnaam is 255 tekens. |
 | **[!UICONTROL Description]** | Een veld voor aanvullende beschrijvende informatie over het segment. |
 | **[!UICONTROL Integration Code]** | Een veld voor een door de gebruiker gedefinieerde id of andere bedrijfsspecifieke informatie. |
-| **[!UICONTROL Data Source]** | Koppelt het segment aan een specifieke gegevensaanbieder. <br> Gebruik het eerste drop-down menu om tussen de gegevensbronnen van de Audience Manager, de rapportreeksen van Adobe Analytics, of allebei te filtreren. Kies vervolgens de gegevensbron in het tweede keuzemenu. <br> Als u geen Adobe Analytics-rapportreeksen gebruikt, is de gegevensbrontypekiezer uitgeschakeld en standaard alleen ingesteld op Audience Manager-gegevensbronnen. |
+| **[!UICONTROL Data Source]** | Koppelt het segment aan een specifieke gegevensaanbieder. <br> Gebruik het eerste drop-down menu aan filter tussen de gegevensbronnen van de Audience Manager, Adobe Analytics rapportreeksen, of allebei. Kies vervolgens de gegevensbron in het tweede keuzemenu. <br> Als u Adobe Analytics-rapportreeksen niet gebruikt, is de gegevensbrontypekiezer uitgeschakeld en standaard alleen ingesteld op Audience Manager-gegevensbronnen. |
 | **[!UICONTROL Profile Merge Rule]** | Hiermee selecteert u de regel voor het samenvoegen van profielen die u wilt gebruiken voor segmentkwalificatie. |
 | **[!UICONTROL Status]** | Hiermee activeert of deactiveert u het segment (standaard actief). |
 | **Mapopslag** | Hiermee bepaalt u tot welke opslagmap het segment behoort. |
@@ -133,8 +133,8 @@ In [!UICONTROL Segment Builder], laat de [!UICONTROL Traits] sectie u [!UICONTRO
 | **[!UICONTROL Basic View]** | Deze sectie verstrekt visuele controles die u laten: <ul><li>Nieuwe build maken en bestaande beheer [!UICONTROL segments].</li><li>Verwijderen [!UICONTROL traits] uit een [!UICONTROL segment].</li><li>Voeg maximaal 50 (maximaal) toe [!UICONTROL traits] aan een [!UICONTROL segment].</li><li>Sleep en zet de muisknop neer [!UICONTROL traits] om nieuwe groepen te maken.</li><li>Bekijk [!UICONTROL traits] en [!UICONTROL trait] groepen in een [!UICONTROL segment].</li><li>Stel kwalificatiecriteria in met Booleaanse expressies, vergelijkingsoperatoren en instellingen voor recentie/frequentie.</li></ul> |
 | **[!UICONTROL Code View]** | Hiermee opent u een ontwikkelomgeving waarin u code kunt gebruiken voor het maken en beheren van [!UICONTROL traits], groepen en kwalificatievereisten in plaats van de visuele interface. De codeweergave is handig als u [!UICONTROL segments]: <ul><li>Bevat meer dan 50 [!UICONTROL traits] personen [!UICONTROL segment]. Opmerking: [!UICONTROL Segments] zijn beperkt tot 5000 [!UICONTROL traits] (maximaal).</li><li>Bevat veel [!UICONTROL trait] groepen.</li><li>complexe kwalificatievereisten hebben.</li></ul> |
 | Zoeken | Hiermee kunt u zoeken [!UICONTROL traits] om een object toe te voegen [!UICONTROL segment]. |
-| Aanbevelingen | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van uw eerste partij [!UICONTROL traits] en [!UICONTROL Audience Marketplace] gegevensvoer dat u aan wordt geabonneerd. Voeg deze aanbevelingen aan de [!UICONTROL segment] regel toe om uw publiek uit te breiden. Lees meer in de Aanbevelingen [van het](trait-recommendations.md)Spoor. |
-| **[!UICONTROL Marketplace Recommendations]** | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van [!UICONTROL Audience Marketplace] gegevensvoer dat u niet aan wordt geabonneerd. Lees meer in de Aanbevelingen [van het](trait-recommendations.md)Spoor. |
+| Recommendations | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van uw eerste partij [!UICONTROL traits] en [!UICONTROL Audience Marketplace] gegevensvoer dat u aan wordt geabonneerd. Voeg deze aanbevelingen aan de [!UICONTROL segment] regel toe om uw publiek uit te breiden. Lees meer in [Trait Recommendations](trait-recommendations.md). |
+| **[!UICONTROL Marketplace Recommendations]** | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van [!UICONTROL Audience Marketplace] gegevensvoer dat u niet aan wordt geabonneerd. Lees meer in [Trait Recommendations](trait-recommendations.md). |
 | Gegevens over werkelijke en geschatte [!UICONTROL Segment] grootte | Zie [Populatiedata van eigenschappen en segmenten in Segment Builder](segment-builder-data.md). |
 
 ## Verwijderen [!UICONTROL Traits] uit een [!UICONTROL Segment] {#remove-traits}
