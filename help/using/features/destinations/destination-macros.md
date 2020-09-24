@@ -7,9 +7,9 @@ title: Definities van bestemmingsmacro’s
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: adab01a81c0002d28c2387a20d8ae284e11a5e41
+source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '671'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ Wanneer u een [!DNL URL] doel maakt, kunt u de volgende macro&#39;s in de [!DNL 
 
 Met de macro&#39;s `%rnd%` en de macro&#39;s voegt u unieke waarden in een `%timestamp%` [!DNL URL] tekenreeks in om te voorkomen dat de browser in cache wordt geplaatst.
 
-## Cache buigen met `%rnd%` en `%timestamp%` {#dest-cache-busting}
+## Cache Busting with %nd% and %timestamp% {#dest-cache-busting}
 
 <!-- c_dest_cache_busting.xml -->
 
@@ -109,7 +109,7 @@ Door de cache op te slaan kunnen browsers geen inhoud opslaan en opnieuw gebruik
 * `%rnd%`: Hiermee voegt u een willekeurig getal in een URL in.
 * `%timestamp%`: Hiermee wordt de Unix-datum/tijd ingevoegd in een URL.
 
-## Vergelijken `%rnd%` en `%timestamp%` {#compare-rnd-timestamp}
+## Vergelijken van %rd% en %timestamp% {#compare-rnd-timestamp}
 
 Beide macro&#39;s voorkomen caching, maar `%rnd%` kunnen efficiënter zijn. Als bijvoorbeeld meerdere gebruikers een pagina tegelijk bekijken, krijgen ze dezelfde datum-/tijdwaarde `%timestamp%`als meerdere gebruikers tegelijkertijd. Dientengevolge, [!DNL URL] is uniek en de veelvoudige vraag wordt slechts eenmaal geteld. Nochtans, `%rnd%` produceert een unieke numerieke waarde voor elke vraag (zelfs wanneer de gebruikers de zelfde pagina gelijktijdig zien). Dit betekent dat de [!DNL URL] tekenreeks andere waarden bevat en als uniek wordt geteld.
 
