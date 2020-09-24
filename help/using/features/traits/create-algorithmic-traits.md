@@ -7,10 +7,10 @@ title: Algoritmische eigenschappen maken
 uuid: 50c2d2d1-f412-479b-bb70-4f139429c388
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: aeaf8b14e901b4a39486ba3740f0582c9cf34559
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 5%
+source-wordcount: '343'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,12 @@ Ga als volgt te werk om een algoritmisch kenmerk te maken: [!UICONTROL Traits]
 1. Vouw het [!UICONTROL Configuration] deelvenster uit en klik op **[!UICONTROL Browse All Models]**.
 Hierdoor wordt een nieuw venster geopend waarin u het model kunt selecteren dat u met de eigenschap wilt gebruiken.
 1. Selecteer een model en klik op **[!UICONTROL Add Selected Model to Trait]**.
-Wanneer u het model toevoegt, worden de bereik- en nauwkeurigheidsinstellingen weergegeven.
+
+   >[!NOTE]
+   > 
+   > U kunt geselecteerde modellen voor bestaande algoritmische eigenschappen niet vervangen. Als u een ander model wilt gebruiken, moet u een nieuwe algoritmische eigenschap maken.
+
+   Wanneer u het model toevoegt, worden de bereik- en nauwkeurigheidsinstellingen weergegeven.
 1. Selecteer als doel bereik of nauwkeurigheid en kies een waarde in de desbetreffende vervolgkeuzemenu&#39;s. Klik **[!UICONTROL Save]** wanneer gereed.
 
 ## Configuratie-instellingen voor Algorithmic Traits {#configure-settings}
