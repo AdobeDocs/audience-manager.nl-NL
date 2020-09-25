@@ -1,15 +1,15 @@
 ---
 description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
 seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
-seo-title: Server-aan-server Doelen van de Adobe Audience Manager
+seo-title: Adobe Audience Manager Server-naar-server doelen
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
-title: Server-aan-server Doelen van de Adobe Audience Manager
+title: Adobe Audience Manager Server-naar-server doelen
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: 8d7935f69b496ec30a135df884756d370b44b7ed
+source-git-commit: f37464671b9000b0d6c1ae492fc4f35dd327d59d
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 71%
 
 ---
@@ -51,6 +51,7 @@ Deze pagina bevat alleen de huidige, op [!DNL Audience Manager] apparaten gebase
 | [!DNL AOL ONE] | 02/03/2017 | In real time | Ja | Nee | Nee | Ja |
 | [!DNL AppNexus] | 02/03/2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL AppNexus Yieldex] | 10/08/2017 | 1xday | Ja | Nee | Nee | Nee |
+| [!DNL Artsai (formerly Adxcel)] | 27/01/2020 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL Atedra]/[!DNL AdStanding] | 02/03/2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL Avocet] | 06/12/2017 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL Bidtellect] | 03/03/2017 | In real time | Ja | Nee | Nee | Nee |
@@ -67,12 +68,12 @@ Deze pagina bevat alleen de huidige, op [!DNL Audience Manager] apparaten gebase
 | [!DNL Criteo] | 27/02/2017 | In real time | Nee | Ja | Nee | Ja |
 | [!DNL Crosswise] | 27/02/2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL D.A.C. AudienceOne] | 27/02/2017 | 1xday | Ja | Nee | Nee | Nee |
-| [!DNL DataXu] | 11/20/2017 | In real time | Nee | Nee | Nee | Ja |
+| [!DNL DataXu] | 11/20/2017 | realtime | Nee | Nee | Nee | Ja |
 | [!DNL Digilant] | 02/03/2017 | In real time |  | Nee | Nee | Nee |
 | [!DNL DistrictM] | 02/03/2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL DoubleVerify] | 06/09/2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL Drawbridge] | 02/03/2017 | In real time | Nee | Nee | Nee | Ja |
-| [!DNL Dstillery] ([!DNL FKA Media6]) | 02/03/2017 | In real time | Ja | Nee | Nee | Ja |
+| [!DNL Dstillery] ([!DNL FKA Media6]) | 02/03/2017 | realtime | Ja | Nee | Nee | Ja |
 | [!DNL Dunnhumby] | 21/11/2019 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL easyfundraising] | 27/06/2019 | 1xday | Nee | Nee | Nee | Ja |
 | [!DNL Epsilon Conversant] | 03/03/2017 | In real time | Nee | Nee | Nee | Nee |
@@ -81,6 +82,7 @@ Deze pagina bevat alleen de huidige, op [!DNL Audience Manager] apparaten gebase
 | [!DNL EyeView Digital] | 14/06/2018 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Fiksu] | 03/03/2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Flashtalking] | 02/03/2017 | 1xday | Nee | Nee | Nee | Nee |
+| [!DNL Flybits] | 31/07/2020 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL FreakOut] | 03/03/2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL Freewheel] | 27/02/2017 | 1xday | Ja | Ja | Nee | Ja |
 | [!DNL Gamut Media] | 03/03/2017 | In real time |  | Nee | Nee |  |
@@ -112,22 +114,22 @@ Deze pagina bevat alleen de huidige, op [!DNL Audience Manager] apparaten gebase
 | [!DNL Nativo] | 27/02/2017 | 2x/dag | Ja | Nee | Nee | Nee |
 | [!DNL Mail.ru] | 29/04/2019 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Mobile Professionals] | 25/05/2018 | 1xday | Ja | Nee | Nee | Ja |
-| [!DNL Netmining] | 02/03/2017 | In real time | Nee | Nee | Nee | Nee |
+| [!DNL Netmining] | 02/03/2017 | realtime | Nee | Nee | Nee | Nee |
 | [!DNL Neustar] | 28/03/2017 | 1xday | Ja | Nee | Nee | Nee |
-| [!DNL OnAd] | 13/02/2017 | In real time | Ja | Nee | Ja | Nee |
-| [!DNL OneSpot] | 19/06/2017 | In real time | Ja | Nee | Nee | Ja |
+| [!DNL OnAd] | 13/02/2017 | realtime | Ja | Nee | Ja | Nee |
+| [!DNL OneSpot] | 19/06/2017 | realtime | Ja | Nee | Nee | Ja |
 | [!DNL OpenX] | 26/07/2018 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Opera Mediaworks] | 13/02/2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Outbrain] | 03/04/2017 | 1xday | Ja | Nee | Nee | Nee |
-| [!DNL OwnerIQ] | 13/02/2017 | In real time | Ja | Nee | Ja | Nee |
+| [!DNL OwnerIQ] | 13/02/2017 | realtime | Ja | Nee | Ja | Nee |
 | [!DNL Platform 161] | 28/11/2018 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL PocketMath] | 22/02/2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Powerlinks] | 17/05/2017 | 1xday | Ja | Nee | Nee | Nee |
-| [!DNL Pubmatic] | 13/02/2017 | In real time | Nee | Nee | Nee | Nee |
+| [!DNL Pubmatic] | 13/02/2017 | realtime | Nee | Nee | Nee | Nee |
 | [!DNL Pulsepoint] | 13/02/2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL PushSpring] | 28/08/2017 | 1xday | Ja | Nee | Nee | Ja |
-| [!DNL Quantcast] | 13/02/2017 | In real time | Ja | Nee | Nee | Nee |
-| [!DNL RhythmOne / RadiumOne] | 13/02/2017 | In real time | Ja | Nee | Nee | Ja |
+| [!DNL Quantcast] | 13/02/2017 | realtime | Ja | Nee | Nee | Nee |
+| [!DNL RhythmOne / RadiumOne] | 13/02/2017 | realtime | Ja | Nee | Nee | Ja |
 | [!DNL Remerge] | 31/05/2017 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL Resonate] | 17/02/2017 | 1x/dag | Ja | Nee | Nee | Nee |
 | [!DNL RevJet] | 17/02/2017 | 1x/dag | Nee | Nee | Nee | Nee |
@@ -141,19 +143,19 @@ Deze pagina bevat alleen de huidige, op [!DNL Audience Manager] apparaten gebase
 | [!DNL Smart Adserver] | 31/07/2017 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL So-net Media Networks Logicad] |  | 1x/dag | Ja | Nee | Nee |  |
 | [!DNL Sonobi] | 28/03/2017 | In real time | Ja | Nee | Ja | Nee |
-| [!DNL SpecificMedia] | 03/03/2017 | In real time | Nee | Nee | Nee | Nee |
+| [!DNL SpecificMedia] | 03/03/2017 | realtime | Nee | Nee | Nee | Nee |
 | [!DNL SpongeCell] | 03/03/2017 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL SpotX] | 16/03/2018 | 1xday | Nee | Ja | Nee | Ja |
 | [!DNL Stroer] | 03/03/2017 | 1xday | Ja | Nee | Nee | Nee |
-| [!DNL SundaySky] | 03/03/2017 | In real time | Ja | Nee | Ja | Nee |
+| [!DNL SundaySky] | 03/03/2017 | realtime | Ja | Nee | Ja | Nee |
 | [!DNL StartApp] | 25/05/2018 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Supership]/[!DNL ScaleOut] | 03/03/2017 | 1x/dag | Ja | Nee | Nee | Nee |
 | [!DNL Survata] | 09/08/2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Taboola] | 03/08/2017 | 1xday | Nee | Ja | Nee | Nee |
-| [!DNL Tapad] | 03/03/2017 | In real time | Nee | Nee | Nee | Ja |
+| [!DNL Tapad] | 03/03/2017 | realtime | Nee | Nee | Nee | Ja |
 | [!DNL Telaria] | 25/04/2019 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Telogical Systems] | 03/03/2017 | Real Time | Ja | Nee | Nee | Nee |
-| [!DNL The Trade Desk] | 03/03/2017 | In real time | Ja | Ja | Ja | Ja |
+| [!DNL The Trade Desk] | 03/03/2017 | realtime | Ja | Ja | Ja | Ja |
 | [!DNL Thnk Realtime] | 05/02/2016 | In real time |  | Nee | Nee |  |
 | [!DNL Tremor Video] | 03/03/2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL Triple Lift] | 03/03/2017 | In real time | Nee | Ja | Nee | Nee |
