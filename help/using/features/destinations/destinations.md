@@ -1,16 +1,16 @@
 ---
-description: In Audience Manager, is een bestemming om het even welk derdesysteem (ad server, DSP, en netwerk, enz.) waarmee u data wilt delen. De Bouwer van de bestemming is het hulpmiddel u gebruikte om koekje, URL, of server-aan-server bestemmingen tot stand te brengen en te beheren.
+description: In Audience Manager, is een bestemming om het even welk derdesysteem (advertentieserver, DSP, en netwerk, enz.) waarmee u data wilt delen. Gebruik het hulpmiddel van de Bouwer van de Bestemming om koekje, URL, of server-aan-server bestemmingen tot stand te brengen en te beheren.
 keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-seo-description: In Audience Manager, is een bestemming om het even welk derdesysteem (ad server, DSP, en netwerk, enz.) waarmee u data wilt delen. De Bouwer van de bestemming is het hulpmiddel u gebruikte om koekje, URL, of server-aan-server bestemmingen tot stand te brengen en te beheren.
+seo-description: In Audience Manager, is een bestemming om het even welk derdesysteem (advertentieserver, DSP, en netwerk, enz.) waarmee u data wilt delen. De Bouwer van de bestemming is het hulpmiddel u gebruikt om koekje, URL, of server-aan-server bestemmingen tot stand te brengen en te beheren.
 seo-title: 'Bestemmingen '
 solution: Audience Manager
 title: 'Bestemmingen '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '530'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 
 # [!UICONTROL Destinations] Overzicht {#destinations}
 
-In Audience Manager, [!UICONTROL destination] is een systeem van derden (advertentieserver, [!DNL DSP]en netwerk, enz.) waarmee u data wilt delen. [!UICONTROL Destination Builder] Dit is het gereedschap dat u hebt gebruikt voor het maken en beheren [!UICONTROL cookie], [!DNL URL]of [!UICONTROL server-to-server destinations].
+In Audience Manager, [!UICONTROL destination] is een systeem van derden (advertentieserver, [!DNL DSP]en netwerk, enz.) waarmee u data wilt delen. [!UICONTROL Destination Builder] Dit is het gereedschap dat u gebruikt voor het maken en beheren [!UICONTROL cookie], [!DNL URL]of [!UICONTROL server-to-server destinations].
 
 ## Doel en voordelen {#purposes}
 
@@ -26,7 +26,7 @@ In Audience Manager, [!UICONTROL destination] is een systeem van derden (adverte
 
 [!UICONTROL Destinations] en [!UICONTROL Destination Builder] laat u informatie over gesegmenteerde gebruikers tot stand brengen [!UICONTROL destinations] en verzenden naar uw gegevenspartner. Dit helpt u:
 
-* **Gegevenswaarde beveiligen:** In plaats van alle gebruikersgegevens naar een [!UICONTROL destination]server te verzenden, kunt [!UICONTROL Destination Builder] u specifieke informatie alleen over gekwalificeerde gebruikers delen.
+* **Protect-gegevenswaarde:** In plaats van alle gebruikersgegevens naar een [!UICONTROL destination]server te verzenden, kunt [!UICONTROL Destination Builder] u specifieke informatie alleen over gekwalificeerde gebruikers delen.
 * **Actie nemen op uw gegevens:** Het verzenden van gegevens naar een [!UICONTROL destination] partner helpt hen snel gekwalificeerde publiekssegmenten ontwikkelen en richten.
 * **Minder technische overhead:** Zakelijke gebruikers kunnen de installatie [!UICONTROL destinations] veilig uitvoeren in de [!UICONTROL Destination Builder] interface. Hierdoor wordt de tijd die nodig is voor het testen vóór de implementatie, verkort. Met [!UICONTROL Destination Builder], creeert, beheert en schrapt u, [!UICONTROL destinations] aangezien uw bedrijfsbehoeften veranderen, allen zonder het werken door een lange ontwikkelingscyclus.
 
