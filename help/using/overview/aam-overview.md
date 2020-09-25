@@ -1,5 +1,5 @@
 ---
-description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde data, segmentatie, rapportage en meer.
+description: Informatie over de belangrijkste functies van een platform voor gegevensbeheer - gegevensverzameling, het creëren van het publiek en activering.
 seo-description: Informatie over de geschiedenis van Adobe Audience Manager, de soorten verzamelde data, segmentatie, rapportage en meer.
 seo-title: Overzicht van Audience Manager
 solution: Audience Manager
@@ -7,10 +7,10 @@ title: Overzicht van Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: overview
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 94%
 
 ---
 
