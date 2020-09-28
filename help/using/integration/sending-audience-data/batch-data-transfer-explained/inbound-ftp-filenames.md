@@ -7,10 +7,10 @@ title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databestande
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: d6d15ed68cd70fd7da1037a7cb397a00d252e4dd
+source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 8%
+source-wordcount: '914'
+ht-degree: 7%
 
 ---
 
@@ -57,11 +57,12 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Een id die de <span class="keyword"> Audience Manager</span> vertelt of een gegevensbestand uw eigen gebruikers-id's of Android- of iOS-id's bevat. Accepteert de volgende opties:</p> 
+   <td colname="col2"> <p>Een id die <span class="keyword"> Audience Manager</span> vertelt of een gegevensbestand uw eigen gebruikers-id's, Android-id's, iOS-id's of andere id's bevat die tot <a href="/help/using/features/global-data-sources.md"> algemene gegevensbronnen</a>behoren. Accepteert de volgende opties:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>ID gegevensaanbieder (ook wel gegevensbron-id genoemd):</b> Dit is een unieke id-Audience Manager die aan een gegevensaanbieder wordt toegewezen. Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Bijvoorbeeld, <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat een partner met identiteitskaart 21 het dossier verzond en het bevat gebruiker IDs die door die partner wordt toegewezen. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20914_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20915_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat. </li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Gegevensbron-id (ook wel Data Provider-id genoemd):</b> Dit is een unieke id die de Audience Manager toewijst aan een gegevensbron (verwijs naar de <a href="/help/using/reference/ids-in-aam.md"> index van de Audience Manager van IDs </a>). Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Hiermee <code>...ftp_dpm_21_123456789.sync</code> geeft u de <span class="keyword"> Audience Manager</span> bijvoorbeeld de opdracht om gegevens aan boord te maken van id's die tot gegevensbron 21 behoren. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id's bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20914_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat. </li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20915_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat. </li>
+     <li> <b>Id's die tot andere globale gegevensbronnen</b>behoren: U kunt Roku-id's voor advertentie (RIDA), Microsoft Advertising ID's (MAID) en andere id's aan boord nemen. Gebruik de id die overeenkomt met elke gegevensbron, zoals wordt beschreven in het artikel <a href="/help/using/features/global-data-sources.md"> met</a>algemene gegevensbronnen.</li> 
     </ul> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p> </td> 
   </tr> 
   <tr> 
