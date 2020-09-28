@@ -1,12 +1,12 @@
 ---
-description: Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct bruikbaar maken, met zo weinig mogelijk moeite van gebruikers met verschillende handicaps, zoals visuele, auditieve, cognitieve, motorische of andere aard.
-seo-description: Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct bruikbaar maken, met zo weinig mogelijk moeite van gebruikers met verschillende handicaps, zoals visuele, auditieve, cognitieve, motorische of andere aard.
+description: Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct bruikbaar maken, met zo weinig mogelijk moeite van gebruikers met verschillende handicaps, zoals visuele, auditieve, cognitieve, motorische of andere handicaps.
+seo-description: Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct bruikbaar maken, met zo weinig mogelijk moeite van gebruikers met verschillende handicaps, zoals visuele, auditieve, cognitieve, motorische of andere handicaps.
 seo-title: Toegankelijkheid in Audience Manager
 solution: Audience Manager
 title: Toegankelijkheid in Audience Manager
 feature: overview
 translation-type: tm+mt
-source-git-commit: 20ec64ba3c934d60f8758777e226344c8586efa3
+source-git-commit: 2dc015ccf358724f0caa45265fab962821569d1e
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct bruikbaar maken, met zo weinig mogelijk moeite van gebruikers met verschillende handicaps, zoals visuele, auditieve, cognitieve, motorische of andere aard.
+Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct bruikbaar maken, met zo weinig mogelijk moeite van gebruikers met verschillende handicaps, zoals visuele, auditieve, cognitieve, motorische of andere handicaps.
 
 Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Zie Toegankelijkheid [van](https://www.adobe.com/accessibility.html)Adobe voor meer informatie over toegankelijkheidsverplichtingen.
 
