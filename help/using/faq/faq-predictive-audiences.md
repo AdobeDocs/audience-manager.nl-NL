@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 04c638289878ff79070487d7d8cbb5c9454d93d6
+source-git-commit: 8e43da4c8b890fc5f8468f3779918dbfbbf960b8
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 64%
+source-wordcount: '933'
+ht-degree: 62%
 
 ---
 
@@ -46,14 +46,6 @@ Ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** en klik op de
 
  
 
-**Waarom zijn sommige van mijn onboarded bezoekers niet geclassificeerd?**
-
-Momenteel werkt doelgroepclassificatie alleen voor realtimekwalificaties, behalve voor geverifieerde gebruikers die zijn gedefinieerd als onderdeel van [!UICONTROL Profile Merge Rules].
-
-Volledige ondersteuning voor onboarded data wordt in een toekomstige update toegevoegd.
-
- 
-
 **Wanneer kan ik de eerste resultaten van mijn model verwachten?**
 
 [!UICONTROL Predictive Audiences]-modelresultaten zijn beschikbaar binnen 24 uur na het maken van het model, als het model succesvol wordt uitgevoerd.
@@ -68,12 +60,10 @@ Er kunnen diverse redenen zijn waarom [!UICONTROL Predictive Audiences]-modellen
 
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
 1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
-1. De doelgroepeigenschap/het doelgroepsegment had de afgelopen 30 dagen geen actieve of onboarded gebruikers.
+1. De eigenschap / het segment van het doelpubliek heeft geen actieve of onbeheerde gebruikers.
 1. Doelgroepgebruikers die de afgelopen 30 dagen actief of onboarded waren, hebben onvoldoende data in hun gebruikersprofielen (te weinig eigenschappen om te analyseren).
 1. Het doelpubliekssegment gebruikt een andere segment [!UICONTROL Profile Merge Rule] dan het segment dat u voor het model hebt gekozen.
 1. De gegevensbron van de kenmerken van het doelpubliek wordt mogelijk niet opgenomen in het model [!UICONTROL Profile Merge Rule] dat u hebt gekozen.
-
-To produce relevant results, the [!UICONTROL Predictive Audiences] algorithm evaluates trait and segment realizations based on real-time user activity seen by the [!DNL DCS]. Als u nieuwe basiseigenschappen en -segmenten selecteert die nog niet genoeg gebruikers hebben, kan de algoritme een paar dagen nodig hebben om uw doelgroep te classificeren.
 
 Volg voor optimale resultaten de voorgestelde richtlijnen van [Selectiecriteria voor persona&#39;s](../features/algorithmic-models/predictive-audiences.md#selection-personas) en [Selectiecriteria voor doelgroepen](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
