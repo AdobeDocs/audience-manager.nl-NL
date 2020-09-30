@@ -7,10 +7,10 @@ title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databestande
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: e8eb1c1c7a235c0c9dd32182e522ad0b6e965c61
+source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 7%
+source-wordcount: '1042'
+ht-degree: 6%
 
 ---
 
@@ -60,18 +60,19 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
    <td colname="col2"> <p>Een id die <span class="keyword"> Audience Manager</span> vertelt of een gegevensbestand uw eigen gebruikers-id's, Android-id's, iOS-id's of andere id's bevat die tot <a href="/help/using/features/global-data-sources.md"> algemene gegevensbronnen</a>behoren. Accepteert de volgende opties:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
      <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Gegevensbron-id (ook wel Data Provider-id genoemd):</b> Dit is een unieke id die de Audience Manager toewijst aan een gegevensbron (verwijs naar de <a href="/help/using/reference/ids-in-aam.md"> index van de Audience Manager van IDs </a>). Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Hiermee <code>...ftp_dpm_21_123456789.sync</code> geeft u de <span class="keyword"> Audience Manager</span> bijvoorbeeld de opdracht om gegevens aan boord te maken van id's die tot gegevensbron 21 behoren. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id's bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20914_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat. </li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. Geeft bijvoorbeeld aan <code>...ftp_dpm_20915_123456789.sync</code> de <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat. </li>
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id's bevat. U moet het veld gebruiken <code><i>_DPID_TARGET_DATA_OWNER</i></code> wanneer u Android-id's gebruikt. Voorbeeld: <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken die bij de <code><i>_DPID_TARGET_DATA_OWNER</i></code> gegevensbron horen.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. U moet het veld gebruiken <code><i>_DPID_TARGET_DATA_OWNER</i></code> wanneer u iOS-id's gebruikt. Voorbeeld: <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van de <code><i>_DPID_TARGET_DATA_OWNER</i></code> gegevensbron.</li>
      <li> <b>Id's die tot andere globale gegevensbronnen</b>behoren: U kunt Roku-id's voor advertentie (RIDA), Microsoft Advertising ID's (MAID) en andere id's aan boord nemen. Gebruik de id die overeenkomt met elke gegevensbron, zoals wordt beschreven in het artikel <a href="/help/using/features/global-data-sources.md"> met</a>algemene gegevensbronnen.</li> 
     </ul> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Een tijdelijke aanduiding voor een id. U kunt de DPID bijvoorbeeld instellen op de <span class="keyword"> Audience Manager</span> -id als u een gegevensbron-id of een Android- of iOS-id instelt. Hierdoor kan de <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
-    <ul id="ul_55EBBCB11F2B4A858AEFBFA1CD99E286"> 
-     <li id="li_3404428F4E3D49A5AB6EDF56310D923F"> <code>...ftp_dpm_33_21_1234567890.sync</code> toont een partner met identiteitskaart 21 in gegevens van een gegevensbron heeft verzonden die identiteitskaart 33 gebruikt. </li> 
-     <li id="li_CF8D5AF678764E9984A088FD5D7BBFB6"> <code>...ftp_dpm_20914_21_1234567890.sync</code> toont een partner met id 21 gegevens heeft verzonden die Android-id's bevatten. </li> 
-     <li id="li_3D73168391D7443BADDF27153090274D"> <code>...ftp_dpm_20915_21_1234567890.sync</code> toont een partner met ID 21 gegevens heeft verzonden die iOS IDs bevatten. </li> 
+   <td colname="col2"> <p>Dit gebied vertelt Audience Manager welke gegevensbron aan boordgegevens aan. Dit veld is verplicht als u de DPID instelt op een Android-id of iOS-id of een andere id die bij globale gegevensbronnen hoort. Hierdoor kan de <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
+    <ul> 
+     <li> <code>...ftp_dpm_33_21_1234567890.sync</code> vertelt Audience Manager dat u klant-id's kwalificeert die tot gegevensbron 33 behoren voor kenmerken of signalen die tot gegevensbron 21 behoren. </li> 
+     <li> <b>Android-id's (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> geeft de <span class="keyword"> Audience Manager</span> door dat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li> 
+     <li> <b>iOS-id's (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> geeft de <span class="keyword"> Audience Manager</span> door dat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li>
+     <li> <b>Id's die tot andere globale gegevensbronnen</b>behoren: <code>...ftp_dpm_121963_21_1234567890.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Roku-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21. Gebruik de id die overeenkomt met elke gegevensbron, zoals wordt beschreven in het artikel <a href="/help/using/features/global-data-sources.md"> met</a>algemene gegevensbronnen.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
