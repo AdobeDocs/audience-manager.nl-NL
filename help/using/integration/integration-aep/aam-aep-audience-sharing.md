@@ -7,7 +7,7 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: b3ff5ca68022cc30632d6b647ffde507533b5ddf
+source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 2%
@@ -29,7 +29,7 @@ U kunt de eigenschappen en de segmenten van de Audience Manager in Experience Pl
 
 In Audience Manager, kunt u de segmenten van het Experience Platform voor de gebruiksgevallen van het Platform van het Beheer van Gegevens gebruiken, zoals:
 * Gegevens van [derden toevoegen](/help/using/overview/data-types-collected.md#third-party-data) aan uw segmenten;
-* [Algorithmic modelling](/help/using/features/algorithmic-models/understanding-models.md);
+* [Algoritmische modellering](/help/using/features/algorithmic-models/understanding-models.md);
 * Activeer uw segmenten aan bestemmingen die nog niet in de [bestemmingscatalogus](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)van het Experience Platform worden gesteund.
 
 Bovendien, worden uw segmenten van het Experience Platform gedeeld aan andere oplossingen van Experience Cloud, via [de Diensten](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)van de Kern.
@@ -117,7 +117,8 @@ In het publiek dat proces tussen Audience Manager en Experience Platform deelt, 
 >[!NOTE]
 >
 >Voor meer algemene informatie over de Controles van de Uitvoer van Gegevens, gelieve te verwijzen naar de documentatie [van de Controles van de Uitvoer van](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-export-controls.html)Gegevens.
-Dit document verstrekt een verwijzing voor hoe de specifieke Controles van de Uitvoer van de Gegevens van de Audience Manager aan de etiketten van het gegevensgebruik en marketing acties in Platform in kaart brengen.
+>
+>Dit document verstrekt een verwijzing voor hoe de specifieke Controles van de Uitvoer van de Gegevens van de Audience Manager aan de etiketten van het gegevensgebruik en marketing acties in Platform in kaart brengen.
 
 ### Besturingselementen voor gegevensexport naar labels voor gegevensgebruik
 
