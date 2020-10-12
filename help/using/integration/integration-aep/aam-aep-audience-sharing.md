@@ -7,15 +7,15 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 74f23fbe753b8efc70b89ccace4a4d2c30067ccc
+source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1485'
 ht-degree: 2%
 
 ---
 
 
-# Doelgroepen delen tussen Audience Manager en Adobe Experience Platform {#aam-aep-audience-sharing}
+# Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen {#aam-aep-audience-sharing}
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ## Overzicht {#overview}
 
-Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u uw eigenschappen en segmenten van Audience Managers delen met Adobe Experience Platform en vice versa. U hebt de [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) nodig om publiek delen tussen Audience Manager en Adobe Experience Platform mogelijk te maken.
+Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u uw eigenschappen en segmenten van Audience Managers delen met Adobe Experience Platform en vice versa. U hebt het gereedschap nodig [[!DNL Audience Manager Connector]](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html) om het delen van het publiek tussen Audience Manager en Adobe Experience Platform mogelijk te maken.
 
 U kunt de eigenschappen en de segmenten van de Audience Manager in Experience Platform gebruiken om de gegevens van de Audience Manager aan uw klantenprofielen toe te voegen en van de dienst [van de](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md)segmentatie van het Experience Platform te profiteren.
 
@@ -33,6 +33,12 @@ In Audience Manager, kunt u de segmenten van het Experience Platform voor de geb
 * Activeer uw segmenten aan bestemmingen die nog niet in de [bestemmingscatalogus](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html)van het Experience Platform worden gesteund.
 
 Bovendien, worden uw segmenten van het Experience Platform gedeeld aan andere oplossingen van Experience Cloud, via [de Diensten](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)van de Kern.
+
+>[!IMPORTANT]
+>
+> * U hebt een licentie voor Audience Managers nodig om de hierboven vermelde gebruiksgevallen van het Platform voor gegevensbeheer in te schakelen.
+> * U hebt *geen Audience Manager licentie nodig* om Experience Platform-segmenten te delen met Adobe Ad Cloud, Adobe Target en andere Experience Cloud-oplossingen via de Core Services-integratie.
+
 
 <br> 
 
