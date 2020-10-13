@@ -7,7 +7,7 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 6a9a48aa6d3a7a5d871ea9aabbca2c2ec1229c0e
+source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 2%
@@ -37,7 +37,7 @@ Bovendien, worden uw segmenten van het Experience Platform gedeeld aan andere op
 >[!IMPORTANT]
 >
 > * U hebt een licentie voor Audience Managers nodig om de hierboven vermelde gebruiksgevallen van het Platform voor gegevensbeheer in te schakelen.
-> * U hebt *geen Audience Manager licentie nodig* om Experience Platform-segmenten te delen met Adobe Ad Cloud, Adobe Target, Marketo en andere Experience Cloud-oplossingen via de Core Services-integratie.
+> * U hebt *geen Audience Manager licentie nodig* om Experience Platform-segmenten te delen met Adobe Advertising Cloud, Adobe Target, Marketo en andere Experience Cloud-oplossingen via de Core Services-integratie.
 
 
 <br> 
@@ -46,7 +46,7 @@ Zie de onderstaande tabel voor een overzicht van de gebruikte gevallen voor het 
 
 | **Gebruiksscenario** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
 ---------|----------|---------|---------
-| **Delen van publiek** | <ul><li>Klantprofielen verrijken met Audience Manager-gegevens</li><li>Audience Manager-gegevens gebruiken in segmentatie van Experience Platform</li></ul> | <ul><li>Gegevens van derden toevoegen aan segmenten</li><li>Algorithmming</li><li>Activering naar andere bestemmingen</li></ul> | Gebruik Experience Platform-segmenten in andere Experience Cloud-oplossingen, zoals Adobe Target, Ad Cloud of Marketo. |
+| **Delen van publiek** | <ul><li>Klantprofielen verrijken met Audience Manager-gegevens</li><li>Audience Manager-gegevens gebruiken in segmentatie van Experience Platform</li></ul> | <ul><li>Gegevens van derden toevoegen aan segmenten</li><li>Algorithmming</li><li>Activering naar andere bestemmingen</li></ul> | Gebruik Experience Platform-segmenten in andere Experience Cloud-oplossingen, zoals Adobe Target, Advertising Cloud of Marketo. |
 
 <br> 
 
