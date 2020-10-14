@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: 71e129a39cf85d5f07979ede8f3aa862f93b6512
+source-git-commit: 48bf17a2899fd06c525ba6b4fddb9ec805efb5c3
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 8%
+source-wordcount: '571'
+ht-degree: 7%
 
 ---
 
@@ -46,9 +46,19 @@ Volg de onderstaande stappen als u weet welke gegevensbron u wilt gebruiken.
       ![voorspellend publiek-sparen](assets/predictive-audiences-save.png)
 1. Klik op **[!UICONTROL Save]**.
 
-## Voorspelend publiek bewerken {#edit-predictive-audiences}
+## Predictive Audience Models klonen en bewerken {#clone-predictive-audiences}
 
-Audience Manager biedt geen ondersteuning voor het bewerken van bestaande [!UICONTROL Predictive Audiences] modellen. Als u de configuratie van een model wilt wijzigen, moet u een nieuw model maken. Als u de limiet van 10 [!UICONTROL Predictive Audiences] modellen hebt bereikt en een van uw modellen moet bewerken, moet u een model verwijderen en een nieuw model maken.
+Audience Manager biedt geen ondersteuning voor het bewerken van bestaande [!UICONTROL Predictive Audiences] modellen. Als u de configuratie van een model wilt wijzigen, kunt u een kloon van een bestaand model maken en bewerken. Zo kunt u dit doen:
+
+1. Ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]**.
+2. Klik op de naam van het [!UICONTROL Predictive Audiences] model dat u wilt klonen.
+3. Klik op de **[!UICONTROL Clone]** knop linksboven in het scherm.
+   ![voorspellend publiek-kloon](assets/predictive-audiences-clone.png)
+4. Nadat u het model hebt gekloond, gaat u naar de [!DNL Save & Configure] pagina van het gekloonde model. Op deze pagina kunt u de [!UICONTROL data source] en de toegewezen[!UICONTROL Profile Merge Rule] modelstructuur wijzigen. Als u de personen en het doelpubliek van het gekloonde model wilt bewerken, gebruikt u de knoppen [!UICONTROL Back] [!UICONTROL Next] en de knoppen om tussen de drie tabbladen te navigeren, of klikt u op de drie tabnamen
+
+   ![voorspellend publiek-kloonnavigatie](assets/predictive-audiences-clone-navigate.png)
+
+5. Als u klaar bent met het bewerken van een model, klikt u op **[!UICONTROL Save]**.
 
 ## Voorspelend publiek verwijderen {#delete-predictive-audiences}
 
