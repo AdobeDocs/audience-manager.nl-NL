@@ -30,11 +30,11 @@ Wat u moet en moet doen wanneer u met de [!DNL Audience Manager] [!DNL API]s wer
 Let op het volgende wanneer u werkt met [Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#/) -code:
 
 * **Parameters aanvragen:** alle aanvraagparameters zijn vereist, tenzij anders aangegeven.
-* **Aanvraagkopteksten**: wanneer u [Adobe I/O](https://www.adobe.io/) -tokens gebruikt, moet u de `x-api-key` koptekst opgeven. U kunt uw [!DNL API] sleutel krijgen door de instructies in de pagina van de Integratie [van de Rekening van de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Dienst te volgen.
-* **[!DNL JSON]inhoudstype:**Geef de code op`content-type: application/json`en geef **`accept: application/json`deze op.
+* **Aanvraagkoppen**: wanneer u [Adobe I/O](https://www.adobe.io/) -tokens gebruikt, moet u de `x-api-key` koptekst opgeven. U kunt uw [!DNL API] sleutel krijgen door de instructies in de pagina van de Integratie [van de Rekening van de](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) Dienst te volgen.
+* **[!DNL JSON]inhoudstype:** Geef de code op `content-type: application/json` en geef ** `accept: application/json` deze op.
 * **Verzoeken en antwoorden:** Verstuur aanvragen als een correct opgemaakt [!DNL JSON] object. [!DNL Audience Manager] reageert met [!DNL JSON] opgemaakte gegevens. Serverreacties kunnen gevraagde gegevens, een statuscode of beide bevatten.
 * **Toegang:** Uw [!DNL Audience Manager] consultant geeft u een client-id en sleutel waarmee u [!DNL API] aanvragen kunt indienen.
-* **Documentatie en codevoorbeelden:** Tekst *cursief* staat voor een variabele die u opgeeft of doorgeeft bij het maken of ontvangen van [!DNL API] gegevens. Vervang *cursieve* tekst door uw eigen code, parameters of andere vereiste informatie.
+* **Documentatie en codevoorbeelden:** Tekst in *cursief* staat voor een variabele die u opgeeft of doorgeeft bij het maken of ontvangen van [!DNL API] gegevens. Vervang *cursieve* tekst door uw eigen code, parameters of andere vereiste informatie.
 
 ## Verificatie {#authentication}
 
@@ -83,7 +83,7 @@ De [!DNL Audience Manager][!UICONTROL REST API] volgende [!DNL OAuth 2.0] normen
 
 ### Een algemene [!DNL API] gebruiker maken {#requirements}
 
-We raden u aan een aparte, technische gebruikersaccount te maken voor het werken met de [!DNL Audience Manager] [!DNL API]s. Dit is een generieke account die niet is gekoppeld aan of gekoppeld aan een specifieke gebruiker in uw organisatie. Met dit type [!DNL API] gebruikersaccount kunt u twee dingen doen:
+We raden u aan een aparte, technische gebruikersaccount te maken voor het werken met de [!DNL Audience Manager] [!DNL API]s. Dit is een generische rekening die niet aan of verbonden met een specifieke gebruiker in uw organisatie is. Met dit type [!DNL API] gebruikersaccount kunt u twee dingen doen:
 
 * Identificeer welke dienst de [!DNL API] (bijvoorbeeld, vraag van uw apps die onze [!DNL API]s of van andere hulpmiddelen gebruiken die [!DNL API] verzoeken indienen) roept.
 * Ononderbroken toegang tot de [!DNL API]bestanden bieden. Een account die aan een bepaalde persoon is gekoppeld, kan worden verwijderd wanneer deze uw bedrijf verlaat. Zo voorkomt u dat u met de beschikbare [!DNL API] code werkt. Met een algemene account die niet aan een bepaalde werknemer is gekoppeld, voorkomt u dit probleem.
@@ -193,9 +193,9 @@ U kunt deze optionele parameters gebruiken met [!DNL API] methoden die *alle* ei
 | `pageSize` | Stelt het aantal reactieresultaten in dat door de aanvraag wordt geretourneerd (10 is standaard). |
 | `sortBy` | Sorteert en retourneert resultaten volgens de opgegeven [!DNL JSON] eigenschap. |
 | `descending` | Sorteert en retourneert resultaten in aflopende volgorde. `ascending` is standaard. |
-| `search` | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Stel dat u resultaten wilt zoeken voor alle modellen die het woord &quot;Testen&quot; hebben in een van de waardevelden voor dat item. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://aam.adobe.io/v1/models/?search=Test`.  U kunt zoeken op elke waarde die door de methode &quot;[!DNL get all]&quot; wordt geretourneerd. |
+| `search` | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Bijvoorbeeld, laten wij zeggen u resultaten voor alle modellen wilt vinden die het woord &quot;Test&quot;in om het even welke waardegebieden voor dat punt hebben. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://aam.adobe.io/v1/models/?search=Test`.  U kunt zoeken op elke waarde die door de methode &quot;[!DNL get all]&quot; wordt geretourneerd. |
 | `folderId` | Retourneert alle id&#39;s voor [!UICONTROL traits] de opgegeven map. Niet beschikbaar voor alle methoden. |
-| `permissions` | Retourneert een lijst met segmenten op basis van de opgegeven machtiging. `READ` is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u het bestand door `"permissions":"READ"`, `"permissions":"WRITE"` . |
+| `permissions` | Retourneert een lijst met segmenten op basis van de opgegeven machtiging. `READ` is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en bekijkt informatie over een segment.</li><li>`WRITE` : Gebruik deze optie `PUT` om een segment bij te werken.</li><li>`CREATE` : Gebruik deze optie `POST` om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met alleen `READ` en alleen `WRITE` machtigingen, geeft u deze door `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Reeks aan `true` om uw toestemmingen voor het segment terug te keren. Standaard is dit `false`. |
 
 ### Een opmerking over paginaopties
