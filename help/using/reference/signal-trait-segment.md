@@ -33,7 +33,7 @@ Gebruik het onderstaande diagram om een mentale notitie te maken van de relatie 
 
 ![](assets/signals-traits-segments.png)
 
-**Bouw[!UICONTROL Traits]en[!UICONTROL Segment]Regels met Visuele Hulpmiddelen en de Redacteurs van de Code**
+**Bouw [!UICONTROL Traits] en [!UICONTROL Segment] Regels met Visuele Hulpmiddelen en de Redacteurs van de Code**
 
 Clients beheren [!UICONTROL traits] en gebruiken visuele gereedschappen en code-editors in de [!UICONTROL segments] [!DNL Audience Manager] gebruikersinterface. Met de visuele gereedschappen kunt u regels maken met behulp van zoekfuncties, pop-upopties, vervolgkeuzemenu&#39;s en functionaliteit voor slepen en neerzetten. De codeeditors verstrekken geavanceerde gebruikers van een manier om publiekssegmenteringscriteria programmatically te ontwikkelen.
 
