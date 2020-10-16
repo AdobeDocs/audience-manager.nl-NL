@@ -7,7 +7,7 @@ title: Aan de slag met REST-API’s
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 translation-type: tm+mt
-source-git-commit: f7b9c30f120b24f9294afa4aa6727ce8c4236acf
+source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
 workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Dit is de aanbevolen manier om instellingen en toepassingen in te stellen [!DNL 
 
 Voordat u [!DNL JWT] verificatie kunt configureren, moet u ervoor zorgen dat u toegang hebt tot de [Adobe Developer Console](https://console.adobe.io/) in [Adobe I/O](https://www.adobe.io/). Neem contact op met uw organisatiebeheerder voor verzoeken om toegang.
 
-### Verificatie
+### Verificatie {#auth}
 
 Voer de onderstaande stappen uit om [!DNL JWT (Service Account)] verificatie te configureren met [!DNL Adobe I/O]:
 
