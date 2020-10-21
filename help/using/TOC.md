@@ -2,23 +2,21 @@
 product: audience-manager
 solution: Audience Manager
 audience: end-user
-user-guide-title: Handleiding Audience Manager
-breadcrumb-title: Handleiding Audience Manager
-breadcrumb-url: /docs/audience-manager/user-guide/aam-home.html
+user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Audience Manager biedt toonaangevende services voor online data management van doelgroepen.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 59eda3fa250fa33ef283f09b0027845431e9517b
+source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 92%
+source-wordcount: '1769'
+ht-degree: 93%
 
 ---
 
 
-# Audience Manager Guide {#user-guide}
+# Audience Manager-gebruikershandleiding {#user-guide}
 
-+ [Handleiding Audience Manager](aam-home.md)
++ [Audience Manager-productdocumentatie](aam-home.md)
 + Overzicht {#overview}
    + [Overzicht van Audience Manager](overview/aam-overview.md)
    + [Verzamelde datatypen](overview/data-types-collected.md)
@@ -36,7 +34,6 @@ ht-degree: 92%
          + [Consent Management](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Audience Manager-plug-in voor IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Data Governance](overview/data-security-and-privacy/data-governance.md)
-   + [Toegankelijkheid in Audience Manager](overview/accessibility-in-aam.md)
 + Onderdelen {#features}
    + [Addressable Audiences](features/addressable-audiences.md)
    + Beheer {#administration}
@@ -78,8 +75,8 @@ ht-degree: 92%
       + [Data Explorer - overzicht, voordelen en gebruiksscenario’s](features/data-explorer/data-explorer-overview.md)
       + [Inzicht in Signalen](features/data-explorer/data-explorer-understanding-signals.md)
       + [Signalendashboard](features/data-explorer/data-explorer-signals-dashboard.md)
-      + Signaalzoekopdracht{#signal-search}
-         + [Overzicht van Signal Search](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
+      + Signalen zoeken {#signals-search}
+         + [Overzicht van signalen zoeken](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md)
          + [Signalen zoeken op sleutelwaardeparen](features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md)
          + [Signalen zoeken op filters](features/data-explorer/data-explorer-signals-search/data-explorer-search-filters.md)
          + [Geavanceerd zoeken voor Adobe Analytics](features/data-explorer/data-explorer-signals-search/data-explorer-search-analytics.md)
