@@ -8,7 +8,7 @@ title: Index van id’s in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: reference
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Om de prefixen te begrijpen die in de volgende voorbeelden worden gebruikt, zie 
 ## [!DNL Audience Manager] Lijst met id&#39;s {#id-list}
 
 | ID | Naam en beschrijving | Gebruik en voorbeelden | Locatie gebruikersinterface |
-|---|-----------|---|------------|
+|---|---|---|---|
 | [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID], ook bekend als [!UICONTROL Device ID]. Een numerieke, 38-cijferige apparaat-id die [!DNL Audience Manager] aan elk apparaat wordt gekoppeld waarmee het werkt. Denk aan deze id wanneer u een vermelding van unieke gebruikers in de [!DNL Audience Manager] gebruikersinterface ziet. Audience Manager slaat deze id als een [!DNL cookie] bestand op in het domein van `demdex.net` derden. | In [!DNL DCS] vraag, `uuid` wordt voorafgegaan door de `d_` prefix. <br>Voorbeeld: `d_uuid = 07955261652886032950143702505894272138` | U kunt filteren [!DNL traits] door [!UICONTROL Device ID] wanneer het creëren van [blik-Vergelijkbare Modellen](../features/algorithmic-models/create-model.md), en het [bouwen van segmenten](../features/segments/segment-builder.md). U kunt resultaten door ook filtreren [!UICONTROL Device ID] wanneer het runnen van [Algemene Rapporten voor Tanden](../reporting/general-reports.md) en de Rapporten van de [Trend voor Tanden](../reporting/trend-reports.md). |
 | [!DNL ImsOrgId] | [!DNL Organization ID]. Dit is de id waarmee een bedrijf wordt geconfronteerd wanneer het zich aanmeldt voor een [!DNL Experience Cloud] account. | `5DC5123F5245B1D20A490D46@AdobeOrg` | Niet zichtbaar in de [!DNL Audience Manager] gebruikersinterface. Als u wilt weten hoe u de bedrijfsnaam kunt vinden [!DNL Organization ID], leest u [Zoeken naar uw organisatie-id](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255). |
 | [!DNL PID] | [!DNL Partner ID]. Het [!DNL PID] is de id van een bedrijf in [!DNL Audience Manager]. Audience Manager associeert een [!DNL imsOrgId] aan een [!DNL PID]. | `1352` | Niet zichtbaar in de [!DNL Audience Manager] gebruikersinterface. |
