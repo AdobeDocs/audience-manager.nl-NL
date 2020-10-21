@@ -1,5 +1,5 @@
 ---
-description: Begrijp de componenten van een segment van de Audience Manager, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe de gegevens in een gebeurtenisvraag worden overgebracht.
+description: Beschrijft de componenten van een segment van de Audience Manager, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
 seo-description: Beschrijft de componenten van een segment van de Audience Manager, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
 seo-title: Signalen, eigenschappen en segmenten
 solution: Audience Manager
@@ -7,7 +7,7 @@ title: Signalen, eigenschappen en segmenten
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
 feature: reference
 translation-type: tm+mt
-source-git-commit: 8027f278aa2b879b6cb277f44caf4b62dc75e2c3
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 3%
