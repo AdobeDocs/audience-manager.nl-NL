@@ -7,7 +7,7 @@ title: DIL-gebruiksscenario’s en codevoorbeelden
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 3%
@@ -47,35 +47,35 @@ Vergeet niet de eigenschappen van de waarde gelijk te houden wanneer u gegevens 
 
 In dit eenvoudige voorbeeld worden kleur- en prijsgegevens naar de Audience Manager verzonden in de vorm van sleutelwaardeparen. De code kan er ongeveer als volgt uitzien:
 
-```
-var sample_dil = DIL.create({partner:"partner name"}); 
+<pre class="&ldquo;java&rdquo;"><code>
+var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
    c_price:"900" 
 }); 
 sample_dil.api.submit();
-```
+</code></pre>
 
 **Voorbeeld 2: Gegevens verzenden in een object**
 
 In dit geavanceerde voorbeeld wordt getoond hoe gegevens in een object naar Audience Manager worden verzonden. Wanneer u met deze methode werkt, [!UICONTROL DIL] kunt u een object als functieparameter doorgeven aan de [!DNL signals()] methode. [!UICONTROL DIL] De code kan er ongeveer als volgt uitzien:
 
-```js
+<pre class="java"><code>
 var my_object = { 
    color : "blue", 
    price : "900" 
 }; 
  
-var sample_dil = DIL.create({ partner : "partner name" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 //Load the object and append "c_" to all keys in the key-value pairs and send data to AudienceManager. 
 sample_dil.api.signals(my_object,"c_").submit();
-```
+</code></pre>
 
 **Voorbeeld 3: Paginagegevens verzenden in een array**
 
 In dit geval `my_object` gebruikt de variabele een array om gegevens op te slaan. Dit voorbeeld bouwt op de informatie voort die door de geadviseerde methode hierboven wordt overgegaan, maar voegt een extra laag toe om een producttype en een model aan te passen. De code kan er ongeveer als volgt uitzien:
 
-```js
+<pre class="java"><code>
 var my_objects = [{ 
    color : "blue", 
    price : "900" 
@@ -84,7 +84,7 @@ var my_objects = [{
    model : "tl" 
 }]; 
  
-var sample_dil = DIL.create({ partner : "partner name" }); 
+var sample_dil = DIL.create({ partner : "<i>partner name</i>" }); 
  
 for (var i = 0; i < my_objects.length; i++) 
 //Load the object and append "c_" to all the keys in the key-value pairs.  
@@ -92,7 +92,7 @@ for (var i = 0; i < my_objects.length; i++)
     sample_dil.api.signals(my_objects[i], "c_"); 
 } 
 sample_dil.api.submit();
-```
+</code></pre>
 
 ## URL van vastlegverwijzing {#capture-referring-url}
 
@@ -112,10 +112,10 @@ c_dil_hrefer_over_https.xml
 
 De code kan er ongeveer als volgt uitzien:
 
-```js
-var adobe_dil = DIL.create({ partner : "partner name" }); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({ partner : "<i>partner name</i>" }); 
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
-```
+</code></pre>
 
 ## Typen zoekmachines vastleggen en zoektermen vastleggen {#capture-search-engine-types}
 
@@ -143,7 +143,7 @@ In de volgende code ziet u hoe u de zoekreferentie ophaalt voor een van de onder
 
 De basiscode voor het ophalen van de zoekverwijzer (bijvoorbeeld van `google.com`) ziet er als volgt uit:
 
-```js
+```java
 var search_referrer = DIL.tools.getSearchReferrer();
 ```
 
@@ -151,8 +151,8 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van [!DNL Google] Canada ( `www.google.ca`) zocht. Let op hoe de code de vereiste `c_` parameter vooraf definieert voor zoekprogramma&#39;s ( `c_se`) en zoektermen ( `c_st`). `c_` is een [vereist prefix](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
 
-```js
-var adobe_dil = DIL.create({partner:"partner name"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(); 
  
 if (search_referrer && search_referrer.valid) { 
@@ -161,14 +161,14 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-```
+</code></pre>
 
 **Voorbeeld van code van niet-vermelde zoekmachine**
 
 In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van `dogpile.com`zocht. Omdat [!DNL Dogpile] standaard niet wordt ondersteund, kunt u DIL configureren om deze zoekmachine te herkennen en de zoektermen terug te sturen naar Audience Manager. De code kan er ongeveer als volgt uitzien:
 
-```js
-var adobe_dil = DIL.create({partner:"partner name"}); 
+<pre class="java"><code>
+var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
 var search_referrer = DIL.tools.getSearchReferrer(document.referrer, {  
     hostPattern:/dogpile\./, 
     queryParam:"q" 
@@ -180,7 +180,7 @@ if (search_referrer && search_referrer.valid) {
     c_st : se.keywords 
   }).submit(); 
 }
-```
+</code></pre>
 
 ## Sleutelwaarden toewijzen aan andere toetsen {#map-key-values}
 
@@ -202,7 +202,7 @@ Als voorbeeld verzamelt u ZIP-codegegevens van een bepaalde site, maar wilt u de
 
 De code kan er ongeveer als volgt uitzien:
 
-```js
+```java
 var adobe_dil = DIL.create({ 
     partner : "adobe", 
     mappings : { 
