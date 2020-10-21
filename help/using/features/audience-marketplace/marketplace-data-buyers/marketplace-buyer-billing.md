@@ -8,7 +8,7 @@ keywords: Segment-level Reporting, segment-level, segment level
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 translation-type: tm+mt
-source-git-commit: dac08e9a31cb80b048013d95b7a617e4fb68e2fe
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '2027'
 ht-degree: 1%
@@ -170,8 +170,7 @@ Het [!UICONTROL Activation] gebruiksgeval laat u eigenschappen in de overeenkoms
 Wanneer u het Gebruik van CPM op het Niveau [van de Diervoeders van Gegevens](#feed-level-report)Rapport, moet u beelden proportioneel voor elke gegevensvoer toewijzen, volgens de [!DNL Boolean] exploitanten die in de de kwalificatieregels van het bezit worden gebruikt. In de volgende tabel wordt aangegeven hoe u afbeeldingen op de juiste wijze kunt toewijzen door de Booleaanse regel of het type kenmerk.
 
 >[!TIP]
->
-> [Het Gebruik van CPM van het rapport op het Niveau](#segment-level-report) van het Segment om het niveau van de gegevensvoer te hebben die automatisch door Audience Manager wordt gedaan.
+>[Het Gebruik van CPM van het rapport op het Niveau](#segment-level-report) van het Segment om het niveau van de gegevensvoer te hebben die automatisch door Audience Manager wordt gedaan.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
