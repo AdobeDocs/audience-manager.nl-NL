@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Veelgestelde vragen over Audience Manager
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1df6e8a76e5eae85483820926474ebc8633d5591
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '84'
 ht-degree: 100%
 
 ---
@@ -27,5 +27,6 @@ In deze sectie vindt u een lijst van categorieën van Veelgestelde vragen voor v
 * [Veelgestelde vragen over persoonsgebaseerde bestemmingen](faq-people-based-destinations.md)
 * [Veelgestelde vragen over productkenmerken en -functies](faq-features.md)
 * [Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken](faq-profile-merge.md)
+* [Veelgestelde vragen over Predictieve doelgroepen](faq-predictive-audiences.md)
 * [Veelgestelde vragen over targeting](faq-targeting.md)
 * [Veelgestelde vragen over rapportage](faq-reporting.md)
