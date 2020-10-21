@@ -7,9 +7,9 @@ title: Databestanden voor Audience Optimization-rapporten en actiegerichte logbo
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
 feature: log files
 translation-type: tm+mt
-source-git-commit: ff592184ba1785e3448aa449745d0e66ecba955b
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1042'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ Een gegevensbestand moet vergezeld gaan van een metagegevensbestand. De inhoud v
 
 De volgende syntaxis definieert de structuur van een goed gevormde naam van een gegevensbestand. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan die afhankelijk van de bestandsinhoud verandert.
 
-**Syntaxis:** `event type_yyyymmdd`
+**Syntaxis:** <pre><i>gebeurtenistype</i>_<i>jjjjjjmmdd</i></code></pre>
 
 In een bestandsnaam:
 
@@ -39,15 +39,15 @@ In een bestandsnaam:
 
 Geef uw gegevensbestanden, op basis van de inhoud van de bestanden, de volgende naam op basis van deze vereisten:
 
-* Impressiegegevens: `impressions_yyyymmdd.gz`
-* Klik op gegevens: `clicks_yyyymmdd.gz`
-* Conversiegegevens: `conversions_yyyymmdd.gz`
+* Impressiegegevens: <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
+* Klik op gegevens: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
+* Conversiegegevens: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
 
 ## Content Format for Data Files {#content-format}
 
 De volgende syntaxis definieert de inhoudsstructuur in een correct samengesteld gegevensbestand. Opmerking: *cursief* geeft een plaatsaanduiding voor variabelen aan en wordt vervangen door een label in een feitelijk gegevensbestand.
 
-**Syntaxis:** `header label 1 | header label 2 ... header label n | version`
+**Syntaxis:** <pre><i>koptekstlabel 1</i> | <i>Koptekstlabel 2</i> ... <i>koptekstlabel n</i> | <i>versie</i></code></pre>
 
 In de bestandsinhoud:
 
@@ -153,7 +153,7 @@ Upload uw afbeeldings-, klik- of conversiegegevensbestanden naar een Amazon S3-d
 
 Gegevens worden in een aparte naamruimte voor elke klant in een [!DNL Amazon S3] map opgeslagen. Het bestandspad volgt de onderstaande syntaxis. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan. Andere elementen zijn constanten of sleutels en veranderen niet.
 
-**Syntaxis:** `.../log_ingestion/pid=AAM ID/dpid=d_src/logs/file type_yyyymmdd`
+**Syntaxis:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>bestandstype</i>_<i>yyyymmdd</i></code></pre>
 
 In de volgende tabel worden deze elementen gedefinieerd in een pad voor het leveren van bestanden.
 
