@@ -1,13 +1,13 @@
 ---
-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Raadpleeg de Adobe Exchange-lijst (indien beschikbaar) of neem contact op met uw Adobe Consultant of de klantenservice voor meer informatie over een integratie.
-seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Raadpleeg de Adobe Exchange-lijst (indien beschikbaar) of neem contact op met uw Adobe Consultant of de klantenservice voor meer informatie over een integratie.
+description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
+seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
 seo-title: Adobe Audience Manager Technology Partners
 keywords: activation; activation partners, destination, destinations
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
 feature: Third Party Integrations
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
 source-wordcount: '1178'
 ht-degree: 59%
@@ -17,7 +17,7 @@ ht-degree: 59%
 
 # Partners voor activering van Audience Manager
 
-Deze pagina bevat alleen de huidige [server-naar-server integratie](/help/using/features/destinations/add-edit-segments.md) van de Audience Manager.  Raadpleeg de lijst [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) (indien beschikbaar) of neem contact op met uw Adobe-consultant of de klantenservice voor meer informatie over een integratie.
+Deze pagina bevat alleen de huidige [server-naar-server integratie](/help/using/features/destinations/add-edit-segments.md) van de Audience Manager.  Raadpleeg voor meer informatie over een integratie de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html) -lijst (indien beschikbaar) of neem contact op met uw Adobe Consultant of klantenservice.
 
 <br> 
 
