@@ -7,9 +7,9 @@ title: Rapport Dagelijkse eigenschapvariatie
 uuid: 4e82bb17-d447-4ed1-a4fc-e15b0f1b47f0
 feature: audience optimization reports
 translation-type: tm+mt
-source-git-commit: a41f0beffba686f283a2933ad7066cb124e4d380
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Dit rapport retourneert een lijst met kenmerken die ten minste 10.000 keer zijn 
 
 Standaardafwijking meet de mate van variatie of spreiding ten opzichte van het gemiddelde (of de gemiddelde/verwachte waarde). Een lage standaardafwijking geeft aan dat de gegevenspunten zeer dicht bij het gemiddelde liggen. Een hoge standaardafwijking geeft aan dat de gegevenspunten worden uitgespreid over een groot waardebereik.
 
-![dagelijkse variatierapport over de screenshot](assets/daily_trait_variation.png)
+![](assets/daily_trait_variation.png)
 
 Gebruik de [!UICONTROL Date] lijst om één of meerdere data voor uw rapport te selecteren. Onder aan de lijst wordt een kleurenstreepjesdiagram weergegeven dat een visuele weergave biedt van het bereik van de standaardafwijking voor alle kenmerken op alle geselecteerde datums. De zwarte verticale lijn geeft het gemiddelde aan.
 
@@ -56,8 +56,8 @@ Als gevolg van een herconfiguratie van je winkel, splitst u de smartphones pagin
 
 Een maand later voert u het [!UICONTROL Daily Trait Variation] rapport uit en ziet u een grote negatieve afwijking van het `productPage == "smartphones"` kenmerk, hoewel uw bezoekeraantal is gestegen, volgens uw siteanalyse. Gebaseerd op deze informatie, realiseert u zich dat u niet de eigenschappen [!DNL Audience Manager] voor uw nieuwe productpagina&#39;s hebt bijgewerkt, zodat weet u dat u de volgende eigenschappen moet creëren:
 
-* `productPage == "samsung"`
-* `productPage == "apple"`
-* `productPage == "huawei"`
+* productPage == &quot;samsung&quot;
+* productPage == &quot;apple&quot;
+* productPage == &quot;huawei&quot;
 
 Zodra u dit doet, zult u uw publiek zien kwalificeren voor de pas gecreëerde eigenschappen.
