@@ -7,9 +7,9 @@ title: Naamvereisten voor belangrijke variabelen
 uuid: fa72e732-895d-4cf6-bea0-66b404c2b059
 feature: Traits
 translation-type: tm+mt
-source-git-commit: 4bf32099e964c421d943d9925c74dd0d4d6ee576
+source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '124'
 ht-degree: 12%
 
 ---
@@ -29,6 +29,6 @@ In [!UICONTROL Expression Builder], kan de naam van een zeer belangrijke variabe
 
 * Ongeldige sleutelnamen: `123`, `price!123`.
 
-## Belangrijke variabelen vooraf bepalen met c_
+## Hoofdvariabelen vooraf bepalen met `c_`
 
 Het `c_` voorvoegsel is *altijd* vereist als de parameters die gegevens verzenden over een gebeurtenisaanroep-URL die syntaxis gebruiken.
