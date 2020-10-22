@@ -7,7 +7,7 @@ title: Woordenlijst voor Bulk Management Tools
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: baaam
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
-   <td colname="col2"> <p>Geeft aan wanneer een segment naar een doel kan worden verzonden. Gebruikt <tt>jjjj-mm-dd</tt> formaat. </p> </td> 
+   <td colname="col2"> <p>Geeft aan wanneer een segment naar een doel kan worden verzonden. Gebruikt <i>jjjj-mm-dd</i> formaat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> targetKey</span> </p> </td> 
