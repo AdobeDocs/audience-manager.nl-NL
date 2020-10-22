@@ -7,9 +7,9 @@ title: Definities van bestemmingsmacro’s
 uuid: 982cab05-8a3f-4f96-b4d0-291709712ad1
 feature: Destination Basics
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '667'
 ht-degree: 2%
 
 ---
@@ -53,10 +53,7 @@ Wanneer u een [!DNL URL] doel maakt, kunt u de volgende macro&#39;s in de [!DNL 
     </ul> <p>Om dit met de <code>%dpid_<i>data source id</i>%</code>, de partner van de <span class="keyword"> Audience Manager</span> te doen zou macro als dit formatteren: </p> 
     <ul class="simplelist"> 
      <li> <code> %dpid_1%</code> </li> 
-    </ul> <p>De macro wordt vervangen <code> 1</code> door <code> CustomerABC</code>. </p> <p> 
-     <draft-comment>
-       Gebaseerd op AAM-22193 https://jira.corp.adobe.com/browse/AAM-22193 
-     </draft-comment> </p> </td> 
+    </ul> <p>De macro wordt vervangen <code> 1</code> door <code> CustomerABC</code>. </p> </td> 
   </tr> 
   <tr>
     <td><p><code>${GDPR}</code></p></td>
