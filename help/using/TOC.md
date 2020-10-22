@@ -6,9 +6,9 @@ user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Audience Manager biedt toonaangevende services voor online data management van doelgroepen.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 7b58619a5208f7a48002d65d7bcbf0af602ba908
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1773'
 ht-degree: 93%
 
 ---
@@ -34,6 +34,7 @@ ht-degree: 93%
          + [Consent Management](overview/data-security-and-privacy/data-privacy-consent.md)
          + [Audience Manager-plug-in voor IAB TCF](overview/data-security-and-privacy/aam-iab-plugin.md)
    + [Data Governance](overview/data-security-and-privacy/data-governance.md)
+   + [Toegankelijkheid in Audience Manager](/help/using/overview/accessibility-in-aam.md)
 + Onderdelen {#features}
    + [Addressable Audiences](features/addressable-audiences.md)
    + Beheer {#administration}
