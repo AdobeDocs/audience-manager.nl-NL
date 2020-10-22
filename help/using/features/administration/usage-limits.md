@@ -8,9 +8,9 @@ keywords: ID mapping, ID mappings, cookie mappings
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
 feature: Usage and Billing
 translation-type: tm+mt
-source-git-commit: 7d2f4b45ac3e45c9b4fcaffa4b5c5324ff03e683
+source-git-commit: fc13643681eebec17a95607482f2864e81b95820
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '576'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ Audience Manager stelt een maximumlimiet in voor het aantal kenmerken, segmenten
 
 ## Limieten voor id-toewijzing {#id-mapping-limits}
 
-In de onderstaande tabel staan de limieten voor [id-toewijzing](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) voor apparaat-id&#39;s. Zodra een identiteitskaart om het even welke hieronder grenzen bereikt, voegt de Audience Manager nieuwe die in kaart gebrachte identiteitskaart toe op een [!DNL FIFO] (eerste binnen, eerst uit) logica wordt gebaseerd, door de oudste opgeslagen afbeelding van identiteitskaart te verwijderen, en nieuwe toe te voegen. Raadpleeg [Index van id&#39;s](../../reference/ids-in-aam.md) in Audience Manager voor meer informatie over de id&#39;s die door Audience Manager worden ondersteund.
+In de onderstaande tabel staan de limieten voor [id-toewijzing](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md) voor apparaat-id&#39;s. Zodra een identiteitskaart om het even welke hieronder grenzen bereikt, voegt de Audience Manager nieuwe die in kaart gebrachte identiteitskaart toe op een FIFO (eerst in, eerst uit) logica wordt gebaseerd, door de oudste opgeslagen afbeelding van identiteitskaart te verwijderen, en nieuwe toe te voegen. Raadpleeg [Index van id&#39;s](../../reference/ids-in-aam.md) in Audience Manager voor meer informatie over de id&#39;s die door Audience Manager worden ondersteund.
 
 | ID-toewijzing | Maximale limiet |
 |-----------|-------------- |
