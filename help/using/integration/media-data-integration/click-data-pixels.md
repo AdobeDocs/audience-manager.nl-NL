@@ -1,15 +1,15 @@
 ---
-description: 'null'
-seo-description: 'null'
+description: Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd.
+seo-description: Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd.
 seo-title: Klikdata campagne vastleggen via pixelcalls
 solution: Audience Manager
 title: Klikdata campagne vastleggen via pixelcalls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
 feature: Integration with Campaign
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '686'
 ht-degree: 10%
 
 ---
@@ -48,7 +48,7 @@ Op basis van het bovenstaande voorbeeld wordt de browser omgeleid naar het volge
 
 ## Ondersteunde macro&#39;s
 
-Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. Een macro is een kleine eenheid op zichzelf staande code die wordt geactiveerd wanneer de tag ad wordt geladen voor het bijhouden van campagnes en gebruikers. De macro&#39;s worden samen met de bestemming doorgegeven, [!DNL URL]mits de macro&#39;s met de volgende indeling worden gemarkeerd: `%macro%`. Sommige toetsen hebben geen macro&#39;s en accepteren in plaats daarvan een hard gecodeerde id-waarde. Toetsen die harde gecodeerde waarden accepteren, zijn vereist als u gegevens wilt analyseren in de rapporten [van de optimalisatie van het](../../reporting/audience-optimization-reports/audience-optimization-reports.md)publiek.
+Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. Een macro is een kleine eenheid op zichzelf staande code die wordt geactiveerd wanneer de tag ad wordt geladen voor het bijhouden van campagnes en gebruikers. De macro&#39;s worden samen met de bestemming doorgegeven, [!DNL URL]mits de macro&#39;s met de volgende indeling worden gemarkeerd: `%macro%`. Sommige toetsen hebben geen macro&#39;s en accepteren in plaats daarvan een hard gecodeerde id-waarde. Toetsen die harde gecodeerde waarden accepteren, zijn vereist als u gegevens in de [Audience Optimization-rapporten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)wilt analyseren.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -67,17 +67,17 @@ Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. E
   <tr> 
    <td colname="col1"> <p> <code> d_adsrc</code> </p> </td> 
    <td colname="col02"> <p>Geen macro. </p> <p>Accepteert een hard gecodeerde ID-waarde. </p> </td> 
-   <td colname="col2"> <p>Advertiser-id.</p> <p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit niet met de gegevensbronnen van de Audience Manager verwant is.</p> <p> Vereist voor rapporten van de optimalisatie <span class="wintitle"></span> van het publiek. </p> </td> 
+   <td colname="col2"> <p>Advertiser-id.</p> <p>Een integratiecode voor de gegevensbron van uw adverteerder. Merk op dat dit niet met de gegevensbronnen van de Audience Manager verwant is.</p> <p> Vereist voor <span class="wintitle"> Audience Optimization</span> -rapporten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_bu</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_bu%</code> </p> </td> 
-   <td colname="col2"> <p>Numerieke id voor de bedrijfseenheid. </p> <p> Vereist voor rapporten van de optimalisatie <span class="wintitle"></span> van het publiek. </p> </td> 
+   <td colname="col2"> <p>Numerieke id voor de bedrijfseenheid. </p> <p> Vereist voor <span class="wintitle"> Audience Optimization</span> -rapporten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_campaign</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_campaign%</code> </p> </td> 
-   <td colname="col2"> <p>Numerieke campagne-id van de advertentieserver. </p> <p> Vereist voor rapporten van de optimalisatie <span class="wintitle"></span> van het publiek. </p> </td> 
+   <td colname="col2"> <p>Numerieke campagne-id van de advertentieserver. </p> <p> Vereist voor <span class="wintitle"> Audience Optimization</span> -rapporten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_creative</code> </p> </td> 
@@ -169,10 +169,10 @@ Op basis van het bovenstaande voorbeeld wordt de browser omgeleid naar het volge
 
 ## Aanvullende functionaliteit - [!UICONTROL Audience Optimization Reports]
 
-U kunt pixelaanroepen gebruiken om de rapporten [van de optimalisatie van het](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)publiek van stroom te voorzien. Zie [Overzicht en Toewijzingen voor Metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u pixels wilt gebruiken om de rapporten aan te sturen.
+U kunt pixelaanroepen gebruiken om de [Audience Optimization-rapporten](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)aan te sturen. Zie [Overzicht en Toewijzingen voor Metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u pixels wilt gebruiken om de rapporten aan te sturen.
 
 
 >[!MORELIKETHIS]
 >
->* [Gegevens- en metagegevensbestanden voor publiekoptimalisatierapporten](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [Gegevens- en metagegevensbestanden voor Audience Optimization-rapporten](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
 
