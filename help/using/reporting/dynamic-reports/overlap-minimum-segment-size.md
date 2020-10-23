@@ -1,15 +1,15 @@
 ---
 description: Beschrijft de de grootte van het segment en de vereisten van de aanmaaktijd die door het proces van de het rapportupdate van de Overlapping worden vereist.
 seo-description: Beschrijft de de grootte van het segment en de vereisten van de aanmaaktijd die door het proces van de het rapportupdate van de Overlapping worden vereist.
-seo-title: Plan en minimale segmentgrootte overlappen bij Update van rapporten
+seo-title: Plan voor bijwerken van rapporten overlappen en minimumsegmentgrootte
 solution: Audience Manager
-title: Plan en minimale segmentgrootte overlappen bij Update van rapporten
+title: Plan voor bijwerken van rapporten overlappen en minimumsegmentgrootte
 uuid: 35c1cb39-e28d-4d20-88c9-5ff4fe154e9e
 feature: overlap reports
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 5%
 
 ---
@@ -17,13 +17,14 @@ ht-degree: 5%
 
 # Overlaprapporten: updateplanning en minimale segmentgrootte{#overlap-reports-update-schedule-and-minimum-segment-size}
 
-Beschrijft de de grootte van het segment en de vereisten van de aanmaaktijd die door het proces van de het rapportupdate van de Overlapping worden vereist.
+Beschrijft de eigenschap en de segmentgrootte en de vereisten van de aanmaaktijd die door het proces van de het rapportupdate van de Overlapping worden vereist.
 
 ## Plan en vereisten bijwerken {#update-schedule}
 
 [!UICONTROL Overlap] rapporten worden wekelijks bijgewerkt op zondag. Voorbewerking van rapporten begint op zaterdag. Dit beïnvloedt hoe de nieuwe of bestaande segmenten in een overlappend rapport op Maandag verschijnen. In een overlappend rapport op te nemen:
 
-* Een segment moet minimaal 70.000 gebruikers in real-time gedurende de laatste 14 dagen bevatten. Meer informatie over de [minimale unieke bezoekersvereisten voor reisdocumenten en segmenten](../../reporting/report-sampling.md#data-sampling-ratio).
+* Een segment moet minimaal 70.000 gebruikers in real-time gedurende de laatste 14 dagen bevatten.
+* Een kenmerk moet in de afgelopen 14 dagen 28.000 [unieke karakteristieken](/help/using/features/traits/trait-and-segment-qualification-reference.md) bevatten.
 * Een segment moet vóór Donderdag UTC om 12.00 uur zijn gecreeerd (2 volledige dagen vóór het wekelijkse proces van de overlappende rapportupdate begint).
 * Uw bedrijf moet een Volledige [!DNL Audience Manager] klant zijn. Neem contact op met uw [!DNL Audience Manager] consultant of de klantenservice voor meer informatie.
 
