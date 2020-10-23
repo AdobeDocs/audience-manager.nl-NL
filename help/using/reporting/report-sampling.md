@@ -7,10 +7,10 @@ title: Datasampling en foutpercentages in geselecteerde Audience Manager-rapport
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 8%
+source-wordcount: '468'
+ht-degree: 7%
 
 ---
 
@@ -19,16 +19,26 @@ ht-degree: 8%
 
 Een samenvatting van de steekproefmethode die voor sommige rapporten wordt gebruikt, foutenpercentages van de steekproef, en een lijst van rapporten die informatie terugkeren die op bemonsterde gegevens wordt gebaseerd.
 
-## Bemonsteringsfrequentie en minimumeisen {#data-sampling-ratio}
+## Bemonsteringsverhouding gegevens {#data-sampling-ratio}
 
 Sommige [!DNL Audience Manager] rapporten tonen resultaten die op een bemonsterde reeks van de totale hoeveelheid beschikbare gegevens worden gebaseerd. De gegevensverhouding in het monster is 1:54. Voor rapporten die bemonsterde gegevens gebruiken, betekent dit uw resultaten op 1 verslag van elke reeks 54 verslagen worden gebaseerd.
 
-Deze rapporten gebruiken gesamplede gegevens omdat ze een enorme hoeveelheid verwerkingskracht nodig hebben om resultaten te genereren. Bemonstering helpt een evenwicht te vinden tussen lagere computervereisten, het handhaven van systeemprestaties en het verstrekken van nauwkeurige resultaten.
+Deze rapporten gebruiken statistische gesamplede gegevens omdat ze een enorme hoeveelheid verwerkingskracht nodig hebben om resultaten te genereren. Bemonstering helpt een evenwicht te vinden tussen lagere computervereisten, het handhaven van systeemprestaties en het verstrekken van nauwkeurige resultaten.
 
-Rapporten waarin gebruik wordt gemaakt van steekproeven sluiten kenmerken en segmenten uit wanneer deze niet voldoen aan de minimale unieke bezoekersvereisten. Deze minimumeisen zijn als volgt:
+<!--
 
-* Tanden: 28.000 [unieke karakteristieken](/help/using/features/traits/trait-and-segment-qualification-reference.md#unique-trait-realizations) over een periode van 14 dagen.
-* Segmenten: 70.000 real-time gebruikers over een periode van 14 dagen.
+## Minimum Requirements {#minimum-requirements}
+
+>[!NOTE]
+>
+>The minimum requirements listed below apply to Overlap reports only.
+
+Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-trait-overlap-report.md), [segment-to-trait](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md), and [segment-to-segment](/help/using/reporting/dynamic-reports/segment-segment-overlap-report.md)) exclude traits and segments when they do not meet the minimum unique visitor requirements. These minimum requirements are as follows:
+
+* Traits: 28,000 [unique trait realizations](/help/using/features/traits/trait-and-segment-qualification-reference).
+* Segments: 70,000 real-time users over a 14-day period.
+
+-->
 
 ## Foutpercentages {#error-rates}
 
@@ -48,11 +58,35 @@ Het is belangrijk om op te merken dat onze tests en modellen tonen dat het foute
 | 100,000 | 95% is lager dan een foutpercentage van 4%. |
 | 500.000 (of meer) | 95% is lager dan een foutpercentage van 2%. |
 
+## De methode voor het nemen van minihashmonsters gebruiken {#minhash}
+
+Op basis van de [Minhash](https://en.wikipedia.org/wiki/MinHash) -bemonsteringsmethode gebruikt Audience Manager een nieuwe methode om de kenmerken en segmentschattingen te berekenen boven op een One Permutation Hashing-gegevensschets. Deze nieuwe methode levert een lagere variantie op dan de standaardschatter voor Jaccard-overeenkomsten. Zie de volgende sectie voor de rapporten die deze methodologie gebruiken.
+
+<!--
+
+Some Audience Manager reports use the minhash sampling methodology to compute trait and segment overlaps and similarity scores. Audience Manager calculates the [!UICONTROL Trait Similarity Score] between two traits by computing the intersection and union in terms of the number of [!UICONTROL Unique User IDs] (UUIDs) and then divides the two. For two traits A and B, the calculation looks like this:
+
+![jaccard-similarity](/help/using/features/segments/assets/jaccard_similarity.png)
+
+-->
+
 ## Rapporten waarin voorbeeldgegevens worden gebruikt {#reports-using-sampled-data}
 
-De [!DNL Audience Manager] rapporten die bemonsterde gegevens gebruiken omvatten:
+De [!DNL Audience Manager] rapporten waarin statistische monstergegevens worden gebruikt en de methode voor het nemen van miniatuurmonsters omvatten:
 
-* [Overlap rapporten](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait en segment-to-segment).
-* [Adresseerbare gegevens van het publiek](../features/addressable-audiences.md) (klant- en segment-vlakke gegevens).
-* De [Totale metrische apparaten](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) voor een [!UICONTROL Profile Merge Rule].
-* [De Ontdekkingsreiziger](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) van gegevens gebruikt bemonsterde gegevens op het [!UICONTROL Search] lusje en om het even welk [!UICONTROL Saved Searches].
+<!--
+
+* [Overlap reports](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (trait-to-trait, segment-to-trait, and segment-to-segment).
+* [Addressable Audience](../features/addressable-audiences.md) data (customer- and segment-level data). 
+* The [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metric for a [!UICONTROL Profile Merge Rule].
+* [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) uses sampled data in the [!UICONTROL Search] tab and any [!UICONTROL Saved Searches].
+
+Reports that use Minhash sampling methodology:
+
+-->
+
+| Statistische bemonstering | Methode voor het nemen van minihash |
+|--- |--- |
+| [Adresseerbare gegevens van het publiek](../features/addressable-audiences.md) (klant- en segment-vlakke gegevens). | [Overlappingsrapporten](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (standaard-aan-eigenschap, segment-aan-lijn, en segment-aan-segment) |
+| De [Totale metrische apparaten](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) voor een [!UICONTROL Profile Merge Rule]. | [Trait Recommendations](/help/using/features/segments/trait-recommendations.md) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) gebruikt gesamplede gegevens op het [!UICONTROL Search] tabblad en alle [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
