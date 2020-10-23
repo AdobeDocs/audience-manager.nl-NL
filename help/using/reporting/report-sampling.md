@@ -7,9 +7,9 @@ title: Datasampling en foutpercentages in geselecteerde Audience Manager-rapport
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: reporting reference
 translation-type: tm+mt
-source-git-commit: 33d844578c5cd620f9d4c33ec931ae0778aabb07
+source-git-commit: 397be3f44bf865633140bb45630a78be0a0d2219
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 7%
 
 ---
@@ -60,7 +60,7 @@ Het is belangrijk om op te merken dat onze tests en modellen tonen dat het foute
 
 ## De methode voor het nemen van minihashmonsters gebruiken {#minhash}
 
-Op basis van de [Minhash](https://en.wikipedia.org/wiki/MinHash) -bemonsteringsmethode gebruikt Audience Manager een nieuwe methode om de kenmerken en segmentschattingen te berekenen boven op een One Permutation Hashing-gegevensschets. Deze nieuwe methode levert een lagere variantie op dan de standaardschatter voor Jaccard-overeenkomsten. Zie de volgende sectie voor de rapporten die deze methodologie gebruiken.
+Op basis van de [Minhash](https://en.wikipedia.org/wiki/MinHash) -bemonsteringsmethode gebruikt Audience Manager een nieuwe methode om de kenmerken en segmentschattingen te berekenen boven op een One Permutation Hashing-gegevensschets. Deze nieuwe methode produceert een lagere variantie dan de standaardschatter voor gelijkenis Jaccard. Zie de volgende sectie voor de rapporten die deze methodologie gebruiken.
 
 <!--
 
