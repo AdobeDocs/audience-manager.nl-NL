@@ -8,9 +8,9 @@ title: Sleutelwaardeparen
 uuid: f1435742-81ca-4964-8370-accf2f1c47a5
 feature: reference
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '276'
 ht-degree: 3%
 
 ---
@@ -54,44 +54,10 @@ Wanneer u werkt met geserialiseerde gegevens, moet u de tekens opgeven die waard
 
 ## Standaard en geserialiseerde sleutelwaardeelementen {#standard-serialized-key-value-elements}
 
-<table id="table_62B0498441034A719C9DB57276777D40"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Type </th> 
-   <th colname="col2" class="entry"> Voorbeeld </th> 
-   <th colname="col3" class="entry"> Sleutel </th> 
-   <th colname="col4" class="entry"> Scheidingsteken sleutelwaarde </th> 
-   <th colname="col5" class="entry"> Scheidingsteken voor sleutelwaarde </th> 
-   <th colname="col6" class="entry"> Seriescheidingsteken </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <b>Eén toets</b> <p>(standaard) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col4" morerows="3"> = </td> 
-   <td colname="col5" morerows="1"> &amp; </td> 
-   <td colname="col6" morerows="1"> n.v.t. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Sleutelwaardeparen</b> <p>(standaard) </p> </td> 
-   <td colname="col2"> <code> x=1&amp;x=2&amp;y=3&amp;y=4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Eén toets</b> <p>(serieel) </p> </td> 
-   <td colname="col2"> <code> x=1;2;3 </code> </td> 
-   <td colname="col3"> x </td> 
-   <td colname="col5"> n.v.t. </td> 
-   <td colname="col6" morerows="1"> ; </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <b>Sleutelwaardeparen</b> (serieel) </td> 
-   <td colname="col2"> <code> x=1;2&amp;y=3;4 </code> </td> 
-   <td colname="col3"> x, y </td> 
-   <td colname="col5"> &amp; </td> 
-  </tr> 
- </tbody> 
-</table>
 
+| Type | Voorbeeld | Sleutel | Scheidingsteken sleutelwaarde | Scheidingsteken voor sleutelwaarde | Seriescheidingsteken |
+---------|----------|---------|---------|----------|---------
+| **Eén toets** (standaard) | `x=1&x=2` | `x` | `=` | `&` | n.v.t. |
+| **Sleutelwaardeparen** (standaard) | `x=1&x=2&y=3&y=4` | `x,y` | `=` | `&` | n.v.t. |
+| **Enkele toets** (serieel) | `x=1;2;3` | `x` | `=` | n.v.t. | `;` |
+| **Sleutelwaardeparen** (serieel) | `x=1;2&y=3;4` | `x,y` | `=` | `&` | `;` |
