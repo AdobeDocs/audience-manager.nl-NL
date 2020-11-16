@@ -7,9 +7,9 @@ title: Voorvoegselvereisten voor belangrijke variabelen
 uuid: df2ef9c8-606a-45f9-a836-859f856a7d4b
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 1c0d40082cd0753a9b4326aae764eb74aefb8be4
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '345'
 ht-degree: 5%
 
 ---
@@ -43,11 +43,11 @@ In de volgende tabel worden de algemene voorvoegsels gedefinieerd die worden geb
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Op het niveau van de <span class="keyword"> Audience Manager</span> . Deze gegevens zijn uniform in het ecosysteem van de <span class="keyword"> Audience Manager</span> . Zie <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Gesteunde Attributen voor Vraag</a> DCS API voor een volledigere lijst. <p>Signalen die dit voorvoegsel gebruiken, worden niet weergegeven in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signaal zoeken</a>.</p></p> </td> 
+   <td colname="col2"> <p>Op het niveau van de <span class="keyword"> Audience Manager</span> . Deze gegevens zijn uniform in het ecosysteem van de <span class="keyword"> Audience Manager</span> . Zie <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Gesteunde Attributen voor Vraag</a> DCS API voor een volledigere lijst.</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Dat bevat <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP-headerinformatie</a> . Omvat kopbalparameters zoals <code> referer</code>,<code> IP</code>, <code> accept-language</code>enz. </p> <p> <p>Opmerking: Voor klanten die DIL-versies ouder dan 9.0 gebruiken, werkt gegevensverzameling met behulp van het <code> h_referer</code> signaal niet in Safari-browsers. Met de introductie van <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, kunnen de browsers Safari het domein demdex.net als trekker classificeren en zullen de verwijzer op het verzoek van de gegevensinzameling bekorten om slechts de oorsprong in plaats van volledige URL te bevatten. Zie <a href="../../dil/dil-overview.md#get-implement-dil-code">De DIL-code</a> ophalen en implementeren voor de nieuwste DIL-versie.<p>Signalen die dit voorvoegsel gebruiken, worden niet weergegeven in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signaal zoeken</a>.</p></p> </p> </td> 
+   <td colname="col2"> <p>Dat bevat <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP-headerinformatie</a> . Omvat kopbalparameters zoals <code> referer</code>,<code> IP</code>, <code> accept-language</code>enz. </p> <p> <p>Opmerking: Voor klanten die DIL versies ouder dan 9.0 gebruiken, zal de gegevensinzameling die het <code> h_referer</code> signaal gebruikt niet op browsers Safari werken. Met de introductie van <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, kunnen de browsers Safari het domein demdex.net als trekker classificeren en zullen de verwijzer op het verzoek van de gegevensinzameling bekorten om slechts de oorsprong in plaats van volledige URL te bevatten. Zie <a href="../../dil/dil-overview.md#get-implement-dil-code">het krijgen en het Uitvoeren van de Code</a> van DIL voor de recentste versie van DIL.<p>Signalen die dit voorvoegsel gebruiken, worden niet weergegeven in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signaal zoeken</a>.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
