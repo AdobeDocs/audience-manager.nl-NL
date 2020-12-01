@@ -23,9 +23,9 @@ Wijs segmenten aan bestemmingen met deze [!DNL RESTful API] methodes toe.
 
 ## Ondersteunde doeltypen: Alleen URL en cookie
 
-Met de beschikbare `POST` methoden kunt u segmenten toewijzen aan [!UICONTROL URL] en [!UICONTROL cookie destinations] alleen. U kunt momenteel geen segmenten toewijzen aan [!UICONTROL server-to-server destinations] deze [!DNL REST API] methoden. Gebruik in plaats hiervan de gebruikersinterface. Nochtans, laten de verwante `GET` bestemmingsmethodes u informatie over terugwinnen [!UICONTROL server-to-server destinations] die in het gebruikersinterface wordt gecreeerd.
+Met de beschikbare `POST`-methoden kunt u alleen segmenten toewijzen aan [!UICONTROL URL] en [!UICONTROL cookie destinations]. U kunt momenteel geen segmenten toewijzen aan [!UICONTROL server-to-server destinations] met deze [!DNL REST API]-methoden. Gebruik in plaats hiervan de gebruikersinterface. Met de verwante doelmethoden `GET` kunt u echter informatie ophalen over [!UICONTROL server-to-server destinations] die in de gebruikersinterface is gemaakt.
 
-## Wijs een Segment aan een Niet in series vervaardigd Doel URL toe {#map-segment-non-serial}
+## Wijs een Segment aan een Niet in series vervaardigd Doel URL {#map-segment-non-serial} toe
 
 Een `POST` methode die u een segment aan een niet periodieke [!UICONTROL URL] bestemming laat in kaart brengen.
 
@@ -77,7 +77,7 @@ Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ## Een segment toewijzen aan een geserialiseerde URL-bestemming {#map-segment-serial}
 
-Een `POST` methode die u een segment aan een geserialiseerde [!UICONTROL URL] bestemming laat in kaart brengen.
+Een `POST` methode die u een segment aan geserialiseerde [!UICONTROL URL] bestemming laat in kaart brengen.
 
 <!-- r_map_serialized_url.xml -->
 
@@ -87,7 +87,7 @@ Een `POST` methode die u een segment aan een geserialiseerde [!UICONTROL URL] be
 
 ### Voorbeeldverzoek
 
-In het verzoek, `traitAlias` beantwoordt de sleutel aan de sleutel in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
+In het verzoek, beantwoordt `traitAlias` aan de sleutel in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ```
 {
@@ -125,7 +125,7 @@ In het verzoek, `traitAlias` beantwoordt de sleutel aan de sleutel in een zeer b
 }
 ```
 
-## Wijs een Segment aan een Bestemming van het Koekje toe: Single-Key, zonder serienummering {#map-segment-cookie-noserial}
+## Wijs een Segment aan een Bestemming van het Koekje toe: Single-Key, niet-geserialiseerd {#map-segment-cookie-noserial}
 
 Een `POST` methode die u een segment aan enig-zeer belangrijke, niet-geserialiseerde [!UICONTROL cookie] bestemming laat in kaart brengen.
 
@@ -137,7 +137,7 @@ Een `POST` methode die u een segment aan enig-zeer belangrijke, niet-geserialise
 
 ### Voorbeeldverzoek
 
-In het verzoek, `valueAlias` beantwoordt het aan de waarde in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
+In het verzoek, beantwoordt `valueAlias` aan de waarde in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ```
 {
@@ -172,7 +172,7 @@ In het verzoek, `valueAlias` beantwoordt het aan de waarde in een zeer belangrij
 }
 ```
 
-## Wijs een Segment aan een Bestemming van het Koekje toe: Multi-Key, zonder serienummering {#map-segment-cookie-multi-noserial}
+## Wijs een Segment aan een Bestemming van het Koekje toe: Multi-Key, niet-geserialiseerd {#map-segment-cookie-multi-noserial}
 
 Een `POST` methode die u een segment aan multi-zeer belangrijke, niet-geserialiseerde [!UICONTROL cookie] bestemming laat in kaart brengen.
 
@@ -184,7 +184,7 @@ Een `POST` methode die u een segment aan multi-zeer belangrijke, niet-geserialis
 
 ### Voorbeeldverzoek
 
-In het verzoek, `traitAlias` en `valueAlias` plaats de sleutel en de waarde respectievelijk in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
+In het verzoek, plaatsen `traitAlias` en `valueAlias` de sleutel en de waarde respectievelijk in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ```
 {
@@ -222,7 +222,7 @@ In het verzoek, `traitAlias` en `valueAlias` plaats de sleutel en de waarde resp
 
 ## Wijs een Segment aan een Bestemming van het Koekje toe: Multi-Key, serieel {#map-segment-cookie-multi-serial}
 
-Een `POST` methode waarmee u een segment kunt toewijzen aan een met meerdere sleutels geserialiseerde [!UICONTROL cookie destination].
+Een `POST` methode die u een segment aan multi-zeer belangrijke, geserialiseerde [!UICONTROL cookie destination] laat in kaart brengen.
 
 <!-- r_map_cookie_multikey_serialized.xml -->
 
@@ -232,7 +232,7 @@ Een `POST` methode waarmee u een segment kunt toewijzen aan een met meerdere sle
 
 ### Voorbeeldverzoek
 
-In het verzoek, `traitAlias` en `valueAlias` plaats de sleutel en de waarde in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
+In het verzoek, plaatsen `traitAlias` en `valueAlias` de sleutel en de waarde in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ```
 {
@@ -268,9 +268,9 @@ In het verzoek, `traitAlias` en `valueAlias` plaats de sleutel en de waarde in e
 }
 ```
 
-## Wijs een Segment aan een Server-aan-Server Bestemming toe {#map-segment-s2s}
+## Een segment toewijzen aan een server-naar-server-bestemming {#map-segment-s2s}
 
-Een `POST` methode waarmee u een segment kunt toewijzen aan een bestaand [!UICONTROL server-to-server] doel. U kunt echter geen [!UICONTROL server-to-server] doelen maken met deze momenteel beschikbare [!DNL API] methoden.
+Een `POST` methode die u een segment aan een bestaande [!UICONTROL server-to-server] bestemming laat in kaart brengen. De nota, echter, dat u geen [!UICONTROL server-to-server] bestemmingen met deze momenteel beschikbare [!DNL API] methodes kunt tot stand brengen.
 
 <!-- r_map_segment_s2s.xml -->
 
@@ -280,7 +280,7 @@ Een `POST` methode waarmee u een segment kunt toewijzen aan een bestaand [!UICON
 
 ### Voorbeeldverzoek
 
-In het verzoek, `traitAlias` beantwoordt de sleutel aan de sleutel in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
+In het verzoek, beantwoordt `traitAlias` aan de sleutel in een zeer belangrijk-waardepaar. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ```
 {
@@ -314,9 +314,9 @@ In het verzoek, `traitAlias` beantwoordt de sleutel aan de sleutel in een zeer b
 }
 ```
 
-## Toewijzingen bestemming bulksgewijs maken {#bulk-create}
+## Toewijzingen bestemming in bulk maken {#bulk-create}
 
-Een `POST` methode waarmee u een array van [!UICONTROL cookie] of [!UICONTROL URL] doeltoewijzingen kunt doorgeven.
+Een `POST` methode die u in een serie van [!UICONTROL cookie] of [!UICONTROL URL] bestemmingstoewijzingen laat overgaan.
 
 <!-- r_bulk_create.xml -->
 
@@ -400,7 +400,7 @@ Een geslaagde reactie retourneert de array met gemaakte toewijzingen.
 
 ## Meerdere segmenten toevoegen aan een doel {#add-segments-dest}
 
-Een `POST` methode waarmee u meerdere segmenten kunt toewijzen aan een doel.
+Een methode `POST` waarmee u meerdere segmenten aan een doel kunt toewijzen.
 
 <!-- r_add_segments_to_destination.xml -->
 
@@ -482,9 +482,9 @@ Retourneert een array met gemaakte toewijzingen.
 ]
 ```
 
-## Update a Destination by Destination ID {#update-dest-data-order}
+## Een doel bijwerken op doel-id {#update-dest-data-order}
 
-Een `PUT` methode waarmee u een bestaand doel kunt bijwerken `destinationId`.
+Een methode `PUT` waarmee u een bestaande bestemming door `destinationId` kunt bijwerken.
 
 <!-- r_update_destination_data_order_id.xml -->
 
@@ -532,9 +532,9 @@ Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 }
 ```
 
-## Een toewijzing aan een Doel bijwerken door Id toe te wijzen {#update-mapping-dest-id}
+## Een toewijzing aan een Doel bijwerken door identiteitskaart {#update-mapping-dest-id} in kaart te brengen
 
-Een `PUT` methode waarmee u een toewijzing aan een bestemming door gespecificeerde kunt bijwerken `mappingId`.
+Een `PUT` methode die u een afbeelding aan een bestemming door gespecificeerde `mappingId` laat bijwerken.
 
 <!-- r_update_destination_trait_data_order_id.xml -->
 
