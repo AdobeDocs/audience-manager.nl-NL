@@ -62,7 +62,7 @@ Processen die persoonlijke informatie beveiligen. Zie het [Adobe Privacy Center]
 
 Processen die data van individuele klanten helpen beschermen.
 
-**Verdeling van gegevens over overtrekken:**  Uw gegevens ([!UICONTROL traits], id&#39;s, enz.) worden gepartitioneerd per client. Dit voorkomt onbedoelde openbaarmaking van informatie tussen verschillende clients. De data van eigenschappen in cookies worden bijvoorbeeld gepartitioneerd per klant en opgeslagen in een clientspecifiek subdomein. De data kunnen niet per ongeluk door een andere Audience Manager-client worden gelezen of gebruikt. Bovendien worden de eigenschapdata die op de [!UICONTROL Profile Cache Servers (PCS)] worden opgeslagen, eveneens per klant gepartitioneerd. Dit voorkomt dat andere clients uw data per ongeluk gebruiken in een gebeurteniscall of een andere aanvraag.
+**Trait Data Partitioning:**  Uw gegevens ([!UICONTROL traits], id&#39;s, enz.) worden gepartitioneerd per client. Dit voorkomt onbedoelde openbaarmaking van informatie tussen verschillende clients. De data van eigenschappen in cookies worden bijvoorbeeld gepartitioneerd per klant en opgeslagen in een clientspecifiek subdomein. De data kunnen niet per ongeluk door een andere Audience Manager-client worden gelezen of gebruikt. Bovendien worden de eigenschapdata die op de [!UICONTROL Profile Cache Servers (PCS)] worden opgeslagen, eveneens per klant gepartitioneerd. Dit voorkomt dat andere clients uw data per ongeluk gebruiken in een gebeurteniscall of een andere aanvraag.
 
 **Datapartitionering in rapporten:**  Client-id’s maken deel uit van de identificatiesleutel in alle rapportagetabellen en rapportquery’s worden gefilterd op id. Dit voorkomt dat uw data worden weergegeven in de rapporten van een andere klant van Audience Manager.
 
@@ -74,7 +74,7 @@ Beide methodes zijn ontworpen met het oog op de veiligheid van onze klant- en pa
 
 **SFTP:** Voor de optie SFTP kiezen de meeste klanten ervoor bestanden te leveren via het SFTP-protocol (Secure FTP), dat het SSH-protocol (Secure Shell) gebruikt. Deze methode zorgt ervoor dat bestanden versleuteld zijn terwijl ze onderweg zijn tussen de systemen van de klant en het systeem van Adobe. Voor elke klant maken we een jailed drop-boxlocatie op onze SFTP-servers, die is gekoppeld aan een gebruikersaccount op dat systeem. Alleen de interne systeemgebruikers met referenties en toestemmingen van de klant hebben toegang tot deze jailed drop-boxlocatie. Deze jail is nooit toegankelijk voor andere klanten.
 
-**[!UICONTROL Amazon Web Services S3]via HTTPS:**Voor de S3-leveringsoptie adviseren we dat alle klanten hun S3-clients configureren voor het gebruik van de HTTPS-versleutelingsmethode voor bestandsoverdracht (dat is niet de standaardinstelling, dus dit moet expliciet worden geconfigureerd). De HTTPS-optie wordt ondersteund door zowel het s3cmd-opdrachtregelprogramma als door de S3-bibliotheken die beschikbaar zijn in elke belangrijke programmeertaal. Als deze HTTPS-optie is ingeschakeld, worden de data van de klant versleuteld terwijl ze onderweg zijn tussen onze systemen. Voor elke klant maken we een afzonderlijke S3-bucket-submap die alleen toegankelijk is met de referenties van deze klant en die van onze interne systeemgebruikers.
+**[!UICONTROL Amazon Web Services S3]via HTTPS:** Voor de S3-leveringsoptie adviseren we dat alle klanten hun S3-clients configureren voor het gebruik van de HTTPS-versleutelingsmethode voor bestandsoverdracht (dat is niet de standaardinstelling, dus dit moet expliciet worden geconfigureerd). De HTTPS-optie wordt ondersteund door zowel het s3cmd-opdrachtregelprogramma als door de S3-bibliotheken die beschikbaar zijn in elke belangrijke programmeertaal. Als deze HTTPS-optie is ingeschakeld, worden de data van de klant versleuteld terwijl ze onderweg zijn tussen onze systemen. Voor elke klant maken we een afzonderlijke S3-bucket-submap die alleen toegankelijk is met de referenties van deze klant en die van onze interne systeemgebruikers.
 
 Als u PGP-versleuteling wilt toevoegen aan uw databestanden, raadpleegt u [PGP-bestandsversleuteling voor binnenkomende datatypen](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
@@ -92,6 +92,6 @@ Dit beleid verbetert de databeveiliging tussen clients en Adobe [Edge](../../ref
 
 ### Voorbeeld {#hsts-example}
 
-Let&#39;s say the `yourcompany.demdex.com` domain sends traffic to the [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] werkt de calls bij om in plaats daarvan [!DNL HTTPS] te gebruiken, en alle volgende [!DNL DCS] calls van `yourcompany.demdex.com` zullen [!DNL HTTPS] gebruiken in plaats van [!DNL HTTP].
+Laten wij zeggen het `yourcompany.demdex.com` domein verzendt verkeer naar [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] werkt de calls bij om in plaats daarvan [!DNL HTTPS] te gebruiken, en alle volgende [!DNL DCS] calls van `yourcompany.demdex.com` zullen [!DNL HTTPS] gebruiken in plaats van [!DNL HTTP].
 
 Zie [HTTP Strict Transport Security - Wikipedia](https://nl.wikipedia.org/wiki/HTTP_Strict_Transport_Security) voor meer informatie over HSTS.
