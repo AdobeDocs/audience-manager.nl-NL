@@ -113,6 +113,6 @@ U kunt de [!DNL Facebook] [!DNL WCA]-integratie van Audience Manager zonder extr
 
 Deze twee integraties zijn complementair; u kunt beide gebruiken om te zorgen voor een betere doelgroepdekking. Een voorbeeld: [!DNL WCA] kan worden gebruikt voor prospectie wanneer een bedrijf websitebezoekers wil targeten die geen account hebben geregistreerd, terwijl [!DNL People-Based Destinations] u kan helpen bestaande klanten te targeten die hun e-mailadres hebben opgegeven, maar de website misschien niet hebben bezocht.
 
-**Is de[!DNL People-Based Destinations]integratie met[!DNL Facebook]steun die een gebruiker van een publiek diskwalificeert wanneer zij niet meer voor het in aanmerking komen?**
+**Is de  [!DNL People-Based Destinations] integratie met  [!DNL Facebook] steun die een gebruiker van een publiek diskwalificeert wanneer zij niet meer voor het in aanmerking komen?**
 
-Ja, de integratie ondersteunt het verwijderen van gebruikers van [!DNL Facebook] publiek wanneer ze niet langer voor hen in aanmerking komen.
+Ja, de integratie steunt het verwijderen van gebruikers uit [!DNL Facebook] publiek wanneer zij niet meer voor hen in aanmerking komen.
