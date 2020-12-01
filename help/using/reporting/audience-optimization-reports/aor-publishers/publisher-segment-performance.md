@@ -23,32 +23,32 @@ Een in kaart gebracht segment is een segment u creeert en naar een bestemming ve
 
 Het vergelijken van deze verschillende segmenttypes binnen en tussen rapporten helpt u bestaande campagnes optimaliseren en over het hoofd gezien segmenten vinden die u naar een bestemming voor het richten kunt verzenden.
 
-## Gevallen gebruiken {#use-cases}
+## Gevallen {#use-cases} gebruiken
 
-Met het [!UICONTROL Segment Performance] rapport kunt u:
+Met het [!UICONTROL Segment Performance] rapport, kunt u:
 
 * Omlijnde publiekssegmenten identificeren die de drijvende kracht achter schaal of prestaties zijn.
 * Identificeer niet in kaart gebrachte segmenten om in toekomstige campagnes te introduceren, die op de bijdrage van een publiek aan vroegere prestaties worden gebaseerd.
 
-## Het rapport Segmentprestaties gebruiken {#using-segment-performance-report}
+## Het gebruiken van het Rapport van de Prestaties van het Segment {#using-segment-performance-report}
 
 Schakel tussen **[!UICONTROL Mapped]** en **[!UICONTROL Unmapped]** om segmenten te selecteren die wel of niet aan een doel zijn toegewezen. Selecteer **[!UICONTROL All]** om al uw segmenten in het rapport op te nemen.
 
-Gebruik de controles van de Waaier **van de** Dag en van de **Datum door** om uw blik-achterwaaier aan te passen. De terugkijkperioden van 7 en 30 dagen zijn alleen beschikbaar voor zondag-datums.
+Gebruik de besturingselementen **Dagbereik** en **Datum tot en met** om het bereik van de terugblik aan te passen. De terugkijkperioden van 7 en 30 dagen zijn alleen beschikbaar voor zondag-datums.
 
-Gebruik het **[!UICONTROL Line Item]** drop-down vakje om de Web-eigenschappen te selecteren waarvoor u informatie wilt terugkeren.
+Gebruik de vervolgkeuzelijst **[!UICONTROL Line Item]** om de wegeigenschappen te selecteren waarvoor u informatie wilt retourneren.
 
-In de **[!UICONTROL Segment Data Source]** drop-down doos, selecteer de gegevensbronnen die de segmenten bevatten u in het rapport wilt zien.
+In **[!UICONTROL Segment Data Source]** drop-down doos, selecteer de gegevensbronnen die de segmenten bevatten u in het rapport wilt zien.
 
-Gebruik de **[!UICONTROL Segment]** drop-down doos om te selecteren welke segmenten u in het rapport wilt zien.
+Gebruik **[!UICONTROL Segment]** drop-down doos om te selecteren welke segmenten u in het rapport wilt zien.
 
 >[!IMPORTANT]
 >
->Wanneer u deze optie inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Audience Optimization for Publishers]de bestanden opnemen, zoals wordt beschreven in stap 3 van Google Ad Manager (voorheen DFP)-gegevensbestanden [!UICONTROL Line Item IDs]importeren in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Line Item] in plaats van het [!UICONTROL Line Item ID].
+>Wanneer u [!UICONTROL Audience Optimization for Publishers] inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Line Item IDs] opnemen, zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Line Item] in plaats van [!UICONTROL Line Item ID] detailleert.
 
-## De resultaten interpreteren {#interpreting-results}
+## Resultaten interpreteren {#interpreting-results}
 
-Uw [!UICONTROL Segment Performance] rapport kan er ongeveer zo uitzien als hieronder. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven. Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
+Uw [!UICONTROL Segment Performance]-rapport kan er ongeveer als volgt uitzien. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven. Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
 
 ![](assets/publisher_segment_performance.png)
 
@@ -86,12 +86,12 @@ Uw [!UICONTROL Segment Performance] rapport kan er ongeveer zo uitzien als hiero
   </tr> 
   <tr> 
    <td colname="col1"> <p>Realtime segmentpopulatie </p> </td> 
-   <td colname="col2"> <p>Het werkelijke aantal unieke bezoekers dat in real time voor het opgegeven tijdbereik werd gezien en dat op het moment dat ze door de <span class="keyword"> Audience Manager</span>werden gezien, in aanmerking kwam voor het segment. </p> </td> 
+   <td colname="col2"> <p>Het werkelijke aantal unieke bezoekers dat in real-time voor het opgegeven tijdbereik is gezien en dat in aanmerking kwam voor het segment op het moment dat ze werden gezien door <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## De resultaten van uw toegewezen segment lezen {#read-mapped-segment}
+## Hoe te om uw toegewezen resultaten van het Segment {#read-mapped-segment} te lezen
 
 De positie van uw in kaart gebrachte segmenten in een rapport kan u veel vertellen over welke segmenten goed presteren en waar u sommige aanpassingen zou kunnen moeten maken.
 
@@ -99,9 +99,9 @@ Als u het rapport wilt lezen, kunt u de resultaten opsplitsen in vier secties me
 
 ![](assets/publisher_segment_performance_mapped.png)
 
-## De resultaten van het niet-toegewezen segment lezen {#read-unmapped-segment}
+## Hoe te om uw Unmapped Segmentresultaten {#read-unmapped-segment} te lezen
 
-Het bekijken van unmapped segmenten in een [!UICONTROL Segment Performance] rapport is een grote manier om nieuwe segmenten te vinden u niet voor het richten hebt overwogen. In feite, kunnen sommige van deze segmenten uw in kaart gebrachte segmenten overtreffen.
+Het bekijken van unmapped segmenten in een [!UICONTROL Segment Performance] rapport is een grote manier om nieuwe segmenten te vinden u niet voor het richten overwogen hebt. In feite, kunnen sommige van deze segmenten uw in kaart gebrachte segmenten overtreffen.
 
 Als u dit rapport wilt lezen, kunt u de resultaten opsplitsen in vier secties met denkbeeldige lijnen (in rood) en categorieën die in het voorbeeldrapport hieronder worden weergegeven.
 
