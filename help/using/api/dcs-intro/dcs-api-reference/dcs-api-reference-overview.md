@@ -15,11 +15,11 @@ ht-degree: 13%
 
 # Overzicht van DCS-API-referenties
 
-Conceptuele informatie, beschrijvingen, en definities voor code, methodes, en processen. [!DNL DCS API]
+Conceptuele informatie, beschrijvingen, en definities voor [!DNL DCS API] code, methodes, en processen.
 
 * [DCS-API-methoden](/help/using/api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
 
-   Gegevens verzenden naar de [!DNL DCS API] methode GET of POST.
+   Verzend gegevens naar [!DNL DCS API] gebruikend GET of POST methodes.
 
 * [DCS-foutcodes, -berichten en -voorbeelden](/help/using/api/dcs-intro/dcs-api-reference/dcs-error-codes.md)
 
