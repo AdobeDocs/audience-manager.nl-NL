@@ -15,13 +15,13 @@ ht-degree: 6%
 ---
 
 
-# [!DNL FTP] Vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden {#ftp-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL FTP] Vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden  {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
-Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar [!DNL Audience Manager]. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar een [!DNL FTP] map Audience Manager verzendt.
+Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar [!DNL Audience Manager]. Stel de namen en grootten van de bestanden in volgens deze specificaties wanneer u gegevens naar de map [!DNL FTP] van een Audience Manager verzendt.
 
 >[!WARNING]
 >
->We are gradually phasing out support for [!DNL FTP] configurations. While inbound data file ingestion is still supported in existing [!DNL FTP] integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>Wij nemen geleidelijk de steun voor [!DNL FTP] configuraties uit. Terwijl de binnenkomende gegevensdossieropname nog in bestaande [!DNL FTP] integraties wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord off-line gegevens voor nieuwe integratie. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
 >[!NOTE]
 >
@@ -33,15 +33,15 @@ Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergro
 
 `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Voor andere toegelaten dossiernaamformaten, zie de Integraties [van de Partner van de](/help/using/integration/sending-audience-data/custom-partner-integrations.md)Douane.
+Voor andere toegelaten dossier - noem formaten, zie [Integraties van de Partner van de Douane](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
 >[!NOTE]
 >
->[!DNL Audience Manager] alleen bestanden verwerkt [!DNL ASCII] en [!DNL UTF-8] gecodeerd.
+>[!DNL Audience Manager] alleen bestanden verwerkt  [!DNL ASCII] en  [!DNL UTF-8] gecodeerd.
 
 ### Elementen benoemen
 
-De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
+De tabel definieert de elementen in de bestandsnaam [!DNL FTP].
 
 <table id="table_1EA97D75004148CE85F702427DB7E97A"> 
  <thead> 
@@ -53,26 +53,26 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ftp_dpm_</code> </p> </td> 
-   <td colname="col2"> <p>Het pad naar en de naam van de FTP-map van de <span class="keyword"> Audience Manager</span> . Neem contact op met uw accountmanager voor de FTP-map en de referenties. </p> </td> 
+   <td colname="col2"> <p>Het pad naar en de naam van de FTP-map <span class="keyword"> Audience Manager</span>. Neem contact op met uw accountmanager voor de FTP-map en de referenties. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Een id die <span class="keyword"> Audience Manager</span> vertelt of een gegevensbestand uw eigen gebruikers-id's, Android-id's, iOS-id's of andere id's bevat die tot <a href="/help/using/features/global-data-sources.md"> algemene gegevensbronnen</a>behoren. Accepteert de volgende opties:</p> 
+   <td colname="col2"> <p>Een id die <span class="keyword"> Audience Manager</span> vertelt als een gegevensdossier uw eigen gebruikers IDs, Android IDs, iOS IDs, of andere IDs bevat die tot <a href="/help/using/features/global-data-sources.md"> globale gegevensbronnen </a> behoren. Accepteert de volgende opties:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Gegevensbron-id (ook wel Data Provider-id genoemd):</b> Dit is een unieke id die de Audience Manager toewijst aan een gegevensbron (verwijs naar de <a href="/help/using/reference/ids-in-aam.md"> index van de Audience Manager van IDs </a>). Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Hiermee <code>...ftp_dpm_21_123456789.sync</code> geeft u de <span class="keyword"> Audience Manager</span> bijvoorbeeld de opdracht om gegevens aan boord te maken van id's die tot gegevensbron 21 behoren. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id's bevat. U moet het veld gebruiken <code><i>_DPID_TARGET_DATA_OWNER</i></code> wanneer u Android-id's gebruikt. Voorbeeld: <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken die bij de <code><i>_DPID_TARGET_DATA_OWNER</i></code> gegevensbron horen.</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. U moet het veld gebruiken <code><i>_DPID_TARGET_DATA_OWNER</i></code> wanneer u iOS-id's gebruikt. Voorbeeld: <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van de <code><i>_DPID_TARGET_DATA_OWNER</i></code> gegevensbron.</li>
-     <li> <b>Id's die tot andere globale gegevensbronnen</b>behoren: U kunt Roku-id's voor advertentie (RIDA), Microsoft Advertising ID's (MAID) en andere id's aan boord nemen. Gebruik de id die overeenkomt met elke gegevensbron, zoals wordt beschreven in het artikel <a href="/help/using/features/global-data-sources.md"> met</a>algemene gegevensbronnen.</li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Identiteitskaart van de Gegevensbron (die ook als identiteitskaart van de Leverancier van Gegevens wordt bekend):</b> Dit is een unieke identiteitskaart die de Audience Manager aan een gegevensbron toewijst (verwijs naar de  <a href="/help/using/reference/ids-in-aam.md"> index van de Audience Manager van IDs  </a>). Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> aan boord gegevens aan IDs die tot gegevensbron 21 behoren. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id's bevat. U moet het veld <code><i>_DPID_TARGET_DATA_OWNER</i></code> gebruiken wanneer u Android-id's gebruikt. <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> bijvoorbeeld dat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken die horen bij de <code><i>_DPID_TARGET_DATA_OWNER</i></code>-gegevensbron.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. U moet het veld <code><i>_DPID_TARGET_DATA_OWNER</i></code> gebruiken wanneer u iOS-id's gebruikt. <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> bijvoorbeeld dat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van de <code><i>_DPID_TARGET_DATA_OWNER</i></code>-gegevensbron.</li>
+     <li> <b>Id's die tot andere globale gegevensbronnen</b> behoren: U kunt Roku-id's voor advertentie (RIDA), Microsoft Advertising ID's (MAID) en andere id's aan boord nemen. Gebruik identiteitskaart die aan elke gegevensbron beantwoordt, zoals die in <a href="/help/using/features/global-data-sources.md"> globale gegevensbronnen artikel</a> wordt beschreven.</li> 
     </ul> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Dit gebied vertelt Audience Manager welke gegevensbron aan boordgegevens aan. Dit veld is verplicht als u de DPID instelt op een Android-id of iOS-id of een andere id die bij globale gegevensbronnen hoort. Hierdoor kan de <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
+   <td colname="col2"> <p>Dit gebied vertelt Audience Manager welke gegevensbron aan boordgegevens aan. Dit veld is verplicht als u de DPID instelt op een Android-id of iOS-id of een andere id die bij globale gegevensbronnen hoort. Hierdoor kunnen <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> vertelt Audience Manager dat u klant-id's kwalificeert die tot gegevensbron 33 behoren voor kenmerken of signalen die tot gegevensbron 21 behoren. </li> 
-     <li> <b>Android-id's (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> geeft de <span class="keyword"> Audience Manager</span> door dat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li> 
-     <li> <b>iOS-id's (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> geeft de <span class="keyword"> Audience Manager</span> door dat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li>
-     <li> <b>Id's die tot andere globale gegevensbronnen</b>behoren: <code>...ftp_dpm_121963_21_1234567890.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Roku-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21. Gebruik de id die overeenkomt met elke gegevensbron, zoals wordt beschreven in het artikel <a href="/help/using/features/global-data-sources.md"> met</a>algemene gegevensbronnen.</li> 
+     <li> <b>Android-id's (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> vertelt  <span class="keyword"> Audience </span> Managerdat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li> 
+     <li> <b>iOS-id's (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> vertelt  <span class="keyword"> Audience </span> Managerdat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li>
+     <li> <b>Id's die tot andere globale gegevensbronnen</b> behoren:  <code>...ftp_dpm_121963_21_1234567890.sync</code> vertelt  <span class="keyword"> Audience </span> Managerest dat het gegevensbestand alleen Roku-id's bevat en de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21. Gebruik identiteitskaart die aan elke gegevensbron beantwoordt, zoals die in <a href="/help/using/features/global-data-sources.md"> globale gegevensbronnen artikel</a> wordt beschreven.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Niet-gecomprimeerd: 1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Gecomprimeerd: 200-300 MB </li> 
-    </ul> <p>Zie de eerste twee <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"> voorbeelden</a> van bestandsnaam hieronder. </p> </td> 
+    </ul> <p>Zie de eerste 2 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md#file-name-examples"> voorbeelden van de dossiernaam</a> hieronder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
@@ -105,7 +105,7 @@ De tabel definieert de elementen in een [!DNL FTP] bestandsnaam.
  </tbody> 
 </table>
 
-## Voorbeelden van bestandsnamen {#file-name-examples}
+## Voorbeelden van bestandsnaam {#file-name-examples}
 
 In de volgende voorbeelden worden correct opgemaakte bestandsnamen weergegeven. De bestandsnamen kunnen er ongeveer hetzelfde uitzien.
 
@@ -115,11 +115,11 @@ In de volgende voorbeelden worden correct opgemaakte bestandsnamen weergegeven. 
  <li> <code> ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-[Download](assets/ftp_dpm_1234_1445374061.overwrite) het voorbeeldbestand als u meer voorbeelden nodig hebt. Dit bestand wordt opgeslagen met de `.overwrite` bestandsextensie. Open het met een eenvoudige teksteditor.
+[Download het voorbeeldbestand als u meer voorbeelden nodig hebt. ](assets/ftp_dpm_1234_1445374061.overwrite) Dit bestand wordt opgeslagen met de bestandsextensie `.overwrite`. Open het met een eenvoudige teksteditor.
 
 ## Geaccepteerde bestandsgrootten {#accepted-file-sizes}
 
-Houd rekening met de onderstaande cijfers voor de snelste/vroegste verwerking van uw bestanden en voor beperkingen van de bestandsgrootte wanneer u gegevens naar een [!DNL Audience Manager] / [!DNL FTP] directory verzendt.
+Houd rekening met de onderstaande cijfers voor de snelste/vroegste verwerking van uw bestanden en voor beperkingen van de bestandsgrootte wanneer u gegevens naar een map [!DNL Audience Manager] / [!DNL FTP] verzendt.
 
 <table id="table_59FCC63806684DF8BE54A1EAF224A234"> 
  <thead> 
