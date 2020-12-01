@@ -27,9 +27,9 @@ c_general_reports.xml
 
  -->
 
-[!DNL Audience Manager] gebruikt [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) om gebruikers-groep toestemmingen tot de [!UICONTROL General] rapporten uit te breiden. De gebruikers kunnen slechts die eigenschappen en segmenten in het melden zien dat zij toestemmingen aan mening hebben. [!UICONTROL RBAC] Met functionaliteit kunt u bepalen welke rapportgegevens interne teams kunnen weergeven. Bijvoorbeeld, kan een agentschap dat verschillende adverteerderrekeningen beheert gebruiker-groep toestemmingen vormen zodat een team dat de rekening van Advertiser A beheert niet de rapportgegevens van Advertiser B kan zien.
+[!DNL Audience Manager] gebruikt  [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) om gebruikers-groep toestemmingen tot de  [!UICONTROL General] rapporten uit te breiden. De gebruikers kunnen slechts die eigenschappen en segmenten in het melden zien dat zij toestemmingen aan mening hebben. [!UICONTROL RBAC] Met functionaliteit kunt u bepalen welke rapportgegevens interne teams kunnen weergeven. Bijvoorbeeld, kan een agentschap dat verschillende adverteerderrekeningen beheert gebruiker-groep toestemmingen vormen zodat een team dat de rekening van Advertiser A beheert niet de rapportgegevens van Advertiser B kan zien.
 
-Voer een [!UICONTROL General] rapport uit wanneer u het volgende moet doen:
+Voer een [!UICONTROL General]-rapport uit als u dat nodig hebt:
 
 * De prestaties van het overzicht door eigenschap, segment, of bestemming.
 * Houd afbeeldingen (totaal en uniek) bij intervallen van 1, 7, 14, 30, 60 en 90 dagen bij.
@@ -38,23 +38,23 @@ Voer een [!UICONTROL General] rapport uit wanneer u het volgende moet doen:
 * Identificeer sterke of slechte prestatieseigenschappen en segmenten, analyseer vraag, of vergelijk lading/brand gegevens met derderapporten.
 * Gegevens (.csv-indeling) exporteren voor verdere analyse en uitwisseling.
 
-De volgende illustratie biedt een overzicht op hoog niveau van de belangrijkste elementen in het [!UICONTROL General] rapport.
+De volgende illustratie verstrekt een overzicht op hoog niveau van zeer belangrijke elementen in het [!UICONTROL General] rapport.
 
 ![](assets/general_reports.png)
 
 1. Configureer de volgende opties:
 
-   * **Rapporttype:** Selecteer het gewenste rapporttype (Trait, Segment, of Bestemming).
+   * **Rapporttype:** selecteer het gewenste rapporttype (Trait, Segment of Doel).
 
-   * **Voor datums tot en met:** Geef het datumbereik voor het rapport op.
+   * **Voor Datums door:** specificeer de datumwaaier voor het rapport.
 
 2. Zoek naar een eigenschap, segment, of bestemming door naam of identiteitskaart
-3. Sleep vanuit de mappenlijst de kenmerken, segmenten of doelen die u aan de rechterkant aan het [!UICONTROL Selections] deelvenster wilt rapporteren, en zet deze neer.
+3. Sleep vanuit de mappenlijst de kenmerken, segmenten of doelen die u aan de rechterkant wilt melden naar het deelvenster [!UICONTROL Selections].
 4. Genereer het rapport dat u wilt weergeven in een tabel die kan worden geëxporteerd.
 
-## Een algemeen rapport uitvoeren {#run-general-report}
+## Algemeen rapport uitvoeren {#run-general-report}
 
-Deze sectie beschrijft hoe te om een [!UICONTROL General] rapport in werking te stellen en tijd en andere prestatiesopties te plaatsen.
+In deze sectie wordt beschreven hoe u een [!UICONTROL General]-rapport uitvoert en tijd en andere prestatieopties instelt.
 
 <!-- 
 
@@ -62,11 +62,11 @@ t_run_general_report.xml
 
  -->
 
-1. Klik in het **[!UICONTROL Analytics]** dashboard op **[!UICONTROL General Reports]**.
-1. Selecteer het gewenste type in de **[!UICONTROL Report Type]** vervolgkeuzelijst: Trait, Segment of Doel.
-1. *Voorwaardelijk* Klik de datumdoos om een kalender te tonen, dan selecteer de beëindigende datum voor uw rapport als u een andere datum dan vandaag wilt specificeren.
+1. Klik op **[!UICONTROL Analytics]** in het dashboard.**[!UICONTROL General Reports]**
+1. Selecteer het gewenste type in de vervolgkeuzelijst **[!UICONTROL Report Type]**: Trait, Segment of Doel.
+1. ** VoorwaardelijkKlik de datumdoos om een kalender te tonen, dan selecteer de beëindigende datum voor uw rapport als u een andere datum dan vandaag wilt specificeren.
 1. Zoek naar een eigenschap, segment, of bestemming door naam of identiteitskaart
-1. Sleep vanuit de mappenlijst de kenmerken, segmenten of doelen die u aan de rechterkant aan het [!UICONTROL Selections] deelvenster wilt rapporteren, en zet deze neer.
+1. Sleep vanuit de mappenlijst de kenmerken, segmenten of doelen die u aan de rechterkant wilt melden naar het deelvenster [!UICONTROL Selections].
 1. Klik op **[!UICONTROL Run Report]**.
 
    De resultaten worden weergegeven in een tabel die kan worden geëxporteerd. Klik op de kolomkoppen om de resultaten in oplopende of aflopende volgorde te sorteren.
@@ -74,21 +74,21 @@ t_run_general_report.xml
 
    >[!NOTE]
    >
-   >[!UICONTROL Total Trait Realizations] worden [!UICONTROL Rule-based Traits] alleen berekend.
+   >[!UICONTROL Total Trait Realizations] worden  [!UICONTROL Rule-based Traits] alleen berekend.
 
-1. *Optioneel* klikken **[!UICONTROL Export to CSV]**. Dit exporteert de [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations]en [!UICONTROL Total Trait Population] voor alle dagbereiken.
+1. ** Optioneelklikken  **[!UICONTROL Export to CSV]**. Hiermee worden [!UICONTROL Unique Trait Realizations], [!UICONTROL Total Trait Realizations] en [!UICONTROL Total Trait Population] voor alle dagbereiken geëxporteerd.
 
-## Algemene resultaten van rapporten {#general-reports-explained}
+## Algemene rapporten Uitgevoerde {#general-reports-explained}
 
-De getallen in het [!UICONTROL General Reports] bestand worden direct van ons gegenereerd [!UICONTROL User Profile Store]. De resultaten geven het aantal gebruikers weer dat zich in de back-end [!DNL Audience Manager] bevond op het moment dat deze rapportnummers werden gegenereerd.
+De aantallen in [!UICONTROL General Reports] worden geproduceerd direct van [!UICONTROL User Profile Store]. De resultaten weerspiegelen het aantal gebruikers dat [!DNL Audience Manager] in het achtereind op het tijdstip bevatte deze rapportaantallen werden geproduceerd.
 
 * Deze aantallen omvatten bezoeker geen IDs met bovenmatig verkeer. Het verkeer van bots wordt gefilterd alvorens ons achterste systeem te bereiken. Ook, wordt wat bot verkeer verworpen tijdens een wekelijkse schoonmaakbaan die in het achterste gedeelte wordt in werking gesteld.
-* Als u gegevens aan boord hebt via binnenkomende verwerking die van de [!DNL Audience Manager] UUID is afgehaald, en deze id&#39;s bevatten gebruikers die niet meer actief zijn in ons systeem, bereiken deze inactieve UUID&#39; [!DNL Audience Manager] s nooit de [!UICONTROL User Profile Store] UUID en worden deze niet gerapporteerd.
-* [!UICONTROL Total Trait Realizations] worden [!UICONTROL Rule-based Traits] alleen berekend.
+* Als u gegevens aan boord hebt via binnenkomende verwerking die van [!DNL Audience Manager] UUID is afgestoten, en deze id&#39;s bevatten gebruikers die niet meer actief zijn in ons systeem, bereiken deze inactieve [!DNL Audience Manager] UUID&#39;s nooit [!UICONTROL User Profile Store] en worden deze niet gerapporteerd.
+* [!UICONTROL Total Trait Realizations] worden  [!UICONTROL Rule-based Traits] alleen berekend.
 
 ## Algemene rapporten Resultaten voor sporen {#general-report-results-traits}
 
-De filters hieronder zijn beschikbaar wanneer u een Algemeen rapport in werking stelt en als rapporttype selecteert. **[!UICONTROL Trait]**
+De filters hieronder zijn beschikbaar wanneer u een Algemeen rapport in werking stelt en **[!UICONTROL Trait]** als rapporttype selecteert.
 
 Wanneer het filtreren van de resultaten door [!UICONTROL Device ID]:
 
@@ -126,7 +126,7 @@ The illustration below shows the results of running a general report for the Tra
 
 ## Algemene rapporten Resultaten voor segmenten {#general-report-results-segments}
 
-De hieronder metriek is beschikbaar wanneer u een Algemeen rapport in werking stelt en als rapporttype selecteert **[!UICONTROL Segment]** :
+De hieronder metriek is beschikbaar wanneer u een Algemeen rapport in werking stelt en **[!UICONTROL Segment]** als rapporttype selecteert:
 
 ### Realtime segmentpopulatie
 
@@ -146,7 +146,7 @@ In de onderstaande afbeelding ziet u de resultaten van het uitvoeren van een alg
 
 ## Algemene rapporten Resultaten voor Doelen {#general-report-results-destinations}
 
-De hieronder metriek is beschikbaar wanneer u een Algemeen rapport in werking stelt en als rapporttype selecteert **[!UICONTROL Destination]** :
+De hieronder metriek is beschikbaar wanneer u een Algemeen rapport in werking stelt en **[!UICONTROL Destination]** als rapporttype selecteert:
 
 **Realtime segmentpopulatie**
 
