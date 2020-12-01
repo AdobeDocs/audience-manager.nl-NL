@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Overdrachtbeheerbestanden voor logboekbestandoverdracht {#transfer-control-files-for-log-file-transfers}
 
-Overdracht-controle ([!DNL .info]) de dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correcte dossieroverdrachten behandelde.
+Overdracht-controle ([!DNL .info]) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
 
-[!DNL Audience Manager] verzendt een overdracht-controle dossier naar een partner met elke dossieroverdracht. Wegens de multi-thread aard van de [!DNL FTP] uitgever, zou het overdracht-controle dossier kunnen worden verzonden alvorens de daadwerkelijke dossiers worden gebeëindigd overbrengend.
+[!DNL Audience Manager] verzendt een overdracht-controle dossier naar een partner met elke dossieroverdracht. Vanwege de multithread-aard van de uitgever [!DNL FTP], kan het overdrachtcontrole-bestand worden verzonden voordat de eigenlijke bestanden zijn overgebracht.
 
-Met de metagegevens in het [!DNL .info] bestand kunnen partners:
+De meta-gegevens in het [!DNL .info] dossier laten partners toe:
 
 * bepalen wanneer een volledige overdrachtscyclus is voltooid (het totale aantal bestanden in de reeks is afgeleverd);
 * Bepaal of een bestand in de reeks volledig/correct is (door de grootte van het bestand in bytes en het totale aantal regels te onderzoeken).
@@ -29,11 +29,11 @@ Met de metagegevens in het [!DNL .info] bestand kunnen partners:
 
 ## Naamgevingsconventies voor bestanden {#file-naming-conventions}
 
-Het overdrachtcontrole-bestand heeft dezelfde naam als de hoofdmap van de batch/reeks met een [!DNL .info] bestandsextensie.s
+Het overdrachtcontrole-bestand heeft dezelfde naam als de hoofdmap van de batch/reeks met een [!DNL .info]-bestandsextensie.s
 
-Als het eerste bestand in de reeks bijvoorbeeld een naam had: [!DNL ftp_12345_67890_full_1500727351632-1.sync], wordt het controlebestand een naam gegeven [!DNL ftp_12345_67890_iter_1500727351632.info].
+Als het eerste bestand in de reeks bijvoorbeeld een naam had: [!DNL ftp_12345_67890_full_1500727351632-1.sync], zou het controledossier [!DNL ftp_12345_67890_iter_1500727351632.info] worden genoemd.
 
-## File Format {#file-format}
+## Bestandsindeling {#file-format}
 
 ```
 {
@@ -78,7 +78,7 @@ Als het eerste bestand in de reeks bijvoorbeeld een naam had: [!DNL ftp_12345_67
 
 >[!NOTE]
 >
-> Het totale aantal batches is exclusief voor het [!DNL .info] bestand zelf. Dat wil zeggen dat de totalen niet het [!DNL .info] bestand, de byte of het aantal regels bevatten.
+> De totale getallen van de batch zijn exclusief van het [!DNL .info]-bestand zelf. Dat wil zeggen dat de totalen niet het [!DNL .info]-bestand, de bytegrootte of het aantal regels bevatten.
 >
 > De grootte van de byte van dossiers en de lijnaantallen zijn inclusief om het even welke kopbal en (lege) lijnen/rijen spacer. Als u het aantal feitelijke gegevenslijnen/rijen wilt ophalen, verwijdert u koppen.
 >
