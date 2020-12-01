@@ -18,38 +18,38 @@ ht-degree: 5%
 
 # [!UICONTROL Destinations] Overzicht {#destinations}
 
-In Audience Manager, [!UICONTROL destination] is een systeem van derden (advertentieserver, [!DNL DSP]en netwerk, enz.) waarmee u data wilt delen. [!UICONTROL Destination Builder] Dit is het gereedschap dat u hebt gebruikt voor het maken en beheren [!UICONTROL cookie], [!DNL URL]of [!UICONTROL server-to-server destinations].
+In Audience Manager is een [!UICONTROL destination] elk systeem van derden (advertentieserver, [!DNL DSP], netwerk, enz.) waarmee u data wilt delen. [!UICONTROL Destination Builder] Dit is het gereedschap dat u hebt gebruikt voor het maken en beheren  [!UICONTROL cookie],  [!DNL URL]of  [!UICONTROL server-to-server destinations].
 
 ## Doel en voordelen {#purposes}
 
 <!-- c_destinations.xml -->
 
-[!UICONTROL Destinations] en [!UICONTROL Destination Builder] laat u informatie over gesegmenteerde gebruikers tot stand brengen [!UICONTROL destinations] en verzenden naar uw gegevenspartner. Dit helpt u:
+[!UICONTROL Destinations] en  [!UICONTROL Destination Builder] laat u informatie over gesegmenteerde gebruikers tot stand brengen  [!UICONTROL destinations] en verzenden naar uw gegevenspartner. Dit helpt u:
 
-* **Protect-gegevenswaarde:** In plaats van alle gebruikersgegevens naar een [!UICONTROL destination]server te verzenden, kunt [!UICONTROL Destination Builder] u specifieke informatie alleen over gekwalificeerde gebruikers delen.
-* **Actie nemen op uw gegevens:** Het verzenden van gegevens naar een [!UICONTROL destination] partner helpt hen snel gekwalificeerde publiekssegmenten ontwikkelen en richten.
-* **Minder technische overhead:** Zakelijke gebruikers kunnen de installatie [!UICONTROL destinations] veilig uitvoeren in de [!UICONTROL Destination Builder] interface. Hierdoor wordt de tijd die nodig is voor het testen vóór de implementatie, verkort. Met [!UICONTROL Destination Builder], creeert, beheert en schrapt u, [!UICONTROL destinations] aangezien uw bedrijfsbehoeften veranderen, allen zonder het werken door een lange ontwikkelingscyclus.
+* **Protect-gegevenswaarde:** in plaats van alle gebruikersgegevens naar een gebruiker te verzenden,  [!UICONTROL destination]  [!UICONTROL Destination Builder] kunt u alleen specifieke informatie over gekwalificeerde gebruikers delen.
+* **Handeling op uw gegevens uitvoeren:** Het verzenden van gegevens naar een  [!UICONTROL destination] partner helpt hen snel gekwalificeerde publiekssegmenten ontwikkelen en richten.
+* **Minder technische overhead:** zakelijke gebruikers kunnen  [!UICONTROL destinations] veilig in de  [!UICONTROL Destination Builder] interface instellen. Hierdoor wordt de tijd die nodig is voor het testen vóór de implementatie, verkort. Met [!UICONTROL Destination Builder] maakt, beheert en verwijdert u [!UICONTROL destinations] wanneer uw bedrijfsbehoeften veranderen, allemaal zonder een lange ontwikkelingscyclus door te voeren.
 
 ## Technische overwegingen {#technical-considerations}
 
 <!-- destination-delivery-methods.xml -->
 
-De levering van gegevens hangt af van hoe uw gegevenspartner [!UICONTROL destination] informatie wil, of kan ontvangen. Technische of technische beperkingen kunnen voorkomen dat een [!UICONTROL destination] gebruiker gegevens ontvangt via [!DNL URL], [!UICONTROL cookie]of [!UICONTROL server-to-server] processen. Het werk met uw derdepartner om te bepalen welke methode zij kunnen gebruiken.
+De levering van gegevens hangt af van hoe uw gegevenspartner [!UICONTROL destination] informatie wil, of kan ontvangen. Technische of technische beperkingen kunnen voorkomen dat een [!UICONTROL destination] gegevens ontvangt via [!DNL URL]-, [!UICONTROL cookie]- of [!UICONTROL server-to-server]-processen. Het werk met uw derdepartner om te bepalen welke methode zij kunnen gebruiken.
 
-## Overwegingen voor bedrijven {#business-considerations}
+## Bedrijfsoverwegingen {#business-considerations}
 
-De bedrijfsbesluiten voor het selecteren van één leveringsmethode over een andere hangen van de technische mogelijkheden van uw [!UICONTROL destination] partner en af wat u met gekwalificeerde gebruikersinformatie wilt doen. Technische beperkingen kunnen bijvoorbeeld uw opties beperken als een gebruiker gegevens niet via een bepaalde leveringsmethode [!UICONTROL destination] kan ontvangen. Als er echter geen technische problemen zijn, kunt u informatie verzenden op basis van de manier waarop u actie wilt ondernemen met betrekking tot die gegevens. Bijvoorbeeld:
+De bedrijfsbesluiten voor het selecteren van één leveringsmethode over een andere hangen van de technische mogelijkheden van uw [!UICONTROL destination] partner en af wat u met gekwalificeerde gebruikersinformatie wilt doen. Technische beperkingen kunnen bijvoorbeeld uw opties beperken als een [!UICONTROL destination] geen gegevens kan ontvangen van een bepaalde leveringsmethode. Als er echter geen technische problemen zijn, kunt u informatie verzenden op basis van de manier waarop u actie wilt ondernemen met betrekking tot die gegevens. Bijvoorbeeld:
 
-* [!DNL URL]en werken bijna synchroon met gebruikershandelingen op een pagina. [!UICONTROL cookie-based destinations]
+* [!DNL URL]en  [!UICONTROL cookie-based destinations] werken bijna synchroon met gebruikersacties op een pagina.
 * [!UICONTROL Server-to-server] methoden zijn goed voor het opbouwen van diepe publiekssegmenten in de loop der tijd .
 
-## [!UICONTROL Destination] Typen en gangbare toepassingen {#destination-types}
+## [!UICONTROL Destination] Typen en gangbare toepassingen  {#destination-types}
 
-De voorbeelden in de volgende tabel kunnen u helpen begrijpen wanneer u een bepaald type gebruikt [!UICONTROL destination] en welke verschillen er tussen de verschillende typen zijn.
+De voorbeelden in de volgende lijst kunnen u helpen begrijpen wanneer om bepaalde [!UICONTROL destination] en de verschillen tussen elk type te gebruiken.
 
 | [!UICONTROL Destination] Type | Gebruikt gewoonlijk | Voorbeeld | Overwegingen |
 |--- |--- |--- |--- |
 | **[!UICONTROL Adobe Experience Cloud Destinations]** | U moet gegevens naar andere Adobe Experience Cloud-oplossingen verzenden. | Gegevens worden naar Adobe Analytics verzonden. |  |
-| **[!UICONTROL People-Based Destinations]** | U moet publiekssegmenten naar op mensen gebaseerde omgevingen, zoals Facebook, verzenden. | Aangepaste aanbiedingen aan bestaande klanten leveren op basis van hun aankoopgeschiedenis | Het richten van het publiek wordt gedaan door gehakte herkenningstekens. Zie Op [mensen gebaseerde Doelen](people-based-destinations-overview.md). |
+| **[!UICONTROL People-Based Destinations]** | U moet publiekssegmenten naar op mensen gebaseerde omgevingen, zoals Facebook, verzenden. | Aangepaste aanbiedingen aan bestaande klanten leveren op basis van hun aankoopgeschiedenis | Het richten van het publiek wordt gedaan door gehakte herkenningstekens. Zie [Op mensen gebaseerde Doelen](people-based-destinations-overview.md). |
 | **[!UICONTROL Device-Based Destinations]** (**Server-naar-server**) | <ul><li>Directe gegevensoverdracht is niet vereist.</li><li>Gegevens verzamelen om een grote groep gekwalificeerde gebruikers samen te stellen.</li></ul> | Gegevens verzamelen in de tijd (uren of dagen) om deze te gebruiken in een campagne die op een latere datum moet worden uitgevoerd. | <ul><li>Hiermee worden gegevens over nieuwe en vorige sitebezoekers overgedragen. </li><li>Bezoekers hoeven niet opnieuw te worden gezien om in aanmerking te komen voor andere segmenten.</li></ul> |
-| **[!UICONTROL Custom Destinations]** (**URL** of **cookie**) | U moet gegevens onmiddellijk overbrengen zodat een bestemming actie op een gekwalificeerde gebruiker kan onmiddellijk ondernemen. | Gegevens verzenden vanaf een site voor het kopen van tickets. Gebruik een [!UICONTROL URL] of [!UICONTROL cookie destination] om de gebruiker in aanmerking te nemen en het doel onmiddellijk te wijzigen. | <ul><li>Hiermee worden alleen gegevens over nieuwe bezoekers overgedragen. </li><li>Bezoekers moeten weer zichtbaar worden om in aanmerking te komen voor het segment.</li></ul> |
+| **[!UICONTROL Custom Destinations]** (**** URLof  **cookie**) | U moet gegevens onmiddellijk overbrengen zodat een bestemming actie op een gekwalificeerde gebruiker kan onmiddellijk ondernemen. | Gegevens verzenden vanaf een site voor het kopen van tickets. Gebruik een [!UICONTROL URL] of [!UICONTROL cookie destination] om de gebruiker in aanmerking te nemen en onmiddellijk opnieuw te richten. | <ul><li>Hiermee worden alleen gegevens over nieuwe bezoekers overgedragen. </li><li>Bezoekers moeten weer zichtbaar worden om in aanmerking te komen voor het segment.</li></ul> |
