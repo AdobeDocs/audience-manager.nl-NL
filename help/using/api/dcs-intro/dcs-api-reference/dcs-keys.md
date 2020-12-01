@@ -16,13 +16,13 @@ ht-degree: 4%
 ---
 
 
-# Gesteunde Attributen voor [!DNL DCS] Vraag [!DNL API] {#supported-attributes-for-dcs-api-calls}
+# Ondersteunde kenmerken voor [!DNL DCS] [!DNL API] aanroepen {#supported-attributes-for-dcs-api-calls}
 
-Hiermee geeft u de syntaxis en ondersteunde kenmerken (of sleutelwaardeparen) weer die u kunt doorgeven aan de [!UICONTROL Data Collection Servers] ([!DNL DCS]). Deze informatie kan u helpen uw [!DNL DCS] verzoeken formatteren en de parameters begrijpen die door dit systeem zijn teruggekeerd.
+Hiermee geeft u de syntaxis en ondersteunde kenmerken (of sleutelwaardeparen) weer die u kunt doorgeven aan [!UICONTROL Data Collection Servers] ([!DNL DCS]). Deze informatie kan u helpen uw [!DNL DCS] verzoeken formatteren en de parameters begrijpen die door dit systeem zijn teruggekeerd.
 
 ## Kenmerkvoorvoegsels {#attribute-prefixes}
 
-Het [!DNL DCS] baseert zich op specifieke prefixen die aan de sleutels in zeer belangrijke-waardeparen worden toegevoegd om het type van gegevens te classificeren u binnen overgaat.
+[!DNL DCS] baseert zich op specifieke prefixen die aan de sleutels in zeer belangrijke-waardeparen worden toegevoegd om het type van gegevens te classificeren u binnen overgaat.
 
 <table id="table_23B7E15EC13749E9A245DFB543822DB7"> 
  <thead> 
@@ -38,7 +38,7 @@ Het [!DNL DCS] baseert zich op specifieke prefixen die aan de sleutels in zeer b
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_</code> </p> </td> 
-   <td colname="col2"> <p><span class="keyword"> Kenmerken van Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p><span class="keyword"> Attributen van </span> Audience Managerattributes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> h_</code> </p> </td> 
@@ -46,14 +46,14 @@ Het [!DNL DCS] baseert zich op specifieke prefixen die aan de sleutels in zeer b
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> p_</code> </p> </td> 
-   <td colname="col2"> <p>Persoonlijke, door de klant gedefinieerde kenmerken. </p> <p> DCS keurt uw eigen, privé gegevens goed wanneer de sleutel een <code> p_</code> prefix heeft. De privé gegevens worden gebruikt voor karakterevaluatie, maar het zal niet in ons systeem worden geregistreerd of worden opgeslagen. Stel bijvoorbeeld dat u een kenmerk hebt gedefinieerd als <code> customers = p_age&lt;25</code> en dat u een gebeurtenis aanroept <code> p_age=23</code> . Gezien deze voorwaarden, kwalificeert de gebruiker die aan de op leeftijd-gebaseerde kwalificatiecriteria voldoet voor het bezit, maar het sleutel-waarde paar wordt gelaten vallen nadat de <span class="keyword"> Audience Manager</span> het verzoek ontvangt en niet wordt geregistreerd. </p> </td>
+   <td colname="col2"> <p>Persoonlijke, door de klant gedefinieerde kenmerken. </p> <p> DCS keurt uw eigen, privé gegevens goed wanneer de sleutel een <code> p_</code> prefix heeft. De privé gegevens worden gebruikt voor karakterevaluatie, maar het zal niet in ons systeem worden geregistreerd of worden opgeslagen. Stel bijvoorbeeld dat u een kenmerk hebt dat is gedefinieerd als <code> customers = p_age&lt;25</code> en dat u <code> p_age=23</code> doorgeeft in een gebeurtenisaanroep. Gezien deze voorwaarden, kwalificeert de gebruiker die aan de op leeftijd-gebaseerde kwalificatiecriteria voldoet voor het bezit, maar het zeer belangrijke-waardepaar wordt gelaten vallen nadat <span class="keyword"> Audience Manager</span> het verzoek ontvangt en niet het programma wordt geopend. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-## [!DNL d_] Attributen {#d-attributes}
+## [!DNL d_] Attributen  {#d-attributes}
 
-Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wilt. Als u wilt dat de reactie [!DNL DCS] wordt geretourneerd, `d_rtbd=json` is dit vereist.
+Al deze zijn facultatief, tenzij u een reactie van [!DNL DCS] wilt. Als u [!DNL DCS] een reactie wilt terugkeren, dan `d_rtbd=json` wordt vereist.
 
 <table id="table_FCCE4F9D796648899772A191981EFDE6"> 
  <thead> 
@@ -69,25 +69,25 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wil
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cb</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een JavaScript-functie opgegeven die u wilt uitvoeren met de <span class="wintitle"> DCS</span> -reactie als een functieparameter van de callback-functie. </p> </td> 
+   <td colname="col2"> <p>Geeft een JavaScript-functie op die u wilt uitvoeren met de reactie <span class="wintitle"> DCS</span> als een functieparameter van de callback-functie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_cid</code> </p> </td> 
-   <td colname="col2"> <p>Bevat één of meerdere paren gegevensleverancier IDs (<code> DPID</code>) en gegevensleverancier gebruiker IDs (<code> DPUUID</code>) die door <span class="keyword"> Audience Manager</span>wordt toegewezen. Als u meerdere paren <code> DPID</code>s en <code> DPUUID</code>s gebruikt, scheidt u elk paar met het niet-afdrukbare teken <code> %01</code>. Bijvoorbeeld: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die afgekeurd maar nog gesteund zijn. Zie <a href="../../../reference/cid.md">CID vervangt DPID en DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Bevat een of meer paren van gegevensleverancier-id's (<code> DPID</code>) en gebruikers-id's voor gegevensleveranciers (<code> DPUUID</code>) die zijn toegewezen door <span class="keyword"> Audience Manager</span>. Als u meerdere paren <code> DPID</code>s en <code> DPUUID</code>s gebruikt, scheidt u elk paar met het niet-afdrukbare teken <code> %01</code>. Bijvoorbeeld: <code><i>DPID</i>%01<i>DPUUUID</i></code>. </p> <p><code> d_cid</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die verouderd maar nog steeds ondersteund zijn. Zie <a href="../../../reference/cid.md">CID vervangt DPID en DPUUID</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cid_ic</code> </p> </td> 
-   <td colname="col2"> <p>Bevat een integratiecode en een bijbehorende unieke gebruiker - identiteitskaart in één enkel zeer belangrijk-waardepaar. </p> <p><code> d_cid_ic</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die afgekeurd maar nog gesteund zijn. Zie <a href="../../../reference/cid.md">CID vervangt DPID en DPUUID</a>. </p> </td>
+   <td colname="col2"> <p>Bevat een integratiecode en een bijbehorende unieke gebruiker - identiteitskaart in één enkel zeer belangrijk-waardepaar. </p> <p><code> d_cid_ic</code> vervangt <code> d_dpid</code> en <code> d_dpuuid</code>, die verouderd maar nog steeds ondersteund zijn. Zie <a href="../../../reference/cid.md">CID vervangt DPID en DPUUID</a>. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> configuratie. Zie Ondersteuning <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> van COPPA in de identiteitsservice</a>van Adobe Experience Platforms. </p> </td>
+   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de configuratie <code> idSyncDisable3rdPartySyncing</code>. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> KOPA-ondersteuning in de Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
-   <td colname="col2"> <p>Optioneel. Ingeschakeld op verzoek van klant. Neem contact op met de consultant van de Adobe Audience Manager of de klantenservice. </p> <p>Geeft aan dat kenmerken en segmenten binnen de <code> JSON</code> reactie moeten worden geretourneerd. </p> <p> 
+   <td colname="col2"> <p>Optioneel. Ingeschakeld op verzoek van klant. Neem contact op met uw Adobe Audience Manager-consultant of klantenservice. </p> <p>Geeft aan dat de kenmerken en segmenten moeten worden geretourneerd binnen de reactie <code> JSON</code>. </p> <p> 
      <ul id="ul_8B936ACB18724681B959783421ACF026"> 
-      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> keert <a href="../../../reference/ids-in-aam.md"> erfenis segment IDs</a> voor de segmenten terug. </p> </li>
+      <li id="li_792A6248F49141C0B4B214C754D5F5C5"> <p><code> d_cts=1</code> retourneert <a href="../../../reference/ids-in-aam.md"> verouderde segment-id's</a> voor de segmenten. </p> </li>
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> keert segment IDs voor de segmenten terug. </p> </li>
      </ul> </p> <p>Een voorbeeldreactie kan er als volgt uitzien: </p> <p>
      <code class="syntax javascript">
@@ -111,23 +111,23 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wil
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst=1</code> </p> </td> 
-   <td colname="col2"> <p>Retourneert URL-doelgegevens in de <code> JSON</code> reactie. </p> </td> 
+   <td colname="col2"> <p>Retourneert URL-doelgegevens in de reactie <code> JSON</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_dst_filter</code> </p> </td> 
-   <td colname="col2"> <p><code> d_dst_filter</code> is een gereserveerd kenmerk dat wordt gebruikt bij de integratie tussen Adobe Analytics en Audience Manager. </p> <p>We raden u af om kenmerken te maken die gereserveerde kenmerken gebruiken. Adobe kan gereserveerde kenmerken op elk gewenst moment wijzigen. </p> </td> 
+   <td colname="col2"> <p><code> d_dst_filter</code> is een gereserveerd kenmerk dat wordt gebruikt bij de integratie tussen Adobe Analytics en Audience Manager. </p> <p>We raden u af om kenmerken te maken die gereserveerde kenmerken gebruiken. Adobe kan gereserveerde kenmerken te allen tijde wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_jsonv=1|0</code> </p> </td> 
-   <td colname="col2"> <p>Geeft de <code> JSON</code> versie aan die in de reactie moet worden gebruikt. Normaal gesproken moet u dit instellen op <code> d_jsonv=1</code>. Als u deze optie instelt, worden id-syncs uitgeschakeld. <code> d_jsonv=0</code> </p> </td> 
+   <td colname="col2"> <p>Geeft de <code> JSON</code>-versie aan die in de reactie moet worden gebruikt. Normaal, zou u dit aan <code> d_jsonv=1</code> moeten plaatsen. Als u <code> d_jsonv=0</code> instelt, worden id-syncs uitgeschakeld. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die door de <span class="keyword"> Experience Cloud</span> -id-service wordt ingesteld en gebruikt. Zie <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a>voor meer informatie over de ECID. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die is ingesteld en wordt gebruikt door de id-service <span class="keyword"> Experience Cloud</span>. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a> voor meer informatie over de ECID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
-   <td colname="col2"> <p>Naam ruimte-id. Hiermee wordt aangegeven welke JavaScript-container wordt gebruikt. Wordt gebruikt door <span class="wintitle"> DIL</span> voor id-synchronisatie. </p> </td> 
+   <td colname="col2"> <p>Naam ruimte-id. Hiermee wordt aangegeven welke JavaScript-container wordt gebruikt. Wordt gebruikt door <span class="wintitle"> DIL</span> voor id-synchroniseren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_ptfm </code> </p> </td> 
@@ -141,14 +141,14 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wil
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rs</code> </p> </td> 
-   <td colname="col2"> <p>Vervangen. <code> d_rs</code> is een gereserveerd kenmerk dat wordt gebruikt in de verouderde integratie tussen <span class="keyword"> Adobe Analytics</span> en <span class="keyword"> Audience Manager</span>. </p> <p>We raden u af om kenmerken te maken die gereserveerde kenmerken gebruiken. Adobe kan gereserveerde kenmerken op elk gewenst moment wijzigen. </p> </td> 
+   <td colname="col2"> <p>Vervangen. <code> d_rs</code> is een gereserveerd attribuut, dat in de erfenisintegratie tussen  <span class="keyword"> Adobe </span> Analytici en  <span class="keyword"> Audience Manager</span> wordt gebruikt. </p> <p>We raden u af om kenmerken te maken die gereserveerde kenmerken gebruiken. Adobe kan gereserveerde kenmerken te allen tijde wijzigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_rtbd=json</code> </p> </td> 
-   <td colname="col2"> <p>Vereist als u een <code> JSON</code> reactie van <span class="wintitle"> DCS</span>wilt. </p> <p> 
+   <td colname="col2"> <p>Vereist als u een <code> JSON</code> reactie van <span class="wintitle"> DCS</span> wilt. </p> <p> 
      <ul id="ul_9EA00BD822504BCA8ECB59C1634DB91A"> 
-      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Als u dit weglaat, keert <span class="wintitle"> DCS</span> een pixel in de kopbal terug. </li> 
-      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Als u dit opneemt, keert <span class="wintitle"> DCS</span> een <code> JSON</code> voorwerp in het lichaam van de reactie terug. Zie het onderstaande voorbeeld. Uw reactie kan complexer zijn. </li> 
+      <li id="li_7CB890F92C4A4C6AA8B4EE32E1AD4564">Als u dit weglaat, <span class="wintitle"> DCS</span> keert een pixel in de kopbal terug. </li> 
+      <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Als u dit omvat, <span class="wintitle"> DCS</span> keert een <code> JSON</code> voorwerp in het lichaam van de reactie terug. Zie het onderstaande voorbeeld. Uw reactie kan complexer zijn. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
       {
@@ -161,7 +161,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wil
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_sid</code> </p> </td> 
-   <td colname="col2"> <p><code> SID</code> staat voor <span class="term"> score-id</span>. Dit is een unieke id voor een kenmerk of segment. </p> </td> 
+   <td colname="col2"> <p><code> SID</code> staat voor <span class="term"> score ID</span>. Dit is een unieke id voor een kenmerk of segment. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid</code> </p> </td> 
@@ -173,15 +173,15 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS]website wil
       <li id="li_3E6BBDEAE5C644C6A96CB49766CDA988">DPID-integratiecode: ic1 </li> 
      </ul> 
      <ul id="ul_0C30A8AE349D43A08490DA76CB4B06FA"> 
-      <li id="li_F1E8DB26168B471FA35D82F4DD3AC601"><b>Vertrek T2</b> met: </li> 
+      <li id="li_F1E8DB26168B471FA35D82F4DD3AC601"><b>Trait T2</b> met: </li> 
       <li id="li_1C943F84A4A149A0A86ABC92761D3E9E">Trait-regel: "<code> key2 == val2</code>" </li> 
       <li id="li_F2AA086C87B7484F8BFE1D5C09E8EBDF">Gegevensbron (DPID): 2 </li> 
       <li id="li_877CAAAE996A4707BEE74F7042708481">DPID-integratiecode: ic2 </li> 
-     </ul> </p> <p>In een steekproefvraag, <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid=1</code>, slechts wordt het bezit T1 teruggekeerd. </p> </td> 
+     </ul> </p> <p>In een steekproefvraag, <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid=1</code>, slechts wordt de eigenschap T1 teruggekeerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_tdpid_ic</code> </p> </td> 
-   <td colname="col2"> <p>Het doel is gelijk aan de hierboven beschreven <code> d_tdpid</code> parameter. In dit geval wordt de gegevensbron echter doorgegeven met behulp van de integratiecode. </p> <p>Houd de hierboven beschreven kenmerken in acht en bekijk de voorbeeldvraag: </p> <p>Voor, <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code>wordt slechts eigenschap T2 teruggegeven. </p> </td> 
+   <td colname="col2"> <p>Het doel is gelijk aan de parameter <code> d_tdpid</code> die hierboven wordt beschreven. In dit geval wordt de gegevensbron echter doorgegeven met behulp van de integratiecode. </p> <p>Houd de hierboven beschreven kenmerken in acht en bekijk de voorbeeldvraag: </p> <p>Voor <code>yourcompany.demdex.net/event?key1=val1&amp;key2=val2&amp;d_tdpid_ic=ic2</code> wordt alleen de eigenschap T2 geretourneerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_uuid</code> </p> </td> 
