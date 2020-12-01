@@ -21,7 +21,7 @@ Beschrijft de gevolgen op gesegmenteerde gebruikers, gegevens, en bestemmingen w
 
 ## Toegang tot de besturingselementen Pauzeren en Verwijderen
 
-Houd de muisaanwijzer boven een segmentnaam in de lijst met segmenten om de **[!UICONTROL pause]** pictogrammen en **[!UICONTROL delete]** pictogrammen (in de [!UICONTROL Actions] kolom) weer te geven. Deze functies zijn van invloed op segmenten zoals hieronder wordt beschreven.
+Houd de muisaanwijzer boven een segmentnaam in de lijst met segmenten om de pictogrammen **[!UICONTROL pause]** en **[!UICONTROL delete]** (in de kolom [!UICONTROL Actions]) weer te geven. Deze functies zijn van invloed op segmenten zoals hieronder wordt beschreven.
 
 ## Functionaliteit gepauzeerd segment
 
@@ -46,4 +46,4 @@ Een verwijderd segment:
 
 >[!NOTE]
 >
->U kunt segmenten ook pauzeren en verwijderen met een [!DNL API] methode. Zie [REST API&#39;s](../../api/rest-api-main/rest-api-main.md)voor meer informatie.
+>U kunt segmenten ook pauzeren en verwijderen met een methode [!DNL API]. Zie [REST API&#39;s](../../api/rest-api-main/rest-api-main.md) voor meer informatie.
