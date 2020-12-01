@@ -17,16 +17,16 @@ ht-degree: 4%
 
 # Dashboard voor eigenschappen {#traits-dashboard}
 
-Het dashboard [](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) Traits is een gecentraliseerde werkruimte voor het beheer van kenmerken. U kunt het [!UICONTROL Traits] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** te navigeren.
+Het dashboard [Traits](https://bank.demdex.com/portal/Traits/Traits.ddx#show/list) is een gecentraliseerde werkruimte voor het beheer van kenmerken. U kunt het [!UICONTROL Traits] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** te navigeren.
 
 ![](assets/traits-dashboard.png)
 
 <!-- c_tb_dashboard.xml -->
 
-Het [!UICONTROL Traits] dashboard bevat functies en gereedschappen die u helpen:
+Het dashboard [!UICONTROL Traits] bevat functies en gereedschappen die u helpen:
 
 1. Bekijk al uw kenmerken en verwante details in een tabel met kolommen die u kunt sorteren.
-2. Het overzicht en het werk met de Traits van het [Actieve Publiek en Gegevensbron Gesynchroniseerde Tanden](../../features/traits/client-activity-synced-audience-traits.md).
+2. De controle en het werk met [de Actieve Trekken van het Publiek en de Gegevensbron Gesynchroniseerde Tanden](../../features/traits/client-activity-synced-audience-traits.md).
 3. Lijnen maken, bewerken en verwijderen.
 4. Trait-opslagmappen weergeven en beheren.
 5. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen.
