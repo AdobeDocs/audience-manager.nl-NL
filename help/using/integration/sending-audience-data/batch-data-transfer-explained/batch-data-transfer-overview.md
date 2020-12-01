@@ -16,36 +16,36 @@ ht-degree: 5%
 ---
 
 
-# Send Batch Data to [!DNL Audience Manager] Overview {#send-batch-data-to-audience-manager-overview}
+# Batchgegevens verzenden naar [!DNL Audience Manager] Overzicht {#send-batch-data-to-audience-manager-overview}
 
-Een overzicht voor technische en niet-technische klanten die gegevens van andere systemen (off-line) in willen brengen [!DNL Audience Manager].
+Een overzicht voor technische en niet-technische klanten die gegevens van andere systemen (off-line) in [!DNL Audience Manager] willen brengen.
 
 ## Voordelen
 
-U kunt gegevens van andere systemen beschikbaar maken in [!DNL Audience Manager]. Ons systeem kan u helpen waarde te ontgrendelen en gebruikersgegevens te benutten die u eerder hebt verzameld. Dit omvat informatie over aankopen, klantenonderzoeken, registratiegegevens, [!DNL CRM] gegevensbanken, enz. Hoewel elke integratie haar eigen uitdagingen oplevert, delen zij allen deze gemeenschappelijke stappen. Bekijk dit materiaal om de vereiste inspanning voor het online plaatsen van uw offlinegegevens te verminderen.
+U kunt gegevens van andere systemen in [!DNL Audience Manager] ter beschikking stellen. Ons systeem kan u helpen waarde te ontgrendelen en gebruikersgegevens te benutten die u eerder hebt verzameld. Dit omvat informatie over aankopen, klantenonderzoeken, registratiegegevens, [!DNL CRM] databases, enz. Hoewel elke integratie haar eigen uitdagingen oplevert, delen zij allen deze gemeenschappelijke stappen. Bekijk dit materiaal om de vereiste inspanning voor het online plaatsen van uw offlinegegevens te verminderen.
 
 ## Stap 1: Gebruikersnamen synchroniseren
 
-Hiermee [!DNL Audience Manager] wijst u tijdens de synchronisatie unieke id&#39;s toe aan klanten en hun gebruikers. Deze id&#39;s worden respectievelijk [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) en [!UICONTROL Unique User ID] ([!UICONTROL UUID]) genoemd. [!DNL Audience Manager] gebruikt de code [!UICONTROL DPID] en [!UICONTROL UUID] om gebruikers te identificeren en hen voor [!UICONTROL traits], [!UICONTROL segments], publieksgroepen, en voor rapportering te kwalificeren. Bovendien zoekt onze gegevensverzamelingscode ([!UICONTROL DIL]) naar deze id&#39;s om bezoekersgegevens van uw website vast te leggen. Wanneer deze stap is voltooid, [!DNL Audience Manager] en uw offline opslagplaats zou overeenkomstige IDs voor elk gebruikersverslag moeten bevatten.
+Tijdens synchronisatie wijst [!DNL Audience Manager] unieke id&#39;s toe aan clients en hun gebruikers. Deze id&#39;s worden respectievelijk [!UICONTROL Data Provider ID] ([!UICONTROL DPID]) en [!UICONTROL Unique User ID] ([!UICONTROL UUID]) genoemd. [!DNL Audience Manager] gebruikt  [!UICONTROL DPID] en  [!UICONTROL UUID] om gebruikers te identificeren en hen voor,  [!UICONTROL traits]  [!UICONTROL segments]publieksgroepen, en voor rapportering te kwalificeren. Bovendien zoekt onze gegevensverzamelingscode ([!UICONTROL DIL]) naar deze id&#39;s om bezoekersgegevens van uw website vast te leggen. Wanneer deze stap is voltooid, moeten [!DNL Audience Manager] en uw offline opslagplaats overeenkomstige id&#39;s bevatten voor elk gebruikersrecord.
 
 Belangrijke overwegingen met betrekking tot deze stap:
 
-* **Plaatsing client-id:** [!DNL Audience Manager] moet weten waar uw client-id op uw website wordt weergegeven (bijvoorbeeld: is deze opgeslagen in een cookie, een Analytics-variabele, in paginacode, enz.).
-* **Uitsluiten[!DNL PII]:** Gebruikersnamen mogen geen persoonlijk identificeerbare gegevens ([!DNL PII]) bevatten.
-* **Hoofdlettergebruik en inhoudsgevoeligheid:** Tijdens een realtime gegevenssynchronisatie [!DNL Audience Manager] moeten gebruikers-id&#39;s die van uw site worden vastgelegd, overeenkomen met id&#39;s die vanuit uw offline opslagplaats zijn doorgegeven. Als offlinerecords bijvoorbeeld informatie bevatten over de site, [!DNL User123]maar de id als [!DNL USER123]een id weergeeft, [!DNL Audience Manager] worden deze als verschillende bezoekers beschouwd. Hierdoor kan de online-informatie voor deze bezoeker niet worden gekoppeld aan de corresponderende records in uw offlinedatabase. Id&#39;s moeten exact overeenkomen.
+* **Clientid plaatsen:** [!DNL Audience Manager] moet weten waar uw client-id op uw website wordt weergegeven (wordt deze bijvoorbeeld opgeslagen in een cookie, een analysevariabele, in paginacode, enz.).
+* **Uitsluiten  [!DNL PII]:** gebruikersnamen mogen geen identificeerbare gegevens ([!DNL PII]) bevatten.
+* **Hoofdlettergevoelig en inhoudsgevoelig:** Tijdens een realtime gegevenssync  [!DNL Audience Manager] moeten gebruikers-id&#39;s die van uw site worden vastgelegd, overeenkomen met id&#39;s die vanuit uw offline opslagruimte zijn doorgegeven. Als offlinerecords bijvoorbeeld informatie bevatten over [!DNL User123], maar uw site geeft die id weer als [!DNL USER123], ziet [!DNL Audience Manager] deze als verschillende bezoekers. Hierdoor kan de online-informatie voor deze bezoeker niet worden gekoppeld aan de corresponderende records in uw offlinedatabase. Id&#39;s moeten exact overeenkomen.
 
-See [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
+Zie [ID Synchronization for Inbound Data Transfers](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
 ## Stap 2: Gegevensbestandsindeling
 
-Bestandsnamen en inhoud volgen strikte richtlijnen. U *moet* gegevensbestanden een naam geven en ordenen volgens deze specificaties in deze handleiding. Zie:
+Bestandsnamen en inhoud volgen strikte richtlijnen. U *moet* naam geven en gegevensbestanden ordenen volgens deze specificaties in deze handleiding. Zie:
 
 * [Amazon S3-naamvereisten voor binnenkomende databestanden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * [Inhoud binnenkomend gegevensbestand: Syntaxis, variabelen en voorbeelden](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
 
 ## Online gegevens zijn beschikbaar voor offlinemarketinginspanningen
 
-Wanneer u offline gegevens online brengt, kunt u deze informatie voor offlinecampagnes nog gebruiken. Hiervoor exporteert u [!DNL Audience Manager] eigenschaps- en segmentgegevens naar een [!DNL FTP] of [!DNL Amazon S3] locatie van uw keuze. Neem contact op met de manager van de Oplossingen van de Partner voor extra informatie of hulp.
+Wanneer u offline gegevens online brengt, kunt u deze informatie voor offlinecampagnes nog gebruiken. Hiervoor exporteert [!DNL Audience Manager] de kenmerken en segmentinformatie naar een [!DNL FTP]- of [!DNL Amazon S3]-locatie van uw keuze. Neem contact op met de manager van de Oplossingen van de Partner voor extra informatie of hulp.
 
 ## Omgevingen
 
@@ -83,4 +83,4 @@ Wanneer u offline gegevens online brengt, kunt u deze informatie voor offlinecam
 
 ## Verdere technische lezing
 
-Systeemengineers, ontwikkelaars of technische/implementatieteams moeten het beschreven [proces voor de overdracht van](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) batchgegevens en de andere artikelen in deze sectie evalueren. Deze artikelen bevatten informatie over overdrachtprotocollen, bestandsinhoud en vereisten voor bestandsnamen.
+Systeemengineers, ontwikkelaars of technische/implementatieteams dienen [Batch Data Transfer Process Described](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) en de andere artikelen in deze sectie te evalueren. Deze artikelen bevatten informatie over overdrachtprotocollen, bestandsinhoud en vereisten voor bestandsnamen.
