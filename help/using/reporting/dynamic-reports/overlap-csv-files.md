@@ -33,7 +33,7 @@ In de volgende tabel vindt u een overzicht en beschrijving van de naamconventies
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Bestandsextensie </p> </td> 
-   <td colname="col2"> <p>Overlap rapportbestanden worden gecomprimeerd met gzip en hebben een <code> .gz</code> bestandsextensie. U moet de <code> .csv</code> extensie na decompressie aan het bestand toevoegen. </p> </td> 
+   <td colname="col2"> <p>Overlap rapportbestanden worden gecomprimeerd met gzip en hebben een bestandsextensie <code> .gz</code>. U moet de extensie <code> .csv</code> aan het bestand toevoegen na decompressie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bestandsnaam </p> </td> 
@@ -83,9 +83,9 @@ In het bestand worden tekenreeksgegevens tussen dubbele aanhalingstekens geplaat
 "123456","segmentA","654321","segmentB","30","yyyy-mm-dd","98765",...
 ```
 
-## Rapportrecords segment-naar-segment {#segment-segment-records}
+## Segment-aan-segment Rapportrecords {#segment-segment-records}
 
-Een gegevensbestand voor uw [Segment-aan-Segment het Rapport](segment-segment-overlap-report.md) van de Overlapping bevat de volgende verslagen.
+Een gegevensbestand voor uw [Segment-aan-SegmentOverlap Report](segment-segment-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -113,7 +113,7 @@ Een gegevensbestand voor uw [Segment-aan-Segment het Rapport](segment-segment-ov
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De tijdsintervallen <code> rangeid</code> komen overeen met de hieronder weergegeven tijdsintervallen. </p> <p> 
+   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de hieronder getoonde tijdintervallen. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 dagen </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 dagen </li> 
@@ -142,9 +142,9 @@ Een gegevensbestand voor uw [Segment-aan-Segment het Rapport](segment-segment-ov
  </tbody> 
 </table>
 
-## Registers gesegmenteerd rapport {#segment-trait-records}
+## Segment-aan-Trait Rapportrecords {#segment-trait-records}
 
-Een gegevensbestand voor uw [Segment-aan-Trait Rapport](segment-trait-overlap-report.md) van de Overlapping bevat de volgende verslagen.
+Een gegevensbestand voor uw [Segment-aan-Trait Rapport van de Overlapping](segment-trait-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -176,7 +176,7 @@ Een gegevensbestand voor uw [Segment-aan-Trait Rapport](segment-trait-overlap-re
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De tijdsintervallen <code> rangeid</code> komen overeen met de hieronder weergegeven tijdsintervallen. </p> <p> 
+   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de hieronder getoonde tijdintervallen. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 dagen </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 dagen </li> 
@@ -211,7 +211,7 @@ Een gegevensbestand voor uw [Segment-aan-Trait Rapport](segment-trait-overlap-re
 
 ## Trait-to-Trait Report Records {#trait-trait-records}
 
-Een gegevensbestand voor uw [Trait-to-Trait Overlap Rapport](trait-trait-overlap-report.md) bevat de volgende verslagen.
+Een gegevensbestand voor uw [Trait-to-Trait Overlap Report](trait-trait-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -251,7 +251,7 @@ Een gegevensbestand voor uw [Trait-to-Trait Overlap Rapport](trait-trait-overlap
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De tijdsintervallen <code> rangeid</code> komen overeen met de hieronder weergegeven tijdsintervallen. </p> <p> 
+   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de hieronder getoonde tijdintervallen. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 dagen </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 dagen </li> 
