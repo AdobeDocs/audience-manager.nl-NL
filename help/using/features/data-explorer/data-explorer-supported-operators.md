@@ -18,7 +18,7 @@ ht-degree: 5%
 
 Gebruik logische operatoren om sleutelwaardeparen en terugvullingskenmerken te groeperen.
 
-## Ondersteunde operatoren voor Signal Search {#supported-operators-search}
+## Ondersteunde operatoren voor signaalzoekopdrachten {#supported-operators-search}
 
 Gebruik de volgende ondersteunde logische operatoren om te zoeken naar sleutelwaardeparen:
 
@@ -28,18 +28,18 @@ Gebruik de volgende ondersteunde logische operatoren om te zoeken naar sleutelwa
 |---|---|
 | **==** | Gelijk aan |
 | **>** | Groter dan |
-| **&lt;** | Minder dan |
+| **&lt;>** | Minder dan |
 | **=>** | Groter dan/gelijk aan |
-| **&lt;=** | Kleiner dan/gelijk aan |
+| **&lt;>** | Kleiner dan/gelijk aan |
 
 ### Benoemde operatoren
 
 | Operator | Evalueert naar [!DNL True] Wanneer |
 |---|---|
-| **[!UICONTROL Contains]** | De waarde in een sleutelwaardepaar *bevat* tekens die door deze operator worden opgegeven. |
-| **[!UICONTROL Startswith]** | De waarde in een sleutelwaardepaar *begint met* tekens die door deze operator worden opgegeven. |
-| **[!UICONTROL Endswith]** | De waarde in een sleutelwaardepaar *eindigt met* de tekens die door deze operator worden opgegeven. |
+| **[!UICONTROL Contains]** | De waarde in een sleutel-waardepaar *bevat* karakters die door deze exploitant worden gespecificeerd. |
+| **[!UICONTROL Startswith]** | De waarde in een sleutelwaardepaar *begint met* karakters die door deze exploitant worden gespecificeerd. |
+| **[!UICONTROL Endswith]** | De waarde in een key-value paar *eindigt met* de tekens die door deze operator zijn opgegeven. |
 
-## Ondersteunde operatoren voor traitback-up en -raming {#supported-operators-backfilling}
+## Ondersteunde operatoren voor traitback-up en schatting {#supported-operators-backfilling}
 
-U kunt terugvullingskenmerken gebruiken die expressies bevatten met een van de operatoren die worden ondersteund door [!UICONTROL Signal Search]. Naast deze operatoren worden ook de operatoren [!UICONTROL AND], [!UICONTROL OR]en [!UICONTROL AND NOT] logische operatoren ondersteund voor het terugvullen en schatten van sporen, die worden gebruikt om sleutelwaardeparen te combineren binnen de opgevulde standaardexpressies.
+U kunt terugvullingseigenschappen die uitdrukkingen omvatten die om het even welke exploitanten bevatten die door [!UICONTROL Signal Search] worden gesteund. Naast deze operatoren ondersteunen terugvullen en schatten van de eigenschap ook de logische operatoren [!UICONTROL AND], [!UICONTROL OR] en [!UICONTROL AND NOT] die worden gebruikt om sleutelwaardeparen te combineren binnen de opgevulde standaardexpressies.
