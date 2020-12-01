@@ -17,18 +17,18 @@ ht-degree: 8%
 
 # Gebruikers-id’s en -regio’s ontvangen via de Adobe Experience Platform Identity Service {#get-user-ids-and-regions-through-the-experience-cloud-id-service}
 
-De de dienstklanten van identiteitskaart zouden naar deze sectie voor informatie over moeten verwijzen hoe te om het bezoekerskoekje voor IDs te lezen die wordt vereist om [!DNL DCS] API vraag te maken.
+Klanten van id-services moeten naar deze sectie verwijzen voor informatie over het lezen van het bezoekerscookie voor de id&#39;s die nodig zijn om [!DNL DCS] API-aanroepen uit te voeren.
 
-## De gebruikersnaam ophalen van de ID Service Cookie {#get-user-ids-from-service-cookie}
+## De gebruikersnaam ophalen uit de ID Service Cookie {#get-user-ids-from-service-cookie}
 
-De identiteitsservice [van](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) Adobe Experience Platforms wijst bezoeker- en regio-id&#39;s toe aan gebruikers die naar uw website komen. Deze IDs identificeert gebruikers over alle oplossingen in het [!DNL Experience Cloud] en zij worden vereist als u [!DNL DCS] vraag wilt maken.
+Met de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) worden gebruikers die naar uw website komen, een bezoeker- en regio-id toegewezen. Deze IDs identificeert gebruikers over alle oplossingen in [!DNL Experience Cloud] en zij worden vereist als u [!DNL DCS] vraag wilt maken.
 
-* De gegevens [!UICONTROL user ID] zijn vereist om gegevens te identificeren en aan een bepaalde bezoeker te koppelen.
-* Dit [!UICONTROL region ID] [!DNL DCS]is vereist omdat het is gekoppeld aan een regionale servernaam, die u gegevens naar de server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst aan plaatsbezoekers zijn. See [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* [!UICONTROL user ID] is vereist om gegevens aan een bepaalde bezoeker te identificeren en te associëren.
+* De [!UICONTROL region ID] is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar [!DNL DCS] moet verzenden. [!DNL DCS] slaat informatie in gegevenscentra op die geografisch dichtst bij bezoekers van de plaats zijn. Zie [DCS-regio-id&#39;s, -locaties en hostnamen](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 De de dienstklanten van identiteitskaart kunnen deze informatie uit het de dienstkoekje van identiteitskaart halen of door een functie te roepen. In de onderstaande tabel worden de taken of stappen beschreven die u moet uitvoeren om aan de slag te gaan.
 
-De code in *cursief* staat voor een variabele plaatsaanduiding.
+De code in *italics* vertegenwoordigt veranderlijke placeholder.
 
 <table id="table_660EBE1C24DD4FBE9DCE5191836C9135"> 
  <thead> 
@@ -39,38 +39,38 @@ De code in *cursief* staat voor een variabele plaatsaanduiding.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>1. Je <span class="keyword"> Experience Cloud</span> -status controleren</b> </p> </td> 
-   <td colname="col2"> <p>U hebt een <span class="keyword"> Experience Cloud</span> -account nodig om de ID-service te kunnen gebruiken. Als je een <span class="keyword"> Experience Cloud</span> account hebt, geweldig! </p> <p> Als u geen deel uitmaakt van de <span class="keyword"> Experience Cloud</span>, meldt u zich aan. We zouden je graag hebben en er is altijd ruimte voor meer. Zie <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> Uw oplossingen inschakelen voor kernservices</a>voor instructies over het instellen van een account. </p> </td> 
+   <td colname="col1"> <p> <b>1. Controleer uw <span class="keyword"> Experience Cloud</span> status</b> </p> </td> 
+   <td colname="col2"> <p>U hebt een <span class="keyword"> Experience Cloud</span> rekening nodig om de dienst van identiteitskaart te gebruiken. Als u een <span class="keyword"> Experience Cloud</span> account hebt, geweldig! </p> <p> Als u geen deel van <span class="keyword"> Experience Cloud</span> uitmaakt, dan onderteken omhoog. We zouden je graag hebben en er is altijd ruimte voor meer. Zie <a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html" format="https" scope="external"> Uw oplossingen inschakelen voor kernservices</a> voor instructies voor het instellen van een account. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>2. De <span class="keyword"> id-service instellen</span></b> </p> </td> 
-   <td colname="col2"> <p>De <span class="keyword"> id-service</span> bestaat uit JavaScript-code die wordt geplaatst op elke pagina die u voor gegevensverzameling wilt gebruiken. Raadpleeg de handleidingen bij <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html" format="https" scope="external"></a> de implementatie van de id-service voor meer informatie. </p> </td> 
+   <td colname="col1"> <p> <b>2. De <span class="keyword"> ID-service</span></b> instellen </p> </td> 
+   <td colname="col2"> <p>De <span class="keyword"> ID-service</span> bestaat uit JavaScript-code die wordt geplaatst op elke pagina die u voor gegevensverzameling wilt gebruiken. Raadpleeg de implementatiehandleidingen<a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html" format="https" scope="external"> voor de id-service voor meer informatie.</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>3. Het cookie van de <span class="keyword"> id-service</span> lezen</b> </p> </td> 
-   <td colname="col2"> <p>De <span class="keyword"> -id-service</span> slaat de gebruikers- en regio-id op in het AMCV-cookie. De volledige naam van de cookie is <code>AMCV_<i>###</i>@AdobeOrg</code>. De <code><i>###</i></code> elementen zijn plaatsaanduidingen voor uw organisatie-id. Zie <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a> voor meer informatie. </p> <p>Parseer het cookie van AMCV voor deze sleutelwaardeparen: </p> <p> 
+   <td colname="col1"> <p> <b>3. Lees de <span class="keyword"> ID service</span> cookie</b> </p> </td> 
+   <td colname="col2"> <p>In de <span class="keyword"> ID-service</span> worden de gebruikers- en regio-id opgeslagen in het AMCV-cookie. De volledige naam van het cookie is <code>AMCV_<i>###</i>@AdobeOrg</code>. De <code><i>###</i></code> elementen zijn placeholders voor uw organisatie ID. Zie <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en Experience Cloud ID</a> voor meer informatie. </p> <p>Parseer het cookie van AMCV voor deze sleutelwaardeparen: </p> <p> 
      <ul id="ul_502ECFCDDD084D448B5EDC4E5C0909C1"> 
-      <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: Dit sleutelwaardepaar bevat de <span class="keyword"> Experience Cloud</span> -gebruikersnaam. </li> 
-      <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: Dit zeer belangrijk-waardepaar houdt gebiedsidentiteitskaart (soms genoemd een <span class="term"> plaatswenk</span>) die met een regionale servernaam wordt geassocieerd. </li> 
-     </ul> </p> <p>U kunt vraag aan <span class="wintitle"> DCS</span> maken zodra u de gebruiker en gebiedsidentiteitskaart hebt </p> </td> 
+      <li id="li_662FFA36AC854E699D50A183B161D654"> <code>mid=<i>user ID</i></code>: Dit sleutelwaardepaar bevat de  <span class="keyword"> Experience </span> Clouduser-id. </li> 
+      <li id="li_65422233187B4217B50DC52DBD58F404"> <code>aamlh=<i>region ID</i></code>: Dit zeer belangrijk-waardepaar houdt gebiedsidentiteitskaart (soms genoemd een  <span class="term"> plaatswenk</span>) die met een regionale servernaam wordt geassocieerd. </li> 
+     </ul> </p> <p>U kunt vraag aan <span class="wintitle"> DCS</span> maken zodra u gebruiker en gebied IDs hebt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>4. De <span class="keyword"> Experience Cloud-id</span> ophalen met getMarketingCloudVisitorID</b> </p> </td> 
-   <td colname="col2"> <p><i>(Optioneel)</i> Deze functie retourneert de <span class="keyword"> Experience Cloud</span> -bezoeker-id. Het is ontworpen voor aangepaste oplossingen en specifieke gebruiksgevallen. Zie <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> Werken met getMarketingCloudVisitorID</a> hieronder en de <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external"> gerelateerde documentatie</a>van de id-service. </p> <p>U hoeft dit niet te gebruiken als u de gebruikers- en locatie-id's uit het cookie van de ID-service ontvangt. </p> </td> 
+   <td colname="col2"> <p><i>(Optioneel)</i> Deze functie retourneert de  <span class="keyword"> Experience </span> Cloudbezoeker-id. Het is ontworpen voor aangepaste oplossingen en specifieke gebruiksgevallen. Zie <a href="../../../api/dcs-intro/dcs-s2s/dcs-mcid-ids.md#working-with-getmarketingcloudvisitorid"> Werken met getMarketingCloudVisitorID</a> hieronder en de <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/getmcvid.html" format="https" scope="external"> gerelateerde ID-servicedocumentatie</a>. </p> <p>U hoeft dit niet te gebruiken als u de gebruikers- en locatie-id's uit het cookie van de ID-service ontvangt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Werken met `getMarketingCloudVisitorID` {#working-with-getmarketingcloudvisitorid}
 
-Een andere manier om bezoekersidentiteitskaart te krijgen is met de `getMarketingCloudVisitorID` functie. Als deze functie wordt aangeroepen, wordt de id opgehaald [!DNL ID service] en geretourneerd. `getMarketingCloudVisitorID` Accepteert het optionele `callback` argument zoals getoond:
+Een andere manier om bezoekersidentiteitskaart te krijgen is met de functie `getMarketingCloudVisitorID`. Wanneer opgeroepen, vraagt deze functie [!DNL ID service] en keert een identiteitskaart terug `getMarketingCloudVisitorID` Accepteert het optionele  `callback` argument zoals getoond:
 
 `var analyticsID = visitor.getAnalyticsVisitorID(callback)`
 
 ### Callback-gebruik en doel {#callback-usage}
 
-`callback` is optioneel. Deze functie werkt zonder deze, maar retourneert alleen een id wanneer een bezoeker een [!DNL Experience Cloud] cookie in zijn browser heeft. Als het bezoekerscookie ontbreekt of een bezoeker geen id heeft, retourneert de functie een leeg `()` object. Dit kan zelfs gebeuren nadat de pagina is geladen en de bezoeker een nieuwe id ontvangt. Om dit te voorkomen, `callback` dwingt u deze functie om te controleren op een bezoeker-id nadat de pagina is geladen. Zonder `callback`, zal de functie van bezoekersidentiteitskaart geen identiteitskaart terugkeren zelfs als het aan browser van de bezoeker later wordt geschreven.
+`callback` is optioneel. Deze functie werkt zonder deze, maar retourneert alleen een id wanneer een bezoeker een cookie [!DNL Experience Cloud] in zijn browser heeft. Als het bezoekerscookie ontbreekt of een bezoeker geen id heeft, retourneert de functie een leeg `()`-object. Dit kan zelfs gebeuren nadat de pagina is geladen en de bezoeker een nieuwe id ontvangt. Om dit te voorkomen, dwingt `callback` deze functie om op bezoekersidentiteitskaart te controleren nadat de pagina laadt. Zonder `callback` retourneert de functie van de bezoeker-id geen id, zelfs niet als deze later naar de browser van de bezoeker is geschreven.
 
 ## Volgende stappen {#next-steps}
 
-Zodra u de gebruikers- en regio-id hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS] gegevens. Zie [DCS API-aanroepen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)maken.
+Zodra u de gebruiker en gebiedsidentiteitskaart hebt, kunt u beginnen te verzenden en [!DNL DCS] gegevens te ontvangen. Zie [DCS API-aanroepen maken](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
