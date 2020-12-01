@@ -19,13 +19,13 @@ ht-degree: 6%
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] biedt gegevensleveranciers en kopers de mogelijkheid om gegevenstransacties op een zelfbedieningsmanier uit te voeren met minimale inspanningen. Dit doet hij door gespecialiseerde functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, [!UICONTROL Audience Marketplace] zorgt u voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
+[!UICONTROL Audience Marketplace] biedt gegevensleveranciers en kopers de mogelijkheid om gegevenstransacties op een zelfbedieningsmanier uit te voeren met minimale inspanningen. Dit doet hij door gespecialiseerde functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, zorgt [!UICONTROL Audience Marketplace] voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
 
-Bespreek het met uw [!DNL Audience Manager] verkoopspecialist om aan de slag te gaan. Ze kunnen ze activeren [!UICONTROL Audience Marketplace for you].
+Bespreek de [!DNL Audience Manager] verkoopspecialist om aan de slag te gaan. Ze kunnen [!UICONTROL Audience Marketplace for you] activeren.
 
 >[!NOTE]
 >
->Gebruikersrollen bepalen wat u kunt en niet kunt doen [!UICONTROL Audience Marketplace].
+>Gebruikersrollen bepalen wat u kunt en niet kunt doen in [!UICONTROL Audience Marketplace].
 >
 > * Beheerders kunnen gegevensfeeds maken, abonnees beheren en zich abonneren op gegevensfeeds.
 > * Gebruikers kunnen alleen feeds zoeken en weergeven.
