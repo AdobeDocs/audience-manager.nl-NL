@@ -25,7 +25,7 @@ Veelgestelde vragen over CDF-bestanden (Customer Data Feed, ofwel klantdatafeeds
 
 Het CDF-bestand wordt opgeslagen in de `aam-cdf`-hoofdmap op een [!DNL Amazon S3]-server. Deze standaardbucket wordt beheerd door [!DNL Audience Manager]. Zie ook [Naamgevingsconventies voor klantdatafeeds](../features/cdf-files.md#cdf-naming-conventions).
 
-<br> 
+<br>
 
 **Is mijn opslagbucket veilig?**
 
