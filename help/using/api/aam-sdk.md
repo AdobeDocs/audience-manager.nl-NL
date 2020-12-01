@@ -15,19 +15,19 @@ ht-degree: 7%
 ---
 
 
-# [!DNL SDK] Code {#sdk-code}
+# [!DNL SDK] Code  {#sdk-code}
 
-Audience Manager verstrekt de kits ([!DNL SDK]s) van de softwareontwikkeling voor [!DNL Android] en [!DNL iOS].
+Audience Manager biedt softwareontwikkelkits ([!DNL SDK]s) voor [!DNL Android] en [!DNL iOS].
 
 >[!IMPORTANT]
 >
->Vanaf september 2018 hebben we een nieuwe, grote versie van de SDK uitgebracht. Deze nieuwe Adobe Experience Platform Mobile SDKs is configureerbaar door [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
+>Vanaf september 2018 hebben we een nieuwe, grote versie van de SDK uitgebracht. Deze nieuwe Adobe Experience Platform Mobile SDK&#39;s kunnen worden geconfigureerd via [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html).
 
-* Ga naar [Starten](https://launch.adobe.com/)om aan de slag te gaan.
-* Ga naar [Github om te zien wat er in de SDK-opslagruimten van het Experience Platform staat: Adobe Experience Platform-SDK&#39;s](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Als u Audience Manager in uw app wilt implementeren met de nieuwe SDK v.5, leest u de documentatie [van de](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) Adobe Audience Manager op de nieuwe SDK-pagina.
+* Ga om aan de slag te gaan naar [Launch](https://launch.adobe.com/).
+* Ga naar [Github om te zien wat er in de SDK-opslagruimten van het Experience Platform staat: Adobe Experience Platform SDKs](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Als u Audience Manager in uw app wilt implementeren met de nieuwe SDK v.5, leest u de [Adobe Audience Manager-documentatie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) op de nieuwe SDK-pagina.
 
-<br> 
+<br>
 
 We ondersteunen nog steeds de SDK&#39;s van Android en iOS 4.x. Zie voor deze SDK-codebibliotheken:
 
