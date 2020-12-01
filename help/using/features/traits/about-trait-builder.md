@@ -21,11 +21,11 @@ ht-degree: 5%
 
 <!-- c_tb_about.xml -->
 
-Vergeleken met pixels, die worden geactiveerd in reactie op eenvoudige &quot;ja&quot;- of &quot;true&quot;-omstandigheden, [!UICONTROL Trait Builder] kunt u het volgende doen:
+Met [!UICONTROL Trait Builder] kunt u in vergelijking met pixels die in reactie op eenvoudige &quot;ja&quot;- of &quot;true&quot;-omstandigheden worden geactiveerd:
 
-* Verzamel *alle* paginagegevens zodat u deze later kunt gebruiken om relevante, nuttige kenmerken samen te stellen.
-* Bouw de eigenschappen die op [zeer belangrijk-waardeparen](../../reference/key-value-pairs-explained.md) worden gebaseerd die tijdens gegevensinzameling worden overgegaan.
-* Evalueer complexe gegevensvoorwaarden met server-zijregels die met uitdrukkingen [](../../reference/boolean-expressions-tsb.md) Boolean en [vergelijkingsexploitanten](../../features/traits/trait-comparison-operators.md)werken.
+* Verzamel *alle* paginagegevens zodat u het later kunt gebruiken om relevante, nuttige eigenschappen te bouwen.
+* Bouwt eigenschappen die op [sleutel-waarde paren](../../reference/key-value-pairs-explained.md) worden gebaseerd die tijdens gegevensinzameling worden overgegaan.
+* Evalueer complexe gegevensomstandigheden met server-zijregels die met [uitdrukkingen Van Boole](../../reference/boolean-expressions-tsb.md) en [vergelijkingsexploitanten](../../features/traits/trait-comparison-operators.md) werken.
 
 * Verminder of elimineer de behoefte om de pixel van de gegevensinzameling op uw inventaris te handhaven.
-* De prestaties van de monitor met [!DNL Audience Manager] rapporten.
+* Prestaties bewaken met [!DNL Audience Manager] rapporten.
