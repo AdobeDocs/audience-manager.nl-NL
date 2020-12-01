@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # DIL-methoden op instantieniveau{#instance-level-dil-methods}
 
-Met API&#39; [!UICONTROL DIL] s op instantieniveau kunt u programmatisch Audience Managers maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
+Met de API&#39;s op instantieniveau [!UICONTROL DIL] kunt u programmatisch Audience Managers maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 
 ## Aan de slag met DIL-methoden op instantieniveau {#get-started-dil-methods}
 
@@ -28,10 +28,10 @@ c_api_overview.xml
 
  -->
 
-Wanneer u werkt met API&#39; [!UICONTROL DIL] s op instantieniveau:
+Wanneer u werkt met de API&#39;s op instantieniveau [!UICONTROL DIL]:
 
 * De toegang vereist een partnernaam en container namespace identiteitskaart (NSID). Neem contact op met de accountmanager van de Audience Manager voor deze informatie.
-* Vervang een *cursieve* voorbeeldtekst in de API-documentatie door waarde, id of andere variabele, zoals vereist door de methode waarmee u werkt.
+* Vervang een voorbeeld *cursief* tekst in de API documentatie met waarde, identiteitskaart, of andere variabele zoals vereist door de methode u met werkt.
 
 <!-- 
 
@@ -54,7 +54,7 @@ r_dil_signals.xml
 >[!NOTE]
 >
 >* U kunt andere API-aanroepen naar deze methode koppelen.
->* Als de Adobe Experience Cloud JavaScript-bibliotheek op de pagina staat, wacht u tot de cloud een cookie heeft ingesteld voordat u een aanvraag verzendt. `submit()`
+>* Als de Adobe Experience Cloud JavaScript-bibliotheek op de pagina staat, wacht `submit()` tot de cloud een cookie heeft ingesteld voordat een aanvraag wordt verzonden.
 
 
 **Gereserveerde aanvraagsleutels**
@@ -78,7 +78,7 @@ De volgende aanvraagsleutels zijn gereserveerd en kunnen niet door deze methode 
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL] instantie.
+Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
 
 **Voorbeeldcode**
 
@@ -101,7 +101,7 @@ var obj = { key : ['a', 'b', 'c'] };
 dataLib.api.signals(obj, 'c_').submit(); 
 </code></pre>
 
-## traits {#traits}
+## kenmerken {#traits}
 
 Voegt SIDs aan het vraagkoord van een hangend verzoek toe.
 
@@ -125,7 +125,7 @@ r_dil_traits.xml
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL] instantie.
+Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
 
 **Voorbeeldcode**
 
@@ -151,7 +151,7 @@ r_dil_logs.xml
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL] instantie.
+Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
 
 **Voorbeeldcode**
 
@@ -166,9 +166,9 @@ partnerObject.api.logs({
 });
 </code></pre>
 
-## indienen {#submit}
+## verzenden {#submit}
 
-Hiermee worden alle gegevens die in behandeling zijn voor de [!UICONTROL DIL] instantie naar de Audience Manager verzonden.
+Hiermee worden alle gegevens die in behandeling zijn naar de Audience Manager verzonden voor de instantie [!UICONTROL DIL].
 
 <!-- 
 
@@ -180,11 +180,11 @@ r_dil_submit.xml
 
 >[!NOTE]
 >
->U kunt andere API-aanroepen naar deze methode koppelen. Bovendien [!UICONTROL DIL] worden gecodeerde gegevens naar een doelcookie geschreven. Spaties worden bijvoorbeeld gecodeerd als `%20` en als puntkomma&#39;s `%3B`.
+>U kunt andere API-aanroepen naar deze methode koppelen. Daarnaast schrijft [!UICONTROL DIL] gecodeerde gegevens naar een doelcookie. Spaties worden bijvoorbeeld gecodeerd als `%20` en puntkomma&#39;s als `%3B`.
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL] instantie.
+Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
 
 **Voorbeeldcode**
 
@@ -228,7 +228,7 @@ r_dil_after_result.xml
 
 **Antwoord**
 
-Retourneert een API-object van de huidige [!UICONTROL DIL] instantie.
+Retourneert een API-object van de huidige [!UICONTROL DIL]-instantie.
 
 **Voorbeeldcode**
 
@@ -264,7 +264,7 @@ r_dil_clear_data.xml
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL] instantie.
+Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
 
 **Voorbeeldcode**
 
@@ -332,7 +332,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Retourneert de waarde van de container NSID voor de [!UICONTROL DIL] instantie. Nuttig voor foutopsporing en probleemoplossing.
+Retourneert de waarde van de container NSID voor de instantie [!UICONTROL DIL]. Nuttig voor foutopsporing en probleemoplossing.
 
 <!-- 
 
@@ -393,7 +393,7 @@ if (log && log.length) {
 
 ## getPartner {#getpartner}
 
-Retourneert de partnernaam voor een [!UICONTROL DIL] instantie. Nuttig voor foutopsporing en probleemoplossing.
+Retourneert de partnernaam voor een instantie [!UICONTROL DIL]. Nuttig voor foutopsporing en probleemoplossing.
 
 <!-- 
 
@@ -417,7 +417,7 @@ var partner = dataLib.api.getPartner();
 
 ## getState {#getstate}
 
-Retourneert de status van de huidige [!UICONTROL DIL] instantie. Nuttig voor foutopsporing en probleemoplossing.
+Retourneert de status van de huidige [!UICONTROL DIL]-instantie. Nuttig voor foutopsporing en probleemoplossing.
 
 <!-- 
 
@@ -509,11 +509,11 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Tussen verschillende gegevenspartners en Audience Manager. Bijvoorbeeld, zou partner x dit gebruiken om een gebruiker - identiteitskaart met partner y te synchroniseren en dan dat naar Audience Manager te verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gebruik de <code> idSyncByURL </code> methode van de Adobe Experience Platform Identity Service-instantie. </p> </p> </td> 
+   <td colname="col2"> <p>Tussen verschillende gegevenspartners en Audience Manager. Bijvoorbeeld, zou partner x dit gebruiken om een gebruiker - identiteitskaart met partner y te synchroniseren en dan dat naar Audience Manager te verzenden. </p> <p> <p><b>Belangrijk:</b>  deze methode is afgekeurd. Gebruik de methode <code> idSyncByURL </code> van de Adobe Experience Platform Identity Service-instantie. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Wanneer u de gebruikersnaam al kent en deze naar de Audience Manager wilt verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gebruik de <code> idSyncByDataSource </code> methode van de Adobe Experience Platform Identity Service-instantie. </p> </p> </td> 
+   <td colname="col2"> <p>Wanneer u de gebruikersnaam al kent en deze naar de Audience Manager wilt verzenden. </p> <p> <p><b>Belangrijk:</b>  deze methode is afgekeurd. Gebruik de methode <code> idSyncByDataSource </code> van de Adobe Experience Platform Identity Service-instantie. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -544,7 +544,7 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
   <tr valign="top"> 
    <td colname="col1"> <code> minutesToLive </code> </td> 
    <td colname="col2"> Getal </td> 
-   <td colname="col3"> <p><i>(Optioneel)</i> Hiermee stelt u de vervaltijd van het cookie in. Moet een geheel getal zijn. De standaardwaarde is 20160 minuten (14 dagen). </p> </td> 
+   <td colname="col3"> <p><i>(Optioneel) </i> Hiermee stelt u de vervaltijd van het cookie in. Moet een geheel getal zijn. De standaardwaarde is 20160 minuten (14 dagen). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> url </code> </td> 
@@ -559,12 +559,12 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
 `idSync` Hiermee worden de volgende macro&#39;s geaccepteerd:
 
 * **`%TIMESTAMP%`:** Genereert een tijdstempel (in milliseconden). Wordt gebruikt voor het busten van cache.
-* **`%DID%`:** Voegt de Audience Manager-id voor de gebruiker in.
-* **`%HTTP_PROTO%`:** Hiermee stelt u het paginaprotocol ( `http` of `https`) in.
+* **`%DID%`:** Hiermee wordt de Audience Manager-id voor de gebruiker ingevoegd.
+* **`%HTTP_PROTO%`:** Hiermee stelt u het paginaprotocol ( `http` of  `https`) in.
 
 **Antwoord**
 
-Beide functies worden geretourneerd `Successfully queued` als dit lukt. Ze retourneren een foutbericht als dat niet het geval is.
+Beide functies retourneren `Successfully queued` als dit lukt. Ze retourneren een foutbericht als dat niet het geval is.
 
 **Voorbeeldcode**
 
@@ -617,7 +617,7 @@ Deze callback vervangt standaardcallback die bestemmings het publiceren behandel
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL] instantie.
+Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
 
 **Voorbeeldcode**
 
@@ -634,7 +634,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 
 ## secureDataCollection {#securedatacollection}
 
-`secureDataCollection` is een booleaanse parameter die bepaalt hoe [!UICONTROL DIL] aanroepen naar de [!UICONTROL Data Collection Servers (DCS)] en Akamai worden uitgevoerd.
+`secureDataCollection` is een booleaanse parameter die bepaalt hoe  [!UICONTROL DIL] aanroepen naar de  [!UICONTROL Data Collection Servers (DCS)] en Akamai worden uitgevoerd.
 
 <!-- 
 
@@ -642,13 +642,13 @@ dil-secure-data-collection.xml
 
  -->
 
-* Wanneer `secureDataCollection= true` (gebrek), [!UICONTROL DIL] altijd veilige, vraag HTTPS maakt.
+* Wanneer `secureDataCollection= true` (gebrek), [!UICONTROL DIL] altijd veilig maakt, vraag HTTPS.
 
-* Wanneer `secureDataCollection= false`[!UICONTROL DIL] , maakt of HTTP of HTTPS vraag door het veiligheidsprotocol te volgen dat door de pagina wordt geplaatst.
+* Wanneer `secureDataCollection= false`, [!UICONTROL DIL] of HTTP of HTTPS vraag door het veiligheidsprotocol te volgen dat door de pagina wordt geplaatst.
 
 >[!IMPORTANT]
 >
->Stel in `secureDataCollection= false` of u bezoekerAPI.js en [!UICONTROL DIL] op dezelfde pagina gebruikt. Zie het onderstaande codevoorbeeld.
+>Stel `secureDataCollection= false` in als u bezoekerAPI.js en [!UICONTROL DIL] op dezelfde pagina gebruikt. Zie het onderstaande codevoorbeeld.
 
 <pre><code class="js">
 var dilInstance = DIL.create({ 
@@ -669,7 +669,7 @@ dil-use-cors-only.xml
 
 **Overzicht**
 
-`useCORSOnly` is standaard false. Onwaar betekent browser middelcontroles met CORS of JSONP kan uitvoeren. Nochtans, probeert [!UICONTROL DIL] altijd om middelen met CORS eerst te verzoeken. Het keert aan JSONP op oudere browsers terug die geen CORS steunen. Als u browser moet dwingen om CORS slechts te gebruiken, zoals met plaatsen die hoge veiligheidseisen hebben, plaats `useCORSOnly:true`.
+`useCORSOnly` is standaard false. Onwaar betekent browser middelcontroles met CORS of JSONP kan uitvoeren. Nochtans, [!UICONTROL DIL] probeert altijd om middelen met CORS eerst te verzoeken. Het keert aan JSONP op oudere browsers terug die geen CORS steunen. Als u browser moet dwingen om CORS slechts te gebruiken, zoals met plaatsen die hoge veiligheidseisen hebben, plaats `useCORSOnly:true`.
 
 **Codevoorbeeld**
 
@@ -682,8 +682,8 @@ var dilInstance = DIL.create({
 
 >[!IMPORTANT]
 >
->* We raden u aan deze instelling `useCORSOnly: true` alleen in te stellen als u zeker weet dat bezoekers van de site browsers hebben die deze functie ondersteunen.
->* Wanneer `useCORSOnly: true`, [!UICONTROL DIL] zal geen vraag van identiteitskaart van versie 9 van Internet Explorer of ouder maken.
+>* We raden u aan `useCORSOnly: true` alleen in te stellen als u zeker weet dat uw sitebezoekers browsers hebben die deze functie ondersteunen.
+>* Als `useCORSOnly: true`, [!UICONTROL DIL] geen vraag van Internet Explorer versie 9 of ouder zal maken.
 
 >
 
@@ -691,7 +691,7 @@ var dilInstance = DIL.create({
 
 ## useImageRequest {#useimagerequest}
 
-Hiermee wijzigt u het aanvraagtype in een afbeelding `<img>` van het script `<src>`.
+Wijzigt het aanvraagtype in afbeelding `<img>` vanuit script `<src>`.
 
 <!-- 
 
@@ -707,7 +707,7 @@ r_dil_use_image_request.xml
 
 **Antwoord**
 
-Retourneert een API-object van de huidige [!UICONTROL DIL] instantie.
+Retourneert een API-object van de huidige [!UICONTROL DIL]-instantie.
 
 **Voorbeeldcode**
 
