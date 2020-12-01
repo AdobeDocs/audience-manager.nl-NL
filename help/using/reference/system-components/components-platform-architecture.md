@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Deze kaart bevat de belangrijkste systemen voor Audience Manager. Het vertegenwoordigt visueel hoe de gegevens in, uit, en onder de componenten van de Audience Manager stromen.
 
-## How to read this map {#compmap}
+## Deze kaart {#compmap} lezen
 
 <!-- 
 
@@ -27,11 +27,11 @@ c_compmap.xml
 
  -->
 
-Op de kaart bevat de grijze doos [!DNL Audience Manager] systemen. Sommige componenten zijn volledig intern en andere zitten op de grens tussen [!DNL Audience Manager] en buiten de wereld. Als [!DNL Audience Manager] klant zijn interne componenten vaak transparant of ontoegankelijk. Soms kunt u echter met deze systemen werken via de gebruikersinterface of gegevensintegratie. De systemen op de rand van de doos verzamelen en verzenden gegevens tussen [!DNL Audience Manager] en de buitenwereld.
+Op de kaart bevat het grijze vak [!DNL Audience Manager] systemen. Sommige componenten zijn volledig intern en andere bevinden zich op de grens tussen [!DNL Audience Manager] en de buitenwereld. Als [!DNL Audience Manager] klant zijn interne componenten vaak transparant of ontoegankelijk. Soms kunt u echter met deze systemen werken via de gebruikersinterface of gegevensintegratie. Systemen aan de rand van het vak verzamelen en verzenden gegevens tussen [!DNL Audience Manager] en de buitenwereld.
 
-Kleuren definiëren het type gegevens dat in- en uitstroomt [!DNL Audience Manager]. Groen is cliëntgegevens, blauw is klantengegevens (mensen die uw plaats bezoeken), en oranje is gegevens die voor rapportering worden gebruikt.
+Kleuren definiëren het type gegevens dat in- en uitstroomt van [!DNL Audience Manager]. Groen is cliëntgegevens, blauw is klantengegevens (mensen die uw plaats bezoeken), en oranje is gegevens die voor rapportering worden gebruikt.
 
-Voor systeembeschrijvingen en samenvattingen raadpleegt u de gedeelten [handeling](../../reference/system-components/components-data-action.md), [verzameling](../../reference/system-components/components-data-collection.md), [verwerking](../../reference/system-components/components-data-processing.md)en [tagbeheer](../../reference/system-components/components-tag-management.md) .
+Zie de volgende secties voor systeembeschrijvingen en samenvattingen: [action](../../reference/system-components/components-data-action.md), [collection](../../reference/system-components/components-data-collection.md), [processing](../../reference/system-components/components-data-processing.md) en [tagbeheer](../../reference/system-components/components-tag-management.md).
 
 ![](assets/flowmap.png)
 
