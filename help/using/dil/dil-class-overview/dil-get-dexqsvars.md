@@ -33,11 +33,11 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | String | De naam van de variabele waarvoor u een waarde wilt ophalen. |
 | `partner` | String | De partnernaam aan onderzoek naar. |
-| `containerNSID` | Geheel | De [!DNL NSID] container waarnaar u zoekt. Standaardwaarden zijn `0`. |
+| `containerNSID` | Geheel | De [!DNL NSID] van de container waarnaar u zoekt. Standaardwaarden is `0`. |
 
 **Antwoord**
 
-Retourneert de variabele waarde voor een [!UICONTROL DIL] instantie.
+Retourneert de variabele waarde voor een instantie [!UICONTROL DIL].
 
 **Voorbeeldcode**
 
