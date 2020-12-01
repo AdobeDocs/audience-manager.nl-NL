@@ -25,7 +25,7 @@ Met het rapport Unieke gebruikersBereik kunt u de adverteerder, het merk, de cam
 >
 >Houd er rekening mee dat:
 >
->* Het [!UICONTROL Unique User Reach] rapport geeft alleen informatie weer voor gebruikers met [!UICONTROL Admin] machtigingsniveaus. Uw [!DNL Audience Manager] consultant of de klantenservice kan uw account [!UICONTROL Admin] machtigingen geven.
+>* Het [!UICONTROL Unique User Reach] rapport toont informatie slechts voor gebruikers met [!UICONTROL Admin] toestemmingsniveaus. Uw [!DNL Audience Manager] consultant of de klantenservice kan uw account voorzien van [!UICONTROL Admin]-machtigingen.
    >
    >
 * De terugkijkperiodes van 7 dagen en 30 dagen zijn slechts beschikbaar voor Zondag.
@@ -33,6 +33,6 @@ Met het rapport Unieke gebruikersBereik kunt u de adverteerder, het merk, de cam
 
 ## Voorbeeldrapport
 
-Uw [!UICONTROL Unique User Reach] rapport kan er ongeveer zo uitzien als hieronder. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven.
+Uw [!UICONTROL Unique User Reach]-rapport kan er ongeveer als volgt uitzien. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven.
 
 ![](assets/unique-user-reach.png)
