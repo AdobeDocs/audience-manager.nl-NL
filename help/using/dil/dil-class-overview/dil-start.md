@@ -1,6 +1,6 @@
 ---
-description: Beschrijft authentificatievereisten en het tekst formatteren die in de klasse-vlakke documentatie worden gebruikt DIL.
-seo-description: Beschrijft authentificatievereisten en het tekst formatteren die in de klasse-vlakke documentatie worden gebruikt DIL.
+description: Beschrijft authentificatievereisten en het tekst formatteren die in de klasse-vlakke documentatie van DIL worden gebruikt.
+seo-description: Beschrijft authentificatievereisten en het tekst formatteren die in de klasse-vlakke documentatie van DIL worden gebruikt.
 seo-title: Aan de slag met DIL-API’s op klasseniveau
 solution: Audience Manager
 title: Aan de slag met DIL-API’s op klasseniveau
@@ -17,7 +17,7 @@ ht-degree: 15%
 
 # Aan de slag met DIL-API’s op klasseniveau{#getting-started-with-class-level-dil-apis}
 
-Met DIL API&#39;s op klasseniveau kunt u programmatisch Audience Managers maken en ermee werken. De API&#39;s op klasseniveau werken samen met de andere functies op instantieniveau om waarden in te stellen of gegevens te retourneren.
+Met de DIL-API&#39;s op klasseniveau kunt u programmatisch Audience Managers maken en ermee werken. De API&#39;s op klasseniveau werken samen met de andere functies op instantieniveau om waarden in te stellen of gegevens te retourneren.
 
 ## Aan de slag met DIL-API’s op klasseniveau {#get-started}
 
@@ -29,9 +29,9 @@ c_class_start.xml
 
  -->
 
-Wanneer u werkt met API&#39; [!UICONTROL DIL] s op klasseniveau:
+Wanneer u werkt met de API&#39;s op klasseniveau [!UICONTROL DIL]:
 
 * De toegang vereist een partnernaam en container namespace identiteitskaart (NSID). Neem contact op met de accountmanager van de Audience Manager voor deze informatie.
-* Vervang een *cursieve* voorbeeldtekst in de API-documentatie door waarde, id of andere variabele, zoals vereist door de methode waarmee u werkt.
-* [!UICONTROL DIL] gecodeerde gegevens worden naar een doelcookie geschreven. Spaties worden bijvoorbeeld gecodeerd als `%20` en als puntkomma&#39;s `%3B`.
+* Vervang een voorbeeld *cursief* tekst in de API documentatie met waarde, identiteitskaart, of andere variabele zoals vereist door de methode u met werkt.
+* [!UICONTROL DIL] gecodeerde gegevens worden naar een doelcookie geschreven. Spaties worden bijvoorbeeld gecodeerd als `%20` en puntkomma&#39;s als `%3B`.
 
