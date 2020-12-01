@@ -23,7 +23,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->De [!DNL API] [!DNL Swagger] gegevensbronmethoden zijn herschreven en gemigreerd. Zie:
+>De gegevensbronmethoden [!DNL API] zijn herschreven met [!DNL Swagger] en gemigreerd. Zie:
 >
 >* [Adobe Audience Manager API-documenten](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migratie van Audience Manager-API-code](../../api/api-swagger-migration.md)
