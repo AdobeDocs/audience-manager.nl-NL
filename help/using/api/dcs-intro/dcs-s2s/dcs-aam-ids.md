@@ -17,16 +17,16 @@ ht-degree: 11%
 
 # Gebruikers-id’s en -regio’s ontvangen van een DCS-reactie {#get-user-ids-and-regions-from-a-dcs-response}
 
-Deze sectie beschrijft hoe te om een [!DNL DCS] reactie te ontleden om bezoeker en gebied IDs terug te winnen die wordt vereist om vraag in real time aan [!DNL DCS]te maken.
+In deze sectie wordt beschreven hoe u een [!DNL DCS]-reactie kunt parseren om de id&#39;s van de bezoeker en regio op te halen die nodig zijn om real-time aanroepen uit te voeren naar [!DNL DCS].
 
 ## Gebruiker- en regio-id&#39;s {#user-region-ids}
 
-Een [!DNL DCS] reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar de [!DNL DCS]server.
+Een [!DNL DCS]-reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar [!DNL DCS].
 
 * De gebruikers-id is vereist om gegevens te identificeren en aan een bepaalde bezoeker te koppelen.
-* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS]server moet verzenden. De [!DNL DCS] opslaginformatie in gegevenscentra die geografisch het dichtst bij plaatsbezoekers zijn. See [DCS Region IDs, Locations, and Host Names](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar [!DNL DCS] moet verzenden. [!DNL DCS] slaat informatie in gegevenscentra op die geografisch dichtst bij bezoekers van de plaats zijn. Zie [DCS-regio-id&#39;s, -locaties en hostnamen](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Deze parameters worden hieronder beschreven. De code in *cursief* staat voor een variabele plaatsaanduiding.
+Deze parameters worden hieronder beschreven. De code in *italics* vertegenwoordigt veranderlijke placeholder.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -52,7 +52,7 @@ Deze parameters worden hieronder beschreven. De code in *cursief* staat voor een
 
 ## Samplereactie {#sample-response}
 
-Deze eenvoudige reactie laat de `UUID` regio zien `ID`. Dit zijn alleen voorbeeldgegevens. Uw logbestanden kunnen langer en complexer zijn.
+Deze eenvoudige reactie toont `UUID` en gebied `ID`. Dit zijn alleen voorbeeldgegevens. Uw logbestanden kunnen langer en complexer zijn.
 
 ```js
 {
@@ -65,4 +65,4 @@ Deze eenvoudige reactie laat de `UUID` regio zien `ID`. Dit zijn alleen voorbeel
 
 ## Volgende stappen {#next-steps}
 
-Zodra u de gebruikers-id en de regionale servernaam hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS] gegevens. Zie [DCS API-aanroepen](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md)maken.
+Als u de gebruikers-id en de regionale servernaam hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS]-gegevens. Zie [DCS API-aanroepen maken](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
