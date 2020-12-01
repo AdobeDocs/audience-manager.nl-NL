@@ -27,19 +27,19 @@ c_tb_boolean.xml
 
 **Booleaanse expressies**
 
-Booleaanse logica is een vertakking van algebra die enkele basisexpressies (of operatoren) gebruikt om te bepalen of een instructie waar of onwaar is. De meest voorkomende operatoren zijn [!UICONTROL AND], [!UICONTROL OR]en [!UICONTROL NOT]. Met combinaties van deze expressies kunt u speciale kenmerken of segmentkwalificatieregels maken die uniek zijn voor uw gegevensvereisten. In de volgende afbeelding ziet u hoe basis-Booleaanse expressies werken.
+Booleaanse logica is een vertakking van algebra die enkele basisexpressies (of operatoren) gebruikt om te bepalen of een instructie waar of onwaar is. De meest voorkomende operatoren zijn [!UICONTROL AND], [!UICONTROL OR] en [!UICONTROL NOT]. Met combinaties van deze expressies kunt u speciale kenmerken of segmentkwalificatieregels maken die uniek zijn voor uw gegevensvereisten. In de volgende afbeelding ziet u hoe basis-Booleaanse expressies werken.
 
-<br> 
+<br>
 
 ![](assets/BooleanOverview_small.png)
 
 >[!NOTE]
 >
->De [!UICONTROL NOT] operator gebruikt een impliciete &quot;en&quot;-voorwaarde en wordt soms geschreven als [!UICONTROL AND NOT].
+>De operator [!UICONTROL NOT] gebruikt een geïmpliceerde &quot;and&quot;-voorwaarde en wordt soms geschreven als [!UICONTROL AND NOT].
 
 **Hoe te om Uitdrukkingen Van Boole in Trait en de Bouwer van het Segment te gebruiken**
 
-U bouwt eigenschap en segmentkwalificatieregels met uitdrukkingen Van Boole. In de onderstaande tabel worden algemene aanbevolen procedures beschreven voor het maken van kwalificatiecriteria met [!UICONTROL AND], [!UICONTROL OR]en [!UICONTROL NOT].
+U bouwt eigenschap en segmentkwalificatieregels met uitdrukkingen Van Boole. In de onderstaande tabel worden algemene aanbevolen procedures beschreven voor het maken van kwalificatiecriteria met [!UICONTROL AND], [!UICONTROL OR] en [!UICONTROL NOT].
 
 <table id="table_C762872C98F54C4A86A2F1C840A86657"> 
  <thead> 
@@ -53,32 +53,32 @@ U bouwt eigenschap en segmentkwalificatieregels met uitdrukkingen Van Boole. In 
   <tr> 
    <td colname="col1"> <p><b><span class="wintitle"> AND</span></b> </p> </td> 
    <td colname="col2"> <p>Smalle, gerichte vereisten voor publiekskwalificatie. </p> </td> 
-   <td colname="col3"> <p>Gebruikers <i>moeten</i> tot alle opgegeven kenmerken of segmenten behoren. </p> </td> 
+   <td colname="col3"> <p>Gebruikers <i>must</i> behoren tot alle opgegeven kenmerken of segmenten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="wintitle"> OF</span></b> </p> </td> 
    <td colname="col2"> <p>Brede, minder gerichte vereisten voor publiekskwalificatie. </p> </td> 
-   <td colname="col3"> <p>De gebruikers <i>kunnen</i> tot om het even welke gespecificeerde eigenschappen of segmenten behoren. </p> </td> 
+   <td colname="col3"> <p>Gebruikers <i>kunnen</i> tot om het even welke gespecificeerde eigenschappen of segmenten behoren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="wintitle"> NOT</span></b> </p> </td> 
    <td colname="col2"> <p>Smalle, gerichte vereisten voor publiekskwalificatie. </p> <p>Nuttig wanneer er meerdere voorwaarden zijn die het definiëren van kwalificatievereisten voor het publiek moeilijk of inefficiënt maken. Soms is het gemakkelijker om te valideren aan de hand van vereisten die u wilt uitsluiten in plaats van opnemen. </p> </td> 
-   <td colname="col3"> <p>Gebruikers <i>mogen niet</i> tot een uitgesloten kenmerk of segment behoren. </p> </td> 
+   <td colname="col3"> <p>Gebruikers <i>mogen niet tot een uitgesloten kenmerk of segment behoren.</i> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**[!UICONTROL AND]Voorbeeld van hoofdletters/kleine letters gebruiken **
+**[!UICONTROL AND]Voorbeeld van hoofdletters/kleine letters gebruiken**
 
-De [!UICONTROL AND] operator is handig wanneer u eenvoudig hebt aangegeven aan welke vereisten voor standaardlidmaatschap is voldaan. Stel dat u een publiek moet maken van &#39;dure camerakoppen&#39;. Met een pixelmodel moet u pixels voor camera&#39;s en een numerieke prijswaarde op de pagina maken en plaatsen. Met andere kenmerken kunt u daarentegen Booleaanse operatoren toepassen om beide voorwaarden ( [!UICONTROL AND] prijs camera&#39;s) af te handelen. Het resultaat is efficiënte gegevensinzameling met minder vraag van HTTP, die, beurtelings, de gebruikerservaring op uw plaats helpt bewaren.
+De operator [!UICONTROL AND] is handig wanneer u eenvoudig vereisten voor het standaardlidmaatschap hebt opgesomd. Stel dat u een publiek moet maken van &#39;dure camerakoppen&#39;. Met een pixelmodel moet u pixels voor camera&#39;s en een numerieke prijswaarde op de pagina maken en plaatsen. Met de juiste kenmerken kunt u daarentegen Booleaanse operatoren toepassen om beide voorwaarden (prijs voor camera&#39;s [!UICONTROL AND]) af te handelen. Het resultaat is efficiënte gegevensinzameling met minder vraag van HTTP, die, beurtelings, de gebruikerservaring op uw plaats helpt bewaren.
 
-**[!UICONTROL OR]Voorbeeld van hoofdletters/kleine letters gebruiken **
+**[!UICONTROL OR]Voorbeeld van hoofdletters/kleine letters gebruiken**
 
-De [!UICONTROL OR] operator is handig wanneer u signalen wilt maken met uitgebreide kwalificatievereisten voor het publiek. Als u verschillende kwalificatievereisten voor kenmerken of segmenten hebt, evalueert de [!UICONTROL OR] operator true wanneer bezoekers van de site *een* van deze kenmerken vertonen. [!UICONTROL OR] Dit kan handig zijn wanneer u snel een breed publiek van gekwalificeerde bezoekers wilt maken.
+De operator [!UICONTROL OR] is handig wanneer u signalen wilt maken met uitgebreide kwalificatievereisten voor het publiek. Als u verschillende vereisten voor de eigenschap of segmentkwalificatie hebt, zal de [!UICONTROL OR] operator evalueren naar waar wanneer uw sitebezoekers *een* van deze kenmerken vertonen. [!UICONTROL OR] Dit kan handig zijn wanneer u snel een breed publiek van gekwalificeerde bezoekers wilt maken.
 
-**[!UICONTROL AND NOT]Voorbeeld van hoofdletters/kleine letters gebruiken **
+**[!UICONTROL AND NOT]Voorbeeld van hoofdletters/kleine letters gebruiken**
 
-De [!UICONTROL AND NOT] operator is handig wanneer u een publiek makkelijker kunt definiëren door *uitsluiting* in plaats van *opname*. Bijvoorbeeld, zeg u een verkoop hebt en bezoekers in klanten willen segmenteren die volledige prijspunten slechts bekijken. In plaats van een lijst met signalen te maken voor alle in aanmerking komende items tegen volledige prijs of verkoopprijs, is het misschien eenvoudiger om bezoekers in aanmerking te nemen als ze *geen* koopprijsobject hebben gezien. Dit is administratief efficiënt, omdat je doorgaans minder objecten tegen de verkoopprijs hebt dan die voor de volledige prijs. Met een Booleaanse waarde [!UICONTROL NOT], *mogen bezoekers het verkoopsignaal niet* weergeven om in aanmerking te komen voor een lidmaatschap voor een publiek met een volledige prijs. Daarentegen [!UICONTROL AND NOT] is dit het tegenovergestelde van het [!UICONTROL AND] gebruiksgeval, waaruit blijkt hoe het lidmaatschap van het publiek wordt bepaald door inclusie (de bezoeker heeft dus een kwalificatie op basis van twee expliciet vermelde signalen).
+De operator [!UICONTROL AND NOT] is nuttig wanneer het eenvoudiger is om een publiek te definiëren met *exclusion* in plaats van *inclusion*. Bijvoorbeeld, zeg u een verkoop hebt en bezoekers in klanten willen segmenteren die volledige prijspunten slechts bekijken. In plaats van een lijst met signalen te maken voor alle in aanmerking komende items met volledige of verkoopprijs, is het misschien eenvoudiger om bezoekers in aanmerking te laten komen als ze *geen* een koopprijsitem hebben gezien. Dit is administratief efficiënt, omdat je doorgaans minder objecten tegen de verkoopprijs hebt dan die voor de volledige prijs. Met een Booleaanse waarde [!UICONTROL NOT] mogen bezoekers *niet* het verkoopsignaal laten zien om in aanmerking te komen voor een lidmaatschap voor een publiek met volledige prijs. [!UICONTROL AND NOT] daarentegen is het tegenovergestelde van de [!UICONTROL AND]-gebruikszaak, die aantoonde hoe het lidmaatschap van het publiek door inclusie wordt bepaald (de bezoeker heeft dus een kwalificatie op basis van twee expliciet vermelde signalen).
 
 >[!MORELIKETHIS]
 >
