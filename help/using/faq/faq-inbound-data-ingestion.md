@@ -59,12 +59,12 @@ Zie [Bestandscompressie voor binnenkomende dataoverdrachtsbestanden](../integrat
 
 **Kan ik een binnenkomend databestand ([!DNL .sync] - of [!DNL .overwrite] -bestand) uploaden alvorens code [!DNL Audience Manager] in productie te implementeren?**
 
-Ja. As long as you use a [!UICONTROL cross-device data source] to store the CRM data that you upload, Audience Manager always stores the data. In fact, following the [!UICONTROL Profile Merge Rules] enhancements that Audience Manager launched in October 2019 that allow for offline-only use cases, you can upload and action on data without deploying Audience Manager code into production at all. Zie:
+Ja. Zolang u [!UICONTROL cross-device data source] gebruikt om de gegevens op te slaan van CRM die u uploadt, slaat de Audience Manager altijd de gegevens op. In feite, na de [!UICONTROL Profile Merge Rules] verhogingen die Audience Manager in oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u gegevens uploaden en actie op gegevens zonder de code van de Audience Manager in productie in het geheel op te stellen. Zie:
 
 * [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] -  [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
-<br> 
+<br>
 
 <!---
 * If the data provider is configured to use [Profile Link](../features/profile-merge-rules/merge-rules-overview.md) for cross-device targeting, the data available for targeting shortly after an ID sync identifies to the matching [!DNL Audience Manager] visitor ID.
@@ -188,7 +188,7 @@ Tijdstempels worden gebruikt voor vastleggen en bewaren. Ze worden vereist door 
 
  
 
-**Wat is een[!DNL Data Provider ID (DPID)]en hoe krijg ik het?**
+**Wat is een  [!DNL Data Provider ID (DPID)] en hoe krijg ik het?**
 
 Uw Adobe-consultant wijst een driecijferige of viercijferige [DPID (Data Provider ID)](../reference/ids-in-aam.md) toe aan uw specifieke databron. Deze id is uniek en verandert niet.
 
@@ -227,7 +227,7 @@ Als best practice adviseren wij [!DNL Amazon S3] omdat het proces eenvoudiger is
 
 >[!WARNING]
 >
->De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. While inbound data file ingestion is still supported in existing FTP integrations, we strongly recommend using [!DNL Amazon S3] to onboard offline data for new integrations. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Terwijl de binnenkomende gegevensdossieropname nog in bestaande integratie van FTP wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord off-line gegevens voor nieuwe integratie. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
  
 
