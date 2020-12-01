@@ -21,11 +21,11 @@ ht-degree: 14%
 
 <!-- c_separator.xml -->
 
-Voor meer informatie over afgeleide signalen, zie [Afgeleide Signalen](../../features/derived-signals.md).
+Voor meer informatie over afgeleide signalen, zie [Afgeleide Signals](../../features/derived-signals.md).
 
 >[!IMPORTANT]
 >
->De afgeleide [!DNL API] signaalmethodes zijn herschreven met [!DNL Swagger] en gemigreerd. Zie:
+>De afgeleide signalen [!DNL API] methodes zijn herschreven met [!DNL Swagger] en gemigreerd. Zie:
 >
 >* [Adobe Audience Manager API-documenten](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migratie van Audience Manager-API-code](../../api/api-swagger-migration.md)
