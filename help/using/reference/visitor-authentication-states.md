@@ -20,7 +20,7 @@ ht-degree: 5%
 
 De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
 
-Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de `setCustomerID` methode het optionele `AuthState` object. `AuthState` identificeert bezoekers volgens hun [authentificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] behandelt de gerealiseerde eigenschappen verschillend, afhankelijk van de authentificatiestatus die in de vraag en de Regel [van de Fusie van het](../features/profile-merge-rules/merge-rules-dashboard.md) Profiel wordt overgegaan u voor segmentatie gebruikt.
+Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de methode `setCustomerID` het optionele object `AuthState`. `AuthState` identificeert bezoekers volgens hun  [authentificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] behandelt verschillend de gerealiseerde eigenschappen, afhankelijk van de authentificatiestatus die in de vraag en het  [Profiel wordt overgegaan ](../features/profile-merge-rules/merge-rules-dashboard.md) Ruleu van de Fusie van het Profiel gebruikt voor segmentatie.
 
 ## Verificatiestatus: ONBEKEND {#auth-status-unknown}
 
@@ -28,8 +28,8 @@ Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de `setCustomerID` methode 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Aanvraagwaarde </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel lezen</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nieuwe kenmerken naar het geverifieerde profiel schrijven</b> </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel </b> lezen </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Schrijven </b> karakteriseert het geverifieerde profiel </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -54,8 +54,8 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Aanvraagwaarde </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel lezen</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nieuwe kenmerken naar het geverifieerde profiel schrijven</b> </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel </b> lezen </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Schrijven </b> karakteriseert het geverifieerde profiel </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -80,8 +80,8 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Aanvraagwaarde </p> </th> 
-   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel lezen</b> </p> </th> 
-   <th colname="col3" class="entry"> <p> <b>Nieuwe kenmerken naar het geverifieerde profiel schrijven</b> </p> </th> 
+   <th colname="col2" class="entry"> <p> <b>Informatie uit het geverifieerde profiel </b> lezen </p> </th> 
+   <th colname="col3" class="entry"> <p> <b>Schrijven </b> karakteriseert het geverifieerde profiel </p> </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -102,7 +102,7 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
 
 >[!NOTE]
 >
->[!DNL Audience Manager] voert in alle drie gevallen een id-synchronisatie uit tussen [CID en UUID](../reference/ids-in-aam.md) .
+>[!DNL Audience Manager] voert in alle drie gevallen een id-synchronisatie uit tussen  [CID en ](../reference/ids-in-aam.md) UUID.
 
 >[!MORELIKETHIS]
 >
