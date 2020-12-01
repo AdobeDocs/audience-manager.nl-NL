@@ -27,7 +27,7 @@ Kolomkoplabels gedefinieerd.
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen die ](../../features/administration/administration-overview.md) zijn toegewezen in de  [!DNL Audience Manager] gebruikersinterface, worden gerespecteerd in de  [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -39,11 +39,11 @@ Kolomkoplabels gedefinieerd.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> dataSourceId</span> </p> </td> 
-   <td colname="col2"> <p>De id van een <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> gegevensbron</a> die u bulksgewijs wilt retourneren of toewijzen. </p> </td> 
+   <td colname="col2"> <p>De id van een <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> gegevensbron</a> u wilt terugkeren of in bulk toewijzen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> derivedSignalId</span> </p> </td> 
-   <td colname="col2"> <p>Een <a href="../../features/derived-signals.md"> afgeleide signaal</a> -id. </p> </td> 
+   <td colname="col2"> <p>Een <a href="../../features/derived-signals.md"> afgeleid signaal</a> ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> beschrijving</span> </p> </td> 
@@ -51,7 +51,7 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationId</span> </p> </td> 
-   <td colname="col2"> <p>De id van het <a href="../../features/destinations/destinations.md"> doel</a> dat u wilt toewijzen of verwijderen. </p> </td> 
+   <td colname="col2"> <p>De id van de <a href="../../features/destinations/destinations.md"> bestemming</a> wilt u in kaart brengen of schrappen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> destinationMappingId</span> </p> </td> 
@@ -75,11 +75,11 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceKey</span> </p> </td> 
-   <td colname="col2"> <p>Signalen zijn gegevensbits die worden doorgegeven aan de <span class="keyword"> Audience Manager</span> op basis van gebruikersactiviteit. Deze worden verzonden als <a href="../../reference/key-value-pairs-explained.md"> sleutel-waardeparen</a>. De bronsleutel is een constante die niet verandert. Het helpt de bronwaarde categoriseren die kan veranderen. Zie <a href="../../features/derived-signals.md"> Afgeleide signalen</a>. </p> </td> 
+   <td colname="col2"> <p>Signalen zijn gegevensbits die worden doorgegeven aan <span class="keyword"> Audience Manager</span> op basis van gebruikersactiviteit. Deze worden verzonden als <a href="../../reference/key-value-pairs-explained.md"> sleutel-waardeparen</a>. De bronsleutel is een constante die niet verandert. Het helpt de bronwaarde categoriseren die kan veranderen. Zie <a href="../../features/derived-signals.md"> Afgeleide signalen</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> sourceValue</span> </p> </td> 
-   <td colname="col2"> <p>De bronwaarde is een variabele die wordt doorgegeven als onderdeel van een <a href="../../reference/key-value-pairs-explained.md"> sleutelwaardepaar</a>. </p> </td> 
+   <td colname="col2"> <p>De bronwaarde is een variabele die als deel wordt overgegaan <a href="../../reference/key-value-pairs-explained.md"> sleutel-waarde paar</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> startDate</span> </p> </td> 
@@ -95,11 +95,11 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitAlias</span> </p> </td> 
-   <td colname="col2"> <p>Een id die wordt doorgegeven aan een niet-cookie-gebaseerd doel. Voor een op cookie gebaseerde bestemming, is dit de sleutel in een sleutel-waarde paar <a href="../../reference/key-value-pairs-explained.md"></a>. </p> </td> 
+   <td colname="col2"> <p>Een id die wordt doorgegeven aan een niet-cookie-gebaseerd doel. Voor een op cookie-gebaseerde bestemming, is dit de sleutel in <a href="../../reference/key-value-pairs-explained.md"> zeer belangrijk-waardepaar</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>De eigenlijke eigenschap of segmentregel die wordt gebruikt om gegevens te verzamelen. Een bulkverzoek keert de regels terug die in <span class="keyword"> Audience Manager</span> met de bouwer <a href="../../features/traits/about-trait-builder.md"> van de</a> trekkerregel of de <a href="../../features/segments/segment-builder.md"> segmentregelbouwer</a>worden gecreeerd. U kunt deze hulpmiddelen ook gebruiken om regels te bouwen en hen in bulk toe te passen wanneer u een segment of een eigenschap bijwerkt. </p> <p>See also, <a href="../../reference/bulk-management-tools/bulk-rules.md"> Create or Update Trait Rules and Segment Rules</a>. </p> </td> 
+   <td colname="col2"> <p>De eigenlijke eigenschap of segmentregel die wordt gebruikt om gegevens te verzamelen. Een bulkverzoek keert de regels terug die in <span class="keyword"> Audience Manager</span> met <a href="../../features/traits/about-trait-builder.md"> de bouwer van de de eigenaarregel</a> of <a href="../../features/segments/segment-builder.md"> de bouwer van de segmentregel</a> worden gecreeerd. U kunt deze hulpmiddelen ook gebruiken om regels te bouwen en hen in bulk toe te passen wanneer u een segment of een eigenschap bijwerkt. </p> <p>Zie ook, <a href="../../reference/bulk-management-tools/bulk-rules.md"> creeer of werk Regels van het Bedieningsgebied en van het Segment </a> bij. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
@@ -116,7 +116,7 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> valueAlias</span> </p> </td> 
-   <td colname="col2"> <p>De sleutel in een sleutel-waarde paar <a href="../../reference/key-value-pairs-explained.md"></a> tot een koekjesbestemming wordt overgegaan die. </p> </td> 
+   <td colname="col2"> <p>De sleutel in een <a href="../../reference/key-value-pairs-explained.md"> sleutel-waarde paar</a> tot een koekjesbestemming wordt overgegaan die. </p> </td> 
   </tr> 
  </tbody> 
 </table>
