@@ -21,31 +21,31 @@ De hoogste Ongebruikte Beetjes worden vertegenwoordigd als verstrooiingsdiagram 
 
 ## Gebruiksscenario {#use-cases}
 
-Met het [!UICONTROL Top Unused Traits] rapport kunt u de prestaties analyseren en vergelijken van de kenmerken van de eerste en derde partij die momenteel niet aan een segment zijn toegewezen. Deze mening kan op de beste eigenschappen wijzen om in een publiekssegment voor of campagneroptimalisering of netto nieuwe kansen te gebruiken.
+Met het [!UICONTROL Top Unused Traits] rapport, kunt u de prestaties van eerste en derdeeigenschappen analyseren en vergelijken die momenteel niet aan een segment in kaart worden gebracht. Deze mening kan op de beste eigenschappen wijzen om in een publiekssegment voor of campagneroptimalisering of netto nieuwe kansen te gebruiken.
 
-## Het bovenste rapport Ongebruikte sporen gebruiken {#using-the-report}
+## Het hoogste Ongebruikte Rapport van Traits {#using-the-report} gebruiken
 
-Met de **[!UICONTROL Data Provider Type]** besturingselementen kunt u schakelen tussen de kenmerken van de eerste en die van de derde. Selecteer **[!UICONTROL All]** om de eerste en derde eigenschap in het rapport te retourneren.
+Met de besturingselementen **[!UICONTROL Data Provider Type]** kunt u schakelen tussen de kenmerken van de eerste en die van de derde. Selecteer **[!UICONTROL All]** om eerste en derdeeigenschappen in het rapport terug te keren.
 
-Met de **[!UICONTROL Impressions]** schuifregelaar kunt u een minimum- en maximumwaarde voor geretourneerde afbeeldingen selecteren. Eventuele kenmerken die voor minder of meer dan de ingestelde limieten verantwoordelijk zijn, worden niet in het rapport weergegeven.
+Met de schuifregelaar **[!UICONTROL Impressions]** kunt u een minimum- en maximumwaarde voor geretourneerde afbeeldingen selecteren. Eventuele kenmerken die voor minder of meer dan de ingestelde limieten verantwoordelijk zijn, worden niet in het rapport weergegeven.
 
-Gebruik de besturingselementen **[!UICONTROL Day Range]** en **[!UICONTROL Date Through]** besturingselementen om het bereik van de terugblik aan te passen. Merk op dat slechts de periode van 30 dagen terugblik voor dit rapport beschikbaar is.
+Gebruik de besturingselementen **[!UICONTROL Day Range]** en **[!UICONTROL Date Through]** om het bereik van de terugblik aan te passen. Merk op dat slechts de periode van 30 dagen terugblik voor dit rapport beschikbaar is.
 
-Gebruik het **[!UICONTROL Order]** drop-down vakje om de Web-eigenschappen in uw portefeuille te selecteren waarvoor u informatie wilt terugkeren.
+Gebruik de vervolgkeuzelijst **[!UICONTROL Order]** om de wegeigenschappen in uw portfolio te selecteren waarvoor u informatie wilt retourneren.
 
-In de **[!UICONTROL Data Provider]** drop-down doos, selecteer de gegevensbronnen die de eigenschappen bevatten u in het rapport wilt zien.
+Selecteer in de vervolgkeuzelijst **[!UICONTROL Data Provider]** de gegevensbronnen met de kenmerken die u in het rapport wilt zien.
 
 Gebruik de **[!UICONTROL Traits]** drop-down doos om te selecteren welke eigenschappen u in het rapport wilt zien.
 
 >[!IMPORTANT]
 >
->Wanneer u deze optie inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Audience Optimization for Publishers]de bestanden opnemen, zoals wordt beschreven in stap 3 van Google Ad Manager (voorheen DFP)-gegevensbestanden [!UICONTROL Order IDs]importeren in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Order] in plaats van het [!UICONTROL Order ID].
+>Wanneer u [!UICONTROL Audience Optimization for Publishers] inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Order IDs] opnemen, zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Order] in plaats van [!UICONTROL Order ID] detailleert.
 
-## De resultaten interpreteren {#interpreting-results}
+## Resultaten interpreteren {#interpreting-results}
 
 **Voorbeeldrapport**
 
-Uw [!UICONTROL Top Unused Traits] rapport kan er ongeveer zo uitzien als hieronder. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven.
+Uw [!UICONTROL Top Unused Traits]-rapport kan er ongeveer als volgt uitzien. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven.
 
 Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
 
