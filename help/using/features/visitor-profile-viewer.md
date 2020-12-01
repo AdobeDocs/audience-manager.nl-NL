@@ -18,11 +18,11 @@ ht-degree: 2%
 
 # Bezoekersprofiel-viewer {#visitor-profile-viewer}
 
-Gebruik deze optie [!UICONTROL Visitor Profile Viewer] om de huidige status van een gebruikersprofiel voor de huidige browser weer te geven, inclusief de kenmerken en segmenten ervan. Voor elke eigenschap, kunt u zijn [!UICONTROL SID], naam, details bekijken over hoe de bezoekerseigenschappen (eerste of derde) werden gerealiseerd, de realisatiedatum, en de frequentie van realisaties. Voor elk segment, kunt u zijn [!UICONTROL SID], naam, en de datum van het segmentlidmaatschap bekijken. U kunt ook het bezoekersprofiel voor een andere Audience Manager-profiel-id ([!UICONTROL UUID]) bekijken. Dit [!UICONTROL Visitor Profile Viewer] is handig voor probleemoplossing.
+Gebruik [!UICONTROL Visitor Profile Viewer] om de huidige staat van een gebruikersprofiel voor huidige browser, met inbegrip van zijn eigenschappen en segmenten te tonen. Voor elke eigenschap, kunt u zijn [!UICONTROL SID], naam, details bekijken over hoe de bezoekerseigenschappen (eerste of derde) werden gerealiseerd, de realisatiedatum, en de frequentie van realisaties. Voor elk segment, kunt u zijn [!UICONTROL SID], naam, en de datum van het segmentlidmaatschap bekijken. U kunt ook het bezoekersprofiel voor een andere Audience Manager-profiel-id ([!UICONTROL UUID]) weergeven. [!UICONTROL Visitor Profile Viewer] is nuttig voor het oplossen van problemendoeleinden.
 
 >[!NOTE]
 >
->* Toegang vereist [!UICONTROL Administrator] machtigingen.
+>* Voor toegang zijn [!UICONTROL Administrator]-machtigingen vereist.
 >* Er is een vertraging van 24 uur voordat de gebruikersinterface informatie over gerealiseerde segmenten en ongebogen kenmerken bevat.
 
 
@@ -33,12 +33,12 @@ Traits that are not part of a segment will not appear in the
 
 1. Klik op **[!UICONTROL Tools]** > **[!UICONTROL Visitor Profile Viewer]**.
 
-1. *(Optioneel)* Klik op de naam van het kenmerk om die eigenschap in het [!UICONTROL Trait Builder]vak weer te geven.
+1. *(Optioneel)* Klik op de naam van het kenmerk om die eigenschap weer te geven in het  [!UICONTROL Trait Builder]palet.
 
-   Zie [Traits](../features/traits/trait-details-page.md)voor meer informatie.
+   Zie [Tanden](../features/traits/trait-details-page.md) voor meer informatie.
 
-1. *(Optioneel)* Klik op de segmentnaam om dat segment in het [!UICONTROL Segment Builder]segment weer te geven.
+1. *(Optioneel)* Klik op de segmentnaam om dat segment weer te geven in het  [!UICONTROL Segment Builder]dialoogvenster.
 
-   Zie [Segmenten](../features/segments/segments-purpose.md)voor meer informatie.
+   Zie [Segmenten](../features/segments/segments-purpose.md) voor meer informatie.
 
-1. *(Voorwaardelijk)* Geef in het **[!UICONTROL UUID]** vak een andere Audience Manager-profiel-id op en klik vervolgens **[!UICONTROL Refresh]** om de kenmerken en segmenten voor die gebruiker weer te geven.
+1. *(Voorwaardelijk)* Geef in het  **[!UICONTROL UUID]** vak een andere Audience Manager-profiel-id op en klik vervolgens  **[!UICONTROL Refresh]** om de kenmerken en segmenten voor die gebruiker weer te geven.
