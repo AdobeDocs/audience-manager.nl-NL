@@ -1,6 +1,6 @@
 ---
-description: Raadpleeg deze pagina voor informatie over de nieuwste DIL-releases
-seo-description: Raadpleeg deze pagina voor informatie over de nieuwste DIL-releases
+description: Raadpleeg deze pagina voor informatie over de nieuwste release van DIL
+seo-description: Raadpleeg deze pagina voor informatie over de nieuwste release van DIL
 seo-title: DIL-releaseopmerkingen
 solution: Audience Manager
 title: DIL-releaseopmerkingen
@@ -16,5 +16,5 @@ ht-degree: 22%
 
 # DIL-releaseopmerkingen
 
-Raadpleeg deze pagina voor informatie over de meest recente DIL-releases. DIL is beschikbaar als directe download, met releaseopmerkingen, op de [Github-pagina](https://github.com/Adobe-Marketing-Cloud/dil/releases)van Adobe.
+Raadpleeg deze pagina voor informatie over de nieuwste release van DIL. DIL is beschikbaar als directe download, met versienota&#39;s, op Adobe [Github pagina](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
