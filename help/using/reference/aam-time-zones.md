@@ -19,4 +19,4 @@ ht-degree: 14%
 
 Audience Manager gebruikt Coordinated Universal Time (UTC) voor de volledige gebruikersinterface.
 
-Tenzij anders gespecificeerd, zijn alle data en datumwaaiers u in [!DNL Adobe] UI kunt selecteren [!DNL Audience Manager] Coordinated Universal Time (UTC) [](https://www.timeanddate.com/worldclock/timezone/utc). Bijvoorbeeld, in de [Create stroom van de Bestemming](../features/destinations/create-cookie-destination.md#segments-mapping) , wanneer het in kaart brengen van segmenten aan uw bestemming, zijn de begin en einddatum u uitgezocht middernacht UTC. Hetzelfde geldt voor alle datums in [!DNL Audience Manager].
+Tenzij anders gespecificeerd, zijn alle data en datumwaaiers u in [!DNL Adobe] [!DNL Audience Manager] UI kunt selecteren [Coordinated Universal Time (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). Bijvoorbeeld, in [creeer Bestemming](../features/destinations/create-cookie-destination.md#segments-mapping) stroom, wanneer het in kaart brengen van segmenten aan uw bestemming, zijn de begin en einddatum u uitgezocht middernacht UTC. Hetzelfde geldt voor alle datums in [!DNL Audience Manager].
