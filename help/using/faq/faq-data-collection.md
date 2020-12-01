@@ -20,7 +20,7 @@ ht-degree: 84%
 
 Algemene vragen en problemen in verband met dataverzameling en integratie.
 
-<br> 
+<br>
 
 **Hoe kan ik binnenkomende traffic onderscheiden van [!DNL DCS]-traffic in [!DNL DCS]-logboekbestandexports?**
 
@@ -44,8 +44,8 @@ Ja, zie hieronder.
 
 | Server | IP-adressen |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
-| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18 211 109 184 |
 
  
 
@@ -153,7 +153,7 @@ Ja, [!DNL Audience Manager] kan data aan u verstrekken die zijn verzameld voor g
 
 **[!DNL Google Ad Manager]Ik wil data verzamelen op de ene website, en gebruikers targeten via op een andere website. Moet ik code implementeren op de andere eigenschap als ik geen data van die locatie wil verzamelen?**
 
-Nee. Als de dataverzameling op de tweede website geen vereiste is, hoeft u daar geen DIL te implementeren. As long as you have access to the inventory on the second site via [!DNL Google Ad Manager], you can use the data collection from the initial site and target via [!DNL Google Ad Manager].
+Nee. Als de dataverzameling op de tweede website geen vereiste is, hoeft u daar geen DIL te implementeren. Zolang u via [!DNL Google Ad Manager] toegang hebt tot de voorraad op de tweede site, kunt u de gegevensverzameling vanaf de eerste site en het doel gebruiken via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -165,7 +165,7 @@ Elke leverancier draagt iets unieks bij, dus het antwoord hangt af van wat u zoe
 
 **Hoe worden in [!DNL Audience Manager] cookies ingesteld en variabelen doorgegeven aan [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] sets 2 cookies: De ene stuurt segmentvariabelen naar de [!DNL Google Ad Manager] advertentietag en de andere stelt de unieke gebruikers-id (UUID) in, die ook door [!DNL Google Ad Manager]wordt gelezen. Door de UUID aan de advertentietag toe te voegen kunnen we rapportage en doelgroepdetectie op gebruikersniveau uitvoeren.
+[!DNL Audience Manager] sets 2 cookies: De ene stuurt segmentvariabelen naar de  [!DNL Google Ad Manager] advertentietag en de andere stelt de unieke gebruikers-id (UUID) in, die ook door  [!DNL Google Ad Manager]wordt gelezen. Door de UUID aan de advertentietag toe te voegen kunnen we rapportage en doelgroepdetectie op gebruikersniveau uitvoeren.
 
 <br> 
 
