@@ -23,11 +23,11 @@ Methoden waarmee u de algemene taxonomie van de Audience Manager kunt weergeven.
 
 >[!NOTE]
 >
->U kunt geen nieuwe taxonomische categorieën tot stand brengen of eigenschappen met deze methodes classificeren. Als u een eigenschap wilt classificeren, geeft u de juiste waarde op `categoryId` met een methode voor het maken of bijwerken van kenmerken.
+>U kunt geen nieuwe taxonomische categorieën tot stand brengen of eigenschappen met deze methodes classificeren. Als u een eigenschap wilt classificeren, geeft u de juiste `categoryId` op met een methode voor het maken of bijwerken van een eigenschap.
 
-## Een specifieke taxonomie retourneren {#return-specific-taxonomy}
+## Een specifieke taxonomie {#return-specific-taxonomy} retourneren
 
-Een `GET` methode die details over de gespecificeerde taxonomische categorie terugkeert.
+Een methode `GET` die details over de gespecificeerde taxonomische categorie terugkeert.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -37,7 +37,7 @@ Een `GET` methode die details over de gespecificeerde taxonomische categorie ter
 
 ### Antwoord
 
-Een geslaagde reactie retourneert `200 OK` en de categorie voor de opgegeven id. Een mislukte aanvraag wordt geretourneerd `404 No Content` als de id niet bestaat.
+Een geslaagde reactie retourneert `200 OK` en de categorie voor de opgegeven id. Een mislukte aanvraag retourneert `404 No Content` als de id niet bestaat.
 
 ```
 {
@@ -50,9 +50,9 @@ Een geslaagde reactie retourneert `200 OK` en de categorie voor de opgegeven id.
 }
 ```
 
-## Alle taxonomische categorieën retourneren {#return-all-taxonomy-categories}
+## Alle taxonomische categorieën {#return-all-taxonomy-categories} retourneren
 
-Een `GET` methode die een lijst van de top-level categorieën in een serie terugkeert.
+Een methode `GET` die een lijst van de top-level categorieën in een serie terugkeert.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -93,9 +93,9 @@ Afgekort voor bondigheid.
 ]
 ```
 
-## Taxonomische subcategorieën retourneren {#return-taxonomy-sub-categories}
+## Taxonomische subcategorieën {#return-taxonomy-sub-categories} retourneren
 
-Een `GET` methode die subcategorieën voor de opgegeven bovenliggende categorie in een array retourneert.
+Een methode `GET` die subcategorieën voor de gespecificeerde oudercategorie in een serie terugkeert.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -105,7 +105,7 @@ Een `GET` methode die subcategorieën voor de opgegeven bovenliggende categorie 
 
 ### Antwoord
 
-Een geslaagde reactie retourneert `200 OK` en de categorie voor de opgegeven id. Een mislukte aanvraag wordt geretourneerd `404 No Content` als de id niet bestaat. Afgekort voor bondigheid.
+Een geslaagde reactie retourneert `200 OK` en de categorie voor de opgegeven id. Een mislukte aanvraag retourneert `404 No Content` als de id niet bestaat. Afgekort voor bondigheid.
 
 ```
 [
