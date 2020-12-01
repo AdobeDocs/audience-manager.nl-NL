@@ -1,6 +1,6 @@
 ---
 title: 'API-methoden en -code van Data Collection Server (DCS) '
-seo-title: API-methoden en code voor Adobe Audience Manager (AAM) voor gegevensverzamelingsserver (DCS)
+seo-title: API-methoden en code voor gegevensverzamelingsserver (DCS) voor Adobe Audience Manager (AAM)
 description: Code, methodes, en technieken die u programmatically met de Servers van de Inzameling van Gegevens van de Audience Manager laten werken (DCS).
 seo-description: Code, methodes, en technieken die u programmatically met de Servers van de Inzameling van Gegevens van de Audience Manager laten werken (DCS).
 feature: DCS
