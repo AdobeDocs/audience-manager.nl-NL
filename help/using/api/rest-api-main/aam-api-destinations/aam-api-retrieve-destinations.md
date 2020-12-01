@@ -1,6 +1,6 @@
 ---
-description: Een GET methode die de bestemming voor gespecificeerde destinationId terugkeert.
-seo-description: Een GET methode die de bestemming voor gespecificeerde destinationId terugkeert.
+description: Een methode van de GET die de bestemming voor gespecificeerde destinationId terugkeert.
+seo-description: Een methode van de GET die de bestemming voor gespecificeerde destinationId terugkeert.
 seo-title: Een bestemming retourneren op destinatie-id
 solution: Audience Manager
 title: Een bestemming retourneren op destinatie-id
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Een bestemming retourneren op destinatie-id {#return-a-destination-by-destination-id}
 
-Een `GET` methode die de bestemming voor gespecificeerde `destinationId`.
+Een methode `GET` die de bestemming voor gespecificeerde `destinationId` terugkeert.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -27,7 +27,7 @@ Een `GET` methode die de bestemming voor gespecificeerde `destinationId`.
 
 >[!NOTE]
 >
->Als u het `mappings` veld wilt invullen, geeft u dit door `includeMappings=true` in de URL.
+>Om `mappings` gebiedspas in `includeMappings=true` in URL te bevolken.
 
 ## Antwoord
 
@@ -57,7 +57,7 @@ Een `GET` methode die de bestemming voor gespecificeerde `destinationId`.
 }
 ```
 
-## Alle doelen retourneren {#return-all-destinations}
+## Alle doelen {#return-all-destinations} retourneren
 
 Een `GET` methode die alle bestemmingen voor de gespecificeerde partner terugkeert.
 
@@ -69,7 +69,7 @@ Een `GET` methode die alle bestemmingen voor de gespecificeerde partner terugkee
 
 >[!NOTE]
 >
->* *(Optioneel)* Geef aan `containsSegment=<sid>` om een array te retourneren van alle doelen die aan het opgegeven segment zijn toegewezen. Uw query kan er bijvoorbeeld als volgt uitzien: `GET .../destinations/?containsSegment=4321`.
+>* *(Optioneel)* Geef aan  `containsSegment=<sid>` om een array te retourneren van alle doelen die aan het opgegeven segment zijn toegewezen. Uw query kan er bijvoorbeeld als volgt uitzien: `GET .../destinations/?containsSegment=4321`.
    >
    >
 * Retourneert het volledige doelobject niet. Hiermee wordt het doel via de gegevensvolgorde opgehaald als u een volledig gevuld object nodig hebt.
@@ -77,7 +77,7 @@ Een `GET` methode die alle bestemmingen voor de gespecificeerde partner terugkee
 
 ### Optionele queryparameters
 
-U kunt deze optionele parameters gebruiken met API-methoden die *alle* eigenschappen voor een object retourneren. Plaats deze opties in het verzoekkoord wanneer het overgaan van die vraag in aan het [!DNL API]. Zie [Optionele parameters](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+U kunt deze optionele parameters gebruiken met API-methoden die *alle* eigenschappen voor een object retourneren. Plaats deze opties in het verzoekkoord wanneer het overgaan van die vraag binnen aan [!DNL API]. Zie [Optionele parameters](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -97,7 +97,7 @@ U kunt deze optionele parameters gebruiken met API-methoden die *alle* eigenscha
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Sorteert en retourneert resultaten volgens de opgegeven <span class="keyword"> JSON</span> -eigenschap. </td>
+   <td colname="col2">Sorteert en keert resultaten volgens het gespecificeerde <span class="keyword"> JSON</span> bezit terug. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
@@ -105,7 +105,7 @@ U kunt deze optionele parameters gebruiken met API-methoden die *alle* eigenscha
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> search</code> </td>
-   <td colname="col2">Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Stel dat u resultaten wilt zoeken voor alle modellen die het woord "Testen" hebben in een van de waardevelden voor dat item. Uw voorbeeldverzoek kan er als volgt uitzien: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>U kunt zoeken op elke waarde die door de methode "get all" wordt geretourneerd. </p> </td>
+   <td colname="col2">Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Bijvoorbeeld, laten wij zeggen u resultaten voor alle modellen wilt vinden die het woord "Test"in om het even welke waardegebieden voor dat punt hebben. Uw voorbeeldverzoek kan er als volgt uitzien: <p><code> GET https://api.demdex.com/v1/models/?search=Test</code>. </p> <p>U kunt zoeken op elke waarde die door de methode "get all" wordt geretourneerd. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -142,9 +142,9 @@ U kunt deze optionele parameters gebruiken met API-methoden die *alle* eigenscha
 ]
 ```
 
-## Een doeltoewijzing retourneren met de toewijzingsid {#return-dest-mapping-id}
+## Retourneer een bestemmingstoewijzing met de toewijzingsidentiteitskaart {#return-dest-mapping-id}
 
-Een `GET` methode die een individuele bestemmingstoewijzing terugkeert die op `mappingId`wordt gebaseerd.
+Een `GET` methode die een individuele bestemmingstoewijzing terugkeert die op `mappingId` wordt gebaseerd.
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -179,9 +179,9 @@ Een `GET` methode die een individuele bestemmingstoewijzing terugkeert die op `m
 }
 ```
 
-## Toewijzingen retourbestemming {#return-dest-mappings}
+## Doeltoewijzingen {#return-dest-mappings} retourneren
 
-Een `GET` methode die de toewijzingen voor een bestemming terugkeert.
+Een methode `GET` die de toewijzingen voor een bestemming terugkeert.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -253,9 +253,9 @@ Een `GET` methode die de toewijzingen voor een bestemming terugkeert.
 {
 ```
 
-## Alle beschikbare Platforms van de Bestemming terugkeren {#return-dest-platforms}
+## Alle beschikbare Platforms van de Bestemming {#return-dest-platforms} terugkeren
 
-Een `GET` methode die alle beschikbare apparatenplatforms voor bestemmingen terugkeert.
+Een methode `GET` die alle beschikbare apparatenplatforms voor bestemmingen terugkeert.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -271,9 +271,9 @@ BROWSER, ANDROID, iOS, ALL
 ]
 ```
 
-## S2S- en Bulk S2S-taakgeschiedenis retourneren {#return-job-history}
+## S2S en Bulk S2S de Geschiedenis van de Bestemmingstaak {#return-job-history}
 
-Een `GET` methode die uitgaande [!UICONTROL Server-to-Server] ( [!UICONTROL S2S][!UICONTROL S2S] ) en de geschiedenisinformatie van de bulkdoelbaan terugkeert.
+Een `GET` methode die uitgaande [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) en bulkinformatie [!UICONTROL S2S] de geschiedenisinformatie van de bestemmingsbaan terugkeert.
 
 <!-- r_get_job_history.xml -->
 
@@ -281,7 +281,7 @@ Een `GET` methode die uitgaande [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Vereiste queryparameters: `startDate` = *&lt;`epochtime`>* en `endDate` = *&lt;`epochtime`>*.
+Vereiste queryparameters: `startDate` = *&lt;`epochtime`* en `endDate` = *&lt;`epochtime`*.
 
 ### Antwoord
 
