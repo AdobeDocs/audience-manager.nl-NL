@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Real-Time Data Transfer Process Described{#real-time-data-transfer-process-described}
+# Real-Time Data Transfer Process Descripted{#real-time-data-transfer-process-described}
 
 Een algemeen overzicht van hoe de Audience Manager gegevensoverdrachten in real time met een derdeinhoudsleverancier uitvoert.
 
@@ -30,8 +30,8 @@ In real time gegevensoverdrachten verzenden en ontvangen segment IDs als gebruik
 Het proces van de gegevensintegratie in real time werkt als volgt:
 
 1. Een gebruiker bezoekt de plaats van een klant die Audience Manager code bevat.
-1. Audience Manager laadt een iframe en roept onze [!UICONTROL Data Collection Server] ( [!DNL DCS]) aan.
-1. De [!DNL DCS] vraag de derdenserver (in echt - tijd) om te controleren of heeft de verkoper om het even welke segmentinformatie over de gebruiker.
+1. Audience Manager laadt een iframe en roept [!UICONTROL Data Collection Server] ( [!DNL DCS]) aan.
+1. [!DNL DCS] roept de server van de derde (in echt - tijd) om te controleren of heeft de verkoper om het even welke segmentinformatie over de gebruiker.
 1. De inhoudsleverancier keert segmentinformatie over die gebruiker aan Audience Manager terug.
 1. Audience Manager ontvangt deze segmentinformatie en stelt het beschikbaar voor het richten en het bouwen van nieuwe eigenschappen en segmenten.
 
