@@ -1,6 +1,6 @@
 ---
-description: Methoden waarmee u programmatically met de Bibliotheek van de Integratie van Gegevens (DIL) kunt werken.
-seo-description: Methoden waarmee u programmatically met de Bibliotheek van de Integratie van Gegevens (DIL) kunt werken.
+description: Methoden waarmee u programmatically met de Data Integration Library (DIL) kunt werken.
+seo-description: Methoden waarmee u programmatically met de Data Integration Library (DIL) kunt werken.
 seo-title: API-methoden voor Data Integration Library
 solution: Audience Manager
 title: API-methoden voor Data Integration Library
@@ -17,17 +17,17 @@ ht-degree: 10%
 
 # API-methoden voor Data Integration Library {#data-integration-library-api-methods}
 
-Methoden waarmee u programmatically met het [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Methoden waarmee u programmatically met [!UICONTROL Data Integration Library] ([!UICONTROL DIL] kunt werken.
 
 >[!IMPORTANT]
 >
->De API voor de gegevensintegratiebibliotheek is afgekeurd. Deze API gebruikt om DIL te genereren, die u nu zelf kunt downloaden: [DIL-download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>De Data Integration Library-API is afgekeurd. Deze API gebruikt om DIL te genereren, die u nu zelf kunt downloaden: [DIL download](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
 ## Retourversies voor DIL {#return-version-dil}
 
-A `GET` method that returns a list of versions ordered to newest.
+Een methode `GET` die een lijst van versies terugkeert die van oudste aan nieuwste worden bevolen.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -37,7 +37,7 @@ A `GET` method that returns a list of versions ordered to newest.
 
 ### Antwoord
 
-Een succesvol verzoek retourneert de antwoordcode `["4.0", "4.1"]` zoals hieronder wordt weergegeven.
+Een succesvol verzoek keert antwoordcode `["4.0", "4.1"]` zoals hieronder getoond terug.
 
 ```
 ["4.0", "4.1"]
@@ -45,7 +45,7 @@ Een succesvol verzoek retourneert de antwoordcode `["4.0", "4.1"]` zoals hierond
 
 ## JSON-schema retourneren voor versie {#return-json-schema-version}
 
-Een `GET` methode die het [!DNL JSON] schema voor de [!UICONTROL DIL] versie terugkeert. Ondersteunt het gebruik van alias [!UICONTROL LATEST] voor versie om de nieuwste versie van [!UICONTROL DIL]te verkrijgen.
+Een `GET` methode die het [!DNL JSON] schema voor [!UICONTROL DIL] versie terugkeert. Ondersteunt het gebruik van alias [!UICONTROL LATEST] voor versie om de nieuwste versie van [!UICONTROL DIL] op te halen.
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -55,7 +55,7 @@ Een `GET` methode die het [!DNL JSON] schema voor de [!UICONTROL DIL] versie ter
 
 ### Antwoord
 
-Een succesvol verzoek retourneert antwoordcode `["4.0", "4.1"]` en gegevens zoals hieronder wordt weergegeven.
+Een succesvol verzoek keert antwoordcode `["4.0", "4.1"]` en gegevens terug zoals hieronder getoond.
 
 ```
 { 
@@ -379,9 +379,9 @@ Een succesvol verzoek retourneert antwoordcode `["4.0", "4.1"]` en gegevens zoal
 } 
 ```
 
-## DIL genereren {#generate-dil}
+## DIL {#generate-dil} genereren
 
-Een `GET` methode die [!UICONTROL DIL] gebaseerd op overgegaan in verzoeklichaam gebruikend de gespecificeerde versie van [!UICONTROL DIL]. Als de alias voor versie in URL `LATEST` wordt gebruikt, wordt de recentste versie van [!UICONTROL DIL] geproduceerd.
+Een `GET` methode die [!UICONTROL DIL] produceert die in aanvraaglichaam wordt overgegaan gebruikend de gespecificeerde versie van [!UICONTROL DIL]. Als de alias `LATEST` voor versie in URL wordt gebruikt, wordt de recentste versie van [!UICONTROL DIL] geproduceerd.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -465,4 +465,4 @@ Een `GET` methode die [!UICONTROL DIL] gebaseerd op overgegaan in verzoeklichaam
 
 ### Antwoord
 
-Een geslaagde update retourneert de antwoordcode `201 created` samen met de [!UICONTROL DIL][!DNL JavaScript] code.
+Een geslaagde update retourneert de antwoordcode `201 created` samen met de [!UICONTROL DIL] [!DNL JavaScript]-code.
