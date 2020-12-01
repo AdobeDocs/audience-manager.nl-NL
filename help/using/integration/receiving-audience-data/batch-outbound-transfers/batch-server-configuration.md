@@ -20,11 +20,11 @@ Voordat u batchgegevens naar leveranciers van inhoud van derden kunt verzenden, 
 
 ## Hulp-configuratie aanvragen via uw Adobe-consultant {#config-consultant}
 
-Als u met een Adobe-consultant werkt, is het de bedoeling dat deze het configuratieproces voor u volgt.
+Als u met een consultant van de Adobe werkt, zullen zij het configuratieproces voor u behandelen.
 
-## Hulp-configuratie aanvragen via de klantenondersteuning van Adobe {#config-support}
+## Hulp-configuratie aanvragen via Adobe Klantenondersteuning {#config-support}
 
-Als u niet met een Adobe-consultant werkt, kunt u nog steeds de integratie van batchoverdrachten configureren door de Klantenondersteuning. Neem contact op met Customer Support voor meer informatie.
+Als u niet met een consultant voor Adobe werkt, kunt u nog steeds de integratie van batchoverbrengingen configureren door de Klantenondersteuning. Neem contact op met Customer Support voor meer informatie.
 
 >[!IMPORTANT]
 >
