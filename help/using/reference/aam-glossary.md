@@ -27,7 +27,7 @@ Gebruik [!UICONTROL Algorithmic Modeling] als middel om verder te reiken dan de 
 
 Zie [Inzicht in Algorithmic Models](../features/algorithmic-models/algo-models-overview.md).
 
-<br> 
+<br>
 
 **BAAAM**
 
