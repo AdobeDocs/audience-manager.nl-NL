@@ -21,37 +21,37 @@ U kunt gekwalificeerde segmenten naar [!DNL Google Ad Manager] (voorheen DFP) ve
 
 ## Integratie op de client {#client-side-integration}
 
-Voor een cliënt-zijintegratie, moet u opstelling een [!DNL GPT] bestemming in Audience Manager. Houd rekening met de volgende punten wanneer u een Audience Manager wilt instellen [!DNL GPT] als doel:
+Voor integratie op de client moet u een [!DNL GPT]-doel instellen in Audience Manager. Houd rekening met de volgende punten wanneer u [!DNL GPT] wilt instellen als bestemming Audience Manager:
 
-* **Toevoegen[!UICONTROL DIL]:** Implementeer [!UICONTROL Data Integration Library (DIL)] code op alle pagina&#39;s waarop u wilt verwijzen. [!UICONTROL DIL] schrijft het segmentgegevens van de Audience Manager en gebruikers IDs aan koekjes die door [!DNL GPT] voor het richten worden gebruikt.
+* **Toevoegen  [!UICONTROL DIL]:**  [!UICONTROL Data Integration Library (DIL)] Code implementeren op alle pagina&#39;s die u als doel wilt instellen. [!UICONTROL DIL] schrijft het segmentgegevens van de Audience Manager en gebruikers IDs aan koekjes die door  [!DNL GPT] voor het richten worden gebruikt.
 
-* **Maak een[!UICONTROL Cookie Destination]:** [!DNL GPT] moet worden ingesteld als een op cookies gebaseerde bestemming in de Audience Manager.
+* **Maak een  [!UICONTROL Cookie Destination]:** [!DNL GPT] moet zijn ingesteld als een op cookies gebaseerd doel in de Audience Manager.
 
-* **Cookie-controlecode implementeren:** Plaats de [!DNL GPT] API-methode in de aanbevolen `.setTargeting` code [](../../integration/gpt-aam-destination/gpt-aam-modify-api.md)voor cookies. Deze code voorkomt fouten door naar geldige AAM-cookies te zoeken voordat de `.setTargeting` methode wordt aangeroepen.
+* **Cookie-controlecode implementeren:** Plaats de  [!DNL GPT] `.setTargeting` API-methode in de aanbevolen  [code](../../integration/gpt-aam-destination/gpt-aam-modify-api.md) voor cookies. Deze code helpt fouten te voorkomen door geldige AAM cookies te zoeken voordat de methode `.setTargeting` wordt aangeroepen.
 
-* **Voeg de`AamGpt`functie toe:** De `AamGpt` code vangt gegevens van de koekjes van de Audience Manager en verzendt het naar [!DNL GPT]. Plaats de [Audience Manager Code for Google Publisher Tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) boven aan de pagina of in het `<head>` codeblok.
+* **Voeg de  `AamGpt` Functie toe:** de  `AamGpt` code vangt gegevens van de koekjes van de Audience Manager en verzendt het naar  [!DNL GPT]. Plaats de [Code voor Audience Manager voor Google Publisher-tags](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) boven aan de pagina of in het `<head>`-codeblok.
 
    >[!NOTE]
    >
-   >De `AamGpt` functie is niet vereist als u uw eigen code gebruikt om de gegevens van de Audience Manager koekje te lezen.
+   >De functie `AamGpt` is niet vereist als u uw eigen code gebruikt om de gegevens van het de koekje van de Audience Manager te lezen.
 
-* **Leveringslogboeken naar Audience Manager verzenden:** Als u (facultatief) een rapport van de segmentlevering wilt, verstrek Audience Manager van een dagelijks logboek dat indruk-vlakke leveringsgegevens bevat. De gegevens kunnen in een RAW-indeling zijn, maar elke record moet de Audience Manager bevatten `UUID`. Audience Managers kunnen deze ophalen of ontvangen via [!DNL FTP].
+* **Verzend de Logboeken van de Levering aan Audience Manager:** Als u een (facultatief) segmentleveringsrapport wilt, verstrek Audience Manager van een dagelijks logboek dat indruk-vlakke leveringsgegevens bevat. De gegevens kunnen een RAW-indeling hebben, maar elke record moet de Audience Manager `UUID` bevatten. Audience Managers kunnen deze ophalen of ontvangen via [!DNL FTP].
 
 ### Alleen gekwalificeerde segmenten worden naar GPT verzonden
 
-De hoeveelheid gegevens die wordt doorgegeven aan, is [!DNL GPT] afhankelijk van het aantal segmenten waarvoor een bepaalde gebruiker in aanmerking komt. Stel bijvoorbeeld dat u 100 Audience Manager-segmenten instelt. Als een bezoeker van de site voor vijf van hen in aanmerking komt, worden alleen die vijf segmenten verzonden naar [!DNL GPT] (niet alle 100).
+De hoeveelheid gegevens die wordt doorgegeven aan [!DNL GPT], is afhankelijk van het aantal segmenten waarvoor een bepaalde gebruiker in aanmerking komt. Stel bijvoorbeeld dat u 100 Audience Manager-segmenten instelt. Als een bezoeker van de site voor vijf van hen in aanmerking komt, worden alleen die vijf segmenten verzonden naar [!DNL GPT] (niet alle 100).
 
 >[!NOTE]
 >
->Er zijn geen limieten aan het aantal toetswaarden dat u kunt verzenden, maar de [!DNL Google] aanvraag [!DNL URL] bevat wel limieten aan het aantal tekens dat u kunt accepteren. Zie [Doelstellingen en grootten instellen met GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&amp;answer=1697712).
+>Er zijn geen grenzen aan het aantal zeer belangrijke-waarden u kunt verzenden, maar [!DNL Google] verzoek [!DNL URL] heeft grenzen aan het aantal karakters het kan goedkeuren. Zie [Doelstellingen en grootten instellen met GPT](https://support.google.com/dfp_premium/bin/answer.py?hl=en&amp;answer=1697712).
 
 ## Integratie op de server {#server-side-integration}
 
-Neem contact op met de consultant van de Audience Manager of de klantenservice als u een integratie op de server wilt instellen met [!DNL Google Ad Manager]behulp van [!DNL GPT]de service. U zult uw identiteitskaart van het [!DNL Google Ad Manager] RekeningNetwerk en identiteitskaart van de Verbinding van het Publiek moeten verstrekken.
+Neem contact op met uw consultant voor Audience Managers of de klantenservice als u een integratie op de server wilt instellen met [!DNL Google Ad Manager], met behulp van [!DNL GPT]. U zult uw [!DNL Google Ad Manager] identiteitskaart van het accountnetwerk en identiteitskaart van de Verbinding van het Publiek moeten verstrekken.
 
 >[!IMPORTANT]
 >
->Als op uw webpagina&#39;s de bibliotheek [Accelerated Media Pages](https://www.ampproject.org/) ([!DNL AMP]) wordt uitgevoerd, moet u de integratie op de server met Audience Manager gebruiken. Als u aan [!DNL AMP] [!DNL AMP]en een cliënt-zijintegratie met hebt, moet u aan de server-zijintegratie migreren. Neem contact op met uw Audience Manager consultant of klantenservice om de migratie te bespreken.
+>Als op uw webpagina&#39;s de bibliotheek [Versnelde mediapagina&#39;s](https://www.ampproject.org/) ([!DNL AMP]) wordt uitgevoerd, moet u de integratie op de server met Audience Manager gebruiken. Als u op [!DNL AMP] staat en een client-side integratie met [!DNL AMP] hebt, moet u migreren naar de integratie op de server. Neem contact op met uw Audience Manager consultant of klantenservice om de migratie te bespreken.
 
 >[!MORELIKETHIS]
 >
