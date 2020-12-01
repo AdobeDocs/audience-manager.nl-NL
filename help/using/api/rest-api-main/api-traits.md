@@ -21,7 +21,7 @@ Methoden waarmee u programmatisch met kenmerken kunt werken.
 
 >[!IMPORTANT]
 >
->De [!DNL API] [!DNL Swagger] methoden trait zijn herschreven en gemigreerd. Zie:
+>De methode [!DNL API] is opnieuw beschreven met [!DNL Swagger] en gemigreerd. Zie:
 >
 >* [Adobe Audience Manager API-documenten](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migratie van Audience Manager-API-code](../../api/api-swagger-migration.md)
