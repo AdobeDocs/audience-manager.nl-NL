@@ -23,13 +23,13 @@ Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebrui
 
 >[!NOTE]
 >
->Bij methoden van het type Trait worden geen kenmerken toegewezen aan categorieën die door de [gemeenschappelijke taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods)worden gebruikt. Beschouw deze als labels die los staan van de algemene taxonomie.
+>Methoden van het type Trait wijzen geen kenmerken toe aan categorieën die worden gebruikt door de [gemeenschappelijke taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Beschouw deze als labels die los staan van de algemene taxonomie.
 
-Voor visuele verwijzing, is [!UICONTROL Trait Types] een dropdown controle die in [!DNL UI] onder wordt gevestigd **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Voor visuele referentie is [!UICONTROL Trait Types] een dropdown-besturingselement in [!DNL UI] onder **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Een nieuw type overtrek maken {#create-trait-type}
 
-Een `POST` methode waarmee u een nieuw type eigenschap kunt maken.
+Een methode `POST` waarmee u een nieuw type eigenschap kunt maken.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -62,7 +62,7 @@ Een `POST` methode waarmee u een nieuw type eigenschap kunt maken.
 
 ## Eigenschappen retourneren voor een type overtrek {#return-props}
 
-Een `GET` methode die details over het gespecificeerde type van eigenschap terugkeert.
+Een methode `GET` die details over het gespecificeerde handelstype terugkeert.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -87,7 +87,7 @@ Een `GET` methode die details over het gespecificeerde type van eigenschap terug
 
 ## Eigenschappen retourneren voor alle travetypen {#return-props-all}
 
-Een `GET` methode die details over al uw eigenschappen in een serie terugkeert.
+Een methode `GET` die details over al uw handelstypes in een serie terugkeert.
 
 <!-- r_rest_api_get_trait_types.xml -->
 
