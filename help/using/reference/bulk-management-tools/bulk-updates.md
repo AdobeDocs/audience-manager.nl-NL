@@ -28,25 +28,25 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen die ](../../features/administration/administration-overview.md) zijn toegewezen in de  [!DNL Audience Manager] gebruikersinterface, worden gerespecteerd in de  [!UICONTROL Bulk Management Tools].
 
-Als u bulkupdates wilt maken, opent u het [!UICONTROL Bulk Management Tools] werkblad en:
+Als u bulkupdates wilt maken, opent u het [!UICONTROL Bulk Management Tools]-werkblad en:
 
-1. Klik op het **[!UICONTROL Headers]** tabblad en kopieer de updatekoppen voor het item dat u wilt bewerken.
-2. Klik op het **[!UICONTROL Update]** tabblad.
+1. Klik op het tabblad **[!UICONTROL Headers]** en kopieer de updatekoppen voor het item dat u wilt bewerken.
+2. Klik op het tabblad **[!UICONTROL Update]**.
 3. Plak de updatekoppen in de eerste rij van het updatewerkblad. Let op het volgende:
 
    * Bij het bijwerken van een map zijn alle kopteksten vereist.
    * Wanneer het bijwerken van segmenten of trekken, hebt u slechts segmentidentiteitskaart (SID) en kopbalelement nodig dat moet worden veranderd. Ongebruikte koppen verwijderen.
 
 4. Plak of typ de gegevens die u wilt wijzigen in een corresponderende kolom op basis van het koptekstlabel.
-5. Klik in de werkbladwerkbalk op een updateknop die overeenkomt met het item dat u bijwerkt.
-Met deze handeling wordt het [!UICONTROL Account Information] dialoogvenster geopend.
+5. Klik in de werkbladwerkbalk op een updateknop die overeenkomt met de knop        object dat je bijwerkt.
+Met deze handeling wordt het dialoogvenster [!UICONTROL Account Information] geopend.
 
-6. Geef de vereiste [aanmeldingsgegevens](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) op en klik op **[!UICONTROL Submit]**.
+6. Geef de vereiste [aanmeldingsgegevens op](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik op **[!UICONTROL Submit]**.
 
-   In het werkblad wordt een [!UICONTROL Results] kolom gemaakt. De [!UICONTROL Results] kolom retourneert de JSON-reactie voor een geslaagde bewerking. Zie de API&#39;s [REST](../../api/rest-api-main/rest-api-main.md) voor voorbeelden. Voordat u gegevens invoert, moet uw bulkupdatewerkblad er ongeveer als volgt uitzien:
+   Het aantekenvel leidt tot een [!UICONTROL Results] kolom. De [!UICONTROL Results] kolom keert de reactie JSON voor een succesvolle verrichting terug. Zie [REST APIs](../../api/rest-api-main/rest-api-main.md) voor voorbeelden. Voordat u gegevens invoert, moet uw bulkupdatewerkblad er ongeveer als volgt uitzien:
 
 ![](assets/update.png)
 
-Als uw bulkupdate een fout terugkeert of ontbreekt, zie het Oplossen van [problemen voor de Hulpmiddelen](../../reference/bulk-management-tools/bulk-troubleshooting.md)van het Beheer van het Bulk.
+Als uw bulkupdate een fout terugkeert of ontbreekt, zie [Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk](../../reference/bulk-management-tools/bulk-troubleshooting.md).
