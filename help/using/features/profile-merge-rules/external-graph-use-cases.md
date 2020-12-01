@@ -1,6 +1,6 @@
 ---
-description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties die Adobe heeft met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
-seo-description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties die Adobe heeft met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
+description: Recommendations en gebruik gevallen voor prospectie, herbestemming en personalisatie voor onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties-Adobe met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
+seo-description: Recommendations en gebruik gevallen voor prospectie, herbestemming en personalisatie voor onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de Adobe Experience Cloud Device Co-op en andere integraties-Adobe met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
 seo-title: Gebruiksscenario’s voor grafiek van externe apparaten
 solution: Audience Manager
 title: Gebruiksscenario’s voor grafiek van externe apparaten
@@ -17,14 +17,14 @@ ht-degree: 5%
 
 # Gebruiksscenario’s voor grafiek van externe apparaten {#external-device-graph-use-cases}
 
-Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit omvat de [!DNL Adobe Experience Cloud Device Co-op] en andere integratie die Adobe heeft met externe deterministische of probabilistische bedrijven voor apparaatgrafieken.
+Recommendations en gebruik gevallen voor prospectie, herbestemming en personalisatie voor onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit omvat [!DNL Adobe Experience Cloud Device Co-op] en andere integraties Adobe met derdedeterministische of probabilistische apparatengrafiekondernemingen.
 
-## Aanbevelingen {#recommendations}
+## Recommendations {#recommendations}
 
-Houd rekening met de grafiekopties voor apparaten [!DNL Experience Cloud Device Co-op] en apparaten van derden voor campagnes die:
+Overweeg de grafiekopties [!DNL Experience Cloud Device Co-op] en van externe apparaten voor campagnes die:
 
-* Een laag verificatieniveau hebben voor alle digitale eigenschappen. Gebruik de optie [!UICONTROL Profile Link Device Graph option] als u een groot aantal geverifieerde gebruikers hebt.
-* Target, groot publiek. Apparaatgrafieken [!DNL Experience Cloud Device Co-op] en apparaatgrafieken van derden bevatten geverifieerde en niet-geverifieerde gegevens.
+* Een laag verificatieniveau hebben voor alle digitale eigenschappen. Gebruik [!UICONTROL Profile Link Device Graph option] als u een groot aantal voor authentiek verklaarde gebruikers hebt.
+* Doelgroep: groot publiek. De [!DNL Experience Cloud Device Co-op]- en apparaatgrafieken van derden bevatten geverifieerde en niet-geverifieerde gegevens.
 * Segment geauthenticeerde en/of ongeautoriseerde bezoekers op individueel en huishoudelijk niveau.
 
 ![](assets/merge-rule-triangle1.png)
@@ -97,31 +97,31 @@ These strategies are designed to bring an unauthenticated or unknown user back t
  </tbody>
 </table> -->
 
-## Uitgebreide doelapparaten {#audience-expansion}
+## Uitgebreid apparaat gericht op {#audience-expansion}
 
-Dit gebruiksgeval illustreert hoe u de grootte van uw adresseerbare publiek met nauwkeurige dwars-apparatenverpersoonlijking kunt uitbreiden, door [!DNL Adobe Co-Op Device Graph] of andere [!DNL External Device Graphs].
+Dit gebruiksgeval illustreert hoe u de grootte van uw adresseerbare publiek met nauwkeurige dwars-apparatenverpersoonlijking, door [!DNL Adobe Co-Op Device Graph] of andere [!DNL External Device Graphs] kunt uitbreiden.
 
-Laten we zeggen dat Jane drie apparaten bezit die ze regelmatig gebruikt om te zoeken naar vakantiepakketten: haar laptop ([!DNL Device 1]), haar smartphone ([!DNL Device 2]) en haar tablet ([!DNL Device 3]). Jane heeft tijdens het gebruik van de laptop gezocht naar vluchten, hotels en geleide tours. Terwijl ze de smartphone en tablet gebruikt, bezocht ze alleen de homepage van het reisbureau.
+Laten we zeggen dat Jane drie apparaten bezit die ze regelmatig gebruikt om te zoeken naar vakantiepakketten: haar laptop ([!DNL Device 1]), haar smartphone ([!DNL Device 2]), en haar tablet ([!DNL Device 3]). Jane heeft tijdens het gebruik van de laptop gezocht naar vluchten, hotels en geleide tours. Terwijl ze de smartphone en tablet gebruikt, bezocht ze alleen de homepage van het reisbureau.
 
-Met de [!UICONTROL No Cross-Device Profile] +- [!UICONTROL Adobe Co-op Device Graph] regel kan het reisbureau alle drie apparaatprofielen samenvoegen, aangezien deze via de [!UICONTROL Adobe Co-op Device Graph]regel aan dezelfde eigenaar zijn gekoppeld.
+Door de [!UICONTROL No Cross-Device Profile] + [!UICONTROL Adobe Co-op Device Graph] regel te gebruiken, kan het reisbureau alle drie apparatenprofielen samenvoegen, aangezien zij met de zelfde eigenaar door [!UICONTROL Adobe Co-op Device Graph] worden verbonden.
 
 ![publiek-uitbreiding-regel](assets/audience-expansion-rule.png)
 
-In ons voorbeeld zijn alle kenmerken verzameld die nodig zijn om voor het segment in aanmerking te komen [!DNL Device 1]. Aangezien Audience Manager elk apparaatprofiel kwalificeert dat deelnam aan de profielsamenvoeging voor een segment, worden alle drie apparaatprofielen van Jane nu gesegmenteerd.
+In ons voorbeeld zijn alle kenmerken die vereist zijn om voor het segment in aanmerking te komen, verzameld op [!DNL Device 1]. Aangezien Audience Manager elk apparaatprofiel kwalificeert dat deelnam aan de profielsamenvoeging voor een segment, worden alle drie apparaatprofielen van Jane nu gesegmenteerd.
 
 Door deze regel, heeft de apparatengrafiek het aantal apparatenprofielen uitgebreid die voor het segment van één tot drie kwalificeren en het reisagentschap toegelaten om een verenigbaar bericht aan alle drie apparaten te leveren die door Jane worden bezeten.
 
 ![publiek-uitbreiding](assets/audience-expansion.png)
 
-## Geavanceerde interDevice-doelen {#advanced-graph-expansion}
+## Geavanceerde interapparaatgerichte {#advanced-graph-expansion}
 
-Dit gebruiksgeval toont hoe u publiek het richten voor voor authentiek verklaarde bezoekers met apparaten van een externe apparatengrafiek of van [!DNL Adobe Co-Op Device Graph], kunt uitbreiden door **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** regel te gebruiken.
+Dit gebruiksgeval toont hoe u publiek het richten voor voor authentiek verklaarde bezoekers met apparaten van een externe apparatengrafiek of van [!DNL Adobe Co-Op Device Graph] kunt uitbreiden, door **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** te gebruiken regel.
 
 ![last-device-graph](assets/last-device-coop.png)
 
-In het onderstaande voorbeeld wil het bedrijf Acme Inc. zich richten op alle huishoudens met inkomen van meer dan $100.000/jaar, die [!DNL Acme Inc.] abonnees op hebben [!DNL Data Plan A], die een [!DNL iPhone 7] apparaat gebruiken.
+In het onderstaande voorbeeld wil het bedrijf Acme Inc. zich richten op alle huishoudens met inkomens van meer dan $100.000/jaar, die [!DNL Acme Inc.] abonnees op [!DNL Data Plan A] hebben, die een [!DNL iPhone 7] apparaat gebruiken.
 
-John gebruikt zijn iPhone 7 op Plan A van Gegevens om op de website van Acme Inc. voor authentiek te verklaren. Tegelijkertijd bevat de [!DNL Co-Op Device Graph] cluster van John twee extra apparaten die hij regelmatig gebruikt: zijn laptop ([!DNL Device 1]) en zijn secundaire smartphone, [!DNL Device 2] (a [!DNL Samsung S7] on [!DNL Data Plan B]).
+John gebruikt zijn iPhone 7 op Plan A van Gegevens om op de website van Acme Inc. voor authentiek te verklaren. Tegelijkertijd bevat de [!DNL Co-Op Device Graph] cluster van John twee extra apparaten die hij regelmatig gebruikt: zijn laptop ([!DNL Device 1]), en zijn secundaire smartphone, [!DNL Device 2] (a [!DNL Samsung S7] op [!DNL Data Plan B]).
 
 Door **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Adobe Co-Op Device Graph]** te gebruiken, [!DNL Acme Inc.] kan gepersonaliseerde berichten aan alle drie apparaten van de cluster van de apparatengrafiek van John leveren, alhoewel slechts één van hen aanvankelijk voor het segment kwalificeert.
 
