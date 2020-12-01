@@ -1,6 +1,6 @@
 ---
-description: Voordat Audience Manager Audience Optimization voor Publishers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden in dit artikel wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
-seo-description: Voordat Audience Manager Audience Optimization voor Publishers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden in dit artikel wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
+description: Voordat Audience Manager Audience Optimization voor uitgevers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden die in dit artikel worden beschreven, wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
+seo-description: Voordat Audience Manager Audience Optimization voor uitgevers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden die in dit artikel worden beschreven, wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
 seo-title: Google Ad Manager-gegevensbestanden importeren in Audience Manager
 solution: Audience Manager
 title: Google Ad Manager-gegevensbestanden importeren in Audience Manager
@@ -17,26 +17,26 @@ ht-degree: 0%
 
 # Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager{#import-dfp-data-files-into-audience-manager}
 
-Voordat Audience Manager Audience Optimization voor Publishers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden in dit artikel wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
+Voordat Audience Manager Audience Optimization voor uitgevers kan inschakelen, moet u ervoor zorgen dat aan alle voorwaarden die in dit artikel worden beschreven, wordt voldaan. Neem contact op met de klantenservice nadat u alle voorwaarden hebt gecontroleerd.
 
-## Vereisten voor Google Ad Manager Logbestandsinname {#prereqs-dfp-ingestion}
+## Vereisten voor Google Ad Manager Log Ingestie {#prereqs-dfp-ingestion}
 
-Merk op dat het proces in deze sectie wordt beschreven moet worden voltooid *alvorens* u zich op de eerste vereisten voor login enablement beweegt.
+Merk op dat het proces dat in deze sectie wordt beschreven *vóór* moet worden voltooid u zich op de eerste vereisten voor logboekopname toelaat.
 
-Als u [!DNL Google Ad Manager] (voorheen Google DFP)-logbestanden wilt gebruiken [!DNL Audience Manager], moet u eerst onze [Audience Manager Unique User ID (UUID)](../../../reference/ids-in-aam.md) instellen in het aanroepen van de tag ad. Op deze manier wordt onze id opgenomen in de [!DNL Google Ad Manager] logbestanden en kunnen we id&#39;s tussen [!DNL Google Ad Manager] en [!DNL Audience Manager]koppelen. Gebruik [!DNL Audience Manager] de [!UICONTROL DIL] code of [!UICONTROL Audience Management Module] om de [!DNL Audience Manager] UUID in te stellen in een cookie van de eerste partij.
+Als u [!DNL Google Ad Manager] (voorheen Google DFP)-logbestanden wilt gebruiken in [!DNL Audience Manager], moet u eerst onze [Audience Manager Unique User ID (UUID)](../../../reference/ids-in-aam.md) instellen in het aanroepen van de tag ad. Door dit te doen, is onze identiteitskaart inbegrepen in [!DNL Google Ad Manager] logboeken en wij kunnen IDs tussen [!DNL Google Ad Manager] en [!DNL Audience Manager] aanpassen. Gebruik [!DNL Audience Manager] [!UICONTROL DIL] code of [!UICONTROL Audience Management Module] om [!DNL Audience Manager] UUID in een eerste partijkoekje te plaatsen.
 
-Hieronder wordt beschreven hoe u de [!DNL Audience Manager] id instelt in de aanroep van de tag ad, zoals wordt uitgelegd in de documentatie:
+Hieronder wordt beschreven hoe u de [!DNL Audience Manager]-id instelt in de aanroep van de ad-tag, zoals wordt uitgelegd in de documentatie:
 
 * [Via Google Publisher-tag (GPT)](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Via een Cookie-bestemming](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
-U moet de [!DNL Audience Manager] id zelf instellen en u kunt met [!DNL Audience Manager] advies werken om te controleren of alles werkt. U hebt de juiste [!DNL Audience Manager] id ingesteld als:
+U moet de [!DNL Audience Manager] identiteitskaart plaatsen zelf, en kunt met [!DNL Audience Manager] het raadplegen werken om te controleren of alles werkt. U hebt de [!DNL Audience Manager]-id correct ingesteld als:
 
 * `'aamid'` is de sleutel die als herkenningsteken wordt gebruikt.
-* De waarde van de gebruikersnaam is correct opgemaakt als de [!DNL Audience Manager] UUID, zoals wordt beschreven in onze [index van id&#39;s in Audience Manager](../../../reference/ids-in-aam.md).
-* U hebt de [!DNL Audience Manager] UUID opgenomen in een gedefinieerd veld in uw [!DNL Google Ad Manager] logbestanden (bijvoorbeeld CustomTargeting).
+* De waarde van de gebruiker-id is correct geformatteerd als [!DNL Audience Manager] UUID, zoals die in onze [Index van IDs in Audience Manager](../../../reference/ids-in-aam.md) wordt beschreven.
+* U hebt [!DNL Audience Manager] UUID in een bepaald gebied in uw [!DNL Google Ad Manager] logboeken (b.v. CustomTargeting) opgenomen.
 
-## Vereisten voor Ingestiemachtiging voor logbestanden {#prereqs-ingestion-enablement}
+## Vereisten voor inname van logbestanden {#prereqs-ingestion-enablement}
 
 <table id="table_C980A9F9B0FB4157B4908A64768B1571"> 
  <thead> 
@@ -49,8 +49,8 @@ U moet de [!DNL Audience Manager] id zelf instellen en u kunt met [!DNL Audience
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Stap 1 </p> </td> 
-   <td colname="col2"> <p>Bevestig dat de vereiste stappen voor het instellen van de UUID van de <span class="keyword"> Audience Manager</span> (hierboven beschreven) zijn voltooid voordat u naar Stap 2 gaat </p> </td> 
-   <td colname="col3"> <p><span class="keyword"> Audience Manager</span> Klantenservice of advies </p> </td> 
+   <td colname="col2"> <p>Bevestig dat de vereiste stappen om de <span class="keyword"> Audience Manager </span> UUID (hierboven geschetst) te plaatsen zijn voltooid alvorens aan Stap 2 over te gaan </p> </td> 
+   <td colname="col3"> <p><span class="keyword"> Audience </span> ManagerKlantenservice of advies </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stap 2 </p> </td> 
@@ -83,7 +83,7 @@ U moet de [!DNL Audience Manager] id zelf instellen en u kunt met [!DNL Audience
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stap 6 </p> </td> 
-   <td colname="col2"> <p>Compileer de voorwaarden in een e-mail naar de klantenservice van AAM (aamsupport@adobe.com) om het inlogproces af te breken. Ontwerp de e-mail gebruikend het malplaatje in de volgende sectie. </p> </td> 
+   <td colname="col2"> <p>Compileer de voorwaarden in een e-mail naar AAM klantenservice (aamsupport@adobe.com) om het inlogproces af te breken. Ontwerp de e-mail gebruikend het malplaatje in de volgende sectie. </p> </td> 
    <td colname="col3"> <p>U, of <span class="keyword"> Audience Manager</span> die namens u raadpleegt </p> </td> 
   </tr> 
  </tbody> 
