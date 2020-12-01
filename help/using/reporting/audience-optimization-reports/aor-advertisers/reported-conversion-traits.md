@@ -27,6 +27,6 @@ Bekijk de onderstaande video voor meer informatie over het maken van conversiete
 
 ## Voorbeeldrapport
 
-Uw [!UICONTROL Reported Conversion Traits] rapport kan er ongeveer als volgt uitzien:
+Uw [!UICONTROL Reported Conversion Traits]-rapport kan er ongeveer als volgt uitzien:
 
 ![](assets/reported-conversion-traits.png)
