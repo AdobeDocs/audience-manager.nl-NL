@@ -18,18 +18,18 @@ ht-degree: 2%
 
 # [!UICONTROL Audience Lab] {#audience-lab}
 
-Maak wederzijds uitsluitende testsegmenten in [!UICONTROL Segment Test Groups] om de doeltreffendheid van verschillende bestemmingen te vergelijken en te meten. U kunt een controlegroep opzij zetten en uw segment in percentages van een geheel verdelen, om doeltreffendheid te testen.
+Maak wederzijds exclusieve testsegmenten in [!UICONTROL Segment Test Groups] om de effectiviteit van verschillende doelen te vergelijken en te meten. U kunt een controlegroep opzij zetten en uw segment in percentages van een geheel verdelen, om doeltreffendheid te testen.
 
 ## Overzicht {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] Gebruikt de Verbinding [van het](../../features/profile-merge-rules/merge-rules-overview.md) Profiel aan macht dwars-apparaat het testen. Dit helpt ervoor zorgen een gebruiker voor het zelfde testsegment kwalificeert en de zelfde behandeling over apparaten ontvangt. De testsegmenten in testgroepen zullen de Regel [van de Fusie van het](../../features/profile-merge-rules/merge-rules-dashboard.md) Profiel erven het basissegment aan het heeft toegewezen.
+[!UICONTROL Audience Lab] gebruikt  [Profiel ](../../features/profile-merge-rules/merge-rules-overview.md) koppelen om het testen van apparaten met meerdere apparaten uit te voeren. Dit helpt ervoor zorgen een gebruiker voor het zelfde testsegment kwalificeert en de zelfde behandeling over apparaten ontvangt. De testsegmenten in testgroepen zullen [de Regel van de Fusie van het Profiel](../../features/profile-merge-rules/merge-rules-dashboard.md) erven het basissegment aan het heeft toegewezen.
 
-In de [!UICONTROL Audience Lab] standaardweergave wordt een kaart weergegeven voor elk van de testgroepen. Klik op een kaart om de **[!UICONTROL Test Group]** weergave te openen. Deze weergave bevat de volgende informatie:
+In de standaardweergave [!UICONTROL Audience Lab] wordt een kaart weergegeven voor elk van de testgroepen. Klik op een kaart om de weergave **[!UICONTROL Test Group]** te openen. Deze weergave bevat de volgende informatie:
 
 * **[Testgroepgegevens](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Testgroeprapportage](../../features/audience-lab/audience-lab-reporting-view.md)**
 
-U kunt **maximaal 10 testgroepen** maken, elk met **maximaal 15 testsegmenten**.
+U kunt **tot 10 testgroepen**, elk met **tot 15 testsegmenten** tot stand brengen.
 
 ![](assets/test-groups-view.PNG)
 
@@ -58,24 +58,24 @@ De status van een testgroep kan actief, gepland, gepauzeerd, concept of voltooid
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Actief </span></b> </p> </td> 
-   <td colname="col2"> <p>Een <i>actieve</i> testgroep betekent dat de gegevens momenteel naar bestemmingen worden verzonden. De Test van de Pauze van de Pauze <b><span class="uicontrol"> in de kaart van de Groep van de </span></b> <b><span class="uicontrol"> </span></b> Test om het verzenden van gegevens naar bestemmingen op te schorten. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Actief  </span></b> </p> </td> 
+   <td colname="col2"> <p>Een <i>actieve</i> testgroep betekent dat de gegevens momenteel naar bestemmingen worden verzonden. Druk <b><span class="uicontrol"> Test </span></b> in <b><span class="uicontrol"> de kaart van de Groep </span></b> van de Test om het verzenden van gegevens naar bestemmingen op te schorten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Gepland </span></b> </p> </td> 
-   <td colname="col2"> <p>Een <i>geplande</i> testgroep is nog niet actief maar kan niet meer worden bewerkt. Deze wordt actief op de begindatum die u hebt geselecteerd in de wizard Testgroepen <b></b> maken. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Gepland  </span></b> </p> </td> 
+   <td colname="col2"> <p>Een <i>geplande</i> testgroep is nog niet actief maar kan niet meer worden bewerkt. Het wordt actief op de begindatum u in <b>creeert de Groepen van de Test </b> tovenaar selecteerde. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Gepauzeerd </span></b> </p> </td> 
-   <td colname="col2"> <p>Een <i>gepauzeerde</i> testgroep verzendt momenteel geen gegevens naar bestemmingen. De pers <b><span class="uicontrol"> maakt Actief </span></b> in de <b><span class="uicontrol"> </span></b> kaart van de Groep van de Test om het verzenden van eigenschappen te hervatten. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Gepauzeerd  </span></b> </p> </td> 
+   <td colname="col2"> <p>Een <i>gepauzeerde</i> testgroep verzendt momenteel geen gegevens naar bestemmingen. Druk <b><span class="uicontrol"> Actief maken </span></b> in <b><span class="uicontrol"> de kaart van de Groep </span></b> van de Test om het verzenden van eigenschappen te hervatten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Concept </span></b> </p> </td> 
-   <td colname="col2"> <p>Een <i>concepttestgroep</i> is nog niet actief en kan nog steeds worden bewerkt. Het verzendt nog geen gegevens naar de in kaart gebrachte bestemmingen. </p> </td> 
+   <td colname="col1"> <p> <b><span class="uicontrol"> Concept  </span></b> </p> </td> 
+   <td colname="col2"> <p>Een <i>concept</i> testgroep is nog niet actief en kan nog steeds worden bewerkt. Het verzendt nog geen gegevens naar de in kaart gebrachte bestemmingen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Voltooid </span></b> </p> </td> 
-   <td colname="col2"> <p>Een <i>voltooide</i> testgroep heeft de einddatum bereikt u in de <b><span class="uicontrol"> </span></b> Create tovenaar van de Groepen van de Test selecteerde en het verzenden van het melden van gegevens ophoudt. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Voltooid  </span></b> </p> </td> 
+   <td colname="col2"> <p>Een <i>voltooide </i> testgroep heeft de einddatum bereikt u in <b><span class="uicontrol"> creeert de Tovenaar van de Groepen van de Test </span></b> selecteerde en het verzenden van rapportgegevens ophoudt. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -91,27 +91,27 @@ De status van een testgroep kan actief, gepland, gepauzeerd, concept of voltooid
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Bewerken </span></b> </p> </td>
-   <td colname="col2"> <p>Deze optie is <b>alleen</b> beschikbaar voor concepttestgroepen. Hiermee kunt u de <b><span class="uicontrol"> </span></b> wizard Nieuwe testgroep maken hervatten. </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Bewerken  </span></b> </p> </td>
+   <td colname="col2"> <p>Alleen beschikbaar <b>voor concepttestgroepen. </b> Hiermee kunt u de wizard <b><span class="uicontrol"> Nieuwe testgroep maken </span></b> hervatten. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Pauzeren </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Pauzeren  </span></b> </p> </td>
    <td colname="col2"> <p>Beschikbaar voor actieve testgroepen. Staat u toe om het verzenden van de testsegmenten aan bestemmingen te pauzeren. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Actief maken </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Actief maken  </span></b> </p> </td>
    <td colname="col2"> <p>Beschikbaar voor gepauzeerde testgroepen. Staat u toe om het verzenden van de testsegmenten naar bestemmingen te hervatten. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Weergave </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Weergave  </span></b> </p> </td>
    <td colname="col2"> <p>Beschikbaar voor voltooide testgroepen. Staat u toe om de rapporteringsinformatie te bekijken de test heeft geproduceerd. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Dupliceren </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Dupliceren  </span></b> </p> </td>
    <td colname="col2"> <p>Staat u toe om een nieuwe testgroep met de zelfde configuratie tot stand te brengen zoals u dupliceert. </p> </td>
   </tr>
   <tr> 
-   <td colname="col1"> <p> <b><span class="uicontrol"> Verwijderen </span></b> </p> </td>
+   <td colname="col1"> <p> <b><span class="uicontrol"> Verwijderen  </span></b> </p> </td>
    <td colname="col2"> <p>Hiermee kunt u een testgroep verwijderen. De testsegmenten worden ontkoppeld van de bestemmingen, het basislijnsegment en de conversietekenmerken die aan de testgroep zijn gekoppeld, zijn volledig bewerkbaar. In een waarschuwing wordt u gevraagd het CSV-bestand te downloaden wanneer u een testgroep verwijdert om de melding indien gewenst op te slaan. </p> </td>
   </tr>
  </tbody>
