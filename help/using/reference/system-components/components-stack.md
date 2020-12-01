@@ -25,7 +25,7 @@ c_compstack.xml
 
  -->
 
-In de volgende afbeelding ziet u de belangrijkste componenten en de onderliggende technologie (hardware en software) die energie verbruiken [!DNL Audience Manager]. Hoewel sommige processen specifieke functies uitvoeren en anderen multifunctionele rollen hebben, werken alle systemen samen om u te helpen markeringen beheren, gegevens verzamelen, prestaties analyseren, informatie synchroniseren met andere systemen, en actie ondernemen op die informatie.
+In de volgende illustratie worden de belangrijkste componenten en de onderliggende technologie (hardware en software) getoond die [!DNL Audience Manager] aandrijft. Hoewel sommige processen specifieke functies uitvoeren en anderen multifunctionele rollen hebben, werken alle systemen samen om u te helpen markeringen beheren, gegevens verzamelen, prestaties analyseren, informatie synchroniseren met andere systemen, en actie ondernemen op die informatie.
 
 ![](assets/components.png)
 
