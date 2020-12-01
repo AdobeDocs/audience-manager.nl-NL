@@ -50,7 +50,7 @@ Ja. Zie [Bulkbeheertools](../reference/bulk-management-tools/bulk-management-int
 
 **Bij het exporteren van een bulk-id naar een doel ontbreken enkele klant-id&#39;s. Waarom gebeurt dat?**
 
-Wanneer een apparaat-id ([AAM UUID](../reference/ids-in-aam.md)) is gekoppeld aan meerdere CRM-id&#39;s ([DPUUIDs](../reference/ids-in-aam.md)), wordt alleen de meest recente toewijzing geëxporteerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
+Wanneer een apparaat-id ([AAM UUID](../reference/ids-in-aam.md)) is gekoppeld aan meerdere CRM-id&#39;s ([DPUUID&#39;s](../reference/ids-in-aam.md)), wordt alleen de meest recente toewijzing geëxporteerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
 
  
 
