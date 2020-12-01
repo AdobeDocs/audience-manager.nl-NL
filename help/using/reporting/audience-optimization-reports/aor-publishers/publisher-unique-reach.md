@@ -21,25 +21,25 @@ Het unieke rapport van het Bereik van de Gebruiker keert gegevens in een borrelg
 
 ## Gebruiksscenario {#use-cases}
 
-Met het [!UICONTROL Unique User Reach] rapport kunt u de eigenschappen in uw portfolio identificeren die een groot aantal unieke gebruikers aantrekken.
+Met het [!UICONTROL Unique User Reach] rapport, kunt u de eigenschappen in uw portefeuille identificeren die een hoog volume van unieke gebruikers aantrekken.
 
-## Het unieke bereikrapport gebruiken {#using-the-report}
+## Het unieke Rapport van het Bereik {#using-the-report} gebruiken
 
-Gebruik het **[!UICONTROL Dimension Value]** vakje om de advertentie-eenheden te selecteren u in het rapport wilt tonen. Klik **[!UICONTROL All]** om al uw eigenschappen in de bel grafiek te tonen.
+Gebruik het vakje **[!UICONTROL Dimension Value]** om de advertentie-eenheden te selecteren u in het rapport wilt tonen. Klik **[!UICONTROL All]** om al uw eigenschappen in de bel grafiek te tonen.
 
-Gebruik de controles van de Waaier **van de** Dag en van de **Datum door** om uw blik-achterwaaier aan te passen.
+Gebruik de besturingselementen **Dagbereik** en **Datum tot en met** om het bereik van de terugblik aan te passen.
 
-## De resultaten interpreteren {#interpreting-results}
+## Resultaten interpreteren {#interpreting-results}
 
 **Voorbeeldrapport**
 
-Uw [!UICONTROL Unique User Reach] rapport kan er ongeveer zo uitzien als hieronder. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven. Zie de beschrijvingen voor de aanvullende informatie in de onderstaande tabel.
+Uw [!UICONTROL Unique User Reach]-rapport kan er ongeveer als volgt uitzien. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven. Zie de beschrijvingen voor de aanvullende informatie in de onderstaande tabel.
 
 ![](assets/publisher_unique_user_reach.png)
 
 | Item | Beschrijving |
 |--- |--- |
-| Dimensiewaarde | De naam van uw webeigenschap. |
-| Type dimensie | Het type uitgeversdimensie. We ondersteunen momenteel alleen Advertentietype als type dimensie. |
+| Dimension-waarde | De naam van uw webeigenschap. |
+| Type Dimension | Het type uitgeversdimensie. We ondersteunen momenteel alleen Advertentietype als type dimensie. |
 | Impressies | Het aantal indrukkingen die voor uw Webbezit binnen de gespecificeerde terugblik-achterwaaier werden gediend. |
 | Uniek bereik | Het unieke aantal gebruikers dat is bereikt door de indrukkingen op uw wegeigenschappen. |
