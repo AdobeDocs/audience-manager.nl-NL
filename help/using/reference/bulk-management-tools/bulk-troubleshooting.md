@@ -29,7 +29,7 @@ Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontb
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen die ](../../features/administration/administration-overview.md) zijn toegewezen in de  [!DNL Audience Manager] gebruikersinterface, worden gerespecteerd in de  [!UICONTROL Bulk Management Tools].
 
 Factoren zoals zwaar netwerkverkeer, servergebruik, en grote gegevensreeksen kunnen een bulkverzoek veroorzaken om of uit tijd te ontbreken. Als er een probleem is, stopt het werkblad met het schrijven van gegevens en wordt er een foutbericht weergegeven. Wanneer dit gebeurt, moet u:
 
@@ -60,7 +60,7 @@ De volgende lijst maakt een lijst van sommige gemeenschappelijke problemen u wan
    <td colname="col1"> <b>Lange vertragingen</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Compatibiliteitsmodus</b>uitschakelen: Controleer of er andere werkbladen zijn geopend in de compatibiliteitsmodus van Microsoft Excel. In de compatibiliteitsmodus kunnen de runtimes toenemen. Sluit spreadsheets die geopend zijn in deze modus en probeer het bulkverzoek opnieuw. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Compatibiliteitsmodus</b> uitschakelen: Controleer of er andere werkbladen zijn geopend in de compatibiliteitsmodus van Microsoft Excel. In de compatibiliteitsmodus kunnen de runtimes toenemen. Sluit spreadsheets die geopend zijn in deze modus en probeer het bulkverzoek opnieuw. </li> 
      <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Systeembronnen</b>: Beperkte systeembronnen dragen bij tot lange vertragingen. Sluit alle andere programma's voordat u een aanvraag bulksgewijs indient. </li> 
     </ul> </td> 
   </tr> 
@@ -78,5 +78,5 @@ De volgende lijst maakt een lijst van sommige gemeenschappelijke problemen u wan
 
 ## Foutberichten
 
-Soms kunt u foutberichten ontvangen wanneer u grote wijzigingen aanbrengt. Zie [Antwoordcodes gedefinieerd](/help/using/api/rest-api-main/aam-api-getting-started.md) in de API-documentatie voor uitleg van het foutbericht.
+Soms kunt u foutberichten ontvangen wanneer u grote wijzigingen aanbrengt. Om het foutenbericht te interpreteren, zie [Gedefinieerde de Codes van de Reactie](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API documentatie.
 
