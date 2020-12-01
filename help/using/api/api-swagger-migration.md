@@ -17,13 +17,13 @@ ht-degree: 4%
 
 # Migratie van Audience Manager-API-code {#audience-manager-api-code-migration}
 
-Hier in de Audience Manager zijn we ingenieurs, ontwikkelaars en code-ninjas, net als jij. Net als u willen we werken met betrouwbare, nauwkeurige [!DNL API] documentatie. Als gevolg hiervan schrijven we onze [!DNL API] inhoud opnieuw in [!DNL Swagger] en verplaatsen deze naar een nieuwe locatie. Deze wijzigingen zijn ontworpen om uw ervaring met de [!DNL API] code van de Audience Manager te verbeteren.
+Hier in de Audience Manager zijn we ingenieurs, ontwikkelaars en code-ninjas, net als jij. En, net als u, willen wij met betrouwbare, nauwkeurige [!DNL API] documentatie werken. Dientengevolge, schrijven wij onze [!DNL API] inhoud in [!DNL Swagger] opnieuw en verplaatsen het naar een nieuwe plaats. Deze wijzigingen zijn ontworpen om uw ervaring met de Audience Manager [!DNL API]-code te verbeteren.
 
 ## Omhoog verplaatsen {#code-migration-details}
 
 <!-- api-swagger-migration.xml -->
 
-De [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html) -site is de nieuwe thuisbasis voor onze herziene [!DNL API] inhoud. We proberen bij elke release een aantal sets [!DNL API] methoden opnieuw te schrijven en te verplaatsen. Dit betekent dat u zowel de nieuwe locatie als de [REST API](../api/rest-api-main/rest-api-main.md) -documentatie moet inchecken om alle beschikbare methoden te vinden. Uiteindelijk, zullen alle openbare [!DNL API]s op de [!DNL Audience Manager] [!DNL API] documentenplaats zijn. In de volgende tabel worden de gereviseerde en gemigreerde [!DNL API]bestanden weergegeven.
+De [Adobe Audience Manager API Docs](https://bank.demdex.com/portal/swagger/index.html)-site is de nieuwe thuisbasis voor onze herziene [!DNL API]-inhoud. Wij zullen proberen om een paar reeksen methodes [!DNL API] met elke versie te herschrijven en te bewegen. Dit betekent dat u zowel de nieuwe locatie als de [REST API](../api/rest-api-main/rest-api-main.md) documentatie moet inchecken om alle beschikbare methoden te vinden. Uiteindelijk zullen alle openbare [!DNL API]s op de [!DNL Audience Manager] [!DNL API] docs plaats zijn. In de volgende tabel worden de gewijzigde en gemigreerde [!DNL API]s weergegeven.
 
 <!--
 
