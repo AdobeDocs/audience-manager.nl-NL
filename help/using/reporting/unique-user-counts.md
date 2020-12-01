@@ -1,7 +1,7 @@
 ---
 description: Beschrijft de variatie in unieke gebruikerstotalen tussen rapporten voor het zelfde bezit en tijdspanne.
-seo-description: Beschrijft de variatie in unieke gebruikerstotalen tussen rapporten voor het zelfde bezit en tijdperiode in Adobe Audience Manager
-seo-title: Unieke gebruikers tellen in overlapping en algemene rapporten in AAM
+seo-description: Beschrijft de variatie in unieke gebruikerstotalen tussen rapporten voor het zelfde eigenschap en tijdperiode in Adobe Audience Manager
+seo-title: Unieke gebruikers tellen in overlapping en Algemene rapporten in AAM
 solution: Audience Manager
 title: Unieke gebruikers tellen in overlaprapporten en algemene rapporten
 uuid: 450f6a8c-f363-43de-b2d8-0a156f14ecae
