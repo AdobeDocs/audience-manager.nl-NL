@@ -23,7 +23,7 @@ Beschrijft de vereiste gebieden, de syntaxis, en de noemende overeenkomsten die 
 >
 >De tekststijlen (`monospaced text`, *cursief*, haakjes `[ ]` `( )`, enz.) in dit document de elementen en opties van de code aangeven. Zie [Stijlconventies voor code- en tekstelementen](../../../reference/code-style-elements.md) voor meer informatie.
 
-## Syntaxis en voorbeelden van bestandsnaam {#file-name-syntax}
+## Syntaxis bestandsnaam en voorbeelden {#file-name-syntax}
 
 <!-- c_file_based_id_sync.xml -->
 
@@ -49,7 +49,7 @@ Namen van id-bestanden bevatten de volgende vereiste en optionele elementen:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> De master gegevensleverancier ID is ouderidentiteitskaart van DPIDs in het dossier - naam. De eerste gebruiker-id in het gegevensbestand komt ook overeen met de master id. Verdere DPIDs is andere herkenningstekens die tot master behoren. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </td> 
+   <td colname="col2"> De master gegevensleverancier identiteitskaart is ouderidentiteitskaart van DPIDs in het dossier - naam. De eerste gebruiker-id in het gegevensbestand komt ook overeen met de master id. Verdere DPIDs is andere herkenningstekens die tot master behoren. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
@@ -86,13 +86,13 @@ In de volgende voorbeelden worden bestandsnamen met de juiste indeling getoond. 
 </ul>
 
 >[!NOTE]
-> Voor de naam van het dossier van de synchronisatie van identiteitskaart (c2c prefix) voor op mensen-Gebaseerde Doelen, zie [Werkschema A - Personalisatie Gebaseerd op Alle Online Activiteit die met Offlinegegevens](../../../features/destinations/people-based-destinations-workflow-combined.md) of [Werkschema B wordt gecombineerd - Personalisering die op off-line Gegevens](../../../features/destinations/people-based-destinations-workflow-offline.md)wordt gebaseerd.
+> Zie [Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens](../../../features/destinations/people-based-destinations-workflow-combined.md) of [Workflow B - Personalisatie gebaseerd op gegevens die alleen offline zijn.](../../../features/destinations/people-based-destinations-workflow-offline.md) voor naamgeving van ID-synchronisatiebestanden (c2c-voorvoegsel) voor op mensen gebaseerde doelen.
 
 ## Syntaxis bestandsinhoud en voorbeelden {#file-content-syntax}
 
 De inhoud van een id-bestand bevat de volgende elementen:
 
-*`UUID`* `<tab>`*`UUID`* `<tab>`*`UUID`*`<tab>` *`UUID`*
+*`UUID`* `<tab>`*`UUID`*`<tab>`*`UUID`*`<tab>`*`UUID`*
 
 Het bestand bevat gebruikers-id&#39;s ([!DNL UUID]). Plaats in elke rij een tab tussen de id&#39;s. In het volgende voorbeeld wordt een correct opgemaakt id-bestand getoond. De inhoud kan er ongeveer hetzelfde uitzien.
 
@@ -102,7 +102,7 @@ abc123 def456 ghi789 xyz987
 
 ## Synchronisatie stemt overeen met DPUUID&#39;s met UUID&#39;s {#sync-matches-dpuuids-uuids}
 
-Het doel van een ID-synchronisatiebestand is om de [DPUUID&#39;s](../../../reference/ids-in-aam.md) vanuit uw eigen gegevensbronnen te synchroniseren met [!DNL Audience Manager] UUID&#39;s. De synchronisatie brengt de [!DNL DPUUID]s van master [!DNL DPID] en zijn verwante [!DNL DPID]s aan [!DNL Audience Manager] [!DNL UUID]s in kaart. Wanneer u de id&#39;s in de bestandsnaam en de hoofdtekst plaatst, bepaalt u hoe deze id&#39;s aan elkaar worden toegewezen. Neem bijvoorbeeld de volgende twee voorbeeldbestanden:
+Het doel van een bestand voor id-synchronisatie is om de [DPUUID&#39;s](../../../reference/ids-in-aam.md) vanuit uw eigen gegevensbronnen te synchroniseren met [!DNL Audience Manager] UUID&#39;s. De synchronisatie wijst [!DNL DPUUID]s van master [!DNL DPID] en zijn verwante [!DNL DPID]s aan [!DNL Audience Manager] [!DNL UUID]s toe. Wanneer u de id&#39;s in de bestandsnaam en de hoofdtekst plaatst, bepaalt u hoe deze id&#39;s aan elkaar worden toegewezen. Neem bijvoorbeeld de volgende twee voorbeeldbestanden:
 
 * **Bestand 1:** `adobe_id_0_12345_1476312152.sync`
 
@@ -112,20 +112,20 @@ Het doel van een ID-synchronisatiebestand is om de [DPUUID&#39;s](../../../refer
 
 Op basis van de naam en inhoud van het voorbeeld worden de id&#39;s als volgt toegewezen:
 
-**Bestand 1** (voorbeeldbestand [](assets/adobe_id_0_12345_1476312152.sync)downloaden)
+**Bestand 1**  (voorbeeldbestand [ ](assets/adobe_id_0_12345_1476312152.sync)downloaden)
 
 | DPID 0 = Adobe Audience Manager UUIDs | DPID 12345 |
 |---|---|
 | 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR.38 |
-| 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
+| 6741268208341199572553870443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
 | 89159024796760343733111707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
-| 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M |
-| 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
+| 6655275740751744946280581945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M |
+| 6618477822667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Stap 1: Bij het synchronisatieproces van de id worden de [!DNL DPUUID]s vanaf [!DNL DPID] 12345 gesynchroniseerd met de [!DNL Audience Manager] [!DNL UUID]s in de linkerkolom. Merk op dat [!DNL DPID] &#39;0&#39; in de bestandsnaam [!DNL Audience Manager] [!DNL UUID]s vertegenwoordigt.
+Stap 1: Bij het synchronisatieproces van de id worden de [!DNL DPUUID]s van [!DNL DPID] 12345 gesynchroniseerd met de [!DNL Audience Manager] [!DNL UUID]s in de linkerkolom. De [!DNL DPID] &quot;0&quot; in de bestandsnaam vertegenwoordigt [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
-**Bestand 2** (voorbeeldbestand [](assets/adobe_id_12345_67890_1477846458.sync)downloaden)
+**Bestand 2**  (voorbeeldbestand [ ](assets/adobe_id_12345_67890_1477846458.sync)downloaden)
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
@@ -135,7 +135,7 @@ Stap 1: Bij het synchronisatieproces van de id worden de [!DNL DPUUID]s vanaf [!
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Stap 2: de [!DNL DPUUID]s vanaf [!DNL DPID] 12345 zijn in stap 1 gesynchroniseerd met de Audience Managers [!DNL UUID]en Deze id-synchronisatie synchroniseert de [!DNL DPUUID]s vanaf [!DNL DPID] 67890 met de Audience Manager [!DNL UUID]van stap 1.
+Stap 2: de [!DNL DPUUID]s van [!DNL DPID] 12345 zijn gesynchroniseerd in stap 1 met de Audience Manager [!DNL UUID]s. Bij deze ID-synchronisatie worden de [!DNL DPUUID]s van [!DNL DPID] 67890 gesynchroniseerd met de Audience Manager [!DNL UUID]s van stap 1.
 
 <br/>
 
@@ -144,7 +144,7 @@ Stap 2: de [!DNL DPUUID]s vanaf [!DNL DPID] 12345 zijn in stap 1 gesynchroniseer
 Gebruikersnamen kunnen niet:
 
 * Plaats tabs in de id zelf. Tabs worden alleen gebruikt om afzonderlijke id&#39;s in het gegevensbestand te scheiden.
-* Persoonlijk identificeerbare informatie ([!UICONTROL PII]) bevatten.
-* Gebruik [!DNL URL] codering. Alleen niet-gecodeerde id&#39;s doorgeven.
+* Bevat persoonlijk identificeerbare informatie ([!UICONTROL PII]).
+* Codering [!DNL URL] gebruiken. Alleen niet-gecodeerde id&#39;s doorgeven.
 
 Rijen die eindigen met tabs of spaties, worden niet verwerkt of uitgevoerd. Zorg er doorgaans voor dat het einde van de rijen ongewijzigd blijft.
