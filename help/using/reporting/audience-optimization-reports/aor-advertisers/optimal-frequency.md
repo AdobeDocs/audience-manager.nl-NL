@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Het Optimale rapport van de Frequentie helpt u de optimale balans tussen het aantal gediende beelden en omzettingen ontdekken. Hiermee kunt u het aantal afbeeldingen aanpassen dat u wilt weergeven voordat u begint met een afname van de geretourneerde waarden.
 
-Het rapport heeft een terugkijkinterval van 30 dagen, van de datum die in selecteur wordt gekozen. [!UICONTROL Date Through]
+Het rapport heeft een terugraadplegingsinterval van 30 dagen, van de datum die in [!UICONTROL Date Through] selecteur wordt gekozen.
 
 Het omzettingsvolume neemt doorgaans af met emmers met een hogere beeldfrequentie. Minder gebruikers zien het hogere aantal indrukken. Dit betekent dat die hogere frequentieemmers minder omzettingen hebben.
 
