@@ -24,13 +24,13 @@ c_compintro.xml
 
  -->
 
-Deze gids verstrekt een basisoverzicht van de belangrijkste componenten die macht [!DNL Audience Manager]. Het is geschreven voor:
+Deze gids verstrekt een basisoverzicht van de belangrijkste componenten die [!DNL Audience Manager] aandrijven. Het is geschreven voor:
 
 * Niet-technische en technische lezers.
 * Huidige [!DNL Audience Manager] klanten benieuwd hoe het allemaal werkt.
-* Potentiële [!DNL Audience Manager] klanten die dit systeem moeten beoordelen als onderdeel van een due diligence- of aanvraagprocedure.
+* Potentiële [!DNL Audience Manager] klanten die dit systeem moeten evalueren als onderdeel van een due diligence- of aanvraagprocedure.
 
-Deze gids probeert een evenwicht te vinden tussen algemene beschrijvingen en een diepe duik. Maar sommige dingen zijn eigendom, dus gaan we er gewoon niet naartoe. Want er is meer aan speciale saus dan alleen mayonaise en ketchup. We moeten de kiezers geheim houden. Zoals altijd kunt u bij vragen contact opnemen met uw [!DNL Audience Manager] consultant.
+Deze gids probeert een evenwicht te vinden tussen algemene beschrijvingen en een diepe duik. Maar sommige dingen zijn eigendom, dus gaan we er gewoon niet naartoe. Want er is meer aan speciale saus dan alleen mayonaise en ketchup. We moeten de kiezers geheim houden. Zoals altijd, kunt u met uw [!DNL Audience Manager] consultant controleren als u om het even welke vragen hebt.
 
 * [Belangrijke componenten in het Systeem van de Audience Manager](/help/using/reference/system-components/components-stack.md)
 * [Onderdelen voor actie op data](/help/using/reference/system-components/components-data-action.md)
