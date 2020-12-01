@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # Id’s, locaties en hostnamen van DCS-regio’s {#dcs-region-ids-locations-and-host-names}
 
-De regionale hostnaam van de [!DNL DCS] server is vereist om oproepen te doen naar de [!DNL DCS]. Dit komt omdat de [!DNL DCS] informatie in gegevenscentra wordt opgeslagen die geografisch dicht bij plaatsbezoekers zijn. Uw vragen zullen werken als u hen naar het verkeerde [!DNL DCS]verzendt, maar deze vraag is inefficiënt en kan de reactie vertragen. Als u een [!DNL DCS] aanvraag wilt indienen, dient u de regio-id aan te passen aan de corresponderende regionale hostnaam en de query met de juiste hostnaam te vormen.
+De regionale [!DNL DCS] naam van de servergastheer wordt vereist om vraag aan [!DNL DCS] te maken. Dit komt omdat de [!DNL DCS] informatie opslaat in gegevenscentra die geografisch dicht bij bezoekers van de site zijn. Uw vragen zullen werken als u hen naar verkeerd [!DNL DCS] verzendt, maar deze vraag is inefficiënt en kan de reactie vertragen. Als u een [!DNL DCS]-verzoek wilt indienen, past u de regio-id aan de corresponderende regionale hostnaam aan en vormt u de query met de juiste hostnaam.
 
 <table id="table_643212E4F9C64DFF9443904B01D89CB3"> 
  <thead> 
@@ -71,4 +71,4 @@ De regionale hostnaam van de [!DNL DCS] server is vereist om oproepen te doen na
  </tbody> 
 </table>
 
-U kunt ook [!DNL API] methoden gebruiken om een lijst met beschikbare [!DNL DCS] gebieden op te halen. See [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
+U kunt [!DNL API] methodes ook gebruiken om een lijst van de beschikbare [!DNL DCS] gebieden te krijgen. Zie [DCS Region API Methods](../../../api/rest-api-main/aam-api-dcs-regions.md).
