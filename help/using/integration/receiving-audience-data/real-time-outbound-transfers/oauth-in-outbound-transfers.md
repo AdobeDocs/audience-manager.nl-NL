@@ -21,14 +21,14 @@ Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan
 
 ## Verificatiestroom {#auth-flow}
 
-De [!DNL Adobe Audience Manager] OAuth 2.0 [](https://tools.ietf.org/html/rfc6749#section-4.4) authentificatieimplementatie is gebaseerd op de de subsidiestroom van de Credentials van de Cliënt en volgt deze stappen:
+De [!DNL Adobe Audience Manager] [OAuth 2.0](https://tools.ietf.org/html/rfc6749#section-4.4)-verificatieimplementatie is gebaseerd op de toekenningsstroom voor clientreferenties en volgt de volgende stappen:
 
 1. U moet ons voorzien van:
    * Het [!DNL OAuth 2.0] eindpunt dat het authentificatietoken produceert.
    * De referenties die worden gebruikt om een token te genereren.
 1. Een [!DNL Audience Manager] consultant stelt de [bestemming](../../../features/destinations/destinations.md) in met de informatie die u hebt opgegeven.
-1. Zodra een segment aan deze bestemming in kaart wordt gebracht, doet ons systeem van de gegevensoverdracht in real time, [IRIS](../../../reference/system-components/components-data-action.md#iris), een `POST` verzoek aan het symbolische eindpunt om de geloofsbrieven voor een dragertoken uit te wisselen.
-1. Voor elk segment dat verzoek aan het partnereindpunt publiceert, [!UICONTROL IRIS] gebruikt het dragertoken voor authentiek te verklaren.
+1. Zodra een segment aan deze bestemming in kaart wordt gebracht, doet ons systeem van de gegevensoverdracht in real time, [IRIS](../../../reference/system-components/components-data-action.md#iris), een `POST` verzoek aan het symbolische eindpunt om de geloofsbrieven voor een toventeken uit te wisselen.
+1. Voor elk segment dat verzoek aan het partnereindpunt publiceert, [!UICONTROL IRIS] gebruikt het dragerteken voor authentiek verklaren.
 
 ![](assets/oauth2-iris.png)
 
@@ -42,8 +42,8 @@ Dit eindpunt zal de geloofsbrieven goedkeuren die bij stap 1 worden verstrekt en
 
 * Het eindpunt moet `HTTP POST` verzoeken goedkeuren.
 * Het eindpunt moet de [!DNL Authorization] kopbal goedkeuren en bekijken. De waarde voor deze header is: `Basic <credentials_provided_by_partner>`.
-* Het eindpunt moet de [!DNL Content-type] kopbal bekijken en bevestigen dat zijn waarde is `application/x-www-form-urlencoded ; charset=UTF-8`.
-* De inhoud van het verzoek zal worden `grant_type=client_credentials`.
+* Het eindpunt moet de [!DNL Content-type] kopbal bekijken en bevestigen dat zijn waarde `application/x-www-form-urlencoded ; charset=UTF-8` is.
+* De hoofdtekst van het verzoek is `grant_type=client_credentials`.
 
 ### Voorbeeld verzoek dat door Audience Manager aan het partnereindpunt wordt gemaakt om een dragertoken te verkrijgen
 
@@ -76,7 +76,7 @@ Content-Length: 121
 
 [!DNL Audience Manager] verzendt gegevens naar dit eindpunt in dichtbij real time aangezien de gebruikers voor segmenten kwalificeren. Bovendien, kan deze methode partijen off-line of aan boord genomen gegevens zo vaak verzenden zoals om de 24 uur.
 
-Het dragerteken dat door eindpunt 1 wordt geproduceerd wordt gebruikt om verzoeken aan dit eindpunt uit te geven. Het [!DNL Audience Manager] systeem van de gegevensoverdracht in real time, [IRIS](../../../reference/system-components/components-data-action.md#iris), bouwt een normale HTTPS- verzoek en omvat een kopbal van de Vergunning. De waarde voor deze header is: Drager `<bearer token from step 1>`.
+Het dragerteken dat door eindpunt 1 wordt geproduceerd wordt gebruikt om verzoeken aan dit eindpunt uit te geven. Het [!DNL Audience Manager] systeem van de gegevensoverdracht in real time, [IRIS](../../../reference/system-components/components-data-action.md#iris), bouwt een normale vraag HTTPS en omvat een kopbal van de Vergunning. De waarde voor deze header is: Aan toonder `<bearer token from step 1>`.
 
 ### De reactie van het voorbeeld van het partnereindpunt
 
@@ -115,7 +115,7 @@ Accept-Encoding: gzip
 
 ### Tokens zijn wachtwoorden
 
-De geloofsbrieven die door de partner en de tekenen worden voorgesteld door [!DNL Audience Manager] wanneer het voor authentiek verklaren van het gebruiken van de [!DNL OAuth 2.0] stroom worden verkregen, zijn gevoelige informatie en moeten niet met derden worden gedeeld.
+De geloofsbrieven die door de partner worden voorgesteld en de tekenen die door [!DNL Audience Manager] worden verkregen wanneer het voor authentiek verklaren gebruikend de [!DNL OAuth 2.0] stroom, zijn gevoelige informatie en moeten niet met derden worden gedeeld.
 
 ### [!DNL SSL] is vereist
 
