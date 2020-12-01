@@ -27,23 +27,23 @@ Met Bulk verwijderen kunt u meerdere segmenten, kenmerken, mappen, afgeleide sig
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen die ](../../features/administration/administration-overview.md) zijn toegewezen in de  [!DNL Audience Manager] gebruikersinterface, worden gerespecteerd in de  [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
 >Een bulkschrapping voor bestemmingstoewijzingen zal ontbreken als u segmenten in kaart gebracht aan de bestemming hebt. Verwijder uw segmenten uit die bestemming in het gebruikersinterface alvorens te proberen om bestemmingen bulksgewijs te schrappen. Ook, moeten de eigenschap en de segmentomslagen leeg zijn alvorens u hen kunt schrappen.
 
-Als u meerdere items wilt verwijderen, opent u het [!UICONTROL Bulk Management Tools] werkblad en:
+Als u meerdere items wilt verwijderen, opent u het werkblad [!UICONTROL Bulk Management Tools] en:
 
-1. Klik op het **[!UICONTROL Headers]** tabblad en kopieer de kopteksten voor het item dat u wilt toevoegen.
-2. Klik op het **[!UICONTROL Delete]** tabblad.
+1. Klik op de tab **[!UICONTROL Headers]** en kopieer de koppen voor het item dat u wilt toevoegen.
+2. Klik op het tabblad **[!UICONTROL Delete]**.
 3. Plak de verwijderkoppen in de eerste rij van het updatewerkblad.
 4. Plak of typ de id&#39;s voor de objecten die u wilt verwijderen in de kolom onder de koptekst.
-5. Geef de vereiste [aanmeldingsgegevens](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) op en klik op **[!UICONTROL Submit]**.
+5. Geef de vereiste [aanmeldingsgegevens op](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik op **[!UICONTROL Submit]**.
 
-   In het werkblad wordt een [!UICONTROL Results] kolom gemaakt. De [!UICONTROL Results] kolom retourneert een bericht dat aangeeft of het item is verwijderd of een foutbericht.
+   Het aantekenvel leidt tot een [!UICONTROL Results] kolom. De [!UICONTROL Results] kolom keert een bericht terug dat erop wijst als het punt of een foutenmelding is geschrapt.
 Voordat u gegevens invoert, moet uw bulkupdatewerkblad er ongeveer als volgt uitzien:
 
 ![](assets/delete.png)
 
-Als uw bulkupdate een fout terugkeert of ontbreekt, zie het Oplossen van [problemen voor de Hulpmiddelen](../../reference/bulk-management-tools/bulk-troubleshooting.md)van het Beheer van het Bulk.
+Als uw bulkupdate een fout terugkeert of ontbreekt, zie [Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk](../../reference/bulk-management-tools/bulk-troubleshooting.md).
