@@ -37,11 +37,11 @@ c_dil_send_page_objects.xml
 
 **Beschrijving**
 
-In de volgende code ziet u hoe u paginagegevens kunt verzamelen en naar de Audience Manager kunt verzenden [!UICONTROL DIL]. In deze voorbeelden wordt een variabele gebruikt om gegevenselementen op te nemen in een platte lijst of een array. Denk eraan dat u variabelen doorgeeft als [sleutel-waardeparen](../reference/key-value-pairs-explained.md). Noteer ook het `c_` voorvoegsel vóór de toets in het sleutelwaardepaar. Dit [vereiste voorvoegsel](../features/traits/trait-variable-prefixes.md) identificeert informatie als user-defined gegevens. In het eerste voorbeeld moet u handmatig aan de toets toevoegen. `c_` In het tweede voorbeeld [!UICONTROL DIL] doet u dit automatisch.
+De volgende code laat zien hoe u paginagegevens kunt verzamelen en naar de Audience Manager kunt verzenden met [!UICONTROL DIL]. In deze voorbeelden wordt een variabele gebruikt om gegevenselementen op te nemen in een platte lijst of een array. Vergeet niet variabelen als [sleutel-waardeparen](../reference/key-value-pairs-explained.md) door te geven. Noteer ook het voorvoegsel `c_` vóór de toets in het sleutelwaardepaar. Dit [vereiste voorvoegsel](../features/traits/trait-variable-prefixes.md) identificeert informatie als user-defined gegevens. In het eerste voorbeeld moet u `c_` handmatig aan de toets toevoegen. In het tweede voorbeeld doet [!UICONTROL DIL] dit automatisch voor u.
 
 **Waardeeigenschappen consistent houden**
 
-Vergeet niet de eigenschappen van de waarde gelijk te houden wanneer u gegevens doorgeeft. Als u bijvoorbeeld twee identieke toetsen met verschillende waarden hebt, heeft de waarde van het laatste sleutelwaardepaar voorrang op de voorgaande waardeobjecten. Als u bijvoorbeeld de waarde doorgeeft `color:blue` en `color:red` instelt op rood (overschrijft blauw).
+Vergeet niet de eigenschappen van de waarde gelijk te houden wanneer u gegevens doorgeeft. Als u bijvoorbeeld twee identieke toetsen met verschillende waarden hebt, heeft de waarde van het laatste sleutelwaardepaar voorrang op de voorgaande waardeobjecten. Als u bijvoorbeeld `color:blue` en `color:red` opgeeft, wordt de geretourneerde waarde ingesteld op rood (overschrijft blauw).
 
 **Voorbeeld 1: Gegevens verzenden als sleutelwaardeparen**
 
@@ -58,7 +58,7 @@ sample_dil.api.submit();
 
 **Voorbeeld 2: Gegevens verzenden in een object**
 
-In dit geavanceerde voorbeeld wordt getoond hoe gegevens in een object naar Audience Manager worden verzonden. Wanneer u met deze methode werkt, [!UICONTROL DIL] kunt u een object als functieparameter doorgeven aan de [!DNL signals()] methode. [!UICONTROL DIL] De code kan er ongeveer als volgt uitzien:
+In dit geavanceerde voorbeeld wordt getoond hoe gegevens in een object naar Audience Manager worden verzonden. Wanneer u met deze methode werkt, kunt u met [!UICONTROL DIL] een object als functieparameter doorgeven in de methode [!DNL signals()]. [!UICONTROL DIL] De code kan er ongeveer als volgt uitzien:
 
 <pre class="java"><code>
 var my_object = { 
@@ -73,7 +73,7 @@ sample_dil.api.signals(my_object,"c_").submit();
 
 **Voorbeeld 3: Paginagegevens verzenden in een array**
 
-In dit geval `my_object` gebruikt de variabele een array om gegevens op te slaan. Dit voorbeeld bouwt op de informatie voort die door de geadviseerde methode hierboven wordt overgegaan, maar voegt een extra laag toe om een producttype en een model aan te passen. De code kan er ongeveer als volgt uitzien:
+In dit geval gebruikt de variabele `my_object` een array om gegevens op te slaan. Dit voorbeeld bouwt op de informatie voort die door de geadviseerde methode hierboven wordt overgegaan, maar voegt een extra laag toe om een producttype en een model aan te passen. De code kan er ongeveer als volgt uitzien:
 
 <pre class="java"><code>
 var my_objects = [{ 
@@ -94,7 +94,7 @@ for (var i = 0; i < my_objects.length; i++)
 sample_dil.api.submit();
 </code></pre>
 
-## URL van vastlegverwijzing {#capture-referring-url}
+## URL {#capture-referring-url} vastleggen
 
 Leg een referentie-URL vast en verzend deze naar de Audience Manager.
 
@@ -117,7 +117,7 @@ var adobe_dil = DIL.create({ partner : "<i>partner name</i>" });
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
-## Typen zoekmachines vastleggen en zoektermen vastleggen {#capture-search-engine-types}
+## Typen zoekmachines vastleggen en zoektermen voor trefwoorden {#capture-search-engine-types}
 
 Gegevens over zoekmachinetypen en trefwoordzoekopdrachten naar Audience Manager verzenden.
 
@@ -127,7 +127,7 @@ Gegevens over zoekmachinetypen en trefwoordzoekopdrachten naar Audience Manager 
 
 **Ondersteunde zoekmachines**
 
-Hiermee herkent u standaard zoekopdrachten van deze zoekmachines (inclusief internationale variaties): `DIL.getSearchReferrer`
+`DIL.getSearchReferrer` herkent standaard zoekopdrachten vanuit deze zoekmachines (inclusief internationale variaties):
 
 * [!DNL AOL]
 * [!DNL Ask]
@@ -141,7 +141,7 @@ In de volgende code ziet u hoe u de zoekreferentie ophaalt voor een van de onder
 
 **Basiscode**
 
-De basiscode voor het ophalen van de zoekverwijzer (bijvoorbeeld van `google.com`) ziet er als volgt uit:
+De basiscode voor het krijgen van de onderzoeksverwijzer (van `google.com`, bijvoorbeeld) kijkt als dit:
 
 ```java
 var search_referrer = DIL.tools.getSearchReferrer();
@@ -149,7 +149,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Voorbeeld code van vermelde zoekmachine**
 
-In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van [!DNL Google] Canada ( `www.google.ca`) zocht. Let op hoe de code de vereiste `c_` parameter vooraf definieert voor zoekprogramma&#39;s ( `c_se`) en zoektermen ( `c_st`). `c_` is een [vereist prefix](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
+In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van [!DNL Google] Canada ( `www.google.ca`) heeft gezocht. Let op hoe de code de vereiste `c_`-parameter vooraf definieert voor zoekmachines ( `c_se`) en zoektermen ( `c_st`). `c_` is een  [vereiste ](../features/traits/trait-variable-prefixes.md) prefixatie die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -165,7 +165,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Voorbeeld van code van niet-vermelde zoekmachine**
 
-In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van `dogpile.com`zocht. Omdat [!DNL Dogpile] standaard niet wordt ondersteund, kunt u DIL configureren om deze zoekmachine te herkennen en de zoektermen terug te sturen naar Audience Manager. De code kan er ongeveer als volgt uitzien:
+In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van `dogpile.com` zocht. Omdat [!DNL Dogpile] niet door gebrek wordt gesteund, kunt u DIL vormen om dit onderzoeksmotor te erkennen en de onderzoekstermijnen aan Audience Manager terug te keren. De code kan er ongeveer als volgt uitzien:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -182,7 +182,7 @@ if (search_referrer && search_referrer.valid) {
 }
 </code></pre>
 
-## Sleutelwaarden toewijzen aan andere toetsen {#map-key-values}
+## Toetswaarden toewijzen aan andere toetsen {#map-key-values}
 
 Koppel de waarde van een sleutelwaardepaar aan een andere sleutel.
 
@@ -194,9 +194,9 @@ c_dil_map_keys.xml
 
 **Beschrijving**
 
-In een zeer belangrijk-waardepaar, identificeert het `c_` voorvoegsel dat aan de sleutel wordt toegevoegd het signaal als klant-bepaalde gegevens. Door de klant gedefinieerde gegevens worden gebruikt om zich te richten op de specifieke site die gegevens heeft doorgegeven bij een gebeurtenisaanroep. Soms wilt u deze informatie echter wel beschikbaar stellen voor alle eigenschappen in uw Audience Manager-account. Hiervoor wijst u de waarde in een sleutelwaardepaar toe aan een sleutel op platformniveau. `c_` Een sleutel op platformniveau is vooraf ingesteld `d_` en maakt het signaal beschikbaar voor alle eigenschappen in uw account.
+In een sleutel-waarde paar, identificeert het `c_` prefix die aan de sleutel wordt toegevoegd het signaal als klant-bepaalde gegevens. Door de klant gedefinieerde gegevens worden gebruikt om zich te richten op de specifieke site die gegevens heeft doorgegeven bij een gebeurtenisaanroep. Soms wilt u deze informatie echter wel beschikbaar stellen voor alle eigenschappen in uw Audience Manager-account. Hiervoor wijst u de waarde in een sleutel-waardepaar `c_` toe aan een sleutel op platformniveau. Een sleutel op platformniveau wordt voorafgegaan door `d_` en maakt het signaal beschikbaar voor alle eigenschappen in uw account.
 
-Als voorbeeld verzamelt u ZIP-codegegevens van een bepaalde site, maar wilt u deze als doel instellen voor al uw Audience Manager-eigenschappen. Als u de ZIP-code beschikbaar wilt maken op platformniveau, kunt u de door de klant gedefinieerde ZIP-codesleutel toewijzen (bijvoorbeeld `c_zip`) naar een door het platform gedefinieerde sleutel, zoals hieronder wordt weergegeven.
+Als voorbeeld verzamelt u ZIP-codegegevens van een bepaalde site, maar wilt u deze als doel instellen voor al uw Audience Manager-eigenschappen. Als u de ZIP-code beschikbaar wilt maken op platformniveau, kunt u de door de klant gedefinieerde ZIP-codesleutel toewijzen (bijvoorbeeld `c_zip`) naar een platformgedefinieerde sleutel, zoals hieronder wordt weergegeven.
 
 **Codevoorbeeld**
 
@@ -224,17 +224,17 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Deze procedure veronderstelt u een [!DNL Google Tag Manager] rekening, wat werkende kennis van dat product, en uw `dil.js` dossier van de Audience Manager hebt.
+Bij deze procedure wordt ervan uitgegaan dat u een [!DNL Google Tag Manager]-account, enige praktische kennis van dat product en uw Audience Manager `dil.js`-bestand hebt.
 
-U kunt als volgt het `dil.js` bestand verzenden in GTM:
+Om het `dil.js` dossier in GTM te verzenden:
 
 1. Maak een nieuwe container of open een bestaande container.
 1. Voeg een nieuwe tag toe aan de container.
 1. Open de tag om deze te bewerken en:
 
    * Geef de tag een naam.
-   * Selecteer een optie **[!UICONTROL Custom HTML Tag]** in de **[!UICONTROL Tag Type]** vervolgkeuzelijst.
-   * Plaats de [!UICONTROL DIL] code (bibliotheek + aangepaste code) in het HTML-veld binnen scripttags `<script>DIL code</script>`.
+   * Selecteer **[!UICONTROL Custom HTML Tag]** in de vervolgkeuzelijst **[!UICONTROL Tag Type]**.
+   * Plaats in het HTML-veld de [!UICONTROL DIL]-code (bibliotheek + de aangepaste code) binnen de scripttags `<script>DIL code</script>`.
    * Klik op **[!UICONTROL Save]**.
 
 1. Publiceer de container.
