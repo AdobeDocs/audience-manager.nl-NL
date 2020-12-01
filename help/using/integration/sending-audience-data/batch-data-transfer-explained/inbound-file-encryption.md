@@ -17,22 +17,22 @@ ht-degree: 11%
 
 # PGP-bestandsversleuteling voor binnenkomende datatypen{#file-pgp-encryption-for-inbound-data-types}
 
-U kunt gegevensbestanden coderen met [!DNL PGP] codering wanneer u ze naar de Audience Manager verzendt.
+U kunt gegevensbestanden coderen met [!DNL PGP] encryptie wanneer het verzenden van hen naar Audience Manager.
 
 <!-- c_encryption.xml -->
 
 >[!IMPORTANT]
 >
->[!DNL PGP] codering omvat bestandscompressie. Wanneer het verzenden van [!DNL PGP] gecodeerde binnenkomende dossiers zorg ervoor u hen niet [comprimeert](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) gebruikend gzip (`.gz`).
+>[!DNL PGP] codering omvat bestandscompressie. Wanneer het verzenden van [!DNL PGP] gecodeerde binnenkomende dossiers zorg ervoor u niet [comprimeert ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) hen gebruikend gzip (`.gz`).
 >
->[!DNL PGP] versleutelde binnenkomende bestanden die ook zijn [gecomprimeerd](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) , zijn ongeldig in de Audience Manager.
+>[!DNL PGP] versleutelde inkomende bestanden die ook zijn  [](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) gecomprimeerd, zijn ongeldig in de Audience Manager.
 
 Volg de onderstaande stappen om binnenkomende gegevensbestanden te coderen.
 
-1. Download de openbare sleutel van de [Audience Manager](./assets/adobe_pgp.pub).
+1. Download [Audience Manager public key](./assets/adobe_pgp.pub).
 2. Importeer de openbare sleutel naar de vertrouwde opslag.
 
-   Als u bijvoorbeeld [!DNL GPG]de opdracht gebruikt, kan deze op het volgende lijken:
+   Als u bijvoorbeeld [!DNL GPG] gebruikt, kan de opdracht op het volgende lijken:
 
    `gpg --import adobe_pgp.pub`
 
@@ -52,8 +52,8 @@ Volg de onderstaande stappen om binnenkomende gegevensbestanden te coderen.
 
    `gpg --recipient "Adobe AudienceManager" --cipher-algo AES --output $output.gpg --encrypt $inbound`
 
-   Alle gecodeerde gegevens moeten worden gebruikt `.pgp` of `.gpg` als bestandsextensie (bijvoorbeeld `ftp_dpm_100_123456789.sync.pgp` of `ftp_dpm_100_123456789.overwrite.gpg`).
+   Alle gecodeerde gegevens moeten `.pgp` of `.gpg` als bestandsextensie gebruiken (bijvoorbeeld `ftp_dpm_100_123456789.sync.pgp` of `ftp_dpm_100_123456789.overwrite.gpg`).
 
    >[!NOTE]
    >
-   >Audience Manager ondersteunt alleen het algoritme voor [!DNL Advanced Encryption Standard (AES)] gegevenscodering. Audience Manager ondersteunt elke sleutellengte.
+   >Audience Manager ondersteunt alleen het gegevensversleutelingsalgoritme [!DNL Advanced Encryption Standard (AES)]. Audience Manager ondersteunt elke sleutellengte.
