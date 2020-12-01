@@ -1,7 +1,7 @@
 ---
-description: Gebruik de opties in het menu Analytics om het dashboard en de verschillende rapporten weer te geven.
-seo-description: Met de opties in het menu Analytics kunt u het dashboard en de verschillende rapporten weergeven in Adobe Audience Manager (AAM).
-seo-title: Rapporterend Overzicht in Adobe Audience Manager (AAM)
+description: Met de opties in het menu Analyse kunt u het dashboard en de verschillende rapporten weergeven.
+seo-description: Gebruik de opties in het menu Analyse om het dashboard en de verschillende rapporten in Adobe Audience Manager (AAM) weer te geven.
+seo-title: Rapportageoverzicht in Adobe Audience Manager (AAM)
 title: Overzicht van rapporten
 feature: reporting reference
 translation-type: tm+mt
@@ -15,9 +15,9 @@ ht-degree: 8%
 
 # Overzicht van rapporten
 
-In de afzonderlijke secties worden de beschikbare rapporten, hun doeleinden en het typische gebruik beschreven. Alle rapporten zijn beschikbaar op het [!UICONTROL Analytics] dashboard.
+In de afzonderlijke secties worden de beschikbare rapporten, hun doeleinden en het typische gebruik beschreven. Alle rapporten zijn beschikbaar bij het [!UICONTROL Analytics] dashboard.
 
-Voor informatie beschrijvend de tijdkaders wanneer de Audience Manager informatie ontvangt om rapporten te bevolken, zie [hoe de Levering van Gegevens en de Tijden van de Verwerking van het Dossier Rapporten](/help/using/reference/reporting-file-transfer-timeframe.md)beïnvloeden.
+Voor informatie beschrijvend de tijdkaders wanneer de Audience Manager informatie ontvangt om rapporten te bevolken, zie [Hoe de Levering van Gegevens en de Tijden van de Verwerking van het Dossier Rapporten](/help/using/reference/reporting-file-transfer-timeframe.md) beïnvloeden.
 
 * [Audience Optimization-rapporten](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 
@@ -25,7 +25,7 @@ Voor informatie beschrijvend de tijdkaders wanneer de Audience Manager informati
 
 * [Algemene rapporten](/help/using/reporting/general-reports.md)
 
-   A [!UICONTROL General report] keert prestatiesgegevens op [!UICONTROL traits], [!UICONTROL segments], en [!UICONTROL destinations].
+   Een [!UICONTROL General report] retourneert prestatiegegevens op [!UICONTROL traits], [!UICONTROL segments] en [!UICONTROL destinations].
 
 * [Interactieve rapporten en overlaprapporten](/help/using/reporting/dynamic-reports/dynamic-reports.md)
 
@@ -33,23 +33,23 @@ Voor informatie beschrijvend de tijdkaders wanneer de Audience Manager informati
 
 * [Rapport over status aan boord: Info](/help/using/reporting/onboarding-status-report.md)
 
-   De [!UICONTROL Onboarding Status Report] controles succes en mislukkingen voor verwerkingsverslagen in uw binnenkomende gegevensbrondossiers. Dit rapport bevat gegevens in een interactief staafdiagram en een overzicht van de afmetingen in tabelvorm. En, omvat het een optie die dossiers voor een vast tijdinterval steekproeven en de gemeenschappelijkste fouten voor elk foutentype toont. U kunt dit rapport vinden in [!UICONTROL Analytics > Onboarding Status Report]. Dit rapport is ook beschikbaar wanneer u een binnenkomende gegevensbron creeert.
+   De [!UICONTROL Onboarding Status Report] controleert succes en mislukkingstarieven voor verwerkingsverslagen in uw binnenkomende gegevensbrondossiers. Dit rapport bevat gegevens in een interactief staafdiagram en een overzicht van de afmetingen in tabelvorm. En, omvat het een optie die dossiers voor een vast tijdinterval steekproeven en de gemeenschappelijkste fouten voor elk foutentype toont. U kunt dit rapport vinden in [!UICONTROL Analytics > Onboarding Status Report]. Dit rapport is ook beschikbaar wanneer u een binnenkomende gegevensbron creeert.
 
 * [Geschiedenis van uitgaande bestanden](/help/using/reporting/outbound-history-report.md)
 
-   Informatie over de geschiedenis van [!UICONTROL outbound] batchtaken voor een opgegeven doel en periode weergeven.
+   Gegevens over de batch-taakgeschiedenis voor een opgegeven doel en periode weergeven.[!UICONTROL outbound]
 
 * [Trendrapporten](/help/using/reporting/trend-reports.md)
 
-   Een [!UICONTROL Trend report] geeft trendgegevens over [!UICONTROL traits] en [!UICONTROL segments].
+   A [!UICONTROL Trend report] retourneert trendgegevens op [!UICONTROL traits] en [!UICONTROL segments].
 
 * [Unieke gebruikers tellen in overlaprapporten en algemene rapporten](/help/using/reporting/unique-user-counts.md)
 
-   Beschrijft de variatie in unieke gebruikerstotalen tussen rapporten voor de zelfde [!UICONTROL trait] en tijdspanne.
+   Beschrijft de variatie in unieke gebruikerstotalen tussen rapporten voor zelfde [!UICONTROL trait] en tijdspanne.
 
 * [Dashboard voor rapporten](/help/using/reporting/trend-reports.md)
 
-   Gebruik het dashboard om informatie over de unieke bezoekersaantallen van uw partners te bekijken uitgesplitst door [!UICONTROL trait] types en [!UICONTROL segments] voor een gespecificeerd tijdkader.
+   Gebruik het dashboard om informatie over de unieke bezoekersaantallen van uw partners te bekijken die door [!UICONTROL trait] types en [!UICONTROL segments] voor een gespecificeerd tijdkader worden verdeeld.
 
 * [Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten](/help/using/reporting/report-sampling.md)
 
