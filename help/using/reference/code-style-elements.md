@@ -29,7 +29,7 @@ Deze elementen identificeren codeopties en variabelen die door de hulpdocumentat
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>Variabelen worden <i>cursief weergegeven</i>. Vervang de juiste waarde voor de variabelenaam. </p> <p>Voor visuele duidelijkheid worden soms variabelen en andere code-elementen weergegeven tussen &lt; &gt; vierkante haakjes. U hoeft deze symbolen niet in uw code te gebruiken. </p> </td> 
+   <td colname="col2"> <p>Variabelen worden weergegeven in <i>cursief</i>. Vervang de juiste waarde voor de variabelenaam. </p> <p>Voor visuele duidelijkheid worden soms variabelen en andere code-elementen weergegeven tussen &lt; &gt; vierkante haakjes. U hoeft deze symbolen niet in uw code te gebruiken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -37,7 +37,7 @@ Deze elementen identificeren codeopties en variabelen die door de hulpdocumentat
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Items tussen haakjes geven een Booleaanse <span class="wintitle"> OR</span> -keuze aan. </p> </td> 
+   <td colname="col2"> <p>Items tussen haakjes geven een Booleaanse keuze aan: <span class="wintitle"> OF</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 
