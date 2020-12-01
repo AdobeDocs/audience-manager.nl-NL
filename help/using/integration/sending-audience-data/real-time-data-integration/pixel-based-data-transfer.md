@@ -24,12 +24,12 @@ Eenvoudige pixels (die kunnen worden gebruikt om gebruikers voor kenmerken in aa
 Om binnenkomende gegevensoverdrachten toe te laten, zouden de verkoper en de cliënt:
 
 1. Bepaal welke kenmerken u door de leverancier of partner wilt laten activeren.
-1. Hiermee krijgt u de pixel voor de eigenschap. Houd de muisaanwijzer boven de **[!UICONTROL Actions]** kolom in de lijst met kenmerken en klik op het **[!UICONTROL Get trait URL]** symbool voor de gewenste eigenschap.
-1. De leverancier of partner de [!DNL URL] informatie geven.
+1. Hiermee krijgt u de pixel voor de eigenschap. Houd de muisaanwijzer boven de kolom **[!UICONTROL Actions]** in het scherm met de lijst met kenmerken en klik op het symbool **[!UICONTROL Get trait URL]** voor de gewenste eigenschap.
+1. Geef [!DNL URL] door aan de leverancier of partner.
 
 ## Voorbeelden
 
-Deze basisvraag van de gebeurtenisvraag verzendt eigenschap ID 1234 naar [!DNL Audience Manager].
+Deze basisvraag van de gebeurtenis verzendt eigenschap ID 1234 naar [!DNL Audience Manager].
 
 ```
 https://something.demdex.net/event?d_sid=1234
