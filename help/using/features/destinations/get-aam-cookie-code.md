@@ -15,11 +15,11 @@ ht-degree: 8%
 ---
 
 
-# `get_aamCookie` Code {#get-aamcookie-code}
+# `get_aamCookie` Code  {#get-aamcookie-code}
 
 Code die door [!DNL DART Enterprise] (en andere bestemmingstypes) wordt vereist om de Audience Manager unieke gebruiker - identiteitskaart ([!DNL UUID]) waarde te vangen.
 
-Definieer deze functie boven aan de pagina, idealiter binnen het `<head>` codeblok.
+Definieer deze functie boven aan de pagina, idealiter binnen het codeblok `<head>`.
 
 <!-- r_aam_de_cookie.xml -->
 
