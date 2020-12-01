@@ -21,11 +21,11 @@ Een metagegevensbestand koppelt numerieke id&#39;s met namen die u kunt lezen en
 
 ## Overzicht {#overview}
 
-Een overzicht van metagegevens en hoe deze worden gebruikt. Een metagegevensbestand moet vergezeld gaan van een gegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie de Dossiers van [Gegevens voor de Rapporten van de Audience Optimization en Acteerbare Logdossiers](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
+Een overzicht van metagegevens en hoe deze worden gebruikt. Een metagegevensbestand moet vergezeld gaan van een gegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie [Gegevensdossiers voor de Rapporten van de Audience Optimization en Acteerbare Logdossiers](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md).
 
 ### Metagegevensbestanden bevatten gegevens over andere gegevens
 
-Een metagegevensbestand bevat informatie over andere typen gegevens. Om u te helpen begrijpen hoe dit werkt, bekijken wij hoe [!DNL Audience Manager] ontvangt gegevens.
+Een metagegevensbestand bevat informatie over andere typen gegevens. Om u te helpen begrijpen hoe dit werkt, herzien hoe [!DNL Audience Manager] gegevens ontvangt.
 
 Tijdens een indruk of klikgebeurtenis, [!DNL Audience Manager] ontvangt gegevens in een koord URL dat als *gebeurtenisvraag* wordt bekend.
 
@@ -39,19 +39,19 @@ Een metagegevensbestand met de juiste indeling kan dit creatieve bestand echter 
 
 ### Wanneer hebt u een metagegevensbestand nodig
 
-Eerst, worden een meta-gegevensdossier, en alle hieronder vermelde parameters, vereist in een gebeurtenisvraag wanneer u de Rapporten [van de](../../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audience Optimization wilt gebruiken.
+Eerst, worden een meta-gegevensdossier, en alle hieronder vermelde parameters, vereist in een gebeurtenisvraag wanneer u [Audience Optimization Rapporten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) wilt gebruiken.
 
-Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar verzendt [!DNL Audience Manager] of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. Bevat bijvoorbeeld [!DNL Audience Manager] een integratie met Google&#39;s [Dubbelklik op Campagne Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Wegens deze verhouding, [!DNL Audience Manager] kan identiteitskaarts met namen en beschrijvingen associëren die door de rapportopties worden gebruikt. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
+Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar [!DNL Audience Manager] verzendt of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. [!DNL Audience Manager] heeft bijvoorbeeld een integratie met [Dubbelklik op Campagne Manager](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM) van Google. Wegens deze verhouding, [!DNL Audience Manager] kan IDs met namen en beschrijvingen associëren die door de rapportopties worden gebruikt. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
 
 ![afbeelding in menu Metagegevens](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_menu.png)
 
 ## Bestandstoewijzingen {#file-mappings}
 
-De volgende lijst maakt een lijst van de zeer belangrijk-waardeparen die gegevens houden die door de [!UICONTROL Audience Optimization] rapporten worden gebruikt. Als u een metagegevensbestand moet gebruiken, bevat het leesbare informatie die overeenkomt met de waarden in deze sleutelwaardeparen. De waarden voor deze toetsen accepteren alleen gehele getallen (gegevenstype INT). Opmerking: *cursief* geeft een variabele plaatsaanduiding aan. Andere elementen zijn constanten of sleutels en veranderen niet.
+De volgende lijst maakt een lijst van de zeer belangrijk-waardeparen die gegevens houden die door [!UICONTROL Audience Optimization] rapporten worden gebruikt. Als u een metagegevensbestand moet gebruiken, bevat het leesbare informatie die overeenkomt met de waarden in deze sleutelwaardeparen. De waarden voor deze toetsen accepteren alleen gehele getallen (gegevenstype INT). Opmerking: *cursief* geeft een variabele plaatsaanduiding aan. Andere elementen zijn constanten of sleutels en veranderen niet.
 
 >[!IMPORTANT]
 >
->Als u de [!UICONTROL Audience Optimization] rapporten gebruikt, worden *al* deze waarden vereist in de gebeurtenisvraag.
+>Als u de [!UICONTROL Audience Optimization] rapporten gebruikt, *al* van deze waarden worden vereist in de gebeurtenisvraag.
 
 <table id="table_B2C8C493080E449CA71C4EF07D9476BD"> 
  <thead> 
@@ -63,7 +63,7 @@ De volgende lijst maakt een lijst van de zeer belangrijk-waardeparen die gegeven
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adverteerder </p> </td> 
-   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dit is de gegevensbronidentiteitskaart van de adverteerder of integratiecode die wanneer het creëren van een gegevensbron wordt verstrekt. See <a href="../../../features/manage-datasources.md#create-data-source"> Create a Data Source</a>. </p> </td> 
+   <td colname="col2"> <p> <code>d_adsrc = <i>data source ID or integration code</i></code> </p> <p>Dit is de gegevensbronidentiteitskaart van de adverteerder of integratiecode die wanneer het creëren van een gegevensbron wordt verstrekt. Zie <a href="../../../features/manage-datasources.md#create-data-source"> Een gegevensbron maken</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bedrijfseenheid (BU) </p> </td> 
@@ -91,7 +91,7 @@ De volgende lijst maakt een lijst van de zeer belangrijk-waardeparen die gegeven
   </tr> 
   <tr> 
    <td colname="col1"> <p>Platform </p> </td> 
-   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Dit is de <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> gegevensbron</a> -id voor het platform dat metagegevens verschaft (bijvoorbeeld DFA, Atlas, GBM, MediaMath, enz.). </p> </td> 
+   <td colname="col2"> <p> <code>d_src = <i>data source ID</i></code> </p> <p>Dit is de <a href="../../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> gegevensbron</a> ID voor het platform dat meta-gegevensinformatie (b.v., DFA, Atlas, GBM, MediaMath, enz.) verstrekt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tactisch </p> </td> 
@@ -104,13 +104,13 @@ De volgende lijst maakt een lijst van de zeer belangrijk-waardeparen die gegeven
  </tbody> 
 </table>
 
-## Hoe ID&#39;s van gebeurtenisaanroepen de namen, inhoud en leveringspaden vormen {#how-ids-shape-file-names}
+## Hoe IDs van de Vraag van de Gebeurtenis de Namen van het Dossier, Inhoud, en de Wegen van de Levering {#how-ids-shape-file-names} vormen
 
 Met de id&#39;s die door deze sleutelwaardeparen worden doorgegeven, kunt u de naam en inhoud van het metagegevensbestand maken. De volgende secties en illustraties tonen hoe dit werkt. Deze voorbeelden bouwen een dossier dat de naam van creatief in een campagne bevat, maar andere combinaties zijn mogelijk.
 
 ### Gebeurtenisoproep
 
-In dit voorbeeld maken we een metagegevensbestand dat creatieve namen aan een [!UICONTROL Audience Optimization] rapport toevoegt. Hiervoor moeten we creatieve id&#39;s, campagne- en gegevensbronid&#39;s ophalen uit een gebeurtenisaanroep.
+In dit voorbeeld zullen wij een meta-gegevensdossier creëren dat creatieve namen binnen aan een [!UICONTROL Audience Optimization] rapport brengt. Hiervoor moeten we creatieve id&#39;s, campagne- en gegevensbronid&#39;s ophalen uit een gebeurtenisaanroep.
 
 ![gebeurteniscall image](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
 
@@ -126,19 +126,19 @@ In een bestandsnaam:
 
 ![hoe wordt een bestandsnaam samengesteld](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
-See [Naming Conventions for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+Zie [Naamgevingsconventies voor metagegevensbestanden](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Bestandsinhoud
 
-In dit voorbeeld weerspiegelt de bestandsinhoud de creatieve id&#39;s en campagne-id&#39;s die zijn doorgegeven aan de gebeurtenisaanroep. Het nieuwe element hier is een leesbare naam. Na verwerking wordt de naam in dit bestand als een optie weergegeven in het menu Creatief van een [!UICONTROL Audience Optimization] rapport.
+In dit voorbeeld weerspiegelt de bestandsinhoud de creatieve id&#39;s en campagne-id&#39;s die zijn doorgegeven aan de gebeurtenisaanroep. Het nieuwe element hier is een leesbare naam. Na verwerking wordt de naam in dit bestand als een optie weergegeven in het menu Creatief van een [!UICONTROL Audience Optimization]-rapport.
 
 ![inhoud van een metagegevensbestand](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 
-See [Content Format for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
+Zie [Indeling van inhoud voor metagegevensbestanden](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Bestandslevering
 
-Nadat u een naam hebt gegeven en gegevens aan een bestand hebt toegevoegd, verzendt u deze naar een Amazon S3-opslagmap die wordt geleverd door [!DNL Audience Manager]. See [Delivery Methods for Metadata Files](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Nadat u de gegevens een naam hebt gegeven en ze aan een bestand hebt toegevoegd, verzendt u deze naar een Amazon S3-opslagmap die wordt geleverd door [!DNL Audience Manager]. Zie [Leveringsmethoden voor metagegevensbestanden](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
