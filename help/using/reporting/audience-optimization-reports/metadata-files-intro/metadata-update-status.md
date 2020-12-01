@@ -19,7 +19,7 @@ ht-degree: 0%
 
 De S3 statusfolder houdt een `.info` dossier met succes en mislukkingsinformatie over uw geupload dossiers. Het bestand bevat gegevens met JSON-indeling met statusresultaten in een array.
 
-De inhoud van het `.info` bestand ziet er ongeveer hetzelfde uit als in dit voorbeeld.
+De inhoud van het `.info`-bestand ziet er ongeveer hetzelfde uit als in dit voorbeeld.
 
 ```js
 //sample file path
@@ -62,7 +62,7 @@ De inhoud van het `.info` bestand ziet er ongeveer hetzelfde uit als in dit voor
 
 ## Metagegevens sleutelwaardeparen gedefinieerd {#key-value-pairs}
 
-In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties van een statusbestand voor metagegevens vermeld en gedefinieerd.
+In de volgende tabellen worden de sleutels vermeld en gedefinieerd in de secties `Files` en `Summary` van een statusbestand voor metagegevens.
 
 **Toetsen in de bestandenarray**
 
@@ -84,19 +84,19 @@ In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties va
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>De MD 5-controlesom voor het metagegevensbestand dat naar uw <code> meta</code> map is geüpload. </p> </td> 
+   <td colname="col2"> <p>De MD 5 checksum voor het meta-gegevensdossier dat aan uw <code> meta</code> folder wordt geupload. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>De naam van het metagegevensbestand dat naar de <code> meta</code> map is geüpload. </p> </td> 
+   <td colname="col2"> <p>De naam van het metagegevensbestand dat naar de map <code> meta</code> is geüpload. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de onderliggende id in uw bestandsnaam. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de onderliggende id in uw bestandsnaam. </p> <p>Zie <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naamgevingsconventies voor metagegevensbestanden</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de bovenliggende id in uw bestandsnaam. </p> <p>See <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naming Conventions for Metadata Files</a>. </p> </td> 
+   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de bovenliggende id in uw bestandsnaam. </p> <p>Zie <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naamgevingsconventies voor metagegevensbestanden</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -121,7 +121,7 @@ In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties va
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Datum bestandsverwerking in <code><i>yyyy-mm-dd</i></code> indeling. </p> </td> 
+   <td colname="col2"> <p>Datum bestandsverwerking in <code><i>yyyy-mm-dd</i></code>-indeling. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 
