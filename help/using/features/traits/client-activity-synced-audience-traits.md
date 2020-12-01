@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # Actieve doelgroepeigenschappen en met databron gesynchroniseerde eigenschappen {#active-audience-traits-and-data-source-synced-traits}
 
-Dit zijn speciale kenmerken die worden gebruikt door [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] en [!UICONTROL Data Source Synced Traits] bevinden zich in [!UICONTROL Audience Data > Traits > Audience Traits].
+Dit zijn speciale kenmerken die worden gebruikt door [!UICONTROL Addressable Audiences]. [!UICONTROL Active Audience] en  [!UICONTROL Data Source Synced Traits] bevinden zich in  [!UICONTROL Audience Data > Traits > Audience Traits].
 
 >[!NOTE]
 >
@@ -25,19 +25,19 @@ Dit zijn speciale kenmerken die worden gebruikt door [!UICONTROL Addressable Aud
 
 ## Actieve doelgroepen {#active-audience-traits}
 
-Een [!UICONTROL Active Audience] kenmerk bevat alle apparaten die in uw [!DNL Audience Manager] account worden beheerd. U kunt een [!UICONTROL Active Audience Trait] vergelijkbaar patroon gebruiken wanneer u segmenten maakt of bewerkt. Ook, vereist het [Adresseerbare publiek](../../features/addressable-audiences.md) dit spoor om overlappende gegevens te produceren. Alle accounts hebben standaard een [!UICONTROL Active Audience] kenmerk. Deze eigenschap kan niet worden verwijderd.
+Een [!UICONTROL Active Audience]-kenmerk bevat alle apparaten die in uw [!DNL Audience Manager]-account worden beheerd. U kunt een [!UICONTROL Active Audience Trait] als andere eigenschappen gebruiken wanneer u segmenten bouwt of uitgeeft. Daarnaast vereist [Adresseerbare soorten publiek](../../features/addressable-audiences.md) dit kenmerk om overlappende gegevens te genereren. Alle accounts hebben standaard een [!UICONTROL Active Audience]-kenmerk. Deze eigenschap kan niet worden verwijderd.
 
-## Gegevensbron gesynchroniseerde kenmerken {#data-source-synced-traits}
+## Gegevensbron gesynchroniseerde handelsstromen {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] verschijnen in de [!UICONTROL Audience Traits] omslag wanneer u [creeert of een gegevensbron](../../features/manage-datasources.md#create-data-source) uitgeeft en één van beiden van deze montages toepast:
+[!UICONTROL Data Source Synced Traits] verschijnen in de  [!UICONTROL Audience Traits] omslag wanneer u  [creeert of een ](../../features/manage-datasources.md#create-data-source) gegevensbron uitgeeft en één van beiden van deze montages toepast:
 
 ![](assets/datasource_synced.png)
 
-[!UICONTROL Data Source Synced Traits] volgt alle gebruikers verbonden aan een gegevensbron. U kunt een [!UICONTROL Data Source Synched Trait] vergelijkbaar patroon gebruiken wanneer u segmenten maakt of bewerkt. Wanneer u een [!UICONTROL Data Source Synced Trait]eigenschap maakt, komt de naam van het kenmerk overeen met de naam die door de gegevensbron wordt gebruikt. Bewerk de gegevensbron om de naam van de eigenschap te wijzigen. Deze kenmerken kunnen niet worden verwijderd.
+[!UICONTROL Data Source Synced Traits] volgt alle gebruikers verbonden aan een gegevensbron. U kunt een [!UICONTROL Data Source Synched Trait] als andere eigenschappen gebruiken wanneer u segmenten bouwt of uitgeeft. Wanneer u een [!UICONTROL Data Source Synced Trait] creeert, past de handelsnaam de naam aan die door uw gegevensbron wordt gebruikt. Bewerk de gegevensbron om de naam van de eigenschap te wijzigen. Deze kenmerken kunnen niet worden verwijderd.
 
 >[!TIP]
 >
->[!UICONTROL Data Source Synced Traits] zijn nuttig voor het oplossen van problemen. Klik op de naam van een kenmerk om de meetgegevens op de overzichtspagina van het kenmerk te controleren. Als uw geselecteerde eigenschap gegevens terugkeert, dat erop wijst het proces van de synchronisatie van identiteitskaart opstelling behoorlijk is en duwend op gegevens aan [!DNL Audience Manager].
+>[!UICONTROL Data Source Synced Traits] zijn nuttig voor het oplossen van problemen. Klik op de naam van een kenmerk om de meetgegevens op de overzichtspagina van het kenmerk te controleren. Als uw geselecteerde eigenschap gegevens terugkeert, dat erop wijst het proces van de synchronisatie van identiteitskaart behoorlijk opstelling en duwend gegevens aan [!DNL Audience Manager] is.
 
 >[!MORELIKETHIS]
 >
