@@ -20,9 +20,9 @@ De realisaties van het terugvullingsspoor om historische publiek te vangen en ve
 
 >[!IMPORTANT]
 >
->[!UICONTROL Data Explorer Trait Backfill] is een premiumfunctie die de Audience Manager-ervaring vergroot door het ontgrendelen van extra gebruiksgevallen. Voor back-up is extra verwerkingskracht nodig en deze is tegen extra kosten beschikbaar voor alle klanten van de Audience Manager. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
+>[!UICONTROL Data Explorer Trait Backfill] is een premiumfunctie die de Audience Manager-ervaring vergroot door het ontgrendelen van extra gebruiksgevallen. Voor back-up is extra verwerkingskracht nodig en deze is tegen extra kosten beschikbaar voor alle klanten van de Audience Manager. Neem contact op met uw Adobe-verkoper voor meer informatie.
 
-Wanneer u eigenschappen van ongebruikte signalen creeert, kunt u verkiezen om de karakterrealisaties over een specifieke periode te herhalen. [!DNL Audience Manager] vangt de historische gegevens over publiek dat voor het nieuwe spoor in aanmerking komt en slaat hen op het overeenkomstige profiel op. U kunt de sectie **[!UICONTROL Backfill Options]** in de [!UICONTROL Trait Expression] sectie van de **[Trait Builder](../../features/traits/about-trait-builder.md)**zien.
+Wanneer u eigenschappen van ongebruikte signalen creeert, kunt u verkiezen om de karakterrealisaties over een specifieke periode te herhalen. [!DNL Audience Manager] vangt de historische gegevens over publiek dat voor het nieuwe spoor in aanmerking komt en slaat hen op het overeenkomstige profiel op. U kunt **[!UICONTROL Backfill Options]** in [!UICONTROL Trait Expression] sectie van **[Trait Builder](../../features/traits/about-trait-builder.md)** zien.
 
 >[!NOTE]
 >
@@ -30,13 +30,13 @@ Wanneer u eigenschappen van ongebruikte signalen creeert, kunt u verkiezen om de
 
 Hieronder wordt beschreven hoe u de gemaakte fouten kunt terugvullen:
 
-1. Ga naar [!UICONTROL Audience Data > Signals > Search] en voer een Signals-zoekopdracht uit of gebruik het [Signals-dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) om de signalen te identificeren die in het nieuwe kenmerk moeten worden gebruikt.
+1. Ga naar [!UICONTROL Audience Data > Signals > Search] en voer een Signals Onderzoek in of gebruik [Signals Dashboard](../../features/data-explorer/data-explorer-signals-dashboard.md) om de signalen te identificeren in het nieuwe bezit te gebruiken.
 1. Maak een nieuw kenmerk op basis van de gewenste signalen.
-1. Gebruik het **[!UICONTROL Backfill Options]** gedeelte in de **[!UICONTROL Trait Expression]** sectie om het tijdinterval te selecteren waarvoor u de resultaten van de eigenschap wilt terugvullen. Vooraf gedefinieerde backfill-intervallen zijn 1, 7, 14 en 30 dagen. U kunt ook een aangepast datumbereik van maximaal 30 dagen kiezen.
+1. Gebruik **[!UICONTROL Backfill Options]** in de **[!UICONTROL Trait Expression]** sectie om het tijdinterval te selecteren waarvoor u de verwezenlijking van de het dienstreis wilt terugvullen. Vooraf gedefinieerde backfill-intervallen zijn 1, 7, 14 en 30 dagen. U kunt ook een aangepast datumbereik van maximaal 30 dagen kiezen.
 
    ![trait-backfill](assets/signals-trait-backfill.png)
 
-1. (Optioneel) Klik **[!UICONTROL Estimate Realizations]** in de **[!UICONTROL Estimated Trait Realizations]** sectie om de geschatte [!UICONTROL Unique Trait Realizations] en [!UICONTROL Total Trait Population] waarden van de teruggevulde eigenschap in de afgelopen 7 dagen te bekijken.
+1. (Optioneel) Klik op **[!UICONTROL Estimate Realizations]** in de sectie **[!UICONTROL Estimated Trait Realizations]** om de geschatte [!UICONTROL Unique Trait Realizations]- en [!UICONTROL Total Trait Population]-waarden voor de teruggevulde eigenschap in de afgelopen 7 dagen te bekijken.
 
    ![ramen en waarheidsgetrouwheid](assets/estimate-trait-realizations.png)
 
@@ -55,11 +55,11 @@ Bekijk de video hieronder voor een videodemonstratie van hoe u terugvullingseige
 
 >[!VIDEO](https://video.tv.adobe.com/v/25169/)
 
-## Latentie achtergrondvulling afsluiten {#trait-backfilling-latency}
+## Latentie achtergrondvulling {#trait-backfilling-latency}
 
-Nieuwe traits maken het publiek twee tot drie uur na het maken vast. Vanwege het grote gegevensvolume dat dagelijks [!DNL Audience Manager] wordt uitgevoerd, wordt de achtergevulde populatie echter niet onmiddellijk weergegeven in de [!UICONTROL Unique Trait Realizations] en [!UICONTROL Total Trait Population] grafieken.
+Nieuwe traits maken het publiek twee tot drie uur na het maken vast. Vanwege het grote gegevensvolume dat [!DNL Audience Manager] dagelijks uitvoert, wordt de teruggevulde populatie echter niet onmiddellijk weerspiegeld in de [!UICONTROL Unique Trait Realizations]- en [!UICONTROL Total Trait Population]-grafieken.
 
-Audience Manager werkt het systeem binnen 48 uur na het creëren van de eigenschap bij [!UICONTROL Trait Graph] met de opgevulde populatie.
+Audience Manager werkt [!UICONTROL Trait Graph] met de achtergevulde populatie bij binnen 48 uur na het creëren van de eigenschap.
 
 ## Limiet voor achteruitvullen {#trait-backfilling-limit}
 
@@ -69,8 +69,8 @@ Audience Manager werkt het systeem binnen 48 uur na het creëren van de eigensch
 >
 >De quota voor het terugvullen van de tonijn worden niet overgedragen van de vorige maanden. Bijvoorbeeld, als u 30 eigenschappen deze maand terugvult, wordt het quotum van de standaard backfill voor de volgende maand teruggesteld aan 50, niet 70.
 
-## Gevolgen voor de verslaglegging {#reporting-impact}
+## Gevolgen voor rapportage {#reporting-impact}
 
-De achtergevulde het eigenlijke realisaties worden weerspiegeld in de [!UICONTROL Unique Trait Realizations] en [!UICONTROL Total Trait Population] metriek, aangezien [!DNL Audience Manager] verandert historische signalen in tekrealisaties.
+Achtergevulde taakrealisaties worden weerspiegeld in de meetwaarden [!UICONTROL Unique Trait Realizations] en [!UICONTROL Total Trait Population], aangezien [!DNL Audience Manager] historische signalen omzet in tekrealisaties.
 
-Nochtans, [!UICONTROL Trait Graph], [!UICONTROL General Reports]en [!UICONTROL Trend Reports] niet met terugwerkende kracht bijgewerkt met historische metriek die vóór de datum van de eigenschapverwezenlijking worden teruggevuld.
+De [!UICONTROL Trait Graph], [!UICONTROL General Reports] en [!UICONTROL Trend Reports] worden echter niet retroactief bijgewerkt met historische meetgegevens die vóór de aanmaakdatum van de eigenschap zijn teruggezet.
