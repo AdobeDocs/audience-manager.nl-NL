@@ -22,11 +22,11 @@ Gebruikers die geen beheerder zijn, kunnen hun eigen profielen bewerken, waarond
 
 <!-- t_edit_account_settings.xml -->
 
-Admin-gebruikers kunnen gebruikers maken en deze toevoegen aan groepen voor machtigingsdoeleinden, zoals wordt uitgelegd in [Gebruikers](../../features/administration/administration-overview.md#create-users) maken en [Een groep](../../features/administration/administration-overview.md#create-group)maken.
+Admin-gebruikers kunnen gebruikers maken en deze toevoegen aan groepen voor machtigingsdoeleinden, zoals wordt uitgelegd in [Gebruikers maken](../../features/administration/administration-overview.md#create-users) en [Een groep maken](../../features/administration/administration-overview.md#create-group).
 
 1. Klik in de koptekst van de Audience Manager op ![](assets/icon_profile.png).
-1. Klik **[!UICONTROL Account Settings]** en klik vervolgens **[!UICONTROL Edit]** om de [!UICONTROL My Account] pagina weer te geven.
-1. Geef in het **[!UICONTROL Email Address]** veld desgewenst uw nieuwe e-mailadres op. Audience Manager verzendt geen regelmatig bericht naar gebruikers. Beheerders van Audience Managers hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig via e-mail versturen. Als een gebruiker bijvoorbeeld zijn of haar wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
+1. Klik **[!UICONTROL Account Settings]**, dan klik **[!UICONTROL Edit]** om [!UICONTROL My Account] pagina te tonen.
+1. Geef in het veld **[!UICONTROL Email Address]** desgewenst uw nieuwe e-mailadres op. Audience Manager verzendt geen regelmatig bericht naar gebruikers. Beheerders van Audience Managers hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig via e-mail versturen. Als een gebruiker bijvoorbeeld zijn of haar wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
 1. Als u het wachtwoord opnieuw wilt instellen, geeft u het huidige wachtwoord op, geeft u het nieuwe wachtwoord op en bevestigt u het nieuwe wachtwoord.
-See also, [Password Requirements, Locked Accounts, and Forgotten Passwords](../../reference/password-requirements.md).
+Zie ook [Wachtwoordvereisten, Vergrendelde accounts en Gevergeten wachtwoorden](../../reference/password-requirements.md).
 1. Klik op **[!UICONTROL Save]**.
