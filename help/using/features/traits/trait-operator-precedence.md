@@ -37,7 +37,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> Vergelijkingsoperatoren </td> 
-   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
+   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
    <td colname="col3"> Vervolgens wordt minder dan, groter dan, kleiner dan/gelijk aan, groter dan/gelijk aan geëvalueerd. </td> 
   </tr> 
   <tr> 
@@ -46,12 +46,12 @@ ht-degree: 9%
    <td colname="col3"> Gelijk aan, niet gelijk aan worden geëvalueerd na de vorige exploitanten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleaanse <span class="wintitle"> EN</span> </td> 
+   <td colname="col1">Boolean <span class="wintitle"> AND</span> </td> 
    <td colname="col2"><span class="wintitle"> AND</span> </td> 
    <td colname="col3" morerows="1"> n.v.t. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolean <span class="wintitle"> OR</span> </td> 
+   <td colname="col1">Booleaans <span class="wintitle"> OF</span> </td> 
    <td colname="col2"><span class="wintitle"> OF</span> </td> 
    <td colname="col3" morerows="1"> n.v.t. </td> 
   </tr> 
