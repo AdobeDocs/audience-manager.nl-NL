@@ -1,6 +1,6 @@
 ---
-description: Geef het metagegevensbestand voor de optimalisatie van het publiek een naam volgens deze specificaties.
-seo-description: Geef het metagegevensbestand voor de optimalisatie van het publiek een naam volgens deze specificaties.
+description: Geef het bestand met Audience Optimization-metagegevens een naam op basis van deze specificaties.
+seo-description: Geef het bestand met Audience Optimization-metagegevens een naam op basis van deze specificaties.
 seo-title: Naamgevingsconventies voor metadatabestanden
 solution: Audience Manager
 title: Naamgevingsconventies voor metadatabestanden
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # Naamgevingsconventies voor metadatabestanden{#naming-conventions-for-metadata-files}
 
-Geef het metagegevensbestand voor de optimalisatie van het publiek een naam volgens deze specificaties.
+Geef het bestand met Audience Optimization-metagegevens een naam op basis van deze specificaties.
 
 ## Syntaxis- en id-categorieën {#syntax}
 
@@ -27,14 +27,14 @@ De volgende syntaxis definieert de structuur van een correct gevormde naam van e
 
 >[!NOTE]
 >
->*Gebruik geen* bestandsextensies in de metagegevensbestanden (.txt of andere).
+>*Gebruik* geen bestandsextensies in de metagegevensbestanden (.txt of andere).
 
 <!--In the name syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file contents](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md). These 2 variables seem similar, but they represent different things:-->
 
-* De middelste component **0** is technisch gezien de Bovenliggende id, die een verouderd veld is. De waarde moet altijd worden ingesteld op **0**.
+* De middelste component **0** is technisch de Bovenliggende id, die een verouderd gebied is. De waarde moet altijd worden ingesteld als **0**.
 * De onderliggende id kan een waarde tussen 1 en 10 hebben, afhankelijk van de dimensie. Zie hieronder:
 
-## Dimensies van onderliggende id&#39;s {#child-dimension}
+## Afmetingen onderliggende id {#child-dimension}
 
 In de naam van het metagegevensbestand is de onderliggende id een id waarmee het type gegevens in een bestand wordt geclassificeerd en in een hiërarchie wordt geplaatst. U kunt de onderliggende id in de bestandsnaam labelen met de volgende categorie-id&#39;s:
 
