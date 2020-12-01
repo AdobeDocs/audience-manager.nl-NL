@@ -17,11 +17,11 @@ ht-degree: 9%
 
 # Weergave Segmentenlijst {#segments-list-view}
 
-Het dashboard [](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) Segmenten is een gecentraliseerde werkruimte voor het beheer van uw publiekssegmenten. U kunt het [!UICONTROL Segments] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** te navigeren.
+Het [dashboard van Segmenten](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) is een gecentraliseerde werkruimte voor het beheren van uw publiekssegmenten. U kunt het [!UICONTROL Segments] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** te navigeren.
 
 ![segments-dashboard](assets/segments-dashboard.png)
 
-De [!UICONTROL Segments] pagina bevat functies en gereedschappen die u helpen:
+De pagina [!UICONTROL Segments] bevat functies en gereedschappen die u helpen:
 
 * Nieuwe segmenten maken;
 * Segmenten bewerken en verwijderen;
