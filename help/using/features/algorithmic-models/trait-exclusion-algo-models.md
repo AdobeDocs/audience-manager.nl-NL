@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Look-alike modellering: eigenschappen uitsluiten {#algorithmic-models-trait-exclusion}
 
-[!UICONTROL Trait Exclusion] biedt extra besturingselementen in uw modelleringsworkflow, zodat u de vereiste beveiligingsrails aan het model kunt toevoegen op basis van uw expertise op het domein en uw vereisten op het gebied van regelgeving. Gebruik de [!UICONTROL Exclusions] optie om te selecteren welke kenmerken moeten worden genegeerd wanneer het creëren van modellen van één of meerdere gegevensbronnen.
+[!UICONTROL Trait Exclusion] biedt extra besturingselementen in uw modelleringsworkflow, zodat u de vereiste beveiligingsrails aan het model kunt toevoegen op basis van uw expertise op het domein en uw vereisten op het gebied van regelgeving. Gebruik de optie [!UICONTROL Exclusions] om aan te geven welke kenmerken moeten worden genegeerd bij het maken van modellen uit een of meer gegevensbronnen.
 
-## Gevallen gebruiken {#use-cases}
+## Gevallen {#use-cases} gebruiken
 
-Hier volgen enkele gebruikssituaties die u kunt aanpakken met [!UICONTROL Trait Exclusion]:
+Hier volgen enkele gebruiksgevallen die u kunt aanpakken met [!UICONTROL Trait Exclusion]:
 
 * [!UICONTROL Trait Exclusion] kunt u bepaalde catch-all-kenmerken uitsluiten, zoals bezoekerskenmerken van de site, zodat u het model niet kunt beïnvloeden, wat leidt tot vlakke resultaten.
 * U kunt kenmerken verwijderen die u niet kent of die u niet vertrouwt van een gegevensbron, om de invloedrijke kenmerken beter te begrijpen.
@@ -28,18 +28,18 @@ Hier volgen enkele gebruikssituaties die u kunt aanpakken met [!UICONTROL Trait 
 
 >[!IMPORTANT]
 >
->Een belangrijke opmerking over het derde geval van gebruik. Als de externe gegevensaanbieder een nieuw demografisch kenmerk aan de gegevensfeed toevoegt *nadat u het model* hebt gemaakt, wordt het kenmerk automatisch opgepakt door het model. U kunt kenmerken niet uitsluiten van modellering nadat u het model hebt gemaakt. Zie [Belangrijke aspecten en beperkingen](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Wees voorzichtig bij het gebruik van deze functie en werk met de gegevensaanbieder om ervoor te zorgen dat u op de hoogte bent van wijzigingen in de voederstructuur.
+>Een belangrijke opmerking over het derde geval van gebruik. Als de externe gegevensaanbieder een nieuw demografisch kenmerk aan de gegevensfeed toevoegt *nadat u het model hebt gemaakt*, wordt het kenmerk automatisch opgepakt door het model. U kunt kenmerken niet uitsluiten van modellering nadat u het model hebt gemaakt. Zie [Belangrijke aspecten en beperkingen](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Wees voorzichtig bij het gebruik van deze functie en werk met de gegevensaanbieder om ervoor te zorgen dat u op de hoogte bent van wijzigingen in de voederstructuur.
 
 ![](assets/lam_exclude_traits.png)
 
-## Uitsluitingen trace gebruiken {#how-to-use}
+## Hoe te om de Uitsluitingen van het Spoor {#how-to-use} te gebruiken
 
-Met de workflow [Een model](../../features/algorithmic-models/create-model.md#build-model) maken kunt u nieuwe algoritmische modellen maken.
+Met de [Build a model](../../features/algorithmic-models/create-model.md#build-model)-workflow kunt u nieuwe algoritmische modellen maken.
 
-1. De [!UICONTROL Exclusions] selectie wordt grijs weergegeven totdat u een of meer gegevensbronnen selecteert voor modellering.
-2. Druk op **[!UICONTROL Browse All Traits]** nadat u een of meer gegevensbronnen voor modellering hebt geselecteerd.
-3. In het **[!UICONTROL Select Traits to Exclude]** venster ziet u alle kenmerken die zijn gekoppeld aan de gegevensbronnen die u eerder hebt geselecteerd. Selecteer de kenmerken die u wilt uitsluiten.
-4. U kunt de kenmerken filteren op type kenmerk, type traitepopulatie ([apparaat-id](../../reference/ids-in-aam.md) en [apparaat-id](../../reference/ids-in-aam.md)) of u kunt door de traitmappen bladeren. Merk op dat de reisomslagen slechts de eigenschappen tonen verbonden aan uw geselecteerde gegevensbronnen.
+1. De selectie [!UICONTROL Exclusions] wordt grijs weergegeven totdat u een of meer gegevensbronnen selecteert voor modellering.
+2. Nadat u een of meer gegevensbronnen voor modellering hebt geselecteerd, drukt u op **[!UICONTROL Browse All Traits]**.
+3. In het venster **[!UICONTROL Select Traits to Exclude]** kunt u alle eigenschappen zien verbonden aan de gegevensbronnen u eerder selecteerde. Selecteer de kenmerken die u wilt uitsluiten.
+4. U kunt de kenmerken filteren op type eigenschap, type traitepopulatie ([Apparaat-id](../../reference/ids-in-aam.md) en [Apparaatoverschrijdende id](../../reference/ids-in-aam.md)), of u kunt door de traitmappen bladeren. Merk op dat de handelsomslagen slechts de eigenschappen tonen verbonden aan uw geselecteerde gegevensbronnen.
 5. Druk op **[!UICONTROL Exclude Selected Traits]**.
 
 ![traditionele uitsluitingen](assets/trait-exclusions-browse-traits.png)
@@ -58,7 +58,7 @@ Bekijk de video hieronder voor een gedetailleerde uitleg van de werking van maat
 
 ## Belangrijke aspecten en beperkingen {#important-aspects-and-limitations}
 
-Houd rekening met de volgende aspecten en beperkingen in verband met [!UICONTROL Trait Exclusion]:
+Houd rekening met de volgende aspecten en beperkingen met betrekking tot [!UICONTROL Trait Exclusion]:
 
 <table id="table_BA5C3545BC9E4717BD567B00C803AA53"> 
  <thead> 
@@ -70,14 +70,14 @@ Houd rekening met de volgende aspecten en beperkingen in verband met [!UICONTROL
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Uitgesloten traits in Modellen - overzichtsweergave </p> </td>
-   <td colname="col2"> <p>De uitgesloten kenmerken worden <i>niet weergegeven</i> in de overzichtsweergave Modellen. U kunt de uitgesloten kenmerken alleen zien in de workflow Model <b><span class="uicontrol"></span></b> bewerken. </p> </td>
+   <td colname="col2"> <p>De uitgesloten kenmerken <i>worden niet weergegeven in de overzichtsweergave Modellen. </i> U kunt de uitgesloten eigenschappen slechts in <b><span class="uicontrol"> zien uitgeven Model</span></b> werkschema. </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rolgebaseerde toegangscontroles (RBAC) </p> </td>
-   <td colname="col2"> <p>Houd rekening met de volgende beperkingen voor bedrijven die <a href="../../features/administration/administration-overview.md#administration"> RBAC</a>gebruiken: </p> <p>
+   <td colname="col2"> <p>Houd rekening met de volgende beperkingen voor bedrijven die <a href="../../features/administration/administration-overview.md#administration"> RBAC</a> gebruiken: </p> <p>
      <ul id="ul_38A4056C235B428C822EA4A353893786"> 
-      <li id="li_2624FB35581F4807B8530910D63FFDBF">Als u geen toegang hebt om een eigenschap weer te geven, <i>kunt u die eigenschap niet</i> selecteren om van het model te worden uitgesloten. </li>
-      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Als u geen toegang hebt om een eigenschap weer te geven, <i>kunt u die eigenschap niet</i> bekijken in de lijst met uitgesloten onderdelen. </li>
+      <li id="li_2624FB35581F4807B8530910D63FFDBF">Als u geen toegang hebt om een eigenschap te bekijken, kunt u <i>niet </i> selecteren dat bezit om van het model worden uitgesloten. </li>
+      <li id="li_3FD7A12AAAA8462EA84A760C05F20379">Als u geen toegang hebt om een eigenschap te bekijken, kunt u <i>niet</i> bekijken die eigenschap in de uitgesloten lijst van eigenschappen. </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
@@ -90,12 +90,12 @@ Houd rekening met de volgende aspecten en beperkingen in verband met [!UICONTROL
   </tr> 
   <tr> 
    <td colname="col1"> <p>Uitsluiten van basislijnkenmerk </p> </td>
-   <td colname="col2"> <p>De basislijneigenschap wordt standaard uitgesloten, zodat deze niet wordt weergegeven in de lijst <b><span class="uicontrol"> Uitsluitingen</span></b> bij het maken van het model. </p> </td>
+   <td colname="col2"> <p>De basislijneigenschap wordt standaard uitgesloten, zodat deze niet wordt weergegeven in de lijst <b><span class="uicontrol"> Exclusies</span></b> wanneer het model wordt gemaakt. </p> </td>
   </tr>
  </tbody>
 </table>
 
-Bekijk de onderstaande video om te leren hoe en waarom u specifieke kenmerken van een [!UICONTROL Look-Alike Model]afbeelding wilt uitsluiten.
+Bekijk de video hieronder om te leren hoe en waarom om specifieke eigenschappen van [!UICONTROL Look-Alike Model] uit te sluiten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25569/)
 
