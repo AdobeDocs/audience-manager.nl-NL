@@ -23,11 +23,11 @@ In dit artikel worden de voorvoegsels beschreven die u aan belangrijke variabele
 
 ## Doel van voorvoegsels van hoofdvariabelen
 
-Wanneer u [!UICONTROL Trait Builder] regels maakt, is het belangrijk dat u een voorvoegsel aan de hoofdvariabele toevoegt. Deze voorvoegsels identificeren het type gegevens dat wordt doorgegeven en helpen naamruimteconflicten binnen te voorkomen [!DNL Audience Manager]. Over het algemeen, kunt u een variabele om het even welke naam geven, maar de gegevens voor een regel zullen niet verwerken als de zeer belangrijke veranderlijke naam niet de veranderlijke naam in een gebeurtenisvraag aanpast.
+Wanneer u [!UICONTROL Trait Builder] regels creeert, is het belangrijk om de zeer belangrijke variabele met een geadviseerd voorvoegsel voor te bereiden. Deze voorvoegsels identificeren het type gegevens dat wordt doorgegeven en helpen naamruimteconflicten binnen [!DNL Audience Manager] te voorkomen. Over het algemeen, kunt u een variabele om het even welke naam geven, maar de gegevens voor een regel zullen niet verwerken als de zeer belangrijke veranderlijke naam niet de veranderlijke naam in een gebeurtenisvraag aanpast.
 
 ## Voorvoegsels voor hoofdvariabelen
 
-In de volgende tabel worden de algemene voorvoegsels gedefinieerd die worden gebruikt door [!UICONTROL Trait Builder].
+In de volgende tabel worden de algemene voorvoegsels gedefinieerd die door [!UICONTROL Trait Builder] worden gebruikt.
 
 <table id="table_CFEFA1DBDF904736B6EA2640B7AD26E5"> 
  <thead> 
@@ -43,15 +43,15 @@ In de volgende tabel worden de algemene voorvoegsels gedefinieerd die worden geb
   </tr> 
   <tr> 
    <td colname="col1"><code> d_</code> </td> 
-   <td colname="col2"> <p>Op het niveau van de <span class="keyword"> Audience Manager</span> . Deze gegevens zijn uniform in het ecosysteem van de <span class="keyword"> Audience Manager</span> . Zie <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Gesteunde Attributen voor Vraag</a> DCS API voor een volledigere lijst.</p> </td> 
+   <td colname="col2"> <p>Op het niveau <span class="keyword"> Audience Manager</span>. Deze gegevens zijn uniform over het <span class="keyword"> ecosysteem </span>. Zie <a href="../../api/dcs-intro/dcs-api-reference/dcs-keys.md"> Gesteunde Attributen voor Vraag DCS API</a> voor een volledigere lijst.</p> </td> 
   </tr>
   <tr> 
    <td colname="col1"><code> h_</code> </td> 
-   <td colname="col2"> <p>Dat bevat <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP-headerinformatie</a> . Omvat kopbalparameters zoals <code> referer</code>,<code> IP</code>, <code> accept-language</code>enz. </p> <p> <p>Opmerking: Voor klanten die DIL versies ouder dan 9.0 gebruiken, zal de gegevensinzameling die het <code> h_referer</code> signaal gebruikt niet op browsers Safari werken. Met de introductie van <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, kunnen de browsers Safari het domein demdex.net als trekker classificeren en zullen de verwijzer op het verzoek van de gegevensinzameling bekorten om slechts de oorsprong in plaats van volledige URL te bevatten. Zie <a href="../../dil/dil-overview.md#get-implement-dil-code">het krijgen en het Uitvoeren van de Code</a> van DIL voor de recentste versie van DIL.<p>Signalen die dit voorvoegsel gebruiken, worden niet weergegeven in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signaal zoeken</a>.</p></p> </p> </td> 
+   <td colname="col2"> <p>Dat bevat <a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields" scope="external" format="html"> HTTP header</a> informatie. Omvat kopbalparameters zoals <code> referer</code>,<code> IP</code>, <code> accept-language</code>, enz. </p> <p> <p>Opmerking: Voor klanten die DIL-versies ouder dan 9.0 gebruiken, werkt gegevensverzameling met het <code> h_referer</code>-signaal niet in Safari-browsers. Met de introductie van <a href="https://webkit.org/blog/8311/intelligent-tracking-prevention-2-0/" format="https" scope="external"> ITP 2.0</a>, kunnen de browsers Safari het domein demdex.net als trekker classificeren en zullen de verwijzer op het verzoek van de gegevensinzameling bekorten om slechts de oorsprong in plaats van volledige URL te bevatten. Zie <a href="../../dil/dil-overview.md#get-implement-dil-code">DIL Code ophalen en implementeren</a> voor de nieuwste versie van DIL.<p>Signalen die dit voorvoegsel gebruiken, worden niet weergegeven in <a href="../data-explorer/data-explorer-signals-search/data-explorer-signals-search.md">Signaal zoeken</a>.</p></p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><code> p_</code> </td> 
-   <td colname="col2"> <p>Onze servers <span class="wintitle"> van de</span> Gegevensverzameling staan het overgaan van privé parameters toe. In feite, zal om het even welke parameter die met begint <code> p_</code> worden gebruikt voor keurmerking, maar het zal niet stroomafwaarts worden geregistreerd, noch worden opgeslagen. </p> <p>Voorbeeld: gegeven <code> /event?p_age=23</code> en een eigenschap als <code> YoungPeople = p_age &lt; 25</code>, zal het bezit worden gerealiseerd, maar het <code> p_age=23</code> zeer belangrijk-waardepaar zal na het verzoek worden gelaten vallen en zal niet worden geregistreerd. </p> </td> 
+   <td colname="col2"> <p>Onze <span class="wintitle"> Servers voor gegevensverzameling</span> staan het doorgeven van persoonlijke parameters toe. In principe wordt elke parameter die begint met <code> p_</code> gebruikt voor de evaluatie van het kenmerk, maar deze wordt niet verderop in het logboek opgenomen en wordt ook niet opgeslagen. </p> <p>Voorbeeld: op basis van <code> /event?p_age=23</code> en een eigenschap als <code> YoungPeople = p_age &lt; 25</code> wordt het kenmerk gerealiseerd, maar het sleutelwaardepaar <code> p_age=23</code> wordt na het verzoek verwijderd en wordt niet vastgelegd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
