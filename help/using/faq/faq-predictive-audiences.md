@@ -58,41 +58,41 @@ Neem contact op met uw Adobe-vertegenwoordiger als het model niet binnen 24 uur 
 
 Er kunnen diverse redenen zijn waarom [!UICONTROL Predictive Audiences]-modellen geen resultaten opleveren:
 
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough user profiles. We recommend choosing your [!UICONTROL traits] or [!UICONTROL segments] so that each persona has at least a few hundred user profiles.
-1. None of the selected persona [!UICONTROL traits] / [!UICONTROL segments] have enough data in their user profiles (not enough traits to analyze).
+1. Geen van de geselecteerde personen [!UICONTROL traits] / [!UICONTROL segments] heeft voldoende gebruikersprofielen. We raden u aan uw [!UICONTROL traits] of [!UICONTROL segments] te kiezen, zodat elke persoon ten minste een paar honderd gebruikersprofielen heeft.
+1. Geen van de geselecteerde personen [!UICONTROL traits] / [!UICONTROL segments] hebben voldoende gegevens in hun gebruikersprofielen (niet genoeg kenmerken om te analyseren).
 1. De eigenschap / het segment van het doelpubliek heeft geen actieve of onbeheerde gebruikers.
 1. Doelgroepgebruikers die de afgelopen 30 dagen actief of onboarded waren, hebben onvoldoende data in hun gebruikersprofielen (te weinig eigenschappen om te analyseren).
-1. Het doelpubliekssegment gebruikt een andere segment [!UICONTROL Profile Merge Rule] dan het segment dat u voor het model hebt gekozen.
-1. De gegevensbron van de kenmerken van het doelpubliek wordt mogelijk niet opgenomen in het model [!UICONTROL Profile Merge Rule] dat u hebt gekozen.
+1. Het doelpubliekssegment gebruikt een andere [!UICONTROL Profile Merge Rule] dan die u voor het model koos.
+1. De gegevensbron van uw doelpubliekskenmerken worden mogelijk niet opgenomen in de [!UICONTROL Profile Merge Rule] die u voor het model hebt gekozen.
 
 Volg voor optimale resultaten de voorgestelde richtlijnen van [Selectiecriteria voor persona&#39;s](../features/algorithmic-models/predictive-audiences.md#selection-personas) en [Selectiecriteria voor doelgroepen](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Waarom toont mijn model de [!UICONTROL Error] status?**
+**Waarom toont mijn model de  [!UICONTROL Error] status?**
 
-Het model kan niet worden uitgevoerd. In such cases, please reach out to your [!DNL Adobe] representative.
+Het model kan niet worden uitgevoerd. In dergelijke gevallen dient u contact op te nemen met uw [!DNL Adobe] vertegenwoordiger.
 
  
 
-**Hoe kan ik de [!UICONTROL Profile Merge Rule] voor een [!UICONTROL Predictive Audiences] [!UICONTROL segment]wijziging wijzigen?**
+**Hoe kan ik het  [!UICONTROL Profile Merge Rule] voor een  [!UICONTROL Predictive Audiences] [!UICONTROL segment]veranderen?**
 
-Maak een nieuw model door dezelfde personen en doelgroepen te selecteren als het vorige model. Wijs tijdens het maken van het model een andere waarde toe [!UICONTROL Profile Merge Rule].
+Maak een nieuw model door dezelfde personen en doelgroepen te selecteren als het vorige model. Wijs tijdens het maken van een model een andere [!UICONTROL Profile Merge Rule] toe.
 
 >[!WARNING]
-> Alternatief, kunt u de Bouwer [van het](../features/segments/segment-builder.md) Segment gebruiken om een [!UICONTROL segment] met een bestaande vooruitlopende situatie manueel tot stand te brengen [!UICONTROL trait] en het een [!UICONTROL Profile Merge Rule] van uw keus toe te wijzen.
+> U kunt [Segment Builder](../features/segments/segment-builder.md) ook gebruiken om handmatig een [!UICONTROL segment] met een bestaande voorspellende [!UICONTROL trait] te maken en deze [!UICONTROL Profile Merge Rule] van uw keuze toe te wijzen.
 > 
-> Wij raden deze praktijk echter niet aan, aangezien voorspellend [!UICONTROL traits] automatisch de aard [!UICONTROL Profile Merge Rule] van het model erft waartoe ze behoren, en ze worden opgebouwd uit invloedrijke elementen [!UICONTROL traits] die voldoen aan het [!UICONTROL Profile Merge Rule] model.
+> Wij raden deze praktijk echter niet aan, omdat voorspellende [!UICONTROL traits] automatisch de [!UICONTROL Profile Merge Rule] overerft van het model waartoe ze behoren, en deze worden gebouwd uit invloedrijke [!UICONTROL traits] die voldoen aan [!UICONTROL Profile Merge Rule] van het model.
 
  
 
-**Wat [!UICONTROL Profile Merge Rule] moet ik kiezen?**
+**Wat  [!UICONTROL Profile Merge Rule] moet ik kiezen?**
 
-Wanneer u de optie [!UICONTROL Profile Merge Rule] voor uw model kiest, moet u de gebruiksaanwijzing zorgvuldig analyseren.
+Wanneer u de [!UICONTROL Profile Merge Rule] voor uw model kiest, moet u de gebruiksaanwijzing nauwkeurig analyseren.
 
-Stel dat uw doelpubliek een profiel [!UICONTROL segment] gebruikt dat is gebaseerd [!UICONTROL Profile Merge Rule] op geverifieerde profielen + [!DNL Device Graph] profielen en dat u hetzelfde selecteert [!UICONTROL Profile Merge Rule] voor voorspellend [!UICONTROL segments]. In dit geval [!UICONTROL traits] worden zowel het niveau van het apparaat als het niveau van het apparaat gebruikt bij de training van het model en bij de plaatsing van de gebruiker in een voorspellend element [!UICONTROL segment].
+Stel dat uw doelpubliek [!UICONTROL segment] een [!UICONTROL Profile Merge Rule] gebruikt op basis van geverifieerde profielen + [!DNL Device Graph] profielen en dat u dezelfde [!UICONTROL Profile Merge Rule] selecteert voor de voorspellende [!UICONTROL segments]. In dit geval worden zowel apparaatniveau als apparaatniveau [!UICONTROL traits] gebruikt bij het trainen van het model en bij het plaatsen van de gebruiker in een voorspellende [!UICONTROL segment].
 
-Als u echter een profiel selecteert dat alleen is gebaseerd op apparaatprofielen, [!UICONTROL Profile Merge Rule] wordt geen van uw apparaten beïnvloed en draagt dit niet bij aan de plaatsing van gebruikers in een voorspelbaar profiel [!UICONTROL traits] [!UICONTROL segment]. Dit kan een negatief effect hebben op de nauwkeurigheid en het bereik van het model.
+Als u echter een [!UICONTROL Profile Merge Rule] selecteert die alleen op apparaatprofielen is gebaseerd, wordt geen van uw apparaten [!UICONTROL traits] beïnvloed en draagt dit niet bij aan de plaatsing van gebruikers in een voorspellende [!UICONTROL segment]. Dit kan een negatief effect hebben op de nauwkeurigheid en het bereik van het model.
 
 Analyseer uw gebruiksgeval zorgvuldig en bepaal welke [!UICONTROL trait] types u het model van en welk type van gegevens wilt leren u het model voor classificatie wilt gebruiken.
 
