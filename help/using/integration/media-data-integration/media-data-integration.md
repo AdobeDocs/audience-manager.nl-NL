@@ -28,5 +28,5 @@ U kunt gegevens uit mediacampagnes vastleggen met behulp van pixelaanroepen naar
 Lees de volgende artikelen om logaritme in te stellen:
 
 * [Google Campagne Manager-gegevensbestanden importeren in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
-* [Google Ad Manager-gegevensbestanden importeren in Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [Loggegevens en metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) voor het instellen van logbestandsinvoer voor algemene logbestanden
+* [Google Ad Manager-gegevensbestanden importeren in Audience Manager  ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
+* [Loggegevens en metagegevensbestanden ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) voor het instellen van logbestanden voor algemene logbestanden
