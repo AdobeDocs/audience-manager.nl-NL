@@ -21,7 +21,7 @@ Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen 
 
 >[!NOTE]
 >
->De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten en eigenschappen van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op de [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
+>De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten en eigenschappen van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
 
 <!-- 
 
@@ -31,11 +31,11 @@ c_segment_trait_overlap.xml
 
 ## Overzicht
 
-Als optimalisatiehulpmiddel, helpen de [!UICONTROL Segment to Trait Overlap] rapporten u hoogst geconcentreerde segmenten bouwen of segmentbereik uitbreiden. U kunt bijvoorbeeld gerichte segmenten en kenmerken met een hoge overlapping maken om een bepaald publiek te bereiken. Veel overlappingen kunnen echter leiden tot minder unieke gebruikers (minder bereik). Het runnen van dit rapport helpen bereiken uitbreiden door eigenschappen met veel segmentoverlapping te verwijderen en hen te vervangen met eigenschappen die minder overlapping hebben.
+Als optimalisatiehulpmiddel, [!UICONTROL Segment to Trait Overlap] helpt de rapporten u hoogst geconcentreerde segmenten bouwen of segmentbereik uitbreiden. U kunt bijvoorbeeld gerichte segmenten en kenmerken met een hoge overlapping maken om een bepaald publiek te bereiken. Veel overlappingen kunnen echter leiden tot minder unieke gebruikers (minder bereik). Het runnen van dit rapport helpen bereiken uitbreiden door eigenschappen met veel segmentoverlapping te verwijderen en hen te vervangen met eigenschappen die minder overlapping hebben.
 
 ### Voorbeeldrapport
 
-De volgende illustratie biedt een overzicht op hoog niveau van het [!UICONTROL Segment-to-Trait Overlap] rapport.
+De volgende illustratie verstrekt een overzicht op hoog niveau van het [!UICONTROL Segment-to-Trait Overlap] rapport.
 
 ![](assets/segment-to-trait-overlap.png)
 
@@ -84,12 +84,12 @@ Als u de overlapping tussen kenmerken en segmenten bekijkt, kunt u de totale bes
   </tr> 
   <tr> 
    <td colname="col1"><b>Inefficiënte segmenten zoeken</b> </td> 
-   <td colname="col2"> <p>Als een eigenschap deel van een <span class="wintitle"> AND</span> groep in een segmentdefinitie uitmaakt, zijn de unieke bezoekers die die eigenschap hebben reeds in het segment en niet beschikbaar voor toevoeging aan het segment. U kunt dit rapport gebruiken om relevante eigenschappen met lage overlapping te vinden en hen toe te voegen aan de segmentdefinitie, daarom vergroot het bereik van die groep van het segmentpubliek. </p> </td> 
+   <td colname="col2"> <p>Als een eigenschap deel van een <span class="wintitle"> EN</span> groep in een segmentdefinitie uitmaakt, zijn de unieke bezoekers die die eigenschap hebben reeds in het segment en niet beschikbaar voor toevoeging aan het segment. U kunt dit rapport gebruiken om relevante eigenschappen met lage overlapping te vinden en hen toe te voegen aan de segmentdefinitie, daarom vergroot het bereik van die groep van het segmentpubliek. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Het begrip van de Filters van Gegevens in het segment-aan-Trait Rapport van de Overlapping {#data-filters-s2t-report}
+## Het begrip van de Filters van Gegevens in het segment-aan-Trait Overlap Rapport {#data-filters-s2t-report}
 
 Beschrijft hoe de eigenschap en het segment unieke overlappende % schuifregelaars werken.
 
@@ -99,7 +99,7 @@ r_s2t_sliders.xml
 
  -->
 
-In het [!UICONTROL Segment-to-Trait overlap] rapport kunt u twee schuifregelaars gebruiken om gegevens te filteren op basis van de eigenschap of het segment van het overlappende percentage.
+Met het [!UICONTROL Segment-to-Trait overlap]-rapport kunt u twee schuifregelaars gebruiken om gegevens te filteren op basis van de eigenschap of het segment van de overlapping %.
 
 * **[!UICONTROL Filter Trait Uniques %:]** Hiermee filtert u gegevens met het percentage unieke bezoekers dat wordt gedeeld tussen de eigenschap en het segment.
 * **[!UICONTROL Filter Segment Uniques Overlap %:]** Hiermee filtert u gegevens op basis van het percentage unieke bezoekers dat wordt gedeeld tussen het segment en de eigenschap.
@@ -113,7 +113,7 @@ In het onderstaande diagram wordt het verschil weergegeven tussen de vakuniques 
 
 ![](assets/s2t.png)
 
-## Gedefinieerde Pop-velden gegevens segment-naar-reisgegevens {#fields-defined}
+## Segment-aan-Trait Gedefinieerde Pop van Gegevens Pop Gebieden {#fields-defined}
 
 Beschrijft de metriek die in popup venster wordt getoond wanneer u een individueel gegevenspunt klikt.
 
@@ -123,7 +123,7 @@ r_s2t_data_pop.xml
 
  -->
 
-popup voor het [!UICONTROL Segment-to-Trait Overlap] rapport bevat de hieronder metriek. Merk op dat uniques metrisch in de lijst uw gebruikers *in* real time vertegenwoordigt.
+De pop-up voor het [!UICONTROL Segment-to-Trait Overlap] rapport bevat de hieronder metriek. Merk op dat uniques metrisch in de lijst uw *real-time gebruikers* vertegenwoordigt.
 
 <table id="table_4AF72754276242FFB11543635B43AD90"> 
  <thead> 
@@ -138,7 +138,7 @@ popup voor het [!UICONTROL Segment-to-Trait Overlap] rapport bevat de hieronder 
    <td colname="col2"> Unieke numerieke id voor het segment. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><b><span class="wintitle"> Gegevensbron traceren </span></b> </td> 
+   <td colname="col1"><b><span class="wintitle"> Gegevensbron traceren  </span></b> </td> 
    <td colname="col2"> Naam van de eigenaar van de eigenschap. </td> 
   </tr> 
   <tr> 
