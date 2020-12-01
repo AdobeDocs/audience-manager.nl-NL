@@ -1,6 +1,6 @@
 ---
-description: Gegevensverwerkingscomponenten omvatten Hadoop, Snowflake, SOLR en Tableau.
-seo-description: Gegevensverwerkingscomponenten omvatten Hadoop, Snowflake, SOLR en Tableau.
+description: De componenten van de gegevensverwerking omvatten Hadoop, Snowflake, SOLR, en Tableau.
+seo-description: De componenten van de gegevensverwerking omvatten Hadoop, Snowflake, SOLR, en Tableau.
 seo-title: Onderdelen voor dataverwerking
 solution: Audience Manager
 title: Onderdelen voor dataverwerking
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Onderdelen voor dataverwerking{#data-processing-components}
 
-Gegevensverwerkingscomponenten omvatten Hadoop, Snowflake, SOLR en Tableau.
+De componenten van de gegevensverwerking omvatten Hadoop, Snowflake, SOLR, en Tableau.
 
 <!-- 
 
@@ -29,26 +29,26 @@ Audience Manager gebruikt de volgende componenten om gegevens te verwerken:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], is Hadoop het belangrijkste gegevensbestand dat alles bevat [!DNL Audience Manager] weet over een gebruiker. Wanneer de [profielcacheservers](../../reference/system-components/components-data-collection.md) bijvoorbeeld logbestanden maken die gegevens over uw gebruikers bevatten, worden die gegevens naar Hadoop verzonden voor opslag. Andere belangrijke Hadoop-elementen zijn:
+In [!DNL Audience Manager], is Hadoop het belangrijkste gegevensbestand dat alles [!DNL Audience Manager] over een gebruiker weet. Als de [Profielcacheservers](../../reference/system-components/components-data-collection.md) bijvoorbeeld logbestanden maken die gegevens over uw gebruikers bevatten, worden die gegevens naar Hadoop verzonden voor opslag. Andere belangrijke Hadoop-elementen zijn:
 
-* **Hive:** Een data warehouse voor Hadoop. Hive beheert ad-hocquery&#39;s voor de gegevens die in Hadoop zijn opgeslagen.
+* **Hive:** een gegevensopslagplaats voor Hadoop. Hive beheert ad-hocquery&#39;s voor de gegevens die in Hadoop zijn opgeslagen.
 
 * **HBase:** Een zeer grote Hadoop-database. Het verwerkt en beheert binnenkomende en uitgaande gegevens, kenmerkregels, algoritmische modelleringsinformatie, en voert vele andere functies met betrekking tot het opslaan en het bewegen van gegevens aan verschillende systemen uit.
 
 Klanten hebben geen directe toegang tot deze systemen. Klanten werken echter indirect met hen samen, aangezien deze componenten belangrijke gegevens over hun sitebezoekers opslaan.
 
-## Sneeuwvlok {#snowflake}
+## Snowflake {#snowflake}
 
-[Sneeuwvlok](https://www.snowflake.net/) is een enorme clouddatabase. Deze tabel bevat gegevens voor veel van de dashboardgrafieken en de bijbehorende tekstvakken waarin de procentuele wijziging voor elk item in de grafiek wordt weergegeven. Als u de dashboardrapporten gebruikt [!DNL Audience Manager] en bekijkt, communiceert u met gegevens die door worden verstrekt [!UICONTROL Snowflake].
+[](https://www.snowflake.net/) Snowflakeis is een enorme clouddatabase. Deze tabel bevat gegevens voor veel van de dashboardgrafieken en de bijbehorende tekstvakken waarin de procentuele wijziging voor elk item in de grafiek wordt weergegeven. Als u [!DNL Audience Manager] gebruikt en de dashboardrapporten bekijkt, communiceert u met gegevens die door [!UICONTROL Snowflake] worden verstrekt.
 
 
 
 ![](assets/dashboardreport.png)
 
-Dit is geenszins een uitgebreide lijst, maar een aantal gemeenschappelijke dashboardrapporten die verantwoordelijk [!UICONTROL Snowflake] zijn voor:
+Dit is geenszins een uitvoerige lijst, maar sommige gemeenschappelijke dashboard meldt dat [!UICONTROL Snowflake] verantwoordelijk is voor omvat:
 
 * [Rapport Dagelijkse eigenschapvariatie](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* Alle overlappende rapporten (zie de [Interactieve sectie van Rapporten](/help/using/reporting/dynamic-reports/dynamic-reports.md) voor informatie over elk overlappend rapport).
+* Alle overlappende rapporten (zie [Interactieve Rapporten](/help/using/reporting/dynamic-reports/dynamic-reports.md) sectie voor informatie over elk overlappend rapport).
 * [Ongebruikte-signalenrapport](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
@@ -61,7 +61,7 @@ SOLR is een open-source database en serversysteem van Apache. Het biedt robuuste
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] gebruikt [Tableau](https://www.tableausoftware.com/) om gegevens in de [Interactieve Rapporten](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) en de Rapporten [van de Optimalisering van de](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Publiek te tonen. De interactieve rapporten tonen prestaties en overlappen gegevens voor eigenschappen en segmenten. In plaats van getallen te gebruiken die in kolommen en rijen zijn gerangschikt, worden gegevens geretourneerd met verschillende vormen, kleuren en grootten. Bovendien, kunt u individueel of groepen gegevenspunten kiezen en neer in de rapportresultaten voor meer details boren. Deze visualisatietechnieken en de hulp van de rapportinteractiviteit maken grote hoeveelheden numerieke gegevens gemakkelijker te begrijpen.
+[!DNL Audience Manager] gebruikt  [](https://www.tableausoftware.com/) Tabelauto vertoningsgegevens in de  [Interactieve ](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) Rapporten en de Rapporten [ van ](../../reporting/audience-optimization-reports/audience-optimization-reports.md)Audience Optimization. De interactieve rapporten tonen prestaties en overlappen gegevens voor eigenschappen en segmenten. In plaats van getallen te gebruiken die in kolommen en rijen zijn gerangschikt, worden gegevens geretourneerd met verschillende vormen, kleuren en grootten. Bovendien, kunt u individueel of groepen gegevenspunten kiezen en neer in de rapportresultaten voor meer details boren. Deze visualisatietechnieken en de hulp van de rapportinteractiviteit maken grote hoeveelheden numerieke gegevens gemakkelijker te begrijpen.
 
 
 
