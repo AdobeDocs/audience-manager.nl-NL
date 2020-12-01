@@ -17,7 +17,7 @@ ht-degree: 7%
 
 # Beschrijving van batchdataoverdracht {#batch-data-transfer-process-described}
 
-Een algemeen overzicht van hoe een asynchrone uitwisseling van partijgegevens met een derdeverkoper [!DNL Audience Manager] uitvoert.
+Een algemeen overzicht van hoe [!DNL Audience Manager] een asynchrone uitwisseling van partijgegevens met een derdeverkoper uitvoert.
 
 ## Batchgegevensintegratie
 
@@ -37,4 +37,4 @@ Bij het integratieproces van batchgegevens worden bezoekersgegevens op onze serv
 1. [!DNL Audience Manager] en de externe gegevensaanbieder wijst de bezoeker een unieke id toe (meestal met een cookie).
 1. [!DNL Audience Manager] roept de gegevensleverancier van de derde om bezoeker IDs aan te passen.
 1. Een gepland verzoek, gewoonlijk op een dagelijks interval, ruilt de gegevens van het bezoekerssegment tussen [!DNL Audience Manager] en uw derdegegevensleverancier.
-1. Wanneer een binnenkomend [!UICONTROL Server-to-Server] dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner. Voor meer informatie, zie het Bericht van de [Steekproef aan Partners na Binnenkomende Verwerking](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
+1. Wanneer een binnenkomend [!UICONTROL Server-to-Server] dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner. Voor meer informatie, zie [Bemonsteringsbericht aan Partners na Binnenkomende Verwerking](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md).
