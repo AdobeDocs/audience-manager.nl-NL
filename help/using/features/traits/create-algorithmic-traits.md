@@ -19,16 +19,16 @@ ht-degree: 5%
 
 <!-- t_algo_trait_build.xml -->
 
-Ga als volgt te werk om een algoritmisch kenmerk te maken: [!UICONTROL Traits]
+Als u een algoritmische eigenschap wilt maken, gaat u naar [!UICONTROL Traits] en volgt u de onderstaande stappen:
 
 1. Klik **[!UICONTROL Create New Trait]** en selecteer **[!UICONTROL Algorithmic]** van het drop-down menu.
 1. In de sectie [Basisinformatie](../../features/traits/create-onboarded-rule-based-traits.md)
    * Geef de eigenschap een naam.
    * Selecteer een gegevensbron.
    * Kies een opslagmap.
-1. Vouw het [!UICONTROL Configuration] deelvenster uit en klik op **[!UICONTROL Browse All Models]**.
+1. Breid [!UICONTROL Configuration] ruit uit en klik **[!UICONTROL Browse All Models]**.
 Hierdoor wordt een nieuw venster geopend waarin u het model kunt selecteren dat u met de eigenschap wilt gebruiken.
-1. Selecteer een model en klik op **[!UICONTROL Add Selected Model to Trait]**.
+1. Selecteer een model en klik **[!UICONTROL Add Selected Model to Trait]**.
 Wanneer u het model toevoegt, worden de bereik- en nauwkeurigheidsinstellingen weergegeven.
 1. Selecteer als doel bereik of nauwkeurigheid en kies een waarde in de desbetreffende vervolgkeuzemenu&#39;s. Klik **[!UICONTROL Save]** wanneer gereed.
 
@@ -48,7 +48,7 @@ In [!UICONTROL Trait Builder], laat de [!UICONTROL Configuration] sectie u een a
 
 | Interface-element | Toelichting |
 |---|---|
-| **[!UICONTROL Select Model for Algorithmic Trait]** | Klik op de **[!UICONTROL Update]** knop om het modelvenster te openen. Selecteer in het venster het algoritmische model dat u wilt gebruiken om de eigenschap te maken. |
+| **[!UICONTROL Select Model for Algorithmic Trait]** | Klik op de knop **[!UICONTROL Update]** om het venster Modellen te openen. Selecteer in het venster het algoritmische model dat u wilt gebruiken om de eigenschap te maken. |
 | **[!UICONTROL Select Goal Accuracy]** | Selecteer deze optie om een eigenschap op basis van nauwkeurigheid te maken. Nauwkeurigheid is een gecodeerde waarde die aangeeft hoe dicht potentiële gebruikers zich bij de basislijn bevinden. De nauwkeurigheidsschaal loopt van 0 (minst nauwkeurig) tot en met 1 (meest nauwkeurig). |
 | **[!UICONTROL Reach and Accuracy Data Columns]** | Rechts in deze sectie worden maximaal 21 rijen numerieke gegevens weergegeven die de waarden voor nauwkeurigheid en bereik van het model weergeven. |
 | **[!UICONTROL Reach and Accuracy Slider]** | Onder aan de grafiek ziet u de schuifregelaar waarmee u een numerieke waarde kunt instellen voor het bereiken of de nauwkeurigheidsdoelen. U kunt de schuifregelaar instellen en vervolgens de knop voor het doel van het bereik of de nauwkeurigheid kiezen om een kenmerk te maken. |
