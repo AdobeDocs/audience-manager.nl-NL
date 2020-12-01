@@ -1,6 +1,6 @@
 ---
-description: Maak de inhoud van het metagegevensbestand voor de optimalisatie van het publiek op volgens deze specificaties.
-seo-description: Maak de inhoud van het metagegevensbestand voor de optimalisatie van het publiek op volgens deze specificaties.
+description: Maak de inhoud van het Audience Optimization-metagegevensbestand op volgens deze specificaties.
+seo-description: Maak de inhoud van het Audience Optimization-metagegevensbestand op volgens deze specificaties.
 seo-title: Indeling van content voor metadatabestanden
 solution: Audience Manager
 title: Indeling van content voor metadatabestanden
@@ -17,17 +17,17 @@ ht-degree: 4%
 
 # Indeling van content voor metadatabestanden{#content-format-for-metadata-files}
 
-Maak de inhoud van het metagegevensbestand voor de optimalisatie van het publiek op volgens deze specificaties.
+Maak de inhoud van het Audience Optimization-metagegevensbestand op volgens deze specificaties.
 
 ## Syntaxis {#syntax}
 
 De volgende syntaxis definieert de structuur van goed gevormde inhoud in een metagegevensbestand. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan.
 
-**Syntaxis:**  *inhoud-id* | *naam* | *-1*
+**Syntaxis:**  *inhoud-id* |  *naam* |  *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-De derde kolom **-1** is technisch gezien de Bovenliggende identiteitskaart, die een erfenisgebied is. De waarde moet altijd als **-1** worden ingesteld.
+De derde kolom **-1** is technisch gezien de Ouder identiteitskaart, die een erfenisgebied is. De waarde moet altijd worden ingesteld als **-1**.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ De derde kolom **-1** is technisch gezien de Bovenliggende identiteitskaart, die
 
 Gebruik `^a` (controle-A of ASCII 001) om inhoud in uw meta-gegevensdossiers te scheiden. Aangezien dit niet-afdrukbare tekens zijn, wordt in het bovenstaande syntaxisvoorbeeld alleen voor weergavedoeleinden een verticale balk &quot;|&quot; weergegeven.
 
-Indien nodig, kunt u het voorbeeldbestand [20181105_0_1](assets/20181105_0_1.zip)downloaden. Pak het uit en bewerk het in de editor van uw keuze en pas het aan volgens de inhoud van de metagegevens, aangezien het al het vereiste scheidingsteken bevat.
+Indien nodig, kunt u het voorbeelddossier downloaden - [20181105_0_1](assets/20181105_0_1.zip). Pak het uit en bewerk het in de editor van uw keuze en pas het aan volgens de inhoud van de metagegevens, aangezien het al het vereiste scheidingsteken bevat.
 
 >[!IMPORTANT]
 >
