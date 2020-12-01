@@ -23,21 +23,21 @@ Als beste praktijken, adviseren wij gebruikend Amazon S3 in plaats van FTP als m
 
 De voordelen van het gebruik van Amazon S3 zijn:
 
-* **Schaalbaarheid:** Amazon S3 biedt bijna oneindige schaalbaarheid.
+* **Schaalbaarheid:** Amazon S3 biedt vrijwel oneindige schaalbaarheid.
 * **Betrouwbaarheid en beschikbaarheid:** Amazon S3 biedt opslagservices met hoge duurzaamheid en hoge beschikbaarheid.
 * **Snelheid:** Amazon S3 maakt snelle gegevensoverdracht mogelijk.
-* **Gebruiksgemak:** Amazon S3 is erg gebruiksvriendelijk en te implementeren. Uw implementatie kan binnen ongeveer een uur worden uitgevoerd. Het implementeren van een FTP-map duurt veel langer.
-* **Meerdere deeluploads:** Grote bestanden kunnen snel en efficiënt worden geüpload wanneer bestanden met meerdere onderdelen worden geüpload.
-* **Beveiliging:** Amazon S3 biedt sterke veiligheid.
+* **Gebruiksgemak:** Amazon S3 is heel eenvoudig te gebruiken en te implementeren. Uw implementatie kan binnen ongeveer een uur worden uitgevoerd. Het implementeren van een FTP-map duurt veel langer.
+* **Meerdere delen uploaden:** grote bestanden kunnen snel en efficiënt worden geüpload als bestanden met meerdere delen worden geüpload.
+* **Beveiliging:** Amazon S3 biedt sterke beveiliging.
 
    * Alle mappen zijn alleen toegankelijk voor de juiste klant of client.
    * Ondersteuning voor HTTPS-protocol voor uploads en downloads. Gebruik altijd HTTPS wanneer u bestanden overbrengt in [!DNL Audience Manager].
-   * Amazon S3 biedt codering-bij-rust voor het coderen van [uitgaande gegevensbestanden](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Wij gebruiken de [encryptiemethode SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) , die encryptiesleutels toelaat automatisch worden geproduceerd en worden beheerd door Amazon S3.
+   * Amazon S3 verstrekt encryptie-bij-rust voor het coderen [uitgaande gegevensdossiers](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Wij gebruiken de [SSE-S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) encryptiemethode, die encryptiesleutels toelaat automatisch worden geproduceerd en worden beheerd door Amazon S3.
 
-* **Ondersteuning voor foutopsporing en back-up:** Met Amazon S3 kunt u exacte kopieën van bestanden behouden, zodat u gemakkelijker fouten kunt opsporen of opnieuw bestanden kunt overdragen. [!DNL Audience Manager]
+* **Ondersteuning voor foutopsporing en back-up:** Amazon S3 staat toe exacte kopieën van bestanden  [!DNL Audience Manager] te behouden om foutopsporing of heroverdracht eenvoudiger te maken.
 
 Zie de volgende bronnen voor meer informatie over Amazon S3:
 
-[Amazon Simple Storage Service (Amazon S3)](https://aws.amazon.com/s3/) op de website van Amazon Web Services.
+[Amazon Simple Storage Service (Amazon S3) ](https://aws.amazon.com/s3/) op de website van Amazon Web Services.
 
-[Ga aan de slag met de eenvoudige opslagservice](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) van Amazon op de AWS-documentatiewebsite.
+[Ga aan de slag met Amazon Simple Storage ](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) Service op de website van de AWS-documentatie.
