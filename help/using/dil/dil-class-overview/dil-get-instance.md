@@ -29,11 +29,11 @@ Hiermee wordt een partnerspecifieke DIL-instantie opgehaald.
 | Naam | Type | Beschrijving |
 |---|---|---|
 | `partner` | String | De partnernaam aan onderzoek naar. |
-| `containerNSID` | Geheel | Standaardwaarden zijn `0`. NSID van de container u zoekt naar. Optioneel. |
+| `containerNSID` | Geheel | Standaardwaarden is `0`. NSID van de container u zoekt naar. Optioneel. |
 
 ## Antwoord
 
-De succesvolle partner en de container NSID komen een partner-specifieke [!UICONTROL DIL] instantie terug. Als er geen overeenkomst is, retourneert de API (geen fout) met het bericht &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+Een succesvolle partner en container NSID keert een partner-specifieke [!UICONTROL DIL] instantie terug. Als er geen overeenkomst is, keert API (veroorzaakt niet) een fout met het bericht terug, &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Voorbeeldcode
 
