@@ -37,7 +37,7 @@ r_dil_get_search_referrer.xml
 
 ### Doel van `getSearchReferrer`
 
-In DIL `getSearchReferrer` retourneert u zoekresultaten (namen en trefwoorden) die worden gebruikt om uw site te bereiken. U kunt specifieke zoektermen doorgeven aan deze functie of de ondersteunde zoekfuncties ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google]en [!DNL Yahoo]) standaard laten doorzoeken `document.referrer` .
+In DIL retourneert `getSearchReferrer` zoekresultaten (namen en trefwoorden) die worden gebruikt om uw site te bereiken. U kunt specifieke zoektermen doorgeven aan deze functie of de functie de ondersteunde zoekmachines laten doorzoeken ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] en [!DNL Yahoo]) standaard op `document.referrer`.
 
 ### Functiehandtekening
 
@@ -47,8 +47,8 @@ Handtekening functie: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` accepteert:
 
-* *`{string}`*: *(Optioneel)* Een tekenreeks die de zoek-URL bevat (wordt gebruikt `document.referrer` als deze niet is gedefinieerd).
-* *`{object}`*: *(Optioneel)* Een object met de configuratie voor de `hostPattern`, `queryParam`of `queryPattern`.
+* *`{string}`*:  *(Optioneel)* Een tekenreeks met de zoek-URL (gebruikt  `document.referrer` indien niet gedefinieerd).
+* *`{object}`*:  *(Optioneel)* Een object met de configuratie voor de  `hostPattern`,  `queryParam`of  `queryPattern`.
 
 En retourneert:
 
@@ -114,7 +114,7 @@ En retourneert:
 
 ## decomposeURI
 
-Hiermee wordt een Uniform Resource Identifier ( [!DNL URI]) gedemonteerd in de bestanddelen ervan: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, en `[!DNL uriParams]`.
+Hiermee wordt een Uniform Resource Identifier ( [!DNL URI]) gedemonteerd in de bestanddelen ervan: `hash`, `host`, `href`, `pathname`, `protocol`, `search` en `[!DNL uriParams]`.
 
 <!-- 
 
@@ -128,7 +128,7 @@ Handtekening functie: `DIL.tools.decomposeURI`
 
 `decomposeURI` accepteert:
 
-* *`uri {string}`*: *(Optioneel)* Een tekenreeks die de URI bevat. Wordt standaard ingesteld `document.location.href` als deze niet is opgegeven.
+* *`uri {string}`*:  *(Optioneel)* Een tekenreeks met de URI. De standaardwaarde is `document.location.href` als deze niet is opgegeven.
 
 En retourneert:
 
