@@ -17,18 +17,18 @@ ht-degree: 10%
 
 # DCS-API’s voor server-naar-server overdrachten{#dcs-apis-for-server-to-server-data-transfers}
 
-Server-aan-server ([!UICONTROL S2S]) [!DNL API]s verstrekt code en methodes die u [!DNL DCS] gebruikersgegevens verzenden en laten ontvangen en met deze informatie in uw eigen systemen of toepassingen werken.
+Server-aan-server ([!UICONTROL S2S]) [!DNL API]s verstrekt code en methodes die u laten verzenden en [!DNL DCS] gebruikersgegevens ontvangen en met deze informatie in uw eigen systemen of toepassingen werken.
 
-## Vaak Gebruik {#common-use-cases}
+## Veelvoorkomende gevallen van gebruik {#common-use-cases}
 
 [!UICONTROL Server-to-server] met overgangen kunt u landingspagina&#39;s of andere interacties aanpassen op basis van de belangen van de bezoeker. Enkele gangbare gebruiksgevallen zijn:
 
 * Lokaal personaliseren: Leer de ervaring van een bezoeker op uw plaats door relevante inhoud en vraag aan actie dynamisch toe te voegen die op de segmenten wordt gebaseerd zij tot behoren.
-* De klantenservice verbeteren: Importeer [!DNL Audience Manager] segmenten in een [!DNL CRM] of ander systeem via gegevensoverdracht van server naar server. Deze gegevens kunnen de vraagdienst of online praatjeexploitanten van relevante, gepersonaliseerde informatie over een klant voorzien.
+* De klantenservice verbeteren: Importeer [!DNL Audience Manager]-segmenten in een [!DNL CRM] of ander systeem via een server-naar-server gegevensoverdracht. Deze gegevens kunnen de vraagdienst of online praatjeexploitanten van relevante, gepersonaliseerde informatie over een klant voorzien.
 
-## Eisen: Gebruikers-id&#39;s en regionale servernamen {#requirements}
+## Eisen: Gebruiker-id&#39;s en regionale servernamen {#requirements}
 
-De id&#39;s van gebruikers en regio-id&#39;s [!UICONTROL DCS API] zijn vereist voor het valideren en indienen van gegevensaanvragen.
+[!UICONTROL DCS API] vereist gebruikers-id&#39;s en regio-id&#39;s om gegevensaanvragen te valideren en in te dienen.
 
 * De gebruikers-id is vereist omdat u gegevens aan een bepaalde bezoeker moet koppelen.
 * De regio-id is vereist om aanroepen te koppelen aan een servernaam en omdat gebruikersgegevens worden opgeslagen in datacenters die zich geografisch het dichtst bij sitebezoekers bevinden.
@@ -37,10 +37,10 @@ De id&#39;s van gebruikers en regio-id&#39;s [!UICONTROL DCS API] zijn vereist v
 
 Deze handleiding behandelt momenteel het volgende:
 
-* Haal de gebruikers- en regio-id&#39;s op uit de [!DNL DCS] bestanden die u al als [!DNL Audience Manager] klant ontvangt.
+* Haal de gebruikers- en regio-id&#39;s op uit de [!DNL DCS]-bestanden die u mogelijk al als [!DNL Audience Manager]-klant ontvangt.
 
-* Hiermee haalt u de gebruikers- en regio-id&#39;s op als u de id [!DNL Visitor ID Service]gebruikt.
-* Maak vraag aan het [!DNL DCS] nadat u de gebruiker en gebiedsidentiteitskaart hebt.
+* Haal de gebruikers- en regio-id&#39;s op als u [!DNL Visitor ID Service] gebruikt.
+* Maak vraag aan [!DNL DCS] nadat u gebruiker en gebiedsidentiteitskaart hebt.
 
 We voegen nieuwe methoden toe zodra deze beschikbaar zijn. Raadpleeg de volgende secties om aan de slag te gaan.
 
