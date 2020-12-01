@@ -27,24 +27,24 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen die ](../../features/administration/administration-overview.md) zijn toegewezen in de  [!DNL Audience Manager] gebruikersinterface, worden gerespecteerd in de  [!UICONTROL Bulk Management Tools].
 
 >[!CAUTION]
 >
 >U mag objecttypen niet mengen in een aanvraag voor het maken van grote hoeveelheden. De kopteksten voor elk object zijn uniek en kunnen niet worden gecombineerd. Wis het aantekenvel en doe een afzonderlijk verzoek voor verschillende punten.
 
-Als u meerdere objecten wilt maken, opent u het [!UICONTROL Bulk Management Tools] werkblad en:
+Als u meerdere objecten wilt maken, opent u het werkblad [!UICONTROL Bulk Management Tools] en:
 
-1. Klik op het **[!UICONTROL Headers]** tabblad en kopieer de kopteksten voor het item dat u wilt toevoegen.
-2. Klik op het **[!UICONTROL Create]** tabblad.
+1. Klik op de tab **[!UICONTROL Headers]** en kopieer de koppen voor het item dat u wilt toevoegen.
+2. Klik op het tabblad **[!UICONTROL Create]**.
 3. Plak de aanmaakheaders in de eerste rij van het werkblad van de update.
 4. Plak of typ de gegevens die u wilt wijzigen in een corresponderende kolom op basis van het koptekstlabel.
 5. Klik in de werkbladwerkbalk op de knop Maken die overeenkomt met het item dat u bijwerkt.
-Met deze handeling wordt het [!UICONTROL Account Information] dialoogvenster geopend.
-6. Geef de vereiste [aanmeldingsgegevens](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) op en klik op **[!UICONTROL Submit]**.
+Met deze handeling wordt het dialoogvenster [!UICONTROL Account Information] geopend.
+6. Geef de vereiste [aanmeldingsgegevens op](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik op **[!UICONTROL Submit]**.
 
-In het werkblad wordt een [!UICONTROL Results] kolom gemaakt. De [!UICONTROL Results] kolom retourneert de JSON-reactie voor een geslaagde bewerking. Zie de API&#39;s [REST](../../api/rest-api-main/rest-api-main.md) voor voorbeelden. Voordat u gegevens invoert, moet het werkblad voor bulksgewijs maken er ongeveer zo uitzien als in het volgende voorbeeld. Niet alle verschillende opties voor het maken van bestanden worden hier weergegeven. Dit is inbegrepen om u te helpen begrijpen hoe een voltooid aantekenvel zou kunnen kijken.
+Het aantekenvel leidt tot een [!UICONTROL Results] kolom. De [!UICONTROL Results] kolom keert de reactie JSON voor een succesvolle verrichting terug. Zie [REST APIs](../../api/rest-api-main/rest-api-main.md) voor voorbeelden. Voordat u gegevens invoert, moet het werkblad voor bulksgewijs maken er ongeveer zo uitzien als in het volgende voorbeeld. Niet alle verschillende opties voor het maken van bestanden worden hier weergegeven. Dit is inbegrepen om u te helpen begrijpen hoe een voltooid aantekenvel zou kunnen kijken.
 
 ![](assets/cretetraits.png)
 
-Als uw bulkupdate een fout terugkeert of ontbreekt, zie het Oplossen van [problemen voor de Hulpmiddelen](../../reference/bulk-management-tools/bulk-troubleshooting.md)van het Beheer van het Bulk.
+Als uw bulkupdate een fout terugkeert of ontbreekt, zie [Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk](../../reference/bulk-management-tools/bulk-troubleshooting.md).
