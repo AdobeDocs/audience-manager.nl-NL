@@ -15,9 +15,9 @@ ht-degree: 4%
 ---
 
 
-# [!DNL Amazon S3] Vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
-Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar [!DNL Audience Manager]. Stel de namen en grootten van de bestanden in op basis van deze specificaties wanneer u gegevens naar een map [!DNL Audience Manager] / [!DNL Amazon S3] verzendt.
+Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar [!DNL Audience Manager]. Stel de namen en grootten van uw bestanden in volgens deze specificaties wanneer u gegevens naar een map [!DNL Audience Manager] / [!DNL Amazon S3] verzendt.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergro
 
 * **Bestandsnaamelementen:**   `ftp_dpm_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Voor andere toegelaten dossiernaamformaten, zie de Integraties [van de Partner van de](/help/using/integration/sending-audience-data/custom-partner-integrations.md)Douane.
+Voor andere toegelaten dossier - noem formaten, zie [Integraties van de Partner van de Douane](/help/using/integration/sending-audience-data/custom-partner-integrations.md).
 
 <!--
 Removed  {importance="high"} for ExL
@@ -39,11 +39,11 @@ Removed  {importance="high"} for ExL
 
 >[!NOTE]
 >
->[!DNL Audience Manager] alleen bestanden verwerkt [!DNL ASCII] en [!DNL UTF-8] gecodeerd.
+>[!DNL Audience Manager] alleen bestanden verwerkt  [!DNL ASCII] en  [!DNL UTF-8] gecodeerd.
 
 ### Elementen benoemen
 
-De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
+De tabel definieert de elementen in de bestandsnaam [!DNL S3].
 
 <table id="table_455D174BAB9B494D973DA1023F22B962"> 
  <thead> 
@@ -63,27 +63,27 @@ De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>DPID</i> </code> </p> </td> 
-   <td colname="col2"> <p>Een id die <span class="keyword"> Audience Manager</span> vertelt of een gegevensbestand uw eigen gebruikers-id's, Android-id's, iOS-id's of andere id's bevat die tot <a href="/help/using/features/global-data-sources.md"> algemene gegevensbronnen</a>behoren. Accepteert de volgende opties:</p> 
+   <td colname="col2"> <p>Een id die <span class="keyword"> Audience Manager</span> vertelt als een gegevensdossier uw eigen gebruikers IDs, Android IDs, iOS IDs, of andere IDs bevat die tot <a href="/help/using/features/global-data-sources.md"> globale gegevensbronnen </a> behoren. Accepteert de volgende opties:</p> 
     <ul id="ul_818EB3EB2E5543F0B048BCEBB6699562"> 
-     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Gegevensbron-id (ook wel Data Provider-id genoemd):</b> Dit is een unieke id die de Audience Manager toewijst aan een gegevensbron (verwijs naar de <a href="/help/using/reference/ids-in-aam.md"> index van de Audience Manager van IDs </a>). Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. Hiermee <code>...ftp_dpm_21_123456789.sync</code> geeft u de <span class="keyword"> Audience Manager</span> bijvoorbeeld de opdracht om gegevens aan boord te maken van id's die tot gegevensbron 21 behoren. </li> 
-     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> Gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id's bevat. U moet het veld gebruiken <code><i>_DPID_TARGET_DATA_OWNER</i></code> wanneer u Android-id's gebruikt. Voorbeeld: <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken die bij de <code><i>_DPID_TARGET_DATA_OWNER</i></code> gegevensbron horen.</li> 
-     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. U moet het veld gebruiken <code><i>_DPID_TARGET_DATA_OWNER</i></code> wanneer u iOS-id's gebruikt. Voorbeeld: <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van de <code><i>_DPID_TARGET_DATA_OWNER</i></code> gegevensbron.</li>
-     <li> <b>Id's die tot andere globale gegevensbronnen</b>behoren: U kunt Roku-id's voor advertentie (RIDA), Microsoft Advertising ID's (MAID) en andere id's aan boord nemen. Gebruik de id die overeenkomt met elke gegevensbron, zoals wordt beschreven in het artikel <a href="/help/using/features/global-data-sources.md"> met</a>algemene gegevensbronnen.</li> 
+     <li id="li_ED6B13CB49794F6BA3DB6D807F788BAF"> <b>Identiteitskaart van de Gegevensbron (die ook als identiteitskaart van de Leverancier van Gegevens wordt bekend):</b> Dit is een unieke identiteitskaart die de Audience Manager aan een gegevensbron toewijst (verwijs naar de  <a href="/help/using/reference/ids-in-aam.md"> index van de Audience Manager van IDs  </a>). Gebruik deze toegewezen id in een bestandsnaam wanneer u gegevens verzendt die uw eigen gebruikers-id's bevatten. <code>...ftp_dpm_21_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> aan boord gegevens aan IDs die tot gegevensbron 21 behoren. </li> 
+     <li id="li_1955911BA11F4F458227B77F383F25A3"> <b>Android-id's (GAID):</b> gebruik ID 20914 in een gegevensbestandsnaam als deze Android-id's bevat. U moet het veld <code><i>_DPID_TARGET_DATA_OWNER</i></code> gebruiken wanneer u Android-id's gebruikt. <code>...ftp_dpm_20914_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> bijvoorbeeld dat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken die horen bij de <code><i>_DPID_TARGET_DATA_OWNER</i></code>-gegevensbron.</li> 
+     <li id="li_54E7734C121646AF82095806DD1AED61"> <b>iOS-id's (IDFA):</b> Gebruik ID 20915 in een gegevensbestandsnaam als deze iOS-id's bevat. U moet het veld <code><i>_DPID_TARGET_DATA_OWNER</i></code> gebruiken wanneer u iOS-id's gebruikt. <code>...ftp_dpm_20915_DPID_TARGET_DATA_OWNER_123456789.sync</code> vertelt <span class="keyword"> Audience Manager</span> bijvoorbeeld dat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van de <code><i>_DPID_TARGET_DATA_OWNER</i></code>-gegevensbron.</li>
+     <li> <b>Id's die tot andere globale gegevensbronnen</b> behoren: U kunt Roku-id's voor advertentie (RIDA), Microsoft Advertising ID's (MAID) en andere id's aan boord nemen. Gebruik identiteitskaart die aan elke gegevensbron beantwoordt, zoals die in <a href="/help/using/features/global-data-sources.md"> globale gegevensbronnen artikel</a> wordt beschreven.</li> 
     </ul> <p> <p>Opmerking:  Gebruik geen ID-typen in uw gegevensbestanden. Als uw bestandsnaam bijvoorbeeld de Android-id bevat, plaats dan geen iOS-id's of uw eigen id's in het gegevensbestand. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Dit gebied vertelt Audience Manager welke gegevensbron aan boordgegevens aan. Dit veld is verplicht als u de DPID instelt op een Android-id of iOS-id of een andere id die bij globale gegevensbronnen hoort. Hierdoor kan de <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
+   <td colname="col2"> <p>Dit gebied vertelt Audience Manager welke gegevensbron aan boordgegevens aan. Dit veld is verplicht als u de DPID instelt op een Android-id of iOS-id of een andere id die bij globale gegevensbronnen hoort. Hierdoor kunnen <span class="keyword"> Audience Manager</span> de bestandsgegevens weer aan uw organisatie koppelen. </p> <p>Bijvoorbeeld: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> vertelt Audience Manager dat u klant-id's kwalificeert die tot gegevensbron 33 behoren voor kenmerken of signalen die tot gegevensbron 21 behoren. </li> 
-     <li> <b>Android-id's (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> geeft de <span class="keyword"> Audience Manager</span> door dat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li> 
-     <li> <b>iOS-id's (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> geeft de <span class="keyword"> Audience Manager</span> door dat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li>
-     <li> <b>Id's die tot andere globale gegevensbronnen</b>behoren: <code>...ftp_dpm_121963_21_1234567890.sync</code> vertelt <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Roku-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21. Gebruik de id die overeenkomt met elke gegevensbron, zoals wordt beschreven in het artikel <a href="/help/using/features/global-data-sources.md"> met</a>algemene gegevensbronnen.</li> 
+     <li> <b>Android-id's (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> vertelt  <span class="keyword"> Audience </span> Managerdat het gegevensbestand alleen Android-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li> 
+     <li> <b>iOS-id's (IDFA):</b> <code>...ftp_dpm_20915_21_1234567890.sync</code> vertelt  <span class="keyword"> Audience </span> Managerdat het gegevensbestand alleen iOS-id's bevat en dat de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21.</li>
+     <li> <b>Id's die tot andere globale gegevensbronnen</b> behoren:  <code>...ftp_dpm_121963_21_1234567890.sync</code> vertelt  <span class="keyword"> Audience </span> Managerest dat het gegevensbestand alleen Roku-id's bevat en de id's in aanmerking moeten komen voor de kenmerken van gegevensbron 21. Gebruik identiteitskaart die aan elke gegevensbron beantwoordt, zoals die in <a href="/help/using/features/global-data-sources.md"> globale gegevensbronnen artikel</a> wordt beschreven.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>partner_name</i> </code> </p> </td> 
-   <td colname="col2"> <p>Het bedrijf of de organisatienaam u in <span class="keyword"> Audience Manager</span>gebruikt. </p> </td> 
+   <td colname="col2"> <p>Het bedrijf of de organisatienaam u in <span class="keyword"> Audience Manager </span> gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>TIMESTAMP</i> </code> </p> </td> 
@@ -106,16 +106,16 @@ De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
     <ul id="ul_E9446C5CA42649658093904D49D4369C"> 
      <li id="li_B275708DFE3F49E29EFAE6B838429E39">Niet-gecomprimeerd: 1 GB </li> 
      <li id="li_A9638EB46ED14E0680B6575D5457E32F">Gecomprimeerd: 200-300 MB </li> 
-    </ul> <p>Zie de eerste twee <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> voorbeelden</a> van bestandsnaam hieronder. </p> </td> 
+    </ul> <p>Zie de eerste 2 <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md#file-name-examples"> voorbeelden van de dossiernaam</a> hieronder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [.gz]</code> </p> </td> 
-   <td colname="col2"> <p>Gebruik alleen gzip-compressie wanneer u bestanden naar Amazon S3 verzendt. Wanneer deze bestanden zijn gecomprimeerd, krijgen ze de <code> .gz</code> extensie. Gebruik geen .zip-compressie. </p> <p>Gecomprimeerde bestanden moeten 3 GB of kleiner zijn. Neem contact op met de klantenservice als uw bestanden groter zijn. Hoewel Audience Manager grote bestanden kan verwerken, kunnen we u helpen de bestanden te verkleinen en de gegevensoverdracht efficiënter te maken. Zie <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Bestandscompressie voor binnenkomende dataoverdrachtsbestanden</a>. </p> </td> 
+   <td colname="col2"> <p>Gebruik alleen gzip-compressie wanneer u bestanden naar Amazon S3 verzendt. Wanneer deze bestanden zijn gecomprimeerd, krijgen ze de extensie <code> .gz</code>. Gebruik geen .zip-compressie. </p> <p>Gecomprimeerde bestanden moeten 3 GB of kleiner zijn. Neem contact op met de klantenservice als uw bestanden groter zijn. Hoewel Audience Manager grote bestanden kan verwerken, kunnen we u helpen de bestanden te verkleinen en de gegevensoverdracht efficiënter te maken. Zie <a href="../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md">Bestandscompressie voor binnenkomende dataoverdrachtsbestanden</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Voorbeelden van bestandsnamen {#file-name-examples}
+## Voorbeelden van bestandsnaam {#file-name-examples}
 
 In de volgende voorbeelden worden correct opgemaakte bestandsnamen weergegeven. De bestandsnamen kunnen er ongeveer hetzelfde uitzien.
 
@@ -127,11 +127,11 @@ In de volgende voorbeelden worden correct opgemaakte bestandsnamen weergegeven. 
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-U kunt het voorbeeldbestand [downloaden](assets/ftp_dpm_1234_1445374061.overwrite) als u meer voorbeelden wilt. Dit bestand is opgeslagen met de `.overwrite` bestandsextensie. Open het met een eenvoudige teksteditor.
+U kunt het voorbeeldbestand [downloaden](assets/ftp_dpm_1234_1445374061.overwrite) als u meer voorbeelden wilt. Dit bestand is opgeslagen met de bestandsextensie `.overwrite`. Open het met een eenvoudige teksteditor.
 
 ## Geaccepteerde bestandsgrootten {#accepted-file-sizes}
 
-Houd rekening met de onderstaande cijfers voor de snelste/vroegste verwerking van uw bestanden en voor beperkingen van de bestandsgrootte wanneer u gegevens naar een [!DNL Audience Manager] / [!DNL Amazon S3] directory verzendt.
+Houd rekening met de onderstaande cijfers voor de snelste/vroegste verwerking van uw bestanden en voor beperkingen van de bestandsgrootte wanneer u gegevens naar een map [!DNL Audience Manager] / [!DNL Amazon S3] verzendt.
 
 <table id="table_59FCC63806684DF8BE54A1EAF224A234"> 
  <thead> 
