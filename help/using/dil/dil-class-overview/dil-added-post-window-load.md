@@ -1,6 +1,6 @@
 ---
-description: Wordt gebruikt om DIL te laten weten dat deze wordt geladen nadat het venster is geladen.
-seo-description: Wordt gebruikt om DIL te laten weten dat deze wordt geladen nadat het venster is geladen.
+description: Gebruikt om DIL te laten weten dat het wordt geladen nadat het venster wordt geladen.
+seo-description: Gebruikt om DIL te laten weten dat het wordt geladen nadat het venster wordt geladen.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
 title: isAddedPostWindowLoad
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # isAddedPostWindowLoad{#isaddedpostwindowload}
 
-Wordt gebruikt om DIL te laten weten dat deze wordt geladen nadat het venster is geladen.
+Gebruikt om DIL te laten weten dat het wordt geladen nadat het venster wordt geladen.
 
 **Functiehandtekening:** `isAddedPostWindowLoad: function()`
 
