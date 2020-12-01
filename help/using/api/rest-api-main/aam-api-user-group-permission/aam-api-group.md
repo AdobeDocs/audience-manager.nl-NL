@@ -17,13 +17,13 @@ ht-degree: 5%
 
 # API-methoden voor groepsbeheer {#group-management-api-methods}
 
-Stel methoden in [!DNL API] voor het beheer van groepen, zoals het maken, bijwerken, weergeven en verwijderen van groepen.
+Stel [!DNL API] methoden in om groepen te beheren, zoals het maken, bijwerken, weergeven of verwijderen van groepen.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Een groep maken {#create-group}
 
-Een `POST` methode om een nieuwe gebruikersgroep te maken.
+Een `POST` methode om een nieuwe gebruikersgroep tot stand te brengen.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -54,9 +54,9 @@ Een `POST` methode om een nieuwe gebruikersgroep te maken.
   }
 ```
 
-## Een groep bijwerken {#update-group}
+## Een groep {#update-group} bijwerken
 
-Een `PUT` methode om een gebruikersgroep bij te werken.
+Een methode `PUT` om een gebruikersgroep bij te werken.
 
 <!--
 r_rest_api_group_update.xml
@@ -91,7 +91,7 @@ r_rest_api_group_update.xml
 
 ## Groepen weergeven {#list-groups}
 
-Een `GET` methode om gebruikersgroepen weer te geven.
+Een methode `GET` om gebruikersgroepen weer te geven.
 
 <!--
 r_rest_api_group_list.xml
@@ -117,9 +117,9 @@ r_rest_api_group_list.xml
 ]
 ```
 
-## Een groep verwijderen {#delete-groups}
+## Een groep {#delete-groups} verwijderen
 
-Een `DELETE` methode om een gebruikersgroep te verwijderen en alle leden uit die groep te verwijderen.
+Een methode `DELETE` om een gebruikersgroep te schrappen en alle leden uit die groep te verwijderen.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -127,7 +127,7 @@ Een `DELETE` methode om een gebruikersgroep te verwijderen en alle leden uit die
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Retourneert `204 No Content` indien gelukt. In geval van conflictoplossing `409 Conflict`.
+Retourneert `204 No Content` indien gelukt. In geval van conflict retourneert `409 Conflict`.
 
 ## Groepen in bulk verwijderen {#delete-groups-bulk}
 
@@ -139,11 +139,11 @@ Een `DELETE` methode om veelvoudige groepen in massa te schrappen en alle leden 
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Retourneert `204 No Content` indien gelukt. In geval van conflictoplossing `409 Conflict`.
+Retourneert `204 No Content` indien gelukt. In geval van conflict retourneert `409 Conflict`.
 
-## Alle machtigingen voor een groep weergeven {#list-permissions-group}
+## Alle machtigingen voor een groep {#list-permissions-group} weergeven
 
-Een `GET` methode om de machtigingsobjecten in een groep weer te geven.
+A `GET` methode om van de toestemmingsvoorwerpen op een groep een lijst te maken.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -173,11 +173,11 @@ Een `GET` methode om de machtigingsobjecten in een groep weer te geven.
 ]
 ```
 
-Retourneert `400 Bad Request` of de groep ontoegankelijk is.
+Retourneert `400 Bad Request` als de groep niet toegankelijk is.
 
 ## Machtigingen instellen voor een groep {#set-permissions-group}
 
-Een `PUT` methode om groepsmachtigingen bij te werken. Deze methode beschrijft de oude toestemmingen met de nieuwe toestemmingen.
+Een methode `PUT` om groepsmachtigingen bij te werken. Deze methode beschrijft de oude toestemmingen met de nieuwe toestemmingen.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -210,4 +210,4 @@ Een `PUT` methode om groepsmachtigingen bij te werken. Deze methode beschrijft d
 
 De voorbeeldreactie vertegenwoordigt de bijgewerkte lijst met machtigingsobjecten.
 
-Retourneert `200 OK` indien gelukt. Retourneert `400` of een bepaalde machtiging ongeldig is. Kan ook retourneren `403` als het object niet toegankelijk is voor de aangemelde gebruiker.
+Retourneert `200 OK` indien gelukt. Retourneert `400` als een gegeven machtiging ongeldig is. Kan ook `403` retourneren als het object niet toegankelijk is voor de aangemelde gebruiker.
