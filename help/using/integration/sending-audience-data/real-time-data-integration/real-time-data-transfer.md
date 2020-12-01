@@ -17,15 +17,15 @@ ht-degree: 6%
 
 # Opname van binnenkomende realtimedata {#real-time-inbound-data-ingestion}
 
-Het in real time binnenkomende proces van gegevensinvoer gebruikt een reeks `HTTP` verzoeken van browser van een gebruiker om gegevens tot Audience Manager over te gaan.
+Het proces van de inkomende gegevens in real time gebruikt een reeks `HTTP` verzoeken van browser van een gebruiker om gegevens tot Audience Manager over te gaan.
 
 <!-- c_rt_inbound_real_time.xml -->
 
-De binnenkomende gegevens zouden als zeer belangrijk-waardeparen moeten worden geformatteerd genoemd signalen. Typisch, wordt elk signaal in kaart gebracht aan een segment dat door het gebruikersinterface wordt gecreeerd of wordt geleid [!DNL API].
+De binnenkomende gegevens zouden als zeer belangrijk-waardeparen moeten worden geformatteerd genoemd signalen. Typisch, wordt elk signaal in kaart gebracht aan een segment dat door het gebruikersinterface of [!DNL API] wordt gecreeerd of wordt geleid.
 
 ## Parameters URL-tekenreeks en syntaxis {#url-string-syntax}
 
-De [!DNL URL] voor een inkomende gegevensoverdracht moet de hieronder beschreven variabelen bevatten. Vergeet niet om [kenmerken](../../../features/traits/create-onboarded-rule-based-traits.md) en een [mapstructuur](../../../features/traits/trait-storage.md#create-trait-storage-folder) in de [!DNL Audience Manager] gebruikersinterface te maken voordat u gegevensoverdracht in realtime instelt.
+De [!DNL URL] voor een binnenkomende gegevensoverdracht moet de hieronder beschreven variabelen bevatten. Vergeet niet om [kenmerken te maken](../../../features/traits/create-onboarded-rule-based-traits.md) en een [mapstructuur](../../../features/traits/trait-storage.md#create-trait-storage-folder) in de [!DNL Audience Manager]-interface voordat u gegevensoverdracht in real time instelt.
 
 >[!NOTE]
 >
