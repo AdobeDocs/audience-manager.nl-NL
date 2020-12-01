@@ -25,43 +25,43 @@ In [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] laat u regels tot
 
 ![](assets/manage-trait-rules.png)
 
-1. De **[!UICONTROL Expression Builder]** tabbladen of **[!UICONTROL Code View]** tabbladen bieden een overzicht van de regels in uw kenmerk. Op het **[!UICONTROL Expression Builder]** tabblad kunt u regels maken met velden en vervolgkeuzemenu&#39;s. Met de code **[!UICONTROL Code View]** kunt u regels maken door die expressies handmatig als code te schrijven. In de bovenstaande afbeelding ziet u een eenvoudig kenmerk dat bestaat uit een signaal dat gegevens evalueert voor een in aanmerking komende voorwaarde waarbij een productsleutel gelijk is aan een specifieke waarde, in dit geval `color == "blue"`.
+1. De tabbladen **[!UICONTROL Expression Builder]** of **[!UICONTROL Code View]** bieden een overzicht van de regels in uw kenmerk. Met het tabblad **[!UICONTROL Expression Builder]** kunt u regels maken met velden en vervolgkeuzemenu&#39;s. Met **[!UICONTROL Code View]** kunt u regels maken door die expressies handmatig als code te schrijven. In de bovenstaande afbeelding ziet u een eenvoudig kenmerk dat bestaat uit een signaal dat gegevens evalueert voor een in aanmerking komende voorwaarde waarbij een productsleutel gelijk is aan een specifieke waarde, in dit geval `color == "blue"`.
 
 1. Met de velden en besturingselementen in deze sectie kunt u signalen van sleutelwaardeparen maken en de relatie tussen deze velden en een vergelijkingsoperator instellen. Er zijn een sleutel, operator en waarde vereist.
-1. Met [!UICONTROL Data Explorer Options] deze optie kunt u de eigenschapresultaten voor uw signalen terugzetten.
+1. Met [!UICONTROL Data Explorer Options] kunt u de karakteristieken voor uw signalen terugvullen.
    >[!NOTE]
    >
-   >Deze optie is alleen beschikbaar voor [!UICONTROL Data Explorer] klanten. Neem contact op met uw Adobe-consultant voor meer informatie.
-1. In deze sectie ziet u een schatting van de resultaten van de afgelopen 7 dagen voor de signalen die in de code zijn gedefinieerd, voor [!UICONTROL Expression Builder]teruggevulde en niet-teruggevulde kenmerken.
+   >Deze optie is alleen beschikbaar voor [!UICONTROL Data Explorer]-klanten. Neem contact op met uw Adobe consultant voor meer informatie.
+1. In deze sectie ziet u een schatting van de resultaten van de afgelopen 7 dagen voor de signalen die zijn gedefinieerd in [!UICONTROL Expression Builder], voor teruggevulde en niet-teruggevulde kenmerken.
    >[!NOTE]
    >
-   >Deze optie is alleen beschikbaar voor [!UICONTROL Data Explorer] klanten. Neem contact op met uw Adobe-consultant voor meer informatie.
+   >Deze optie is alleen beschikbaar voor [!UICONTROL Data Explorer]-klanten. Neem contact op met uw Adobe consultant voor meer informatie.
 1. Met de testvelden kunt u combinaties van signaalregels of de [!DNL URL]s valideren die u wilt gebruiken wanneer u gegevens naar de Audience Manager verzendt.
 
-## Een overtrekregel maken {#create-trait-rule}
+## Een regel voor overtrekken maken {#create-trait-rule}
 
-Regels (of expressies) bestaan uit afzonderlijke of groepen sleutelwaardeparen. Vergelijkingsoperatoren stellen de relatie in tussen sleutelwaardeparen. Als u een regel wilt maken, typt u een sleutel, een waarde, selecteert u een operator en klikt u **[!UICONTROL Add Rule]** op deze toets.
+Regels (of expressies) bestaan uit afzonderlijke of groepen sleutelwaardeparen. Vergelijkingsoperatoren stellen de relatie in tussen sleutelwaardeparen. Als u een regel wilt maken, typt u een sleutel, een waarde, selecteert u een operator en klikt u op **[!UICONTROL Add Rule]**.
 
 <!-- t_tb_create_rules.xml -->
 
-Vul de vereiste velden in de **[!UICONTROL Basic Information]** sectie in *voordat* u de regels voor de eigenschap maakt.
+Vul de vereiste velden in de **[!UICONTROL Basic Information]** sectie *before* in voor het maken van regels voor kenmerken.
 
-1. Vouw de **[!UICONTROL Trait Expression]** sectie uit en voer een sleutel- en waardenaam in. Hiermee maakt u een *`signal`*.
+1. Vouw de sectie **[!UICONTROL Trait Expression]** uit en voer een sleutel- en waardenaam in. Hiermee maakt u een *`signal`*.
    >[!NOTE]
    >
-   >Neem het `c_` voorvoegsel (of een andere naamgevingsconventie) voor de toetsvariabele op als uw gebeurtenisaanroepen gegevens naar [!DNL Audience Manager] die syntaxis verzenden.
-1. Selecteer een [vergelijkingsoperator](../../features/traits/trait-comparison-operators.md) in het **[!UICONTROL Operator]** vervolgkeuzemenu. De vergelijkingsexploitant evalueert de verhouding tussen de elementen in een signaal.
+   >Neem het voorvoegsel `c_` (of een andere naamgevingsconventie) op voor de toetsvariabele als uw gebeurtenisaanroepen gegevens naar [!DNL Audience Manager] verzenden met behulp van die syntaxis.
+1. Selecteer een [vergelijkingsoperator](../../features/traits/trait-comparison-operators.md) in het vervolgkeuzemenu **[!UICONTROL Operator]**. De vergelijkingsexploitant evalueert de verhouding tussen de elementen in een signaal.
    >[!NOTE]
    >
-   >De [!DNL Boolean] exploitant vestigt de verhouding tussen veelvoudige signalen [!UICONTROL OR] binnen ** een groep en kan niet worden veranderd.
+   >De [!DNL Boolean] [!UICONTROL OR] exploitant vestigt de verhouding tussen veelvoudige signalen *binnen* een groep en kan niet worden veranderd.
 1. Klik op **[!UICONTROL Add Rule]**. De opgeslagen regel wordt weergegeven in de werkruimte Kenmerken boven de velden voor gegevensinvoer.
 
 ### Voorbeeld {#example-trait-rule}
 
-In het onderstaande voorbeeld heeft een gebruiker een nieuwe regel voor het kenmerk gemaakt op basis van de product-id. Om deze regel te bouwen, verstrekte de gebruiker de sleutel `productkey` verbonden aan een gelijkenis exploitant ( `==`) aan de waarde `2093`.
+In het onderstaande voorbeeld heeft een gebruiker een nieuwe regel voor het kenmerk gemaakt op basis van de product-id. Om deze regel te bouwen, verstrekte de gebruiker de sleutel `productkey` verbonden met een gelijkenexploitant ( `==`) aan de waarde `2093`.
 ![](assets/tb_sample_rule1.png)
 
-Klik op Opslaan **[!UICONTROL Add Rule]** en verplaatst de eigenschap naar de [!UICONTROL Expression Builder] werkruimte.
+Als u op **[!UICONTROL Add Rule]** klikt, wordt de eigenschap opgeslagen en verplaatst naar de werkruimte [!UICONTROL Expression Builder].
 
 ![](assets/tb_sample_rule2.png)
 
@@ -85,24 +85,24 @@ Hierdoor wordt de regel automatisch gescheiden van de huidige groep en verplaats
 
 Als u een regel wilt verplaatsen, klikt u erop en sleept u deze naar een andere groep.
 
-## Een overtrek bewerken {#edit-trait}
+## Een handeling bewerken {#edit-trait}
 
 In deze procedure wordt beschreven hoe u een eigenschap kunt bewerken.
 
 <!-- t_tb_edit.xml -->
 
-1. Houd de muisaanwijzer boven de [!UICONTROL Traits] kolom voor het kenmerk dat u wilt bewerken in het **[!UICONTROL Actions]** dashboard. Dit brengt de pictogrammen van het trekkenbeheer naar voren.
+1. Houd de muisaanwijzer in het dashboard [!UICONTROL Traits] boven de kolom **[!UICONTROL Actions]** voor de eigenschap die u wilt bewerken. Dit brengt de pictogrammen van het trekkenbeheer naar voren.
 1. Klik op het potlood om de eigenschap te bewerken.
 
    ![](assets/tb_edit_trait.png)
 
-## Een regel voor overtrekken verwijderen {#delete-trait}
+## Een treinstel {#delete-trait} verwijderen
 
 Deze procedure beschrijft hoe te om een treklijn te schrappen.
 
 <!-- t_tb_delete_rule.xml -->
 
-1. Houd de muisaanwijzer boven de [!UICONTROL Traits] kolommen van het te bewerken kenmerk in het [!UICONTROL Actions] dashboard en klik op het potloodpictogram. Dit brengt de pictogrammen van het trekkenbeheer naar voren.
+1. Houd de aanwijzer boven de [!UICONTROL Actions]-kolommen in het dashboard [!UICONTROL Traits] voor het kenmerk dat u wilt bewerken en klik op het potloodpictogram. Dit brengt de pictogrammen van het trekkenbeheer naar voren.
 1. Vouw de sectie [!UICONTROL Trait Expression] uit.
 1. Houd de cursor boven de regel die u wilt verwijderen en klik op het X-pictogram. De regel wordt onmiddellijk verwijderd.
 
