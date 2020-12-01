@@ -1,6 +1,6 @@
 ---
-description: Gegevens naar de DCS API verzenden met GET- of POST-methoden.
-seo-description: Gegevens naar de DCS API verzenden met GET- of POST-methoden.
+description: Gegevens verzenden naar de DCS API met behulp van GET- of POST-methoden.
+seo-description: Gegevens verzenden naar de DCS API met behulp van GET- of POST-methoden.
 seo-title: DCS-API-methoden
 solution: Audience Manager
 title: DCS-API-methoden
@@ -15,11 +15,11 @@ ht-degree: 5%
 ---
 
 
-# [!DNL DCS] [!DNL API] Methoden {#dcs-api-methods}
+# [!DNL DCS] [!DNL API] Methoden  {#dcs-api-methods}
 
-Gegevens naar de [!DNL DCS] server verzenden [!DNL API] met `GET` behulp van `POST` methoden.
+Gegevens verzenden naar [!DNL DCS] [!DNL API] met de methoden `GET` of `POST`.
 
-U kunt gegevens naar de [!DNL DCS] server verzenden met een van de `GET` of `POST` methoden. Neem een blik bij de steekproefvraag hieronder, gebruikend [krullen](https://curl.haxx.se/). In alle drie steekproefvraag, voegen wij de signalen `c_likes = famous popstar` en `c_loves = famous actress` aan het apparatenprofiel toe `12345678901234567890123456789012345678`.
+U kunt gegevens naar [!DNL DCS] verzenden gebruikend of `GET` of `POST` methodes. Neem een blik bij de steekproefvraag hieronder, gebruikend [curl](https://curl.haxx.se/). In alle drie steekproefvraag, voegen wij de signalen `c_likes = famous popstar` en `c_loves = famous actress` aan het apparatenprofiel `12345678901234567890123456789012345678` toe.
 
 ## Gegevens verzenden via [!DNL GET] {#send-data-via-get}
 
@@ -31,7 +31,7 @@ curl -i "yourcompany.demdex.net/event?d_uuid=12345678901234567890123456789012345
 
 ## Gegevens verzenden via [!DNL POST] {#send-data-via-post}
 
-Let op de vereisten voor het verzenden van gegevens met de `POST` methode:
+Noteer de vereisten voor het verzenden van gegevens met de methode `POST`:
 
 * De maximaal toegestane grootte is 32 kB.
 * Stel het inhoudstype in op `application/x-www-form-urlencoded`.
