@@ -17,27 +17,27 @@ ht-degree: 2%
 
 # Afgeleide signalen {#derived-signals}
 
-Een [!UICONTROL derived signal] kwalificatie voor extra kenmerken van sitebezoekers is gebaseerd op een kenmerk dat ze al hebben gezien. Met andere woorden, aanvullende vakkwalificatie kan worden afgeleid van een momenteel tentoongestelde eigenschap, zelfs als een gebruiker de nieuwe eigenschap nog niet eerder heeft gezien.
+Een [!UICONTROL derived signal] kwalificeert sitebezoekers voor extra kenmerken op basis van een kenmerk dat ze al hebben gezien. Met andere woorden, aanvullende vakkwalificatie kan worden afgeleid van een momenteel tentoongestelde eigenschap, zelfs als een gebruiker de nieuwe eigenschap nog niet eerder heeft gezien.
 
 <!-- c_tb_derived_signal.xml -->
 
 ## Doel van Afgeleide signalen
 
-In [!DNL Audience Manager], kunt u een verband tussen signalen (of de regels van het trekkengedrag) tot stand brengen die tijdens een gebeurtenisvraag aan andere, gespecificeerde signalen of eigenschappen worden overgegaan. Bijvoorbeeld, veronderstel een gebeurtenisvraag in een signaal overgaat dat uit de zeer belangrijk-waarde [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`) wordt samengesteld. [!DNL Audience Manager] zou dat signaal aansluiten op andere apparaten die met het [!UICONTROL derived signals] gereedschap zijn gemaakt. Hoewel de bijbehorende signalen om het even welke zeer belangrijk-waarden kunnen zijn u specificeert, zijn zij het nuttigst wanneer verbonden met bestaande signalen reeds opstelling als [!UICONTROL Trait Builder] regels. Bijvoorbeeld, in de illustratie hieronder, wanneer een gebruikersactie het signaal in brand steekt [!DNL "product = new car"] dat de gebruiker voor eigenschappen kan ook kwalificeren die door de doelsleutel en waardesignalen worden bepaald.
+In [!DNL Audience Manager], kunt u een verband tussen signalen (of de regels van het trekkengedrag) tot stand brengen binnen tijdens een gebeurtenisvraag aan andere, gespecificeerde signalen of trekken wordt overgegaan. Stel bijvoorbeeld dat een gebeurtenisaanroep wordt doorgegeven in een signaal dat bestaat uit de toetswaarde [!DNL "product = new_car"] ( `https://<domain alias>/event?product=new_car`). [!DNL Audience Manager] zou dat signaal verbinden met andere gebruikers die met het  [!UICONTROL derived signals] gereedschap zijn gemaakt. Hoewel de bijbehorende signalen om het even welke zeer belangrijk-waarden kunnen zijn u specificeert, zijn zij het nuttigst wanneer verbonden met bestaande signalen reeds opstelling als [!UICONTROL Trait Builder] regels. Bijvoorbeeld, in de illustratie hieronder, wanneer een gebruikersactie het signaal [!DNL "product = new car"] in werking stelt kan die gebruiker ook voor eigenschappen kwalificeren die door de doelsleutel en waardesignalen worden bepaald.
 
 ![](assets/derived_signal_example.png)
 
 ## Locatie van afgeleide signalen
 
-Maak en beheer [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** de zijbalknavigatie.
+Maak en beheer [!UICONTROL derived signals] in **[!UICONTROL Tools > Derived Signals]** vanuit de zijbalknavigatie.
 
 ## Een afgeleid signaal maken {#create}
 
 <!-- t_tb_create_derived.xml -->
 
-Een [!UICONTROL derived signal]:
+Een [!UICONTROL derived signal] maken:
 
-1. Selecteer **[!UICONTROL Derived Signals]** in het [!UICONTROL Tools] menu.
+1. Selecteer **[!UICONTROL Derived Signals]** van [!UICONTROL Tools] menu.
 1. Geef een overzicht:
    * *(Optioneel)* [!UICONTROL Integration Code]
    * [!UICONTROL Source Key]
@@ -48,19 +48,19 @@ Een [!UICONTROL derived signal]:
 
 >[!NOTE]
 >
->De tekenlimiet voor de velden [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key]en [!UICONTROL Target Value] velden is 228 tekens.
+>De tekenlimiet voor de velden [!UICONTROL Source Key], [!UICONTROL Source Value], [!UICONTROL Target Key] en [!UICONTROL Target Value] is 228 tekens.
 
-## Afgeleid signaal bewerken {#edit}
+## Afgeleid signaal {#edit} bewerken
 
 <!-- t_tb_edit_derived.xml -->
 
-Een [!UICONTROL derived signal]:
+Een [!UICONTROL derived signal] bewerken:
 
-1. Houd de muisaanwijzer boven het signaal en klik vervolgens **[!UICONTROL Edit]** op het signaal.
-2. Breng de vereiste code, sleutel, of waardeveranderingen aan, dan klik **[!UICONTROL Save]**.
+1. Houd de cursor boven het signaal en klik op **[!UICONTROL Edit]**.
+2. Wijzig de vereiste code, sleutel of waarde en klik op **[!UICONTROL Save]**.
 
-## Afgeleid signaal verwijderen {#delete}
+## Afgeleid signaal {#delete} verwijderen
 
 <!-- t_tb_delete_derived.xml -->
 
-Als u een [!UICONTROL derived signal]symbool wilt verwijderen, plaatst u de muisaanwijzer op het signaal en klikt u op **[!UICONTROL Delete]**.
+Als u een [!UICONTROL derived signal] wilt verwijderen, plaatst u de cursor boven het signaal en klikt u op **[!UICONTROL Delete]**.
