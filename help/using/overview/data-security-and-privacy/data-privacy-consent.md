@@ -4,7 +4,7 @@ seo-description: In dit document wordt uitgelegd hoe toestemmingsbeheer werkt in
 seo-title: Consent Management
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, consent
-title: Consent Management
+title: Beheer van toestemming
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: data governance & privacy
 translation-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 100%
 ---
 
 
-# Consent Management
+# Beheer van toestemming
 
 ## Overzicht {#overview}
 
@@ -36,7 +36,7 @@ Met de [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/nl-
 
 Dit is een uitbreiding van de [!DNL Experience Cloud ID (ECID) Service], waarmee u kunt bepalen of en welke Experience Cloud-oplossingen cookies op webpagina’s kunnen plaatsen voor gebruikers voordat ze hiermee akkoord zijn gegaan.
 
-Met de [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/implementation/opt-in-service/optin-overview.html) kunt u ook protocollen instellen om te integreren met uw Consent Management Platform (CMP) en bestaande systemen als onderdeel van uw grotere ontwerp.
+Met de [Experience Cloud Opt-in Service](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html) kunt u ook protocollen instellen om te integreren met uw Consent Management Platform (CMP) en bestaande systemen als onderdeel van uw grotere ontwerp.
 
 ## Opt-in beheren/Toestemming verkrijgen
 
@@ -44,7 +44,7 @@ De klanten van Audience Manager hebben de mogelijkheid om gebruikerstoestemming 
 
 ## Opt-out beheren/Toestemming intrekken
 
-U kunt opt-out voor de Adobe Experience Cloud beheren via de pagina [Uw privacyopties](https://www.adobe.com/nl/privacy/opt-out.html#customeruse). Met 1-klikfuncties kunnen uw eindgebruikers de verzameling van hun data door de Adobe Experience Cloud-advertentieoplossingen (inclusief Audience Manager) beheren en uitschakelen. Zie met name de [sectie voor zakelijke klanten](https://www.adobe.com/nl/privacy/opt-out.html#customeruse) van de pagina voor privacyopties. Voor browsers die cookies van derden niet ondersteunen, raadpleegt u [Gedeclareerde id-targeting](../../features/declared-ids.md#declared-id-targeting). Voor mobiele apparaten haalt u de relevante Audience Manager-id’s op en roept u de opt-out-API’s van Audience Manager op zoals vermeld in [Voorbeelden van gedeclareerde id-opt-outs](../../features/declared-ids.md#opt-out-examples). Daarna kunt u alle dataverzameling beëindigen voor gebruikers met de opt-out-API’s van de Mobile SDK: zie [Android-apparaten](https://docs.adobe.com/content/help/nl-NL/mobile-services/android/gdpr-privacy-android/privacy.html) en [iOS-apparaten](https://docs.adobe.com/content/help/nl-NL/mobile-services/ios/privacy-gdpr-ios/privacy.html). Meer informatie over opt-out vindt u in de [documentatie bij Data Privacy-aanvragen](../../overview/data-security-and-privacy/data-privacy-requests.md).
+U kunt opt-out voor de Adobe Experience Cloud beheren via de pagina [Uw privacyopties](https://www.adobe.com/nl/privacy/opt-out.html#customeruse). Met 1-klikfuncties kunnen uw eindgebruikers de verzameling van hun data door de Adobe Experience Cloud-advertentieoplossingen (inclusief Audience Manager) beheren en uitschakelen. Zie met name de [sectie voor zakelijke klanten](https://www.adobe.com/privacy/opt-out.html#customeruse) van de pagina voor privacyopties. Voor browsers die cookies van derden niet ondersteunen, raadpleegt u [Gedeclareerde id-targeting](../../features/declared-ids.md#declared-id-targeting). Voor mobiele apparaten haalt u de relevante Audience Manager-id’s op en roept u de opt-out-API’s van Audience Manager op zoals vermeld in [Voorbeelden van gedeclareerde id-opt-outs](../../features/declared-ids.md#opt-out-examples). Daarna kunt u alle dataverzameling beëindigen voor gebruikers met de opt-out-API’s van de Mobile SDK: zie [Android-apparaten](https://docs.adobe.com/content/help/nl-NL/mobile-services/android/gdpr-privacy-android/privacy.html) en [iOS-apparaten](https://docs.adobe.com/content/help/nl-NL/mobile-services/ios/privacy-gdpr-ios/privacy.html). Meer informatie over opt-out vindt u in de [documentatie bij Data Privacy-aanvragen](../../overview/data-security-and-privacy/data-privacy-requests.md).
 
 ## Toestemming beheren voor tweedepartijpartners
 
