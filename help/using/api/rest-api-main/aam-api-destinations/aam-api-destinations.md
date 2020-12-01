@@ -21,11 +21,11 @@ Methoden waarmee u programmatisch kunt werken met doelfuncties.
 
 <!-- c_destinations_api.xml -->
 
-In Audience Manager, is een bestemming om het even welk ander systeem (ad server, [!DNL DSP], en netwerk, uitwisseling, uw eigen eerstepartijkoekje, enz.) waarmee u data wilt delen.
+In Audience Manager, is een bestemming elk ander systeem (ad server, [!DNL DSP], en netwerk, uitwisseling, uw eigen eersteklas koekje, enz.) waarmee u data wilt delen.
 
 ## Doeltypen: URL en cookie {#destination-types}
 
-Hier worden de variabelen weergegeven die door de `destinationType` parameter worden gebruikt. Geef op `push` of `ADS` om met een [!UICONTROL URL] of [!UICONTROL cookie destination]. U kunt niet maken [!UICONTROL server-to-server destinations] met de beschikbare [!DNL API] doelmethoden.
+Hiermee geeft u de variabelen weer die door de parameter `destinationType` worden gebruikt. Geef `push` of `ADS` op om met een [!UICONTROL URL] of [!UICONTROL cookie destination] te werken. U kunt geen [!UICONTROL server-to-server destinations] met de beschikbare bestemmings [!DNL API] methodes tot stand brengen.
 
 <!-- r_destination_types.xml -->
 
