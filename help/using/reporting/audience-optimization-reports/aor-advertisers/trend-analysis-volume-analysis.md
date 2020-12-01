@@ -15,27 +15,27 @@ ht-degree: 5%
 ---
 
 
-# [!UICONTROL Trend Analysis] en [!UICONTROL Volume Analysis] rapporten{#trend-analysis-and-volume-analysis-reports}
+# [!UICONTROL Trend Analysis] en  [!UICONTROL Volume Analysis] rapporten{#trend-analysis-and-volume-analysis-reports}
 
 In deze rapporten worden gegevens over afbeeldingen, doorkliksnelheden en omzettingen voor een groot aantal verschillende advertentiegrootten geretourneerd. Vergelijk trends en volume voor uw geselecteerde metriek om een beter beeld te krijgen van hoe uw campagne in tijd presteert.
 
-## Voorbeeldrapport [!UICONTROL Trend Analysis] {#sample-trend-analysis}
+## Voorbeeld [!UICONTROL Trend Analysis] Rapport {#sample-trend-analysis}
 
-Het [!UICONTROL Trend Analysis] rapport retourneert alleen gegevens in een lijngrafiek voor een interval van 14 dagen. In dit voorbeeld toont het rapport de indruk, doorklikken en conversietrends voor een set in kaart gebrachte segmenten.
+Het [!UICONTROL Trend Analysis] rapport keert gegevens in een lijngrafiek voor slechts een interval van 14 dagen terug. In dit voorbeeld toont het rapport de indruk, doorklikken en conversietrends voor een set in kaart gebrachte segmenten.
 
 ![](assets/trend-analysis.png)
 
-## Voorbeeldrapport [!UICONTROL Volume Analysis] {#sample-volume-analysis}
+## Voorbeeld [!UICONTROL Volume Analysis] Rapport {#sample-volume-analysis}
 
-Het [!UICONTROL Volume Analysis] rapport retourneert gegevens in een staafgrafiek voor het geselecteerde datumbereik. In dit voorbeeld toont het rapport voor een set in kaart gebrachte segmenten de indruk, doorklik en omzetting op volume.
+Het [!UICONTROL Volume Analysis] rapport keert gegevens in een balkgrafiek voor uw geselecteerde datumwaaier terug. In dit voorbeeld toont het rapport voor een set in kaart gebrachte segmenten de indruk, doorklik en omzetting op volume.
 
 >[!NOTE]
 >
->De terugblik periodes van 7 dagen en 30 dagen zijn slechts beschikbaar voor de **[!UICONTROL Date Through]** data van de Zondag.
+>De terugblik-achterperiodes van 7 dagen en van 30 dagen zijn slechts beschikbaar voor zondag **[!UICONTROL Date Through]** data.
 
 ![](assets/volume-analysis.png)
 
 >[!TIP]
 >
->Voor informatie over in kaart gebrachte en unmapped segmenten, zie de documentatie van het Rapport [van de Prestaties van het](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) Segment.
+>Voor informatie over in kaart gebrachte en unmapped segmenten, zie [het Rapport van Prestaties van het Segment](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentatie.
 
