@@ -17,21 +17,21 @@ ht-degree: 7%
 
 # Racevoorwaarden en foutafhandeling {#race-conditions-and-error-handling}
 
-Beschrijft hoe te om rasvoorwaarden en [!DNL DCS] foutenbehandeling te verhinderen.
+Beschrijft hoe te om rasvoorwaarden en [!DNL DCS] fout behandeling te verhinderen.
 
-## Voorkomen van rasomstandigheden {#prevent-race-conditions}
+## Voorkomen van wegomstandigheden {#prevent-race-conditions}
 
-Een rasvoorwaarde kan voorkomen als u veelvoudige vraag gelijktijdig (of in snelle opeenvolging) naar het verzendt [!DNL DCS] alvorens het aan de aanvankelijke vragen beantwoordt en gegevens aan het koekje van de gebruiker schrijft. Een zeldzame omstandigheid is ongewenst omdat deze gegevens van cookies kan beschadigen of onjuist kan overschrijven. Overweeg de volgende methoden om dit probleem te helpen voorkomen:
+Een rasvoorwaarde kan voorkomen als u veelvoudige vraag gelijktijdig (of in snelle opeenvolging) naar [!DNL DCS] verzendt alvorens het aan de aanvankelijke vragen beantwoordt en gegevens aan het koekje van de gebruiker schrijft. Een zeldzame omstandigheid is ongewenst omdat deze gegevens van cookies kan beschadigen of onjuist kan overschrijven. Overweeg de volgende methoden om dit probleem te helpen voorkomen:
 
-* Maak geen gelijktijdige vraag, of vraag in snelle opeenvolging, aan de [!DNL DCS] van de zelfde gebruiker.
+* Maak geen gelijktijdige vraag, of vraag snel opeenvolging, aan [!DNL DCS] van de zelfde gebruiker.
 * Wacht op elke reactie om terug te komen alvorens verdere vraag te maken.
 
-## Foutafhandeling {#error-handling}
+## Foutverwerking {#error-handling}
 
-Foutafhandeling is beperkt voor ongeldige of onjuist gevormde query&#39;s. Een ongeldig verzoek retourneert een `HTTP 200 OK` reactie en geen gegevens. Ook, [!DNL DCS] houdt op verwerkend een verzoek, verwerpt karaktergegevens, en keert een `HTTP 200 OK` reactie terug wanneer een gebruiker:
+Foutafhandeling is beperkt voor ongeldige of onjuist gevormde query&#39;s. Een ongeldig verzoek keert een `HTTP 200 OK` reactie en geen gegevens terug. Ook, beëindigt [!DNL DCS] verwerking van een verzoek, verwerpt de gegevens van de eigenschap, en keert een `HTTP 200 OK` reactie terug wanneer een gebruiker:
 
 * Opteert uit het volgen op het Audience Manager of partnerniveau.
 * Komt uit een ongeldig/niet-geselecteerd geografisch gebied.
 * Hiermee schakelt u browsercookies uit (alles of van derden).
 
-See also, [DCS Error Codes, Messages, and Examples](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
+Zie ook [DCS-foutcodes, -berichten en -voorbeelden](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
