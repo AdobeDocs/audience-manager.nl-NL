@@ -17,11 +17,11 @@ ht-degree: 2%
 
 # Cijfers rapporteren voor regels voor profielsamenvoeging {#report-metrics-for-profile-merge-rules}
 
-[!UICONTROL Profile Merge Rule] metriek biedt gegevens over personen en apparaten die voor uw site worden geverifieerd. De gegevens en grafieken in [!UICONTROL Profile Merge Rule Reports] worden dynamisch bijgewerkt terwijl u een samenvoegregel maakt of wanneer u op een bestaande regel van het [!UICONTROL Profile Merge Rules] dashboard klikt. Deze meetgegevens kunnen apparaatgrafieken van de grafiekbronnen van het apparaat [!DNL Adobe Experience Cloud Device Co-op] of van andere derden bevatten.
+[!UICONTROL Profile Merge Rule] metriek biedt gegevens over personen en apparaten die voor uw site worden geverifieerd. De gegevens en grafieken in [!UICONTROL Profile Merge Rule Reports] worden dynamisch bijgewerkt aangezien u een fusieregel creeert of wanneer u een bestaande regel van [!UICONTROL Profile Merge Rules] dashboard klikt. Deze meetgegevens kunnen apparaatgrafieken van de grafiekbronnen van [!DNL Adobe Experience Cloud Device Co-op] of van andere externe apparaten bevatten.
 
 ## Regelafmetingen samenvoegen {#merge-rule-metrics}
 
-Hiermee worden geretourneerde gegevens gerapporteerd in staafgrafieken die naast elkaar staan wanneer de samenvoegregels gegevens gebruiken van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) of andere apparaatgrafieken van derden waartoe u toegang hebt [!DNL Audience Manager]. Zo kunt u geverifieerde, gegevens van de eerste partij vergelijken met gegevens van andere apparaten die worden geleverd door de grafiek van een ander apparaat van een andere fabrikant. [!UICONTROL Experience Cloud Device Co-op] Zie Apparaatgrafiek voor informatie over gegevens die door [!UICONTROL Device Co-op]de [component worden geretourneerd: Interne processen en uitvoer](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Deze gegevens worden dagelijks bijgewerkt.
+Hiermee worden gegevens geretourneerd in staafgrafieken die naast elkaar staan wanneer de samenvoegregels gegevens gebruiken van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) of andere apparaatgrafieken van derden waartoe u toegang hebt in [!DNL Audience Manager]. Zo kunt u geverifieerde gegevens van de eerste partij vergelijken met gegevens van andere apparaten die worden geleverd door de grafiek van [!UICONTROL Experience Cloud Device Co-op] of een andere apparaatgrafiek van derden. Zie [Apparaatgrafiek voor informatie over gegevens die worden geretourneerd door de [!UICONTROL Device Co-op]: Interne processen en uitvoer](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Deze gegevens worden dagelijks bijgewerkt.
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -36,9 +36,9 @@ Hiermee worden geretourneerde gegevens gerapporteerd in staafgrafieken die naast
    <td colname="col2"> <p>Toont: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Actieve personen</span>: Het aantal personen dat de afgelopen 60 dagen voor verificatie bij uw site is aangemeld. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Kruisapparaat</span>: Het totale aantal <a href="merge-rules-start.md#create-data-source"> Apparaatoverschrijdende IDs</a> die in de <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Gegevensbron</a> van het geselecteerde <a href="merge-rule-definitions.md"> Voor authentiek verklaarde Profiel</a> voor het leven wordt opgeslagen dat de gegevensbron heeft bestaan. </li> 
-     <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % actieve personen</span>: Hiermee geeft u <span class="wintitle"> Actieve personen</span> als % weer. </li> 
-    </ul> <p> <span class="wintitle"> De voor authentiek verklaarde Activiteit</span> laat u gegevensbronnen door activiteit, volume, en percenten vergelijken. Het kan u helpen een gegevensbron vinden die veel mensen en een hoog percentage actieve gebruikers heeft. Of u vindt mogelijk waarde bij het vergelijken van gegevensbronnen met een hoog percentage actieve gebruikers in vergelijking met de totale omvang van het publiek. Bijvoorbeeld, soms is een gegevensbron met lage totale levenaantallen en hoge activiteit waardevoller dan die met hoge levenresultaten en lage activiteitenaantallen. </p> <p> <p>Opmerking: De <span class="wintitle"> Voor authentiek verklaarde metriek van de Activiteit</span> bevatten slechts de gegevens van de Verbinding <span class="wintitle"></span> van het Profiel. Dit rapport bevat geen <span class="wintitle"> apparaatgrafiekgegevens</span> . </p> </p> </td> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Kruisapparaat</span>: Het totale aantal  <a href="merge-rules-start.md#create-data-source"> dwars-Apparaat </a> IDsstored in de  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Gegevensbron </a> van het geselecteerde  <a href="merge-rule-definitions.md"> Voor authentiek verklaarde </a> Profiel voor het leven dat de gegevensbron heeft bestaan. </li> 
+     <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % actieve personen</span>: Hiermee geeft u  <span class="wintitle"> Actieve </span> personen als % weer. </li> 
+    </ul> <p> <span class="wintitle"> Voor authentiek verklaarde </span> Activitylets vergelijkt u gegevensbronnen door activiteit, volume, en percenten. Het kan u helpen een gegevensbron vinden die veel mensen en een hoog percentage actieve gebruikers heeft. Of u vindt mogelijk waarde bij het vergelijken van gegevensbronnen met een hoog percentage actieve gebruikers in vergelijking met de totale omvang van het publiek. Bijvoorbeeld, soms is een gegevensbron met lage totale levenaantallen en hoge activiteit waardevoller dan die met hoge levenresultaten en lage activiteitenaantallen. </p> <p> <p>Opmerking: De <span class="wintitle"> Voor authentiek verklaarde Activiteit</span> metriek bevatten <span class="wintitle"> de Verbinding van het Profiel</span> slechts gegevens. Dit rapport bevat geen <span class="wintitle"> Device Graph</span>-gegevens. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="wintitle"> Gemiddelde apparaten per persoon</span></b> </p> </td> 
@@ -55,9 +55,9 @@ Hiermee worden geretourneerde gegevens gerapporteerd in staafgrafieken die naast
  </tbody> 
 </table>
 
-## Metrische apparaatgrafiek {#device-graph-metrics}
+## Metrische gegevens apparaatgrafiek {#device-graph-metrics}
 
-De [!UICONTROL Merge Rules] rapporten bevatten ook gegevens over het totale aantal personen en apparaten dat uw site heeft bezocht voor de geselecteerde gegevensbron en apparaatgrafiek. Deze metriek keert gegevens terug die op vooraf ingestelde tijdintervallen (de terugblik periode) worden gebaseerd die afhankelijk van de apparatenoptie variëren u wanneer het creëren van een regel selecteert. In de volgende tabel worden deze rapportintervallen voor elk van de opties voor apparaatgrafieken weergegeven.
+In de [!UICONTROL Merge Rules]-rapporten worden ook gegevens weergegeven over het totale aantal personen en apparaten dat uw site heeft bezocht voor de geselecteerde gegevensbron en apparaatgrafiek. Deze metriek keert gegevens terug die op vooraf ingestelde tijdintervallen (de terugblik periode) worden gebaseerd die afhankelijk van de apparatenoptie variëren u wanneer het creëren van een regel selecteert. In de volgende tabel worden deze rapportintervallen voor elk van de opties voor apparaatgrafieken weergegeven.
 
 <table id="table_038983EBC71F4A55BBCA99212AC5DEE6"> 
  <thead> 
@@ -106,19 +106,19 @@ De [!UICONTROL Merge Rules] rapporten bevatten ook gegevens over het totale aant
 
 ### Rapport Standaardprofielkoppeling
 
-Een standaardrapport ziet er als volgt uit: [!UICONTROL Profile Link] De regels van de fusie die veelvoudige gegevensbronnen (tot 3, maximum) gebruiken tonen grafieken in afzonderlijke lusjes voor elke gegevensbron. Deze samenvoegregel bevat geen [!UICONTROL Device Co-op] gegevens.
+Een standaard [!UICONTROL Profile Link] rapport kijkt als het volgende voorbeeld. De regels van de fusie die veelvoudige gegevensbronnen (tot 3, maximum) gebruiken tonen grafieken in afzonderlijke lusjes voor elke gegevensbron. Deze samenvoegregel bevat geen [!UICONTROL Device Co-op] gegevens.
 
 ![](assets/profile-link-metrics.png)
 
 ### Profielkoppelingsrapport met apparaatgrafiekgegevens
 
-Een [!UICONTROL Profile Link Device Graph] rapport met apparaatgrafiekgegevens uit de grafiek [!UICONTROL Adobe Experience Cloud Device Co-op] of een apparaatgrafiek van derden toont [!UICONTROL Profile Link] en apparaatgrafiekgegevens met staafgrafieken naast elkaar. Door deze grafieken naast elkaar te plaatsen, kunt u de voordelen van het gebruik van de grafieken evalueren [!UICONTROL Experience Cloud Device Co-op] in vergelijking met [!UICONTROL Profile Link] de grafieken zelf. De regels van de fusie die veelvoudige gegevensbronnen (tot 3, maximum) gebruiken tonen grafieken in afzonderlijke lusjes voor elke gegevensbron. Ter herinnering, de [!UICONTROL Authenticated Activity] grafiek en de metriek keren geen gegevens van de [!DNL Adobe] apparatengrafiek of andere, derdeapparatengrafieken terug u tot binnen kunt toegang hebben [!DNL Audience Manager].
+Een [!UICONTROL Profile Link Device Graph]-rapport met apparaatgrafiekgegevens uit de [!UICONTROL Adobe Experience Cloud Device Co-op]- of een apparaatgrafiek van derden toont [!UICONTROL Profile Link] en apparaatgrafiekgegevens met staafgrafieken naast elkaar. Door deze grafieken naast elkaar te plaatsen, kunt u de voordelen evalueren van het gebruik van de [!UICONTROL Experience Cloud Device Co-op] in vergelijking met [!UICONTROL Profile Link] zelf. De regels van de fusie die veelvoudige gegevensbronnen (tot 3, maximum) gebruiken tonen grafieken in afzonderlijke lusjes voor elke gegevensbron. Ter herinnering, de [!UICONTROL Authenticated Activity] grafiek en metriek keren geen gegevens van [!DNL Adobe] apparatengrafiek of andere, derdeapparatengrafieken terug u tot in [!DNL Audience Manager] kunt toegang hebben.
 
 ![](assets/profile-link-graph.png)
 
 ## Profielkoppelingsgrafiek {#profile-link-trend}
 
-Naast de andere gegevensvisualisaties, omvatten de [!UICONTROL Profile Link] rapporten een lijngrafiek. De lijngrafiek wordt ontworpen om u tendensen in tijd voor uw profielregels te tonen. Trend-grafieken (en de andere rapporten) zijn beschikbaar wanneer u op een regel van de [!UICONTROL Profile Merge Rules] openingspagina ( **[!UICONTROL Audience Data > Profile Merge Rules]**) klikt. Deze grafieken bevatten apparaatgrafiekgegevens als u lid bent van de [!UICONTROL Device Co-op] of andere apparaatgrafieken van derden waartoe u toegang hebt [!DNL Audience Manager]. Klik op een trendlijn om onderliggende gegevens te zien.
+Naast de andere gegevensvisualisaties bevatten [!UICONTROL Profile Link]-rapporten een lijngrafiek. De lijngrafiek wordt ontworpen om u tendensen in tijd voor uw profielregels te tonen. Trend-grafieken (en de andere rapporten) zijn beschikbaar wanneer u op een regel op de bestemmingspagina [!UICONTROL Profile Merge Rules] ( **[!UICONTROL Audience Data > Profile Merge Rules]**) klikt. Deze grafieken bevatten apparaatgrafiekgegevens als u lid bent van [!UICONTROL Device Co-op] of andere apparaatgrafieken van derden waartoe u toegang hebt in [!DNL Audience Manager]. Klik op een trendlijn om onderliggende gegevens te zien.
 
 >[!MORELIKETHIS]
 >
