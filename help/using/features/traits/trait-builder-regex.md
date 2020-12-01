@@ -17,6 +17,6 @@ ht-degree: 9%
 
 # Reguliere expressies gebruiken in Eigenschapbuilder {#using-regular-expressions-in-trait-builder}
 
-Met de [!UICONTROL Trait Builder] code-editor kunt u uw eigen regels voor het kenmerk maken. Zoek de code-editor in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] en schakel naar [!UICONTROL Code View]. Audience Manager ondersteunt alle beschikbare reguliere-expressieconstructies waarnaar in het [!DNL Java Regular Expression Class Pattern]dialoogvenster wordt verwezen. U kunt alle reguliere expressies rechtstreeks in de [!DNL Expression Builder]code valideren.
+Met de code-editor [!UICONTROL Trait Builder] kunt u uw eigen regels voor kenmerken maken. Zoek de code-editor in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] en schakel over naar [!UICONTROL Code View]. Audience Manager ondersteunt alle beschikbare reguliere-expressieconstructies waarnaar wordt verwezen in de [!DNL Java Regular Expression Class Pattern]. U kunt om het even welke regelmatige uitdrukkingen direct in [!DNL Expression Builder] bevestigen.
 
-Zie ook [Java Standard Expression Class Patterns](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Zie ook: [Standaardpatronen voor expressieklasse van Java](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
