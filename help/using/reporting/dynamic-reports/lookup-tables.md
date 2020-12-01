@@ -27,11 +27,11 @@ c_lookup_tables.xml
 
 ## Metagegevens logbestand vergroten bestandsgrootte en verwerkingstijd
 
-Een typisch logboekdossier dat door het [!UICONTROL Delivery Performance] rapport wordt gebruikt bevat gewoonlijk duizenden rijen en tientallen kolommen. Het bestaat uit numerieke id&#39;s en door mensen leesbare informatie, zoals namen voor creatieve personen, adverteerders, invoegorders, enz.
+Een logbestand dat gewoonlijk door het rapport [!UICONTROL Delivery Performance] wordt gebruikt, bevat doorgaans duizenden rijen en tientallen kolommen. Het bestaat uit numerieke id&#39;s en door mensen leesbare informatie, zoals namen voor creatieve personen, adverteerders, invoegorders, enz.
 
 Deze niet-ID-informatie wordt *`metadata`* (d.w.z. informatie over andere informatie) genoemd en wordt in elke rij van het logbestand geschreven.
 
-Het [!UICONTROL Delivery Performance] rapport werkt echter vooral met de id&#39;s in het logbestand. De metagegevens zijn nuttig, maar herhaaldelijk. Hierdoor neemt de bestandsgrootte en de tijd die nodig is om gegevens in te voeren toe.
+Het [!UICONTROL Delivery Performance]-rapport werkt echter vooral met de id&#39;s in het logbestand. De metagegevens zijn nuttig, maar herhaaldelijk. Hierdoor neemt de bestandsgrootte en de tijd die nodig is om gegevens in te voeren toe.
 
 ## Bestandsgrootte reduceren en verwerkingstijd verkorten met indextabellen
 
@@ -49,7 +49,7 @@ Stel dat u een gegevensbestand hebt dat er ongeveer zo uitziet als hieronder.
 | 4 | 222 | Schoefschoen B | 789 | Hiking | 14 | Onderneming B |
 | 5 | 222 | Schoefschoen B | 789 | Hiking | 14 | Onderneming B |
 
-<br> 
+<br>
 
 Hier is hetzelfde logbestand met de verwijderde metagegevens. Het bestand is kleiner en gemakkelijker te verwerken wanneer het alleen uit id&#39;s bestaat.
 
