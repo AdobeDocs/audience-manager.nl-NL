@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Gebruikte codesyntaxis in de Segment Expression Editor {#code-syntax-used-in-the-segment-expression-editor}
 
-[!UICONTROL Segment Builder] Hiermee kunt u met een code-editor eigenschapsregels voor een segment maken. Klik op het **[!UICONTROL Segment Expressions (Code View)]** tabblad in het [!UICONTROL Traits] deelvenster om deze functie te openen.
+[!UICONTROL Segment Builder] Hiermee kunt u met een code-editor eigenschapsregels voor een segment maken. Klik op het tabblad **[!UICONTROL Segment Expressions (Code View)]** in het deelvenster [!UICONTROL Traits] om deze functie te openen.
 
 ## Syntaxis expressiebouwcode
 
@@ -30,11 +30,11 @@ FREQUENCY([<traitID1>T,<traitID2>T]<Recency Operator><Numeric Value>D)
 
 >[!NOTE]
 >
->Standaard zijn [!DNL Boolean] voorwaarden van toepassing op meerdere kenmerken [!UICONTROL OR] binnen ** een expressie.
+>Standaard zijn [!DNL Boolean] [!UICONTROL OR] voorwaarden van toepassing op meerdere kenmerken *binnen* een expressie.
 
 ### Segmenten samenvoegen met Booleaanse operatoren
 
-Als u groepen van segmenten wilt opbouwen, plaatst u de frequentiefunctie tussen haakjes en stelt u de relatie *tussen* elke expressie met een [!DNL Boolean] operator ([!UICONTROL AND], [!UICONTROL OR]en [!UICONTROL NOT]) in.
+Als u groepen van segmenten wilt opbouwen, plaatst u de frequentiefunctie tussen haakjes en stelt u de relatie *tussen* elke expressie in met een [!DNL Boolean]-operator ([!UICONTROL AND], [!UICONTROL OR] en [!UICONTROL NOT]).
 
 ### Parameters
 
@@ -45,13 +45,13 @@ Als u groepen van segmenten wilt opbouwen, plaatst u de frequentiefunctie tussen
 | Naam of variabele | Beschrijving |
 |---|---|
 | `FREQUENCY` | Een letterlijke waarde die aan de expressie moet voorafgaan. |
-| ` [`&lt;`traitID`>`T]` | Een array met referentie-id&#39;s, gevolgd door de letter `T`. Scheid meerdere kenmerken met een komma. Bijvoorbeeld, `[123T, 456T]`. |
+| ` [`&lt;>>`T]``traitID` | Een array met referentie-id&#39;s, gevolgd door de letter `T`. Scheid meerdere kenmerken met een komma. Bijvoorbeeld, `[123T, 456T]`. |
 | ` <Recency Operator><Numeric Value>D` | *(Optioneel)* Hiermee stelt u recentieregels in voor de kenmerken van het segment. De letter `D` geeft de recentie in dagen aan. |
 | ` <Frequency Operator><Numeric Value>` | Hiermee stelt u de frequentieregels voor kenmerken in het segment in. |
 
 ### Toegestane operatoren voor recentie en frequentie
 
-Stel [de frequentie](../../features/segments/recency-and-frequency.md) - en recentiegrenzen in met een vergelijkingsoperator en een geheel getal. [!UICONTROL Segment Builder] gebruikt standaardexpressies zoals &lt; (kleiner dan), > (groter dan), == (gelijk), enz. De typen toegestane operatoren variëren echter wanneer u de frequentie of de frequentie instelt. In de onderstaande tabel worden de toegestane frequentie-/recenentie-operatoren weergegeven.
+Stel [recency en frequency](../../features/segments/recency-and-frequency.md) intervallen in met een vergelijkingsoperator en een geheel getal. [!UICONTROL Segment Builder] gebruikt standaardexpressies zoals  &lt;> (groter dan), == (gelijk), enz. De typen toegestane operatoren variëren echter wanneer u de frequentie of de frequentie instelt. In de onderstaande tabel worden de toegestane frequentie-/recenentie-operatoren weergegeven.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -65,12 +65,12 @@ Stel [de frequentie](../../features/segments/recency-and-frequency.md) - en rece
    <td colname="col1"> 
     <ul id="ul_66D11A34097648A997BA5C6CCC38503A"> 
      <li id="li_EA0B607E58834E62B427C0B7626C2BD1">&gt;= (groter dan/gelijk aan) </li> 
-     <li id="li_CFE3D2DBEF424093A0497A70324D5B31">&lt;= (kleiner dan/gelijk aan) </li> 
+     <li id="li_CFE3D2DBEF424093A0497A70324D5B31">&lt;&gt; </li> 
     </ul> </td> 
    <td colname="col2"> 
     <ul id="ul_A5A38BCD71B844F0B5FB28256069F87E"> 
      <li id="li_EA17C353214E4C2EA2B70169C94A2E53">&gt;= (groter dan/gelijk aan) </li> 
-     <li id="li_87CE5CCC6B44446BB2FD0AAD47712368">&lt;= (kleiner dan/gelijk aan) </li> 
+     <li id="li_87CE5CCC6B44446BB2FD0AAD47712368">&lt;&gt; </li> 
      <li id="li_7E922AEF3A524E78A18A9F6ECBF7460B">== (gelijk aan) </li> 
     </ul> </td> 
   </tr> 
