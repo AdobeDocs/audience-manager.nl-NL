@@ -17,18 +17,18 @@ ht-degree: 3%
 
 # Recentheid en frequentie {#recency-and-frequency}
 
-Met [!UICONTROL Segment Builder]de frequentie en de frequentie kunt u bezoekers segmenteren op basis van acties die plaatsvinden of herhalen gedurende een ingesteld dagelijks interval.
+In [!UICONTROL Segment Builder] kunt u met de frequentie en de frequentie bezoekers segmenteren op basis van acties die plaatsvinden of die gedurende een ingesteld dagelijks interval worden herhaald.
 
-Audience Manager definieert [!DNL recency] en [!DNL frequency] :
+Audience Manager definieert [!DNL recency] en [!DNL frequency] als volgt:
 
-* **[!UICONTROL Recency]:**Hoe recent een gebruiker voor één (of meerdere) bekeken of gekwalificeerd[!UICONTROL traits].
-* **[!UICONTROL Frequency]:**De snelheid waarmee een gebruiker een (of meer) persoon heeft bekeken of in aanmerking heeft genomen[!UICONTROL traits].
+* **[!UICONTROL Recency]:** Hoe recent heeft een gebruiker voor één (of meerdere) bekeken of gekwalificeerd  [!UICONTROL traits].
+* **[!UICONTROL Frequency]:** De frequentie waarmee een gebruiker voor één (of meerdere) bekeken of in aanmerking kwam  [!UICONTROL traits].
 
-[!UICONTROL Recency] en [!UICONTROL Frequency] instellingen helpen u bezoekers te segmenteren op basis van hun werkelijke (of waargenomen) interesse voor een site, sectie of bepaalde creatieve instellingen. Gebruikers die bijvoorbeeld in aanmerking komen voor een segment met hoge eisen inzake recentie/frequentie, hebben wellicht meer belangstelling voor een site of een product dan gebruikers die minder vaak of minder vaak een bezoek brengen.
+[!UICONTROL Recency] en  [!UICONTROL Frequency] instellingen helpen u bezoekers te segmenteren op basis van hun werkelijke (of waargenomen) interesse voor een site, sectie of bepaalde creatieve instellingen. Gebruikers die bijvoorbeeld in aanmerking komen voor een segment met hoge eisen inzake recentie/frequentie, hebben wellicht meer belangstelling voor een site of een product dan gebruikers die minder vaak of minder vaak een bezoek brengen.
 
-## Locatie van [!UICONTROL Recency and Frequency] instellingen {#location}
+## Locatie van [!UICONTROL Recency and Frequency]-instellingen {#location}
 
-In [!UICONTROL Segment Builder], [!UICONTROL Recency] en de [!UICONTROL Frequency] montages worden gevestigd in de [!UICONTROL Basic View] sectie van het [!UICONTROL Traits] paneel. Klik het klokpictogram om deze controles bloot te stellen.
+In [!UICONTROL Segment Builder] bevinden [!UICONTROL Recency] en [!UICONTROL Frequency] instellingen zich in de sectie [!UICONTROL Basic View] van het [!UICONTROL Traits] paneel. Klik het klokpictogram om deze controles bloot te stellen.
 
 ![](assets/recency_frequency.png)
 
@@ -81,16 +81,16 @@ U kunt deze limieten en regels controleren en begrijpen wanneer u de frequentie 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Recente vereisten</b> </p> </td> 
-   <td colname="col2"> <p>U kunt frequentievereisten configureren <i>zonder</i> de noodvereisten te configureren. Stel gewoon een frequentiewaarde in en laat het veld voor recentie leeg. </p> </td> 
+   <td colname="col2"> <p>U kunt frequentievereisten <i>vormen zonder</i> vormend recentievereisten. Stel gewoon een frequentiewaarde in en laat het veld voor recentie leeg. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Regels voor profielsamenvoeging</b> </p> </td> 
-   <td colname="col2"> <p>See <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> Trait Frequency, External Device Graphs, and Profile Merge Rules</a>. </p> </td> 
+   <td colname="col2"> <p>Zie <a href="../../faq/faq-profile-merge.md#trait-freq-device-rules"> De Frequentie van de Rand, Externe Grafieken van het Apparaat, en de Regels van de Fusie van het Profiel</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Voorbeelden van recentie {#recency-examples}
+## Recente voorbeelden {#recency-examples}
 
 Hieronder volgen twee voorbeelden van de werking van recentiepunten, afhankelijk van uw selectie in de gebruikersinterface:
 
@@ -98,7 +98,7 @@ Hieronder volgen twee voorbeelden van de werking van recentiepunten, afhankelijk
 
 ![Kleiner dan gelijk aan](assets/less-than-equal-to.png)
 
-In dit voorbeeld selecteert u de operator &lt;=, zoals wordt weergegeven in de schermafbeelding. Dit komt in aanmerking voor de gebruiker [!UICONTROL segment] als deze in aanmerking komt voor een van de drie [!UICONTROL traits] minimaal drie keer in de afgelopen vijf dagen. In de onderstaande tijdlijn ziet u de [!UICONTROL segment] kwalificatie op het moment dat de [!UICONTROL segment] kwalificatie wordt gemaakt, op 1 oktober en tien dagen later.
+In dit voorbeeld selecteert u de operator &lt;=, zoals wordt weergegeven in de schermafbeelding. Dit kwalificeert uw gebruiker voor [!UICONTROL segment] als zij voor om het even welk van drie [!UICONTROL traits] minimaal drie keer binnen de laatste vijf dagen in aanmerking komen. In de onderstaande tijdlijn ziet u de [!UICONTROL segment]-kwalificatie op het moment dat [!UICONTROL segment] wordt gemaakt, op 1 oktober en tien dagen later.
 
 ![Laatste vijf dagen](assets/last-5-days.png)
 
@@ -106,22 +106,22 @@ In dit voorbeeld selecteert u de operator &lt;=, zoals wordt weergegeven in de s
 
 ![Groter dan gelijk aan](assets/greater-than-equal-to.png)
 
-In dit voorbeeld selecteert u de operator =>, zoals in de schermafbeelding wordt getoond. Dit kwalificeert uw gebruiker voor [!UICONTROL segment] als zij voor om het even welke drie [!UICONTROL traits] minimaal drie keer om het even welk ogenblik tussen hun eerste kwalificatie op het platform van de Audience Manager en de besnoeiingstijd vijf dagen geleden in aanmerking komen. In de onderstaande tijdlijn ziet u de [!UICONTROL segment] kwalificatie op het moment dat de [!UICONTROL segment] kwalificatie wordt gemaakt, op 1 oktober en tien dagen later.
+In dit voorbeeld selecteert u de operator =>, zoals in de schermafbeelding wordt getoond. Dit kwalificeert uw gebruiker voor [!UICONTROL segment] als zij voor om het even welk van drie [!UICONTROL traits] minstens drie keer tussen hun eerste kwalificatie op het platform van de Audience Manager en de besnoeiingstijd vijf dagen geleden in aanmerking komen. In de onderstaande tijdlijn ziet u de [!UICONTROL segment]-kwalificatie op het moment dat [!UICONTROL segment] wordt gemaakt, op 1 oktober en tien dagen later.
 
 ![Eerdere kwalificatie](assets/earlier-qualification.png)
 
 
-## Voorbeelden van frequentiecortering {#frequency-capping}
+## Voorbeelden voor frequentiecontrole {#frequency-capping}
 
-De frequentie-begrenzende uitdrukkingen omvatten alle gebruikers het waarvan aantal [!UICONTROL trait] realisaties onder een gewenste waarde is. Hier volgen enkele voorbeelden van Rechts en Verkeerd:
+De frequentie-begrensende uitdrukkingen omvatten alle gebruikers het waarvan aantal [!UICONTROL trait] realisaties onder een gewenste waarde is. Hier volgen enkele voorbeelden van Rechts en Verkeerd:
 
-* Verkeerd - De uitdrukking `frequency([1000T]) <= 5` omvat alle gebruikers die [!UICONTROL trait] met identiteitskaart &quot;1000&quot;een maximum van vijf keer hebben gerealiseerd maar omvat ook gebruikers die niet de [!UICONTROL trait]. Daarom valideert Audience Manager deze expressie niet vanwege de prestaties, omdat er te veel gebruikers voor zijn [!UICONTROL segment].
+* Verkeerd - De uitdrukking `frequency([1000T]) <= 5` omvat alle gebruikers die [!UICONTROL trait] met identiteitskaart &quot;1000&quot;een maximum van vijf keer hebben gerealiseerd maar omvat ook gebruikers die [!UICONTROL trait] niet hebben gerealiseerd. Daarom valideert Audience Manager deze expressie niet vanwege de prestaties, omdat er te veel gebruikers voor [!UICONTROL segment] in aanmerking zouden komen.
 
-* Rechts - Als u alle gebruikers wilt omvatten die het [!UICONTROL trait] met identiteitskaart &quot;1000&quot;een maximum van vijf keer hebben gerealiseerd, voeg een andere voorwaarde aan de uitdrukking toe, om ervoor te zorgen de gebruikers voor [!UICONTROL trait] minstens eens hebben gekwalificeerd:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
+* Rechts - Als u alle gebruikers wilt omvatten die [!UICONTROL trait] met identiteitskaart &quot;1000&quot;een maximum van vijf keer hebben gerealiseerd, voeg een andere voorwaarde aan de uitdrukking toe, om ervoor te zorgen de gebruikers voor [!UICONTROL trait] minstens eens hebben gekwalificeerd:  `frequency([1000T]) >= 1  AND  frequency([1000T]) <= 5`
 
-* Rechts - Als u eisen voor recentie/frequentie wilt hebben die lager zijn dan een bepaald aantal tijden of dagen, sluit u die [!UICONTROL trait] aan bij een andere `AND` operator. Met behulp van het voorbeeld in het eerste opsommingsteken wordt deze expressie geldig wanneer deze wordt gecombineerd met een andere expressie, [!UICONTROL trait] zoals hier wordt getoond: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
+* Rechts - Als u eisen inzake recentie/frequentie minder dan een specifiek aantal tijden of dagen wilt hebben, sluit u die [!UICONTROL trait] aan een andere met een `AND` exploitant. Met behulp van het voorbeeld in het eerste opsommingsteken wordt deze expressie geldig wanneer deze wordt gecombineerd met een andere [!UICONTROL trait], zoals hier wordt getoond: `frequency([1000T]) <= 5 AND isSiteVisitorTrait`.
 
-* Rechts - Voor gebruiksgevallen waarin de frequentie wordt beperkt, kunt u een soortgelijke [!UICONTROL segment] regel maken: `(frequency([1000T] <= 2D) >= 5)`. Deze expressie omvat alle gebruikers die de id &#39;1000&#39; in de afgelopen 2 dagen ten minste vijf keer hebben gebruikt. [!UICONTROL trait] Stel de frequentiekoppeling in door deze [!UICONTROL segment] naar de advertentieserver te verzenden met een `NOT` set op de [!UICONTROL segment] advertentieserver. Deze benadering bereikt betere prestaties [!DNL Audience Manager] terwijl het dienen van het zelfde doel voor frequentiecontrole.
+* Rechts - Voor gebruiksgevallen waarin de frequentie wordt beperkt, kunt u een [!UICONTROL segment]-regel maken die hierop lijkt: `(frequency([1000T] <= 2D) >= 5)`. Deze uitdrukking omvat alle gebruikers die [!UICONTROL trait] met identiteitskaart &quot;1000&quot;in de afgelopen twee dagen minstens vijf keer hebben gerealiseerd. Stel de frequentiegrenzen in door deze [!UICONTROL segment] naar de advertentieserver te verzenden met een `NOT` ingesteld op [!UICONTROL segment] in de advertentieserver. Deze benadering bereikt betere prestaties in [!DNL Audience Manager] terwijl het dienen van het zelfde doel voor frequentie het afschilderen.
 
 >[!MORELIKETHIS]
 >
