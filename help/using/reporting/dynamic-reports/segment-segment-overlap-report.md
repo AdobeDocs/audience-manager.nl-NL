@@ -21,7 +21,7 @@ Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen 
 
 >[!NOTE]
 >
->De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op de [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
+>De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
 
 <!-- 
 
@@ -38,11 +38,11 @@ Het [!UICONTROL Segment-to-Segment Overlap] rapport kan u helpen:
 
 ## Voorbeeldrapport
 
-De volgende illustratie biedt een overzicht op hoog niveau van het [!UICONTROL Segment-to-Segment Overlap] rapport.
+De volgende illustratie verstrekt een overzicht op hoog niveau van het [!UICONTROL Segment-to-Segment Overlap] rapport.
 
 >[!NOTE]
 >
->Het [!UICONTROL Segment-to-Segment Overlap] rapport retourneert een leeg veld wanneer hetzelfde segment met zichzelf wordt vergeleken.
+>Het [!UICONTROL Segment-to-Segment Overlap] rapport keert een leeg gebied terug wanneer het het zelfde segment aan zich vergelijkt.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -50,7 +50,7 @@ De volgende illustratie biedt een overzicht op hoog niveau van het [!UICONTROL S
 
 Selecteer een afzonderlijk punt om de gegevensdetails in een pop-upvenster weer te geven. Uw klikacties werken automatisch gegevens bij die in het rapport worden getoond.
 
-## Gedefinieerde velden van gegevenspop-item-overlap {#fields-defined}
+## Segment-aan-Segment overlappende Pop Gedefinieerde Gebieden van Gegevens {#fields-defined}
 
 <!-- 
 
@@ -58,7 +58,7 @@ r_s2s_data_pop.xml
 
  -->
 
-popup voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hieronder metriek. Merk op dat uniques metrisch in de lijst uw gebruikers *in* real time vertegenwoordigt.
+De pop-up voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hieronder metriek. Merk op dat uniques metrisch in de lijst uw *real-time gebruikers* vertegenwoordigt.
 
 | Metrisch | Beschrijving |
 |---|---|
