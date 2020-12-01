@@ -17,13 +17,13 @@ ht-degree: 10%
 
 # API-methoden voor toestemmingenbeheer {#permissions-management-api-methods}
 
-Stel methoden in [!DNL API] om machtigingen voor objecten en groepen te beheren.
+Stel [!DNL API] methoden in om machtigingen voor objecten en groepen te beheren.
 
 <!-- c_rest_api_perm_man.xml -->
 
 ## Beschikbare objecttypen weergeven {#list-object-types}
 
-Een `GET` methode om van beschikbare objecten types een lijst te maken waarop op rol-gebaseerde toegangscontroles kunnen worden geplaatst.
+Een methode `GET` om van beschikbare objecten types een lijst te maken waarop op rol-gebaseerde toegangscontroles kunnen worden geplaatst.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -39,7 +39,7 @@ Een `GET` methode om van beschikbare objecten types een lijst te maken waarop op
 
 ## Beschikbare machtigingen weergeven voor een objecttype {#list-permissions-object-type}
 
-Een `GET` methode voor het weergeven van beschikbare machtigingen voor een objecttype.
+Een methode `GET` om de beschikbare machtigingen voor een objecttype weer te geven.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 
