@@ -30,7 +30,7 @@ Onze teams van de Oplossingen van de Partner en van het Beheer van de Rekening z
 
 Audience Manager volgt een gefaseerde benadering van opstelling en implementatie.
 
-## Fase definiëren {#define-phase}
+## Fase {#define-phase} definiëren
 
 De bepaalde fase introduceert u aan ons project van de Oplossingen van de Partner leidt en begint het proces van het projectbeheer.
 
@@ -38,7 +38,7 @@ De bepaalde fase introduceert u aan ons project van de Oplossingen van de Partne
 
 Deze stap wordt ontworpen om potentiële cliënten te helpen bepalen en over projectwerkingsgebied overeenkomen, douanevereisten begrijpen, mijlpalen, en opstellingsmededelingen vestigen.
 
-In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens deze fase plaatsvinden:
+In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreven:
 
 <table id="table_E6E4DA99B19244FB996CC3AB42CEA5DA"> 
  <thead> 
@@ -87,7 +87,7 @@ De ontdekkingsfase wordt gewijd aan het verzamelen van vereisten, het leiden van
 
 <!-- c_discovery.xml -->
 
-In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens deze fase plaatsvinden:
+In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreven:
 
 <table id="table_89E7CD7832E142519EDC1F285A5BBE79"> 
  <thead> 
@@ -118,7 +118,7 @@ In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Doelen zoeken </td> 
-   <td colname="col2"> Ontdek als de cliënt gegevens naar andere advertentieservers, DSPs, netwerken, of uitwisselingen verzendt </td> 
+   <td colname="col2"> Ontdek als de cliënt gegevens naar andere advertentieservers, DSP, netwerken of uitwisselingen verzendt </td> 
    <td colname="col3"> Bedrijfsteams </td> 
   </tr> 
   <tr valign="top"> 
@@ -137,12 +137,12 @@ In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens
 De te leveren producten voor deze fase kunnen omvatten:
 
 * Een voltooide strategie voor het verzamelen van gegevens van eerste, tweede en derde partijen;
-* een voltooid [!DNL CRM] of data warehouse-innameplan;
+* een voltooid [!DNL CRM]- of gegevensopslagonderbiedingsplan;
 * Gedefinieerde publiekssegmentatievereisten;
 * een voltooide datataxonomie;
 * Een ontwikkeld plan voor gegevensintegratie van derden.
 
-## Bouwstijl, Testen en Trainingsfase {#build-test-train-phase}
+## Bouwstijl, Testen en Treinfase {#build-test-train-phase}
 
 Tijdens de bouw, de test, en de treinstand, zult u de strategie en het prototype van de gegevensinzameling met een aangewezen lood van de Oplossingen van de Partner herzien.
 
@@ -150,11 +150,11 @@ Tijdens de bouw, de test, en de treinstand, zult u de strategie en het prototype
 
 Uw gegevensverzamelingsstrategie wordt van begin tot eind [!DNL QA] getest. De Oplossingen van de partner zullen ontdekte insecten volgen en probleemresoluties met onze systeemingenieurs coördineren. De opleiding van de klant kan parallel met deze andere inspanningen beginnen.
 
-In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens deze fase plaatsvinden:
+In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreven:
 
 | Activiteit | Doel/beschrijving | Deelnemers |
 |---|---|---|
-| Een strategie voor gegevensverzameling voorbereiden | Werk samen met technische Adobe-teams om een plan voor gegevensverzameling te maken dat aan uw bedrijfsvereisten voldoet | Bedrijfs- en technische teams |
+| Een strategie voor gegevensverzameling voorbereiden | Werk met Adobe technische teams om een plan van de gegevensinzameling te bouwen dat uw bedrijfsvereisten voldoet | Bedrijfs- en technische teams |
 | Code implementeren en testen | Test de voorgestelde oplossing in een testomgeving en voer tests uit tussen verschillende browsers | Technische teams |
 | Functionaliteit controleren en fouten oplossen | Resultaten onderzoeken en communiceren, fouten oplossen en opnieuw testen | Technische teams |
 | Gebruikerstraining | Voorlichting en begrip van de eigenschappen, de hulpmiddelen en de rapporten van de Audience Manager verstrekken | Bedrijfsteams |
@@ -166,13 +166,13 @@ De te leveren producten voor deze fase kunnen omvatten:
 * Basisinstructies over de gebruikersinterfacefuncties van de Audience Manager;
 * Aanvaarding en aftekening.
 
-## Fase starten, ondersteunen en optimaliseren {#launch-support-optimize-phase}
+## Fase {#launch-support-optimize-phase} starten, ondersteunen en optimaliseren
 
-Tijdens de lancering, steun, en optimaliseringsfase, uw gegevens-inzameling en prototyped implementatie beweegt zich van ontwikkeling aan een levende, productiemilieu. We blijven training volgen over productvertrouwdheid en strategieën die u kunnen helpen uw product te verbeteren [!DNL ROI] via gegevensgestuurde optimalisatie.
+Tijdens de lancering, steun, en optimaliseringsfase, uw gegevens-inzameling en prototyped implementatie beweegt zich van ontwikkeling aan een levende, productiemilieu. We blijven training volgen over productvertrouwdheid en strategieën die u kunnen helpen uw [!DNL ROI] te verbeteren door gegevensgestuurde optimalisatie.
 
 <!-- c_launch_support_optimize.xml -->
 
-In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens deze fase plaatsvinden:
+In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreven:
 
 <table id="table_040B9CBED6F04A41B4501DA4B45F5A16"> 
  <thead> 
@@ -219,15 +219,15 @@ De taken voor deze fase kunnen omvatten:
 * Reageren op of vragen om functieverzoeken, fouten en feedback van gebruikers.
 * Meer bekendheid geven aan functies en rapporten van Audience Managers.
 
-## Codeimplementatie {#code-implementation}
+## Code-implementatie {#code-implementation}
 
-Hoewel het implementatieproces complex kan lijken, is de code-implementatie zo eenvoudig als het toevoegen van enkele regels [!DNL JavaScript] naast de afsluitende `</body>` tag van uw website.
+Hoewel het implementatieproces complex lijkt, is de code-implementatie zo eenvoudig als het toevoegen van een paar regels [!DNL JavaScript] naast de afsluitende tag `</body>` van uw website.
 
 <!-- c_code.xml -->
 
 ### Implementatie
 
-Het de codefragmentvraag van de Audience Manager [!DNL Akamai] om de bedrijfsregels te downloaden die eerder in het gebruikersinterface worden geplaatst. Bovendien slaan clientbrowsers deze gegevens in cache, waardoor de pagina- en serverlaadtijden afnemen. Onze methodologie voor code en gegevensverzameling is ontworpen om de gebruikerservaring in uw overzicht te behouden.
+Het codefragment van de Audience Manager roept [!DNL Akamai] aan om de bedrijfsregels te downloaden die eerder in het gebruikersinterface worden geplaatst. Bovendien slaan clientbrowsers deze gegevens in cache, waardoor de pagina- en serverlaadtijden afnemen. Onze methodologie voor code en gegevensverzameling is ontworpen om de gebruikerservaring in uw overzicht te behouden.
 
 ### Deelnemers
 
@@ -241,4 +241,4 @@ Onze gezamenlijke inspanningen stoppen niet met de definitieve implementatie. Na
 
 Accountmanagers bieden ondersteuning en services voor overleg nadat de implementatie van het product is voltooid. U kunt regelmatige vergaderingen met uw accountmanager verwachten. Deze vergaderingen zorgen ervoor dat u de maximumhoeveelheid gebruik en waarde van Audience Manager krijgt.
 
-Neem [hier](https://www.adobe.com/products/audiencemanager.html) contact met ons op voor meer informatie en om aan de slag te gaan met Audience Manager.
+Neem [hier](https://www.adobe.com/products/audiencemanager.html) voor meer informatie en om met Audience Manager te beginnen.
