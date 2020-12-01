@@ -17,19 +17,19 @@ ht-degree: 9%
 
 # Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
 
-Voorbeelden waarnaar u kunt verwijzen voor het maken van expressies in de [!UICONTROL Expression Builder] code-editor.
+Voorbeelden waarnaar u kunt verwijzen voor het maken van expressies in de code-editor [!UICONTROL Expression Builder].
 
 ## Overzicht van codevoorbeelden {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Maak uw eigen regels voor het kenmerk met de [!UICONTROL Expression Builder] code-editor. De volgende voorbeelden kunnen u helpen om aan de slag te gaan. Sommige voorbeelden geven de voorkeur aan de *`key`* variabele `c_` om deze te identificeren als een door de gebruiker gedefinieerde variabele. Neem het `c_` voorvoegsel (of een andere naamgevingsconventie) voor de *`key`* variabele op als uw gebeurtenisaanroepen gegevens naar [!DNL Audience Manager] die syntaxis verzenden.
+Maak uw eigen regels voor de eigenschap met de code-editor [!UICONTROL Expression Builder]. De volgende voorbeelden kunnen u helpen om aan de slag te gaan. Sommige voorbeelden geven de *`key`*-variabele een voorkeur met `c_` om deze te identificeren als een door de gebruiker gedefinieerde variabele. Neem het voorvoegsel `c_` (of een andere naamgevingsconventie) voor de variabele *`key`* op als uw gebeurtenisaanroepen gegevens naar [!DNL Audience Manager] verzenden met behulp van die syntaxis.
 
 ## Booleaanse expressies {#boolean-expressions}
 
 ### AND-voorbeeld
 
-De regel stelt kwalificatievereisten vast met behulp van Booleaanse [!UICONTROL AND] operatoren.
+De regel stelt vereisten voor de vakkwalificatie vast met behulp van Booleaanse operatoren [!UICONTROL AND].
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -52,7 +52,7 @@ De regel stelt kwalificatievereisten vast met behulp van Booleaanse [!UICONTROL 
 
 ### OR-voorbeeld
 
-Deze regel stelt eisen inzake beroepskwalificatie vast die [!DNL Boolean] en [!UICONTROL OR] [!UICONTROL AND] exploitanten gebruiken.
+Met deze regel worden vereisten voor de kwalificatie van het kenmerk vastgelegd met behulp van [!DNL Boolean] [!UICONTROL OR]- en [!UICONTROL AND]-operatoren.
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
@@ -64,7 +64,7 @@ Deze regel stelt eisen inzake beroepskwalificatie vast die [!DNL Boolean] en [!U
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> Voldoet aan de voorwaarden die door variabelen <code><i>a </i></code> of <code><i>b </i></code> en <code><i>c </i></code>worden bepaald. </td> 
+   <td colname="col2"> Voldoet aan de voorwaarden die worden ingesteld door de variabelen <code><i>a </i></code> of <code><i>b </i></code> en <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>
