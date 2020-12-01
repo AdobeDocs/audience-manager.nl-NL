@@ -17,18 +17,18 @@ ht-degree: 8%
 
 # DCS-API’s voor gebeurteniscall {#dcs-event-call-apis}
 
-Gebeurtenisaanroepen verzenden informatie naar de [!DNL DCS] gebruiker in een [!DNL URL] tekenreeks. In een typische plaatsing van de Audience Manager, gebruiken de klanten onze code van de [!DNL JavaScript] gegevensinzameling ([!UICONTROL DIL]) om gegevens naar [!DNL DCS]te verzenden. Soms kunnen klanten onze [!DNL JavaScript] code echter niet op hun pagina&#39;s plaatsen. Als het bedrijfsbeleid of andere technische kwesties u verhinderen onze [!DNL JavaScript] code op uw pagina&#39;s te plaatsen, kunt u nog met Audience Manager werken om gegevens van [!DNL DCS] met deze gebeurtenisvraag [!DNL API]te verzenden en terug te keren.
+Gebeurtenisaanroepen verzenden informatie naar de [!DNL DCS] in een [!DNL URL]-tekenreeks. In een standaard implementatie van Audience Managers gebruiken klanten onze [!DNL JavaScript] code voor gegevensverzameling ([!UICONTROL DIL]) om gegevens naar [!DNL DCS] te verzenden. Soms kunnen klanten onze [!DNL JavaScript]-code echter niet op hun pagina&#39;s plaatsen. Als het bedrijfsbeleid of andere technische kwesties u verhinderen onze [!DNL JavaScript] code op uw pagina&#39;s te plaatsen, kunt u nog met Audience Manager werken om gegevens van [!DNL DCS] met deze gebeurtenisvraag [!DNL API]s te verzenden en terug te keren.
 
 ## Aan de slag {#dcs-getting-started}
 
 Deze sectie bevat informatie en verwante verwijzing die u toont hoe te:
 
-* Maak vraag aan de [!DNL DCS].
-* Receive data from the [!DNL DCS].
+* Maak vraag aan [!DNL DCS].
+* Ontvang gegevens van [!DNL DCS].
 * De gegevenselementen van het formaat in uw vraag.
-* Begrijp de parameters die door worden teruggekeerd [!DNL DCS].
+* Begrijp de parameters die door [!DNL DCS] zijn teruggekeerd.
 
-Zie de onderstaande secties om aan de slag te gaan. Begin met Gegevens [verzenden naar DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Daarna, ga op om Gegevens van DCS [te](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md)ontvangen.
+Zie de onderstaande secties om aan de slag te gaan. Begin met [Gegevens verzenden naar DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Daarna, ga op [Gegevens van DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md) ontvangen.
 
 * [Data verzenden naar de DCS](dcs-url-send.md)
 * [Data ontvangen van de DCS](dcs-url-receive.md)
