@@ -1,7 +1,7 @@
 ---
 description: Ontvang publieksgegevens van Audience Manager.
 seo-description: Ontvang publieksgegevens van Adobe Audience Manager (AAM).
-seo-title: Het ontvangen Gegevens van het publiek in Adobe Audience Manager (AAM)
+seo-title: Bezig met ontvangen gegevens van publiek in Adobe Audience Manager (AAM)
 title: 'Doelgroepdata ontvangen '
 feature: Outbound Data Transfers
 translation-type: tm+mt
@@ -19,11 +19,11 @@ Ontvang publieksgegevens van Audience Manager.
 
 * [Id-synchronisatie voor overdracht van uitgaande data](id-sync-outbound.md)
 
-   Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager consultant voordat u de eerste id-synchronisatie gaat uitvoeren.
+   Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager-consultant voordat u de eerste id synchroniseert.
 
 * [Realtime-overdracht van uitgaande data](real-time-outbound-transfers/real-time-outbound-transfers.md)
 
-   Het uitgaande proces van de gegevensoverdracht in real time keert gebruikersgegevens als reeks voorwerpen JSON terug die binnen met een methode POST worden overgegaan.
+   Het uitgaande proces van de gegevensoverdracht in real time keert gebruikersgegevens als reeks voorwerpen JSON terug die binnen met een methode van de POST worden overgegaan.
 
 * [Batchoverdracht van uitgaande data ](batch-outbound-transfers/batch-outbound-overview.md)
 
