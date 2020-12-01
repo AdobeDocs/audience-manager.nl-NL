@@ -16,7 +16,7 @@ ht-degree: 25%
 
 # Overzicht van implementatie en integratie
 
-Werken met gegevens van [!DNL Experience Cloud] oplossingen of andere externe systemen in [!DNL Audience Manager].
+Werk met gegevens van [!DNL Experience Cloud] oplossingen of andere externe systemen in [!DNL Audience Manager].
 
 * [Methoden voor Data Integration](data-integration-methods.md)
 * [Audience Manager implementeren](implement-audience-manager.md)
