@@ -1,6 +1,6 @@
 ---
-description: Het uitgaande proces van de gegevensoverdracht in real time keert gebruikersgegevens als reeks voorwerpen JSON terug die binnen met een methode POST worden overgegaan.
-seo-description: Het uitgaande proces van de gegevensoverdracht in real time keert gebruikersgegevens als reeks voorwerpen JSON terug die binnen met een methode POST worden overgegaan.
+description: Het uitgaande proces van de gegevensoverdracht in real time keert gebruikersgegevens als reeks voorwerpen JSON terug die binnen met een methode van de POST worden overgegaan.
+seo-description: Het uitgaande proces van de gegevensoverdracht in real time keert gebruikersgegevens als reeks voorwerpen JSON terug die binnen met een methode van de POST worden overgegaan.
 seo-title: Realtime-overdracht van uitgaande data
 solution: Audience Manager
 title: Realtime-overdracht van uitgaande data
@@ -17,17 +17,17 @@ ht-degree: 2%
 
 # Realtime-overdracht van uitgaande data {#real-time-outbound-data-transfers}
 
-Het uitgaande proces van de gegevensoverdracht in real time levert gebruikersgegevens als reeks [!DNL JSON] geformatteerde berichten aan een bestemmingsplatform.
+Het uitgaande proces van de gegevensoverdracht in real time levert gebruikersgegevens als reeks van [!DNL JSON] geformatteerde berichten aan een bestemmingsplatform.
 
 <!-- c_outbound_json.xml -->
 
-## Aanbevelingen
+## Recommendations
 
 Om deze methode te gebruiken, moet het bestemmingsplatform aan de volgende vereisten voldoen:
 
-* Het moet een eindpunt verstrekken [!DNL URL] dat kan schrapen om een hoog volume van berichten van Audience Manager te ontvangen;
-* Zij moet gegevens in [!DNL JSON] formaat (`Content-type: application/json`) aanvaarden;
-* Het moet veilige `HTTPS` gegevensoverdracht accepteren. [!DNL Audience Manager] zal geen berichten door het onveilige `HTTP` protocol verzenden.
+* Het moet een eindpunt [!DNL URL] verstrekken dat kan schrapen om een hoog volume van berichten van Audience Manager te ontvangen;
+* Gegevens moeten worden geaccepteerd in [!DNL JSON]-indeling (`Content-type: application/json`);
+* Het moet veilige `HTTPS` gegevensoverdrachten goedkeuren. [!DNL Audience Manager] zal geen berichten door het onveilige  `HTTP` protocol verzenden.
 
 ## Frequentie
 
@@ -43,11 +43,11 @@ Er zijn geen tariefgrenzen die op de productie van geleverde berichten worden ge
 
 ## Vereiste reacties
 
-Standaard moet de ontvangende server de `200 OK` code retourneren om aan te geven dat het ontvangstbewijs is gelukt. Andere codes worden als mislukkingen geïnterpreteerd. Deze reactie wordt verwacht binnen 3000 milliseconden. Als reactie op een fout [!DNL Audience Manager] wordt slechts één poging opnieuw uitgevoerd.
+Standaard moet de ontvangende server de `200 OK`-code retourneren om aan te geven dat de ontvangst is gelukt. Andere codes worden als mislukkingen geïnterpreteerd. Deze reactie wordt verwacht binnen 3000 milliseconden. Als reactie op een fout zal [!DNL Audience Manager] slechts één herpoging maken.
 
 ## Parameters
 
-In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gedefinieerd die u naar de bestemming verzendt.
+In de volgende tabel worden de elementen in het gegevensbestand [!DNL JSON] gedefinieerd die u naar de bestemming verzendt.
 
 <table id="table_68475F9D01ED4A44B5909234114AEDE2"> 
  <thead> 
@@ -86,7 +86,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
   <tr valign="top"> 
    <td colname="col1"><code><i>User_count</i></code> </td> 
    <td colname="col2"> <p>Geheel </p> </td> 
-   <td colname="col3"> <p>Het totale aantal gebruikers in de <code> POST</code> aanvraag. </p> </td> 
+   <td colname="col3"> <p>Het totale aantal gebruikers in het <code> POST</code> verzoek. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Users</i></code> </td> 
@@ -96,7 +96,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_UUID</i></code> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>De UUID van de <span class="keyword"> Audience Manager</span> . </p> </td> 
+   <td colname="col3"> <p>De <span class="keyword"> Audience Manager</span> UUID. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>User.DataPartner_UUID</i></code> </td> 
@@ -106,7 +106,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
   <tr valign="top"> 
    <td colname="col1"><code><i>User.AAM_Regions</i></code> </td> 
    <td colname="col2"> Array </td> 
-   <td colname="col3"> De <span class="keyword"> Audience Manager</span> regio-id waar we dit apparaat hebben gezien. Als het apparaat bijvoorbeeld enige activiteit had in Parijs (Europa), zou de regio-id zijn <code> 6</code>. See <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> DCS Region IDs, Locations, and Host Names</a>. </td> 
+   <td colname="col3"> De <span class="keyword"> Audience Manager</span> gebied identiteitskaart waar wij dit apparaat hebben gezien. Als het apparaat bijvoorbeeld enige activiteit had in Parijs (Europa), zou de regio-id <code> 6</code> zijn. Zie <a href="../../../api/dcs-intro/dcs-api-reference/dcs-regions.md"> DCS Gebied IDs, Locaties, en de Namen van de Gastheer</a>. </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segments</i></code> </td> 
@@ -128,10 +128,10 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
     </ul> <p>De gebruikers zijn unsegmentated wanneer zij zijn: </p> 
     <ul id="ul_E17B080D8DF14D548E1142A9201C1C14"> 
      <li id="li_8352B919A87242E68716FB9EC0443407">Verwijderd uit een segment dat op de segmentregel wordt gebaseerd. </li> 
-     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Verwijderd uit een segment dat op het <a href="../../../features/traits/segment-ttl-explained.md"> tijd-aan-levende interval</a>van het segment wordt gebaseerd. </li> 
+     <li id="li_83CFEAFE94C14A11AE198D56E80EBB8C">Verwijderd uit een segment dat op <a href="../../../features/traits/segment-ttl-explained.md"> tijd-aan-levende interval </a> van het segment wordt gebaseerd. </li> 
      <li id="li_F48D1052BA2B45108225641292CC748D">Verplaatst naar een inactieve toestand als deze de afgelopen 120 dagen niet is waargenomen. </li>
      <li>Verwijderd vanwege een privacywijzigingsverzoek (d.w.z. <span class="keyword"> GDPR</span>)</li>
-    </ul> <p>Alle partner IDs die aan een <span class="keyword"> Audience Manager</span> identiteitskaart worden gesynchroniseerd zal de <code> "Status":"0"</code> vlag ontvangen wanneer een gebruiker unsegmented is. </p> </td> 
+    </ul> <p>Alle partner IDs die aan een <span class="keyword"> Audience Manager</span> identiteitskaart worden gesynchroniseerd zal de <code> "Status":"0"</code> vlag ontvangen wanneer een gebruiker wordt unsegmented. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"><code><i>Segment.DateTime</i></code> </td> 
@@ -143,7 +143,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] gegevensbestand gede
 
 ## Beveiliging
 
-U kunt uw uitgaande proces in real time van de gegevensoverdracht beveiligen door de verzoeken [van HTTP te](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) ondertekenen gebruikend privé sleutels of door het hebben [!DNL Audience Manager] voor authentiek verklaard door het protocol [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) .
+U kunt uw real-time uitgaande gegevensoverdrachtproces beveiligen door [HTTP-verzoeken te ondertekenen](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) met behulp van persoonlijke sleutels of door [!DNL Audience Manager] te laten verifiëren via het [OAuth 2.0](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md)-protocol.
 
 ## Verzoek
 
