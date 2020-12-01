@@ -17,15 +17,15 @@ ht-degree: 3%
 
 # Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden {#data-files-for-audience-optimization-reports}
 
-Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als de indeling correct is, kunt u deze gegevens importeren in Audience Manager om deze weer te geven in de [Audience Optimization-rapporten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) en kenmerken maken met behulp van de gegevens via [uitvoerbare logbestanden](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
+Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Als deze gegevens correct zijn opgemaakt, kunt u deze in Audience Manager importeren en weergeven in de [Audience Optimization-rapporten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Ook kunt u eigenschappen maken met de gegevens via [Handbare logbestanden](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
 
 ## Overzicht {#overview}
 
-Met een bestand met een correcte naam en opmaak kunt u indruk-, klik- of conversiegegevens importeren naar [Audience Optimization-rapporten](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Dit is nuttig wanneer het werken met een partner die niet met geïntegreerd is [!DNL Audience Manager] en u met hun gegevens in die rapportreeks wilt werken. Voor dit proces zijn aparte bestanden nodig voor de weergave, klik en conversie van gegevens. Meng deze gebeurtenissen niet in één bestand.
+Met een bestand met een correcte naam en opmaak kunt u indruk-, klik- of conversiegegevens importeren naar [Audience Optimization Reports](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Dit is nuttig wanneer het werken met een partner die niet met [!DNL Audience Manager] geïntegreerd is en u met hun gegevens in die rapportreeks wilt werken. Voor dit proces zijn aparte bestanden nodig voor de weergave, klik en conversie van gegevens. Meng deze gebeurtenissen niet in één bestand.
 
-Een gegevensbestand moet vergezeld gaan van een metagegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie [Overzicht en Toewijzingen voor de Dossiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)van Meta-gegevens.
+Een gegevensbestand moet vergezeld gaan van een metagegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Zie [Overzicht en toewijzingen voor metagegevensbestanden](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) voor meer informatie.
 
-## Naming Conventions for Data Files {#naming-conventions}
+## Naamgevingsconventies voor gegevensbestanden {#naming-conventions}
 
 De volgende syntaxis definieert de structuur van een goed gevormde naam van een gegevensbestand. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan die afhankelijk van de bestandsinhoud verandert.
 
@@ -35,27 +35,27 @@ In een bestandsnaam:
 
 * Het gebeurtenistype geeft aan dat het bestand afbeeldingen bevat, klikt of conversies. Maak een afzonderlijk bestand voor elk gebeurtenistype.
 * Een onderstrepingsteken scheidt het gebeurtenistype en een jaar-maand-datum timestamp.
-* Voordat u bestanden uploadt, comprimeert u ze met gzip en slaat u ze op met de `.gz` bestandsextensie.
+* Voordat u bestanden uploadt, comprimeert u ze met gzip en slaat u ze op met de bestandsextensie `.gz`.
 
 Geef uw gegevensbestanden, op basis van de inhoud van de bestanden, de volgende naam op basis van deze vereisten:
 
-* Impressiegegevens: <pre>impressions_<i>yyyymmdd</i>.gz</code></pre>
-* Klik op gegevens: <pre>clicks_<i>yyyymmdd</i>.gz</code></pre>
-* Conversiegegevens: <pre>conversions_<i>yyyymmdd</i>.gz</code></pre>
+* Impressiegegevens: <pre>impressies_<i>jjjjmmdd</i>.gz</code></pre>
+* Klik op gegevens: <pre>click_<i>jjjjmmdd</i>.gz</code></pre>
+* Conversiegegevens: <pre>conversies_<i>jjjjmmdd</i>.gz</code></pre>
 
-## Content Format for Data Files {#content-format}
+## Inhoudsindeling voor gegevensbestanden {#content-format}
 
-De volgende syntaxis definieert de inhoudsstructuur in een correct samengesteld gegevensbestand. Opmerking: *cursief* geeft een plaatsaanduiding voor variabelen aan en wordt vervangen door een label in een feitelijk gegevensbestand.
+De volgende syntaxis definieert de inhoudsstructuur in een correct samengesteld gegevensbestand. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan en wordt vervangen door een label in een feitelijk gegevensbestand.
 
-**Syntaxis:** <pre><i>koptekstlabel 1</i> | <i>Koptekstlabel 2</i> ... <i>koptekstlabel n</i> | <i>versie</i></code></pre>
+**Syntaxis:** <pre><i>koptekstlabel 1</i> |  <i>koptekstlabel 2</i> ..  <i>header label n</i> |  <i>version</i></code></pre>
 
 In de bestandsinhoud:
 
 * De koptekstlabels moeten in de volgorde staan die in de onderstaande tabel wordt weergegeven. Bij indrukken en klikken worden dezelfde labels gebruikt. Conversiebestanden bevatten extra kopteksten.
-* Als u geen gegevens voor een bepaalde kolom hebt, bevolk dat gebied met een `-1`.
+* Als u geen gegevens voor een bepaalde kolom hebt, bevolk dat gebied met `-1`.
 
-* Bestanden *moeten* eindigen op een versienummer. De huidige versie is 1.1.
-* Scheid bestandsheaders en inhoud met het niet-afdrukbare ASCII 001-teken. Als u ASCII 001 niet kunt gebruiken, dan scheidt u de kopballen en de gegevens met een lusjescheidingsteken. Aangezien dit niet-afdrukbare tekens zijn, wordt in het bovenstaande syntaxisvoorbeeld alleen een pipe weergegeven `"|"` voor weergavedoeleinden.
+* Bestanden *must* eindigen met een versienummer. De huidige versie is 1.1.
+* Scheid bestandsheaders en inhoud met het niet-afdrukbare ASCII 001-teken. Als u ASCII 001 niet kunt gebruiken, dan scheidt u de kopballen en de gegevens met een lusjescheidingsteken. Aangezien dit niet-afdrukbare tekens zijn, wordt in het bovenstaande syntaxisvoorbeeld alleen een pipe `"|"` weergegeven voor weergavedoeleinden.
 
 **Veldlabels**
 
@@ -71,11 +71,11 @@ In de onderstaande tabel vindt u een overzicht en beschrijving van de kolomkoppe
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Tijdstempel </p> </td> 
-   <td colname="col2"> <p>Een UTC-datum en -tijd voor de impositie, klik of conversiegebeurtenis. Gebruik de <code> yyyy-MM-dd HH:mm:ss</code> indeling. </p> </td> 
+   <td colname="col2"> <p>Een UTC-datum en -tijd voor de impositie, klik of conversiegebeurtenis. Gebruik de indeling <code> yyyy-MM-dd HH:mm:ss</code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruikersnaam </p> </td> 
-   <td colname="col2"> <p>Uw id voor een sitebezoeker, ook wel de unieke gebruikers-id <span class="term"> of DPUUID van de</span> gegevensaanbieder genoemd. </p> </td> 
+   <td colname="col2"> <p>Uw id voor een sitebezoeker, ook wel de unieke gebruikersnaam <span class="term"> of DPUUID genoemd.</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
@@ -141,19 +141,19 @@ In de onderstaande tabel vindt u een overzicht en beschrijving van de kolomkoppe
  </tbody> 
 </table>
 
-## Delivery Methods for Data Files {#delivery-methods}
+## Leveringsmethoden voor gegevensbestanden {#delivery-methods}
 
-Upload uw afbeeldings-, klik- of conversiegegevensbestanden naar een Amazon S3-directory voor uw [!DNL Audience Manager] account. Raadpleeg deze sectie voor informatie over levering/directorypaden, verwerkingstijden en updates.
+Upload uw impositie-, klik- of conversiegegevensbestanden naar een Amazon S3-directory voor uw [!DNL Audience Manager]-account. Raadpleeg deze sectie voor informatie over levering/directorypaden, verwerkingstijden en updates.
 
 >[!IMPORTANT]
 >
-> Neem contact op met de consultant van de Audience Manager of de klantenservice om aan de slag te gaan en stel een [!DNL Amazon S3] directory voor uw gegevensbestanden in.
+> Neem contact op met de consultant van de Audience Manager of de klantenservice om aan de slag te gaan en stel een map [!DNL Amazon S3] in voor uw gegevensbestanden.
 
 **Syntaxis en voorbeelden van leveringspad**
 
-Gegevens worden in een aparte naamruimte voor elke klant in een [!DNL Amazon S3] map opgeslagen. Het bestandspad volgt de onderstaande syntaxis. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan. Andere elementen zijn constanten of sleutels en veranderen niet.
+Gegevens worden in een aparte naamruimte voor elke klant opgeslagen in een map [!DNL Amazon S3]. Het bestandspad volgt de onderstaande syntaxis. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan. Andere elementen zijn constanten of sleutels en veranderen niet.
 
-**Syntaxis:** <pre>.../log_ingestion/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>bestandstype</i>_<i>yyyymmdd</i></code></pre>
+**Syntaxis:** <pre>.../log_ingesation/pid= <i>AAM ID<i>/dpid= <i>d_src</i>/logs/ <i>bestandstype</i>_<i>jjjjjjmmdd</i></code></pre>
 
 In de volgende tabel worden deze elementen gedefinieerd in een pad voor het leveren van bestanden.
 
@@ -171,7 +171,7 @@ In de volgende tabel worden deze elementen gedefinieerd in een pad voor het leve
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>pid=<i>AAM ID</i></code> </p> </td> 
-   <td colname="col2"> <p>Dit zeer belangrijk-waardepaar bevat uw <span class="keyword"> klant identiteitskaart van de Audience Manager</span> . </p> </td> 
+   <td colname="col2"> <p>Dit sleutelwaardepaar bevat uw <span class="keyword"> Audience Manager</span> klant ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code>dpid=<i>d_src</i></code> </p> </td> 
@@ -202,4 +202,4 @@ Om uw gegevens bij te werken, verzend in een dossier dat alle beelden, klikken, 
 
 ## Volgende stappen {#next-steps}
 
-Controleer de vereisten voor het benoemen en maken van metagegevensbestanden. Om te beginnen, zie [Overzicht en Toewijzingen voor de Dossiers](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)van Meta-gegevens.
+Controleer de vereisten voor het benoemen en maken van metagegevensbestanden. Om te beginnen, zie [Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
