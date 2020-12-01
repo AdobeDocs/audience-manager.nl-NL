@@ -1,7 +1,7 @@
 ---
 description: Audience Manager verzendt batchgegevens naar leveranciers van inhoud van derden volgens deze specificaties.
-seo-description: De Adobe Audience Manager (AAM) verzendt partijgegevens naar derdeinhoudsleveranciers volgens deze specificaties.
-seo-title: De Uitgaande Overdrachten van Gegevens van de partij in Adobe Audience Manager (AAM)
+seo-description: Adobe Audience Manager (AAM) verzendt batchgegevens naar leveranciers van inhoud van derden volgens deze specificaties.
+seo-title: Batch Outbound Data Transfers in Adobe Audience Manager (AAM)
 title: 'Batchoverdracht van uitgaande data '
 feature: Outbound Data Transfers
 translation-type: tm+mt
@@ -39,4 +39,4 @@ Audience Manager verzendt batchgegevens naar leveranciers van inhoud van derden 
 
 * [Cross-account-buckettoestemmingen van Amazon S3 gebruiken voor uw uitgaande bestanden](/help/using/integration/receiving-audience-data/batch-outbound-transfers/authorize-s3-cross-bucket.md)
 
-   Het uitgaande gegevensoverdrachtproces voor klanten die Amazon Simple Storage Service (Amazon S3) gebruiken, vereist dat we vragen om uw Amazon S3-toegangstoets en geheime sleutel, om de uitgaande gegevensbestanden aan uw emmer te kunnen leveren.
+   Het uitgaande proces van de Overdracht van Gegevens voor klanten die de Eenvoudige Dienst van de Opslag van Amazon (Amazon S3) gebruiken vereist ons om uw Amazon S3 toegangssleutel en geheime sleutel te vragen, om de uitgaande gegevensdossiers aan uw emmer te leveren.
