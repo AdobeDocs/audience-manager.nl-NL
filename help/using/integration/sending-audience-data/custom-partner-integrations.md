@@ -26,7 +26,7 @@ Audience Manager neemt cookie- en mobiele-id-gegevens op van de Oracle Data Clou
 
 ### Integratiespecificaties
 
-Binnenkomende gegevensbestanden die worden ontvangen van de Oracle Data Cloud verschillen van de standaard syntaxis voor binnenkomende bestandsnamen die wordt beschreven in de vereisten voor naam en bestandsgrootte van [Amazon S3 voor binnenkomende gegevensbestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) en van de standaard syntaxis voor binnenkomende bestandsinhoud die wordt beschreven in [Inbound Data File Contents: Syntaxis, ongeldige tekens, variabelen en voorbeelden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+Binnenkomende gegevensbestanden die worden ontvangen van de Oracle Data Cloud verschillen van de standaard syntaxis voor de binnenkomende bestandsnaam die wordt beschreven in [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) en van de standaard syntaxis voor de binnenkomende bestandsinhoud die wordt beschreven in [Inbound Data File Contents: Syntaxis, Ongeldige tekens, variabelen en voorbeelden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 Naast de standaardimplementatievelden voor binnenkomende gegevensbestanden zijn de hieronder gemarkeerde elementen vereist. Zie Syntaxis bestandsnaam en syntaxis bestandsinhoud op de twee pagina&#39;s die hierboven zijn gekoppeld voor beschrijvingen van alle andere standaardvelden en bestandsnaamelementen.
 
@@ -36,7 +36,7 @@ ODC-bestandsnamen hebben de volgende structuur:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Het `odc` bestandsnaamelement identificeert het bestand als geïmporteerd vanuit de Oracle Data Cloud en geeft de Audience Manager de instructie het bestand als zodanig te verwerken.
+Het bestandsnaamelement `odc` identificeert het bestand als geïmporteerd uit de Oracle Data Cloud en geeft de Audience Manager de instructie de inbound file validator te verwerken.
 
 ### Bestandsinhoud
 
@@ -44,7 +44,7 @@ Velden in het binnenkomende gegevensbestand van de ODC moeten in de onderstaande
 
 `<`**`ID type`**`><TAB><user ID><TAB><trait ID>,<trait ID>,<trait ID>,...`
 
-Het `ID type` kan zijn:
+De `ID type` kan zijn:
 
 * IDFA
 * Android-apparaat
