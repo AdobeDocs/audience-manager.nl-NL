@@ -17,7 +17,7 @@ ht-degree: 39%
 
 # [!UICONTROL Traits] Overzicht {#traits-overview}
 
-Gegevensverzameling en publiekscreatie beheren met [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] of [!UICONTROL folder traits]. Lees de pagina&#39;s die hieronder zijn gekoppeld om aan de slag te gaan met [!UICONTROL traits]:
+Beheer gegevensverzameling en publiekscreatie met [!UICONTROL rules-based], [!UICONTROL onboarded], [!UICONTROL algorithmic] of [!UICONTROL folder traits]. Lees de pagina&#39;s die hieronder zijn gekoppeld om aan de slag te gaan met [!UICONTROL traits]:
 
 * [Detailpagina van eigenschappen](/help/using/features/traits/trait-details-page.md)
 * [Eigenschapbuilder ](/help/using/features/traits/about-trait-builder.md)
