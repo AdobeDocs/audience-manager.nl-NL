@@ -44,20 +44,20 @@ Added re: AAM-30826.
 
 | Service | URL/hostnaam | Hoe te om toegang te verkrijgen |
 |--- |--- | --- |
-| S3 | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of klantenservice | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of Customer Care om een Amazon S3-emmertje voor uw bètainstantie in te stellen. Lees meer over de [voordelen van het gebruik van Amazon S3](../reference/amazon-s3.md). |
+| S3 | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of klantenservice | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of de klantenservice om een Amazon S3-emmertje voor uw bètainstantie in te stellen. Lees meer over de [voordelen van het gebruik van Amazon S3](../reference/amazon-s3.md). |
 | DCS | `https://dcs-beta.demdex.net/...` | Zie [Toegang tot DCS in het Bètamilieu](../reference/beta-environment.md#access-dcs-beta-environment). |
 | UI | `https://bank-beta.demdex.com` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. |
-| API | `https://api-beta.demdex.com/...` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. We raden u aan een algemene API-gebruiker te maken. [Zie details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. Wij adviseren dat u een generische gebruiker API creeert, [zie details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## De DCS openen in de bètomgeving {#access-dcs-beta-environment}
+## Toegang tot DCS in het milieu van Beta {#access-dcs-beta-environment}
 
-1. Maak een vraag DCS, gebruikend het krullen [bevel](https://curl.haxx.se/docs/manpage.html). Curl is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
+1. Maak een vraag DCS, gebruikend de krullende [command](https://curl.haxx.se/docs/manpage.html). Curl is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
 
    Bijvoorbeeld:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Verifieer dat uw verzoek door bèta DCS door &quot;zandbak&quot;in de DCS reactiekop te zoeken werd gediend.
+1. Controleer of uw verzoek door de bètaversie-DCS is verzonden door te zoeken naar &quot;sandbox&quot; in de DCS-antwoordheader.
 
    Bijvoorbeeld:
 
