@@ -21,19 +21,19 @@ Wanneer de Audience Manager segmentinformatie naar een gegevenspartner verzendt,
 
 ## Handmatige methode {#manual-method}
 
-Als gegevenspartner, wordt u waarschijnlijk gewend aan het krijgen van publieksmeta-gegevens van uw klanten door handprocessen. Dit kunnen bestanden zijn die zijn gekoppeld aan e-mailberichten of bestanden die klanten toevoegen via een [!DNL UI] bestand dat u voor dit doel hebt gemaakt en onderhouden. Deze processen werken, maar zijn vaak omslachtig, tijdrovend, en kunnen handwerk van de gegevensingang vereisen. Deze methodes worden vaak gebruikt om een integratie te helpen snel in werking te stellen, maar zij verstrekken niet de beste klantenervaring op de lange termijn. Als alternatief kunt u de metagegevens van segmenten automatisch ophalen [!DNL Audience Manager] [!DNL API] met de code.
+Als gegevenspartner, wordt u waarschijnlijk gewend aan het krijgen van publieksmeta-gegevens van uw klanten door handprocessen. Dit kunnen bestanden zijn die zijn gekoppeld aan e-mailberichten of bestanden die zijn toegevoegd via een [!DNL UI] die u voor dit doel hebt gemaakt en onderhouden. Deze processen werken, maar zijn vaak omslachtig, tijdrovend, en kunnen handwerk van de gegevensingang vereisen. Deze methodes worden vaak gebruikt om een integratie te helpen snel in werking te stellen, maar zij verstrekken niet de beste klantenervaring op de lange termijn. Als alternatief kunt u [!DNL Audience Manager] [!DNL API] gebruiken om segmentmeta-gegevens automatisch te krijgen.
 
 ## Geautomatiseerde methode {#automated-method}
 
-[!DNL Audience Manager] verstrekt een reeks [REST APIs](../../api/rest-api-main/rest-api-main.md) die u segmentmeta-gegevens automatisch laten terugwinnen. Met [!DNL API], kunt u banen tot stand brengen die segmentmeta-gegevens met geplande intervallen of automatisch terugwinnen, wanneer u [!DNL Audience Manager] gegevens verwerkt en een nieuwe segmentidentiteitskaart vindt. Zie de onderstaande stappen voor meer informatie.
+[!DNL Audience Manager] verstrekt een reeks  [REST ](../../api/rest-api-main/rest-api-main.md) APIs die u segmentmeta-gegevens automatisch laten terugwinnen. Met [!DNL API], kunt u banen tot stand brengen die segmentmeta-gegevens met geplande intervallen of automatisch terugwinnen, wanneer u [!DNL Audience Manager] gegevens verwerkt en een nieuwe segmentidentiteitskaart vindt. Zie de onderstaande stappen voor meer informatie.
 
 ### Stap 1: De Audience Manager-API&#39;s bekijken
 
-De sectie Aan de [slag met REST APIs](../../api/rest-api-main/aam-api-getting-started.md) bevat informatie over algemene vereisten, authentificatie, beschikbare methodes, enz. Dit is een goede plek om te beginnen als je nog niet met de [!DNL Audience Manager][!DNL API] eerder hebt gewerkt.
+De sectie [Aan de slag met REST API&#39;s](../../api/rest-api-main/aam-api-getting-started.md) bevat informatie over algemene vereisten, verificatie, beschikbare methoden, enzovoort. Dit is een goede plaats om te beginnen als u niet eerder met [!DNL Audience Manager] [!DNL API] hebt gewerkt.
 
 ### Stap 2: OAuth2-toegangsreferenties aanvragen
 
-U hebt een cliënt identiteitskaart en geheim nodig om [!DNL API] vraag te maken. Tijdens het integratieproces kunt u een client-id en een geheim opvragen bij uw integratiespecialist. U kunt ook een e-mailverzoek verzenden naar [!UICONTROL Audience Manager Customer Care] op [!DNL amsupport@adobe.com].
+U hebt een cliënt identiteitskaart en geheim nodig om [!DNL API] vraag te maken. Tijdens het integratieproces kunt u een client-id en een geheim opvragen bij uw integratiespecialist. U kunt ook een e-mailverzoek verzenden naar [!UICONTROL Audience Manager Customer Care] om [!DNL amsupport@adobe.com].
 
 ### Stap 3: Verzamel klant-specifieke informatie van elke geïntegreerde klant
 
@@ -45,7 +45,7 @@ Vraag het volgende van elke geïntegreerde klant:
 
 ### Stap 4: Segmentmetagegevens ophalen met een API-aanroep
 
-Nadat u de vorige stappen hebt uitgevoerd, kunt u een `GET` methode gebruiken om segmentmetagegevens op te halen. Voor een steekproefverzoek en een reactie, zie de Toewijzingen van de Bestemming van de [Terugkeer](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings). Deze vraag keert segmentgegevens terug die als zeer belangrijk-waardeparen in een [!DNL JSON] voorwerp worden geformatteerd. Enkele belangrijke segmentkenmerken die in de reactie worden geretourneerd, worden in de volgende tabel weergegeven.
+Na het voltooien van de vorige stappen, kunt u een `GET` methode gebruiken om segmentmeta-gegevens terug te winnen. Zie [Doeltoewijzingen retourneren](../../api/rest-api-main/aam-api-destinations/aam-api-retrieve-destinations.md#return-dest-mappings) voor een voorbeeldverzoek en reactie. Deze vraag keert segmentgegevens terug die als zeer belangrijk-waardeparen in een [!DNL JSON] voorwerp worden geformatteerd. Enkele belangrijke segmentkenmerken die in de reactie worden geretourneerd, worden in de volgende tabel weergegeven.
 
 <table id="table_446384AE9A36408A9C570CB7DB72C3D6"> 
  <thead> 
