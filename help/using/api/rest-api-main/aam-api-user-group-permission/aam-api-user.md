@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # API-methoden voor gebruikersbeheer {#user-management-api-methods}
 
-Stel methoden in om gebruikers te beheren, zoals het maken, bijwerken, aanbieden, verwijderen en retourneren van gebruikersobjecten. [!DNL API]
+Stel [!DNL API] methoden in om gebruikers te beheren, zoals het maken, bijwerken, aanbieden, verwijderen en retourneren van gebruikersobjecten.
 
 <!-- c_rest_api_user_man_user.xml -->
 
-## Een gebruiker maken {#create-user}
+## Een gebruiker {#create-user} maken
 
-Een `POST` methode om een nieuwe gebruiker te maken.
+Een `POST` methode om een nieuwe gebruiker tot stand te brengen.
 
 <!-- r_rest_api_user_create.xml -->
 
@@ -68,11 +68,11 @@ Een `POST` methode om een nieuwe gebruiker te maken.
 
 Als `isAdmin` aan waar wordt geplaatst, wordt de gebruiker gecreeerd als partner admin. Dit bezit laat u ook weten of een gebruiker een partner admin is.
 
-Retourneert `409 Conflict` of de gebruikersnaam al in gebruik is.
+Retourneert `409 Conflict` als de gebruikersnaam al in gebruik is.
 
-## Een gebruiker bijwerken {#update-user}
+## Een gebruiker {#update-user} bijwerken
 
-Een `PUT` methode om een gebruiker bij te werken.
+Een methode `PUT` om een gebruiker bij te werken.
 
 <!-- r_rest_api_user_update.xml -->
 
@@ -111,17 +111,17 @@ Een `PUT` methode om een gebruiker bij te werken.
 }
 ```
 
-Retourneert `409 Conflict` of de gebruikersnaam al in gebruik is.
+Retourneert `409 Conflict` als de gebruikersnaam al in gebruik is.
 
-## Gebruiker met aanmelding bijwerken {#update-logged-in-user}
+## Ingeschreven gebruiker {#update-logged-in-user} bijwerken
 
-Een `PUT` methode om de momenteel aangemelde gebruiker bij te werken.
+Een methode `PUT` om de momenteel aangemelde gebruiker bij te werken.
 
 <!-- r_rest_api_user_update_self.xml -->
 
 >[!NOTE]
 >
->Terwijl de meeste [!DNL API] methodes slechts callable door partnerbeheerders zijn, is deze methode aanroepbaar door niet-admin gebruikers.
+>Terwijl de meeste [!DNL API] methodes slechts aanroepbaar door partnerbeheerders zijn, is deze methode aanroepbaar door niet-admin gebruikers.
 
 ### Verzoek
 
@@ -154,17 +154,17 @@ Een `PUT` methode om de momenteel aangemelde gebruiker bij te werken.
 }
 ```
 
-Retourneert `409 Conflict` of de gebruikersnaam al in gebruik is.
+Retourneert `409 Conflict` als de gebruikersnaam al in gebruik is.
 
-## Aangemeld gebruikerswachtwoord bijwerken {#update-logged-in-user-pw}
+## Aangemeld gebruikerswachtwoord {#update-logged-in-user-pw} bijwerken
 
-Een `PUT` methode om de momenteel aangemelde gebruiker bij te werken.
+Een methode `PUT` om de momenteel aangemelde gebruiker bij te werken.
 
 <!-- r_rest_api_user_password.xml -->
 
 >[!NOTE]
 >
->Terwijl de meeste [!DNL API] methodes slechts callable door partnerbeheerders zijn, is deze methode aanroepbaar door niet-admin gebruikers.
+>Terwijl de meeste [!DNL API] methodes slechts aanroepbaar door partnerbeheerders zijn, is deze methode aanroepbaar door niet-admin gebruikers.
 
 ### Verzoek
 
@@ -176,17 +176,17 @@ Een `PUT` methode om de momenteel aangemelde gebruiker bij te werken.
 { "oldPassword" : "old password", "newPassword" : "new password" }
 ```
 
-Retourneert `200 OK` indien gelukt. Retourneert `400 Bad Request` of er iets mis is met een van beide wachtwoorden.
+Retourneert `200 OK` indien gelukt. Retourneert `400 Bad Request` als er iets mis is met een van beide wachtwoorden.
 
-## Wachtwoord aangemelde gebruiker opnieuw instellen {#reset-logged-in-user-pw}
+## Aangemeld gebruikerswachtwoord {#reset-logged-in-user-pw} opnieuw instellen
 
-Een `PUT` methode om de momenteel aangemelde gebruiker opnieuw in te stellen. [!UICONTROL Audience Management] stuurt de gebruiker een door het systeem gegenereerd wachtwoord.
+Een methode `PUT` om de momenteel aangemelde gebruiker opnieuw in te stellen. [!UICONTROL Audience Management] stuurt de gebruiker een door het systeem gegenereerd wachtwoord.
 
 <!-- r_rest_api_user_password_reset.xml -->
 
 >[!NOTE]
 >
->Terwijl de meeste [!DNL API] methodes slechts callable door partnerbeheerders zijn, is deze methode aanroepbaar door niet-admin gebruikers.
+>Terwijl de meeste [!DNL API] methodes slechts aanroepbaar door partnerbeheerders zijn, is deze methode aanroepbaar door niet-admin gebruikers.
 
 ### Verzoek
 
@@ -196,7 +196,7 @@ Retourneert `200 OK` indien gelukt.
 
 ## Gebruikersobject retourneren voor een gebruikersnaam {#return-user-object-for-id}
 
-Een `Get` methode om het gebruikersobject voor een gebruikersnaam te retourneren.
+Een methode `Get` om het gebruikersobject voor een gebruiker-id te retourneren.
 
 <!-- r_rest_api_user_get_user_obj.xml -->
 
@@ -222,15 +222,15 @@ Een `Get` methode om het gebruikersobject voor een gebruikersnaam te retourneren
 }
 ```
 
-## Gebruikersobject retourneren voor aangemelde gebruiker {#return-user-object-for-logged-in-user}
+## Het Voorwerp van de Gebruiker van de terugkeer voor Logged-In Gebruiker {#return-user-object-for-logged-in-user}
 
-Een `Get` methode om het gebruikersvoorwerp voor de momenteel het programma geopende gebruiker terug te keren.
+Een methode `Get` om het gebruikersvoorwerp voor de momenteel het programma geopende gebruiker terug te keren.
 
 <!-- r_rest_api_user_get_self.xml -->
 
 >[!NOTE]
 >
->Terwijl de meeste [!DNL API] methodes slechts callable door partnerbeheerders zijn, is deze methode aanroepbaar door niet-admin gebruikers.
+>Terwijl de meeste [!DNL API] methodes slechts aanroepbaar door partnerbeheerders zijn, is deze methode aanroepbaar door niet-admin gebruikers.
 
 ### Verzoek
 
@@ -254,9 +254,9 @@ Een `Get` methode om het gebruikersvoorwerp voor de momenteel het programma geop
 }
 ```
 
-## Lijstgebruikers {#list-users}
+## Gebruikers {#list-users} weergeven
 
-Een `GET` methode om gebruikers weer te geven.
+Een methode `GET` om gebruikers weer te geven.
 
 <!-- r_rest_api_user_list.xml -->
 
@@ -288,9 +288,9 @@ Deze query retourneert een lijst met alle gebruikers in de opgegeven groepen.
 }
 ```
 
-## Een gebruiker verwijderen {#delete-users}
+## Een gebruiker {#delete-users} verwijderen
 
-Een `DELETE` methode om een gebruiker te verwijderen.
+Een methode `DELETE` om een gebruiker te verwijderen.
 
 <!-- r_rest_api_user_delete.xml -->
 
@@ -298,11 +298,11 @@ Een `DELETE` methode om een gebruiker te verwijderen.
 
 `DELETE /api/v1/users/`*`<user_id>`*
 
-Retourneert `204 No Content` indien gelukt. In geval van conflictoplossing `409 Conflict`.
+Retourneert `204 No Content` indien gelukt. In geval van conflict retourneert `409 Conflict`.
 
 ## Gebruikers in bulk verwijderen {#delete-users-bulk}
 
-Een `POST` methode om meerdere gebruikers in bulk te verwijderen.
+Een `POST` methode om veelvoudige gebruikers in bulk te schrappen.
 
 <!-- r_rest_api_user_delete_bulk.xml -->
 
