@@ -20,31 +20,31 @@ ht-degree: 0%
 
 Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct bruikbaar maken, met zo weinig mogelijk moeite van gebruikers met verschillende handicaps, zoals visuele, auditieve, cognitieve, motorische of andere handicaps.
 
-Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Zie Toegankelijkheid [van](https://www.adobe.com/accessibility.html)Adobe voor meer informatie over toegankelijkheidsverplichtingen.
+Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Voor meer details over Adobe aan toegankelijkheid, zie [Adobe Toegankelijkheid](https://www.adobe.com/accessibility.html).
 
 De meest voorkomende toegankelijkheidsfuncties in softwareproducten zijn: toetsenbordnavigatie, semantische structuur, voldoende contrast tussen voorgrondelementen en achtergrondelementen, ondersteunende hulpmiddelen, duidelijke elementlabels enzovoort.
 
-We hebben ondersteuning voor meerdere toegankelijkheidsfuncties ontwikkeld om iedereen [!DNL Audience Manager] gebruiksvriendelijker te maken.
+Om [!DNL Audience Manager] voor iedereen gemakkelijker te gebruiken, hebben wij steun voor veelvoudige toegankelijkheidseigenschappen ontwikkeld.
 
 ## Toetsenbordnavigatie {#keyboard-navigation}
 
 [!DNL Audience Manager] ondersteunt volledige toetsenbordtoegankelijkheid:
 
-* De `Tab` toets en de pijlen bewegen tussen afzonderlijke elementen van de gebruikersinterface.
+* De `Tab` sleutel en de pijlen bewegen tussen individuele elementen van het gebruikersinterface.
 
    ![toegankelijkheid - markering](assets/accesibility-highlight.png)
 
-* Met de `Return` (`Enter`) en `Space` toetsen activeert u het geselecteerde item.
+* Met de toetsen `Return` (`Enter`) en `Space` activeert u het geselecteerde item.
 
 ## Toegankelijke tabelsortering {#table-sorting}
 
-De kopballen van de lijst zijn selecteerbaar wanneer navigerend via de `Tab` sleutel, en u kunt de sorteerorde veranderen door te drukken `Space`.
+De kopballen van de lijst zijn selecteerbaar wanneer navigerend via `Tab` sleutel, en u kunt de sorteerorde veranderen door `Space` te drukken.
 
 ![accessibility-table-headers](assets/accessibility-table-headers.png)
 
-## Ondersteuning van ondersteunende hulpmiddelen {#assistive-technologies}
+## Ondersteuning voor ondersteunende hulpmiddelen {#assistive-technologies}
 
-Door het gebruik van semantische code en [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), omvatten de interactieve elementen binnen het [!DNL Audience Manager] gebruikersinterface overeenkomstige etiketten, toegankelijke namen, en rollen die zowel hun doel als hun huidige staat identificeren.
+Door het gebruik van semantische code en [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), omvatten de interactieve elementen binnen [!DNL Audience Manager] gebruikersinterface overeenkomstige etiketten, toegankelijke namen, en rollen die zowel hun doel als hun huidige staat identificeren.
 
 Zo zorgt u ervoor dat ondersteunende hulpmiddelen, zoals schermlezers, de labels en andere informatie voor gebruikers kunnen lezen, zodat ze gemakkelijk met de besturingselementen van de toepassing kunnen werken.
 
@@ -52,7 +52,7 @@ Alle interactieve elementen in de gebruikersinterface van de Audience Manager be
 
 ## Kleuren en contrast {#colors-contrast}
 
-De [!DNL Audience Manager] gebruikersinterface streeft ernaar voldoende contrast in de toepassing te bieden voor een toegankelijke kijkervaring voor gebruikers met een laag gezichtsvermogen of een laag kleurfalen.
+De [!DNL Audience Manager]-gebruikersinterface streeft ernaar voldoende contrast in de toepassing te bieden voor een toegankelijke kijkervaring voor gebruikers met een laag gezichtsvermogen of een laag kleurfalen.
 
 Voorbeeld: laadschermen bevatten een spinner in een wit modaal vak, alles boven op een donkergrijze bedekking.
 
@@ -62,4 +62,4 @@ Voorbeeld: laadschermen bevatten een spinner in een wit modaal vak, alles boven 
 
 [!DNL Audience Manager] streeft ernaar een steeds grotere mate van toegankelijkheid te bieden , waardoor het product voor iedereen gebruiksvriendelijk wordt gemaakt .
 
-We raden u aan het feedbackformulier [voor toegankelijkheid van](https://www.adobe.com/accessibility/feedback.html) Adobe te gebruiken om ons suggesties voor verbeteringen en toegankelijkheidsproblemen te sturen. We zijn erg blij dat je rekening houdt met je feedback en deze verbetert [!DNL Audience Manager].
+We raden u aan om het feedbackformulier [Adobe-toegankelijkheid](https://www.adobe.com/accessibility/feedback.html) te gebruiken om verbeteringssuggesties en toegankelijkheidsproblemen te verzenden die u tegenkomt. We zijn erg blij dat u rekening houdt met uw feedback en [!DNL Audience Manager] verbetert.
