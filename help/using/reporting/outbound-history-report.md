@@ -29,8 +29,8 @@ t_reports_outbound_history.xml
 
    ![Stap resultaat](assets/outbound_history.png)
 
-1. Begin in het **[!UICONTROL Search for a Destination]** vak te typen en selecteer het gewenste doel.
-1. Geef in het **[!UICONTROL Select a Date Range]** vak de begin- en einddatum voor het rapport op en klik op **[!UICONTROL Apply Date Filter]**.
+1. Begin in het tekstvak **[!UICONTROL Search for a Destination]** te typen en selecteer het gewenste doel.
+1. Geef in het vak **[!UICONTROL Select a Date Range]** de begin- en einddatum voor het rapport op en klik vervolgens op **[!UICONTROL Apply Date Filter]**.
 
    ![Stap resultaat](assets/outbound_history_stats.png)
 
@@ -46,11 +46,11 @@ t_reports_outbound_history.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Bestandsnaam gegevenssynchronisatie </td> 
-   <td colname="col2"> <p>Lijst met alle uitgaande bestanden die <span class="keyword"> Adobe</span> voor deze bestemming heeft gegenereerd en die samen zijn verwerkt. </p> </td> 
+   <td colname="col2"> <p>Lijst van alle uitgaande dossiers die <span class="keyword"> Adobe</span> voor deze bestemming produceerde die samen werden verwerkt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Voltooid </td> 
-   <td colname="col2"> <p>Aantal verslagen die met succes van <span class="keyword"> Audience Manager</span> naar de bestemming werden verzonden. </p> </td> 
+   <td colname="col2"> <p>Aantal met succes verzonden verslagen van <span class="keyword"> Audience Manager</span> naar de bestemming. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Mislukt </td> 
@@ -58,7 +58,7 @@ t_reports_outbound_history.xml
   </tr> 
   <tr> 
    <td colname="col1"> Ontvangen records </td> 
-   <td colname="col2"> <p>Het totale aantal records dat <span class="keyword"> Adobe</span> in de bestanden heeft gegenereerd en naar de bestemming heeft geprobeerd te verzenden. In de meeste gevallen is dit het totale aantal geslaagde en mislukte bestanden. </p> </td> 
+   <td colname="col2"> <p>Het totale aantal records <span class="keyword"> Adobe</span> dat is gegenereerd in de bestanden en dat is geprobeerd naar de bestemming te verzenden. In de meeste gevallen is dit het totale aantal geslaagde en mislukte bestanden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
