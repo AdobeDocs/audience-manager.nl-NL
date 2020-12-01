@@ -17,27 +17,27 @@ ht-degree: 3%
 
 # Overlap van advertentie-eenheid{#ad-unit-overlap}
 
-Het **[!UICONTROL Ad Unit Overlap]** rapport wordt weergegeven als een warmtediagram dat hoge en lage overlappingen tussen uw advertentie-eenheden markeert.
+Het **[!UICONTROL Ad Unit Overlap]** rapport wordt getoond als hittekaart die hoge en lage overlappingen tussen uw Eenheden van de Advertentie benadrukt.
 
 ## Gebruiksscenario {#use-cases}
 
-Met het **[!UICONTROL Ad Unit Overlap]** rapport kunt u meer inzicht krijgen in waar uw publiek de wegeigenschappen overlapt. In het rapport worden uw 100 belangrijkste verwante eigenschappen besproken en wordt de overlapping tussen deze eigenschappen weergegeven.
+Met het **[!UICONTROL Ad Unit Overlap]** rapport, kunt u inzicht in krijgen waar uw publiek over uw Web eigenschappen overlapt. In het rapport worden uw 100 belangrijkste verwante eigenschappen besproken en wordt de overlapping tussen deze eigenschappen weergegeven.
 
-## Het rapport Overlap toevoegen gebruiken {#using-the-report}
+## Het rapport Overlap van advertentie-eenheid {#using-the-report} gebruiken
 
-Gebruik de besturingselementen **[!UICONTROL Top N Base Ad Units]** en **[!UICONTROL Top N Overlapping Ad Units]** besturingselementen om het gewenste aantal advertentie-eenheden voor de overlapping te selecteren. U kunt maximaal 100 items selecteren voor elk item.
+Gebruik de besturingselementen **[!UICONTROL Top N Base Ad Units]** en **[!UICONTROL Top N Overlapping Ad Units]** om het gewenste aantal advertentie-eenheden voor de overlapping te selecteren. U kunt maximaal 100 items selecteren voor elk item.
 
-Gebruik de controles van de Waaier **van de** Dag en van de **Datum door** om uw blik-achterwaaier aan te passen. De terugkijkperioden van 7 en 30 dagen zijn alleen beschikbaar voor zondag-datums.
+Gebruik de besturingselementen **Dagbereik** en **Datum tot en met** om het bereik van de terugblik aan te passen. De terugkijkperioden van 7 en 30 dagen zijn alleen beschikbaar voor zondag-datums.
 
-Gebruik de **[!UICONTROL Base Ad Unit]** besturingselementen en de **[!UICONTROL Overlap Ad Unit]** besturingselementen om aan te geven welke advertentie-eenheden u in het overlappende rapport wilt weergeven.
+Gebruik de besturingselementen **[!UICONTROL Base Ad Unit]** en **[!UICONTROL Overlap Ad Unit]** om te selecteren welke advertentie-eenheden u in het overlappende rapport wilt weergeven.
 
 >[!IMPORTANT]
 >
->Wanneer u deze optie inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Audience Optimization for Publishers]de bestanden opnemen, zoals wordt beschreven in stap 3 van Google Ad Manager (voorheen DFP)-gegevensbestanden [!UICONTROL Ad Unit IDs]importeren in Audience Manager [](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Ad Unit] in plaats van het [!UICONTROL Ad Unit ID].
+>Wanneer u [!UICONTROL Audience Optimization for Publishers] inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Ad Unit IDs] opnemen, zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Ad Unit] in plaats van [!UICONTROL Ad Unit ID] detailleert.
 
-## De resultaten interpreteren {#interpreting-results}
+## Resultaten interpreteren {#interpreting-results}
 
-Uw [!UICONTROL Ad Unit Overlap] rapport kan er ongeveer zo uitzien als hieronder. Houd de muisaanwijzer boven een willekeurige cel voor meer informatie over die bepaalde overlapping. Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
+Uw [!UICONTROL Ad Unit Overlap]-rapport kan er ongeveer als volgt uitzien. Houd de muisaanwijzer boven een willekeurige cel voor meer informatie over die bepaalde overlapping. Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
 
 ![](assets/publisher_ad_unit_overlap.png)
 
@@ -67,11 +67,11 @@ Uw [!UICONTROL Ad Unit Overlap] rapport kan er ongeveer zo uitzien als hieronder
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aantal overlappingen</span> </p> </td> 
-   <td colname="col2"> <p>De overlapping tussen uw gebruikers die een <span class="wintitle"> BasisAdvertentie Eenheid</span> en de Eenheid <span class="wintitle"></span>van de Overlapping hebben bezocht. </p> </td> 
+   <td colname="col2"> <p>De overlapping tussen uw gebruikers die een <span class="wintitle"> Eenheid van de Advertentie van de Basis </span> en <span class="wintitle"> hebben bezocht overlap Advertentie </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Overlap percentage</span> </p> </td> 
-   <td colname="col2"> <p>De overlapping tussen uw gebruikers die een <span class="wintitle"> BasisAdvertentie Eenheid</span> en de Eenheid <span class="wintitle"></span>van de Overlapping hebben bezocht. Dit is de <span class="wintitle"> Overlap Aantal</span>Uniques, uitgedrukt als percentage van de <span class="wintitle"> Basis AdUnit</span>. </p> </td> 
+   <td colname="col2"> <p>De overlapping tussen uw gebruikers die een <span class="wintitle"> Eenheid van de Advertentie van de Basis </span> en <span class="wintitle"> hebben bezocht overlap Advertentie </span>. Dit is <span class="wintitle"> het Aantal van Uniques van de Overlappen</span>, uitgedrukt als percentage van <span class="wintitle"> BasisAdvertentieEenheid</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
