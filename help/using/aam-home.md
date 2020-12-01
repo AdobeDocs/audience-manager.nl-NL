@@ -16,7 +16,7 @@ ht-degree: 96%
 
 
 
-# Audience Manager Guide {#audience-manager-product-documentation}
+# Handleiding voor Audience Manager {#audience-manager-product-documentation}
 
 Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, een toonaangevende service voor online data management van doelgroepen. Onze producten en services verschaffen digitale adverteerders en uitgevers de tools die ze nodig hebben om hun data-assets te beheren en te gebruiken voor een steeds succesvollere verkoop.
 
@@ -33,7 +33,7 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
 * Zie de nieuwste opmerkingen bij de release van Audience Manager en lees over de nieuwste functies in de sectie **Opmerkingen bij de release en nieuwe functies**.
 * Tot slot kunt u nog andere Experience Cloud-bronnen verkennen zoals forums, videotutorials en persoonlijke en online trainingscursussen in de sectie **Learning Center - Aanbevolen Audience Manager- en Experience Cloud-bronnen**.
 
-<br> 
+<br>
 
 ## Belangrijkste functies van Audience Manager
 
