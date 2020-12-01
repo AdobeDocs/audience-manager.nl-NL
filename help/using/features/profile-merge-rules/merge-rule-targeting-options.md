@@ -21,29 +21,29 @@ ht-degree: 4%
 
 >[!TIP]
 >
->Voor definities en beschrijvingen van deze [!UICONTROL Merge Rule] montages, zie de Gedefinieerde [Opties van de Regel van de Fusie van het](merge-rule-definitions.md)Profiel.
+>Voor definities en beschrijvingen van deze [!UICONTROL Merge Rule] montages, zie [De Opties van de Regel van de Fusie van het Profiel Gedefinieerd](merge-rule-definitions.md).
 
 ## Apparaatgericht {#device-personalization}
 
-Dit scenario is op marketers van toepassing die één enkel apparatenprofiel voor een publiekssegment willen evalueren dat in Audience Manager wordt bepaald, om een verenigbare ervaring aan het apparaat te leveren die het richten van platforms gebruikt die apparaat IDs (DSPs, op-plaats verpersoonlijkingsplatforms en andere op apparaat-gebaseerde het richten platforms) steunen, die geen rekening houden met gebruikersauthentificatie.
+Dit scenario is op marketers van toepassing die één enkel apparatenprofiel voor een publiekssegment willen evalueren dat in Audience Manager wordt bepaald, om een verenigbare ervaring aan het apparaat te leveren gebruikend richtende platforms die apparaat IDs steunen (DSP, op-plaats verpersoonlijkingsplatforms en andere op apparaat-gebaseerde het richten platforms), die geen rekening houden met gebruikersauthentificatie.
 
-Selecteer **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]**.
+Selecteer **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** om een regel te maken die alleen apparaatprofielen als doel heeft.
 
 ![alleen apparaat](assets/device-only.png)
 
 Laten we zeggen dat John drie smartphones heeft. Twee ervan zijn iPhone 7s op Data Plan A, en één daarvan is een Samsung op Data Plan B. De mobiele provider van John houdt geen rekening met zijn geautoriseerde status op een van de drie apparaten en wil hem een upgrade van het gegevensplan aanbieden, maar alleen voor iPhone 7-apparaten die werken op Data Plan A.
 
-Door **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** regel te gebruiken, [!DNL Device 1] en [!DNL Device 3] allebei kwalificeren voor het segment, terwijl Apparaat 2 wordt genegeerd.
+Door de **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** regel te gebruiken, komen [!DNL Device 1] en [!DNL Device 3] allebei voor het segment in aanmerking, terwijl Apparaat 2 wordt genegeerd.
 
 ![alleen apparaat](assets/device-management.png)
 
-## Gedeelde apparaatdoelen {#target-shared-devices}
+## Gedeeld apparaat gericht {#target-shared-devices}
 
 Laten we zeggen dat John en zijn vrouw, Jane, dezelfde laptop gebruiken om een online winkel te bezoeken en verschillende artikelen te bestellen.
 
 John gebruikt zijn eigen account om reistickets en speciale deals te boeken, terwijl Jane haar eigen account gebruikt om muziek en films te kopen.
 
-Het marketingteam van de winkel kan de **[!UICONTROL Current Authenticated Profiles]** +- **[!UICONTROL No Device Profile]** regel gebruiken om John en Jane te richten op specifieke deals, op basis van hun geverifieerde activiteit.
+Het marketingteam van de winkel kan de **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** regel gebruiken om John en Jane te richten met specifieke overeenkomsten, die op hun voor authentiek verklaarde activiteit worden gebaseerd.
 
 ![current-no-device](assets/current-no-device.png)
 
@@ -57,31 +57,31 @@ Dit gebruiksgeval heeft betrekking op identiteitsbeheer van huishoudens. Een bed
 
 ![last-device-profile](assets/last-device-profile.png)
 
-Laten we eens kijken naar een segment van huishoudens met een inkomen van meer dan $100.000/jaar, dat minstens één apparaat bevat dat een [!DNL iPhone 7] aan [!DNL Data Plan B]. We hebben twee huishoudelijke profielen (profielen voor verschillende apparaten), die elk zijn aangesloten op twee verschillende apparaatprofielen. De kenmerken die nodig zijn om voor het segment in aanmerking te komen, worden verdeeld over het apparaat en de profielen voor alle apparaten.
+Laten we eens kijken naar een segment van huishoudens met een inkomen van meer dan $100.000/jaar, dat minstens één apparaat bevat dat een [!DNL iPhone 7] op [!DNL Data Plan B] is. We hebben twee huishoudelijke profielen (profielen voor verschillende apparaten), die elk zijn aangesloten op twee verschillende apparaatprofielen. De kenmerken die nodig zijn om voor het segment in aanmerking te komen, worden verdeeld over het apparaat en de profielen voor alle apparaten.
 
 De Audience Manager voegt elk apparaat + dwars-apparatenprofielpaar samen om te zien of kwalificeert de samengevoegde reeks eigenschappen voor het segment. Aangezien Audience Manager elk profiel evalueert dat in de samenvoeging was opgenomen, kunnen zowel een apparaatprofiel als een huishoudelijk profiel worden gesegmenteerd.
 
-Door de koppeling tussen het apparaat en het profiel van het huishouden kan de Audience Manager in aanmerking komen [!DNL Household 2] voor het segment, maar niet [!DNL Household 1]. Vanuit [!DNL Household 2], slechts [!DNL Device 3] kwalificeert voor het segment. Hierdoor [!UICONTROL Profile Merge Rule] heeft de markator een consistent marketingbericht kunnen afgeven aan een afzonderlijk apparaat ([!DNL Device 3]) en het bredere huishouden ([!DNL Household 2]).
+Dankzij de koppeling tussen het apparaat en het profiel van het huishouden kan Audience Manager [!DNL Household 2] voor het segment kwalificeren, maar niet [!DNL Household 1]. Vanaf [!DNL Household 2] komt alleen [!DNL Device 3] in aanmerking voor het segment. Dit [!UICONTROL Profile Merge Rule] heeft de teler toegelaten om een verenigbaar marketing bericht aan een individueel apparaat ([!DNL Device 3]) en breder huishouden ([!DNL Household 2]) te leveren.
 
 ![beheer van huishoudens](assets/household-management.png)
 
-## Doelen voor op mensen gebaseerde bestemmingen {#all-cross-device}
+## Doelstelling voor op mensen gebaseerde doelen {#all-cross-device}
 
 >[!IMPORTANT]
 >
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
 
-Dit het richten scenario is slechts beschikbaar aan klanten die [!DNL People-Based Destinations] toe:voegen-op hebben gekocht. Deze regel staat marketers toe om klanten te bereiken die op hun eigen, voor authentiek verklaarde gegevens worden gebaseerd.
+Dit doelscenario is alleen beschikbaar voor klanten die de [!DNL People-Based Destinations]-invoegtoepassing hebben aangeschaft. Deze regel staat marketers toe om klanten te bereiken die op hun eigen, voor authentiek verklaarde gegevens worden gebaseerd.
 
-Laten we zeggen dat een online detailhandelaar bestaande klanten wil bereiken via sociale platforms en hun persoonlijke aanbiedingen wil laten zien op basis van hun eerdere bestellingen. Met [!UICONTROL People-Based Destinations], kunnen zij gehakte e-mailadressen van hun eigen [!DNL CRM] in Audience Manager opnemen, segmenten van de off-line gegevens bouwen, en deze segmenten naar de sociale platforms verzenden die zij willen adverteren op, die gehakt herkenningsteken gebruiken, optimaliserend hun reclame-uitgaven.
+Laten we zeggen dat een online detailhandelaar bestaande klanten wil bereiken via sociale platforms en hun persoonlijke aanbiedingen wil laten zien op basis van hun eerdere bestellingen. Met [!UICONTROL People-Based Destinations], kunnen zij gehakte e-mailadressen van hun eigen [!DNL CRM] in Audience Manager opnemen, segmenten van de off-line gegevens bouwen, en deze segmenten naar de sociale platforms verzenden zij waarop zij willen adverteren, die gehakt herkenningsteken gebruiken, die hun reclame-uitgaven optimaliseren.
 
-Meer over deze optie leren, zie Op [mensen-Gebaseerde Doelen](../destinations/people-based-destinations-overview.md).
+Meer over deze optie leren, zie [Op mensen-Gebaseerde Doelen](../destinations/people-based-destinations-overview.md).
 
 ![alles-over-apparaat](assets/all-cross-device.png)
 
-## Grafiekopties apparaat {#device-graph-options}
+## Opties voor apparaatgrafiek {#device-graph-options}
 
-Het kiezen van een [!UICONTROL device graph] optie voor een [!UICONTROL Profile Merge] regel hangt van voorwaarden uniek aan uw digitale eigenschappen en bedrijfsdoelstellingen af. Deze algemene richtlijnen kunnen u helpen begrijpen wanneer om één type van grafiek tegenover een andere te gebruiken. Als u deze opties wilt gebruiken, moet u lid zijn van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/home.html) of een contractuele relatie hebben met een externe apparaatgrafiek. Raadpleeg de onderstaande tabel voor algemene informatie over de keuze van een grafiekoptie voor apparaten. Voor specifieke gebruiksgevallen, zie de Gevallen van het Gebruik van de Grafiek van het Apparaat van de Verbinding van het [Profiel en](profile-link-use-case.md) Externe Gevallen [](external-graph-use-cases.md)van het Gebruik van de Grafiek van het Apparaat.
+Het kiezen van een optie [!UICONTROL device graph] voor een [!UICONTROL Profile Merge] regel hangt van voorwaarden uniek aan uw digitale eigenschappen en bedrijfsdoelstellingen af. Deze algemene richtlijnen kunnen u helpen begrijpen wanneer om één type van grafiek tegenover een andere te gebruiken. Opmerking: u moet lid zijn van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/home.html) of een contractuele relatie hebben met een externe apparaatgrafiek om deze opties te kunnen gebruiken. Raadpleeg de onderstaande tabel voor algemene informatie over de keuze van een grafiekoptie voor apparaten. Voor specifieke gebruiksgevallen, zie [De Gevallen van de Grafiek van het Apparaat van de Verbinding van het Profiel ](profile-link-use-case.md) en [De Gevallen van het Gebruik van de Grafiek van het Extern Apparaat](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -93,21 +93,21 @@ Het kiezen van een [!UICONTROL device graph] optie voor een [!UICONTROL Profile 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Apparaatgrafiek profielkoppeling</span> </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> De regels voor het samenvoegen</span> van profielen die met de optie <span class="wintitle"> Profielkoppeling</span> zijn gemaakt, zijn ideaal voor: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profielsamenstellingen </span> die met  <span class="wintitle"> profiel </span> Linkoption zijn gemaakt, zijn ideaal voor: </p> <p> 
      <ul id="ul_FF44FA894BB2448887C8EDA9C8407EF9"> 
       <li id="li_E22505210C664FE6A9AA7C61244B36DA">Digitale eigenschappen die een hoog niveau van klantenauthentificatie hebben. </li> 
-      <li id="li_BE7112EE611E4DEB95B5C0A2852BFA97">Gerichte, weinig bereikbare campagnes. De het apparatengrafiek van de Verbinding <span class="wintitle"></span> van het Profiel wordt voortgebouwd op deterministische slechts gegevens. Deze groep apparaatprofielen is altijd kleiner dan de groep niet-geverifieerde gebruikers en apparaten. </li> 
+      <li id="li_BE7112EE611E4DEB95B5C0A2852BFA97">Gerichte, weinig bereikbare campagnes. De <span class="wintitle"> Verbinding van het Profiel</span> apparatengrafiek wordt voortgebouwd op deterministische slechts gegevens. Deze groep apparaatprofielen is altijd kleiner dan de groep niet-geverifieerde gebruikers en apparaten. </li> 
       <li id="li_5FD9E936A72A4EFE80E694FA2E08E385">Gebruik gevallen waarin klanten zich in een geverifieerde status moeten bevinden om in aanmerking te komen voor segmentatie. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opties externe apparaatgrafiek </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> De regels voor het samenvoegen</span> van profielen die zijn gebouwd met de <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-op</a> of een externe apparaatgrafiek die is geïntegreerd met <span class="keyword"> Audience Manager</span> , zijn ideaal voor: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profielsamenstellingen </span> die zijn gebouwd met de  <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-</a> oporgrafiek van externe apparaten die zijn geïntegreerd met  <span class="keyword"> Audience </span> Managerare zijn ideaal voor: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Digitale eigenschappen die een laag niveau van klantenauthentificatie hebben. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Brede, geavanceerde merkcampagnes. </li> 
       <li id="li_14AEC54CE34440889A3A36324EC6F497">Gebruik gevallen waarin klanten zich niet in een geverifieerde staat hoeven te bevinden om in aanmerking te komen voor segmentatie. </li> 
-     </ul> </p> <p> <p>Tip: De <span class="keyword"> Device Co-op</span> is de beste optie als u een <span class="keyword"> Experience Cloud</span> -klant bent met een lage verificatie en geen relatie met een apparaatgrafiekprovider. </p> </p> </td> 
+     </ul> </p> <p> <p>Tip: De <span class="keyword"> Co-op van het Apparaat</span> is uw beste optie als u een <span class="keyword"> klant Experience Cloud</span> met lage authentificatie en geen verhouding met om het even welke leverancier van de apparatengrafiek bent. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
