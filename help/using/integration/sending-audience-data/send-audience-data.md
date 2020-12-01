@@ -1,7 +1,7 @@
 ---
 description: Verzend publieksgegevens van andere bronnen naar Audience Manager.
 seo-description: Verzend publieksgegevens van andere bronnen naar Adobe Audience Manager (AAM).
-seo-title: Gegevens van het publiek verzenden in Adobe Audience Manager (AAM)
+seo-title: Poortgegevens verzenden in Adobe Audience Manager (AAM)
 title: Doelgroepdata verzenden
 feature: Inbound Data Transfer
 translation-type: tm+mt
