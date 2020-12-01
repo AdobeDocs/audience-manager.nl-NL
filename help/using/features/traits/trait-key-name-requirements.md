@@ -29,6 +29,6 @@ In [!UICONTROL Expression Builder], kan de naam van een zeer belangrijke variabe
 
 * Ongeldige sleutelnamen: `123`, `price!123`.
 
-## Hoofdvariabelen vooraf bepalen met `c_`
+## Belangrijke variabelen vooraf bepalen met `c_`
 
-Het `c_` voorvoegsel is *altijd* vereist als de parameters die gegevens verzenden over een gebeurtenisaanroep-URL die syntaxis gebruiken.
+Het voorvoegsel `c_` is *always* vereist als de parameters die gegevens verzenden over een gebeurtenisvraag URL die syntaxis gebruiken.
