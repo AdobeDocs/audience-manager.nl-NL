@@ -31,7 +31,7 @@ De functies van een Data Management Platform (DMP) kunnen in drie categorieën w
 
 Audience Manager verzamelt data van een eerste partij vanuit kanalen en apparaten (webanalytics, CRM, apparaatdata, e-commerce, enz.).
 
-<br> 
+<br>
 
 **Audience Creation**
 
