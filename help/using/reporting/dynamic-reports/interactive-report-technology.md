@@ -27,7 +27,7 @@ c_report_technology.xml
 
 ## Interactieve rapporten gebruiken Tableau-technologie
 
-[!DNL Audience Manager] gebruikt de [software van Tableau](https://www.tableausoftware.com/) om gegevens in de interactieve rapporten te tonen. Met [!DNL Tableau], gebruiken de [!UICONTROL Delivery and Overlap] rapporten visuele aanwijzingen en symbolen die u helpen:
+[!DNL Audience Manager] gebruikt  [](https://www.tableausoftware.com/) Tableausoftware om gegevens in de interactieve rapporten weer te geven. Met [!DNL Tableau], gebruiken [!UICONTROL Delivery and Overlap] rapporten visuele aanwijzingen en symbolen die u helpen:
 
 * Kies voor hoge en lage prestaties.
 * Steunkleurovergangen en -segmenten met een lage en hoge unieke bezoekersoverlapping.
@@ -40,7 +40,7 @@ De rapportgegevens worden elke zondag wekelijks bijgewerkt. De update verwerkt g
 
 ## Vormen, kleuren en grootten die worden gebruikt in interactieve rapporten {#shapes-colors-sizes}
 
-De meeste interactieve rapporten geven resultaten weer met vormen van verschillende grootten en kleuren. Deze weergave-indeling is ontworpen om u te helpen visueel inzicht te krijgen in de gegevens zonder dat u door rijen en kolommen met getallen hoeft te bladeren.
+De meeste interactieve rapporten geven resultaten weer met vormen van verschillende grootten en kleuren. Deze weergave-indeling is ontworpen om u te helpen de gegevens visueel te begrijpen zonder dat u door rijen en kolommen met getallen hoeft te bladeren.
 
 <!-- 
 
@@ -72,8 +72,8 @@ In de volgende tabel worden de vormen, grootten en kleuren gedefinieerd die word
    <td colname="col1"> <b>Kleuren</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rode schaduwen geven <i>een lage</i> overlapping aan. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Groene tinten geven <i>een hoge</i> overlapping aan. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rode tinten geven <i>lage</i> overlap aan. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Groene tinten geven overlap aan met <i>high</i>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -83,6 +83,6 @@ In de volgende tabel worden de vormen, grootten en kleuren gedefinieerd die word
  </tbody> 
 </table>
 
-## Documentatie tableau {#tableau-documentation}
+## Documentatie {#tableau-documentation}
 
-Voor meer informatie over de controles van Tableau die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor de Server van [Tableau op Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+Voor meer informatie over de controles van Tableau die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor [Server van Tableau op Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
