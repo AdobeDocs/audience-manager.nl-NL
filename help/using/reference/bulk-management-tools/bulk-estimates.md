@@ -27,20 +27,20 @@ t_bulk_estimates.xml
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) die zijn toegewezen in de [!DNL Audience Manager] gebruikersinterface, worden in de [!UICONTROL Bulk Management Tools]gebruikersinterface gerespecteerd.
+>[RBAC-groepsmachtigingen die ](../../features/administration/administration-overview.md) zijn toegewezen in de  [!DNL Audience Manager] gebruikersinterface, worden gerespecteerd in de  [!UICONTROL Bulk Management Tools].
 
-Als u bulkupdates wilt maken, opent u het [!UICONTROL Bulk Management Tools] werkblad en:
+Als u bulkupdates wilt maken, opent u het [!UICONTROL Bulk Management Tools]-werkblad en:
 
-1. Klik op het **[!UICONTROL Headers]** tabblad en kopieer de [!UICONTROL Estimate Segment Size] koptekst.
-2. Klik op het **[!UICONTROL Estimate]** tabblad.
+1. Klik op de tab **[!UICONTROL Headers]** en kopieer de koptekst [!UICONTROL Estimate Segment Size].
+2. Klik op het tabblad **[!UICONTROL Estimate]**.
 3. Plak de schattingskoptekst in de eerste rij van het werkblad met schattingen.
 4. Plak of typ de gegevens die u wilt wijzigen in een corresponderende kolom op basis van het koptekstlabel.
 5. Klik in de werkbladwerkbalk op de knop Maken die overeenkomt met het item dat u bijwerkt.
-Met deze handeling wordt het [!UICONTROL Account Information] dialoogvenster geopend.
-6. Geef de vereiste [aanmeldingsgegevens](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) op en klik op **[!UICONTROL Submit]**.
+Met deze handeling wordt het dialoogvenster [!UICONTROL Account Information] geopend.
+6. Geef de vereiste [aanmeldingsgegevens op](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik op **[!UICONTROL Submit]**.
 
-Deze actie leidt tot een [!UICONTROL Response] kolom in het aantekenvel die geschatte segmentgrootte gegevens bevat. Voordat u gegevens invoert, moet het werkblad voor bulkramingen er ongeveer als volgt uitzien:
+Deze actie leidt tot een [!UICONTROL Response] kolom in het aantekenvel die geschatte gegevens van de segmentgrootte bevat. Voordat u gegevens invoert, moet het werkblad voor bulkramingen er ongeveer als volgt uitzien:
 
 ![](assets/estimate.png)
-Als uw bulkupdate een fout terugkeert of ontbreekt, zie het Oplossen van [problemen voor de Hulpmiddelen](../../reference/bulk-management-tools/bulk-troubleshooting.md)van het Beheer van het Bulk.
+Als uw bulkupdate een fout terugkeert of ontbreekt, zie het Oplossen van  [problemen voor de Hulpmiddelen](../../reference/bulk-management-tools/bulk-troubleshooting.md) van het Beheer van het Bulk.
 
