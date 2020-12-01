@@ -17,15 +17,15 @@ ht-degree: 9%
 
 # API-methoden voor DCS-regio’s {#dcs-region-api-methods}
 
-Methoden waarmee u programmatisch [!DNL DCS] gebieden van Audience Managers kunt weergeven.
+Methoden waarmee u programmatisch Audience Manager [!DNL DCS] gebieden kunt vermelden.
 
 <!-- c_rest_api_regions.xml -->
 
-Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [DCS Gebied IDs, Locaties, en de Namen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)van de Gastheer.
+Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [DCS Gebied IDs, Locaties, en de Namen van de Gastheer](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## Een specifiek DCS-gebied weergeven {#list-specific-dcs-region}
+## Een specifiek DCS-gebied {#list-specific-dcs-region} weergeven
 
-Een `GET` methode om een bepaald [!DNL DCS] gebied weer te geven.
+Een methode `GET` om een specifiek [!DNL DCS] gebied te vermelden.
 
 <!-- r_rest_api_regions_list_specific.xml -->
 
@@ -51,11 +51,11 @@ Een `GET` methode om een bepaald [!DNL DCS] gebied weer te geven.
 
 Retourneert `200 OK` indien gelukt.
 
-Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [DCS Gebied IDs, Locaties, en de Namen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)van de Gastheer.
+Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [DCS Gebied IDs, Locaties, en de Namen van de Gastheer](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-## DCS-gebieden weergeven {#list-dcs-regions}
+## DCS-gebieden {#list-dcs-regions} weergeven
 
-Een `GET` methode om [!DNL DCS] gebieden weer te geven.
+Een `GET` methode om [!DNL DCS] gebieden te vermelden.
 
 <!-- r_rest_api_regions_list.xml -->
 
@@ -84,4 +84,4 @@ Een `GET` methode om [!DNL DCS] gebieden weer te geven.
 
 Retourneert `200 OK` indien gelukt.
 
-Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [DCS Gebied IDs, Locaties, en de Namen](../../api/dcs-intro/dcs-api-reference/dcs-regions.md)van de Gastheer.
+Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [DCS Gebied IDs, Locaties, en de Namen van de Gastheer](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
