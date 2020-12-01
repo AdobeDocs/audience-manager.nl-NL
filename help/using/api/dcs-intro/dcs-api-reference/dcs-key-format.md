@@ -17,9 +17,9 @@ ht-degree: 10%
 
 # Het opmaken van sleutelwaardeparen in DCS-calls {#formatting-key-value-pairs-in-dcs-calls}
 
-Wanneer het doen van een vraag, [!DNL DCS] keurt zeer belangrijk-waardegegevens in standaard of in series vervaardigd formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
+Wanneer het doen van een vraag, [!DNL DCS] keurt zeer belangrijke-waardegegevens in standaard of geserialiseerde formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
 
-## Standard and Serialized Key-Value Pairs {#standard-serialized}
+## Standaard en seriële sleutelwaardeparen {#standard-serialized}
 
 <table id="table_A220F9B359F34C6EA7B83618FC22EE3A"> 
  <thead> 
@@ -43,7 +43,7 @@ Wanneer het doen van een vraag, [!DNL DCS] keurt zeer belangrijk-waardegegevens 
  </tbody>
 </table>
 
-## Scheidingstekens en scheidingstekens voor seriële sleutelwaardeparen {#delimiters-separators}
+## Scheidingstekens en scheidingstekens voor hoofdwaardeparen met serienummering {#delimiters-separators}
 
 Met geserialiseerde sleutel-waarde paren, moet u de tellers specificeren die waarden binnen en tussen deze variabelen scheiden. Voor Audience Manager zijn de volgende scheidingstekens en scheidingstekens vereist:
 
