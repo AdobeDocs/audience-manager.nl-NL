@@ -19,15 +19,15 @@ ht-degree: 9%
 
 Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
 
-## Doel van variabelen op het niveau van de Platform {#platform-variables}
+## Doel van variabelen op Platform-niveau {#platform-variables}
 
 <!-- c_tb_device_targeting.xml -->
 
-Met variabelen op Platform-niveau kunt u gegevens van een bepaalde site gebruiken en deze beschikbaar maken voor alle eigenschappen in uw [!DNL Audience Manager] account. Deze variabelen worden gevormd door [sleutel-waardeparen](../../reference/key-value-pairs-explained.md) met de sleutel die door `d_` zoals hieronder wordt getoond vooraf wordt bepaald.
+Met variabelen op Platform-niveau kunt u gegevens van een bepaalde site gebruiken en deze beschikbaar maken voor alle eigenschappen in uw [!DNL Audience Manager]-account. Deze variabelen worden gevormd door [sleutel-waardeparen](../../reference/key-value-pairs-explained.md) met de sleutel vooraf bepaald door `d_` zoals hieronder getoond.
 
-## Sleutels op Platform-niveau die door de Agent van de Gebruiker worden bepaald {#keys-user-agent}
+## Sleutels op Platform-niveau die door de Agent {#keys-user-agent} worden bepaald
 
-De [!UICONTROL Data Collection Servers] extractie de waarden voor deze sleutels uit de kopbal [van de](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) gebruikersagent in `HTTP` verzoeken. De waarden vertegenwoordigen apparaatinformatie uit de [!UICONTROL Device Atlas] database. De signalen in de onderstaande tabel zijn beschikbaar, zoals u uit het voorbeeld van de gebruikersagent hebt opgehaald. [Download een lijst met de meest gebruikte toetsen](assets/device_keys.csv)op basis van [!UICONTROL Device Atlas] metingen.
+[!UICONTROL Data Collection Servers] haalt de waarden voor deze sleutels uit [userAgent kopbal](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` verzoeken. De waarden vertegenwoordigen apparaat-vlakke informatie van het [!UICONTROL Device Atlas] gegevensbestand. De signalen in de onderstaande tabel zijn beschikbaar, zoals u uit het voorbeeld van de gebruikersagent hebt opgehaald. [Download een lijst met de meest gebruikte toetsen](assets/device_keys.csv) op basis van  [!UICONTROL Device Atlas] metingen.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|
