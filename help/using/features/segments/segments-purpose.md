@@ -17,31 +17,31 @@ ht-degree: 5%
 
 # Segmenten: doel, samenstelling en regels {#segments-purpose-composition-and-rules}
 
-Beschrijft [!UICONTROL segments], hun samenstellende delen, en lijnverwezenlijking met [!UICONTROL Segment Builder].
+Beschrijft [!UICONTROL segments], hun samenstellende delen, en regelverwezenlijking met [!UICONTROL Segment Builder].
 
 ## Doel van [!UICONTROL Segments]
 
-A *`segment`* (or an *`audience`*) is a set of users who share common attributes. In Audience Manager, creeert u [!UICONTROL segments] met server-zijregels. Met deze regels kunt u publieksgroepen samenstellen op basis van kenmerken van sitebezoekers, zoals:
+Een *`segment`* (of een *`audience`*) is een reeks gebruikers die gemeenschappelijke attributen delen. In Audience Manager, creeert u [!UICONTROL segments] met server-zijregels. Met deze regels kunt u publieksgroepen samenstellen op basis van kenmerken van sitebezoekers, zoals:
 
 * Gedrag;
 * Demografische gegevens (leeftijd, geslacht, inkomen, enz.);
-* Andere kenmerken die u kunt definiëren in de gebruikersinterface.
+* Andere kenmerken die u in de gebruikersinterface kunt definiëren.
 
 ## [!UICONTROL Segment] Samenstelling
 
-Een Audience Manager [!UICONTROL segment] is een server-zijregel die uit individuele of groepen eigenschappen bestaat. De sporen worden samengesteld uit gegevenselementen genoemd zeer belangrijk-waardeparen. Deze sleutelwaardeparen bevatten samen met de regels die u instelt op het [!UICONTROL segment] [!UICONTROL segment] niveau, de criteria die bezoekers in aanmerking komen voor deelname en deelname.
+Een Audience Manager [!UICONTROL segment] is een serverregel die uit individuele of groepen eigenschappen bestaat. De sporen worden samengesteld uit gegevenselementen genoemd zeer belangrijk-waardeparen. Samen met regels die u instelt op het niveau [!UICONTROL segment], bevatten deze sleutel-waarde paren de criteria die bezoekers in aanmerking komen voor eigenschap en [!UICONTROL segment] lidmaatschap.
 
-## Overwegingen bij [!UICONTROL Adobe Analytics][!UICONTROL Segment] toewijzen
+## Overwegingen bij [!UICONTROL Adobe Analytics] [!UICONTROL Segment] Toewijzing
 
-Wanneer u Adobe Analytics toewijst [!UICONTROL segments] of pakketten rapporteert aan uw Experience Cloud-organisatie, maakt Audience Manager automatisch nieuwe, overeenkomende, alleen-lezen [!UICONTROL segments] en kenmerken. U kunt de opslaglocatie van deze bestanden niet bewerken of wijzigen [!UICONTROL segments] vanuit Audience Manager. Elke wijziging die u uitvoert op uw toegewezen Adobe Analytics [!UICONTROL segments] of rapportsuites, is echter in Audience Manager.
+Bij het toewijzen van Adobe Analytics [!UICONTROL segments] of het rapporteren van reeksen aan uw organisatie van de Experience Cloud, leidt de Audience Manager automatisch tot nieuwe, overeenkomstige, read-only [!UICONTROL segments] en trekken. U kunt de opslaglocatie van deze [!UICONTROL segments] niet wijzigen vanuit Audience Manager. Elke wijziging die u op uw toegewezen Adobe Analytics [!UICONTROL segments] of rapportsuites uitvoert, wordt echter weerspiegeld in de Audience Manager.
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] verschilt van [!DNL Adobe Analytics][!UICONTROL segments]. Read [Understanding Segments in Analytics and Audience Manager](https://docs.adobe.com/content/help/nl-NL/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) for an in-depth description of the differences.
+>Audience Manager [!UICONTROL segments] is anders dan [!DNL Adobe Analytics] [!UICONTROL segments]. Lees [Segmenten in Analytics en Audience Manager](https://docs.adobe.com/content/help/nl-NL/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) voor een diepgaande beschrijving van de verschillen.
 
-## Regels maken [!UICONTROL Segments] met [!UICONTROL Segment Builder]
+## Op regels gebaseerde [!UICONTROL Segments] maken met [!UICONTROL Segment Builder]
 
-In tegenstelling tot traditionele pixels die in reactie op eenvoudige ja/nee-voorwaarden worden geactiveerd, kunt u [!UICONTROL Segment Builder] complexe [!UICONTROL segment] vereisten maken. Net als [!UICONTROL traits], [!UICONTROL segments] evalueer gegevens gebruikend [!DNL Boolean] uitdrukkingen ([!DNL AND], [!DNL OR], [!DNL NOT]), vergelijkingsexploitanten (groter dan, minder dan, gelijk aan, enz.), en recenentie/frequentiecriteria. Deze functies helpen een doelgericht publiek te creëren dat [!UICONTROL segments] relevant is voor uw bedrijfsbehoeften.
+In tegenstelling tot traditionele pixels die worden geactiveerd als reactie op eenvoudige ja/nee-voorwaarden, kunt u met [!UICONTROL Segment Builder] complexe [!UICONTROL segment]-vereisten maken. Net als [!UICONTROL traits], [!UICONTROL segments] evalueert gegevens gebruikend [!DNL Boolean] uitdrukkingen ([!DNL AND], [!DNL OR], [!DNL NOT]), vergelijkingsexploitanten (groter dan, minder dan, gelijk aan, enz.), en recency/frequentiecriteria. Deze functies helpen doelgericht publiek [!UICONTROL segments] te creëren dat relevant is voor uw bedrijfsbehoeften.
 
 ## Voordelen
 
