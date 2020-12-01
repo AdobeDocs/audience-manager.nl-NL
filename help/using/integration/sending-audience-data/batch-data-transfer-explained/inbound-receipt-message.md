@@ -26,7 +26,7 @@ In het volgende voorbeeld ziet u een voorbeeld van een e-mailbericht. In de tabe
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Van: aam-noreply@adobe.com </b> </p> <p> <b>Betreft: Server-naar-server verwerkingsresultaat Adobe Audience Manager:</b> </p> <p> <b>Beste Adobe-partner: (ID:7)</b> <b></b> </p> <p> <b>Wij hebben uw Adobe Audience Manager server-aan-server dossierlevering ontvangen</b> </p> <p> <b>Bestandsnaam:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Ontvangen records: 40669900</b> </p> <p><b>Opmaakfouten: 0</b> </p> <p> <b>Ongeldige AAM-id: 112 </b> </p> <p> <b>Geen overeenkomende AAM-id: 0 </b> </p> <p> <b>Geen spoor gerealiseerd: 26730823 </b> </p> <p> <b>Verwerkte records: 40669900 </b> </p> <p> <b>Opgeslagen records: 13938958 </b> </p> <p> <b>Totaal aantal apparaten: 21 </b> </p> <p> <b>Totaal aantal signalen: 918878926 </b> </p> <p> <b>Totaal aantal ongebruikte signalen: 660348376 </b> </p> <p> <b>Totaal gerealiseerde kenmerken: 258086908 </b> </p> <p> <b>Totaal aantal verwijderde kenmerken: 0 </b> </p> <p> <b>Validatie van alle kenmerken is mislukt: 0 </b> </p> <p> <b>Totaal aantal gebruikers met eigenschappen die niet zijn gevalideerd: 0 </b> </p> <p> <b>Begintijd taak: 2018-05-17 18:07:49 </b> </p> <p> <b>Eindtijd taak: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>Van: aam-noreply@adobe.com  </b> </p> <p> <b>Betreft: Adobe Audience Manager Server-naar-server verwerkingsresultaat:</b> </p> <p> <b>Beste partner van Adobe: (ID:7)</b> <b></b> </p> <p> <b>We hebben de levering van Adobe Audience Manager Server-naar-server-bestanden ontvangen</b> </p> <p> <b>Bestandsnaam:</b> <i></i> </p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </i></p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </i></p> <p> <b>Ontvangen records: 40669900</b> </p> <p><b>Opmaakfouten: 0</b> </p> <p> <b>Ongeldige AAM-id: 112  </b> </p> <p> <b>Geen overeenkomende AAM-id: 0  </b> </p> <p> <b>Geen spoor gerealiseerd: 26730823  </b> </p> <p> <b>Verwerkte records: 40669900  </b> </p> <p> <b>Opgeslagen records: 13938958  </b> </p> <p> <b>Totaal aantal apparaten: 21  </b> </p> <p> <b>Totaal aantal signalen: 918878926  </b> </p> <p> <b>Totaal aantal ongebruikte signalen: 660348376  </b> </p> <p> <b>Totaal gerealiseerde kenmerken: 258086908  </b> </p> <p> <b>Totaal aantal verwijderde kenmerken: 0  </b> </p> <p> <b>Validatie van alle kenmerken is mislukt: 0  </b> </p> <p> <b>Totaal aantal gebruikers met eigenschappen die niet zijn gevalideerd: 0  </b> </p> <p> <b>Begintijd taak: 2018-05-17 18:07:49  </b> </p> <p> <b>Eindtijd taak: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,11 +43,11 @@ De volgende tabel bevat rijen die overeenkomen met regels in het ontvangen e-mai
  <tbody> 
   <tr> 
    <td colname="col1"> Bestandsnaam </td> 
-   <td colname="col2"> <p>Lijst met alle binnenkomende bestanden die Adobe voor deze partner heeft ontvangen en die samen zijn verwerkt. In het vorige voorbeeld-e-mailbericht is de partner-id 7 en is de eigenaar-id 901. </p> <p>Het staartnummer (1,2,3...) is het splitsingsnummer dat door de klant of door de binnenkomende distributeur wordt toegevoegd. </p> </td> 
+   <td colname="col2"> <p>Lijst van alle binnenkomende dossiers die Adobe voor deze partner ontving die samen werden verwerkt. In het vorige voorbeeld-e-mailbericht is de partner-id 7 en is de eigenaar-id 901. </p> <p>Het staartnummer (1,2,3...) is het splitsingsnummer dat door de klant of door de binnenkomende distributeur wordt toegevoegd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ontvangen records </td> 
-   <td colname="col2"> <p>Het totale aantal records dat Adobe voor alle bestanden heeft ontvangen. In de meeste gevallen, zou dit het totale aantal lijnen in binnenkomende dossiers moeten zijn. </p> </td> 
+   <td colname="col2"> <p>Het totale aantal records dat Adobe is ontvangen voor alle bestanden. In de meeste gevallen, zou dit het totale aantal lijnen in binnenkomende dossiers moeten zijn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Fouten opmaken </td> 
@@ -71,7 +71,7 @@ De volgende tabel bevat rijen die overeenkomen met regels in het ontvangen e-mai
   </tr> 
   <tr> 
    <td colname="col1"> Opgeslagen records </td> 
-   <td colname="col2"> <p>Aantal verslagen resulterend in gegevens die in het systeem moeten worden geladen = Verwerkte Verslagen - de Fouten van het Formaat - Ongeldige AAM IDs - Geen Overeenkomende identiteitskaart van AAM - Geen Rand Realized. </p> </td> 
+   <td colname="col2"> <p>Aantal records dat resulteert in gegevens die in het systeem moeten worden geladen = Verwerkte records - Fouten in indeling - Ongeldige AAM-id's - Geen overeenkomende AAM-id - Geen uitvoer gerealiseerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Totaal aantal apparaten </td> 
