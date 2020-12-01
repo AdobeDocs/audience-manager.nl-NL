@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Het [!UICONTROL Segment Performance] rapport vergelijkt in kaart gebrachte en unmapped segmenten door beelden en omzettingspercentages. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Het vergelijken van deze verschillende segmenttypes binnen en tussen rapporten helpt u bestaande campagnes optimaliseren en over het hoofd gezien segmenten vinden die u naar een bestemming voor het richten kunt verzenden.
 
-## De resultaten van uw toegewezen segment lezen {#read-mapped-segment-results}
+## Hoe te om uw toegewezen resultaten van het Segment {#read-mapped-segment-results} te lezen
 
 Het in kaart gebrachte [!UICONTROL Segment Performance] rapport toont alle segmenten u creeerde en naar een bestemming voor het richten verzond.De positie van uw in kaart gebrachte segmenten in een rapport kan u veel vertellen over welke segmenten goed presteren en waar u sommige aanpassingen zou kunnen moeten maken.
 
@@ -56,9 +56,9 @@ De labels in het voorbeeld en de volgende tabel kunnen u helpen de prestaties va
  </tbody> 
 </table>
 
-## De resultaten van het niet-toegewezen segment lezen {#read-unmapped-segment-results}
+## Hoe te om uw Unmapped Segmentresultaten {#read-unmapped-segment-results} te lezen
 
-Het bekijken van unmapped segmenten in een [!UICONTROL Segment Performance] rapport is een grote manier om nieuwe segmenten te vinden u niet voor het richten hebt overwogen. In feite, kunnen sommige van deze segmenten uw in kaart gebrachte segmenten overtreffen. Dit komt omdat een segment zonder toewijzing moet voldoen aan een reeks kwalificatiecriteria die in dit rapport moeten worden opgenomen. Om in dit rapport te worden opgenomen, moet een niet in kaart gebracht segment:
+Het bekijken van unmapped segmenten in een [!UICONTROL Segment Performance] rapport is een grote manier om nieuwe segmenten te vinden u niet voor het richten overwogen hebt. In feite, kunnen sommige van deze segmenten uw in kaart gebrachte segmenten overtreffen. Dit komt omdat een segment zonder toewijzing moet voldoen aan een reeks kwalificatiecriteria die in dit rapport moeten worden opgenomen. Om in dit rapport te worden opgenomen, moet een niet in kaart gebracht segment:
 
 * Omzettingen hebben groter dan het gemiddelde van al uw in kaart gebrachte segmenten.
 * U bevindt zich in de bovenste 100 niet-toegewezen segmenten volgens de conversiesnelheid.
@@ -71,4 +71,4 @@ In dit rapport wilt u zich alleen richten op die niet-toegewezen segmenten in de
 
 >[!NOTE]
 >
->De terugblik periodes van 7 dagen en 30 dagen zijn slechts beschikbaar voor de **[!UICONTROL Date Through]** data van de Zondag.
+>De terugblik-achterperiodes van 7 dagen en van 30 dagen zijn slechts beschikbaar voor zondag **[!UICONTROL Date Through]** data.
