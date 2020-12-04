@@ -7,7 +7,7 @@ title: Eigenschapregels beheren
 uuid: 827d4567-2b6f-411e-bd5c-9735c916291a
 feature: Traits
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 1%
@@ -29,13 +29,17 @@ In [!UICONTROL Trait Builder], [!UICONTROL Expression Builder] laat u regels tot
 
 1. Met de velden en besturingselementen in deze sectie kunt u signalen van sleutelwaardeparen maken en de relatie tussen deze velden en een vergelijkingsoperator instellen. Er zijn een sleutel, operator en waarde vereist.
 1. Met [!UICONTROL Data Explorer Options] kunt u de karakteristieken voor uw signalen terugvullen.
+
    >[!NOTE]
    >
    >Deze optie is alleen beschikbaar voor [!UICONTROL Data Explorer]-klanten. Neem contact op met uw Adobe consultant voor meer informatie.
+
 1. In deze sectie ziet u een schatting van de resultaten van de afgelopen 7 dagen voor de signalen die zijn gedefinieerd in [!UICONTROL Expression Builder], voor teruggevulde en niet-teruggevulde kenmerken.
+
    >[!NOTE]
    >
    >Deze optie is alleen beschikbaar voor [!UICONTROL Data Explorer]-klanten. Neem contact op met uw Adobe consultant voor meer informatie.
+
 1. Met de testvelden kunt u combinaties van signaalregels of de [!DNL URL]s valideren die u wilt gebruiken wanneer u gegevens naar de Audience Manager verzendt.
 
 ## Een regel voor overtrekken maken {#create-trait-rule}
@@ -47,18 +51,23 @@ Regels (of expressies) bestaan uit afzonderlijke of groepen sleutelwaardeparen. 
 Vul de vereiste velden in de **[!UICONTROL Basic Information]** sectie *before* in voor het maken van regels voor kenmerken.
 
 1. Vouw de sectie **[!UICONTROL Trait Expression]** uit en voer een sleutel- en waardenaam in. Hiermee maakt u een *`signal`*.
+
    >[!NOTE]
    >
    >Neem het voorvoegsel `c_` (of een andere naamgevingsconventie) op voor de toetsvariabele als uw gebeurtenisaanroepen gegevens naar [!DNL Audience Manager] verzenden met behulp van die syntaxis.
+
 1. Selecteer een [vergelijkingsoperator](../../features/traits/trait-comparison-operators.md) in het vervolgkeuzemenu **[!UICONTROL Operator]**. De vergelijkingsexploitant evalueert de verhouding tussen de elementen in een signaal.
+
    >[!NOTE]
    >
    >De [!DNL Boolean] [!UICONTROL OR] exploitant vestigt de verhouding tussen veelvoudige signalen *binnen* een groep en kan niet worden veranderd.
+
 1. Klik op **[!UICONTROL Add Rule]**. De opgeslagen regel wordt weergegeven in de werkruimte Kenmerken boven de velden voor gegevensinvoer.
 
 ### Voorbeeld {#example-trait-rule}
 
 In het onderstaande voorbeeld heeft een gebruiker een nieuwe regel voor het kenmerk gemaakt op basis van de product-id. Om deze regel te bouwen, verstrekte de gebruiker de sleutel `productkey` verbonden met een gelijkenexploitant ( `==`) aan de waarde `2093`.
+
 ![](assets/tb_sample_rule1.png)
 
 Als u op **[!UICONTROL Add Rule]** klikt, wordt de eigenschap opgeslagen en verplaatst naar de werkruimte [!UICONTROL Expression Builder].
@@ -75,11 +84,14 @@ Uw eigenschap moet minstens twee regels bevatten alvorens u een nieuwe regelgroe
 
 1. Plaats de cursor op de regel die u wilt verplaatsen om deze te markeren.
 1. Houd de cursor boven de gemarkeerde rand van de regel.
-Hierdoor wordt de regel automatisch gescheiden van de huidige groep en verplaatst naar een nieuwe groep.
+
+   Hierdoor wordt de regel automatisch gescheiden van de huidige groep en verplaatst naar een nieuwe groep.
+
    >[!NOTE]
    >
    >Sleep een regel terug naar de oorspronkelijke groep als u deze onbedoeld verplaatst.
-1. Selecteer een [!DNL Boolean] exploitant ( [!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) van het drop-down menu om de verhouding tussen de regelgroepen te plaatsen.
+
+1. Selecteer een [!DNL Boolean] exploitant ([!UICONTROL AND], [!UICONTROL OR], [!UICONTROL AND NOT]) van het drop-down menu om de verhouding tussen de regelgroepen te plaatsen.
 
 ## Regels verplaatsen tussen groepen {#move-rules-between-groups}
 
