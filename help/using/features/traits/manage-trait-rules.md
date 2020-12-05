@@ -1,6 +1,6 @@
 ---
-description: In Trait Builder kunt u met Expression Builder regels maken en testen die kwalificatievereisten voor het publiek vaststellen. Regels bestaan uit sleutelwaardeparen zoals "color == blue" of "price > 100". Vergelijkingsoperatoren bepalen de relatie tussen sleutels en waarden. Booleaanse expressies bepalen de relatie tussen regelgroepen.
-seo-description: In Trait Builder kunt u met Expression Builder regels maken en testen die kwalificatievereisten voor het publiek vaststellen. Regels bestaan uit sleutelwaardeparen zoals "color == blue" of "price > 100". Vergelijkingsoperatoren bepalen de relatie tussen sleutels en waarden. Booleaanse expressies bepalen de relatie tussen regelgroepen.
+description: In Trait Builder kunt u met Expression Builder regels maken en testen die kwalificatievereisten voor het publiek vaststellen. Regels bestaan uit sleutelwaardeparen zoals "color == blue" of "price &gt; 100". Vergelijkingsoperatoren bepalen de relatie tussen sleutels en waarden. Booleaanse expressies bepalen de relatie tussen regelgroepen.
+seo-description: In Trait Builder kunt u met Expression Builder regels maken en testen die kwalificatievereisten voor het publiek vaststellen. Regels bestaan uit sleutelwaardeparen zoals "color == blue" of "price &gt; 100". Vergelijkingsoperatoren bepalen de relatie tussen sleutels en waarden. Booleaanse expressies bepalen de relatie tussen regelgroepen.
 seo-title: Eigenschapregels beheren
 solution: Audience Manager
 title: Eigenschapregels beheren
@@ -9,7 +9,7 @@ feature: Traits
 translation-type: tm+mt
 source-git-commit: 14c5ac091a27d125c96d17ce750c6e25ad844856
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
