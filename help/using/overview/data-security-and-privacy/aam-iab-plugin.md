@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Audience Manager-plug-in voor IAB TCF
 feature: data governance & privacy
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
 workflow-type: tm+mt
-source-wordcount: '2449'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +64,7 @@ Klanten die hun [!DNL Audience Manager Plug-in for IAB TCF]-implementatie upgrad
 U moet aan de volgende voorwaarden voldoen om de Plug-in van de Audience Manager voor IAB TCF met Audience Manager te gebruiken:
 
 1. U moet Adobe Experience Platform Identity Service (ECID) versie 5 of hoger gebruiken. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) onze nieuwste ECID-release.
-2. U moet Audience Manager [!DNL Data Integration Library] (DIL) versie 9.0 gebruiken of nieuwer, downloadbaar van [hier](https://github.com/Adobe-Marketing-Cloud/dil/releases). Lees meer over [DIL in de Audience Manager-documentatie](../..//dil/dil-overview.md). We raden u aan [Adobe Launch](https://docs.adobe.com/content/help/nl-NL/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) te gebruiken voor de eenvoudigste DIL-implementatie voor Audience Manager.
+2. U moet Audience Manager [!DNL Data Integration Library] (DIL) versie 9.0 gebruiken of nieuwer, downloadbaar van [hier](https://github.com/Adobe-Marketing-Cloud/dil/releases). Lees meer over [DIL in de Audience Manager-documentatie](../../dil/dil-overview.md). We raden u aan [Adobe Launch](https://docs.adobe.com/content/help/nl-NL/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html) te gebruiken voor de eenvoudigste DIL-implementatie voor Audience Manager.
 3. Als u ook [!DNL Server-Side Forwarding] (SSF) gebruikt om gegevens te importeren in Audience Manager, moet u een upgrade uitvoeren naar de nieuwste versie van AppMeasurement. Download AppMeasurement met behulp van de [Analytics Code Manager](https://docs.adobe.com/content/help/nl-NL/analytics/admin/admin-tools/code-manager-admin.html).
 4. U moet een Platform van het Beheer van de Toestemming (CMP), of commercieel of uw gebruiken, dat met IAB TCF v2.0 geïntegreerd is, en met IAB TCF geregistreerd. Zie de lijst met [CMP’s die bij het IAB-kader](https://iabeurope.eu/cmp-list/) zijn geregistreerd.
 
