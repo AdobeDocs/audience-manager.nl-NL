@@ -7,15 +7,15 @@ title: Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databe
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 translation-type: tm+mt
-source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
+source-git-commit: d6856a54c649d701c3163c1408f84aea256ebdc1
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1051'
 ht-degree: 4%
 
 ---
 
 
-# [!DNL Amazon S3] Vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
+# [!DNL Amazon S3] Naam- en bestandsgroottevereisten voor binnenkomende gegevensbestanden  {#amazon-s-name-and-file-size-requirements-for-inbound-data-files}
 
 Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergrootte u moet volgen wanneer het verzenden van gegevens naar [!DNL Audience Manager]. Stel de namen en grootten van uw bestanden in volgens deze specificaties wanneer u gegevens naar een map [!DNL Audience Manager] / [!DNL Amazon S3] verzendt.
 
@@ -23,7 +23,7 @@ Beschrijft de vereiste gebieden, syntaxis, noemende overeenkomsten en dossiergro
 >
 >De tekststijlen (`monospaced text`, *cursief*, haakjes `[ ]` `( )`, enz.) in dit document de elementen en opties van de code aangeven. Zie [Stijlconventies voor code- en tekstelementen](../../../reference/code-style-elements.md) voor meer informatie.
 
-## Syntaxis bestandsnaam {#file-name-syntax}
+## Syntaxis van bestandsnaam {#file-name-syntax}
 
 [!DNL S3] bestandsnamen bevatten de volgende vereiste en optionele elementen:
 
@@ -41,7 +41,7 @@ Removed  {importance="high"} for ExL
 >
 >[!DNL Audience Manager] alleen bestanden verwerkt  [!DNL ASCII] en  [!DNL UTF-8] gecodeerd.
 
-### Elementen benoemen
+### Naamelementen
 
 De tabel definieert de elementen in de bestandsnaam [!DNL S3].
 
@@ -155,9 +155,14 @@ Houd rekening met de onderstaande cijfers voor de snelste/vroegste verwerking va
  </tbody> 
 </table>
 
+
 >[!NOTE]
 >
 >Lege bestanden worden tijdens het proces voor gegevensvalidatie als ongeldig gemarkeerd en niet verwerkt.
+
+## Limieten voor lijnlengte {#line-limits}
+
+De binnenkomende gegevensdossiers hebben een lijnlengtelimiet van 102400 bytes. Lijnen die deze limiet overschrijden, worden van de overdracht uitgesloten.
 
 >[!MORELIKETHIS]
 >
