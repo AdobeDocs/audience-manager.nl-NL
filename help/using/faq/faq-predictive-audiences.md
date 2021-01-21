@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Predictieve doelgroepen in Audience Manager
 feature: Algorithmic Models
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: c2c392b1201b5de08a3f4d58bbb7be5ef31545d0
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -113,6 +113,15 @@ Ja. Aangezien de algoritme dagelijks wordt getraind, past deze de wijzigingen vo
 Ja, u kunt alle invloedrijke eigenschappen voor alle basislijnen zien op de pagina met modelrapportage. Zie [Invloedrijke eigenschappen](../features/algorithmic-models/predictive-audiences-reporting.md#influential-traits).
 
  
+
+**Kan ik de tijd veranderen om te leven (TTL) voor voorspellende eigenschappen?**
+
+De voorspellende eigenschap TTL wordt geplaatst aan 0 (leven) en kan niet worden veranderd. [!UICONTROL Predictive Audiences] gebruikers alleen van voorspellende segmenten kunnen losmaken wanneer zij in aanmerking komen voor het basissegment of wanneer zij worden geherclassificeerd naar een ander voorspellend segment.
+
+Indien nodig, kunt u rond deze functionaliteit werken door een nieuw segment te creëren dat zowel een vooruitlopende eigenschap als een activiteiteneigenschap met gespecificeerde TTL bevat.
+
+ 
+
 
 **Wat gebeurt er met het model als ik een van de basislijneigenschappen of -segmenten bewerk?**
 
