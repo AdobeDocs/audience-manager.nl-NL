@@ -6,9 +6,9 @@ user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Audience Manager biedt toonaangevende services voor online data management van doelgroepen.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
 translation-type: tm+mt
-source-git-commit: 55cb69bad1f369ed3b58bece54aebdca4b14f7a7
+source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1781'
 ht-degree: 92%
 
 ---
@@ -409,6 +409,7 @@ ht-degree: 92%
    + [Wij zijn geen Audience Manager-klant, maar we zien wel JavaScript-calls van Audience Manager op onze website](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Zou ik mijn in Audience Manager Audience Lab toegewezen segmenten moeten zien op de pagina met bestemmingsdetails?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Documentatie-updates {#documentation-updates}
+   + [Documentatie-updates 2021](docs-updates/docs-2021.md)
    + [Documentatie-updates 2020](docs-updates/docs-2020.md)
    + [Documentatie-updates 2019](docs-updates/docs-2019.md)
    + [Documentatie-updates 2018](docs-updates/docs-2018.md)
