@@ -7,10 +7,10 @@ title: Handleiding Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overview
 translation-type: tm+mt
-source-git-commit: 389ffae8d216a4f295a5fe198a27c4d9d48586c6
+source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 96%
+source-wordcount: '652'
+ht-degree: 95%
 
 ---
 
@@ -160,10 +160,8 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
      <br> 
      <p> <b>Nieuwste functies</b> </p> <p> 
      Lees meer over de nieuwste functies van Audience Manager:</p>
-     <p><ul><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match voor op mensen gebaseerde doelen</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-plug-in voor IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictieve doelgroepen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Gebruik van activiteiten rapporteren</a></li>
-     <li><a href="/help/using/overview/data-security-and-privacy/data-privacy.md">California Consumer Privacy Act (CCPA)-ondersteuning en herziening van privacydocumentatie</a></li>
-     <li><a href="/help/using/features/segments/trait-recommendations.md">Intelligente aanbevelingen voor Audience Marketplace-data, aangestuurd door Adobe Sensei</a></li>
-     </ul><p>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager gebruiker migratie naar Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match voor op mensen gebaseerde doelen</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-plug-in voor IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictieve doelgroepen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Gebruik van activiteiten rapporteren</a></li>
+     </ul></p>
     </td>
   </tr> 
  </tbody> 
@@ -209,7 +207,7 @@ Read about the latest Audience Manager features:
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/nl/support/audience-manager.html" format="https" scope="external"> Audience Manager Informatie en ondersteuning</a> </li> 
      </ul> </p> 
      <br> 
-     <p>Zie ook <a href="https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/documentation-updates/docs-2020.html">Documentatie-updates 2020</a>. </p> </td>
+     <p>Zie ook <a href="https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/documentation-updates/docs-2021.html">Documentatie-updates 2021</a>. </p> </td>
   </tr> 
  </tbody> 
 </table>
