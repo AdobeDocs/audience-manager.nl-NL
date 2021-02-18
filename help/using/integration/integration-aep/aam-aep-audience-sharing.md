@@ -4,12 +4,12 @@ seo-description: In dit artikel wordt beschreven hoe publiek wordt gedeeld tusse
 seo-title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 solution: Audience Manager
 title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
-keywords: AEP audience sharing, AEP segments, Platform segments, segment sharing, audience sharing, share segments
+keywords: AEP-publiek delen, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten
 feature: Integration with Platform
 translation-type: tm+mt
-source-git-commit: 4bac89ab732f225bd82aceaf9707fda98e796945
+source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1504'
 ht-degree: 2%
 
 ---
@@ -162,7 +162,7 @@ Audience Manager werkt rapportaantallen in de interface eens per dag bij.   De t
 
 ### Segmentsamenstelling in Experience Platform
 
-De integratie tussen Adobe Experience Platform en Audience Manager deelt een aantal standaard [naamruimten](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) voor alle klanten: ECID, IDFA, GAID, gehashte e-mailadressen (EMAIL_LC_SHA256), AdCloud-id, enz. Als in uw Experience Platform-segmenten een van deze profielen wordt gebruikt als primaire identiteit voor de gekwalificeerde profielen, worden de profielen geteld in de kenmerken en segmenten van de Audience Manager.
+De integratie tussen Adobe Experience Platform en Audience Manager deelt een aantal standaard [naamruimten](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) voor alle klanten: ECID, IDFA, GAID, gehashte e-mailadressen (EMAIL_LC_SHA256), AdCloud-id. Als in uw Experience Platform-segmenten een van deze profielen wordt gebruikt als primaire identiteit voor de gekwalificeerde profielen, worden de profielen geteld in de kenmerken en segmenten van de Audience Manager.
 
 Bovendien, kan de Audience Manager de inkomende realisaties voor om het even welke naamruimten registreren van de douaneidentiteit die u in de segmenten van het Experience Platform gebruikt als:
 * de identiteit is gemarkeerd als primair *en*
