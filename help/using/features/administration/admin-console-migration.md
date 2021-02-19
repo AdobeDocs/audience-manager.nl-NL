@@ -7,9 +7,9 @@ solution: Audience Manager
 title: Audience Manager van gebruikersmigratie naar Admin Console
 feature: Administration
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 2e01abab2616daccd7581cdaa18417650951d139
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '450'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ De voordelen van het gebruik van [!DNL Admin Console] zijn onder andere:
 |---|---|
 | Single Sign-On voor oplossingen | [!DNL Audience Manager] gebruikers kunnen zich aanmelden bij  [!DNL Experience Cloud] en alle andere oplossingen met hun  [!DNL Adobe ID] of  [!DNL Enterprise ID]. Met deze aanmelding hebt u toegang tot geïntegreerde oplossingen en kernservices in [!DNL Experience Cloud]. Na de migratie worden gebruikers die proberen zich aan te melden via oudere logins (`bank.demdex.com`) omgeleid naar `experiencecloud.adobe.com`. |
 | Gebruikers en groepen beheren | Als de migratie is voltooid, beheren [!DNL Audience Manager] beheerders gebruikers en groepen uitsluitend in [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/). |
-| Producten en services beheren | Vanuit [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/) kunnen beheerders: <ul><li>Gebruikers maken, bijwerken en verwijderen</li><li>Toegang verlenen tot oplossingen en services</li><li>Gebruikersmachtigingen verlenen</li></ul> |
+| Producten en services beheren | Vanuit [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/) kunnen beheerders: <ul><li>Gebruikers maken, bijwerken en verwijderen</li><li>Toegang verlenen tot oplossingen en services</li></ul> |
 
 Om de migratie van gebruikers te vergemakkelijken, vragen we alle [!DNL Audience Manager]-beheerders zo snel mogelijk te beginnen met het migreren van hun gebruikersaccounts naar [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) door de in dit artikel beschreven stappen uit te voeren.
 
@@ -48,6 +48,6 @@ Beheerders van Audience Managers moeten de onderstaande stappen volgen om gebrui
 
 Zowel moeten de gebruikers als de beheerders de volgende overwegingen voor de migratie van de gebruiker van de Audience Manager in acht nemen:
 
-* Zodra de nieuwe gebruikersrekeningen in Admin Console worden gecreeerd, zullen hun bestaande toestemmingen van hun rekeningen van de erfenisgebruiker automatisch overdragen. Beheerders hoeven geen nieuwe machtigingen toe te wijzen in [!DNL Admin Console].
-* Beheerders hoeven verouderde gebruikersaccounts niet uit te schakelen. Oude gebruikersaccounts worden automatisch samengevoegd met gemigreerde gebruikersaccounts.
+* Zodra de nieuwe gebruikersrekeningen in Admin Console worden gecreeerd, zullen hun bestaande toestemmingen van hun rekeningen van de erfenisgebruiker nog van toepassing zijn.
 * Updates voor gebruikersmachtigingen worden nog steeds beheerd vanaf [!DNL Audience Manager]. Het [!DNL Admin Console] heeft alleen betrekking op gebruikers- en groepsbeheer.
+* Beheerders hoeven verouderde gebruikersaccounts niet uit te schakelen. Oude gebruikersaccounts worden automatisch samengevoegd met gemigreerde gebruikersaccounts.
