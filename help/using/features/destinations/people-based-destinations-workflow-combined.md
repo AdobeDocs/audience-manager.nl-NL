@@ -4,11 +4,11 @@ seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-li
 seo-title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offline data
 solution: Audience Manager
 title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offline data
-feature: People-Based Destinations
+feature: Persoonsgebaseerde bestemmingen
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 6e3a06da8149c91a9192b5b3ee582e46fbb1790c
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1181'
 ht-degree: 7%
 
 ---
@@ -86,7 +86,7 @@ Stel dat u uw bestaande [DPUUIDs](../../reference/ids-in-aam.md) aan de gehakte 
 
  
 
-U kunt maximaal 10 gehashte e-mailadressen koppelen aan één [DPUUID](../../reference/ids-in-aam.md). Hiervoor scheidt u de gehashte e-mailadressen met een komma in het synchronisatiebestand.
+U kunt maximaal 10 gehashte e-mailadressen koppelen aan één [DPUUID](../../reference/ids-in-aam.md). Hiervoor scheidt u de gehashte e-mailadressen met een `<TAB>` in het synchronisatiebestand.
 
 In ons voorbeeld hebt u nu twee gegevensbronnen.
 
