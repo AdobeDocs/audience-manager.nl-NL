@@ -1,17 +1,17 @@
 ---
 description: In Audience Manager, is een bestemming om het even welk derdesysteem (advertentieserver, DSP, en netwerk, enz.) waarmee u data wilt delen. De Bouwer van de bestemming is het hulpmiddel u gebruikte om koekje, URL, of server-aan-server bestemmingen tot stand te brengen en te beheren.
-keywords: integration code, destination, destination overview, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination, destination
-landing-page-description: A destination is any third-party system, such as ad server or DSP, with which to share data. Use Destination Builder to create and manage cookie, URL, or server-to-server destinations.
+keywords: integratiecode, doel, bestemmingsoverzicht, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming
+landing-page-description: Een doel is elk systeem van derden, zoals een advertentieserver of DSP, waarmee gegevens kunnen worden gedeeld. De Bouwer van de Bestemming van het gebruik om koekje, URL, of server-aan-server bestemmingen tot stand te brengen en te beheren.
 seo-title: 'Bestemmingen '
 solution: Audience Manager
 title: 'Bestemmingen '
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
-feature: Destination Basics
+feature: Grondbeginselen van bestemming
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 4%
+source-wordcount: '541'
+ht-degree: 3%
 
 ---
 
