@@ -9,7 +9,7 @@ feature: API
 translation-type: tm+mt
 source-git-commit: ab8745a8ba24154793201893a39a039b5a098833
 workflow-type: tm+mt
-source-wordcount: '1860'
+source-wordcount: '1861'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Let op het volgende wanneer u werkt met [Audience Manager-API](https://bank.demd
 
 [!DNL Audience Manager] [!DNL REST APIs] steunt twee authentificatiemethodes.
 
-* [JWT-](#jwt) verificatie (serviceaccount) met  [Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] is Adobe. Het omvat [Adobe I/O-ontwikkelaarsgereedschappen en API&#39;s](https://www.adobe.io/apis/experienceplatform.html) en [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html). Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs] in te stellen en te gebruiken.
+* [JWT-](#jwt) verificatie (serviceaccount) met  [Adobe I/O](https://www.adobe.io/). [!DNL Adobe I/O] is Adobe. Het omvat [Adobe I/O ontwikkelaarshulpmiddelen en APIs](https://www.adobe.io/apis/experienceplatform.html) en [APIs voor alle producten van de Adobe](https://www.adobe.io/apis.html). Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs] in te stellen en te gebruiken.
 * [OAuth-verificatie (afgekeurd)](#oauth). Hoewel deze methode is afgekeurd, kunnen klanten met bestaande [!DNL OAuth]-integratie deze methode blijven gebruiken.
 
 >[!IMPORTANT]
@@ -49,9 +49,9 @@ Let op het volgende wanneer u werkt met [Audience Manager-API](https://bank.demd
 
 ## [!DNL JWT] ([!DNL Service Account]) Verificatie met Adobe I/O  {#jwt}
 
-### Adobe I/O-overzicht {#adobeio}
+### Adobe I/O - overzicht {#adobeio}
 
-[!DNL Adobe I/O] is Adobe. Het omvat [Adobe I/O-ontwikkelaarsgereedschappen en API&#39;s](https://www.adobe.io/apis/experienceplatform.html) en [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html).
+[!DNL Adobe I/O] is Adobe. Het omvat [Adobe I/O ontwikkelaarshulpmiddelen en APIs](https://www.adobe.io/apis/experienceplatform.html) en [APIs voor alle producten van de Adobe](https://www.adobe.io/apis.html).
 
 Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs] in te stellen en te gebruiken.
 
