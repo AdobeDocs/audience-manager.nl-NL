@@ -1,16 +1,16 @@
 ---
 description: Beschrijft de componenten van een segment van de Audience Manager, de uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven in een gebeurtenisvraag wordt overgebracht.
-landing-page-description: Describes components of a segment, expressions used to set audience qualification criteria, and how data is transmitted.
+landing-page-description: Beschrijft componenten van een segment, uitdrukkingen die worden gebruikt om de criteria van de publiekskwalificatie te plaatsen, en hoe het gegeven wordt overgebracht.
 seo-title: Signalen, eigenschappen en segmenten
 solution: Audience Manager
 title: Signalen, eigenschappen en segmenten
 uuid: 485fcc5c-b289-463b-a610-0d727df90f3c
-feature: reference
+feature: referentie
 translation-type: tm+mt
 source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 4%
+source-wordcount: '367'
+ht-degree: 3%
 
 ---
 
