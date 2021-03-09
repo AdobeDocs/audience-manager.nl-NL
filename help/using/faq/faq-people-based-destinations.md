@@ -4,12 +4,12 @@ seo-description: 'Antwoorden op veelgestelde vragen over persoonsgebaseerde best
 seo-title: Veelgestelde vragen over persoonsgebaseerde bestemmingen
 solution: Audience Manager
 title: Veelgestelde vragen over persoonsgebaseerde bestemmingen
-feature: People-Based Destinations
+feature: Persoonsgebaseerde bestemmingen
 translation-type: tm+mt
-source-git-commit: 6e55d8bc5fe2c5cdcdd36107593215288d491331
+source-git-commit: eb998042acb46fef2b0e407b3565d8ba4769f0bb
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 97%
+source-wordcount: '1171'
+ht-degree: 94%
 
 ---
 
@@ -78,6 +78,10 @@ Zolang het e-mailadres correct wordt gehasht en opgenomen, zou er geen verschil 
 **Ik verzamel werk-e-mailadressen van mijn klanten, die anders zijn dan de persoonlijke e-mailadressen die in sociale netwerken worden gebruikt. Hoe kunt u identiteiten matchen met meerdere e-mailadressen?**
 
 Audience Manager kan per gebruiker maximaal 10 e-mails verzamelen en naar bestemmingsplatforms verzenden, maar de e-mailadressen moeten via synchronisatiebestanden worden vastgelegd. Nadat Audience Manager de e-mailadressen naar bestemmingsplatforms heeft verzonden, is het aan de platforms om de e-mailadressen te matchen met hun eigen gebruikersbase. Sommige platforms hebben mogelijk extra e-mailadresgrafieken om adressen te matchen die vanuit Audience Manager naar gebruikersprofielen worden verzonden.
+
+**Mag ik  [!DNL People-Based Destinations] in gebruiken  [!DNL Audience Lab]?**
+
+Nee. Momenteel worden alle [!DNL People-Based Destinations]-doelen uitgesloten van [!DNL Audience Lab]. Aangezien [!DNL People-Based Destinations] en vraag-zijplatforms verschillende IDs gebruiken, kunt u prestaties niet testen en meten met publiek gelijkelijk verdeeld tussen hen.
 
 ## Besturingselementen voor data-export {#data-export-controls}
 
