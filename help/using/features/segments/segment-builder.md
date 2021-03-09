@@ -5,11 +5,11 @@ seo-title: Segment Builder
 solution: Audience Manager
 title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
-feature: Segments
+feature: 'Segmenten '
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 9e0c936ba514e517bcbd7572420118293f9a791f
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Begin door [Create Segments in Audience Manager video](https://images-tv.adobe.c
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://video.tv.adobe.com/v/33445)
 
 ## [!UICONTROL Segment Builder] Besturingselementen:  [!UICONTROL Basic Information] Sectie  {#segment-builder-controls-basics}
 
@@ -130,7 +130,7 @@ In [!UICONTROL Segment Builder], laat [!UICONTROL Traits] sectie u [!UICONTROL t
 
 | Veld | Beschrijving |
 |--- |--- |
-| **[!UICONTROL Basic View]** | Deze sectie verstrekt visuele controles die u laten: <ul><li>Nieuwe [!UICONTROL segments] maken en bestaande &lt;a0/> beheren.</li><li>Verwijder [!UICONTROL traits] uit a [!UICONTROL segment].</li><li>Voeg maximaal 50 (maximum) [!UICONTROL traits] aan [!UICONTROL segment] toe.</li><li>Sleep [!UICONTROL traits] om nieuwe groepen te maken.</li><li>Geef [!UICONTROL traits] en [!UICONTROL trait] groepen weer in een [!UICONTROL segment].</li><li>Stel kwalificatiecriteria in met Booleaanse expressies, vergelijkingsoperatoren en instellingen voor recentie/frequentie.</li></ul> |
+| **[!UICONTROL Basic View]** | Deze sectie verstrekt visuele controles die u laten: <ul><li>Nieuwe [!UICONTROL segments] maken en bestaande  beheren.</li><li>Verwijder [!UICONTROL traits] uit a [!UICONTROL segment].</li><li>Voeg maximaal 50 (maximum) [!UICONTROL traits] aan [!UICONTROL segment] toe.</li><li>Sleep [!UICONTROL traits] om nieuwe groepen te maken.</li><li>Geef [!UICONTROL traits] en [!UICONTROL trait] groepen weer in een [!UICONTROL segment].</li><li>Stel kwalificatiecriteria in met Booleaanse expressies, vergelijkingsoperatoren en instellingen voor recentie/frequentie.</li></ul> |
 | **[!UICONTROL Code View]** | Opent een ontwikkelomgeving die u [!UICONTROL traits], groepen, en kwalificatievereisten met code in plaats van de visuele interface laat creëren en beheren. De codeweergave is handig als uw [!UICONTROL segments]: <ul><li>Bevat meer dan 50 [!UICONTROL traits] in een individu [!UICONTROL segment]. Opmerking: [!UICONTROL Segments] zijn beperkt tot 5000 [!UICONTROL traits] (maximum).</li><li>Bevat veel [!UICONTROL trait] groepen.</li><li>complexe kwalificatievereisten hebben.</li></ul> |
 | Zoeken | Hiermee kunt u [!UICONTROL traits] zoeken om aan een [!UICONTROL segment] toe te voegen. |
 | Recommendations | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van uw eerste-partij [!UICONTROL traits] en [!UICONTROL Audience Marketplace] gegevensvoer dat u aan wordt geabonneerd. Voeg deze aanbevelingen aan de [!UICONTROL segment] regel toe om uw publiek uit te breiden. Lees meer in [Trait Recommendations](trait-recommendations.md). |
@@ -169,7 +169,7 @@ Het **[!UICONTROL Destination Mappings]** paneel bevat onderzoekshulpmiddelen zo
 
 ## Velden in de pop-upvensters [!UICONTROL Destination Mappings] {#fields-in-dest-mappings}
 
-In [!UICONTROL Segment Builder], verschijnt [!UICONTROL Add Destination] dialoog nadat u [!UICONTROL destination] selecteert. In dit venster wordt statische informatie weergegeven over de [!UICONTROL destination] en velden die afhankelijk zijn van het type [!UICONTROL destination]. Geef de vereiste informatie op in de lege velden om een [!UICONTROL destination mapping] in te stellen.
+In [!UICONTROL Segment Builder], verschijnt [!UICONTROL Add Destination] dialoog nadat u [!UICONTROL destination] selecteert. In dit venster wordt statische informatie weergegeven over de [!UICONTROL destination] en velden die afhankelijk zijn van het type [!UICONTROL destination]. Geef in de lege velden de vereiste informatie op om een [!UICONTROL destination mapping] in te stellen.
 
 >[!NOTE]
 >
