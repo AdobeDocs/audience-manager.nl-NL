@@ -5,11 +5,11 @@ seo-title: Audience Manager implementeren
 solution: Audience Manager
 title: Audience Manager implementeren
 uuid: 89369224-3b21-45a9-a4ed-a0a977410520
-feature: Third Party Integrations
+feature: Integraties van derden
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: cf9266e8ae6e222dda3c055725d71f691575f8d0
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -137,7 +137,7 @@ In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreve
 De te leveren producten voor deze fase kunnen omvatten:
 
 * Een voltooide strategie voor het verzamelen van gegevens van eerste, tweede en derde partijen;
-* een voltooid [!DNL CRM]- of gegevensopslagonderbiedingsplan;
+* een voltooid [!DNL CRM]- of gegevenspakopieplan;
 * Gedefinieerde publiekssegmentatievereisten;
 * een voltooide datataxonomie;
 * Een ontwikkeld plan voor gegevensintegratie van derden.
@@ -221,13 +221,9 @@ De taken voor deze fase kunnen omvatten:
 
 ## Code-implementatie {#code-implementation}
 
-Hoewel het implementatieproces complex lijkt, is de code-implementatie zo eenvoudig als het toevoegen van een paar regels [!DNL JavaScript] naast de afsluitende tag `</body>` van uw website.
+Audience Manager gebruikt de Data Integration Library ([!DNL DIL]), om publieksgegevens te ontvangen.
 
-<!-- c_code.xml -->
-
-### Implementatie
-
-Het codefragment van de Audience Manager roept [!DNL Akamai] aan om de bedrijfsregels te downloaden die eerder in het gebruikersinterface worden geplaatst. Bovendien slaan clientbrowsers deze gegevens in cache, waardoor de pagina- en serverlaadtijden afnemen. Onze methodologie voor code en gegevensverzameling is ontworpen om de gebruikerservaring in uw overzicht te behouden.
+Voor gedetailleerde instructies op hoe te om [!DNL DIL] te gebruiken, zie [Het krijgen en het Uitvoeren van DIL Code](../dil/dil-overview.md).
 
 ### Deelnemers
 
@@ -236,8 +232,6 @@ De Oplossingen van de partner kunnen direct met uw technische teams werken helpe
 ## Ondersteuning na implementatie {#post-implementation-support}
 
 Onze gezamenlijke inspanningen stoppen niet met de definitieve implementatie. Nadat de implementatie is voltooid, neemt ons accountbeheerteam de taak over.
-
-<!-- c_post_implement_support.xml -->
 
 Accountmanagers bieden ondersteuning en services voor overleg nadat de implementatie van het product is voltooid. U kunt regelmatige vergaderingen met uw accountmanager verwachten. Deze vergaderingen zorgen ervoor dat u de maximumhoeveelheid gebruik en waarde van Audience Manager krijgt.
 
