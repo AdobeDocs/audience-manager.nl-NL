@@ -4,11 +4,11 @@ seo-description: In dit artikel wordt uitgelegd hoe u het Twitter-publiek op maa
 seo-title: Aangepaste Twitter-doelgroepen configureren als apparaatgebaseerde, selfservice bestemming
 solution: Audience Manager
 title: Aangepaste Twitter-doelgroepen configureren als apparaatgebaseerde, selfservice bestemming
-feature: People-Based Destinations
+feature: Persoonsgebaseerde bestemmingen
 translation-type: tm+mt
-source-git-commit: 8ff76decc1cbd7f7babd619dd1ce9fe047541337
+source-git-commit: 6716c871562cd0203239897fc096033160e2fc13
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '555'
 ht-degree: 4%
 
 ---
@@ -60,7 +60,7 @@ Nadat u Audience Manager en uw [!DNL Twitter Tailored Audiences] hebt verbonden,
 Wanneer het in kaart brengen van publiekssegmenten aan [!UICONTROL Twitter], zorg ervoor om aan de volgende segment noemende vereisten te voldoen:
 
 * Verstrek de mens-leesbare namen van de segmentafbeelding. Wij adviseren gebruikend de zelfde naam die u voor de segmenten van de Audience Manager gebruikte.
-* Gebruik geen speciale tekens (`,` `%` `:` `;` `@` `/` `=` `?` `$`) in segment- en segmenttoewijzingsnamen. Als uw Audience Manager segmentnaam deze karakters bevat, te verwijderen gelieve hen alvorens het segment aan een [!UICONTROL Twitter] bestemming in kaart te brengen.
+* Gebruik geen speciale tekens (`+` `&` `,` `%` `:` `;` `@` `/` `=` `?` `$`) in segment- en segmenttoewijzingsnamen. Als uw Audience Manager segmentnaam deze karakters bevat, te verwijderen gelieve hen alvorens het segment aan een [!UICONTROL Twitter] bestemming in kaart te brengen.
 
 ### Voorbeeld
 
