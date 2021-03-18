@@ -5,11 +5,11 @@ seo-title: Naam- en contentvereisten voor id-synchronisatiebestanden
 solution: Audience Manager
 title: Naam- en contentvereisten voor id-synchronisatiebestanden
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
-feature: Inbound Data Transfers
+feature: Binnenkomende gegevensoverdrachten
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '840'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Namen van id-bestanden bevatten de volgende vereiste en optionele elementen:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> De master gegevensleverancier identiteitskaart is ouderidentiteitskaart van DPIDs in het dossier - naam. De eerste gebruiker-id in het gegevensbestand komt ook overeen met de master id. Verdere DPIDs is andere herkenningstekens die tot master behoren. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </td> 
+   <td colname="col2"> De master gegevensleverancier ID is ouderidentiteitskaart van DPIDs in het dossier - naam. De eerste gebruiker-id in het gegevensbestand komt ook overeen met de master id. Verdere DPIDs is andere herkenningstekens die tot master behoren. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
@@ -99,6 +99,14 @@ Het bestand bevat gebruikers-id&#39;s ([!DNL UUID]). Plaats in elke rij een tab 
 ```
 abc123 def456 ghi789 xyz987
 ```
+
+### Overwegingen bij bestandsinhoud {#considerations}
+
+Wanneer u binnenkomende bestanden maakt, moet u ervoor zorgen dat de eerste kolom alleen met apparaat-id&#39;s wordt gevuld, zoals [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] enzovoort. Zie [Index van id&#39;s in Audience Manager](../../../reference/ids-in-aam.md) voor een gedetailleerde uitleg van id&#39;s die door Audience Manager worden ondersteund.
+
+>[!IMPORTANT]
+>
+>Gebruik [DPUUIDs](../../../reference/ids-in-aam.md) op de eerste kolom niet. Dit kan resulteren in een onjuiste synchronisatie.
 
 ## Synchronisatie stemt overeen met DPUUID&#39;s met UUID&#39;s {#sync-matches-dpuuids-uuids}
 
