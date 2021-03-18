@@ -7,9 +7,9 @@ title: Naam- en contentvereisten voor id-synchronisatiebestanden
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Binnenkomende gegevensoverdrachten
 translation-type: tm+mt
-source-git-commit: 02c951f63d8ebeafaf107c4cb9213e9efdb1eafb
+source-git-commit: 67ba527ff8b06ca4f5515ffd1a9114acfabadecb
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -49,7 +49,7 @@ Namen van id-bestanden bevatten de volgende vereiste en optionele elementen:
   </tr> 
   <tr> 
    <td colname="col1"><code><i>MASTERDPID</i></code> </td> 
-   <td colname="col2"> De master gegevensleverancier ID is ouderidentiteitskaart van DPIDs in het dossier - naam. De eerste gebruiker-id in het gegevensbestand komt ook overeen met de master id. Verdere DPIDs is andere herkenningstekens die tot master behoren. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand. </td> 
+   <td colname="col2"> <p>De master gegevensleverancier ID is ouderidentiteitskaart van DPIDs in het dossier - naam. De eerste gebruiker-id in het gegevensbestand komt ook overeen met de master id. Verdere DPIDs is andere herkenningstekens die tot master behoren. Door synchronisatie worden DPID's in de bestandsnaam toegewezen aan UUID's in het bestand.</p> <p>Deze DPID mag alleen apparaat-id's bevatten, zoals AAM UUID, GAID, IDFA enzovoort. Het kan geen DPUUIDs bevatten. Dit kan resulteren in een onjuiste synchronisatie.</p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DPID</i></code> </p> </td> 
