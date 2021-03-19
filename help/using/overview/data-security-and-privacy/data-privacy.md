@@ -5,12 +5,12 @@ seo-title: Overzicht van Data Privacy
 solution: Audience Manager
 title: Overzicht van Data Privacy
 uuid: 865e7b4e-fee1-4fa4-8035-1595fc77cd96
-feature: data governance & privacy
+feature: gegevensbeheer en privacy
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 78%
+source-wordcount: '489'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ Als wij dit model blijven ondersteunen, blijft [!DNL Audience Manager] zich inze
 
 ## [!DNL GDPR] {#gdpr}
 
-De [General Data Protection Regulation (GDPR, ofwel Algemene verordening gegevensbescherming (AVG))](https://eugdpr.org/) heeft diverse nieuwe dataprivacyrechten geïntroduceerd voor leden van de Europese Unie, waaronder het **recht op toegang** en het **recht om vergeten te worden**. Dit betekent dat elke [!DNL EU] burger wiens persoonlijke gegevens door uw bedrijf zijn verzameld, kan verzoeken om toegang tot of verwijdering van zijn gegevens op elk gewenst moment. Als u deze aanvragen niet honoreert, kan dit leiden tot boetes van miljoenen dollars voor uw organisatie.
+De [General Data Protection Regulation (GDPR, ofwel Algemene verordening gegevensbescherming (AVG))](https://gdpr.eu/data-privacy/) heeft diverse nieuwe dataprivacyrechten geïntroduceerd voor leden van de Europese Unie, waaronder het **recht op toegang** en het **recht om vergeten te worden**. Dit betekent dat elke [!DNL EU] burger wiens persoonlijke gegevens door uw bedrijf zijn verzameld, kan verzoeken om toegang tot of verwijdering van zijn gegevens op elk gewenst moment. Als u deze aanvragen niet honoreert, kan dit leiden tot boetes van miljoenen dollars voor uw organisatie.
 
 [!DNL GDPR] voldoet aan [!DNL Audience Manager] ondersteunt gegevenstoegang en verwijdert [aanvragen](data-privacy-requests.md).
 
