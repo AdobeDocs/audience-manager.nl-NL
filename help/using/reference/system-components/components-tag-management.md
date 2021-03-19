@@ -5,11 +5,11 @@ seo-title: Onderdelen voor Tag Management
 solution: Audience Manager
 title: Onderdelen voor Tag Management
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: system components
+feature: systeemonderdelen
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '392'
 ht-degree: 4%
 
 ---
@@ -39,7 +39,7 @@ Het clientportaal is de primaire gebruikersinterface (UI) voor tag- en gegevensb
 
 ## DIL/TIM-container {#dil-tim}
 
-Met de container [!UICONTROL DIL] kunt u [!DNL Audience Manager] code voor gegevensverzameling op uw website implementeren. [!UICONTROL TIM] is het vervangen van Taginvoegingsbeheer. Het wordt niet meer gebruikt door [!DNL Audience Manager]. In plaats daarvan gebruikt u [Dynamisch tagbeheer](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html) of de extensie [!DNL Audience Manager] in [Adobe Experience Platform Launch](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) om containercode te configureren en te genereren die u op pagina&#39;s in uw overzicht plaatst. De [!UICONTROL DTM]-container werkt met [!UICONTROL Data Information Library (DIL)] om gegevens van uw site te verzamelen en naar [!DNL Audience Manager] te verzenden.
+Met de container [!UICONTROL DIL] kunt u [!DNL Audience Manager] code voor gegevensverzameling op uw website implementeren. [!UICONTROL TIM] is het vervangen van Taginvoegingsbeheer. Het wordt niet meer gebruikt door [!DNL Audience Manager]. In plaats daarvan gebruikt u [Dynamisch tagbeheer](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html) of de extensie [!DNL Audience Manager] in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) om containercode te configureren en te genereren die u op pagina&#39;s in uw overzicht plaatst. De [!UICONTROL DTM]-container werkt met [!UICONTROL Data Information Library (DIL)] om gegevens van uw site te verzamelen en naar [!DNL Audience Manager] te verzenden.
 
 ## Data Integration Library (DIL) {#dil}
 
@@ -47,7 +47,7 @@ De [Gegevensinformatiebibliotheek](../../dil/dil-overview.md) (DIL) is een zelfs
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] gebruikt  [](https://www.akamai.com/html/about/index.html) Akamaito-host en levert containercode van ons eigen tagbeheerplatform, bekend als  [!UICONTROL TIM (Tag Insertion Manager)]. Codeimplementatie met [!UICONTROL TIM] is echter afgebouwd ten gunste van [!DNL Adobe Dynamic Tag Management] en [!DNL Adobe Experience Platform Launch].
+[!DNL Audience Manager] gebruikt  [](https://www.akamai.com/us/en/about/) Akamaito-host en levert containercode van ons eigen tagbeheerplatform, bekend als  [!UICONTROL TIM (Tag Insertion Manager)]. Codeimplementatie met [!UICONTROL TIM] is echter afgebouwd ten gunste van [!DNL Adobe Dynamic Tag Management] en [!DNL Adobe Experience Platform Launch].
 
 ## Database {#control-database} beheren
 
