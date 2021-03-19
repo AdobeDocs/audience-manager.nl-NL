@@ -4,12 +4,12 @@ seo-description: Adobe biedt u de middelen om de privacykeuzen van uw gebruikers
 seo-title: Audience Manager-plug-in voor IAB TCF
 solution: Audience Manager
 title: Audience Manager-plug-in voor IAB TCF
-feature: data governance & privacy
+feature: gegevensbeheer en privacy
 translation-type: tm+mt
-source-git-commit: ab72f0875b132eaf333d1e5308322490ac035de3
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2441'
+ht-degree: 40%
 
 ---
 
@@ -90,7 +90,7 @@ De onderstaande afbeelding is een voorbeeld van een CMP-dialoogvenster dat wordt
 
 Details over de verschillende doeleinden en toestemmingen inbegrepen in IAB TCF v2.0 zijn behandeld in [IAB het Beleid van het Kader van de Transparantie &amp; van de Toestemming ](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
 
-Gebruikers kunnen hun toestemming of gewettigd belang (indien beschikbaar) verlenen voor een combinatie van doeleinden en verkopers. Gebruikers zouden bijvoorbeeld hun toestemming kunnen verlenen om informatie op een apparaat op te slaan, producten te ontwikkelen en te verbeteren, en hun toestemming kunnen geven aan alle externe leveranciers die door het CMP worden weergegeven.
+Gebruikers kunnen hun toestemming of gewettigd belang (indien beschikbaar) verlenen voor een combinatie van doeleinden en verkopers. Gebruikers zouden bijvoorbeeld hun toestemming kunnen verlenen om informatie op een apparaat op te slaan, producten te ontwikkelen en te verbeteren, en hun toestemming kunnen verlenen aan alle derde leveranciers die door het CMP worden weergegeven.
 
 Of in een ander voorbeeld zouden zij hun toestemming of rechtmatig belang voor alle doeleinden kunnen verlenen, maar slechts toestemming of rechtmatig belang kunnen verlenen aan een aantal verkopers die door het CMP worden getoond.
 
@@ -100,7 +100,7 @@ Elke leverancier die in IAB TCF wordt geregistreerd evalueert het koord IAB TC e
 
 ## Door Audience Manager {#aam-standard-purposes} vereiste doeleinden
 
-Audience Manager evalueert de keuzen van de gebruikers die in het koord IAB TC voor de volgende doeleinden worden opgeslagen, die in [IAB Europa Transparantie &amp; het Beleid van het Kader van de Toestemming worden bepaald ](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes). Bovendien kunt u de doelen ook vinden in de [algemene lijst met leveranciers](https://vendorlist.consensu.org/vendorlist.json).
+Audience Manager evalueert de keuzen van de gebruikers die in het koord IAB TC voor de volgende doeleinden worden opgeslagen, die in [IAB Europa Transparantie &amp; het Beleid van het Kader van de Toestemming worden bepaald ](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions).
 
 * **Doel 1**: Informatie over een apparaat opslaan en/of openen;
 * **Doel 10**: Producten ontwikkelen en verbeteren;
