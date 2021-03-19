@@ -2,16 +2,16 @@
 description: Een overzicht van DIL en hoe het werkt.
 seo-description: Een overzicht van DIL en hoe het werkt.
 seo-title: Inzicht in de Data Integration Library (DIL)
-keywords: dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
+keywords: 'dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil. l, '
 solution: Audience Manager
 title: Inzicht in de Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-feature: DIL Implementation
+feature: DIL-implementatie
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 18%
+source-wordcount: '512'
+ht-degree: 16%
 
 ---
 
@@ -33,7 +33,7 @@ Nochtans, kunt u de recentste Experience Cloud en [!DNL DIL] versies van onze pa
 
 ## Doel van DIL {#purpose-dil}
 
-[!UICONTROL DIL] is een API-bibliotheek. U kunt het als lichaam van helpercode voor [!DNL Adobe Audience Manager] denken. [!DNL Audience Manager] hoeft niet te worden gebruikt, maar de methoden en functies [!UICONTROL DIL] bieden aan dat u uw eigen code niet hoeft te ontwikkelen om gegevens naar [!DNL Audience Manager] te verzenden. [!UICONTROL DIL] is ook anders dan de API die wordt geleverd door [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html). Deze service is ontworpen om de identiteit van bezoekers in verschillende [!DNL Experience Cloud]-oplossingen te beheren. [!UICONTROL DIL] is daarentegen ontworpen om:
+[!UICONTROL DIL] is een API-bibliotheek. U kunt het als lichaam van helpercode voor [!DNL Adobe Audience Manager] denken. [!DNL Audience Manager] hoeft niet te worden gebruikt, maar de methoden en functies [!UICONTROL DIL] bieden aan dat u uw eigen code niet hoeft te ontwikkelen om gegevens naar [!DNL Audience Manager] te verzenden. [!UICONTROL DIL] is ook anders dan de API die wordt geleverd door [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html). Deze service is ontworpen voor het beheer van de identiteit van bezoekers in verschillende [!DNL Experience Cloud]-oplossingen. [!UICONTROL DIL] is daarentegen ontworpen om:
 
 * Maak gebeurtenisvraag en verzend gegevens naar [de Server van de Inzameling van Gegevens](../reference/system-components/components-data-collection.md).
 * Gegevens verzenden naar [bestemmingen](../features/destinations/destinations.md).
@@ -42,7 +42,7 @@ Nochtans, kunt u de recentste Experience Cloud en [!DNL DIL] versies van onze pa
 
 [!UICONTROL DIL] code kan  **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)** worden gedownload. Houd er rekening mee dat [!UICONTROL DIL] vanaf versie 8.0 (uitgebracht in augustus 2018) sterk afhankelijk is van [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versie 3.3 of hoger. Het steunt op [!DNL ID Service] aan brand ID syncs en [!DNL URL destinations]. Er treedt een fout op als [!DNL ID Service] ontbreekt, oud is of niet is geconfigureerd.
 
-In plaats van met [!UICONTROL DIL] te werken en [!DNL Audience Manager] manueel op te zetten, adviseren wij dat u [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) in plaats daarvan gebruikt. [!DNL Adobe Experience Platform Launch] is het geadviseerde implementatiehulpmiddel omdat het codeplaatsing, plaatsing, en versiebeheer vereenvoudigt. Lees meer over [Audience Manager uitbreiding](https://docs.adobelaunch.com/extension-reference/web/adobe-audience-manager-extension) in [!DNL Adobe Experience Platform Launch].
+In plaats van met [!UICONTROL DIL] te werken en [!DNL Audience Manager] manueel op te zetten, adviseren wij dat u [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) in plaats daarvan gebruikt. [!DNL Adobe Experience Platform Launch] is het geadviseerde implementatiehulpmiddel omdat het codeplaatsing, plaatsing, en versiebeheer vereenvoudigt. Lees meer over [Audience Manager uitbreiding](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) in [!DNL Adobe Experience Platform Launch].
 
 [!DNL Adobe Experience Platform Launch] is de opvolger van  [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
 
