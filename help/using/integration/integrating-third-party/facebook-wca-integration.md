@@ -4,11 +4,11 @@ seo-description: Deze pagina illustreert het proces van het maken van WCA-pixels
 seo-title: Facebook WCA-integratie
 solution: Audience Manager
 title: Facebook WCA-integratie
-feature: Third Party Integrations
+feature: Integraties van derden
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '869'
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Deze pagina illustreert het proces van het maken van [!DNL Facebook Website Cust
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versie 4.1.0 of hoger. Download de nieuwste versie **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
 4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versie 9.0 of hoger,  **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)** te downloaden. Als u ook [Server-Side Forwarding (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) gebruikt om gegevens te importeren naar [!DNL Audience Manager], moet u AppMeasurement versie 2.12 of hoger gebruiken. Download [!DNL AppMeasurement] met [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 
-We raden u aan de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) of [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html).
+We raden u aan de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) of [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html).
 
 ## Stap 1 - maak een [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
