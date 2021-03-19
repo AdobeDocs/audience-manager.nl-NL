@@ -5,9 +5,9 @@ seo-title: DIL-modules
 solution: Audience Manager
 title: DIL-modules
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
-feature: DIL Implementation
+feature: DIL-implementatie
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 1%
@@ -60,7 +60,7 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> Object </td> 
-   <td colname="col3"> <p>Een array met objecten die opgesomde <span class="keyword"> Analytics </span>-variabelen zoals props en evars bevat (bijvoorbeeld <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
+   <td colname="col3"> <p>Een array van objecten die opgesomde <span class="keyword"> Analytics </span>-variabelen zoals props en evars bevat (bijvoorbeeld <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
@@ -315,7 +315,7 @@ De URL-gebeurtenisaanroep naar Audience Manager kan er als volgt uitzien:
 >[!MORELIKETHIS]
 >
 >* [Google Analytics trackingcode](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Volledige webupgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade/reference/gajs-analyticsjs)
+>* [Volledige webupgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Analytics.js toevoegen aan uw site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [Verwijzing naar ga-objectmethoden](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
 
