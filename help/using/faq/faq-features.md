@@ -1,17 +1,17 @@
 ---
 description: Algemene vragen en problemen in verband met producten en functies.
-keywords: audience manager cookies
+keywords: cookies van publieksmanager
 seo-description: Algemene vragen en problemen in verband met producten en functies.
 seo-title: Veelgestelde vragen over productkenmerken en -functies
 solution: Audience Manager
 title: Veelgestelde vragen over productkenmerken en -functies
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: Overview
+feature: Overzicht
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 91%
+source-wordcount: '627'
+ht-degree: 89%
 
 ---
 
@@ -68,7 +68,7 @@ Uw datafeed en alle eigenschappen in de feed worden weergegeven als submappen en
 
 **Wat is [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Launch]. Zie [Adobe Experience Platform Launch](https://docs.adobelaunch.com/) en [Dynamic Tag Management](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html) voor meer informatie.
+Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Launch]. Zie [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) en [Dynamic Tag Management](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html) voor meer informatie.
 
  
 
