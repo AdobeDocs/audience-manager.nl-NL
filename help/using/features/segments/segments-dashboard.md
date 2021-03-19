@@ -5,19 +5,19 @@ seo-title: Weergave Segmentenlijst
 solution: Audience Manager
 title: Weergave Segmentenlijst
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
-feature: Segments
+feature: 'Segmenten '
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 9%
+source-wordcount: '87'
+ht-degree: 11%
 
 ---
 
 
 # Weergave Segmentenlijst {#segments-list-view}
 
-Het [dashboard van Segmenten](https://bank.demdex.com/portal/Segments/SegmentBuilder.ddx#list) is een gecentraliseerde werkruimte voor het beheren van uw publiekssegmenten. U kunt het [!UICONTROL Segments] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** te navigeren.
+[!UICONTROL Segments dashboard] is een gecentraliseerde werkruimte voor het beheren van uw publiekssegmenten. U kunt het [!UICONTROL Segments] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** te navigeren.
 
 ![segments-dashboard](assets/segments-dashboard.png)
 
