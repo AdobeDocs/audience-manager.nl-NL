@@ -5,11 +5,11 @@ seo-title: Technische documentatie bij Adobe Audience Manager-producten
 solution: Audience Manager
 title: Handleiding Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: overview
+feature: overzicht
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '653'
 ht-degree: 95%
 
 ---
@@ -32,8 +32,6 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
 * Lees daarna **Aan de slag met Audience Manager** om u vertrouwd te maken met Audience Manager-begrippen. Bekijk ook de handleidingen voor zakelijke en technische implementatie.
 * Zie de nieuwste opmerkingen bij de release van Audience Manager en lees over de nieuwste functies in de sectie **Opmerkingen bij de release en nieuwe functies**.
 * Tot slot kunt u nog andere Experience Cloud-bronnen verkennen zoals forums, videotutorials en persoonlijke en online trainingscursussen in de sectie **Learning Center - Aanbevolen Audience Manager- en Experience Cloud-bronnen**.
-
-<br>
 
 ## Belangrijkste functies van Audience Manager
 
@@ -71,8 +69,6 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
 </table>
 
 
-<br> 
-
 ## Aan de slag met Audience Manager
 
 <table> 
@@ -81,7 +77,7 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
    <td colname="col1"> <p><b>Belangrijke documentatie over begrippen</b></p>
    <p>Lees de pagina’s hieronder voor een dieper inzicht in de begrippen van Audience Manager: 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Overzicht van Audience Manager</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Signalen, eigenschappen en segmenten</a></li><li><a href="/help/using/reference/aam-glossary.md">Woordenlijst</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Index van id’s</a></li></ul></p>
-   <br> 
+   <br>
    <p><b>Audience Manager implementeren</b></p>
    <p> Ga aan de slag met de implementatie van Audience Manager door de onderstaande pagina’s te lezen:
      <ul>
@@ -148,8 +144,6 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
 
 -->
 
-<br> 
-
 ## Opmerkingen bij de release en nieuwe functies
 
 <table> 
@@ -186,7 +180,6 @@ Read about the latest Audience Manager features:
 
 -->
 
-<br> 
 
 ## Learning Center - Aanbevolen Audience Manager- en Experience Cloud-bronnen
 
