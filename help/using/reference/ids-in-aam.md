@@ -8,9 +8,9 @@ title: Index van id’s in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
 feature: referentie
 translation-type: tm+mt
-source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
+source-git-commit: 5abb131966e0b27e6c628ff992c4c30b89f65ae9
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '965'
 ht-degree: 3%
 
 ---
@@ -46,7 +46,13 @@ Om de prefixen te begrijpen die in de volgende voorbeelden worden gebruikt, zie 
 | [!DNL CID],  [!DNL CID_IC] | [!UICONTROL Customer ID],  [!UICONTROL Customer ID Integration Code]. De sleutel-waardeparen [!DNL CID] en [!DNL CID_IC] vervangen [!DNL DPID] en [!DNL DPUUID]. Zij verstrekken de zelfde functies zoals [!DNL DPID] en [!DNL DPUUID], maar zijn efficiënter omdat zij gegevensleverancier identiteitskaart en gebruiker - identiteitskaart (of integratiecode) in één enkel zeer belangrijk-waardepaar omvatten. | In [!DNL DCS] vraag, worden deze IDs voorafgegaan door `d_` prefix. <br>Voorbeeld: `d_cid_ic=39217_myIntegrationCode`. | Zie `DPID` en `DPUUID`. |
 | [!DNL DAID] | [!UICONTROL Device Advertising ID]. Een unieke id voor elk hardwareapparaat voor reclamedoeleinden. Meestal verstrekt door de fabrikant van het apparaat of het besturingssysteem. | Zie [Algemene apparaat-id&#39;s](#global-device-ids). |  |
 
-{style=&quot;table-layout:auto&quot;}
+<!--
+
+Commenting out the table style. Fixed layout works better than auto layout for the index of IDs.
+
+{style="table-layout:auto"}
+
+-->
 
 ## [!DNL Global Device IDs] {#global-device-ids}
 
