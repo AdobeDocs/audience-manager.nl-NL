@@ -7,9 +7,9 @@ title: Gebruikers-id’s en -regio’s ontvangen via de Adobe Experience Platfor
 uuid: 80de6cf2-5d9e-4ef8-a0f2-d53b5d574c89
 feature: DCS
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '692'
 ht-degree: 8%
 
 ---
@@ -44,7 +44,7 @@ De code in *italics* vertegenwoordigt veranderlijke placeholder.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>2. De <span class="keyword"> ID-service</span></b> instellen </p> </td> 
-   <td colname="col2"> <p>De <span class="keyword"> ID-service</span> bestaat uit JavaScript-code die wordt geplaatst op elke pagina die u voor gegevensverzameling wilt gebruiken. Raadpleeg de implementatiehandleidingen<a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html" format="https" scope="external"> voor de id-service voor meer informatie.</a> </p> </td> 
+   <td colname="col2"> <p>De <span class="keyword"> ID-service</span> bestaat uit JavaScript-code die wordt geplaatst op elke pagina die u voor gegevensverzameling wilt gebruiken. Raadpleeg de implementatiehandleidingen</a> voor de id-service voor meer informatie.<a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html" format="https" scope="external"> </a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>3. Lees de <span class="keyword"> ID service</span> cookie</b> </p> </td> 
