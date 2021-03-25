@@ -7,7 +7,7 @@ title: Overzicht van Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: overzicht
 translation-type: tm+mt
-source-git-commit: e6348c85e7df6428802d54b2c90385ce95f50e1a
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 94%
@@ -31,13 +31,9 @@ De functies van een Data Management Platform (DMP) kunnen in drie categorieën w
 
 Audience Manager verzamelt data van een eerste partij vanuit kanalen en apparaten (webanalytics, CRM, apparaatdata, e-commerce, enz.).
 
-<br>
-
 **Audience Creation**
 
 Hiermee worden data gecombineerd tot doelgroepprofielen en krijgt u een volledig klantbeeld op alle apparaten en kanalen. Maak look-alike modellen, bouw doelgroepsegmenten en profielgroepen, en vul dit aan vanuit databronnen van tweede en derde partijen.
-
-<br> 
 
 **Data Out**
 
