@@ -7,7 +7,7 @@ title: Handleiding Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
 feature: overzicht
 translation-type: tm+mt
-source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
+source-git-commit: 191e2b0c5d511853273d0ebf7d6f0a965c4fc3fc
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 95%
@@ -77,15 +77,15 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
    <td colname="col1"> <p><b>Belangrijke documentatie over begrippen</b></p>
    <p>Lees de pagina’s hieronder voor een dieper inzicht in de begrippen van Audience Manager: 
    <ul><li><a href="/help/using/overview/aam-overview.md"> Overzicht van Audience Manager</a></li><li><a href="/help/using/reference/signal-trait-segment.md">Signalen, eigenschappen en segmenten</a></li><li><a href="/help/using/reference/aam-glossary.md">Woordenlijst</a> </li><li><a href="/help/using/reference/ids-in-aam.md">Index van id’s</a></li></ul></p>
-   <br>
-   <p><b>Audience Manager implementeren</b></p>
+
+<p><b>Audience Manager implementeren</b></p>
    <p> Ga aan de slag met de implementatie van Audience Manager door de onderstaande pagina’s te lezen:
      <ul>
      <li><a href="/help/using/integration/data-integration-methods.md">Methoden voor Data Integration</a></li>
      <li><a href="/help/using/integration/implement-audience-manager.md">Implementatiehandleiding</a></li>
      </ul> </p>
-     <br> 
-   <p> <b>Handleidingen voor technische implementatie</b> </p> <p>Ga aan de slag met de API’s van Audience Manager en stel Audience Manager in uw app in:</p> <p> 
+
+<p> <b>Handleidingen voor technische implementatie</b> </p> <p>Ga aan de slag met de API’s van Audience Manager en stel Audience Manager in uw app in:</p> <p> 
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Aan de slag met REST-API’s</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Aan de slag met de DCS-API</a></li>
@@ -151,7 +151,6 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
   <tr> 
    <td> <p> <b>Opmerkingen bij de release</b> </p> <p> 
      Zie de nieuwste <a href="https://docs.adobe.com/content/help/nl-NL/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud-releaseopmerkingen</a> voor nieuwe functies en oplossingen.</p> 
-     <br> 
      <p> <b>Nieuwste functies</b> </p> <p> 
      Lees meer over de nieuwste functies van Audience Manager:</p>
      <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager gebruiker migratie naar Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match voor op mensen gebaseerde doelen</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-plug-in voor IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictieve doelgroepen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Gebruik van activiteiten rapporteren</a></li>
@@ -199,7 +198,6 @@ Read about the latest Audience Manager features:
       <li id="li_C71459E0D1464C05B8B9387C43541F17"> <a href="https://helpx.adobe.com/nl/support/experience-cloud.html" scope="external" format="https">Startpagina Experience Cloud Productdocumentatie</a> </li> 
       <li id="li_0DB1997FEB87484EBC07E03FD40AA39F"><a href="https://helpx.adobe.com/nl/support/audience-manager.html" format="https" scope="external"> Audience Manager Informatie en ondersteuning</a> </li> 
      </ul> </p> 
-     <br> 
      <p>Zie ook <a href="https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/documentation-updates/docs-2021.html">Documentatie-updates 2021</a>. </p> </td>
   </tr> 
  </tbody> 
