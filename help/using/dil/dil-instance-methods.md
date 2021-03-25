@@ -1,16 +1,16 @@
 ---
 description: Met de API's voor DIL op instantieniveau kunt u programmatisch Audience Manager-objecten maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
-keywords: create traits;create trait
+keywords: kenmerken maken;kenmerk maken
 seo-description: Met de API's voor DIL op instantieniveau kunt u programmatisch Audience Manager-objecten maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 seo-title: DIL-methoden op instantieniveau
 solution: Audience Manager
 title: DIL-methoden op instantieniveau
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL Implementation
+feature: DIL-implementatie
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1111'
 ht-degree: 2%
 
 ---
