@@ -1,16 +1,16 @@
 ---
 description: Raadpleeg dit document voor de volledige lijst met Adobe Audience Manager-id's.
-keywords: DPID; DPUUID; CID; UUID; uuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid
+keywords: DPID; DPUUID; CID; UUID; uuuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuuid, uuid, uuid
 seo-description: Raadpleeg dit document voor de volledige lijst met Adobe Audience Manager-id's.
 seo-title: Index van id’s in Audience Manager
 solution: Audience Manager
 title: Index van id’s in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: reference
+feature: referentie
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 348881dd2f880ca50140dbe5935cff138944003e
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '968'
 ht-degree: 3%
 
 ---
@@ -45,6 +45,8 @@ Om de prefixen te begrijpen die in de volgende voorbeelden worden gebruikt, zie 
 | [!DNL CRM ID] | Zie `DPUUID`. | Zie `DPUUID`. | Zie `DPUUID`. |
 | [!DNL CID],  [!DNL CID_IC] | [!UICONTROL Customer ID],  [!UICONTROL Customer ID Integration Code]. De sleutel-waardeparen [!DNL CID] en [!DNL CID_IC] vervangen [!DNL DPID] en [!DNL DPUUID]. Zij verstrekken de zelfde functies zoals [!DNL DPID] en [!DNL DPUUID], maar zijn efficiënter omdat zij gegevensleverancier identiteitskaart en gebruiker - identiteitskaart (of integratiecode) in één enkel zeer belangrijk-waardepaar omvatten. | In [!DNL DCS] vraag, worden deze IDs voorafgegaan door `d_` prefix. <br>Voorbeeld: `d_cid_ic=39217_myIntegrationCode`. | Zie `DPID` en `DPUUID`. |
 | [!DNL DAID] | [!UICONTROL Device Advertising ID]. Een unieke id voor elk hardwareapparaat voor reclamedoeleinden. Meestal verstrekt door de fabrikant van het apparaat of het besturingssysteem. | Zie [Algemene apparaat-id&#39;s](#global-device-ids). |  |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## [!DNL Global Device IDs] {#global-device-ids}
 
