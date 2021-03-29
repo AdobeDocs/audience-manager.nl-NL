@@ -7,9 +7,9 @@ title: Hoe de tijdsduur van datalevering en bestandsverwerking rapporten beïnvl
 uuid: 4b975512-f67e-4749-a7ef-168415597682
 feature: referentie
 translation-type: tm+mt
-source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -44,8 +44,6 @@ De volgende lijst maakt een lijst en beschrijft de tijdintervallen in onze algem
 | Binnenkomende bestandsinbraak (offlinegegevens) | Bestandsverwerking wordt tweemaal per dag uitgevoerd. Deze procedures nemen gegevens op en bereiden het voor levering voor. De leveringstijden van het dossier variëren omdat zij door de totale hoeveelheid klantengegevens worden beïnvloed die moet worden verwerkt. U moet een maximale vertraging van 48 uur verwachten tussen het moment dat het bestand in de Audience Manager wordt geüpload en het moment dat de gegevens beschikbaar zijn voor rapportage en activering. |
 | Uitgaande (geëxporteerde) bestanden | Bestandsverwerking en -levering vinden eenmaal per dag plaats, om ongeveer 14:00 uur UTC. Houd er rekening mee dat de verwerking en levering worden beïnvloed door het totale aantal en de grootte van deze bestanden. In sommige gevallen kan de bestandsverwerking 24 uur vertraging oplopen. Wanneer dit gebeurt, zal de Audience Manager 2 dossiers voor een bepaalde dag in plaats van 1 verzenden. Wij zullen onze klanten in het zeldzame geval op de hoogte brengen waar de Audience Manager moet ophouden met het verwerken van een dossier. Gezien deze omstandigheden is het moeilijk om de leveringstermijnen voor uitgaande gegevens te ramen. Om te bepalen of u een volledige reeks dossiers hebt ontvangen, controleer timestamp en zoek om het even welke ontbrekende dagen. Dit is een UNIX UTC-tijdstempel van 13 cijfers waarmee de tijd wordt vastgelegd waarop het bestand is gemaakt. Zie [Real-Time Outbound Data Transfers](../integration/receiving-audience-data/real-time-outbound-transfers/real-time-outbound-transfers.md). |
 | Logbestanden van advertentieserver | De verwerking van het dossier wordt uitgevoerd in bijna echt - tijd om logboekdossierverslagen in te gaan aangezien de uurdossiers klaar zijn. Het proces om de bestanden voor te bereiden voor rapportage wordt eenmaal per dag uitgevoerd. De leveringstijden van het dossier variëren omdat zij door de totale hoeveelheid klantengegevens worden beïnvloed die moet worden verwerkt. U moet een maximale vertraging van 48 uur verwachten tussen het moment dat u het bestand uploadt naar de Audience Manager en het moment dat de gegevens beschikbaar zijn voor rapportage en activering. |
-
-{style=&quot;table-layout:auto&quot;}
 
 >[!MORELIKETHIS]
 >
