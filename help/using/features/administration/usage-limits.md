@@ -4,13 +4,13 @@ seo-description: Audience Manager stelt een maximumlimiet in voor het aantal ken
 seo-title: Gebruiksbeperkingen
 solution: Audience Manager
 title: Gebruiksbeperkingen
-keywords: ID mapping, ID mappings, cookie mappings
+keywords: ID-toewijzing, id-toewijzingen, cookie-toewijzingen
 uuid: 50ca4647-0b5c-409c-89fa-4fa1799b3222
-feature: Usage and Billing
+feature: Gebruik en facturering
 translation-type: tm+mt
-source-git-commit: fc13643681eebec17a95607482f2864e81b95820
+source-git-commit: c3c2f32dda7535b182ea3638a016fe245ed4894c
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '591'
 ht-degree: 5%
 
 ---
@@ -45,6 +45,8 @@ In de tabellen worden de huidige limieten per itemtype weergegeven. U kunt geen 
 | Onboard | 100 000 |
 | Maptrajecten | 2 000 |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### Segmentlimiet
 
 | Segmenttype | Maximale limiet |
@@ -70,6 +72,8 @@ In de tabellen worden de huidige limieten per itemtype weergegeven. U kunt geen 
 | Maximum aantal uitgesloten kenmerken voor een [!UICONTROL Look-Alike Model] | 500 Zie [Trait Exclusion in Algorithmic Modeling](/help/using/features/algorithmic-models/trait-exclusion-algo-models.md). |
 | Naximum [!UICONTROL Predictive Audiences Models] | 10 |
 | Maximaal aantal basislijnpersona&#39;s voor [!UICONTROL Predictive Audiences Models] | 50 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Maplimieten
 
