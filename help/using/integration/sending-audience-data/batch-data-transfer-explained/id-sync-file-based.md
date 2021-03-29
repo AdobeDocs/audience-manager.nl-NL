@@ -7,9 +7,9 @@ title: Naam- en contentvereisten voor id-synchronisatiebestanden
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Binnenkomende gegevensoverdrachten
 translation-type: tm+mt
-source-git-commit: de1483763998027c4fc7694223c39dd7a37e87ab
+source-git-commit: a696bc03e430e25e2752d84905009645c625d762
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '867'
 ht-degree: 6%
 
 ---
@@ -130,8 +130,6 @@ Op basis van de naam en inhoud van het voorbeeld worden de id&#39;s als volgt to
 | 6655275740751744946280581945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M |
 | 6618477822667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-{style=&quot;table-layout:auto&quot;}
-
 Stap 1: Bij het synchronisatieproces van de id worden de [!DNL DPUUID]s van [!DNL DPID] 12345 gesynchroniseerd met de [!DNL Audience Manager] [!DNL UUID]s in de linkerkolom. De [!DNL DPID] &quot;0&quot; in de bestandsnaam vertegenwoordigt [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
@@ -144,8 +142,6 @@ Stap 1: Bij het synchronisatieproces van de id worden de [!DNL DPUUID]s van [!DN
 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM | 4392434426 |
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
-
-{style=&quot;table-layout:auto&quot;}
 
 Stap 2: de [!DNL DPUUID]s van [!DNL DPID] 12345 zijn gesynchroniseerd in stap 1 met de Audience Manager [!DNL UUID]s. Bij deze ID-synchronisatie worden de [!DNL DPUUID]s van [!DNL DPID] 67890 gesynchroniseerd met de Audience Manager [!DNL UUID]s van stap 1.
 
