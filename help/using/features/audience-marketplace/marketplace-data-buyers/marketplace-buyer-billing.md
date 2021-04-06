@@ -4,17 +4,17 @@ seo-description: Kopers van gegevens van Audience Marketplace komen overeen om a
 seo-title: Facturering voor datafeedkopers
 solution: Audience Manager
 title: Facturering voor datafeedkopers
-keywords: Segment-level Reporting, segment-level, segment level
+keywords: Rapportage op segmentniveau, segmentniveau, segmentniveau
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
+exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 88ed0b28fdf5dc03c8a878529d65b4bc844ea6c9
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2064'
 ht-degree: 1%
 
 ---
-
 
 # Facturering voor datafeedkopers {#billing-for-data-feed-buyers}
 
@@ -62,7 +62,7 @@ Zie ook onze videodemonstratie van hoe u segment-vlakke gebruik kunt melden:
 
 ## CPM-gebruik op gegevensdoorvoerniveau rapporteren {#feed-level-report}
 
-Rapportage op het niveau van gegevensfeed is lastiger en vatbaarder voor fouten, omdat u het [!DNL CPM]-gebruik voor elke gegevensfeed afzonderlijk moet berekenen. Wij adviseren dat u [CPM Gebruik op het Niveau van het Segment ](#segment-level-report) in plaats daarvan meldt.
+Rapportage op het niveau van gegevenstoevoer is lastiger en vatbaarder voor fouten, omdat u het [!DNL CPM]-gebruik voor elke gegevensfeed afzonderlijk moet berekenen. Wij adviseren dat u [CPM Gebruik op het Niveau van het Segment ](#segment-level-report) in plaats daarvan meldt.
 
 [!DNL CPM] gebruik op segmentniveau rapporteren:
 
@@ -190,11 +190,11 @@ Wanneer u [CPM Gebruik op het Niveau van de Invoer van Gegevens ](#feed-level-re
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NOT</span> </p> </td> 
-   <td colname="col2"> <p>Pas 100% van de geleverde beeldtotalen op alle leverancierstkenmerken in een op regels gebaseerd segment toe dat een Booleaanse voorwaarde <span class="wintitle"> NOT</span> gebruikt. </p> </td> 
+   <td colname="col2"> <p>Pas 100% van de geleverde impressietotalen toe op alle providereigenschappen in een op regels gebaseerd segment dat een Booleaanse voorwaarde <span class="wintitle"> NOT</span> gebruikt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Algoritmische segmenten </p> </td> 
-   <td colname="col2"> <p>Pas 100% van de geleverde opmaaktotalen toe op alle providerfeeds in een segment met algoritmische kenmerken. </p> </td> 
+   <td colname="col2"> <p>Pas 100% van de geleverde impressietotalen toe op alle providerfeeds in een segment met algoritmische eigenschappen. </p> </td> 
   </tr>
  </tbody>
 </table>
@@ -203,12 +203,12 @@ Wanneer u [CPM Gebruik op het Niveau van de Invoer van Gegevens ](#feed-level-re
 
 ## Factureringsvoorbeelden {#billing-examples}
 
-In de onderstaande voorbeelden wordt geïllustreerd hoe [!DNL CPM]-gebruikstoewijzing wordt uitgevoerd op gegevensvoederniveau.
+In de onderstaande voorbeelden wordt geïllustreerd hoe [!DNL CPM] de gebruikstoewijzing op datafeed-niveau wordt uitgevoerd.
 
 >[!IMPORTANT]
->Wij adviseren dat u [Gebruik CPM op het Niveau van het Segment ](#segment-level-report) in plaats daarvan, om dit proces automatisch te hebben gedaan.
+>Wij adviseren dat u [CPM-verbruik op Segmentniveau](#segment-level-report) in plaats daarvan rapporteren, om dit proces automatisch te laten uitvoeren.
 
-Denk aan het volgende scenario:
+Laten we het volgende scenario overwegen:
 
 ![factureringsvoorbeelden](assets/billing-examples.png)
 
@@ -216,57 +216,61 @@ Denk aan het volgende scenario:
 
 ### Zaak 1: Segmenten met en kwalificatieregels
 
-Dit segment bevat 3 eigenschappen van afzonderlijke gegevensleveranciers. Aangezien de segmentkwalificatie gebaseerd is op een [!UICONTROL AND] voorwaarde, moeten de bezoekers de eigenschappen van alle drie feeds realiseren om voor het segment in aanmerking te komen.
+Dit segment bevat 3 eigenschappen van afzonderlijke dataproviders. Aangezien de segmentkwalificatie is gebaseerd op een [!UICONTROL AND] voorwaarde, moeten bezoekers de eigenschappen van alle drie feeds realiseren om in aanmerking te komen voor het segment.
 
 ![](assets/billing-segment-and.png)
 
-Met een voorwaarde [!UICONTROL AND], moet u 100% van de indrukken toewijzen die tijdens de maand aan alle drie gegevensleveranciers worden ontvangen. In de sectie [!UICONTROL Audience Marketplace > Payables] krijgt elke provider 1.000.000 afbeeldingen.
+Met een [!UICONTROL AND] voorwaarde, moet u 100% van de impressies toewijzen die tijdens de maand aan alle drie gegevensleveranciers worden ontvangen. In de sectie [!UICONTROL Audience Marketplace > Payables] krijgt elke provider 1000.000 impressies.
 
-Dit voorbeeld is van toepassing op segmenten die [!DNL Boolean] [!UICONTROL NOT] exploitanten of voor segmenten gebruiken die algoritmische eigenschappen bevatten.
+Dit voorbeeld is van toepassing op segmenten die [!DNL Boolean] [!UICONTROL NOT] operatoren gebruiken of voor segmenten die algoritmische eigenschappen bevatten.
 
 <br> 
 
 ### Zaak 2: Segmenten met OF kwalificatieregels
 
-Dit segment bevat 3 eigenschappen van afzonderlijke gegevensleveranciers. Aangezien de segmentkwalificatie gebaseerd is op een [!UICONTROL OR] voorwaarde, moeten de bezoekers minstens één van de drie eigenschappen realiseren om voor het segment in aanmerking te komen.
+Dit segment bevat 3 eigenschappen van afzonderlijke dataproviders. Aangezien de segmentkwalificatie is gebaseerd op een [!UICONTROL OR] voorwaarde, moeten bezoekers minstens één van de drie eigenschappen realiseren om in aanmerking te komen voor het segment.
 
-We kunnen niet zien welke eigenschap verantwoordelijk is voor een indruk omdat kwalificatie gebaseerd is op een [!UICONTROL OR] voorwaarde. Dientengevolge, in de [!UICONTROL Audience Marketplace > Payables] sectie u elke leverancier met een gewogen toewijzing van de totale indrukken, die op trekkenpopulatie wordt gebaseerd.
+We kunnen niet zien welke eigenschap verantwoordelijk is voor een impressie, omdat de kwalificatie gebaseerd is op een [!UICONTROL OR] voorwaarde. Als gevolg hiervan crediteert u in de sectie [!UICONTROL Audience Marketplace > Payables] elke provider een gewogen toewijzing van de totale impressies, op basis van de populatie van eigenschappen.
 
 ![factureringssegment-of](assets/billing-segment-or.png)
 
 <br> 
 
-### Zaak 3: Segmenten met Gebruiksscenario&#39;s voor modellering en activering
+### Zaak 3: Segmenten met gebruiksscenario’s voor modellering en activering
 
-In dit voorbeeld wordt de attributie beschreven op basis van twee Data Feed-gebruiksgevallen - Modellering en activering. In het voorbeeld bekijken we twee gegevensleveranciers, met de volgende informatie:
+In dit voorbeeld wordt attributie beschreven op basis van twee gebruiksscenario&#39;s voor datafeed: Modellering en Activering. In het voorbeeld kijken we naar twee dataproviders, met de volgende informatie:
 
-![gegevensinvoer](assets/feed-use-cases.png)
+![datafeed](assets/feed-use-cases.png)
 
-In de onderstaande tabel bevat segment X twee kenmerken, T1 en T2, met segmentregel T1 OF T2, waarbij:
+In de onderstaande tabel bevat segment X twee eigenschappen, T1 en T2, met de segmentregel T1 OF T2, waarbij:
 
-* T1 een kenmerk is van gegevensfeed A;
-* T2 is een algoritmische eigenschap die is gemodelleerd na derderdekenmerken van Data Feed A en Data Feed B.
+* T1 is een eigenschap van gegevensfeed A;
+* T2 is een algoritmische eigenschap gemodelleerd naar eigenschappen van derden van Data Feed A en Data Feed B.
 
-Het segment wordt in kaart gebracht aan een bestemming en 1.000.000 beelden zijn ingegaan voor dit segment in een maand, gebruikend [segment-Vlakke Rapportering](#segment-level-report).
+Het segment wordt in kaart gebracht aan een bestemming en 1.000.000 impressies zijn ingegaan voor dit segment in een maand, gebruikend [Segment-Vlakke Rapportering](#segment-level-report).
 
-Van deze 1.000.000 beelden:
+Van deze 1.000.000 impressies:
 
-* T1 vertegenwoordigt 40% van de segmentpopulatie, wat neerkomt op 400.000 indrukkingen voor Feed A.
-* T2 is goed voor 60% van de segmentpopulatie, wat overeenkomt met 600.000 indrukkingen voor Feed A en Feed B.
+* T1 vertegenwoordigt 40% van de segmentpopulatie, wat overeenkomt met 400.000 impressies voor Feed A.
+* T2 is goed voor 60% van de segmentpopulatie, wat overeenkomt met 600.000 impressies voor Feed A en Feed B.
 
-Op het niveau van de gegevensvoer, is de manier de indrukkingen worden toegewezen:
+Op datafeed-niveau wordt de manier waarop de impressies worden toegewezen bepaald door:
 
-* Gegevensfeed A ontvangt 600.000 impressies van kenmerk T2 (dat is gebaseerd op kenmerken van gegevens Feed A en gegevensfeed B, zodat beide de indrukken ontvangen) en 400.000 impressies van kenmerk T1 (dat een kenmerk is van gegevensfeed A), in totaal 1.000.000 impressies pressies.
-* Gegevensfeed B ontvangt 600.000 impressies van kenmerk T2 (zie bovenstaande toelichting) en 0 impressies van kenmerk T1.
+* Gegevensfeed A ontvangt 600.000 impressies van eigenschap T2 (gemodelleerd op eigenschappen van Data Feed A en Data Feed B, beide ontvangen de impressies) en 400.000 impressies van eigenschap T1 (een eigenschap van Data Feed A), in totaal 1.000.000 pressies.
+* Gegevensfeed B ontvangt 600.000 impressies van eigenschap T2 (zie toelichting hierboven) en 0 impressies van eigenschap T1.
 
-De uitsplitsing in één oogopslag per gegevenstoevoer en gebruikscase is als volgt:
+De uitsplitsing naar gegevenstoevoer en gebruikscase is als volgt:
 
-![uitsplitsing naar diervoeder](assets/feed-breakdown-alt.png)
+![uitsplitsing van de feed](assets/feed-breakdown-alt.png)
+
+>[!NOTE]
+>
+>Voor het modelleringsgebruiksgeval, zou u slechts CPM gebruik na activering moeten melden. Als u alleen een model uitvoert, maar niet activeert, is er geen gebruiksrapportage vereist.
 
 <br> 
 
-## Toewijzing van facturering en impressie voor gegevens met vaste kosten {#billing-flat-fee}
+## Facturering en impressie-toewijzing voor Platte feeds Data {#billing-flat-fee}
 
-Bij een vaste vergoeding voor de gegevens in de feed wordt u elke maand een vast bedrag aangerekend, ongeacht wanneer het abonnement wordt gestart of hoeveel indrukken u gebruikt. De kosten worden niet geprorgeerd voor gedeeltelijk maandgebruik of intervallen. Net als bij CPM-facturering zal Adobe een factuur genereren en u factureren tegen het maandelijkse, vaste tarief voor uw geabonneerde gegevensfeeds.
+Bij een vaste vergoeding voor de gegevensinvoer wordt elke maand een vast bedrag in rekening gebracht, ongeacht wanneer het abonnement wordt gestart of hoeveel impressies u gebruikt. Tarieven worden niet pro rata berekend voor maandgebruik of intervallen. Net als bij CPM-facturering zal Adobe een factuur genereren en u factureren tegen het maandelijkse, forfaitaire tarief voor uw geabonneerde datafeeds.
 
-Stel bijvoorbeeld dat je bepaalde eigenschappen in een voer in het midden van de maand wilde inschakelen. Je krijgt nog steeds de volledige, maandelijkse factuur, ongeacht wanneer je het abonnement hebt gestart of specifieke aanbiedingen hebt geactiveerd.
+Stel dat je bepaalde eigenschappen in een voer hebt ingeschakeld midden in de maand. U krijgt nog steeds het volledige maandelijkse tarief, ongeacht wanneer u het abonnement of geactiveerde specifieke eigenschappen hebt gestart.
