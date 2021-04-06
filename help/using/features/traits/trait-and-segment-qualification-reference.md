@@ -1,20 +1,20 @@
 ---
 description: De vakkwalificatie, of de verwezenlijking van het bezit, wordt behandeld verschillend in Audience Manager, afhankelijk van het handelstype. Zie de onderstaande tabel voor meer informatie over de kwalificatie van het kenmerk.
-keywords: trait qualification;trait realization;Unique Trait Realizations;UTR;Total Trait Population;TTP
+keywords: De Kwalificatie van het spoor, de realisatie van het Bedieningsspoor, de Unieke Redalisaties van het Bedieningsgebied, UTR, Totale Bevolking van het Verkeer, TTP
 seo-description: De vakkwalificatie, of de verwezenlijking van het bezit, wordt behandeld verschillend in Audience Manager, afhankelijk van het handelstype. Zie de onderstaande tabel voor meer informatie over de kwalificatie van het kenmerk.
 seo-title: Verwijzing naar beroepskwalificatie
 solution: Audience Manager
 title: Verwijzing naar beroepskwalificatie
 uuid: 07e0a639-2fb2-45d8-bad7-10fb46b08ba9
-feature: Traits
+feature: 'Eigenschappen '
+exl-id: 223f5fc6-c939-4bc6-94a3-5d953abc601a,85c2d54f-b9d6-4c95-b4b5-466119effc2a,85c2d54f-b9d6-4c95-b4b5-466119effc2a,223f5fc6-c939-4bc6-94a3-5d953abc601a
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: e13f81df9b0d59cd958f4c2a615c31df00ce2cc5
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '838'
 ht-degree: 1%
 
 ---
-
 
 # Referenties voor eigenschap- en segmentkwalificaties {#trait-qualification-reference}
 
@@ -75,4 +75,3 @@ Om het punt thuis verder te rijden, als je op dit moment een piek van 10.000 bez
 ## Limiet voor beroepskwalificatie {#trait-qualification-limit}
 
 Voor elk gebruikersprofiel geldt een limiet van 150.000 vakkwalificaties. Dit is een geverifieerd profiel ([DPUUID](../../reference/ids-in-aam.md)) of een apparaat-id ([UUID](../../reference/ids-in-aam.md)). Merk op dat hoewel DPUUIDs voor een specifiek geval van [!DNL Audience Manager] uniek zijn, UUIDs over het [!DNL Audience Manager] platform wordt gedeeld. Voor [!UICONTROL UUID]s, leggen wij een billijkheidsbeleid op wanneer het opslaan van baankwalificaties. Een algoritme zorgt ervoor dat een gelijk aandeel van het [!UICONTROL UUID] profiel voor elke instantie van [!DNL Audience Manager] ter beschikking wordt gesteld.
-
