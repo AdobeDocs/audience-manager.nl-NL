@@ -1,18 +1,16 @@
 ---
-description: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
-seo-description: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
-seo-title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
+description: Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?
 solution: Audience Manager
-title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
-feature: support
+title: Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?
+feature: ondersteuning
+exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 100%
+source-wordcount: '89'
+ht-degree: 98%
 
 ---
-
 
 # Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?
 
