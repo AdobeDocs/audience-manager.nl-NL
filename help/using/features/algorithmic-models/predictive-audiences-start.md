@@ -3,16 +3,16 @@ description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real ti
 seo-description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
 seo-title: Voorspelend publiek beheren
 solution: Audience Manager
-title: Predictieve doelgroepen in Audience Manager
+title: Aan de slag met Predictieve doelgroepen
 feature: Algorithmic Models
+exl-id: beb314de-f679-4397-8e14-2dd6576243fd
 translation-type: tm+mt
-source-git-commit: 48bf17a2899fd06c525ba6b4fddb9ec805efb5c3
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '574'
 ht-degree: 7%
 
 ---
-
 
 # Aan de slag met Predictieve doelgroepen {#predictive-audiences-getting-started}
 
