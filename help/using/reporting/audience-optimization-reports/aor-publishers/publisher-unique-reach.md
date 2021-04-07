@@ -3,17 +3,17 @@ description: Het unieke rapport van het Bereik van de Gebruiker keert gegevens i
 seo-description: Het unieke rapport van het Bereik van de Gebruiker keert gegevens in een borrelgrafiek terug. De grootte van elke ballon wordt afgestemd op het aantal unieke gebruikers voor de geselecteerde advertentie-eenheden. Een grotere bel wijst op groter bereik dan een kleinere bel. Met het rapport Unieke gebruikersBereik kunt u de advertentie-eenheid vinden die het breedste bereik biedt ten opzichte van de beoogde gebruikers.
 seo-title: Uniek gebruikersbereik
 solution: Audience Manager
-title: Uniek gebruikersbereik
+title: Unieke gebruikersinterface voor uitgevers
 uuid: 64e75fad-f4cb-4d47-a162-34e663f3966f
-feature: audience optimization reports
+feature: optimalisatierapporten voor het publiek
+exl-id: 7f92547e-3bb0-4df1-953e-1c26e91b4e0c
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 3%
+source-wordcount: '352'
+ht-degree: 2%
 
 ---
-
 
 # Uniek gebruikersbereik{#unique-user-reach}
 
