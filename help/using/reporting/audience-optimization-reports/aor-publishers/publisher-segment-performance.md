@@ -3,17 +3,17 @@ description: Het rapport van de Prestaties van het Segment vergelijkt in kaart g
 seo-description: Het rapport van de Prestaties van het Segment vergelijkt in kaart gebrachte en unmapped segmenten door impressies en in real time de Uniques van het Segment. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Het vergelijken van deze verschillende segmenttypes binnen en tussen rapporten helpt u bestaande campagnes optimaliseren en over het hoofd gezien segmenten vinden die u naar een bestemming voor het richten kunt verzenden.
 seo-title: Segmentprestatierapport
 solution: Audience Manager
-title: Segmentprestatierapport
+title: Rapport voor segmentprestaties voor uitgevers
 uuid: c9a1e9ad-4f3f-4334-a3ff-0f241c7303c4
-feature: audience optimization reports
+feature: optimalisatierapporten voor het publiek
+exl-id: 0cc10399-5737-4d82-a1f6-9561e024054d
 translation-type: tm+mt
-source-git-commit: e007279d81998031d2d61d0e68fe911813cadf8e
+source-git-commit: f5efd2d5032cb6d9fcceaee72d849a9dedcce698
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
-
 
 # Segmentprestatierapport{#segment-performance-report}
 
