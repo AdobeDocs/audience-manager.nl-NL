@@ -5,10 +5,11 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Audience Manager biedt toonaangevende services voor online data management van doelgroepen.
 user-guide-url: /content/help/en/audience-manager/user-guide/aam-home.html
+feature-set: Audience Manager
 translation-type: tm+mt
-source-git-commit: 04504d4561414f9558a1f1f4db33cbcf535d54af
+source-git-commit: 9a1604b28f538a4f9595869345b385870419a6c3
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1789'
 ht-degree: 92%
 
 ---
@@ -146,7 +147,7 @@ ht-degree: 92%
       + [Gebruikte codesyntaxis in de Segment Expression Editor](features/segments/segment-code-syntax.md)
       + [Populatiedata van eigenschappen en segmenten in Segment Builder](features/segments/segment-builder-data.md)
       + [Trait Recommendations](features/segments/trait-recommendations.md)
-      + [Referenties voor eigenschap- en segmentkwalificaties](features/traits/trait-and-segment-qualification-reference.md)
+      + [Referenties voor eigenschap- en segmentkwalificaties](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Eigenschappen {#traits}
       + [Overzicht van eigenschappen](/help/using/features/traits/traits-overview.md)
       + [Detailpagina van eigenschappen](features/traits/trait-details-page.md)
