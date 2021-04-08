@@ -8,10 +8,10 @@ uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
 feature: Beheer en privacy van gegevens
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
+source-git-commit: 04877a4a607457ad1ca179faec680df8118ff965
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 96%
+ht-degree: 83%
 
 ---
 
@@ -56,15 +56,15 @@ In de volgende tabel staan de retentietijden voor verschillende datatypen en ops
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Back-endservers </p> </td> 
-   <td colname="col2"> <p>120 dagen. </p> <p> Audience Manager verwijdert gebruikersdata van onze back-endservers 120 dagen nadat een gebruiker voor het laatst op het Audience Manager-platform is gezien. Als <span class="keyword"> Audience Manager</span> gebruikersactiviteit registreert binnen deze cyclus van 120 dagen registreert, blijven de data nog 120 dagen bewaard. </p> </td> 
+   <td colname="col2"> <p>120 dagen </p> <p> Audience Manager verwijdert gebruikersdata van onze back-endservers 120 dagen nadat een gebruiker voor het laatst op het Audience Manager-platform is gezien. Als <span class="keyword"> Audience Manager</span> gebruikersactiviteit binnen deze cyclus van 120 dagen registreert, zullen wij deze gegevens nog 120 dagen bewaren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-servers </p> </td> 
-   <td colname="col2"> <p> 14 dagen. </p> <p>Audience Manager verwijdert gebruikersdata van onze Edge-servers 14 dagen nadat een gebruiker voor het laatst op het Audience Manager-platform is gezien. Als <span class="keyword"> Audience Manager</span> gebruikersactiviteit registreert binnen deze cyclus van 14 dagen registreert, blijven de data nog 14 dagen bewaard. Als de gebruiker na de periode van 14 dagen weer actief wordt, zal er een vertraging optreden tussen die eerste nieuwe paginaweergave en het moment waarop de gebruiker weer actie kan ondernemen. Het duurt 6-18 uur om het volledige profiel weer naar het Edge-centrum terug te brengen na meer dan 14 dagen van inactiviteit. </p> </td> 
+   <td colname="col2"> <p> 14 dagen </p> <p>Audience Manager verwijdert gebruikersdata van onze Edge-servers 14 dagen nadat een gebruiker voor het laatst op het Audience Manager-platform is gezien. Als <span class="keyword"> Audience Manager</span> gebruikersactiviteit binnen deze cyclus van 14 dagen registreert, zullen wij deze gegevens nog 14 dagen bewaren. Als de gebruiker na de cyclus van 14 dagen weer actief wordt, is er een vertraging tussen die eerste nieuwe paginaweergave en wanneer de gebruiker actioneerbaar wordt. Het duurt 6-18 uur om het volledige profiel weer naar het randcentrum terug te krijgen na meer dan 14 dagen inactiviteit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Onbewerkte logboeken </p> </td> 
-   <td colname="col2"> <p>60 dagen (verwijderd na 60 dagen van inactiviteit). </p> <p>Onbewerkte logboekbestanden zijn data die door een Edge-server worden ontvangen via HTTP-calls of van onboarded bestanden die naar <span class="keyword"> Audience Manager</span> worden verzonden. </p> </td> 
+   <td colname="col2"> <p>60 dagen (verwijderd na 60 dagen geen activiteit) </p> <p>Onbewerkte logboekbestanden zijn data die door een Edge-server worden ontvangen via HTTP-calls of van onboarded bestanden die naar <span class="keyword"> Audience Manager</span> worden verzonden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertentieserverlogboeken </p> </td> 
