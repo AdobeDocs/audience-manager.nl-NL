@@ -5,15 +5,15 @@ seo-title: Veelgestelde vragen over privacy en dataretentie
 solution: Audience Manager
 title: Veelgestelde vragen over privacy en dataretentie
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Data Governance and Privacy
+feature: Beheer en privacy van gegevens
+exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 2afb48afad7978b8901e78060c7dccdb2a7bdf7b
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '762'
 ht-degree: 96%
 
 ---
-
 
 # Veelgestelde vragen over privacy en dataretentie {#privacy-and-data-retention-faq}
 
@@ -64,7 +64,7 @@ In de volgende tabel staan de retentietijden voor verschillende datatypen en ops
   </tr> 
   <tr> 
    <td colname="col1"> <p>Onbewerkte logboeken </p> </td> 
-   <td colname="col2"> <p>180 dagen (verwijderd na 180 dagen van inactiviteit). </p> <p>Onbewerkte logboekbestanden zijn data die door een Edge-server worden ontvangen via HTTP-calls of van onboarded bestanden die naar <span class="keyword"> Audience Manager</span> worden verzonden. </p> </td> 
+   <td colname="col2"> <p>60 dagen (verwijderd na 60 dagen van inactiviteit). </p> <p>Onbewerkte logboekbestanden zijn data die door een Edge-server worden ontvangen via HTTP-calls of van onboarded bestanden die naar <span class="keyword"> Audience Manager</span> worden verzonden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertentieserverlogboeken </p> </td> 
@@ -119,4 +119,3 @@ In de onderstaande tabel staan de retentieopties voor eigenschapkwalificaties.
   </tr> 
  </tbody> 
 </table>
-
