@@ -1,19 +1,19 @@
 ---
-description: Met de Regels van de Fusie van het Profiel krijgt u controle over de gegevensreeksen die voor segmentatie worden gebruikt en kan een persoon nauwkeurig over veelvoudige apparaten richten.
-seo-description: Met de Regels van de Fusie van het Profiel krijgt u controle over de gegevensreeksen die voor segmentatie worden gebruikt en kan een persoon nauwkeurig over veelvoudige apparaten richten.
+description: Met de Regels van de Fusie van het Profiel krijgt u controle over de gegevensreeksen die voor segmentatie worden gebruikt en kan een persoon over veelvoudige apparaten nauwkeurig richten.
+seo-description: Met de Regels van de Fusie van het Profiel krijgt u controle over de gegevensreeksen die voor segmentatie worden gebruikt en kan een persoon over veelvoudige apparaten nauwkeurig richten.
 seo-title: Overzicht van de regels voor profielsamenvoeging
 solution: Audience Manager
 title: Overzicht van de regels voor profielsamenvoeging
 uuid: 9e7988cc-9145-432b-840a-54fbd8657b3b
-feature: Profile Merge Rules
+feature: Profielsamenvoeging
+exl-id: 5d1f5bea-0fca-4684-a2b4-585d9e38d9ef
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '364'
 ht-degree: 2%
 
 ---
-
 
 # [!UICONTROL Profile Merge Rules] Overzicht {#profile-merge-rules-overview}
 
