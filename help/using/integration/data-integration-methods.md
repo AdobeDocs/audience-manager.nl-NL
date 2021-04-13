@@ -5,15 +5,15 @@ seo-title: Methoden voor Data Integration
 solution: Audience Manager
 title: Methoden voor Data Integration
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
-feature: Third Party Integrations
+feature: Integratie van derden
+exl-id: 26225461-c35c-4db1-9517-99e82ce163b9
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
-
 
 # Methoden voor Data Integration {#data-integration-methods}
 
@@ -134,7 +134,7 @@ In real time gegevensoverdrachten verzenden en ontvangen segment IDs als gebruik
 
 ### Stappen voor realtime gegevensintegratie
 
-Het proces van de gegevensintegratie in real time werkt als volgt:
+Het integratieproces van gegevens in real time werkt als volgt:
 
 1. Een gebruiker bezoekt de plaats van een klant die Audience Manager code bevat.
 1. Audience Manager laadt een Iframe en roept [!UICONTROL Data Collection Server] ([!DNL DCS]) aan.
