@@ -5,15 +5,15 @@ seo-title: Overlaprapport Segment-naar-segment
 solution: Audience Manager
 title: Overlaprapport Segment-naar-segment
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
-feature: overlap reports
+feature: Rapporten overlappen
+exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 10%
 
 ---
-
 
 # Overlaprapport Segment-naar-segment{#segment-to-segment-overlap-report}
 
@@ -81,3 +81,4 @@ De pop-up voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hier
 >* [Overlaprapporten: updateplanning en minimale segmentgrootte](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten...](../../reporting/report-sampling.md)
 >* [CSV-bestanden voor overlaprapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
+
