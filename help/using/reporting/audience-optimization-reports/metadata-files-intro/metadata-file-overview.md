@@ -5,15 +5,15 @@ seo-title: Overzicht en toewijzingen voor metadatabestanden
 solution: Audience Manager
 title: Overzicht en toewijzingen voor metadatabestanden
 uuid: 70df7f11-69c5-4873-a69d-8f93f94e9837
-feature: log files
+feature: Logbestanden
+exl-id: 8c59ab80-f04a-42df-891e-a187ecd0219f
 translation-type: tm+mt
-source-git-commit: 5d6983f5308f1dfd4560ee1b38bcaee3ca6e422f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '843'
 ht-degree: 3%
 
 ---
-
 
 # Overzicht en toewijzingen voor metadatabestanden{#overview-and-mappings-for-metadata-files}
 
