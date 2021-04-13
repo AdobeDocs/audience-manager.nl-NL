@@ -5,15 +5,15 @@ seo-title: Dashboard voor rapporten
 solution: Audience Manager
 title: Dashboard voor rapporten
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
-feature: reporting reference
+feature: Referentieverwijzing rapportage
+exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
-
 
 # Dashboard voor rapporten {#reports-dashboard}
 
@@ -62,7 +62,7 @@ In dit deelvenster wordt het aantal unieke bezoekers tijdens de opgegeven tijdsp
 >
 >Het totale aantal unieke bezoekers vertegenwoordigt bezoekers die zijn vastgelegd via op regels gebaseerde of aan boord genomen kenmerken. Het totale aantal unieke bezoekers is echter niet gelijk aan de som van unieke bezoekers die zijn vastgelegd met de op regels gebaseerde en ongeregistreerde kenmerken. Dezelfde unieke gebruiker kan in een van deze twee typen kenmerken worden vertegenwoordigd.
 
-## Grootste overgangen/Meest gewijzigde overgangen {#largest-traits}
+## Grootste overtrekken/Meest gewijzigde overgangen {#largest-traits}
 
 Toestemming vereist om te bekijken: [!UICONTROL View Traits].
 
@@ -121,4 +121,3 @@ Dit deelvenster bevat de volgende tabbladen:
   </tr> 
  </tbody> 
 </table>
-
