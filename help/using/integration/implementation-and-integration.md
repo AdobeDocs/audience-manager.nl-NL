@@ -4,15 +4,15 @@ seo-description: Werken met gegevens van Experience Cloud-oplossingen of andere 
 seo-title: Werken met gegevens van Experience Cloud-oplossingen of andere externe systemen in Audience Manager.
 solution: Audience Manager
 title: Implementatie- en integratiehandleidingen
-feature: Third Party Integrations
+feature: Integratie van derden
+exl-id: 6e3cccdd-10af-4b17-9ddb-c4faf63f0a50
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 25%
+source-wordcount: '77'
+ht-degree: 24%
 
 ---
-
 
 # Overzicht van implementatie en integratie
 
