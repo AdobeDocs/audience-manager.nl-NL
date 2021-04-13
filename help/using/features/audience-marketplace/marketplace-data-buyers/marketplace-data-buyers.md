@@ -4,17 +4,17 @@ seo-description: Overzicht en workflow voor gegevenskopers die gegevens van derd
 seo-title: Audience Marketplace voor datakopers
 solution: Audience Manager
 title: Audience Marketplace voor datakopers
-topic: DIL API
+topic-edit: DIL API
 uuid: f505b5f4-4231-4e84-993a-cd64128b540f
 feature: Audience Marketplace
+exl-id: 9d6a7fda-f79f-41ad-9654-3ebcf9028cc2
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '750'
 ht-degree: 2%
 
 ---
-
 
 # [!UICONTROL Audience Marketplace] voor gegevenskopers  {#audience-marketplace-for-data-buyers}
 
