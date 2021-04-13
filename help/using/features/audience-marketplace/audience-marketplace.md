@@ -1,25 +1,25 @@
 ---
-description: Met Audience Marketplace kunnen gegevensleveranciers en kopers zo weinig mogelijk gegevenstransacties zelf uitvoeren. Dit doet hij door gespecialiseerde functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, zorgt Audience Marketplace voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
-keywords: Google analytics
-seo-description: Met Audience Marketplace kunnen gegevensleveranciers en kopers zo weinig mogelijk gegevenstransacties zelf uitvoeren. Dit doet hij door gespecialiseerde functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, zorgt Audience Marketplace voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
+description: Met Audience Marketplace kunnen gegevensleveranciers en kopers zo weinig mogelijk gegevenstransacties zelf uitvoeren. Dit doet hij door speciale functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, zorgt Audience Marketplace voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
+keywords: Google Analytics
+seo-description: Met Audience Marketplace kunnen gegevensleveranciers en kopers zo weinig mogelijk gegevenstransacties zelf uitvoeren. Dit doet hij door speciale functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, zorgt Audience Marketplace voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
 seo-title: Audience Marketplace
 solution: Audience Manager
 title: Audience Marketplace
-topic: DIL API
+topic-edit: DIL API
 uuid: a94d2ee7-d854-4e68-bd6b-42827ca72f67
 feature: Audience Marketplace
+exl-id: ee608bcd-6827-4fac-be96-8e16ff390ec0
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 6%
+source-wordcount: '278'
+ht-degree: 7%
 
 ---
 
-
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] biedt gegevensleveranciers en kopers de mogelijkheid om gegevenstransacties op een zelfbedieningsmanier uit te voeren met minimale inspanningen. Dit doet hij door gespecialiseerde functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, zorgt [!UICONTROL Audience Marketplace] voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
+[!UICONTROL Audience Marketplace] biedt gegevensleveranciers en kopers de mogelijkheid om gegevenstransacties op een zelfbedieningsmanier uit te voeren met minimale inspanningen. Dit doet hij door speciale functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, zorgt [!UICONTROL Audience Marketplace] voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
 
 Bespreek de [!DNL Audience Manager] verkoopspecialist om aan de slag te gaan. Ze kunnen [!UICONTROL Audience Marketplace for you] activeren.
 
