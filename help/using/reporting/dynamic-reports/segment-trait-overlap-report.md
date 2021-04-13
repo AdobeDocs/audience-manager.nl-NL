@@ -5,15 +5,15 @@ seo-title: Overlaprapport Segment-naar-eigenschap
 solution: Audience Manager
 title: Overlaprapport Segment-naar-eigenschap
 uuid: a6b3dd21-332e-449f-aa01-2beb47f1794e
-feature: overlap reports
+feature: Rapporten overlappen
+exl-id: 7ce3dd2d-ab22-46f8-90bf-a32222df2e76
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 5%
 
 ---
-
 
 # Overlaprapport Segment-naar-eigenschap{#segment-to-trait-overlap-report}
 
@@ -188,3 +188,4 @@ De pop-up voor het [!UICONTROL Segment-to-Trait Overlap] rapport bevat de hieron
 >* [Overlaprapporten: updateplanning en minimale segmentgrootte](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten...](../../reporting/report-sampling.md)
 >* [CSV-bestanden voor overlaprapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
+
