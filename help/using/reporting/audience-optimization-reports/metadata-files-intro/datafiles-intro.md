@@ -5,15 +5,15 @@ seo-title: Databestanden voor Audience Optimization-rapporten en actiegerichte l
 solution: Audience Manager
 title: Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden
 uuid: c19eb0c7-47c1-4cdf-8a6c-cd15fe04c379
-feature: log files
+feature: Logbestanden
+exl-id: 0da2c1d3-5ff8-40dd-b831-21d8941688ce
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 3%
 
 ---
-
 
 # Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden {#data-files-for-audience-optimization-reports}
 
@@ -75,7 +75,7 @@ In de onderstaande tabel vindt u een overzicht en beschrijving van de kolomkoppe
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gebruikersnaam </p> </td> 
-   <td colname="col2"> <p>Uw id voor een sitebezoeker, ook wel de unieke gebruikersnaam <span class="term"> of DPUUID genoemd.</span> </p> </td> 
+   <td colname="col2"> <p>Uw id voor een sitebezoeker, ook wel de unieke gebruikersnaam </span> of DPUUID genoemd.<span class="term"> </span></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertiser-ID </p> </td> 
