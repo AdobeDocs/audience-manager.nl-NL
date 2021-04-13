@@ -5,15 +5,15 @@ seo-title: Onderdelen voor Tag Management
 solution: Audience Manager
 title: Onderdelen voor Tag Management
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: systeemonderdelen
+feature: 'Systeemonderdelen '
+exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
-
 
 # Onderdelen voor Tag Management{#tag-management-components}
 
@@ -56,4 +56,3 @@ De besturingsdatabase:
 * Verwerkt cliëntinput van het portaal (bijvoorbeeld, creërend eigenschappen en bestemmingen).
 * Hiermee worden gegevens naar Akamai verzonden, die gegevens bevat die worden gebruikt om de containersjabloon en doelpublicatie-iFrame samen te stellen.
 * Retourneert gegevens voor UI-rapportagesystemen.
-
