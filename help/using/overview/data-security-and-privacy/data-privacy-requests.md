@@ -3,18 +3,18 @@ description: In dit document worden de technische details van de naleving van Au
 seo-description: In dit document worden de technische details van de naleving van Audience Manager Data Privacy-voorschriften besproken.
 seo-title: Data Privacy-aanvragen
 solution: Audience Manager
-keywords: GDPR UI, GDPR API, CCPA, privacy
+keywords: GDPR-gebruikersinterface, GDPR-API, CCPA, privacy
 title: Data Privacy-aanvragen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: data governance & privacy
+feature: Beheer en privacy van gegevens
+exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
 translation-type: tm+mt
-source-git-commit: 231d8e537cf5b4f29b1c4f284fe1b3ffe6d187a9
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1486'
 ht-degree: 57%
 
 ---
-
 
 # Data Privacy-aanvragen {#data-privacy-requests}
 
