@@ -1,23 +1,23 @@
 ---
-description: U kunt gegevens uit mediacampagnes vastleggen met behulp van pixelaanroepen naar de Audience Manager (vaak de creatieve pixels weergeven) of door logbestanden in te nemen.
-seo-description: U kunt gegevens uit mediacampagnes vastleggen met behulp van pixelaanroepen naar de Audience Manager (vaak de creatieve pixels weergeven) of door logbestanden in te nemen.
+description: U kunt gegevens van mediacampagnes vastleggen met behulp van pixelaanroepen naar de Audience Manager (vaak de creatieve pixels weergeven) of door logbestanden in te nemen.
+seo-description: U kunt gegevens van mediacampagnes vastleggen met behulp van pixelaanroepen naar de Audience Manager (vaak de creatieve pixels weergeven) of door logbestanden in te nemen.
 seo-title: 'Integratie mediadata '
 solution: Audience Manager
 title: 'Integratie mediadata '
 uuid: 6f6bbd03-084b-4226-8809-3b00b467606f
-feature: Integration with Campaign
+feature: Adobe Campaign-integratie
+exl-id: ca4906a7-0c39-49bc-9505-d76a61ec9eac
 translation-type: tm+mt
-source-git-commit: 3c70178dc1a020545793ea7facc70e34d23543fa
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '149'
 ht-degree: 17%
 
 ---
 
-
 # Integratie mediadata {#media-data-integration}
 
-U kunt gegevens uit mediacampagnes vastleggen met behulp van pixelaanroepen naar de Audience Manager (vaak de creatieve pixels weergeven) of door logbestanden in te nemen. Lees de artikelen in deze sectie om het proces te begrijpen.
+U kunt gegevens van mediacampagnes vastleggen met behulp van pixelaanroepen naar de Audience Manager (vaak de creatieve pixels weergeven) of door logbestanden in te nemen. Lees de artikelen in deze sectie om het proces te begrijpen.
 
 <!-- c_camp_data_int.xml -->
 
