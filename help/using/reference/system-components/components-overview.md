@@ -4,15 +4,15 @@ seo-description: Een rondleiding op hoog niveau van de belangrijkste componenten
 seo-title: Overzicht van systeemonderdelen
 title: Overzicht van systeemonderdelen
 uuid: cd0e51a3-38c3-4e3f-9bf1-938de2c71156
-feature: system components
+feature: 'Systeemonderdelen '
+exl-id: b128cae4-8a11-4fad-95f8-4fe6222bb95e
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 16%
+source-wordcount: '190'
+ht-degree: 17%
 
 ---
-
 
 # Overzicht van systeemonderdelen{#system-components-overview}
 
@@ -39,4 +39,3 @@ Deze gids probeert een evenwicht te vinden tussen algemene beschrijvingen en een
 * [Onderdelen voor Tag Management](/help/using/reference/system-components/components-tag-management.md)
 * [Platformarchitectuur: datastroomkaart](/help/using/reference/system-components/components-platform-architecture.md)
 * [Werken met het Edge-datacenter](/help/using/reference/system-components/components-edge.md)
-
