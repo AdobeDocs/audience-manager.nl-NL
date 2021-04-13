@@ -5,15 +5,15 @@ seo-title: Ongebruikte-signalenrapport
 solution: Audience Manager
 title: Ongebruikte-signalenrapport
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
-feature: overlap reports
+feature: Rapporten overlappen
+exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '615'
 ht-degree: 1%
 
 ---
-
 
 # Ongebruikte-signalenrapport{#unused-signals-report}
 
@@ -57,7 +57,7 @@ Herzie dit rapport helpen orphaned signalen identificeren die aan nieuwe of best
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Niet-toegewezen waarden zoeken</b> </p> </td> 
-   <td colname="col2"> <p>Controleer het rapport voor nummer 1. Het aantal 1 in <span class="wintitle"> Ongebruikte Signals</span> rapport vertegenwoordigt een ongeldige waarde. Dat is niet per se slecht. Het betekent eenvoudig dat een bepaalde sleutel geen bijbehorende waardetoewijzing heeft. Wanneer u een hoop van 1 waarden voor een belangrijke variabele ziet, controleer met uw plaatsteam om ervoor te zorgen al uw pagina's correct worden geëtiketteerd. </p> </td> 
+   <td colname="col2"> <p>Controleer het rapport voor nummer 1. Het aantal 1 in <span class="wintitle"> Ongebruikte Signals</span> rapport vertegenwoordigt een ongeldige waarde. Dat is niet per se slecht. Het betekent eenvoudig dat een bepaalde sleutel geen bijbehorende waardetoewijzing heeft. Wanneer u veel van 1 waarden voor een belangrijke variabele ziet, raadpleegt u uw siteteam om te controleren of al uw pagina's correct zijn gecodeerd. </p> </td> 
   </tr> 
  </tbody> 
 </table>
