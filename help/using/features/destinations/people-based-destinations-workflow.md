@@ -4,15 +4,15 @@ seo-description: 'Mensen-Gebaseerde Doelen biedt veelvoudige implementatiestrate
 seo-title: Implementatieleiding voor op personen gebaseerde doelen
 solution: Audience Manager
 title: Implementatieleiding
-feature: People-Based Destinations
+feature: Op mensen gebaseerde Doelen
+exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1381'
 ht-degree: 2%
 
 ---
-
 
 # Implementatieleiding {#implementation-guidance}
 
@@ -32,7 +32,7 @@ Er zijn zes implementatieaspecten die u moet verduidelijken voordat u [!DNL Peop
 
 ![pbd-implementatie](assets/pbd-implementation.png)
 
-## 1. Het definiëren van het hoofdlettergebruik {#defining-your-use-case}
+## 1. Uw gebruiksscenario {#defining-your-use-case} definiëren
 
 Voordat u met de implementatie van [!DNL People-Based Destinations] begint, moet u duidelijk het gebruiksscenario definiëren waarvoor u deze functie gebruikt. U kunt [!DNL People-Based Destinations] aan doelpubliek op twee manieren gebruiken, gebaseerd op publieksactiviteit:
 
@@ -83,7 +83,7 @@ Afhankelijk van het type klant-id&#39;s dat u in Audience Manager hebt (zie [3. 
 
 ## 6. Een regel voor het samenvoegen van profielen gebruiken voor segmentatie {#use-profile-merge-rules}
 
-Afhankelijk van uw gebruikscase (zie [1. Het bepalen van Uw Geval van het Gebruik ](people-based-destinations-workflow.md#defining-your-use-case)), zijn er twee manieren om [!DNL Profile Merge Rules] voor segmentatie te gebruiken.
+Afhankelijk van uw gebruiksgeval (zie [1. Het bepalen van Uw Geval van het Gebruik ](people-based-destinations-workflow.md#defining-your-use-case)), zijn er twee manieren om [!DNL Profile Merge Rules] voor segmentatie te gebruiken.
 
 **A) Bestaande gebruiken[!DNL Profile Merge Rules]**. Deze optie is van toepassing op het eerste gebruiksgeval (doelgroep gebaseerd op gecombineerde online- en offlinegebruikersactiviteiten). In dit scenario, hebt u bestaande klantenactiviteit in Audience Manager en u hebt reeds minstens één Regel van de Fusie van het Profiel bepaald die u in segmentatie hebt gebruikt. In dit geval hoeft u geen nieuwe [!DNL Profile Merge Rules] te maken.
 
