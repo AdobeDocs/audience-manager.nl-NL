@@ -5,15 +5,15 @@ seo-title: De binnenkomende Syntaxis van de Inhoud van het Dossier van Gegevens,
 solution: Audience Manager
 title: De binnenkomende Syntaxis van de Inhoud van het Dossier van Gegevens, Ongeldige Karakters, Variabelen, en Voorbeelden
 uuid: 88699b29-1502-4183-a9a4-be70692a02bb
-feature: Inbound Data Transfers
+feature: Binnenkomende gegevensoverdrachten
+exl-id: 894f1923-6c78-41d2-b6a2-eebf56eaa29e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
-
 
 # Content van binnenkomende databestanden: syntaxis, ongeldige tekens, variabelen en voorbeelden {#inbound-data-file-contents-syntax-invalid-characters-variables-and-examples}
 
@@ -324,7 +324,7 @@ of
 59767559181262060060278870901087098252 <TAB> "product" = "tablet", "product" = "phone"
 ```
 
-### Voorbeeld 4 {#example-4}
+### Voorbeeld 5 {#example-4}
 
 Met het voorvoegsel `ic` kunt u [!UICONTROL trait] kwalificatiegegevens voor [!DNL Audience Manager] [!DNL UUIDs] verzenden.
 
