@@ -4,17 +4,17 @@ seo-description: Het Laboratorium van het publiek laat verscheidene gebruiksgeva
 seo-title: Gebruiksscenario’s voor Audience Lab
 solution: Audience Manager
 title: Gebruiksscenario’s voor Audience Lab
-topic: DIL API
+topic-edit: DIL API
 uuid: 727bec8a-df9a-40cc-b8a7-e1980d146a84
-feature: Audience Lab
+feature: 'Audience Lab '
+exl-id: b68f48bd-0d5d-4b72-84f3-a6f3acea6c49
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 1%
+source-wordcount: '625'
+ht-degree: 2%
 
 ---
-
 
 # Gebruiksscenario’s voor Audience Lab {#audience-lab-use-cases}
 
@@ -59,4 +59,4 @@ Gebruik [!UICONTROL Audience Lab] om het aantal omzettingen te meten creatief ov
 1. Geef een begindatum en een einddatum voor de test op.
 1. Opstelling het segment en creatief in de bestemmingen.
 1. De [Audience Lab rapporteringsmening](../../features/audience-lab/audience-lab-reporting-view.md) zal het aantal omzettingen tonen creatief over de bestemmingen drijft.
-1. Omdat u een controlesegment creeerde, kunt u ook evalueren hoe creatief tegen natuurlijk optredende omzettingen deed. U test de vraag: &quot;Heeft dit creatief een hogere omrekeningskoers dan normale praktijken veroorzaakt?&quot;
+1. Omdat u een controlesegment creeerde, kunt u ook evalueren hoe creatief tegen natuurlijk optredende omzettingen deed. U test de vraag: &quot;Heeft deze creatieve actie een hogere conversiegraad opgeleverd dan normale praktijken?&quot;
