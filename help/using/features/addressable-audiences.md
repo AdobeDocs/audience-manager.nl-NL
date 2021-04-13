@@ -5,17 +5,17 @@ seo-description: Een overzicht van de Adresseerbare eigenschap van het Publiek e
 seo-title: Addressable Audiences
 solution: Audience Manager
 title: Adresseerbaar publiek
-topic: DIL API
+topic-edit: DIL API
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
-feature: Match Rates
+feature: Matchpercentages
+exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1827'
 ht-degree: 0%
 
 ---
-
 
 # [!UICONTROL Addressable Audiences] {#addressable-audiences}
 
@@ -30,7 +30,7 @@ De functie [!UICONTROL Addressable Audiences] toont u de overlapping tussen het 
 
 | Metrisch | Beschrijving |
 |---|---|
-| [!UICONTROL Audience Manager Addressable Audience] voor een  [!UICONTROL Destination] | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op het platform-niveau tijdens de rapport terugkerende periode hebben interactie gehad en die met uw gekozen [!UICONTROL destination] zouden kunnen worden aangepast. <br><br>Deze metrisch is nuttig omdat het u toont: <ul><li>De grootte van het totaal [!UICONTROL addressable audience] dat [!DNL Audience Manager] op een bepaald richten [!UICONTROL destination] kan bereiken.</li><li>Hoe groot is de [!DNL Audience Manager] profielpool voor een doelplatform en de grootte van hun publiek.</li></ul> |
+| [!UICONTROL Audience Manager Addressable Audience] voor een  [!UICONTROL Destination] | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op het platform-niveau tijdens de rapport terugblik-periode hebben interactie gehad en die met uw gekozen [!UICONTROL destination] zouden kunnen worden aangepast. <br><br>Deze metrisch is nuttig omdat het u toont: <ul><li>De grootte van het totaal [!UICONTROL addressable audience] dat [!DNL Audience Manager] op een bepaald richten [!UICONTROL destination] kan bereiken.</li><li>Hoe groot is de [!DNL Audience Manager] profielpool voor een doelplatform en de grootte van hun publiek.</li></ul> |
 | [!UICONTROL Customer Total Audience] | Een aantal apparaten dat of [!UICONTROL rule-based trait] op uw eigenschappen of [!UICONTROL onboarded trait] van uw off-line dossiers tijdens het terugblik-achtervenster heeft gerealiseerd. |
 | [!UICONTROL Addressable Audience Match Rate] | Een telling van overlapping van apparaten die of [!UICONTROL rule-based trait] of [!UICONTROL onboarded trait] tijdens het terugblik venster en apparaten hebben dat wij een identiteitskaart synchronisatie met gekozen [!UICONTROL destination] ongeacht de tijd van syncs hebben.<br><br>Deze metrische waarde vertegenwoordigt apparaten die:<ul><li>Tijdens het terugkijkvenster `AND` een [!UICONTROL rule-based] of een [!UICONTROL onboarded trait] hebben gerealiseerd</li><li>Een id synchroniseren met de gekozen [!UICONTROL destination] ongeacht de tijd van syncs.</li> |
 | [!UICONTROL Customer Match Rate] | [!UICONTROL Customer Addressable Audience] Ht  [!UICONTROL Customer Total Audience] uitgedrukt als percentage. |
@@ -139,7 +139,7 @@ Deze maatstaf geeft gegevens over activiteiten die zijn verzameld voor alle [!DN
 
 | Metrisch | Beschrijving |
 |---|---|
-| [!DNL Audience Manager] [!UICONTROL Addressable Audience] | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op het platform-niveau tijdens de rapport terugkerende periode hebben interactie gehad en die met uw gekozen [!UICONTROL destination] zouden kunnen worden aangepast. <br><br>Deze metrisch is nuttig omdat het u toont:<ul><li>De grootte van [!UICONTROL total addressable audience] die [!DNL Audience Manager] op een bepaalde het richten bestemming kan bereiken.</li><li>Hoe groot is de [!DNL Audience Manager] profielpool voor een doelplatform en de grootte van hun publiek.</li></ul> |
+| [!DNL Audience Manager] [!UICONTROL Addressable Audience] | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op het platform-niveau tijdens de rapport terugblik-periode hebben interactie gehad en die met uw gekozen [!UICONTROL destination] zouden kunnen worden aangepast. <br><br>Deze metrisch is nuttig omdat het u toont:<ul><li>De grootte van [!UICONTROL total addressable audience] die [!DNL Audience Manager] op een bepaalde het richten bestemming kan bereiken.</li><li>Hoe groot is de [!DNL Audience Manager] profielpool voor een doelplatform en de grootte van hun publiek.</li></ul> |
 
 ## Vergelijken van [!UICONTROL Customer] en [!UICONTROL Segment Addressable Audiences] {#comparing-metrics}
 
