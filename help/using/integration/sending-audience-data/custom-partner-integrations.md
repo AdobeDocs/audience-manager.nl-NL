@@ -4,21 +4,21 @@ seo-description: Deze pagina maakt een lijst van douaneintegratie tussen Audienc
 seo-title: Aangepaste partnerintegraties
 solution: Audience Manager
 title: Aangepaste partnerintegraties
-feature: Third Party Integrations
+feature: Integratie van derden
+exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 3%
 
 ---
-
 
 # Aangepaste partnerintegraties {#custom-partner-integrations}
 
 Deze pagina maakt een lijst van douaneintegratie tussen Audience Manager en gegevenspartners.
 
-## Oracle Data Cloud {#oracle-data-cloud}
+## Gegevenscloud oracle {#oracle-data-cloud}
 
 ### Beschrijving
 
@@ -26,7 +26,7 @@ Audience Manager neemt cookie- en mobiele-id-gegevens op van de Oracle Data Clou
 
 ### Integratiespecificaties
 
-Binnenkomende gegevensbestanden die worden ontvangen van de Oracle Data Cloud verschillen van de standaard syntaxis voor de binnenkomende bestandsnaam die wordt beschreven in [Amazon S3 Name and File Size Requirements for Inbound Data Files](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) en van de standaard syntaxis voor de binnenkomende bestandsinhoud die wordt beschreven in [Inbound Data File Contents: Syntaxis, Ongeldige tekens, variabelen en voorbeelden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+De binnenkomende die Dossiers van Gegevens van het Oracle van de Wolk van Gegevens verschillen van de standaard binnenkomende dossiernaamsyntaxis in [Amazon S3 de Vereisten van de Naam en van de Grootte van het Dossier voor Binnenkomende Dossiers van Gegevens](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) en van de standaard binnenkomende syntaxis van de dossierinhoud die in [Inbound Inhoud van het Dossier van Gegevens wordt beschreven: Syntaxis, Ongeldige tekens, variabelen en voorbeelden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 Naast de standaardimplementatievelden voor binnenkomende gegevensbestanden zijn de hieronder gemarkeerde elementen vereist. Zie Syntaxis bestandsnaam en syntaxis bestandsinhoud op de twee pagina&#39;s die hierboven zijn gekoppeld voor beschrijvingen van alle andere standaardvelden en bestandsnaamelementen.
 
@@ -36,7 +36,7 @@ ODC-bestandsnamen hebben de volgende structuur:
 
 `ftp_dpm_`**`odc`**`_DPID[_DPID_TARGET_DATA_OWNER]_TIMESTAMP(.sync|.overwrite)[.SPLIT_NUMBER][.gz]`
 
-Het bestandsnaamelement `odc` identificeert het bestand als geïmporteerd uit de Oracle Data Cloud en geeft de Audience Manager de instructie de inbound file validator te verwerken.
+Met het bestandsnaamelement `odc` wordt het bestand geïdentificeerd als zijnde geïmporteerd vanuit de gegevenscloud van het Oracle en wordt de Audience Manager de instructie gegeven het bestand als zodanig te verwerken.
 
 ### Bestandsinhoud
 
