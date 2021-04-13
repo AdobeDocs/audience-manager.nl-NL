@@ -3,15 +3,15 @@ description: Verzend publieksgegevens van andere bronnen naar Audience Manager.
 seo-description: Verzend publieksgegevens van andere bronnen naar Adobe Audience Manager (AAM).
 seo-title: Poortgegevens verzenden in Adobe Audience Manager (AAM)
 title: Doelgroepdata verzenden
-feature: Inbound Data Transfer
+feature: Binnenkomende gegevensoverdrachten
+exl-id: 164a7bef-3cef-4b68-973f-6179149a68ef
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 20%
+source-wordcount: '93'
+ht-degree: 19%
 
 ---
-
 
 # Doelgroepdata verzenden
 
