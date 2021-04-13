@@ -4,15 +4,15 @@ seo-description: Deze sectie bevat de belangrijkste problemen die aan de klanten
 seo-title: Overzicht van ondersteuningsproblemen
 solution: Audience Manager
 title: Overzicht van ondersteuningsproblemen
-feature: support
+feature: Ondersteuning
+exl-id: 9d2d5473-f3cc-45f5-a573-b0faeafbfe05
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 99%
 
 ---
-
 
 # Overzicht van ondersteuningsproblemen {#support-issues-overview}
 
