@@ -338,7 +338,7 @@ of
 59767559181262060060278870901087098252 <TAB> ic=52,ic=55
 ```
 
-### Voorbeeld 4 {#example-5}
+### Voorbeeld 5 {#example-5}
 
 Gebruik [!UICONTROL trait IDs] om [!UICONTROL trait] kwalificatieinformatie voor [!DNL Android] apparaten te verzenden.
 
