@@ -1,20 +1,20 @@
 ---
 description: Voeg de Module van het Beheer van de Publiek aan Adobe Analytics AppMeasurement toe om de gegevens van Analytics aan Audience Manager door te sturen in plaats van het hebben van de code van de Data Integration Library van de Audience Manager (DIL) een pixel van de pagina verzendt.
-keywords: audience analytics; analytics; ssf; server side forwarding
+keywords: publieksanalyses; analytische gegevens; ssf; server side forward
 seo-description: Voeg de Module van het Beheer van de Publiek aan Adobe Analytics AppMeasurement toe om de gegevens van Analytics aan Audience Manager door te sturen in plaats van het hebben van de code van de Data Integration Library van de Audience Manager (DIL) een pixel van de pagina verzendt.
 seo-title: Implementeer de module Audience Management
 solution: Audience Manager
 title: Implementeer de module Audience Management
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
-feature: Integration with Analytics
+feature: Adobe Analytics-integratie
+exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '701'
 ht-degree: 4%
 
 ---
-
 
 # Gegevens doorsturen van [!DNL Adobe Analytics] naar [!DNL Audience Manager] {#implement-the-audience-management-module}
 
