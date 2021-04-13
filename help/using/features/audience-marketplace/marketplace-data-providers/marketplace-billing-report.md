@@ -4,17 +4,17 @@ seo-description: Genereer een factureringsrapport voor Audience Marketplace om h
 seo-title: Facturering voor datafeedproviders
 solution: Audience Manager
 title: Facturering voor datafeedproviders
-topic: DIL API
+topic-edit: DIL API
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
+exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 3%
+source-wordcount: '455'
+ht-degree: 4%
 
 ---
-
 
 # Facturering voor datafeedproviders {#billing-for-data-feed-providers}
 
