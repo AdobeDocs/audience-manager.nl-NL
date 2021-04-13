@@ -2,14 +2,14 @@
 description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
 seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
 seo-title: Adobe Audience Manager Technology Partners
-keywords: activation; activation partners, destination, destinations
+keywords: activering; activeringspartners, bestemming, bestemmingen
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
-feature: Third Party Integrations
+feature: Integratie van derden
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1185'
 ht-degree: 59%
 
 ---
