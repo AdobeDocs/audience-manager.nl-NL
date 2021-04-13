@@ -1,20 +1,20 @@
 ---
 description: Met de gereedschappen voor bulkbeheer kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt Bulk de Hulpmiddelen van het Beheer gebruiken om met gegevensbronnen, afgeleide signalen, bestemmingen, omslagen, segmenten, en trekken te werken.
-keywords: baaam;BAAAM;download baaam
+keywords: basam;BAAAM;download, baam
 seo-description: Met de gereedschappen voor bulkbeheer kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt Bulk de Hulpmiddelen van het Beheer gebruiken om met gegevensbronnen, afgeleide signalen, bestemmingen, omslagen, segmenten, en trekken te werken.
 seo-title: Aan de slag met Bulkbeheer
 solution: Audience Manager
 title: Aan de slag met Bulkbeheer
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
-feature: baaam
+feature: BAAAM
+exl-id: 5603146e-7172-4181-90ad-4606129176dd
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 2%
+source-wordcount: '715'
+ht-degree: 3%
 
 ---
-
 
 # Aan de slag met Bulkbeheer{#getting-started-with-bulk-management}
 
@@ -122,4 +122,3 @@ Als voorbeeld, nemen een blik bij hoe te om veelvoudige eigenschappen in één k
 >[!NOTE]
 >
 >Als u met grote aanvragen werkt, reageert het werkblad mogelijk niet meer en lijkt het inactief te zijn. Laat het in deze gevallen alleen maar. Het aantekenvel zal ontvankelijk worden wanneer het bulkverzoek volledig is. Als het aantekenvel niet lang antwoordt, zie [het oplossen van problemensectie](../../reference/bulk-management-tools/bulk-troubleshooting.md).
-
