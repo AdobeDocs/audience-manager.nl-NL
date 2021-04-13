@@ -4,15 +4,15 @@ seo-description: Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-kl
 seo-title: Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten
 solution: Audience Manager
 title: Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten
-feature: data governance & privacy
+feature: Beheer en privacy van gegevens
+exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 99%
 
 ---
-
 
 # Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten (datacontrollers) {#gdpr-readiness-guidance}
 
