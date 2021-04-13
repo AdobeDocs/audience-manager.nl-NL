@@ -4,15 +4,15 @@ seo-description: 'Deze pagina bevat richtlijnen voor het configureren en beheren
 seo-title: Verificatie met persoonsgebaseerde platforms
 solution: Audience Manager
 title: Verificatie met persoonsgebaseerde platforms
-feature: People-Based Destinations
+feature: Op mensen gebaseerde Doelen
+exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 2%
 
 ---
-
 
 # Verificatie met persoonsgebaseerde platforms {#authentication-with-people-based-platforms}
 
