@@ -5,15 +5,15 @@ seo-title: Trendanalyse en volumeanalyse
 solution: Audience Manager
 title: Trendanalyse en volumeanalyse
 uuid: 5d124d80-5f54-4970-92cd-2c8eba42efca
-feature: audience optimization reports
+feature: Audience Optimization-rapporten
+exl-id: f8e6c7a4-c4f8-465f-a32c-681a07e6e6f5
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '214'
+ht-degree: 7%
 
 ---
-
 
 # [!UICONTROL Trend Analysis] en  [!UICONTROL Volume Analysis] rapporten{#trend-analysis-and-volume-analysis-reports}
 
@@ -38,4 +38,3 @@ Het [!UICONTROL Volume Analysis] rapport keert gegevens in een balkgrafiek voor 
 >[!TIP]
 >
 >Voor informatie over in kaart gebrachte en unmapped segmenten, zie [het Rapport van Prestaties van het Segment](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) documentatie.
-
