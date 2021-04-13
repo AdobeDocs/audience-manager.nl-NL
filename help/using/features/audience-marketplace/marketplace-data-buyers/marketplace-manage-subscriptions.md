@@ -4,12 +4,11 @@ seo-description: De markt is waar de gegevenskopers naar onderzoek gaan en zich 
 seo-title: Lidmaatschappen voor datafeeds beheren
 solution: Audience Manager
 title: Lidmaatschappen voor datafeeds beheren
-topic-edit: DIL API
 uuid: 7305adb6-cbb8-4430-8204-2243095c0ba5
 feature: Audience Marketplace
 exl-id: 171acbbc-88ab-496f-93ea-48956325d8fd
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 1%
