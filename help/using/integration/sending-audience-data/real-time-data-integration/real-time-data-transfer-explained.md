@@ -5,11 +5,11 @@ seo-title: Real-Time Data Transfer Process beschreven
 solution: Audience Manager
 title: Real-Time Data Transfer Process beschreven
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: Inbound Data Transfers
+feature: Binnenkomende gegevensoverdrachten
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ In real time gegevensoverdrachten verzenden en ontvangen segment IDs als gebruik
 
 ## Stappen voor gegevensintegratie
 
-Het proces van de gegevensintegratie in real time werkt als volgt:
+Het integratieproces van gegevens in real time werkt als volgt:
 
 1. Een gebruiker bezoekt de plaats van een klant die Audience Manager code bevat.
 1. Audience Manager laadt een iframe en roept [!UICONTROL Data Collection Server] ( [!DNL DCS]) aan.
