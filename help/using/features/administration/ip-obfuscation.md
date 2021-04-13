@@ -3,15 +3,15 @@ description: Uw bedrijf kan IP adres in vele landen wegens mondiale privacyveror
 seo-description: Uw bedrijf kan IP adres in vele landen wegens mondiale privacyverordeningen willen verduisteren. Met Audience Manager kunt u IP-adressen van bezoekers globaal of per land verduisteren.
 solution: Audience Manager
 title: IP-adressen onzichtbaar maken
-feature: Data Governance and Privacy
+feature: Beheer en privacy van gegevens
+exl-id: 8c976d1e-f4ba-4892-bd68-d4e74bdb4d9b
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 2%
 
 ---
-
 
 # IP-adressen onzichtbaar maken {#ip-obfuscation}
 
@@ -60,4 +60,3 @@ Om IP adresverwarring voor specifieke landen onbruikbaar te maken, vind de lande
 * [Data Privacy](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP de Demonstratie van de Video van de Verduistering van het Adres
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)
-
