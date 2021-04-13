@@ -5,15 +5,15 @@ seo-title: Onderdelen voor dataverwerking
 solution: Audience Manager
 title: Onderdelen voor dataverwerking
 uuid: d458d869-7a23-4016-871d-0b994cf4af06
-feature: system components
+feature: 'Systeemonderdelen '
+exl-id: 9ff2b82b-aad0-4d24-96e6-230763019311
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 3%
+source-wordcount: '411'
+ht-degree: 4%
 
 ---
-
 
 # Onderdelen voor dataverwerking{#data-processing-components}
 
@@ -29,11 +29,11 @@ Audience Manager gebruikt de volgende componenten om gegevens te verwerken:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager], is Hadoop het belangrijkste gegevensbestand dat alles [!DNL Audience Manager] over een gebruiker weet. Als de [Profielcacheservers](../../reference/system-components/components-data-collection.md) bijvoorbeeld logbestanden maken die gegevens over uw gebruikers bevatten, worden die gegevens naar Hadoop verzonden voor opslag. Andere belangrijke Hadoop-elementen zijn:
+In [!DNL Audience Manager], is de Hadoop het belangrijkste gegevensbestand dat alles [!DNL Audience Manager] over een gebruiker kent bevat. Wanneer de [Profielcacheservers](../../reference/system-components/components-data-collection.md) bijvoorbeeld logbestanden maken die gegevens over uw gebruikers bevatten, worden die gegevens naar de Hadoop verzonden voor opslag. Andere belangrijke Hadopen zijn onder meer:
 
-* **Hive:** een gegevensopslagplaats voor Hadoop. Hive beheert ad-hocquery&#39;s voor de gegevens die in Hadoop zijn opgeslagen.
+* **Hive:** een gegevensopslagplaats voor Hadoop. Hive beheert ad hoc vragen aan de gegevens die in Hadoop worden opgeslagen.
 
-* **HBase:** Een zeer grote Hadoop-database. Het verwerkt en beheert binnenkomende en uitgaande gegevens, kenmerkregels, algoritmische modelleringsinformatie, en voert vele andere functies met betrekking tot het opslaan en het bewegen van gegevens aan verschillende systemen uit.
+* **HBase:** Een zeer grote gegevensbestand van de Hadoop. Het verwerkt en beheert binnenkomende en uitgaande gegevens, kenmerkregels, algoritmische modelleringsinformatie, en voert vele andere functies met betrekking tot het opslaan en het bewegen van gegevens aan verschillende systemen uit.
 
 Klanten hebben geen directe toegang tot deze systemen. Klanten werken echter indirect met hen samen, aangezien deze componenten belangrijke gegevens over hun sitebezoekers opslaan.
 
@@ -66,4 +66,3 @@ SOLR is een open-source database en serversysteem van Apache. Het biedt robuuste
 
 
 ![](assets/advertiser_analytics.png)
-
