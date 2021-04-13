@@ -5,15 +5,15 @@ seo-title: Verwerkingstijd logboekbestanden verbeteren met opzoektabellen
 solution: Audience Manager
 title: Verwerkingstijd logboekbestanden verbeteren met opzoektabellen
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
-feature: reporting reference
+feature: Referentieverwijzing rapportage
+exl-id: bab51406-21e9-4033-90d4-6100daf6a311
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '504'
 ht-degree: 13%
 
 ---
-
 
 # Verwerkingstijd logboekbestanden verbeteren met opzoektabellen{#improve-log-file-processing-times-with-lookup-tables}
 
@@ -57,7 +57,7 @@ Hier is hetzelfde logbestand met de verwijderde metagegevens. Het bestand is kle
 |---|---|---|---|
 | 1 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
-| 3 | 111 | 456 | 27 |
+| 1 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
