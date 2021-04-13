@@ -5,15 +5,15 @@ seo-title: Segmenten verzenden naar een Google AdWords-remarketinglijst
 solution: Audience Manager
 title: Segmenten verzenden naar een Google AdWords-remarketinglijst
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-feature: Third Party Integrations
+feature: Integratie van derden
+exl-id: 76676eae-de4f-4fee-8774-ee215525306a
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '334'
 ht-degree: 5%
 
 ---
-
 
 # Segmenten verzenden naar een Google Ads-opmerkinglijst {#send-segments-to-a-google-adwords-remarketing-list}
 
@@ -36,7 +36,7 @@ Een [!DNL Google Ads] lijst voor het opnieuw in de handel brengen instellen als 
    * Serienummering: Ingeschakeld
    * Scheidingsteken: Puntkomma (;)
 
-1. Voeg in de sectie [!UICONTROL Segment Mappings] van uw [!DNL URL] [!DNL destination] de code van stap 2 toe aan de velden [!DNL URL] en [!DNL Secure URL]. Plaats de code in de velden [!DNL URL] en [!DNL Secure URL] vooraf in `http:` en &lt;a3/>.`https:`
+1. Voeg in de sectie [!UICONTROL Segment Mappings] van uw [!DNL URL] [!DNL destination] de code van stap 2 toe aan de velden [!DNL URL] en [!DNL Secure URL]. Plaats de code in de velden [!DNL URL] en [!DNL Secure URL] vooraf in `http:` en `https:`.
 
    >[!IMPORTANT]
    >
