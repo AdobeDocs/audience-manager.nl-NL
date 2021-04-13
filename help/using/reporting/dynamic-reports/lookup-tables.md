@@ -55,7 +55,7 @@ Hier is hetzelfde logbestand met de verwijderde metagegevens. Het bestand is kle
 
 | Gebruikers-id | ID advertentie | Order-id | Adverteerder-id |
 |---|---|---|---|
-| 1 | 111 | 456 | 27 |
+| 3 | 111 | 456 | 27 |
 | 2 | 111 | 456 | 27 |
 | 1 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
