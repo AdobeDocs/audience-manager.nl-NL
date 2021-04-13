@@ -5,15 +5,15 @@ seo-title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databest
 solution: Audience Manager
 title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databestanden
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: Inbound Data Transfers
+feature: Binnenkomende gegevensoverdrachten
+exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 translation-type: tm+mt
-source-git-commit: f037a12af641da44ed67e62a249c41487da7ac07
+source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
-
 
 # [!DNL FTP] Vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden  {#ftp-name-and-file-size-requirements-for-inbound-data-files}
 
