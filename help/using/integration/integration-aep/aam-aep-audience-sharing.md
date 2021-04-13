@@ -5,15 +5,15 @@ seo-title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platfor
 solution: Audience Manager
 title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP-publiek delen, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten
-feature: Integration with Platform
+feature: Integratie van Platform
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: 62938e95fa9eed3e747fa4dabf8695c5dbefde17
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1506'
 ht-degree: 2%
 
 ---
-
 
 # Experience Platform segment delen met Audience Manager en andere Experience Cloud oplossingen {#aam-aep-audience-sharing}
 
@@ -109,7 +109,7 @@ Zie de onderstaande schermafbeelding voor een voorbeeld van een segment dat auto
 
 | Objectnummer | Naam | Beschrijving |
 ---------|----------|---------
-| 1 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
+| 3 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Experience Platform worden gecreeerd worden opgeslagen in de gegevensbron **[!DNL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de in Experience Platform ingestelde samenvoegbeleidsinstelling volgen. |
 | 4 | [!UICONTROL Segment Rule] | Het segment bestaat uit de eigenschap die wordt beschreven in [Traits section](#aep-segments-as-aam-traits). |
@@ -190,3 +190,4 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 >* [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 >* [Gebruikershandleiding voor Experience Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 >* [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+
