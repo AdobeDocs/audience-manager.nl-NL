@@ -5,15 +5,15 @@ seo-title: Aan de slag met de regels voor profielsamenvoeging
 solution: Audience Manager
 title: Aan de slag met de regels voor profielsamenvoeging
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-feature: Profile Merge Rules
+feature: Profielsamenvoeging
+exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
 translation-type: tm+mt
-source-git-commit: dc22ed98b51b5633532bab45a79a14ee14dba5f5
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1306'
 ht-degree: 3%
 
 ---
-
 
 # Aan de slag met de regels voor profielsamenvoeging {#getting-started-with-profile-merge-rules}
 
@@ -63,7 +63,7 @@ Met de tekstvelden die aan deze instellingen zijn gekoppeld, kunt u de naam van 
 
 Als u een [!UICONTROL Profile Merge Rule] wilt maken, gaat u naar **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** en voert u de stappen uit voor elke sectie die hier wordt beschreven.
 
-U kunt maximaal drie samenvoegregels maken nadat u een gegevensbron voor meerdere apparaten hebt ingesteld. U krijgt toegang tot een 4de Regel van de Fusie van het Profiel ([!UICONTROL All Cross-Device Profiles]) als u omhoog voor [Op mensen-Gebaseerde Doelen](../destinations/people-based-destinations-overview.md) ondertekent.
+U kunt maximaal drie samenvoegregels maken nadat u een apparaatgegevensbron hebt ingesteld. U krijgt toegang tot een 4de Regel van de Fusie van het Profiel ([!UICONTROL All Cross-Device Profiles]) als u omhoog voor [Op mensen-Gebaseerde Doelen](../destinations/people-based-destinations-overview.md) ondertekent.
 
 Beheerdersmachtigingen zijn vereist voor het maken, bewerken of verwijderen van een regel. Alle gebruikers kunnen bestaande [!UICONTROL Profile Merge Rules] bekijken en gebruiken.
 
