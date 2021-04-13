@@ -1,20 +1,20 @@
 ---
 description: Met een bulkupdate kunt u meerdere segmenten, kenmerken, modellen, gegevensbronnen en segment- of kenmerkelementen in één bewerking bewerken. Volg deze instructies om bulkupdates uit te voeren.
-keywords: baaam
+keywords: baaien
 seo-description: Met een bulkupdate kunt u meerdere segmenten, kenmerken, modellen, gegevensbronnen en segment- of kenmerkelementen in één bewerking bewerken. Volg deze instructies om bulkupdates uit te voeren.
 seo-title: Bulkupdates
 solution: Audience Manager
 title: Bulkupdates
 uuid: 22f1badd-a274-4d3e-9957-a24bf8c1d0dc
-feature: baaam
+feature: BAAAM
+exl-id: ef01c7d0-5af1-4db7-9859-1087c1fef684
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '274'
 ht-degree: 2%
 
 ---
-
 
 # Bulkupdates{#bulk-updates}
 
