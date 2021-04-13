@@ -5,15 +5,15 @@ seo-title: Onderdelen voor dataverzameling
 solution: Audience Manager
 title: Onderdelen voor dataverzameling
 uuid: 51bb1719-5ff2-4bc7-8eb1-98795e05d08f
-feature: system components
+feature: 'Systeemonderdelen '
+exl-id: 7ae407f1-f1e4-4545-baa2-bcca40aad76f
 translation-type: tm+mt
-source-git-commit: 9e4f2f26b83fe6e5b6f669107239d7edaf11fed3
+source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 5%
+source-wordcount: '764'
+ht-degree: 6%
 
 ---
-
 
 # Onderdelen voor dataverzameling{#data-collection-components}
 
@@ -62,7 +62,7 @@ Als klant neemt u indirect via onze code voor gegevensverzameling contact op met
 
 **[!UICONTROL Profile Cache Servers (PCS)]**
 
-De [!UICONTROL PCS] is een grote database (in feite een grote servercookie). Er worden data opgeslagen voor actieve gebruikers van server-naar-server overdrachten en de [!DNL DCS]. [!UICONTROL PCS]-data bestaan uit apparaat-id’s, geverifieerde profiel-id’s en de gekoppelde eigenschappen. Wanneer [!DNL DCS] een vraag in real time ontvangt, controleert het [!UICONTROL PCS] voor andere eigenschappen een gebruiker kan tot behoren of voor kwalificeren. En als een eigenschap later aan een segment wordt toegevoegd, worden die eigenschap-id&#39;s toegevoegd aan [!UICONTROL PCS] en kunnen gebruikers automatisch in aanmerking komen voor dat segment, zonder een bezoek aan een bepaalde site of app. Met [!UICONTROL PCS] krijgt u meer inzicht in uw gebruikers, omdat deze gebruikers in real-time of achter de schermen kunnen vergelijken en segmenteren met nieuwe en historische gegevens over de eigenschap. [!DNL Audience Manager] Dit gedrag geeft u een vollediger en nauwkeuriger beeld van uw gebruikers dan van kwalificaties in real time alleen.
+De [!UICONTROL PCS] is een grote database (in feite een grote servercookie). Er worden data opgeslagen voor actieve gebruikers van server-naar-server overdrachten en de [!DNL DCS]. [!UICONTROL PCS]-data bestaan uit apparaat-id’s, geverifieerde profiel-id’s en de gekoppelde eigenschappen. Wanneer [!DNL DCS] een vraag in real time ontvangt, controleert het [!UICONTROL PCS] voor andere eigenschappen een gebruiker kan tot behoren of voor kwalificeren. En als een eigenschap later aan een segment wordt toegevoegd, worden die eigenschap-id&#39;s toegevoegd aan [!UICONTROL PCS] en kunnen gebruikers automatisch in aanmerking komen voor dat segment, zonder een bezoek aan een bepaalde site of app. De [!UICONTROL PCS] helpt [!DNL Audience Manager] het begrip van uw gebruikers te verdiepen omdat het gebruikers in echt - tijd of achter de scènes met nieuwe en historische bezitsgegevens kan aanpassen en segmenteren. Dit gedrag geeft u een vollediger en nauwkeuriger beeld van uw gebruikers dan van kwalificaties in real time alleen.
 
 Er zijn geen besturingselementen voor de gebruikersinterface waarmee onze klanten direct met de [!UICONTROL PCS] kunnen werken. De toegang van de klant tot [!UICONTROL PCS] is indirect, door zijn rol als gegevensopslag en gegevensoverdrachten. De [!UICONTROL PCS] loopt op Apache Cassandra.
 
@@ -79,7 +79,7 @@ Removed /dpm calls from the bulleted list. /dpm calls have been deprecated.
 
  -->
 
-De [!UICONTROL PCS] spoelt als ze 17 dagen inactief zijn. Deze kenmerken gaan echter niet verloren. Ze zijn opgeslagen in Hadoop. Als de gebruiker opnieuw op een ander tijdstip wordt gezien, dan drukt Hadoop al zijn kenmerken terug naar [!UICONTROL PCS], typisch binnen een periode van 24 uur.
+De [!UICONTROL PCS] spoelt als ze 17 dagen inactief zijn. Deze kenmerken gaan echter niet verloren. Ze zijn opgeslagen in Hadoop. Als de gebruiker opnieuw op een ander tijdstip wordt gezien, dan duwt de Hadoop al hun eigenschappen terug naar [!UICONTROL PCS], typisch binnen een periode van 24 uur.
 
 **Andere  [!UICONTROL DCS/PCS] processen: Privacy opt-out**
 
