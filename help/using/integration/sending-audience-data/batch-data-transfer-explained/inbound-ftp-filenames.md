@@ -5,7 +5,7 @@ seo-title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databest
 solution: Audience Manager
 title: Vereisten voor naam en bestandsgrootte van binnenkomende FTP-databestanden
 uuid: 49eaafac-5cb0-482f-872a-84c056016bdb
-feature: Binnenkomende gegevensoverdrachten
+feature: Inbound Data Transfers
 exl-id: 9c889214-7075-4392-9ed5-f07b91e7b50a
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

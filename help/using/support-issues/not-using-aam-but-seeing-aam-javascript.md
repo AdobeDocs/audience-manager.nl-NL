@@ -4,7 +4,7 @@ seo-description: We gebruiken Audience Manager niet, maar we zien wel JavaScript
 seo-title: We gebruiken Audience Manager niet, maar we zien wel JavaScript-calls van Audience Manager in JavaScript-foutopsporing. Waarom?
 solution: Audience Manager
 title: We gebruiken Audience Manager niet, maar we zien wel JavaScript-calls van Audience Manager in JavaScript-foutopsporing. Waarom?
-feature: Ondersteuning
+feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

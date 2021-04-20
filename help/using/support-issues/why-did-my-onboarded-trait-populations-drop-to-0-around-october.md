@@ -4,7 +4,7 @@ seo-description: Rond 14 oktober 2019 merkte ik dat mijn populaties met de eigen
 seo-title: Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald?
 solution: Audience Manager
 title: Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald?
-feature: Ondersteuning
+feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

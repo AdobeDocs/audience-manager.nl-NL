@@ -4,7 +4,7 @@ seo-description: Adobe biedt u de middelen om de privacykeuzen van uw gebruikers
 seo-title: Audience Manager-plug-in voor IAB TCF
 solution: Audience Manager
 title: Audience Manager-plug-in voor IAB TCF
-feature: Beheer en privacy van gegevens
+feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

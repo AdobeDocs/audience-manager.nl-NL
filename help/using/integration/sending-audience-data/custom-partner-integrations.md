@@ -4,7 +4,7 @@ seo-description: Deze pagina maakt een lijst van douaneintegratie tussen Audienc
 seo-title: Aangepaste partnerintegraties
 solution: Audience Manager
 title: Aangepaste partnerintegraties
-feature: Integratie van derden
+feature: Third-party Integration
 exl-id: 54af75a4-c05b-42fb-851c-5e242378d9f1
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

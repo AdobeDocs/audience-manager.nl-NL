@@ -4,7 +4,7 @@ seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om publie
 seo-title: Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn
 solution: Audience Manager
 title: Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn
-feature: Op mensen gebaseerde Doelen
+feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

@@ -4,7 +4,7 @@ seo-description: 'Mensen-Gebaseerde Doelen biedt veelvoudige implementatiestrate
 seo-title: Implementatieleiding voor op personen gebaseerde doelen
 solution: Audience Manager
 title: Implementatieleiding
-feature: Op mensen gebaseerde Doelen
+feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

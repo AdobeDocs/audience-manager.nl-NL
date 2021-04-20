@@ -5,7 +5,7 @@ seo-title: Audience Manager-id’s
 solution: Audience Manager
 keywords: GDPR-interface, GDPR-API, CCPA, privacy, AAM-id
 title: Audience Manager-id’s
-feature: Beheer en privacy van gegevens
+feature: Data Governance & Privacy
 exl-id: 5f18ed0a-c875-4596-a4d1-f9a7fe871d1b
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

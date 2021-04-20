@@ -4,7 +4,7 @@ seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om off-li
 seo-title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offline data
 solution: Audience Manager
 title: Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offline data
-feature: Op mensen gebaseerde Doelen
+feature: People-based Destinations
 exl-id: 1f906955-8fe7-4cce-95d6-0e4275d523e8
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

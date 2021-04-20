@@ -6,7 +6,7 @@ seo-title: Overzicht van batchdata verzenden naar Audience Manager
 solution: Audience Manager
 title: Overzicht van batchdata verzenden naar Audience Manager
 uuid: 472583b1-5057-4add-8e3c-5e50762c88e0
-feature: Binnenkomende gegevensoverdrachten
+feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

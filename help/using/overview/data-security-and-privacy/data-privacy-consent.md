@@ -6,7 +6,7 @@ solution: Audience Manager
 keywords: GDPR-gebruikersinterface, GDPR-API, CCPA, privacy, toestemming
 title: Beheer van toestemming
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Beheer en privacy van gegevens
+feature: Data Governance & Privacy
 exl-id: 9e545e8d-dbe4-4df9-8801-af3c2c73e406
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

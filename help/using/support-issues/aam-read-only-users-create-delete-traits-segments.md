@@ -2,7 +2,7 @@
 description: Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?
 solution: Audience Manager
 title: Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?
-feature: Ondersteuning
+feature: Support
 exl-id: 3383d27e-9c12-4925-ace3-c3133727d9b9
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

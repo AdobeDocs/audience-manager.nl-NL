@@ -4,7 +4,7 @@ seo-description: In dit artikel wordt uitgelegd hoe u het Twitter-publiek op maa
 seo-title: Aangepaste Twitter-doelgroepen configureren als apparaatgebaseerde, selfservice bestemming
 solution: Audience Manager
 title: Aangepaste Twitter-doelgroepen configureren als apparaatgebaseerde, selfservice bestemming
-feature: Op mensen gebaseerde Doelen
+feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

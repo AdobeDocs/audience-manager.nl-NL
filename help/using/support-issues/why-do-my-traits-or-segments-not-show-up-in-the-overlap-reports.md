@@ -4,7 +4,7 @@ seo-description: Uitleg waarom eigenschappen en segmenten niet worden weergegeve
 seo-title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
 solution: Audience Manager
 title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
-feature: Ondersteuning
+feature: Support
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

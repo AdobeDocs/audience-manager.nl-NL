@@ -4,7 +4,7 @@ seo-description: 'Gebruik op mensen gebaseerde bestemmingen om de segmenten van 
 seo-title: Personele Doelen Overzicht en de Gevallen van het Gebruik
 solution: Audience Manager
 title: Overzicht en gebruiksscenario’s
-feature: Op mensen gebaseerde Doelen
+feature: People-based Destinations
 exl-id: 2edbda3b-e2a3-4a92-965b-206a21764cc8
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

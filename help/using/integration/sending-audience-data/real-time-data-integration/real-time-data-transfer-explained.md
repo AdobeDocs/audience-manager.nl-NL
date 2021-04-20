@@ -5,7 +5,7 @@ seo-title: Real-Time Data Transfer Process beschreven
 solution: Audience Manager
 title: Real-Time Data Transfer Process beschreven
 uuid: b68781b3-0b7a-442d-8e34-2db2474849a4
-feature: Binnenkomende gegevensoverdrachten
+feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt

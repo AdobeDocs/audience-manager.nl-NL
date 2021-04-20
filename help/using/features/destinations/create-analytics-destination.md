@@ -4,7 +4,7 @@ seo-description: Met Audience Analytics kunt u Audience Manager-segmenten naar A
 seo-title: Een Analytics-bestemming configureren
 solution: Audience Manager
 title: Een Analytics-bestemming configureren
-feature: Adobe Analytics-integratie
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

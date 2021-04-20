@@ -5,7 +5,7 @@ seo-title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platfor
 solution: Audience Manager
 title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP-publiek delen, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten
-feature: Integratie van Platform
+feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

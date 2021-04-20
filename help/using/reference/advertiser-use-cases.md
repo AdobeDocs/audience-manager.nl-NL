@@ -5,7 +5,7 @@ seo-title: Gebruiksscenario’s voor adverteerders
 solution: Audience Manager
 title: Gebruiksscenario’s voor adverteerders
 uuid: ceb06f86-1f9b-4e02-b179-116ec635ce5d
-feature: 'Referenties '
+feature: Reference
 exl-id: 30f2ee7b-6238-4dd5-a59f-ee91b6256bcb
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

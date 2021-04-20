@@ -5,7 +5,7 @@ seo-title: Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-da
 solution: Audience Manager
 title: Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
-feature: Binnenkomende gegevensoverdrachten
+feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74

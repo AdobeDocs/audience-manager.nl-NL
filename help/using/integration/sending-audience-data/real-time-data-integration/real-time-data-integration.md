@@ -5,7 +5,7 @@ seo-title: Integratie van binnenkomende realtimedata
 solution: Audience Manager
 title: Integratie van binnenkomende realtimedata
 uuid: 96f292bb-608c-41d3-8baa-a58ecb411db0
-feature: Binnenkomende gegevensoverdrachten
+feature: Inbound Data Transfers
 translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt

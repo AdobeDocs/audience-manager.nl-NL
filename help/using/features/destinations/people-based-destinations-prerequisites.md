@@ -4,7 +4,7 @@ seo-description: 'Lees hieronder voor een overzicht van klantenvereisten waaraan
 seo-title: Vereisten en overwegingen voor op mensen gebaseerde doelen
 solution: Audience Manager
 title: Vereisten en overwegingen
-feature: Op mensen gebaseerde Doelen
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44

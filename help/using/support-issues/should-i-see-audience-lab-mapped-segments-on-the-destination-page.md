@@ -4,7 +4,7 @@ seo-description: Waarom in Audience Lab toegewezen segmenten niet op de pagina m
 seo-title: Waarom in Audience Lab toegewezen segmenten niet op de pagina met bestemmingsdetails worden getoond.
 solution: Audience Manager
 title: Zou ik mijn in Audience Lab toegewezen segmenten moeten zien op de pagina met bestemmingsdetails?
-feature: Ondersteuning
+feature: Support
 exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
 translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
