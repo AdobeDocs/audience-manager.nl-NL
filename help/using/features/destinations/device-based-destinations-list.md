@@ -2,24 +2,23 @@
 description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
 seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
 seo-title: Adobe Audience Manager Server-naar-server doelen
-keywords: activation; activation partners, destination, destinations
+keywords: activering; activeringspartners, bestemming, bestemmingen
 solution: Audience Manager
 title: Adobe Audience Manager Server-naar-server doelen
-feature: Destination Basics
+feature: Grondbeginselen van bestemming
+exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
 translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1148'
 ht-degree: 71%
 
 ---
 
-
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doelen](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] wordt [!UICONTROL device-based destinations] ook [!UICONTROL server-to-server destinations] genoemd. Voor meer informatie over een integratie raadpleegt u de [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)-vermelding (indien beschikbaar) of neemt u contact op met uw [!DNL Adobe]-consultant of de klantenservice.
+Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doelen](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] wordt [!UICONTROL device-based destinations] ook [!UICONTROL server-to-server destinations] genoemd. Raadpleeg de [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html)-lijst (indien beschikbaar) of neem contact op met uw [!DNL Adobe]-consultant of de klantenservice voor meer informatie over integratie.
 
- 
 
 * **Last Updated** = Toont de laatste datum toen er een update voor dit  [!UICONTROL device-based destination].
 * **Updates** = wijst erop of gegevens in real time of partij (1xday) naar dit  [!DNL Audience Manager] verzendt  [!UICONTROL destination].
@@ -28,10 +27,9 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 * **[!DNL ICDS]** = Deze kolom maakt een lijst van de partners die steunen  [!UICONTROL Instant Cross-Device Suppression]. Lees meer over [Onmiddellijke ondersteuning voor verschillende apparaten](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
 * **Mobiel apparaat-ids** = Deze kolom bevat een lijst met partners die mobiele apparaat-id&#39;s kunnen ontvangen van  [!DNL Audience Manager].
 
- 
 
 | Integratie | Laatst bijgewerkt | Updates | Segment opheffen | Goedkeuringssignalen [!DNL IAB TCF] ontvangen | [!DNL ICDS] | Mobiele apparaat-id’s |
-|---------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
+|----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 09-26-2018 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL 4info] | 02-09-2017 | 1xday | Nee | Nee | Nee | Ja |
 | [!DNL AcuityAds] | 02-09-2017 | In real time | Ja | Nee | Ja | Nee |
@@ -51,6 +49,7 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL AOL ONE] | 03-02-2017 | In real time | Ja | Nee | Nee | Ja |
 | [!DNL AppNexus] | 03-02-2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL AppNexus Yieldex] | 08-10-2017 | 1xday | Ja | Nee | Nee | Nee |
+| [!DNL Artsai] (voorheen  [!DNL Adxcel]) | 01-27-2020 | 1xday | Nee | Nee | Nee | Ja |
 | [!DNL Atedra]/[!DNL AdStanding] | 03-02-2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL Avocet] | 12-06-2017 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL Bidtellect] | 03-03-2017 | In real time | Ja | Nee | Nee | Nee |
@@ -81,9 +80,11 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL EyeView Digital] | 06-14-2018 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Fiksu] | 03-03-2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Flashtalking] | 03-02-2017 | 1xday | Nee | Nee | Nee | Nee |
+| [!DNL Flybits] | 07-31-2020 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL FreakOut] | 03-03-2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL Freewheel] | 02-27-2017 | 1xday | Ja | Ja | Nee | Ja |
 | [!DNL Gamut Media] | 03-03-2017 | In real time |  | Nee | Nee |  |
+| [!DNL Google AdsWords Display] | 08-02-2018 | In real time | Ja | Ja | Nee | Ja |
 | [!DNL Google DoubleClick Bid Manager (DBM)] | 04-24-2017 | In real time | Ja | Ja | Ja | Ja |
 | [!DNL Google DoubleClick Campaign Manager (DCM fka DFA)] | 04-24-2017 | In real time | Ja | Ja | Ja | Ja |
 | [!DNL Google DoubleClick for Publishers (DFP, DFPP)] | 04-24-2017 | In real time | Ja | Ja | Ja | Ja |
@@ -134,6 +135,7 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL RocketFuel] | 02-17-2017 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL Rubicon] |  | In real time | Ja | Ja | Nee |  |
 | [!DNL RUN] | 02-17-2017 | 1xday | Ja | Nee | Nee | Nee |
+| [!DNL RTB House] | 02-04-2021 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL Sabio Mobile] | 02-17-2017 | 1xday | Nee | Nee | Nee | Ja |
 | [!DNL Simpli.fi] | 02-17-2017 | 1xday | Nee | Nee | Nee | Ja |
 | [!DNL Sizmek ad server (Amazon)] | 02-17-2017 | Real Time | Ja | Nee | Nee |  |
@@ -150,7 +152,7 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL Supership]/[!DNL ScaleOut] | 03-03-2017 | 1x/dag | Ja | Nee | Nee | Nee |
 | [!DNL Survata] | 08-09-2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Taboola] | 08-03-2017 | 1xday | Nee | Ja | Nee | Nee |
-| [!DNL Tapad] | 03-03-2017 | In real time | Nee | Nee | Nee | Ja |
+| [!DNL Tapad] | 07-17-2020 | In real time | Nee | Nee | Nee | Ja |
 | [!DNL Telaria] | 04-25-2019 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Telogical Systems] | 03-03-2017 | Real Time | Ja | Nee | Nee | Nee |
 | [!DNL The Trade Desk] | 03-03-2017 | In real time | Ja | Ja | Ja | Ja |
