@@ -1,19 +1,17 @@
 ---
-description: Een sleutelwaardepaar bestaat uit verwante elementen A. Sleutel, die een constante is die de gegevensset definieert (bijv. geslacht, kleur, prijs) en een waarde, die een variabele is die tot de reeks behoort (bijv. man/vrouw, groen, 100). De Bouwer van de bestemming verzendt gegevens die als zeer belangrijk-waardeparen worden geformatteerd.
-seo-description: Een sleutelwaardepaar bestaat uit verwante elementen A. Sleutel, die een constante is die de gegevensset definieert (bijv. geslacht, kleur, prijs) en een waarde, die een variabele is die tot de reeks behoort (bijv. man/vrouw, groen, 100). De Bouwer van de bestemming verzendt gegevens die als zeer belangrijk-waardeparen worden geformatteerd.
-seo-title: Standaard en seriële sleutelwaardeparen
+description: A [!DNL key-value pair] bestaat uit verwante elementen A key, die een constante is die de gegevensset definieert (bijv. geslacht, kleur, prijs) en een waarde, die een variabele is die tot de set behoort (bijv. man/vrouw, groen, 100). De Bouwer van de bestemming verzendt gegevens die als zeer belangrijk-waardeparen worden geformatteerd.
 solution: Audience Manager
-title: Standaard en seriële sleutelwaardeparen
+title: Standaard en serieel [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-feature: Destination Basics
+feature: Grondbeginselen van bestemming
+exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+source-git-commit: c895ec099ff92f94328ad29e6f2349e79b77d667
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 3%
+source-wordcount: '549'
+ht-degree: 2%
 
 ---
-
 
 # Standaard en seriële sleutelwaardeparen {#standard-and-serial-key-value-pairs}
 
