@@ -6,7 +6,7 @@ uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
 feature: Grondbeginselen van bestemming
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
 translation-type: tm+mt
-source-git-commit: f9f5cb5f83f095ad8cac01447ef0c360f0acd5fc
+source-git-commit: fe6e2883e67e70b362d31e19b28df4b586de7b8a
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # Standaard en seriële sleutelwaardeparen {#standard-and-serial-key-value-pairs}
 
-Een sleutelwaardepaar bestaat uit verwante elementen: Een sleutel, die een constante is die de gegevensset definieert (bijv. geslacht, kleur, prijs) en een waarde, die een variabele is die tot de set behoort (bijv. man/vrouw, groen, 100). [!UICONTROL Destination Builder] verzendt gegevens die als sleutel-waardeparen worden geformatteerd.
+Een sleutelwaardepaar bestaat uit verwante elementen: Een sleutel, die een constante is die de gegevensset definieert (bijvoorbeeld: geslacht, kleur, prijs) en een waarde, een variabele die tot de reeks behoort (bijv. man/vrouw, groen, 100). [!UICONTROL Destination Builder] verzendt gegevens die als sleutel-waardeparen worden geformatteerd.
 
 ## Standaard sleutelwaardeparen {#basic-key-value-pairs}
 
