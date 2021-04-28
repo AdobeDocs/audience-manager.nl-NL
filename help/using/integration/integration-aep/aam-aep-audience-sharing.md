@@ -5,12 +5,12 @@ seo-title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platfor
 solution: Audience Manager
 title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP-publiek delen, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten
-feature: Platform Integration
+feature: Integratie van Platform
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1465'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Bovendien, worden uw segmenten van het Experience Platform gedeeld aan andere op
 >[!IMPORTANT]
 >
 > * U hebt een licentie voor Audience Managers nodig om de hierboven vermelde gebruiksgevallen van het Platform voor gegevensbeheer in te schakelen.
-> * U *hebt geen* vergunning van de Audience Manager nodig om de segmenten van het Experience Platform met Adobe Advertising Cloud, Adobe Target, Marketo, en andere oplossingen van Experience Cloud te delen, via de integratie van de Diensten van de Kern.
+> * U *hebt geen* Audience Manager licentie nodig om Experience Platform segmenten te delen met Adobe Advertising Cloud, Adobe Target, Marketo en andere Experience Cloud oplossingen, via de Core Services-integratie.
 
 
 <br>
@@ -109,9 +109,9 @@ Zie de onderstaande schermafbeelding voor een voorbeeld van een segment dat auto
 
 | Objectnummer | Naam | Beschrijving |
 ---------|----------|---------
-| 3 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
+| 1 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Experience Platform worden gecreeerd worden opgeslagen in de gegevensbron **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de in Experience Platform ingestelde samenvoegbeleidsinstelling volgen. |
+| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de in Experience Platform ingestelde samenvoegbeleidsinstelling volgen. |
 | 4 | [!UICONTROL Segment Rule] | Het segment bestaat uit de eigenschap die wordt beschreven in [Traits section](#aep-segments-as-aam-traits). |
 
 ## Ondersteuning voor Exportcontrole voor gegevens van Audience Manager in Experience Platform {#aam-data-export-control-in-aep}
@@ -164,17 +164,13 @@ Audience Manager werkt rapportaantallen in de interface eens per dag bij.   De t
 
 De integratie tussen Adobe Experience Platform en Audience Manager deelt een aantal standaard [naamruimten](https://docs.adobe.com/content/help/en/experience-platform/identity/namespaces.html#identity-types) voor alle klanten: ECID, IDFA, GAID, gehashte e-mailadressen (EMAIL_LC_SHA256), AdCloud-id. Als in uw Experience Platform-segmenten een van deze profielen wordt gebruikt als primaire identiteit voor de gekwalificeerde profielen, worden de profielen geteld in de kenmerken en segmenten van de Audience Manager.
 
-Bovendien, kan de Audience Manager de inkomende realisaties voor om het even welke naamruimten registreren van de douaneidentiteit die u in de segmenten van het Experience Platform gebruikt als:
-* de identiteit is gemarkeerd als primair *en*
-* u hebt al een overeenkomstige bron van cross-device gegevens in Audience Manager.
-
 >[!NOTE]
 >
 > Soorten publiek in Experience Platform met identiteiten die rauwe e-mails afspelen, komen nooit voor in de Audience Manager.
 
-Bijvoorbeeld, als u een segment van het Experience Platform &quot;Al mijn klanten&quot;had, en de gekwalificeerde profielen CRM IDs, ECID, IDFA, ruw en gehashed e-mailadressen waren, zou het overeenkomstige segment in Audience Manager slechts profielen omvatten die van CRM IDs, ECID, IDFA, en gehakt e-mailadressen worden afgevinkt. De segmentpopulatie in Audience Manager zou kleiner zijn dan die in Experience Platform.
+Bijvoorbeeld, als u een segment van het Experience Platform &quot;Al mijn klanten&quot;had, en de gekwalificeerde profielen CRM IDs, ECID, IDFA, ruwe en gehashed e-mailadressen waren, zou het overeenkomstige segment in Audience Manager slechts profielen omvatten die van ECID, IDFA, en gehakt e-mailadressen worden afgeveegd. De segmentpopulatie in Audience Manager zou kleiner zijn dan die in Experience Platform.
 
-![Experience Platform tot delen van Audience Manager - segmentcompositie](/help/using/integration/integration-aep/assets/AEP-to-AAM-profiles.png)
+![Experience Platform tot delen van Audience Manager - segmentcompositie](assets/AEP-to-AAM-profiles.png)
 
 <!--
 
