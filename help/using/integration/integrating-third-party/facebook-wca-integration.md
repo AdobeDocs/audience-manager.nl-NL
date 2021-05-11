@@ -1,16 +1,16 @@
 ---
-description: Deze pagina illustreert het proces van het maken van WCA-pixels (Custom Audiences) op de Facebook-website, zodat webdoelsegmenten voor Audience Managers naar Facebook kunnen worden gestuurd, zodat ze online en doelgericht kunnen worden gemaakt.
-seo-description: Deze pagina illustreert het proces van het maken van WCA-pixels (Custom Audiences) op de Facebook-website, zodat webdoelsegmenten voor Audience Managers naar Facebook kunnen worden gestuurd, zodat ze online en doelgericht kunnen worden gemaakt.
+description: Deze pagina illustreert het proces van het creëren van de pixel van de Douane van de Auditie van de Website van Facebook (WCA) voor het verzenden van web-based Audience Manager publiekssegmenten naar Facebook, voor online en gericht met betere transparantie.
+seo-description: Deze pagina illustreert het proces van het creëren van de pixel van de Douane van de Auditie van de Website van Facebook (WCA) voor het verzenden van web-based Audience Manager publiekssegmenten naar Facebook, voor online en gericht met betere transparantie.
 seo-title: Facebook WCA-integratie
 solution: Audience Manager
 title: Facebook WCA-integratie
-feature: Third-party Integration
+feature: Integratie van derden
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 5%
+source-wordcount: '855'
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Deze pagina illustreert het proces van het maken van [!DNL Facebook Website Cust
 
 ## Overzicht {#overview}
 
-[Met Facebook Website Custom Audiences (WCA) ](https://www.facebook.com/business/help/449542958510885) kunt u een lijst maken met personen die bepaalde pagina&#39;s hebben bezocht of bepaalde handelingen op uw website hebben uitgevoerd. [!DNL Audience Manager] laat activering in het  [!DNL WCA] gebruiken van  [!DNL URL] bestemmingen toe, waarmee u een op pixel-gebaseerde integratie kunt vormen om web-based publiek naar  [!DNL Facebook] voor het richten te verzenden.
+[Met WCA (facebook Website Custom Audiences) ](https://www.facebook.com/business/help/449542958510885) kunt u een lijst maken met personen die bepaalde pagina&#39;s hebben bezocht of bepaalde handelingen op uw website hebben uitgevoerd. [!DNL Audience Manager] laat activering in het  [!DNL WCA] gebruiken van  [!DNL URL] bestemmingen toe, waarmee u een op pixel-gebaseerde integratie kunt vormen om web-based publiek naar  [!DNL Facebook] voor het richten te verzenden.
 
 ![Facebook WCA-integratie](/help/using/integration/assets/facebook-wca-integration.png)
 
@@ -35,7 +35,7 @@ Deze pagina illustreert het proces van het maken van [!DNL Facebook Website Cust
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versie 4.1.0 of hoger. Download de nieuwste versie **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
 4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versie 9.0 of hoger,  **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)** te downloaden. Als u ook [Server-Side Forwarding (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) gebruikt om gegevens te importeren naar [!DNL Audience Manager], moet u AppMeasurement versie 2.12 of hoger gebruiken. Download [!DNL AppMeasurement] met [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
 
-We raden u aan de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) of [Adobe Dynamic Tag Management](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html).
+We raden u aan de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
 ## Stap 1 - maak een [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
