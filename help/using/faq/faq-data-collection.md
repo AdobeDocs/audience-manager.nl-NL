@@ -5,16 +5,16 @@ seo-title: Veelgestelde vragen over dataverzameling en productintegratie
 solution: Audience Manager
 title: Veelgestelde vragen over dataverzameling en productintegratie
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
-keywords: SFTP; SFTP address; STFP IP address; FTP address
-feature: Administration
+keywords: SFTP; SFTP-adres; STFP IP-adres; FTP-adres
+feature: Beheer
+exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 translation-type: tm+mt
-source-git-commit: 1f3b3d7d7ea8eaa0c1b64f147dc60b85f4e2f487
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 84%
+source-wordcount: '1159'
+ht-degree: 83%
 
 ---
-
 
 # Veelgestelde vragen over dataverzameling en productintegratie {#data-collection-and-product-integration-faq}
 
@@ -84,7 +84,7 @@ Stel als best practice uw [!DNL Audience Manager]- [!DNL Analytics]-integratie i
 
 * Zet [!UICONTROL DIL] rechtstreeks in de `s_code`.
 
-* Maak [!UICONTROL DIL] en de `s_code` beschikbaar via [!DNL Adobe Experience Platform Launch] of [!DNL Adobe DTM].
+* Geef [!UICONTROL DIL] en `s_code` door [!DNL Adobe Experience Platform Launch].
 
 Zie [Data Integration Library (DIL)-API](../dil/dil-overview.md).
 
