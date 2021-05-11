@@ -6,15 +6,15 @@ keywords: 'dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil, dil,
 solution: Audience Manager
 title: Inzicht in de Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
-feature: DIL Implementation
+feature: DIL-implementatie
+exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
 translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '496'
 ht-degree: 16%
 
 ---
-
 
 # Het begrip [!DNL Data Integration Library] (DIL){#understanding-the-data-integration-library-dil}
 
@@ -43,8 +43,6 @@ Nochtans, kunt u de recentste Experience Cloud en [!DNL DIL] versies van onze pa
 [!UICONTROL DIL] code kan  **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)** worden gedownload. Houd er rekening mee dat [!UICONTROL DIL] vanaf versie 8.0 (uitgebracht in augustus 2018) sterk afhankelijk is van [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html), versie 3.3 of hoger. Het steunt op [!DNL ID Service] aan brand ID syncs en [!DNL URL destinations]. Er treedt een fout op als [!DNL ID Service] ontbreekt, oud is of niet is geconfigureerd.
 
 In plaats van met [!UICONTROL DIL] te werken en [!DNL Audience Manager] manueel op te zetten, adviseren wij dat u [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) in plaats daarvan gebruikt. [!DNL Adobe Experience Platform Launch] is het geadviseerde implementatiehulpmiddel omdat het codeplaatsing, plaatsing, en versiebeheer vereenvoudigt. Lees meer over [Audience Manager uitbreiding](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) in [!DNL Adobe Experience Platform Launch].
-
-[!DNL Adobe Experience Platform Launch] is de opvolger van  [Adobe Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/c-overview.html) ([!DNL DTM]).
 
 ## Voorbeeld van aanroep {#sample-code}
 
