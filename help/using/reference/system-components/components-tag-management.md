@@ -1,23 +1,23 @@
 ---
-description: Tot de onderdelen voor tagbeheer voor Audience Managers behoren het clientportaal, Adobe Tag Manager (afgekeurd ten gunste van Adobe Dynamic Tag Manager en Adobe Experience Platform Launch), DIL, Akamai en de besturingsdatabase.
-seo-description: Tot de onderdelen voor tagbeheer voor Audience Managers behoren het clientportaal, Adobe Tag Manager (afgekeurd ten gunste van Adobe Dynamic Tag Manager en Adobe Experience Platform Launch), DIL, Akamai en de besturingsdatabase.
+description: Tot de onderdelen voor tagbeheer van Audience Managers behoren het clientportaal, Adobe Tag Manager (afgekeurd ten gunste van Adobe Experience Platform Launch), DIL, Akamai en de controledatabase.
+seo-description: Tot de onderdelen voor tagbeheer van Audience Managers behoren het clientportaal, Adobe Tag Manager (afgekeurd ten gunste van Adobe Experience Platform Launch), DIL, Akamai en de controledatabase.
 seo-title: Onderdelen voor Tag Management
 solution: Audience Manager
 title: Onderdelen voor Tag Management
 uuid: e5059478-6ba7-4e1a-afec-e41ad7a27750
-feature: System Components
+feature: 'Systeemonderdelen '
 exl-id: 064e3653-7658-422c-9dd5-2252806e8f09
 translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 5%
+source-wordcount: '349'
+ht-degree: 3%
 
 ---
 
 # Onderdelen voor Tag Management{#tag-management-components}
 
-Tot de onderdelen voor tagbeheer voor Audience Managers behoren het clientportaal, Adobe Tag Manager (afgekeurd ten gunste van Adobe Dynamic Tag Manager en Adobe Experience Platform Launch), DIL, Akamai en de besturingsdatabase.
+Tot de onderdelen voor tagbeheer van Audience Managers behoren het clientportaal, Adobe Tag Manager (afgekeurd ten gunste van Adobe Experience Platform Launch), DIL, Akamai en de controledatabase.
 
 <!-- 
 
@@ -39,7 +39,7 @@ Het clientportaal is de primaire gebruikersinterface (UI) voor tag- en gegevensb
 
 ## DIL/TIM-container {#dil-tim}
 
-Met de container [!UICONTROL DIL] kunt u [!DNL Audience Manager] code voor gegevensverzameling op uw website implementeren. [!UICONTROL TIM] is het vervangen van Taginvoegingsbeheer. Het wordt niet meer gebruikt door [!DNL Audience Manager]. In plaats daarvan gebruikt u [Dynamisch tagbeheer](https://docs.adobe.com/content/help/nl-NL/dtm/using/dtm-home.html) of de extensie [!DNL Audience Manager] in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) om containercode te configureren en te genereren die u op pagina&#39;s in uw overzicht plaatst. De [!UICONTROL DTM]-container werkt met [!UICONTROL Data Information Library (DIL)] om gegevens van uw site te verzamelen en naar [!DNL Audience Manager] te verzenden.
+Met de container [!UICONTROL DIL] kunt u [!DNL Audience Manager] code voor gegevensverzameling op uw website implementeren. [!UICONTROL TIM] is het vervangen van Taginvoegingsbeheer. Het wordt niet meer gebruikt door [!DNL Audience Manager]. In plaats daarvan gebruikt u de extensie [!DNL Audience Manager] in [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html) om containercode te configureren en te genereren die u op pagina&#39;s in uw overzicht plaatst.
 
 ## Data Integration Library (DIL) {#dil}
 
@@ -47,7 +47,7 @@ De [Gegevensinformatiebibliotheek](../../dil/dil-overview.md) (DIL) is een zelfs
 
 ## Akamai {#akamai}
 
-[!DNL Audience Manager] gebruikt  [](https://www.akamai.com/us/en/about/) Akamaito-host en levert containercode van ons eigen tagbeheerplatform, bekend als  [!UICONTROL TIM (Tag Insertion Manager)]. Codeimplementatie met [!UICONTROL TIM] is echter afgebouwd ten gunste van [!DNL Adobe Dynamic Tag Management] en [!DNL Adobe Experience Platform Launch].
+[!DNL Audience Manager] gebruikt  [](https://www.akamai.com/us/en/about/) Akamaito-host en levert containercode van ons eigen tagbeheerplatform, bekend als  [!UICONTROL TIM (Tag Insertion Manager)]. Codeimplementatie met [!UICONTROL TIM] is echter geleidelijk afgebouwd ten gunste van [!DNL Adobe Experience Platform Launch].
 
 ## Database {#control-database} beheren
 
