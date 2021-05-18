@@ -7,9 +7,9 @@ title: DCS-foutcodes, -berichten en -voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 1be86de9322df6b764ee3870fa82ddb2bb8b06ec
+source-git-commit: 38c4c46709491656071f4a958e9f0de26d42dd74
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1547'
 ht-degree: 4%
 
 ---
@@ -27,7 +27,7 @@ In de onderstaande tabellen staat *cursief* voor een variabele plaatsaanduiding.
 | 0 | Onbekende fout | Dit is een catch-all fout die gebeurtenissen behandelt die niet door de andere foutenmanagers worden behandeld. Het oplossen van problemen met deze fout is moeilijk. Het kan worden veroorzaakt door een verscheidenheid van onbekende acties of gebeurtenissen. Als u deze fout ontvangt, probeer opnieuw uw [!DNL DCS] verzoek. Neem contact op met uw [!DNL Adobe]-vertegenwoordiger als het probleem zich blijft voordoen. |
 | 1 | Kan configuratie voor hostnaam niet vinden: `hostname` | De gastheernaam die in het verzoek wordt verzonden is niet opstelling door ons team van de partnerlevering. Neem contact op met uw [!DNL Adobe]-vertegenwoordiger als dit foutbericht wordt weergegeven. |
 | 2 | Ongeldige `d_orgid` waarde (kon geen config voor deze org identiteitskaart vinden): `ID` | De organisatie-id is onjuist. Controleer uw id en probeer het verzoek opnieuw. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie &quot;Beheerpagina&quot; [Organisaties en account koppelen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html) voor informatie over hoe u deze kunt vinden. |
-| 10 | Kan kenmerken niet evalueren | De kenmerken van het verzoek zijn gedeeltelijk of helemaal niet beoordeeld. |
+| 10 | Kan kenmerken niet evalueren | De kenmerken van het verzoek zijn gedeeltelijk of helemaal niet beoordeeld. Neem contact op met uw [!DNL Adobe]-vertegenwoordiger als het probleem zich blijft voordoen. |
 
 ## Integratiefoutcodes {#integration-error-codes}
 
