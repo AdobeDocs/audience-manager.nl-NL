@@ -7,10 +7,9 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP-publiek delen, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten
 feature: Integratie van Platform
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-translation-type: tm+mt
-source-git-commit: 8dabdc08a58ece28162c70aefb392ff36f5fbc89
+source-git-commit: 6900b56b4e0258ed0c4ddf94ef7b1f2c7e48a50d
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1480'
 ht-degree: 2%
 
 ---
@@ -40,15 +39,13 @@ Bovendien, worden uw segmenten van het Experience Platform gedeeld aan andere op
 > * U *hebt geen* Audience Manager licentie nodig om Experience Platform segmenten te delen met Adobe Advertising Cloud, Adobe Target, Marketo en andere Experience Cloud oplossingen, via de Core Services-integratie.
 
 
-<br>
-
 Zie de onderstaande tabel voor een overzicht van de gebruikte gevallen voor het delen van het publiek:
 
 | **Gebruiksscenario** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
----------|----------|---------|---------
+---------|----------|---------|---------|
 | **Delen van publiek** | <ul><li>Klantprofielen verrijken met Audience Manager-gegevens</li><li>Audience Manager-gegevens gebruiken in segmentatie van Experience Platform</li></ul> | <ul><li>Gegevens van derden toevoegen aan segmenten</li><li>Algorithmming</li><li>Activering naar andere bestemmingen</li></ul> | Gebruik Experience Platform-segmenten in andere Experience Cloud-oplossingen, zoals Adobe Target, Advertising Cloud of Marketo. |
 
-<br> 
+{style=&quot;table-layout:auto&quot;}
 
 ## Segmenten en kenmerken van Audience Managers in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
@@ -57,8 +54,6 @@ Uw Audience Managers trekken en de segmenten verschijnen in Experience Platform 
 * [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html#audiences)
 * [Gebruikershandleiding voor Experience Platform Segment Builder](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html#audiences)
 * [Audience Manager Connector](https://docs.adobe.com/content/help/en/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-
-<br> 
 
 ## Adobe Experience Platform-segmenten in Audience Manager {#aep-segments-in-aam}
 
@@ -88,14 +83,14 @@ Zie de onderstaande schermafbeelding voor een voorbeeld van een eigenschap die a
 
 
 | Objectnummer | Naam | Beschrijving |
----------|----------|---------
+---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | De treits die van de segmenten van het Experience Platform worden gecreeerd worden gecreeerd als ongebogen eigenschappen in Audience Manager. |
 | 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Experience Platform worden gecreeerd worden opgeslagen in de gegevensbron **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
 | 4 | [!UICONTROL Trait Expression] | De expressie trait is `segID = segment ID in Experience Platform`. |
 | 5 | [!UICONTROL Segments with this Trait] | Een automatisch gecreeerd segment dat dit bezit als zijn samenstelling gebruikt. |
 
-<br> 
+{style=&quot;table-layout:auto&quot;}
 
 ### Segmenten {#aep-segments-as-aam-segments}
 
@@ -108,11 +103,13 @@ Zie de onderstaande schermafbeelding voor een voorbeeld van een segment dat auto
 ![Schermafbeelding van segment](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | Objectnummer | Naam | Beschrijving |
----------|----------|---------
+---------|----------|---------|
 | 1 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Experience Platform worden gecreeerd worden opgeslagen in de gegevensbron **[!DNL Adobe Experience Platform Audience Sharing]**. |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de in Experience Platform ingestelde samenvoegbeleidsinstelling volgen. |
 | 4 | [!UICONTROL Segment Rule] | Het segment bestaat uit de eigenschap die wordt beschreven in [Traits section](#aep-segments-as-aam-traits). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Ondersteuning voor Exportcontrole voor gegevens van Audience Manager in Experience Platform {#aam-data-export-control-in-aep}
 
@@ -137,6 +134,8 @@ De volgende lijst schetst hoe de specifieke Controles van de Uitvoer van Gegeven
 | Kan niet gebruiken voor onsite advertentie | C6: Gegevens kunnen niet worden gebruikt voor on-site en doelgericht |
 | Kan niet worden gebruikt voor onsite personalisatie | C7: Gegevens kunnen niet worden gebruikt voor het on-site maken van inhoud |
 
+{style=&quot;table-layout:auto&quot;}
+
 ### Besturingselementen voor gegevensexport naar marketingacties
 
 In de volgende tabel wordt aangegeven hoe specifieke gegevensuitvoerlabels worden toegewezen aan erkende marketingacties:
@@ -147,6 +146,8 @@ In de volgende tabel wordt aangegeven hoe specifieke gegevensuitvoerlabels worde
 | Deze bestemming kan voor off-site en het richten worden gebruikt | Secundaire doelen voor meerdere sites |
 | Deze bestemming kan worden gebruikt voor on-site en doelgericht | Onsite reclame |
 | Deze bestemming kan voor onsite en verpersoonlijking worden gebruikt | Onsite personalisatie |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Verschillen in segmentpopulaties tussen Audience Manager en Experience Platform {#aep-aam-segment-population-differences} begrijpen
 
