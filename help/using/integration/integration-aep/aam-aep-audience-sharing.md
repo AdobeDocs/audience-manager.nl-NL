@@ -104,7 +104,7 @@ Zie de onderstaande schermafbeelding voor een voorbeeld van een segment dat auto
 
 | Objectnummer | Naam | Beschrijving |
 ---------|----------|---------|
-| 1 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
+| 3 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Experience Platform worden gecreeerd worden opgeslagen in de gegevensbron **[!DNL Adobe Experience Platform Audience Sharing]**. |
 | 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de in Experience Platform ingestelde samenvoegbeleidsinstelling volgen. |
 | 4 | [!UICONTROL Segment Rule] | Het segment bestaat uit de eigenschap die wordt beschreven in [Traits section](#aep-segments-as-aam-traits). |
