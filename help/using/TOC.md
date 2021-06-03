@@ -5,10 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Leer hoe u met Audience Manager commercieel relevante informatie over sitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en inhoud voor het juiste publiek kunt gebruiken.
 feature-set: Audience Manager
-translation-type: tm+mt
-source-git-commit: bd049d293eeddf9c3454ea8dc183f84f5c7df59a
+source-git-commit: cf9368d4690b61066646054543cc60d390eea021
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1809'
 ht-degree: 90%
 
 ---
@@ -27,7 +26,7 @@ ht-degree: 90%
       + Data Privacy-referentie {#data-privacy-reference}
          + [Audience Manager-id’s](overview/data-security-and-privacy/data-privacy-ids.md)
          + [Verklarende woordenlijst CCPA](overview/data-security-and-privacy/aam-ccpa-glossary.md)
-         + [Verklarende woordenlijst GDPR (AVG)](overview/data-security-and-privacy/aam-gdpr-glossary.md)
+         + [Verklarende woordenlijst GDPR](overview/data-security-and-privacy/aam-gdpr-glossary.md)
          + [GDPR (AVG)-overwegingen voor bestemmingen](overview/data-security-and-privacy/aam-gdpr-partners.md)
          + [Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten](overview/data-security-and-privacy/aam-gdpr-readiness.md)
       + Consent Management {#consent-management}
@@ -128,7 +127,7 @@ ht-degree: 90%
       + [Overzicht van de regels voor profielsamenvoeging](features/profile-merge-rules/merge-rules-overview.md)
       + [Aan de slag met de regels voor profielsamenvoeging](features/profile-merge-rules/merge-rules-start.md)
       + [Dashboard voor de regels voor profielsamenvoeging](features/profile-merge-rules/merge-rules-dashboard.md)
-      + [Definities van opties voor regels voor profielsamenvoeging](features/profile-merge-rules/merge-rule-definitions.md).
+      + [Definities van opties voor regels voor profielsamenvoeging.](features/profile-merge-rules/merge-rule-definitions.md)
       + [Algemene gebruiksscenario’s voor regels voor profielsamenvoeging](features/profile-merge-rules/merge-rule-targeting-options.md)
       + [Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen](features/profile-merge-rules/profile-link-use-case.md)
       + [Gebruiksscenario’s voor grafiek van externe apparaten](features/profile-merge-rules/external-graph-use-cases.md)
@@ -394,6 +393,7 @@ ht-degree: 90%
    + [Veelgestelde vragen over persoonsgebaseerde bestemmingen](faq/faq-people-based-destinations.md)
    + [Veelgestelde vragen over productkenmerken en -functies](faq/faq-features.md)
    + [Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken](faq/faq-profile-merge.md)
+   + [Veelgestelde vragen over look-Alike Modeling](faq/faq-lookalike-modeling.md)
    + [Veelgestelde vragen over Predictieve doelgroepen](faq/faq-predictive-audiences.md)
    + [Veelgestelde vragen over targeting](faq/faq-targeting.md)
    + [Veelgestelde vragen over rapportage](faq/faq-reporting.md)
@@ -403,10 +403,10 @@ ht-degree: 90%
    + [Contactgegevens en juridische informatie](/help/using/help-legal/help-legal-contact.md)
 + Veel voorkomende problemen met klantenondersteuning {#top-support-issues}
    + [Overzicht](/help/using/support-issues/support-issues-overview.md)
-   + [Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald?](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
-   + [Wij zijn geen Audience Manager-klant, maar we zien wel JavaScript-calls van Audience Manager op onze website](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
+   + [Wij zijn geen klant van de Audience Manager, maar we zien wel JavaScript-calls van Audience Manager op onze website](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
    + [Zou ik mijn in Audience Manager Audience Lab toegewezen segmenten moeten zien op de pagina met bestemmingsdetails?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Documentatie-updates {#documentation-updates}
    + [Documentatie-updates 2021](docs-updates/docs-2021.md)
