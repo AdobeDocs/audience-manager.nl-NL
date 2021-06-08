@@ -8,11 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-adres; STFP IP-adres; FTP-adres
 feature: Beheer
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-translation-type: tm+mt
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 24284321570ee5eb9632801a4a333a11b532e386
 workflow-type: tm+mt
-source-wordcount: '1159'
-ht-degree: 83%
+source-wordcount: '1206'
+ht-degree: 80%
 
 ---
 
@@ -206,3 +205,11 @@ Zie ook de [Index van Audience Manager-id’s](../reference/ids-in-aam.md).
 **Hoe lang duurt het voordat gebruikersprofielen in alle [regio’s](../api/dcs-intro/dcs-api-reference/dcs-regions.md) worden gesynchroniseerd?**
 
 Het synchroniseren van een gebruikersprofiel in verschillende regio’s duurt meestal maximaal 24 uur. In zeldzame gevallen kan het proces echter tot 48 uur duren.
+
+ 
+
+**Wat gebeurt er met inactieve Amazon S3-gebruikerstoetsen?**
+
+Adobe biedt klanten van Audience Managers toegang tot de sleutels voor gebruikerstoegang voor de Audience Manager [!DNL Amazon S3] emmers. Om veiligheidsredenen worden de toetsen automatisch uitgeschakeld na 100 dagen inactiviteit.
+
+Neem contact op met de Klantenondersteuning als u uw toegangstoetsen weer wilt inschakelen of nieuwe toegangstoetsen wilt aanvragen.
