@@ -4,12 +4,11 @@ seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om publie
 seo-title: Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn
 solution: Audience Manager
 title: Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn
-feature: People-based Destinations
+feature: Op mensen gebaseerde Doelen
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1173'
 ht-degree: 6%
 
 ---
@@ -33,7 +32,7 @@ Ongeacht of uw bestaande klant-id&#39;s voor de Audience Manager ([DPUUID&#39;s]
 
 ### Voorbeeld
 
-U wilt de klant-id&#39;s uit de onderstaande tabel kwalificeren voor de bijbehorende onbeheerde handels-id&#39;s. Denk eraan dat uw [DPUUIDs](../../reference/ids-in-aam.md) in een gegevensbron met identiteitskaart 999999 wordt opgeslagen, en uw identiteitskaart van de Partner van de Audience Manager is 123.
+U wilt de klant-id&#39;s uit de onderstaande tabel kwalificeren voor de bijbehorende onbeheerde handels-id&#39;s. Denk eraan dat uw [DPUUIDs](../../reference/ids-in-aam.md) in een gegevensbron met identiteitskaart 999999 wordt opgeslagen, en uw Audience Manager gegevensbron identiteitskaart is 123.
 
 | Klant-id (DPUUID) | Aan boord genomen Trait ID |
 | -------------------------------------- | ------------------- |
