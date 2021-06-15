@@ -8,8 +8,7 @@ title: Implementeer de module Audience Management
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics-integratie
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-translation-type: tm+mt
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 2%
@@ -37,7 +36,7 @@ Er zijn twee methodes om gegevens uit te voeren door:sturen van [!DNL Adobe Anal
 
 ### Implementatie met [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] raadt u aan de  [](https://docs.adobe.com/content/help/en/launch/using/overview.html) Launchextension te gebruiken voor instrumenten  [!DNL Adobe Analytics] en  [!DNL Audience Manager] voor eigenschappen. In dit geval hoeft u geen code handmatig te kopiëren. In plaats daarvan moet u gegevensdeling inschakelen in de extensie [!DNL Analytics Launch], zoals in de onderstaande afbeelding wordt getoond. Zie ook de [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentatie.
+[!DNL Adobe] raadt u aan de  [](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) Launchextension te gebruiken voor instrumenten  [!DNL Adobe Analytics] en  [!DNL Audience Manager] voor eigenschappen. In dit geval hoeft u geen code handmatig te kopiëren. In plaats daarvan moet u gegevensdeling inschakelen in de extensie [!DNL Analytics Launch], zoals in de onderstaande afbeelding wordt getoond. Zie ook de [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentatie.
 
 >[!TIP]
 >
