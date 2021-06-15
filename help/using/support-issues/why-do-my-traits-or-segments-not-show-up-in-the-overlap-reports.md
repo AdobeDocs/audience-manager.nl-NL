@@ -4,10 +4,9 @@ seo-description: Uitleg waarom eigenschappen en segmenten niet worden weergegeve
 seo-title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
 solution: Audience Manager
 title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
-feature: Support
+feature: Ondersteuning
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 99%
@@ -29,4 +28,4 @@ Er moet zijn voldaan aan een minimaal aantal unieke bezoekers voordat een eigens
 * Voor eigenschappen: 28000 over een periode van 14 dagen
 * Voor segmenten: 70000 realtimegebruikers gedurende een periode van 14 dagen
 
-Meer informatie hierover vindt u op de pagina [Steekproeven en aantal fouten in geselecteerde Audience Manager-rapporten](..//reporting/report-sampling.md).
+Meer informatie hierover vindt u op de pagina [Steekproeven en aantal fouten in geselecteerde Audience Manager-rapporten](../reporting/report-sampling.md).
