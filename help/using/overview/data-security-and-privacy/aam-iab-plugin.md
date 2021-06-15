@@ -4,10 +4,9 @@ seo-description: Adobe biedt u de middelen om de privacykeuzen van uw gebruikers
 seo-title: Audience Manager-plug-in voor IAB TCF
 solution: Audience Manager
 title: Audience Manager-plug-in voor IAB TCF
-feature: Data Governance & Privacy
+feature: Beheer en privacy van gegevens
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 40%
@@ -76,7 +75,7 @@ U moet aan de volgende voorwaarden voldoen om de Plug-in van de Audience Manager
 
 Voor het inschakelen van IAB TCF-ondersteuning in Audience Manager leest u onze documentatie over het [instellen van IAB met Opt-in](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/iab.html).
 
-De eenvoudigste manier om dit te doen is door [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) te gebruiken om [!DNL ECID Opt-in] op uw eigenschappen toe te voegen. Lees de documentatie voor de [ECID Opt-in-uitbreiding](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) om te ontdekken hoe u de Launch-uitbreiding kunt instellen.
+De eenvoudigste manier om dit te doen is door [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) te gebruiken om [!DNL ECID Opt-in] op uw eigenschappen toe te voegen. Lees de documentatie voor de [ECID Opt-in-uitbreiding](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) om te ontdekken hoe u de Launch-uitbreiding kunt instellen.
 
 ## Workflow voor gebruikersopties bij gebruik van het IAB-kader {#user-choice-workflow}
 
