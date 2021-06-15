@@ -4,10 +4,9 @@ seo-description: Onmiddellijke onderdrukking van apparaten is de capaciteit om g
 seo-title: Onmiddellijke cross-device ondersteuning
 title: Onmiddellijke cross-device ondersteuning
 uuid: cb11b9cb-6d7d-4aa9-91b0-c2715857d821
-feature: Profile Merge
+feature: Profielsamenvoeging
 exl-id: b9686210-e1aa-4f0a-a549-27d29c94e963
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 1%
@@ -68,4 +67,4 @@ Houd rekening met de volgende aspecten met betrekking tot verwerking:
 Houd rekening met de volgende aspecten met betrekking tot timing:
 
 * Een segment wordt op de [Edge](../../reference/system-components/components-edge.md) opgeslagen gedurende dezelfde periode als een apparaatprofiel op [!UICONTROL Edge] wordt opgeslagen, namelijk 14 dagen sinds laatste real-time interactie. Lees meer over gegevensbewaring in onze [Veelgestelde vragen over gegevensbewaring](../../faq/faq-privacy.md#data-retention-faq).
-* Het duurt ongeveer 24 uren voor de unsegment verrichting zich over [!DNL DCS] gebieden verspreidt. Lees meer over onze [!DNL DCS] gebieden [hier](../..//reference/system-components/components-data-collection.md) en [hier](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* Het duurt ongeveer 24 uren voor de unsegment verrichting zich over [!DNL DCS] gebieden verspreidt. Lees meer over onze [!DNL DCS] gebieden [hier](../../reference/system-components/components-data-collection.md) en [hier](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
