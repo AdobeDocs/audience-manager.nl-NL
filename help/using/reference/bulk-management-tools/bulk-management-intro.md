@@ -8,10 +8,9 @@ title: Aan de slag met Bulkbeheer
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '719'
 ht-degree: 3%
 
 ---
@@ -34,9 +33,9 @@ c_bulk_start.xml
 
 Deze eigenschap gebruikt een [!DNL Microsoft Excel] spreadsheet met macro&#39;s die veilige, voor authentiek verklaarde vraag aan [!DNL Audience Manager] APIs maken. De API biedt de methoden en services waarmee u bulksgewijs wijzigingen kunt aanbrengen. U hoeft niet te weten hoe u code kunt schrijven of met onze API&#39;s kunt werken om deze te gebruiken. Het werkblad bevat kolomkoppen en -tabbladen die specifieke functies voor bulkwijzigingen uitvoeren. Als u bulksgewijs wijzigingen wilt aanbrengen, voegt u alleen de vooraf gedefinieerde kopteksten toe aan specifieke werkbladen, geeft u de informatie op die u bulksgewijs wilt wijzigen en klikt u op een actieknop. Het werkblad en de API&#39;s doen de rest van het werk voor u.
 
-## {#download} downloaden
+## Downloaden {#download}
 
-Download het nieuwste werkblad **[hier](assets/BAAAM_V2_20200502.xlsm)**.
+Download het nieuwste werkblad **[hier](assets/BAAAM_V2_20210609.xlsm)** (voor het laatst bijgewerkt in juni 2021).
 
 ## Vereisten {#prereqs}
 
