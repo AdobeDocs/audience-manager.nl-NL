@@ -1,20 +1,19 @@
 ---
 description: Met uitvoerbare logbestanden kunt u mediasignalen vastleggen uit logbestanden van een server om kenmerken in Audience Manager te maken. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u pixels hoeft toe te voegen.
-keywords: actionable logs, alf, ALF
+keywords: actioneerbare stammen, alf, ALF
 seo-description: Met uitvoerbare logbestanden kunt u mediasignalen vastleggen uit logbestanden van een server om kenmerken in Audience Manager te maken. Leg impressies, kliks en conversies van advertentieservers vast als kenmerken zonder dat u pixels hoeft toe te voegen.
 seo-title: Actiegerichte logboekbestanden
 solution: Audience Manager
 title: Actiegerichte logboekbestanden
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
-feature: Log Files
-translation-type: tm+mt
-source-git-commit: a4d86fb0324a03002123f8713eb9786b5b74c38e
+feature: Logbestanden
+exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1611'
 ht-degree: 2%
 
 ---
-
 
 # Actiegerichte logboekbestanden {#actionable-log-files}
 
@@ -177,7 +176,7 @@ De tabel bevat een lijst met actiemotionele signalen van [!DNL Google Ad Manager
 
 
 | Naam koptekst in logbestand | Signaal | Beschrijving |
----------|----------|---------
+|---------|----------|---------|
 | `LineItemId` | `d_lineitem` | De numerieke id voor het geleverde regelitem Advertentiebeheer |
 | `OrderId` | `d_orderid` | De numerieke id voor de volgorde van Advertentiebeheer waarin het geleverde regelitem en de creatieve functie zijn opgenomen. |
 | `CreativeId` | `d_creative` | De numerieke id voor de geleverde advertentiemanager. |
@@ -326,7 +325,7 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 
 [Gelabelde ](https://support.google.com/dcm/partner/answer/4293719?hl=en) adverteerders laten zien hoe ze de omzettingen van gebruikers kunnen volgen. Met [!UICONTROL Actionable Log Files], kunt u [!DNL Google Campaign Manager] omzettingen in [Audience Optimization Rapporten](../../reporting/audience-optimization-reports/audience-optimization-reports.md) of in [Laboratorium van het publiek ](../../features/audience-lab/audience-lab.md) volgen:
 
-1. Maak een kenmerk en gebruik de volgende regel voor het vastleggen van een conversie uit de logboeken van de advertentieserver:
+1. Maak een kenmerk en gebruik de volgende regel voor het vastleggen van een conversie van de logboeken van de advertentieserver:
 
    `d_event == conv AND d_conversion == 123`
 
@@ -337,5 +336,5 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 >[!MORELIKETHIS]
 >
 >* [Google Campagne Manager-gegevensbestanden importeren in Audience Manager](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
->* [Audience Optimization-rapporten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
+* [Audience Optimization-rapporten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)
 
