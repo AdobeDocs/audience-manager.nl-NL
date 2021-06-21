@@ -7,7 +7,7 @@ title: Doelgroepen delen tussen Audience Manager en Adobe Experience Platform
 keywords: AEP-publiek delen, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten
 feature: Integratie van Platform
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 6900b56b4e0258ed0c4ddf94ef7b1f2c7e48a50d
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1480'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Bovendien, worden uw segmenten van het Experience Platform gedeeld aan andere op
 Zie de onderstaande tabel voor een overzicht van de gebruikte gevallen voor het delen van het publiek:
 
 | **Gebruiksscenario** | **Adobe Experience Platform** | **Audience Manager** | **Core Services** |
----------|----------|---------|---------|
+|---------|----------|---------|---------|
 | **Delen van publiek** | <ul><li>Klantprofielen verrijken met Audience Manager-gegevens</li><li>Audience Manager-gegevens gebruiken in segmentatie van Experience Platform</li></ul> | <ul><li>Gegevens van derden toevoegen aan segmenten</li><li>Algorithmming</li><li>Activering naar andere bestemmingen</li></ul> | Gebruik Experience Platform-segmenten in andere Experience Cloud-oplossingen, zoals Adobe Target, Advertising Cloud of Marketo. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -83,7 +83,7 @@ Zie de onderstaande schermafbeelding voor een voorbeeld van een eigenschap die a
 
 
 | Objectnummer | Naam | Beschrijving |
----------|----------|---------|
+|---------|----------|---------|
 | 1 | [!UICONTROL Trait Type] | De treits die van de segmenten van het Experience Platform worden gecreeerd worden gecreeerd als ongebogen eigenschappen in Audience Manager. |
 | 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Experience Platform worden gecreeerd worden opgeslagen in de gegevensbron **[!UICONTROL Adobe Experience Platform Audience Sharing]**. |
 | 3 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
@@ -103,10 +103,10 @@ Zie de onderstaande schermafbeelding voor een voorbeeld van een segment dat auto
 ![Schermafbeelding van segment](/help/using/integration/integration-aep/assets/aep-segment.png)
 
 | Objectnummer | Naam | Beschrijving |
----------|----------|---------|
+|---------|----------|---------|
 | 3 | [!UICONTROL Integration Code] | De integratiecode beantwoordt aan segmentidentiteitskaart in Experience Platform. |
 | 2 | [!UICONTROL Data Source] | Automatisch gemaakt. Alle eigenschappen en segmenten die automatisch van de segmenten van het Experience Platform worden gecreeerd worden opgeslagen in de gegevensbron **[!DNL Adobe Experience Platform Audience Sharing]**. |
-| 1 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de in Experience Platform ingestelde samenvoegbeleidsinstelling volgen. |
+| 3 | [!UICONTROL Profile Merge Rule] | **[!UICONTROL External Merge Policy]** Geeft aan dat automatisch gemaakte segmenten de in Experience Platform ingestelde samenvoegbeleidsinstelling volgen. |
 | 4 | [!UICONTROL Segment Rule] | Het segment bestaat uit de eigenschap die wordt beschreven in [Traits section](#aep-segments-as-aam-traits). |
 
 {style=&quot;table-layout:auto&quot;}
