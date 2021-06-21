@@ -6,10 +6,9 @@ seo-title: Addressable Audiences
 solution: Audience Manager
 title: Adresseerbaar publiek
 uuid: 3eb1335a-6949-452b-b77a-697c22856cb3
-feature: Match Rates
+feature: Matchpercentages
 exl-id: 2728e4a8-522c-423f-a6ef-e4dd624f69e5
-translation-type: tm+mt
-source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 0%
@@ -48,7 +47,7 @@ Met de functie [!UICONTROL Addressable Audience] wordt dit abstracte concept omg
 De drie metriek die u op de [!UICONTROL Addressable Audiences] landingspagina kunt zien vertegenwoordigen:
 
 | Metrisch | Beschrijving |
----------|----------|
+|---------|----------|
 | **[!UICONTROL Addressable Audience (Device)]** | Deze metrische waarde vertegenwoordigt [!UICONTROL Customer Addressable Audience] (beschreven in de bovenstaande tabel) *voor de laatste 30 dagen.* |
 | **[!UICONTROL Match Rate]** | Deze metrische waarde vertegenwoordigt [!UICONTROL Addressable Audience Match Rate] (beschreven in de lijst hierboven) *voor de laatste 30 dagen*. |
 | **[!UICONTROL Lifetime Addressable Audience (Device)]** | Een telling van alle apparaten die met alle [!DNL Audience Manager] klanten op het platform-niveau tijdens de rapport terugkerende periode hebben interactie gehad en die met dit [!UICONTROL destination] zouden kunnen worden aangepast. Zie [Metriek op Platform-niveau](/help/using/features/addressable-audiences.md#platform-level-metrics) voor meer informatie. |
