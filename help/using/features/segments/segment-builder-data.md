@@ -5,19 +5,18 @@ seo-title: Populatiedata van eigenschappen en segmenten in Segment Builder
 solution: Audience Manager
 title: Populatiedata van eigenschappen en segmenten in Segment Builder
 uuid: e1e59c0a-b4c7-4cad-8485-3667e0a95e83
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Segmenten '
+exl-id: f8953d10-8a31-4c07-8d96-169c30a21de0
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1251'
 ht-degree: 2%
 
 ---
 
-
 # [!UICONTROL Trait] en  [!UICONTROL Segment] populatiegegevens in  [!UICONTROL Segment Builder] {#trait-and-segment-population-data-in-segment-builder}
 
-Voeg [!UICONTROL traits] toe en verwijder &lt;a0/> in [!UICONTROL Segment Builder] om werkelijke [!UICONTROL trait] populaties samen met werkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
+Voeg [!UICONTROL traits] toe en verwijder  in [!UICONTROL Segment Builder] om werkelijke [!UICONTROL trait] populaties samen met werkelijke en geschatte segmentpopulatiegegevens te zien. Met de geschatte bevolkingsgrootte kunt u het juiste segment voor uw campagne maken.
 
 ## [!UICONTROL Trait] Populatiegegevens  {#trait-population-data}
 
@@ -29,7 +28,7 @@ In de volgende tabel worden de maatstaven voor de doelpopulatie gedefinieerd:
 
 
 | Metrisch | Beschrijving |
----------|----------|
+|---------|----------|
 | [!UICONTROL Total Trait Population] | Het aantal unieke id&#39;s met de geselecteerde eigenschap in hun profiel. |
 
 
@@ -123,7 +122,7 @@ In de volgende tabel worden de werkelijke cijfers voor real-time en de totale be
 
 
 | Kolom A | Kolom B |
----------|----------|
+|---------|----------|
 | [!UICONTROL Real-Time Population (Existing) ] | Het werkelijke aantal apparaten dat in real time wordt gezien met huidige profielen die, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparatengrafiek worden aangesloten, de eigenschappen bevatten om voor het segment in aanmerking te komen het ogenblik het door Audience Manager werd gezien. |
 | [!UICONTROL Total Population (Existing)] | Het totale aantal apparaten met profielen dat, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparaatgrafiek worden aangesloten, allemaal in aanmerking kwamen voor het segment. |
 
@@ -138,5 +137,5 @@ Momenteel is er een bekende beperking omdat onze schatting van de segmentgrootte
 >[!MORELIKETHIS]
 >
 >* [Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken](../../faq/faq-profile-merge.md)
->* [Profielkoppeling](../profile-merge-rules/merge-rules-overview.md)
+* [Profielkoppeling](../profile-merge-rules/merge-rules-overview.md)
 
