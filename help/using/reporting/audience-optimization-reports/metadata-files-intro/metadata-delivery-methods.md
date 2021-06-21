@@ -5,10 +5,9 @@ seo-title: Leveringsmethoden voor metadatabestanden
 solution: Audience Manager
 title: Leveringsmethoden voor metadatabestanden
 uuid: 5199ee9b-920d-423d-8070-05a017ecd562
-feature: Log Files
+feature: Logbestanden
 exl-id: 6ef2a80c-2574-4446-b755-28027818b5eb
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 4%
@@ -45,7 +44,7 @@ In de volgende tabel worden deze elementen gedefinieerd in een pad voor het leve
 
 
 | Bestandsparameter | Beschrijving |
----------|----------|
+|---------|----------|
 | `.../log_ingestion/` | Dit is het begin van de weg van de folderopslag. U ontvangt het volledige pad wanneer alles is ingesteld. |
 | `pid=<AAM ID>` | Dit zeer belangrijk-waardepaar bevat uw identiteitskaart van de klant van de Audience Manager. |
 | `dpid=<d_src>` | Dit zeer belangrijk-waardepaar bevat gegevensbronidentiteitskaart die op een gebeurtenisvraag wordt overgegaan. De gegevensbron-id is de waarde die alle inhoud van het bestand koppelt aan de werkelijke gegevens waartoe het behoort. </br> Stel dat u een creatieve account hebt met de id 123 en de naam Advertiser Creative A. Als een gebeurtenisaanroep wordt alleen doorgegeven aan de id die u nodig hebt om &#39;Advertiser Creative A&#39; op te nemen in het metagegevensbestand. De campagne en de creatieve activiteiten horen bij een gegevensbron. De gegevensbron-id is wat deze aan elkaar koppelt en ons de inhoud van het bestand nauwkeurig laat koppelen aan een id die wordt verzonden op een gebeurtenisaanroep. Zie [Hoe IDs van de Vraag van de Gebeurtenis de Namen van het Dossier, de Inhoud, en de Paden van de Levering](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md#how-ids-shape-file-names) bepalen. |
