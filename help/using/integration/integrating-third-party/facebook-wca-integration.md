@@ -6,8 +6,7 @@ solution: Audience Manager
 title: Facebook WCA-integratie
 feature: Integratie van derden
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-translation-type: tm+mt
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 4%
@@ -69,7 +68,7 @@ Voorbeeld van pixel die van de pagina worden afgegaan. In dit voorbeeld wordt ee
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
 | Parameter | Beschrijving |
----------|----------|
+|---------|----------|
 | `id` | Uw [!DNL Facebook] pixel ID, die u in [!DNL Facebook Ad Manager] gebruikersinterface kunt vinden wanneer het creëren van publiekspixels. |
 | `ev` | Event.     Dit is een willekeurige waarde die in de gebruikersinterface [!DNL Facebook Ad Manager] wordt weergegeven wanneer de pixel op de site wordt geactiveerd. Zie het [!UICONTROL Include] punt in [Stap 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), voor meer informatie. |
 | `cd[segID]` | Een extra parameter, die binnen de [!DNL Facebook Ad Manager] gebruikersinterface zal beginnen te bevolken zodra de pixel op plaats begint te vuren. `segID` is ook arbitrair. |
@@ -92,7 +91,7 @@ Voer indien van toepassing een einddatum in, laat anders niets staan voor de ein
 Zie [Aangepast publiek voor website maken](https://www.facebook.com/business/help/666509013483225) in de Help-documentatie [!DNL Facebook]. Selecteer de opties [!UICONTROL Create Audience] in de onderstaande tabel:
 
 | Item | Beschrijving |
----------|----------|
+|---------|----------|
 | Websiteverkeer | Aangepaste combinatie |
 | Inclusief | <ul><li>Selecteer **[!UICONTROL Event]** > Selecteren **[!UICONTROL Adobe-Audience-Manager-Segment]**. Dit was de waarde van de parameter `ev` in de voorbeeldpixel in stap 1. Als de pixel nog moet worden geactiveerd, wordt de optie **[!UICONTROL Event]** of **[!UICONTROL Adobe-Audience-Manager-Segment]** mogelijk niet weergegeven in de gebruikersinterface [!DNL Facebook].</li><li>Een parameter toevoegen: Selecteer `segID`.</li><li><p>Selecteer de operator **contains**.</p><p>Dit is belangrijk, aangezien bezoekers voor veelvoudige segmenten kunnen kwalificeren, er veelvoudige [!UICONTROL segment IDs] in de pixelparameter kunnen zijn. Het gebruik van de operator = (`=`) komt mogelijk niet in aanmerking voor uw bezoekers voor het publiek en u ziet een lager volume.</p></li><li>Voeg een waarde toe: Voer de [!DNL Audience Manager]-segment-id in.</li></ul> |
 | Nieuwe voorwaarde toevoegen | Optionele instelling. |
