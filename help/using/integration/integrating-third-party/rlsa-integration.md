@@ -5,12 +5,11 @@ seo-title: Segmenten verzenden naar een Google AdWords-remarketinglijst
 solution: Audience Manager
 title: Segmenten verzenden naar een Google AdWords-remarketinglijst
 uuid: 5ad821c6-48b4-42c0-b912-1563331e93a2
-feature: Third-party Integration
+feature: Integratie van derden
 exl-id: 76676eae-de4f-4fee-8774-ee215525306a
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 760d6a56754530368ac11a5c9f10c4be487de028
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 5%
 
 ---
@@ -34,7 +33,7 @@ Een [!DNL Google Ads] lijst voor het opnieuw in de handel brengen instellen als 
 1. In Audience Manager, [creeer a [!DNL URL destination]](../../features/destinations/create-url-destination.md) of geef bestaand [!DNL destination] uit. Gebruik de volgende instellingen bij het maken van de [!DNL destination]:
    * Type: URL
    * Serienummering: Ingeschakeld
-   * Scheidingsteken: Puntkomma (;)
+   * Scheidingsteken: Puntkomma (&amp;puntkomma; )
 
 1. Voeg in de sectie [!UICONTROL Segment Mappings] van uw [!DNL URL] [!DNL destination] de code van stap 2 toe aan de velden [!DNL URL] en [!DNL Secure URL]. Plaats de code in de velden [!DNL URL] en [!DNL Secure URL] vooraf in `http:` en `https:`.
 
@@ -72,7 +71,7 @@ Een voltooide afbeelding kan er ongeveer als volgt uitzien:
 >[!MORELIKETHIS]
 >
 >* [[!DNL Destinations]](../../features/destinations/destinations.md)
->* [Een [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
->* [Info over ADWoorden markeringslijsten](https://support.google.com/adwords/answer/2472738)
->* [Procedure voor markeren van woorden](https://support.google.com/adwords/answer/2454000)
+* [Maken a [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
+* [Info over ADWoorden markeringslijsten](https://support.google.com/adwords/answer/2472738)
+* [Procedure voor markeren van woorden](https://support.google.com/adwords/answer/2454000)
 
