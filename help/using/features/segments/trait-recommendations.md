@@ -4,15 +4,14 @@ seo-description: Krijg levende trekaanbevelingen aangezien u uw segmenten bouwt.
 seo-title: Trait Recommendations
 solution: Audience Manager
 title: Trait Recommendations
-feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Segmenten '
+exl-id: 7ef862a9-7354-49fb-9af0-925d827a5165
+source-git-commit: 432b12c4d4fb567d1a0bcaa9d12baaac5e3ae0f7
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1574'
 ht-degree: 8%
 
 ---
-
 
 # Trait Recommendations
 
@@ -144,7 +143,7 @@ Als u op een eersteklas kenmerk klikt, wordt een pop-upvenster geopend, zoals in
 
 Voor het opstellen van aanbevelingen op het gebied van de eigenschap, berekent Audience Manager de [Jaccard gelijkenis](https://en.wikipedia.org/wiki/Jaccard_index) tussen de doeleigenschap en elke andere eigenschap waartoe uw account toegang heeft, met inbegrip van gegevens van derden. Audience Manager geeft dan tot vijftig kenmerken weer die het hoogst op elkaar lijken.
 
-## Score voor gelijksoortige activiteit {#trait-similarity-score}
+## Gelijksoortige score volgen {#trait-similarity-score}
 
 Audience Manager berekent de [!UICONTROL Trait Similarity Score] tussen twee eigenschappen door de doorsnede en de samenvoeging in termen van het aantal [!UICONTROL UUID]s te berekenen en dan twee te verdelen. Voor twee kenmerken A en B ziet de berekening er als volgt uit:
 
@@ -171,7 +170,7 @@ Als dezelfde kenmerken A en B 400.000 [!UICONTROL UUID]s hadden die voor beide k
 Gebruik de onderstaande tabel als een ruwe richtlijn voor de gelijkenis van de afbeelding. Deze gids is gebaseerd op de gelijkenisscores die in de meeste kenmerken zijn waargenomen.
 
 | [!UICONTROL Trait Similarity Score] | Significantie |
----------|----------|
+|---------|----------|
 | 0.1 en hoger | Hoge overeenkomst tussen kenmerken |
 | 0,03 - 0,1 | Normale overeenkomst tussen kenmerken |
 | 0,01 - 0,03 | Lage overeenkomst tussen kenmerken |
