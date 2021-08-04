@@ -5,12 +5,11 @@ seo-title: Aan de slag met de regels voor profielsamenvoeging
 solution: Audience Manager
 title: Aan de slag met de regels voor profielsamenvoeging
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
-feature: Profile Merge
+feature: Profielsamenvoeging
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1315'
 ht-degree: 3%
 
 ---
@@ -87,7 +86,7 @@ De sectie [!UICONTROL Basic Information] voltooien:
 
 [De Controles van de Uitvoer van gegevens ](../data-export-controls.md) zijn facultatieve classificatieregels u op uw kunt toepassen  [!UICONTROL Profile Merge Rule]. Ze verhinderen dat u gegevens naar een bestemming verzendt wanneer die handeling een inbreuk vormt op de privacy van gegevens of een gebruiksovereenkomst. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
 
-## Opstelling van de Regel van de Samenvoeging van het profiel {#profile-merge-rule-setup}
+## Opstelling van regel voor samenvoegen van profielen {#profile-merge-rule-setup}
 
 De sectie [!UICONTROL Proflie Merge Rule Setup] voltooien:
 
@@ -103,7 +102,7 @@ De sectie [!UICONTROL Proflie Merge Rule Setup] voltooien:
    * **[!UICONTROL Device Co-op]**
 4. Klik op **[!UICONTROL Save]**.
 
-### Overwegingen bij Adobe Campaign-doelen die ID&#39;s voor andere apparaten gebruiken als gebruikersnamen {#considerations}
+### Overwegingen bij Adobe Campaign-doelen die ID&#39;s voor andere apparaten gebruiken als gebruikersidentificatietoetsen {#considerations}
 
 Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw Audience Manager-instantie die op maandag 16 maart 2020 wordt gestart. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
 
@@ -116,7 +115,7 @@ Om de correcte integratie tussen uw instantie van de Audience Manager en bestemm
 >
 > Als u uw maximumaantal [!UICONTROL Profile Merge Rules] hebt bereikt en hulp nodig hebt bij het configureren van deze op basis van de bovenstaande instructies, neemt u contact op met de klantenservice.
 
-## Code samenvoegregel {#configure-merge-rule-code} configureren
+## Code samenvoegregel configureren {#configure-merge-rule-code}
 
 Volg deze instructies om [!UICONTROL Adobe Experience Platform Identity Service], [!UICONTROL DIL], en mobiele [!DNL SDK] code aan opstelling met uw fusieregels te werken.
 
@@ -126,7 +125,7 @@ Volg deze instructies om [!UICONTROL Adobe Experience Platform Identity Service]
 
 U moet een [apparaatgegevensbron](#create-data-source) en [profielfusieregels](#create-profile-merge-rule) *vóór* instellen om deze procedures te voltooien.
 
-## Voor klanten {#id-service-customers} van de Identiteitsdienst van Adobe Experience Platform
+## Voor klanten van Adobe Experience Platform Identity Service {#id-service-customers}
 
 De [!UICONTROL Adobe Experience Platform Identity Service] en de recentste versie van [DIL](../../dil/dil-overview.md) worden geadviseerd wanneer het werken met [!UICONTROL Profile Merge Rules]. Nochtans, moet u niet [!UICONTROL Adobe Experience Platform Identity Service] gebruiken om met deze eigenschap te werken. Als u enkel [!UICONTROL DIL] gebruikt, zie [erfenis DIL sectie](#legacy-dil) hieronder.
 
@@ -189,7 +188,7 @@ DIL.create({
 
 Zie de sectie [!UICONTROL DIL] in [Gedeclareerde id-variabelen](../declared-ids.md#declared-id-variables) voor meer informatie.
 
-### SDK&#39;s {#configure-sdks-legacy-dil} configureren
+### SDK&#39;s configureren {#configure-sdks-legacy-dil}
 
 Controleer de methoden in uw [!DNL SDK]-code waarmee u [!UICONTROL declared IDs] kunt doorgeven vanaf [!DNL Android] en [!DNL iOS] mobiele apparaten. De variabelenamen voor de codebibliotheken [!DNL Android] en [!DNL iOS] zijn het zelfde:
 
@@ -225,7 +224,7 @@ Controleer de methoden in uw [!DNL SDK]-code waarmee u [!UICONTROL declared IDs]
  </tbody>
 </table>
 
-Zie ook [Methoden voor Audience Managers voor Android](hhttps://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [Methoden voor Audience Managers voor iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Zie ook [Methoden voor Audience Managers voor Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [Methoden voor Audience Managers voor iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
