@@ -6,13 +6,12 @@ seo-title: Bètaomgeving
 solution: Audience Manager
 title: Bètaomgeving
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
-feature: Reference
+feature: 'Referenties '
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 6eefe6ac6db011e99a02cfc38abfe773a8f62e0d
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '348'
+ht-degree: 3%
 
 ---
 
@@ -22,25 +21,21 @@ De bètaomgeving is bedoeld voor het testen van de implementatie van uw Audience
 
 ## Overzicht
 
-De bètaomgeving is een exacte replica van de productieomgeving, zonder experimentele of niet-vrijgegeven functies. Uw aanmeldingsgegevens van de productieomgeving zijn geldig in de bètaomgeving.
+De functionaliteit in de bètaomgeving is een exacte replica van de productieomgeving, zonder experimentele of niet-uitgebrachte functies. Uw aanmeldingsgegevens van de productieomgeving zijn geldig in de bètaomgeving.
 
 **Plan bijwerken**
 
 De bètaomgeving wordt aan het einde van elke maand tijdens niet-piekuren bijgewerkt.
 
+>[!IMPORTANT]
+>
+>Merk op dat uw klantengegevens ([signalen, eigenschappen, en segmenten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) niet tussen de productie en bètamilieu&#39;s wordt gesynchroniseerd.
+
 **Uitgaand Verkeer**
 
 Het uitgaande verkeer wordt niet toegelaten voor het bètamilieu.
 
-<!-- 
-
-Added re: AAM-30826.
-
- -->
-
 ## Eindpunten
-
-
 
 | Service | URL/hostnaam | Hoe te om toegang te verkrijgen |
 |--- |--- | --- |
@@ -49,7 +44,7 @@ Added re: AAM-30826.
 | UI | `https://bank-beta.demdex.com` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. |
 | API | `https://api-beta.demdex.com/...` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. Wij adviseren dat u een generische gebruiker API creeert, [zie details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## Toegang tot DCS in het milieu van Beta {#access-dcs-beta-environment}
+## De DCS openen in de bètomgeving {#access-dcs-beta-environment}
 
 1. Maak een vraag DCS, gebruikend de krullende [command](https://curl.haxx.se/docs/manpage.html). Curl is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
 
