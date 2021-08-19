@@ -7,10 +7,10 @@ title: Aan de slag met de regels voor profielsamenvoeging
 uuid: 7d32c60f-467c-42dd-afa9-437fd7c473c5
 feature: Profielsamenvoeging
 exl-id: 11f397dd-1f23-4b14-be6f-60ce8b77ab12
-source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 3%
+source-wordcount: '1307'
+ht-degree: 2%
 
 ---
 
@@ -151,7 +151,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Zie [Een apparaatgegevensbron maken](#create-data-source) en [Klantid&#39;s en verificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) voor meer informatie.
+Zie [Een apparaatgegevensbron maken](#create-data-source) en [Klantid&#39;s en verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) voor meer informatie.
 
 ### Functie `DIL.create` configureren
 
@@ -166,7 +166,7 @@ var vDil = DIL.create({
 });
 ```
 
-In het namespace zeer belangrijk-waardepaar, is `*`MCORG`*` variabele uw [!DNL Experience Cloud] identiteitskaart van de Organisatie. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Beheer: Core Services](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html).
+In het namespace zeer belangrijk-waardepaar, is `*`MCORG`*` variabele uw [!DNL Experience Cloud] identiteitskaart van de Organisatie. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Beheer: Core Services](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ### SDK&#39;s configureren
 
@@ -224,7 +224,7 @@ Controleer de methoden in uw [!DNL SDK]-code waarmee u [!UICONTROL declared IDs]
  </tbody>
 </table>
 
-Zie ook [Methoden voor Audience Managers voor Android](https://docs.adobe.com/content/help/en/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [Methoden voor Audience Managers voor iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/aam-methods.html).
+Zie ook [Methoden voor Audience Managers voor Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [Methoden voor Audience Managers voor iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
 
 >[!MORELIKETHIS]
 >
