@@ -8,10 +8,10 @@ title: Implementeer de module Audience Management
 uuid: 08846427-def3-4a15-88e5-08882d8d57ce
 feature: Adobe Analytics-integratie
 exl-id: af2449cd-5fc8-454a-adce-0da7cae80548
-source-git-commit: 8fc6c96bf9e8216ef4458989c87f1f93ea9f0347
+source-git-commit: 8c96c2f987ab0f235bdfb8ba5eb4a7d55fa57d0b
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 2%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
@@ -27,8 +27,8 @@ Voer de stappen in deze zelfstudie uit om [!DNL Analytics] gegevens door te stur
 
 Naast het inschakelen van de extensies of het implementeren van de code die in dit document wordt beschreven, moet u ook:
 
-* Implementeer [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html).
-* Schakel [Server-Side Forwarding](https://docs.adobe.com/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) in voor rapportsuites in [!UICONTROL Adobe Analytics Admin Console].
+* Implementeer [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+* Schakel [Server-Side Forwarding](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) in voor rapportsuites in [!UICONTROL Adobe Analytics Admin Console].
 
 ## Implementatie {#implementation}
 
@@ -36,7 +36,7 @@ Er zijn twee methodes om gegevens uit te voeren door:sturen van [!DNL Adobe Anal
 
 ### Implementatie met [!DNL Adobe Experience Platform Launch]
 
-[!DNL Adobe] raadt u aan de  [](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) Launchextension te gebruiken voor instrumenten  [!DNL Adobe Analytics] en  [!DNL Audience Manager] voor eigenschappen. In dit geval hoeft u geen code handmatig te kopiëren. In plaats daarvan moet u gegevensdeling inschakelen in de extensie [!DNL Analytics Launch], zoals in de onderstaande afbeelding wordt getoond. Zie ook de [Adobe Analytics Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentatie.
+[!DNL Adobe] raadt u aan de  [](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) Launchextension te gebruiken voor instrumenten  [!DNL Adobe Analytics] en  [!DNL Audience Manager] voor eigenschappen. In dit geval hoeft u geen code handmatig te kopiëren. In plaats daarvan moet u gegevensdeling inschakelen in de extensie [!DNL Analytics Launch], zoals in de onderstaande afbeelding wordt getoond. Zie ook de [Adobe Analytics Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html#adobe-audience-manager) documentatie.
 
 >[!TIP]
 >
@@ -53,7 +53,7 @@ In de volgende tabel worden belangrijke variabelen in het codevoorbeeld gedefini
 | `partner` | Vereist. Dit is een partnernaam die aan u door [!DNL Adobe] wordt toegewezen. Het wordt soms bedoeld als uw [!UICONTROL partner ID] of partnersubdomain.  Neem contact op met uw [!DNL Adobe] consultant of [Klantenservice](https://helpx.adobe.com/marketing-cloud/contact-support.html) als u de naam van uw partner niet kent. |
 | `containerNSID` | Vereist. De meeste klanten kunnen `"containerNSID":0` enkel plaatsen. Als uw bedrijf de id-syncs echter moet aanpassen met een andere container, kunt u die container-id hier opgeven. |
 | `uuidCookie` | Optioneel. Met deze configuratie kunt u een [!DNL Adobe]-cookie instellen in het domein van de eerste partij. Deze [!DNL cookie] bevat [UUID](../../reference/ids-in-aam.md). |
-| `visitorService` -  `namespace` | Vereist. De `namespace` parameter wordt vereist als u [!DNL AudienceManagement] module gebruikt die met [!UICONTROL AppMeasurement] versie 2.10 of nieuwer wordt gebundeld. Deze [!UICONTROL AudienceManagement] module vereist dat u [!UICONTROL Adobe Experience Platform Identity Service] 3.3 of nieuwer gebruikt. <br><br>De id  [!UICONTROL Experience Cloud Organization ID] is de id waarmee een bedrijf wordt uitgerust wanneer het zich aanmeldt voor de  [!UICONTROL Experience Cloud]account. Ontdek de organisatie-id van uw bedrijf in [Organisaties en Account Linking](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html). |
+| `visitorService` -  `namespace` | Vereist. De `namespace` parameter wordt vereist als u [!DNL AudienceManagement] module gebruikt die met [!UICONTROL AppMeasurement] versie 2.10 of nieuwer wordt gebundeld. Deze [!UICONTROL AudienceManagement] module vereist dat u [!UICONTROL Adobe Experience Platform Identity Service] 3.3 of nieuwer gebruikt. <br><br>De id  [!UICONTROL Experience Cloud Organization ID] is de id waarmee een bedrijf wordt uitgerust wanneer het zich aanmeldt voor de  [!UICONTROL Experience Cloud]account. Ontdek de organisatie-id van uw bedrijf in [Organisaties en Account Linking](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html). |
 
 ## Resultaten: Gegevens doorsturen naar [!DNL Audience Manager] {#results-data-forwarding}
 
