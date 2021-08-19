@@ -6,16 +6,15 @@ solution: Audience Manager
 title: SDK-code
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '154'
 ht-degree: 7%
 
 ---
 
-
-# [!DNL SDK] Code  {#sdk-code}
+# [!DNL SDK] Code {#sdk-code}
 
 Audience Manager biedt softwareontwikkelkits ([!DNL SDK]s) voor [!DNL Android] en [!DNL iOS].
 
@@ -31,5 +30,5 @@ Audience Manager biedt softwareontwikkelkits ([!DNL SDK]s) voor [!DNL Android] e
 
 We ondersteunen nog steeds de SDK&#39;s van Android en iOS 4.x. Zie voor deze SDK-codebibliotheken:
 
-* [Android-SDK](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
-* [iOS SDK](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
+* [Android-SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
+* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
