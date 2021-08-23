@@ -4,17 +4,16 @@ seo-description: Hiermee geeft u een overzicht en beschrijving van de syntaxis e
 seo-title: Ondersteunde attributen voor DCS-API-calls
 solution: Audience Manager
 title: Ondersteunde attributen voor DCS-API-calls
-keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_ic
+keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d_dst=1, d_dst_filter, d_mid, d_ptfm, d_nsid, d_rs, d_rtbd=json, d_tdpid_d ic
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 4%
+source-wordcount: '839'
+ht-degree: 3%
 
 ---
-
 
 # Ondersteunde kenmerken voor [!DNL DCS] [!DNL API] aanroepen {#supported-attributes-for-dcs-api-calls}
 
@@ -51,7 +50,7 @@ Hiermee geeft u de syntaxis en ondersteunde kenmerken (of sleutelwaardeparen) we
  </tbody> 
 </table>
 
-## [!DNL d_] Attributen  {#d-attributes}
+## [!DNL d_] Attributen {#d-attributes}
 
 Al deze zijn facultatief, tenzij u een reactie van [!DNL DCS] wilt. Als u [!DNL DCS] een reactie wilt terugkeren, dan `d_rtbd=json` wordt vereist.
 
@@ -81,7 +80,7 @@ Al deze zijn facultatief, tenzij u een reactie van [!DNL DCS] wilt. Als u [!DNL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de configuratie <code> idSyncDisable3rdPartySyncing</code>. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/coppa.html" format="https" scope="external"> KOPA-ondersteuning in de Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de configuratie <code> idSyncDisable3rdPartySyncing</code>. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> KOPA-ondersteuning in de Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -123,7 +122,7 @@ Al deze zijn facultatief, tenzij u een reactie van [!DNL DCS] wilt. Als u [!DNL 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die is ingesteld en wordt gebruikt door de id-service <span class="keyword"> Experience Cloud</span>. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a> voor meer informatie over de ECID. </p> </td> 
+   <td colname="col2"> <p>Hiermee geeft u de Experience Cloud-id op die is ingesteld en wordt gebruikt door de id-service <span class="keyword"> Experience Cloud</span>. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a> voor meer informatie over de ECID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
