@@ -6,14 +6,14 @@ solution: Audience Manager
 title: Facebook WCA-integratie
 feature: Integratie van derden
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 4%
+source-wordcount: '851'
+ht-degree: 3%
 
 ---
 
-# [!DNL Facebook WCA] Integratie  {#facebook-wca-integration}
+# [!DNL Facebook WCA] Integratie {#facebook-wca-integration}
 
 Deze pagina illustreert het proces van het maken van [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) pixels voor het verzenden van op het web gebaseerde [!DNL Audience Manager] publiekssegmenten naar [!DNL Facebook], voor online en doelgericht met verbeterde transparantie.
 
@@ -32,7 +32,7 @@ Deze pagina illustreert het proces van het maken van [!DNL Facebook Website Cust
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmenten, klaar om toe te wijzen aan uw nieuwe  [!DNL Facebook] bestemming. Hier is [hoe te om een segment te creëren](/help/using/features/segments/segment-builder.md) in [!DNL Audience Manager] UI.
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versie 4.1.0 of hoger. Download de nieuwste versie **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versie 9.0 of hoger,  **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)** te downloaden. Als u ook [Server-Side Forwarding (SSF)](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf.html) gebruikt om gegevens te importeren naar [!DNL Audience Manager], moet u AppMeasurement versie 2.12 of hoger gebruiken. Download [!DNL AppMeasurement] met [Analytics Code Manager](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versie 9.0 of hoger,  **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)** te downloaden. Als u ook [Server-Side Forwarding (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) gebruikt om gegevens te importeren naar [!DNL Audience Manager], moet u AppMeasurement versie 2.12 of hoger gebruiken. Download [!DNL AppMeasurement] met [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
 We raden u aan de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html).
 
@@ -80,13 +80,13 @@ Uw [!UICONTROL URL destination] configuratie zou als in het hieronder beeld moet
 
 Sla [!UICONTROL destination] op. Dan, kunt u aan de **stap van de Toewijzingen van het Segment** te werk gaan.
 
-## Stap 2 - Segmenttoewijzingen - Segment toewijzen aan doel {#step-2-segment-mappings}
+## Stap 2 - de Toewijzingen van het segment - de Segment van de kaart aan Bestemming {#step-2-segment-mappings}
 
 In [Vorm bestemming URL](/help/using/features/destinations/create-url-destination.md) werkschema, kaart het toepasselijke segment aan uw nieuw gecreeerd [!UICONTROL destination]. De toewijzingswaarde wordt automatisch ingevuld met [!DNL Audience Manager] [!UICONTROL segment ID].
 
 Voer indien van toepassing een einddatum in, laat anders niets staan voor de einddatum.
 
-## Stap 3 - maak een [!UICONTROL Audience] binnen [!DNL Facebook Ads Manager] {#step-3-create-audience}
+## Stap 3 - een [!UICONTROL Audience] maken binnen [!DNL Facebook Ads Manager] {#step-3-create-audience}
 
 Zie [Aangepast publiek voor website maken](https://www.facebook.com/business/help/666509013483225) in de Help-documentatie [!DNL Facebook]. Selecteer de opties [!UICONTROL Create Audience] in de onderstaande tabel:
 
@@ -98,7 +98,7 @@ Zie [Aangepast publiek voor website maken](https://www.facebook.com/business/hel
 | In de laatste | Optionele instelling. |
 | Auditienaam | Wij adviseren u het zelfde [!DNL Audience Manager] segmentnaam voor consistentie gebruikt, tenzij u extra voorwaarden aan dit Publiek toevoegt. |
 
-## Stap 4 - Wijs [!UICONTROL Audience] aan [!UICONTROL Campaign] in [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign} toe
+## Stap 4 - wijs [!UICONTROL Audience] aan [!UICONTROL Campaign] in [!DNL Facebook Ads Manager] toe {#step-4-assign-audience-to-campaign}
 
 Nadat u de [!DNL Custom Audience] hebt gemaakt, wijst u deze toe aan een advertentiecampagne. Maak een nieuwe campagne of bewerk een bestaande campagne en u zult zien dat het nieuwe publiek wordt vermeld in de gebruikersinterface [!DNL Facebook]. Uw advertentiecampagne richt zich op gebruikers die de pixelbrand op hun browser hebben gezien toen het bezoeken van uw plaats, als [!DNL Audience Manager] hen in het segment omvat.
 
