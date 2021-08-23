@@ -5,17 +5,16 @@ seo-title: DIL maken
 solution: Audience Manager
 title: DIL maken
 uuid: 6e054600-703c-4a97-af2a-8207c50013db
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: fc13643681eebec17a95607482f2864e81b95820
+feature: DIL-implementatie
+exl-id: 0bef149c-4458-43d6-affe-6d79fe1fca46
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 3%
+source-wordcount: '809'
+ht-degree: 1%
 
 ---
 
-
-# DIL methode maken{#dil-create}
+# DIL, methode maken{#dil-create}
 
 ## DIL maken {#dil-create-new}
 
@@ -49,12 +48,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> containerNSID </code> </p> </td> 
    <td colname="col2"> <p>Geheel </p> </td> 
-   <td colname="col3"> <p>Met deze eigenschap wordt de container-id ingesteld die door de Audience Manager <span class="keyword"> voor ID-syncs wordt gebruikt. </span> U zou <code> containerNSID </code> plaatsen als u <span class="wintitle"> DIL </span> over veelvoudige plaatsen hebt opgesteld. Elk van deze sites heeft een eigen container-id en id-syncs. Als u slechts 1 site hebt, is de container-id standaard 0 en hoeft u dit niet op de juiste wijze in te stellen. Neem contact op met uw consultant voor een lijst met uw sites en de bijbehorende container-id's. </p> <p>In <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> komt de eigenschap <code> idSyncContainerID </code> overeen met <code> containerNSID </code> in <span class="wintitle"> DIL </span>. Let op het volgende als u <span class="wintitle"> DIL </span> <i>en</i> de id-service op meerdere sites gebruikt: </p> <p> 
+   <td colname="col3"> <p>Met deze eigenschap wordt de container-id ingesteld die door de Audience Manager </span> voor ID-syncs wordt gebruikt. <span class="keyword"> U zou <code> containerNSID </code> plaatsen als u <span class="wintitle"> DIL </span> over veelvoudige plaatsen hebt opgesteld. Elk van deze sites heeft een eigen container-id en id-syncs. Als u slechts 1 site hebt, is de container-id standaard 0 en hoeft u dit niet op de juiste wijze in te stellen. Neem contact op met uw consultant voor een lijst met uw sites en de bijbehorende container-id's. </span></p> <p>In <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> komt de eigenschap <code> idSyncContainerID </code> overeen met <code> containerNSID </code> in <span class="wintitle"> DIL </span>. Let op het volgende als u <span class="wintitle"> DIL </span> <i>en</i> de id-service op meerdere sites gebruikt: </p> <p> 
      <ul id="ul_FF17004C21FC408BB8C8CCE670E45F37"> 
       <li id="li_FFB23BB3CD224678B0A1CF3731F6A206">Stel voor elke site dezelfde container-id's in op <code> containerNSID </code> en <code> idSyncContainerID </code>. </li> 
       <li id="li_CC932D3A0D154F6C9566EF31260A14CF">Zowel <span class="wintitle"> DIL </span> als de dienst van identiteitskaart zullen proberen om de syncs van identiteitskaart naar onze gegevensinzameling iFrame te verzenden. De iFrame zorgt er echter voor dat <span class="wintitle"> DIL </span> geen id-sync start. Dit voorkomt dubbel werk. </li> 
       <li id="li_0A909AD26DE94EAA960DC1374C7AF89F">Alleen <span class="wintitle"> DIL </span> verzendt gegevens naar een <a href="../../features/destinations/destinations.md"> URL-doel </a>. </li> 
-     </ul> </p> <p>Zie ook <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncontainerid.html" format="https" scope="external"> idSyncContainerID </a>. </p> </td> 
+     </ul> </p> <p>Zie ook <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/idsyncontainerid.html" format="https" scope="external"> idSyncContainerID </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> declaredId </code> </p> </td> 
@@ -64,7 +63,7 @@ r_dil_create.xml
     <ul id="ul_75E64D7DDBD14670BB0BC7819F72036C"> 
      <li id="li_43C7F0EAC5B24F07BBF4ADAB4B0142B7"> <code> dpid </code>: Identiteitskaart van de partner van gegevens die aan u door  <span class="keyword"> Audience Manager wordt toegewezen  </span>. </li> 
      <li id="li_3BD52ADEA1E24B41B51AFA95D71DD1FC"> <code> dpuuid </code>: Je unieke id voor een gebruiker. </li> 
-    </ul> <p> <p>Belangrijk:  Gebruik alleen niet-gecodeerde waarden voor uw id's. Bij codering worden dubbelgecodeerde id's gemaakt. </p> </p> <p> <p>Opmerking:  Als u <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> gebruikt, stelt u de klant-id's in met de <code> setCustomerIDs </code>-methode in plaats van <span class="wintitle"> DIL </span>. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Klantnamen en verificatiestatus </a>. </p> </p> </td> 
+    </ul> <p> <p>Belangrijk:  Gebruik alleen niet-gecodeerde waarden voor uw id's. Bij codering worden dubbelgecodeerde id's gemaakt. </p> </p> <p> <p>Opmerking:  Als u <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> gebruikt, stelt u de klant-id's in met de <code> setCustomerIDs </code>-methode in plaats van <span class="wintitle"> DIL </span>. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Klantnamen en verificatiestatus </a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> delayAllUntilWindowLoad </code> </p> </td> 
@@ -79,12 +78,12 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> disableDestinationPublishingIframe </code> </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p> <p>Belangrijk:  Dit element is vervangen door <span class="wintitle"> DIL </span> versie 8.0 (uitgebracht in augustus 2018). Gebruik in plaats hiervan de <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> functie </a> in de Adobe Experience Platform Identity Service. </p> </p> <p> Als <code> true </code>, niet de bestemmings het publiceren IFRAME aan DOM of brandbestemmingen vastmaakt. De standaardwaarde is <code> false </code>. </p> </td> 
+   <td colname="col3"> <p> <p>Belangrijk:  Dit element is vervangen door <span class="wintitle"> DIL </span> versie 8.0 (uitgebracht in augustus 2018). Gebruik in plaats hiervan de <code> visitor.disableIdSyncs </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> functie </a> in de Adobe Experience Platform Identity Service. </p> </p> <p> Als <code> true </code>, niet de bestemmings het publiceren IFRAME aan DOM of brandbestemmingen vastmaakt. De standaardwaarde is <code> false </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> disableIDSyncs </code> </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p> <p>Belangrijk:  Dit element is vervangen door <span class="wintitle"> DIL </span> versie 8.0 (uitgebracht in augustus 2018). Gebruik in plaats hiervan de <code> visitor.disableIdSyncs </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> functie </a> in de Adobe Experience Platform Identity Service. </p> </p> <p>Schakelt id-synchronisatie uit. U moet de syncs van identiteitskaart onbruikbaar maken wanneer het gebruiken van DIL v6.2+ en de Dienst van identiteitskaart van de Bezoeker. Deze bewerking wordt uitgevoerd door de functie <code> visitorService </code> (zie de voorbeeldcode hieronder). </p> </td> 
+   <td colname="col3"> <p> <p>Belangrijk:  Dit element is vervangen door <span class="wintitle"> DIL </span> versie 8.0 (uitgebracht in augustus 2018). Gebruik in plaats hiervan de <code> visitor.disableIdSyncs </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html" format="https" scope="external"> functie </a> in de Adobe Experience Platform Identity Service. </p> </p> <p>Schakelt id-synchronisatie uit. U moet de syncs van identiteitskaart onbruikbaar maken wanneer het gebruiken van DIL v6.2+ en de Dienst van identiteitskaart van de Bezoeker. Deze bewerking wordt uitgevoerd door de functie <code> visitorService </code> (zie de voorbeeldcode hieronder). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> enableErrorReporting </code> </p> </td> 
@@ -94,7 +93,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> iframeAkamaiHTTPS </code> </p> </td> 
    <td colname="col2"> <p>Boolean </p> </td> 
-   <td colname="col3"> <p> <p>Belangrijk:  Dit element is vervangen door <span class="wintitle"> DIL </span> versie 8.0 (uitgebracht in augustus 2018). Gebruik in plaats hiervan de <code> visitor.idSyncSSLUseAkamai </code> <a href="https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> functie </a> in de Adobe Experience Platform Identity Service. </p> </p> <p> Hiermee wordt opgegeven of de doelpublicatiesjabloon Akamai moet gebruiken voor HTTPS-verbindingen. Toegelaten op een per-partnerbasis. </p> </td> 
+   <td colname="col3"> <p> <p>Belangrijk:  Dit element is vervangen door <span class="wintitle"> DIL </span> versie 8.0 (uitgebracht in augustus 2018). Gebruik in plaats hiervan de <code> visitor.idSyncSSLUseAkamai </code> <a href="https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/idsyncssluseakamai.html" format="https" scope="external"> functie </a> in de Adobe Experience Platform Identity Service. </p> </p> <p> Hiermee wordt opgegeven of de doelpublicatiesjabloon Akamai moet gebruiken voor HTTPS-verbindingen. Toegelaten op een per-partnerbasis. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> mappings </code> </p> </td> 
@@ -104,7 +103,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> namespace </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>Vereist. </p> <p>Het sleutelwaardepaar <code> namespace </code> bevat uw <span class="keyword"> Experience Cloud </span> Organisatie-id. Als u deze id niet hebt, vindt u deze in de sectie <span class="wintitle"> Beheer </span> van het <span class="keyword"> Experience Cloud </span> dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie <a href="../../faq/faq-features.md"> Veelgestelde vragen over productfuncties en -functies </a> en <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Beheer - Gebruikersbeheer en Veelgestelde vragen </a>. </p> </td> 
+   <td colname="col3"> <p>Vereist. </p> <p>Het sleutelwaardepaar <code> namespace </code> bevat uw <span class="keyword"> Experience Cloud </span> Organisatie-id. Als u deze id niet hebt, vindt u deze in de sectie <span class="wintitle"> Beheer </span> van het <span class="keyword"> Experience Cloud </span> dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie <a href="../../faq/faq-features.md"> Veelgestelde vragen over productfuncties en -functies </a> en <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html" format="https" scope="external"> Beheer - Gebruikersbeheer en Veelgestelde vragen </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> partner </code> </p> </td> 
@@ -124,7 +123,7 @@ r_dil_create.xml
   <tr> 
    <td colname="col1"> <p> <code> visitorService </code> </p> </td> 
    <td colname="col2"> <p>Object </p> </td> 
-   <td colname="col3"> <p>Vereist met <span class="wintitle"> DIL </span> 6.2 of hoger. </p> <p> DIL vertrouwt op de functie <code> setCustomerIDs </code> in <span class="wintitle"> Adobe Experience Platform Identity Service </span> om gedeclareerde id's door te geven aan <span class="keyword"> Audience Manager </span>. Zie <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Klantnamen en verificatiestatus </a> voor meer informatie. </p> </td> 
+   <td colname="col3"> <p>Vereist met <span class="wintitle"> DIL </span> 6.2 of hoger. </p> <p> DIL vertrouwt op de functie <code> setCustomerIDs </code> in <span class="wintitle"> Adobe Experience Platform Identity Service </span> om gedeclareerde id's door te geven aan <span class="keyword"> Audience Manager </span>. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Klantnamen en verificatiestatus </a> voor meer informatie. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -180,7 +179,7 @@ r_dil_uuid_cookie.xml
 | `domain` | Het domein waarin de cookie wordt ingesteld, bijvoorbeeld `'adobe.com'` ( `'.'+document.domain` is default). |
 | `secure` | Hiermee stelt u een markering in voor het verzenden van gegevens via alleen een HTTPS-verbinding. |
 
-## SiteService-eigenschappen {#visitor-service-props}
+## eigenschappen van bezoekerService {#visitor-service-props}
 
 Definieert de eigenschappen die door de variabele `visitorService` worden gebruikt. Deze variabele maakt deel uit van de methode `DIL.create`.
 
