@@ -8,10 +8,10 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-adres; STFP IP-adres; FTP-adres
 feature: Beheer
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: b8c8f35376c5a8a85fa4eeace7b447385ee9f339
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 80%
+source-wordcount: '1213'
+ht-degree: 79%
 
 ---
 
@@ -190,7 +190,7 @@ Nee, ga in dit geval niet uit van de [!UICONTROL General Reports] en [!UICONTROL
 
 De rapporten berekenen populaties op basis van de niet-geverifieerde profielrecords (UUID’s) die we zien in de back-end op het tijdstip dat de rapporten worden gegenereerd.
 
-Bij een eerste call naar de [!DNL DCS] zijn de gedeclareerde id’s *niet* gekoppeld aan een UUID (er is dus geen [demdex-cookie](https://docs.adobe.com/content/help/nl-NL/core-services/interface/ec-cookies/cookies-am.html) aanwezig aan de clientzijde). De [!DNL DCS] genereert willekeurig een UUID, stelt een [!DNL demdex]-cookie in en geeft dit door in de reactiecall, maar de UUID wordt niet naar de back-end verzonden.
+Bij een eerste call naar de [!DNL DCS] zijn de gedeclareerde id’s *niet* gekoppeld aan een UUID (er is dus geen [demdex-cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) aanwezig aan de clientzijde). De [!DNL DCS] genereert willekeurig een UUID, stelt een [!DNL demdex]-cookie in en geeft dit door in de reactiecall, maar de UUID wordt niet naar de back-end verzonden.
 
 >[!NOTE]
 >
