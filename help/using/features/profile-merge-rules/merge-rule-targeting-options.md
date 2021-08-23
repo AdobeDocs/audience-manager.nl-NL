@@ -5,13 +5,12 @@ seo-title: Algemene gebruiksscenario’s voor regels voor profielsamenvoeging
 solution: Audience Manager
 title: Algemene gebruiksscenario’s voor regels voor profielsamenvoeging
 uuid: c9eb41c8-fe19-45f8-9ff1-552c11ef08da
-feature: Profile Merge
+feature: Profielsamenvoeging
 exl-id: 66341736-4f61-4306-b9f4-1b37dc7ce0ff
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 4%
+source-wordcount: '995'
+ht-degree: 3%
 
 ---
 
@@ -37,7 +36,7 @@ Door de **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]
 
 ![alleen apparaat](assets/device-management.png)
 
-## Gedeeld apparaat gericht {#target-shared-devices}
+## Gedeelde apparaatdoelen {#target-shared-devices}
 
 Laten we zeggen dat John en zijn vrouw, Jane, dezelfde laptop gebruiken om een online winkel te bezoeken en verschillende artikelen te bestellen.
 
@@ -65,7 +64,7 @@ Dankzij de koppeling tussen het apparaat en het profiel van het huishouden kan A
 
 ![beheer van huishoudens](assets/household-management.png)
 
-## Doelstelling voor op mensen gebaseerde doelen {#all-cross-device}
+## Doelen voor op mensen gebaseerde bestemmingen {#all-cross-device}
 
 >[!IMPORTANT]
 >
@@ -79,9 +78,9 @@ Meer over deze optie leren, zie [Op mensen-Gebaseerde Doelen](../destinations/pe
 
 ![alles-over-apparaat](assets/all-cross-device.png)
 
-## Opties voor apparaatgrafiek {#device-graph-options}
+## Grafiekopties apparaat {#device-graph-options}
 
-Het kiezen van een optie [!UICONTROL device graph] voor een [!UICONTROL Profile Merge] regel hangt van voorwaarden uniek aan uw digitale eigenschappen en bedrijfsdoelstellingen af. Deze algemene richtlijnen kunnen u helpen begrijpen wanneer om één type van grafiek tegenover een andere te gebruiken. Opmerking: u moet lid zijn van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/home.html) of een contractuele relatie hebben met een externe apparaatgrafiek om deze opties te kunnen gebruiken. Raadpleeg de onderstaande tabel voor algemene informatie over de keuze van een grafiekoptie voor apparaten. Voor specifieke gebruiksgevallen, zie [De Gevallen van de Grafiek van het Apparaat van de Verbinding van het Profiel ](profile-link-use-case.md) en [De Gevallen van het Gebruik van de Grafiek van het Extern Apparaat](external-graph-use-cases.md).
+Het kiezen van een optie [!UICONTROL device graph] voor een [!UICONTROL Profile Merge] regel hangt van voorwaarden uniek aan uw digitale eigenschappen en bedrijfsdoelstellingen af. Deze algemene richtlijnen kunnen u helpen begrijpen wanneer om één type van grafiek tegenover een andere te gebruiken. Opmerking: u moet lid zijn van de [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html) of een contractuele relatie hebben met een externe apparaatgrafiek om deze opties te kunnen gebruiken. Raadpleeg de onderstaande tabel voor algemene informatie over de keuze van een grafiekoptie voor apparaten. Voor specifieke gebruiksgevallen, zie [De Gevallen van de Grafiek van het Apparaat van de Verbinding van het Profiel ](profile-link-use-case.md) en [De Gevallen van het Gebruik van de Grafiek van het Extern Apparaat](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -102,7 +101,7 @@ Het kiezen van een optie [!UICONTROL device graph] voor een [!UICONTROL Profile 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Opties externe apparaatgrafiek </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> Profielsamenstellingen </span> die zijn gebouwd met de  <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-</a> oporgrafiek van externe apparaten die zijn geïntegreerd met  <span class="keyword"> Audience </span> Managerare zijn ideaal voor: </p> <p> 
+   <td colname="col2"> <p><span class="wintitle"> Profielsamenstellingen </span> die zijn gebouwd met de  <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Experience Cloud Device Co-</a> oporgrafiek van externe apparaten die zijn geïntegreerd met  <span class="keyword"> Audience </span> Managerare zijn ideaal voor: </p> <p> 
      <ul id="ul_D76D773988604A619FA4A3BF37F910F0"> 
       <li id="li_969A0755A9E34CBEB2F7331C137B9A26">Digitale eigenschappen die een laag niveau van klantenauthentificatie hebben. </li> 
       <li id="li_AC78C8B4AD5340FFAC44FE851096C6A6">Brede, geavanceerde merkcampagnes. </li> 
@@ -119,6 +118,6 @@ Bekijk de onderstaande video voor een overzicht van mogelijke gebruiksgevallen v
 >[!MORELIKETHIS]
 >
 >* [Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen](profile-link-use-case.md)
->* [Gebruiksscenario’s voor grafiek van externe apparaten](external-graph-use-cases.md)
->* [Veelgestelde vragen over regels voor samenvoegen van profielen](../../faq/faq-profile-merge.md)
+* [Gebruiksscenario’s voor grafiek van externe apparaten](external-graph-use-cases.md)
+* [Veelgestelde vragen over regels voor samenvoegen van profielen](../../faq/faq-profile-merge.md)
 
