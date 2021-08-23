@@ -6,21 +6,20 @@ seo-title: Gedeclareerde id’s
 solution: Audience Manager
 title: Gedeclareerde id’s
 uuid: 49bb4f7e-b4a7-4d87-a29c-c3dca036d2a3
-feature: ID Syncs
-translation-type: tm+mt
-source-git-commit: 29708d5fc528ac9da08f4c5a7f2bcaa11b240d8b
+feature: ID-synchronisaties
+exl-id: a480671a-797d-405d-905d-98ab4ef71369
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 9%
+source-wordcount: '1183'
+ht-degree: 8%
 
 ---
-
 
 # [!UICONTROL Declared IDs] {#declared-ids}
 
 Hoe [!UICONTROL declared IDs] werkt, opstellingsprocedures, codevoorbeelden, en variabelen.
 
-## [!UICONTROL Declared ID] Doelstelling  {#declared-id-targeting}
+## [!UICONTROL Declared ID] Doelstelling {#declared-id-targeting}
 
 U kunt gebruikers-id&#39;s uitwisselen en synchroniseren met [!DNL Audience Manager] van apparaten of browsers die geen permanente opslagmechanismen gebruiken of accepteren, zoals [!DNL cookies] van derden.
 
@@ -38,7 +37,7 @@ Sommige browsers en de meeste mobiele apparaten accepteren [!DNL cookies] van de
  <tbody> 
   <tr> 
    <td colname="col1"> <b>Gebeurtenisoproep</b> </td> 
-   <td colname="col2"> <p>Als u wilt werken, hebt u <span class="wintitle"> DIL </span> en de code <a href="https://docs.adobe.com/content/help/en/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> op de pagina nodig. <span class="wintitle"> DIL  </span> krijgt  <span class="wintitle"> verklaarde identiteitskaarts  </span> van de  <code> setVisitorID </code> functie die door de Dienst van de Identiteit van  <span class="keyword"> Adobe Experience Platform wordt verstrekt  </span> en gaat dat op  <span class="keyword"> Audience Manager over  </span>. </p> </td> 
+   <td colname="col2"> <p>Als u wilt werken, hebt u <span class="wintitle"> DIL </span> en de code <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> op de pagina nodig. <span class="wintitle"> DIL  </span> krijgt  <span class="wintitle"> verklaarde identiteitskaarts  </span> van de  <code> setVisitorID </code> functie die door de Dienst van de Identiteit van  <span class="keyword"> Adobe Experience Platform wordt verstrekt  </span> en gaat dat op  <span class="keyword"> Audience Manager over  </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>Identiteitskaart afstemmen</b> </td> 
@@ -66,7 +65,7 @@ Bij het proces [!UICONTROL declared ID] worden de voorkeuren van de sitebezoeker
 
 Zie [Gegevensprivacy](../overview/data-security-and-privacy/data-privacy.md) voor meer informatie over het opting-out van gegevensinzameling.
 
-## [!UICONTROL Declared ID] Voorbeelden voor uitschakelen  {#opt-out-examples}
+## [!UICONTROL Declared ID] Voorbeelden voor uitschakelen {#opt-out-examples}
 
 U kunt een [!UICONTROL declared ID] opt-out verzoeken met `d_cid` en `d_cid_ic` sleutel-waardeparen. De oude parameters zoals `d_dpid` en `d_dpuuid` werken nog steeds, maar worden beschouwd als afgekeurd. Zie [CID vervangt DPID en DPUUID](../reference/cid.md). In de voorbeelden geeft *cursief* een plaatsaanduiding voor variabelen aan.
 
@@ -179,13 +178,13 @@ Op basis van deze sleutelwaardeparen en hun vereiste syntaxis kunt u gebeurtenis
  </tbody> 
 </table>
 
-## [!UICONTROL Declared ID] Variabelen  {#declared-id-variables}
+## [!UICONTROL Declared ID] Variabelen {#declared-id-variables}
 
 Beschrijft de configuratievariabelen die worden gebruikt om [!UICONTROL declared IDs] tot [!UICONTROL DIL] tot [!DNL Audience Manager.] over te gaan
 
 ## [!UICONTROL DIL] gebruikt  [!DNL Adobe Experience Platform Identity Service] om te slagen  [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Bij gebruik met [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) hoeft u [!UICONTROL declared IDs] niet meer door te geven met de afgekeurde variabelen `dpid` en `dpuuid`. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] op de `visitorService` functie om [!UICONTROL declared IDs] van de `setCustomerIDs` functie in [!UICONTROL Adobe Experience Platform Identity Service] te krijgen. Voor meer informatie, zie [Klantidentiteitskaart en Authentificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). U zou `visitorService` in `DIL.create` zoals hieronder getoond roepen.
+Bij gebruik met [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) hoeft u [!UICONTROL declared IDs] niet meer door te geven met de afgekeurde variabelen `dpid` en `dpuuid`. In plaats daarvan, baseren de huidige versies van [!UICONTROL DIL] op de `visitorService` functie om [!UICONTROL declared IDs] van de `setCustomerIDs` functie in [!UICONTROL Adobe Experience Platform Identity Service] te krijgen. Voor meer informatie, zie [Klantidentiteitskaart en Authentificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). U zou `visitorService` in `DIL.create` zoals hieronder getoond roepen.
 
 ```js
 var vDil = DIL.create({
@@ -196,9 +195,9 @@ var vDil = DIL.create({
 });
 ```
 
-In `namespace` sleutel-waarde paar, `MCORG` is uw [!DNL Experience Cloud] identiteitskaart van de Organisatie Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Beheer: Core Services](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html).
+In `namespace` sleutel-waarde paar, `MCORG` is uw [!DNL Experience Cloud] identiteitskaart van de Organisatie Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Beheer: Core Services](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html).
 
-## Vervangen functies {#deprecated-functions}
+## Verouderde functies {#deprecated-functions}
 
 Met de recentste versies van [!UICONTROL DIL] (6.2+), te hoeven u niet deze zeer belangrijk-waardeparen te gebruiken om binnen [!UICONTROL declared IDs] over te gaan. Dat komt doordat [!UICONTROL DIL] nu afhankelijk is van de functie `visitorService` die in het bovenstaande codevoorbeeld wordt getoond. Deze functie krijgt [!UICONTROL declared IDs] van [!UICONTROL Adobe Experience Platform Identity Service]. Maar we verwijzen hier naar deze variabelen voor historische en oudere doeleinden. Zie de code hieronder voor een voorbeeld van hoe te om `DIL.create` te vormen om [!UICONTROL declared ID] van [!UICONTROL Visitor ID Service] te krijgen.
 In de volgende tabel worden de oudere variabelen beschreven die door het object `declaredId` worden gebruikt:
@@ -275,7 +274,7 @@ myCallback({
 })
 ```
 
-## Niet richten en uit Vraag {#do-not-target}
+## Niet de Vraag van het Doel en van de Weigering {#do-not-target}
 
 Bij het proces [!UICONTROL declared ID] worden de voorkeuren van de sitebezoeker gerespecteerd voor het uitschakelen van [!DNL Audience Manager]-doelen door uw website. Wanneer [!DNL Audience Manager] een &quot;opt-out&quot;-verzoek ontvangt, retourneert [!DNL DCS] een leeg [!DNL JSON]-object in plaats van de [!DNL Audience Manager]-gebruikersnaam.
 
