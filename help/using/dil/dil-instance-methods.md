@@ -6,15 +6,14 @@ seo-title: DIL-methoden op instantieniveau
 solution: Audience Manager
 title: DIL-methoden op instantieniveau
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e40233ace5cb74743db7d0f9f90707fa596a7e79
+feature: DIL-implementatie
+exl-id: 0342439d-708e-461c-b155-a3ee423f5437
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1105'
 ht-degree: 2%
 
 ---
-
 
 # DIL-methoden op instantieniveau{#instance-level-dil-methods}
 
@@ -166,7 +165,7 @@ partnerObject.api.logs({
 });
 </code></pre>
 
-## verzenden {#submit}
+## indienen {#submit}
 
 Hiermee worden alle gegevens die in behandeling zijn naar de Audience Manager verzonden voor de instantie [!UICONTROL DIL].
 
@@ -723,9 +722,9 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [Naamvereisten voor belangrijke variabelen](../features/traits/trait-key-name-requirements.md)
->* [Voorvoegselvereisten voor belangrijke variabelen](../features/traits/trait-variable-prefixes.md)
->* [Synchronisatiefuncties in de Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/idsync.html)
->* [DIL maken](../dil/dil-class-overview/dil-create.md#dil-create)
->* [Adobe Experience Platform Identity Service: UseCORSOnly](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/use-cors-only.html)
->* [CORS-ondersteuning in de Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/reference/cors.html)
+* [Voorvoegselvereisten voor belangrijke variabelen](../features/traits/trait-variable-prefixes.md)
+* [Synchronisatiefuncties in de Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
+* [DIL maken](../dil/dil-class-overview/dil-create.md#dil-create)
+* [Adobe Experience Platform Identity Service: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+* [CORS-ondersteuning in de Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
 
