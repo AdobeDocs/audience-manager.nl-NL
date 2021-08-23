@@ -5,17 +5,16 @@ seo-title: Veelgestelde vragen over privacy en dataretentie
 solution: Audience Manager
 title: Veelgestelde vragen over privacy en dataretentie
 uuid: ef558fca-35ff-44f1-8527-f8bee9f2c7e9
-feature: Data Governance & Privacy
+feature: Beheer en privacy van gegevens
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
-translation-type: tm+mt
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 84%
+source-wordcount: '759'
+ht-degree: 83%
 
 ---
 
-# Veelgestelde vragen over privacy en dataretentie {#privacy-and-data-retention-faq}
+# Veelgestelde vragen over privacy en dataretentie{#privacy-and-data-retention-faq}
 
 Antwoorden op algemene vragen of problemen in verband met privacy en data.
 
@@ -29,7 +28,7 @@ Antwoorden op algemene vragen of problemen in verband met privacy en data.
 
 **Hoe gebruikt Audience Manager cookies en welke cookies worden ingesteld?**
 
-Zie [Audience Manager-cookies](https://docs.adobe.com/content/help/nl-NL/core-services/interface/ec-cookies/cookies-am.html).
+Zie [Audience Manager-cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **Kunnen Audience Manager-clients in de VS gebruikers targeten op EU-eigenschappen?**
 
