@@ -5,23 +5,22 @@ seo-title: Lijst met databronnen en -instellingen
 solution: Audience Manager
 title: Lijst met databronnen en -instellingen
 uuid: 280a6acd-fef0-4737-a96d-9e22fbc8bfaf
-feature: Data Sources
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Databronnen
+exl-id: c561d51e-e1dc-413e-bf24-13f04f10abe6
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1116'
 ht-degree: 1%
 
 ---
 
-
-# [!UICONTROL Data Sources] Lijst en instellingen  {#data-sources-list-and-settings}
+# [!UICONTROL Data Sources] Lijst en instellingen {#data-sources-list-and-settings}
 
 Bekijk een lijst van uw momenteel gevormde [!UICONTROL data sources], voeg nieuw [!UICONTROL data sources] toe, en geef bestaand [!UICONTROL data sources] uit.
 
 U kunt [!UICONTROL data sources] ook beheren gebruikend [!DNL API] methodes. Zie [API-methoden voor gegevensbron](../api/rest-api-main/aam-api-data-sources.md) voor meer informatie.
 
-## [!UICONTROL Data Sources] Lijstweergave  {#list-view}
+## [!UICONTROL Data Sources] Lijstweergave {#list-view}
 
 Het [!UICONTROL Data Sources] dashboard is een gecentraliseerde werkruimte voor het beheer van gegevensbronnen.
 
@@ -31,11 +30,11 @@ Het [!UICONTROL Data Sources] dashboard (**[!UICONTROL Audience Data]** > **[!UI
 * [!UICONTROL data sources] op naam zoeken.
 * [!UICONTROL data sources] maken, bewerken en verwijderen.
 
-## [!DNL Data Source] Instellingen en menuopties  {#settings-menu-options}
+## [!DNL Data Source] Instellingen en menuopties {#settings-menu-options}
 
 De montages in de verschillende secties van [!UICONTROL Data Source] beheersinterface identificeren uw [!DNL data source], bepalen hoe het wordt gebruikt of gedeeld, en laten u foutenrapportering voor [!UICONTROL Onboarding Status Report] toelaten.
 
-## [!DNL Data Source] Details  {#details}
+## [!DNL Data Source] Details {#details}
 
 Naast tekstvelden bevat de sectie [!UICONTROL Data Source Details] de onderstaande besturingselementen en opties.
 
@@ -56,7 +55,7 @@ Naast tekstvelden bevat de sectie [!UICONTROL Data Source Details] de onderstaan
       <li id="li_063F1B263B3B4D69B8880F7ACCB82450"> <b><span class="uicontrol"> Kruisapparaat</span></b>: Een door de klant opgegeven, geverifieerde id. Selecteer deze optie als u het volgende wilt maken: 
        <ul id="ul_D998B4081AD843C2B3B3E642DD011C1F"> 
         <li id="li_C9D2AF70603043D7BE9DF12FD494D7C7">Een gegevensbron voor meerdere apparaten en bouw een <span class="wintitle"> Regel van de Fusie van het Profiel</span>. </li> 
-        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Een gegevensbron die koppelingen gebruikt die worden geleverd door de <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> of een andere apparaatgrafiek van derden die is geïntegreerd met <span class="keyword"> Audience Manager</span>. </li> 
+        <li id="li_992BD05E2AFE454CAA4460DDEB2B839B">Een gegevensbron die koppelingen gebruikt die worden geleverd door de <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Adobe Experience Cloud Device Co-op</a> of een andere apparaatgrafiek van derden die is geïntegreerd met <span class="keyword"> Audience Manager</span>. </li> 
        </ul> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -87,7 +86,7 @@ De volgende opties zijn beschikbaar:
 * **[!UICONTROL Cannot be used for off-site ad targeting]**
 * **[!UICONTROL Cannot be used for on-site personalization]**
 
-## [!UICONTROL Data Source] Instellingen  {#data-source-settings}
+## [!UICONTROL Data Source] Instellingen {#data-source-settings}
 
 De [!UICONTROL Data Source Settings] bevat de hieronder vermelde besturingselementen en opties. Sommige van deze instellingen hebben extra subopties en menu-items die u kunt selecteren om een gegevensbron te wijzigen.
 
@@ -113,7 +112,7 @@ Schakel het selectievakje **[!UICONTROL Inbound]** in als uw gegevensbron is ont
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Klant-id</span></b>: Identificeert binnenkomende gegevens met een klant identiteitskaart </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager-id</span></b>: Identificeert binnenkomende gegevens met een  <span class="keyword"> Publiek </span> ManagerID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-id</span></b>: Identificeert binnenkomende gegevens met een  <span class="keyword"> Experience </span> CloudID. Zie <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Koekjes en Experience Cloud ID</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-id</span></b>: Identificeert binnenkomende gegevens met een  <span class="keyword"> Experience </span> CloudID. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Koekjes en Experience Cloud ID</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
