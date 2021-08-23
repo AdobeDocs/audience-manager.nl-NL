@@ -6,10 +6,9 @@ solution: Audience Manager
 title: Aan de slag met Predictieve doelgroepen
 feature: Algorithmic Models
 exl-id: beb314de-f679-4397-8e14-2dd6576243fd
-translation-type: tm+mt
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '572'
 ht-degree: 7%
 
 ---
@@ -19,9 +18,9 @@ ht-degree: 7%
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
 
-## Model {#create-predictive-audiences} voor voorspellend publiek maken
+## Een voorspellend model voor soorten publiek maken {#create-predictive-audiences}
 
-Voordat u een [!UICONTROL Predictive Audiences]-model maakt, moet u bepalen aan welke gegevensbron van de eerste partij u de [!UICONTROL Predictive Audiences]-kenmerken en -segmenten wilt toewijzen. U kunt een bestaande bron van eerste-partijgegevens gebruiken, of nieuwe creëren. Zie [Gegevensbronnen beheren](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html) voor meer informatie over het maken van een nieuwe gegevensbron van de eerste partij.
+Voordat u een [!UICONTROL Predictive Audiences]-model maakt, moet u bepalen aan welke gegevensbron van de eerste partij u de [!UICONTROL Predictive Audiences]-kenmerken en -segmenten wilt toewijzen. U kunt een bestaande bron van eerste-partijgegevens gebruiken, of nieuwe creëren. Zie [Gegevensbronnen beheren](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) voor meer informatie over het maken van een nieuwe gegevensbron van de eerste partij.
 
 Volg de onderstaande stappen als u weet welke gegevensbron u wilt gebruiken.
 
@@ -46,7 +45,7 @@ Volg de onderstaande stappen als u weet welke gegevensbron u wilt gebruiken.
       ![voorspellend publiek-sparen](assets/predictive-audiences-save.png)
 1. Klik op **[!UICONTROL Save]**.
 
-## Predictive Audience Models {#clone-predictive-audiences} klonen en bewerken
+## Predictive Audience Models klonen en bewerken {#clone-predictive-audiences}
 
 Audience Manager biedt geen ondersteuning voor het bewerken van bestaande [!UICONTROL Predictive Audiences]-modellen. Als u de configuratie van een model wilt wijzigen, kunt u een kloon van een bestaand model maken en bewerken. Zo kunt u dit doen:
 
