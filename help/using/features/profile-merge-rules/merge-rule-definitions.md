@@ -5,17 +5,16 @@ seo-title: Definities van opties voor regels voor profielsamenvoeging.
 solution: Audience Manager
 title: Definities van opties voor regels voor profielsamenvoeging.
 uuid: 225eeaf7-45e9-4f21-9360-d80a9f90520c
-feature: Profile Merge
+feature: Profielsamenvoeging
 exl-id: 682d2540-c764-4f5a-a946-5d0e18c66c00
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 2%
+source-wordcount: '1021'
+ht-degree: 1%
 
 ---
 
-# [!UICONTROL Profile Merge Rules] Gedefinieerde opties  {#profile-merge-rule-options-defined}
+# [!UICONTROL Profile Merge Rules] Gedefinieerde opties {#profile-merge-rule-options-defined}
 
 Met de opties [!UICONTROL profile merge rule] kunt u het type gegevens bepalen dat [!DNL Audience Manager] gebruikt voor segmentatie. Een [!UICONTROL profile merge rule] kan apparaatprofielen bevatten die zijn toegewezen door de apparaatgrafiek [!UICONTROL Profile Link], de [!UICONTROL Adobe Experience Cloud Device Co-op] en/of andere externe apparaatgrafiekproviders die zijn geïntegreerd met [!DNL Audience Manager]. U kunt maximaal 4 [!UICONTROL Profile Merge Rules] maken. De vierde [!UICONTROL Profile Merge Rule] is uitsluitend beschikbaar voor klanten die de [!UICONTROL People-Based Destinations]-invoegtoepassing hebben aangeschaft.
 
@@ -23,7 +22,7 @@ U maakt een [!UICONTROL Profile Merge Rule] door een selectie te maken van de hi
 
 ![profile-merge-rule-setup](assets/profile-merge-rule-setup.png)
 
-## [!UICONTROL Profile Merge Rule] Overzicht van opties  {#overview}
+## [!UICONTROL Profile Merge Rule] Overzicht van opties {#overview}
 
 [!UICONTROL Profile Merge Rules] een aantal regelcombinaties mogelijk te maken, elk gericht op specifieke gebruiksgevallen. Zie de tabel hieronder voor meer informatie over het gebruik van elke regelcombinatie.
 
@@ -37,7 +36,7 @@ U maakt een [!UICONTROL Profile Merge Rule] door een selectie te maken van de hi
 | [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] (inclusief  [!UICONTROL Co-op Device Graph]) | Alle klanten | Realtime en batch | Nee | [Geavanceerde interDevice-doelen](external-graph-use-cases.md#advanced-graph-expansion) |
 | [!UICONTROL All Cross-Device Profiles] | N.v.t. | Exclusief naar [Op mensen gebaseerde Doelen](../destinations/people-based-destinations-overview.md) klanten | Alleen batch | Nee | [Doelen voor op mensen gebaseerde bestemmingen](merge-rule-targeting-options.md#all-cross-device) |
 
-## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Evaluatie  {#segment-evaluation}
+## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Evaluatie {#segment-evaluation}
 
 Afhankelijk van uw [!UICONTROL Profile Merge Rules] configuratie, [!DNL Audience Manager] kan [!UICONTROL segment] evaluatie in real time, in partij, of allebei uitvoeren.
 
@@ -45,7 +44,7 @@ Afhankelijk van uw [!UICONTROL Profile Merge Rules] configuratie, [!DNL Audience
 * De batchevaluatie [!UICONTROL segment] wordt uitgevoerd tegen eerder gekwalificeerd [!UICONTROL traits].
 * [!UICONTROL Profile Merge Rules] die zowel  [!UICONTROL segment] evaluatie in real time als partijevaluatie steunen combineert de activiteit van de bezoeker in real time met eerder gekwalificeerd  [!UICONTROL traits].
 
-## [!UICONTROL Profile Merge Rules] Rapportageachterstand  {#reporting-latency}
+## [!UICONTROL Profile Merge Rules] Rapportageachterstand {#reporting-latency}
 
 Real-time [!UICONTROL segment] evaluatie weerspiegelt onmiddellijk in [!UICONTROL Profile Merge Rules] rapporten.
 
@@ -112,11 +111,11 @@ Met [!UICONTROL Device Options] kunt u het type *`device profile`* selecteren da
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Afbeelding van apparaat voor coop</span></b> </p> </td> 
-   <td colname="col2"> <p>Vertelt <span class="keyword"> Audience Manager</span> om de profielen van het huidige apparaat en tot 100 andere apparaten te lezen gebruikend de verbindingen die door <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html" format="https" scope="external"> Coop van het Apparaat van de Experience Cloud worden verstrekt </a>. </p> <p>De <span class="keyword"> Device Co-op</span> is een digitale coöperatie waar deelnemende klanten koppelingsinformatie over apparaten delen. De <span class="keyword"> ApparaatCo-op</span> verwerkt deze gegevens in een <span class="term"> apparatengrafiek</span>. Een apparaatgrafiek koppelt apparaten aan elkaar in apparaatclusters. Deze verbindingen worden gebouwd van <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/links.html" format="https" scope="external"> probabilistische en deterministische gegevens</a>. De clusters vertegenwoordigen een groep apparaten die door een onbekende persoon worden gebruikt. De <span class="keyword"> Device Co-op</span> deelt deze clusters onder zijn leden, wat hen helpt waardevolle en consistente ervaringen op verschillende apparaten aan hun klanten te bieden. </p> <p> Voor meer informatie over <span class="wintitle"> Apparaatcoop</span>, zie: </p> <p> 
+   <td colname="col2"> <p>Vertelt <span class="keyword"> Audience Manager</span> om de profielen van het huidige apparaat en tot 100 andere apparaten te lezen gebruikend de verbindingen die door <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html" format="https" scope="external"> Coop van het Apparaat van de Experience Cloud worden verstrekt </a>. </p> <p>De <span class="keyword"> Device Co-op</span> is een digitale coöperatie waar deelnemende klanten koppelingsinformatie over apparaten delen. De <span class="keyword"> ApparaatCo-op</span> verwerkt deze gegevens in een <span class="term"> apparatengrafiek</span>. Een apparaatgrafiek koppelt apparaten aan elkaar in apparaatclusters. Deze verbindingen worden gebouwd van <a href="https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/links.html" format="https" scope="external"> probabilistische en deterministische gegevens</a>. De clusters vertegenwoordigen een groep apparaten die door een onbekende persoon worden gebruikt. De <span class="keyword"> Device Co-op</span> deelt deze clusters onder zijn leden, wat hen helpt waardevolle en consistente ervaringen op verschillende apparaten aan hun klanten te bieden. </p> <p> Voor meer informatie over <span class="wintitle"> Apparaatcoop</span>, zie: </p> <p> 
      <ul id="ul_8EDA7D092ECD444C8C19CDC7534D84DE"> 
-      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html" format="https" scope="external"> Samenvatting van apparaten</a> </li> 
-      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/about/requirements.html" format="https" scope="external"> Lidmaatschapseisen</a> </li> 
-      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Apparaatgrafiek: Interne processen en uitvoer</a> </li>
+      <li id="li_323BC5993D6A4BA3962169BF0ED37C55"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/home.html" format="https" scope="external"> Samenvatting van apparaten</a> </li> 
+      <li id="li_0BDB2144EC584002B3B9F1D64B6CD580"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/about/requirements.html" format="https" scope="external"> Lidmaatschapseisen</a> </li> 
+      <li id="li_632D1014909146758F07CFAC79B90CFE"> <a href="https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html" format="https" scope="external"> Apparaatgrafiek: Interne processen en uitvoer</a> </li>
      </ul> </p> </td>
   </tr> 
   <tr> 
