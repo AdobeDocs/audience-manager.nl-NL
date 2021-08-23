@@ -6,12 +6,11 @@ seo-title: Index van id’s in Audience Manager
 solution: Audience Manager
 title: Index van id’s in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: Reference
+feature: 'Referenties '
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '961'
 ht-degree: 3%
 
 ---
@@ -22,20 +21,20 @@ ht-degree: 3%
 
 [!DNL Audience Manager] gebruikt meerdere id&#39;s om de gegevens te identificeren en te beheren die u ernaar verzendt. Raadpleeg dit artikel voor de volledige lijst met [!DNL Audience Manager] id&#39;s, samen met voorbeelden van de voorvoegsels waarmee u deze kunt gebruiken.
 
-## Id-voorvoegsel {#prefixing}
+## ID vooraf bepalen {#prefixing}
 
 Terwijl u naar de meeste van deze IDs door hun standalone namen kunt verwijzen, moeten de meesten van hen met diverse prefixen worden gebruikt, wanneer het overgaan in gegevens door [!DNL DCS] vraag. Sommige van deze id&#39;s worden door [!DNL Audience Manager] gebruikt zonder aan gebruikers te worden blootgesteld, terwijl andere ook zichtbaar zijn in de gebruikersinterface (UI).
 
 Om de prefixen te begrijpen die in de volgende voorbeelden worden gebruikt, zie [Gesteunde Attributen voor Vraag DCS API](../api/dcs-intro/dcs-api-reference/dcs-keys.md).
 
-## [!DNL Audience Manager] Lijst met id&#39;s  {#id-list}
+## [!DNL Audience Manager] Lijst met id&#39;s {#id-list}
 
 | ID | Naam en beschrijving | Gebruik en voorbeelden | Locatie gebruikersinterface |
 |---|---|---|---|
 | [!DNL AAM UUID] | [!DNL Adobe Audience Manager Unique User ID], ook bekend als  [!UICONTROL Device ID]. Een numerieke apparaat-id van 38 cijfers waarmee [!DNL Audience Manager] is gekoppeld aan elk apparaat waarmee het werkt. Denk aan deze id wanneer u een vermelding van unieke gebruikers ziet in de interface [!DNL Audience Manager]. Audience Manager slaat deze id op als een [!DNL cookie] in het `demdex.net` domein van derden. | In [!DNL DCS] vraag, wordt `uuid` voorafgegaan door `d_` prefix. <br>Voorbeeld: `d_uuid = 07955261652886032950143702505894272138` | U kunt [!DNL traits] door [!UICONTROL Device ID] filtreren wanneer het creëren van [look-Alike Modellen](../features/algorithmic-models/create-model.md), en [bouwsegmenten](../features/segments/segment-builder.md). U kunt resultaten door [!UICONTROL Device ID] ook filtreren wanneer het lopen [Algemene Rapporten voor Tanden](../reporting/general-reports.md) en [Tendrapporten voor Tanden](../reporting/trend-reports.md). |
-| [!DNL ImsOrgId] | [!DNL Organization ID]. Dit is de id die een bedrijf bij het aanmelden voor een [!DNL Experience Cloud]-account krijgt. | `5DC5123F5245B1D20A490D46@AdobeOrg` | Niet zichtbaar in [!DNL Audience Manager] gebruikersinterface. Lees [Zoek uw organisatie-id](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255) voor meer informatie over hoe u [!DNL Organization ID] van uw bedrijf kunt vinden. |
+| [!DNL ImsOrgId] | [!DNL Organization ID]. Dit is de id die een bedrijf bij het aanmelden voor een [!DNL Experience Cloud]-account krijgt. | `5DC5123F5245B1D20A490D46@AdobeOrg` | Niet zichtbaar in [!DNL Audience Manager] gebruikersinterface. Lees [Zoek uw organisatie-id](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html#concept_EA8AEE5B02CF46ACBDAD6A8508646255) voor meer informatie over hoe u [!DNL Organization ID] van uw bedrijf kunt vinden. |
 | [!DNL PID] | [!DNL Partner ID]. De [!DNL PID] is een bedrijfs-id in [!DNL Audience Manager]. Audience Manager koppelt een [!DNL imsOrgId] aan een [!DNL PID]. | `1352` | Niet zichtbaar in [!DNL Audience Manager] gebruikersinterface. |
-| [!DNL ECID],  [!DNL MID] | [!DNL Experience Cloud] ID. De [!DNL Experience Cloud]-id ([!DNL ECID], verouderde afkortingen [!DNL MID] of [!DNL MCID]) wordt wiskundig afgeleid van uw [!DNL Organization ID] en [!DNL Audience Manager] [!UICONTROL Unique User ID]. Zolang deze id&#39;s constant blijven, is het genereren van de juiste [!DNL ECID] voor een specifieke gebruiker gewoon een wiskundig probleem. Met dezelfde [!DNL Organization ID] en [!DNL Audience Manager] [!DNL UUID] krijgt u telkens dezelfde [!DNL ECID]-waarde. U kunt meer over [!DNL ECID] in [Cookies en Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html#section-15f69c0bac394b4b9966a23fbc586d17) documentatie lezen. | `mid = 08382830887934830189014177072406221371` | Niet zichtbaar in [!DNL Audience Manager] gebruikersinterface. |
+| [!DNL ECID],  [!DNL MID] | [!DNL Experience Cloud] ID. De [!DNL Experience Cloud]-id ([!DNL ECID], verouderde afkortingen [!DNL MID] of [!DNL MCID]) wordt wiskundig afgeleid van uw [!DNL Organization ID] en [!DNL Audience Manager] [!UICONTROL Unique User ID]. Zolang deze id&#39;s constant blijven, is het genereren van de juiste [!DNL ECID] voor een specifieke gebruiker gewoon een wiskundig probleem. Met dezelfde [!DNL Organization ID] en [!DNL Audience Manager] [!DNL UUID] krijgt u telkens dezelfde [!DNL ECID]-waarde. U kunt meer over [!DNL ECID] in [Cookies en Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html#section-15f69c0bac394b4b9966a23fbc586d17) documentatie lezen. | `mid = 08382830887934830189014177072406221371` | Niet zichtbaar in [!DNL Audience Manager] gebruikersinterface. |
 | [!DNL SID] | [!UICONTROL Trait ID]. [!UICONTROL Trait ID] identificeert [!DNL traits] uniek in [!DNL Audience Manager] milieu. | In [!DNL DCS] vraag, wordt `SID` voorafgegaan door `d_` prefix. <br>Voorbeeld `d_sid=289983`. | Een [!UICONTROL Trait ID] wordt toegewezen aan elke [!DNL trait], en zichtbaar in het gebruikersinterface, op [Traits](../features/traits/trait-details-page.md) pagina. |
 | [!DNL SID] | [!UICONTROL Segment ID]. [!UICONTROL Segment ID] identificeert [!DNL segments] uniek in [!DNL Audience Manager] milieu. | In [!DNL DCS] vraag, wordt `SID` voorafgegaan door `d_` prefix. <br>Voorbeeld `d_sid=4798574`. | Een [!UICONTROL Segment ID] wordt toegewezen aan elke [!DNL segment], en zichtbaar in het gebruikersinterface, op [de pagina van Segmenten](../features/segments/segment-summary-view.md). |
 | [!DNL csegID] | [!DNL Legacy Segment ID]. Deze id identificeert op unieke wijze segmenten in de [!DNL Audience Manager]-omgeving. | `741232` | Een [!UICONTROL Legacy Segment ID] wordt toegewezen aan elk segment, en zichtbaar in het gebruikersinterface, in [Segmenten](../features/segments/segment-summary-view.md) pagina. |
