@@ -5,17 +5,16 @@ seo-title: Woordenlijst
 solution: Audience Manager
 title: Woordenlijst
 uuid: 01fc26f5-db9d-4e90-b4c1-27c6a510accc
-feature: Reference
+feature: 'Referenties '
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 100%
+source-wordcount: '1181'
+ht-degree: 98%
 
 ---
 
-# Woordenlijst {#glossary}
+# Woordenlijst{#glossary}
 
 Definities en koppelingen naar verdere informatie.
 
@@ -60,7 +59,7 @@ In [Addressable Audience](/help/using/features/addressable-audiences.md) staat d
 
 **Klantkenmerken**
 
-Zie [Klantattributen](https://docs.adobe.com/content/help/nl-NL/core-services/interface/customer-attributes/attributes.html) in de [!DNL Experience Cloud Core Services]-productdocumentatie.
+Zie [Klantattributen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de [!DNL Experience Cloud Core Services]-productdocumentatie.
 
 
 
@@ -112,7 +111,7 @@ De [!UICONTROL Data Integration Library] is een API-bibliotheek die door [!DNL A
 
 **Experience Cloud ID (ECID)**
 
-Vroeger bekend als de [!DNL Marketing Cloud]-id (MID of MCID). De [!DNL Experience Cloud]-id staat centraal in de id-service. Dit is een unieke en permanente id voor bezoekers van uw website. Zie Cookies en de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html).
+Vroeger bekend als de [!DNL Marketing Cloud]-id (MID of MCID). De [!DNL Experience Cloud]-id staat centraal in de id-service. Dit is een unieke en permanente id voor bezoekers van uw website. Zie Cookies en de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 
 
@@ -269,6 +268,6 @@ TTL bepaalt hoeveel dagen een gekwalificeerde bezoeker in een eigenschap blijft.
 
 De [!DNL Experience Cloud]id-service (voorheen bezoekers-id) verschaft een universele, permanente id aan de hand waarvan uw bezoekers kunnen worden geïdentificeerd in alle oplossingen in de [!DNL Experience Cloud].
 
-Raadpleeg de documentatie bij de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html).
+Raadpleeg de documentatie bij de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## W-X-Y-Z {#w-z}
