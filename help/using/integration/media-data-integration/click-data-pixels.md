@@ -5,13 +5,12 @@ seo-title: Klikdata campagne vastleggen via pixelcalls
 solution: Audience Manager
 title: Klikdata campagne vastleggen via pixelcalls
 uuid: 7c3797f7-9674-493d-972b-38be0584fede
-feature: Adobe Campaign Integration
+feature: Adobe Campaign-integratie
 exl-id: 41b169bf-3727-4ed7-b74f-fea75244d2cb
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 10%
+source-wordcount: '687'
+ht-degree: 8%
 
 ---
 
@@ -97,7 +96,7 @@ Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. E
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Zie <a href="https://docs.adobe.com/content/help/nl-NL/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a> voor meer informatie over de ECID. </p> <p>Optioneel. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"></span> Experience Cloud ID (ECID). Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a> voor meer informatie over de ECID. </p> <p>Optioneel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 
