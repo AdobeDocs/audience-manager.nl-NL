@@ -1,20 +1,19 @@
 ---
 description: Beschrijft de vereiste en facultatieve stappen die u een algoritmisch model in ModelBouwer laten tot stand brengen.
-keywords: algo how works
+keywords: laten zien hoe werkt
 seo-description: Beschrijft de vereiste en facultatieve stappen die u een algoritmisch model in ModelBouwer laten tot stand brengen.
 seo-title: Een algoritmisemodel maken
 solution: Audience Manager
 title: Een algoritmisemodel maken
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
 feature: Algorithmic Models
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
-
 
 # Een look-alike-model maken {#create-an-algorithmic-model}
 
@@ -54,7 +53,7 @@ Voer de onderstaande stappen uit om een [!UICONTROL Look-Alike Model] te maken:
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
 ## Basisinformatie voor algoritmische modellen {#basic-information}
 
@@ -70,13 +69,13 @@ Met de [!UICONTROL Model Builder]-instellingen kunt u nieuwe modellen maken of b
 
 ## Configuratie {#configuration}
 
-In [!UICONTROL Model Builder], laat de [!UICONTROL Configuration] sectie u eigenschappen of segmenten aan het model toevoegen. Selecteer in deze sectie een basislijnkenmerk of -segment, een terugkijkperiode en gegevens uit uw eerste en derde gegevensbronnen.
+In [!UICONTROL Model Builder], laat de [!UICONTROL Configuration] sectie u eigenschappen of segmenten aan het model toevoegen. Selecteer in deze sectie een basislijnkenmerk of -segment, een terugkijkperiode en gegevens uit uw eerste en andere gegevensbronnen.
 
 <!-- r_model_configuration.xml -->
 
 ### Vereisten
 
-Vul de vereiste velden eerst in de sectie [!UICONTROL Basic Information] in.
+Vul eerst de vereiste velden in de sectie [!UICONTROL Basic Information] in.
 
 ![](assets/lam_exclude_traits_numbered.png)
 
