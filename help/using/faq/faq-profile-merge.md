@@ -6,17 +6,16 @@ seo-title: Veelgestelde vragen over regels voor profielsamenvoeging en apparaatg
 solution: Audience Manager
 title: Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profile Merge
+feature: Profielsamenvoeging
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 86%
+source-wordcount: '1550'
+ht-degree: 85%
 
 ---
 
-# Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken {#profile-merge-rules-and-device-graph-faq}
+# Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken{#profile-merge-rules-and-device-graph-faq}
 
 Antwoorden op veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken.
 
@@ -112,7 +111,7 @@ Ja.
 
 **Omvatten de schattingen van de segmentgrootte apparaten die voor een segment kwalificeren op basis van verbindingen geleverd door een [!UICONTROL Profile Merge Rule] die een apparaatgrafiekoptie gebruikt?**
 
-Nee. Zie de definities voor [!UICONTROL Estimated Real-Time Population] en [!UICONTROL Estimated Total Population] in [Populatiedata van eigenschappen en segmenten in Segment Builder](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/features/segments/segment-builder-data.html).
+Nee. Zie de definities voor [!UICONTROL Estimated Real-Time Population] en [!UICONTROL Estimated Total Population] in [Populatiedata van eigenschappen en segmenten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
