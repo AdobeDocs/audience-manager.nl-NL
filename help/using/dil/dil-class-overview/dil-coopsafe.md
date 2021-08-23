@@ -5,15 +5,14 @@ seo-title: isCoopSafe
 solution: Audience Manager
 title: isCoopSafe
 uuid: c5362a38-93c0-4edb-bdcb-106e43f33a92
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: DIL-implementatie
+exl-id: 33dca495-6923-4966-9ec3-8b0fd2f17649
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
-
 
 # isCoopSafe{#iscoopsafe}
 
@@ -24,11 +23,11 @@ Een optionele, Booleaanse configuratie die bepaalt of DIL gegevens naar de Adobe
 Als u `isCoopSafe` wilt gebruiken, moet u:
 
 * Gebruik [!UICONTROL DIL] v6.11 of hoger.
-* Neem deel aan [Experience Cloud Device Co-op](https://docs.adobe.com/content/help/nl-NL/device-co-op/using/home.html). De perspectiefleden van coop zouden deze documentatie ook moeten herzien om te bepalen als `isCoopSafe` mogelijke zorgen over hoe de gegevens worden gebruikt om de apparatengrafiek tot stand te brengen richt.
+* Neem deel aan [Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html). De perspectiefleden van coop zouden deze documentatie ook moeten herzien om te bepalen als `isCoopSafe` mogelijke zorgen over hoe de gegevens worden gebruikt om de apparatengrafiek tot stand te brengen richt.
 
-* Werk samen met uw [!DNL Adobe] consultant om een lijst van gewenste personen of een vlag voor een lijst van afgewezen personen op uw apparaat-Co-op-account in te stellen. Er is geen zelfbedieningspad om deze markeringen in te schakelen.
+* Werk samen met uw [!DNL Adobe] consultant om een lijst van gewenste personen of een vlag voor een lijst van gewezen personen op uw apparaat-Co-op-account in te stellen. Er is geen zelfbedieningspad om deze markeringen in te schakelen.
 
-## Gevallen {#use-cases} gebruiken
+## Gevallen gebruiken {#use-cases}
 
 `isCoopSafe` helpt twee gebruiksgevallen oplossen die verband houden met gegevensverzameling door huidige of toekomstige leden van de Device Co-op. Deze gebruiksgevallen hebben betrekking op de manier waarop bezoekersgegevens van de site worden doorgegeven aan de copop van het apparaat om de apparaatgrafiek samen te stellen. In de volgende tabel wordt beschreven hoe `isCoopSafe` met deze gebruiksgevallen werkt om gegevens te blokkeren of naar de apparaatgrafiek te verzenden
 
@@ -42,7 +41,7 @@ Als u `isCoopSafe` wilt gebruiken, moet u:
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Geverifieerde bezoekers</b> </p> </td> 
-   <td colname="col2"> <p>Voeg <code> isCoopSafe </code> aan uw <span class="wintitle"> DIL code </span> toe om te controleren hoe de gegevens voor voor authentiek verklaarde bezoekers die termijn-van-gebruikovereenkomsten hebben of niet hebben goedgekeurd door de Co-op van het Apparaat wordt gebruikt om de apparatengrafiek te bouwen. </p> </td> 
+   <td colname="col2"> <p>Voeg <code> isCoopSafe </code> aan uw <span class="wintitle"> DIL code </span> toe om te controleren hoe de gegevens voor voor authentiek verklaarde bezoekers die termijn-van-gebruikovereenkomsten hebben of niet hebben goedgekeurd door de Co-op van het Apparaat worden gebruikt om de apparatengrafiek te bouwen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>DIL op sites van derden</b> </p> </td> 
@@ -76,7 +75,7 @@ var dilInstance = DIL.create({
 });
 ```
 
-## Parameters {#post-parameters} van de POST van de Gebeurtenis
+## Parameters POST gebeurtenisaanroep {#post-parameters}
 
 Afhankelijk van de vlag u plaatst ( `true` of `false`), [!UICONTROL DIL] vertaalt `isCoopSafe` in deze POST parameters en verzendt hen naar [!DNL Adobe] in een gebeurtenisvraag:
 
@@ -104,7 +103,7 @@ De parameters van de POST vertellen [!DNL Experience Cloud] Apparaatcoop als het
  </tbody> 
 </table>
 
-## API&#39;s voor nainstantiëring {#post-instantiation}
+## Post-Instantiatie-API&#39;s {#post-instantiation}
 
 Met deze API&#39;s kunt u de status `isCoopSafe` overschrijven. Deze zijn nodig omdat u hiermee de postinstantiërings- of postaanmeldingsstatus van een bezoeker kunt wijzigen op een site of in een app van één pagina waar de pagina niet wordt vernieuwd. U moet deze API&#39;s bijvoorbeeld aanroepen als een gebruiker zich op uw site of app aanmeldt en later een gebruiksbeleid accepteert waarmee de Device Co-op hun gegevens kan gebruiken.
 
@@ -132,4 +131,3 @@ Met deze API&#39;s kunt u de status `isCoopSafe` overschrijven. Deze zijn nodig 
 Wiki page https://wiki.corp.adobe.com/x/RCfFTg
 
  -->
-
