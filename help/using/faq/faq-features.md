@@ -8,15 +8,14 @@ title: Veelgestelde vragen over productkenmerken en -functies
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
 feature: Overzicht
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-translation-type: tm+mt
-source-git-commit: 1760125bbf5f134415c616f367f0eb96f04c5a3f
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 88%
+source-wordcount: '609'
+ht-degree: 84%
 
 ---
 
-# Veelgestelde vragen over productkenmerken en -functies {#product-features-and-functions-faq}
+# Veelgestelde vragen over productkenmerken en -functies{#product-features-and-functions-faq}
 
 Algemene vragen en problemen in verband met producten en functies.
 
@@ -34,7 +33,7 @@ De *`Organization ID`* is een unieke id die uw organisatie identificeert in [!DN
 
 Een *`Organization ID`* kan er bijvoorbeeld zo uitzien: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-De *`Organization ID`* wordt gebruikt door de [DIL](../dil/dil-overview.md)-API van Audience Manager, de [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/nl-NL/id-service/using/home.html) en andere [!DNL Experience Cloud] oplossingen. Gebruikers met beheerdertoestemmingen kunnen de *`Organization ID`* op de [!DNL Adobe Admin Console] vinden. Zie [Veelgestelde vragen over Beheer - User Management](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/admin-getting-started.html).
+De *`Organization ID`* wordt gebruikt door de [DIL](../dil/dil-overview.md)-API van Audience Manager, de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) en andere [!DNL Experience Cloud] oplossingen. Gebruikers met beheerdertoestemmingen kunnen de *`Organization ID`* op de [!DNL Adobe Admin Console] vinden. Zie [Veelgestelde vragen over Beheer - User Management](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -96,4 +95,4 @@ U kunt Trait Recommendations het best gebruiken in de volgende gevallen:
 
 **Is er een verschil tussen de segmenten van Adobe Analytics en Audience Manager?**
 
-Ja, lees [Inzicht in segmenten in Analytics en Audience Manager](https://docs.adobe.com/content/help/nl-NL/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) voor een uitgebreide beschrijving van de verschillen.
+Ja, lees [Inzicht in segmenten in Analytics en Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) voor een uitgebreide beschrijving van de verschillen.
