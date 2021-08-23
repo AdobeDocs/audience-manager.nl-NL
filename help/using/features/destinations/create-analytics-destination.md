@@ -4,12 +4,11 @@ seo-description: Met Audience Analytics kunt u Audience Manager-segmenten naar A
 seo-title: Een Analytics-bestemming configureren
 solution: Audience Manager
 title: Een Analytics-bestemming configureren
-feature: Adobe Analytics Integration
+feature: Adobe Analytics-integratie
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-translation-type: tm+mt
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
@@ -19,13 +18,13 @@ ht-degree: 1%
 ## Vereisten {#requirements}
 
 Om een bestemming van de Analyse te vormen, moet uw gebruiker van de Audience Manager Admin toestemmingen hebben. Zie [Gebruikers maken](/help/using/features/administration/administration-overview.md#create-users) in de beheerdersgids. Merk op dat het hebben van `CREATE_DESTINATIONS` [vervangingstoestemming](/help/using/features/administration/administration-overview.md#wild-card-permissions) niet volstaat om de bestemmingen van Analytics tot stand te brengen.
-Voor verdere vereisten, zie Eerste vereisten in [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html).
+Voor verdere vereisten, zie Eerste vereisten in [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html).
 
 ## Uw doel voor standaardanalyse en nieuwe analytische doelen
 
 | Doeltype analyse | Beschrijving |
 |---|---|
-| Standaard | De naam van dit standaarddoel is &quot;Adobe Analytics&quot;, dat u kunt bewerken. Toegewezen rapportsuite-id&#39;s worden weergegeven in de mapopslag voor de kenmerken en segmenten van de Audience Manager. <br>  Audience Manager maakt automatisch één doel als uw account:  <br>  <ul><li>Voldeed aan de vereisten die worden beschreven in de [Audience Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html) documentatie.</li><li>A [report suite](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li><li>[Wijst een rapportsuite toe aan een organisatie](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).</li></ul> |
+| Standaard | De naam van dit standaarddoel is &quot;Adobe Analytics&quot;, dat u kunt bewerken. Toegewezen rapportsuite-id&#39;s worden weergegeven in de mapopslag voor de kenmerken en segmenten van de Audience Manager. <br>  Audience Manager maakt automatisch één doel als uw account:  <br>  <ul><li>Voldeed aan de vereisten die worden beschreven in de [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) documentatie.</li><li>A [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li><li>[Wijst een rapportsuite toe aan een organisatie](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).</li></ul> |
 | Nieuw | Ga naar Poortgegevens > Doelen > Nieuwe bestemming maken en volg de stappen voor elke hieronder beschreven sectie om nieuwe analytische doelen te maken. |
 
 ## Stap 1: Basisinformatie opgeven
@@ -72,9 +71,9 @@ Deze sectie biedt opties waarmee u segmenten automatisch of handmatig kunt toewi
 
 | Toewijzingsoptie | Beschrijving |
 |---|---|
-| Automatisch alle huidige en toekomstige segmenten toewijzen | Deze functie is standaard geselecteerd en verzendt alle segmenten waarvoor een bezoeker per hit in aanmerking komt naar Analytics. <br>  Als een bezoeker tot meer dan 150 Audience Manager segmenten op één enkele klap behoort, slechts worden 150 onlangs gekwalificeerde segmenten verzonden naar Analytics, terwijl de resterende lijst wordt beknot. Een extra vlag wordt verzonden naar Analytics die erop wijst dat de segmentlijst werd beknot. Deze actie wordt weergegeven als &quot;Audience limit Rebbe&quot; in de dimensie Soorten publiek en &quot;1&quot; in de dimensie Soorten publiek-id. Zie [Veelgestelde vragen](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html) voor meer informatie. <br>  Ook, beïnvloedt deze optie bestemmingsbeschikbaarheid in de Bouwer van het  [Segment](/help/using/features/segments/segment-builder.md). Bijvoorbeeld, als een segment automatisch aan een bestemming van Analytics in kaart wordt gebracht, is die bestemming niet beschikbaar voor selectie in [bestemmingstoewijzingen](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) sectie van de Bouwer van het Segment. De bestemming Analytics verschijnt grijs-uit en toont &quot;Analytics&quot;in de kolom van het Type van browser van de Bestemming. |
+| Automatisch alle huidige en toekomstige segmenten toewijzen | Deze functie is standaard geselecteerd en verzendt alle segmenten waarvoor een bezoeker per hit in aanmerking komt naar Analytics. <br>  Als een bezoeker tot meer dan 150 Audience Manager segmenten op één enkele klap behoort, slechts worden 150 onlangs gekwalificeerde segmenten verzonden naar Analytics, terwijl de resterende lijst wordt beknot. Een extra vlag wordt verzonden naar Analytics die erop wijst dat de segmentlijst werd beknot. Deze actie wordt weergegeven als &quot;Audience limit Rebbe&quot; in de dimensie Soorten publiek en &quot;1&quot; in de dimensie Soorten publiek-id. Zie [Veelgestelde vragen](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html) voor meer informatie. <br>  Ook, beïnvloedt deze optie bestemmingsbeschikbaarheid in de Bouwer van het  [Segment](/help/using/features/segments/segment-builder.md). Bijvoorbeeld, als een segment automatisch aan een bestemming van Analytics in kaart wordt gebracht, is die bestemming niet beschikbaar voor selectie in [bestemmingstoewijzingen](/help/using/features/segments/segment-builder.md#segment-builder-controls-destinations) sectie van de Bouwer van het Segment. De bestemming Analytics verschijnt grijs-uit en toont &quot;Analytics&quot;in de kolom van het Type van browser van de Bestemming. |
 | Segmenten handmatig toewijzen | Deze optie stelt onderzoek bloot en doorbladert controles die u laten kiezen welke segmenten u naar Analytics wilt verzenden. <br>  Een segment zoeken:  <br>  <ol><li>Typ de segmentnaam of id in het zoekveld.</li><li>Klik <b>Toevoegen.</b></li><li>Ga door met zoeken en voeg segmenten toe of klik <b>Done</b>.</li></ol><br>  Een segment zoeken: <ol><li>Klik <b>Blader door alle segmenten</b>. Hiermee wordt een lijst met beschikbare segmenten weergegeven.</li><li>Selecteer in de lijst het selectievakje van het segment dat u wilt gebruiken en klik op <b>Geselecteerde segmenten toevoegen</b>.</li><li>Klik <b>Opslaan</b> in het venster Toewijzingen toevoegen. U kunt de toewijzingen, begin- of einddatum niet wijzigen tijdens de bètaversie.</li><li>Ga door en voeg segmenten toe of klik <b>Done</b>.</li></ol> ![mapsegmenten](assets/mapSegments.png) |
 
 ## Volgende stappen
 
-Nadat u een doel hebt gemaakt en opgeslagen, kunt u met die gegevens werken in Analytics. Het kan echter een paar uur duren voordat gegevens beschikbaar zijn in de geselecteerde rapportensuites. Zie [De Gegevens van het publiek in Analytics](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html) gebruiken.
+Nadat u een doel hebt gemaakt en opgeslagen, kunt u met die gegevens werken in Analytics. Het kan echter een paar uur duren voordat gegevens beschikbaar zijn in de geselecteerde rapportensuites. Zie [De Gegevens van het publiek in Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/use-audience-data-analytics.html) gebruiken.
