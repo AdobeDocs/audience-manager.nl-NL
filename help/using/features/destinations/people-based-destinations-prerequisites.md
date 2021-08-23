@@ -4,12 +4,11 @@ seo-description: 'Lees hieronder voor een overzicht van klantenvereisten waaraan
 seo-title: Vereisten en overwegingen voor op mensen gebaseerde doelen
 solution: Audience Manager
 title: Vereisten en overwegingen
-feature: People-based Destinations
+feature: Op mensen gebaseerde Doelen
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -46,9 +45,9 @@ Voordat u [!UICONTROL People-Based Destinations] kunt gebruiken om uw eerste-par
 
 Voordat u [!UICONTROL People-Based Destinations] kunt gebruiken om uw eerste-partijpubliekssegmenten naar [!DNL LinkedIn] te verzenden, zorg ervoor uw [!DNL LinkedIn Campaign Manager] rekening [!DNL Creative Manager] of hoger toestemmingsniveau heeft.
 
-Om te leren hoe te om uw [!DNL LinkedIn Campaign Manager] gebruikerstoestemmingen uit te geven, zie [Gebruikerstoestemmingen op Advertising Accounts toevoegen, uitgeven en verwijderen ](https://www.linkedin.com/help/lms/answer/5753) in de documentatie LinkedIn.
+Zie [Gebruikersmachtigingen toevoegen, bewerken en verwijderen voor meer informatie over het bewerken van uw [!DNL LinkedIn Campaign Manager]-gebruikersmachtigingen in de documentatie van LinkedIn.](https://www.linkedin.com/help/lms/answer/5753)
 
-Zie [Begrijpen en het Vormen LinkedIn op mensen-Gebaseerde Doel](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) voor videoinstructies.
+Zie [De op mensen-Gebaseerde Bestemming van LinkedIn](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) voor videoinstructies begrijpen en vormen.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -89,9 +88,9 @@ Bekijk de video hieronder om de hashing-vereisten van [!UICONTROL People-Based D
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud biedt u de optie om klant-id&#39;s via de [!DNL Adobe Experience Platform Identity Service (ECID)] te verbergen. Zie [SHA256 Hashing Support for setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/reference/hashing-support.html) voor gedetailleerde informatie over hoe u ECID kunt gebruiken om klant-id&#39;s te hashen.
+Adobe Experience Cloud biedt u de optie om klant-id&#39;s via de [!DNL Adobe Experience Platform Identity Service (ECID)] te verbergen. Zie [SHA256 Hashing Support for setCustomerIDs](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) voor gedetailleerde informatie over hoe u ECID kunt gebruiken om klant-id&#39;s te hashen.
 
-## Machtiging van gebruiker {#obtaining-user-permission} verkrijgen
+## Gebruikersmachtiging verkrijgen {#obtaining-user-permission}
 
 Aangezien [!UICONTROL People-Based Destinations] u helpt om de gegevens van het eerste publiek in mensen-gebaseerde kanalen te activeren, is het uw verantwoordelijkheid om om het even welke noodzakelijke toestemmingen van uw klanten te informeren en te verkrijgen over hoe u hun gegevens voor reclame of andere doeleinden zult gebruiken.
 
@@ -99,7 +98,7 @@ Voordat u zich aanmeldt voor [!UICONTROL People-Based Destinations], moet u ervo
 
 Als uw klanten zich willen afmelden voor reclamecampagnes, raadpleegt u [Afmelden-beheer](../../overview/data-security-and-privacy/data-privacy-requests.md) voor meer informatie over hoe u ervoor kunt zorgen dat Audience Manager geen gegevens meer kan verzamelen.
 
-## Bezig met afdwingen van eerste gegevensactivering {#enforcing-first-party-activation}
+## Het afdwingen van de Activering van Gegevens van de Eerste Partij {#enforcing-first-party-activation}
 
 Als u [!UICONTROL People-Based Destinations] gebruikt, kunt u alleen gegevens van de eerste partij gebruiken om publiekssegmenten in op personen gebaseerde kanalen te activeren. U kunt geen gegevens van derden of derden gebruiken voor activering van het publiek in op personen gebaseerde kanalen.
 
