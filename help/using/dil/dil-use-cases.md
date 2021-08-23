@@ -5,15 +5,14 @@ seo-title: DIL-gebruiksscenario’s en codevoorbeelden
 solution: Audience Manager
 title: DIL-gebruiksscenario’s en codevoorbeelden
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
-feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+feature: DIL-implementatie
+exl-id: 001710be-b377-460a-9e29-7268d25a6305
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 3%
 
 ---
-
 
 # DIL-gebruiksscenario’s en codevoorbeelden{#dil-use-cases-and-code-samples}
 
@@ -94,7 +93,7 @@ for (var i = 0; i < my_objects.length; i++)
 sample_dil.api.submit();
 </code></pre>
 
-## URL {#capture-referring-url} vastleggen
+## URL van vastlegverwijzing {#capture-referring-url}
 
 Leg een referentie-URL vast en verzend deze naar de Audience Manager.
 
@@ -117,7 +116,7 @@ var adobe_dil = DIL.create({ partner : "<i>partner name</i>" });
 adobe_dil.api.signals({ d_referer : document.referrer }).submit();
 </code></pre>
 
-## Typen zoekmachines vastleggen en zoektermen voor trefwoorden {#capture-search-engine-types}
+## Typen zoekmachines vastleggen en zoektermen vastleggen {#capture-search-engine-types}
 
 Gegevens over zoekmachinetypen en trefwoordzoekopdrachten naar Audience Manager verzenden.
 
@@ -182,7 +181,7 @@ if (search_referrer && search_referrer.valid) {
 }
 </code></pre>
 
-## Toetswaarden toewijzen aan andere toetsen {#map-key-values}
+## Sleutelwaarden toewijzen aan andere toetsen {#map-key-values}
 
 Koppel de waarde van een sleutelwaardepaar aan een andere sleutel.
 
@@ -244,5 +243,5 @@ Om het `dil.js` dossier in GTM te verzenden:
 >
 >* [Google Tag Manager Help Center](https://support.google.com/tagmanager#topic=3441530)
 >* [Signalen](../dil/dil-instance-methods.md#signals)
->* [Voorvoegselvereisten voor belangrijke variabelen](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+* [Voorvoegselvereisten voor belangrijke variabelen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 
