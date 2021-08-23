@@ -5,12 +5,11 @@ seo-title: Cijfers rapporteren voor regels voor profielsamenvoeging
 solution: Audience Manager
 title: Cijfers rapporteren voor regels voor profielsamenvoeging
 uuid: 76a86ff0-4c64-4734-aec0-0a8828942096
-feature: Profile Merge
+feature: Profielsamenvoeging
 exl-id: 2af59c60-2448-44af-90d2-eccc52f7ff02
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
@@ -21,7 +20,7 @@ ht-degree: 2%
 
 ## Regelafmetingen samenvoegen {#merge-rule-metrics}
 
-Hiermee worden gegevens geretourneerd in staafgrafieken die naast elkaar staan wanneer de samenvoegregels gegevens gebruiken van de [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/about/overview.html) of andere apparaatgrafieken van derden waartoe u toegang hebt in [!DNL Audience Manager]. Zo kunt u geverifieerde gegevens van de eerste partij vergelijken met gegevens van andere apparaten die worden geleverd door de grafiek van [!UICONTROL Experience Cloud Device Co-op] of een andere apparaatgrafiek van derden. Zie [Apparaatgrafiek voor informatie over gegevens die worden geretourneerd door de [!UICONTROL Device Co-op]: Interne processen en uitvoer](https://docs.adobe.com/content/help/en/device-co-op/using/device-graph/device-graph-overview.html). Deze gegevens worden dagelijks bijgewerkt.
+Hiermee worden gegevens geretourneerd in staafgrafieken die naast elkaar staan wanneer de samenvoegregels gegevens gebruiken van de [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/about/overview.html) of andere apparaatgrafieken van derden waartoe u toegang hebt in [!DNL Audience Manager]. Zo kunt u geverifieerde gegevens van de eerste partij vergelijken met gegevens van andere apparaten die worden geleverd door de grafiek van [!UICONTROL Experience Cloud Device Co-op] of een andere apparaatgrafiek van derden. Zie [Apparaatgrafiek voor informatie over gegevens die worden geretourneerd door de [!UICONTROL Device Co-op]: Interne processen en uitvoer](https://experienceleague.adobe.com/docs/device-co-op/using/device-graph/device-graph-overview.html). Deze gegevens worden dagelijks bijgewerkt.
 
 <table id="table_A7FB2F9804F84AC8A6DD05C0E6EE7555"> 
  <thead> 
@@ -36,7 +35,7 @@ Hiermee worden gegevens geretourneerd in staafgrafieken die naast elkaar staan w
    <td colname="col2"> <p>Toont: </p> 
     <ul id="ul_7F7373919A4A49028EF4BF7B28D9F8E9"> 
      <li id="li_FE2F93C496D64ED8928B3E522C9585EA"> <span class="wintitle"> Actieve personen</span>: Het aantal personen dat de afgelopen 60 dagen voor verificatie bij uw site is aangemeld. </li> 
-     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Kruisapparaat</span>: Het totale aantal  <a href="merge-rules-start.md#create-data-source"> dwars-Apparaat </a> IDsstored in de  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Gegevensbron </a> van het geselecteerde  <a href="merge-rule-definitions.md"> Voor authentiek verklaarde </a> Profiel voor het leven dat de gegevensbron heeft bestaan. </li> 
+     <li id="li_60CFD26EE68B442683C0ED5FED1A79C8"> <span class="wintitle"> Kruisapparaat</span>: Het totale aantal  <a href="merge-rules-start.md#create-data-source"> dwars-Apparaat </a> IDsstored in de  <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html"> Gegevensbron </a> van het geselecteerde  <a href="merge-rule-definitions.md"> Voor authentiek verklaarde </a> Profiel voor het leven dat de gegevensbron heeft bestaan. </li> 
      <li id="li_F2F07B6A326C4A18B79A0CF2C47D9677"> <span class="wintitle"> % actieve personen</span>: Hiermee geeft u  <span class="wintitle"> Actieve </span> personen als % weer. </li> 
     </ul> <p> <span class="wintitle"> Voor authentiek verklaarde </span> Activitylets vergelijkt u gegevensbronnen door activiteit, volume, en percenten. Het kan u helpen een gegevensbron vinden die veel mensen en een hoog percentage actieve gebruikers heeft. Of u vindt mogelijk waarde bij het vergelijken van gegevensbronnen met een hoog percentage actieve gebruikers in vergelijking met de totale omvang van het publiek. Bijvoorbeeld, soms is een gegevensbron met lage totale levenaantallen en hoge activiteit waardevoller dan die met hoge levenresultaten en lage activiteitenaantallen. </p> <p> <p>Opmerking: De <span class="wintitle"> Voor authentiek verklaarde Activiteit</span> metriek bevatten <span class="wintitle"> de Verbinding van het Profiel</span> slechts gegevens. Dit rapport bevat geen <span class="wintitle"> Device Graph</span>-gegevens. </p> </p> </td> 
   </tr> 
@@ -55,7 +54,7 @@ Hiermee worden gegevens geretourneerd in staafgrafieken die naast elkaar staan w
  </tbody> 
 </table>
 
-## Metrische gegevens apparaatgrafiek {#device-graph-metrics}
+## Metrische apparaatgrafiek {#device-graph-metrics}
 
 In de [!UICONTROL Merge Rules]-rapporten worden ook gegevens weergegeven over het totale aantal personen en apparaten dat uw site heeft bezocht voor de geselecteerde gegevensbron en apparaatgrafiek. Deze metriek keert gegevens terug die op vooraf ingestelde tijdintervallen (de terugblik periode) worden gebaseerd die afhankelijk van de apparatenoptie variëren u wanneer het creëren van een regel selecteert. In de volgende tabel worden deze rapportintervallen voor elk van de opties voor apparaatgrafieken weergegeven.
 
