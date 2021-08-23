@@ -6,17 +6,16 @@ solution: Audience Manager
 title: Rapportage in Predictieve doelgroepen
 feature: Algorithmic Models
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
-translation-type: tm+mt
-source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 6%
 
 ---
 
 # Rapportage in Predictieve doelgroepen
 
-Nadat u een [!UICONTROL Predictive Audiences] model opslaat, begint de Audience Manager het te trainen. Binnen een paar uren, zal het berekende model beginnen publiek op [de Servers van de Inzameling van Gegevens](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs) te analyseren. Rapportage is de volgende dag beschikbaar.
+Nadat u een [!UICONTROL Predictive Audiences] model opslaat, begint de Audience Manager het te trainen. Binnen een paar uren, zal het berekende model beginnen publiek op [de Servers van de Inzameling van Gegevens](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs) te analyseren. Rapportage is de volgende dag beschikbaar.
 
 Als u de resultaten van uw [!UICONTROL Predictive Audiences]-classificatie wilt bekijken, gaat u naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klikt u op uw model in de lijst.
 
@@ -61,7 +60,7 @@ De rapportlijst toont u de volgende informatie voor elk [!UICONTROL Predictive A
 1. **[!UICONTROL 1 DAY REAL TIME POPULATION]**: Het aantal segmentrealisaties voor elke persoon, in de afgelopen 24 uur.
 1. **[!UICONTROL 1 DAY REAL TIME POPULATION %]**: Het percentage segmentrealisaties voor elke persoon, in de afgelopen 24 uur, van de totale modelpopulatie.
 
-## Influentiële treinen{#influential-traits}
+## Influente sporen{#influential-traits}
 
 [!UICONTROL Influential Traits] Dit zijn kenmerken die het  [!UICONTROL Predictive Audiences] algoritme ontdekte als de sterkste voorspellers voor het bepalen van de personaclassificatie van een bezoeker.
 
