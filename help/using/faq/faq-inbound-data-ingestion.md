@@ -1,22 +1,21 @@
 ---
 description: Veelgestelde vragen over het opnemen van offline data in Audience Manager.
-keywords: ftp or s3;s3 or ftp
+keywords: ftp of s3;s3 of ftp
 seo-description: Veelgestelde vragen over het opnemen van offline data in Audience Manager.
 seo-title: Veelgestelde vragen over opname van binnenkomende klantdata
 solution: Audience Manager
 title: Veelgestelde vragen over opname van binnenkomende klantdata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Onboarding Offline Data
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: Offline gegevens aan boord
+exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 91%
+source-wordcount: '1360'
+ht-degree: 89%
 
 ---
 
-
-# Veelgestelde vragen over opname van binnenkomende klantdata {#inbound-customer-data-ingestion-faq}
+# Veelgestelde vragen over opname van binnenkomende klantdata{#inbound-customer-data-ingestion-faq}
 
 Veelgestelde vragen over het opnemen van offline data in Audience Manager.
 
@@ -61,8 +60,8 @@ Zie [Bestandscompressie voor binnenkomende dataoverdrachtsbestanden](../integrat
 
 Ja. Zolang u [!UICONTROL cross-device data source] gebruikt om de gegevens op te slaan van CRM die u uploadt, slaat de Audience Manager altijd de gegevens op. In feite, na de [!UICONTROL Profile Merge Rules] verhogingen die Audience Manager in oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u gegevens uploaden en actie op gegevens zonder de code van de Audience Manager in productie in het geheel op te stellen. Zie:
 
-* [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://docs.adobe.com/content/help/nl-NL/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] -  [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br>
 
