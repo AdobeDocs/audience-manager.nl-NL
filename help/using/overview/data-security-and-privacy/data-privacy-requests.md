@@ -6,13 +6,12 @@ solution: Audience Manager
 keywords: GDPR-gebruikersinterface, GDPR-API, CCPA, privacy
 title: Data Privacy-aanvragen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
-feature: Data Governance & Privacy
+feature: Beheer en privacy van gegevens
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 57%
+source-wordcount: '1482'
+ht-degree: 56%
 
 ---
 
@@ -45,7 +44,7 @@ Als u wilt zien hoe een geldig [!DNL JSON]-bestand eruitziet, kunt u een [ voorb
 
 We begrijpen dat u streeft naar de honorering van uw Data Privacy-aanvragen binnen de tijdsperiode die wettelijk is vastgesteld.
 
-## Aanvragen voor dataverwijdering {#delete-data}
+## Aanvragen voor dataverwijdering  {#delete-data}
 
 U kunt verzoeken om gegevensverwijdering verzenden via de [Privacy Service-UI](https://privacyui.cloud.adobe.io) (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)) of door de Privacy Service-API aan te roepen (documentatie [hier](https://www.adobe.io/apis/experienceplatform/home/services/privacy-service.html) en [!DNL API] referentie [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml)).
 
@@ -98,8 +97,8 @@ De wereldwijde opt-out staat voor een opt-out voor alle merken in [!DNL Audience
    <td colname="col1"> <p>Mobiele apparaten </p> </td> 
    <td colname="col2"> <p>Zie de instellingen voor opt-out en privacy voor: </p> <p> 
      <ul id="ul_78042D6D302F4119A2439BF71F228288"> 
-      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://docs.adobe.com/content/help/nl-NL/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android-apparaten </a> </li> 
-      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://docs.adobe.com/content/help/nl-NL/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS-apparaten </a> </li> 
+      <li id="li_5A0EDABDEF454FEEBBBFF4D68CC9A366"> <a href="https://experienceleague.adobe.com/docs/mobile-services/android/gdpr-privacy-android/privacy.html" format="https" scope="external"> Android-apparaten </a> </li> 
+      <li id="li_690067D869B84A9598AA97388D56F1BE"> <a href="https://experienceleague.adobe.com/docs/mobile-services/ios/privacy-gdpr-ios/privacy.html" format="https" scope="external"> iOS-apparaten </a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -163,7 +162,7 @@ Na een opt-out op partnerniveau met een apparaat-id-call gebeurt het volgende:
 * Bestemmingspartners ontvangen de desegmentatieaanvraag voor de apparaat-id. Desegmentatie werkt voor zowel [realtime](data-privacy-requests.md#aam-partners-with-unsegmentation)- als batchbestemmingen.
 * Er worden geen historische data verwijderd.
 
-## [!DNL Audience Manager] Partners met onsegmenteringsmogelijkheden  {#aam-partners-with-unsegmentation}
+## [!DNL Audience Manager] Partners met onsegmenteringsmogelijkheden {#aam-partners-with-unsegmentation}
 
 Om u te helpen uw verzoeken van de privacy van consumentengegevens automatiseren, [!DNL Audience Manager] zal proberen om activeringspartners over schrappingsverzoeken van de Onderwerpen van Gegevens op de hoogte te brengen door hen unsegment (of segment) informatie te verzenden.
 
