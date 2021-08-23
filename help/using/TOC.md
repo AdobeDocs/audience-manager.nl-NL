@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Leer hoe u met Audience Manager commercieel relevante informatie over sitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en inhoud voor het juiste publiek kunt gebruiken.
 feature-set: Audience Manager
-source-git-commit: cf9368d4690b61066646054543cc60d390eea021
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1805'
 ht-degree: 90%
 
 ---
@@ -342,8 +342,8 @@ ht-degree: 90%
    + Integratie met andere Experience Cloud-oplossingen {#integration-other-solutions}
       + [Audience Manager integreren met Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Data van Adobe Analytics doorsturen naar Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics Segment publiceren naar Experience Cloud (opent Adobe Analytics-documentatie)](https://docs.adobe.com/content/help/nl-NL/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Audience Manager integreren met Adobe Campaign (opent Adobe Campaign-documentatie)](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Adobe Analytics Segment publiceren naar Experience Cloud (opent Adobe Analytics-documentatie)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Audience Manager integreren met Adobe Campaign (opent Adobe Campaign-documentatie)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referenties {#reference}
    + [Overzicht van referenties](reference/reference.md)
    + [Amazon S3: Info](reference/amazon-s3.md)
