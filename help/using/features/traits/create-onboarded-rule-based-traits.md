@@ -1,28 +1,27 @@
 ---
 description: Beschrijft opstellingsstappen en eigenschappen specifiek voor het op regel-gebaseerde en ongebogen proces van de de eigenaarverwezenlijking.
-keywords: create trait;create traits
+keywords: eigenschap maken;kenmerken maken
 seo-description: Beschrijft opstellingsstappen en eigenschappen specifiek voor het op regel-gebaseerde en ongebogen proces van de de eigenaarverwezenlijking.
 seo-title: Op regels gebaseerde of onboarded eigenschappen maken
 solution: Audience Manager
 title: Op regels gebaseerde of onboarded eigenschappen maken
 uuid: 4243e09f-1f96-443a-864a-d6e6918079fa
-feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+feature: 'Eigenschappen '
+exl-id: cad318ee-93b2-4afa-8a2f-a67b068eec0a
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 5%
 
 ---
 
-
-# [!UICONTROL Rules-Based] of [!UICONTROL Onboarded Traits] {#create-rules-based-or-onboarded-traits} maken
+# [!UICONTROL Rules-Based] of [!UICONTROL Onboarded Traits] maken {#create-rules-based-or-onboarded-traits}
 
 Beschrijft opstellingstappen en eigenschappen specifiek voor [!UICONTROL rules-based] en [!UICONTROL onboarded] het proces van de de eigenaarverwezenlijking.
 
 <!-- c_tb_rules_traits.xml -->
 
-## Basisinformatie voor sporen {#basics}
+## Basisinformatie over sporen {#basics}
 
 Met de [!UICONTROL Trait Builder]-instellingen kunt u nieuwe [!UICONTROL Basic Information] maken of bestaande [!UICONTROL traits] bewerken. De [!UICONTROL Basic Information] montages zijn het zelfde voor [!UICONTROL rules-based], [!UICONTROL onboarded] en [!UICONTROL algorithmic traits]. Als u een nieuwe [!UICONTROL trait] wilt maken, voert u een naam in (geen speciale tekens), een [!UICONTROL data source] en selecteert u een [!UICONTROL storage folder]. Andere [!UICONTROL Basic Information] velden zijn optioneel.
 
@@ -61,7 +60,7 @@ Met de [!UICONTROL Trait Builder]-instellingen kunt u nieuwe [!UICONTROL Basic I
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Type gebeurtenis</span></b> </td> 
-   <td colname="col2"> Wijst de eigenschap aan een type of een categorie toe, gewoonlijk volgens functie (b.v. omzetting, plaatsbezoeker, partner, paginamening, enz.). Optioneel. <p> Zie <a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Conversietaken maken in video Audience Manager</a> voor meer informatie over het maken van conversietekenmerken. </p></td> 
+   <td colname="col2"> Wijst de eigenschap aan een type of een categorie toe, gewoonlijk volgens functie (b.v. omzetting, plaatsbezoeker, partner, paginamening, enz.). Optioneel. <p> Zie <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Conversietaken maken in video Audience Manager</a> voor meer informatie over het maken van conversietekenmerken. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integratiecode</span></b> </td> 
@@ -82,7 +81,7 @@ Met de [!UICONTROL Trait Builder]-instellingen kunt u nieuwe [!UICONTROL Basic I
  </tbody> 
 </table>
 
-## Een [!UICONTROL Trait]-vervalinterval {#set-expiration-interval} instellen
+## Een [!UICONTROL Trait]-vervalinterval instellen {#set-expiration-interval}
 
 In [!UICONTROL Trait Builder], [!UICONTROL Advanced Options] laat u een tijd-aan-levende ([!DNL TTL]) interval voor een [!UICONTROL trait] plaatsen. [!DNL TTL] bepaalt hoeveel dagen een gekwalificeerde bezoeker in een  [!UICONTROL trait] (standaard is 120 dagen) blijft. Wanneer ingesteld op 0, verloopt het [!UICONTROL trait]-lidmaatschap nooit.
 
