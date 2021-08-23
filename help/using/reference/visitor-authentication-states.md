@@ -8,10 +8,9 @@ title: Verificatiestatus van bezoekers in Audience Manager
 uuid: d748c0c3-5833-4fb9-ab3e-793f5f252e47
 feature: 'Referenties '
 exl-id: 55aec28d-02f6-4e6d-9be1-4ce40deb8dc3
-translation-type: tm+mt
-source-git-commit: c3c829ef1335d1e073b719f8252103fa578bb4e6
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '387'
 ht-degree: 6%
 
 ---
@@ -20,7 +19,7 @@ ht-degree: 6%
 
 De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
 
-Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de methode `setCustomerID` het optionele object `AuthState`. `AuthState` identificeert bezoekers volgens hun  [authentificatiestatus](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] behandelt verschillend de gerealiseerde eigenschappen, afhankelijk van de authentificatiestatus die in de vraag en het  [Profiel wordt overgegaan ](../features/profile-merge-rules/merge-rules-dashboard.md) Ruleu van de Fusie van het Profiel gebruikt voor segmentatie.
+Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de methode `setCustomerID` het optionele object `AuthState`. `AuthState` identificeert bezoekers volgens hun  [authentificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] behandelt verschillend de gerealiseerde eigenschappen, afhankelijk van de authentificatiestatus die in de vraag en het  [Profiel wordt overgegaan ](../features/profile-merge-rules/merge-rules-dashboard.md) Ruleu van de Fusie van het Profiel gebruikt voor segmentatie.
 
 ## Verificatiestatus: ONBEKEND {#auth-status-unknown}
 
@@ -58,5 +57,5 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
 
 >[!MORELIKETHIS]
 >
->* [Klant-id&#39;s en verificatiestatussen](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html)
+>* [Klant-id&#39;s en verificatiestatussen](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
 
