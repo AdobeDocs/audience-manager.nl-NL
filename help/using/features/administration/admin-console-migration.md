@@ -5,15 +5,14 @@ seo-description: Gebruikersbeheer van Audience Managers gaat over naar Adobe Adm
 seo-title: Audience Manager van gebruikersmigratie naar Admin Console
 solution: Audience Manager
 title: Audience Manager van gebruikersmigratie naar Admin Console
-feature: Administration
-translation-type: tm+mt
-source-git-commit: 2e01abab2616daccd7581cdaa18417650951d139
+feature: Beheer
+exl-id: d9069cc1-87fa-47b7-ad0c-d69ee37fc91e
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
-
 
 # [!DNL Audience Manager] gebruikersmigratie naar  [!DNL Admin Console] {#user-migration}
 
@@ -26,8 +25,8 @@ De voordelen van het gebruik van [!DNL Admin Console] zijn onder andere:
 | Voordeel | Beschrijving |
 |---|---|
 | Single Sign-On voor oplossingen | [!DNL Audience Manager] gebruikers kunnen zich aanmelden bij  [!DNL Experience Cloud] en alle andere oplossingen met hun  [!DNL Adobe ID] of  [!DNL Enterprise ID]. Met deze aanmelding hebt u toegang tot geïntegreerde oplossingen en kernservices in [!DNL Experience Cloud]. Na de migratie worden gebruikers die proberen zich aan te melden via oudere logins (`bank.demdex.com`) omgeleid naar `experiencecloud.adobe.com`. |
-| Gebruikers en groepen beheren | Als de migratie is voltooid, beheren [!DNL Audience Manager] beheerders gebruikers en groepen uitsluitend in [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/). |
-| Producten en services beheren | Vanuit [[!DNL Admin Console]](http://adminconsole.adobe.com/enterprise/) kunnen beheerders: <ul><li>Gebruikers maken, bijwerken en verwijderen</li><li>Toegang verlenen tot oplossingen en services</li></ul> |
+| Gebruikers en groepen beheren | Als de migratie is voltooid, beheren [!DNL Audience Manager] beheerders gebruikers en groepen uitsluitend in [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/). |
+| Producten en services beheren | Vanuit [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/) kunnen beheerders: <ul><li>Gebruikers maken, bijwerken en verwijderen</li><li>Toegang verlenen tot oplossingen en services</li></ul> |
 
 Om de migratie van gebruikers te vergemakkelijken, vragen we alle [!DNL Audience Manager]-beheerders zo snel mogelijk te beginnen met het migreren van hun gebruikersaccounts naar [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) door de in dit artikel beschreven stappen uit te voeren.
 
