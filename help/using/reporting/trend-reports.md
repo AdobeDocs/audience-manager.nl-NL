@@ -5,12 +5,11 @@ seo-title: Trendrapporten
 solution: Audience Manager
 title: Trendrapporten
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
-feature: General & Trend Reports
+feature: Algemene en trendrapporten
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '651'
 ht-degree: 1%
 
 ---
@@ -80,7 +79,7 @@ t_working_with_trend_reports.xml
 
 1. (Optioneel) Plaats de muisaanwijzer op individuele kenmerken of segmenten om het aantal bezoeken en de datum voor elk gegevenspunt weer te geven. U kunt op de kolomkoppen in de tabel klikken om de resultaten in oplopende of aflopende volgorde te sorteren.
 
-## Resultaten trendrapport voor sporen {#trend-report-results-traits}
+## Trend Report-resultaten voor sporen {#trend-report-results-traits}
 
 De filters hieronder zijn beschikbaar wanneer u [!UICONTROL Trend Report] in werking stelt en **[!UICONTROL Trait]** als rapporttype selecteert.
 
@@ -102,9 +101,9 @@ De waarden geven aan dat [!DNL Audience Manager] voor die dag geen gegevens heef
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
->[!VIDEO](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
 
-## Resultaten trendrapport voor segmenten {#segment-report-results-traits}
+## Trend Report Resultaten voor segmenten {#segment-report-results-traits}
 
 De filters hieronder zijn beschikbaar wanneer u [!UICONTROL Trend Report] in werking stelt en **[!UICONTROL Segments]** als rapporttype selecteert.
 
