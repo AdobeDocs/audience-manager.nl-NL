@@ -1,16 +1,15 @@
 ---
 description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
-seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
 seo-title: Adobe Audience Manager Technology Partners
 keywords: activering; activeringspartners, bestemming, bestemmingen
 solution: Audience Manager
 title: Adobe Audience Manager Technology Partners
 feature: Third-party Integration
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 59%
+source-wordcount: '1149'
+ht-degree: 60%
 
 ---
 
@@ -158,7 +157,7 @@ Deze pagina bevat alleen de huidige Audience Manager [server-naar-server-integra
 | TubeMogul | 03-03-2017 | Ja | Nee | Ja | Nee |
 | Draaien/Amobee | 03-03-2027 | Nee | Nee | Nee | Ja |
 | Twenga | 10-29-2018 | Ja | Nee | Nee | Nee |
-| Twitter-publiek op Twitter | 02-27-2017 | Ja | Nee | Ja | Nee |
+| Aangepast publiek voor twitter | 02-27-2017 | Ja | Nee | Ja | Nee |
 | Ondertoon | 07-11-2017 | Nee | Nee | Nee | Nee |
 | Verve | 06-15-2017 | Ja | Nee | Nee | Ja |
 | VideoAmp | 03-03-2017 | Nee | Nee | Nee | Nee |
