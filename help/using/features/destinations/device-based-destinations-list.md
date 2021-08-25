@@ -1,17 +1,16 @@
 ---
 description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
-seo-description: Deze pagina bevat alleen de huidige server-naar-server-integratie. Voor meer informatie over een integratie raadpleegt u de Adobe Exchange-aanbieding (indien beschikbaar) of neemt u contact op met uw Adobe-consultant of de klantenservice.
-seo-title: Adobe Audience Manager Server-naar-server doelen
+seo-description: This page includes current server-to-server integrations only. For more information on an integration refer to its Adobe Exchange listing (where available) or contact your Adobe Consultant or Customer Care.
+seo-title: Adobe Audience Manager Server-to-Server Destinations
 keywords: activering; activeringspartners, bestemming, bestemmingen
 solution: Audience Manager
 title: Adobe Audience Manager Server-naar-server doelen
-feature: Grondbeginselen van bestemming
+feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-translation-type: tm+mt
-source-git-commit: 78d3bbc03936130f9c9da8ee5eed33e6ef9a07b9
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 71%
+source-wordcount: '1112'
+ht-degree: 73%
 
 ---
 
@@ -163,7 +162,7 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL TubeMogul] | 03-03-2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL Turn] /  [!DNL Amobee] | 03-03-2027 | In real time | Nee | Nee | Nee | Ja |
 | [!DNL Twenga] | 10-29-2018 | In real time | Ja | Nee | Nee | Nee |
-| [!DNL Twitter Tailored Audiences] | 02-27-2017 | In real time | Ja | Nee | Ja | Nee |
+| [!DNL Twitter Custom Audiences] | 02-27-2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL Undertone] | 07-11-2017 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL Verve] | 06-15-2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL VideoAmp] | 03-03-2017 | In real time | Nee | Nee | Nee | Nee |
