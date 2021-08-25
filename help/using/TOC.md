@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Leer hoe u met Audience Manager commercieel relevante informatie over sitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en inhoud voor het juiste publiek kunt gebruiken.
 feature-set: Audience Manager
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
 workflow-type: tm+mt
 source-wordcount: '1805'
 ht-degree: 90%
@@ -112,7 +112,7 @@ ht-degree: 90%
          + [Nieuwe apparaatgebaseerde bestemmingen toevoegen](features/destinations/add-device-based-destinations.md)
          + [Lijst met apparaatgebaseerde bestemmingen van Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Segmenten voor server-naar-server-bestemmingen toevoegen of bewerken](features/destinations/add-edit-segments.md)
-         + [Aangepaste Twitter-doelgroepen configureren als apparaatgebaseerde, selfservice bestemming](features/destinations/twitter-tailored-audiences.md)
+         + [Aangepast publiek voor Twitter configureren als op apparaat gebaseerde zelfbediening](features/destinations/twitter-tailored-audiences.md)
       + Aangepaste bestemmingen {#custom-destinations}
          + [Een URL-bestemming configureren](features/destinations/create-url-destination.md)
          + [Een cookiebestemming configureren](features/destinations/create-cookie-destination.md)
