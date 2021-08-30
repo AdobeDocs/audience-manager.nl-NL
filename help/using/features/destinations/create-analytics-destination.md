@@ -1,14 +1,14 @@
 ---
 description: Met Audience Analytics kunt u Audience Manager-segmenten naar Analytics verzenden. Om deze eigenschap te gebruiken, creeert u een bestemming Analytics en kaartsegmenten aan het in Audience Manager.
-seo-description: Met Audience Analytics kunt u Audience Manager-segmenten naar Analytics verzenden. Om deze eigenschap te gebruiken, creeert u een bestemming Analytics en kaartsegmenten aan het in Audience Manager.
-seo-title: Een Analytics-bestemming configureren
+seo-description: Audience Analytics lets you send Audience Manager segments to Analytics. To use this feature, you create an Analytics destination and map segments to it in Audience Manager.
+seo-title: Configure an Analytics Destination
 solution: Audience Manager
 title: Een Analytics-bestemming configureren
-feature: Adobe Analytics-integratie
+feature: Adobe Analytics Integration
 exl-id: f3ead057-04d1-40cd-8e3d-d0934d85cdb4
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 089a41b0176f2453e4f301c877dd6b020f726562
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Voor verdere vereisten, zie Eerste vereisten in [Audience Analytics](https://exp
 
 | Doeltype analyse | Beschrijving |
 |---|---|
-| Standaard | De naam van dit standaarddoel is &quot;Adobe Analytics&quot;, dat u kunt bewerken. Toegewezen rapportsuite-id&#39;s worden weergegeven in de mapopslag voor de kenmerken en segmenten van de Audience Manager. <br>  Audience Manager maakt automatisch één doel als uw account:  <br>  <ul><li>Voldeed aan de vereisten die worden beschreven in de [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) documentatie.</li><li>A [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li><li>[Wijst een rapportsuite toe aan een organisatie](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html).</li></ul> |
+| Standaard | De naam van dit standaarddoel is &quot;Adobe Analytics&quot;, dat u kunt bewerken. Toegewezen rapportsuite-id&#39;s worden weergegeven in de mapopslag voor de kenmerken en segmenten van de Audience Manager. <br>  Audience Manager maakt automatisch één doel als uw account:  <br>  <ul><li>Voldeed aan de vereisten die worden beschreven in de [Audience Analytics](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html) documentatie.</li><li>A [report suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) in Analytics.</li></ul> |
 | Nieuw | Ga naar Poortgegevens > Doelen > Nieuwe bestemming maken en volg de stappen voor elke hieronder beschreven sectie om nieuwe analytische doelen te maken. |
 
 ## Stap 1: Basisinformatie opgeven
