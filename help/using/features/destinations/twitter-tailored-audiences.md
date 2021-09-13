@@ -6,16 +6,16 @@ solution: Audience Manager
 title: Aangepast publiek voor Twitter configureren als op apparaat gebaseerde zelfbediening
 feature: People-based Destinations
 exl-id: 13b36469-3f61-47b1-9355-ca329de1fb24
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 8023bfe1e4ea415867e1233f143627ff179cce42
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
 # [!DNL Twitter Custom Audiences] als Op apparaat-Gebaseerde Bestemming van de Zelfbediening vormen {#configure-twitter}
 
-In dit artikel wordt uitgelegd hoe u integratie kunt configureren met [Twitter Custom Audiences](https://business.twitter.com/en/targeting/tailored-audiences.html).
+In dit artikel wordt uitgelegd hoe u integratie kunt configureren met [Twitter Custom Audiences](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Vereisten {#prerequisites}
 
@@ -35,7 +35,10 @@ Voordat u de op een apparaat gebaseerde bestemming kunt toevoegen, moet u Audien
 
 1. Meld u aan bij uw Audience Manager-account en ga naar **[!DNL Administration > Integrated Accounts]**. Als u een eerder gevormde integratie met een bestemmingsplatform hebt, zou u het in deze pagina moeten zien die. Anders is de pagina leeg.
 1. Klik op **[!DNL Add Account]**.
-1. Selecteer [!DNL Twitter Custom Audiences] en klik **[!DNL Confirm]** om naar de authentificatiepagina worden opnieuw gericht.                     ![geïntegreerde platforms](assets/dbd-integrated-platforms.png)
+1. Selecteer [!DNL Twitter Custom Audiences] en klik **[!DNL Confirm]** om naar de authentificatiepagina worden opnieuw gericht.
+
+   ![geïntegreerde platforms](assets/dbd-integrated-platforms.png)
+
 1. Nadat u de verificatie hebt voltooid, wordt u doorgestuurd naar de Audience Manager waar u de bijbehorende adverteerderaccounts kunt bekijken. Selecteer het adverteerderaccount dat u wilt gebruiken en klik op **[!DNL Confirm]**.
 
 ### Stap 2. Een nieuwe op apparaten gebaseerde bestemming maken {#step2-create-new-destination}
