@@ -1,15 +1,15 @@
 ---
 description: 'Lees hieronder voor een overzicht van klantenvereisten waaraan u moet voldoen alvorens zich voor op mensen-Gebaseerde Doelen te ondertekenen.  '
-seo-description: 'Lees hieronder voor een overzicht van klantenvereisten waaraan u moet voldoen alvorens zich voor op mensen-Gebaseerde Doelen te ondertekenen.  '
-seo-title: Vereisten en overwegingen voor op mensen gebaseerde doelen
+seo-description: Read below for an overview of customer requirements that you need to meet before signing up for People-Based Destinations.
+seo-title: People-Based Destinations Prerequisites and Considerations
 solution: Audience Manager
 title: Vereisten en overwegingen
-feature: Op mensen gebaseerde Doelen
+feature: People-based Destinations
 exl-id: 7656aa3e-3410-4052-8e29-b702bd0bf149
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: bb0bc62b139917bbf6429bc92a85f8a5010cbebe
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 4%
 
 ---
 
@@ -51,11 +51,9 @@ Zie [De op mensen-Gebaseerde Bestemming van LinkedIn](https://experienceleague.a
 
 ### [!DNL Google Customer Match] {#gcm}
 
-Alvorens u [!UICONTROL People-Based Destinations] kunt gebruiken om uw eerste-partijpubliekssegmenten naar een [!DNL Google Customer Match] bestemming te verzenden, is het verplicht dat [!DNL Google] u aan hun lijst van gewenste personen toevoegt.
+Voordat u [!UICONTROL People-Based Destinations] kunt gebruiken om uw eerste doelsegmenten naar een [!DNL Google Customer Match]-bestemming te sturen, moet u ervoor zorgen dat uw [!DNL Google Ads]-account voldoet aan het [Google Customer Match-beleid](https://support.google.com/google-ads/answer/6299717/customer-match-policy).
 
-Neem contact op met uw [!DNL Google]-vertegenwoordiger en volg de instructies van de lijst van gewenste personen die worden beschreven in de [Gebruik Customer Match-partners om uw gegevens te uploaden](https://support.google.com/google-ads/answer/7361372?hl=en&amp;ref_topic=6296507) [!DNL Google] documentatie.
-
-Nadat dit proces is voltooid, kunt u uw [!UICONTROL People-Based Destination] maken.
+Klanten met compatibele accounts worden automatisch door Google aangeboden.
 
 ## Data-onboarding {#data-onboarding}
 
