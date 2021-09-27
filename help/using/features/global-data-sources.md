@@ -1,18 +1,17 @@
 ---
 description: Globale gegevensbronnen gebruiken om apparaat-advertentie-id's te importeren.
-seo-description: Globale gegevensbronnen gebruiken om apparaat-advertentie-id's te importeren.
-seo-title: Algemene databronnen
+seo-description: Use Global Data Sources to import device advertising IDs.
+seo-title: Global Data Sources
 solution: Audience Manager
 title: Algemene databronnen
 feature: Data Sources
-translation-type: tm+mt
-source-git-commit: cb84f95d52c2e851cb0c016cb25f408f2d79d01b
+exl-id: ef137f89-1e1a-4cc0-8864-8a84162581c1
+source-git-commit: 77daa5bd6545914f65e3e0f19b12c750535244e8
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '448'
 ht-degree: 3%
 
 ---
-
 
 # Algemene databronnen {#global-data-sources}
 
@@ -30,6 +29,8 @@ In de volgende tabel worden de algemene gegevensbronnen beschreven die door Audi
 | 389146 | **[!DNL Microsoft Advertising ID]** -  **[!DNL MAID]** ID&#39;s zijn apparaten waarop het  [!DNL Windows 10] besturingssysteem wordt uitgevoerd. |
 | 963906 | **[!DNL Samsung Tizen IDs for Advertising]** -  **[!DNL TIFA]** ID&#39;s zijn  [!DNL Samsung] slimme tv&#39;s. |
 | 488258 | **[!DNL Amazon Fire TV Advertising IDs]** vertegenwoordigen apparaten die  [!DNL Amazon Fire OS] |
+| 1171485 | **[!DNL LG webOS TV ID]** -  **[!DNL LGUDID]** vertegenwoordigen apparaten waarop het  [!DNL LG webOS] besturingssysteem wordt uitgevoerd. |
+| 1171489 | **[!DNL Vizio ID for Advertising]** -  **[!DNL IFA]** vertegenwoordigen apparaten waarop Vizio smart TV-besturingssystemen worden uitgevoerd. |
 
 ## Gegevens uit globale gegevensbronnen importeren
 
