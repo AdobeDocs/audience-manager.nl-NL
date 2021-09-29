@@ -1,16 +1,16 @@
 ---
 description: Raadpleeg dit document voor de volledige lijst met Adobe Audience Manager-id's.
 keywords: DPID; DPUUID; CID; UUID; uuuid; uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuid, uuuid, uuid, uuid
-seo-description: Raadpleeg dit document voor de volledige lijst met Adobe Audience Manager-id's.
-seo-title: Index van id’s in Audience Manager
+seo-description: Refer to this document for the complete list of Adobe Audience Manager IDs.
+seo-title: Index of IDs in Audience Manager
 solution: Audience Manager
 title: Index van id’s in Audience Manager
 uuid: 292185ec-7c6a-414b-ab17-800c21cb1f01
-feature: 'Referenties '
+feature: Reference
 exl-id: 1caf3c6a-ebfd-49f1-9ebd-d4604474c070
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: e408c118870fb331c40758be8a7e6b38690aeb5f
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 3%
 
 ---
@@ -57,3 +57,5 @@ Algemene apparaat-id&#39;s zijn apparaat-advertentie-id&#39;s die uniek zijn voo
 | [!DNL MAID] | 389146 | [!DNL Microsoft Advertising ID]s is apparaat-id&#39;s die per apparaat en per gebruiker  [!DNL Windows 10] worden gegenereerd. | [!DNL MAID]s worden opgemaakt als alfanumerieke tekenreeksen. |
 | [!DNL TIFA] | 963906 | [!DNL Samsung Tizen IDs for Advertising] zijn apparaat-id&#39;s die door  [!DNL Samsung] slimme tv&#39;s worden geleverd. | [!DNL Samsung] [!DNL TIFA] Id&#39;s worden opgemaakt als alfanumerieke tekenreeksen. |
 | [!DNL Amazon Fire TV Advertising ID] | 488258 | Apparaatid&#39;s die apparaten vertegenwoordigen waarop het [!DNL Fire OS] besturingssysteem wordt uitgevoerd. | De opmaak bestaat strikt uit 32 hexadecimale cijfers in kleine letters, weergegeven in vijf groepen en gescheiden door koppeltekens, in de vorm 8-4-4-4-12, voor een totaal van 36 tekens. <br>Voorbeeld: `df07c7dc-cea7-4a89-b328-810ff5acb15d` |
+| [!DNL LGUDID] | 1171485 | Apparaatid&#39;s die apparaten vertegenwoordigen waarop het [!DNL LG webOS] besturingssysteem wordt uitgevoerd. | De opmaak bestaat strikt uit 32 hexadecimale cijfers in kleine letters, weergegeven in vijf groepen en gescheiden door koppeltekens, in de vorm 8-4-4-4-12, voor een totaal van 36 tekens. <br>Voorbeeld: `095f142a-ace8-ac5d-b86a-92c8be18b197` |
+| [!DNL Vizio IFA] | 1171489 | Apparaatid&#39;s die apparaten vertegenwoordigen waarop het besturingssysteem Vizio smart TV wordt uitgevoerd. | [!DNL Vizio IFA] Id&#39;s worden opgemaakt als alfanumerieke tekenreeksen. <br>Voorbeeld: `7XCBNROQJQPYW`. |
