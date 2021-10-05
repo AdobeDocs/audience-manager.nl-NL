@@ -1,16 +1,15 @@
 ---
 description: Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar de Audience Manager zijn verzonden.
-seo-description: Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die in uw voorraad zijn verzameld en naar de Audience Manager zijn verzonden.
-seo-title: Ongebruikte-signalenrapport
+seo-description: This report returns a frequency count of all the unused information collected on your inventory and sent to Audience Manager.
+seo-title: Unused Signals Report
 solution: Audience Manager
 title: Ongebruikte-signalenrapport
 uuid: 04334a5c-3e21-44db-b971-0b4457685e9a
 feature: Overlap Reports
 exl-id: ab5cb5ad-4305-4463-8f56-237b5a2f1f9e
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8fd148df6c19a5d8331faf66c671f91686954a77
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
@@ -29,7 +28,7 @@ Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die 
 
 Een signaal is informatie van uw website die wordt doorgegeven aan [!DNL Audience Manager] in de vorm van [sleutelwaardeparen](../../reference/key-value-pairs-explained.md) (bijvoorbeeld `color=blue, price>100, gender=female`, enz.).
 
-Ongebruikte signalen bestaan uit gegevens die u verzamelt, maar die niet aan een eigenschap zijn toegewezen. Het [!UICONTROL Unused Signals] rapport toont gegevens in een lijst door datum, sleutel, waarde, en frequentietelling. Om het even welk unmapped signaal dat binnen aan [!DNL Audience Manager] minstens 100 keer in een dag wordt overgegaan kwalificeert voor [!UICONTROL Unused Signals] rapport.
+Ongebruikte signalen bestaan uit gegevens die u verzamelt, maar die niet aan een eigenschap zijn toegewezen. Het [!UICONTROL Unused Signals] rapport toont gegevens in een lijst door datum, sleutel, waarde, en frequentietelling. Om het even welk unmapped signaal dat binnen aan [!DNL Audience Manager] minstens 100 keer in een dag wordt overgegaan kwalificeert voor [!UICONTROL Unused Signals] rapport. Ongebruikte signalen worden gedurende 45 dagen opgeslagen en daarna weggegooid.
 
 Herzie dit rapport helpen orphaned signalen identificeren die aan nieuwe of bestaande eigenschappen kunnen worden in kaart gebracht.
 
