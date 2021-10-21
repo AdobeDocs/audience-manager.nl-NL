@@ -1,17 +1,17 @@
 ---
 description: Algemene vragen en problemen in verband met producten en functies.
 keywords: cookies van publieksmanager
-seo-description: Algemene vragen en problemen in verband met producten en functies.
-seo-title: Veelgestelde vragen over productkenmerken en -functies
+seo-description: Common product and function-related questions and issues.
+seo-title: Product Features and Functions FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over productkenmerken en -functies
 uuid: da5f5089-24a8-4455-88a6-eb62d83939d2
-feature: Overzicht
+feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ Ja. Zie [Bulkbeheertools](../reference/bulk-management-tools/bulk-management-int
 
 **Bij het exporteren van een bulk-id naar een doel ontbreken enkele klant-id&#39;s. Waarom gebeurt dat?**
 
-Wanneer een apparaat-id ([AAM UUID](../reference/ids-in-aam.md)) is gekoppeld aan meerdere CRM-id&#39;s ([DPUUID&#39;s](../reference/ids-in-aam.md)), wordt alleen de meest recente toewijzing geëxporteerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
+Wanneer een apparaat-id ([AAM UUID](../reference/ids-in-aam.md)) is gekoppeld aan meerdere CRM-id&#39;s ([DPUUID&#39;s](../reference/ids-in-aam.md)), wordt alleen de laatste toewijzing geëxporteerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
 
  
 
@@ -67,7 +67,7 @@ Uw datafeed en alle eigenschappen in de feed worden weergegeven als submappen en
 
 **Wat is [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Launch]. Zie [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html) voor meer informatie.
+Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Tags]. Zie voor meer informatie [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 

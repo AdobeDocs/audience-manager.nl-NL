@@ -1,17 +1,17 @@
 ---
 description: Algemene vragen en problemen in verband met dataverzameling en integratie.
-seo-description: Algemene vragen en problemen in verband met dataverzameling en integratie.
-seo-title: Veelgestelde vragen over dataverzameling en productintegratie
+seo-description: Common data collection and integration questions and issues.
+seo-title: Data Collection and Product Integration FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over dataverzameling en productintegratie
 uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-adres; STFP IP-adres; FTP-adres
-feature: Beheer
+feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,13 +59,13 @@ De SFTP-servers hieronder zijn afgekeurd. Er worden geen nieuwe accounts ingeste
 
 **Hoe vorm ik mijn instantie van de Audience Manager om de nieuwe servers te gebruiken SFTP?**
 
-Neem contact op met uw [!DNL Audience Manager] consultant of de klantenservice en zij configureren uw nieuwe SFTP-accounts.
+Neem contact op met uw [!DNL Audience Manager] consultant of klantenservice en zij zullen uw nieuwe SFTP-accounts configureren.
 
  
 
 **Wat zijn de gesteunde authentificatiemethodes voor de nieuwe servers SFTP?**
 
-De nieuwe SFTP-servers (`ftp-in-gtw` en `ftp-out-gtw`) ondersteunen [!DNL OpenSSH Key-Based Authentication]. Wij kunnen de [!DNL SSH] sleutels voor u produceren, of u kunt ons van uw eigen openbare sleutel voorzien.
+De nieuwe SFTP-servers (`ftp-in-gtw` en `ftp-out-gtw`) ondersteuning [!DNL OpenSSH Key-Based Authentication]. We kunnen de [!DNL SSH] of u kunt ons uw eigen openbare sleutel geven.
 
  
 
@@ -83,7 +83,7 @@ Stel als best practice uw [!DNL Audience Manager]- [!DNL Analytics]-integratie i
 
 * Zet [!UICONTROL DIL] rechtstreeks in de `s_code`.
 
-* Geef [!UICONTROL DIL] en `s_code` door [!DNL Adobe Experience Platform Launch].
+* Serve [!UICONTROL DIL] en de `s_code` doorheen [!DNL Adobe Experience Platform Tags].
 
 Zie [Data Integration Library (DIL)-API](../dil/dil-overview.md).
 
@@ -152,7 +152,7 @@ Ja, [!DNL Audience Manager] kan data aan u verstrekken die zijn verzameld voor g
 
 **[!DNL Google Ad Manager]Ik wil data verzamelen op de ene website, en gebruikers targeten via op een andere website. Moet ik code implementeren op de andere eigenschap als ik geen data van die locatie wil verzamelen?**
 
-Nee. Als de dataverzameling op de tweede website geen vereiste is, hoeft u daar geen DIL te implementeren. Zolang u via [!DNL Google Ad Manager] toegang hebt tot de voorraad op de tweede site, kunt u de gegevensverzameling vanaf de eerste site en het doel gebruiken via [!DNL Google Ad Manager].
+Nee. Als de dataverzameling op de tweede website geen vereiste is, hoeft u daar geen DIL te implementeren. Zolang u toegang hebt tot de voorraad op de tweede site via [!DNL Google Ad Manager], kunt u de gegevensverzameling vanaf de eerste site en het doel gebruiken via [!DNL Google Ad Manager].
 
 <br> 
 
@@ -164,7 +164,7 @@ Elke leverancier draagt iets unieks bij, dus het antwoord hangt af van wat u zoe
 
 **Hoe worden in [!DNL Audience Manager] cookies ingesteld en variabelen doorgegeven aan [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] sets 2 cookies: De ene stuurt segmentvariabelen naar de  [!DNL Google Ad Manager] advertentietag en de andere stelt de unieke gebruikers-id (UUID) in, die ook door  [!DNL Google Ad Manager]wordt gelezen. Door de UUID aan de advertentietag toe te voegen kunnen we rapportage en doelgroepdetectie op gebruikersniveau uitvoeren.
+[!DNL Audience Manager] sets 2 cookies: Een verzendt segmentvariabelen naar de [!DNL Google Ad Manager] ad-tag en de andere sets van onze unieke gebruikersnaam (UUID), die ook wordt gelezen door [!DNL Google Ad Manager]. Door de UUID aan de advertentietag toe te voegen kunnen we rapportage en doelgroepdetectie op gebruikersniveau uitvoeren.
 
 <br> 
 
@@ -210,6 +210,6 @@ Het synchroniseren van een gebruikersprofiel in verschillende regio’s duurt me
 
 **Wat gebeurt er met inactieve Amazon S3-gebruikerstoetsen?**
 
-Adobe biedt klanten van Audience Managers toegang tot de sleutels voor gebruikerstoegang voor de Audience Manager [!DNL Amazon S3] emmers. Om veiligheidsredenen worden de toetsen automatisch uitgeschakeld na 100 dagen inactiviteit.
+Adobe verstrekt de klanten van de Audience Manager van de toegangstoetsen van de gebruiker voor de Audience Manager [!DNL Amazon S3] emmers. Om veiligheidsredenen worden de toetsen automatisch uitgeschakeld na 100 dagen inactiviteit.
 
 Neem contact op met de Klantenondersteuning als u uw toegangstoetsen weer wilt inschakelen of nieuwe toegangstoetsen wilt aanvragen.

@@ -1,16 +1,16 @@
 ---
 description: Audience Manager biedt toonaangevende services voor online data management van doelgroepen. Onze producten en services verschaffen digitale adverteerders en uitgevers de tools die ze nodig hebben om hun data-assets te beheren en te gebruiken voor een steeds succesvollere verkoop.
-seo-description: Technische documentatie en zelfhulp voor Audience Manager (AAM). AAM biedt toonaangevende services voor online data management van doelgroepen en verschaffen digitale adverteerders en uitgevers de tools die ze nodig hebben om hun data-assets te beheren en te gebruiken voor een steeds succesvollere verkoop.
-seo-title: Technische documentatie bij Adobe Audience Manager-producten
+seo-description: Technical documentation and self help for Audience Manager (AAM). AAM provides industry-leading services for online audience data management, and give digital advertisers and publishers the tools they need to control and leverage their data assets to help drive sales success.
+seo-title: Adobe Audience Manager Product Technical Documentation
 solution: Audience Manager
 title: Handleiding Audience Manager
 uuid: 48267e3b-70e6-42ae-99b1-884f4d0916be
-feature: Overzicht
+feature: Overview
 exl-id: a47bf8ba-4ec0-4b3b-ad20-4afb7c9f924b
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -87,7 +87,7 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
      <ul id="ul_47C012F6AB3E4B73BA357027F4D15369">
      <li><a href="/help/using/api/rest-api-main/aam-api-getting-started.md">Aan de slag met REST-API’s</a></li>
      <li><a href="/help/using/api/dcs-intro/dcs-event-calls/dcs-event-calls.md">Aan de slag met de DCS-API</a></li>
-     <li><a href="https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/adobe-audience-manager-extension.html">De extensie Audience Manager toevoegen aan Adobe Experience Platform Launch</a></li>
+     <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html">De extensie Audience Manager toevoegen in Adobe Experience Platform-tags</a></li>
     <li><a href="https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager">Audience Manager toevoegen aan uw app</a></li>
      </ul> </p>
     </td>
@@ -151,7 +151,7 @@ Deze technische documentatiehandleiding biedt zelfhulp voor Audience Manager, ee
      Zie de nieuwste <a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html" format="https" scope="external"> Experience Cloud-releaseopmerkingen</a> voor nieuwe functies en oplossingen.</p> 
      <p> <b>Nieuwste functies</b> </p> <p> 
      Lees meer over de nieuwste functies van Audience Manager:</p>
-     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager gebruiker migratie naar Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match voor op mensen gebaseerde doelen</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-plug-in voor IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictieve doelgroepen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Gebruik van activiteiten rapporteren</a></li>
+     <p><ul><li><a href="/help/using/docs-updates/docs-2021.md">Audience Manager gebruiker migratie naar Admin Console</a></li><li><a href="/help/using/features/destinations/people-based-destinations-prerequisites.md">Google Customer Match for People-Based Destures</a></li><li><a href="/help/using/overview/data-security-and-privacy/aam-iab-plugin.md">Audience Manager-plug-in voor IAB TCF v2.0</a></li><li><a href="/help/using/features/algorithmic-models/predictive-audiences.md">Predictieve doelgroepen</a></li><li><a href="/help/using/features/administration/activity-usage-reporting.md">Gebruik van activiteiten rapporteren</a></li>
      </ul></p>
     </td>
   </tr> 
