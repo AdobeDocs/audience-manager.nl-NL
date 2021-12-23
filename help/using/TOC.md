@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Leer hoe u met Audience Manager commercieel relevante informatie over sitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en inhoud voor het juiste publiek kunt gebruiken.
 feature-set: Audience Manager
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 73d1dd1fdc799d7cbe7605d6d084966f76efe38c
 workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 90%
       + [Facebook WCA-integratie](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS als Audience Manager-bestemming](integration/integrating-third-party/open-ad-server-destination.md)
       + [OpenX als Audience Manager-bestemming](integration/integrating-third-party/openx-destination.md)
-      + [Google Ad Manager (voorheen DFP) als Audience Manager Destination](integration/aam-dfp.md)
+      + [Google Ad Manager (voorheen DFP) als Audience Manager-bestemming](integration/aam-dfp.md)
       + [Segmenten verzenden naar een Google AdWords-remarketinglijst](integration/integrating-third-party/rlsa-integration.md)
    + [Audience Manager implementeren](integration/implement-audience-manager.md)
    + Integratie mediadata {#media-data-integration}
@@ -339,7 +339,7 @@ ht-degree: 90%
       + [Aangepaste partnerintegraties](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integratie met Adobe Experience Platform {#integration-experience-platform}
       + [Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integratie met andere Experience Cloud-oplossingen {#integration-other-solutions}
+   + Integratie met andere Experience Cloud-toepassingen {#integration-other-solutions}
       + [Audience Manager integreren met Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Data van Adobe Analytics doorsturen naar Audience Manager](integration/integration-other-solutions/audience-management-module.md)
       + [Adobe Analytics Segment publiceren naar Experience Cloud (opent Adobe Analytics-documentatie)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
