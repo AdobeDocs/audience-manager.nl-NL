@@ -8,9 +8,9 @@ title: Klantdatafeeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: 08916acd6081031382713737f77ceed8ab1a4e91
+source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1914'
 ht-degree: 1%
 
 ---
@@ -146,12 +146,11 @@ Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] bestand. Dit omvat
       <li id="li_B9DA15DCB6A445D781B8753C1C4262B0">Ctrl + a (ASCII) <code> 001</code> of <code> ^A</code>) worden gegevens in afzonderlijke velden gescheiden met een niet-afdrukbare ruimte-indicator. </li> 
       <li id="li_E68D0CC065B34AC9AF91F166CAA2A67C">Ctrl + b (ASCII) <code> 002</code> of <code> ^B</code>) scheidt gegevens en array- en request-parameters. </li> 
       <li id="li_6C32D927FEF04CDE9887374E8C2688E7">Ctrl + c (ASCII) <code> 003</code> of <code> ^C</code>) definieert sleutelwaardeparen. </li> 
-      <li> Nieuw regelscheidingsteken (/N)</li>
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Veldvolgorde </p> </td> 
-   <td colname="col2"> <p> <p>Belangrijk: <span class="keyword"> Audience Manager</span> behoudt zich het recht voor om nieuwe velden toe te voegen aan het einde van het CDF-bestand in toekomstige versies. Dit betekent het technische ontwerp van uw dossier het ontleden systeem niet een vast aantal kolommen zou moeten veronderstellen (hoewel het een vaste orde voor bestaande kolommen kan veronderstellen). </p> </p> <p>De gegevens in uw CDF-bestand worden weergegeven in de onderstaande volgorde. </p> <p> 
+   <td colname="col2"> <p> <p>Belangrijk: <span class="keyword"> Audience Manager</span> behoudt zich het recht voor om nieuwe velden toe te voegen aan het einde van het CDF-bestand in toekomstige versies. Dit betekent het technische ontwerp van uw dossier het ontleden systeem niet een vast aantal kolommen zou moeten veronderstellen (hoewel het een vaste orde voor bestaande kolommen kan veronderstellen).</p> </p> <p>De gegevens in uw CDF-bestand worden weergegeven in de onderstaande volgorde. /N kan in plaats van om het even welk van deze gebieden verschijnen, wijzend op een ongeldige waarde.</p> <p> 
      <ol id="ol_1FDF4A7F089448ED8A724378C23009C8"> 
       <li id="li_CB97D90B54EB4F95861583D4A5F660C7">Gebeurtenistijd </li> 
       <li id="li_C44E8CCB1A964B7A941FD772FB8A7608">Apparaat </li> 
