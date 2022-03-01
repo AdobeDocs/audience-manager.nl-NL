@@ -4,9 +4,10 @@ solution: Audience Manager
 title: Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen
 keywords: AEP-publieksdeling, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten AAM AEP-segmentdeling
 feature: Platform Integration
-source-git-commit: f0df41e71340d08e873d8d7e33b481987110c58d
+exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
+source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1522'
 ht-degree: 1%
 
 ---
@@ -152,11 +153,15 @@ De de bevolkingsaantallen van het segment kunnen tussen uw Audience Manager en E
 
 ### Segmentbeoordeling in Experience Platform
 
-Audience Manager werkt rapportaantallen in de interface eens per dag bij.   De timing van deze update richt zich zelden op de tijd van de segmentevaluatie in Experience Platform.
+Audience Manager werkt rapportaantallen in de interface eens per dag bij. De timing van deze update richt zich zelden op de tijd van de segmentevaluatie in Experience Platform.
 
 ### Verschillen tussen de Regels van de Fusie van het Profiel en het Beleid van de Fusie
 
 [[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager en [[!UICONTROL Merge Policies]](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) in Experience Platform werken verschillend, en de identiteitsgrafiek die voor elk wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
+
+>[!NOTE]
+>
+> Wanneer het delen van segmenten van Experience Platform aan Audience Manager, uw organisatie van het Platform [standaardsamenvoegingsbeleid](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) heeft voorrang boven de [samenvoegbeleid dat door het segment wordt gebruikt](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) gedeeld met Audience Manager. Bijvoorbeeld, als het de fusiebeleid van het gedeelde segment toestaat [ID stitching](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure)maar het beleid van de organisatie om de fusie te laten mislukken, kan dit leiden tot verschillen in bevolkingssamenstelling tussen Platform en Audience Manager.
 
 ### Segmentsamenstelling in Experience Platform
 
