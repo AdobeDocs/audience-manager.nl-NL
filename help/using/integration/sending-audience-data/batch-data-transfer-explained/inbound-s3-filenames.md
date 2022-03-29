@@ -7,10 +7,10 @@ title: Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databe
 uuid: 3692a122-6ad5-468c-934e-53067bd8cf71
 feature: Inbound Data Transfers
 exl-id: 428acdb5-fff0-4b70-b15a-e384aed9cc2d
-source-git-commit: 7721083fd538f0b74f72cfc78981e2cc76777790
+source-git-commit: a5506a315a98afdf31f8f52fac09b9179f388f30
 workflow-type: tm+mt
-source-wordcount: '1105'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -72,7 +72,7 @@ De tabel definieert de elementen in een [!DNL S3] bestandsnaam.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> <i>_DPID_TARGET_DATA_OWNER</i> </code> </p> </td> 
-   <td colname="col2"> <p>Dit gebied vertelt Audience Manager welke gegevensbron aan boordgegevens aan. Dit veld is verplicht als u de DPID instelt op een Android-id of een iOS-id of een andere id die bij globale gegevensbronnen hoort. Hierdoor kan de Audience Manager de bestandsgegevens weer koppelen aan uw organisatie. <br> Deze doelgegevensbron moet eigendom zijn van uw bedrijf. Voor de doeleinden van het delen van gegevens van de tweede partij, om gegevens in te voeren in een doelgegevensbron die tot een ander bedrijf behoort, moet u een toegangstoewijzing tussen uw bedrijf en de doelgegevensbron hebben. Neem contact op met uw Adobe-consultant of klantenondersteuning om de toewijzing in te stellen.</p> <p><b>Belangrijke opmerking:</b> U <i>niet</i> moet een toewijzing aanvragen voor bestaande relaties voor gegevensuitwisseling (voor doelgegevensbronnen die toebehoren aan andere bedrijven waarin u gegevens hebt ingevoerd vóór 14 maart 2022). De toewijzing wordt ook niet vereist wanneer het aan boord gaan van gegevens in doelgegevensbronnen die tot uw PID behoren. </p> <p>Bijvoorbeeld: </p> 
+   <td colname="col2"> <p>Dit gebied vertelt Audience Manager welke gegevensbron aan boordgegevens aan. Dit veld is verplicht als u de DPID instelt op een Android-id of een iOS-id of een andere id die bij globale gegevensbronnen hoort. Hierdoor kan de Audience Manager de bestandsgegevens weer koppelen aan uw organisatie. <br> Deze doelgegevensbron moet eigendom zijn van uw bedrijf. Voor de doeleinden van het delen van gegevens van de tweede partij, om gegevens in te voeren in een doelgegevensbron die tot een ander bedrijf behoort, moet u een toegangstoewijzing tussen uw bedrijf en de doelgegevensbron hebben. Neem contact op met uw Adobe-consultant of klantenondersteuning om de toewijzing in te stellen.</p> <p><b>Belangrijke opmerking:</b> U <i>niet</i> moet een kaart aanvragen voor bestaande relaties voor gegevensuitwisseling (voor doelgegevensbronnen die toebehoren aan andere bedrijven waarin u gegevens hebt ingevoerd vóór 14 maart 2022). De toewijzing wordt ook niet vereist wanneer het aan boord gaan van gegevens in doelgegevensbronnen die tot uw PID behoren. </p> <p>Bijvoorbeeld: </p> 
     <ul> 
      <li> <code>...ftp_dpm_33_21_1234567890.sync</code> vertelt Audience Manager dat u klant-id's kwalificeert die tot gegevensbron 33 behoren voor kenmerken of signalen die tot gegevensbron 21 behoren. </li> 
      <li> <b>Android-id's (GAID):</b> <code>...ftp_dpm_20914_21_1234567890.sync</code> vertellen <span class="keyword"> Audience Manager</span> dat het gegevensbestand alleen Android-id's bevat en de id's moeten in aanmerking komen voor de kenmerken die bij gegevensbron 21 horen.</li> 
