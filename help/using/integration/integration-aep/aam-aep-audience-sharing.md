@@ -5,9 +5,9 @@ title: Experience Platform segmentdelen met Audience Manager en andere Experienc
 keywords: AEP-publieksdeling, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten AAM AEP-segmentdeling
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: aaaed3930a1e7af4724cc01bda74b83edec98385
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1516'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u uw eigenschappen en segmenten van Audience Managers delen met Adobe Experience Platform en vice versa. U hebt de [[!DNL Audience Manager Connector]](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) om het delen van het publiek tussen Audience Manager en Adobe Experience Platform mogelijk te maken.
 
-U kunt de Audience Manager en de segmenten in Experience Platform gebruiken om de gegevens van de Audience Manager aan uw klantenprofielen toe te voegen en van het Experience Platform te profiteren [segmenteringsservice](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segmentation-overview.md).
+U kunt de Audience Manager en de segmenten in Experience Platform gebruiken om de gegevens van de Audience Manager aan uw klantenprofielen toe te voegen en van het Experience Platform te profiteren [segmenteringsservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en).
 
 In Audience Manager, kunt u de segmenten van het Experience Platform voor de gebruiksgevallen van het Platform van het Beheer van Gegevens gebruiken, zoals:
 * Toevoegen [gegevens van derden](/help/using/overview/data-types-collected.md#third-party-data) naar uw segmenten;

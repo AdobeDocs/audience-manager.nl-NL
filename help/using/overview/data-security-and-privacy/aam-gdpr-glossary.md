@@ -1,17 +1,16 @@
 ---
 description: In dit artikel worden de concepten en terminologie uitgelegd die worden gebruikt door de Europese Algemene Gegevensbeschermingsverordening (GDPR, AVG), en wordt uitgelegd hoe Adobe Audience Manager, als dataverwerker, aan diverse GDPR (AVG)-vereisten voldoet.
-seo-description: In dit artikel worden de concepten en terminologie uitgelegd die worden gebruikt door de Europese Algemene Gegevensbeschermingsverordening (GDPR, AVG), en wordt uitgelegd hoe Adobe Audience Manager, als dataverwerker, aan diverse GDPR (AVG)-vereisten voldoet.
-seo-title: Verklarende woordenlijst GDPR
+seo-description: This article explains the concepts and terminology used by the European General Data Protection Regulation (GDPR), and how Adobe Audience Manager, as a Data Processor, addresses various GDPR requirements.
+seo-title: GDPR Glossary
 solution: Audience Manager
 title: Verklarende woordenlijst GDPR
 uuid: e52cad27-6a44-45ee-8524-6080adb86cc8
 feature: Data Governance & Privacy
 exl-id: 36930703-745e-4fbd-ad18-ba9efb77eb7e
-translation-type: tm+mt
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '693'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +22,7 @@ In dit artikel worden de concepten en terminologie uitgelegd die worden gebruikt
 
 De GDPR (AVG) is op 25 mei 2018 in werking getreden, met als hoofddoel om individuen in de EU (geregistreerde personen) meer controle te geven over hun persoonlijke data en tegelijk het regelgevingskader voor internationale ondernemingen te vereenvoudigen door de regelgeving binnen de EU beter af te stemmen. Als onderdeel van de GDPR (AVG)-gereedheid van Adobe heeft het team van Adobe Audience Manager services en processen verbeterd waar dat nodig was voor de ondersteuning van toegangs- en verwijderingsaanvragen van geregistreerde personen, uw consumenten.
 
-Lees ook [Veelgestelde vragen over GDPR (AVG) voor Experience Cloud](https://docs.adobe.com/content/help/nl-NL/experience-platform/privacy/home.html#!api-specification/markdown/narrative/gdpr/gdpr-faq.md) voor een beter inzicht in de manier waarop GDPR (AVG) werkt in Experience Cloud.
+Zorg ervoor dat u ook informatie over GDPR in het dialoogvenster [Overzicht van privacyregels](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) voor een beter begrip van de werking van GDPR in Experience Cloud.
 
 ## Verklarende woordenlijst GDPR {#gdpr-glossay}
 
@@ -59,7 +58,7 @@ Maak u vertrouwd met de belangrijkste termen die in verband met GDPR worden gebr
 
  
 
-**Audience Manager-id’s:** Adobe Audience Manager slaat verschillende soorten id’s op. De pagina [Audience Manager-id’s](data-privacy-ids.md) biedt een overzicht van deze id’s, hun corresponderende databronnen en korte beschrijvingen. Wanneer u aanvragen verzendt naar de [Adobe Experience Platform Privacy Service](https://docs.adobe.com/content/help/nl-NL/experience-platform/privacy/home.html), verwijst u naar deze id’s om verwijderings- of toegangsaanvragen te verzenden voor uw geregistreerde personen.
+**Audience Manager-id’s:** Adobe Audience Manager slaat verschillende soorten id’s op. De pagina [Audience Manager-id’s](data-privacy-ids.md) biedt een overzicht van deze id’s, hun corresponderende databronnen en korte beschrijvingen. Wanneer u aanvragen verzendt naar de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), verwijst u naar deze id’s om verwijderings- of toegangsaanvragen te verzenden voor uw geregistreerde personen.
 
  
 
