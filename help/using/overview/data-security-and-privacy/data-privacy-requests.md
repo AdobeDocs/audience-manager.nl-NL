@@ -8,10 +8,10 @@ title: Data Privacy-aanvragen
 uuid: ed23a478-32be-460d-bb03-a735317f7c0f
 feature: Data Governance & Privacy
 exl-id: a1fc9c21-3417-4899-a585-92ad2cb25362
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 6b43885deddb0cdaeb3698051ea110f0a4eed44e
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 50%
+source-wordcount: '1431'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +28,7 @@ We adviseren u om voor het lezen van het artikel de [Verklarende woordenlijst GD
 U kunt individuele verzoeken indienen om tot consumentengegevens toegang te hebben en te schrappen van [!DNL Audience Manager]op twee manieren:
 
 * Via de [Privacy Service-gebruikersinterface](https://privacyui.cloud.adobe.io/). Zie de documentatie [hier](https://docs.adobe.com/content/help/nl-NL/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Via de **[!DNL Privacy Service API]**. Zie de documentatie [hier](https://docs.adobe.com/content/help/nl-NL/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) en de [!DNL API] referentie [hier](https://www.adobe.io/apis/experiencecloud/gdpr/api-reference.html#!acpdr/swagger-specs/privacy-service.yaml).
+* Via de **[!DNL Privacy Service API]**. Zie de documentatie [hier](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) en de [!DNL API] referentie [hier](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Wanneer u individuele privacyverzoeken voor gegevens verzendt, kunt u [!DNL Audience Manager] id&#39;s (id&#39;s), zoals beschreven in het dialoogvenster **[Audience Manager-id&#39;s](data-privacy-ids.md)** en de bijbehorende naamruimte-id&#39;s (gegevensbron-id&#39;s).
 
