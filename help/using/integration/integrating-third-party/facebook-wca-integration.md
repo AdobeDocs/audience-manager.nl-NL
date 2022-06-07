@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Facebook WCA-integratie
 feature: Third-party Integration
 exl-id: edd06247-b46b-4851-ab71-8cc05a1d6d63
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 8780083474d68717fe3bd4dc632d96da89929122
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Deze pagina illustreert het proces voor het maken van [!DNL Facebook Website Cus
 
 ## Overzicht {#overview}
 
-[Aangepast publiek voor facebook-website (WCA)](https://www.facebook.com/business/help/449542958510885) Hiermee kunt u een lijst maken met personen die bepaalde pagina&#39;s hebben bezocht of bepaalde handelingen op uw website hebben uitgevoerd. [!DNL Audience Manager] activering in [!DNL WCA] gebruiken [!DNL URL] doelen, waarmee u een aangepaste op pixels gebaseerde integratie kunt configureren om een op het web gebaseerd publiek te sturen naar [!DNL Facebook] voor doelwitten.
+[Aangepast publiek voor facebook-website (WCA)](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) Hiermee kunt u een lijst maken met personen die bepaalde pagina&#39;s hebben bezocht of bepaalde handelingen op uw website hebben uitgevoerd. [!DNL Audience Manager] activering in [!DNL WCA] gebruiken [!DNL URL] doelen, waarmee u een aangepaste op pixels gebaseerde integratie kunt configureren om een op het web gebaseerd publiek te sturen naar [!DNL Facebook] voor doelwitten.
 
 ![Facebook WCA-integratie](/help/using/integration/assets/facebook-wca-integration.png)
 
