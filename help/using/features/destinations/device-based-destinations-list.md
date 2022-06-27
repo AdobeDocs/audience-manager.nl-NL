@@ -7,7 +7,7 @@ solution: Audience Manager
 title: Adobe Audience Manager Server-naar-server doelen
 feature: Destination Basics
 exl-id: 7db3bc02-ece4-4524-a401-d2c8c6de510a
-source-git-commit: 670d2f1990d7370ab8930776df9ae5af71dd3d9e
+source-git-commit: 9947adbd99e12efdf2d94c6840929ad9266c58a2
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 73%
@@ -16,18 +16,18 @@ ht-degree: 73%
 
 # [!DNL Audience Manager] [!UICONTROL Device-based Destinations]
 
-Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doelen](/help/using/features/destinations/add-device-based-destinations.md). In [!DNL Audience Manager] wordt [!UICONTROL device-based destinations] ook [!UICONTROL server-to-server destinations] genoemd. Raadpleeg de [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html)-lijst (indien beschikbaar) of neem contact op met uw [!DNL Adobe]-consultant of de klantenservice voor meer informatie over integratie.
+Deze pagina bevat de huidige [!DNL Audience Manager] [op apparaten gebaseerde doelen](/help/using/features/destinations/add-device-based-destinations.md) alleen. In [!DNL Audience Manager], [!UICONTROL device-based destinations] worden ook [!UICONTROL server-to-server destinations]. Voor meer informatie over een integratie, verwijs naar zijn [Adobe Exchange](https://exchange.adobe.com/experiencecloud.html) aanbieding (indien beschikbaar) of neem contact op met [!DNL Adobe] Consultant of klantenservice.
 
 
-* **Last Updated** = Toont de laatste datum toen er een update voor dit  [!UICONTROL device-based destination].
-* **Updates** = wijst erop of gegevens in real time of partij (1xday) naar dit  [!DNL Audience Manager] verzendt  [!UICONTROL destination].
-* **Unsegment** = Unsegmentation beschrijft processen die apparatenprofielen van deskwalificeren en verwijderen  [!UICONTROL segments]. De mogelijkheid om een apparaatprofiel te verwijderen uit een [!UICONTROL segment] is afhankelijk van de apparaatoptie die wordt gebruikt om een [!UICONTROL Profile Merge Rule] te maken. Unsegmentation wordt ook gebruikt in de context van [!DNL GDPR] schrappingsverzoeken. Lees [De Regels van de Fusie van het profiel en de processen van de Apparaatontsegmentatie ](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) en [de Partners van de Audience Manager met Unsegmentation Capabilities](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] verzendt unsegment informatie naar  [!UICONTROL destinations] duidelijk met  **** Yesbelow.
-* **Het ontvangen van  [!DNL IAB TCF] toestemmingssignalen** = De  [!DNL Audience Manager Plug-in for IAB TCF] laat u toe om het  [!DNL IAB TC] koord aan activeringspartners door te sturen terwijl het eerbiedigen van de privacykeuzen van gebruikers. Lees [Plug-in van de Audience Manager voor IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
-* **[!DNL ICDS]** = Deze kolom maakt een lijst van de partners die steunen  [!UICONTROL Instant Cross-Device Suppression]. Lees meer over [Onmiddellijke ondersteuning voor verschillende apparaten](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
-* **Mobiel apparaat-ids** = Deze kolom bevat een lijst met partners die mobiele apparaat-id&#39;s kunnen ontvangen van  [!DNL Audience Manager].
+* **Laatst bijgewerkt** = Geeft de laatste datum weer waarop er een update voor dit bestand is uitgevoerd [!UICONTROL device-based destination].
+* **Updates** = Geeft aan of [!DNL Audience Manager] verzendt gegevens in real time of partij (1xday) naar dit [!UICONTROL destination].
+* **Segment opheffen** = Onsegmentatie beschrijft processen die apparaatprofielen uitschakelen en verwijderen uit [!UICONTROL segments]. U kunt een apparaatprofiel verwijderen uit een [!UICONTROL segment] is afhankelijk van de apparaatoptie die wordt gebruikt om een [!UICONTROL Profile Merge Rule]. Onsegmentatie wordt ook gebruikt in de context van [!DNL GDPR] aanvragen verwijderen. Lezen [Regels voor het samenvoegen van profielen en processen voor het ontsegmenteren van apparaten](/help/using/features/profile-merge-rules/merge-rule-unsegment.md) en [Audience Manager Partners met unsegmentation-mogelijkheden](/help/using/overview/data-security-and-privacy/data-privacy-requests.md#aam-partners-with-unsegmentation). [!DNL Audience Manager] verzendt unsegment informatie naar [!UICONTROL destinations] gemarkeerd met **Ja** hieronder.
+* **Ontvangstbewijs [!DNL IAB TCF] toestemmingssignalen** = De [!DNL Audience Manager Plug-in for IAB TCF] stelt u in staat de [!DNL IAB TC] tekenreeks naar activeringspartners met inachtneming van de privacyopties van de gebruiker. Lezen [Audience Manager-plug-in voor IAB TCF](/help/using/overview/data-security-and-privacy/aam-iab-plugin.md).
+* **[!DNL ICDS]** = Deze kolom maakt een lijst van de partners die steunen [!UICONTROL Instant Cross-Device Suppression]. Meer informatie [Onmiddellijke ondersteuning voor apparaten](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md).
+* **Mobiele apparaat-id&#39;s** = Deze kolom maakt een lijst van partners die mobiele apparaat IDs van kunnen ontvangen [!DNL Audience Manager].
 
 
-| Integratie | Laatst bijgewerkt | Updates | Segment opheffen | Goedkeuringssignalen [!DNL IAB TCF] ontvangen | [!DNL ICDS] | Mobiele apparaat-id’s |
+| Integratie | Laatst bijgewerkt | Updates | Segment opheffen | Ontvangstbewijs [!DNL IAB TCF] toestemmingssignalen | [!DNL ICDS] | Mobiele apparaat-id’s |
 |----------------------------------------------------------|------------|-----------|-----------|-----------------------------------|------|-------------------|
 | [!DNL 4C Insights] | 09-26-2018 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL 4info] | 02-09-2017 | 1xday | Nee | Nee | Nee | Ja |
@@ -38,7 +38,7 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL AdForm] | 02-22-2017 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL AdGear] | 02-22-2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL Adikteev] | 01-26-2018 | 1xday | Ja | Nee | Nee | Ja |
-| [!DNL Adroll] /  [!DNL NextRoll] | 12-10-2019 | 1xday | Nee | Nee | Nee | Nee |
+| [!DNL Adroll] / [!DNL NextRoll] | 12-10-2019 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL Adswizz] | 10-09-2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Adtheorent] | 02-22-2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL Affinio] | 04-03-2018 | 1xday | Ja | Nee | Nee | Ja |
@@ -46,9 +46,9 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL Amazon Advertising] | 06-15-2017 | 1xday | Ja | Nee | Nee | Nee |
 | [!DNL AOL AdLearn] | 03-02-2017 | In real time | Nee | Nee | Nee | Ja |
 | [!DNL AOL ONE] | 03-02-2017 | In real time | Ja | Nee | Nee | Ja |
-| [!DNL AppNexus] | 03-02-2017 | In real time | Ja | Nee | Ja | Nee |
+| [!DNL AppNexus] | 03-02-2017 | In real time | Ja | Nee | Ja | Ja |
 | [!DNL AppNexus Yieldex] | 08-10-2017 | 1xday | Ja | Nee | Nee | Nee |
-| [!DNL Artsai] (voorheen  [!DNL Adxcel]) | 01-27-2020 | 1xday | Nee | Nee | Nee | Ja |
+| [!DNL Artsai] (voorheen) [!DNL Adxcel]) | 01-27-2020 | 1xday | Nee | Nee | Nee | Ja |
 | [!DNL Atedra]/[!DNL AdStanding] | 03-02-2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL Avocet] | 12-06-2017 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL Bidtellect] | 03-03-2017 | In real time | Ja | Nee | Nee | Nee |
@@ -160,9 +160,9 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL Triple Lift] | 03-03-2017 | In real time | Nee | Ja | Nee | Nee |
 | [!DNL TrueX] | 01-11-2018 | In real time | Ja | Nee | Nee | Ja |
 | [!DNL TubeMogul] | 03-03-2017 | In real time | Ja | Nee | Ja | Nee |
-| [!DNL Turn] /  [!DNL Amobee] | 03-03-2027 | In real time | Nee | Nee | Nee | Ja |
+| [!DNL Turn] / [!DNL Amobee] | 03-03-2027 | In real time | Nee | Nee | Nee | Ja |
 | [!DNL Twenga] | 10-29-2018 | In real time | Ja | Nee | Nee | Nee |
-| [!DNL Twitter Custom Audiences] | 02-27-2017 | In real time | Ja | Nee | Ja | Nee |
+| [!DNL Twitter Custom Audiences] | 03-27-2017 | In real time | Ja | Nee | Ja | Nee |
 | [!DNL Undertone] | 07-11-2017 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL Verve] | 06-15-2017 | 1xday | Ja | Nee | Nee | Ja |
 | [!DNL VideoAmp] | 03-03-2017 | In real time | Nee | Nee | Nee | Nee |
@@ -177,4 +177,4 @@ Deze pagina bevat alleen huidige [!DNL Audience Manager] [apparaatgebaseerde doe
 | [!DNL Yieldex] | 08-21-2017 | Varieert | Ja | Nee | Nee | Nee |
 | [!DNL YieldMo] | 03-03-2017 | 1xday | Nee | Nee | Nee | Nee |
 | [!DNL Yume] | 05-31-2017 | 1xday | Nee | Nee | Nee | Nee |
-| [!DNL Zeta] /  [!DNL Sizmek DSP] /  [!DNL RocketFuel] | 02-17-2017 | In real time | Ja | Nee | Ja | Ja |
+| [!DNL Zeta] / [!DNL Sizmek DSP] / [!DNL RocketFuel] | 02-17-2017 | In real time | Ja | Nee | Ja | Ja |
