@@ -48,7 +48,7 @@ De [!DNL Audience Manager] [!DNL REST APIs] ondersteuning voor twee verificatiem
 
 ## [!DNL JWT] ([!DNL Service Account]) Verificatie met Adobe Developer {#jwt}
 
-### Overzicht van Adobe Developer {#adobeio}
+### Adobe Developer - Overzicht {#adobeio}
 
 [!DNL Adobe Developer] is Adobe. Hieronder vallen [API&#39;s voor alle Adobe-producten](https://www.adobe.io/apis.html).
 
@@ -189,7 +189,7 @@ Vereisten voor oproepen [!DNL API] methoden nadat u een verificatietoken hebt on
 Om vraag tegen beschikbaar te maken [!DNL API] methoden:
 
 * In de `HTTP` header, set `Authorization: Bearer <token>`.
-* Wanneer u [JWT-verificatie (serviceaccount)](#jwt), moet u de `x-api-key` koptekst, die hetzelfde zal zijn als uw `client_id`. U kunt uw `client_id` van de [Adobe Developer Integration](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) pagina.
+* Wanneer u [JWT-verificatie (serviceaccount)](#jwt), moet u de `x-api-key` koptekst, die hetzelfde zal zijn als uw `client_id`. U kunt uw `client_id` van de [Adobe Developer-integratie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) pagina.
 * De vereiste vraag [!DNL API] methode.
 
 ## Optioneel [!DNL API] Zoekparameters {#optional-api-query-parameters}
