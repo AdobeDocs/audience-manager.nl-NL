@@ -1,23 +1,22 @@
 ---
 description: Zoek naar één of veelvoudige signalen, die op hun respectieve sleutel-waarde paren worden gebaseerd.
-seo-description: Zoek naar één of veelvoudige signalen, die op hun respectieve sleutel-waarde paren worden gebaseerd.
-seo-title: Signalen zoeken op sleutelwaardeparen
+seo-description: Search for one or multiple signals, based on their respective key-value pairs.
+seo-title: Search Signals by Key-Value Pairs
 title: Signalen zoeken op sleutelwaardeparen
 uuid: 2a38d0d4-4a2e-4ca5-b9ec-af9d4963d876
 feature: Data Explorer
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: d598da6b-8dc0-47ce-8389-1973b1803711
+source-git-commit: 6f8f82062403831e5b99525c4f3c3512c67d71bf
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 4%
+source-wordcount: '296'
+ht-degree: 1%
 
 ---
 
-
-# Signalen zoeken op sleutelwaardeparen {#search-signals-by-key-value-pairs}
+# De signalen van het onderzoek door zeer belangrijke paren {#search-signals-by-key-value-pairs}
 
 Zoek naar één of veelvoudige signalen, die op hun respectieve sleutel-waarde paren worden gebaseerd.
-Om naar meer dan één signaal te zoeken, klik ![Add](assets/icon_add.png) knoop. Voer de sleutelwaardeparen in waarnaar u wilt zoeken en gebruik vervolgens de volgende filters om de resultaten te beperken.
+Als u naar meer dan één signaal wilt zoeken, klikt u op de knop ![Toevoegen](assets/icon_add.png) knop. Voer de sleutelwaardeparen in waarnaar u wilt zoeken en gebruik vervolgens de volgende filters om de resultaten te beperken.
 
 * **Signaalstatus**: zoeken naar signalen inbegrepen in eigenschappen, ongebruikte signalen, of allebei.
 * **Records weergeven voor**: Selecteer het tijdinterval waarin om naar ontvangen signalen te zoeken.
@@ -25,36 +24,37 @@ Om naar meer dan één signaal te zoeken, klik ![Add](assets/icon_add.png) knoop
 
 >[!IMPORTANT]
 >
->Voor een gestroomlijnde gebruikerservaring zijn de zoekresultaten van sleutelwaardepaarten gebaseerd op gegevensbemonstering. Zie [Gegevensbemonstering en foutenpercentages](/help/using/reporting/report-sampling.md) voor meer informatie over hoe [!DNL Audience Manager] gegevensbemonstering gebruikt en waarom kleine resultaatvariaties kunnen verschijnen wanneer het vergelijken van zeer belangrijk-waardeonderzoek met algemene onderzoeken.
+>Voor een gestroomlijnde gebruikerservaring zijn de zoekresultaten van sleutelwaardepaarten gebaseerd op gegevensbemonstering. Zie [Gegevensbemonstering en foutenpercentages](/help/using/reporting/report-sampling.md) voor meer informatie over hoe [!DNL Audience Manager] gebruikt gegevensbemonstering en waarom kleine resultaatvariaties kunnen verschijnen wanneer het vergelijken van zeer belangrijk-waardeonderzoek met algemene onderzoeken.
 
-Wanneer het zoeken naar signalen die veelvoudige zeer belangrijk-waardeparen gebruiken, [!DNL Audience Manager] verbindt de paren gebruikend de logische **AND** exploitant. Stel dat u een zoekopdracht uitvoert met de volgende sleutelwaardeparen:
+Wanneer het zoeken naar signalen die veelvoudige zeer belangrijk-waardeparen gebruiken, [!DNL Audience Manager] verbindt de paren gebruikend logisch **EN** operator. Stel dat u een zoekopdracht uitvoert met de volgende sleutelwaardeparen:
 
 * [!DNL c_creative == "12345"]
 * [!DNL c_product == "smartphone"]
 * [!DNL c_location == "europe"]
 
-Deze zoekopdracht retourneert alleen resultaten die in aanmerking komen voor alle drie de filters in dezelfde aanroep: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`
+Deze zoekopdracht retourneert alleen resultaten die in aanmerking komen voor alle drie de filters in dezelfde aanroep: `c_creative == "12345"` `AND` `c_product == "smartphone"` `AND` `c_location == "europe"`.
 
 ![](assets/signals-search.png)
 
-## Signalen die zijn uitgesloten van Signaal zoeken {#excluded-signals}
+## Signalen die zijn uitgesloten van signaalzoekopdracht {#excluded-signals}
 
-De belangrijkste variabelen die door Audience Manager worden gebruikt en door `d_` en `h_` prefixen worden voorgefixeerd worden niet bedekt door [!UICONTROL Signals Search]. Zie [Voorvoegselvereisten voor belangrijke variabelen](../../traits/trait-variable-prefixes.md) voor meer informatie.
+Sleutelvariabelen die door de Audience Manager worden gebruikt en vooraf door de `d_` en `h_` voorvoegsels worden niet vervangen door [!UICONTROL Signals Search]. Zie [Voorvoegselvereisten voor belangrijkste variabelen](../../traits/trait-variable-prefixes.md) voor meer informatie.
 
-## Ongevoeligheid van hoofdletters en kleine letters zoeken en automatisch voltooien {#case-insensitivity}
+## Hoofdlettergevoeligheid en automatisch zoeken {#case-insensitivity}
 
-De velden voor het zoeken naar sleutels en waarden zijn niet hoofdlettergevoelig. Het belangrijkste onderzoeksgebied omvat auto-voltooide suggesties.
+De velden voor het zoeken naar sleutels en waarden zijn hoofdlettergevoelig. Het belangrijkste onderzoeksgebied omvat auto-voltooide suggesties.
 
 ![](assets/signal-search-suggestions.png)
 
-[!DNL Audience Manager] heeft de volgende signalen ontvangen:
+Laten we zeggen [!DNL Audience Manager] de volgende signalen hebben ontvangen:
 
 * `productCategory == smartphone`
 * `newProduct == iPhone`
 * `PRODUCT == phone`
 * `product == PHONE`
 
-Wanneer u `product` in het belangrijkste onderzoeksgebied ingaat, ontvangt u auto-voltooide suggesties voor `productCategory`, `newProduct`, `PRODUCT`, en `product`.
+Wanneer u `product` in het sleutelzoekveld ontvangt u automatisch aangevulde suggesties voor `productCategory` en `product`.
 
-Op dezelfde manier wanneer u naar `product == phone` zoekt, [!UICONTROL Data Explorer] keert resultaten voor zowel `PRODUCT == phone` als `product == PHONE` terug.
-De gemaakte fouten in de modus Achtergevuld zijn niet hoofdlettergevoelig. Een eigenschap die het signaal met het zeer belangrijk-waardepaar `PRODUCT == SMARTPHONE` bevat kwalificeert ook het signaal met het zeer belangrijk-waardepaar `product == smartphone`.
+Op dezelfde manier wanneer u zoekt naar `product == PHONE`, [!UICONTROL Data Explorer] retourneert alleen resultaten voor `product == PHONE`.
+
+Achtergevulde taakrealisaties zijn ook hoofdlettergevoelig. Een eigenschap die het signaal met het zeer belangrijk-waardepaar bevat `PRODUCT == SMARTPHONE` kwalificeert niet het signaal met sleutel-waarde paar `product == smartphone`.
