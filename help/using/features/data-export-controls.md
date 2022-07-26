@@ -1,19 +1,18 @@
 ---
 description: De Controles van de Uitvoer van gegevens verhinderen u gegevens naar bestemmingen te verzenden wanneer deze actie gegevensprivacy of overeenkomsten van het gegevensgebruik schendt.
-seo-description: De Controles van de Uitvoer van gegevens verhinderen u gegevens naar bestemmingen te verzenden wanneer deze actie gegevensprivacy of overeenkomsten van het gegevensgebruik schendt.
-seo-title: Besturingselementen voor data-export
+seo-description: Data Export Controls prevent you from sending data to destinations when this action violates data privacy or data use agreements.
+seo-title: Data Export Controls
 solution: Audience Manager
 title: Besturingselementen voor data-export
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
+source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '882'
 ht-degree: 1%
 
 ---
-
 
 # Besturingselementen voor data-export {#data-export-controls}
 
@@ -21,30 +20,30 @@ ht-degree: 1%
 
 ## Overzicht {#overview}
 
-[!UICONTROL Data Export Controls] Hiermee kunt u  [gegevensbronnen ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) en  [doelen](../features/destinations/destinations.md) classificeren. De classificaties die u toepast, bepalen wanneer gegevens naar een bestemming kunnen of kunnen worden geëxporteerd. Deze functie bestaat uit:
+[!UICONTROL Data Export Controls] laten classificeren [gegevensbronnen](../features/datasources-list-and-settings.md#data-sources-list-and-settings) en [bestemmingen](../features/destinations/destinations.md). De classificaties die u toepast, bepalen wanneer gegevens naar een bestemming kunnen of kunnen worden geëxporteerd. Deze functie bestaat uit:
 
-* **[!UICONTROL Data Export Controls]**: U kunt de Controles van de Uitvoer van Gegevens op  *gegevensbronnen* plaatsen. Wanneer geplaatst op een gegevensbron, beperken deze controles hoe die gegevensbron en zijn eigenschappen kunnen worden gebruikt.
-* **[!UICONTROL Data Export Labels]**: U kunt de Etiketten van de Uitvoer van Gegevens op  *bestemmingen* plaatsen. Wanneer geplaatst op een bestemming, identificeren deze etiketten hoe de bestemming gegevens gebruikt. Zie [Labels voor gegevensexport toevoegen aan een doel](/help/using/features/destinations/add-data-export-labels.md) om te leren hoe u exportlabels kunt toevoegen aan een doel.
+* **[!UICONTROL Data Export Controls]**: U kunt de Controles van de Uitvoer van Gegevens plaatsen op *gegevensbronnen*. Wanneer geplaatst op een gegevensbron, beperken deze controles hoe die gegevensbron en zijn eigenschappen kunnen worden gebruikt.
+* **[!UICONTROL Data Export Labels]**: U kunt labels voor gegevensuitvoer instellen op *bestemmingen*. Wanneer geplaatst op een bestemming, identificeren deze etiketten hoe de bestemming gegevens gebruikt. Zie [Labels voor gegevensexport toevoegen aan een doel](/help/using/features/destinations/add-data-export-labels.md) om te leren hoe u exportlabels aan een doel kunt toevoegen.
 
 Gebaseerd op de classificaties die op een gegevensbron en een bestemming worden toegepast, houden de uitvoercontroles u tegen van:
 
 * Het toevoegen van een eigenschap aan een segment wanneer het spoor tot een gegevensbron behoort die een controle van de gegevensuitvoer heeft die met een etiket van de gegevensuitvoer op één of meerdere bestemmingen onverenigbaar is dat het segment aan in kaart wordt gebracht.
-Stel bijvoorbeeld dat een segment is toegewezen aan een doel met het exportlabel **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. De controles van de uitvoer verhinderen u een eigenschap aan dat segment toe te voegen als de gegevensbron dat het bezit tot behoort een controle van de gegevensuitvoer heeft die **[!DNL Cannot be tied to personally identifiable information (PII)]** zegt.
-* Het verzenden van om het even welke gegevens naar een bestemmingsbestemming heeft een etiket van de gegevensuitvoer dat door een controle van de gegevensuitvoer over om het even welk van wordt geblokkeerd:
+Stel dat een segment is toegewezen aan een doel met het exportlabel **[!DNL This destination may enable a combination with personally identifiable information (PII)]**. De controles van de uitvoer houden u tegen het toevoegen van een eigenschap aan dat segment als de gegevensbron dat het bezit tot behoort een controle van de gegevensuitvoer heeft die zegt **[!DNL Cannot be tied to personally identifiable information (PII)]**.
+* Verzend om het even welke gegevens naar een bestemming die een etiket van de gegevensuitvoer heeft dat door een controle van de gegevensuitvoer op om het even welk van wordt geblokkeerd:
    * de gegevensbron van een opgenomen kenmerk;
    * De gegevensbron van een eigenschap die in een inbegrepen segment wordt gebruikt;
    * De profielsamenvoegregel die door een inbegrepen segment wordt gebruikt;
    * Om het even welke gegevensbronnen die de het profielfusieregel van een inbegrepen segment gebruikt.
 
-[!UICONTROL Data Export Controls] zijn automatisch beschikbaar voor alle klanten van de Audience Manager. Nochtans, hebt u beheerdertoestemmingen nodig om de uitvoercontroles aan een gegevensbron toe te voegen. Voor het toevoegen van exportlabels aan een bestemming zijn beheerdersmachtigingen *of* voldoende rechten vereist om een bestemming te maken of te bewerken.
+[!UICONTROL Data Export Controls] zijn automatisch beschikbaar voor alle klanten van de Audience Manager. Nochtans, hebt u beheerdertoestemmingen nodig om de uitvoercontroles aan een gegevensbron toe te voegen. Voor het toevoegen van exportlabels aan een bestemming zijn beheerdersmachtigingen vereist *of* voldoende rechten om een doel te maken of te bewerken.
 
-## Bepaalt controles en etiketten {#controls-labels}
+## Besturingselementen en gedefinieerde labels {#controls-labels}
 
 [!UICONTROL Data Export Controls] Verstrek de volgende controles om u te helpen gegevensbronnen en bestemmingen classificeren.
 
-Als u gegevenslevering wilt blokkeren, moet u een gegevensbron classificeren met een exportbesturingselement en een exportlabel toevoegen aan een bestemming. Als u de uitvoercontroles op een gegevensbron of een bestemming slechts toepast, zal deze eigenschap niet gegevenslevering beperken. Wanneer geplaatst op zowel de gegevensbron *als* bestemming, zullen de de uitvoercontroles de eigenschappen beperken u aan een segment kunt toevoegen en verhinderen verzendend de segmentleden naar een bestemming.
+Als u gegevenslevering wilt blokkeren, moet u een gegevensbron classificeren met een exportbesturingselement en een exportlabel toevoegen aan een bestemming. Als u de uitvoercontroles op een gegevensbron of een bestemming slechts toepast, zal deze eigenschap niet gegevenslevering beperken. Wanneer ingesteld op beide gegevensbronnen *en* doel, zullen de de uitvoercontroles de eigenschappen beperken u aan een segment kunt toevoegen en verhinderen verzendend de segmentleden naar een bestemming.
 
-Bovendien moet ten minste één exportlabel overeenkomen met een exportbesturingselement voordat beperkingen voor gegevenslevering van kracht worden. Bijvoorbeeld, zeg u de [!UICONTROL PII] uitvoercontrole aan een gegevensbron toevoegt. Vervolgens voegt u het doellabel voor onsite actie toe aan een doel. In dit geval beperken exportbesturingselementen de gegevenslevering niet omdat de instellingen niet overeenkomen. Als u echter het exportlabel [!UICONTROL PII] aan de bestemming toevoegt, blokkeren de exportbesturingselementen de export.
+Bovendien moet ten minste één exportlabel overeenkomen met een exportbesturingselement voordat beperkingen voor gegevenslevering van kracht worden. Stel dat u de opdracht [!UICONTROL PII] exportcontrole naar een gegevensbron. Vervolgens voegt u het doellabel voor onsite actie toe aan een doel. In dit geval beperken exportbesturingselementen de gegevenslevering niet omdat de instellingen niet overeenkomen. Als u echter de opdracht [!UICONTROL PII] het exportlabel naar de bestemming wordt geëxporteerd. De exportbesturingselementen blokkeren het exporteren.
 
 >[!IMPORTANT]
 >
@@ -71,7 +70,7 @@ Bovendien moet ten minste één exportlabel overeenkomen met een exportbesturing
    <td colname="col3"> Standaard worden exportbeperkingen niet ingesteld voor nieuwe gegevensbronnen en bestemmingen. </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><span class="uicontrol"> Kan niet worden gekoppeld aan persoonlijk identificeerbare informatie</span></b>  (PII) </td> 
+   <td colname="col1"> <b><span class="uicontrol"> Kan niet koppelen aan persoonlijk identificeerbare gegevens</span></b> (PII) </td> 
    <td colname="col2"> <b><span class="uicontrol"> Deze bestemming kan een combinatie met persoonlijk identificeerbare informatie (PII) toelaten</span></b> </td> 
    <td colname="col3">Wanneer deze optie is geselecteerd, kunt u het volgende niet doen: 
     <ul id="ul_0D5A4D0373374217A4BACDFC3BB2F79D"> 
