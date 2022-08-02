@@ -7,9 +7,9 @@ title: Besturingselementen voor data-export
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: c7a6de018a0ddd782eecec0844c4f5c824431119
+source-git-commit: 26aa0a210a045b40b2329844324315a092947188
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '876'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Bovendien moet ten minste één exportlabel overeenkomen met een exportbesturing
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Kan niet worden gebruikt voor offsite advertenties</span></b> </td> 
    <td colname="col2"> <b><span class="uicontrol"> Deze bestemming kan voor off-site en het richten worden gebruikt</span></b> </td> 
-   <td colname="col3">Deze beperkingen worden over het algemeen gebruikt met Wanneer geselecteerd, kunt u niet: 
+   <td colname="col3">Wanneer deze optie is geselecteerd, kunt u het volgende niet doen: 
     <ul id="ul_B9352FF5282C481BA3A24C581217A156"> 
      <li id="li_0F89583A603D4CD8804724954CFD52C6">Voeg traits aan segmenten toe die aan bestemmingen worden in kaart gebracht die gebruikers op andere plaatsen opnieuw richten. </li> 
      <li id="li_ABDD8BEDE9AF411695C7BDF9AE522BA7">De segmenten van de kaart die met een eigenschap van de gegevensbron aan bestemmingen worden gebouwd die gebruikers op andere plaatsen opnieuw richten. </li> 
