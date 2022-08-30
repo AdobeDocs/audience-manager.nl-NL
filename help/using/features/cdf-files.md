@@ -8,9 +8,9 @@ title: Klantdatafeeds
 uuid: a5de1630-2c7a-4862-9ba0-f8343cdd2782
 feature: Customer Data Feeds
 exl-id: 118c4225-3b57-4a02-ae05-2fcbf3e5d743
-source-git-commit: e85dea581e1e7fee2fce0854dc094ed763df8160
+source-git-commit: 89137248aa47573f5b65e387a152f651419da827
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1989'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,10 @@ De onderstaande secties en de [Veelgestelde vragen over de gegevensfeed van de k
 
 Hiermee worden de gegevenselementen en arrays in een [!UICONTROL CDF] bestand, op volgorde van weergave. Definities omvatten gegevenstypen, maar deze informatie maakt geen deel uit van een [!UICONTROL CDF] bestand.
 
+>[!IMPORTANT]
+>
+>Gebeurtenispixels worden standaard uitgesloten in CDF-configuraties. Zorg ervoor dat u in uw verzoek aan de klantenzorg specificeert als u gebeurtenispixel om in uw CDF- dossiers wilt worden omvat. Elke gebeurtenispixel wordt als een unieke rij in uw CDF-bestanden gevuld.
+
 ## Definities {#definitions}
 
 A [!UICONTROL CDF] bevat enkele of alle velden die hieronder worden gedefinieerd. Voor informatie over interne bestandsorganisatie raadpleegt u [Bestandsstructuur voor klantgegevens](#cdf-file-structure).
@@ -78,7 +82,7 @@ A [!UICONTROL CDF] bevat enkele of alle velden die hieronder worden gedefinieerd
   <tr> 
    <td colname="col1"> <p><code> Container ID</code> </p> </td> 
    <td colname="col2"> <p>Numeriek </p> </td> 
-   <td colname="col3"> <p>De id van de container die de syncs van id's activeert. </p> </td> 
+   <td colname="col3"> <p>De id van de container die de syncs van id's activeert. Dit veld wordt alleen gevuld als u de container-id instelt in het dialoogvenster <i>d_nsid</i> in uw site-implementatie. Anders wordt de standaardwaarde 0 niet opgenomen in CDF-bestanden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> Realized Traits</code> </p> </td> 
