@@ -1,17 +1,17 @@
 ---
 description: Antwoorden op veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken.
 keywords: Organisatie-id
-seo-description: Antwoorden op veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken.
-seo-title: Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken
+seo-description: Answers to common Profile Merge Rule and device graph questions.
+seo-title: Profile Merge Rules and Device Graph FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over regels voor profielsamenvoeging en apparaatgrafieken
 uuid: ba7986f1-078f-4162-aef3-b5c8740cebf4
-feature: Profielsamenvoeging
+feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 85%
+source-wordcount: '1530'
+ht-degree: 82%
 
 ---
 
@@ -31,13 +31,13 @@ Een apparaatgrafiek is een set id-toewijzingen waarmee groepen van anonieme appa
 
 **Wat is een externe apparaatgrafiek?**
 
-Een externe apparaatgrafiek is een apparaatgrafiek in [!DNL Audience Manager] die niet uitsluitend op basis van uw eigen cross-device databronnen is gemaakt. Wanneer u bijvoorbeeld een [regel voor profielsamenvoeging ](../features/profile-merge-rules/merge-rules-start.md) maakt en de opties voor de [!UICONTROL Co-op Device Graph] of de externe apparaatgrafiek selecteert, werkt u met een externe apparaatgrafiek. Zie [Apparaatopties](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Een externe apparaatgrafiek is een apparaatgrafiek in [!DNL Audience Manager] die niet uitsluitend op basis van uw eigen cross-device databronnen is gemaakt. Wanneer u bijvoorbeeld een [Regel voor samenvoegen van profiel](../features/profile-merge-rules/merge-rules-start.md) en kies de grafiekopties voor apparaten van derden, werkt u met een externe apparaatgrafiek. Zie [Apparaatopties](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
 **Wat zijn gangbare gebruiksscenario’s voor het gebruik van een externe apparaatgrafiek in een [!UICONTROL Profile Merge Rule]?**
 
-Het belangrijkste doel van het gebruik van een apparaatgrafiek in een [!UICONTROL Profile Merge Rule] is het evalueren en kwalificeren van meerdere apparaten die tot één persoon of huishouden behoren voor een bepaald segment. Het segment zelf kan op meerdere manieren worden gebruikt: het kan bijvoorbeeld zijn getarget op een doelgroep van prospects met een advertentie die beschikbaar wordt gemaakt door een DSP, of de onsite ervaring van een klant personaliseren via een onsite personalisatieplatform. Zie [Gebruiksscenario’s voor externe apparaatgrafieken](../features/profile-merge-rules/external-graph-use-cases.md).
+Het belangrijkste doel van het gebruik van een apparaatgrafiek in een [!UICONTROL Profile Merge Rule] is het evalueren en kwalificeren van meerdere apparaten die tot één persoon of huishouden behoren voor een bepaald segment. Het segment zelf kan veelvoudige toepassingen bijvoorbeeld hebben, richtend een publiek van vooruitzichten met een advertentie die door een DSP wordt gediend of personaliserend de ervaring van een klant onsite via een onsite verpersoonlijkingsplatform. Zie [Gebruiksscenario’s voor externe apparaatgrafieken](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -265,7 +265,7 @@ Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen v
 
 Om de correcte integratie tussen uw instantie van de Audience Manager en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals Adobe Campaign, zorg ervoor u aan de volgende vereisten voldoet:
 
-1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan de bestemming van de door Adobe Campaign aangegeven id. De regel voor het samenvoegen van profielen moet de optie [!UICONTROL Last Authenticated Profile] gebruiken, zodat alle geverifieerde profielen kunnen worden opgenomen in de exportbewerking. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
+1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan de bestemming van de door Adobe Campaign aangegeven id. De regel voor het samenvoegen van profielen moet de opdracht [!UICONTROL Last Authenticated Profile] zodat alle geverifieerde profielen in de exportbewerking kunnen worden opgenomen. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
 2. Selecteer de gegevensbron voor de Adobe Campaign-declaratie-id in de instellingen voor de regel voor het samenvoegen van profielen.
 
 >[!NOTE]

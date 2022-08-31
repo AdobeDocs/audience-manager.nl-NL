@@ -7,10 +7,10 @@ title: Overzicht van Audience Manager
 uuid: 9334da91-3691-4223-a433-cca35a980a6e
 feature: Overview
 exl-id: e96d8c05-7082-4f17-936d-f1896e665c8e
-source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
+source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 95%
+source-wordcount: '297'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 Met behulp van Audience Manager kunt u de data-assets van uw doelgroep combineren, zodat u eenvoudig commercieel relevante informatie over websitebezoekers kunt verzamelen, verhandelbare segmenten kunt maken en doelgerichte reclame en content aan de juiste doelgroep kunt leveren. Bovendien biedt Audience Manager eenvoudig gebruik en beheer van tags mogelijk met een robuuste dataverzameling, controle en bescherming.
 
-Met Audience Manager bent u niet gebonden aan een dataverkoper, aan data-uitwisseling of een demand-side platform. Bovendien maakt het voor Audience Manager helemaal niets uit als data-assets van onze partners komen. Dankzij de toegang tot meerdere databronnen biedt Audience Manager digitale uitgevers de mogelijkheid om een groot aantal data van derden te gebruiken naast onze privédatavoorraad. Praat met ons Partner Solutions-team over hulp bij het nemen van slimme en nauwkeurige beslissingen over uw doelgroep.
+Met Audience Manager bent u niet gebonden aan een dataverkoper, aan data-uitwisseling of een demand-side platform. Bovendien is de Audience Manager volkomen agnostisch als het gaat om de gegevensmiddelen van onze partners. Met toegang tot meerdere gegevensbronnen biedt Audience Manager digitale uitgevers de mogelijkheid om een groot aantal gegevens van derden te gebruiken. Praat met ons Partner Solutions-team over hulp bij het nemen van slimme en nauwkeurige beslissingen over uw doelgroep.
 
 ## Drie functies van een Data Management Platform (DMP) {#dmp-three-functions}
 
