@@ -8,7 +8,7 @@ title: Actiegerichte logboekbestanden
 uuid: 4c47615f-ed47-41ba-8694-1d7de4f55d62
 feature: Log Files
 exl-id: bd499931-4e02-4f64-82ba-46ef7c4ffd3c
-source-git-commit: 869bbe657072255e5ea3f0e68294f8f0e6cc966a
+source-git-commit: b3f97cfbbd5167f03a6951fcc571368e4a0d15a4
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 2%
@@ -62,7 +62,8 @@ Signalen zijn de [kleinste gegevenseenheden](../../reference/signal-trait-segmen
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] worden ondersteund voor de volgende advertentieservers:
-> 
+> <br>
+>
 > * [Google Campagne Manager](#dcm-logs-signals)
 > * [Google Ad Manager](#ad-manager-logs-signals)
 > * [Adobe Advertising Cloud, Flashtalk en Sizmek](#generic-logs-signals)
@@ -202,13 +203,14 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >
 >De tijdstempel van de gebeurtenis die wordt opgegeven in het dialoogvenster [!DNL Google Ad Manager] de logboeken worden nageleefd en worden doorgegeven aan de [!UICONTROL Data Collection Servers].
 >
+>
 >* Als er geen tijdstempel beschikbaar is voor een gegevensrij in het dialoogvenster [!DNL Google Ad Manager] logbestand, gebruiken we de tijd van `HTTP` aanroepen als tijdstempel voor de gebeurtenis.
 >* Als de gegevens in de [!DNL Google Ad Manager] het logboekdossier bevat misvormde timestamp, wij negeren de volledige rij.
 
 
 <br> 
 
-### Handelbare signalen van Adobe Advertising Cloud-, Flash-talk- en Sizmek- en serverlogboeken {#generic-logs-signals}
+### Handelbare signalen van Adobe Advertising Cloud-, FlashTalk- en Sizmek- en serverlogboeken {#generic-logs-signals}
 
 Eerst moet u uw aanmeldingen bij de advertentieserver deponeren in de Amazon S3-emmers. Hiervoor leest u [Gegevensbestanden voor Audience Optimization-rapporten en uitvoerbare logbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) *en* contact opnemen met [!DNL Audience Manager] consultant. De tabel bevat een lijst met actiemogelijkheden van logbestanden van advertentieservers:
 
