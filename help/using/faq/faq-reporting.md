@@ -1,21 +1,20 @@
 ---
 description: Algemene vragen en problemen in verband met rapportage.
-seo-description: Algemene vragen en problemen in verband met rapportage.
-seo-title: Veelgestelde vragen over rapportage
+seo-description: Common reporting-related questions and issues.
+seo-title: Reporting FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over rapportage
 uuid: 78cd6c86-8a4a-4748-ab71-b6e8d6078c94
 feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
-translation-type: tm+mt
-source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
+source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Veelgestelde vragen over rapportage {#reporting-faq}
+# Veelgestelde vragen over rapportage{#reporting-faq}
 
 Algemene vragen en problemen in verband met rapportage.
 
@@ -46,7 +45,7 @@ Om de hoeveelheid berekeningen te verminderen worden in deze rapporten statistis
 
 **Als ik een e-mailmarketingcampagne voer, hoe kan ik dan bepalen of omgeleide gebruikers naar mijn website komen vanuit die campagne of vanuit andere bronnen?**
 
-Voeg een campagnespecifieke querytekenreeks toe aan de URL van het websitegedeelte dat u wilt controleren. Stel vervolgens een eigenschapregel in om deze variabele vast te leggen. Als uw URL bijvoorbeeld op deze manier langskomt in een campagne-id: `www.test123.com/electronics?campaign=123`, maak dan een eigenschapregel om deze data vast te leggen van de `h_referer`-variabele met een eigenschapregel die zoekt naar een kop als `h_referer = 'campaign=123'`).
+Voeg een campagnespecifieke querytekenreeks toe aan de URL van het websitegedeelte dat u wilt controleren. Stel vervolgens een eigenschapregel in om deze variabele vast te leggen. Als uw URL bijvoorbeeld op deze manier langskomt in een campagne-id: `www.test123.com/electronics?campaign=123`, maak dan een eigenschapregel om deze data vast te leggen van de `h_referer`-variabele met een eigenschapregel die zoekt naar een kop als `h_referer = 'campaign=123'`.
 
 <br> 
 
