@@ -1,22 +1,18 @@
 ---
-description: In dit artikel wordt beschreven hoe publiek wordt gedeeld tussen Audience Manager en Adobe Experience Platform
+description: Leer hoe u gegevensdeling inschakelt en hoe publiek wordt gedeeld tussen Audience Manager en Adobe Experience Platform
 solution: Audience Manager
 title: Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen
 keywords: AEP-publieksdeling, AEP-segmenten, Platform-segmenten, segmentdeling, publiek delen, deelsegmenten AAM AEP-segmentdeling
 feature: Platform Integration
 exl-id: 46ad306f-3e87-4731-8ba0-cfafefa616fc
-source-git-commit: 8bee593d0359f87f030840f87d70025dd5ea33ed
+source-git-commit: 14e0ddd00d3a25674090ea9dbe485c77ad1d2aed
 workflow-type: tm+mt
-source-wordcount: '1516'
-ht-degree: 1%
+source-wordcount: '1862'
+ht-degree: 0%
 
 ---
 
 # Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen
-
->[!NOTE]
->
-> Neem contact op met uw Adobe-verkoper om de toegang tot deze functie te ontgrendelen.
 
 ## Overzicht {#overview}
 
@@ -45,13 +41,39 @@ Zie de onderstaande tabel voor een overzicht van de gebruikte gevallen voor het 
 
 {style=&quot;table-layout:auto&quot;}
 
+## Ga aan de slag - Hoe kan ik het delen van gegevens tussen Audience Manager en Experience Platform inschakelen? {#enable-data-sharing-aam-aep}
+
+De twee onderstaande secties geven aan hoe u gegevensuitwisseling tussen Audience Manager en Experience Platform kunt inschakelen.
+
+### Gegevens delen van Audience Manager naar Experience Platform inschakelen {#enable-aam-to-aep-data}
+
+Als u segmenten en traits van Audience Manager naar Experience Platform wilt verzenden, moet u de Audience Manager-bronconnector in de catalogus met bronnen in het Experience Platform instellen. Dit is een workflow voor zelfbediening waarvoor geen betrokkenheid van Adobe Customer Care- of engineeringteams vereist is. U kunt als volgt de bronaansluiting van de Audience Manager instellen:
+
+* [Bron Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+* [Een Adobe Audience Manager-bronverbinding maken in de gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+
+>[!IMPORTANT]
+>
+>Adobe moedigt klanten aan de verbinding te configureren zonder de **[!UICONTROL Select all segments]** en **[!UICONTROL Select all traits]** zoals hieronder weergegeven. De inname van grote populaties in het Audience Manager segment heeft een directe invloed op uw totale aantal profielen wanneer u eerst een segment van de Audience Manager naar het Platform verzendt gebruikend de bron van de Audience Manager. Dit betekent dat het selecteren van alle segmenten kan leiden tot een aantal profielen dat groter is dan uw gebruiksrechten voor licenties.
+>
+>![Schermafbeelding met de optie Alle segmenten selecteren en alle opties voor kenmerken selecteren die zijn uitgeschakeld in de workflow om verbinding te maken met de bronaansluiting van de Audience Manager.](/help/using/integration/integration-aep/assets/select-all-segments-traits-unchecked.png)
+
+### Gegevens delen van Experience Platform naar Audience Manager inschakelen {#enable-aep-to-aam-data}
+
+>[!NOTE]
+>
+> Neem contact op met uw Adobe Customer Success Manager of de klantenservice om de toegang tot deze functionaliteit te ontgrendelen.
+
+Als u segmenten van Experience Platform naar Audience Manager wilt verzenden, dient u contact op te nemen met de klantenservice of met de succesmanager van de klant. De teams van het Beheer van de Zorg van de Klant en van de Steun van de Klant moeten een kaartje (zie malplaatjekaartje AAM-52354) indienen om de verbinding van Platform aan Audience Manager toe te laten.
+
+Ben zeker om plannen voor de gegevens te delen die van Platform aan Audience Manager gaan, om ervoor te zorgen dat de verbinding correct opstelling is. Als u bijvoorbeeld regionale gegevens wilt delen voor segmenten die naar Adobe Target worden verzonden, moet deze informatie in het ticket worden vermeld. De verbinding voor het delen van gegevens van Experience Platform naar Audience Manager wordt ingesteld binnen zes werkdagen na de indiening van het verzoek.
+
 ## Audience Managers en kenmerken in Adobe Experience Platform {#aam-segments-traits-in-aep}
 
-De eigenschappen en segmenten van uw Audience Manager worden in het Experience Platform weergegeven als **Soorten publiek** in de segmentworkflow. Voor meer informatie over uw segmenten en de eigenschappen van de Audience Manager in Experience Platform, zie:
+Nadat u de Audience Manager-bronaansluiting hebt ingesteld om kenmerken en segmenten uit Audience Manager te importeren, worden uw Audience Managers in Experience Platform weergegeven als **Soorten publiek** in de segmentworkflow. Lees voor meer informatie over de segmenten en eigenschappen van uw Audience Manager in het Experience Platform:
 
 * [Overzicht van segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
 * [Gebruikershandleiding voor Experience Platform Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
-* [Audience Manager Connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
 
 ## Adobe Experience Platform-segmenten in Audience Manager {#aep-segments-in-aam}
 
