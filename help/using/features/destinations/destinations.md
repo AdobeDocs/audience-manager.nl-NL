@@ -1,17 +1,18 @@
 ---
-description: Ontdek de voordelen, de types, en het gebruik van bestemmingen - om het even welk derdesysteem, zoals een advertentieserver of DSP, waar u gegevens deelt. De Bouwer van de Bestemming van het gebruik om koekjes, URL, of server-aan-server bestemmingen tot stand te brengen en te beheren.
+description: Ontdek de voordelen, de types en het gebruik van bestemmingen - elk systeem van derden, zoals een advertentieserver of DSP, waar u gegevens deelt. Gebruik Destination Builder om cookies, URL- of server-naar-server-bestemmingen te maken en beheren.
 keywords: integratiecode, doel, bestemmingsoverzicht, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming, bestemming
-landing-page-description: Ontdek de voordelen, de types, en het gebruik van bestemmingen - om het even welk derdesysteem, zoals een advertentieserver of DSP, waar u gegevens deelt. De Bouwer van de Bestemming van het gebruik om koekjes, URL, of server-aan-server bestemmingen tot stand te brengen en te beheren.
+landing-page-description: Ontdek de voordelen, de types en het gebruik van bestemmingen - elk systeem van derden, zoals een advertentieserver of DSP, waar u gegevens deelt. Gebruik Destination Builder om cookies, URL- of server-naar-server-bestemmingen te maken en beheren.
+short-description: Discover the advantages, types, and uses of destinations – any third-party system, such as an ad server or DSP, where you share data. Use Destination Builder to create and manage cookies, URL, or server-to-server destinations.
 seo-title: Destinations
 solution: Audience Manager
-title: 'Bestemmingen '
+title: Bestemmingen
 uuid: 5c7dbdec-f73f-46fe-9f12-7685e8d7334f
 feature: Destination Basics
 exl-id: f880bb18-057a-494d-82bf-69fc9f34781f
-source-git-commit: 865800eb076811db38aec8e98714ad9712804f77
+source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
