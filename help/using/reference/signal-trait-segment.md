@@ -1,7 +1,7 @@
 ---
 description: Leer over de componenten van een segment en de expressies die worden gebruikt om de kwalificatiecriteria van de doelgroep in te stellen. Meer informatie over de manier waarop gegevens worden verzonden.
 landing-page-description: Leer over de componenten van een segment en de expressies die worden gebruikt om de kwalificatiecriteria van de doelgroep in te stellen. Meer informatie over de manier waarop gegevens worden verzonden.
-short-description: Learn about the components of a segment and the expressions used to set audience qualification criteria. Also find information about how data is transmitted.
+short-description: Leer over de componenten van een segment en de expressies die worden gebruikt om de kwalificatiecriteria van de doelgroep in te stellen. Meer informatie over de manier waarop gegevens worden verzonden.
 seo-title: Signals, Traits, and Segments
 solution: Audience Manager
 title: Signalen, eigenschappen en segmenten
@@ -10,8 +10,8 @@ feature: Reference
 exl-id: ec33f2c3-1589-4c02-a85a-db0d72467f32
 source-git-commit: 5d62ecabfe66faa024f8e89149e47dd76d1bba86
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
