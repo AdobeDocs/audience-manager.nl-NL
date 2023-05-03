@@ -1,5 +1,5 @@
 ---
-description: Gebeurtenisaanroepen verzenden informatie naar de DCS in een URL-tekenreeks. In een gebruikelijke implementatie van Audience Managers gebruiken klanten onze JavaScript-code voor gegevensverzameling (DIL) om gegevens naar de DCS te verzenden. Soms kunnen klanten echter onze JavaScript-code niet op hun pagina's plaatsen. Als het bedrijfsbeleid of andere technische problemen u verhinderen onze code JavaScript op uw pagina's te plaatsen, kunt u nog met Audience Manager werken om gegevens van DCS met deze gebeurtenisvraag APIs te verzenden en terug te keren.
+description: Gebeurtenisoproepen verzenden informatie naar de DCS in een URL-tekenreeks. In een gebruikelijke implementatie van Audience Manager gebruiken klanten onze JavaScript-code voor gegevensverzameling (DIL) om gegevens naar de DCS te verzenden. Soms kunnen klanten onze JavaScript-code echter niet op hun pagina's plaatsen. Als het bedrijfsbeleid of andere technische problemen u verhinderen onze JavaScript-code op uw pagina's te plaatsen, kunt u nog steeds met Audience Manager werken om gegevens van DCS met deze gebeurtenisoproep API's te verzenden en te retourneren.
 seo-description: Event calls send information to the DCS in a URL string. In a typical Audience Manager deployment, customers use our JavaScript data collection code (DIL) to send data to the DCS. However, sometimes customers cannot put our JavaScript code on their pages. If company policies or other technical issues prevent you from placing our JavaScript code on your pages, you can still work with Audience Manager to send and return data from DCS with these event call APIs.
 seo-title: DCS Event Call APIs
 solution: Audience Manager
@@ -10,7 +10,7 @@ exl-id: 7eb0ce70-5871-441a-920a-97a711482dde
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 9%
+ht-degree: 43%
 
 ---
 
