@@ -1,32 +1,31 @@
 ---
 description: Genereer een factureringsrapport voor Audience Marketplace om het gebruik van de gegevensinvoer voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
-seo-description: Genereer een factureringsrapport voor Audience Marketplace om het gebruik van de gegevensinvoer voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
-seo-title: Facturering voor datafeedproviders
+seo-description: Generate an Audience Marketplace billing report to view data feed usage for the previous month for each of your subscribers. You can create a report for the previous month at any time. However, the report is more accurate when you generate it on or after the 10th day of the current month.
+seo-title: Billing for Data Feed Providers
 solution: Audience Manager
 title: Facturering voor datafeedproviders
 uuid: 4e11dbd2-91fd-4b59-a66d-86a92e0de655
 feature: Audience Marketplace
 exl-id: aca2cec1-d3a0-421c-83ca-1c11e9e7d4c7
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 4%
+source-wordcount: '396'
+ht-degree: 3%
 
 ---
 
 # Facturering voor datafeedproviders {#billing-for-data-feed-providers}
 
-Genereer een factureringsrapport [!DNL Audience Marketplace] om het gebruik van de gegevensinvoer voor de vorige maand voor elk van uw abonnees te bekijken. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
+Een [!DNL Audience Marketplace] factureringsrapport voor het bekijken van het gebruik van gegevensinvoer voor de vorige maand voor elk van uw abonnees. U kunt op elk gewenst moment een rapport voor de vorige maand maken. Het rapport is echter nauwkeuriger wanneer u het genereert op of na de tiende dag van de huidige maand.
 
-## Factuurrapport {#download-billing-report} downloaden
+## Factuurrapport downloaden {#download-billing-report}
 
 Een rapport downloaden:
 
 1. Ga naar **[!UICONTROL Audience Marketplace > Receivables]**.
 1. Klik op **[!UICONTROL Generate Billing Report]**.
 
-## Gedefinieerde velden {#report-fields-defined} rapporteren
+## Gedefinieerde velden rapporteren {#report-fields-defined}
 
 Een factureringsrapport bevat de volgende informatie.
 
@@ -40,7 +39,7 @@ Een factureringsrapport bevat de volgende informatie.
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> PID gegevensaanbieder</span></b> </p> </td> 
-   <td colname="col2"> <p>Uw <span class="keyword"> Audience Manager</span> gegevensleverancier-id. </p> </td> 
+   <td colname="col2"> <p>Uw <span class="keyword"> Audience Manager</span> ID gegevensaanbieder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Naam gegevensaanbieder</span></b> </p> </td> 
@@ -81,7 +80,7 @@ Een factureringsrapport bevat de volgende informatie.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Korte prijs</span></b> </p> </td> 
-   <td colname="col2"> <p>De abonnementskosten voor een gedisconteerde gegevensfeed. Zie <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Kortingen voor Leveranciers van Gegevens</a>. </p> </td> 
+   <td colname="col2"> <p>De abonnementskosten voor een gedisconteerde gegevensfeed. Zie <a href="../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts"> Kortingen voor gegevensleveranciers</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Eenheden</span></b> </p> </td> 
@@ -93,7 +92,7 @@ Een factureringsrapport bevat de volgende informatie.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Totale kosten</span></b> </p> </td> 
-   <td colname="col2"> <p>Het bedrag <span class="keyword"> Audience Manager</span> factureert een koper. </p> </td> 
+   <td colname="col2"> <p>Het bedrag <span class="keyword"> Audience Manager</span> betaalt een koper. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Factureringsperiode</span></b> </p> </td> 
@@ -113,10 +112,10 @@ Een factureringsrapport bevat de volgende informatie.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><span class="uicontrol"> Markering</span></b> </p> </td> 
-   <td colname="col2"> <p> <i>Alleen</i> voor CPM-feeds. De vlagopties omvatten: </p> 
+   <td colname="col2"> <p> <i>Alleen voor CPM-feeds</i>. De vlagopties omvatten: </p> 
     <ul id="ul_509BC73B754A43299F8D719AB0805ABD"> 
      <li id="li_AB35E33B68EC49A187495DF6B9D86563">0: Geeft aan dat een abonnee gebruiksgegevens heeft gerapporteerd aan <span class="keyword"> Audience Manager</span>. </li> 
-     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Geeft aan dat een abonnee geen gebruiksinformatie heeft gerapporteerd aan <span class="keyword"> Audience Manager</span>. </li> 
+     <li id="li_2E4871B127A84EC586A9F3659F52D67E">1: Geeft aan dat een abonnee geen gebruiksgegevens heeft gerapporteerd aan <span class="keyword"> Audience Manager</span>. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

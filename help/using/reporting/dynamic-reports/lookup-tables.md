@@ -1,16 +1,15 @@
 ---
 description: Plaats gegevens in het rapport van de Prestaties van de Levering logboekdossiers in lijsten die slechts IDs bevatten. Plaats niet-id-metagegevens in aparte opzoektabellen om de bestandsgrootte en de verwerkingstijd te beperken.
-seo-description: Plaats gegevens in het rapport van de Prestaties van de Levering logboekdossiers in lijsten die slechts IDs bevatten. Plaats niet-id-metagegevens in aparte opzoektabellen om de bestandsgrootte en de verwerkingstijd te beperken.
-seo-title: Verwerkingstijd logboekbestanden verbeteren met opzoektabellen
+seo-description: Put data in Delivery Performance report log files into tables that contain IDs only. Put non-ID metadata in separate lookup tables to help reduce file size and processing times.
+seo-title: Improve Log File Processing Times with Lookup Tables
 solution: Audience Manager
 title: Verwerkingstijd logboekbestanden verbeteren met opzoektabellen
 uuid: ffc77618-474b-455e-9c91-15b32fc151a5
 feature: Reporting Reference
 exl-id: bab51406-21e9-4033-90d4-6100daf6a311
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '464'
 ht-degree: 13%
 
 ---
@@ -27,11 +26,11 @@ c_lookup_tables.xml
 
 ## Metagegevens logbestand vergroten bestandsgrootte en verwerkingstijd
 
-Een logbestand dat gewoonlijk door het rapport [!UICONTROL Delivery Performance] wordt gebruikt, bevat doorgaans duizenden rijen en tientallen kolommen. Het bestaat uit numerieke id&#39;s en door mensen leesbare informatie, zoals namen voor creatieve personen, adverteerders, invoegorders, enz.
+Een logbestand dat gewoonlijk door de [!UICONTROL Delivery Performance] het rapport bevat gewoonlijk duizenden rijen en tientallen kolommen. Het bestaat uit numerieke id&#39;s en door mensen leesbare informatie, zoals namen voor creatieve personen, adverteerders, invoegorders, enz.
 
-Deze niet-ID-informatie wordt *`metadata`* (d.w.z. informatie over andere informatie) genoemd en wordt in elke rij van het logbestand geschreven.
+Deze niet-ID-informatie wordt *`metadata`* (d.w.z., informatie over andere informatie) en wordt geschreven in elke rij van het logboekdossier.
 
-Het [!UICONTROL Delivery Performance]-rapport werkt echter vooral met de id&#39;s in het logbestand. De metagegevens zijn nuttig, maar herhaaldelijk. Hierdoor neemt de bestandsgrootte en de tijd die nodig is om gegevens in te voeren toe.
+De [!UICONTROL Delivery Performance] het rapport werkt hoofdzakelijk met IDs in het logboekdossier. De metagegevens zijn nuttig, maar herhaaldelijk. Hierdoor neemt de bestandsgrootte en de tijd die nodig is om gegevens in te voeren toe.
 
 ## Bestandsgrootte reduceren en verwerkingstijd verkorten met indextabellen
 
@@ -55,13 +54,13 @@ Hier is hetzelfde logbestand met de verwijderde metagegevens. Het bestand is kle
 
 | Gebruikers-id | ID advertentie | Order-id | Adverteerder-id |
 |---|---|---|---|
-| 3 | 111 | 456 | 27 |
-| 2 | 111 | 456 | 27 |
 | 1 | 111 | 456 | 27 |
+| 2 | 111 | 456 | 27 |
+| 3 | 111 | 456 | 27 |
 | 4 | 222 | 789 | 14 |
 | 5 | 222 | 789 | 14 |
 
-<br> 
+<br>
 
 Het opzoekbestand hieronder bevat de metagegevens en kan met de advertentie-id worden gekoppeld aan het hoofdbestand. Let ook op de grootte. In plaats van elke adverteerder meerdere keren te herhalen, hebt u slechts één referentie voor elke advertentie nodig.
 

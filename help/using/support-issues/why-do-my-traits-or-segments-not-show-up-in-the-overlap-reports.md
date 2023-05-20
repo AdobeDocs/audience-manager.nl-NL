@@ -1,15 +1,15 @@
 ---
 description: Uitleg waarom eigenschappen en segmenten niet worden weergegeven op de pagina Overlaprapporten.
-seo-description: Uitleg waarom eigenschappen en segmenten niet worden weergegeven op de pagina Overlaprapporten.
-seo-title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
+seo-description: Explanation for why traits and segments might not show up in the Overlap Reports page.
+seo-title: Why do my traits or segments not show up in the Overlap Reports page?
 solution: Audience Manager
 title: Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?
-feature: Ondersteuning
+feature: Support
 exl-id: 8341ee38-fc46-4a4b-9c9e-4ce2edb9a2fb
 source-git-commit: 2643bebea8618124d5c96906e8dc89e21024d51a
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 99%
+source-wordcount: '136'
+ht-degree: 100%
 
 ---
 

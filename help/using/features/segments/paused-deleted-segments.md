@@ -1,19 +1,18 @@
 ---
 description: Beschrijft de gevolgen op gesegmenteerde gebruikers, gegevens, en bestemmingen wanneer u pauzeert of een actief segment schrapt gebruikend de Bouwer van het Segment.
-seo-description: Beschrijft de gevolgen op gesegmenteerde gebruikers, gegevens, en bestemmingen wanneer u pauzeert of een actief segment schrapt gebruikend de Bouwer van het Segment.
-seo-title: Gepauzeerde en verwijderde segmenten
+seo-description: Describes the effects on segmented users, data, and destinations when you pause or delete an active segment using Segment Builder.
+seo-title: Paused and Deleted Segments
 solution: Audience Manager
 title: Gepauzeerde en verwijderde segmenten
 uuid: 88efe4af-f9a4-4bce-920a-352bd4d505dd
 feature: Segments
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 5%
+source-wordcount: '187'
+ht-degree: 4%
 
 ---
-
 
 # Gepauzeerde en verwijderde segmenten {#paused-and-deleted-segments}
 
@@ -21,7 +20,7 @@ Beschrijft de gevolgen op gesegmenteerde gebruikers, gegevens, en bestemmingen w
 
 ## Toegang tot de besturingselementen Pauzeren en Verwijderen
 
-Houd de muisaanwijzer boven een segmentnaam in de lijst met segmenten om de pictogrammen **[!UICONTROL pause]** en **[!UICONTROL delete]** (in de kolom [!UICONTROL Actions]) weer te geven. Deze functies zijn van invloed op segmenten zoals hieronder wordt beschreven.
+Houd de muisaanwijzer boven een segmentnaam in de lijst met segmenten om de **[!UICONTROL pause]** en **[!UICONTROL delete]** pictogrammen (in de [!UICONTROL Actions] kolom). Deze functies zijn van invloed op segmenten zoals hieronder wordt beschreven.
 
 ## Functionaliteit gepauzeerd segment
 
@@ -46,4 +45,4 @@ Een verwijderd segment:
 
 >[!NOTE]
 >
->U kunt segmenten ook pauzeren en verwijderen met een methode [!DNL API]. Zie [REST API&#39;s](../../api/rest-api-main/rest-api-main.md) voor meer informatie.
+>U kunt segmenten ook pauzeren en verwijderen met behulp van een [!DNL API] methode. Zie voor meer informatie [REST API&#39;s](../../api/rest-api-main/rest-api-main.md).

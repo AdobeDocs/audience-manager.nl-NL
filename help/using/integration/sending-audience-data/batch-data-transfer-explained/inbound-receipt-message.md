@@ -1,23 +1,22 @@
 ---
 description: Wanneer een binnenkomend server-aan-server dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner.
-seo-description: Wanneer een binnenkomend server-aan-server dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner.
-seo-title: Voorbeeldbericht aan partners na verwerking van binnenkomende data
+seo-description: Whenever an inbound Server-to-Server file is processed, a receipt is sent via email to partner solutions and, if configured, to the partner.
+seo-title: Sample Message to Partners after Inbound Processing
 solution: Audience Manager
 title: Voorbeeldbericht aan partners na verwerking van binnenkomende data
 uuid: 69e3a8b3-8465-4f4c-8005-8a9ff15ae19a
 feature: Inbound Data Transfers
 exl-id: acfc788f-63e6-445f-a086-0a2cc6c8865b
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 3%
+source-wordcount: '632'
+ht-degree: 2%
 
 ---
 
 # Voorbeeldbericht aan partners na verwerking van binnenkomende data{#sample-message-to-partners-after-inbound-processing}
 
-Wanneer een binnenkomend [!UICONTROL Server-to-Server] dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner.
+Wanneer een binnenkomend [!UICONTROL Server-to-Server] het dossier wordt verwerkt, wordt een ontvangstbewijs verzonden via e-mail naar partneroplossingen en, indien gevormd, naar de partner.
 
 <!-- r_inbound_message.xml -->
 
@@ -26,7 +25,7 @@ In het volgende voorbeeld ziet u een voorbeeld van een e-mailbericht. In de tabe
 <table id="table_F579C2278A044213BFCEF97F3BEC2C0C"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>Van: aam-noreply@adobe.com  </b> </p> <p> <b>Betreft: Adobe Audience Manager Server-naar-server verwerkingsresultaat:</b> </p> <p> <b>Beste partner van Adobe: (ID:7)</b> <b></b> </p> <p> <b>We hebben de levering van Adobe Audience Manager Server-naar-server-bestanden ontvangen</b> </p> <p> <b>Bestandsnaam:</b> <i></i> </p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b><i> </i></p> <p> <b> s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync  </b><i> </i></p> <p> <b>s3n://&lt;&gt;bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b><i> </i></p> <p> <b>Ontvangen records: 40669900</b> </p> <p><b>Opmaakfouten: 0</b> </p> <p> <b>Ongeldige AAM-id: 112  </b> </p> <p> <b>Geen overeenkomende AAM-id: 0  </b> </p> <p> <b>Geen spoor gerealiseerd: 26730823  </b> </p> <p> <b>Verwerkte records: 40669900  </b> </p> <p> <b>Opgeslagen records: 13938958  </b> </p> <p> <b>Totaal aantal apparaten: 21  </b> </p> <p> <b>Totaal aantal signalen: 918878926  </b> </p> <p> <b>Totaal aantal ongebruikte signalen: 660348376  </b> </p> <p> <b>Totaal gerealiseerde kenmerken: 258086908  </b> </p> <p> <b>Totaal aantal verwijderde kenmerken: 0  </b> </p> <p> <b>Validatie van alle kenmerken is mislukt: 0  </b> </p> <p> <b>Totaal aantal gebruikers met eigenschappen die niet zijn gevalideerd: 0  </b> </p> <p> <b>Begintijd taak: 2018-05-17 18:07:49  </b> </p> <p> <b>Eindtijd taak: 2018-05-17 18:45:02</b> </p> </td> 
+   <td colname="col1"> <p> <b>Van: aam-noreply@adobe.com </b> </p> <p> <b>Betreft: Adobe Audience Manager Server-naar-server verwerkingsresultaat:</b> </p> <p> <b>Beste partner van Adobe: (ID:7)</b> <b></b> </p> <p> <b>We hebben de levering van Adobe Audience Manager Server-naar-server-bestanden ontvangen</b> </p> <p> <b>Bestandsnaam:</b> <i></i> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806402.sync</b> </p> <p> <b> s3n://&lt;<i>bucket_name&gt;</i>/2018-05-16/ftp_dpm_7_901_1368655202.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784804.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806403.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784802.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368784803.sync </b> </p> <p> <b>s3n://&lt;<i>bucket_name&gt;</i>/2018-05-17/ftp_dpm_7_901_1368806404.sync</b> </p> <p> <b>Ontvangen records: 40669900</b> </p> <p><b>Opmaakfouten: 0</b> </p> <p> <b>Ongeldige AAM-id: 112 </b> </p> <p> <b>Geen overeenkomende AAM-id: 0 </b> </p> <p> <b>Geen spoor gerealiseerd: 26730823 </b> </p> <p> <b>Verwerkte records: 40669900 </b> </p> <p> <b>Opgeslagen records: 13938958 </b> </p> <p> <b>Totaal aantal apparaten: 21 </b> </p> <p> <b>Totaal aantal signalen: 918878926 </b> </p> <p> <b>Totaal aantal ongebruikte signalen: 660348376 </b> </p> <p> <b>Totaal gerealiseerde kenmerken: 258086908 </b> </p> <p> <b>Totaal aantal verwijderde kenmerken: 0 </b> </p> <p> <b>Validatie van alle kenmerken is mislukt: 0 </b> </p> <p> <b>Totaal aantal gebruikers met eigenschappen die niet zijn gevalideerd: 0 </b> </p> <p> <b>Begintijd taak: 2018-05-17 18:07:49 </b> </p> <p> <b>Eindtijd taak: 2018-05-17 18:45:02</b> </p> </td> 
   </tr> 
  </tbody> 
 </table>

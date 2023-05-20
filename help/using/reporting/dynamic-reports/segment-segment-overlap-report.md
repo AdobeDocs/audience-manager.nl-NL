@@ -1,16 +1,15 @@
 ---
 description: Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen uw segmenten.
-seo-description: Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen uw segmenten.
-seo-title: Overlaprapport Segment-naar-segment
+seo-description: Returns data on how many unique users are shared between your segments.
+seo-title: Segment-to-Segment Overlap Report
 solution: Audience Manager
 title: Overlaprapport Segment-naar-segment
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 feature: Overlap Reports
 exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '360'
 ht-degree: 10%
 
 ---
@@ -21,7 +20,7 @@ Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen 
 
 >[!NOTE]
 >
->De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op [RBAC Gebruikersgroep](/help/using/features/administration/administration-overview.md) die u tot behoort.
+>De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten van gegevensbronnen slechts zien die u toegang hebt tot gebaseerd op [RBAC-gebruikersgroep](/help/using/features/administration/administration-overview.md) dat u tot behoort.
 
 <!-- 
 
@@ -31,18 +30,18 @@ c_segment_segment_overlap.xml
 
 ## Overzicht
 
-Het [!UICONTROL Segment-to-Segment Overlap] rapport kan u helpen:
+De [!UICONTROL Segment-to-Segment Overlap] het rapport kan u helpen:
 
 * Identificeer segmenten met hoge of lage overlapping, afhankelijk van uw behoeften. Traits met hoge overlap geven u een doelgroep, maar minder unieke bezoekers. Traits met een lage overlapping kunnen nuttig zijn om een grotere, unieke bezoekersset te bereiken.
 * Vind onverwachte overlapping en gebruik die informatie om nieuwe, krachtige segmenten te bouwen.
 
 ## Voorbeeldrapport
 
-De volgende illustratie verstrekt een overzicht op hoog niveau van het [!UICONTROL Segment-to-Segment Overlap] rapport.
+De volgende illustratie biedt een overzicht op hoog niveau van de [!UICONTROL Segment-to-Segment Overlap] verslag.
 
 >[!NOTE]
 >
->Het [!UICONTROL Segment-to-Segment Overlap] rapport keert een leeg gebied terug wanneer het het zelfde segment aan zich vergelijkt.
+>De [!UICONTROL Segment-to-Segment Overlap] het rapport keert een leeg gebied terug wanneer het het zelfde segment aan zich vergelijkt.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -50,7 +49,7 @@ De volgende illustratie verstrekt een overzicht op hoog niveau van het [!UICONTR
 
 Selecteer een afzonderlijk punt om de gegevensdetails in een pop-upvenster weer te geven. Uw klikacties werken automatisch gegevens bij die in het rapport worden getoond.
 
-## Segment-aan-Segment overlappende Pop Gedefinieerde Gebieden van Gegevens {#fields-defined}
+## Gedefinieerde velden van gegevenspop-item-overlap {#fields-defined}
 
 <!-- 
 
@@ -58,7 +57,7 @@ r_s2s_data_pop.xml
 
  -->
 
-De pop-up voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hieronder metriek. Merk op dat uniques metrisch in de lijst uw *real-time gebruikers* vertegenwoordigt.
+De pop-up voor de [!UICONTROL Segment-to-Segment Overlap] rapport bevat de onderstaande meetgegevens. Merk op dat de unieke metrische waarde in de tabel uw *realtime gebruikers*.
 
 | Metrisch | Beschrijving |
 |---|---|

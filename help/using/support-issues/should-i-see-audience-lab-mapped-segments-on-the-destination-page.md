@@ -1,16 +1,15 @@
 ---
 description: Waarom in Audience Lab toegewezen segmenten niet op de pagina met bestemmingsdetails worden getoond.
-seo-description: Waarom in Audience Lab toegewezen segmenten niet op de pagina met bestemmingsdetails worden getoond.
-seo-title: Waarom in Audience Lab toegewezen segmenten niet op de pagina met bestemmingsdetails worden getoond.
+seo-description: Why Audience Lab mapped segments will not show up on the destination details page.
+seo-title: Why Audience Lab mapped segments will not show up on the destination details page.
 solution: Audience Manager
 title: Zou ik mijn in Audience Lab toegewezen segmenten moeten zien op de pagina met bestemmingsdetails?
 feature: Support
 exl-id: 7f35b824-7acd-415f-92a9-62c2a3d08526
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 99%
+source-wordcount: '141'
+ht-degree: 100%
 
 ---
 

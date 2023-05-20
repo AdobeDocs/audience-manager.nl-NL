@@ -1,23 +1,23 @@
 ---
 description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
-seo-description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
-seo-title: Rapportage in Predictieve doelgroepen
+seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-title: Predictive Audiences Reporting
 solution: Audience Manager
 title: Rapportage in Predictieve doelgroepen
 feature: Algorithmic Models
 exl-id: 43a4272c-d9be-47f6-9b81-15472b0366ab
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 6%
+source-wordcount: '609'
+ht-degree: 3%
 
 ---
 
 # Rapportage in Predictieve doelgroepen
 
-Nadat u een [!UICONTROL Predictive Audiences] model opslaat, begint de Audience Manager het te trainen. Binnen een paar uren, zal het berekende model beginnen publiek op [de Servers van de Inzameling van Gegevens](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs) te analyseren. Rapportage is de volgende dag beschikbaar.
+Nadat u een [!UICONTROL Predictive Audiences] model, Audience Manager begint het te trainen. Binnen een paar uur zal het berekende model het publiek analyseren op de [Gegevensverzamelingsservers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Rapportage is de volgende dag beschikbaar.
 
-Als u de resultaten van uw [!UICONTROL Predictive Audiences]-classificatie wilt bekijken, gaat u naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klikt u op uw model in de lijst.
+Als u de resultaten van uw [!UICONTROL Predictive Audiences] classificatie, ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klik op het model in de lijst.
 
 Gebruik de filteropties aan de linkerkant om naar de modelnaam te zoeken of de resultaten te filteren op basis van het modeltype.
 
@@ -28,7 +28,7 @@ De modellenlijst toont u de volgende informatie:
 * **[!UICONTROL ID]**: de model-id identificeert elk model op unieke wijze in uw Audience Manager-account;
 * **[!UICONTROL Name]**: de naam die u hebt opgegeven in de stap voor het maken van het model;
 * **[!UICONTROL Description]**: de beschrijving die u hebt opgegeven in de stap voor het maken van het model;
-* **[!UICONTROL Model Type]**: het type van elk model ([!UICONTROL Look-Alike Modeling] of  [!UICONTROL Predictive Audiences]);
+* **[!UICONTROL Model Type]**: het type van elk model ([!UICONTROL Look-Alike Modeling] of [!UICONTROL Predictive Audiences]);
 * **[!UICONTROL Status]**: de status van elk model:
    * **[!UICONTROL Pending]**: het model wordt geïnitialiseerd en zal binnenkort resultaten opleveren ;
    * **[!UICONTROL Active]**: het model functioneert met succes en levert resultaten op;
@@ -37,23 +37,23 @@ De modellenlijst toont u de volgende informatie:
 
 ## Rapport modeloverzicht{#model-report}
 
-Wanneer u een model hebt gekozen, wordt de rapportpagina geladen. Bovenaan op de pagina ziet u de bovenste 5 grootste voorspellende segmenten, gebaseerd op één dag realtime realisatie, waarop het model uw doelpubliek heeft geclassificeerd. De categorie **[!UICONTROL Other]** omvat de overige personen, die niet in de bovenste vijf grootste voorspellende segmenten waren opgenomen.
+Wanneer u een model hebt gekozen, wordt de rapportpagina geladen. Bovenaan op de pagina ziet u de bovenste 5 grootste voorspellende segmenten, gebaseerd op één dag realtime realisatie, waarop het model uw doelpubliek heeft geclassificeerd. De **[!UICONTROL Other]** de categorie omvat de overige personen , die niet in de vijf grootste voorspellende segmenten waren opgenomen .
 
-Audience Manager geeft zowel een kleurengecodeerde donutgrafiek als een tijdlijngrafiek voor uw [!UICONTROL Predictive Audiences] weer.
+Audience Manager geeft zowel een kleurgecodeerde donutgrafiek als een tijdlijngrafiek voor uw [!UICONTROL Predictive Audiences].
 
 Als u op de tabbladen met personen boven aan de pagina klikt, worden deze aan het diagram en de grafiek toegevoegd of eruit verwijderd.
 
 Het donut-diagram toont u een op persoon-gebaseerde uitsplitsing van uw doelpubliek, terwijl de grafiek u de 1 dag in real time bevolkingstrend van uw voorspellende segmenten in de afgelopen 6 dagen toont.
 
-Als de modelstatus [!UICONTROL Pending], [!UICONTROL Warning], of [!UICONTROL Error] is, wordt de modelstatus getoond in plaats van de grafieken.
+Als de modelstatus [!UICONTROL Pending], [!UICONTROL Warning], of [!UICONTROL Error]De modelstatus wordt weergegeven in plaats van de grafieken.
 
 ![smart-persona-rapport](assets/predictive-audiences-report.png)
 
-De rapportlijst toont u de volgende informatie voor elk [!UICONTROL Predictive Audiences] segment.
+De rapportlijst toont u de volgende informatie voor elke [!UICONTROL Predictive Audiences] segment.
 
 1. **[!UICONTROL SEGMENT ID]**: de segment-id van het automatisch gemaakte segment dat aan elke persoon is gekoppeld;
 1. **[!UICONTROL NAME]**: de naam van de persoon;
-1. **[!UICONTROL STATUS]**: de status van het  [!UICONTROL Predictive Audiences] segment:
+1. **[!UICONTROL STATUS]**: de status van de [!UICONTROL Predictive Audiences] segment:
    * **[!UICONTROL Succeeded]**: gebruikers worden ingedeeld in dit segment;
    * **[!UICONTROL Pending]**: het segment wordt nog steeds geïnitialiseerd;
    * **[!UICONTROL Insufficient Training Data]**: gebruikers worden niet in dit segment geclassificeerd omdat er onvoldoende gegevens zijn. De totale basislijnpopulatie is te laag en biedt onvoldoende gegevens om van te leren.
@@ -62,13 +62,13 @@ De rapportlijst toont u de volgende informatie voor elk [!UICONTROL Predictive A
 
 ## Influente sporen{#influential-traits}
 
-[!UICONTROL Influential Traits] Dit zijn kenmerken die het  [!UICONTROL Predictive Audiences] algoritme ontdekte als de sterkste voorspellers voor het bepalen van de personaclassificatie van een bezoeker.
+[!UICONTROL Influential Traits] zijn kenmerken die [!UICONTROL Predictive Audiences] algoritme die de sterkste voorspellers bleek te zijn voor het bepalen van de personaclassificatie van een bezoeker.
 
 Hun teken geeft aan of de aanwezigheid van het kenmerk de waarschijnlijkheid dat de gebruiker tot de geselecteerde persoon behoort, vergroot (+) of verkleint (-).
 
-Klik op [!UICONTROL View All Influential Traits] om de invloedrijke kenmerken van al uw personen weer te geven.
+Klik op [!UICONTROL View All Influential Traits].
 
-In het venster [!UICONTROL Influential Traits] ziet u de volgende informatie voor elke persoon van het geselecteerde model:
+De [!UICONTROL Influential Traits] toont u de volgende informatie, voor elke persoon van het geselecteerde model:
 
 ![invloedrijke eigenschappen](assets/predictive-audiences-influential-traits.png)
 

@@ -1,16 +1,15 @@
 ---
 description: Het rapport van de Trend van het Segment keert gegevens over indrukkingen en klikthrough tarieven van in kaart gebrachte en unmapped segmenten in tijd terug. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Vergelijk trends en volume voor de geselecteerde metriek om een beter beeld te krijgen van hoe uw publiek zich gedraagt in de loop van de tijd.
-seo-description: Het rapport van de Trend van het Segment keert gegevens over indrukkingen en klikthrough tarieven van in kaart gebrachte en unmapped segmenten in tijd terug. Een in kaart gebracht segment is een segment u creeert en naar een bestemming verzendt voor het richten. Een niet in kaart gebracht segment is een segment dat u hebt gecreeerd maar niet verzonden naar een bestemming voor het richten. Vergelijk trends en volume voor de geselecteerde metriek om een beter beeld te krijgen van hoe uw publiek zich gedraagt in de loop van de tijd.
-seo-title: Segmenttrendrapport
+seo-description: The Segment Trend report returns data on impressions and click-through rates of mapped and unmapped segments over time. A mapped segment is a segment you create and send to a destination for targeting. An unmapped segment is a segment that you've created but have not sent to a destination for targeting. Compare trends and volume for your selected metrics to get a better picture of how your audiences behave over time.
+seo-title: Segment Trend Report
 solution: Audience Manager
 title: Segmenttrendrapport
 uuid: f84e8d0a-74e5-430c-b61c-efb696faee93
 feature: Audience Optimization Reports
 exl-id: 1fdca05a-b661-4875-88d7-b0893e2ca08f
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '535'
 ht-degree: 2%
 
 ---
@@ -25,31 +24,31 @@ Vergelijk trends en volume voor de geselecteerde metriek om een beter beeld te k
 
 ## Gebruiksscenario {#use-cases}
 
-Gebruik het [!UICONTROL Segment Trend] rapport om de prestaties van een segment in tijd te bevestigen en tendensen te identificeren die op sterke prestaties of schaal worden gebaseerd.
+Gebruik de [!UICONTROL Segment Trend] rapporten om de prestaties van een segment in tijd te bevestigen en tendensen te identificeren die op sterke prestaties of schaal worden gebaseerd.
 
-Met dit rapport, kunt u begrijpen welke van uw Web-eigenschappen een dip of defecte verhoging tonen en zonodig problemen oplossen. Dit rapport is de volgende stap nadat u uw publiek van belang in het [!UICONTROL Segment Performance] rapport identificeert, om ervoor te zorgen dat de sterke of slechte prestaties u op [!UICONTROL Segment Performance] tabel zag in tijd verenigbaar zijn.
+Met dit rapport, kunt u begrijpen welke van uw Web-eigenschappen een dip of defecte verhoging tonen en zonodig problemen oplossen. Dit rapport is de volgende stap nadat u uw interesse voor het [!UICONTROL Segment Performance] om ervoor te zorgen dat de sterke of slechte prestaties die u in het [!UICONTROL Segment Performance] is consistent in de tijd.
 
-## Het gebruiken van het Rapport van de Tendens van het Segment {#using-the-report}
+## Het rapport Segment Trend gebruiken {#using-the-report}
 
-Schakel tussen **[!UICONTROL Mapped]** en **[!UICONTROL Unmapped]** om segmenten te selecteren die wel of niet aan een doel zijn toegewezen. Selecteer **[!UICONTROL All]** om al uw segmenten in het rapport op te nemen.
+Schakelen tussen **[!UICONTROL Mapped]** en **[!UICONTROL Unmapped]** om segmenten te selecteren die wel of niet aan een doel zijn toegewezen. Selecteren **[!UICONTROL All]** om al uw segmenten in het rapport te omvatten.
 
-Pas het terugblik-achtervenster met de **[!UICONTROL Date Through]** schuif aan.
+Pas het terugblik venster met aan **[!UICONTROL Date Through]** schuifregelaar.
 
-Klik op een van de segmenten onder de schuifregelaar **[!UICONTROL Date Through]** om de optie voor alleen dat segment in het rapport te openen of uit te sluiten.
+Klik op een van de segmenten onder de **[!UICONTROL Date Through]** schuifregelaar om de optie weer te geven zodat alleen dat segment in het rapport blijft staan of wordt uitgesloten.
 
-Gebruik de vervolgkeuzelijst **[!UICONTROL Line Item]** om de eigenschappen in uw portfolio te selecteren waarvoor u informatie wilt retourneren.
+Gebruik de **[!UICONTROL Line Item]** vervolgkeuzelijst om de eigenschappen in uw portfolio te selecteren waarvoor u informatie wilt retourneren.
 
-In **[!UICONTROL Segment Data Source]** drop-down doos, selecteer de gegevensbronnen die de segmenten bevatten u in het rapport wilt zien.
+In de **[!UICONTROL Segment Data Source]** drop-down doos, selecteer de gegevensbronnen die de segmenten bevatten u in het rapport wilt zien.
 
-Gebruik **[!UICONTROL Segment]** drop-down doos om te selecteren welke segmenten u in het rapport wilt zien.
+Gebruik de **[!UICONTROL Segment]** drop-down doos om te selecteren welke segmenten u in het rapport wilt zien.
 
 >[!IMPORTANT]
 >
->Wanneer u [!UICONTROL Audience Optimization for Publishers] inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Line Item]-id&#39;s opnemen, zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport het Webbezit als [!UICONTROL Line Item] in plaats van [!UICONTROL Line Item] identiteitskaart detailleert.
+>Als u [!UICONTROL Audience Optimization for Publishers]moet u beschrijvende metagegevens opnemen voor [!UICONTROL Line Item] ID&#39;s, zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen verzekert u dat het rapport de Webbezit als detailleert [!UICONTROL Line Item] in plaats van de [!UICONTROL Line Item] ID.
 
-## Resultaten interpreteren {#interpreting-results}
+## De resultaten interpreteren {#interpreting-results}
 
-Het [!UICONTROL Segment Trend] rapport keert gegevens in een lijngrafiek voor slechts een interval van 14 dagen terug. In dit voorbeeld toont het rapport de indruk en doorkliktendensen voor een reeks in kaart gebrachte en unmapped segmenten.
+De [!UICONTROL Segment Trend] het rapport keert gegevens in een lijngrafiek voor slechts een interval van 14 dagen terug. In dit voorbeeld toont het rapport de indruk en doorkliktendensen voor een reeks in kaart gebrachte en unmapped segmenten.
 
 Houd over om het even welke lijn om meer informatie over die bepaalde segmenttrend te verkrijgen. Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
 

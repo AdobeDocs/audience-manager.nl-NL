@@ -8,8 +8,8 @@ feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2367'
+ht-degree: 34%
 
 ---
 
@@ -75,7 +75,7 @@ U moet aan de volgende voorwaarden voldoen om de Plug-in van de Audience Manager
 
 Voor het inschakelen van IAB TCF-ondersteuning in Audience Manager leest u onze documentatie over het [instellen van IAB met Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html).
 
-De eenvoudigste manier om dit te doen is door [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) toevoegen [!DNL ECID Opt-in] op uw eigenschappen. Lees de documentatie voor de [ECID Opt-in-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) om te leren hoe u de extensie Tags instelt.
+De eenvoudigste manier om dit te doen is door te gebruiken [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) toevoegen [!DNL ECID Opt-in] op uw eigenschappen. Lees de documentatie voor de [ECID Opt-in-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) om te leren hoe u de extensie Tags instelt.
 
 ## Workflow voor gebruikersopties bij gebruik van het IAB-kader {#user-choice-workflow}
 

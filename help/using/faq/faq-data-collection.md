@@ -10,8 +10,8 @@ feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1198'
+ht-degree: 79%
 
 ---
 
@@ -29,7 +29,7 @@ Eigenschappen die via [!UICONTROL Inbound] ‘onboarded’ zijn, worden door [!U
 * DomainID is ingesteld op 5325
 * Regio is ingesteld op 0
 
-<br> 
+<br>
 
 **Kunt u me een lijst van IP adressen verstrekken ik aan een lijst van gewenste personen voor dpm.demdex.net kan toevoegen?**
 
@@ -43,8 +43,8 @@ Ja, zie hieronder.
 
 | Server | IP-adressen |
 | ---------|----------|
-| ftp-in-gtw.demdex.com | 52.3.74.119; 3 233 68 222 |
-| ftp-out-gtw.demdex.com | 23.22.232.252; 18 211 109 184 |
+| ftp-in-gtw.demdex.com | 52.3.74.119; 3.233.68.222 |
+| ftp-out-gtw.demdex.com | 23.22.232.252; 18.211.109.184 |
 
  
 
@@ -114,7 +114,7 @@ Deze klant gebruikt [!DNL AppMeasurement] versie 3.5.2:
 https://112.2o7.net/b/ss/.../0/FAS-3.5.2-AS3/...
 ```
 
-<br> 
+<br>
 
 **Kan ik paginadata verzamelen als ik geen [!DNL Analytics]-klant ben?**
 
@@ -127,7 +127,7 @@ Ja. De [!UICONTROL DIL]-module helpt u paginadata te verzamelen, zelfs als u [!D
 
 Daarnaast kunnen clients een eenvoudig onsite object implementeren en dit invullen met sleutelwaardeparen waarop u [!UICONTROL DIL] data wilt laten verzamelen. Zo kunt u specifieke doelgroepdatapunten op uw website toevoegen en verwijderen zonder [!DNL Audience Management]-updates. Werk met uw Partner Solutions-vertegenwoordiger om dit goed in te stellen en ervoor te zorgen dat de [!DNL DIL]-module correct naar het page-object verwijst.
 
-<br> 
+<br>
 
 **Kan [!UICONTROL DIL] data verzamelen van [!DNL Google Analytics]?**
 
@@ -136,7 +136,7 @@ Ja. [!UICONTROL DIL] kan bepaalde [!DNL Google Analytics]-elementen (GA) verzame
 * [GA.submitUniversalAnalytics](../dil/dil-modules.md#ga-submit-universal-analytics)
 * [GA.init](../dil/dil-modules.md#ga-init)
 
-<br> 
+<br>
 
 **Kan ik onbewerkte data krijgen van [!DNL Audience Manager], en hoe granulair zijn die?**
 
@@ -148,37 +148,37 @@ Ja, [!DNL Audience Manager] kan data aan u verstrekken die zijn verzameld voor g
 * Tijdstempels
 * Pagina-URL’s
 
-<br> 
+<br>
 
 **[!DNL Google Ad Manager]Ik wil data verzamelen op de ene website, en gebruikers targeten via op een andere website. Moet ik code implementeren op de andere eigenschap als ik geen data van die locatie wil verzamelen?**
 
 Nee. Als de dataverzameling op de tweede website geen vereiste is, hoeft u daar geen DIL te implementeren. Zolang u toegang hebt tot de voorraad op de tweede site via [!DNL Google Ad Manager], kunt u de gegevensverzameling vanaf de eerste site en het doel gebruiken via [!DNL Google Ad Manager].
 
-<br> 
+<br>
 
 **Wat is de beste leverancier van data van derden?**
 
 Elke leverancier draagt iets unieks bij, dus het antwoord hangt af van wat u zoekt. We kunnen overlappende rapportage (zonder kosten) inschakelen om u te helpen begrijpen welke provider het beste voor u werkt.
 
-<br> 
+<br>
 
 **Hoe worden in [!DNL Audience Manager] cookies ingesteld en variabelen doorgegeven aan [!DNL Google Ad Manager]?**
 
-[!DNL Audience Manager] sets 2 cookies: Een verzendt segmentvariabelen naar de [!DNL Google Ad Manager] ad-tag en de andere sets van onze unieke gebruikersnaam (UUID), die ook wordt gelezen door [!DNL Google Ad Manager]. Door de UUID aan de advertentietag toe te voegen kunnen we rapportage en doelgroepdetectie op gebruikersniveau uitvoeren.
+[!DNL Audience Manager] sets 2 cookies: Eén verzendt segmentvariabelen naar de [!DNL Google Ad Manager] ad-tag en de andere sets van onze unieke gebruikersnaam (UUID), die ook wordt gelezen door [!DNL Google Ad Manager]. Door de UUID aan de advertentietag toe te voegen kunnen we rapportage en doelgroepdetectie op gebruikersniveau uitvoeren.
 
-<br> 
+<br>
 
 **Kunnen we aan een DSP informatie sturen over punten in de conversietrechter die door een gebruiker wordt bereikt?**
 
 Ja. We kunnen trechterdata verzenden, maar het DSP moet de technische mogelijkheden hebben om die te gebruiken. Een DSP moet bevestigen dat meerdere segmenten kunnen worden behandeld. Als dat niet het geval is, moeten we misschien specifieke segmenten maken om een gebruiker uit andere segmenten te halen op basis van conversievoortgang (bijvoorbeeld dat stap 1 en 2 zijn voltooid, maar stap 3 niet). U wilt deze informatie misschien naar een DSP verzenden zodat gebruikers geretarget kunnen worden, naar een bepaalde landingspagina kunnen worden omgeleid, of specifieke creatieve items kunnen weergeven.
 
-<br> 
+<br>
 
 **Hoe kan ik bevestigen dat via FTP verzonden data zijn opgehaald door [!DNL Audience Manager]?**
 
 Er is een bestand opgehaald wanneer de extensie verandert van `.sync` in `.processed`. Als dit gebeurt, staat het bestand in de wachtrij voor opname. Uw accountmanager kan ook bevestigen wanneer een bestand is geüpload.
 
-<br> 
+<br>
 
 **Ik wil de functionaliteit van de [DCS-API](../api/dcs-intro/dcs-event-calls/dcs-event-calls.md) testen. Ik verzend gebeurteniscalls zoals hieronder getoond. De calls bevatten [gedeclareerde id’s](../features/declared-ids.md) en signalen, die bepaalde eigenschappen en segmenten zouden moeten realiseren die ik al heb ingesteld. Kan ik de [!UICONTROL General Reports] en [!UICONTROL Trend Reports] gebruiken om te controleren of de eigenschap- en segmentpopulaties toenemen?**
 
@@ -200,7 +200,7 @@ Daardoor zullen de rapporten niet de gebeurtenissen weergeven die door gedeclare
 
 Zie ook de [Index van Audience Manager-id’s](../reference/ids-in-aam.md).
 
-<br> 
+<br>
 
 **Hoe lang duurt het voordat gebruikersprofielen in alle [regio’s](../api/dcs-intro/dcs-api-reference/dcs-regions.md) worden gesynchroniseerd?**
 

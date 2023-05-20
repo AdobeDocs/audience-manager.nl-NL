@@ -24,25 +24,25 @@ Veelgestelde vragen over het onderdeel Audience Lab.
 
 Ja, de testsegmenten hebben verschillende segment-id’s. Voor bestemmingen met [!UICONTROL Auto-fill Destination Mapping] of segmenten die worden verzonden naar [!DNL Google], zal [!UICONTROL Audience Lab] de toewijzingswaarden net zo behandelen als de bestemmingen normaal zouden doen.
 
-<br> 
+<br>
 
 **Kan dezelfde conversie-eigenschap aan meerdere testgroepen worden gekoppeld?**
 
 Ja, dat is toegestaan. Denk aan een geval van één test die een mannelijk segment gebruikt dat is gekoppeld aan conversie X, en één test die een vrouwelijk segment gebruikt dat is gekoppeld aan conversie X.Het maakt niet uit dat beide tests conversies aansturen, omdat ze twee verschillende soorten doelgroepen testen.
 
-<br> 
+<br>
 
 **Stel dat een testgroep een geverifieerd profiel gebruikt voor de testsegmentsplitsing. Het geverifieerde profiel is gekoppeld aan vier [Audience Manager](../reference/ids-in-aam.md)-UUID’s. Wanneer de bezoeker een conversie-eigenschap van een van de vier UUID’s vertoont, telt [!UICONTROL Audience Lab] dit dan als één of vier conversies?**
 
 In dit geval telt [!UICONTROL Audience Lab] slechts één conversie.
 
-<br> 
+<br>
 
 **Wat gebeurt er als de bezoeker in het bovenstaande scenario eerst de conversie-eigenschap vertoont van een van de vier UUID’s die aan zijn of haar geverifieerde profiel zijn gekoppeld, en vervolgens ook de conversie-eigenschap vertoont van twee andere UUID’s die aan het geverifieerde profiel zijn gekoppeld? Telt dit geval als één of drie conversies?**
 
 In dit geval telt [!UICONTROL Audience Lab] drie conversies, één voor elk apparaat dat de verificatie-eigenschap heeft vertoond.
 
-<br> 
+<br>
 
 **Kan een gebruiker [!UICONTROL Segment: Read-Only] toegang hebben, maar ook toegang tot het maken van [!UICONTROL Audience Lab]-testsegmenten?**
 

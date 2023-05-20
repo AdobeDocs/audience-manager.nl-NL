@@ -1,21 +1,20 @@
 ---
 description: Audience Manager kan worden geconfigureerd om wachtwoorden elke 30 dagen te laten verlopen. Neem contact op met de consultant of de klantenservice van Audience Manager als u het verlopen van wachtwoorden wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
-seo-description: Audience Manager kan worden geconfigureerd om wachtwoorden elke 30 dagen te laten verlopen. Neem contact op met de consultant of de klantenservice van Audience Manager als u het verlopen van wachtwoorden wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
-seo-title: Wachtwoordvereisten, vergrendelde accounts en vergeten wachtwoorden
+seo-description: Audience Manager can be configured to expire passwords every 30-days. Talk to your Audience Manager consultant or Customer Care if you want to enable password expiry. Refer to this section for password requirements and how to recover a lost or forgotten password.
+seo-title: Password Requirements, Locked Accounts, and Forgotten Passwords
 solution: Audience Manager
 title: Wachtwoordvereisten, vergrendelde accounts en vergeten wachtwoorden
 uuid: bca892eb-3577-4382-8110-131f78d23069
 feature: Reference
 exl-id: beeb65e3-b715-49a8-b14b-ce3fff96a5cd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '260'
 ht-degree: 100%
 
 ---
 
-# Wachtwoordvereisten, vergrendelde accounts en vergeten wachtwoorden {#password-requirements-locked-accounts-and-forgotten-passwords}
+# Wachtwoordvereisten, vergrendelde accounts en vergeten wachtwoorden{#password-requirements-locked-accounts-and-forgotten-passwords}
 
 Audience Manager kan worden geconfigureerd om wachtwoorden elke 30 dagen te laten verlopen. Neem contact op met de consultant of de klantenservice van Audience Manager als u het verlopen van wachtwoorden wilt inschakelen. Zie deze sectie voor wachtwoordvereisten en hoe u een verloren of vergeten wachtwoord kunt herstellen.
 

@@ -1,17 +1,16 @@
 ---
 description: Met de optie Kanaaloverschrijdende omzetting in de Audience Optimization-rapporten kunt u offlineconversies toewijzen aan bediende onlineafbeeldingen of kunt u klikken.
-seo-description: Met de optie Kanaaloverschrijdende omzetting in de Audience Optimization-rapporten kunt u offlineconversies toewijzen aan bediende onlineafbeeldingen of kunt u klikken.
-seo-title: Cross-channelconversie
+seo-description: The Cross Channel Conversion option in the Audience Optimization reports allows you to attribute offline conversions to served online impressions or clicks.
+seo-title: Cross Channel Conversion
 solution: Audience Manager
 title: Cross-channelconversie
 uuid: 0fecec23-e502-490b-b7dd-47a3753a3f75
 feature: Audience Optimization Reports
 exl-id: 7412a43f-81b5-477e-8acf-89d6c8661f1e
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 4%
+source-wordcount: '237'
+ht-degree: 2%
 
 ---
 
@@ -19,13 +18,13 @@ ht-degree: 4%
 
 Met de optie Kanaaloverschrijdende omzetting in de Audience Optimization-rapporten kunt u offlineconversies toewijzen aan bediende onlineafbeeldingen of kunt u klikken.
 
-In de [!UICONTROL Cross Channel Conversion]-rapporten worden de resultaten van het [!DNL Google Campaign Manager]-platform gecombineerd met de conversietekenmerken [!DNL Audience Manager]. Hiermee kunt u offlineconversies koppelen aan onlineafbeeldingen of klikt u erop.
+De [!UICONTROL Cross Channel Conversion] de verslagen combineren resultaten van [!DNL Google Campaign Manager] platform met [!DNL Audience Manager] conversietekenmerken. Hiermee kunt u offlineconversies koppelen aan onlineafbeeldingen of klikt u erop.
 
-U kunt [!UICONTROL Cross Channel Conversion] voor [de Prestaties van het Segment](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) en [Optimale Frequentie](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) rapporten gebruiken.
+U kunt de [!UICONTROL Cross Channel Conversion] voor de [Segmentprestaties](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) en [Optimale frequentie](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) rapporten.
 
-Als u de [!UICONTROL Cross Channel Conversion]-rapporten wilt weergeven, selecteert u het item **[!UICONTROL AAM + Ad Server Name]** in de vervolgkeuzelijst **[!UICONTROL Platform]**.
+Als u het dialoogvenster [!UICONTROL Cross Channel Conversion] rapporten, selecteert u de **[!UICONTROL AAM + Ad Server Name]** item in het **[!UICONTROL Platform]** vervolgkeuzelijst.
 
-De volgende tabel bevat belangrijke overwegingen bij het instellen van [!UICONTROL Cross Channel Conversion]:
+De volgende tabel bevat belangrijke overwegingen bij het instellen [!UICONTROL Cross Channel Conversion]:
 
 <table id="table_62590B4AB7624B619EC9AA8FF89722C9"> 
  <thead> 
@@ -37,11 +36,11 @@ De volgende tabel bevat belangrijke overwegingen bij het instellen van [!UICONTR
  <tbody> 
   <tr> 
    <td colname="col01"> <p>Minimumaantal omrekeningskenmerken </p> </td> 
-   <td colname="col1"> <p>Er moet ten minste één conversietekenmerk aan een gegevensbron worden toegewezen om de rapporten <span class="wintitle"> Kanaalconversie</span> te kunnen uitvoeren. Zie <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Basisinformatie voor Traits</a> voor meer informatie over eigenschappen. </p> </td> 
+   <td colname="col1"> <p>Ten minste één conversietekenmerk moet aan een gegevensbron worden toegewezen om <span class="wintitle"> Kanaalconversie</span> rapporten die moeten worden uitgevoerd. Zie <a href="../../../features/traits/create-onboarded-rule-based-traits.md"> Basisinformatie over sporen</a> voor meer informatie over de kenmerken . </p> </td> 
   </tr>
   <tr> 
    <td> <p>Kenmerkvenster </p> </td> 
-   <td> <p> <b><span class="uicontrol"> Het attributievenster van AAM+Google Campaign </span></b> Manager is 14 dagen, wat betekent dat alleen conversietekenmerken die in de laatste twee weken zijn tentoongesteld, in aanmerking worden genomen. </p> </td> 
+   <td> <p> <b><span class="uicontrol"> Campagnebeheer AAM+Google</span></b> attributievenster is 14 dagen, wat betekent dat alleen conversietekenmerken die in de laatste twee weken zijn tentoongesteld, in aanmerking worden genomen. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Last-touch-methodologie </p> </td> 

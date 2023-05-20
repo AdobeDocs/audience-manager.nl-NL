@@ -1,14 +1,14 @@
 ---
-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om publiekssegmenten van off-line-enige klantengegevens te bouwen, en hen te verzenden naar op mensen-Gebaseerde Doelen.  '
-seo-description: 'Deze pagina omvat geleidelijke begeleiding op hoe te om publiekssegmenten van off-line-enige klantengegevens te bouwen, en hen te verzenden naar op mensen-Gebaseerde Doelen.  '
-seo-title: Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn
+description: Deze pagina omvat geleidelijke begeleiding op hoe te om publiekssegmenten van off-line-enige klantengegevens te bouwen, en hen te verzenden naar op mensen-Gebaseerde Doelen.
+seo-description: This page includes step-by-step guidance on how to build audience segments from offline-only customer data, and send them to People-Based Destinations.
+seo-title: Workflow B - Personalization Based on Offline-Only Data
 solution: Audience Manager
 title: Workflow B - Personalisatie gebaseerd op data die alleen offline beschikbaar zijn
-feature: Op mensen gebaseerde Doelen
+feature: People-based Destinations
 exl-id: d980de26-3133-4ae3-80c2-8c3bf2480bbd
 source-git-commit: 87c3169083f0dc66490e6a8c808e16371f1d78c0
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1143'
 ht-degree: 6%
 
 ---
@@ -20,29 +20,29 @@ ht-degree: 6%
 
 Deze pagina omvat geleidelijke begeleiding op hoe te om publiekssegmenten van off-line-enige klantengegevens te bouwen, en hen te verzenden naar op mensen-Gebaseerde Doelen.
 
-## Stap 1 - Offline treinen aan boord {#step-1-onboard-traits}
+## Stap 1 - Offline treinreizen {#step-1-onboard-traits}
 
 De eerste stap die tot publiekssegmenten in dit scenario leidt is uw off-line klantengegevens in Audience Manager te brengen.
 
 >[!IMPORTANT]
 >
-> Voordat u verdergaat, moet u ervoor zorgen dat de klantactiviteit die u aan boord gaat, al is gedefinieerd in de Audience Manager met de bijbehorende [onboard-kenmerken](../traits/trait-and-segment-qualification-reference.md).
+> Voordat u verdergaat, moet u ervoor zorgen dat de klantactiviteit die u op het punt staat aan boord al is gedefinieerd in Audience Manager met de bijbehorende [ongebogen eigenschappen](../traits/trait-and-segment-qualification-reference.md).
 
-Ongeacht of uw bestaande klant-id&#39;s voor de Audience Manager ([DPUUID&#39;s](../../reference/ids-in-aam.md)) gehashed zijn of niet, u moet de functie voor instaptoegang uitvoeren op de gegevensbron die uw [DPUUID&#39;s](../../reference/ids-in-aam.md) bevat.
+Ongeacht of uw bestaande klant-id&#39;s van de Audience Manager ([DPUUID&#39;s](../../reference/ids-in-aam.md)) gehashte e-mails zijn of niet, moet u de eigenschap aan boord uitvoeren tegen de gegevensbron die uw [DPUUID&#39;s](../../reference/ids-in-aam.md).
 
 ### Voorbeeld
 
-U wilt de klant-id&#39;s uit de onderstaande tabel kwalificeren voor de bijbehorende onbeheerde handels-id&#39;s. Denk eraan dat uw [DPUUIDs](../../reference/ids-in-aam.md) in een gegevensbron met identiteitskaart 999999 wordt opgeslagen, en uw Audience Manager gegevensbron identiteitskaart is 123.
+U wilt de klant-id&#39;s uit de onderstaande tabel kwalificeren voor de bijbehorende onbeheerde handels-id&#39;s. Laten we in overweging nemen dat uw [DPUUID&#39;s](../../reference/ids-in-aam.md) worden opgeslagen in een gegevensbron met identiteitskaart 999999, en uw Audience Manager gegevensbron identiteitskaart is 123.
 
 | Klant-id (DPUUID) | Aan boord genomen Trait ID |
 | -------------------------------------- | ------------------- |
-| 68079982765673198504052656074456196039 | 12345 23456 |
-| 6741268208341199572553870443620307584 | 45678 |
+| 68079982765673198504052656074456196039 | 12345, 23456 |
+| 67412682083411995725538770443620307584 | 45678 |
 | 89159024796760343733111707646026765593 | 11223, 93342, 27341 |
 
 <br />
 
-Als u de klant-id&#39;s in het bovenstaande voorbeeld wilt kwalificeren voor de overeenkomende ongeregistreerde kenmerken, moet u een [binnenkomend gegevensbestand](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) uploaden met de volgende inhoud:
+Als u de klant-id&#39;s in het bovenstaande voorbeeld wilt kwalificeren voor de overeenkomende ongeregistreerde kenmerken, moet u een [binnenkomend gegevensbestand](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) met de volgende inhoud:
 
 ```
 68079982765673198504052656074456196039<TAB>d_sid=12345,d_sid=23456
@@ -53,53 +53,53 @@ Als u de klant-id&#39;s in het bovenstaande voorbeeld wilt kwalificeren voor de 
 De bestandsnaam zou er als volgt uitzien: `ftp_dpm_999999_123_TIMESTAMP.sync.gz`.
 Zie [Amazon S3-vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie over de structuur van de bestandsnaam.
 
-## Stap 2 - vorm de Montages van de Gegevensbron {#configure-data-source-settings}
+## Stap 2 - de Montages van de Gegevensbron vormen {#configure-data-source-settings}
 
-Afhankelijk van het feit of uw [DPUUIDs](../../reference/ids-in-aam.md) kleine letters zijn, gehakt e-mailadressen, zou u de gegevensbron kunnen moeten vormen die de gehakte e-mailadressen zal opslaan.
+Afhankelijk van of uw [DPUUID&#39;s](../../reference/ids-in-aam.md) Als het om kleine letters gaat, kan het zijn dat u de gegevensbron moet vormen die de gehakte e-mailadressen zal opslaan.
 
  
 
-**Scenario 1: uw  [](../../reference/ids-in-aam.md) DPUUIDsare reeds kleine -, gehakte e-mailadressen.**
+**Scenario 1: uw [DPUUID&#39;s](../../reference/ids-in-aam.md) zijn al kleine, gehashte e-mailadressen.**
 
 In dit geval moet u de overeenkomstige gegevensbron als dusdanig etiketteren:
 
 1. Ga naar **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]**.
-1. Zoek de gegevensbron die uw [DPUUIDs](../../reference/ids-in-aam.md) bevat, en klik het.
+1. Zoek de gegevensbron die uw [DPUUID&#39;s](../../reference/ids-in-aam.md)en klik erop.
 1. Controleer of de optie **[!UICONTROL Cannot be tied to personally identifiable information]** is uitgeschakeld.
 1. Sla de gegevensbroninstellingen op.
 
  
 
-**Scenario 2: uw  [](../../reference/ids-in-aam.md) DPUUIDs is geen kleine, gehakte e-mailadressen.**
+**Scenario 2: uw [DPUUID&#39;s](../../reference/ids-in-aam.md) zijn geen kleine, gehashte e-mailadressen.**
 
 In dit geval moet u een nieuwe gegevensbron voor meerdere apparaten maken waarin uw gehashte e-mailadressen worden opgeslagen. Dit doet u als volgt:
 
-1. Meld u aan bij uw Audience Manager-account, ga naar **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]** en klik op **[!UICONTROL Add New]**.
-1. Voer een **[!UICONTROL Name]** en **[!UICONTROL Description]** in voor de nieuwe gegevensbron.
-1. Selecteer **[!UICONTROL Cross Device]** in het vervolgkeuzemenu **[!UICONTROL ID Type]**.
-1. Selecteer in de sectie **[!UICONTROL Data Source Settings]** zowel de opties **[!UICONTROL Inbound]** als **[!UICONTROL Outbound]** en schakel de optie **[!UICONTROL Share associated cross-device IDs in people-based destinations]** in.
-1. Gebruik het drop-down menu om het **[!UICONTROL Emails(SHA256, lowercased)]** etiket voor deze gegevensbron te selecteren.
+1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Audience Data]** -> **[!UICONTROL Data Sources]** en klik op **[!UICONTROL Add New]**.
+1. Voer een **[!UICONTROL Name]** en **[!UICONTROL Description]** voor uw nieuwe gegevensbron.
+1. In de **[!UICONTROL ID Type]** vervolgkeuzelijst, selecteert u **[!UICONTROL Cross Device]**.
+1. In de **[!UICONTROL Data Source Settings]** selecteert u beide **[!UICONTROL Inbound]** en **[!UICONTROL Outbound]** en schakelt u de **[!UICONTROL Share associated cross-device IDs in people-based destinations]** optie.
+1. Selecteer in het keuzemenu de optie **[!UICONTROL Emails(SHA256, lowercased)]** label voor deze gegevensbron.
    >[!IMPORTANT]
    >
-   >Met deze optie wordt alleen de gegevensbron gelabeld met gegevens die zijn gehasht met dat specifieke algoritme. De Audience Manager hash de gegevens bij deze stap niet. Zorg ervoor dat de e-mailadressen die u bij het opslaan in deze gegevensbron wilt gebruiken, al zijn gehasht met het algoritme [!DNL SHA256]. Anders, zult u niet het voor [!DNL People-Based Destinations] kunnen gebruiken.
+   >Met deze optie wordt alleen de gegevensbron gelabeld met gegevens die zijn gehasht met dat specifieke algoritme. De Audience Manager hash de gegevens bij deze stap niet. Zorg ervoor dat de e-mailadressen die u wilt opslaan in deze gegevensbron al zijn gehasht met de [!DNL SHA256] algoritme. Anders kunt u deze niet gebruiken [!DNL People-Based Destinations].
 
    ![pbd-datasource-settings](assets/pbd-ds-config.png)
 
    >[!NOTE]
    >
-   > Zie [Gegevens aan boord](people-based-destinations-prerequisites.md#data-onboarding) voor vaak gestelde vragen over hoe u uw off-line gegevens in Audience Manager voor op mensen-Gebaseerde Doelen zou moeten brengen.
+   > Zie [Gegevens aan boord](people-based-destinations-prerequisites.md#data-onboarding) voor vaak gestelde vragen over hoe u uw off-line gegevens in Audience Manager voor Op mensen-Gebaseerde Doelen zou moeten brengen.
 
 Bekijk de onderstaande video voor een videozelfstudie over het maken van een gegevensbron voor [!UICONTROL People-Based Destinations].
 
 >[!VIDEO](https://video.tv.adobe.com/v/29006/)
 
-## Stap 3 - Identiteitskaart van de Gelijke aan Onderbroken E-mailadressen via dossier-Gebaseerde Synchronisatie {#match-ids-emails}
+## Stap 3 - Identiteitskaart van de Gelijke aan Onderbroken E-mailadressen via dossier-Gebaseerde Synchronisatie van identiteitskaart {#match-ids-emails}
 
 >[!IMPORTANT]
 >
-> Deze stap is slechts op [hierboven beschreven Scenario 2](people-based-destinations-workflow-offline.md#configure-data-source-settings) van toepassing. Als uw bestaande [DPUUIDs](../../reference/ids-in-aam.md) reeds gehakt e-mailadressen zijn, overslaan aan [Stap 4 - creeer een Regel van de Fusie van het Profiel voor Segmentatie](#create-profile-merge-rule).
+> Deze stap is alleen van toepassing op [Scenario 2](people-based-destinations-workflow-offline.md#configure-data-source-settings) hierboven beschreven. Als uw bestaande [DPUUID&#39;s](../../reference/ids-in-aam.md) zijn al gehashte e-mailadressen, sla aan over [Stap 4 - creeer een Regel van de Fusie van het Profiel voor Segmentatie](#create-profile-merge-rule).
 
-Stel dat u uw bestaande [DPUUIDs](../../reference/ids-in-aam.md) van het voorbeeld bij Stap 1 aan de gehakte e-mailadressen van de lijst hieronder (juiste kolom) wilt aanpassen, en de gehakte e-mailadressen in de nieuwe gegevensbron opslaan die u bij [Stap 2 - vorm de Montages van de Gegevensbron ](#configure-data-source-settings) creeerde.
+Stel dat u uw bestaande [DPUUID&#39;s](../../reference/ids-in-aam.md) van het voorbeeld bij Stap 1 aan de gehakte e-mailadressen van de lijst hieronder (juiste kolom), en sla de gehakte e-mailadressen in de nieuwe gegevensbron op die u bij creeerde [Stap 2 - de Montages van de Gegevensbron vormen](#configure-data-source-settings).
 
 Ter herinnering: u hebt nu twee gegevensbronnen:
 
@@ -110,13 +110,13 @@ Ter herinnering: u hebt nu twee gegevensbronnen:
 
 | DPUUID&#39;s (CRM-ID&#39;s) | E-mailadres | Onderbroken e-mailadres |
 | -------------------------------------- | --------------------- | ---------------------------------------------------------------- |
-| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041 149 |
-| 6741268208341199572553870443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
+| 68079982765673198504052656074456196039 | `johndoe@example.com` | 55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149 |
+| 67412682083411995725538770443620307584 | `janedoe@email.com` | 16d72e3edbeb089b299e0d12fc09522fdc5ece2d11dcb1304ecdd6fab4f7193a |
 | 89159024796760343733111707646026765593 | `name@mydomain.com` | feec5debcea411f54462a345a0d90c9975415d2d4862745ff8af00c49b6b4ae6 |
 
  
 
-In ons voorbeeld zou uw [ID synchronisatiebestand](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) de volgende inhoud hebben:
+In ons voorbeeld [ID-synchronisatiebestand](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) zou de volgende inhoud hebben:
 
 ```
 68079982765673198504052656074456196039<TAB>55e79200c1635b37ad31a378c39feb12f120f116625093a19bc32fff15041149
@@ -126,7 +126,7 @@ In ons voorbeeld zou uw [ID synchronisatiebestand](../../integration/sending-aud
 
  
 
-Het [ID-synchronisatiebestand](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) moet de volgende naamgevingsstructuur volgen:
+De [ID-synchronisatiebestand](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) moet de volgende naamgevingsstructuur volgen:
 
 `c2c_id_<DPUUID_DATA_SOURCE_ID>_<HASHED_EMAIL_DATA_SOURCE_ID>_TIMESTAMP.sync`
 
@@ -135,33 +135,33 @@ Het [ID-synchronisatiebestand](../../integration/sending-audience-data/batch-dat
 In het bovenstaande voorbeeld ziet de bestandsnaam er als volgt uit:
 `c2c_id_999999_987654_1560431657.sync`
 
-[Download hier](assets/c2c_id_999999_987654_1560431657.sync) een voorbeeldbestand.
+[Voorbeeldbestand hier downloaden](assets/c2c_id_999999_987654_1560431657.sync).
 
-Zodra u uw dossier van de synchronisatie van identiteitskaart hebt gecreeerd, moet u het aan een [!DNL Amazon S3] emmertje uploaden. Zie [Batchgegevens verzenden naar Audience Manager](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) voor meer informatie over het uploaden van ID-synchronisatiebestanden.
+Nadat u het bestand voor id-synchronisatie hebt gemaakt, moet u het uploaden naar een [!DNL Amazon S3] emmertje. Ga voor meer informatie over het uploaden van ID-synchronisatiebestanden naar [Batchgegevens naar Audience Manager verzenden](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md).
 
 ## Stap 4 - creeer een Regel van de Fusie van het Profiel voor Segmentatie {#create-profile-merge-rule}
 
-De volgende stap is het creëren van een nieuwe fusieregel die u zal helpen de publiekssegmenten tot stand brengen om naar uw [!DNL People-Based Destinations] te verzenden.
+De volgende stap is het creëren van een nieuwe fusieregel die u zal helpen de publiekssegmenten tot stand brengen om naar uw te verzenden [!DNL People-Based Destinations].
 
 1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Audience Data]** -> **[!UICONTROL Profile Merge Rules]**.
 2. Klik op [!UICONTROL Add New Rule].
-3. Voer een regel **[!UICONTROL Name]** en **[!UICONTROL Description]** voor het samenvoegen van profielen in.
-4. Selecteer in de sectie **[!UICONTROL Profile Merge Rule Setup]** de regel **[!UICONTROL All Cross-Device Profiles]** in de lijst **[!UICONTROL Cross-Device Options]**.
-5. Selecteer in de lijst **[!UICONTROL Cross-Device Profile Options]** de gegevensbron waartegen uw kenmerken zijn genegeerd.
+3. Een regel voor het samenvoegen van profielen invoeren **[!UICONTROL Name]** en **[!UICONTROL Description]**.
+4. In de **[!UICONTROL Profile Merge Rule Setup]** selecteert u de **[!UICONTROL All Cross-Device Profiles]** van de **[!UICONTROL Cross-Device Options]** lijst.
+5. In de **[!UICONTROL Cross-Device Profile Options]** selecteert u de gegevensbron waarop uw eigenschappen betrekking hebben.
    ![merge-rule-setup](assets/pbd-pmr.png)
 
-## Stap 5 - creeer de Segmenten van het Publiek {#create-audience-segments}
+## Stap 5 - Audience-segmenten maken {#create-audience-segments}
 
-Om nieuwe segmenten van off-line-enige gegevens tot stand te brengen, gebruik [de Bouwer van het Segment](../segments/segment-builder.md) en zorg ervoor u de nieuwe lijn van de profielfusie gebruikt die u in de vorige stap creeerde toen het creëren van het segment.
+Als u nieuwe segmenten wilt maken op basis van alleen-offline gegevens, gebruikt u de opdracht [Segment Builder](../segments/segment-builder.md) en zorg ervoor u de nieuwe lijn van de profielfusie gebruikt die u in de vorige stap creeerde toen het creëren van het segment.
 
-## Stap 6 - Vorm Op mensen-Gebaseerde Authentificatie {#configure-authentication} van het Platform
+## Stap 6 - Vorm Op mensen-Gebaseerde Authentificatie van het Platform {#configure-authentication}
 
 1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Als u een eerder geconfigureerde integratie met een sociaal platform hebt, wordt deze in deze pagina weergegeven. Anders is de pagina leeg.
    ![op mensen gebaseerde integratie](assets/pbd-config.png)
 1. Klik op **[!UICONTROL Add Account]**.
-1. Gebruik het vervolgkeuzemenu **[!UICONTROL People-Based Platform]** om het platform te selecteren waarmee u de integratie wilt configureren.
+1. Gebruik de **[!UICONTROL People-Based Platform]** vervolgkeuzelijst om het platform te selecteren waarmee u de integratie wilt configureren.
    ![op mensen gebaseerd platform](assets/pbd-add.png)
-1. Klik op **[!UICONTROL Confirm]** om te worden omgeleid naar de verificatiepagina van het geselecteerde platform.
+1. Klikken **[!UICONTROL Confirm]** om te worden omgeleid naar de authentificatiepagina van het geselecteerde platform.
 1. Nadat u zich hebt geverifieerd op uw account voor het sociale platform, wordt u omgeleid naar de Audience Manager waar de accounts van uw adverteerders moeten worden weergegeven. Selecteer het adverteerderaccount dat u wilt gebruiken en klik op **[!UICONTROL Confirm]**.
 1. Audience Manager geeft boven aan de pagina een melding weer om te laten weten of de account is toegevoegd. Met de melding kunt u ook een contact-e-mailadres toevoegen om meldingen te ontvangen wanneer de verificatie van het sociale platform bijna verlopen is.
 
@@ -172,14 +172,14 @@ Om nieuwe segmenten van off-line-enige gegevens tot stand te brengen, gebruik [d
 ## Stap 7 - creeer een op mensen-gebaseerde Bestemming {#create-destination}
 
 1. Meld u aan bij uw Audience Manager-account, ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Destinations]** en klik op **[!UICONTROL Create Destination]**.
-1. Voer in de sectie **[!UICONTROL Basic Information]** een **[!UICONTROL Name]** en **[!UICONTROL Description]** in voor de nieuwe gegevensbron en gebruik de volgende instellingen:
+1. In de **[!UICONTROL Basic Information]** in, voert u een **[!UICONTROL Name]** en **[!UICONTROL Description]** voor uw nieuwe gegevensbron, en gebruik de volgende montages:
    * **[!UICONTROL Category]**: geïntegreerde Platforms;
    * **[!UICONTROL Type]**: personen;
    * **[!UICONTROL Platform]**: selecteer het op mensen-gebaseerde platform dat u publiekssegmenten naar wilt verzenden;
    * **[!UICONTROL Account]**: Selecteer het gewenste adverteerderaccount dat aan het geselecteerde platform is gekoppeld.
       ![create-destination](assets/pbd-create-destination.png)
 1. Klik op **[!UICONTROL Next]**.
-1. Kies de **[!UICONTROL Data Export Labels]** die u voor deze bestemming wilt plaatsen.
-1. Selecteer in de sectie **[!UICONTROL Configuration]** de gegevensbron die de gehashte gegevensbronnen bevat.
-1. Selecteer in de sectie **[!UICONTROL Segment Mappings]** de segmenten die u naar deze bestemming wilt verzenden. Dit zouden de segmenten zijn die u bij [Stap 5 creeerde - creeer de Segmenten van het Publiek](people-based-destinations-workflow-offline.md#create-audience-segments).
+1. Kies de optie **[!UICONTROL Data Export Labels]** die u voor dit doel wilt instellen.
+1. In de **[!UICONTROL Configuration]** selecteert u de gegevensbron die uw gehashte gegevensbronnen bevat.
+1. In de **[!UICONTROL Segment Mappings]** selecteert u de segmenten die u naar dit doel wilt verzenden. Dit zouden de segmenten zijn die u bij creeerde [Stap 5 - Audience-segmenten maken](people-based-destinations-workflow-offline.md#create-audience-segments).
 1. Sla het doel op.

@@ -1,19 +1,18 @@
 ---
 description: API-methoden waarmee u gegevensbronnen kunt beheren die aan uw account zijn gekoppeld.
-seo-description: API-methoden waarmee u gegevensbronnen kunt beheren die aan uw account zijn gekoppeld.
-seo-title: API-methoden voor databronnen
+seo-description: API methods that let you manage data sources associated with your account.
+seo-title: Data Source API Methods
 solution: Audience Manager
 title: API-methoden voor databronnen
 uuid: 92ab725d-6f0a-497b-8302-39a34dc58636
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: d5ec520d-f47d-4054-9635-9ad96a2a5d91
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '57'
 ht-degree: 24%
 
 ---
-
 
 # API-methoden voor databronnen {#data-source-api-methods}
 
@@ -23,8 +22,9 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->De gegevensbronmethoden [!DNL API] zijn herschreven met [!DNL Swagger] en gemigreerd. Zie:
+>De gegevensbron [!DNL API] methoden zijn herschreven met [!DNL Swagger] en gemigreerd. Zie:
 >
 >* [Adobe Audience Manager API-documenten](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migratie van Audience Manager-API-code](../../api/api-swagger-migration.md)
 >
+

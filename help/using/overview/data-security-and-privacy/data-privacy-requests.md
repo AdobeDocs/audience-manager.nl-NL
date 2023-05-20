@@ -87,7 +87,7 @@ De wereldwijde opt-out is een opt-out-optie [!DNL Audience Manager] en andere [!
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Adobe Experience Cloud </p> </td> 
-   <td colname="col2"> <p>De pagina <a href="https://www.adobe.com/nl/privacy/opt-out.html#customeruse" format="http" scope="external">Uw privacyopties</a> bevat 1-klikfuncties waarmee uw eindgebruikers de verzameling van hun data door de Adobe Experience Cloud-advertentieoplossingen (inclusief Audience Manager) kunnen beheren en uitschakelen. Zie met name de <a href="https://www.adobe.com/privacy/opt-out.html#customeruse" format="http" scope="external">sectie voor zakelijke klanten</a> van de pagina voor privacyopties. </p> </td> 
+   <td colname="col2"> <p>De pagina <a href="https://www.adobe.com/nl/privacy/opt-out.html#customeruse" format="http" scope="external">Uw privacyopties</a> bevat 1-klikfuncties waarmee uw eindgebruikers de verzameling van hun data door de Adobe Experience Cloud-advertentieoplossingen (inclusief Audience Manager) kunnen beheren en uitschakelen. Zie met name de <a href="https://www.adobe.com/nl/privacy/opt-out.html#customeruse" format="http" scope="external">sectie voor zakelijke klanten</a> van de pagina voor privacyopties. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Directe API-calls naar Audience Manager </p> </td> 

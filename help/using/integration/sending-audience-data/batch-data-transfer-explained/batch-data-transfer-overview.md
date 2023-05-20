@@ -10,7 +10,7 @@ feature: Inbound Data Transfers
 exl-id: ba95537e-30c9-4546-9456-55f46dbe29ff
 source-git-commit: f02e6bcfb7ff3560d9624c3dce7ff065a3a75748
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '459'
 ht-degree: 4%
 
 ---
@@ -55,7 +55,7 @@ Wanneer u offline gegevens online brengt, kunt u deze informatie voor offlinecam
 | Productie | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-clients</li><li>ftp-in.demdex.com</li></ul> |
 | Beta-omgeving | <ul><li>Amazon S3</li><li>FTP</li></ul> | <ul><li>demdex-s2s-client-sandbox-us-East-1</li><li>sandbox-ftp-in.demdex.com</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Verdere technische lezing
 

@@ -1,54 +1,53 @@
 ---
 description: Kopers van gegevens van Audience Marketplace komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer tegen een prijs per duizend en op basis van indrukken (CPM). Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
-seo-description: Kopers van gegevens van Audience Marketplace komen overeen om alle advertenties te melden die zijn gediend met gebruikmaking van de kenmerken in de gegevenstoevoer tegen een prijs per duizend en op basis van indrukken (CPM). Het CPM-gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de voorgaande maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
-seo-title: Facturering voor datafeedkopers
+seo-description: Audience Marketplace data buyers agree to report all ad impressions served using traits contained in the data feed priced on a cost per thousand ad impressions (CPM) basis. CPM usage is due on the 5th day of each calendar month and includes data for previous month. Flat fee subscribers do not need to report usage.
+seo-title: Billing for Data Feed Buyers
 solution: Audience Manager
 title: Facturering voor datafeedkopers
 keywords: Rapportage op segmentniveau, segmentniveau, segmentniveau
 uuid: d7236667-282b-4160-9909-579721af4016
 feature: Audience Marketplace
 exl-id: 401cf3be-fa84-4654-936e-e2871fef0be9
-translation-type: tm+mt
 source-git-commit: 88ed0b28fdf5dc03c8a878529d65b4bc844ea6c9
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 1%
+source-wordcount: '2002'
+ht-degree: 0%
 
 ---
 
 # Facturering voor datafeedkopers {#billing-for-data-feed-buyers}
 
-Kopers van gegevens van Audience Marketplace komen overeen alle advertenties te melden die zijn gediend met gebruik van de kenmerken in de gegevensinvoer die is geprijsd op basis van een kostprijs per duizend en indrukkingen ([!DNL CPM]). [!DNL CPM] het gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
+Kopers van Audience Marketplace-gegevens stemmen ermee in alle advertenties te melden die zijn gediend met gebruik van de kenmerken in de gegevenstoevoer die zijn geprijsd op een prijs per duizend en indrukkingen ([!DNL CPM]). [!DNL CPM] het gebruik is verschuldigd op de vijfde dag van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
 
 <br>
 
-## CPM-gebruik {#report-cpm-usage} rapporteren
+## Hoe te om CPM Gebruik te melden {#report-cpm-usage}
 
 <!-- t_marketplace_report_cpm_usage.xml -->
 
-[!UICONTROL Audience Marketplace] kopers van gegevens komen overeen alle aangebrachte en gepreste indrukken te melden aan de hand van de kenmerken in de gegevenstoevoer tegen een prijs per duizend en op basis van indrukken ( [!DNL CPM] ) . [!DNL CPM] het gebruik is verschuldigd op de 5 dagen van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
+[!UICONTROL Audience Marketplace] kopers van gegevens komen overeen alle gebruikte indrukken te melden met behulp van de kenmerken in de gegevenstoevoer tegen een prijs per duizend en indrukkingen ([!DNL CPM]). [!DNL CPM] het gebruik is verschuldigd op de 5 dagen van elke kalendermaand en omvat gegevens voor de vorige maand. Abonnees met vaste kosten hoeven het gebruik niet te melden.
 
-[!UICONTROL Audience Marketplace] biedt twee manieren om  [!DNL CPM] gebruik te melden:
+[!UICONTROL Audience Marketplace] biedt twee manieren om te rapporteren [!DNL CPM] gebruik:
 
-* **Rapportage** op segmentniveau: Dit is de aanbevolen methode voor  [!DNL CPM] gebruiksrapportage. Wanneer u [!DNL CPM] gebruik op segmentniveau rapporteert, wordt de gegevens input-vlakke rapporteringssectie automatisch ingevuld met de overeenkomstige gebruiksbedragen, die op de algoritmen worden gebaseerd die in [Kostentoerekening voor de Diefsen van Gegevens CPM worden beschreven ](#cost-attribution).
-* **Rapportage** op het niveau van gegevenstoevoer: deze methode vereist u om het  [!DNL CPM] gebruik voor elke gegevensvoer individueel te melden, die op de algoritmen wordt gebaseerd die in de Attributie van de  [Kosten voor de Dichtheid](#cost-attribution) van CPM- Gegevens worden beschreven. Deze methode is echter lastiger en vatbaarder voor fouten dan rapportage op segmentniveau.
+* **Rapportage op segmentniveau**: dit wordt aanbevolen [!DNL CPM] de methode voor gebruiksrapportage. Wanneer u rapporteert [!DNL CPM] gebruik op segmentniveau, wordt de gegevens input-vlakke rapporteringssectie automatisch ingevuld met de overeenkomstige gebruiksbedragen, die op de algoritmen worden gebaseerd die in [Kostentoerekeningswaarde voor CPM-gegevensfeeds](#cost-attribution).
+* **Rapportage op het niveau van gegevenstoevoer**: deze methode vereist dat u de [!DNL CPM] gebruik voor elke gegevensinvoer, op basis van de in [Kostentoerekeningswaarde voor CPM-gegevensfeeds](#cost-attribution). Deze methode is echter lastiger en vatbaarder voor fouten dan rapportage op segmentniveau.
 
-<br> 
+<br>
 
-## CPM-gebruik rapporteren op segmentniveau {#segment-level-report}
+## CPM-gebruik op segmentniveau rapporteren {#segment-level-report}
 
-Het [!UICONTROL Segment Usage] lusje staat u toe om segment-vlakke gebruik te melden, terwijl het tonen van de segmenten die door de bestemmingen worden gegroepeerd zij aan in kaart worden gebracht.
+De [!UICONTROL Segment Usage] het lusje staat u toe om segment-vlakke gebruik te melden, terwijl het tonen van de segmenten die door de bestemmingen worden gegroepeerd zij aan in kaart worden gebracht.
 
-Na het melden van [!DNL CPM] gebruik op segmentniveau, [!UICONTROL Audience Marketplace] wijst automatisch de overeenkomstige gegevensvoer het correcte gebruik toe, dat op [Kostenattributie voor de Diefsen van Gegevens CPM](#cost-attribution) wordt gebaseerd.
+Na rapportage [!DNL CPM] gebruik op segmentniveau; [!UICONTROL Audience Marketplace] wijst automatisch het juiste gebruik toe aan de overeenkomstige gegevensfeeds, gebaseerd op de [Kostentoerekeningswaarde voor CPM-gegevensfeeds](#cost-attribution).
 
-[!DNL CPM] gebruik op segmentniveau rapporteren:
+Rapport [!DNL CPM] gebruik op segmentniveau:
 
 1. Ga naar **[!UICONTROL Audience Marketplace > Payables]**.
-1. Selecteer het tabblad **[!UICONTROL Segment Usage]**.
-1. Vul het gebruik voor uw segmenten in. U kunt de [!UICONTROL Search] doos gebruiken om de segmenten te filtreren als u slechts gebruik voor sommige van hen moet melden.
+1. Selecteer **[!UICONTROL Segment Usage]** tab.
+1. Vul het gebruik voor uw segmenten in. U kunt de [!UICONTROL Search] doos om de segmenten te filtreren als u slechts gebruik voor sommige van hen moet melden.
 1. Klik op **[!UICONTROL Edit Segments Usage]**.
-1. Voer de [!DNL CPM] gebruikshoeveelheid in de [!UICONTROL Usage] kolom in.
-1. Klik **[!UICONTROL Save]** wanneer u wordt gedaan en herzie de bevestigingsdialoog.
+1. Voer de [!DNL CPM] gebruiksbedrag in de [!UICONTROL Usage] kolom.
+1. Klikken **[!UICONTROL Save]** als u klaar bent en het bevestigingsvenster bekijkt.
 
    ![segmentgebruik bevestigen](assets/confirm-segment-usage.png)
 
@@ -60,58 +59,58 @@ Zie ook onze videodemonstratie van hoe u segment-vlakke gebruik kunt melden:
 
  
 
-## CPM-gebruik op gegevensdoorvoerniveau rapporteren {#feed-level-report}
+## CPM-gebruik rapporteren op het niveau van gegevensfeed {#feed-level-report}
 
-Rapportage op het niveau van gegevenstoevoer is lastiger en vatbaarder voor fouten, omdat u het [!DNL CPM]-gebruik voor elke gegevensfeed afzonderlijk moet berekenen. Wij adviseren dat u [CPM Gebruik op het Niveau van het Segment ](#segment-level-report) in plaats daarvan meldt.
+Rapportage op het niveau van gegevensfeed is lastiger en vatbaarder voor fouten, omdat u de gegevens afzonderlijk moet berekenen [!DNL CPM] gebruik voor elke gegevensinvoer. We raden u aan [CPM-gebruik op segmentniveau rapporteren](#segment-level-report) in plaats daarvan.
 
-[!DNL CPM] gebruik op segmentniveau rapporteren:
+Rapport [!DNL CPM] gebruik op segmentniveau:
 
 1. Ga naar **[!UICONTROL Audience Marketplace > Payables]**.
-2. Selecteer het tabblad **[!UICONTROL Feed Usage]**.
-3. Gebruik de doos [!UICONTROL Search] om de gegevensvoer te filtreren en degenen te identificeren die u gebruik voor moet melden.
+2. Selecteer **[!UICONTROL Feed Usage]** tab.
+3. Gebruik de [!UICONTROL Search] om de gegevensfeeds te filteren en de feeds te identificeren waarvoor u gebruik moet melden.
 4. Klik op **[!UICONTROL Edit Feeds Usage]**.
-5. Bereken het [!DNL CPM] gebruik voor elke gegevensvoer die op [KostenAttributie voor de Dichtheid van Gegevens CPM ](#cost-attribution) wordt gebaseerd, en ga het in [!UICONTROL Usage] kolom in.
-6. Klik **[!UICONTROL Save]** wanneer u wordt gedaan en herzie de bevestigingsdialoog.
+5. De [!DNL CPM] gebruik voor elke gegevensinvoer op basis van de [Kostentoerekeningswaarde voor CPM-gegevensfeeds](#cost-attribution)en voert u deze in in het dialoogvenster [!UICONTROL Usage] kolom.
+6. Klikken **[!UICONTROL Save]** als u klaar bent en het bevestigingsvenster bekijkt.
 
    ![bevestiging van het gebruik van diervoeders](assets/confirm-feed-usage.png)
 
 7. Klik op **[!UICONTROL Confirm]**.
 
-<br> 
+<br>
 
 ## Bulkrapportage
 
-Als u fouten en overhead tijdens de rapportage van [!DNL CPM]-gebruik wilt verminderen, kunt u de optie voor bulkrapportage gebruiken om een [!DNL CSV]-bestand met de gegevensfeeds en -segmenten te downloaden, het gebruik in te vullen en het bestand weer te uploaden naar [!DNL Audience Manager]. U kunt bulkrapportering gebruiken om zowel voer als segmentgebruik te melden.
+Fouten en overhead tijdens de rapportage verminderen [!DNL CPM] gebruik, kunt u de bulkrapporteringsoptie gebruiken om een [!DNL CSV] bestand met de gegevensfeeds en -segmenten, vult het gebruik in en uploadt het terug naar [!DNL Audience Manager]. U kunt bulkrapportering gebruiken om zowel voer als segmentgebruik te melden.
 
-Het gebruik van [!DNL CPM] bulksgewijs bijwerken:
+Bijwerken [!DNL CPM] bulkgebruik:
 
 1. Ga naar **[!UICONTROL Audience Marketplace > Payables]**.
-1. Selecteer het tabblad **[!UICONTROL Feed Usage]** of **[!UICONTROL Segment Usage]**, afhankelijk van het type rapportage dat u wilt bijwerken.
-1. Klik op **[!UICONTROL Edit Feeds Usage]** of **[!UICONTROL Edit Segments Usage]**.
-1. Klik **[!UICONTROL download the current usage]** om ervoor te zorgen u een geldig Csv- dossier gebruikt.
+1. Selecteer **[!UICONTROL Feed Usage]** of **[!UICONTROL Segment Usage]** , afhankelijk van het type rapportage dat u wilt bijwerken.
+1. Klikken **[!UICONTROL Edit Feeds Usage]** of **[!UICONTROL Edit Segments Usage]**.
+1. Klikken **[!UICONTROL download the current usage]** om ervoor te zorgen dat u een geldig CSV-bestand gebruikt.
 1. Open het bestand op uw computer en vul het gebruiksrapport in.
-1. Klik **[!UICONTROL Choose a CSV file]** om het bijgewerkte gebruiksrapport te uploaden.
+1. Klikken **[!UICONTROL Choose a CSV file]** om het bijgewerkte gebruiksrapport te uploaden.
 
    ![usage-report-csv](assets/usage-report-csv.png)
 
 1. [!DNL Audience Manager] valideert het bestand zodra u het uploadt en vraagt u of het fouten in het bestand detecteert.
 
-<br> 
+<br>
 
 ### Fouten bij validatie van bulkrapportage
 
 | Foutbericht | Beschrijving | Repareren |
 | ------------- | -------------| -----|
-| Ongeldige invoer | [!DNL Audience Manager] heeft een wijziging in het  [!DNL CSV] bestandsschema gedetecteerd, zoals ontbrekende kolommen of wijzigingen in kolomtitels. | Wijzig de tabelstructuur niet. |
-| Niet gevonden | Voor [!UICONTROL Segment Level Reporting] kon [!DNL Audience Manager] niet de combinatie [!UICONTROL Segment ID] en [!UICONTROL Destination ID] identificeren. Voor [!UICONTROL Feed Level Reporting] kon [!DNL Audience Manager] niet de combinatie [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], en [!UICONTROL Use Case] identificeren. | Controleer voor [!UICONTROL Segment Level Reporting] de geldigheid van de combinatie [!UICONTROL Segment ID] en [!UICONTROL Destination ID]. Controleer voor [!UICONTROL Feed Level Reporting] de geldigheid van de combinatie [!UICONTROL Data Provider Name], [!UICONTROL Feed Name] en [!UICONTROL Use Case]. |
+| Ongeldige invoer | [!DNL Audience Manager] een wijziging in de [!DNL CSV] bestandsschema, zoals ontbrekende kolommen of wijzigingen in kolomtitels. | Wijzig de tabelstructuur niet. |
+| Niet gevonden | Voor [!UICONTROL Segment Level Reporting], [!DNL Audience Manager] kan de [!UICONTROL Segment ID] en [!UICONTROL Destination ID] combinatie. Voor [!UICONTROL Feed Level Reporting], [!DNL Audience Manager] kan de [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], en [!UICONTROL Use Case] combinatie. | Voor [!UICONTROL Segment Level Reporting]de geldigheid van de [!UICONTROL Segment ID] en [!UICONTROL Destination ID] combinatie. Voor [!UICONTROL Feed Level Reporting]de geldigheid van de [!UICONTROL Data Provider Name], [!UICONTROL Feed Name], en [!UICONTROL Use Case] combinatie. |
 | Dubbele records gevonden | [!DNL Audience Manager] dubbele records met verschillende afbeeldingswaarden gedetecteerd. | Herzie het rapport en zorg ervoor u niet verschillende gebruikswaarden voor het zelfde gegeven of segment meldt. |
-| Waarden niet ondersteund | [!DNL Audience Manager] gedetecteerde niet-numerieke waarden in de  [!DNL Audience Manager] kolom. | Controleer het rapport en zorg ervoor u numerieke waarden in [!DNL Audience Manager] kolom slechts ingaat. |
-| Kopteksten voor verplichte velden ontbreken | [!DNL Audience Manager] ontbrekende tabelkoppen voor verplichte velden gevonden. Voor [!UICONTROL Segment Level Reporting] zijn de verplichte velden: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Voor [!UICONTROL Feed Level Reporting] zijn de verplichte velden: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name], [!UICONTROL Use Case] | Controleer het rapport en zorg ervoor dat er niet met de tabelkoppen is geknoeid. |
+| Waarden niet ondersteund | [!DNL Audience Manager] gedetecteerde niet-numerieke waarden in de [!DNL Audience Manager] kolom. | Controleer het rapport en zorg ervoor dat u alleen numerieke waarden opgeeft in het dialoogvenster [!DNL Audience Manager] kolom. |
+| Kopteksten voor verplichte velden ontbreken | [!DNL Audience Manager] ontbrekende tabelkoppen voor verplichte velden gevonden. Voor [!UICONTROL Segment Level Reporting]De verplichte velden zijn: [!UICONTROL Segment ID], [!UICONTROL Destination ID]. Voor [!UICONTROL Feed Level Reporting]De verplichte velden zijn: [!UICONTROL Data Provider Name], [!UICONTROL Data Feed Name],  [!UICONTROL Use Case] | Controleer het rapport en zorg ervoor dat er niet met de tabelkoppen is geknoeid. |
 
 >[!NOTE]
->Het verwijderen van rijen uit het [!DNL CSV] gebruiksrapport heeft geen effect op het bestaande gebruiksrapport. [!DNL Audience Manager] alleen de velden verwerkt die in het rapport zijn opgenomen.
+>Rijen verwijderen uit de [!DNL CSV] het gebruiksrapport heeft geen invloed op het bestaande gebruiksrapport. [!DNL Audience Manager] alleen de velden verwerkt die in het rapport zijn opgenomen.
 
-<br> 
+<br>
 
 ## [!DNL CPM] Beste praktijken melden
 
@@ -126,7 +125,7 @@ Het gebruik van [!DNL CPM] bulksgewijs bijwerken:
   <tr> 
    <td colname="col1"> <p><b>Het totale aantal afdrukken altijd rapporteren</b> </p> </td> 
    <td colname="col2"> <p>Voor CPM-schoktotalen: </p>
-   <p> Rapporteer het totale aantal indrukken, zonder decimalen te gebruiken. De Audience Manager berekent automatisch CPM dat op het totale aantal wordt gebaseerd u rapporteert.</p><p>Als u 1.234.567 beelden moet melden, rapporteer het precies zo. U te hoeven niet om het totale aantal beelden door 1.000 te verdelen om CPM te berekenen.</p><p>De reizen die worden gebruikt om uw Web of toepassingsinhoud (de Optimalisering van de Inhoud) te optimaliseren gebruikend hulpmiddelen zoals Adobe Target of een bestemming van de Analyse bijdragen niet tot de totalen van het Gebruik voor CPM plannen. Gegevensleveranciers worden doorgaans gecompenseerd voor de optimalisatie van inhoud met behulp van platte vergoedingsplannen.</p><p>Zie <a href="#cost-attribution">Kostentoerekening voor CPM Gegevensvoer</a> voor meer informatie. </p> </td>
+   <p> Rapporteer het totale aantal indrukken, zonder decimalen te gebruiken. De Audience Manager berekent automatisch CPM dat op het totale aantal wordt gebaseerd u rapporteert.</p><p>Als u 1.234.567 beelden moet melden, rapporteer het precies zo. U te hoeven niet om het totale aantal beelden door 1.000 te verdelen om CPM te berekenen.</p><p>De reizen die worden gebruikt om uw Web of toepassingsinhoud (de Optimalisering van de Inhoud) te optimaliseren gebruikend hulpmiddelen zoals Adobe Target of een bestemming van de Analyse bijdragen niet tot de totalen van het Gebruik voor CPM plannen. Gegevensleveranciers worden doorgaans gecompenseerd voor de optimalisatie van inhoud met behulp van platte vergoedingsplannen.</p><p>Zie <a href="#cost-attribution">Kostentoerekeningswaarde voor CPM-gegevensfeeds</a> voor meer informatie . </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Aankruisen aan het maandelijkse rapporteringsinterval</b> </p> </td> 
@@ -135,42 +134,42 @@ Het gebruik van [!DNL CPM] bulksgewijs bijwerken:
  </tbody> 
 </table>
 
-<br> 
+<br>
 
 ## Kostentoerekeningswaarde voor CPM-gegevensfeeds {#cost-attribution}
 
-In [!UICONTROL Audience Marketplace] moet u zelf-rapportbedragen elke maand, voor elk van uw segmenten. Wij adviseren rapporterend [!DNL CPM] gebruik op segmentniveau, zodat de kostentoerekening automatisch wordt gedaan.
+In [!UICONTROL Audience Marketplace] u moet de bedragen van de zelfrapportering elke maand, voor elk van uw segmenten. We raden aan om rapportage uit te voeren [!DNL CPM] gebruik op segmentniveau, zodat de kostentoerekening automatisch plaatsvindt.
 
 <!-- marketplace_cpm_billing.xml -->
 
-### Factureringsoverzicht {#billing-summary}
+### Overzicht van facturering {#billing-summary}
 
-U moet [!DNL CPM] gegevens indienen voer tussen de 1e en 5e dagen van elke kalendermaand. Om dit correct te doen, adviseren wij dat u [Gebruik CPM op het Niveau van het Segment ](#segment-level-report) rapporteert.
+U moet [!DNL CPM] de hoeveelheden gegevens die tijdens de eerste tot en met de vijfde dag van elke kalendermaand worden ingevoerd. Om dit correct te doen, adviseren wij u [CPM-gebruik op segmentniveau rapporteren](#segment-level-report).
 
 >[!TIP]
->Wanneer u [!DNL CPM] gebruik op segmentniveau rapporteert, wordt de rapportsectie op het niveau van het gegevensvoer automatisch ingevuld met de overeenkomstige gebruiksbedragen.
+>Wanneer u rapporteert [!DNL CPM] gebruik op segmentniveau, wordt de gegevens input-vlakke rapporteringssectie automatisch ingevuld met de overeenkomstige gebruiksbedragen.
 
-Als u [!UICONTROL Report CPM Usage at Data Feed Level] nodig hebt, moet u alle indrukken individueel compileren die voor elk voer in de vorige kalendermaand worden geleverd, en hen melden volgens de factureringstoewijzing die in dit artikel wordt beschreven.
+Moet u [!UICONTROL Report CPM Usage at Data Feed Level], moet u alle indrukkingen die in de voorafgaande kalendermaand voor elk diervoeder zijn geleverd individueel compileren, en deze rapporteren volgens de in dit artikel beschreven factureringstoewijzing.
 
-Nadat u [!DNL CPM] aantal voor de vorige kalendermaand meldt, [!DNL Adobe] zal het volgende doen:
+Na uw melding [!DNL CPM] nummer van de vorige kalendermaand; [!DNL Adobe] doet het volgende:
 
-* Maak een factuur en factureer u op basis van de [!DNL CPM]-snelheid voor elke geabonneerde gegevensfeed.
-* Betaal verschuldigde kosten voor gegevensleveranciers (verkopers) op basis van uw gerapporteerde gebruik van [!DNL CPM].
+* Maak een factuur op basis van de [!DNL CPM] tarief voor elke geabonneerde gegevensvoer.
+* Betaalkosten voor gegevensaanbieders (verkopers) op basis van je berichtgeving [!DNL CPM] gebruik.
 
 >[!IMPORTANT]
 >
 >Als koper moeten alle gerapporteerde totalen van de indruk waar en nauwkeurig zijn. Als u op de vijfde dag van elke maand geen schattingstotalen rapporteert, moet u totalen voor de niet-aangegeven maand in de volgende maand opnemen.
 
-<br> 
+<br>
 
-## Afbeeldingen toewijzen op voederniveau op basis van de regels voor de kwalificatie van het spoor {#assign-impressions}
+## Afbeeldingen toewijzen op voederniveau op basis van de regels voor de handelskwalificatie {#assign-impressions}
 
-Met het [!UICONTROL Activation]-gebruiksgeval kunt u kenmerken gebruiken in de corresponderende gegevensfeed om segmenten te maken in [Segment Builder](../../../features/segments/segment-builder.md) en die segmenten toe te wijzen aan een doel. Met de Booleaanse operatoren [!UICONTROL AND], [!UICONTROL OR] en [!UICONTROL NOT] kunt u de voorwaarden voor kenmerk en segmentkwalificatie instellen.
+De [!UICONTROL Activation] Met de optie use case kunt u eigenschappen gebruiken in de bijbehorende gegevensfeed om segmenten te maken in [Segment Builder](../../../features/segments/segment-builder.md) en wijs die segmenten aan een bestemming toe. Booleaanse operatoren [!UICONTROL AND], [!UICONTROL OR], en [!UICONTROL NOT] laat u de voorwaarden voor eigenschap en segmentkwalificatie plaatsen.
 
-Wanneer u [CPM Gebruik op het Niveau van de Invoer van Gegevens ](#feed-level-report) rapporteert, moet u beelden proportioneel voor elke gegevensvoer toewijzen, volgens [!DNL Boolean] exploitanten die in de regels van de de vakkwalificatie worden gebruikt. In de volgende tabel wordt aangegeven hoe u afbeeldingen op de juiste wijze kunt toewijzen door de Booleaanse regel of het type kenmerk.
+Wanneer u [CPM-gebruik rapporteren op het niveau van gegevensfeed](#feed-level-report), moet u de afbeeldingen proportioneel toewijzen voor elke gegevensinvoer, afhankelijk van de [!DNL Boolean] de exploitanten die in de kwalificatieregels voor de eigenschap worden gebruikt. In de volgende tabel wordt aangegeven hoe u afbeeldingen op de juiste wijze kunt toewijzen door de Booleaanse regel of het type kenmerk.
 
 >[!TIP]
->[Het Gebruik van CPM van het rapport op het Niveau van het Segment](#segment-level-report) om het niveau van de gegevensvoer te hebben rapportering automatisch door Audience Manager wordt gedaan.
+>[CPM-gebruik op segmentniveau rapporteren](#segment-level-report) de gegevensdoorvoerniveaus automatisch door de Audience Manager laten rapporteren.
 
 <table id="table_BF00FE6740D2459DAFA62F2478492586"> 
  <thead> 
@@ -182,7 +181,7 @@ Wanneer u [CPM Gebruik op het Niveau van de Invoer van Gegevens ](#feed-level-re
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> AND</span> </p> </td> 
-   <td colname="col2"> <p>Pas 100% van de geleverde beeldtotalen op alle leverancierstkenmerken in een op regels gebaseerd segment toe dat een Booleaanse voorwaarde <span class="wintitle"> EN</span> gebruikt. </p> </td> 
+   <td colname="col2"> <p>Pas 100% van de geleverde beeldtotalen op alle leverancierseigenschappen in een op regels gebaseerd segment toe dat een Booleaanse waarde gebruikt <span class="wintitle"> EN</span> voorwaarde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> OF</span> </p> </td> 
@@ -190,87 +189,87 @@ Wanneer u [CPM Gebruik op het Niveau van de Invoer van Gegevens ](#feed-level-re
   </tr>
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> NOT</span> </p> </td> 
-   <td colname="col2"> <p>Pas 100% van de geleverde impressietotalen toe op alle providereigenschappen in een op regels gebaseerd segment dat een Booleaanse voorwaarde <span class="wintitle"> NOT</span> gebruikt. </p> </td> 
+   <td colname="col2"> <p>Pas 100% van de geleverde beeldtotalen op alle leverancierseigenschappen in een op regels gebaseerd segment toe dat een Booleaanse waarde gebruikt <span class="wintitle"> NOT</span> voorwaarde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Algoritmische segmenten </p> </td> 
-   <td colname="col2"> <p>Pas 100% van de geleverde impressietotalen toe op alle providerfeeds in een segment met algoritmische eigenschappen. </p> </td> 
+   <td colname="col2"> <p>Pas 100% van de geleverde opmaaktotalen toe op alle providerfeeds in een segment met algoritmische kenmerken. </p> </td> 
   </tr>
  </tbody>
 </table>
 
-<br> 
+<br>
 
 ## Factureringsvoorbeelden {#billing-examples}
 
-In de onderstaande voorbeelden wordt geïllustreerd hoe [!DNL CPM] de gebruikstoewijzing op datafeed-niveau wordt uitgevoerd.
+De onderstaande voorbeelden zijn bedoeld om te illustreren hoe [!DNL CPM] de toewijzing van het gebruik gebeurt op het niveau van de gegevenstoevoer.
 
 >[!IMPORTANT]
->Wij adviseren dat u [CPM-verbruik op Segmentniveau](#segment-level-report) in plaats daarvan rapporteren, om dit proces automatisch te laten uitvoeren.
+>We raden u aan [CPM-gebruik op segmentniveau rapporteren](#segment-level-report) in plaats daarvan, om dit proces automatisch te laten doen.
 
-Laten we het volgende scenario overwegen:
+Denk aan het volgende scenario:
 
 ![factureringsvoorbeelden](assets/billing-examples.png)
 
-<br> 
+<br>
 
 ### Zaak 1: Segmenten met en kwalificatieregels
 
-Dit segment bevat 3 eigenschappen van afzonderlijke dataproviders. Aangezien de segmentkwalificatie is gebaseerd op een [!UICONTROL AND] voorwaarde, moeten bezoekers de eigenschappen van alle drie feeds realiseren om in aanmerking te komen voor het segment.
+Dit segment bevat 3 eigenschappen van afzonderlijke gegevensleveranciers. Aangezien segmentkwalificatie is gebaseerd op een [!UICONTROL AND] voorwaarde is dat bezoekers de kenmerken van alle drie de feeds moeten realiseren om in aanmerking te komen voor het segment .
 
 ![](assets/billing-segment-and.png)
 
-Met een [!UICONTROL AND] voorwaarde, moet u 100% van de impressies toewijzen die tijdens de maand aan alle drie gegevensleveranciers worden ontvangen. In de sectie [!UICONTROL Audience Marketplace > Payables] krijgt elke provider 1000.000 impressies.
+Met een [!UICONTROL AND] voorwaarde, moet u 100% van de indrukken toewijzen die tijdens de maand aan alle drie gegevensleveranciers worden ontvangen. In de [!UICONTROL Audience Marketplace > Payables] in deze sectie, crediteert u elke provider met 1.000.000 afbeeldingen.
 
-Dit voorbeeld is van toepassing op segmenten die [!DNL Boolean] [!UICONTROL NOT] operatoren gebruiken of voor segmenten die algoritmische eigenschappen bevatten.
+Dit voorbeeld is van toepassing op segmenten die [!DNL Boolean] [!UICONTROL NOT] operatoren of voor segmenten die algoritmische kenmerken bevatten.
 
-<br> 
+<br>
 
 ### Zaak 2: Segmenten met OF kwalificatieregels
 
-Dit segment bevat 3 eigenschappen van afzonderlijke dataproviders. Aangezien de segmentkwalificatie is gebaseerd op een [!UICONTROL OR] voorwaarde, moeten bezoekers minstens één van de drie eigenschappen realiseren om in aanmerking te komen voor het segment.
+Dit segment bevat 3 eigenschappen van afzonderlijke gegevensleveranciers. Aangezien segmentkwalificatie is gebaseerd op een [!UICONTROL OR] voorwaarde is dat bezoekers ten minste één van de drie kenmerken moeten realiseren om voor het segment in aanmerking te komen .
 
-We kunnen niet zien welke eigenschap verantwoordelijk is voor een impressie, omdat de kwalificatie gebaseerd is op een [!UICONTROL OR] voorwaarde. Als gevolg hiervan crediteert u in de sectie [!UICONTROL Audience Marketplace > Payables] elke provider een gewogen toewijzing van de totale impressies, op basis van de populatie van eigenschappen.
+We kunnen niet zien welk kenmerk de indruk wekt dat de kwalificatie gebaseerd is op een [!UICONTROL OR] voorwaarde. Dientengevolge, in [!UICONTROL Audience Marketplace > Payables] afdeling u crediteert elke leverancier met een gewogen toerekening van de totale indrukken, op basis van de populatie van trekkers.
 
 ![factureringssegment-of](assets/billing-segment-or.png)
 
-<br> 
+<br>
 
-### Zaak 3: Segmenten met gebruiksscenario’s voor modellering en activering
+### Zaak 3: Segmenten met Gebruiksscenario&#39;s voor modellering en activering
 
-In dit voorbeeld wordt attributie beschreven op basis van twee gebruiksscenario&#39;s voor datafeed: Modellering en Activering. In het voorbeeld kijken we naar twee dataproviders, met de volgende informatie:
+In dit voorbeeld wordt de attributie beschreven op basis van twee Data Feed-gebruiksgevallen - Modellering en activering. In het voorbeeld bekijken we twee gegevensleveranciers, met de volgende informatie:
 
-![datafeed](assets/feed-use-cases.png)
+![gegevensinvoer](assets/feed-use-cases.png)
 
-In de onderstaande tabel bevat segment X twee eigenschappen, T1 en T2, met de segmentregel T1 OF T2, waarbij:
+In de onderstaande tabel bevat segment X twee kenmerken, T1 en T2, met segmentregel T1 OF T2, waarbij:
 
-* T1 is een eigenschap van gegevensfeed A;
-* T2 is een algoritmische eigenschap gemodelleerd naar eigenschappen van derden van Data Feed A en Data Feed B.
+* T1 een kenmerk is van gegevensfeed A;
+* T2 is een algoritmische eigenschap die is gemodelleerd na derderdekenmerken van Data Feed A en Data Feed B.
 
-Het segment wordt in kaart gebracht aan een bestemming en 1.000.000 impressies zijn ingegaan voor dit segment in een maand, gebruikend [Segment-Vlakke Rapportering](#segment-level-report).
+Het segment wordt in kaart gebracht aan een bestemming en 1.000.000 beelden zijn ingegaan voor dit segment in een maand, gebruikend [Rapportage op segmentniveau](#segment-level-report).
 
-Van deze 1.000.000 impressies:
+Van deze 1.000.000 beelden:
 
-* T1 vertegenwoordigt 40% van de segmentpopulatie, wat overeenkomt met 400.000 impressies voor Feed A.
-* T2 is goed voor 60% van de segmentpopulatie, wat overeenkomt met 600.000 impressies voor Feed A en Feed B.
+* T1 vertegenwoordigt 40% van de segmentpopulatie, wat neerkomt op 400.000 indrukkingen voor Feed A.
+* T2 is goed voor 60% van de segmentpopulatie, wat overeenkomt met 600.000 indrukkingen voor Feed A en Feed B.
 
-Op datafeed-niveau wordt de manier waarop de impressies worden toegewezen bepaald door:
+Op het niveau van de gegevensvoer, is de manier de indrukkingen worden toegewezen:
 
-* Gegevensfeed A ontvangt 600.000 impressies van eigenschap T2 (gemodelleerd op eigenschappen van Data Feed A en Data Feed B, beide ontvangen de impressies) en 400.000 impressies van eigenschap T1 (een eigenschap van Data Feed A), in totaal 1.000.000 pressies.
-* Gegevensfeed B ontvangt 600.000 impressies van eigenschap T2 (zie toelichting hierboven) en 0 impressies van eigenschap T1.
+* Gegevensfeed A ontvangt 600.000 impressies van kenmerk T2 (dat is gebaseerd op kenmerken van gegevens Feed A en gegevensfeed B, zodat beide de indrukken ontvangen) en 400.000 impressies van kenmerk T1 (dat een kenmerk is van gegevensfeed A), in totaal 1.000.000 impressies pressies.
+* Gegevensfeed B ontvangt 600.000 impressies van kenmerk T2 (zie bovenstaande toelichting) en 0 impressies van kenmerk T1.
 
-De uitsplitsing naar gegevenstoevoer en gebruikscase is als volgt:
+De uitsplitsing in één oogopslag per gegevenstoevoer en gebruikscase is als volgt:
 
-![uitsplitsing van de feed](assets/feed-breakdown-alt.png)
+![uitsplitsing naar diervoeder](assets/feed-breakdown-alt.png)
 
 >[!NOTE]
 >
->Voor het modelleringsgebruiksgeval, zou u slechts CPM gebruik na activering moeten melden. Als u alleen een model uitvoert, maar niet activeert, is er geen gebruiksrapportage vereist.
+>Voor het modelleringsgebruik, zou u CPM gebruik bij activering slechts moeten melden. Als u alleen een model uitvoert maar dit niet activeert, is er geen gebruiksrapportage vereist.
 
-<br> 
+<br>
 
-## Facturering en impressie-toewijzing voor Platte feeds Data {#billing-flat-fee}
+## Facturerings- en impressietoewijzing voor gegevens met vaste kosten {#billing-flat-fee}
 
-Bij een vaste vergoeding voor de gegevensinvoer wordt elke maand een vast bedrag in rekening gebracht, ongeacht wanneer het abonnement wordt gestart of hoeveel impressies u gebruikt. Tarieven worden niet pro rata berekend voor maandgebruik of intervallen. Net als bij CPM-facturering zal Adobe een factuur genereren en u factureren tegen het maandelijkse, forfaitaire tarief voor uw geabonneerde datafeeds.
+Bij een vaste vergoeding voor de gegevens in de feed wordt u elke maand een vast bedrag aangerekend, ongeacht wanneer het abonnement wordt gestart of hoeveel indrukken u gebruikt. De kosten worden niet geprorgeerd voor gedeeltelijk maandgebruik of intervallen. Net als bij CPM-facturering zal Adobe een factuur genereren en u factureren tegen het maandelijkse, vaste tarief voor uw geabonneerde gegevensfeeds.
 
-Stel dat je bepaalde eigenschappen in een voer hebt ingeschakeld midden in de maand. U krijgt nog steeds het volledige maandelijkse tarief, ongeacht wanneer u het abonnement of geactiveerde specifieke eigenschappen hebt gestart.
+Stel bijvoorbeeld dat je bepaalde eigenschappen in een voer in het midden van de maand wilde inschakelen. Je krijgt nog steeds de volledige, maandelijkse factuur, ongeacht wanneer je het abonnement hebt gestart of specifieke aanbiedingen hebt geactiveerd.

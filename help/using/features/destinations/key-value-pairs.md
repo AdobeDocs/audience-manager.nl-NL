@@ -3,12 +3,11 @@ description: A [!DNL key-value pair] bestaat uit [!DNL related elements]. Een sl
 solution: Audience Manager
 title: Standaard en serieel [!DNL Key-value pairs]
 uuid: 43789419-5b3f-4e62-b2e0-2722340bdd41
-feature: Grondbeginselen van bestemming
+feature: Destination Basics
 exl-id: b37c829b-66be-4c31-8198-bc032371279e
-translation-type: tm+mt
 source-git-commit: 0dfe96a4644c61fb5bc22e4791bfd09c574dcf34
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 2%
 
 ---
@@ -27,10 +26,10 @@ Volledig gevormd, kon een basisreeks van zeer belangrijk-waardepaar als dit kijk
 
 ## Standaard en seriële sleutelwaardeparen {#standard-serial-key-value-pairs}
 
-Doelen accepteren sleutel-waardegegevens in *`standard`* of *`serialized`* formaat.
+Doelen accepteren sleutelwaardegegevens in *`standard`* of *`serialized`* gebruiken.
 
-* **Standaard sleutel-waarde paren:** formatteert bestemmingsgegevens in afzonderlijke zeer belangrijke - waardeparen. Elke toets wordt expliciet vermeld, zelfs wanneer deze opnieuw wordt gebruikt om een andere waarde te definiëren.
-* **Geserialiseerde sleutel-waarde paren:** Verzekert veelvoudige waarden in één enkel zeer belangrijk-waardepaar. In een geserialiseerd sleutel-waardepaar, scheidt een speciale indicator de waarden binnen de sleutel-waarde reeks.
+* **Standaard sleutelwaardeparen:** Hiermee maakt u doelgegevens op in afzonderlijke sleutelwaardeparen. Elke toets wordt expliciet vermeld, zelfs wanneer deze opnieuw wordt gebruikt om een andere waarde te definiëren.
+* **Geserialiseerde sleutel-waarde paren:** Verkleurt veelvoudige waarden in één enkel zeer belangrijk-waardepaar. In een geserialiseerd sleutel-waardepaar, scheidt een speciale indicator de waarden binnen de sleutel-waarde reeks.
 
 Zowel standaard als geserialiseerde sleutel-waarden kunnen enige of veelvoudige waarden bevatten. De volgende tabel bevat voorbeelden van standaardindelingen en indelingen voor seriële sleutels en waarden.
 
@@ -58,15 +57,15 @@ Zowel standaard als geserialiseerde sleutel-waarden kunnen enige of veelvoudige 
 
 ## Scheidingstekens en scheidingstekens {#delimiters-separators}
 
-De tekens die waarden binnen en tussen toetsen en waarden scheiden, worden *`delimiters`* en *`separators`* genoemd. Deze worden vooral belangrijk wanneer u segmenten naar een bestemming in een periodieke formaat verzendt. Met serienummering kunt u meerdere waarden doorgeven met één sleutel en sleutelwaardeparen combineren. Scheidingstekens en scheidingstekens worden als volgt gedefinieerd:
+De tekens die waarden binnen en tussen toetsen en waarden scheiden, worden ook wel *`delimiters`* en *`separators`*. Deze worden vooral belangrijk wanneer u segmenten naar een bestemming in een periodieke formaat verzendt. Met serienummering kunt u meerdere waarden doorgeven met één sleutel en sleutelwaardeparen combineren. Scheidingstekens en scheidingstekens worden als volgt gedefinieerd:
 
-* **Scheidingsteken tussen sleutel en waarde:** scheidt een sleutel en waarde binnen een sleutelwaardepaar.
-* **Sleutel-waarde delimiter:** Scheidt reeksen sleutel-waarde paren.
-* **Seriële scheidingslijn:** Scheidt meerdere waarden binnen sets met geserialiseerde sleutel-waardeparen.
+* **Scheidingsteken hoofdwaarde:** Scheidt een sleutel en een waarde binnen een zeer belangrijk-waardepaar.
+* **Scheidingsteken voor hoofdwaarden:** Hiermee scheidt u sets sleutelwaardeparen.
+* **Seriescheidingsteken:** Scheidt veelvoudige waarden binnen reeksen van geserialiseerde sleutel-waarde paren.
 
 ## Voorbeelden {#examples}
 
-Met [!UICONTROL Destination Builder] kunt u sleutel-waardegegevens op verscheidene verschillende manieren formatteren. Laten we eens kijken naar enkele voorbeelden van elk type.
+Met [!UICONTROL Destination Builder] U kunt sleutel-waardegegevens op verscheidene verschillende manieren formatteren. Laten we eens kijken naar enkele voorbeelden van elk type.
 
 <table id="table_C2FBDC887C8C4CC88B1B2A7CF8E2795F"> 
  <thead> 
@@ -89,7 +88,7 @@ Met [!UICONTROL Destination Builder] kunt u sleutel-waardegegevens op verscheide
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Meerdere sleutelwaardeparen</b>  (niet-serieel) </p> </td> 
+   <td colname="col1"> <p> <b>Meerdere sleutelwaardeparen</b> (niet-serieel) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 &amp; X = 2 &amp; Y = 3 &amp; Y = 4 </code> </p> </td> 
    <td colname="col3"> <p>Een set van meerdere sleutelwaardeparen die waarden doorgeven met afzonderlijke toetsensets. Het voorbeeld bevat de volgende elementen: </p> 
     <ul id="ul_7FB22A43B435463D9F209067FF2C3619"> 
@@ -111,7 +110,7 @@ Met [!UICONTROL Destination Builder] kunt u sleutel-waardegegevens op verscheide
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Meerdere sleutelwaardeparen</b>  (serieel) </p> </td> 
+   <td colname="col1"> <p> <b>Meerdere sleutelwaardeparen</b> (serieel) </p> </td> 
    <td colname="col2"> <p> <code> X = 1 ; 2 &amp; Y = 3 ; 4 </code> </p> </td> 
    <td colname="col3"> <p>Een set van meerdere sleutelwaardeparen die meerdere waarden doorgeven op afzonderlijke toetsen. Het voorbeeld bevat de volgende elementen: </p> 
     <ul id="ul_CB50133B2E944818B9F2A0586EF69774"> 
@@ -135,4 +134,4 @@ Geserialiseerde gegevensoverdracht draagt bij tot een efficiëntere werking omda
 
 ### Ondersteunde doelen
 
-In [!DNL Audience Manager], kunt u rangschikken en gegevens verzenden naar enkel ongeveer om het even welke bestemming u wilt werken met. Voordat u deze functie kunt gebruiken, moet u echter weten wat het doel [!DNL URL] is en waar u bepaalde vereiste of optionele macro&#39;s wilt plaatsen. Verkrijg de informatie over macroplaatsing van uw bestemmingspartner. Zie [Gedefinieerde doelmacro&#39;s](../../features/destinations/destination-macros.md#destination-macros-defined) voor meer informatie.
+In [!DNL Audience Manager], kunt u gegevens aan enkel om het even welke bestemming serialiseren en verzenden u wilt werken met. Nochtans, alvorens deze eigenschap te gebruiken, zult u de bestemming moeten kennen [!DNL URL] en waar u een aantal vereiste of optionele macro&#39;s wilt plaatsen. Verkrijg de informatie over macroplaatsing van uw bestemmingspartner. Zie [Gedefinieerde doelmacro&#39;s](../../features/destinations/destination-macros.md#destination-macros-defined) voor meer informatie .

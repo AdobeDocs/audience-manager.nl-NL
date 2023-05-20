@@ -208,7 +208,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 >* Als de gegevens in de [!DNL Google Ad Manager] het logboekdossier bevat misvormde timestamp, wij negeren de volledige rij.
 
 
-<br> 
+<br>
 
 ### Handelbare signalen van Adobe Advertising Cloud-, FlashTalk- en Sizmek- en serverlogboeken {#generic-logs-signals}
 

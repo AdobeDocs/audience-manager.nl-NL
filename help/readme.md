@@ -1,9 +1,8 @@
 ---
 source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
 workflow-type: tm+mt
-translation-type: tm+mt
 source-wordcount: '329'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 # Instructies
@@ -13,21 +12,21 @@ ht-degree: 1%
 ## Inhoudsopgave
 
 + `TOC.md` bij de wortel van de gebruikersgids verstrekt de organisatie van de onderwerpen die in de gids voor deze oplossing bevat zijn.
-+ Elke gebruikershandleiding heeft een eigen unieke `TOC.md`, waarin u alle pagina&#39;s/onderwerpen naar wens kunt bestellen.
++ Elke gebruikershandleiding heeft zijn eigen unieke `TOC.md`, waarin u alle pagina&#39;s/onderwerpen naar wens kunt ordenen.
 + De eerste pagina van alle gebruikershandleidingen is `overview.md`.
 
-## Handboek
+## Gebruikershandleiding
 
-+ De inleiding aan de gebruikersgids wordt genoemd `overview.md`
++ De inleiding tot de gebruikersgids wordt geroepen `overview.md`
 + Elk onderwerp in de gebruikersgids heeft zijn eigen afzonderlijke folder.
-   + Als er een onderwerp in de gids genoemd *Implementatie* is, is de overeenkomstige folder `/implementation`
+   + Als er een onderwerp in geroepen gids is *Implementatie*, de corresponderende directory is `/implementation`
 + Alle afbeeldingselementen worden opgeslagen in `/assets` aan de basis van de gebruikershandleiding.
-   + Alle afbeeldingen in de map `/assets` worden gelokaliseerd.
-   + Afbeeldingen in de map `/no-localize` worden niet gelokaliseerd (dit is een verrassing!). Dit kan worden gebruikt om er in lokale versies voor te zorgen dat specifieke elementen niet onnodig worden gereproduceerd.
+   + Alle afbeeldingen in het dialoogvenster `/assets` directory wordt gelokaliseerd.
+   + Alle afbeeldingen in het dialoogvenster `/no-localize` directory zal niet worden gelokaliseerd (er is een verrassing!). Dit kan worden gebruikt om er in lokale versies voor te zorgen dat specifieke elementen niet onnodig worden gereproduceerd.
 
 ## Metagegevens gebruikersgids Niveau
 
-+ Metagegevens die de gebruikershandleiding beschrijven, worden opgeslagen in `TOC.md`. Dit omvat:
++ Metagegevens die de gebruikershandleiding beschrijven, worden opgeslagen in het dialoogvenster `TOC.md`. Dit omvat:
    + product - naam van product/capaciteit.
    + cloud - cloud waartoe dit product behoort.
    + publiek - publiek of archetype waarop de gids is gericht.
@@ -51,4 +50,4 @@ ht-degree: 1%
 
 ## Meer informatie
 
-Voor meer publicatieinstructies, stijlgidsen, steekproeven en andere middelen, gelieve [Samenwerkende Documentatie Repo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions) te bezoeken
+Ga voor meer publicatieinstructies, stijlhulplijnen, voorbeelden en andere bronnen naar de [Samenwerken van documentatierepo](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)

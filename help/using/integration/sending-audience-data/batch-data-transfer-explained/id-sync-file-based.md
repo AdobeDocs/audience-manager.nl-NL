@@ -1,17 +1,16 @@
 ---
 description: Beschrijft de vereiste gebieden, de syntaxis, en de noemende overeenkomsten die voor op dossier-gebaseerde synchronisatie van identiteitskaart worden gebruikt. Geef de bestandsinhoud een naam en ordent deze volgens deze specificaties.
-seo-description: Beschrijft de vereiste gebieden, de syntaxis, en de noemende overeenkomsten die voor op dossier-gebaseerde synchronisatie van identiteitskaart worden gebruikt. Geef de bestandsinhoud een naam en ordent deze volgens deze specificaties.
-seo-title: Naam- en contentvereisten voor id-synchronisatiebestanden
+seo-description: Describes the required fields, syntax, and naming conventions used for file-based ID synchronization. Name and organize your file contents according to these specifications.
+seo-title: Name and Content Requirements for ID Synchronization Files
 solution: Audience Manager
 title: Naam- en contentvereisten voor id-synchronisatiebestanden
 uuid: bfe42af9-9149-4da3-830e-f227c4e610c2
 feature: Inbound Data Transfers
 exl-id: e6b3a438-f843-4a24-89fd-03ef77d7cf04
-translation-type: tm+mt
 source-git-commit: 48b122a4184d1c0662b9de14e92f727caa4a9d74
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 6%
+source-wordcount: '833'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +22,7 @@ Beschrijft de vereiste gebieden, de syntaxis, en de noemende overeenkomsten die 
 >
 >De tekststijlen (`monospaced text`, *cursief*, haakjes `[ ]` `( )`, enz.) in dit document de elementen en opties van de code aangeven. Zie [Stijlconventies voor code- en tekstelementen](../../../reference/code-style-elements.md) voor meer informatie.
 
-## Syntaxis bestandsnaam en voorbeelden {#file-name-syntax}
+## Syntaxis en voorbeelden van bestandsnaam {#file-name-syntax}
 
 <!-- c_file_based_id_sync.xml -->
 
@@ -86,7 +85,7 @@ In de volgende voorbeelden worden bestandsnamen met de juiste indeling getoond. 
 </ul>
 
 >[!NOTE]
-> Zie [Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens](../../../features/destinations/people-based-destinations-workflow-combined.md) of [Workflow B - Personalisatie gebaseerd op gegevens die alleen offline zijn.](../../../features/destinations/people-based-destinations-workflow-offline.md) voor naamgeving van ID-synchronisatiebestanden (c2c-voorvoegsel) voor op mensen gebaseerde doelen.
+> Voor de naam van het dossier van de synchronisatie van identiteitskaart (c2c prefix) voor Mensen-Gebaseerde Doelen, zie [Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens](../../../features/destinations/people-based-destinations-workflow-combined.md) of [Workflow B - Personalisatie gebaseerd op gegevens die alleen offline beschikbaar zijn](../../../features/destinations/people-based-destinations-workflow-offline.md).
 
 ## Syntaxis bestandsinhoud en voorbeelden {#file-content-syntax}
 
@@ -102,15 +101,15 @@ abc123 def456 ghi789 xyz987
 
 ### Overwegingen bij bestandsinhoud {#considerations}
 
-Wanneer u binnenkomende bestanden maakt, moet u ervoor zorgen dat de eerste kolom alleen met apparaat-id&#39;s wordt gevuld, zoals [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA] enzovoort. Zie [Index van id&#39;s in Audience Manager](../../../reference/ids-in-aam.md) voor een gedetailleerde uitleg van id&#39;s die door Audience Manager worden ondersteund.
+Wanneer u binnenkomende bestanden maakt, moet u ervoor zorgen dat de eerste kolom alleen apparaat-id&#39;s bevat, zoals [!DNL AAM UUID], [!DNL GAID], [!DNL IDFA], enzovoort. Zie [Index van id&#39;s in Audience Manager](../../../reference/ids-in-aam.md) voor een gedetailleerde uitleg van id&#39;s die door Audience Manager worden ondersteund.
 
 >[!IMPORTANT]
 >
->Gebruik [DPUUIDs](../../../reference/ids-in-aam.md) op de eerste kolom niet. Dit kan resulteren in een onjuiste synchronisatie.
+>Niet gebruiken [DPUUID&#39;s](../../../reference/ids-in-aam.md) in de eerste kolom. Dit kan resulteren in een onjuiste synchronisatie.
 
 ## Synchronisatie stemt overeen met DPUUID&#39;s met UUID&#39;s {#sync-matches-dpuuids-uuids}
 
-Het doel van een bestand voor id-synchronisatie is om de [DPUUID&#39;s](../../../reference/ids-in-aam.md) vanuit uw eigen gegevensbronnen te synchroniseren met [!DNL Audience Manager] UUID&#39;s. De synchronisatie wijst [!DNL DPUUID]s van master [!DNL DPID] en zijn verwante [!DNL DPID]s aan [!DNL Audience Manager] [!DNL UUID]s toe. Wanneer u de id&#39;s in de bestandsnaam en de hoofdtekst plaatst, bepaalt u hoe deze id&#39;s aan elkaar worden toegewezen. Neem bijvoorbeeld de volgende twee voorbeeldbestanden:
+Het doel van een ID-synchronisatiebestand is het synchroniseren van de [DPUUID&#39;s](../../../reference/ids-in-aam.md) van uw eigen Gegevensbronnen met [!DNL Audience Manager] UUID&#39;s. Synchronisatie wijst de [!DNL DPUUID]s van de master [!DNL DPID] en de daarmee verband houdende [!DNL DPID]s naar de [!DNL Audience Manager] [!DNL UUID]s. Wanneer u de id&#39;s in de bestandsnaam en de hoofdtekst plaatst, bepaalt u hoe deze id&#39;s aan elkaar worden toegewezen. Neem bijvoorbeeld de volgende twee voorbeeldbestanden:
 
 * **Bestand 1:** `adobe_id_0_12345_1476312152.sync`
 
@@ -120,20 +119,20 @@ Het doel van een bestand voor id-synchronisatie is om de [DPUUID&#39;s](../../..
 
 Op basis van de naam en inhoud van het voorbeeld worden de id&#39;s als volgt toegewezen:
 
-**Bestand 1**  (voorbeeldbestand [ ](assets/adobe_id_0_12345_1476312152.sync)downloaden)
+**Bestand 1** ( [Voorbeeldbestand downloaden](assets/adobe_id_0_12345_1476312152.sync))
 
 | DPID 0 = Adobe Audience Manager UUIDs | DPID 12345 |
 |---|---|
 | 68079982765673198504052656074456196039 | XYZ3017D_2kzkTOXkFYIAgwbajoqWRcqkXl-TTrj6E4njaMR.38 |
-| 6741268208341199572553870443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
+| 67412682083411995725538770443620307584 | XYZ3017BBR4DAFJWfM6D4Gb4lN_T5jk_f7rdEcqNs9wfnA7h70 |
 | 89159024796760343733111707646026765593 | XYZ3017PryPID8tzfhkEE-gE034LI-53Jde0utCYcIwd0A2OlM |
-| 6655275740751744946280581945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M |
-| 6618477822667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
+| 66552757407517449462805881945288602094 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M |
+| 66184778222667870903738139438735041506 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw |
 
-Stap 1: Bij het synchronisatieproces van de id worden de [!DNL DPUUID]s van [!DNL DPID] 12345 gesynchroniseerd met de [!DNL Audience Manager] [!DNL UUID]s in de linkerkolom. De [!DNL DPID] &quot;0&quot; in de bestandsnaam vertegenwoordigt [!DNL Audience Manager] [!DNL UUID]s.
+Stap 1: het synchronisatieproces van de id de [!DNL DPUUID]s van [!DNL DPID] 12345 met de [!DNL Audience Manager] [!DNL UUID]s in de linkerkolom. De [!DNL DPID] &quot;0&quot; in de bestandsnaam staat voor [!DNL Audience Manager] [!DNL UUID]s.
 <br/>
 
-**Bestand 2**  (voorbeeldbestand [ ](assets/adobe_id_12345_67890_1477846458.sync)downloaden)
+**Bestand 2** ( [Voorbeeldbestand downloaden](assets/adobe_id_12345_67890_1477846458.sync))
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|
@@ -143,7 +142,7 @@ Stap 1: Bij het synchronisatieproces van de id worden de [!DNL DPUUID]s van [!DN
 | XYZ3017QvBddD-bLJS28DPxiqUfmIBxE3_55bvQJMLworgJU2M | 2351382994 |
 | XYZ3017q9r60kuHPOca_Ek-btCN2iu1HyVaUe0rd412TzbyCMw | 4601584763 |
 
-Stap 2: de [!DNL DPUUID]s van [!DNL DPID] 12345 zijn gesynchroniseerd in stap 1 met de Audience Manager [!DNL UUID]s. Bij deze ID-synchronisatie worden de [!DNL DPUUID]s van [!DNL DPID] 67890 gesynchroniseerd met de Audience Manager [!DNL UUID]s van stap 1.
+Stap 2: de [!DNL DPUUID]s van [!DNL DPID] 12345 zijn gesynchroniseerd in stap 1 met de Audience Manager [!DNL UUID]s. Deze id-synchronisatie synchroniseert de [!DNL DPUUID]s van [!DNL DPID] 67890 met de Audience Manager [!DNL UUID]vanaf stap 1.
 
 <br/>
 
@@ -152,7 +151,7 @@ Stap 2: de [!DNL DPUUID]s van [!DNL DPID] 12345 zijn gesynchroniseerd in stap 1 
 Gebruikersnamen kunnen niet:
 
 * Plaats tabs in de id zelf. Tabs worden alleen gebruikt om afzonderlijke id&#39;s in het gegevensbestand te scheiden.
-* Bevat persoonlijk identificeerbare informatie ([!UICONTROL PII]).
-* Codering [!DNL URL] gebruiken. Alleen niet-gecodeerde id&#39;s doorgeven.
+* Persoonlijk identificeerbare gegevens bevatten ([!UICONTROL PII]).
+* Gebruiken [!DNL URL] coderen. Alleen niet-gecodeerde id&#39;s doorgeven.
 
 Rijen die eindigen met tabs of spaties, worden niet verwerkt of uitgevoerd. Zorg er doorgaans voor dat het einde van de rijen ongewijzigd blijft.

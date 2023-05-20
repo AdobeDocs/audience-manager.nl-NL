@@ -1,16 +1,15 @@
 ---
 description: Rond 14 oktober 2019 merkte ik dat mijn populaties met de eigenschap Onboarded voor de Device ID-grafiek zijn gedaald tot 0, terwijl ze daarvoor veel hoger waren.
-seo-description: Rond 14 oktober 2019 merkte ik dat mijn populaties met de eigenschap Onboarded voor de Device ID-grafiek zijn gedaald tot 0, terwijl ze daarvoor veel hoger waren.
-seo-title: Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald?
+seo-description: Around October 14th, 2019 I noticed that my onboarded trait populations for the Device ID graph have dropped to 0, where previously they were much higher.
+seo-title: Why did my Onboarded trait populations drop to 0 around October 15th?
 solution: Audience Manager
 title: Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald?
 feature: Support
 exl-id: e93cee15-7d05-4f81-8f14-a3e03f214542
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 99%
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
 

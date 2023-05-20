@@ -1,35 +1,34 @@
 ---
 description: De voorbeelden u kunt naar voor het creëren van uitdrukkingen in de de coderedacteur van de Bouwer van de Uitdrukking verwijzen.
-seo-description: De voorbeelden u kunt naar voor het creëren van uitdrukkingen in de de coderedacteur van de Bouwer van de Uitdrukking verwijzen.
-seo-title: Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren
+seo-description: Examples you can refer to for creating expressions in the Expression Builder code editor.
+seo-title: Sample Expressions With Boolean and Comparison Operators
 solution: Audience Manager
 title: Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren
 uuid: ee74c376-2099-4816-8694-43f58845a0ac
 feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 68041d61-7942-4c2f-9e78-f2b2f803ef59
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 9%
+source-wordcount: '190'
+ht-degree: 7%
 
 ---
 
-
 # Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren {#sample-expressions-with-boolean-and-comparison-operators}
 
-Voorbeelden waarnaar u kunt verwijzen voor het maken van expressies in de code-editor [!UICONTROL Expression Builder].
+Voorbeelden waarnaar u kunt verwijzen voor het maken van expressies in het dialoogvenster [!UICONTROL Expression Builder] code-editor.
 
 ## Overzicht van codevoorbeelden {#code-samples-overview}
 
 <!-- r_tb_expression_samples.xml -->
 
-Maak uw eigen regels voor de eigenschap met de code-editor [!UICONTROL Expression Builder]. De volgende voorbeelden kunnen u helpen om aan de slag te gaan. Sommige voorbeelden geven de *`key`*-variabele een voorkeur met `c_` om deze te identificeren als een door de gebruiker gedefinieerde variabele. Neem het voorvoegsel `c_` (of een andere naamgevingsconventie) voor de variabele *`key`* op als uw gebeurtenisaanroepen gegevens naar [!DNL Audience Manager] verzenden met behulp van die syntaxis.
+Maak uw eigen regels voor kenmerken met de [!UICONTROL Expression Builder] code-editor. De volgende voorbeelden kunnen u helpen om aan de slag te gaan. Sommige voorbeelden geven de voorkeur aan *`key`* variabele met `c_` om het als user-defined variabele te identificeren. Inclusief de `c_` voorvoegsel (of een andere naamgevingsconventie) voor *`key`* variabele als uw gebeurtenisaanroepen gegevens verzenden naar [!DNL Audience Manager] die syntaxis gebruiken.
 
 ## Booleaanse expressies {#boolean-expressions}
 
 ### AND-voorbeeld
 
-De regel stelt vereisten voor de vakkwalificatie vast met behulp van Booleaanse operatoren [!UICONTROL AND].
+De regel stelt kwalificatievereisten vast met behulp van Boolean [!UICONTROL AND] operatoren.
 
 <table id="table_7C5E23EC9E0F43B182EA9771D7BB6E87"> 
  <thead> 
@@ -52,7 +51,7 @@ De regel stelt vereisten voor de vakkwalificatie vast met behulp van Booleaanse 
 
 ### OR-voorbeeld
 
-Met deze regel worden vereisten voor de kwalificatie van het kenmerk vastgelegd met behulp van [!DNL Boolean] [!UICONTROL OR]- en [!UICONTROL AND]-operatoren.
+Deze regel stelt vereisten inzake beroepskwalificaties vast met behulp van [!DNL Boolean] [!UICONTROL OR] en [!UICONTROL AND] operatoren.
 
 <table id="table_6E8BA5EE1D7F4DCC9A92074D0C2C050E"> 
  <thead> 
@@ -64,7 +63,7 @@ Met deze regel worden vereisten voor de kwalificatie van het kenmerk vastgelegd 
  <tbody> 
   <tr> 
    <td colname="col1"><code>(a== "1" OR b=="1") AND (c=="new")</code> </td> 
-   <td colname="col2"> Voldoet aan de voorwaarden die worden ingesteld door de variabelen <code><i>a </i></code> of <code><i>b </i></code> en <code><i>c </i></code>. </td> 
+   <td colname="col2"> Voldoen aan de voorwaarden die zijn ingesteld door variabelen <code><i>a </i></code> of <code><i>b </i></code> en <code><i>c </i></code>. </td> 
   </tr> 
  </tbody> 
 </table>

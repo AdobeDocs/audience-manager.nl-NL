@@ -1,23 +1,22 @@
 ---
 description: Beschrijft methodes in DIL.tools namespace. Deze hulpprogrammafuncties helpen u specifieke taken uit te voeren.
-seo-description: Beschrijft methodes in DIL.tools namespace. Deze hulpprogrammafuncties helpen u specifieke taken uit te voeren.
-seo-title: DIL-tools
+seo-description: Describes methods in the DIL.tools namespace. These utility functions help you perform specific tasks.
+seo-title: DIL Tools
 solution: Audience Manager
 title: DIL-tools
 uuid: 2bc62ce2-16bd-4e80-b493-c816ba643b59
 feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: dfb0191e3ea6f6c360991a2012a15570b5cab771
+exl-id: 1f52eb95-8287-4dd0-b933-00de6926a797
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 3%
+source-wordcount: '277'
+ht-degree: 2%
 
 ---
 
-
 # DIL-tools
 
-Beschrijft methodes in `DIL.tools` namespace. Deze hulpprogrammafuncties helpen u specifieke taken uit te voeren.
+Beschrijft methodes in `DIL.tools` naamruimte. Deze hulpprogrammafuncties helpen u specifieke taken uit te voeren.
 
 <!-- 
 
@@ -37,7 +36,7 @@ r_dil_get_search_referrer.xml
 
 ### Doel van `getSearchReferrer`
 
-In DIL retourneert `getSearchReferrer` zoekresultaten (namen en trefwoorden) die worden gebruikt om uw site te bereiken. U kunt specifieke zoektermen doorgeven aan deze functie of de functie de ondersteunde zoekmachines laten doorzoeken ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google] en [!DNL Yahoo]) standaard op `document.referrer`.
+In DIL, `getSearchReferrer` retourneert zoekresultaten (namen en trefwoorden) die worden gebruikt om uw site te bereiken. U kunt specifieke zoektermen doorgeven aan deze functie of de functie laten zoeken in de ondersteunde zoekmachines ( [!DNL AOL], [!DNL Ask], [!DNL Bing], [!DNL Google], en [!DNL Yahoo]) tegen `document.referrer` standaard.
 
 ### Functiehandtekening
 
@@ -47,8 +46,8 @@ Handtekening functie: `DIL.tools.getSearchReferrer(uri, initConfig)`
 
 `getSearchReferrer` accepteert:
 
-* *`{string}`*:  *(Optioneel)* Een tekenreeks met de zoek-URL (gebruikt  `document.referrer` indien niet gedefinieerd).
-* *`{object}`*:  *(Optioneel)* Een object met de configuratie voor de  `hostPattern`,  `queryParam`of  `queryPattern`.
+* *`{string}`*: *(Optioneel)* Een tekenreeks met de zoek-URL (gebruikt `document.referrer` indien ongedefinieerd).
+* *`{object}`*: *(Optioneel)* Een object dat de configuratie voor de `hostPattern`, `queryParam`, of `queryPattern`.
 
 En retourneert:
 
@@ -114,7 +113,7 @@ En retourneert:
 
 ## decomposeURI
 
-Hiermee wordt een Uniform Resource Identifier ( [!DNL URI]) gedemonteerd in de bestanddelen ervan: `hash`, `host`, `href`, `pathname`, `protocol`, `search` en `[!DNL uriParams]`.
+Hiermee wordt een Uniform Resource Identifier gedemonteerd ( [!DNL URI]) in de bestanddelen ervan: `hash`, `host`, `href`, `pathname`, `protocol`, `search`, en `[!DNL uriParams]`.
 
 <!-- 
 
@@ -128,7 +127,7 @@ Handtekening functie: `DIL.tools.decomposeURI`
 
 `decomposeURI` accepteert:
 
-* *`uri {string}`*:  *(Optioneel)* Een tekenreeks met de URI. De standaardwaarde is `document.location.href` als deze niet is opgegeven.
+* *`uri {string}`*: *(Optioneel)* Een tekenreeks die de URI bevat. Standaardwaarden: `document.location.href` indien niet opgegeven.
 
 En retourneert:
 

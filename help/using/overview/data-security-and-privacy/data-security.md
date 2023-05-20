@@ -1,16 +1,15 @@
 ---
 description: Audience Manager neemt databeveiliging en privacy zeer serieus. We doen ons best om onze systemen te beveiligen en uw waardevolle data te beschermen.
-seo-description: Audience Manager neemt databeveiliging en privacy zeer serieus. We doen ons best om onze systemen te beveiligen en uw waardevolle data te beschermen.
-seo-title: Databeveiliging in Audience Manager
+seo-description: Audience Manager takes data security and privacy very seriously. We work to keep our systems secure and protect your valuable data.
+seo-title: Data Security in Audience Manager
 solution: Audience Manager
 title: Databeveiliging in Audience Manager
 uuid: 33ad19ca-4690-4d97-853b-1882d7d4ac01
 feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '999'
 ht-degree: 98%
 
 ---
@@ -62,7 +61,7 @@ Processen die persoonlijke informatie beveiligen. Zie het [Adobe Privacy Center]
 
 Processen die data van individuele klanten helpen beschermen.
 
-**Trait Data Partitioning:**  Uw gegevens ([!UICONTROL traits], id&#39;s, enz.) worden gepartitioneerd per client. Dit voorkomt onbedoelde openbaarmaking van informatie tussen verschillende clients. De data van eigenschappen in cookies worden bijvoorbeeld gepartitioneerd per klant en opgeslagen in een clientspecifiek subdomein. De data kunnen niet per ongeluk door een andere Audience Manager-client worden gelezen of gebruikt. Bovendien worden de eigenschapdata die op de [!UICONTROL Profile Cache Servers (PCS)] worden opgeslagen, eveneens per klant gepartitioneerd. Dit voorkomt dat andere clients uw data per ongeluk gebruiken in een gebeurteniscall of een andere aanvraag.
+**Verdeling van gegevens over overtrekken:**  Uw gegevens ([!UICONTROL traits], id&#39;s, enz.) worden gepartitioneerd per client. Dit voorkomt onbedoelde openbaarmaking van informatie tussen verschillende clients. De data van eigenschappen in cookies worden bijvoorbeeld gepartitioneerd per klant en opgeslagen in een clientspecifiek subdomein. De data kunnen niet per ongeluk door een andere Audience Manager-client worden gelezen of gebruikt. Bovendien worden de eigenschapdata die op de [!UICONTROL Profile Cache Servers (PCS)] worden opgeslagen, eveneens per klant gepartitioneerd. Dit voorkomt dat andere clients uw data per ongeluk gebruiken in een gebeurteniscall of een andere aanvraag.
 
 **Datapartitionering in rapporten:**  Client-id’s maken deel uit van de identificatiesleutel in alle rapportagetabellen en rapportquery’s worden gefilterd op id. Dit voorkomt dat uw data worden weergegeven in de rapporten van een andere klant van Audience Manager.
 
@@ -92,6 +91,6 @@ Dit beleid verbetert de databeveiliging tussen clients en Adobe [Edge](../../ref
 
 ### Voorbeeld {#hsts-example}
 
-Laten wij zeggen het `yourcompany.demdex.com` domein verzendt verkeer naar [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] werkt de calls bij om in plaats daarvan [!DNL HTTPS] te gebruiken, en alle volgende [!DNL DCS] calls van `yourcompany.demdex.com` zullen [!DNL HTTPS] gebruiken in plaats van [!DNL HTTP].
+Laten we de `yourcompany.demdex.com` domein verzendt verkeer naar [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] werkt de calls bij om in plaats daarvan [!DNL HTTPS] te gebruiken, en alle volgende [!DNL DCS] calls van `yourcompany.demdex.com` zullen [!DNL HTTPS] gebruiken in plaats van [!DNL HTTP].
 
 Zie [HTTP Strict Transport Security - Wikipedia](https://nl.wikipedia.org/wiki/HTTP_Strict_Transport_Security) voor meer informatie over HSTS.

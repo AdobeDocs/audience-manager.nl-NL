@@ -1,21 +1,20 @@
 ---
 description: In dit document wordt uitgelegd hoe klantdata in Audience Manager worden beheerd.
-seo-description: In dit document wordt uitgelegd hoe klantdata in Audience Manager worden beheerd.
+seo-description: TThis document explains how customer data is governed in Audience Manager.
 seo-title: Data Governance
 solution: Audience Manager
 keywords: GDPR UI, GDPR API, CCPA, privacy, toestemming, verwarring, bestuur
-title: Gegevensbeheer
+title: Data Governance
 feature: Data Governance & Privacy
 exl-id: 52aeca00-73f2-4525-9e11-34a472ec45c6
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '454'
 ht-degree: 94%
 
 ---
 
-# Gegevensbeheer
+# Data Governance
 
 ## Overzicht {#overview}
 
@@ -32,7 +31,7 @@ Het [!DNL IP]-adres van een bezoeker van een klantwebsite wordt verzonden naar e
 
 >[!NOTE]
 >
->Zie [IP de Verduistering van het Adres](../../features/administration/ip-obfuscation.md) leren hoe te om [!DNL IP] adresverwarring in het gebruikersinterface van de Audience Manager toe te laten.
+>Zie [IP de Obfuscatie van het Adres](../../features/administration/ip-obfuscation.md) leren hoe u [!DNL IP] adresverwarring in de gebruikersinterface van de Audience Manager.
 
 Bekijk de onderstaande video om te begrijpen hoe het onzichtbaar maken van [!DNL IP]-adressen in Audience Manager werkt.
 

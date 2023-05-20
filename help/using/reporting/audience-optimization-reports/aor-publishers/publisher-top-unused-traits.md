@@ -1,17 +1,16 @@
 ---
 description: De hoogste Ongebruikte Beetjes worden vertegenwoordigd als verstrooiingsdiagram van eigenschappen die nog geen leden van een segment zijn, die op het type van eigenschap, gegevensbron, en prestaties worden gebaseerd.
-seo-description: De hoogste Ongebruikte Beetjes worden vertegenwoordigd als verstrooiingsdiagram van eigenschappen die nog geen leden van een segment zijn, die op het type van eigenschap, gegevensbron, en prestaties worden gebaseerd.
-seo-title: Eerste ongebruikte eigenschappen
+seo-description: Top Unused Traits are represented as a scatter diagram of traits that are not yet members of a segment, based on trait type, data source, and performance.
+seo-title: Top Unused Traits
 solution: Audience Manager
 title: Eerste ongebruikte eigenschappen
 uuid: 90bcd333-41b8-416e-aa4e-a8661891df50
 feature: Audience Optimization Reports
 exl-id: d0ae72c0-1fb1-423a-a7e6-de955bd7f3c5
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 2%
+source-wordcount: '617'
+ht-degree: 1%
 
 ---
 
@@ -21,31 +20,31 @@ De hoogste Ongebruikte Beetjes worden vertegenwoordigd als verstrooiingsdiagram 
 
 ## Gebruiksscenario {#use-cases}
 
-Met het [!UICONTROL Top Unused Traits] rapport, kunt u de prestaties van eerste en derdeeigenschappen analyseren en vergelijken die momenteel niet aan een segment in kaart worden gebracht. Deze mening kan op de beste eigenschappen wijzen om in een publiekssegment voor of campagneroptimalisering of netto nieuwe kansen te gebruiken.
+Met de [!UICONTROL Top Unused Traits] rapport, kunt u de prestaties analyseren en vergelijken van eerste en derderderdetrekken die momenteel niet aan een segment in kaart worden gebracht. Deze mening kan op de beste eigenschappen wijzen om in een publiekssegment voor of campagneroptimalisering of netto nieuwe kansen te gebruiken.
 
-## Het hoogste Ongebruikte Rapport van Traits {#using-the-report} gebruiken
+## Het bovenste rapport Ongebruikte sporen gebruiken {#using-the-report}
 
-Met de besturingselementen **[!UICONTROL Data Provider Type]** kunt u schakelen tussen de kenmerken van de eerste en die van de derde. Selecteer **[!UICONTROL All]** om eerste en derdeeigenschappen in het rapport terug te keren.
+Gebruik de **[!UICONTROL Data Provider Type]** controles om tussen de eigenschappen van de eerste partij en van de derde te schakelen. Selecteren **[!UICONTROL All]** om de eerste en derde eigenschap in het rapport terug te geven.
 
-Met de schuifregelaar **[!UICONTROL Impressions]** kunt u een minimum- en maximumwaarde voor geretourneerde afbeeldingen selecteren. Eventuele kenmerken die voor minder of meer dan de ingestelde limieten verantwoordelijk zijn, worden niet in het rapport weergegeven.
+Met de **[!UICONTROL Impressions]** kunt u een minimum- en maximumwaarde voor geretourneerde afbeeldingen selecteren. Eventuele kenmerken die voor minder of meer dan de ingestelde limieten verantwoordelijk zijn, worden niet in het rapport weergegeven.
 
-Gebruik de besturingselementen **[!UICONTROL Day Range]** en **[!UICONTROL Date Through]** om het bereik van de terugblik aan te passen. Merk op dat slechts de periode van 30 dagen terugblik voor dit rapport beschikbaar is.
+Gebruik de **[!UICONTROL Day Range]** en **[!UICONTROL Date Through]** besturingselementen voor het aanpassen van het bereik van terugkijkers. Merk op dat slechts de periode van 30 dagen terugblik voor dit rapport beschikbaar is.
 
-Gebruik de vervolgkeuzelijst **[!UICONTROL Order]** om de wegeigenschappen in uw portfolio te selecteren waarvoor u informatie wilt retourneren.
+Gebruik de **[!UICONTROL Order]** vervolgkeuzelijst om de wegeigenschappen in uw portfolio te selecteren waarvoor u informatie wilt retourneren.
 
-Selecteer in de vervolgkeuzelijst **[!UICONTROL Data Provider]** de gegevensbronnen met de kenmerken die u in het rapport wilt zien.
+In de **[!UICONTROL Data Provider]** drop-down doos, selecteer de gegevensbronnen die de eigenschappen bevatten u in het rapport wilt zien.
 
-Gebruik de **[!UICONTROL Traits]** drop-down doos om te selecteren welke eigenschappen u in het rapport wilt zien.
+Gebruik de **[!UICONTROL Traits]** vervolgkeuzelijst om aan te geven welke kenmerken u in het rapport wilt zien.
 
 >[!IMPORTANT]
 >
->Wanneer u [!UICONTROL Audience Optimization for Publishers] inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Order IDs] opnemen, zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Order] in plaats van [!UICONTROL Order ID] detailleert.
+>Als u [!UICONTROL Audience Optimization for Publishers]moet u beschrijvende metagegevens opnemen voor [!UICONTROL Order IDs], zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen verzekert u dat het rapport de Webbezit als detailleert [!UICONTROL Order] in plaats van de [!UICONTROL Order ID].
 
-## Resultaten interpreteren {#interpreting-results}
+## De resultaten interpreteren {#interpreting-results}
 
 **Voorbeeldrapport**
 
-Uw [!UICONTROL Top Unused Traits]-rapport kan er ongeveer als volgt uitzien. Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven.
+Uw [!UICONTROL Top Unused Traits] het rapport kan er ongeveer zo uitzien als hieronder . Klik in uw rapport op een ballon om de onderliggende gegevens weer te geven.
 
 Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
 
@@ -90,9 +89,9 @@ Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeel
 
 De positie van uw eigenschappen in een rapport kan u veel vertellen over welke eigenschappen u kon gebruiken om bestaande publiekssegmenten te optimaliseren.
 
-De kenmerken die zich hoger op de impressieas bevinden, zijn de kenmerken die u in uw campagnes wilt gebruiken. Voor eigenschappen met een laag aantal indrukkingen, is het onwaarschijnlijk dat u dit publiek op uw Web-eigenschap, gebaseerd op uw [!DNL Google Ad Manager] gegevens bereikt.
+De kenmerken die zich hoger op de impressieas bevinden, zijn de kenmerken die u in uw campagnes wilt gebruiken. Voor eigenschappen met een laag aantal indrukken, is het onwaarschijnlijk dat u dit publiek op uw Web-bezit bereikt, die op uw wordt gebaseerd [!DNL Google Ad Manager] gegevens.
 
-Kijk links van de [!UICONTROL Unique Trait Realizations] as voor hoogst nauwkeurige eigenschappen en aan het recht voor eigenschappen die schaal kunnen drijven.
+Links van de knop [!UICONTROL Unique Trait Realizations] as voor zeer nauwkeurige eigenschappen en aan het recht voor eigenschappen die schaal kunnen drijven.
 
 <table id="table_A29253B30DFA4CD7B3B7C320DE0BDEA4"> 
  <thead> 

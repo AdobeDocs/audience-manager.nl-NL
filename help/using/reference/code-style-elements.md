@@ -1,17 +1,16 @@
 ---
 description: Deze elementen identificeren codeopties en variabelen die door de hulpdocumentatie worden gebruikt. Over het algemeen neemt u deze symbolen of stijlelementen niet op in uw code- of gegevensbestanden. Het zijn alleen visuele indicatoren.
-seo-description: Deze elementen identificeren codeopties en variabelen die door de hulpdocumentatie worden gebruikt. Over het algemeen neemt u deze symbolen of stijlelementen niet op in uw code- of gegevensbestanden. Het zijn alleen visuele indicatoren.
-seo-title: Stijlconventies voor code- en tekstelementen
+seo-description: These elements identify code options and variables used throughout the help documentation. Generally, you would not include these symbols or style elements in your code or data files. They're visual indicators only.
+seo-title: Style Conventions for Code and Text Elements
 solution: Audience Manager
 title: Stijlconventies voor code- en tekstelementen
 uuid: 7605604d-bc76-4063-ba92-52c88bd69e3c
 feature: Reference
 exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 10%
+source-wordcount: '170'
+ht-degree: 8%
 
 ---
 
@@ -37,7 +36,7 @@ Deze elementen identificeren codeopties en variabelen die door de hulpdocumentat
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Items tussen haakjes geven een Booleaanse keuze aan: <span class="wintitle"> OF</span>. </p> </td> 
+   <td colname="col2"> <p>Items tussen haakjes geven een Booleaanse waarde aan <span class="wintitle"> OF</span> keuze. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 

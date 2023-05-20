@@ -1,16 +1,16 @@
 ---
 description: Codevoorbeelden en beschrijvingen voor specifieke gevallen waarin DIL wordt gebruikt.
-seo-description: Codevoorbeelden en beschrijvingen voor specifieke gevallen waarin DIL wordt gebruikt.
-seo-title: DIL-gebruiksscenario’s en codevoorbeelden
+seo-description: Code samples and descriptions for specific DIL use cases.
+seo-title: DIL Use Cases and Code Samples
 solution: Audience Manager
 title: DIL-gebruiksscenario’s en codevoorbeelden
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
-feature: DIL-implementatie
+feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -36,11 +36,11 @@ c_dil_send_page_objects.xml
 
 **Beschrijving**
 
-De volgende code laat zien hoe u paginagegevens kunt verzamelen en naar de Audience Manager kunt verzenden met [!UICONTROL DIL]. In deze voorbeelden wordt een variabele gebruikt om gegevenselementen op te nemen in een platte lijst of een array. Vergeet niet variabelen als [sleutel-waardeparen](../reference/key-value-pairs-explained.md) door te geven. Noteer ook het voorvoegsel `c_` vóór de toets in het sleutelwaardepaar. Dit [vereiste voorvoegsel](../features/traits/trait-variable-prefixes.md) identificeert informatie als user-defined gegevens. In het eerste voorbeeld moet u `c_` handmatig aan de toets toevoegen. In het tweede voorbeeld doet [!UICONTROL DIL] dit automatisch voor u.
+De volgende code laat zien hoe u paginagegevens kunt verzamelen en naar de Audience Manager kunt verzenden met [!UICONTROL DIL]. In deze voorbeelden wordt een variabele gebruikt om gegevenselementen op te nemen in een platte lijst of een array. Onthoud, variabelen doorgeven als [sleutelwaardeparen](../reference/key-value-pairs-explained.md). Let ook op de `c_` voor de toets in het sleutelwaardepaar. Dit [vereist voorvoegsel](../features/traits/trait-variable-prefixes.md) identificeert informatie als user-defined gegevens. In het eerste voorbeeld moet u handmatig toevoegen `c_` op de toets. In het tweede voorbeeld: [!UICONTROL DIL] doet dit automatisch voor u.
 
 **Waardeeigenschappen consistent houden**
 
-Vergeet niet de eigenschappen van de waarde gelijk te houden wanneer u gegevens doorgeeft. Als u bijvoorbeeld twee identieke toetsen met verschillende waarden hebt, heeft de waarde van het laatste sleutelwaardepaar voorrang op de voorgaande waardeobjecten. Als u bijvoorbeeld `color:blue` en `color:red` opgeeft, wordt de geretourneerde waarde ingesteld op rood (overschrijft blauw).
+Vergeet niet de eigenschappen van de waarde gelijk te houden wanneer u gegevens doorgeeft. Als u bijvoorbeeld twee identieke toetsen met verschillende waarden hebt, heeft de waarde van het laatste sleutelwaardepaar voorrang op de voorgaande waardeobjecten. Bijvoorbeeld, doorgeven `color:blue` en `color:red` Hiermee stelt u de geretourneerde waarde in op rood (overschrijft u blauw).
 
 **Voorbeeld 1: Gegevens verzenden als sleutelwaardeparen**
 
@@ -57,7 +57,7 @@ sample_dil.api.submit();
 
 **Voorbeeld 2: Gegevens verzenden in een object**
 
-In dit geavanceerde voorbeeld wordt getoond hoe gegevens in een object naar Audience Manager worden verzonden. Wanneer u met deze methode werkt, kunt u met [!UICONTROL DIL] een object als functieparameter doorgeven in de methode [!DNL signals()]. [!UICONTROL DIL] De code kan er ongeveer als volgt uitzien:
+In dit geavanceerde voorbeeld wordt getoond hoe gegevens in een object naar Audience Manager worden verzonden. Wanneer u met deze methode werkt, [!UICONTROL DIL] Hiermee kunt u een object als functieparameter doorgeven aan [!DNL signals()] methode. [!UICONTROL DIL] De code kan er ongeveer als volgt uitzien:
 
 <pre class="java"><code>
 var my_object = { 
@@ -72,7 +72,7 @@ sample_dil.api.signals(my_object,"c_").submit();
 
 **Voorbeeld 3: Paginagegevens verzenden in een array**
 
-In dit geval gebruikt de variabele `my_object` een array om gegevens op te slaan. Dit voorbeeld bouwt op de informatie voort die door de geadviseerde methode hierboven wordt overgegaan, maar voegt een extra laag toe om een producttype en een model aan te passen. De code kan er ongeveer als volgt uitzien:
+In dit geval wordt de variabele `my_object` gebruikt een array om gegevens op te slaan. Dit voorbeeld bouwt op de informatie voort die door de geadviseerde methode hierboven wordt overgegaan, maar voegt een extra laag toe om een producttype en een model aan te passen. De code kan er ongeveer als volgt uitzien:
 
 <pre class="java"><code>
 var my_objects = [{ 
@@ -122,11 +122,11 @@ Gegevens over zoekmachinetypen en trefwoordzoekopdrachten naar Audience Manager 
 
 >[!IMPORTANT]
 >
->In deze sectie wordt de oude functionaliteit beschreven die niet wordt ondersteund in de nieuwste versies van DIL.
+>In deze sectie wordt de oudere functionaliteit beschreven. Deze wordt niet ondersteund in de nieuwste versies van DIL.
 
 **Ondersteunde zoekmachines**
 
-`DIL.getSearchReferrer` herkent standaard zoekopdrachten vanuit deze zoekmachines (inclusief internationale variaties):
+Standaard, `DIL.getSearchReferrer` erkent zoekopdrachten van deze zoekmachines ( inclusief internationale variaties ) :
 
 * [!DNL AOL]
 * [!DNL Ask]
@@ -136,11 +136,11 @@ Gegevens over zoekmachinetypen en trefwoordzoekopdrachten naar Audience Manager 
 
 **Beschrijving**
 
-In de volgende code ziet u hoe u de zoekreferentie ophaalt voor een van de ondersteunde zoekprogramma&#39;s. In dit geval, veronderstellen wij een gebruiker die op de term &quot;huizen&quot;van [!DNL Google] Canada ( `www.google.ca`) wordt gezocht. Met deze code kunt u deze zoektermen vastleggen en naar de Audience Manager verzenden.
+In de volgende code ziet u hoe u de zoekreferentie ophaalt voor een van de ondersteunde zoekprogramma&#39;s. In dit geval, veronderstellen wij een gebruiker die op de term &quot;huizen&quot;van wordt gezocht [!DNL Google] Canada ( `www.google.ca`). Met deze code kunt u deze zoektermen vastleggen en naar de Audience Manager verzenden.
 
 **Basiscode**
 
-De basiscode voor het krijgen van de onderzoeksverwijzer (van `google.com`, bijvoorbeeld) kijkt als dit:
+Basiscode voor het ophalen van de zoekreferentie (van `google.com`Bijvoorbeeld) ziet er als volgt uit:
 
 ```java
 var search_referrer = DIL.tools.getSearchReferrer();
@@ -148,7 +148,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Voorbeeld code van vermelde zoekmachine**
 
-In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van [!DNL Google] Canada ( `www.google.ca`) heeft gezocht. Let op hoe de code de vereiste `c_`-parameter vooraf definieert voor zoekmachines ( `c_se`) en zoektermen ( `c_st`). `c_` is een  [vereiste ](../features/traits/trait-variable-prefixes.md) prefixatie die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
+In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van zocht [!DNL Google] Canada ( `www.google.ca`). Let op hoe de code het vereiste vooraf bepaalt `c_` parameter voor zoekmachine ( `c_se`) en zoekterm ( `c_st`). `c_` is een [vereist voorvoegsel](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -164,7 +164,7 @@ if (search_referrer && search_referrer.valid) {
 
 **Voorbeeld van code van niet-vermelde zoekmachine**
 
-In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van `dogpile.com` zocht. Omdat [!DNL Dogpile] niet door gebrek wordt gesteund, kunt u DIL vormen om dit onderzoeksmotor te erkennen en de onderzoekstermijnen aan Audience Manager terug te keren. De code kan er ongeveer als volgt uitzien:
+In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van zocht `dogpile.com`. Omdat [!DNL Dogpile] wordt niet door gebrek gesteund, kunt u DIL vormen om dit onderzoeksmotor te erkennen en de onderzoekstermijnen aan Audience Manager terug te keren. De code kan er ongeveer als volgt uitzien:
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -193,9 +193,9 @@ c_dil_map_keys.xml
 
 **Beschrijving**
 
-In een sleutel-waarde paar, identificeert het `c_` prefix die aan de sleutel wordt toegevoegd het signaal als klant-bepaalde gegevens. Door de klant gedefinieerde gegevens worden gebruikt om zich te richten op de specifieke site die gegevens heeft doorgegeven bij een gebeurtenisaanroep. Soms wilt u deze informatie echter wel beschikbaar stellen voor alle eigenschappen in uw Audience Manager-account. Hiervoor wijst u de waarde in een sleutel-waardepaar `c_` toe aan een sleutel op platformniveau. Een sleutel op platformniveau wordt voorafgegaan door `d_` en maakt het signaal beschikbaar voor alle eigenschappen in uw account.
+In een sleutelwaardepaar, `c_` Het voorvoegsel dat aan de sleutel is toegevoegd, identificeert het signaal als door de klant gedefinieerde gegevens. Door de klant gedefinieerde gegevens worden gebruikt om zich te richten op de specifieke site die gegevens heeft doorgegeven bij een gebeurtenisaanroep. Soms wilt u deze informatie echter wel beschikbaar stellen voor alle eigenschappen in uw Audience Manager-account. Wijs de waarde in een `c_` sleutel-waarde paar aan een sleutel van het platformniveau. Een toets op platformniveau is vooraf ingesteld op `d_` en stelt het signaal beschikbaar voor het richten over alle eigenschappen in uw rekening.
 
-Als voorbeeld verzamelt u ZIP-codegegevens van een bepaalde site, maar wilt u deze als doel instellen voor al uw Audience Manager-eigenschappen. Als u de ZIP-code beschikbaar wilt maken op platformniveau, kunt u de door de klant gedefinieerde ZIP-codesleutel toewijzen (bijvoorbeeld `c_zip`) naar een platformgedefinieerde sleutel, zoals hieronder wordt weergegeven.
+Als voorbeeld verzamelt u ZIP-codegegevens van een bepaalde site, maar wilt u deze als doel instellen voor al uw Audience Manager-eigenschappen. Als u de ZIP-code beschikbaar wilt maken op platformniveau, kunt u de door de klant gedefinieerde ZIP-codesleutel toewijzen (bijvoorbeeld `c_zip`) naar een door het platform gedefinieerde sleutel, zoals hieronder wordt weergegeven.
 
 **Codevoorbeeld**
 
@@ -213,7 +213,7 @@ adobe_dil.api.signals({c_zip : '10010'}).submit();
 // Request will look like /event?c_zip=10010&d_zip=10010
 ```
 
-## DIL in Google Tag Manager (GTM) {#traffic-dil-gtm}
+## Traffic DIL in Google Tag Manager (GTM) {#traffic-dil-gtm}
 
 Stel DIL in en bedien deze met een GTM-tag.
 
@@ -223,17 +223,17 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Bij deze procedure wordt ervan uitgegaan dat u een [!DNL Google Tag Manager]-account, enige praktische kennis van dat product en uw Audience Manager `dil.js`-bestand hebt.
+Deze procedure gaat ervan uit dat u een [!DNL Google Tag Manager] -account, enige praktische kennis van dat product en uw Audience Manager `dil.js` bestand.
 
-Om het `dil.js` dossier in GTM te verzenden:
+Om het `dil.js` bestand in GTM:
 
 1. Maak een nieuwe container of open een bestaande container.
 1. Voeg een nieuwe tag toe aan de container.
 1. Open de tag om deze te bewerken en:
 
    * Geef de tag een naam.
-   * Selecteer **[!UICONTROL Custom HTML Tag]** in de vervolgkeuzelijst **[!UICONTROL Tag Type]**.
-   * Plaats in het HTML-veld de [!UICONTROL DIL]-code (bibliotheek + de aangepaste code) binnen de scripttags `<script>DIL code</script>`.
+   * Selecteren **[!UICONTROL Custom HTML Tag]** van de **[!UICONTROL Tag Type]** vervolgkeuzelijst.
+   * Plaats in het veld HTML de knop [!UICONTROL DIL] code (bibliotheek + aangepaste code) binnen scripttags `<script>DIL code</script>`.
    * Klik op **[!UICONTROL Save]**.
 
 1. Publiceer de container.
@@ -243,5 +243,5 @@ Om het `dil.js` dossier in GTM te verzenden:
 >
 >* [Google Tag Manager Help Center](https://support.google.com/tagmanager#topic=3441530)
 >* [Signalen](../dil/dil-instance-methods.md#signals)
-* [Voorvoegselvereisten voor belangrijke variabelen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
+>* [Voorvoegselvereisten voor belangrijke variabelen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
 

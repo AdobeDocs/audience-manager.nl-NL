@@ -1,23 +1,23 @@
 ---
 description: Met de API's voor DIL op instantieniveau kunt u programmatisch Audience Manager-objecten maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 keywords: kenmerken maken;kenmerk maken
-seo-description: Met de API's voor DIL op instantieniveau kunt u programmatisch Audience Manager-objecten maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
-seo-title: DIL-methoden op instantieniveau
+seo-description: The instance-level DIL APIs let you programmatically create and work with Audience Manager objects. The instance-level methods enhance API functionality established by the class-level methods.
+seo-title: Instance-level DIL Methods
 solution: Audience Manager
 title: DIL-methoden op instantieniveau
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
-feature: DIL-implementatie
+feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1075'
 ht-degree: 2%
 
 ---
 
 # DIL-methoden op instantieniveau{#instance-level-dil-methods}
 
-Met de API&#39;s op instantieniveau [!UICONTROL DIL] kunt u programmatisch Audience Managers maken en ermee werken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
+Instantieniveau [!UICONTROL DIL] Met API&#39;s kunt u programmatisch Audience Managers maken en bewerken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 
 ## Aan de slag met DIL-methoden op instantieniveau {#get-started-dil-methods}
 
@@ -27,10 +27,10 @@ c_api_overview.xml
 
  -->
 
-Wanneer u werkt met de API&#39;s op instantieniveau [!UICONTROL DIL]:
+Wanneer u met de instantie werkt [!UICONTROL DIL] API&#39;s:
 
 * De toegang vereist een partnernaam en container namespace identiteitskaart (NSID). Neem contact op met de accountmanager van de Audience Manager voor deze informatie.
-* Vervang een voorbeeld *cursief* tekst in de API documentatie met waarde, identiteitskaart, of andere variabele zoals vereist door de methode u met werkt.
+* Een voorbeeld vervangen *cursief* tekst in de API documentatie met waarde, identiteitskaart, of andere variabele zoals vereist door de methode u met werkt.
 
 <!-- 
 
@@ -53,7 +53,7 @@ r_dil_signals.xml
 >[!NOTE]
 >
 >* U kunt andere API-aanroepen naar deze methode koppelen.
->* Als de Adobe Experience Cloud JavaScript-bibliotheek op de pagina staat, wacht `submit()` tot de cloud een cookie heeft ingesteld voordat een aanvraag wordt verzonden.
+>* Als de Adobe Experience Cloud JavaScript-bibliotheek op de pagina staat, `submit()` wacht tot de cloud een cookie heeft ingesteld voordat een aanvraag wordt verzonden.
 
 
 **Gereserveerde aanvraagsleutels**
@@ -77,7 +77,7 @@ De volgende aanvraagsleutels zijn gereserveerd en kunnen niet door deze methode 
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
+Hiermee wordt het API-object van het huidige object geretourneerd [!UICONTROL DIL] -instantie.
 
 **Voorbeeldcode**
 
@@ -124,7 +124,7 @@ r_dil_traits.xml
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
+Hiermee wordt het API-object van het huidige object geretourneerd [!UICONTROL DIL] -instantie.
 
 **Voorbeeldcode**
 
@@ -150,7 +150,7 @@ r_dil_logs.xml
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
+Hiermee wordt het API-object van het huidige object geretourneerd [!UICONTROL DIL] -instantie.
 
 **Voorbeeldcode**
 
@@ -167,7 +167,7 @@ partnerObject.api.logs({
 
 ## indienen {#submit}
 
-Hiermee worden alle gegevens die in behandeling zijn naar de Audience Manager verzonden voor de instantie [!UICONTROL DIL].
+Hiermee worden alle hangende gegevens naar de Audience Manager verzonden voor de [!UICONTROL DIL] -instantie.
 
 <!-- 
 
@@ -179,11 +179,11 @@ r_dil_submit.xml
 
 >[!NOTE]
 >
->U kunt andere API-aanroepen naar deze methode koppelen. Daarnaast schrijft [!UICONTROL DIL] gecodeerde gegevens naar een doelcookie. Spaties worden bijvoorbeeld gecodeerd als `%20` en puntkomma&#39;s als `%3B`.
+>U kunt andere API-aanroepen naar deze methode koppelen. Ook, [!UICONTROL DIL] gecodeerde gegevens worden naar een doelcookie geschreven. Spaties worden bijvoorbeeld gecodeerd als `%20` en puntkomma&#39;s als `%3B`.
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
+Hiermee wordt het API-object van het huidige object geretourneerd [!UICONTROL DIL] -instantie.
 
 **Voorbeeldcode**
 
@@ -227,7 +227,7 @@ r_dil_after_result.xml
 
 **Antwoord**
 
-Retourneert een API-object van de huidige [!UICONTROL DIL]-instantie.
+Hiermee wordt een API-object van het huidige object geretourneerd [!UICONTROL DIL] -instantie.
 
 **Voorbeeldcode**
 
@@ -263,7 +263,7 @@ r_dil_clear_data.xml
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
+Hiermee wordt het API-object van het huidige object geretourneerd [!UICONTROL DIL] -instantie.
 
 **Voorbeeldcode**
 
@@ -331,7 +331,7 @@ partnerObject.api.customQueryParams({
 
 ## getContainerNSID {#getcontainernsid}
 
-Retourneert de waarde van de container NSID voor de instantie [!UICONTROL DIL]. Nuttig voor foutopsporing en probleemoplossing.
+Keert de waarde van container NSID voor terug [!UICONTROL DIL] -instantie. Nuttig voor foutopsporing en probleemoplossing.
 
 <!-- 
 
@@ -392,7 +392,7 @@ if (log && log.length) {
 
 ## getPartner {#getpartner}
 
-Retourneert de partnernaam voor een instantie [!UICONTROL DIL]. Nuttig voor foutopsporing en probleemoplossing.
+Retourneert de partnernaam voor een [!UICONTROL DIL] -instantie. Nuttig voor foutopsporing en probleemoplossing.
 
 <!-- 
 
@@ -416,7 +416,7 @@ var partner = dataLib.api.getPartner();
 
 ## getState {#getstate}
 
-Retourneert de status van de huidige [!UICONTROL DIL]-instantie. Nuttig voor foutopsporing en probleemoplossing.
+Retourneert de status van de huidige [!UICONTROL DIL] -instantie. Nuttig voor foutopsporing en probleemoplossing.
 
 <!-- 
 
@@ -496,7 +496,7 @@ r_dil_idsync.xml
 
 **Functiehandtekening:**
 
-Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
+Werken met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
 
 <table id="table_ADC7501511914805A6A6B24B2DFEBA51"> 
  <thead> 
@@ -508,11 +508,11 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Tussen verschillende gegevenspartners en Audience Manager. Bijvoorbeeld, zou partner x dit gebruiken om een gebruiker - identiteitskaart met partner y te synchroniseren en dan dat naar Audience Manager te verzenden. </p> <p> <p><b>Belangrijk:</b>  deze methode is afgekeurd. Gebruik de methode <code> idSyncByURL </code> van de Adobe Experience Platform Identity Service-instantie. </p> </p> </td> 
+   <td colname="col2"> <p>Tussen verschillende gegevenspartners en Audience Manager. Bijvoorbeeld, zou partner x dit gebruiken om een gebruiker - identiteitskaart met partner y te synchroniseren en dan dat naar Audience Manager te verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gebruik de <code> idSyncByURL </code> methode van de instantie Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Wanneer u de gebruikersnaam al kent en deze naar de Audience Manager wilt verzenden. </p> <p> <p><b>Belangrijk:</b>  deze methode is afgekeurd. Gebruik de methode <code> idSyncByDataSource </code> van de Adobe Experience Platform Identity Service-instantie. </p> </p> </td> 
+   <td colname="col2"> <p>Wanneer u de gebruikersnaam al kent en deze naar de Audience Manager wilt verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gebruik de <code> idSyncByDataSource </code> methode van de instantie Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -543,7 +543,7 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
   <tr valign="top"> 
    <td colname="col1"> <code> minutesToLive </code> </td> 
    <td colname="col2"> Getal </td> 
-   <td colname="col3"> <p><i>(Optioneel) </i> Hiermee stelt u de vervaltijd van het cookie in. Moet een geheel getal zijn. De standaardwaarde is 20160 minuten (14 dagen). </p> </td> 
+   <td colname="col3"> <p><i>(Optioneel)</i> Hiermee stelt u de vervaltijd van het cookie in. Moet een geheel getal zijn. De standaardwaarde is 20160 minuten (14 dagen). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> url </code> </td> 
@@ -558,12 +558,12 @@ Werkt met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
 `idSync` Hiermee worden de volgende macro&#39;s geaccepteerd:
 
 * **`%TIMESTAMP%`:** Genereert een tijdstempel (in milliseconden). Wordt gebruikt voor het busten van cache.
-* **`%DID%`:** Hiermee wordt de Audience Manager-id voor de gebruiker ingevoegd.
-* **`%HTTP_PROTO%`:** Hiermee stelt u het paginaprotocol ( `http` of  `https`) in.
+* **`%DID%`:** Voegt de Audience Manager-id voor de gebruiker in.
+* **`%HTTP_PROTO%`:** Hiermee wordt het paginaprotocol ingesteld ( `http` of `https`).
 
 **Antwoord**
 
-Beide functies retourneren `Successfully queued` als dit lukt. Ze retourneren een foutbericht als dat niet het geval is.
+Beide functies retourneren `Successfully queued` indien succesvol. Ze retourneren een foutbericht als dat niet het geval is.
 
 **Voorbeeldcode**
 
@@ -616,7 +616,7 @@ Deze callback vervangt standaardcallback die bestemmings het publiceren behandel
 
 **Antwoord**
 
-Retourneert het API-object van de huidige [!UICONTROL DIL]-instantie.
+Hiermee wordt het API-object van het huidige object geretourneerd [!UICONTROL DIL] -instantie.
 
 **Voorbeeldcode**
 
@@ -633,7 +633,7 @@ dataLib.api.traits([<i>123, 456, 789</i>]).result(function(json){
 
 ## secureDataCollection {#securedatacollection}
 
-`secureDataCollection` is een booleaanse parameter die bepaalt hoe  [!UICONTROL DIL] aanroepen naar de  [!UICONTROL Data Collection Servers (DCS)] en Akamai worden uitgevoerd.
+`secureDataCollection` is een Booleaanse parameter die bepaalt hoe [!UICONTROL DIL] roept [!UICONTROL Data Collection Servers (DCS)] en Akamai.
 
 <!-- 
 
@@ -641,13 +641,13 @@ dil-secure-data-collection.xml
 
  -->
 
-* Wanneer `secureDataCollection= true` (gebrek), [!UICONTROL DIL] altijd veilig maakt, vraag HTTPS.
+* Wanneer `secureDataCollection= true` (standaard), [!UICONTROL DIL] maakt altijd veilige, HTTPS vraag.
 
-* Wanneer `secureDataCollection= false`, [!UICONTROL DIL] of HTTP of HTTPS vraag door het veiligheidsprotocol te volgen dat door de pagina wordt geplaatst.
+* Wanneer `secureDataCollection= false`, [!UICONTROL DIL] voert HTTP- of HTTPS-aanroepen uit volgens het beveiligingsprotocol dat door de pagina is ingesteld.
 
 >[!IMPORTANT]
 >
->Stel `secureDataCollection= false` in als u bezoekerAPI.js en [!UICONTROL DIL] op dezelfde pagina gebruikt. Zie het onderstaande codevoorbeeld.
+>Set `secureDataCollection= false` als u bezoekerAPI.js en [!UICONTROL DIL] op dezelfde pagina. Zie het onderstaande codevoorbeeld.
 
 <pre><code class="js">
 var dilInstance = DIL.create({ 
@@ -668,7 +668,7 @@ dil-use-cors-only.xml
 
 **Overzicht**
 
-`useCORSOnly` is standaard false. Onwaar betekent browser middelcontroles met CORS of JSONP kan uitvoeren. Nochtans, [!UICONTROL DIL] probeert altijd om middelen met CORS eerst te verzoeken. Het keert aan JSONP op oudere browsers terug die geen CORS steunen. Als u browser moet dwingen om CORS slechts te gebruiken, zoals met plaatsen die hoge veiligheidseisen hebben, plaats `useCORSOnly:true`.
+`useCORSOnly` is standaard false. Onwaar betekent browser middelcontroles met CORS of JSONP kan uitvoeren. Maar [!UICONTROL DIL] probeert altijd om middelen met CORS eerst te verzoeken. Het keert aan JSONP op oudere browsers terug die geen CORS steunen. Als u browser moet dwingen om CORS slechts te gebruiken, zoals met plaatsen die hoge veiligheidseisen hebben, plaats `useCORSOnly:true`.
 
 **Codevoorbeeld**
 
@@ -681,16 +681,14 @@ var dilInstance = DIL.create({
 
 >[!IMPORTANT]
 >
->* We raden u aan `useCORSOnly: true` alleen in te stellen als u zeker weet dat uw sitebezoekers browsers hebben die deze functie ondersteunen.
->* Als `useCORSOnly: true`, [!UICONTROL DIL] geen vraag van Internet Explorer versie 9 of ouder zal maken.
-
+>* We raden u aan `useCORSOnly: true` alleen als u zeker weet dat bezoekers van uw site browsers hebben die deze functie ondersteunen.
+>* Wanneer `useCORSOnly: true`, [!UICONTROL DIL] zal geen vraag van identiteitskaart van Internet Explorer versie 9 of ouder maken.
 >
-
 
 
 ## useImageRequest {#useimagerequest}
 
-Wijzigt het aanvraagtype in afbeelding `<img>` vanuit script `<src>`.
+Hiermee wijzigt u het aanvraagtype in de afbeelding `<img>` van script `<src>`.
 
 <!-- 
 
@@ -706,7 +704,7 @@ r_dil_use_image_request.xml
 
 **Antwoord**
 
-Retourneert een API-object van de huidige [!UICONTROL DIL]-instantie.
+Hiermee wordt een API-object van het huidige object geretourneerd [!UICONTROL DIL] -instantie.
 
 **Voorbeeldcode**
 
@@ -722,9 +720,9 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >[!MORELIKETHIS]
 >
 >* [Naamvereisten voor belangrijke variabelen](../features/traits/trait-key-name-requirements.md)
-* [Voorvoegselvereisten voor belangrijke variabelen](../features/traits/trait-variable-prefixes.md)
-* [Synchronisatiefuncties in de Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
-* [DIL maken](../dil/dil-class-overview/dil-create.md#dil-create)
-* [Adobe Experience Platform Identity Service: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
-* [CORS-ondersteuning in de Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
+>* [Voorvoegselvereisten voor belangrijke variabelen](../features/traits/trait-variable-prefixes.md)
+>* [Synchronisatiefuncties in de Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/idsync.html)
+>* [DIL maken](../dil/dil-class-overview/dil-create.md#dil-create)
+>* [Adobe Experience Platform Identity Service: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
+>* [CORS-ondersteuning in de Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
 

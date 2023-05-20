@@ -1,16 +1,15 @@
 ---
 description: Bevat technische documentatie over systeemfunctionaliteit, gegevensintegratie, en hulpdossiers.
-seo-description: Bevat technische documentatie over systeemfunctionaliteit, gegevensintegratie, en hulpdossiers.
-seo-title: 'Referenties '
+seo-description: Contains technical documentation about system functionality, data integration, and help files.
+seo-title: Reference
 solution: Audience Manager
-title: 'Referenties '
+title: Referenties
 feature: Reference
 exl-id: 5b1f94de-8228-434f-8725-cc5b25d4b857
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 33%
+source-wordcount: '52'
+ht-degree: 38%
 
 ---
 

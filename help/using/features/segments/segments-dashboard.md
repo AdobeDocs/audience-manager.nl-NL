@@ -1,27 +1,26 @@
 ---
 description: Het dashboard van Segmenten is een gecentraliseerde werkruimte voor het beheren van bestemmingen.
-seo-description: Het dashboard van Segmenten is een gecentraliseerde werkruimte voor het beheren van bestemmingen.
-seo-title: Weergave Segmentenlijst
+seo-description: The Segments dashboard is a centralized workspace for managing destinations.
+seo-title: Segments List View
 solution: Audience Manager
 title: Weergave Segmentenlijst
 uuid: aa69877b-1d52-4b87-8734-b4bff39935a5
 feature: Segments
-translation-type: tm+mt
-source-git-commit: 65598677498ede26e4961cd4849c9b655dac38dc
+exl-id: 983ce119-52af-40fb-9d64-3063e85f2b3d
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 11%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
-
 # Weergave Segmentenlijst {#segments-list-view}
 
-[!UICONTROL Segments dashboard] is een gecentraliseerde werkruimte voor het beheren van uw publiekssegmenten. U kunt het [!UICONTROL Segments] dashboard zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** te navigeren.
+De [!UICONTROL Segments dashboard] is een gecentraliseerde werkruimte voor het beheer van uw publiekssegmenten. U kunt de [!UICONTROL Segments] dashboard door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]**.
 
 ![segments-dashboard](assets/segments-dashboard.png)
 
-De pagina [!UICONTROL Segments] bevat functies en gereedschappen die u helpen:
+De [!UICONTROL Segments] Deze pagina bevat functies en gereedschappen die u helpen:
 
 * Nieuwe segmenten maken;
 * Segmenten bewerken en verwijderen;

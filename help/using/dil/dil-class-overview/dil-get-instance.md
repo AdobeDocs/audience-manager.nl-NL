@@ -1,20 +1,19 @@
 ---
 description: Hiermee wordt een partnerspecifieke DIL-instantie opgehaald.
-keywords: audience manager api;aam api;audience manager apis;aam apis
-seo-description: Hiermee wordt een partnerspecifieke DIL-instantie opgehaald.
+keywords: publieksmanager api;am api;publieksmanager apis;am apis
+seo-description: Retrieves a partner-specific DIL instance.
 seo-title: getDil
 solution: Audience Manager
 title: getDil
 uuid: 7b95f9bf-14c0-4c74-b6b9-d6b38513d487
 feature: DIL Implementation
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: a1e9e715-3921-4298-bce1-5a6c2110e71b
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 6%
+source-wordcount: '77'
+ht-degree: 5%
 
 ---
-
 
 # getDil{#getdil}
 
@@ -33,7 +32,7 @@ Hiermee wordt een partnerspecifieke DIL-instantie opgehaald.
 
 ## Antwoord
 
-Een succesvolle partner en container NSID keert een partner-specifieke [!UICONTROL DIL] instantie terug. Als er geen overeenkomst is, keert API (veroorzaakt niet) een fout met het bericht terug, &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
+De succesvolle partner en de container NSID komen een partner-specifiek terug [!UICONTROL DIL] -instantie. Als er geen overeenkomst is, retourneert de API (geen fout) met het bericht &quot; `The DIL instance with partner <name> and containerNSID <ID> was not found.`&quot;
 
 ## Voorbeeldcode
 

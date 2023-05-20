@@ -1,15 +1,15 @@
 ---
 description: Beschrijft de vereiste gebieden, de syntaxis, en de overeenkomsten die worden gebruikt om een uitgaand gegevensdossier te noemen.
-seo-description: Beschrijft de vereiste gebieden, de syntaxis, en de overeenkomsten die worden gebruikt om een uitgaand gegevensdossier te noemen.
-seo-title: Syntaxis en voorbeelden van uitgaande gegevensbestanden
+seo-description: Describes the required fields, syntax, and conventions used to name an outbound data file.
+seo-title: Outbound Data File Name  Syntax and Examples
 solution: Audience Manager
 title: Syntaxis en voorbeelden van uitgaande gegevensbestanden
 uuid: effdcaf6-c37c-45f3-9d2f-a938a9da47a6
-feature: Uitgaande gegevensoverdrachten
+feature: Outbound Data Transfers
 exl-id: 0944da72-5a8d-45a2-951e-b2988eb3d490
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '669'
 ht-degree: 5%
 
 ---
@@ -22,7 +22,7 @@ Beschrijft de vereiste gebieden, de syntaxis, en de overeenkomsten die worden ge
 
 >[!NOTE]
 >
->De stijlelementen (`monospaced text`, *italics*, vierkante haken `[ ]` `( )`, enz.) in dit document de elementen en opties van de code aangeven. Zie [Stijlconventies voor code- en tekstelementen](../../../reference/code-style-elements.md) voor meer informatie.
+>De stijlelementen (`monospaced text`, *cursief*, vierkante haken `[ ]` `( )`, enz.) in dit document de elementen en opties van de code aangeven. Zie [Stijlconventies voor code- en tekstelementen](../../../reference/code-style-elements.md) voor meer informatie.
 
 ## Syntaxis en bestandsnaamelementen {#syntax-file-name}
 
@@ -49,19 +49,19 @@ De tabel definieert de elementen in de naam van een uitgaand gegevensbestand.
    <td colname="col2"> <p>Verwijst naar de methoden voor gegevensoverdracht. Overdrachtsmethoden zijn onder meer: </p> 
     <ul id="ul_4E0CFC7A34E04E2FA216A07E3654D6EE"> 
      <li id="li_0066B99222A64BE9975AE2E91511FB77">FTP - Overdracht met SFTP </li> 
-     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3  </span> - Overdracht naar  <span class="keyword"> Amazon AWS  </span> </li> 
+     <li id="li_646767FE8AD247B88D0DD5461349F019"> <span class="keyword"> Amazon S3 </span> - Overdracht naar <span class="keyword"> Amazon AWS </span> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>DID </i></code> </p> </td> 
-   <td colname="col2"> <p>Doel-id. </p> <p>In <span class="keyword"> Audience Manager </span>, is een bestemming de instantie van de integratie waar u uw doelsegmenten kunt in kaart brengen. De klanten kunnen veelvoudige bestemmingen, afhankelijk van het bedrijfsvereiste hebben. </p> </td> 
+   <td colname="col2"> <p>Doel-id. </p> <p>In <span class="keyword"> Audience Manager </span>, is een doel het geval van de integratie waar u uw doelsegmenten kunt in kaart brengen. De klanten kunnen veelvoudige bestemmingen, afhankelijk van het bedrijfsvereiste hebben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>MASTER_DPID </i></code> </p> </td> 
    <td colname="col2"> <p>Data-provider of gegevensbron-id. Deze id geeft het type gebruikersnaam aan dat aanwezig is in de bestandsinhoud. De meest gebruikte gebruikersnamen zijn: </p> <p> 
      <ul id="ul_CC22D019ECED4B17A7695708001F2C1B"> 
-      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser ID </span> (raw, unhashed) </li> 
-      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple ID for Advertisers </span> (raw, unhashed) </li> 
+      <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser ID </span> (onbewerkt, ongehasht) </li> 
+      <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple-id voor adverteerders </span> (onbewerkt, ongehasht) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">Leveranciers-id - gebruikers-id's van derden (web/cookie) </li> 
      </ul> </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">Algemene databronnen</a> voor meer informatie.</p></td> 
   </tr> 
@@ -71,7 +71,7 @@ De tabel definieert de elementen in de naam van een uitgaand gegevensbestand.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>SYNC_MODE </i></code> </p> </td> 
-   <td colname="col2"> <p>De synchronisatiemodus is een macro-plaatsaanduiding die een label toevoegt aan de bestandsnaam op basis van het synchronisatietype. De types van synchronisatie omvatten volledig en stijgende. Deze worden in de bestandsnaam weergegeven als <code> iter </code> of <code> full </code>. </p> 
+   <td colname="col2"> <p>De synchronisatiemodus is een macro-plaatsaanduiding die een label toevoegt aan de bestandsnaam op basis van het synchronisatietype. De types van synchronisatie omvatten volledig en stijgende. Ze worden in de bestandsnaam weergegeven als <code> iter </code> of <code> full </code>. </p> 
     <ul id="ul_3B3585CEF1434951B6FDCDD29E5013CD"> 
      <li id="li_947D94E9CFAC4041AC1AAEB191805529"> <code> iter </code>: Geeft een "iteratieve" of incrementele synchronisatie aan. Een incrementeel bestand bevat alleen nieuwe gegevens die zijn verzameld sinds de laatste synchronisatie. </li> 
      <li id="li_13ADB3B3346943DAA767A1F416482D3C"> <code> full </code>: Geeft een volledige synchronisatie aan. Een volledig gesynchroniseerd bestand bevat oude gegevens en eventuele nieuwe gegevens die zijn verzameld sinds de laatste synchronisatie. </li> 
@@ -96,7 +96,7 @@ De tabel definieert de elementen in de naam van een uitgaand gegevensbestand.
 
 ### Scenario 1
 
-Bestanden die naar een [!DNL Amazon S3]-locatie worden verzonden, met *`PID_ALIAS="XYZCustomer"`* en met [!DNL Google Advertiser IDs] in de bestandsinhoud.
+Bestanden verzonden naar een [!DNL Amazon S3] locatie, met *`PID_ALIAS="XYZCustomer"`* en met [!DNL Google Advertiser IDs] in de bestandsinhoud.
 
 Bijvoorbeeld incrementele bestanden:
 
@@ -115,7 +115,7 @@ Bijvoorbeeld volledige bestanden:
 
 ### Scenario 2
 
-Bestanden die naar de locatie [!DNL FTP] worden verzonden, zonder *`PID_ALIAS`* en met [!DNL Apple Advertiser IDs] in de bestandsinhoud:
+Bestanden verzonden naar [!DNL FTP] locatie, zonder *`PID_ALIAS`* en met [!DNL Apple Advertiser IDs] in de bestandsinhoud:
 
 Bijvoorbeeld incrementele bestanden:
 
@@ -131,7 +131,7 @@ Bijvoorbeeld volledige bestanden:
  <li> <code> ftp_1234_20915_full_1486140843000001.sync.gz </code> </li> 
 </ul>
 
-**Scenario 3**: Bestanden die naar de  [!DNL FTP] locatie worden verzonden, met  *`PID_ALIAS="XYZCustomer"`* en met een gebruikersnaam van een andere gebruiker in de bestandsinhoud (  *`Vendor ID=45454`*):
+**Scenario 3**: Bestanden verzonden naar [!DNL FTP] locatie, met *`PID_ALIAS="XYZCustomer"`* en met een derde-gebruiker-id in de bestandsinhoud ( *`Vendor ID=45454`*):
 
 Bijvoorbeeld incrementele bestanden:
 
@@ -156,7 +156,7 @@ Beschrijft de vereiste gebieden, de syntaxis, en de overeenkomsten die worden ge
 
 >[!NOTE]
 >
->De stijlelementen (`monospaced text`, *italics*, vierkante haken `[ ]` `( )`, enz.) in dit document de elementen en opties van de code aangeven. Zie [Stijlconventies voor code- en tekstelementen](../../../reference/code-style-elements.md) voor meer informatie.
+>De stijlelementen (`monospaced text`, *cursief*, vierkante haken `[ ]` `( )`, enz.) in dit document de elementen en opties van de code aangeven. Zie [Stijlconventies voor code- en tekstelementen](../../../reference/code-style-elements.md) voor meer informatie.
 
 ### Syntaxis
 
@@ -178,7 +178,7 @@ De tabel bevat variabelen die de inhoud van een gegevensbestand definiëren.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code><i>UUID </i></code> </p> </td> 
-   <td colname="col2"> <p>Een unieke gebruikers-id die wordt toegewezen door <span class="keyword"> Audience Manager </span>. </p> </td> 
+   <td colname="col2"> <p>Een unieke gebruikersnaam toegewezen door <span class="keyword"> Audience Manager </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>&lt;SPACE&gt; </i></code> </p> </td> 
@@ -197,7 +197,7 @@ De tabel bevat variabelen die de inhoud van een gegevensbestand definiëren.
 
 ### Voorbeeld: Basisbestandsindeling
 
-Een gegevensbestand met de juiste indeling kan er ongeveer als volgt uitzien. Deze bestandsinvoer geeft aan dat een gebruiker voor de segmenten 24, 26 en 27 in aanmerking komt. Zo nodig scheidt een spatie de `UUID` en segment-id&#39;s. Een andere ruimte scheidt de reeksen segment IDs. In dit voorbeeld behoort een gebruiker tot de segmenten 24, 26 en 27. Ze zijn verwijderd uit segmenten 25 en 28.
+Een gegevensbestand met de juiste indeling kan er ongeveer als volgt uitzien. Deze bestandsinvoer geeft aan dat een gebruiker voor de segmenten 24, 26 en 27 in aanmerking komt. Indien vereist wordt een spatie tussen de `UUID` en segment-id&#39;s. Een andere ruimte scheidt de reeksen segment IDs. In dit voorbeeld behoort een gebruiker tot de segmenten 24, 26 en 27. Ze zijn verwijderd uit segmenten 25 en 28.
 
 ```
 59767559181262060060278870901087098252  24,26,27  25,28

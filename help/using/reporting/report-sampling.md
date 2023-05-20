@@ -1,17 +1,16 @@
 ---
 description: Een samenvatting van de steekproefmethode die voor sommige rapporten wordt gebruikt, foutenpercentages van de steekproef, en een lijst van rapporten die informatie terugkeren die op bemonsterde gegevens wordt gebaseerd.
-seo-description: Een samenvatting van de steekproefmethode die voor sommige rapporten wordt gebruikt, foutenpercentages van de steekproef, en een lijst van rapporten die informatie terugkeren die op bemonsterde gegevens wordt gebaseerd.
-seo-title: Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten
+seo-description: A summary of the sampling methodology used for some reports, sampling error rates, and a list of reports that return information based on sampled data.
+seo-title: Data Sampling and Error Rates in Selected Audience Manager Reports
 solution: Audience Manager
 title: Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten
 uuid: 3d8bd764-a9da-40f1-8794-54304457bb9a
 feature: Reporting Reference
 exl-id: 0b7f9423-0859-4fa8-926b-e4858eed2294
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 7%
+source-wordcount: '432'
+ht-degree: 6%
 
 ---
 
@@ -19,9 +18,9 @@ ht-degree: 7%
 
 Een samenvatting van de steekproefmethode die voor sommige rapporten wordt gebruikt, foutenpercentages van de steekproef, en een lijst van rapporten die informatie terugkeren die op bemonsterde gegevens wordt gebaseerd.
 
-## Gegevensbemonsteringsverhouding {#data-sampling-ratio}
+## Bemonsteringsverhouding gegevens {#data-sampling-ratio}
 
-Sommige [!DNL Audience Manager] rapporten tonen resultaten die op een bemonsterde reeks van de totale hoeveelheid beschikbare gegevens worden gebaseerd. De gegevensverhouding in het monster is 1:54. Voor rapporten die bemonsterde gegevens gebruiken, betekent dit uw resultaten op 1 verslag van elke reeks 54 verslagen worden gebaseerd.
+Sommige [!DNL Audience Manager] de rapporten tonen resultaten die op een bemonsterde reeks van de totale hoeveelheid beschikbare gegevens worden gebaseerd. De gegevensverhouding in het monster is 1:54. Voor rapporten die bemonsterde gegevens gebruiken, betekent dit uw resultaten op 1 verslag van elke reeks 54 verslagen worden gebaseerd.
 
 Deze rapporten gebruiken statistische gesamplede gegevens omdat ze een enorme hoeveelheid verwerkingskracht nodig hebben om resultaten te genereren. Bemonstering helpt een evenwicht te vinden tussen lagere computervereisten, het handhaven van systeemprestaties en het verstrekken van nauwkeurige resultaten.
 
@@ -40,27 +39,27 @@ Overlap reports ([trait-to-trait](/help/using/reporting/dynamic-reports/trait-tr
 
 -->
 
-## Foutsnelheden {#error-rates}
+## Foutpercentages {#error-rates}
 
 Er kunnen fouten optreden in rapporten die overlappende gegevens genereren. Een fout wordt gedefinieerd als het percentage records dat:
 
 * Was niet in een rapport opgenomen maar toch toegevoegd.
 * Het had in een verslag moeten worden opgenomen, maar het werd weggelaten.
 
-Het is belangrijk om op te merken dat onze tests en modellen tonen dat het foutenpercentage *vermindert* in een omgekeerde verhouding aan het aantal verslagen in uw gegevensreeks. Gegevenssets met veel records genereren minder fouten dan gegevenssets met een klein aantal records. Laten we deze bewering op een meer kwantitatieve manier bekijken. Zoals getoond in de volgende lijst, voor een bepaald aantal verslagen, zal 95% van uw rapportresultaten onder een specifiek foutenpercentage zijn.
+Het is belangrijk om op te merken dat onze tests en modellen aantonen dat het foutenpercentage *dalingen* in omgekeerde verhouding tot het aantal records in uw gegevensset. Gegevenssets met veel records genereren minder fouten dan gegevenssets met een klein aantal records. Laten we deze bewering op een meer kwantitatieve manier bekijken. Zoals getoond in de volgende lijst, voor een bepaald aantal verslagen, zal 95% van uw rapportresultaten onder een specifiek foutenpercentage zijn.
 
 | Aantal records | Foutfrequentie |
 |--- |--- |
-| 500 - 1.000 | 95% is lager dan een 42%-foutenpercentage. |
-| 1.000 - 1.500 | 95% is lager dan een foutpercentage van 34%. |
-| 10.000 - 50.000 | 95% is lager dan een foutpercentage van 14%. |
-| 50 000 | 95% is lager dan een foutenpercentage van 6%. |
-| 100 000 | 95% is lager dan een foutpercentage van 4%. |
+| 500 - 1,000 | 95% is lager dan een 42%-foutenpercentage. |
+| 1,000 - 1,500 | 95% is lager dan een foutpercentage van 34%. |
+| 10,000 - 50,000 | 95% is lager dan een foutpercentage van 14%. |
+| 50,000 | 95% is lager dan een foutenpercentage van 6%. |
+| 100,000 | 95% is lager dan een foutpercentage van 4%. |
 | 500.000 (of meer) | 95% is lager dan een foutpercentage van 2%. |
 
-## De methode {#minhash} voor het nemen van minihashmonsters gebruiken
+## De methode voor het nemen van minihashmonsters gebruiken {#minhash}
 
-Op basis van de [Minhash](https://en.wikipedia.org/wiki/MinHash)-bemonsteringsmethode gebruikt Audience Manager een nieuwe methode om de kenmerken en segmentschattingen te berekenen boven op een One Permutation Hashing-gegevensschets. Deze nieuwe methode produceert een lagere variantie dan de standaardschatter voor gelijkenis Jaccard. Zie de volgende sectie voor de rapporten die deze methodologie gebruiken.
+Op basis van de [Minhash](https://en.wikipedia.org/wiki/MinHash) Audience Manager gebruikt een nieuwe methode voor het berekenen van kenmerken en segmentschattingen boven op een gegevensschets One Permutation Hashing. Deze nieuwe methode produceert een lagere variantie dan de standaardschatter voor gelijkenis Jaccard. Zie de volgende sectie voor de rapporten die deze methodologie gebruiken.
 
 <!--
 
@@ -70,9 +69,9 @@ Some Audience Manager reports use the minhash sampling methodology to compute tr
 
 -->
 
-## Rapporten die bemonsterde gegevens {#reports-using-sampled-data} gebruiken
+## Rapporten waarin voorbeeldgegevens worden gebruikt {#reports-using-sampled-data}
 
-De [!DNL Audience Manager] rapporteert dat statistische gesamplede gegevens worden gebruikt en de Minhash-bemonsteringsmethodologie omvat:
+De [!DNL Audience Manager] rapporten waarin gebruik wordt gemaakt van statistische bemonsterde gegevens en de methode voor het nemen van monsters van minihash:
 
 <!--
 
@@ -87,6 +86,6 @@ Reports that use Minhash sampling methodology:
 
 | Statistische bemonstering | Methode voor het nemen van minihash |
 |--- |--- |
-| [Adresseerbare ](../features/addressable-audiences.md) publieksgegevens (klant- en segmentgegevens). | [Overlap rapporten](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)  (standaard-aan-eigenschap, segment-aan-lijn, en segment-aan-segment) |
-| De [Total Devices](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics)-meting voor een [!UICONTROL Profile Merge Rule]. | [Trait Recommendations](/help/using/features/segments/trait-recommendations.md) |
-| [Data ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) Explorer gebruikt gesamplede gegevens op het  [!UICONTROL Search] tabblad en alle  [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [Adresseerbaar publiek](../features/addressable-audiences.md) gegevens (gegevens op klant- en segmentniveau). | [Rapporten overlappen](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (eigenschap-aan-pas, segment-aan-pas, en segment-aan-segment) |
+| De [Totaal aantal apparaten](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metrisch voor een [!UICONTROL Profile Merge Rule]. | [Trait Recommendations](/help/using/features/segments/trait-recommendations.md) |
+| [Data Explorer](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) gebruikt gesamplede gegevens in de [!UICONTROL Search] en alle [!UICONTROL Saved Searches] | [Audience Marketplace Recommendations](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

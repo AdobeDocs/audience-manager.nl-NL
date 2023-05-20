@@ -38,7 +38,7 @@ Enterprise-klanten die [!DNL Audience Manager] één platform voor gegevensbehee
 
 >[!IMPORTANT]
 >
-> Gebruikersaccountbeheer gaat over op de [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Om gebruikersmigratie te starten, moeten alle klanten van de Audience Manager onmiddellijk de noodzakelijke maatregelen nemen die in dit artikel worden beschreven: [Audience Manager gebruiker migratie naar Admin Console](admin-console-migration.md).
+> Gebruikersaccountbeheer gaat over op de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te starten, moeten alle klanten van de Audience Manager onmiddellijk de noodzakelijke maatregelen nemen die in dit artikel worden beschreven: [Audience Manager gebruiker migratie naar Admin Console](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, gaat de sectie voor gebruikersbeheer van dit document weg.
 Gebruikers maken in [!DNL Audience Manager] en geef gebruikersgegevens, aanmeldingsstatus en wijs gebruikers toe aan groepen.
@@ -66,7 +66,7 @@ Voor meer informatie over groepen en toestemmingen, zie [Een groep maken](../../
 
 >[!IMPORTANT]
 >
-> Gebruikersaccountbeheer gaat over op de [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Om gebruikersmigratie te starten raden we alle klanten van de Audience Manager aan onmiddellijk de noodzakelijke maatregelen te nemen die in dit artikel worden beschreven: [Audience Manager gebruiker migratie naar Admin Console](admin-console-migration.md).
+> Gebruikersaccountbeheer gaat over op de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te starten raden we alle klanten van de Audience Manager aan onmiddellijk de noodzakelijke maatregelen te nemen die in dit artikel worden beschreven: [Audience Manager gebruiker migratie naar Admin Console](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, gaat deze sectie weg.
 
@@ -92,7 +92,7 @@ Hiermee opent u een venster met machtigingen voor het geselecteerde object.
 
 >[!IMPORTANT]
 >
-> Gebruikersaccountbeheer gaat over op de [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). Om gebruikersmigratie te starten raden we alle klanten van de Audience Manager aan onmiddellijk de noodzakelijke maatregelen te nemen die in dit artikel worden beschreven: [Audience Manager gebruiker migratie naar Admin Console](admin-console-migration.md).
+> Gebruikersaccountbeheer gaat over op de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te starten raden we alle klanten van de Audience Manager aan onmiddellijk de noodzakelijke maatregelen te nemen die in dit artikel worden beschreven: [Audience Manager gebruiker migratie naar Admin Console](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, gaat deze sectie weg.
 

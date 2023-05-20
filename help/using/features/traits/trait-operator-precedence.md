@@ -1,19 +1,18 @@
 ---
 description: Trait Builder evalueert expressies volgens de onderstaande volgorde van bewerkingen, van hoge tot lage prioriteit. Trait-elementen die worden gedefinieerd door operatoren met een hoge prioriteit worden eerst geëvalueerd, vóór andere operatoren met voorrang. Deze sectie rangschikt elke exploitant volgens belangrijkheid, van hoog aan laag.
-seo-description: Trait Builder evalueert expressies volgens de onderstaande volgorde van bewerkingen, van hoge tot lage prioriteit. Trait-elementen die worden gedefinieerd door operatoren met een hoge prioriteit worden eerst geëvalueerd, vóór andere operatoren met voorrang. Deze sectie rangschikt elke exploitant volgens belangrijkheid, van hoog aan laag.
-seo-title: Bewerkingsvolgorde in Eigenschapbuilder
+seo-description: Trait Builder evaluates expressions according to the order-of-operations listed below, from high to low precedence. Trait elements defined by high-precedence operators are evaluated first, before other precedence operators. This section ranks each operator according to precedence, from high to low.
+seo-title: Order of Operations in Trait Builder
 solution: Audience Manager
 title: Bewerkingsvolgorde in Eigenschapbuilder
 uuid: df325047-af62-45ad-9ca1-046bfcbe5341
 feature: Traits
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 90700479-4a8e-4a07-81ef-2e9d8a1d9f15
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 9%
+source-wordcount: '161'
+ht-degree: 8%
 
 ---
-
 
 # Bewerkingsvolgorde in Eigenschapbuilder {#order-of-operations-in-trait-builder}
 
@@ -37,7 +36,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td colname="col1"> Vergelijkingsoperatoren </td> 
-   <td colname="col2"> &lt;&gt; &lt;&gt;= </td> 
+   <td colname="col2"> &lt; &gt; &lt;= &gt;= </td> 
    <td colname="col3"> Vervolgens wordt minder dan, groter dan, kleiner dan/gelijk aan, groter dan/gelijk aan geëvalueerd. </td> 
   </tr> 
   <tr> 
@@ -46,12 +45,12 @@ ht-degree: 9%
    <td colname="col3"> Gelijk aan, niet gelijk aan worden geëvalueerd na de vorige exploitanten. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Boolean <span class="wintitle"> AND</span> </td> 
+   <td colname="col1">Boolean <span class="wintitle"> EN</span> </td> 
    <td colname="col2"><span class="wintitle"> AND</span> </td> 
    <td colname="col3" morerows="1"> n.v.t. </td> 
   </tr> 
   <tr> 
-   <td colname="col1">Booleaans <span class="wintitle"> OF</span> </td> 
+   <td colname="col1">Boolean <span class="wintitle"> OF</span> </td> 
    <td colname="col2"><span class="wintitle"> OF</span> </td> 
    <td colname="col3" morerows="1"> n.v.t. </td> 
   </tr> 

@@ -1,17 +1,16 @@
 ---
 description: Gebruik de diverse rapportschuifregelaars om alleen de gegevens weer te geven die boven, onder of binnen het opgegeven bereik vallen.
-seo-description: Gebruik de diverse rapportschuifregelaars om alleen de gegevens weer te geven die boven, onder of binnen het opgegeven bereik vallen.
-seo-title: Resultaten van filterrapporten met dataregelaars
+seo-description: Use the various report sliders to show only the data that falls above, below, or within your specified range.
+seo-title: Filter Report Results With the Data Sliders
 solution: Audience Manager
 title: Resultaten van filterrapporten met dataregelaars
 uuid: ec486d97-d1d9-469b-b8df-5821f30d10ee
 feature: Reporting Reference
 exl-id: 876a01c2-e73e-4728-8890-e3f354ad1b86
-translation-type: tm+mt
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 11%
+source-wordcount: '148'
+ht-degree: 9%
 
 ---
 

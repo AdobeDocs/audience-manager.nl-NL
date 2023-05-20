@@ -1,19 +1,18 @@
 ---
 description: Domeinbeheermethoden waarmee u domeinen kunt maken en beheren waarnaar u gegevens wilt verzenden (alleen voor cookie-doelen).
-seo-description: Domeinbeheermethoden waarmee u domeinen kunt maken en beheren waarnaar u gegevens wilt verzenden (alleen voor cookie-doelen).
-seo-title: API-methoden voor domeinbeheer
+seo-description: Domain management methods that let you create and manage the domains to which you want to send data (for cookie destinations only).
+seo-title: Domain Management API Methods
 solution: Audience Manager
 title: API-methoden voor domeinbeheer
 uuid: f2f08bc5-ea42-4171-9a43-0b20976f0cb0
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 3%
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
-
 
 # API-methoden voor domeinbeheer {#domain-management-api-methods}
 
@@ -21,9 +20,9 @@ Domeinbeheermethoden waarmee u domeinen kunt maken en beheren waarnaar u gegeven
 
 <!-- c_partner_site.xml -->
 
-## Nieuw domein maken {#create-new-domain}
+## Een nieuw domein maken {#create-new-domain}
 
-Een methode `POST` waarmee u een nieuw domein kunt maken voor (alleen cookie-doelen).
+A `POST` methode die u een nieuw domein voor (koekjesbestemmingen slechts) laat creëren.
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -41,7 +40,7 @@ Een methode `POST` waarmee u een nieuw domein kunt maken voor (alleen cookie-doe
 
 ### Antwoord
 
-Een succesvolle reactie keert `201 created` en de partnerplaats, met inbegrip van zijn unieke identiteitskaart terug.
+Resultaten van een succesvolle reactie `201 created` en de partnerplaats, met inbegrip van zijn unieke identiteitskaart
 
 ```
 {
@@ -51,9 +50,9 @@ Een succesvolle reactie keert `201 created` en de partnerplaats, met inbegrip va
 }
 ```
 
-## Een domein {#delete-domain} verwijderen
+## Een domein verwijderen {#delete-domain}
 
-Een methode `DELETE` waarmee u een domein (alleen voor cookie-doelen) kunt verwijderen.
+A `DELETE` methode waarmee u een domein kunt verwijderen (alleen voor cookie-doelen).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -63,11 +62,11 @@ Een methode `DELETE` waarmee u een domein (alleen voor cookie-doelen) kunt verwi
 
 ### Antwoord
 
-Een succesvolle reactie keert `204 no content` terug. Retourneert `404 not found` als de partnersite niet is gevonden.
+Resultaten van een succesvolle reactie `204 no content`. Retourneert `404 not found` als de partnerplaats niet kan worden gevonden.
 
-## Return Properties for a Domain {#return-props-domain}
+## Eigenschappen voor een domein retourneren {#return-props-domain}
 
-Een methode `GET` die details over het gespecificeerde domein (voor koekjesbestemmingen slechts) terugkeert.
+A `GET` methode die details over het gespecificeerde domein (voor koekjesbestemmingen slechts) terugkeert.
 
 <!-- r_get_partner_site.xml -->
 
@@ -77,7 +76,7 @@ Een methode `GET` die details over het gespecificeerde domein (voor koekjesbeste
 
 ### Antwoord
 
-Een geslaagde reactie retourneert `200 OK` en gegevens zoals in de onderstaande steekproef wordt getoond. Retourneert `404 Not found` als de site-id of partner niet wordt gevonden.
+Resultaten van een succesvolle reactie `200 OK` en gegevens zoals weergegeven in onderstaande steekproef. Retourneert `404 Not found` als de site-id of partner niet wordt gevonden.
 
 ```
 {
@@ -89,7 +88,7 @@ Een geslaagde reactie retourneert `200 OK` en gegevens zoals in de onderstaande 
 
 ## Eigenschappen retourneren voor alle domeinen {#return-props-all-domains}
 
-Een methode `GET` die informatie over al uw domeinen (voor koekjesbestemmingen slechts) terugkeert.
+A `GET` methode die informatie over al uw domeinen (voor koekjesbestemmingen slechts) terugkeert.
 
 <!-- r_get_partner_sites.xml -->
 
@@ -99,7 +98,7 @@ Een methode `GET` die informatie over al uw domeinen (voor koekjesbestemmingen s
 
 ### Optionele queryparameters
 
-U kunt deze optionele parameters gebruiken met [!DNL API] methoden die *all* eigenschappen voor een object retourneren. Plaats deze opties in het verzoekkoord wanneer het overgaan van die vraag binnen aan [!DNL API]. Zie [Optionele parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+U kunt deze optionele parameters gebruiken met [!DNL API] methoden die worden geretourneerd *alles* eigenschappen voor een object. Stel deze opties in de tekenreeks request wanneer u die query doorgeeft aan de [!DNL API]. Zie [Optionele parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -134,7 +133,7 @@ U kunt deze optionele parameters gebruiken met [!DNL API] methoden die *all* eig
 
 ### Antwoord
 
-Een geslaagde reactie retourneert `200 OK` en gegevens in een array, zoals in het onderstaande voorbeeld wordt getoond. Retourneert `404 Not found` als de site-id of partner niet wordt gevonden.
+Resultaten van een succesvolle reactie `200 OK` en gegevens in een array zoals in het onderstaande voorbeeld wordt getoond. Retourneert `404 Not found` als de site-id of partner niet wordt gevonden.
 
 ```
 [

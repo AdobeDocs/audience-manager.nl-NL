@@ -1,33 +1,32 @@
 ---
 description: Maak doelen met deze RESTful API-methoden.
-seo-description: Maak doelen met deze RESTful API-methoden.
-seo-title: Bestemmingen maken
+seo-description: Create destinations with these RESTful API methods.
+seo-title: Create Destinations
 solution: Audience Manager
 title: Bestemmingen maken
 uuid: 12f04151-ad0e-4cb6-8f3b-b5c427dc2cef
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: bae0f304-0ff3-4c5f-b432-19aef61d9d10
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '346'
 ht-degree: 2%
 
 ---
 
-
 # Bestemmingen maken {#create-destinations}
 
-Creeer bestemmingen met deze [!UICONTROL RESTful API] methodes.
+Doelen maken met deze [!UICONTROL RESTful API] methoden.
 
 <!-- c_create_destinations.xml -->
 
 ## Ondersteunde doeltypen: Alleen URL en cookie
 
-Met de beschikbare `POST`-methoden kunt u alleen [!UICONTROL URL] en [!UICONTROL cookie destinations] maken. U kunt [!UICONTROL server-to-server destinations] momenteel niet maken met deze [!DNL REST API]-methoden. Met de verwante doelmethoden `GET` kunt u echter informatie ophalen over [!UICONTROL server-to-server destinations] die in de gebruikersinterface is gemaakt.
+De beschikbare `POST` methoden waarmee u kunt maken [!UICONTROL URL] en [!UICONTROL cookie destinations] alleen. U kunt op dit moment geen bestanden maken [!UICONTROL server-to-server destinations] met deze [!DNL REST API] methoden. De verwante bestemming `GET` methodes laten u informatie over terugwinnen [!UICONTROL server-to-server destinations] gemaakt in de gebruikersinterface.
 
-## Een niet-seriële URL-bestemming {#create-nonserial-dest} maken
+## Een niet-seriële URL-bestemming maken {#create-nonserial-dest}
 
-Een methode `POST` waarmee u een doel kunt maken dat segmenten accepteert die bestaan uit enkele sleutelwaardeparen (bijvoorbeeld `gender=male` of `gender=female`).
+A `POST` methode waarmee u een doel kunt maken dat segmenten accepteert die bestaan uit enkele sleutelwaardeparen (bijvoorbeeld `gender=male` of `gender=female`).
 
 <!-- r_create_nonserial_destination.xml -->
 
@@ -50,7 +49,7 @@ Met deze aanvraag wordt één doel gemaakt. Alle aanvraagwaarden zijn vereist, t
 
 ### Antwoord
 
-Een succesvol verzoek keert `201 created` en de bestemming terug.
+Een succesvol verzoek wordt geretourneerd `201 created` en de bestemming.
 
 ```
 { 
@@ -78,9 +77,9 @@ Een succesvol verzoek keert `201 created` en de bestemming terug.
 } 
 ```
 
-## Een geserialiseerd URL-doel maken {#create-serial-url-dest}
+## Een seriële URL-bestemming maken {#create-serial-url-dest}
 
-Een methode `POST` waarmee u een doel kunt maken dat meerdere waarden accepteert die aan één toets zijn gekoppeld (bijvoorbeeld `color=blue, red, green`).
+A `POST` methode waarmee u een doel kunt maken dat meerdere waarden accepteert die aan één toets zijn gekoppeld (bijvoorbeeld `color=blue, red, green`).
 
 <!-- r_create_serial_url_destination.xml -->
 
@@ -90,7 +89,7 @@ Een methode `POST` waarmee u een doel kunt maken dat meerdere waarden accepteert
 
 ### Voorbeeldverzoek
 
-Specificeer veilig [!DNL URL] en afbakening voor het zeer belangrijk-waardepaar dat binnen tot de bestemming wordt overgegaan. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
+De beveiliging opgeven [!DNL URL] en scheidingsteken voor het sleutelwaardepaar dat aan de bestemming wordt doorgegeven. Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ```
 { 
@@ -106,7 +105,7 @@ Specificeer veilig [!DNL URL] en afbakening voor het zeer belangrijk-waardepaar 
 
 ### Antwoord
 
-Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
+Een geslaagde update retourneert een antwoordcode `201 created` en de bestemming.
 
 ```
 { 
@@ -134,9 +133,9 @@ Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
 }
 ```
 
-## Een cookiebestemming maken: Single-Key, niet-geserialiseerd {#create-cookie-dest-single}
+## Een cookiebestemming maken: Single-Key, zonder serienummering {#create-cookie-dest-single}
 
-Een methode `POST` waarmee u een [!UICONTROL cookie destination] kunt maken die segmenten accepteert die bestaan uit enkele sleutelwaardeparen (bijvoorbeeld `gender=male` of `gender=female`).
+A `POST` methode waarmee u een [!UICONTROL cookie destination] die segmenten accepteert die bestaan uit paren met één sleutel (bijvoorbeeld `gender=male` of `gender=female`).
 
 <!-- r_cookie_destination_singlekey_noserial.xml -->
 
@@ -171,7 +170,7 @@ Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ### Antwoord
 
-Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
+Een geslaagde update retourneert een antwoordcode `201 created` en de bestemming.
 
 ```
 { 
@@ -203,9 +202,9 @@ Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
 } 
 ```
 
-## Een cookiebestemming maken: Single Key, met serienummering {#create-cookie-dest-single-serial}
+## Een cookiebestemming maken: Single Key, serieel {#create-cookie-dest-single-serial}
 
-Een methode `POST` waarmee u een doel kunt maken dat meerdere waarden accepteert die aan één toets zijn gekoppeld (bijvoorbeeld `color=blue, red, green`).
+A `POST` methode waarmee u een doel kunt maken dat meerdere waarden accepteert die aan één toets zijn gekoppeld (bijvoorbeeld `color=blue, red, green`).
 
 <!-- r_cookie_destination_singlekey_serial.xml -->
 
@@ -241,7 +240,7 @@ Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ### Antwoord
 
-Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
+Een geslaagde update retourneert een antwoordcode `201 created` en de bestemming.
 
 ```
 { 
@@ -274,9 +273,9 @@ Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
 }
 ```
 
-## Een cookiebestemming maken: Multi-Key, niet-geserialiseerd {#create-cookie-dest-multi}
+## Een cookiebestemming maken: Multi-Key, zonder serienummering {#create-cookie-dest-multi}
 
-Een methode `POST` waarmee u een doel kunt maken dat segmenten accepteert die meerdere toetsen met verschillende waarden bevatten (bijvoorbeeld `gender=male; gender=female; color=blue; color=red`).
+A `POST` methode waarmee u een doel kunt maken dat segmenten accepteert die meerdere toetsen met verschillende waarden bevatten (bijvoorbeeld `gender=male; gender=female; color=blue; color=red`).
 
 <!-- r_create_cookie_multikey_noserial.xml -->
 
@@ -310,7 +309,7 @@ Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ### Antwoord
 
-Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
+Een geslaagde update retourneert een antwoordcode `201 created` en de bestemming.
 
 ```
 { 
@@ -343,7 +342,7 @@ Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
 
 ## Een cookiebestemming maken: Multi-Key, serieel {#create-cookie-dest-multi-serial}
 
-Een methode `POST` waarmee u een doel kunt maken dat segmenten met meerdere sleutels en waarden accepteert (bijvoorbeeld `gender=male, female; color=blue, red, green`).
+A `POST` methode waarmee u een doel kunt maken dat segmenten accepteert die meerdere sleutels en waarden bevatten (bijvoorbeeld `gender=male, female; color=blue, red, green`).
 
 <!-- r_cookie_destination_multikey_serial.xml -->
 
@@ -378,7 +377,7 @@ Alle aanvraagwaarden zijn vereist, tenzij anders aangegeven.
 
 ### Antwoord
 
-Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
+Een geslaagde update retourneert een antwoordcode `201 created` en de bestemming.
 
 ```
 { 

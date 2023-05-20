@@ -1,17 +1,16 @@
 ---
 description: Het rapport Segment to Ad Unit Overlap wordt weergegeven als een warmtegrafiek die hoge en lage overlap tussen uw advertentie-eenheden en Audience Manager-segmenten markeert.
-seo-description: Het rapport Segment to Ad Unit Overlap wordt weergegeven als een warmtegrafiek die hoge en lage overlap tussen uw advertentie-eenheden en Audience Manager-segmenten markeert.
-seo-title: Overlap van segment naar advertentie-eenheid
+seo-description: The Segment to Ad Unit Overlap report is displayed as a heat chart that highlights high and low overlaps between your Ad Units and Audience Manager segments.
+seo-title: Segment to Ad Unit Overlap
 solution: Audience Manager
 title: Overlap van segment naar advertentie-eenheid
 uuid: aaa20163-58aa-42c9-8f72-a1dfb0d20e57
 feature: Audience Optimization Reports
 exl-id: 6c7cf2e6-8ed4-42de-92ee-0df90940f441
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '388'
+ht-degree: 3%
 
 ---
 
@@ -21,23 +20,23 @@ Het rapport Segment to Ad Unit Overlap wordt weergegeven als een warmtegrafiek d
 
 ## Gebruiksscenario {#use-cases}
 
-Met het [!UICONTROL Segment to Ad Unit Overlap] rapport, kunt u begrijpen welk publiek uw Webeigenschappen bezoekt. Het rapport geeft de overlapping tussen leden van uw [!DNL Audience Manager]-segmenten en het aantal bezoekers aan uw wegeigenschappen weer. Een hogere overlapping betekent dat veel leden van een segment uw webeigenschap bezoeken.
+Met de [!UICONTROL Segment to Ad Unit Overlap] rapport, kunt u begrijpen welk publiek uw Web-eigenschappen bezoekt. Het rapport geeft de overlapping tussen leden van uw [!DNL Audience Manager] segmenten en het aantal bezoekers van uw wegeigenschappen. Een hogere overlapping betekent dat veel leden van een segment uw webeigenschap bezoeken.
 
-## Rapport {#using-the-report} voor overlap van segment toevoegen
+## Het segment gebruiken om het Rapport van de Overlap van de Eenheid toe te voegen {#using-the-report}
 
-Gebruik de besturingselementen **[!UICONTROL Top N Ad Units]** en **[!UICONTROL Top N Segments]** om het gewenste aantal advertentie-eenheden en -segmenten voor de overlapping te selecteren. U kunt maximaal 100 items selecteren voor elk item.
+Gebruik de **[!UICONTROL Top N Ad Units]** en **[!UICONTROL Top N Segments]** besturingselementen om het gewenste aantal advertentie-eenheden en -segmenten voor de overlapping te selecteren. U kunt maximaal 100 items selecteren voor elk item.
 
-Gebruik de besturingselementen **Dagbereik** en **Datum tot en met** om het bereik van de terugblik aan te passen. De terugkijkperioden van 7 en 30 dagen zijn alleen beschikbaar voor zondag-datums.
+Gebruik de **Dagbereik** en **Datum tot** besturingselementen voor het aanpassen van het bereik van terugkijkers. De terugkijkperioden van 7 en 30 dagen zijn alleen beschikbaar voor zondag-datums.
 
-Met de vakken **[!UICONTROL Segment Name]** en **[!UICONTROL Ad Unit]** kunt u alle segmenten en eenheden filteren.
+Gebruik de **[!UICONTROL Segment Name]** en de **[!UICONTROL Ad Unit]** vakjes om om het even welk van segmenten en ad eenheden te filtreren.
 
 >[!IMPORTANT]
 >
->Wanneer u [!UICONTROL Audience Optimization for Publishers] inschakelt, moet u beschrijvende metagegevens voor [!UICONTROL Ad Unit IDs] opnemen, zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen, verzekert u dat het rapport de Webbezit als [!UICONTROL Ad Unit] in plaats van [!UICONTROL Ad Unit ID] detailleert.
+>Als u [!UICONTROL Audience Optimization for Publishers]moet u beschrijvende metagegevens opnemen voor [!UICONTROL Ad Unit IDs], zoals beschreven in stap 3 van [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Door dit te doen verzekert u dat het rapport de Webbezit als detailleert [!UICONTROL Ad Unit] in plaats van de [!UICONTROL Ad Unit ID].
 
-## Resultaten interpreteren {#interpreting-results}
+## De resultaten interpreteren {#interpreting-results}
 
-Uw [!UICONTROL Segment to Ad Unit Overlap]-rapport kan er ongeveer als volgt uitzien. Houd de muisaanwijzer boven een willekeurige cel voor meer informatie over die bepaalde overlapping. Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
+Uw [!UICONTROL Segment to Ad Unit Overlap] het rapport kan er ongeveer zo uitzien als hieronder . Houd de muisaanwijzer boven een willekeurige cel voor meer informatie over die bepaalde overlapping. Zie beschrijvingen voor de aanvullende informatie in de tabel onder het voorbeeldrapport.
 
 ![](assets/publisher_segment_ad_unit_overlap.png)
 
@@ -50,12 +49,12 @@ Uw [!UICONTROL Segment to Ad Unit Overlap]-rapport kan er ongeveer als volgt uit
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> AdEenheid  </span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> AdEenheid </span> </p> </td> 
    <td colname="col2"> <p>De naam van je voorraadobject. Dit kan bijvoorbeeld een van uw websites of een artikel op uw website zijn. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aantal in realtime-Uniques-segmenten</span> </p> </td> 
-   <td colname="col2"> <p>Het aantal unieke bezoekers dat in real time voor de gespecificeerde tijdwaaier werd gezien en die voor het segment op het ogenblik gekwalificeerd waren zij door <span class="keyword"> Audience Manager </span> werden gezien. </p> </td> 
+   <td colname="col2"> <p>Het aantal unieke bezoekers dat in real time voor de gespecificeerde tijdwaaier werd gezien en die voor het segment op het ogenblik werden gekwalificeerd zij gezien door <span class="keyword"> Audience Manager</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Aantal eenheden advertentie</span> </p> </td> 
@@ -67,7 +66,7 @@ Uw [!UICONTROL Segment to Ad Unit Overlap]-rapport kan er ongeveer als volgt uit
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> Overlap percentage</span> </p> </td> 
-   <td colname="col2"> <p>De overlapping tussen ad-unit en segmentpopulaties. Dit is <span class="wintitle"> het Aantal van Uniques van de Overlappen</span>, uitgedrukt als percentage van <span class="wintitle"> Realtime Uniques van het Segment </span>. </p> </td> 
+   <td colname="col2"> <p>De overlapping tussen ad-unit en segmentpopulaties. Dit is het <span class="wintitle"> Aantal overlappingen</span>, uitgedrukt als percentage van het <span class="wintitle"> Segment Real Time Uniques</span>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

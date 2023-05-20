@@ -1,17 +1,16 @@
 ---
 description: Ontvang publieksgegevens van Audience Manager.
-seo-description: Ontvang publieksgegevens van Adobe Audience Manager (AAM).
-seo-title: Bezig met ontvangen gegevens van publiek in Adobe Audience Manager (AAM)
-title: 'Doelgroepdata ontvangen '
+seo-description: Receive audience data from Adobe Audience Manager (AAM).
+seo-title: Receiving Audience Data in Adobe Audience Manager (AAM)
+title: Doelgroepdata ontvangen
 feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 8b6ef84d-6b04-4a0e-9142-aa48b586c05e
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 17%
+source-wordcount: '101'
+ht-degree: 19%
 
 ---
-
 
 # Doelgroepdata ontvangen 
 

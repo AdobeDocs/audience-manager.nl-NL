@@ -1,21 +1,20 @@
 ---
 description: Algemene vragen en problemen in verband met API’s.
-seo-description: Algemene vragen en problemen in verband met API’s.
-seo-title: Veelgestelde vragen over API’s
+seo-description: Common API questions and issues.
+seo-title: API FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over API’s
 uuid: 8222ebf0-b50e-4f48-8021-dbfca2828b7c
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 9a51220e-3f53-4911-876b-16e968d44d0f
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
 
-
-# Veelgestelde vragen over API’s {#api-faq}
+# Veelgestelde vragen over API’s{#api-faq}
 
 Algemene vragen en problemen in verband met API’s.
 
@@ -39,13 +38,13 @@ De [REST-API](../api/rest-api-main/rest-api-main.md)-documentatie bevat details 
 
 Met elke methode worden data op een andere manier doorgegeven, maar dit maakt niet uit voor de functionaliteit. Zo verzendt [!DNL Audience Manager] bij beide methoden nog steeds data naar bestemmingen, werkt de id-synchronisatie normaal, en kunt u eigenschappen maken op basis van datasignalen.
 
-<br> 
+<br>
 
 **Wat kan ik met de [!UICONTROL REST API]’s doen?**
 
 Met [!UICONTROL REST API]’s kunt u programmatisch werken met de meeste onderdelen en functies van [!DNL Audience Manager] die beschikbaar zijn in de gebruikersinterface.
 
-<br> 
+<br>
 
 **Hoe krijg ik een [!UICONTROL REST API]-client-id en -geheim?**
 

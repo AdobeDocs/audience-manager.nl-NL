@@ -1,16 +1,16 @@
 ---
 description: Veelgestelde vragen over het opnemen van offline data in Audience Manager.
 keywords: ftp of s3;s3 of ftp
-seo-description: Veelgestelde vragen over het opnemen van offline data in Audience Manager.
-seo-title: Veelgestelde vragen over opname van binnenkomende klantdata
+seo-description: Frequently asked questions about bringing offline data into Audience Manager.
+seo-title: Inbound Customer Data Ingestion FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over opname van binnenkomende klantdata
 uuid: 491e9ec1-4731-46a8-86e7-d8c613e6cedc
-feature: Offline gegevens aan boord
+feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1342'
 ht-degree: 89%
 
 ---
@@ -58,10 +58,10 @@ Zie [Bestandscompressie voor binnenkomende dataoverdrachtsbestanden](../integrat
 
 **Kan ik een binnenkomend databestand ([!DNL .sync] - of [!DNL .overwrite] -bestand) uploaden alvorens code [!DNL Audience Manager] in productie te implementeren?**
 
-Ja. Zolang u [!UICONTROL cross-device data source] gebruikt om de gegevens op te slaan van CRM die u uploadt, slaat de Audience Manager altijd de gegevens op. In feite, na de [!UICONTROL Profile Merge Rules] verhogingen die Audience Manager in oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u gegevens uploaden en actie op gegevens zonder de code van de Audience Manager in productie in het geheel op te stellen. Zie:
+Ja. Als u een [!UICONTROL cross-device data source] om de gegevens op te slaan van CRM die u uploadt, slaat de Audience Manager altijd de gegevens op. In feite, na [!UICONTROL Profile Merge Rules] de verhogingen die de Audience Manager in oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u uploaden en actie op gegevens zonder de code van de Audience Manager in productie helemaal op te stellen. Zie:
 
 * [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] -  [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [!UICONTROL People-based Destinations] - [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
 
 <br>
 
@@ -187,7 +187,7 @@ Tijdstempels worden gebruikt voor vastleggen en bewaren. Ze worden vereist door 
 
  
 
-**Wat is een  [!DNL Data Provider ID (DPID)] en hoe krijg ik het?**
+**Wat is een [!DNL Data Provider ID (DPID)] en hoe krijg ik het?**
 
 Uw Adobe-consultant wijst een driecijferige of viercijferige [DPID (Data Provider ID)](../reference/ids-in-aam.md) toe aan uw specifieke databron. Deze id is uniek en verandert niet.
 
@@ -226,7 +226,7 @@ Als best practice adviseren wij [!DNL Amazon S3] omdat het proces eenvoudiger is
 
 >[!WARNING]
 >
->De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Terwijl de binnenkomende gegevensdossieropname nog in bestaande integratie van FTP wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord off-line gegevens voor nieuwe integratie. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Terwijl de binnenkomende gegevensdossieropname nog in bestaande FTP- integratie wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord van offlinegegevens voor nieuwe integratie. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
  
 

@@ -1,21 +1,20 @@
 ---
 description: Veelgestelde vragen over CDF-bestanden (Customer Data Feed, ofwel klantdatafeeds).
-seo-description: Veelgestelde vragen over CDF-bestanden (Customer Data Feed, ofwel klantdatafeeds).
-seo-title: Veelgestelde vragen over klantdatafeeds
+seo-description: Frequently asked questions about Customer Data Feed (CDF) files.
+seo-title: Customer Data Feed FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over klantdatafeeds
 uuid: 7183b3e2-e999-4e1e-892f-2bab335c13b6
 feature: Customer Data Feeds
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '447'
 ht-degree: 100%
 
 ---
 
-
-# Veelgestelde vragen over klantdatafeeds {#customer-data-feed-faq}
+# Veelgestelde vragen over klantdatafeeds{#customer-data-feed-faq}
 
 Veelgestelde vragen over CDF-bestanden (Customer Data Feed, ofwel klantdatafeeds).
 
@@ -31,25 +30,25 @@ Het CDF-bestand wordt opgeslagen in de `aam-cdf`-hoofdmap op een [!DNL Amazon S3
 
 Ja. Klanten krijgen alleen toegang tot hun eigen opslagruimte. U hebt alleen-lezen toegang tot uw opslagbucket. U hebt geen schrijftoegang.
 
-<br> 
+<br>
 
 **Kan ik mijn opslagbucket aanpassen of bestanden in een andere map opslaan?**
 
 Nee. Er zijn geen opties beschikbaar voor aanpassing en alternatieve opslag.
 
-<br> 
+<br>
 
 **In mijn map ontbreekt een bestand voor een bepaald uur. Waar is het?**
 
 Een ontbrekend bestand betekent dat [!DNL Audience Manager] uw CDF-bestanden gedurende dat uur niet kon verwerken. Dit gebeurt gewoonlijk wanneer onze servers achterop raken bij de verwerking van CDF-bestanden. In dit geval gaat uw bestand niet verloren. Het zal in een map van een later uur verschijnen nadat ons systeem de achterstand heeft kunnen inhalen. Zie ook [Voortgangsmeldingen voor klantdatafeedbestanden](../features/cdf-files.md#cdf-file-processing-notifications).
 
-<br> 
+<br>
 
 **Hoe weet ik wanneer mijn CDF-bestanden gereed zijn?**
 
 Zie [Voortgangsmeldingen voor klantdatafeedbestanden](../features/cdf-files.md#cdf-file-processing-notifications).
 
-<br> 
+<br>
 
 ## Bestandsgrootten {#file-sizes}
 
@@ -57,13 +56,13 @@ Zie [Voortgangsmeldingen voor klantdatafeedbestanden](../features/cdf-files.md#c
 
 Het is moeilijk om de bestandsgrootte in te schatten. En elk bestand kan een andere grootte hebben. De grootten variëren van uur tot uur en van dag tot dag. Als u CDF-bestanden gaat ontvangen, kunt u het best voorbereid zijn op veel data.
 
-<br> 
+<br>
 
 **Hoeveel bestanden zal ik ontvangen?**
 
 Nogmaals, dit is moeilijk in te schatten. Maar als u CDF-bestanden gaat ontvangen, kunt u het best voorbereid zijn op veel data.
 
-<br> 
+<br>
 
 ## Data-integriteit {#data-integrity}
 
@@ -79,7 +78,7 @@ Nogmaals, dit is moeilijk in te schatten. Maar als u CDF-bestanden gaat ontvange
 
 Data worden na 8 (acht) dagen verwijderd.
 
-<br> 
+<br>
 
 **Kan ik CDF-bestanden retroactief ophalen, of voor voorgaande dagen?**
 

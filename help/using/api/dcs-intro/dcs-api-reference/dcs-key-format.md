@@ -1,23 +1,22 @@
 ---
 description: Wanneer het doen van een vraag, keurt DCS zeer belangrijke-waardegegevens in standaard of geserialiseerde formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
-seo-description: Wanneer het doen van een vraag, keurt DCS zeer belangrijke-waardegegevens in standaard of geserialiseerde formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
-seo-title: Het opmaken van sleutelwaardeparen in DCS-calls
+seo-description: When making a call, the DCS accepts key-value data in standard or serialized format. Review this section for information about how to format standard and serialized key-value data.
+seo-title: Formatting Key-Value Pairs in DCS Calls
 solution: Audience Manager
 title: Het opmaken van sleutelwaardeparen in DCS-calls
 uuid: af02f2a1-4388-4074-ab4e-66ee82023f1c
 feature: DCS
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: ff2d9ff6-7d5b-4a0d-b831-5d9bc79b32a1
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 10%
+source-wordcount: '223'
+ht-degree: 9%
 
 ---
 
-
 # Het opmaken van sleutelwaardeparen in DCS-calls {#formatting-key-value-pairs-in-dcs-calls}
 
-Wanneer het doen van een vraag, [!DNL DCS] keurt zeer belangrijke-waardegegevens in standaard of geserialiseerde formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
+Wanneer het maken van een vraag, [!DNL DCS] keurt zeer belangrijk-waardegegevens in standaard of geserialiseerde formaat goed. Herzie deze sectie voor informatie over hoe te om standaard en geserialiseerde sleutel-waarde gegevens te formatteren.
 
 ## Standaard en seriële sleutelwaardeparen {#standard-serialized}
 
@@ -43,7 +42,7 @@ Wanneer het doen van een vraag, [!DNL DCS] keurt zeer belangrijke-waardegegevens
  </tbody>
 </table>
 
-## Scheidingstekens en scheidingstekens voor hoofdwaardeparen met serienummering {#delimiters-separators}
+## Scheidingstekens en scheidingstekens voor seriële sleutelwaardeparen {#delimiters-separators}
 
 Met geserialiseerde sleutel-waarde paren, moet u de tellers specificeren die waarden binnen en tussen deze variabelen scheiden. Voor Audience Manager zijn de volgende scheidingstekens en scheidingstekens vereist:
 

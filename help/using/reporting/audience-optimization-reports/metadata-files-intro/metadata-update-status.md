@@ -1,15 +1,14 @@
 ---
 description: De S3 statusfolder houdt een .info dossier met succes en mislukkingsinformatie over uw geupload dossiers. Het bestand bevat gegevens met JSON-indeling met statusresultaten in een array.
-seo-description: De S3 statusfolder houdt een .info dossier met succes en mislukkingsinformatie over uw geupload dossiers. Het bestand bevat gegevens met JSON-indeling met statusresultaten in een array.
-seo-title: Statusupdates voor metagegevensbestanden
+seo-description: The S3 status directory holds a .info file with success and failure information about your uploaded files. The file contains JSON-formatted data with status results in an array.
+seo-title: Status Updates for Metadata Files
 solution: Audience Manager
 title: Statusupdates voor metagegevensbestanden
 uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 0%
 
 # Statusupdates voor metagegevensbestanden{#status-updates-for-metadata-files}
 
-De S3 statusfolder houdt een `.info` dossier met succes en mislukkingsinformatie over uw geupload dossiers. Het bestand bevat gegevens met JSON-indeling met statusresultaten in een array.
+De S3-statusmap bevat een `.info` bestanden met succes- en foutgegevens over uw geüploade bestanden. Het bestand bevat gegevens met JSON-indeling met statusresultaten in een array.
 
-De inhoud van het `.info`-bestand ziet er ongeveer hetzelfde uit als in dit voorbeeld.
+De inhoud van uw `.info` Het bestand zal er ongeveer zo uitzien als in dit voorbeeld.
 
 ```js
 //sample file path
@@ -62,7 +61,7 @@ De inhoud van het `.info`-bestand ziet er ongeveer hetzelfde uit als in dit voor
 
 ## Metagegevens sleutelwaardeparen gedefinieerd {#key-value-pairs}
 
-In de volgende tabellen worden de sleutels vermeld en gedefinieerd in de secties `Files` en `Summary` van een statusbestand voor metagegevens.
+In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties van een bestand met de metagegevensstatus.
 
 **Toetsen in de bestandenarray**
 
@@ -84,11 +83,11 @@ In de volgende tabellen worden de sleutels vermeld en gedefinieerd in de secties
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>De MD 5 checksum voor het meta-gegevensdossier dat aan uw <code> meta</code> folder wordt geupload. </p> </td> 
+   <td colname="col2"> <p>De MD 5-controlesom voor het metagegevensbestand dat naar uw <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>De naam van het metagegevensbestand dat naar de map <code> meta</code> is geüpload. </p> </td> 
+   <td colname="col2"> <p>De naam van het metagegevensbestand dat naar uw <code> meta</code> directory. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
@@ -121,7 +120,7 @@ In de volgende tabellen worden de sleutels vermeld en gedefinieerd in de secties
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Datum bestandsverwerking in <code><i>yyyy-mm-dd</i></code>-indeling. </p> </td> 
+   <td colname="col2"> <p>Datum bestandsverwerking in <code><i>yyyy-mm-dd</i></code> gebruiken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 

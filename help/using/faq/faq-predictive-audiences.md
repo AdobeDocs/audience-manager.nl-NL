@@ -1,15 +1,14 @@
 ---
 description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
-seo-description: Met Predictieve doelgroepen kunt u onbekende doelgroepen in real time indelen in verschillende persona's aan de hand van datawetenschap.
-seo-title: Veelgestelde vragen over Predictieve doelgroepen
+seo-description: Predictive Audiences help you classify unknown audiences into distinct personas in real-time, using data science.
+seo-title: Predictive Audiences FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over Predictieve doelgroepen
 feature: Algorithmic Models
 exl-id: 21073970-8457-470b-89fc-724a118a18d2
-translation-type: tm+mt
 source-git-commit: 03f039a1317576c7979a5cb4c3cffc543e3bd656
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '949'
 ht-degree: 59%
 
 ---
@@ -58,43 +57,43 @@ Neem contact op met uw Adobe-vertegenwoordiger als het model niet binnen 24 uur 
 
 Er kunnen diverse redenen zijn waarom [!UICONTROL Predictive Audiences]-modellen geen resultaten opleveren:
 
-1. Geen van de geselecteerde personen [!UICONTROL traits] / [!UICONTROL segments] heeft voldoende gebruikersprofielen. We raden u aan uw [!UICONTROL traits] of [!UICONTROL segments] te kiezen, zodat elke persoon ten minste een paar honderd gebruikersprofielen heeft.
-1. Geen van de geselecteerde personen [!UICONTROL traits] / [!UICONTROL segments] hebben voldoende gegevens in hun gebruikersprofielen (niet genoeg kenmerken om te analyseren).
+1. Geen van de geselecteerde persona [!UICONTROL traits] / [!UICONTROL segments] voldoende gebruikersprofielen hebben. We raden u aan [!UICONTROL traits] of [!UICONTROL segments] zodat elke persoon ten minste een paar honderd gebruikersprofielen heeft.
+1. Geen van de geselecteerde persona [!UICONTROL traits] / [!UICONTROL segments] beschikken over voldoende gegevens in hun gebruikersprofielen (onvoldoende kenmerken om te analyseren).
 1. De eigenschap / het segment van het doelpubliek heeft geen actieve of onbeheerde gebruikers.
 1. Doelgroepgebruikers die de afgelopen 30 dagen actief of onboarded waren, hebben onvoldoende data in hun gebruikersprofielen (te weinig eigenschappen om te analyseren).
-1. Het doelpubliekssegment gebruikt een andere [!UICONTROL Profile Merge Rule] dan die u voor het model koos.
-1. De gegevensbron van uw doelpubliekskenmerken worden mogelijk niet opgenomen in de [!UICONTROL Profile Merge Rule] die u voor het model hebt gekozen.
+1. Het doelpubliekssegment gebruikt een andere [!UICONTROL Profile Merge Rule] van de sjabloon die u voor het model hebt gekozen.
+1. De gegevensbron van uw doelpubliekskenmerken wordt mogelijk niet opgenomen in de [!UICONTROL Profile Merge Rule] die u hebt gekozen voor het model.
 
 Volg voor optimale resultaten de voorgestelde richtlijnen van [Selectiecriteria voor persona&#39;s](../features/algorithmic-models/predictive-audiences.md#selection-personas) en [Selectiecriteria voor doelgroepen](../features/algorithmic-models/predictive-audiences.md#selection-audience).
 
  
 
-**Waarom toont mijn model de  [!UICONTROL Error] status?**
+**Waarom toont mijn model mijn model [!UICONTROL Error] status?**
 
-Het model kan niet worden uitgevoerd. In dergelijke gevallen dient u contact op te nemen met uw [!DNL Adobe] vertegenwoordiger.
+Het model kan niet worden uitgevoerd. In dergelijke gevallen kunt u contact opnemen met [!DNL Adobe] vertegenwoordiger.
 
  
 
-**Hoe kan ik het  [!UICONTROL Profile Merge Rule] voor een  [!UICONTROL Predictive Audiences] [!UICONTROL segment]veranderen?**
+**Hoe kan ik de [!UICONTROL Profile Merge Rule] voor een [!UICONTROL Predictive Audiences] [!UICONTROL segment]?**
 
-Maak een nieuw model door dezelfde personen en doelgroepen te selecteren als het vorige model. Wijs tijdens het maken van een model een andere [!UICONTROL Profile Merge Rule] toe.
+Maak een nieuw model door dezelfde personen en doelgroepen te selecteren als het vorige model. Wijs tijdens het maken van een model een andere [!UICONTROL Profile Merge Rule].
 
 >[!WARNING]
-> U kunt [Segment Builder](../features/segments/segment-builder.md) ook gebruiken om handmatig een [!UICONTROL segment] met een bestaande voorspellende [!UICONTROL trait] te maken en deze [!UICONTROL Profile Merge Rule] van uw keuze toe te wijzen.
+> U kunt ook [Segment Builder](../features/segments/segment-builder.md) om handmatig een [!UICONTROL segment] met een bestaand voorspellend [!UICONTROL trait] en wijst [!UICONTROL Profile Merge Rule] van uw keuze.
 > 
-> Wij raden deze praktijk echter niet aan, omdat voorspellende [!UICONTROL traits] automatisch de [!UICONTROL Profile Merge Rule] overerft van het model waartoe ze behoren, en deze worden gebouwd uit invloedrijke [!UICONTROL traits] die voldoen aan [!UICONTROL Profile Merge Rule] van het model.
+> We raden deze praktijk echter niet aan, aangezien deze voorspelbaar is [!UICONTROL traits] automatisch de [!UICONTROL Profile Merge Rule] van het model waartoe ze behoren, en ze zijn gebouwd uit invloedrijke [!UICONTROL traits] die voldoen aan de [!UICONTROL Profile Merge Rule] van het model.
 
  
 
-**Wat  [!UICONTROL Profile Merge Rule] moet ik kiezen?**
+**Wat [!UICONTROL Profile Merge Rule] moet ik kiezen?**
 
-Wanneer u de [!UICONTROL Profile Merge Rule] voor uw model kiest, moet u de gebruiksaanwijzing nauwkeurig analyseren.
+Als u de opdracht [!UICONTROL Profile Merge Rule] voor uw model, analyseer uw gebruiksgeval zorgvuldig.
 
-Stel dat uw doelpubliek [!UICONTROL segment] een [!UICONTROL Profile Merge Rule] gebruikt op basis van geverifieerde profielen + [!DNL Device Graph] profielen en dat u dezelfde [!UICONTROL Profile Merge Rule] selecteert voor de voorspellende [!UICONTROL segments]. In dit geval worden zowel apparaatniveau als apparaatniveau [!UICONTROL traits] gebruikt bij het trainen van het model en bij het plaatsen van de gebruiker in een voorspellende [!UICONTROL segment].
+Laat ons uw doelpubliek vertellen [!UICONTROL segment] gebruikt een [!UICONTROL Profile Merge Rule] gebaseerd op geverifieerde profielen + [!DNL Device Graph] en selecteert u dezelfde [!UICONTROL Profile Merge Rule] voor het voorspelbare [!UICONTROL segments]. In dit geval, zowel apparatenniveau als dwars-apparatenniveau [!UICONTROL traits] wordt gebruikt bij het trainen van het model en bij het plaatsen van de gebruiker in een voorspelbaar [!UICONTROL segment].
 
-Als u echter een [!UICONTROL Profile Merge Rule] selecteert die alleen op apparaatprofielen is gebaseerd, wordt geen van uw apparaten [!UICONTROL traits] beïnvloed en draagt dit niet bij aan de plaatsing van gebruikers in een voorspellende [!UICONTROL segment]. Dit kan een negatief effect hebben op de nauwkeurigheid en het bereik van het model.
+Als u echter een [!UICONTROL Profile Merge Rule] alleen op basis van apparaatprofielen, geen van uw apparaten [!UICONTROL traits] wordt invloedrijk en draagt niet bij tot de plaatsing van de gebruikers in een voorspellende situatie [!UICONTROL segment]. Dit kan een negatief effect hebben op de nauwkeurigheid en het bereik van het model.
 
-Analyseer uw gebruiksgeval zorgvuldig en bepaal welke [!UICONTROL trait] types u het model van en welk type van gegevens wilt leren u het model voor classificatie wilt gebruiken.
+Analyseer uw gebruikscase zorgvuldig en bepaal welke [!UICONTROL trait] typen waarvan u het model wilt leren en het type gegevens dat u voor de classificatie wilt gebruiken.
 
 **Kan het zijn dat een gebruiker uit de doelgroep die geen deel uitmaakt van een persona-eigenschap/segment niet is geclassificeerd?**
 

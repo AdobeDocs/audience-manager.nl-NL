@@ -1,17 +1,16 @@
 ---
 description: Maak de inhoud van het Audience Optimization-metagegevensbestand op volgens deze specificaties.
-seo-description: Maak de inhoud van het Audience Optimization-metagegevensbestand op volgens deze specificaties.
-seo-title: Indeling van content voor metadatabestanden
+seo-description: Format the contents of your Audience Optimization metadata file according to these specifications.
+seo-title: Content Format for Metadata Files
 solution: Audience Manager
 title: Indeling van content voor metadatabestanden
 uuid: 9ba44738-3e17-40c7-9e8c-5abd8361e16d
 feature: Log Files
 exl-id: 1aed39f4-f893-4f25-b041-e198895e338a
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 4%
+source-wordcount: '286'
+ht-degree: 3%
 
 ---
 
@@ -21,13 +20,13 @@ Maak de inhoud van het Audience Optimization-metagegevensbestand op volgens deze
 
 ## Syntaxis {#syntax}
 
-De volgende syntaxis definieert de structuur van goed gevormde inhoud in een metagegevensbestand. Opmerking: *cursief* geeft een variabele plaatsaanduiding aan.
+De volgende syntaxis definieert de structuur van goed gevormde inhoud in een metagegevensbestand. Opmerking: *cursief* Hiermee wordt een tijdelijke aanduiding voor een variabele aangegeven.
 
-**Syntaxis:**  *inhoud-id* |  *naam* |  *-1*
+**Syntaxis:**  *inhoud-id* | *name* | *-1*
 
 <!--In the contents syntax, you'll notice a parent ID variable. Don't confuse it with the parent ID used in the [metadata file name](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md). These 2 variables seem similar, but they represent different things. In the file name, the parent ID corresponds to a category like "campaign" (ID 1), "placement" (ID 3), or "tactic" (ID 9), etc. In the file body:-->
 
-De derde kolom **-1** is technisch gezien de Ouder identiteitskaart, die een erfenisgebied is. De waarde moet altijd worden ingesteld als **-1**.
+De derde kolom **-1** is technisch gezien de Bovenliggende ID, een verouderd veld. De waarde moet altijd worden ingesteld als **-1**.
 
 >[!NOTE]
 >
@@ -35,9 +34,9 @@ De derde kolom **-1** is technisch gezien de Ouder identiteitskaart, die een erf
 
 **Bestandsinvoer scheiden met ^a (besturingselement-A of ASCII 001)**
 
-Gebruik `^a` (controle-A of ASCII 001) om inhoud in uw meta-gegevensdossiers te scheiden. Aangezien dit niet-afdrukbare tekens zijn, wordt in het bovenstaande syntaxisvoorbeeld alleen voor weergavedoeleinden een verticale balk &quot;|&quot; weergegeven.
+Gebruiken `^a` (controle-A of ASCII 001) om inhoud in uw meta-gegevensdossiers te scheiden. Aangezien dit niet-afdrukbare tekens zijn, wordt in het bovenstaande syntaxisvoorbeeld alleen voor weergavedoeleinden een verticale balk &quot;|&quot; weergegeven.
 
-Indien nodig, kunt u het voorbeelddossier downloaden - [20181105_0_1](assets/20181105_0_1.zip). Pak het uit en bewerk het in de editor van uw keuze en pas het aan volgens de inhoud van de metagegevens, aangezien het al het vereiste scheidingsteken bevat.
+Indien nodig kunt u het voorbeeldbestand downloaden - [20181105_0_1](assets/20181105_0_1.zip). Pak het uit en bewerk het in de editor van uw keuze en pas het aan volgens de inhoud van de metagegevens, aangezien het al het vereiste scheidingsteken bevat.
 
 >[!IMPORTANT]
 >

@@ -1,21 +1,20 @@
 ---
 description: Algemene vragen en problemen in verband met targeting.
-seo-description: Algemene vragen en problemen in verband met targeting.
-seo-title: Veelgestelde vragen over targeting
+seo-description: Common targeting-related questions and issues.
+seo-title: Targeting FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over targeting
 uuid: ee96ef71-b903-4953-afc4-8ec8e48bd49e
 feature: Match Rates
-translation-type: tm+mt
-source-git-commit: 27ce94084e35ffa770858027d12235ca9f1f8430
+exl-id: e5f761fd-dfc8-4859-a81e-89abbd7f2914
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '913'
 ht-degree: 100%
 
 ---
 
-
-# Veelgestelde vragen over targeting {#targeting-faq}
+# Veelgestelde vragen over targeting{#targeting-faq}
 
 Algemene vragen en problemen in verband met targeting.
 
@@ -31,49 +30,49 @@ faq_targeting.xml
 
 Raadpleeg [Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.html) voor een volledige lijst met externe dataproviders die door [!DNL Audience Manager] worden ondersteund.
 
-<br> 
+<br>
 
 **Moet ik voor het targeten van gebruikers die ik nog nooit op mijn website met externe data heb gezien, externe data in Audience Manager gebruiken of in een DSP?**
 
 Het antwoord hangt af van uw doelstellingen. Als uw campagne bijvoorbeeld is ontworpen om nieuwe klanten met externe data te vinden, werk dan rechtstreeks met een DSP. Bedenk dat Audience Manager data pas met een externe dataprovider synchroniseert wanneer we deze gebruiker zien. Als we een gebruiker nog nooit hebben gezien, heeft ons systeem geen informatie voor deze websitebezoeker. Maak deze segmenten via het DSP voor campagnes die alleen externe data willen gebruiken om gebruikers te targeten die nog nooit een van uw eigenschappen hebben bezocht.
 
-<br> 
+<br>
 
 **Kan ik mijn marketing richten op individuen?**
 
 Met Audience Manager kunt u gebruikers samenvoegen en uw marketing op hen richten op basis van gedeelde kenmerken of eigenschappen. Om aan de branchevoorschriften te voldoen kunnen [!DNL Audience Manager]-klanten echter geen persoonlijk identificeerbare informatie (PII) naar onze systemen verzenden. U kunt daarom geen e-mailadressen, individuele namen, fysieke adressen, enzovoort gebruiken voor targeting.
 
-<br> 
+<br>
 
 **Hoe houd ik retargeting data veilig?**
 
 We raden u aan een server-naar-server-verbinding te gebruiken om data uit te wisselen met uw geprefereerde retargetingplatform. Audience Manager wisselt data uit met de meeste belangrijke DSP’s via server-naar-server-verbindingen. Server-naar-server-dataoverdrachten helpen voorkomen dat andere instanties uw data onderscheppen en deze doelgroepinformatie doorverkopen.
 
-<br> 
+<br>
 
 **Is de unieke gebruikers-id (UUID) van Audience Manager gekoppeld aan de unieke gebruikers-id van een advertentieserver door id-synchronisatie rechtstreeks op de pagina?**
 
 Nee. Id-synchronisaties worden niet op de pagina uitgevoerd voor onsite uitgevers of servers. De Audience Manager-UUID wordt ingevoegd in het veld `u=` van de logboekbestanden van de advertentieserver. Dit gebeurt wanneer het segment wordt binnengehaald voor targeting. De DIL-codemodule voert deze functie uit. Dit is hetzelfde mechanisme waardoor we de gebruikers-id van de server kunnen toewijzen aan een Audience Manager-gebruiker voor rapportage van segmentprestaties. Als er echter een advertentieserver op de website aanwezig is, worden id’s rechtstreeks op de pagina gesynchroniseerd.
 
-<br> 
+<br>
 
 **Telt Audience Manager een gebruiker mee die zich via verschillende apparaten aanmeldt als één unieke gebruiker of verschillende unieke gebruikers?**
 
 Met [Declared ID Targeting](../features/declared-ids.md#declared-id-targeting) kan Audience Manager een bezoeker op meerdere apparaten identificeren met één unieke id. Maar vanuit het oogpunt van targeting of bestemming zijn dit nog steeds twee (of meer) gebruikers, omdat DSP’s deze id’s niet met elkaar in overeenstemming kunnen brengen.
 
-<br> 
+<br>
 
 **Kan Audience Manager een gebruiker identificeren op basis van display en mobiele apparaten?**
 
 Ja. Zie [Declared ID Targeting](../features/declared-ids.md#declared-id-targeting).
 
-<br> 
+<br>
 
 **Kan ik gebruikers tellen met data die online zijn verzameld, en ze opnieuw toewijzen op basis van deze modelscore?**
 
 Ja. Audience Manager kan databestanden verschaffen om u te helpen gebruikers te tellen, maar u moet met andere leveranciers of software werken om deze informatie te analyseren en te rangschikken. Verzend deze data naar Audience Manager in de vorm van sleutelwaardeparen. We kunnen deze informatie aan bestaande gebruikersprofielen toevoegen. Neem contact op met uw Partner Solutions-vertegenwoordiger om dit proces te beoordelen.
 
-<br> 
+<br>
 
 **Wat is het percentage van cookieverwijderingen in een bepaalde periode van 1 tot 2 maanden?**
 
@@ -81,19 +80,19 @@ Het is moeilijk om de verwijdering van cookies te meten. De meeste cookies worde
 
 Cookieverwijdering heeft een negatief effect op de berekeningen van bereik en frequentie. Daarom benadrukken we de waarde van gedragsdata wanneer we proberen de ware aard van consumententrends te begrijpen voor onze planning van displaycampagnes. Onze klanten kunnen Audience Manager-rapporten voor segmentoverlap, optimale impressiefrequentie en unieke gebruikerstrends binnen specifieke datumbereiken gebruiken om hun campagneplanning en optimale datumbereiken voor het voeren van campagnes wetenschappelijker aan te pakken.
 
-<br> 
+<br>
 
 **Wat is het verloopvenster voor Audience Manager-cookies?**
 
 In de gebruikersinterface kunt u het verloopinterval van cookies bepalen. U kunt cookies instellen om te verlopen na *n* dagen of nooit.
 
-<br> 
+<br>
 
 **Zijn er meer kosten verbonden aan het implementeren van een creatieve campagne in een gebeurteniscall?**
 
 Dat hangt ervan af. Kosten zijn gebaseerd op unieke gebruikers. Als een campagne netto nieuwe gebruikers oplevert, zal dat inderdaad meer kosten. Als uw campagne plaatsen bereikt waar wij al data verzamelen, zijn er geen extra kosten. Als uw campagne wordt gevoerd op verwante websites een aanzienlijke overlapping is, zijn er extra kosten voor de nieuwe unieke gebruikers die we zien.
 
-<br> 
+<br>
 
 **Audience Manager geeft alleen [!UICONTROL Addressable Audiences]-cijfers en matchpercentages weer voor [!UICONTROL Server-to-Server]-bestemmingen. Kunt u uitleggen waarom we deze cijfers voor cookie- en URL-bestemmingen niet zien?**
 

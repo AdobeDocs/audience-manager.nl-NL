@@ -1,13 +1,14 @@
 ---
 description: Dankzij modellen die zijn afgestemd op look-Alike, kunt u nieuwe, unieke doelgroepen ontdekken via geautomatiseerde gegevensanalyse. In dit artikel worden antwoorden gegeven op de meest gestelde vragen.
-seo-description: Dankzij modellen die zijn afgestemd op look-Alike, kunt u nieuwe, unieke doelgroepen ontdekken via geautomatiseerde gegevensanalyse. In dit artikel worden antwoorden gegeven op de meest gestelde vragen.
-seo-title: Veelgestelde vragen over look-Alike Modeling
+seo-description: Look-Alike Modeling helps you discover new, unique audiences through automated data analysis. This article provides answers to the most frequently asked questions.
+seo-title: Look-Alike Modeling FAQ
 solution: Audience Manager
 title: Veelgestelde vragen over look-Alike Modeling
 feature: Algorithmic Models
-source-git-commit: cf9368d4690b61066646054543cc60d390eea021
+exl-id: c6e92db0-129f-489e-8cf0-600e0e09698b
+source-git-commit: 37823ae54e106e32aa195a6b69e0f1ebfc322f09
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -16,13 +17,13 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-In dit artikel worden antwoorden gegeven op de meestgestelde vragen over [!UICONTROL Look-Alike Modeling].
+In dit artikel worden antwoorden gegeven op de meest gestelde vragen over [!UICONTROL Look-Alike Modeling].
 
 ## Vragen {#questions}
 
-**Waarom krijg ik een platte  [!UICONTROL Accuracy & Reach] grafiek?**
+**Waarom krijg ik een plat? [!UICONTROL Accuracy & Reach] grafiek?**
 
-Een vlakke [!UICONTROL Accuracy & Reach] grafiek betekent dat bijna elke gebruiker de zelfde score door het model ontving. Dit kan gebeuren wanneer u de eigenschap voor sitebezoekers opneemt in de gegevensbronnen waarop u het model hebt uitgevoerd. Om dit te vermijden, verwijder het generische bezit uit de modelinput tijdens de stap van de modelverwezenlijking, door het [!UICONTROL Exclusions] gebied te gebruiken.
+Een vlak [!UICONTROL Accuracy & Reach] de grafiek betekent dat bijna elke gebruiker de zelfde score door het model ontving. Dit kan gebeuren wanneer u de eigenschap voor sitebezoekers opneemt in de gegevensbronnen waarop u het model hebt uitgevoerd. Als u dit wilt voorkomen, verwijdert u het algemene kenmerk uit de modelinvoer tijdens de stap voor het maken van het model door het gereedschap [!UICONTROL Exclusions] veld.
 
  
 
@@ -52,13 +53,13 @@ Enkele duizenden gebruikers zouden genoeg moeten zijn om het model in werking te
 
 **Welke gegevensbronnen van derden moet ik kiezen voor mijn model?**
 
-Gebruik gegevensbronnen die ten minste gedeeltelijk overlappen met uw basislijnkenmerk of -segment, maar zorg er tegelijkertijd voor dat extra gebruikers worden toegevoegd. U zou ook de kosten verbonden aan elke gegevensuitvoer moeten overwegen. De kosten en prijsmodellen variëren tussen gegevensleveranciers in [!UICONTROL Audience Marketplace].
+Gebruik gegevensbronnen die ten minste gedeeltelijk overlappen met uw basislijnkenmerk of -segment, maar zorg er tegelijkertijd voor dat extra gebruikers worden toegevoegd. U zou ook de kosten verbonden aan elke gegevensuitvoer moeten overwegen. De kosten- en prijsmodellen verschillen per gegevensaanbieder in [!UICONTROL Audience Marketplace].
 
  
 
 **Kosten het om derdegegevens voor modellering te gebruiken?**
 
-Dit hangt af van het prijsmodel van de geselecteerde gegevensinvoer. Sommige feeds maken modellering zonder kosten mogelijk, terwijl anderen u een vergoeding in rekening brengen. Zie [Facturering voor de Kopers van de Invoer van Gegevens](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md) voor details.
+Dit hangt af van het prijsmodel van de geselecteerde gegevensinvoer. Sommige feeds maken modellering zonder kosten mogelijk, terwijl anderen u een vergoeding in rekening brengen. Zie [Facturering voor kopers van gegevensfeed](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md) voor meer informatie.
 
  
 

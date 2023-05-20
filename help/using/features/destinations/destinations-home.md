@@ -1,23 +1,21 @@
 ---
 description: De bestemmingspagina maakt een lijst van al uw URL, koekje, en server-aan-server bestemmingen. Het verstrekt eigenschappen die u tot stand laten brengen, uitgeven, naar, en rapport over bestemmingen zoeken. De landingspagina bevindt zich in Poortgegevens > Doelen.
-seo-description: De bestemmingspagina maakt een lijst van al uw URL, koekje, en server-aan-server bestemmingen. Het verstrekt eigenschappen die u tot stand laten brengen, uitgeven, naar, en rapport over bestemmingen zoeken. De landingspagina bevindt zich in Poortgegevens > Doelen.
-seo-title: Doelen beheren
+seo-description: The Destination landing page lists all of your URL, cookie, and server-to-server destinations. It provides features that let you create, edit, search for, and report on destinations. The landing page is located in Audience Data > Destinations.
+seo-title: Manage Destinations
 solution: Audience Manager
 title: Doelen beheren
 feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 367bad0f-d7d6-4dd5-9717-85ac6eda47ab
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
 
-
-
 # Startpagina Bestemmingen {#destinations-home}
 
-Op de bestemmingspagina [!UICONTROL Destination] staan al uw [!DNL URL]-, cookie- en server-naar-server-doelen vermeld. Het verstrekt eigenschappen die u tot stand laten brengen, uitgeven, naar, en rapport over bestemmingen zoeken. De landingspagina bevindt zich in **[!UICONTROL Audience Data > Destinations]**.
+De [!UICONTROL Destination] landingspagina bevat alle [!DNL URL], cookie en server-naar-server doelen. Het verstrekt eigenschappen die u tot stand laten brengen, uitgeven, naar, en rapport over bestemmingen zoeken. De landingspagina bevindt zich in **[!UICONTROL Audience Data > Destinations]**.
 
 ## Standaardbestemmingspagina {#default-landing-page}
 
@@ -33,10 +31,10 @@ De standaard landende pagina maakt een lijst van uw bestemmingen, die op type wo
 
 ![](assets/destinations-landing.png)
 
-## Adresseerbare bestemmingspagina {#audiences-landing-page}
+## Adresseerbare bestemmingspagina voor publiek {#audiences-landing-page}
 
-Selecteer **[!UICONTROL Integrated Platforms > Device-Based]** om de publieksgegevens en de overeenkomstige snelheden voor de bestemming van de server naar de server weer te geven.
+Om publieksgegevens en gelijke tarieven voor uw server-aan-server bestemming te zien, selecteer **[!UICONTROL Integrated Platforms > Device-Based]**.
 
-Voor meer informatie over de getoonde informatie, zie [Adresseerbare Interface van Soorten publiek](/help/using/features/addressable-audiences.md#addressable-audience-interface).
+Voor meer informatie over de getoonde informatie, zie [Adresseerbare interface voor soorten publiek](/help/using/features/addressable-audiences.md#addressable-audience-interface).
 
 ![](/help/using/features/assets/addressable-audiences-landing.png)

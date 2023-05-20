@@ -1,19 +1,18 @@
 ---
 description: Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebruiker gedefinieerd type of categorie, meestal op basis van de functie of voor uw eigen interne rapportageprocessen.
-seo-description: Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebruiker gedefinieerd type of categorie, meestal op basis van de functie of voor uw eigen interne rapportageprocessen.
-seo-title: Methoden voor eigenschaptypen
+seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
+seo-title: Trait Type Methods
 solution: Audience Manager
 title: Methoden voor eigenschaptypen
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 5%
+source-wordcount: '151'
+ht-degree: 3%
 
 ---
-
 
 # Methoden voor eigenschaptypen {#trait-type-methods}
 
@@ -23,13 +22,13 @@ Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebrui
 
 >[!NOTE]
 >
->Methoden van het type Trait wijzen geen kenmerken toe aan categorieën die worden gebruikt door de [gemeenschappelijke taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Beschouw deze als labels die los staan van de algemene taxonomie.
+>Trainingstypemethoden wijzen geen kenmerken toe aan categorieën die door de [gemeenschappelijke taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Beschouw deze als labels die los staan van de algemene taxonomie.
 
-Voor visuele referentie is [!UICONTROL Trait Types] een dropdown-besturingselement in [!DNL UI] onder **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Voor visuele referentie: [!UICONTROL Trait Types] is een dropdown-besturingselement in het dialoogvenster [!DNL UI] krachtens **[!UICONTROL Traits > Create new trait > Basic Information]**.
 
 ## Een nieuw type overtrek maken {#create-trait-type}
 
-Een methode `POST` waarmee u een nieuw type eigenschap kunt maken.
+A `POST` een methode waarmee u een nieuw type eigenschap kunt maken.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -62,7 +61,7 @@ Een methode `POST` waarmee u een nieuw type eigenschap kunt maken.
 
 ## Eigenschappen retourneren voor een type overtrek {#return-props}
 
-Een methode `GET` die details over het gespecificeerde handelstype terugkeert.
+A `GET` methode die details over het gespecificeerde type van eigenschap terugkeert.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -87,7 +86,7 @@ Een methode `GET` die details over het gespecificeerde handelstype terugkeert.
 
 ## Eigenschappen retourneren voor alle travetypen {#return-props-all}
 
-Een methode `GET` die details over al uw handelstypes in een serie terugkeert.
+A `GET` methode die details over al uw types van eigenschap in een serie terugkeert.
 
 <!-- r_rest_api_get_trait_types.xml -->
 

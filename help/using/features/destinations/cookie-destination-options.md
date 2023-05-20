@@ -1,22 +1,21 @@
 ---
 description: In de Bouwer van de Bestemming, bevat de sectie van de Configuratie het Domein van de Koek en publiceert Gegevens aan gebieden. Hiermee kunt u regels maken om te bepalen of een doel een cookie instelt of een cookie retourneert. Cookie-domein en publicatiegegevens om onafhankelijk van elkaar te werken en zijn optioneel. U kunt een koekjesbestemming tot stand brengen zonder één van beiden van hen te gebruiken.
-seo-description: In de Bouwer van de Bestemming, bevat de sectie van de Configuratie het Domein van de Koek en publiceert Gegevens aan gebieden. Hiermee kunt u regels maken om te bepalen of een doel een cookie instelt of een cookie retourneert. Cookie-domein en publicatiegegevens om onafhankelijk van elkaar te werken en zijn optioneel. U kunt een koekjesbestemming tot stand brengen zonder één van beiden van hen te gebruiken.
-seo-title: Optionele instellingen voor cookiebestemmingen
+seo-description: In Destination Builder, the Configuration section contains the Cookie Domain and Publish Data To fields. These let you create rules to determine if a destination sets a cookie or returns a cookie. Cookie Domain and Publish Data To work independently of each other and are optional. You can create a cookie destination without using either of them.
+seo-title: Optional Settings for Cookie Destinations
 solution: Audience Manager
 title: Optionele instellingen voor cookiebestemmingen
 feature: Destination Basics
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: b44f386e-4d43-41c3-b8ce-88b83d5d83c2
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '399'
 ht-degree: 6%
 
 ---
 
-
 # Optionele instellingen voor cookiebestemmingen {#optional-settings-cookies}
 
-In [!UICONTROL Destination Builder] bevat [!UICONTROL Configuration section] de velden [!UICONTROL Cookie Domain] en [!UICONTROL Publish Data To]. Hiermee kunt u regels maken om te bepalen of een doel een cookie instelt of een cookie retourneert. [!UICONTROL Cookie Domain] en  [!UICONTROL Publish Data To] werken onafhankelijk van elkaar en zijn optioneel. U kunt een koekjesbestemming tot stand brengen zonder één van beiden van hen te gebruiken.
+In [!UICONTROL Destination Builder]de [!UICONTROL Configuration section] bevat de [!UICONTROL Cookie Domain] en [!UICONTROL Publish Data To] velden. Hiermee kunt u regels maken om te bepalen of een doel een cookie instelt of een cookie retourneert. [!UICONTROL Cookie Domain] en [!UICONTROL Publish Data To] onafhankelijk van elkaar te werken en zijn facultatief. U kunt een koekjesbestemming tot stand brengen zonder één van beiden van hen te gebruiken.
 
 ## Cookie-domein: Syntaxis en voorbeelden {#cookie-domain-syntax}
 
@@ -32,27 +31,27 @@ In [!UICONTROL Destination Builder] bevat [!UICONTROL Configuration section] de 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Syntaxis</b> </p> </td> 
-   <td colname="col2"> <p>Het veld <span class="wintitle"> Cookie Domain</span> accepteert een eenvoudige tekstreeks waarmee u cookies kunt instellen op een bepaald domein of op alle domeinen. Wanneer u deze functie gebruikt: </p> <p> 
+   <td colname="col2"> <p>De <span class="wintitle"> Cookie-domein</span> in het veld wordt een eenvoudige tekenreeks geaccepteerd waarmee u cookies kunt instellen voor een bepaald domein of voor alle domeinen. Wanneer u deze functie gebruikt: </p> <p> 
      <ul id="ul_473CB59F2C0C4B358201BE5C8B27D73D"> 
-      <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Stel slechts één domein in voor elk cookiedoel. Typ geen meerdere domeinen in het veld <span class="wintitle"> Cookie Domain</span>. Maak in plaats hiervan een andere <span class="wintitle">-bestemming</span>. </li> 
+      <li id="li_4E7F4691C1B54415963F7D5AA1558C9A">Stel slechts één domein in voor elk cookiedoel. Typ geen meerdere domeinen in het dialoogvenster <span class="wintitle"> Cookie-domein</span> veld. Een andere maken <span class="wintitle"> Doel</span> in plaats daarvan. </li> 
       <li id="li_AEBF5C5F3C264C5EA4A2A6063C3F377D">Gebruik geen jokertekens. </li> 
-     </ul> </p> <p> Laat het veld <span class="wintitle"> Cookie Domain</span> leeg om een cookie in te stellen op alle domeinen. Dit is de standaardinstelling. </p> <p>Cookies instellen op een specifiek domein en subdomeinen: </p> <p> 
+     </ul> </p> <p> Laat de <span class="wintitle"> Cookie-domein</span> veld leeg om een cookie in te stellen op alle domeinen. Dit is de standaardinstelling. </p> <p>Cookies instellen op een specifiek domein en subdomeinen: </p> <p> 
      <ul id="ul_F25BC0D8C40641A2A5CA338E5C258435"> 
-      <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Typ de naam van het domein in het <span class="wintitle"> gebied van het Koekjesdomein</span>. </li> 
+      <li id="li_E236D8DEE4F24F9BBA36074F7049C12C">Typ de naam van het domein in het dialoogvenster <span class="wintitle"> Cookie-domein</span> veld. </li> 
       <li id="li_0471C198EE344DE5963A3C2F70B9E78B">Start de domeinnaam met een punt. Bijvoorbeeld, <code> .somedomain.com</code>. </li> 
-      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">Het voorvoegsel <code> https://www</code> is niet vereist. </li> 
+      <li id="li_73D06F2BEF45487280C2245E1F6B8ED0">De <code> https://www</code> prefix is niet vereist. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Voorbeeld</b> </p> </td> 
-   <td colname="col2"> <p>Als eenvoudig voorbeeld, zeggen wij een fictieve plaats genoemd sport.com. Sports.com heeft domeinen voor golf, honkbal, en voetbal. Als u een cookie in alle sportdomeinen wilt instellen, typt u dat in het vak <span class="wintitle"> Cookie Domain</span>, zoals hieronder wordt weergegeven: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Dit vertelt <span class="keyword"> Audience Manager</span> om een koekje in om het even welk domein te plaatsen dat het patroon <code><i>something</i></code>.sport.com bevat. Zie hieronder voor een complexere reeks voorbeelden. </p> </td> 
+   <td colname="col2"> <p>Als eenvoudig voorbeeld, zeggen wij een fictieve plaats genoemd sport.com. Sports.com heeft domeinen voor golf, honkbal, en voetbal. Als u een cookie wilt instellen in alle sportdomeinen, typt u dat in het dialoogvenster <span class="wintitle"> Cookie-domein</span> vak zoals hieronder weergegeven: </p> <p> <img src="assets/sports-domain.png" id="image_8883477BB3B543648C97A441AD34C6DE" /> </p> <p>Dit vertelt <span class="keyword"> Audience Manager</span> om een cookie in te stellen in elk domein dat het patroon bevat <code><i>something</i></code>.sport.com. Zie hieronder voor een complexere reeks voorbeelden. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Complexe voorbeelden van cookie-domeinen
 
-Deze voorbeelden tonen u als [!DNL Audience Manager] een koekje zal plaatsen op hoe [!UICONTROL Cookie Domain] optie wordt gevormd.
+In deze voorbeelden wordt getoond of [!DNL Audience Manager] wordt een cookie ingesteld op basis van de manier waarop de [!UICONTROL Cookie Domain] is geconfigureerd.
 
 <table id="table_3A7B9479CDA6493FA8104D8D9841E914"> 
  <thead> 
@@ -93,12 +92,13 @@ Deze voorbeelden tonen u als [!DNL Audience Manager] een koekje zal plaatsen op 
 
 ## Gegevens publiceren naar {#publish-data-to}
 
-De [!UICONTROL Publish Data To] montages keren een koekje terug als het domein aan de criteria voldoet die door de opties worden geplaatst u selecteert. De volgende opties zijn beschikbaar:
+De [!UICONTROL Publish Data To] instellingen retourneren een cookie als het domein voldoet aan de criteria die zijn ingesteld door de opties die u selecteert. De volgende opties zijn beschikbaar:
 
-* **[!UICONTROL All of our domains]**: (Standaard) Hiermee wordt een waarde geretourneerd  [!DNL cookie] voor een willekeurig domein.
+* **[!UICONTROL All of our domains]**: (Standaard) Retourneert een [!DNL cookie] voor elk domein.
 * **[!UICONTROL Only the selected domains]**: Retourneert alleen een cookie voor de domeinen die in de lijst met domeinen zijn geselecteerd.
-* **[!UICONTROL All of our domains except the selected domains]**: Hiermee voorkomt u dat geselecteerde domeinen een  [!DNL cookie]. Alle andere domeinen kunnen [!DNL cookie] ontvangen.
+* **[!UICONTROL All of our domains except the selected domains]**: Hiermee voorkomt u dat geselecteerde domeinen een [!DNL cookie]. Alle andere domeinen kunnen een [!DNL cookie].
 
 >[!MORELIKETHIS]
 >
 >* [Een doel voor cookies maken](../../features/destinations/create-cookie-destination.md)
+

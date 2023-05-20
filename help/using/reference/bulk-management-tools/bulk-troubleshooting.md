@@ -1,17 +1,16 @@
 ---
 description: Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontbreekt.
-seo-description: Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontbreekt.
-seo-title: Tips voor het oplossen van problemen met Bulk Management Tools
+seo-description: What to do when the worksheets return an error or your bulk request fails.
+seo-title: Troubleshooting Tips for Bulk Management Tools
 solution: Audience Manager
 title: Tips voor het oplossen van problemen met Bulk Management Tools
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 4%
+source-wordcount: '382'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +28,7 @@ Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontb
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen die ](../../features/administration/administration-overview.md) zijn toegewezen in de  [!DNL Audience Manager] gebruikersinterface, worden gerespecteerd in de  [!UICONTROL Bulk Management Tools].
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
 
 Factoren zoals zwaar netwerkverkeer, servergebruik, en grote gegevensreeksen kunnen een bulkverzoek veroorzaken om of uit tijd te ontbreken. Als er een probleem is, stopt het werkblad met het schrijven van gegevens en wordt er een foutbericht weergegeven. Wanneer dit gebeurt, moet u:
 
@@ -60,7 +59,7 @@ De volgende lijst maakt een lijst van sommige gemeenschappelijke problemen u wan
    <td colname="col1"> <b>Lange vertragingen</b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Compatibiliteitsmodus</b> uitschakelen: Controleer of er andere werkbladen zijn geopend in de compatibiliteitsmodus van Microsoft Excel. In de compatibiliteitsmodus kunnen de runtimes toenemen. Sluit spreadsheets die geopend zijn in deze modus en probeer het bulkverzoek opnieuw. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Compatibiliteitsmodus uitschakelen</b>: Controleer of er andere werkbladen zijn geopend in de compatibiliteitsmodus van Microsoft Excel. In de compatibiliteitsmodus kunnen de runtimes toenemen. Sluit spreadsheets die geopend zijn in deze modus en probeer het bulkverzoek opnieuw. </li> 
      <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Systeembronnen</b>: Beperkte systeembronnen dragen bij tot lange vertragingen. Sluit alle andere programma's voordat u een aanvraag bulksgewijs indient. </li> 
     </ul> </td> 
   </tr> 
@@ -78,4 +77,4 @@ De volgende lijst maakt een lijst van sommige gemeenschappelijke problemen u wan
 
 ## Foutberichten
 
-Soms kunt u foutberichten ontvangen wanneer u grote wijzigingen aanbrengt. Om het foutenbericht te interpreteren, zie [Gedefinieerde de Codes van de Reactie](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API documentatie.
+Soms kunt u foutberichten ontvangen wanneer u grote wijzigingen aanbrengt. Als u het foutbericht wilt interpreteren, raadpleegt u [Responscodes gedefinieerd](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API-documentatie.

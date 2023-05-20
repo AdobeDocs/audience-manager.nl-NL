@@ -1,33 +1,32 @@
 ---
 description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager-consultant voordat u de eerste id synchroniseert.
-seo-description: Beschrijft de syntaxis en de parameters die in de aanvankelijke vraag van HTTP worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager-consultant voordat u de eerste id synchroniseert.
-seo-title: Id-synchronisatie voor overdracht van uitgaande data
+seo-description: Describes the syntax and parameters used in the initial HTTP call to synchronize user IDs between Audience Manager and a third-party data provider. Contact your Adobe Audience Manager consultant before attempting your first ID synchronization.
+seo-title: ID Synchronization for Outbound Data Transfers
 solution: Audience Manager
 title: Id-synchronisatie voor overdracht van uitgaande data
 uuid: f3849be8-1094-47db-9296-7482f020af18
 feature: Outbound Data Transfers
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: 02cca19a-eebf-43b2-b034-24f072fe2efb
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 11%
+source-wordcount: '335'
+ht-degree: 10%
 
 ---
 
-
 # Id-synchronisatie voor overdracht van uitgaande data{#id-synchronization-for-outbound-data-transfers}
 
-Beschrijft de syntaxis en de parameters die in de aanvankelijke `HTTP` vraag worden gebruikt om gebruiker IDs tussen Audience Manager en een derdegegevensleverancier te synchroniseren. Neem contact op met uw Adobe Audience Manager-consultant voordat u de eerste id synchroniseert.
+Beschrijft de syntaxis en de parameters die in de aanvankelijke `HTTP` oproep om gebruikers-id&#39;s te synchroniseren tussen Audience Manager en een externe gegevensaanbieder. Neem contact op met uw Adobe Audience Manager-consultant voordat u de eerste id synchroniseert.
 
 <!-- c_id_sync_out.xml -->
 
 ## Doel van id-synchronisatie
 
-De synchronisatie van identiteitskaart is de eerste stap in het uitgaande, asynchrone proces van de gegevensoverdracht. In deze stap vergelijken [!DNL Audience Manager] en de leverancier IDs voor hun respectieve plaatsbezoekers. Een [!DNL Audience Manager]-klant kent bijvoorbeeld een gebruiker op ID 123. Nochtans, kon uw gegevenspartner deze gebruiker met identiteitskaart 456 identificeren. Dankzij het synchronisatieproces kunnen [!DNL Audience Manager] en een leverancier van gegevens deze verschillende id&#39;s met elkaar combineren en gebruikers in hun respectieve systemen identificeren. Als [!DNL Audience Manager] en de externe gegevensaanbieder zijn voltooid, moeten deze id&#39;s hebben voor elke unieke gebruiker die op onze netwerken wordt weergegeven.
+De synchronisatie van identiteitskaart is de eerste stap in het uitgaande, asynchrone proces van de gegevensoverdracht. In deze stap [!DNL Audience Manager] en de verkoper vergelijkt en past IDs voor hun respectieve plaatsbezoekers aan. Een [!DNL Audience Manager] de klant kent mogelijk een gebruiker met ID 123. Nochtans, kon uw gegevenspartner deze gebruiker met identiteitskaart 456 identificeren. Het synchronisatieproces staat [!DNL Audience Manager] en een gegevensleverancier om deze verschillende id&#39;s met elkaar te combineren en gebruikers in hun respectieve systemen te identificeren. Na voltooiing, [!DNL Audience Manager] en de derde gegevensleverancier zou overeenkomstige IDs voor elke unieke gebruiker moeten hebben die op onze netwerken wordt gezien.
 
 ## URL-syntaxis
 
-In een uitwisseling van identiteitskaart, zou een behoorlijk geformatteerde [!DNL URL] koord als dit moeten kijken:
+In een ID-uitwisseling heeft de indeling [!DNL URL] string moet er als volgt uitzien:
 
 ```
 https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT_URL>
@@ -35,7 +34,7 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
 
 ## URL-parameters
 
-[!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitskaart zou variabelen moeten bevatten die in de lijst hieronder worden beschreven.
+De [!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitskaart zou variabelen moeten bevatten die in de hieronder lijst worden beschreven.
 
 >[!NOTE]
 >
@@ -59,17 +58,17 @@ https://dpm.demdex.net/ibs:dpid=<VENDOR_ID>&dpuuid=<VENDOR_UUID>&redir=<REDIRECT
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> <i>&lt;REDIRECT_URL&gt;</i> </code> </td> 
-   <td colname="col2">Een gecodeerde URL omleiden met het macro <code> ${DD_UUID}</code> ingesloten in het. <p><b>Nota:</b> Toegevoegd slechts wanneer de gegevensleverancier de vraag in werking stelt. </p> </td> 
+   <td colname="col2">Een gecodeerde URL omleiden met de macro <code> ${DD_UUID}</code> ingesloten in het bestand. <p><b>Opmerking:</b> Wordt alleen toegevoegd wanneer de gegevensaanbieder de aanroep start. </p> </td> 
   </tr> 
     </tr> 
   <tr> 
    <td colname="col1"> <code> <i>gdpr = &lt;0|1&gt;</i> </code> </td> 
-   <td colname="col2"> <p><code>gdpr</code> 0 (GDPR is niet van toepassing) of 1 (GDPR is van toepassing).</p><p><b>Opmerking:</b> <ul><li>De parameters <code>gdpr</code> en <code>gdpr_consent</code> worden geleidelijk ingevoerd in identiteitskaart sync URLs met activeringspartners. Zie Activeringspartners die IAB TCF in <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Insteekmodule van de Audience Manager voor IAB TCF.</a> steunen</li><li>Deze parameter kan alleen samen met <code>gdpr_consent.</code></li></ul></p></td>
+   <td colname="col2"> <p><code>gdpr</code> 0 (GDPR is niet van toepassing) of 1 (GDPR is van toepassing).</p><p><b>Opmerking:</b> <ul><li>De <code>gdpr</code> en <code>gdpr_consent</code> Parameters worden geleidelijk ingevoerd in id sync URLs met activeringspartners. Zie Activeringspartners die IAB TCF in steunen <a href="../../overview/data-security-and-privacy/aam-iab-plugin.md#aam-activation-partners">Audience Manager-plug-in voor IAB TCF.</a></li><li>Deze parameter kan alleen samen met <code>gdpr_consent.</code></li></ul></p></td>
   </tr> 
     </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code><i>gdpr_consent=&lt;ENCODED STRING&gt;</i> </code> </td> 
-   <td colname="col2"><p><code>gdpr_consent</code> is de URL-veilige basis64-gecodeerde GDPR toestemmingskoord (zie <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB specificatie</a>).</p><p><b>Opmerking: </b> deze parameter kan alleen samen met  <code>gdpr</code>.</p> </td> 
+   <td colname="col2"><p><code>gdpr_consent</code> is de URL-veilige base64-gecodeerde GDPR toestemmingstekenreeks (zie <a href="https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/URL-based%20Consent%20Passing_%20Framework%20Guidance.md#specifications" format="http" scope="external"> IAB-specificatie</a>).</p><p><b>Opmerking:</b> Deze parameter kan alleen samen met <code>gdpr</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

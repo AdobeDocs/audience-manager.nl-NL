@@ -1,29 +1,28 @@
 ---
 description: Rust API-methoden om groepen te beheren, zoals het maken, bijwerken, weergeven en verwijderen van groepen.
-seo-description: Rust API-methoden om groepen te beheren, zoals het maken, bijwerken, weergeven en verwijderen van groepen.
-seo-title: API-methoden voor groepsbeheer
+seo-description: Rest API methods to manage groups, including creating, updating, listing, deleting groups.
+seo-title: Group Management API Methods
 solution: Audience Manager
 title: API-methoden voor groepsbeheer
 uuid: fe042eb5-ea12-42fe-be98-d721f987a914
 feature: API
-translation-type: tm+mt
-source-git-commit: e05eff3cc04e4a82399752c862e2b2370286f96f
+exl-id: b43c8404-1853-4306-8f26-96d9191a2548
+source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 5%
+source-wordcount: '206'
+ht-degree: 3%
 
 ---
 
-
 # API-methoden voor groepsbeheer {#group-management-api-methods}
 
-Stel [!DNL API] methoden in om groepen te beheren, zoals het maken, bijwerken, weergeven of verwijderen van groepen.
+Rust [!DNL API] methoden om groepen te beheren, zoals het maken, bijwerken, weergeven of verwijderen van groepen.
 
 <!-- c_rest_api_user_man_group.xml -->
 
 ## Een groep maken {#create-group}
 
-Een `POST` methode om een nieuwe gebruikersgroep tot stand te brengen.
+A `POST` methode om een nieuwe gebruikersgroep te maken.
 
 <!-- r_rest_api_group_create.xml -->
 
@@ -54,9 +53,9 @@ Een `POST` methode om een nieuwe gebruikersgroep tot stand te brengen.
   }
 ```
 
-## Een groep {#update-group} bijwerken
+## Een groep bijwerken {#update-group}
 
-Een methode `PUT` om een gebruikersgroep bij te werken.
+A `PUT` methode om een gebruikersgroep bij te werken.
 
 <!--
 r_rest_api_group_update.xml
@@ -91,7 +90,7 @@ r_rest_api_group_update.xml
 
 ## Groepen weergeven {#list-groups}
 
-Een methode `GET` om gebruikersgroepen weer te geven.
+A `GET` om gebruikersgroepen weer te geven.
 
 <!--
 r_rest_api_group_list.xml
@@ -117,9 +116,9 @@ r_rest_api_group_list.xml
 ]
 ```
 
-## Een groep {#delete-groups} verwijderen
+## Een groep verwijderen {#delete-groups}
 
-Een methode `DELETE` om een gebruikersgroep te schrappen en alle leden uit die groep te verwijderen.
+A `DELETE` methode om een gebruikersgroep te verwijderen en alle leden uit die groep te verwijderen.
 
 <!-- r_rest_api_group_delete.xml -->
 
@@ -127,11 +126,11 @@ Een methode `DELETE` om een gebruikersgroep te schrappen en alle leden uit die g
 
 `DELETE /api/v1/groups/`*`<groupId>`*
 
-Retourneert `204 No Content` indien gelukt. In geval van conflict retourneert `409 Conflict`.
+Retourneert `204 No Content` indien succesvol. In geval van conflictopmerkingen `409 Conflict`.
 
 ## Groepen in bulk verwijderen {#delete-groups-bulk}
 
-Een `DELETE` methode om veelvoudige groepen in massa te schrappen en alle leden uit die groep te verwijderen.
+A `DELETE` methode om veelvoudige groepen in massa te schrappen en alle leden uit die groep te verwijderen.
 
 <!-- r_rest_api_group_delete_bulk.xml -->
 
@@ -139,11 +138,11 @@ Een `DELETE` methode om veelvoudige groepen in massa te schrappen en alle leden 
 
 `DELETE /api/v1/groups/bulk-delete`
 
-Retourneert `204 No Content` indien gelukt. In geval van conflict retourneert `409 Conflict`.
+Retourneert `204 No Content` indien succesvol. In geval van conflictopmerkingen `409 Conflict`.
 
-## Alle machtigingen voor een groep {#list-permissions-group} weergeven
+## Alle machtigingen voor een groep weergeven {#list-permissions-group}
 
-A `GET` methode om van de toestemmingsvoorwerpen op een groep een lijst te maken.
+A `GET` methode om de machtigingsobjecten op een groep weer te geven.
 
 <!-- r_rest_api_perm_list_group.xml -->
 
@@ -173,11 +172,11 @@ A `GET` methode om van de toestemmingsvoorwerpen op een groep een lijst te maken
 ]
 ```
 
-Retourneert `400 Bad Request` als de groep niet toegankelijk is.
+Retourneert `400 Bad Request` als de groep ontoegankelijk is.
 
 ## Machtigingen instellen voor een groep {#set-permissions-group}
 
-Een methode `PUT` om groepsmachtigingen bij te werken. Deze methode beschrijft de oude toestemmingen met de nieuwe toestemmingen.
+A `PUT` methode om groepsmachtigingen bij te werken. Deze methode beschrijft de oude toestemmingen met de nieuwe toestemmingen.
 
 <!-- r_rest_api_perm_set.xml -->
 
@@ -210,4 +209,4 @@ Een methode `PUT` om groepsmachtigingen bij te werken. Deze methode beschrijft d
 
 De voorbeeldreactie vertegenwoordigt de bijgewerkte lijst met machtigingsobjecten.
 
-Retourneert `200 OK` indien gelukt. Retourneert `400` als een gegeven machtiging ongeldig is. Kan ook `403` retourneren als het object niet toegankelijk is voor de aangemelde gebruiker.
+Retourneert `200 OK` indien succesvol. Retourneert `400` als een bepaalde machtiging ongeldig is. Kan ook terugkeren `403` als het object niet toegankelijk is voor de aangemelde gebruiker.

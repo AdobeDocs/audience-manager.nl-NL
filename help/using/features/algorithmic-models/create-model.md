@@ -1,8 +1,8 @@
 ---
 description: Beschrijft de vereiste en facultatieve stappen die u een algoritmisch model in ModelBouwer laten tot stand brengen.
 keywords: laten zien hoe werkt
-seo-description: Beschrijft de vereiste en facultatieve stappen die u een algoritmisch model in ModelBouwer laten tot stand brengen.
-seo-title: Een algoritmisemodel maken
+seo-description: Describes the required and optional steps that let you create an algorithmic model in Model Builder.
+seo-title: Create an Algorithmic Model
 solution: Audience Manager
 title: Een algoritmisemodel maken
 uuid: ccf4fc4e-cf92-445f-b2d9-71c3ca624e26
@@ -10,45 +10,45 @@ feature: Algorithmic Models
 exl-id: 8b7c4f57-f2c8-46f1-8924-5513fd6ede04
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
 
 # Een look-alike-model maken {#create-an-algorithmic-model}
 
-Beschrijft de vereiste en facultatieve stappen die u [!UICONTROL Look-Alike Model] laten tot stand brengen.
+Beschrijft de vereiste en facultatieve stappen die u laten tot een [!UICONTROL Look-Alike Model].
 
 ## Sectie Modelbouwer
 
-[!UICONTROL Model Builder] bestaat uit de  [!UICONTROL Basic Information] en de  [!UICONTROL Configuration] secties. Als u een model wilt maken, vult u de vereiste velden in deze twee secties in. Sla het model op om het algoritme te starten. [!DNL Audience Manager] verzendt u een geautomatiseerd bericht nadat de eerste gegevenslooppas voltooit. Nadat u de e-mail ontvangt, kunt u naar [Trait Builder](../../features/traits/about-trait-builder.md) gaan en algoritmische eigenschappen tot stand brengen.
+[!UICONTROL Model Builder] bestaat uit [!UICONTROL Basic Information] en [!UICONTROL Configuration] secties. Als u een model wilt maken, vult u de vereiste velden in deze twee secties in. Sla het model op om het algoritme te starten. [!DNL Audience Manager] verzendt u een geautomatiseerd bericht nadat de eerste gegevenslooppas voltooit. Nadat u het e-mailbericht hebt ontvangen, kunt u naar [Trait Builder](../../features/traits/about-trait-builder.md) en maak algoritmische kenmerken.
 
 >[!NOTE]
 >
 >* Het modelleringsproces wordt slechts eenmaal uitgevoerd als u een model maakt en er geen eigenschappen mee bouwt.
 >* Bouw modellen van gegevensbronnen die een zinvolle hoeveelheid informatie bevatten. Modellen met onvoldoende gegevens worden uitgevoerd, maar er worden geen resultaten geretourneerd.
->* *Maak* geen modellen met andere algoritmische kenmerken of segmenten.
->* Het geautomatiseerde e-mailbericht wordt slechts één keer verzonden (na de eerste gegevensuitvoering).
+>* *Niet gebruiken* modellen maken met andere algoritmische kenmerken of segmenten.
+>* Het geautomatiseerde e-mailbericht wordt slechts eenmaal verzonden (na de eerste gegevensuitvoering).
 
 
 ## Het model samenstellen
 
-Voer de onderstaande stappen uit om een [!UICONTROL Look-Alike Model] te maken:
+Volg de onderstaande stappen om een [!UICONTROL Look-Alike Model]:
 
-1. Ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klik **[!UICONTROL Add New]** in [!UICONTROL Look-Alike Modeling] sectie.
+1. Ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klik op **[!UICONTROL Add New]** in de [!UICONTROL Look-Alike Modeling] sectie.
    ![look-alike-add](assets/look-alike-add.png)
-1. In de sectie [Basisinformatie](../../features/algorithmic-models/create-model.md#basic-information)
+1. In de [Basisinformatie](../../features/algorithmic-models/create-model.md#basic-information) sectie
    * Geef het model een naam.
-   * *(Optioneel)* Geef een korte beschrijving van het model.
-   * Stel de status voor het model in op **[!UICONTROL Active]** of **[!UICONTROL Inactive]**. Inactieve modellen worden niet uitgevoerd en produceren geen gegevens.
+   * *(Optioneel)* Geef een korte beschrijving van het model op.
+   * De status van het model instellen op **[!UICONTROL Active]** of **[!UICONTROL Inactive]**. Inactieve modellen worden niet uitgevoerd en produceren geen gegevens.
       ![look-alike-basic](assets/look-alike-basic.png)
-1. In de sectie [Configuration](../../features/algorithmic-models/create-model.md#configuration):
-   * Klik **[!UICONTROL Browse All Traits]** of **[!UICONTROL Browse All Segments]** om een eigenschap of een segment te selecteren u tegen wilt modelleren. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt ook kenmerken filteren op type kenmerk ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded] en [!UICONTROL Algorithmic]) of op type populatie ([Apparaat-id](../../reference/ids-in-aam.md) en [Apparaatoverschrijdende id](../../reference/ids-in-aam.md)).
+1. In de [Configuratie](../../features/algorithmic-models/create-model.md#configuration) sectie:
+   * Klikken **[!UICONTROL Browse All Traits]** of **[!UICONTROL Browse All Segments]** om een eigenschap of een segment te selecteren u tegen wilt modelleren. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt ook kenmerken filteren op basis van het type eigenschap ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], en [!UICONTROL Algorithmic]) of type populatie ([Apparaat-id](../../reference/ids-in-aam.md) en [Apparaatoverschrijdende id](../../reference/ids-in-aam.md)).
       ![browsereigenschappen](assets/browse-traits.png)
    * Kies een terugblik periode van 30, 60, of 90 dagen. Hiermee stelt u een tijdbereik in voor het model.
-   * Het algoritme [!UICONTROL TraitWeight] is standaard geselecteerd.
-   * Selecteer een gegevensbron in de lijst [!UICONTROL Available Data].
-   * Klik **[!UICONTROL Save]** wanneer gereed.
+   * De [!UICONTROL TraitWeight] algoritme is standaard geselecteerd.
+   * Selecteer een gegevensbron in het menu [!UICONTROL Available Data] lijst.
+   * Klikken **[!UICONTROL Save]** wanneer gereed.
       ![look-alike-configuration](assets/look-alike-configuration.png)
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
@@ -59,7 +59,7 @@ Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van m
 
 <!-- r_model_basic.xml -->
 
-Met de [!UICONTROL Model Builder]-instellingen kunt u nieuwe modellen maken of bestaande modellen bewerken. [!UICONTROL Basic Information] Als u een nieuw model wilt maken, geeft u een naam op en gaat u naar de [!UICONTROL Configuration]-instellingen. Het beschrijvingsveld is optioneel.
+In [!UICONTROL Model Builder]de [!UICONTROL Basic Information] Met instellingen kunt u nieuwe modellen maken of bestaande modellen bewerken. Als u een nieuw model wilt maken, voert u een naam in en gaat u naar het [!UICONTROL Configuration] instellingen. Het beschrijvingsveld is optioneel.
 
 | Veld | Beschrijving |
 |---|---|
@@ -69,13 +69,13 @@ Met de [!UICONTROL Model Builder]-instellingen kunt u nieuwe modellen maken of b
 
 ## Configuratie {#configuration}
 
-In [!UICONTROL Model Builder], laat de [!UICONTROL Configuration] sectie u eigenschappen of segmenten aan het model toevoegen. Selecteer in deze sectie een basislijnkenmerk of -segment, een terugkijkperiode en gegevens uit uw eerste en andere gegevensbronnen.
+In [!UICONTROL Model Builder]de [!UICONTROL Configuration] kunt u eigenschappen of segmenten aan het model toevoegen. Selecteer in deze sectie een basislijnkenmerk of -segment, een terugkijkperiode en gegevens uit uw eerste en andere gegevensbronnen.
 
 <!-- r_model_configuration.xml -->
 
 ### Vereisten
 
-Vul eerst de vereiste velden in de sectie [!UICONTROL Basic Information] in.
+Vul de vereiste velden in het dialoogvenster [!UICONTROL Basic Information] deel 1.
 
 ![](assets/lam_exclude_traits_numbered.png)
 
@@ -97,7 +97,7 @@ Vul eerst de vereiste velden in de sectie [!UICONTROL Basic Information] in.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Algoritme selecteren (3)</b> </p> </td> 
-   <td colname="col2"> <p>Op dit ogenblik, werkt de ModelBouwer met onze merkgebonden <span class="keyword"> het algoritme van het Gewicht </span> slechts. <span class="keyword"> Het publiek </span> Managerieken kan andere algoritmische functies toevoegen in verdere versies. </p> </td>
+   <td colname="col2"> <p>Op dit moment werkt de Modelbouwer samen met onze bedrijfseigen <span class="keyword"> Dikte van spoor</span> alleen algoritme. <span class="keyword"> Audience Manager</span> kan andere algoritmische functies toevoegen in volgende versies. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><b>Modelgegevens selecteren uit gegevensbron (4)</b> </p> </td> 
@@ -105,7 +105,7 @@ Vul eerst de vereiste velden in de sectie [!UICONTROL Basic Information] in.
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Uitsluitingen (5)</b> </p> </td> 
-   <td colname="col2"> <p>U kunt eigenschappen uitsluiten van de gegevensbronnen die u voor modellering hebt geselecteerd. Gebruik de lijst <span class="wintitle"> Uitsluitingen</span> en lees <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Algoritmische modellen: Trait Exclusion</a> voor meer informatie. </p> </td>
+   <td colname="col2"> <p>U kunt eigenschappen uitsluiten van de gegevensbronnen die u voor modellering hebt geselecteerd. Gebruik de <span class="wintitle"> Uitsluitingen</span> lijst en lezen <a href="../../features/algorithmic-models/trait-exclusion-algo-models.md"> Algoritmische modellen: Trait Exclusion</a> voor meer informatie. </p> </td>
   </tr> 
  </tbody>
 </table>

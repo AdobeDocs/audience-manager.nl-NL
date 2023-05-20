@@ -1,17 +1,16 @@
 ---
 description: Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
-seo-description: Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
-seo-title: Methoden voor Data Integration
+seo-description: A high-level overview of how Audience Manager exchanges information with other data providers and systems.
+seo-title: Data Integration Methods
 solution: Audience Manager
 title: Methoden voor Data Integration
 uuid: 17a4179a-e99b-49eb-8f45-f2946afbd27f
 feature: Third-party Integration
 exl-id: 26225461-c35c-4db1-9517-99e82ce163b9
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 1%
+source-wordcount: '1067'
+ht-degree: 0%
 
 ---
 
@@ -19,26 +18,26 @@ ht-degree: 1%
 
 Een overzicht op hoog niveau van de wijze waarop Audience Managers informatie uitwisselen met andere gegevensleveranciers en -systemen.
 
-## Ondersteunde methoden voor gegevensintegratie: Real-time en [!DNL Server-to-Server] {#supported-methods}
+## Ondersteunde methoden voor gegevensintegratie: In real time en [!DNL Server-to-Server] {#supported-methods}
 
 Het kiezen van de juiste integratiemethode hangt van een combinatie bedrijfsvereisten en de technische mogelijkheden van uw gegevenspartner af. Audience Managers wisselen bezoekersinformatie uit met andere gegevensleveranciers op een van de volgende manieren:
 
-* **Real-Time:** verzendt onmiddellijk gegevens aangezien een gebruiker uw plaats bezoekt. Deze methode wordt ook wel een *`synchronous`*-integratie genoemd.
-* **Batch ([!DNL Server-to-Server]):** Hiermee worden gegevens over een ingestelde planning tussen servers overgedragen nadat een bezoeker de pagina heeft verlaten. Deze methode wordt ook wel een *`out-of-band`*- of *`asynchronous`*-integratie genoemd.
+* **Real-time:** Hiermee worden gegevens direct overgedragen wanneer een gebruiker uw site bezoekt. Deze methode wordt ook wel een *`synchronous`* integratie.
+* **Batch ([!DNL Server-to-Server]):** Hiermee worden gegevens tussen servers overgedragen volgens een ingestelde planning nadat een bezoeker de pagina heeft verlaten. Deze methode wordt ook wel een *`out-of-band`* of *`asynchronous`* integratie.
 
-## Vereisten: Een belastingvrije verkoop maken {#prereqs}
+## Vereisten: Een Trait Taxonomie maken {#prereqs}
 
-Voordat het integratieproces begint, moet u [kenmerken maken](../features/traits/create-onboarded-rule-based-traits.md) en een [mapstructuur](../features/traits/trait-storage.md#create-trait-storage-folder) in de gebruikersinterface [!DNL Audience Manager]. De taxonomie bevat al uw [!UICONTROL traits] geordend in een logische hiërarchie.
+Voordat het integratieproces begint, moet u eraan denken [kenmerken maken](../features/traits/create-onboarded-rule-based-traits.md) en [mapstructuur](../features/traits/trait-storage.md#create-trait-storage-folder) in de [!DNL Audience Manager] UI. De taxonomie bevat al uw [!UICONTROL traits] georganiseerd in een logische hiërarchie.
 
 ## Gebruiksscenario&#39;s voor integratie {#integration-use-cases}
 
 Een gebruiksscenario van de integratiemethodes van de gegevens van de Audience Manager samen met de voor- en nadelen van elk.
 
-### Real-time [!DNL Server-to-Server] integraties
+### Real-time [!DNL Server-to-Server] Integraties
 
 <!-- c_int_types_use_cases.xml -->
 
-Een real-time [!DNL server-to-server] gegevensintegratie synchroniseert snel gebruikersgegevens tussen de servers van de Audience Manager en een ander gericht systeem. In de meeste gevallen vindt de gegevensuitwisseling plaats binnen seconden of minuten, afhankelijk van de vernieuwingsfrequentie van het doelsysteem. Nota, echter, bepaalt het gerichte systeem dit vernieuwt interval, niet Audience Manager. Bovendien kan de vernieuwingsfrequentie per systeem verschillen. Een integratie in real time, [!UICONTROL server-to-server] is het voorkeursintegratietype voor gegevensuitwisseling. De Audience Manager gebruikt deze methode wanneer het richten van partners het kan steunen.
+Een real-time [!DNL server-to-server] de gegevensintegratie synchroniseert snel gebruikersgegevens tussen de servers van de Audience Manager en een ander gericht systeem. In de meeste gevallen vindt de gegevensuitwisseling plaats binnen seconden of minuten, afhankelijk van de vernieuwingsfrequentie van het doelsysteem. Nota, echter, bepaalt het gerichte systeem dit vernieuwt interval, niet Audience Manager. Bovendien kan de vernieuwingsfrequentie per systeem verschillen. Een real-time, [!UICONTROL server-to-server] integratie is het voorkeurstype voor de integratie van gegevensuitwisseling . De Audience Manager gebruikt deze methode wanneer het richten van partners het kan steunen.
 
 <table id="simpletable_5307DEC378E5486CB92A354287F33AD8"> 
  <tr class="strow">
@@ -59,7 +58,7 @@ Een real-time [!DNL server-to-server] gegevensintegratie synchroniseert snel geb
 
 ### [!DNL Server-to-Server] Batchintegratie
 
-Een [!DNL server-to-server] batch-integratie bundelt gegevens en verzendt deze met ingestelde intervallen naar andere systemen in plaats van in real-time. De intervallen voor gegevensoverdracht beginnen na 24 uur. Sommige gegevensleveranciers steunen slechts dit integratietype. Maar we hebben een algemene trend gezien die afsteekt van batchintegratie naar realtime integratiemethodologieën.
+A [!DNL server-to-server] batch-integratie bundelt gegevens en verzendt deze met ingestelde intervallen naar andere systemen in plaats van in realtime. De intervallen voor gegevensoverdracht beginnen na 24 uur. Sommige gegevensleveranciers steunen slechts dit integratietype. Maar we hebben een algemene trend gezien die afsteekt van batchintegratie naar realtime integratiemethodologieën.
 
 <table id="simpletable_6878241639114DE68E61A251486C6317"> 
  <tr class="strow">
@@ -78,7 +77,7 @@ Een [!DNL server-to-server] batch-integratie bundelt gegevens en verzendt deze m
 
 ### Vraag in real time
 
-In real time vraag uitwisselingsgegevens met Audience Manager onmiddellijk, aangezien een gebruiker uw plaats bezoekt of actie op de pagina neemt. Met deze methode, krijgen de het richten systemen de meest bijgewerkte gegevens van de segmentkwalificatie en kunnen die informatie in aanmerking nemen tijdens een inhoud of een leveringsbesluit. Dit proces werkt ook met uitgever en servers waar we gekwalificeerde segmenten bijwerken naar een cookie van de eerste partij die in een advertentie wordt gelezen als sleutelwaardeparen. Momenteel, gebruikt de Audience Manager vraag in real time om met [!DNL Adobe Target] en andere systemen van het inhoudbeheer te integreren.
+In real time vraag uitwisselingsgegevens met Audience Manager onmiddellijk, aangezien een gebruiker uw plaats bezoekt of actie op de pagina neemt. Met deze methode, krijgen de het richten systemen de meest bijgewerkte gegevens van de segmentkwalificatie en kunnen die informatie in aanmerking nemen tijdens een inhoud of een leveringsbesluit. Dit proces werkt ook met uitgever en servers waar we gekwalificeerde segmenten bijwerken naar een cookie van de eerste partij die in een advertentie wordt gelezen als sleutelwaardeparen. Momenteel, gebruikt de Audience Manager vraag in real time om met te integreren [!DNL Adobe Target] en andere contentbeheersystemen.
 
 <table> 
  <tr>
@@ -111,7 +110,7 @@ Pixelsynchronisatie wijst segmenten toe aan pixels op de pagina. De pixel brandt
  </tr> 
 </table>
 
-## Hoe te om een Methode {#data-delivery-choices} van de Levering van Gegevens te kiezen
+## Hoe te om een Methode van de Levering van Gegevens te kiezen {#data-delivery-choices}
 
 Beschrijft technische en bedrijfsredenen om gegevens via synchrone (real time) of asynchrone (server-aan-server) methodologieën te verzenden.
 
@@ -119,10 +118,10 @@ Beschrijft technische en bedrijfsredenen om gegevens via synchrone (real time) o
 
 ### Een type gegevenslevering selecteren
 
-* **Technische overwegingen:De levering van** gegevens hangt van de technische mogelijkheden van de gegevenspartner af. Audience Manager kan gegevens in real time van browser of door partijupdates verzenden/ontvangen door off-line, server-aan-server communicatie processen.
-* **Bedrijfs Overwegingen:** De bedrijfsredenen om één leveringsmethode of een andere te selecteren hangen van de technische mogelijkheden van uw bestemmingspartner af en hoe u deze gegevens wilt gebruiken. Over het algemeen zijn synchrone gegevensoverdrachten handig wanneer u onmiddellijk actie moet ondernemen met betrekking tot gebruikersgegevens. Asynchrone gegevensoverdrachten kunnen nuttig zijn wanneer de directe actie niet wordt vereist en wanneer u tijd hebt om diepere gebruikersprofielen voor later gebruik te bouwen.
+* **Technische overwegingen:** De levering van gegevens hangt van de technische mogelijkheden van de gegevenspartner af. Audience Manager kan gegevens in real time van browser of door partijupdates verzenden/ontvangen door off-line, server-aan-server communicatie processen.
+* **Overwegingen voor bedrijven:** De bedrijfsredenen om één leveringsmethode of een andere te selecteren hangen van de technische mogelijkheden van uw bestemmingspartner af en hoe u deze gegevens wilt gebruiken. Over het algemeen zijn synchrone gegevensoverdrachten handig wanneer u onmiddellijk actie moet ondernemen met betrekking tot gebruikersgegevens. Asynchrone gegevensoverdrachten kunnen nuttig zijn wanneer de directe actie niet wordt vereist en wanneer u tijd hebt om diepere gebruikersprofielen voor later gebruik te bouwen.
 
-## Real-Time Data Transfer Process {#real-time-data-transfer-process}
+## Real-time gegevensoverdrachtproces {#real-time-data-transfer-process}
 
 Een algemeen overzicht van hoe de Audience Manager een synchrone gegevensuitwisseling met een derde verkoper uitvoert.
 
@@ -137,14 +136,14 @@ In real time gegevensoverdrachten verzenden en ontvangen segment IDs als gebruik
 Het integratieproces van gegevens in real time werkt als volgt:
 
 1. Een gebruiker bezoekt de plaats van een klant die Audience Manager code bevat.
-1. Audience Manager laadt een Iframe en roept [!UICONTROL Data Collection Server] ([!DNL DCS]) aan.
-1. [!DNL DCS] roept de server van de derde (in echt - tijd) om te controleren of heeft de verkoper om het even welke segmentinformatie over de gebruiker.
+1. Audience Manager laadt een Iframe en roept de [!UICONTROL Data Collection Server] ([!DNL DCS]).
+1. De [!DNL DCS] roept de derdenserver (in real time) om te controleren of heeft de verkoper om het even welke segmentinformatie over de gebruiker.
 1. De derde keert segmentinformatie over die gebruiker aan Audience Manager terug.
 1. Audience Manager neemt segmentinformatie op en stelt het ter beschikking voor het richten.
 
 ![](assets/rt_reduce70.png)
 
-## Proces voor batchdataoverdracht {#batch-data-transfer-process}
+## Proces voor batchdataoverdracht  {#batch-data-transfer-process}
 
 Een algemeen overzicht van hoe de Audience Manager gegevens synchroon (in real time) met een derdeverkoper ruilt.
 
@@ -152,11 +151,11 @@ Een algemeen overzicht van hoe de Audience Manager gegevens synchroon (in real t
 
 <!-- c_int_overview_async.xml -->
 
-De batch ([!DNL server-to-server]) gegevensintegratie volgt de meeste stappen die in het proces in real time van de gegevensoverdracht worden geschetst. In plaats van segment-id&#39;s direct te retourneren, worden gebruikersgegevens echter opgeslagen op onze servers en met regelmatige tussenpozen gesynchroniseerd met een externe gegevensaanbieder. Het asynchrone proces voor gegevensoverdracht is handig wanneer:
+De batch ([!DNL server-to-server]) het integratieproces van gegevens volgt de meeste stappen die in het proces in real time van de gegevensoverdracht worden geschetst. In plaats van segment-id&#39;s direct te retourneren, worden gebruikersgegevens echter opgeslagen op onze servers en met regelmatige tussenpozen gesynchroniseerd met een externe gegevensaanbieder. Het asynchrone proces voor gegevensoverdracht is handig wanneer:
 
 * Directe gegevensoverdracht is niet vereist.
 * Gegevens verzamelen om een grote groep gesegmenteerde gebruikers samen te stellen.
-* U wilt gegevensdiscrepanties en `HTTP` vraag van browser verminderen.
+* U wilt gegevensdiscrepanties verminderen en `HTTP` roept van browser.
 
 ### Stappen voor integratie van batchgegevens
 
@@ -167,4 +166,4 @@ De batch ([!DNL server-to-server]) gegevensintegratie volgt de meeste stappen di
 
 ![](assets/s2s_70.png)
 
-Voor informatie beschrijvend de tijdkaders wanneer de Audience Manager binnenkomende en uitgaande [!DNL Server-to-Server] ([!UICONTROL S2S]) dossieroverdrachten verwerkt, zie [Rapporterende en van de Overdracht van het Dossier Tijd-Kader Richtlijnen](../reference/reporting-file-transfer-timeframe.md).
+Voor informatie die de tijdkaders beschrijft wanneer de Audience Manager binnenkomend en uitgaand verwerkt [!DNL Server-to-Server] ([!UICONTROL S2S]) bestandsoverdrachten, zie [Richtlijnen voor de rapportage en de bestandsoverdracht](../reference/reporting-file-transfer-timeframe.md).

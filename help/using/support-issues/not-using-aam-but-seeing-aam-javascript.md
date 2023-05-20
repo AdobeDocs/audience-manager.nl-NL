@@ -1,15 +1,15 @@
 ---
 description: We gebruiken Audience Manager niet, maar we zien wel JavaScript-calls van Audience Manager in JavaScript-foutopsporing. Waarom?
-seo-description: We gebruiken Audience Manager niet, maar we zien wel JavaScript-calls van Audience Manager in JavaScript-foutopsporing. Waarom?
-seo-title: We gebruiken Audience Manager niet, maar we zien wel JavaScript-calls van Audience Manager in JavaScript-foutopsporing. Waarom?
+seo-description: We are not using  but we are seeing Audience Manager Javascript calls in the Javascript debugger - Why?
+seo-title: We are not using Audience Manager but we are seeing Audience Manager Javascript calls in the Javascript debugger - Why?
 solution: Audience Manager
 title: We gebruiken Audience Manager niet, maar we zien wel JavaScript-calls van Audience Manager in JavaScript-foutopsporing. Waarom?
-feature: Ondersteuning
+feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 91%
+source-wordcount: '148'
+ht-degree: 90%
 
 ---
 

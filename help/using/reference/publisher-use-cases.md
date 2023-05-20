@@ -1,21 +1,20 @@
 ---
 description: Wat informatie over een aantal gebruikelijke behoeften van uitgevers waaraan Adobe Audience Manager tegemoetkomt.
-seo-description: Wat informatie over een aantal gebruikelijke behoeften van uitgevers waaraan Adobe Audience Manager tegemoetkomt.
-seo-title: Gebruiksscenario’s voor uitgevers
+seo-description: A look at some common publisher needs met by Adobe Audience Manager.
+seo-title: Publisher Use Cases
 solution: Audience Manager
 title: Gebruiksscenario’s voor uitgevers
 uuid: 5f571d60-d902-4958-b5d3-8d09ddda42c7
 feature: Reference
 exl-id: 974652de-59c0-46db-ac64-ba701985e409
-translation-type: tm+mt
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
 
-# Gebruiksscenario’s voor uitgevers {#publisher-use-cases}
+# Gebruiksscenario’s voor uitgevers{#publisher-use-cases}
 
 Wat informatie over een aantal gebruikelijke behoeften van uitgevers waaraan Adobe Audience Manager tegemoetkomt.
 
