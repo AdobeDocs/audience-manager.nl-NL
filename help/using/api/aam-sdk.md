@@ -7,10 +7,10 @@ title: SDK-code
 uuid: 7d0b40ce-9cee-41f1-8253-dcfc77a89c72
 feature: API
 exl-id: de7b5a09-353d-4eea-94d3-8e611036b12d
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 79ce9c05c9168e3bcecabc11db3f9585a5b5ef6c
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 6%
+source-wordcount: '145'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ Audience Manager biedt softwareontwikkelkits ([!DNL SDK]s) for [!DNL Android] en
 
 * Ga om aan de slag te gaan naar [Starten](https://launch.adobe.com/).
 * Ga naar [Github: Adobe Experience Platform SDK&#39;s](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Als u Audience Manager in uw app wilt implementeren met de nieuwe SDK v.5, leest u de [Adobe Audience Manager-documentatie](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-audience-manager) op de nieuwe SDK-pagina.
+* Als u Audience Manager in uw app wilt implementeren met de nieuwe SDK v.5, leest u de [Adobe Audience Manager-documentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=en) op de nieuwe SDK-pagina.
 
 <br>
 
