@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Leer hoe u Adobe Audience Manager kunt gebruiken om commercieel relevante informatie over sitebezoekers te verzamelen en verhandelbare segmenten te maken. U kunt ook meer informatie vinden over hoe u gerichte reclame en content aan de juiste doelgroep kunt leveren.
 feature-set: Audience Manager
-source-git-commit: e50aab600f0bf197b1356ba77ac86efb4456979a
+source-git-commit: 27581b03b71d5254f24d7e46646abce82f9e4df2
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 91%
+source-wordcount: '1827'
+ht-degree: 90%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 91%
 # Audience Manager-gebruikershandleiding {#user-guide}
 
 + [Handleiding Audience Manager](aam-home.md)
++ [Ontwikkelingshulplijn Audience Manager naar Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
 + Overzicht {#overview}
    + [Overzicht van Audience Manager](overview/aam-overview.md)
    + [Verzamelde datatypen](overview/data-types-collected.md)
@@ -198,7 +199,7 @@ ht-degree: 91%
          + [Overlap van segment naar advertentie-eenheid](reporting/audience-optimization-reports/aor-publishers/publisher-segment-ad-unit-overlap.md)
          + [Uniek gebruikersbereik](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Data- en metadatabestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden {#data-and-metadata-files}
-         + [ Logdata- en metadatabestanden](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+         + [Logdata- en metadatabestanden](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
          + [Databestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [Overzicht en toewijzingen voor metadatabestanden](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [Naamgevingsconventies voor metadatabestanden](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
@@ -402,7 +403,7 @@ ht-degree: 91%
    + [Contactgegevens en juridische informatie](/help/using/help-legal/help-legal-contact.md)
 + Veel voorkomende problemen met klantenondersteuning {#top-support-issues}
    + [Overzicht](/help/using/support-issues/support-issues-overview.md)
-   + [Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald? ](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
+   + [Waarom zijn mijn populaties met de eigenschap Onboarded rond 15 oktober tot 0 gedaald?](/help/using/support-issues/why-did-my-onboarded-trait-populations-drop-to-0-around-october.md)
    + [Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Wij zijn geen klant van de Audience Manager, maar we zien wel JavaScript-calls van Audience Manager op onze website](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
