@@ -8,14 +8,22 @@ title: DIL-methoden op instantieniveau
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # DIL-methoden op instantieniveau{#instance-level-dil-methods}
+
+>[!WARNING]
+>
+>Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
+><br><br>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+><br><br>
+>Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Instantieniveau [!UICONTROL DIL] Met API&#39;s kunt u programmatisch Audience Managers maken en bewerken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
 
@@ -54,7 +62,6 @@ r_dil_signals.xml
 >
 >* U kunt andere API-aanroepen naar deze methode koppelen.
 >* Als de Adobe Experience Cloud JavaScript-bibliotheek op de pagina staat, `submit()` wacht tot de cloud een cookie heeft ingesteld voordat een aanvraag wordt verzonden.
-
 
 **Gereserveerde aanvraagsleutels**
 
@@ -685,7 +692,6 @@ var dilInstance = DIL.create({
 >* Wanneer `useCORSOnly: true`, [!UICONTROL DIL] zal geen vraag van identiteitskaart van Internet Explorer versie 9 of ouder maken.
 >
 
-
 ## useImageRequest {#useimagerequest}
 
 Hiermee wijzigt u het aanvraagtype in de afbeelding `<img>` van script `<src>`.
@@ -725,4 +731,3 @@ dataLib.api.traits([<i>123, 456, 789</i>]).useImageRequest().submit();
 >* [DIL maken](../dil/dil-class-overview/dil-create.md#dil-create)
 >* [Adobe Experience Platform Identity Service: UseCORSOnly](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/use-cors-only.html)
 >* [CORS-ondersteuning in de Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/reference/cors.html)
-

@@ -7,14 +7,22 @@ title: DIL-gebruiksscenario’s en codevoorbeelden
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # DIL-gebruiksscenario’s en codevoorbeelden{#dil-use-cases-and-code-samples}
+
+>[!WARNING]
+>
+>Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
+><br><br>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+><br><br>
+>Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Codevoorbeelden en beschrijvingen voor specifieke gevallen waarin DIL wordt gebruikt.
 
@@ -46,7 +54,7 @@ Vergeet niet de eigenschappen van de waarde gelijk te houden wanneer u gegevens 
 
 In dit eenvoudige voorbeeld worden kleur- en prijsgegevens naar de Audience Manager verzonden in de vorm van sleutelwaardeparen. De code kan er ongeveer als volgt uitzien:
 
-<pre class="&ldquo;java&rdquo;"><code>
+<pre class="java"><code>
 var sample_dil = DIL.create({partner:"<i>partner name</i>"}); 
 sample_dil.api.signals({ 
    c_color:"blue", 
@@ -244,4 +252,3 @@ Om het `dil.js` bestand in GTM:
 >* [Google Tag Manager Help Center](https://support.google.com/tagmanager#topic=3441530)
 >* [Signalen](../dil/dil-instance-methods.md#signals)
 >* [Voorvoegselvereisten voor belangrijke variabelen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html#prefix-requirements-for-key-variables)
-

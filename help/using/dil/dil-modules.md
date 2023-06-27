@@ -7,14 +7,22 @@ title: DIL-modules
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
 exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # DIL-modules{#dil-modules}
+
+>[!WARNING]
+>
+>Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
+><br><br>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+><br><br>
+>Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Beschrijft methodes in `DIL.modules` naamruimte. Deze modules laten u programmatically gegevens verzamelen en met de voorwerpen van de Audience Manager werken.
 
@@ -156,7 +164,6 @@ dil-google-universal-analytics.xml
 >
 >* U kunt niet `GA.submitUniversalAnalytics();` als u nog steeds werkt met code voor het bijhouden van analyses van Google (bijvoorbeeld `ga.js` of `dc.js`). Zie [GA.init](../dil/dil-modules.md#ga-init) in plaats daarvan.
 >
-
 
 **Functiehandtekening:** `DIL.modules.GA.submitUniversalAnalytics(gaObject, dilInstance, internalPropertyName);`
 
@@ -314,4 +321,3 @@ De URL-gebeurtenisaanroep naar Audience Manager kan er als volgt uitzien:
 >* [Volledige webupgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Analytics.js toevoegen aan uw site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [Verwijzing naar ga-objectmethoden](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
-

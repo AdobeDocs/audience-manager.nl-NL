@@ -7,14 +7,22 @@ title: Aan de slag met DIL-API’s op klasseniveau
 uuid: 00c1136a-5f08-4104-b0ed-3de847cecd16
 feature: DIL Implementation
 exl-id: 909d39a1-0da6-467e-a13b-19a57f9186a1
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 152b3101e69e99dfe19c1be93edceaea6adc4fec
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Aan de slag met DIL-API’s op klasseniveau{#getting-started-with-class-level-dil-apis}
+
+>[!WARNING]
+>
+>Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
+><br><br>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+><br><br>
+>Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Met de DIL-API&#39;s op klasseniveau kunt u programmatisch Audience Managers maken en ermee werken. De API&#39;s op klasseniveau werken samen met de andere functies op instantieniveau om waarden in te stellen of gegevens te retourneren.
 
