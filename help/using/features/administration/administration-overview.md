@@ -8,9 +8,9 @@ title: Beheer
 uuid: 498e0316-cf1b-43e9-88ba-338ee0daf225
 feature: Administration
 exl-id: f23f4294-35d9-4128-bcda-64a3eccbb4e7
-source-git-commit: 8ef6e8eb4351c24b55703b1788c68c580f199fc8
+source-git-commit: c29e581c736e03066df7d0698d4ea384e14db467
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1187'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 2%
 > Gebruikersaccountbeheer gaat over op de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te starten, moeten alle klanten van de Audience Manager onmiddellijk de noodzakelijke maatregelen nemen die in dit artikel worden beschreven: [Audience Manager gebruiker migratie naar Admin Console](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, gaan de gebruikersbeheersecties van dit document weg.
+
+>[!IMPORTANT]
+>
+> Voordat u [!DNL RBAC], moet deze functie door Adobe zijn ingeschakeld voor uw organisatie. Vraag uw accountteam om [!DNL RBAC] activering of neem contact op met de klantenservice.
 
 
 De opties onder de [!UICONTROL Administration] kunt u gebruikers van Audience Managers maken en deze aan groepen toewijzen. U kunt ook limieten (kenmerken, segmenten, doelen en modellen) weergeven.
@@ -41,6 +45,7 @@ Enterprise-klanten die [!DNL Audience Manager] één platform voor gegevensbehee
 > Gebruikersaccountbeheer gaat over op de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te starten, moeten alle klanten van de Audience Manager onmiddellijk de noodzakelijke maatregelen nemen die in dit artikel worden beschreven: [Audience Manager gebruiker migratie naar Admin Console](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, gaat de sectie voor gebruikersbeheer van dit document weg.
+> 
 Gebruikers maken in [!DNL Audience Manager] en geef gebruikersgegevens, aanmeldingsstatus en wijs gebruikers toe aan groepen.
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
