@@ -4,7 +4,7 @@ title: DCS-foutcodes, -berichten en -voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: dbb557928a296d3dd5f0646644e2ca0cdc11dfdc
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 3%
@@ -21,7 +21,7 @@ In de onderstaande tabellen: *cursief* vertegenwoordigt een variabele placeholde
 
 | Foutcode | Foutbericht | Beschrijving |
 |---|---|---|
-| 0 | Onbekende fout | Dit is een catch-all fout die gebeurtenissen behandelt die niet door de andere foutenmanagers worden behandeld. Het oplossen van problemen met deze fout is moeilijk. Het kan worden veroorzaakt door een verscheidenheid van onbekende acties of gebeurtenissen. Als deze fout optreedt, probeert u [!DNL DCS] opnieuw aanvragen. Neem contact op met uw [!DNL Adobe] vertegenwoordiger indien het probleem zich blijft voordoen. |
+| 0 | Onbekende fout | Dit is een catch-all fout die gebeurtenissen behandelt die niet door de andere foutenmanagers worden behandeld. Problemen met deze fout zijn moeilijk op te lossen. Het kan worden veroorzaakt door een verscheidenheid van onbekende acties of gebeurtenissen. Als deze fout optreedt, probeert u [!DNL DCS] opnieuw aanvragen. Neem contact op met uw [!DNL Adobe] vertegenwoordiger indien het probleem zich blijft voordoen. |
 | 1 | Kan configuratie voor hostnaam niet vinden: `hostname` | De gastheernaam die in het verzoek wordt verzonden is niet opstelling door ons team van de partnerlevering. Neem contact op met uw [!DNL Adobe] representatief als dit foutbericht wordt weergegeven. |
 | 2 | Ongeldig `d_orgid` value (kan geen config voor deze org-id vinden): `ID` | De organisatie-id is onjuist. Controleer uw id en probeer het verzoek opnieuw. Als u uw organisatie-id niet kent of hebt, raadpleegt u de sectie &quot;Beheerpagina&quot; [Organisaties en accountkoppelingen](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) voor informatie over hoe te om het te vinden. |
 | 10 | Kan kenmerken niet evalueren | De kenmerken van het verzoek zijn gedeeltelijk of helemaal niet beoordeeld. Neem contact op met uw [!DNL Adobe] vertegenwoordiger indien het probleem zich blijft voordoen. |
@@ -121,7 +121,7 @@ In de onderstaande tabellen: *cursief* vertegenwoordigt een variabele placeholde
   </tr> 
   <tr> 
    <td colname="col1"> <p>205 </p> </td> 
-   <td colname="col2"> <p>Kan migratie niet uitvoeren van <code><i>ID</i></code> tot <code><i>ID</i></code>, omdat het lezen van het profiel is mislukt voor <code><i>ID</i></code> </p> </td>
+   <td colname="col2"> <p>Kan migratie niet uitvoeren van <code><i>ID</i></code> tot <code><i>ID</i></code>, omdat het lezen van het profiel voor <code><i>ID</i></code> </p> </td>
    <td colname="col3"> <p>Als deze fout optreedt, kunnen er zich problemen voordoen met de schaalbaarheid van onze gegevensopslag (<span class="wintitle"> PCS</span>). Neem contact op met uw Adobe als het probleem zich blijft voordoen. </p> </td> 
   </tr> 
  </tbody> 
@@ -176,12 +176,12 @@ In de onderstaande tabellen: *cursief* vertegenwoordigt een variabele placeholde
   <tr> 
    <td colname="col1"> <p>309 </p> </td> 
    <td colname="col2"> <p>Klant-id <code><i>ID</i></code> is verwijderd omdat het de limiet van opgegeven klantid's per aanvraag overschrijdt </p> </td> 
-   <td colname="col3"> <p>Verwant aan fout 301. Deze fout geeft aan welke klant-id is verwijderd omdat de limiet is overschreden. </p> <p>Als er bijvoorbeeld 12 klant-id's zijn gedeclareerd op het tabblad <span class="wintitle"> DCS</span> vraag, twee van hen zullen worden verworpen. Om door te geven welke zijn genegeerd, wordt deze fout twee keer weergegeven in de reactie (één keer voor elke verwijderde klant-id ). </p> </td>
+   <td colname="col3"> <p>Verwant aan fout 301. Deze fout geeft aan welke klant-id is verwijderd omdat de limiet is overschreden. </p> <p>Als er bijvoorbeeld 12 klant-id's op de <span class="wintitle"> DCS</span> vraag, twee van hen zullen worden verworpen. Om door te geven welke zijn genegeerd, wordt deze fout twee keer weergegeven in de reactie (één keer voor elke verwijderde klant-id ). </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Id van klant is verwijderd omdat deze de limiet voor een bepaalde naamruimte overschrijdt. Namespace-id is <code><i>ID</i></code>, klant-id is <code><i>ID</i></code>. </p> </td> 
-   <td colname="col3"> <p>Deze foutcode wordt geretourneerd als er meer dan drie klant-id's zijn gedeclareerd voor dezelfde naamruimte (<code> DPID</code>) <span class="wintitle"> DCS</span> vraag. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In dit voorbeeld <span class="wintitle"> DCS</span> aanvraag, zijn er 4 id's gedeclareerd voor dezelfde naamruimte (met de integratiecode één). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
+   <td colname="col3"> <p>Deze foutcode wordt geretourneerd als er meer dan drie klant-id's zijn gedeclareerd voor dezelfde naamruimte (<code> DPID</code>over een <span class="wintitle"> DCS</span> vraag. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In dit voorbeeld <span class="wintitle"> DCS</span> aanvraag, zijn er 4 id's gedeclareerd voor dezelfde naamruimte (met de integratiecode één). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -199,13 +199,13 @@ In de onderstaande tabellen: *cursief* vertegenwoordigt een variabele placeholde
    <tr> 
    <td colname="col1"> <p>313 </p> </td> 
    <td colname="col2"> <p>CMP-id is niet aanwezig in GCL</p> </td> 
-   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en de IAB TC-tekenreeks wordt gegenereerd door een CMP-id die niet aanwezig is in de in de cache opgeslagen versie van de algemene CMP-lijst van de Audience Manager op het moment van de evaluatie, verwijdert de insteekmodule Audience Manager voor IAB TCF de IAB TC-tekenreeks en verwerkt de aanvraag op de gebruikelijke manier. De IAB TCF v2.0 ${GDPR} macro wordt geplaatst aan 0 en $ {GDPR_CONSENT_XXX} macro is leeg.</p>
+   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en de IAB TC-tekenreeks wordt gegenereerd door een CMP-id die niet aanwezig is in de in de cache opgeslagen versie van de algemene CMP-lijst van de Audience Manager op het moment van de evaluatie, verwijdert de insteekmodule Audience Manager voor IAB TCF de IAB TC-tekenreeks en verwerkt de aanvraag op de gebruikelijke manier. De IAB TCF v2.2 ${GDPR} macro is ingesteld op 0 en ${GDPR_CONSENT_XXX} macro is leeg.</p>
    </td>
   </tr>
    <tr> 
    <td colname="col1"> <p>314 </p> </td> 
    <td colname="col2"> <p>CMP-id is gemarkeerd als verwijderd in GCL</p> </td> 
-   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en de koord IAB TC door CMP wordt geproduceerd die zoals geschrapt in onze caching versie van de Globale CMP Lijst wordt duidelijk, verwerpt de Plug-in van de Audience Manager voor IAB TCF het koord TC en verwerkt het verzoek zoals gebruikelijk, als de evaluatietijd voorbij de schrappingstijd van de Globale CMP Lijst is. De IAB TCF v2.0 ${GDPR} macro wordt geplaatst aan 0 en $ {GDPR_CONSENT_XXX} macro is leeg.</p></td>
+   <td colname="col3"> <p>Wanneer <code>gdpr=1</code> en de koord IAB TC door CMP wordt geproduceerd die zoals geschrapt in onze caching versie van de Globale CMP Lijst wordt duidelijk, verwerpt de Plug-in van de Audience Manager voor IAB TCF het koord TC en verwerkt het verzoek zoals gebruikelijk, als de evaluatietijd voorbij de schrappingstijd van de Globale CMP Lijst is. De IAB TCF v2.2 ${GDPR} macro is ingesteld op 0 en ${GDPR_CONSENT_XXX} macro is leeg.</p></td>
   </tr>
    <tr> 
    <td colname="col1"> <p>315 </p> </td> 

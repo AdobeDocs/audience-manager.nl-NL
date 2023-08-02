@@ -6,9 +6,9 @@ solution: Audience Manager
 title: Audience Manager-plug-in voor IAB TCF
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2353'
 ht-degree: 34%
 
 ---
@@ -44,15 +44,15 @@ Audience Manager biedt momenteel geen ondersteuning voor het volgende:
 * workflows voor mobiele apparaten;
 * Toevoeging van toestemming voor het segmenteren van de uitvoer.
 
-## Upgrade uitvoeren naar [!DNL IAB TCF v2.0] {#upgrading}
+## Upgrade uitvoeren naar [!DNL IAB TCF v2.2] {#upgrading}
 
-Klanten die hun [!DNL Audience Manager Plug-in for IAB TCF] uitvoering van [!DNL IAB TCF] v1.1 t/m [!DNL IAB TCF] v2.0 of inschakelen [!DNL IAB TCF] v2.0 moet voor het eerst dezelfde richtlijnen inzake voorwaarden en implementatie volgen als hieronder beschreven.
+Klanten die hun [!DNL Audience Manager Plug-in for IAB TCF] uitvoering van [!DNL IAB TCF] v1.1 t/m [!DNL IAB TCF] v2.2 of inschakelen [!DNL IAB TCF] v2.2 moet voor het eerst dezelfde richtsnoeren inzake voorwaarden en uitvoering volgen als hieronder beschreven.
 
 ## Vereisten {#prerequisites}
 
 >[!IMPORTANT]
 >
->Audience Manager ondersteunt IAB TCF v2.0.
+>Audience Manager ondersteunt IAB TCF v2.2.
 >
 >IAB TCF v1.1 steun zal op 15 augustus 2020 eindigen.
 >
@@ -65,33 +65,33 @@ U moet aan de volgende voorwaarden voldoen om de Plug-in van de Audience Manager
 1. U moet Adobe Experience Platform Identity Service (ECID) versie 5 of hoger gebruiken. [Download](https://github.com/Adobe-Marketing-Cloud/id-service/releases) onze nieuwste ECID-release.
 2. U moet Audience Manager gebruiken [!DNL Data Integration Library] (DIL) versie 9.0 of hoger, downloadbaar vanaf [hier](https://github.com/Adobe-Marketing-Cloud/dil/releases). Lees meer over [DIL in de Audience Manager-documentatie](../../dil/dil-overview.md). We raden u aan de [Adobe Audience Manager-tagextensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) voor de eenvoudigste DIL-uitvoering van Audience Manager.
 3. Als u [!DNL Server-Side Forwarding] (SSF) om gegevens in Audience Manager in te voeren, moet u aan de recentste versie van AppMeasurement bevorderen. Download AppMeasurement met behulp van de [Analytics Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
-4. U moet een Platform van het Beheer van de Toestemming (CMP), of commercieel of uw gebruiken, dat met IAB TCF v2.0 geïntegreerd is, en met IAB TCF geregistreerd. Zie de lijst met [CMP’s die bij het IAB-kader](https://iabeurope.eu/cmp-list/) zijn geregistreerd.
+4. U moet een Platform van het Beheer van de Toestemming (CMP), of commercieel of uw gebruiken, dat met IAB TCF v2.2 geïntegreerd is, en met IAB TCF geregistreerd. Zie de lijst met [CMP’s die bij het IAB-kader](https://iabeurope.eu/cmp-list/) zijn geregistreerd.
 
 >[!WARNING]
 >
->Als u een Platform van het Beheer van de Toestemming gebruikt (CMP) dat geen IAB TCF v.2.0 steunt, zal de Audience Manager automatisch verzenden `gdpr=0` -parameter in ID-syncs, zelfs als uw bezoekers zich in de Europese Unie bevinden. Om te bepalen of uw GDPR-validatie actief is, raden we u aan om met uw CMP (Consent Management Platform) te bevestigen dat ze IAB TCF v2.0 ondersteunen.
+>Als u een Platform van het Beheer van de Toestemming gebruikt (CMP) dat geen IAB TCF v.2.0 steunt, zal de Audience Manager automatisch verzenden `gdpr=0` -parameter in ID-syncs, zelfs als uw bezoekers zich in de Europese Unie bevinden. Om te bepalen of uw GDPR-validatie actief is, raden we u aan om met uw CMP (Consent Management Platform) te bevestigen dat ze IAB TCF v2.2 ondersteunen.
 
 ## Aanbevelingen en de implementatie daarvan {#recommendations}
 
 Voor het inschakelen van IAB TCF-ondersteuning in Audience Manager leest u onze documentatie over het [instellen van IAB met Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/iab.html).
 
-De eenvoudigste manier om dit te doen is door te gebruiken [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) toevoegen [!DNL ECID Opt-in] op uw eigenschappen. Lees de documentatie voor de [ECID Opt-in-extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) om te leren hoe u de extensie Tags instelt.
+De eenvoudigste manier om dit te doen is door te gebruiken [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) toevoegen [!DNL ECID Opt-in] op uw eigenschappen. Lees de documentatie voor de [ECID-extensie voor aanmelden](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) om te leren hoe u de extensie Tags instelt.
 
 ## Workflow voor gebruikersopties bij gebruik van het IAB-kader {#user-choice-workflow}
 
 Wanneer u een webeigenschap bezoekt, kunnen uw gebruikers hun opties opgeven voor de manier waarop hun data moeten worden gebruikt door de uitgever en door de externe leveranciers met wie de uitgever werkt.
 
-Gebruikers geven hun keuze in de vorm van *instemming* en *rechtmatig belang* voor IAB-doeleinden *externe leveranciers* geregistreerd in de algemene lijst met leveranciers.
+Gebruikers geven hun keuze in de vorm van *instemming* voor IAB-doeleinden *externe leveranciers* geregistreerd in de algemene lijst met leveranciers.
 
 De onderstaande afbeelding is een voorbeeld van een CMP-dialoogvenster dat wordt weergegeven voor een nieuwe bezoeker van een website. Bedenk dat het uiterlijk van dit dialoogvenster sterk kan variëren, afhankelijk van de implementatie van de klant.
 
 ![CMP-dialoogvenster](assets/cmp-example.png)
 
-Details over de verschillende doelen en machtigingen die zijn opgenomen in IAB TCF v2.0 worden behandeld in de [IAB Europe Transparency &amp; Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
+Details over de verschillende doelen en machtigingen die zijn opgenomen in IAB TCF v2.2 worden behandeld in de [IAB Europe Transparency &amp; Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#A_Purposes).
 
-Gebruikers kunnen hun toestemming of gewettigd belang (indien beschikbaar) verlenen voor een combinatie van doeleinden en verkopers. Gebruikers zouden bijvoorbeeld hun toestemming kunnen verlenen om informatie op een apparaat op te slaan, producten te ontwikkelen en te verbeteren, en hun toestemming kunnen verlenen aan alle derde leveranciers die door het CMP worden weergegeven.
+Gebruikers kunnen hun toestemming verlenen voor een combinatie van doeleinden en verkopers. Gebruikers zouden bijvoorbeeld hun toestemming kunnen verlenen om informatie op een apparaat op te slaan, producten te ontwikkelen en te verbeteren, en hun toestemming kunnen geven aan alle externe leveranciers die door het CMP worden weergegeven.
 
-Of in een ander voorbeeld zouden zij hun toestemming of rechtmatig belang voor alle doeleinden kunnen verlenen, maar slechts toestemming of rechtmatig belang kunnen verlenen aan een aantal verkopers die door het CMP worden getoond.
+Of in een ander voorbeeld zouden zij hun toestemming voor alle doeleinden kunnen verlenen, maar slechts toestemming verlenen aan een aantal verkopers die door het CMP worden getoond.
 
 Wanneer de gebruiker zijn privacyopties heeft geselecteerd, worden de keuzen van de gebruiker opgenomen in de IAB TC-tekenreeks. De IAB TC-tekenreeks slaat de combinatie van goedgekeurde doeleinden en leveranciers op, samen met andere metagegevensinformatie (zie de [IAB-pagina](https://github.com/InteractiveAdvertisingBureau/GDPR-Transparency-and-Consent-Framework/blob/master/TCFv2/IAB%20Tech%20Lab%20-%20Consent%20string%20and%20vendor%20list%20formats%20v2.md#about-the-transparency--consent-string-tc-string) voor meer informatie ) .
 
@@ -101,8 +101,8 @@ Elke leverancier die in IAB TCF wordt geregistreerd evalueert het koord IAB TC e
 
 Audience Manager evalueert de keuzes van de gebruikers die zijn opgeslagen in de IAB TC-tekenreeks voor de volgende doeleinden, gedefinieerd in de [IAB Europe Transparency &amp; Consent Framework Policies](https://iabeurope.eu/iab-europe-transparency-consent-framework-policies/#Appendix_A_Purposes_and_Features_Definitions).
 
-* **Doel 1**: Informatie over een apparaat opslaan en/of openen;
-* **Doel 10**: Producten ontwikkelen en verbeteren;
+* **Doel 1**: gegevens opslaan en/of openen op een apparaat;
+* **Doel 10**: Ontwikkelen en verbeteren van producten;
 * **Speciaal doel 1**: Zorgen voor beveiliging, fraude voorkomen en fouten opsporen.
 
 >[!IMPORTANT]
@@ -119,7 +119,7 @@ Wij controleren ook gebruikerstoestemming voor alle bestemmingen die u in Audien
 
 | Wanneer uw gebruiker *toestemming verleent*, doet Audience Manager het volgende: | Als uw gebruiker *geen* toestemming verleent, doet Audience Manager het volgende: |
 |---|---|
-| <ul><li>voert alle Audience Manager-gebruiksscenario’s uit die u hebt aangevraagd.</li><li>Hiermee wordt instemming van derden met ID-syncs doorgegeven (door `gdpr = 1` en de toestemmingstekenreeks als `gdpr_consent` bij ID-synchronisatieaanroepen).</li><li>evalueert en honoreert toestemming die door advertentieserverpixels is doorgegeven.</li><li>honoreert door partner geïnitieerde id-synchronisaties.</li></ul> | <ul><li>slaat geen nieuwe gebruikersdata op in uw instantie. Dit omvat partner-id’s, signalen, eigenschappen of pixeldata.</li><li>initieert geen id-synchronisaties van derden.</li><li>honoreert geen door partner geïnitieerde id-synchronisaties.</li><li>Hiermee wordt de gebruiker uitgesloten van verdere gegevensverzameling.</li></ul> |
+| <ul><li>voert alle Audience Manager-gebruiksscenario’s uit die u hebt aangevraagd.</li><li>Hiermee wordt instemming van derden met ID-syncs doorgegeven (door `gdpr = 1` en de tekenreeks voor toestemming als `gdpr_consent` bij ID-synchronisatieaanroepen).</li><li>evalueert en honoreert toestemming die door advertentieserverpixels is doorgegeven.</li><li>honoreert door partner geïnitieerde id-synchronisaties.</li></ul> | <ul><li>slaat geen nieuwe gebruikersdata op in uw instantie. Dit omvat partner-id’s, signalen, eigenschappen of pixeldata.</li><li>initieert geen id-synchronisaties van derden.</li><li>honoreert geen door partner geïnitieerde id-synchronisaties.</li><li>Hiermee wordt de gebruiker uitgesloten van verdere gegevensverzameling.</li></ul> |
 
 ## Gebruiksscenario voor uitgevers {#publisher-use-case}
 
@@ -162,7 +162,7 @@ Het gebruiksscenario wordt beschreven in de afbeelding en in de onderstaande sta
 
 1. Uw gebruiker krijgt een impressie via een advertentieserver. Dit vertaalt zich in een [pixelaanroep](../../integration/media-data-integration/impression-data-pixels.md) naar onze gegevensverzamelingsservers (DCS).
 2. Audience Manager controleert of de GDPR (AVG)-markering van toepassing is. Als dit niet het geval is, slaat Audience Manager de gegevens op die in het dialoogvenster `gdpr` en `gdpr_consent` variabelen in pixelaanroepen.
-3. Als de IAB TC-tekenreeks aanwezig is en deze de vereiste machtigingen bevat, slaat de Audience Manager de gegevens op die worden doorgegeven in het dialoogvenster `gdpr` en `gdpr_consent` variabelen in pixelaanroepen.
+3. Als de IAB TC-tekenreeks aanwezig is en deze de vereiste machtigingen bevat, slaat de Audience Manager de gegevens op die in het dialoogvenster `gdpr` en `gdpr_consent` variabelen in pixelaanroepen.
 4. Als de IAB TC-tekenreeks ontbreekt of als de vereiste machtigingen ontbreken, worden de gegevens die zijn doorgegeven, door de Audience Manager in het dialoogvenster `gdpr` en `gdpr_consent` variabelen in pixelaanroepen.
 
 ![Gebruiksscenario voor adverteerders](assets/advertiser-use-case.png)
@@ -173,7 +173,7 @@ Met de insteekmodule Audience Manager voor IAB TCF kunt u de IAB TC-tekenreeks d
 
 ## Goedkeuring toevoegen aan URL&#39;s die naar URL-doelen zijn verzonden
 
-De integratie van de Audience Manager met IAB TCF v2.0 steunt het toevoegen van instemming aan informatie die wordt verzonden naar [URL-doelen](../../features/destinations/create-url-destination.md) die geïntegreerd zijn met IAB TCF v2.0. Dit proces wordt echter niet automatisch door de Audience Manager uitgevoerd om te voorkomen dat specifieke URL-indelingen worden afgebroken.
+De integratie van de Audience Manager met IAB TCF v2.2 steunt het toevoegen van instemming aan informatie die wordt verzonden naar [URL-doelen](../../features/destinations/create-url-destination.md) die geïntegreerd zijn met IAB TCF v2.2. Dit proces wordt echter niet automatisch door de Audience Manager uitgevoerd om te voorkomen dat specifieke URL-indelingen worden afgebroken.
 
 Klanten die toestemming willen toevoegen aan gegevens die worden verzonden naar [!DNL URL destinations] moet handmatig de `${GDPR}` en `${GDPR_CONSENT_XXXX}` macro&#39;s naar hun URL-indeling, vervangen `XXXX` met de identiteitskaart van de bestemmingspartner.
 
@@ -183,7 +183,7 @@ Zie [Gedefinieerde doelmacro&#39;s](../../features/destinations/destination-macr
 
 ## Beheer van apparaatinstemming
 
-De Audience Manager-plug-in voor IAB TCF sluit automatisch de id&#39;s uit die aanwezig zijn op een aanvraag als uw sitebezoekers niet de juiste machtigingen bieden. Als de aanvraag een [cross-device ID (CRM ID)](../../reference/ids-in-aam.md), kiest Audience Manager de id uit, samen met het laatste apparaat dat aan die id is gekoppeld [cross-device ID (CRM ID)](../../reference/ids-in-aam.md).
+De Audience Manager-plug-in voor IAB TCF sluit automatisch de id&#39;s uit die aanwezig zijn op een aanvraag als uw sitebezoekers niet de juiste machtigingen bieden. Als de aanvraag een [cross-device ID (CRM ID)](../../reference/ids-in-aam.md), kiest de Audience Manager de id uit, samen met het laatste apparaat dat aan die id is gekoppeld [cross-device ID (CRM ID)](../../reference/ids-in-aam.md).
 
 ## Uw IAB-implementatie testen {#test-iab-implementation}
 
