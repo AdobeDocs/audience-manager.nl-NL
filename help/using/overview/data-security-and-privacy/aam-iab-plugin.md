@@ -6,7 +6,7 @@ solution: Audience Manager
 title: Audience Manager-plug-in voor IAB TCF
 feature: Data Governance & Privacy
 exl-id: aa6bc415-e52b-4900-951d-ccf51d907aa2
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 8b370a64d80b40124abee91351cbef09711243d4
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 34%
@@ -69,7 +69,7 @@ U moet aan de volgende voorwaarden voldoen om de Plug-in van de Audience Manager
 
 >[!WARNING]
 >
->Als u een Platform van het Beheer van de Toestemming gebruikt (CMP) dat geen IAB TCF v.2.0 steunt, zal de Audience Manager automatisch verzenden `gdpr=0` -parameter in ID-syncs, zelfs als uw bezoekers zich in de Europese Unie bevinden. Om te bepalen of uw GDPR-validatie actief is, raden we u aan om met uw CMP (Consent Management Platform) te bevestigen dat ze IAB TCF v2.2 ondersteunen.
+>Als u een Platform van het Beheer van de Toestemming gebruikt (CMP) dat geen IAB TCF v2.2 steunt, zal de Audience Manager automatisch verzenden `gdpr=0` -parameter in ID-syncs, zelfs als uw bezoekers zich in de Europese Unie bevinden. Om te bepalen of uw GDPR-validatie actief is, raden we u aan om met uw CMP (Consent Management Platform) te bevestigen dat ze IAB TCF v2.2 ondersteunen.
 
 ## Aanbevelingen en de implementatie daarvan {#recommendations}
 
