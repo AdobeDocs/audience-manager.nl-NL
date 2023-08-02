@@ -8,7 +8,7 @@ title: DIL-methoden op instantieniveau
 uuid: aa5147bb-51d5-41d4-a78a-e550f7492056
 feature: DIL Implementation
 exl-id: 0342439d-708e-461c-b155-a3ee423f5437
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 2%
@@ -20,9 +20,9 @@ ht-degree: 2%
 >[!WARNING]
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
-><br>
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
-><br>
+>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>
 >Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Instantieniveau [!UICONTROL DIL] Met API&#39;s kunt u programmatisch Audience Managers maken en bewerken. De instantie-vlakke methodes verbeteren API functionaliteit die door de klasse-vlakke methodes wordt gevestigd.
@@ -515,11 +515,11 @@ Werken met [!UICONTROL DIL] versies 2.10 en 3.1 of hoger.
  <tbody> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.idSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Tussen verschillende gegevenspartners en Audience Manager. Bijvoorbeeld, zou partner x dit gebruiken om een gebruiker - identiteitskaart met partner y te synchroniseren en dan dat naar Audience Manager te verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gebruik de <code> idSyncByURL </code> methode van de instantie Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Tussen verschillende gegevenspartners en Audience Manager. Bijvoorbeeld, zou partner x dit gebruiken om een gebruiker - identiteitskaart met partner y te synchroniseren en dan dat naar Audience Manager te verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is vervangen. Gebruik de <code> idSyncByURL </code> methode van de instantie Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> dil.Instance.api.aamIdSync(initConfig) </code> </td> 
-   <td colname="col2"> <p>Wanneer u de gebruikersnaam al kent en deze naar de Audience Manager wilt verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is afgekeurd. Gebruik de <code> idSyncByDataSource </code> methode van de instantie Adobe Experience Platform Identity Service. </p> </p> </td> 
+   <td colname="col2"> <p>Wanneer u de gebruikersnaam al kent en deze naar de Audience Manager wilt verzenden. </p> <p> <p><b>Belangrijk:</b>  Deze methode is vervangen. Gebruik de <code> idSyncByDataSource </code> methode van de instantie Adobe Experience Platform Identity Service. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -675,7 +675,7 @@ dil-use-cors-only.xml
 
 **Overzicht**
 
-`useCORSOnly` is standaard false. Onwaar betekent browser middelcontroles met CORS of JSONP kan uitvoeren. Maar [!UICONTROL DIL] probeert altijd om middelen met CORS eerst te verzoeken. Het keert aan JSONP op oudere browsers terug die geen CORS steunen. Als u browser moet dwingen om CORS slechts te gebruiken, zoals met plaatsen die hoge veiligheidseisen hebben, plaats `useCORSOnly:true`.
+`useCORSOnly` is standaard onwaar. Onwaar betekent browser middelcontroles met CORS of JSONP kan uitvoeren. Maar [!UICONTROL DIL] probeert altijd om middelen met CORS eerst te verzoeken. Het keert aan JSONP op oudere browsers terug die geen CORS steunen. Als u browser moet dwingen om CORS slechts te gebruiken, zoals met plaatsen die hoge veiligheidseisen hebben, plaats `useCORSOnly:true`.
 
 **Codevoorbeeld**
 

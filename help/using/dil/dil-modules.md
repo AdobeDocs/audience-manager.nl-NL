@@ -7,7 +7,7 @@ title: DIL-modules
 uuid: d4c0d8dd-79f8-448e-b17c-c935415dd449
 feature: DIL Implementation
 exl-id: 4685bcbb-a63b-4613-bc94-54de9881966e
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 1%
@@ -19,9 +19,9 @@ ht-degree: 1%
 >[!WARNING]
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
-><br>
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
-><br>
+>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>
 >Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Beschrijft methodes in `DIL.modules` naamruimte. Deze modules laten u programmatically gegevens verzamelen en met de voorwerpen van de Audience Manager werken.
@@ -34,7 +34,7 @@ c_dil_mods.xml
 
 ## siteCatalyst.init {#sitecat-init}
 
-Werken met [!UICONTROL DIL] om te verzenden [!DNL Analytics] tag-elementen (variabelen, props, eVars, enz.) naar Audience Manager. Retourneert gegevens in een door komma&#39;s gescheiden lijst. Beschikbaar in versie 2.6.
+Werken met [!UICONTROL DIL] naar verzenden [!DNL Analytics] tag-elementen (variabelen, props, eVars, enz.) naar Audience Manager. Retourneert gegevens in een door komma&#39;s gescheiden lijst. Beschikbaar in versie 2.6.
 
 **Functiehandtekening:** `DIL.modules.siteCatalyst.init(siteCatalystReportingSuite, dilInstance, trackVars, options)`
 
@@ -67,12 +67,12 @@ r_dil_sc_init.xml
   <tr valign="top"> 
    <td colname="col1"> <code> iteratedNames </code> </td> 
    <td colname="col2"> Object </td> 
-   <td colname="col3"> <p>Een array met objecten die zijn opgesomd <span class="keyword"> Analyse </span> variabelen zoals props en evars (bv. <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
+   <td colname="col3"> <p>Een array met objecten die zijn opgesomd <span class="keyword"> Analyse </span> variabelen zoals props en evars (bijvoorbeeld <code> prop1 </code>, <code> prop2 </code>, <code> evar3 </code>, <code> evar4 </code>). </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> maxIndex </code> </td> 
    <td colname="col2"> Geheel </td> 
-   <td colname="col3"> <p>Geeft aan hoeveel herhaalde namen u wilt retourneren. Als u bijvoorbeeld twee voorvertoningen of gebeurtenissen wilt retourneren, stelt u in <code> maxIndex:2 </code>. </p> </td> 
+   <td colname="col3"> <p>Geeft aan hoeveel herhaalde namen u wilt retourneren. Als u bijvoorbeeld twee voorvertoningen of gebeurtenissen wilt retourneren, stelt u <code> maxIndex:2 </code>. </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <code> siteCatalystReportingSuite </code> </td> 
@@ -89,7 +89,7 @@ r_dil_sc_init.xml
    <td colname="col2"> Object </td> 
    <td colname="col3"> <p>Aanvullende opties: </p> 
     <ul id="ul_F4DFA5351BB5427B8CBF600A0A4A21A9"> 
-     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Als u niets anders opgeeft, worden punten vervangen door het standaardonderstrepingsteken ( _ ). </p> <p>Bijvoorbeeld <code> s.contextData = {abc.def = '123'} </code>leidt tot <code> c_contextData_abc_def=123 </code> in de queryreeks voor de gebeurtenisaanroep. </p> <p>Deze optie is alleen beschikbaar in <span class="wintitle"> DIL </span> versie 5.0 of hoger. </p> </li> 
+     <li id="li_659ECE5E63834A21A2D9698A1444FCA6"> <p> <code> replaceContextDataPeriodsWith </code> </p> <p>Als u niets anders opgeeft, worden punten vervangen door het standaardonderstrepingsteken ( _ ). </p> <p>Bijvoorbeeld <code> s.contextData = {abc.def = '123'} </code>zou leiden tot <code> c_contextData_abc_def=123 </code> in de queryreeks voor gebeurtenisoproepen. </p> <p>Deze optie is alleen beschikbaar in <span class="wintitle"> DIL </span> versie 5.0 of hoger. </p> </li> 
      <li id="li_1C969DD8FC2F43A0A9281D9810A70C3A"> <p> <code> filterFromContextVariables </code> </p> <p>Bijvoorbeeld: <code> filterFromContextVariables: ['email', 'zip', 'accountNumber'] </code> resulteert in het filteren van de array van tekenreeksen uit de gegevensverzameling van contextgegevens. Deze optie sluit Persoonlijke identificeerbare informatie (PII) uit. </p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
@@ -189,7 +189,7 @@ De `GA.submitUniversalAnalytics();` -functie accepteert de volgende eigenschappe
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> internalPropertyName </code> </p> </td> 
-   <td colname="col2"> <p> <i>(Optioneel)</i> In de <code> analytics.js </code> bibliotheek, is het interne bezit de geminiateerde variabele <code> 'b' </code>. Deze variabele houdt rekening met <span class="keyword"> Google Analytics </span> gegevens. </p> <p>Deze eigenschap is optioneel omdat u deze alleen hoeft in te stellen als Google de naam van de interne variabele wijzigt. Als deze geminificeerde variabele bijvoorbeeld is gewijzigd in <code> 'a' </code>, u wilt bellen <code> GA.submitUniversalAnalytics(); </code> als volgt: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
+   <td colname="col2"> <p> <i>(Optioneel)</i> In de <code> analytics.js </code> bibliotheek, is het interne bezit de geminiatuurde variabele <code> 'b' </code>. Deze variabele houdt rekening met <span class="keyword"> Google Analytics </span> gegevens. </p> <p>Deze eigenschap is optioneel omdat u deze alleen hoeft in te stellen als Google de naam van de interne variabele wijzigt. Als deze geminificeerde variabele bijvoorbeeld is gewijzigd in <code> 'a' </code>, u wilt bellen <code> GA.submitUniversalAnalytics(); </code> als volgt: </p> <p> <code> DIL.modules.GAsubmitUniversalAnalytics(ga, DilInstance, 'a'); </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -318,6 +318,6 @@ De URL-gebeurtenisaanroep naar Audience Manager kan er als volgt uitzien:
 >[!MORELIKETHIS]
 >
 >* [Google Analytics trackingcode](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [Volledige webupgrade: ga.js/dc.js to analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
+>* [Volledige webupgrade: ga.js/dc.js naar analytics.js](https://developers.google.com/analytics/devguides/collection/upgrade)
 >* [Analytics.js toevoegen aan uw site](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 >* [Verwijzing naar ga-objectmethoden](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)

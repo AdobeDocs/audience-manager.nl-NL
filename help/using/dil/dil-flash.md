@@ -7,7 +7,7 @@ title: Flash DIL
 uuid: 65833cfd-768e-4b16-95c5-debd8411df38
 feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 2%
@@ -19,9 +19,9 @@ ht-degree: 2%
 >[!WARNING]
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
-><br>
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
-><br>
+>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>
 >Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk in de Audience Manager met die gegevens.
@@ -60,7 +60,7 @@ De `AllowScriptAccess` in de code van HTML die een dossier van de SWF laadt cont
 
 **JS [!UICONTROL DIL] Plaatsing code**
 
-Probeer de JS te plaatsen [!UICONTROL DIL] de module van de gegevensinzameling op de pagina zodat laadt het vóór [!DNL FLA] bestand. Wanneer de [!DNL FLA] bestand wordt eerst geladen, voordat [!UICONTROL DIL] de gegevensinzameling is klaar, kunt u de aanvankelijke gegevenssignalen missen die [!UICONTROL Flash DIL] verzendt naar die module. Maar als het eenmaal is geïnstantieerd, [!UICONTROL DIL] in de module voor gegevensverzameling worden alle volgende gegevens van het SWF-bestand vastgelegd die zijn doorgegeven door [!UICONTROL Flash DIL].
+Probeer de JS te plaatsen [!UICONTROL DIL] de module van de gegevensinzameling op de pagina zodat laadt het vóór [!DNL FLA] bestand. Wanneer de [!DNL FLA] bestand wordt eerst geladen, voordat [!UICONTROL DIL] de gegevensinzameling is klaar, kunt u de aanvankelijke gegevenssignalen missen die [!UICONTROL Flash DIL] verzendt naar die module. Maar als het eenmaal is geïnstantieerd, [!UICONTROL DIL] in de module voor gegevensverzameling worden alle volgende gegevens van het SWF-bestand vastgelegd die door [!UICONTROL Flash DIL].
 
 ## Gegevens verzameld door Flash DIL {#data-collected}
 

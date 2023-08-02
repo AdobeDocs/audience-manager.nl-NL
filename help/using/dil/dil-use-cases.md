@@ -7,7 +7,7 @@ title: DIL-gebruiksscenario’s en codevoorbeelden
 uuid: 27995c2d-6572-438e-af99-b5477f090ae9
 feature: DIL Implementation
 exl-id: 001710be-b377-460a-9e29-7268d25a6305
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 2%
@@ -19,9 +19,9 @@ ht-degree: 2%
 >[!WARNING]
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
-><br>
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
-><br>
+>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>
 >Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Codevoorbeelden en beschrijvingen voor specifieke gevallen waarin DIL wordt gebruikt.
@@ -50,7 +50,7 @@ De volgende code laat zien hoe u paginagegevens kunt verzamelen en naar de Audie
 
 Vergeet niet de eigenschappen van de waarde gelijk te houden wanneer u gegevens doorgeeft. Als u bijvoorbeeld twee identieke toetsen met verschillende waarden hebt, heeft de waarde van het laatste sleutelwaardepaar voorrang op de voorgaande waardeobjecten. Bijvoorbeeld, doorgeven `color:blue` en `color:red` Hiermee stelt u de geretourneerde waarde in op rood (overschrijft u blauw).
 
-**Voorbeeld 1: Gegevens verzenden als sleutelwaardeparen**
+**Voorbeeld 1: Gegevens verzenden als sleutel-waardeparen**
 
 In dit eenvoudige voorbeeld worden kleur- en prijsgegevens naar de Audience Manager verzonden in de vorm van sleutelwaardeparen. De code kan er ongeveer als volgt uitzien:
 
@@ -156,7 +156,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Voorbeeld code van vermelde zoekmachine**
 
-In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van zocht [!DNL Google] Canada ( `www.google.ca`). Let op hoe de code het vereiste vooraf bepaalt `c_` parameter voor zoekmachine ( `c_se`) en zoekterm ( `c_st`). `c_` is een [vereist voorvoegsel](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
+In dit geval, veronderstellen wij dat een gebruiker naar de term &quot;huizen&quot;van zocht [!DNL Google] Canada ( `www.google.ca`). Let op hoe de code de vereiste voorvoegsels bevat `c_` parameter voor zoekmachine ( `c_se`) en zoekterm ( `c_st`). `c_` is een [vereist voorvoegsel](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -231,7 +231,7 @@ t_dil_google_tagmanager.xml
 
  -->
 
-Deze procedure gaat ervan uit dat u een [!DNL Google Tag Manager] -account, enige praktische kennis van dat product en uw Audience Manager `dil.js` bestand.
+Deze procedure veronderstelt u hebt [!DNL Google Tag Manager] -account, enige praktische kennis van dat product en uw Audience Manager `dil.js` bestand.
 
 Om het `dil.js` bestand in GTM:
 

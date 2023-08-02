@@ -8,7 +8,7 @@ title: Inzicht in de Data Integration Library (DIL)
 uuid: 77b12f35-81e4-4639-ada6-bf982f27b36e
 feature: DIL Implementation
 exl-id: f194a422-27ed-4a74-9583-8de3b6786caf
-source-git-commit: fcf13cf39f688f8aafd2b1020ddfe4583d67e14f
+source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 10%
@@ -20,16 +20,16 @@ ht-degree: 10%
 >[!WARNING]
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
-><br>
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangeraden [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
-><br>
+>
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>
 >Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
 
 Overzicht, aan de slag gaan en codemethoden beschikbaar in het dialoogvenster [!DNL Audience Manager DIL] codebibliotheek.
 
 >[!IMPORTANT]
 >
->Vanaf versie 8.0 (uitgebracht in augustus 2018), [!UICONTROL DIL] is sterk afhankelijk van de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), versie 3.3 of hoger. Het steunt op [!DNL ID Service] om ID syncs en bestemmingen in brand te steken URL. Er treedt een fout op als de [!DNL ID Service] ontbreekt, oud of niet geconfigureerd.
+>Vanaf versie 8.0 (uitgebracht in augustus 2018), [!UICONTROL DIL] is sterk afhankelijk van de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), versie 3.3 of hoger. Het steunt op [!DNL ID Service] om ID syncs en bestemmingen in brand te steken URL. Er treedt een fout op als de [!DNL ID Service] ontbreekt, is oud, of niet gevormd.
 >
 >We raden u aan [!DNL Adobe Experience Platform Tags] om uw [!DNL DIL] en [!DNL Adobe Experience Platform Identity Service] bibliotheken.
 
@@ -47,7 +47,7 @@ U kunt echter ook de nieuwste Experience Cloud en [!DNL DIL] versies van onze pa
 
 ## DIL-code ophalen en implementeren {#get-implement-dil-code}
 
-[!UICONTROL DIL] code is beschikbaar voor downloaden **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Let op: vanaf versie 8.0 (uitgebracht in augustus 2018), [!UICONTROL DIL] is sterk afhankelijk van de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), versie 3.3 of hoger. Het steunt op [!DNL ID Service] om ID syncs te branden en [!DNL URL destinations]. Er treedt een fout op als de [!DNL ID Service] ontbreekt, oud of niet geconfigureerd.
+[!UICONTROL DIL] code is beschikbaar voor downloaden **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Let op: vanaf versie 8.0 (uitgebracht in augustus 2018), [!UICONTROL DIL] is sterk afhankelijk van de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html), versie 3.3 of hoger. Het steunt op [!DNL ID Service] om ID syncs te branden en [!DNL URL destinations]. Er treedt een fout op als de [!DNL ID Service] ontbreekt, is oud, of niet gevormd.
 
 In plaats van met te werken [!UICONTROL DIL] en instellen [!DNL Audience Manager] Wij raden u aan [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) in plaats daarvan. [!DNL Adobe Experience Platform Tags] is het geadviseerde implementatiehulpmiddel omdat het codeplaatsing, plaatsing, en versiebeheer vereenvoudigt. Meer informatie over de [Audience Manager, extensie](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) in [!DNL Adobe Experience Platform Tags].
 
