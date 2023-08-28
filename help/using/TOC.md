@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Leer hoe u Adobe Audience Manager kunt gebruiken om commercieel relevante informatie over sitebezoekers te verzamelen en verhandelbare segmenten te maken. U kunt ook meer informatie vinden over hoe u gerichte reclame en content aan de juiste doelgroep kunt leveren.
 feature-set: Audience Manager
-source-git-commit: f4babbb632279cf213116e004551e5c77869ab78
+source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1835'
 ht-degree: 90%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 90%
          + [Nieuwe apparaatgebaseerde bestemmingen toevoegen](features/destinations/add-device-based-destinations.md)
          + [Lijst met apparaatgebaseerde bestemmingen van Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
          + [Segmenten voor server-naar-server-bestemmingen toevoegen of bewerken](features/destinations/add-edit-segments.md)
-         + [Aangepast publiek voor Twitter configureren als op apparaat gebaseerde zelfbediening](features/destinations/twitter-tailored-audiences.md)
+         + [Vorm het Eigen publiek van de Twitter als Zelfbediening apparaat-Gebaseerde Bestemming](features/destinations/twitter-tailored-audiences.md)
       + Aangepaste bestemmingen {#custom-destinations}
          + [Een URL-bestemming configureren](features/destinations/create-url-destination.md)
          + [Een cookiebestemming configureren](features/destinations/create-cookie-destination.md)
@@ -336,13 +336,14 @@ ht-degree: 90%
          + [PGP-bestandsversleuteling voor binnenkomende datatypen](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [Bestandscompressie voor binnenkomende dataoverdrachtbestanden](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Voorbeeldbericht aan partners na verwerking van binnenkomende data](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
+         + [Gebruik Amazon S3-machtigingen voor emmertjes voor andere accounts voor binnenkomende bestanden](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [Aangepaste partnerintegraties](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integratie met Adobe Experience Platform {#integration-experience-platform}
-      + [Experience Platform segmentdelen met Audience Manager en andere Experience Cloud-oplossingen](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integratie met andere Experience Cloud-toepassingen {#integration-other-solutions}
+      + [Het segmentdelen van Experience Platforms met Audience Manager en andere oplossingen van Experiencen Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
+   + Integratie met andere Experiencen Cloud toepassingen {#integration-other-solutions}
       + [Audience Manager integreren met Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Data van Adobe Analytics doorsturen naar Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [Adobe Analytics Segment publiceren naar Experience Cloud (opent Adobe Analytics-documentatie)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [Een Adobe Analytics-segment naar het Experience Cloud publiceren (opent Adobe Analytics-documentatie)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
       + [Audience Manager integreren met Adobe Campaign (opent Adobe Campaign-documentatie)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referenties {#reference}
    + [Overzicht van referenties](reference/reference.md)

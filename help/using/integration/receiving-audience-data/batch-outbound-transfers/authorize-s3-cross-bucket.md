@@ -7,7 +7,7 @@ title: Cross-account-buckettoestemmingen van Amazon S3 gebruiken voor uw uitgaan
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 feature: Outbound Data Transfers
 exl-id: e52f5bc0-7dc0-4c73-833c-5a778e8b5891
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 12%
@@ -18,4 +18,6 @@ ht-degree: 12%
 
 De [!UICONTROL Outbound Data Transfer] proces voor klanten die [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) vereist dat wij vragen om uw [!DNL Amazon S3] toegang sleutel en geheime sleutel, om de uitgaande gegevensdossiers aan uw emmer te leveren.
 
-Als u uw [!DNL Amazon S3] toegang tot sleutel en geheime sleutel met ons, contacteer uw [!DNL Audience Manager] consultant of klantenservice en zij zullen [!DNL Cross-Account Bucket Permissions] voor jou. U hoeft alleen onze [!DNL Amazon S3] account-id aan een lijst van gewenste personen voor de [!DNL S3] emmer waar u de uitgaande gegevensbestanden wilt ontvangen, zoals wordt beschreven in het dialoogvenster [Amazon S3-documentatie](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Uw [!DNL Audience Manager] consultant of klantenservice biedt u onze [!DNL Amazon S3] account-id.
+Als u uw [!DNL Amazon S3] toegang tot sleutel en geheime sleutel met ons, contacteer uw [!DNL Audience Manager] consultant of klantenservice en zij zullen [!DNL Cross-Account Bucket Permissions] voor jou.
+
+U hoeft alleen onze [!DNL Amazon S3] account-id aan een lijst van gewenste personen voor de [!DNL S3] emmer waar u de uitgaande gegevensbestanden wilt ontvangen, zoals wordt beschreven in het dialoogvenster [Amazon S3-documentatie](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Uw [!DNL Audience Manager] consultant of klantenservice biedt u onze [!DNL Amazon S3] account-id.
