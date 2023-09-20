@@ -7,16 +7,20 @@ title: Regels en segmentregels voor eigenschappen maken of bijwerken
 uuid: bdd5f8f1-bb83-4844-b681-654e45ace3e1
 feature: BAAAM
 exl-id: 9b697606-5534-4e6e-a3f2-b1a4c26bb707
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Regels en segmentregels voor eigenschappen maken of bijwerken{#create-or-update-trait-rules-and-segment-rules}
 
 De aantekenwerkbladen maken en bijwerken accepteren een header traitRule waarmee u meerdere regels in één bewerking kunt toepassen. Volg deze instructies om bulkregelverzoeken te maken.
+
+>[!IMPORTANT]
+>
+>De Bulk Management Tools zijn geen officieel ondersteunde Adobe-aanbieding. Problemen oplossen en support via de klantenservice worden per geval behandeld.
 
 <!-- 
 
@@ -26,7 +30,7 @@ De aantekenwerkbladen maken en bijwerken accepteren een header traitRule waarmee
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in de [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
 
 ## Werken met tekenregels {#trait-rules}
 
@@ -34,7 +38,7 @@ In uw aantekenvel, keert de de regelkolom van de eigenschap terug en keurt regel
 
 ## Voorbeeld van een regelbouwer {#rule-builder-example}
 
-Neem een voorbeeld dat aantoont hoe te om te gebruiken [!UICONTROL Segment Builder] om een regel tot stand te brengen kunt u aan het bulkwerkblad. Nochtans, is dit geen reeks geleidelijke instructies voor die hulpmiddelen. In plaats daarvan beginnen we met een eenvoudige regel die al is gemaakt. Voor instructies over hoe te om de regelbouwers te gebruiken zie [Segment Builder](../../features/segments/segment-builder.md) en [Trait Builder](../../features/traits/about-trait-builder.md).
+Neem een voorbeeld dat aantoont hoe te om te gebruiken [!UICONTROL Segment Builder] om een regel tot stand te brengen kunt u aan het bulkaantekenvel. Nochtans, is dit geen reeks geleidelijke instructies voor die hulpmiddelen. In plaats daarvan beginnen we met een eenvoudige regel die al is gemaakt. Voor instructies over hoe te om de regelbouwers te gebruiken zie [Segment Builder](../../features/segments/segment-builder.md) en [Trait Builder](../../features/traits/about-trait-builder.md).
 
 Met de visuele regelbouwer, hebben wij een segmentregel met 3 eigenschappen en een Van Boole gecreeerd [!UICONTROL AND] operator.
 

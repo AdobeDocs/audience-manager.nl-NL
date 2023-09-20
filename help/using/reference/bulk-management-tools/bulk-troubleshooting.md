@@ -7,10 +7,10 @@ title: Tips voor het oplossen van problemen met Bulk Management Tools
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 3%
+source-wordcount: '408'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 3%
 
 Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontbreekt.
 
-
+>[!IMPORTANT]
+>
+>De Bulk Management Tools zijn geen officieel ondersteunde Adobe-aanbieding. Problemen oplossen en support via de klantenservice worden per geval behandeld.
 
 <!-- 
 
@@ -28,7 +30,7 @@ Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontb
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in de [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
 
 Factoren zoals zwaar netwerkverkeer, servergebruik, en grote gegevensreeksen kunnen een bulkverzoek veroorzaken om of uit tijd te ontbreken. Als er een probleem is, stopt het werkblad met het schrijven van gegevens en wordt er een foutbericht weergegeven. Wanneer dit gebeurt, moet u:
 
@@ -77,4 +79,4 @@ De volgende lijst maakt een lijst van sommige gemeenschappelijke problemen u wan
 
 ## Foutberichten
 
-Soms kunt u foutberichten ontvangen wanneer u grote wijzigingen aanbrengt. Als u het foutbericht wilt interpreteren, raadpleegt u [Responscodes gedefinieerd](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API-documentatie.
+Soms kunt u foutberichten ontvangen wanneer u bulksgewijs wijzigingen aanbrengt. Als u het foutbericht wilt interpreteren, raadpleegt u [Responscodes gedefinieerd](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API-documentatie.

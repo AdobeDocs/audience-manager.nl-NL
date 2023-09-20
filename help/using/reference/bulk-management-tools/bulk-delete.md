@@ -7,9 +7,9 @@ title: Bulkverwijdering
 uuid: 679cde46-09fb-45c6-b84d-47e00e0e7c0a
 feature: BAAAM
 exl-id: 3ff530dd-66d0-4dd3-a6e6-afe4a9cb5ba4
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 # Bulkverwijdering{#bulk-delete}
 
 Met Bulk verwijderen kunt u meerdere segmenten, kenmerken, mappen, afgeleide signalen, gegevensbronnen, modellen en doelen met één bewerking verwijderen. Volg de onderstaande instructies om een aanvraag voor bulkverwijdering in te dienen.
+
+>[!IMPORTANT]
+>
+>De Bulk Management Tools zijn geen officieel ondersteunde Adobe-aanbieding. Problemen oplossen en support via de klantenservice worden per geval behandeld.
 
 <!-- 
 
@@ -26,7 +30,7 @@ Met Bulk verwijderen kunt u meerdere segmenten, kenmerken, mappen, afgeleide sig
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in de [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
@@ -38,7 +42,7 @@ Als u meerdere items wilt verwijderen, opent u het dialoogvenster [!UICONTROL Bu
 2. Klik op de knop **[!UICONTROL Delete]** tab.
 3. Plak de verwijderkoppen in de eerste rij van het updatewerkblad.
 4. Plak of typ de id&#39;s voor de objecten die u wilt verwijderen in de kolom onder de koptekst.
-5. Verstrek de vereiste [loginformatie](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik op **[!UICONTROL Submit]**.
+5. Geef de vereiste [loginformatie](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik op **[!UICONTROL Submit]**.
 
    Het werkblad maakt een [!UICONTROL Results] kolom. De [!UICONTROL Results] de kolom keert een bericht terug dat erop wijst als het punt of een foutenmelding is geschrapt.
 Voordat u gegevens invoert, moet uw bulkupdatewerkblad er ongeveer als volgt uitzien:

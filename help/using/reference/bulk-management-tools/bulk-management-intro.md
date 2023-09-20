@@ -8,16 +8,21 @@ title: Aan de slag met Bulkbeheer
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 911eab2d661907c6f1e2ffc08603d994bd346395
+source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '705'
 ht-degree: 2%
 
 ---
 
+
 # Aan de slag met Bulkbeheer{#getting-started-with-bulk-management}
 
 De [!DNL Bulk Management Tools] Hiermee kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt [!DNL Bulk Management Tools] werken met [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], en [!UICONTROL traits].
+
+>[!IMPORTANT]
+>
+>De Bulk Management Tools zijn geen officieel ondersteunde Adobe-aanbieding. Problemen oplossen en support via de klantenservice worden per geval behandeld.
 
 <!-- 
 
@@ -27,7 +32,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in [!DNL Audience Manager] de gebruikersinterface wordt gerespecteerd in de [!UICONTROL Bulk Management Tools].
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in de [!DNL Audience Manager] de gebruikersinterface wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
 
 ## Overzicht {#overview}
 
@@ -50,7 +55,7 @@ Als u de opdracht [!DNL Bulk Management Tools]hebt u het volgende nodig:
 
 Bulkwijzigingen vereisen verificatie. Voordat u een handeling kunt uitvoeren, moet u zich aanmelden. Omdat het aantekenvel API vraag maakt, moet u het vormen om in uw gebruikersrekening voor authentiek te verklaren.
 
-**API-verificatievereisten**
+**Vereisten voor API-verificatie**
 
 De tweede versie van de [!DNL Bulk Management Tools], die in oktober 2019 is uitgebracht, vereenvoudigt het verificatieproces. De verificatiestappen in deze versie worden hieronder beschreven:
 
@@ -111,9 +116,9 @@ In de onderstaande tabel staan de bewerkingen die u kunt uitvoeren en items die 
 
 **Voorbeeld van een Bulkbewerking**
 
-Als voorbeeld, nemen een blik bij hoe te om veelvoudige eigenschappen in één keer tot stand te brengen. Om veelvoudige eigenschappen in een bulkverrichting tot stand te brengen zou u:
+Laten we bijvoorbeeld eens kijken hoe u meerdere kenmerken tegelijk kunt maken. Om veelvoudige eigenschappen in een bulkverrichting tot stand te brengen zou u:
 
-1. Klik op de knop **[!UICONTROL Headers]** en kopieer alle labels onder de [!UICONTROL Create a Trait] optie.
+1. Klik op de knop **[!UICONTROL Headers]** en kopieer alle labels onder de [!UICONTROL Create a Trait] -optie.
 2. Klik op de knop **[!UICONTROL Create]** en plakt u de labels vanaf rij 1, kolom A.
 3. Geef informatie over elke kolomkop en klik op **[!UICONTROL Create Traits]**. Deze actie zet u ertoe aan om uw authentificatie te bevestigen. De bulktaak wordt uitgevoerd nadat u uw verificatie hebt bevestigd. Controleer de linkerbenedenhoek van het werkblad voor een bericht over de taakstatus.
 

@@ -7,9 +7,9 @@ title: Woordenlijst voor Bulk Management Tools
 uuid: 4658a6bc-9515-4d31-9715-0084760b0cea
 feature: BAAAM
 exl-id: 036d16c7-1546-4539-a318-455b98e10026
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '364'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 2%
 # Woordenlijst voor Bulk Management Tools{#bulk-management-tools-glossary}
 
 Kolomkoplabels gedefinieerd.
+
+>[!IMPORTANT]
+>
+>De Bulk Management Tools zijn geen officieel ondersteunde Adobe-aanbieding. Problemen oplossen en support via de klantenservice worden per geval behandeld.
 
 <!-- 
 
@@ -26,7 +30,7 @@ Kolomkoplabels gedefinieerd.
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
+>[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in de [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
 
 <table id="table_2C2BC2FB3EFC443C9A5AE18EFC6FABFD"> 
  <thead> 
@@ -98,11 +102,11 @@ Kolomkoplabels gedefinieerd.
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitRule / segmentRule</span> </p> </td> 
-   <td colname="col2"> <p>De eigenlijke eigenschap of segmentregel die wordt gebruikt om gegevens te verzamelen. Een bulkverzoek keert de regels terug die in worden gecreeerd <span class="keyword"> Audience Manager</span> met de <a href="../../features/traits/about-trait-builder.md"> trait rule builder</a> of de <a href="../../features/segments/segment-builder.md"> segmentregelbuilder</a>. U kunt deze hulpmiddelen ook gebruiken om regels te bouwen en hen in bulk toe te passen wanneer u een segment of een eigenschap bijwerkt. </p> <p>Zie ook: <a href="../../reference/bulk-management-tools/bulk-rules.md"> Regels en segmentregels voor overtrekken maken of bijwerken</a>. </p> </td> 
+   <td colname="col2"> <p>De eigenlijke eigenschap of segmentregel die wordt gebruikt om gegevens te verzamelen. Een bulkverzoek keert de regels terug in <span class="keyword"> Audience Manager</span> met de <a href="../../features/traits/about-trait-builder.md"> trait rule builder</a> of de <a href="../../features/segments/segment-builder.md"> segmentregelbuilder</a>. U kunt deze hulpmiddelen ook gebruiken om regels te bouwen en hen in bulk toe te passen wanneer u een segment of een eigenschap bijwerkt. </p> <p>Zie ook: <a href="../../reference/bulk-management-tools/bulk-rules.md"> Regels en segmentregels voor overtrekken maken of bijwerken</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="term"> traitType</span> </p> </td> 
-   <td colname="col2"> <p>Een tekenreeks die het type eigenschap aangeeft. De volgende opties zijn beschikbaar: </p> 
+   <td colname="col2"> <p>Een tekenreeks die het type eigenschap identificeert. U kunt onder andere de volgende opties kiezen: </p> 
     <ul id="ul_AB5B4F87B14241DCBBE44B0B7BD4EF72"> 
      <li id="li_21F9412CDDC64FAA888C6542E284C436"> <code> RULE_BASED_TRAIT</code> </li> 
      <li id="li_5A5EA9A1EC5C45C991875EBBE7979A5A"> <code> ON_BOARDED_TRAIT </code> </li> 
