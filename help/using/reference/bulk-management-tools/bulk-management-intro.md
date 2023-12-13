@@ -4,19 +4,19 @@ keywords: basam;BAAAM;download, baam
 seo-description: The Bulk Management Tools let you create and manage multiple objects at once with single operation. You can use Bulk Management Tools to work with data sources, derived signals, destinations, folders, segments, and traits.
 seo-title: Getting Started With Bulk Management
 solution: Audience Manager
-title: Aan de slag met Bulkbeheer
+title: Aan de slag met Bulk Management
 uuid: 4bc6ae0a-315c-4ce7-a68e-cc0c6c6aa2f1
 feature: BAAAM
 exl-id: 5603146e-7172-4181-90ad-4606129176dd
-source-git-commit: 6b4796db4fc336180d72d4971b4f267fcc42d398
+source-git-commit: e8d81f648f5a46495193fe6631c8a7f73e290493
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 2%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
 
-# Aan de slag met Bulkbeheer{#getting-started-with-bulk-management}
+# Aan de slag met Bulk Management{#getting-started-with-bulk-management}
 
 De [!DNL Bulk Management Tools] Hiermee kunt u meerdere objecten tegelijk maken en beheren met één bewerking. U kunt [!DNL Bulk Management Tools] werken met [!UICONTROL data sources], [!UICONTROL derived signals], [!UICONTROL destinations], [!UICONTROL folders], [!UICONTROL models], [!UICONTROL segments], en [!UICONTROL traits].
 
@@ -47,7 +47,7 @@ Het nieuwste werkblad downloaden **[hier](assets/BAAAM_V2_20210609.xlsm)** (laat
 Als u de opdracht [!DNL Bulk Management Tools]hebt u het volgende nodig:
 
 * Uw [!DNL Experience Cloud] aanmelden. Als klant hebt u deze gegevens al.
-* De [!DNL Bulk Management Tools] werkblad. [Werkblad downloaden](assets/BAAAM_V2_20200502.xlsm) voor de nieuwste versie.
+* De [!DNL Bulk Management Tools] werkblad. [Werkblad downloaden](assets/BAAAM_V2_20210609.xlsm) voor de nieuwste versie.
 * [!DNL Microsoft Excel] wordt uitgevoerd op [!DNL macOS] of 64-bits [!DNL Microsoft Windows]. We raden u aan de nieuwste versie van [!DNL Microsoft Excel].
 * Wanneer u het werkblad opent, moet u **Macro&#39;s inschakelen** voor de [!DNL Bulk Management Tools] om te werken.
 
@@ -86,7 +86,7 @@ In de onderstaande tabel staan de bewerkingen die u kunt uitvoeren en items die 
 <table id="table_B9B3E09B692E42BAA52FB32C18B00709"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Acties </th> 
+   <th colname="col1" class="entry"> Handelingen </th> 
    <th colname="col2" class="entry"> Objecten </th> 
   </tr> 
  </thead>
@@ -104,11 +104,11 @@ In de onderstaande tabel staan de bewerkingen die u kunt uitvoeren en items die 
      <ul id="ul_A7A96F2B1B63430B9A1E1184AC5FA8F2"> 
       <li id="li_E3D9E2E190B04BE685337AC6140C371C"> <a href="../../features/datasources-list-and-settings.md#data-sources-list-and-settings"> Gegevensbronnen</a> </li> 
       <li id="li_B645385E40684FA28770913EAF18CB2C"> <a href="../../features/derived-signals.md"> Afgeleide signalen</a> </li> 
-      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md">Bestemmingen </a> </li> 
+      <li id="li_9059F8C4A41A410899BDEFC76D3F5949"> <a href="../../features/destinations/destinations.md"> Doelen</a> </li> 
       <li> <a href="../../features/algorithmic-models/understanding-models.md"> Modellen</a> </li> 
       <li id="li_BB5A445150754E53AA38C78461326932"> <a href="../../features/traits/trait-storage.md#trait-storage"> Trainingsmappen</a> en segmentmappen </li> 
-      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md">Segmenten </a> </li> 
-      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md">Eigenschappen </a> </li> 
+      <li id="li_7A27DBF64E0945CF8AE8C96E8C6EDA09"> <a href="../../features/segments/segments-purpose.md"> Segmenten</a> </li> 
+      <li id="li_A4640A34930040DEA8555EAF0AE2A702"> <a href="../../features/traits/trait-details-page.md"> Treinen</a> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
