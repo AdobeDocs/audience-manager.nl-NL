@@ -7,9 +7,9 @@ title: Aan de slag met REST-API’s
 uuid: af0e527e-6eec-449c-9709-f90e57cd188d
 feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
-source-git-commit: 16421f8f15a8aa8c1a561b0b6682091bf78683ce
+source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2558'
 ht-degree: 0%
 
 ---
@@ -382,6 +382,8 @@ U kunt deze optionele parameters gebruiken met [!DNL API] methoden die worden ge
 | `permissions` | Retourneert een lijst met segmenten op basis van de opgegeven machtiging. `READ` is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en meningsinformatie over een segment.</li><li>`WRITE` : Gebruik  `PUT`  een segment bijwerken.</li><li>`CREATE` : Gebruik  `POST`  om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met  `READ`  en  `WRITE`  alleen machtigingen, doorgeven  `"permissions":"READ"`, `"permissions":"WRITE"` . |
 | `includePermissions` | ([!DNL Boolean]) Instellen op `true` om uw toestemmingen voor het segment terug te keren. Standaard is `false`. |
 
+{style="table-layout:auto"}
+
 ### Een opmerking over paginaopties
 
 Wanneer paginagegevens *is niet* gespecificeerd, keert het verzoek onbewerkt terug [!DNL JSON] resulteert in een array. Als paginagegevens *is* opgegeven, wordt de geretourneerde lijst opgenomen in een [!DNL JSON] object dat informatie bevat over het totale resultaat en de huidige pagina. Uw voorbeeldverzoek met behulp van paginaopties kan er als volgt uitzien:
@@ -400,7 +402,7 @@ De volgende tabel bevat de aanvraag [!DNL URLs] gebruikt om binnen te gaan [!DNL
 
 Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek aanpassen [!DNL URLs] volgens onderstaande tabellen.
 
-### Verzoek [!DNL URLs] for [!DNL JWT] Verificatie {#request-urls-jwt}
+### Verzoek [!DNL URLs] voor de [!BADGE Aanbevolen]{type=positive}[!BADGE Vervangen]{type=negative}[!DNL JWT] Verificatie via Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] Methoden | Verzoek [!DNL URL] |
 |--- |--- |
@@ -416,7 +418,9 @@ Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek aanp
 | [!DNL Trait Types] | `https://aam.adobe.io/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://aam.adobe.io/v1/taxonomies/0/` |
 
-### Verzoek [!DNL URLs] for [!DNL OAuth] Verificatie (afgekeurd) {#request-urls-oauth}
+{style="table-layout:auto"}
+
+### Verzoek [!DNL URLs] voor de [!BADGE Vervangen]{type=negative}[!DNL OAuth] Verificatie {#request-urls-oauth}
 
 | [!DNL API] Methoden | Verzoek [!DNL URL] |
 |--- |--- |
@@ -431,6 +435,8 @@ Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek aanp
 | [!DNL Traits] | `https://api.demdex.com/v1/traits/` |
 | [!DNL Trait Types] | `https://api.demdex.com/v1/customer-trait-types` |
 | [!DNL Taxonomy] | `https://api.demdex.com/v1/taxonomies/0/` |
+
+{style="table-layout:auto"}
 
 ## Omgevingen {#environments}
 
