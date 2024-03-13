@@ -3,17 +3,18 @@ description: Deze pagina bevat richtlijnen voor het configureren en beheren van 
 seo-description: This page contains guidance on how to configure and manage the integration between Audience Manager and people-based platforms.
 seo-title: Authentication with People-Based Platforms
 solution: Audience Manager
-title: Verificatie met persoonsgebaseerde platforms
+title: Verificatie met platforms op basis van personen
 feature: People-based Destinations
 exl-id: d3e136d0-2b06-412a-9b9b-75b661c9aa14
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: 1809e9ee0b19a8ffb4bec38162f728d543d13701
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Verificatie met persoonsgebaseerde platforms {#authentication-with-people-based-platforms}
+
+# Verificatie met platforms op basis van personen {#authentication-with-people-based-platforms}
 
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
@@ -23,7 +24,7 @@ Deze pagina bevat richtlijnen voor het configureren en beheren van uw integratie
 >[!NOTE]
 >Dit is een verplichte stap voor op mensen-Gebaseerde Doelen, ongeacht uw implementatiescenario.
 
-## Verificatie van Platforms op basis van personen configureren {#configure-authentication}
+## Platformverificatie configureren op basis van personen {#configure-authentication}
 
 1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**. Als u een eerder geconfigureerde integratie met een sociaal platform hebt, wordt deze in deze pagina weergegeven. Anders is de pagina leeg.
    ![op mensen gebaseerde integratie](assets/pbd-config.png)
@@ -32,7 +33,7 @@ Deze pagina bevat richtlijnen voor het configureren en beheren van uw integratie
    ![op mensen gebaseerd platform](assets/pbd-add.png)
 4. Klikken **[!UICONTROL Confirm]** om te worden omgeleid naar de authentificatiepagina van het geselecteerde platform.
 5. Nadat u zich hebt geverifieerd op uw account voor het sociale platform, wordt u omgeleid naar de Audience Manager waar de accounts van uw adverteerders moeten worden weergegeven. Selecteer het adverteerderaccount dat u wilt gebruiken en klik op **[!UICONTROL Confirm]**.
-6. Audience Manager geeft boven aan de pagina een melding weer om te laten weten of de account is toegevoegd. Met de melding kunt u ook een e-mailadres voor contactpersonen toevoegen om meldingen van Adobe te ontvangen wanneer de verificatie van het sociale platform bijna verlopen is.
+6. Audience Manager geeft boven aan de pagina een melding weer om te laten weten of de account is toegevoegd. Met de melding kunt u ook een e-mailadres voor contactpersonen toevoegen om meldingen van Adoben te ontvangen wanneer de verificatie van het sociale platform bijna verlopen is.
 
 ## Verificatietokkenvervaldatum en meldingsbeheer {#token-expiration-notification}
 
@@ -47,7 +48,7 @@ Hieronder wordt beschreven hoe u e-mailadressen aan bestaande integratie kunt to
 
 ## Verificatietokens vernieuwen {#token-renewal}
 
-Wanneer een authentificatietoken verloopt, wordt de integratie tussen Audience Manager en het overeenkomstige sociale platform onderbroken, zodat kan de Audience Manager niet publiekssegmenten naar de bestemming meer verzenden. De [!UICONTROL Integrated Accounts] op de pagina ziet u de vervalstatus van elke integratie in het dialoogvenster [!UICONTROL Expiration] kolom, en staat u toe om de authentificatie op elk ogenblik te vernieuwen.
+Wanneer een authentificatietoken verloopt, wordt de integratie tussen Audience Manager en het overeenkomstige sociale platform onderbroken, zodat kan de Audience Manager niet publiekssegmenten naar de bestemming meer verzenden. De [!UICONTROL Integrated Accounts] op de pagina ziet u de vervalstatus van elke integratie in het dialoogvenster [!UICONTROL Expiration] en kunt u de verificatie op elk gewenst moment vernieuwen.
 
 Hieronder wordt beschreven hoe u een verlopen of bijna verlopen verificatie vernieuwt:
 1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]**.

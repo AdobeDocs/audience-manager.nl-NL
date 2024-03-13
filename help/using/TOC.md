@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Leer hoe u Adobe Audience Manager kunt gebruiken om commercieel relevante informatie over sitebezoekers te verzamelen en verhandelbare segmenten te maken. U kunt ook meer informatie vinden over hoe u gerichte reclame en content aan de juiste doelgroep kunt leveren.
 feature-set: Audience Manager
-source-git-commit: 95028ac2131dda5a483c9d12007dcd38369d5b6f
+source-git-commit: 2b823855994f394261a66e896ef7de7bb7a5450f
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1835'
 ht-degree: 23%
 
 ---
@@ -91,6 +91,7 @@ ht-degree: 23%
    + Databronnen {#data-sources}
       + [Lijst met gegevensbronnen en instellingen](features/datasources-list-and-settings.md)
       + [Een gegevensbron maken](features/manage-datasources.md)
+      + [Een gegevensbron configureren voor onderbroken-e-mailworkflows](features/create-data-source-hashed-emails.md)
       + [Algemene gegevensbronnen](features/global-data-sources.md)
    + [Opgegeven id&#39;s](features/declared-ids.md)
    + [Afgeleide signalen](features/derived-signals.md)
