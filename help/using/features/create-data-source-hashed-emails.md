@@ -3,7 +3,7 @@ title: Een gegevensbron configureren voor gehashte e-mailworkflows
 description: Leer hoe u een gegevensbron maakt voor het opslaan van gehashte e-mailberichten voor gehashte e-mailworkflows.
 solution: Audience Manager
 feature: Data Sources
-source-git-commit: 903c2602f759e0d507e45f1db4cbc880a599c32e
+source-git-commit: b88f180808ec9723a2a5324441733f6383f6302d
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -29,4 +29,5 @@ Voer de onderstaande stappen uit om een gegevensbron voor gehashte e-mails te ma
    >Met deze optie wordt alleen de gegevensbron gelabeld met gegevens die zijn gehasht met dat specifieke algoritme. De Audience Manager hash de gegevens bij deze stap niet. Zorg ervoor dat de e-mailadressen die u wilt opslaan in deze gegevensbron al zijn gehasht met de [!DNL SHA256] algoritme. Anders kunt u deze niet gebruiken voor gehashte e-mailworkflows.
 
    ![Audience Manager-UI-afbeelding waarin het gedeelte met gegevensbroninstellingen wordt weergegeven.](../features/assets/data-source-settings.png)
+
 
