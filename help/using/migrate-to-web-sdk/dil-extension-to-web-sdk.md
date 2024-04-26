@@ -1,7 +1,7 @@
 ---
 title: Migreren van de tagextensie Audience Manager naar de webSDK-tagextensie
 description: Begrijp de stappen om uw bibliotheek van de gegevensinzameling voor Audience Manager van de de markeringsuitbreiding van de Audience Manager aan de de markeringsuitbreiding van SDK van het Web bij te werken
-source-git-commit: 1cf6a80bd5b7f583ea2511becf415b430ce2889e
+source-git-commit: c80f39c4001d2bcfa94012b9f4ffa720806487d4
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 0%
@@ -153,3 +153,4 @@ Zodra uw markeringsimplementatie volledig aan het Web SDK wordt gemigreerd, kunt
 +++
 
 Op dit punt, wordt uw implementatie van de Audience Manager volledig gemigreerd aan het Web SDK en is bereid om zich aan Real-Time CDP in de toekomst te bewegen.
+
