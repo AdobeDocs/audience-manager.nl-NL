@@ -8,9 +8,9 @@ title: Gegevensbronnen beheren
 uuid: 4df65bcb-9ad9-4b72-a71e-8918b43d4850
 feature: Data Sources
 exl-id: 1c20988e-4a09-4d56-b454-d48b75eed1ce
-source-git-commit: e41dddd022b6fa02cab3e16bd21536d41584975f
+source-git-commit: bda66cb9aaee3a40ae64dda100f42b88696a027e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -29,26 +29,19 @@ Als u een nieuwe [!UICONTROL data source] wilt maken, gaat u naar **[!UICONTROL 
 
 ## [!UICONTROL Data Source] Details {#details}
 
-De sectie [!UICONTROL Data Source Details] voltooien:
+Vul de volgende velden in om de sectie [!UICONTROL Data Source Details] te voltooien:
 
-1. Geef de [!UICONTROL data source] een naam.
-1. *(Facultatief)* beschrijf [!UICONTROL data source]. Met een beknopte beschrijving kunt u de rol of het doel van de [!UICONTROL data source] definiëren.
-1. Geef een [!UICONTROL integration code] op. Over het algemeen is [!UICONTROL integration codes] optioneel. Deze zijn vereist wanneer u wilt:
-
+1. **[!UICONTROL Name]**: geef een naam op voor de gegevensbron.
+1. **[!UICONTROL Description]** (optioneel): voer een beschrijving in voor de gegevensbron om u te helpen de rol of het doel van de gegevensbron te definiëren.
+1. **[!UICONTROL Integration Code]** (optioneel): voer een integratiecode in. Deze codes zijn vereist wanneer u wilt:
    * [ creeer een dwars-apparatengegevensbron ](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
    * Gebruik de [ Dienst van de Identiteit van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Het werk met [ Regels van de Fusie van het Profiel ](../features/profile-merge-rules/merge-rules-start.md).
-
-1. Kies een **[!UICONTROL ID Type]** . [!UICONTROL ID Type] -opties zijn:
-
+1. **[!UICONTROL Namespace]** (alleen-lezen): Dit veld is alleen-lezen en wordt automatisch gegenereerd wanneer u de gegevensbron opslaat. Als u segmenten van Audience Manager aan Experience Platform wilt uitvoeren, moet u een overeenkomstige [ identiteit tot stand brengen namespace ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) in Experience Platform, gebruikend automatisch geproduceerde waarde als namespace [ identiteitssymbool ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) in Experience Platform.
+1. **[!UICONTROL ID Type]**: Selecteer het type id&#39;s dat deze gegevensbron zal bevatten:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
    * **[!UICONTROL Cross-device]** (Vereist om een [!UICONTROL Profile Merge Rule] te maken). Voor sommige klanten worden met deze selectie de **[!UICONTROL ID Definition]** -opties weergegeven.
-
-   >[!NOTE]
-   >
-   >Voor elke organisatie die voor Audience Manager en Experience Platform provisioned is, zelfs als u geen segment het delen opstelling tussen twee apps hebt, wanneer u een dwars-apparatengegevensbron creeert, wordt een overeenkomstige [ identiteit namespace ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) gecreeerd in Experience Platform.
-
 1. Kies een optie **[!UICONTROL ID Definition]** . U kunt onder andere de volgende opties kiezen:
 
    * **[!UICONTROL Person]**
