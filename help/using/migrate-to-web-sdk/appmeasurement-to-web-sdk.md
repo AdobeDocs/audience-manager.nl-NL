@@ -2,9 +2,9 @@
 title: Werk uw bibliotheek van de gegevensinzameling voor Audience Manager van de bibliotheek van JavaScript van het AppMeasurement aan de bibliotheek van JavaScript van SDK van het Web bij.
 description: Begrijp de stappen om uw bibliotheek van de gegevensinzameling voor Audience Manager van de bibliotheek van JavaScript van het AppMeasurement aan de bibliotheek van JavaScript van SDK van het Web bij te werken.
 exl-id: 9c771d6c-4cfa-4929-9a79-881d4e8643e4
-source-git-commit: 3ba980e97763866d82bdf94109068f1f1f8f63d2
+source-git-commit: f8d8eb722e7b5cc4371f400a76fbd548a1318668
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2589'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,18 @@ Uw gegevensstroom is nu klaar om gegevens te ontvangen en door te geven aan Audi
 1. Selecteer **[!UICONTROL Save]** .
 
 Uw gegevensstroom is nu klaar om gegevens naar Audience Manager te verzenden en de reacties van de Audience Manager tot het Web SDK over te gaan.
+
++++
+
++++**4. Clientid&#39;s toevoegen aan het identiteitsoverzicht**
+
+De meeste implementaties van de Audience Manager gebruiken [ Regels van de Fusie van het Profiel ](../features/profile-merge-rules/merge-rules-overview.md) in cross-device verpersoonlijkingsscenario&#39;s en helpen controleren welke segmentbezoekers voor afhankelijk van hun authentificatiestatus (het programma geopend of het programma geopend) kunnen kwalificeren. De Regels van de Fusie van het profiel vereisen een klant-eigendom herkenningsteken (identiteitskaart van CRM, rekeningsaantal, enz.) om aan Audience Manager op elke vraag van de gegevensinzameling na authentificatie worden verzonden. Eerder, werd de `setCustomerIDs` functie van de Dienst van identiteitskaart van de Bezoeker ([!DNL visitor.js]) gebruikt om klant IDs aan elke de gegevensverzamelingsvraag van de Analyse toe te voegen, die toen aan Audience Manager werd doorgestuurd.
+
+Met het Web SDK, moeten deze identiteiten nu naar de Edge Network worden verzonden gebruikend een speciale constructie XDM genoemd [ IdentityMap ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/identitymap).
+
+Het overgaan van identiteiten correct in een identiteitskaart vereist begrip [ identiteitsnamespaces ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces) en zorgvuldig het overwegen van welke identiteiten om over te gaan, vooral wanneer het verzenden van gegevens naar een zandbak van het Experience Platform. [ dit artikel ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-21305) schetst deze overwegingen en instructies.
+
+Zodra u bepaalt welke identiteiten om over te gaan en wanneer, de gidsen voor het gebruiken van het [!UICONTROL Identity map] **[!UICONTROL Identity map]** [ gegevenselement ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) binnen Markeringen volgt of manueel het zoals geschetst in het [ overzicht van identiteitsgegevens ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) om met uw de plaatsingsstrategie van SDK van het Web te richten.
 
 +++
 
