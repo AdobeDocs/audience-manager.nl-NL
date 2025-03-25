@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Audience Manager-gebruikershandleiding
 user-guide-description: Leer hoe u Adobe Audience Manager kunt gebruiken om commercieel relevante informatie over sitebezoekers te verzamelen en verhandelbare segmenten te maken. U kunt ook meer informatie vinden over hoe u gerichte reclame en content aan de juiste doelgroep kunt leveren.
 feature-set: Audience Manager
-source-git-commit: b0c35d79a07b481e332ddf8f4aedab5484416a51
+source-git-commit: fa0e5df921550f3c287baa08aedf53cf486d3675
 workflow-type: tm+mt
-source-wordcount: '1865'
+source-wordcount: '1863'
 ht-degree: 23%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 23%
 
 # Audience Manager-gebruikershandleiding {#user-guide}
 
-+ [Handleiding Audience Manager](aam-home.md)
-+ [Evolutiegids voor Real-Time CDP](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
-+ Migreren naar Web SDK{#migrate-to-web-sdk}
-   + [Migreren van de Adobe Audience Manager-tagextensie naar de Web SDK-tagextensie](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
-   + [Migreren van de AppMeasurement JavaScript bibliotheek naar de Web SDK JavaScript bibliotheek](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
++ [Audience Manager Guide](aam-home.md)
++ [ gids van de Evolutie aan Real-Time CDP ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ Migreren naar Web SDK {#migrate-to-web-sdk}
+   + [Migreren van de Adobe Audience Manager-tagextensie naar de webextensie SDK](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
+   + [Uw gegevensverzamelingsbibliotheek migreren van AppMeasurement naar Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
 + Overzicht {#overview}
    + [Overzicht van Audience Manager](overview/aam-overview.md)
    + [Verzamelde datatypen](overview/data-types-collected.md)
@@ -41,7 +41,7 @@ ht-degree: 23%
 + Onderdelen {#features}
    + [Adresseerbaar publiek](features/addressable-audiences.md)
    + Beheer {#administration}
-      + [Audience Manager van gebruikersmigratie naar Admin Console](features/administration/admin-console-migration.md)
+      + [Audience Manager-gebruikersmigratie naar Admin Console](features/administration/admin-console-migration.md)
       + [Administratie](features/administration/administration-overview.md)
       + [Uw accountinstellingen bewerken](features/administration/edit-account-settings.md)
       + [IP de Obfuscatie van het Adres](features/administration/ip-obfuscation.md)
@@ -67,17 +67,17 @@ ht-degree: 23%
    + Audience Marketplace {#audience-marketplace}
       + [Audience Marketplace](features/audience-marketplace/audience-marketplace.md)
       + Audience Marketplace voor dataproviders {#audience-marketplace-for-data-providers}
-         + [Audience Marketplace voor gegevensleveranciers](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
+         + [Audience Marketplace for Data Providers](features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
          + [Gegevensfeeds maken, prijzen en beheren](features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md)
          + [Facturering voor gegevensleveranciers](features/audience-marketplace/marketplace-data-providers/marketplace-billing-report.md)
       + Audience Marketplace voor datakopers {#audience-marketplace-for-data-buyers}
-         + [Audience Marketplace voor gegevenskopers](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
+         + [Audience Marketplace for Data Buyers](features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
          + [Abonnementen gegevensfeed beheren](features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md)
          + [Facturering voor kopers van gegevensfeed](features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
       + [Privégegevensfeeds](features/audience-marketplace/marketplace-private-feeds.md)
    + [Gegevensinvoer van klant](features/cdf-files.md)
    + Data Explorer {#data-explorer}
-      + [Data Explorer - Overzicht, Voordelen, en Gevallen van het Gebruik](features/data-explorer/data-explorer-overview.md)
+      + [Data Explorer - Overzicht, Voordelen en Gebruik](features/data-explorer/data-explorer-overview.md)
       + [Signalen begrijpen](features/data-explorer/data-explorer-understanding-signals.md)
       + [Signaaldashboard](features/data-explorer/data-explorer-signals-dashboard.md)
       + Signalen zoeken {#signals-search}
@@ -93,8 +93,8 @@ ht-degree: 23%
    + [Besturingselementen voor gegevensexport](features/data-export-controls.md)
    + Databronnen {#data-sources}
       + [Lijst met gegevensbronnen en instellingen](features/datasources-list-and-settings.md)
-      + [Een gegevensbron maken](features/manage-datasources.md)
-      + [Een gegevensbron configureren voor onderbroken-e-mailworkflows](features/create-data-source-hashed-emails.md)
+      + [Een Source voor gegevens maken](features/manage-datasources.md)
+      + [Source-gegevens configureren voor onderbroken-e-mailworkflows](features/create-data-source-hashed-emails.md)
       + [Algemene gegevensbronnen](features/global-data-sources.md)
    + [Opgegeven id&#39;s](features/declared-ids.md)
    + [Afgeleide signalen](features/derived-signals.md)
@@ -108,17 +108,17 @@ ht-degree: 23%
          + [Vereisten en overwegingen](features/destinations/people-based-destinations-prerequisites.md)
          + Implementatiehandleiding {#implementation-guide}
             + [Overzicht van implementatie](features/destinations/people-based-destinations-workflow.md)
-            + [Workflow A - Personalisatie gebaseerd op alle online activiteiten gecombineerd met offlinegegevens](features/destinations/people-based-destinations-workflow-combined.md)
-            + [Workflow B - Personalisatie gebaseerd op gegevens die alleen offline beschikbaar zijn](features/destinations/people-based-destinations-workflow-offline.md)
-            + [Workflow C - Personalisatie gebaseerd op geverifieerde activiteiten gecombineerd met offlinegegevens](features/destinations/people-based-destinations-workflow-authenticated.md)
+            + [Workflow A - Personalization gebaseerd op alle online activiteiten gecombineerd met offlinegegevens](features/destinations/people-based-destinations-workflow-combined.md)
+            + [Workflow B - Personalization gebaseerd op gegevens die alleen offline beschikbaar zijn](features/destinations/people-based-destinations-workflow-offline.md)
+            + [Workflow C - Personalization gebaseerd op geverifieerde activiteiten gecombineerd met offlinegegevens](features/destinations/people-based-destinations-workflow-authenticated.md)
          + [Verificatie met platforms op basis van personen](features/destinations/people-based-destinations-authentication.md)
          + [Aandeelbaar publiek](/help/using/features/destinations/people-based-destinations-reporting.md)
       + Apparaatgebaseerde bestemmingen (server-naar-server) {#device-based}
          + [Nieuwe apparaatgebaseerde doelen toevoegen](features/destinations/add-device-based-destinations.md)
-         + [Lijst met apparaatgebaseerde doelen van de Audience Manager](/help/using/features/destinations/device-based-destinations-list.md)
+         + [Lijst met op Audience Manager-apparaten gebaseerde doelen](/help/using/features/destinations/device-based-destinations-list.md)
          + [Segmenten voor server-naar-server doelen toevoegen of bewerken](features/destinations/add-edit-segments.md)
-         + [Vorm het Eigen publiek van de Twitter als Zelfbediening apparaat-Gebaseerde Bestemming](features/destinations/twitter-tailored-audiences.md)
-         + [Amazon-advertentie configureren als op apparaten gebaseerde zelfbedieningsbestemming](features/destinations/amazon-advertising.md)
+         + [Aangepast publiek voor Twitter configureren als op apparaat gebaseerde zelfbediening](features/destinations/twitter-tailored-audiences.md)
+         + [Amazon Advertising configureren als een op apparaten gebaseerde zelfbedieningsbestemming](features/destinations/amazon-advertising.md)
       + Aangepaste bestemmingen {#custom-destinations}
          + [Een URL-doel configureren](features/destinations/create-url-destination.md)
          + [Een Cookie-bestemming configureren](features/destinations/create-cookie-destination.md)
@@ -150,13 +150,13 @@ ht-degree: 23%
       + [Segment Builder](features/segments/segment-builder.md)
       + [Code Syntax used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
       + [Behandelings- en segmentpopulatiegegevens in Segment Builder](features/segments/segment-builder-data.md)
-      + [Trait Recommendations](features/segments/trait-recommendations.md)
+      + [Aanbevolen stappen](features/segments/trait-recommendations.md)
       + [Referenties voor eigenschap- en segmentkwalificaties](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
    + Eigenschappen {#traits}
       + [Overzicht van sporen](/help/using/features/traits/traits-overview.md)
       + [Detailpagina van taak](features/traits/trait-details-page.md)
       + [Traits dashboard](features/traits/trait-dashboard.md)
-      + [Actieve doelgroepen en gesynchroniseerde gegevensbronnen](features/traits/client-activity-synced-audience-traits.md)
+      + [Actieve doelgroepen en gesynchroniseerde gegevensstromen van Source](features/traits/client-activity-synced-audience-traits.md)
       + [Maptraits: informatie](features/traits/about-folder-traits.md)
       + [Maptrajecten beheren](features/traits/manage-folder-traits.md)
       + Eigenschapbuilder {#trait-builder}
@@ -184,9 +184,9 @@ ht-degree: 23%
    + [Algemene rapporten](reporting/general-reports.md)
    + [Trend Reports](reporting/trend-reports.md)
    + Audience Optimization-rapporten {#audience-optimization-reports}
-      + [Rapporten Audience Optimization](reporting/audience-optimization-reports/audience-optimization-reports.md)
+      + [Audience Optimization-rapporten](reporting/audience-optimization-reports/audience-optimization-reports.md)
       + Audience Optimization voor adverteerders {#audience-optimization-advertisers}
-         + [Overzicht van het Audience Optimization voor adverteerders](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
+         + [Overzicht van Audience Optimization for Advertisers](reporting/audience-optimization-reports/aor-advertisers/aor-advertisers.md)
          + [Google Campagne Manager-gegevensbestanden importeren in Audience Manager](reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
          + [Rapport Segmentprestaties](reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
          + [Trend Analysis en Volume Analysis](reporting/audience-optimization-reports/aor-advertisers/trend-analysis-volume-analysis.md)
@@ -195,7 +195,7 @@ ht-degree: 23%
          + [Gerapporteerde omzettingskenmerken](reporting/audience-optimization-reports/aor-advertisers/reported-conversion-traits.md)
          + [Kanaalconversie](reporting/audience-optimization-reports/aor-advertisers/cross-channel-conversion-reporting.md)
       + Doelgroepoptimalisatie voor uitgevers {#audience-optimization-publishers}
-         + [Overzicht van Audience Optimization voor uitgevers](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
+         + [Overzicht van Audience Optimization for Publishers](reporting/audience-optimization-reports/aor-publishers/aor-publishers.md)
          + [Google Ad Manager (voorheen DFP)-gegevensbestanden importeren in Audience Manager](reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
          + [Rapport Segmentprestaties](reporting/audience-optimization-reports/aor-publishers/publisher-segment-performance.md)
          + [Trend-rapport segment](reporting/audience-optimization-reports/aor-publishers/publisher-segment-trends.md)
@@ -205,7 +205,7 @@ ht-degree: 23%
          + [Uniek gebruikersbereik](reporting/audience-optimization-reports/aor-publishers/publisher-unique-reach.md)
       + Data- en metadatabestanden voor Audience Optimization-rapporten en actiegerichte logboekbestanden {#data-and-metadata-files}
          + [Loggegevens en metagegevensbestanden](reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
-         + [Gegevensbestanden voor rapporten van Audiencen Optimization en uitvoerbare logbestanden](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+         + [Gegevensbestanden voor Audience Optimization-rapporten en uitvoerbare logbestanden](reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
          + [Overzicht en toewijzingen voor metagegevensbestanden](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)
          + [Naamgevingsconventies voor metagegevensbestanden](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md)
          + [Indeling van inhoud voor metagegevensbestanden](reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md)
@@ -225,10 +225,10 @@ ht-degree: 23%
    + [Rapport over status aan boord](reporting/onboarding-status-report.md)
    + [Historie van uitgaande bestanden](reporting/outbound-history-report.md)
    + [Unieke gebruikers tellen in overlapping en algemene rapporten](reporting/unique-user-counts.md)
-   + [Gegevensbemonstering en foutenpercentages in geselecteerde rapporten van de Audience Manager](reporting/report-sampling.md)
+   + [Gegevensbemonstering en foutenpercentages in geselecteerde Audience Manager-rapporten](reporting/report-sampling.md)
 + API- en SDK-code {#api-and-sdk-code}
    + [Overzicht van API- en SDK-code](api/api.md)
-   + [Migratie van Audience Manager-API-code](api/api-swagger-migration.md)
+   + [Migratie van Audience Manager API-code](api/api-swagger-migration.md)
    + API-methoden en -code van Data Collection Server (DCS) {#dcs}
       + [DCS API-methoden en -code](api/dcs-intro/dcs-intro.md)
       + DCS-gebeurteniscalls {#dcs-event-calls}
@@ -254,7 +254,7 @@ ht-degree: 23%
       + [Aan de slag met REST-API’s](api/rest-api-main/aam-api-getting-started.md)
       + [Algorithmic API Methods](api/rest-api-main/aam-api-algo-methods.md)
       + [Data Integration Library API-methoden](api/rest-api-main/aam-api-dil-methods.md)
-      + [API-methoden gegevensbron](api/rest-api-main/aam-api-data-sources.md)
+      + [Source API-methoden voor gegevens](api/rest-api-main/aam-api-data-sources.md)
       + [Afgeleide API-methoden voor signalen](api/rest-api-main/aam-api-derived-signals.md)
       + API-methoden voor bestemmingen {#destination-api-methods}
          + [Overzicht van doel-API-methoden](api/rest-api-main/aam-api-destinations/aam-api-destinations.md)
@@ -275,28 +275,28 @@ ht-degree: 23%
       + [Methoden van DCS Region API](api/rest-api-main/aam-api-dcs-regions.md)
    + [SDK-code](api/aam-sdk.md)
 + DIL-API (Data Integration Library) {#dil-api}
-   + [De Data Integration Library begrijpen (DIL)](dil/dil-overview.md)
+   + [Data Integration Library begrijpen (DIL)](dil/dil-overview.md)
    + DIL-methoden op klasseniveau {#class-level-dil-methods}
-      + [Aan de slag met DIL-API&#39;s op klasseniveau](dil/dil-class-overview/dil-start.md)
+      + [Aan de slag met DIL API&#39;s op klasseniveau](dil/dil-class-overview/dil-start.md)
       + [DIL maken](dil/dil-class-overview/dil-create.md)
       + [getDil](dil/dil-class-overview/dil-get-instance.md)
       + [dexGetQSVars](dil/dil-class-overview/dil-get-dexqsvars.md)
       + [isAddedPostWindowLoad](dil/dil-class-overview/dil-added-post-window-load.md)
    + [DIL-methoden op instantieniveau](dil/dil-instance-methods.md)
-   + [DIL Modules](dil/dil-modules.md)
-   + [DIL-gereedschappen](dil/dil-tools.md)
-   + [DIL Gebruik hoofdletters en kleine letters en codevoorbeelden](dil/dil-use-cases.md)
+   + [DIL-modules](dil/dil-modules.md)
+   + [DIL Tools](dil/dil-tools.md)
+   + [DIL Use cases and Code Samples](dil/dil-use-cases.md)
    + [Flash DIL](dil/dil-flash.md)
-   + [Opmerkingen bij de release DIL](/help/using/dil/dil-release-notes.md)
+   + [Opmerkingen bij de release van DIL](/help/using/dil/dil-release-notes.md)
 + Implementatie- en integratiehandleidingen {#implementation-integration-guides}
    + [Implementatie- en integratiehulplijnen](integration/implementation-and-integration.md)
    + [Methoden voor Data Integration](integration/data-integration-methods.md)
-   + Google Ad Manager integreren met Google Publisher-tags (GPT){#integrate-dfp-using-gpt}
+   + Google Ad Manager integreren gebruikend de Markeringen van de Uitgever van Google (GPT) {#integrate-dfp-using-gpt}
       + [Google Ad Manager integreren met GPT-overzicht](integration/gpt-aam-destination/gpt-aam-overview.md)
       + [Segmenten verzenden naar Google Ad Manager met GPT](integration/gpt-aam-destination/gpt-aam-requirements.md)
       + [Een GPT-doel maken](integration/gpt-aam-destination/gpt-aam-create-destination.md)
       + [Wijzig de GPT setTargeting API Vraag](integration/gpt-aam-destination/gpt-aam-modify-api.md)
-      + [Audience Manager Code voor Google Publisher-tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
+      + [Audience Manager-code voor Google Publisher-tags](integration/gpt-aam-destination/gpt-aam-aamgpt-code.md)
    + Integreren met bestemmingen van derden {#integrating-third-party}
       + [Facebook WCA-integratie](/help/using/integration/integrating-third-party/facebook-wca-integration.md)
       + [OAS als Audience Manager-bestemming](integration/integrating-third-party/open-ad-server-destination.md)
@@ -335,27 +335,27 @@ ht-degree: 23%
          + [Batchgegevens naar Audience Manager verzenden - Overzicht](integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md)
          + [ID-synchronisatie voor binnenkomende gegevensoverdrachten](integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md)
          + [Naam en inhoudsvereisten voor id-synchronisatiebestanden](integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-         + [Inbound Data File Contents: Syntax, Invalid Characters, Variables en Examples](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+         + [Inbound Data File Contents: Syntax, Invalid Characters, Variables en   Voorbeelden](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
          + [Amazon S3-vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden](integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
          + [Vereisten voor FTP-naam en bestandsgrootte voor binnenkomende gegevensbestanden](integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
          + [PGP-codering van bestand voor binnenkomende gegevenstypen](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md)
          + [Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden](integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
          + [Het Bericht van de steekproef aan Partners na Binnenkomende verwerking](integration/sending-audience-data/batch-data-transfer-explained/inbound-receipt-message.md)
-         + [Gebruik Amazon S3-machtigingen voor emmertjes voor andere accounts voor binnenkomende bestanden](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
+         + [ de toestemmingen van het Emmertje van Amazon S3 van de hefboomwerking voor Uw Binnenkomende Dossiers ](integration/sending-audience-data/batch-data-transfer-explained/authorize-s3-inbound.md)
       + [Aangepaste partnerintegratie](/help/using/integration/sending-audience-data/custom-partner-integrations.md)
    + Integratie met Adobe Experience Platform {#integration-experience-platform}
-      + [Het segmentdelen van Experience Platforms met Audience Manager en andere oplossingen van Experiencen Cloud](integration/integration-aep/aam-aep-audience-sharing.md)
-   + Integratie met andere Experiencen Cloud toepassingen {#integration-other-solutions}
+      + [Experience Platform-segmentdeling met Audience Manager en andere Experience Cloud-oplossingen](integration/integration-aep/aam-aep-audience-sharing.md)
+   + Integratie met andere Experience Cloud-toepassingen {#integration-other-solutions}
       + [Audience Manager integreren met Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
-      + [Hoe te om Gegevens van Adobe Analytics aan Audience Manager door te sturen](integration/integration-other-solutions/audience-management-module.md)
-      + [Een Adobe Analytics-segment naar het Experience Cloud publiceren (opent Adobe Analytics-documentatie)](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [Audience Manager integreren met Adobe Campaign (opent Adobe Campaign-documentatie)](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [Gegevens doorsturen van Adobe Analytics naar Audience Manager](integration/integration-other-solutions/audience-management-module.md)
+      + [ publiceer een Segment van Adobe Analytics aan Experience Cloud (opent de documentatie van Adobe Analytics) ](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
+      + [ integreer Audience Manager met Adobe Campaign (opent de documentatie van Adobe Campaign) ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
 + Referenties {#reference}
    + [Overzicht van verwijzingen](reference/reference.md)
    + [Amazon S3: Informatie over](reference/amazon-s3.md)
    + [Gebruiksscenario’s voor adverteerders](reference/advertiser-use-cases.md)
    + [Gebruiksscenario’s voor uitgevers](reference/publisher-use-cases.md)
-   + [Bètaomgeving](reference/beta-environment.md)
+   + [Beta-omgeving](reference/beta-environment.md)
    + [Booleaanse expressies in Trait and Segment Builder](reference/boolean-expressions-tsb.md)
    + Bulkbeheertools {#bulk-management-tools}
       + [Aan de slag met Bulk Management](reference/bulk-management-tools/bulk-management-intro.md)
@@ -376,20 +376,20 @@ ht-degree: 23%
    + [Ondersteunde browsers](reference/supported-browsers.md)
    + Systeemonderdelen {#system-components}
       + [Overzicht van systeemcomponenten](reference/system-components/components-overview.md)
-      + [Belangrijkste componenten in het systeem van de Audience Manager](reference/system-components/components-stack.md)
+      + [Belangrijkste componenten in het Audience Manager-systeem](reference/system-components/components-stack.md)
       + [Componenten van gegevenshandeling](reference/system-components/components-data-action.md)
       + [Componenten gegevensverzameling](reference/system-components/components-data-collection.md)
       + [Componenten gegevensverwerking](reference/system-components/components-data-processing.md)
       + [Tag Management-componenten](reference/system-components/components-tag-management.md)
       + [Platformarchitectuur: Data Flow Map](reference/system-components/components-platform-architecture.md)
-      + [Het Edge Data Center begrijpen](reference/system-components/components-edge.md)
+      + [Edge Data Center](reference/system-components/components-edge.md)
    + [Stijlconventies voor code- en tekstelementen](reference/code-style-elements.md)
    + [Tijdzones in Audience Manager](reference/aam-time-zones.md)
    + [TLS 1.0 en 1.1 Deprectie](reference/tls-support.md)
    + [Inzicht krijgen in oproepen van het demdex-domein](reference/demdex-calls.md)
-   + [Verificatiestatus bezoeker in Audience Manager](reference/visitor-authentication-states.md)
+   + [Verificatiestatussen bezoeker in Audience Manager](reference/visitor-authentication-states.md)
 + Veelgestelde vragen {#faqs}
-   + [Overzicht van veelgestelde vragen over Audience Manager](faq/faq-overview.md)
+   + [Overzicht van veelgestelde vragen in Audience Manager](faq/faq-overview.md)
    + [Veelgestelde vragen over API’s](faq/faq-api.md)
    + [Veelgestelde vragen over Audience Lab](faq/faq-audience-lab.md)
    + [Veelgestelde vragen over klantdatafeeds](faq/faq-cdf.md)
@@ -413,7 +413,7 @@ ht-degree: 23%
    + [Waarom worden mijn eigenschappen of segmenten niet weergegeven op de pagina Overlaprapporten?](/help/using/support-issues/why-do-my-traits-or-segments-not-show-up-in-the-overlap-reports.md)
    + [Waarom kunnen onze alleen-lezen gebruikers eigenschappen en segmenten maken, bewerken en verwijderen?](/help/using/support-issues/aam-read-only-users-create-delete-traits-segments.md)
    + [Wij zijn geen klant van de Audience Manager, maar we zien wel JavaScript-calls van Audience Manager op onze website](/help/using/support-issues/not-using-aam-but-seeing-aam-javascript.md)
-   + [Moet ik mijn in kaart gebrachte segmenten van het Laboratorium van het publiek van de Audience Manager op de pagina van bestemmingsdetails zien?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
+   + [Moet ik mijn in kaart gebrachte segmenten van het Laboratorium van het publiek van Audience Manager op de pagina van bestemmingsdetails zien?](/help/using/support-issues/should-i-see-audience-lab-mapped-segments-on-the-destination-page.md)
 + Documentatie-updates {#documentation-updates}
    + [Documentatie-updates 2021](docs-updates/docs-2021.md)
    + [Documentatie-updates 2020](docs-updates/docs-2020.md)
