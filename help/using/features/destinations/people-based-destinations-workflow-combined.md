@@ -160,6 +160,7 @@ Als u nieuwe publiekssegmenten wilt maken, gebruikt u de opdracht [Segment Build
    * **[!UICONTROL Type]**: personen;
    * **[!UICONTROL Platform]**: selecteer het op mensen-gebaseerde platform dat u publiekssegmenten naar wilt verzenden;
    * **[!UICONTROL Account]**: Selecteer het gewenste adverteerderaccount dat aan het geselecteerde platform is gekoppeld.
+
       ![create-destination](assets/pbd-create-destination.png)
 1. Klik op **[!UICONTROL Next]**.
 1. Kies de optie **[!UICONTROL Data Export Labels]** die u voor dit doel wilt instellen.

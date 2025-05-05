@@ -44,6 +44,7 @@ Begin met het bekijken van de [Segmenten maken in video Audience Manager](https:
    ![segment-builder-kenmerken](assets/segment-builder-traits.png)
    * Zoeken naar [!UICONTROL trait] u wilt aan een segment toevoegen en klikken **[!UICONTROL Add Trait]**. Nog een toevoegen [!UICONTROL trait] om een [!UICONTROL trait] groep.
    * De [!UICONTROL Advanced Search] modal door te klikken **[!UICONTROL Browse All Traits]**. Zoeken naar [!UICONTROL traits] op naam, id, beschrijving of [!UICONTROL data source]. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt ook filteren [!UICONTROL traits] door [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], en [!UICONTROL Algorithmic]) of type populatie ([Apparaat-id](../../reference/ids-in-aam.md) en [Apparaatoverschrijdende id](../../reference/ids-in-aam.md)).
+
       ![segment-bouwer-browser-eigenschappen](assets/segment-builder-browse-traits.png)
    * Live gaan [aanbevelingen betreffende eigenschappen](trait-recommendations.md) wanneer u uw [!UICONTROL segment].
    * Klikken en slepen [!UICONTROL traits] om afzonderlijke groepen te maken.

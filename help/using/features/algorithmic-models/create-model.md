@@ -41,14 +41,17 @@ Volg de onderstaande stappen om een [!UICONTROL Look-Alike Model]:
    * Geef het model een naam.
    * *(Optioneel)* Geef een korte beschrijving van het model op.
    * De status van het model instellen op **[!UICONTROL Active]** of **[!UICONTROL Inactive]**. Inactieve modellen worden niet uitgevoerd en produceren geen gegevens.
+
       ![look-alike-basic](assets/look-alike-basic.png)
 1. In de [Configuratie](../../features/algorithmic-models/create-model.md#configuration) sectie:
    * Klikken **[!UICONTROL Browse All Traits]** of **[!UICONTROL Browse All Segments]** om een eigenschap of een segment te selecteren u tegen wilt modelleren. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt ook kenmerken filteren op basis van het type eigenschap ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], en [!UICONTROL Algorithmic]) of type populatie ([Apparaat-id](../../reference/ids-in-aam.md) en [Apparaatoverschrijdende id](../../reference/ids-in-aam.md)).
+
       ![browsereigenschappen](assets/browse-traits.png)
    * Kies een terugblik periode van 30, 60, of 90 dagen. Hiermee stelt u een tijdbereik in voor het model.
    * De [!UICONTROL TraitWeight] algoritme is standaard geselecteerd.
    * Selecteer een gegevensbron in het menu [!UICONTROL Available Data] lijst.
    * Klikken **[!UICONTROL Save]** wanneer gereed.
+
       ![look-alike-configuration](assets/look-alike-configuration.png)
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.

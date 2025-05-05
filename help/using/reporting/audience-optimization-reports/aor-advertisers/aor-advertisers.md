@@ -32,7 +32,7 @@ Het type rapporten dat u kunt weergeven, is afhankelijk van het dialoogvenster [
 
 [!UICONTROL RBAC] groepen moeten bepaalde gegevensbronnen hebben ingesteld om de [!UICONTROL Audience Optimization] rapporten. Uw [!DNL Audience Manager] consultant zal deze [!UICONTROL data sources] voor jou. Hoe meer [!UICONTROL data sources] in elke [!UICONTROL RBAC] gebruikersgroep, de meer gegevens die die groepsleden toegang tot zullen hebben. Uw consultant stelt minimaal een van deze [!UICONTROL data sources]:
 
-* Adverteerder [!UICONTROL data source ]
+* Adverteerder [!UICONTROL data source &#x200B;]
 * Merk [!UICONTROL data source]
 * Platform [!UICONTROL data source]
 

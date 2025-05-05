@@ -25,7 +25,7 @@ Als u een nieuwe [!UICONTROL data source] wilt maken, gaat u naar **[!UICONTROL 
 
 >[!TIP]
 >
->Zie {de Montages van Source van 0} Gegevens en de Opties van het Menu ](../features/datasources-list-and-settings.md#settings-menu-options) voor beschrijvingen van deze verschillende controles.[
+>Zie {de Montages van Source van 0} Gegevens en de Opties van het Menu [&#128279;](../features/datasources-list-and-settings.md#settings-menu-options) voor beschrijvingen van deze verschillende controles.
 
 ## [!UICONTROL Data Source] Details {#details}
 

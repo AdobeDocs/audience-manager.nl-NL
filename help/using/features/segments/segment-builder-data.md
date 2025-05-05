@@ -123,7 +123,7 @@ De volgende tabel definieert de werkelijke cijfers voor real-time en totale bevo
 
 | Kolom A | Kolom B |
 |---------|----------|
-| [!UICONTROL Real-Time Population (Existing) ] | Het werkelijke aantal apparaten dat in real time wordt gezien met huidige profielen die, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparatengrafiek worden aangesloten, de eigenschappen bevatten om voor het segment in aanmerking te komen het ogenblik het door Audience Manager werd gezien. |
+| [!UICONTROL Real-Time Population (Existing) &#x200B;] | Het werkelijke aantal apparaten dat in real time wordt gezien met huidige profielen die, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparatengrafiek worden aangesloten, de eigenschappen bevatten om voor het segment in aanmerking te komen het ogenblik het door Audience Manager werd gezien. |
 | [!UICONTROL Total Population (Existing)] | Het totale aantal apparaten met profielen dat, wanneer samengevoegd met maximaal 100 andere apparaatprofielen die door de apparaatgrafiek worden aangesloten, allemaal in aanmerking kwamen voor het segment. |
 
 ### Beperkingen als gevolg van recentie- en frequentieredsies bij het schatten van segmentpopulaties

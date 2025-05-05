@@ -46,7 +46,7 @@ Enterprise-klanten die [!DNL Audience Manager] één platform voor gegevensbehee
 > 
 > Nadat alle klanten zijn gemigreerd, gaat de sectie voor gebruikersbeheer van dit document weg.
 > 
-Gebruikers maken in [!DNL Audience Manager] en geef gebruikersgegevens, aanmeldingsstatus en wijs gebruikers toe aan groepen.
+>Gebruikers maken in [!DNL Audience Manager] en geef gebruikersgegevens, aanmeldingsstatus en wijs gebruikers toe aan groepen.
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Users]**.
 1. Klikken ![](assets/icon_add.png) om de [!UICONTROL Create New User] pagina.
@@ -63,7 +63,7 @@ Gebruikers maken in [!DNL Audience Manager] en geef gebruikersgegevens, aanmeldi
    * **[!UICONTROL Expired]:** Het wachtwoord van een gebruiker is ouder dan 90 dagen.
    * **[!UICONTROL Pending]:** De gebruiker heeft een tijdelijk wachtwoord, hetzij na het opnieuw instellen van het wachtwoord of als een gloednieuwe account, en zij hebben nog geen permanent wachtwoord ingesteld.
    * **[!UICONTROL Locked Out]:** 5 onjuiste aanmeldpogingen zullen een gebruiker uitsluiten.
-1. Onder **[!UICONTROL Assigned Groups]**Selecteer in de vervolgkeuzelijst de gewenste groepen waaraan u deze gebruiker wilt toewijzen.
+1. Onder **[!UICONTROL Assigned Groups]**&#x200B;Selecteer in de vervolgkeuzelijst de gewenste groepen waaraan u deze gebruiker wilt toewijzen.
 Voor meer informatie over groepen en toestemmingen, zie [Een groep maken](../../features/administration/administration-overview.md#create-group).
 1. Klik op **[!UICONTROL Save]**.
 

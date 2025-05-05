@@ -42,6 +42,7 @@ Volg de onderstaande stappen als u weet welke gegevensbron u wilt gebruiken.
    * **[!UICONTROL Description]**: Voer een beschrijving in van het model dat u helpt bij het identificeren van het gebruikte hoofdlettergebruik.
    * **[!UICONTROL Data Source]**: Selecteer de eerste gegevensbron die u wilt [!UICONTROL Predictive Audiences] segmenten van dit model die moeten worden toegewezen aan.
    * **[!UICONTROL Profile Merge Rule]**: Selecteer [!UICONTROL Profile Merge Rule] toe te wijzen voor alle voorspellingen [!UICONTROL segments] gemaakt door dit model. Als uw geselecteerde doelpubliek een [!UICONTROL segment], adviseren wij het zelfde te selecteren [!UICONTROL Profile Merge Rule] van het doelpubliek.
+
       ![voorspellend publiek-sparen](assets/predictive-audiences-save.png)
 1. Klik op **[!UICONTROL Save]**.
 

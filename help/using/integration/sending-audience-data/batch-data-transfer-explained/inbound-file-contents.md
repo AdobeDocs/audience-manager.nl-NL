@@ -31,7 +31,7 @@ Voor andere geaccepteerde bestandsindelingen raadpleegt u [Aangepaste partnerint
 >We hebben een limiet van 200 regels die we kunnen verwerken voor elke gebruikersnaam die in het binnenkomende gegevensbestand wordt verzonden. Als u bijvoorbeeld 300 regels verzendt voor een gebruikers-id, worden de eerste 200 regels bewaard en worden de extra 100 regels verwijderd. In het onderstaande voorbeeld kun je het beste drie regels verzenden voor gebruikers-id 1 en gebruikersnaam 2. Wij dwingen geen grens op het aantal eigenschappen of zeer belangrijke paren af u in een lijn omvat.
 >
 >
-```
+>```
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
 ><user ID1><TAB><trait ID>,<trait ID>,<trait ID>
@@ -202,30 +202,30 @@ Onjuist opgemaakte waardennamen in een sleutelwaardepaar veroorzaken ook problem
    <td colname="col1"> <p>Met <code> d_sid </code> of <code> d_unsid </code> </p> </td> 
    <td colname="col2"> <p>In dit gegevensbestand wordt een gebruiker weergegeven die is gekwalificeerd voor de kenmerken 24, 26, 27 en die is verwijderd uit kenmerk 28 en 29. </p> <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;&amp;nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
+       59767559181262060060278870901087098252&nbsp;&nbsp;d_sid=24,d_sid=26,d_sid=27,d_unsid=28,d_unsid=29 
      </code> </p> <p>Opmerking:  <p>In plaats van d_unsid te gebruiken, kunt u eigenschappen uit gebruikersprofielen ook verwijderen door de volgende syntaxis te gebruiken: </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:0,&amp;nbsp;29:0 
+        59767559181262060060278870901087098252&nbsp;28:0,&nbsp;29:0 
       </code> </p> <p> 
       <code>
-        59767559181262060060278870901087098252&amp;nbsp;28:-1,&amp;nbsp;29:-1 
+        59767559181262060060278870901087098252&nbsp;28:-1,&nbsp;29:-1 
       </code> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Met <code> ic== </code> </p> </td> 
    <td colname="col2"> <p>Deze kenmerken zijn toegevoegd aan een regel met eigenschappen <code> ic </code> voorvoegsel. Als zodanig kunt u ze toevoegen aan het gegevensbestand, gescheiden door komma's, zoals getoond. Een tabblad scheidt de UUID en de eigenschap-id's. De <code> ic </code> voorvoegsel is niet vereist in het bestand. </p> <p><b>Numerieke id's</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;30608,50354,50338,50352,30626 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;30608,50354,50338,50352,30626 
      </code> </p> <p><b>Tekenreeks-id's</b> </p> <p> 
      <code>
-       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&amp;nbsp;&amp;nbsp;ic=52,ic=55 
+       DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1&nbsp;&nbsp;ic=52,ic=55 
      </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Met sleutelwaardeparen </p> </td> 
    <td colname="col2"> In dit bestand worden sleutelwaardeparen gebruikt om gegevens door te geven aan <span class="keyword"> Audience Manager </span>. <p> 
      <code>
-       59767559181262060060278870901087098252&amp;nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
+       59767559181262060060278870901087098252&nbsp;“gender”=”female”,“luxury_shopper”=”yes” 
      </code> </p> </td> 
   </tr> 
  </tbody> 

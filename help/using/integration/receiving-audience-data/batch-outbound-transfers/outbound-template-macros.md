@@ -106,7 +106,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een accolade sluiten ingevoegd <code>}</code> teken. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt een accolade sluiten ingevoegd <code>&rbrace;</code> teken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
@@ -134,7 +134,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een open accolade ingevoegd <code>{</code> teken. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt een open accolade ingevoegd <code>&lbrace;</code> teken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 

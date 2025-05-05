@@ -40,7 +40,7 @@ Onder de hulpmiddelen van het segmentbeheer kunt u de volgende segmentinformatie
 
    ![segmentgrafiek](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown ]:** Het rapport toont het aantal mensen of huishoudens die voor een segment in aanmerking komen door het aantal apparaat-id&#39;s en/of externe apparaat-grafiek-id&#39;s te tellen die zijn gekoppeld aan de apparaten die voor het segment in aanmerking kwamen (weergegeven door het [!UICONTROL Total Segment Population]). De apparaat-id&#39;s en externe apparaatgrafiek-id&#39;s die in dit rapport worden weergegeven, worden gebruikt om profielen samen te voegen met de regel voor het samenvoegen van profielen die het segment gebruikt. Dit rapport wordt alleen weergegeven als u een apparaatgegevensbron of een externe apparaatgrafiek hebt geselecteerd in de regel voor het samenvoegen van profielen die het segment gebruikt.
+3. **[!UICONTROL Identity Type Breakdown &#x200B;]:** Het rapport toont het aantal mensen of huishoudens die voor een segment in aanmerking komen door het aantal apparaat-id&#39;s en/of externe apparaat-grafiek-id&#39;s te tellen die zijn gekoppeld aan de apparaten die voor het segment in aanmerking kwamen (weergegeven door het [!UICONTROL Total Segment Population]). De apparaat-id&#39;s en externe apparaatgrafiek-id&#39;s die in dit rapport worden weergegeven, worden gebruikt om profielen samen te voegen met de regel voor het samenvoegen van profielen die het segment gebruikt. Dit rapport wordt alleen weergegeven als u een apparaatgegevensbron of een externe apparaatgrafiek hebt geselecteerd in de regel voor het samenvoegen van profielen die het segment gebruikt.
 
    ![segmentgrafiek](assets/segment-type.png)
 
