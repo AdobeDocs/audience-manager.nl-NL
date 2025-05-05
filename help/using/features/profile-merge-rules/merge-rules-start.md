@@ -150,7 +150,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Zie voor meer informatie [Een apparaatgegevensbron maken](#create-data-source) en [Klant-id&#39;s en verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).
+Zie voor meer informatie [Een apparaatgegevensbron maken](#create-data-source) en [Klant-id&#39;s en verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL).
 
 ### Configureren `DIL.create` function
 
@@ -165,7 +165,7 @@ var vDil = DIL.create({
 });
 ```
 
-In het naamruimte-sleutelwaardepaar `*`MCORG`*` variable is your [!DNL Experience Cloud] Organisatie-id. Als u deze id niet hebt, kunt u deze vinden in het dialoogvenster [!UICONTROL Administration] van de [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Beheer: Core Services](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+In het naamruimte-sleutelwaardepaar `*`MCORG`*` variable is your [!DNL Experience Cloud] Organisatie-id. Als u deze id niet hebt, kunt u deze vinden in het dialoogvenster [!UICONTROL Administration] van de [!DNL Experience Cloud] dashboard. U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [Beheer: Core Services](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
 
 ### SDK&#39;s configureren
 

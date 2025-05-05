@@ -60,8 +60,8 @@ Zie [Bestandscompressie voor binnenkomende dataoverdrachtsbestanden](../integrat
 
 Ja. Als u een [!UICONTROL cross-device data source] om de gegevens op te slaan van CRM die u uploadt, slaat de Audience Manager altijd de gegevens op. In feite, na [!UICONTROL Profile Merge Rules] de verhogingen die de Audience Manager in oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u uploaden en actie op gegevens zonder de code van de Audience Manager in productie helemaal op te stellen. Zie:
 
-* [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
-* [!UICONTROL People-based Destinations] - [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html)
+* [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=nl-NL)
+* [!UICONTROL People-based Destinations] - [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=nl-NL)
 
 <br>
 

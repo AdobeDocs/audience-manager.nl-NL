@@ -80,7 +80,7 @@ Al deze opties zijn optioneel, tenzij u een reactie wilt van de [!DNL DCS]. Als 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> configuratie. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> COPPA-ondersteuning in de Adobe Experience Platform Identity Service</a>. </p> </td>
+   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> configuratie. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=nl-NL" format="https" scope="external"> COPPA-ondersteuning in de Adobe Experience Platform Identity Service</a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -122,7 +122,7 @@ Al deze opties zijn optioneel, tenzij u een reactie wilt van de [!DNL DCS]. Als 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt de Experience Cloud-id opgegeven die door de <span class="keyword"> Experience Cloud</span> ID-service. Zie voor meer informatie over de ECID <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a>. </p> </td> 
+   <td colname="col2"> <p>Hiermee wordt de Experience Cloud-id opgegeven die door de <span class="keyword"> Experience Cloud</span> ID-service. Zie voor meer informatie over de ECID <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL" format="https" scope="external"> Cookies en de Experience Cloud Identity Service</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -195,7 +195,7 @@ Deze kopballen bevatten informatie zoals verzoeken om gegevens en reacties in ee
 
 | Kenmerk | Beschrijving |
 | --- | --- | 
-| `h_host` | Deze wordt ingesteld op de specifieke hostnaam van de gegevensverzameling van de client. Het verschijnt zoals `host name .demdex.net`. Zie [Inzicht in calls naar het Demdex-domein](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
+| `h_host` | Deze wordt ingesteld op de specifieke hostnaam van de gegevensverzameling van de client. Het verschijnt zoals `host name .demdex.net`. Zie [Inzicht in calls naar het Demdex-domein](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=nl-NL). |
 | `h_user-agent` | Instellen op de `User-Agent` headerwaarde. |
 | `h_accept-language` | Instellen op de  `Accept-Language`  headerwaarde. |
 | `h_referer` | Instellen op de `Referer` headerwaarde. |

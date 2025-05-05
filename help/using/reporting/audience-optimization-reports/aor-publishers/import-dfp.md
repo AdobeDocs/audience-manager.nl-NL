@@ -82,7 +82,7 @@ U moet de [!DNL Audience Manager] Id zelf, en kan werken met [!DNL Audience Mana
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stap 6 </p> </td> 
-   <td colname="col2"> <p>Compileer de eerste vereisten en open een steunkaartje door de gedetailleerde instructies te volgen <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html">hier</a> om het inlogproces af te remmen. </p> </td> 
+   <td colname="col2"> <p>Compileer de eerste vereisten en open een steunkaartje door de gedetailleerde instructies te volgen <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=nl-NL">hier</a> om het inlogproces af te remmen. </p> </td> 
    <td colname="col3"> <p>U, of <span class="keyword"> Audience Manager</span> Namens u raadplegen </p> </td> 
   </tr> 
  </tbody> 

@@ -25,7 +25,7 @@ r_problem.xml
 
  -->
 
-Neem contact op met de [klantenservice](https://helpx.adobe.com/marketing-cloud/contact-support.html) voor technische problemen of om een fout te melden.
+Neem contact op met de [klantenservice](https://helpx.adobe.com/nl/marketing-cloud/contact-support.html) voor technische problemen of om een fout te melden.
 
 * **Telefoon:** 1-800-497-0335
 

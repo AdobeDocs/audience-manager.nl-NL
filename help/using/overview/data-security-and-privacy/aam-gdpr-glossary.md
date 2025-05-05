@@ -22,7 +22,7 @@ In dit artikel worden de concepten en terminologie uitgelegd die worden gebruikt
 
 De GDPR (AVG) is op 25 mei 2018 in werking getreden, met als hoofddoel om individuen in de EU (geregistreerde personen) meer controle te geven over hun persoonlijke data en tegelijk het regelgevingskader voor internationale ondernemingen te vereenvoudigen door de regelgeving binnen de EU beter af te stemmen. Als onderdeel van de GDPR (AVG)-gereedheid van Adobe heeft het team van Adobe Audience Manager services en processen verbeterd waar dat nodig was voor de ondersteuning van toegangs- en verwijderingsaanvragen van geregistreerde personen, uw consumenten.
 
-Zorg ervoor dat u ook informatie over GDPR in het dialoogvenster [Overzicht van privacyregels](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=en) voor een beter begrip van de werking van GDPR in Experience Cloud.
+Zorg ervoor dat u ook informatie over GDPR in het dialoogvenster [Overzicht van privacyregels](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=nl-NL) voor een beter begrip van de werking van GDPR in Experience Cloud.
 
 ## Verklarende woordenlijst GDPR {#gdpr-glossay}
 
@@ -58,7 +58,7 @@ Maak u vertrouwd met de belangrijkste termen die in verband met GDPR worden gebr
 
  
 
-**Audience Manager-id’s:** Adobe Audience Manager slaat verschillende soorten id’s op. De pagina [Audience Manager-id’s](data-privacy-ids.md) biedt een overzicht van deze id’s, hun corresponderende databronnen en korte beschrijvingen. Wanneer u aanvragen verzendt naar de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en), verwijst u naar deze id’s om verwijderings- of toegangsaanvragen te verzenden voor uw geregistreerde personen.
+**Audience Manager-id’s:** Adobe Audience Manager slaat verschillende soorten id’s op. De pagina [Audience Manager-id’s](data-privacy-ids.md) biedt een overzicht van deze id’s, hun corresponderende databronnen en korte beschrijvingen. Wanneer u aanvragen verzendt naar de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL), verwijst u naar deze id’s om verwijderings- of toegangsaanvragen te verzenden voor uw geregistreerde personen.
 
  
 

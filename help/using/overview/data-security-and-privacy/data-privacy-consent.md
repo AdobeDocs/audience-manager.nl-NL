@@ -31,11 +31,11 @@ Audience Manager biedt u tools ter ondersteuning van uw vermogen om de vereiste 
 
 ## Experience Cloud Opt-In Service
 
-Met de [Experience Cloud Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) kunt u protocollen instellen voor de bezoeker om u te helpen bepalen of u een cookie kunt instellen op het apparaat of de browser van de individuele gebruiker wanneer deze uw website bezoekt.
+Met de [Experience Cloud Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=nl-NL) kunt u protocollen instellen voor de bezoeker om u te helpen bepalen of u een cookie kunt instellen op het apparaat of de browser van de individuele gebruiker wanneer deze uw website bezoekt.
 
 Dit is een uitbreiding van de [!DNL Experience Cloud ID (ECID) Service], waarmee u kunt bepalen of en welke Experience Cloud-oplossingen cookies op webpagina’s kunnen plaatsen voor gebruikers voordat ze hiermee akkoord zijn gegaan.
 
-Met de [Experience Cloud Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html) kunt u ook protocollen instellen om te integreren met uw Consent Management Platform (CMP) en bestaande systemen als onderdeel van uw grotere ontwerp.
+Met de [Experience Cloud Opt-in Service](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=nl-NL) kunt u ook protocollen instellen om te integreren met uw Consent Management Platform (CMP) en bestaande systemen als onderdeel van uw grotere ontwerp.
 
 ## Opt-in beheren/Toestemming verkrijgen
 

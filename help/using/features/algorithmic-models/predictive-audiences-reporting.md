@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Rapportage in Predictieve doelgroepen
 
-Nadat u een [!UICONTROL Predictive Audiences] model, Audience Manager begint het te trainen. Binnen een paar uur zal het berekende model het publiek analyseren op de [Gegevensverzamelingsservers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html#dcs-pcs). Rapportage is de volgende dag beschikbaar.
+Nadat u een [!UICONTROL Predictive Audiences] model, Audience Manager begint het te trainen. Binnen een paar uur zal het berekende model het publiek analyseren op de [Gegevensverzamelingsservers](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=nl-NL#dcs-pcs). Rapportage is de volgende dag beschikbaar.
 
 Als u de resultaten van uw [!UICONTROL Predictive Audiences] classificatie, ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klik op het model in de lijst.
 

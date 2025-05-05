@@ -60,7 +60,7 @@ In [!UICONTROL Trait Builder]de [!UICONTROL Basic Information] kunt u nieuwe ins
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Type gebeurtenis</span></b> </td> 
-   <td colname="col2"> Wijst de eigenschap aan een type of een categorie toe, gewoonlijk volgens functie (b.v. omzetting, plaatsbezoeker, partner, paginamening, enz.). Optioneel. <p> Als u wilt leren hoe u conversiekenmerken maakt, raadpleegt u de <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html">Conversietaken maken in video Audience Manager</a>. </p></td> 
+   <td colname="col2"> Wijst de eigenschap aan een type of een categorie toe, gewoonlijk volgens functie (b.v. omzetting, plaatsbezoeker, partner, paginamening, enz.). Optioneel. <p> Als u wilt leren hoe u conversiekenmerken maakt, raadpleegt u de <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=nl-NL">Conversietaken maken in video Audience Manager</a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integratiecode</span></b> </td> 

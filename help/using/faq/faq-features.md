@@ -33,7 +33,7 @@ De *`Organization ID`* is een unieke id die uw organisatie identificeert in [!DN
 
 Een *`Organization ID`* kan er bijvoorbeeld zo uitzien: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-De *`Organization ID`* wordt gebruikt door de [DIL](../dil/dil-overview.md)-API van Audience Manager, de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) en andere [!DNL Experience Cloud] oplossingen. Gebruikers met beheerdertoestemmingen kunnen de *`Organization ID`* op de [!DNL Adobe Admin Console] vinden. Zie [Veelgestelde vragen over Beheer - User Management](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+De *`Organization ID`* wordt gebruikt door de [DIL](../dil/dil-overview.md)-API van Audience Manager, de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) en andere [!DNL Experience Cloud] oplossingen. Gebruikers met beheerdertoestemmingen kunnen de *`Organization ID`* op de [!DNL Adobe Admin Console] vinden. Zie [Veelgestelde vragen over Beheer - User Management](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
 
  
 
@@ -67,7 +67,7 @@ Uw datafeed en alle eigenschappen in de feed worden weergegeven als submappen en
 
 **Wat is [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Tags]. Zie voor meer informatie [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Tags]. Zie voor meer informatie [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL).
 
  
 
@@ -95,4 +95,4 @@ U kunt Trait Recommendations het best gebruiken in de volgende gevallen:
 
 **Is er een verschil tussen de segmenten van Adobe Analytics en Audience Manager?**
 
-Ja, lees [Inzicht in segmenten in Analytics en Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) voor een uitgebreide beschrijving van de verschillen.
+Ja, lees [Inzicht in segmenten in Analytics en Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=nl-NL) voor een uitgebreide beschrijving van de verschillen.

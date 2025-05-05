@@ -111,7 +111,7 @@ Ja.
 
 **Omvatten de schattingen van de segmentgrootte apparaten die voor een segment kwalificeren op basis van verbindingen geleverd door een [!UICONTROL Profile Merge Rule] die een apparaatgrafiekoptie gebruikt?**
 
-Nee. Zie de definities voor [!UICONTROL Estimated Real-Time Population] en [!UICONTROL Estimated Total Population] in [Populatiedata van eigenschappen en segmenten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
+Nee. Zie de definities voor [!UICONTROL Estimated Real-Time Population] en [!UICONTROL Estimated Total Population] in [Populatiedata van eigenschappen en segmenten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=nl-NL).
 
  
 

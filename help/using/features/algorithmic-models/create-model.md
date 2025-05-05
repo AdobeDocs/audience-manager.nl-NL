@@ -56,7 +56,7 @@ Volg de onderstaande stappen om een [!UICONTROL Look-Alike Model]:
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=nl-NL)
 
 ## Basisinformatie voor algoritmische modellen {#basic-information}
 

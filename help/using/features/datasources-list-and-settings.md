@@ -112,7 +112,7 @@ Selecteer **[!UICONTROL Inbound]** Schakel het selectievakje in wanneer uw gegev
      <ul id="ul_3BC963CE378B4F6CB1861643A4541634"> 
       <li id="li_B86C5E7847424A2B9C094DF02741DDB8"> <b><span class="uicontrol"> Klant-id</span></b>: Identificeert binnenkomende gegevens met een klant identiteitskaart </li> 
       <li id="li_AD8E440436314902A794CDB11A3D657F"> <b><span class="uicontrol"> Audience Manager-id</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Audience Manager</span> ID. </li> 
-      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-id</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Experience Cloud</span> ID. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Experience Cloud-id</a>. </li> 
+      <li id="li_B56608334DDA453B9E4E88E53DAF92FA"> <b><span class="uicontrol"> Experience Cloud-id</span></b>: Identificeert binnenkomende gegevens met een <span class="keyword"> Experience Cloud</span> ID. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL" format="https" scope="external"> Cookies en de Experience Cloud-id</a>. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

@@ -36,9 +36,9 @@ Deze pagina illustreert het proces voor het maken van [!DNL Facebook Website Cus
 1. [!DNL Facebook Ad Account]
 2. [!DNL Audience Manager] segmenten, klaar om toe te wijzen aan uw nieuwe [!DNL Facebook] bestemming. Hier [hoe te om een segment te creëren](/help/using/features/segments/segment-builder.md) in de [!DNL Audience Manager] UI.
 3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versie 4.1.0 of hoger. Download de nieuwste versie **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versie 9.0 of hoger, downloadbaar vanaf **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Als u [Server-Side Forwarding (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) om gegevens te importeren in [!DNL Audience Manager], moet u AppMeasurement versie 2.12 of hoger gebruiken. Downloaden [!DNL AppMeasurement] met de [Analysebeheer](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versie 9.0 of hoger, downloadbaar vanaf **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Als u [Server-Side Forwarding (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=nl-NL) om gegevens te importeren in [!DNL Audience Manager], moet u AppMeasurement versie 2.12 of hoger gebruiken. Downloaden [!DNL AppMeasurement] met de [Analysebeheer](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=nl-NL).
 
-U wordt aangeraden de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
+U wordt aangeraden de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL).
 
 ## Stap 1 - een [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 

@@ -20,9 +20,9 @@ ht-degree: 2%
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
 >
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun strategie voor het verzamelen van gegevens op lange termijn.
 >
->Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan.
+>Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan.
 
 Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk in de Audience Manager met die gegevens.
 
@@ -56,7 +56,7 @@ c_flash_dil_intro.xml
 
 **AllowScriptAccess instellen op `Always` of`sameDomain`**
 
-De `AllowScriptAccess` in de code van HTML die een dossier van de SWF laadt controleert de capaciteit om uitgaande toegang URL van binnen het dossier van de SWF uit te voeren. Wanneer u een [!UICONTROL Flash DIL] gegevensintegratie, zorg ervoor de Flash `AllowScriptAccess` parameter is ingesteld op `always` of `sameDomain`. [!UICONTROL Flash DIL] gegevensverzameling werkt niet als `AllowScriptAccess` is ingesteld op `never`. Zie [Toegang tot scripts of hostwebpagina beheren](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html).
+De `AllowScriptAccess` in de code van HTML die een dossier van de SWF laadt controleert de capaciteit om uitgaande toegang URL van binnen het dossier van de SWF uit te voeren. Wanneer u een [!UICONTROL Flash DIL] gegevensintegratie, zorg ervoor de Flash `AllowScriptAccess` parameter is ingesteld op `always` of `sameDomain`. [!UICONTROL Flash DIL] gegevensverzameling werkt niet als `AllowScriptAccess` is ingesteld op `never`. Zie [Toegang tot scripts of hostwebpagina beheren](https://helpx.adobe.com/nl/flash/kb/control-access-scripts-host-web.html).
 
 **JS [!UICONTROL DIL] Plaatsing code**
 

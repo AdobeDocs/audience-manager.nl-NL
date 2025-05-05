@@ -19,7 +19,7 @@ ht-degree: 5%
 >[!WARNING]
 >
 >Google heeft de functionaliteit van [!DNL Google Chrome] en alle [!DNL Chromium]-gebaseerde browsers om de informatie die via de `User-Agent` header.
->Vanaf maart 2023 ondersteunt Audience Manager deze updates door gebruik te maken van [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Doorgaan met gebruik van de via het `User-Agent` header, moet u gebruiken [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) en [High Entropine User-Agent de Tips van de Cliënt](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en).
+>Vanaf maart 2023 ondersteunt Audience Manager deze updates door gebruik te maken van [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL). Doorgaan met gebruik van de via het `User-Agent` header, moet u gebruiken [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) en [High Entropine User-Agent de Tips van de Cliënt](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=nl-NL).
 >Deze updates worden niet ondersteund door [DIL](../../../using/dil/dil-overview.md), dus Audience Manager klanten die [!DNL DIL] kan geen informatie over de eigenschap verzamelen via de `User-Agent` header.
 
 Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.

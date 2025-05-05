@@ -43,9 +43,9 @@ Zie het [Adobe Privacy Center](https://www.adobe.com/nl/privacy/opt-out.html) vo
 
 ## Regelnaleving {#compliance}
 
-[!DNL Audience Manager] helpt u bij de naleving van uw verplichtingen uit hoofde van bepaalde privacyregels met behulp van privacytools zoals de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) voor toegangs- en verwijderingsaanvragen van data.
+[!DNL Audience Manager] helpt u bij de naleving van uw verplichtingen uit hoofde van bepaalde privacyregels met behulp van privacytools zoals de [Adobe Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) voor toegangs- en verwijderingsaanvragen van data.
 
-Deze service biedt een [!DNL RESTful API] en een gebruikersinterface voor het beheer van aanvragen in verband met consumentendata. Met behulp van de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) kunt u aanvragen voor toegang tot en verwijdering van persoonlijke data verzenden op aanvraag van een individuele consument.Zo kunt u dit gedeelte van uw nalevingsverplichtingen automatiseren.
+Deze service biedt een [!DNL RESTful API] en een gebruikersinterface voor het beheer van aanvragen in verband met consumentendata. Met behulp van de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) kunt u aanvragen voor toegang tot en verwijdering van persoonlijke data verzenden op aanvraag van een individuele consument.Zo kunt u dit gedeelte van uw nalevingsverplichtingen automatiseren.
 
 Terwijl de verzoeken van de gegevenstoegang en schrapping door de Privacy Service worden behandeld, [opt-out-verzoeken](data-privacy-requests.md#opt-out-requests) worden momenteel ondersteund via de [DCS API](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md). Zie [Data Privacy-aanvragen](data-privacy-requests.md) voor meer informatie.
 

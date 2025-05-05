@@ -19,7 +19,7 @@ ht-degree: 6%
 
 De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. De Audience Manager behandelt de de authentificatiestatus van bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisvraag op de zelfde manier.
 
-Beginnen met [!DNL Experience Cloud] De dienst van identiteitskaart v1.5+, `setCustomerID` bevat de optionele `AuthState` object. `AuthState` identificeert bezoekers volgens hun [verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] behandelt verschillend de gerealiseerde eigenschappen, afhankelijk van de authentificatiestatus die in de vraag en wordt overgegaan [Regel voor samenvoegen van profiel](../features/profile-merge-rules/merge-rules-dashboard.md) u gebruikt voor segmentatie.
+Beginnen met [!DNL Experience Cloud] De dienst van identiteitskaart v1.5+, `setCustomerID` bevat de optionele `AuthState` object. `AuthState` identificeert bezoekers volgens hun [verificatiestatus](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL). [!DNL Audience Manager] behandelt verschillend de gerealiseerde eigenschappen, afhankelijk van de authentificatiestatus die in de vraag en wordt overgegaan [Regel voor samenvoegen van profiel](../features/profile-merge-rules/merge-rules-dashboard.md) u gebruikt voor segmentatie.
 
 ## Verificatiestatus: ONBEKEND {#auth-status-unknown}
 
@@ -57,5 +57,5 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
 
 >[!MORELIKETHIS]
 >
->* [Klant-id&#39;s en verificatiestatussen](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
+>* [Klant-id&#39;s en verificatiestatussen](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL)
 
