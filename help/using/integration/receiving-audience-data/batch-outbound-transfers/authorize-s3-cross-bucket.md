@@ -3,21 +3,26 @@ description: Het uitgaande proces van de Overdracht van Gegevens voor klanten di
 seo-description: The Outbound Data Transfer process for customers using Amazon Simple Storage Service (Amazon S3) requires us to ask for your Amazon S3 access key and secret key, in order to deliver the outbound data files to your bucket.
 seo-title: Leverage Amazon S3 Cross-Account Bucket Permissions for Your Outbound Files
 solution: Audience Manager
-title: Cross-account-buckettoestemmingen van Amazon S3 gebruiken voor uw uitgaande bestanden
+title: Gebruik Amazon S3-machtigingen voor emmertjes voor andere accounts voor uitgaande bestanden
 uuid: 400a8d67-ebf3-48be-aa3f-498a5441f498
 feature: Outbound Data Transfers
 exl-id: e52f5bc0-7dc0-4c73-833c-5a778e8b5891
-source-git-commit: 7302fafa537ad15144a64cc96f7150c5b0233c12
+source-git-commit: 9c0254e8a29ffeb0353ed6faa898b74bcae7cef1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 12%
+source-wordcount: '186'
+ht-degree: 0%
 
 ---
 
-# Cross-account-buckettoestemmingen van Amazon S3 gebruiken voor uw uitgaande bestanden {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}
+# Gebruik Amazon S3-machtigingen voor emmertjes voor andere accounts voor uitgaande bestanden {#leverage-amazon-s-cross-account-bucket-permissions-for-your-outbound-files}
 
-De [!UICONTROL Outbound Data Transfer] proces voor klanten die [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) vereist dat wij vragen om uw [!DNL Amazon S3] toegang sleutel en geheime sleutel, om de uitgaande gegevensdossiers aan uw emmer te leveren.
+Het [!UICONTROL Outbound Data Transfer] -proces voor klanten die [!DNL Amazon Simple Storage Service] ([!DNL Amazon S3]) gebruiken, vereist dat wij om uw [!DNL Amazon S3] toegangstoets en geheime sleutel vragen, om de uitgaande gegevensbestanden aan uw emmer te leveren.
 
-Als u uw [!DNL Amazon S3] toegang tot sleutel en geheime sleutel met ons, contacteer uw [!DNL Audience Manager] consultant of klantenservice en zij zullen [!DNL Cross-Account Bucket Permissions] voor jou.
+Als u uw [!DNL Amazon S3] toegangstoets en geheime sleutel liever niet met ons deelt, neemt u contact op met uw [!DNL Audience Manager] consultant of de klantenservice en stelt u [!DNL Cross-Account Bucket Permissions] voor u in.
 
-U hoeft alleen onze [!DNL Amazon S3] account-id aan een lijst van gewenste personen voor de [!DNL S3] emmer waar u de uitgaande gegevensbestanden wilt ontvangen, zoals wordt beschreven in het dialoogvenster [Amazon S3-documentatie](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html). Uw [!DNL Audience Manager] consultant of klantenservice biedt u onze [!DNL Amazon S3] account-id.
+U moet slechts onze [!DNL Amazon S3] rekeningsidentiteitskaart aan een lijst van gewenste personen voor het [!DNL S3] emmertje toevoegen waar u wenst om de uitgaande gegevensdossiers te ontvangen, zoals die in de [ S3 documentatie van Amazon ](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html) worden beschreven. Uw [!DNL Audience Manager] consultant of klantenservice zal u onze [!DNL Amazon S3] account-id verstrekken.
+
+>[!NOTE]
+>
+>Vanwege de Amazon S3-limiet voor objectgrootte ondersteunt Audience Manager splitsingsgrootten van maximaal 1 TB. Als u geen gesplitste grootte opgeeft, wordt de limiet van 1 TB automatisch toegepast.
+
