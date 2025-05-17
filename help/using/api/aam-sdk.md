@@ -30,5 +30,5 @@ Audience Manager biedt softwareontwikkelkits ([!DNL SDK]s) for [!DNL Android] en
 
 We ondersteunen nog steeds de SDK&#39;s van Android en iOS 4.x. Zie voor deze SDK-codebibliotheken:
 
-* [Android-SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html)
-* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)
+* [Android-SDK](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=nl-NL)
+* [iOS SDK](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=nl-NL)

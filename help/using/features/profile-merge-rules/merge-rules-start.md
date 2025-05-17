@@ -223,7 +223,7 @@ Controleer de methoden in uw [!DNL SDK] code die u laat doorgeven [!UICONTROL de
  </tbody>
 </table>
 
-Zie ook: [Methoden voor Audience Manager voor Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [Methoden voor Audience Manager voor iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Zie ook: [Methoden voor Audience Manager voor Android](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=nl-NL) en [Methoden voor Audience Manager voor iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=nl-NL).
 
 >[!MORELIKETHIS]
 >
