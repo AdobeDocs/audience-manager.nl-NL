@@ -8,12 +8,13 @@ uuid: fa8e79f4-99cb-41fd-8a85-d4f92d03c7a5
 keywords: SFTP; SFTP-adres; STFP IP-adres; FTP-adres
 feature: Administration
 exl-id: 2951ab0c-6f1c-4126-b83e-ce4a33c0d4ab
-source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
+source-git-commit: 974f45268d50c486c872137a3aa6d8fc7f691024
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 79%
+source-wordcount: '1255'
+ht-degree: 74%
 
 ---
+
 
 # Veelgestelde vragen over dataverzameling en productintegratie{#data-collection-and-product-integration-faq}
 
@@ -25,19 +26,19 @@ Algemene vragen en problemen in verband met dataverzameling en integratie.
 
 Eigenschappen die via [!UICONTROL Inbound] ‘onboarded’ zijn, worden door [!UICONTROL Inbound] ingevuld op dezelfde manier als door [!DNL DCS]. Er zijn verschillende manieren om te zien dat traffic afkomstig is van [!UICONTROL Inbound]:
 
-* Externe IP is ingesteld op 68.67.173.18
+* Externe IP wordt ingesteld op 68.67.173.18
 * DomainID is ingesteld op 5325
 * Regio is ingesteld op 0
 
 <br>
 
-**Kunt u me een lijst van IP adressen verstrekken ik aan een lijst van gewenste personen voor dpm.demdex.net kan toevoegen?**
+**kunt u me van een lijst van IP adressen voorzien ik aan een lijst van gewenste personen voor dpm.demdex.net kan toevoegen?**
 
 Helaas kunnen we dat niet. Deze IP’s worden dynamisch toegewezen, volgens geografische regio, via [!DNL Amazon Web Services]. Daardoor controleert [!DNL Audience Manager] niet het bereik van IP’s die aan dit adres kunnen worden toegewezen.
 
  
 
-**Kunt u me van een IP adres voorzien ik aan een lijst van gewenste personen voor uw binnenkomende en uitgaande server van SFTP kan toevoegen?**
+**kunt u me van een IP adres voorzien ik aan een lijst van gewenste personen voor uw binnenkomende en uitgaande server van SFTP kan toevoegen?**
 
 Ja, zie hieronder.
 
@@ -57,15 +58,15 @@ De SFTP-servers hieronder zijn afgekeurd. Er worden geen nieuwe accounts ingeste
 
  
 
-**Hoe vorm ik mijn instantie van de Audience Manager om de nieuwe servers te gebruiken SFTP?**
+**Hoe vorm ik mijn instantie van Audience Manager om de nieuwe servers te gebruiken SFTP?**
 
-Neem contact op met uw [!DNL Audience Manager] consultant of klantenservice en zij zullen uw nieuwe SFTP-accounts configureren.
+Neem contact op met uw [!DNL Audience Manager] -consultant of de klantenservice en zij configureren uw nieuwe SFTP-accounts.
 
  
 
-**Wat zijn de gesteunde authentificatiemethodes voor de nieuwe servers SFTP?**
+**wat zijn de gesteunde authentificatiemethodes voor de nieuwe servers SFTP?**
 
-De nieuwe SFTP-servers (`ftp-in-gtw` en `ftp-out-gtw`) ondersteuning [!DNL OpenSSH Key-Based Authentication]. We kunnen de [!DNL SSH] of u kunt ons uw eigen openbare sleutel geven.
+De nieuwe SFTP-servers (`ftp-in-gtw` en `ftp-out-gtw`) ondersteunen [!DNL OpenSSH Key-Based Authentication] . We kunnen de [!DNL SSH] -toetsen voor u genereren, maar u kunt ook uw eigen openbare sleutel opgeven.
 
  
 
@@ -83,7 +84,7 @@ Stel als best practice uw [!DNL Audience Manager]- [!DNL Analytics]-integratie i
 
 * Zet [!UICONTROL DIL] rechtstreeks in de `s_code`.
 
-* Serve [!UICONTROL DIL] en de `s_code` doorheen [!DNL Adobe Experience Platform Tags].
+* Serve [!UICONTROL DIL] en `s_code` through [!DNL Adobe Experience Platform Tags] .
 
 Zie [Data Integration Library (DIL)-API](../dil/dil-overview.md).
 
@@ -150,9 +151,9 @@ Ja, [!DNL Audience Manager] kan data aan u verstrekken die zijn verzameld voor g
 
 <br>
 
-**[!DNL Google Ad Manager]Ik wil data verzamelen op de ene website, en gebruikers targeten via op een andere website. Moet ik code implementeren op de andere eigenschap als ik geen data van die locatie wil verzamelen?**
+**ik wil gegevens op één plaats en doelgebruikers via [!DNL Google Ad Manager] op een verschillende plaats verzamelen. Moet ik code implementeren op de andere eigenschap als ik geen data van die locatie wil verzamelen?**
 
-Nee. Als de dataverzameling op de tweede website geen vereiste is, hoeft u daar geen DIL te implementeren. Zolang u toegang hebt tot de voorraad op de tweede site via [!DNL Google Ad Manager], kunt u de gegevensverzameling vanaf de eerste site en het doel gebruiken via [!DNL Google Ad Manager].
+Nee. Als de dataverzameling op de tweede website geen vereiste is, hoeft u daar geen DIL te implementeren. Zolang u via [!DNL Google Ad Manager] toegang hebt tot de voorraad op de tweede site, kunt u de gegevensverzameling vanaf de eerste site en het doel gebruiken via [!DNL Google Ad Manager] .
 
 <br>
 
@@ -162,9 +163,9 @@ Elke leverancier draagt iets unieks bij, dus het antwoord hangt af van wat u zoe
 
 <br>
 
-**Hoe worden in [!DNL Audience Manager] cookies ingesteld en variabelen doorgegeven aan [!DNL Google Ad Manager]?**
+**hoe [!DNL Audience Manager] plaatste koekjes en pas variabelen [!DNL Google Ad Manager] over?**
 
-[!DNL Audience Manager] sets 2 cookies: Eén verzendt segmentvariabelen naar de [!DNL Google Ad Manager] ad-tag en de andere sets van onze unieke gebruikersnaam (UUID), die ook wordt gelezen door [!DNL Google Ad Manager]. Door de UUID aan de advertentietag toe te voegen kunnen we rapportage en doelgroepdetectie op gebruikersniveau uitvoeren.
+[!DNL Audience Manager] stelt 2 cookies in: een verzendt segmentvariabelen naar de tag [!DNL Google Ad Manager] ad en de andere stelt de unieke gebruikers-id (UUID) in, die ook door [!DNL Google Ad Manager] wordt gelezen. Door de UUID aan de advertentietag toe te voegen kunnen we rapportage en doelgroepdetectie op gebruikersniveau uitvoeren.
 
 <br>
 
@@ -190,7 +191,7 @@ Nee, ga in dit geval niet uit van de [!UICONTROL General Reports] en [!UICONTROL
 
 De rapporten berekenen populaties op basis van de niet-geverifieerde profielrecords (UUID’s) die we zien in de back-end op het tijdstip dat de rapporten worden gegenereerd.
 
-Bij een eerste call naar de [!DNL DCS] zijn de gedeclareerde id’s *niet* gekoppeld aan een UUID (er is dus geen [demdex-cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=nl-NL) aanwezig aan de clientzijde). De [!DNL DCS] genereert willekeurig een UUID, stelt een [!DNL demdex]-cookie in en geeft dit door in de reactiecall, maar de UUID wordt niet naar de back-end verzonden.
+Bij een eerste call naar de [!DNL DCS] zijn de gedeclareerde id’s *niet* gekoppeld aan een UUID (er is dus geen [demdex-cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) aanwezig aan de clientzijde). De [!DNL DCS] genereert willekeurig een UUID, stelt een [!DNL demdex]-cookie in en geeft dit door in de reactiecall, maar de UUID wordt niet naar de back-end verzonden.
 
 >[!NOTE]
 >
@@ -208,8 +209,10 @@ Het synchroniseren van een gebruikersprofiel in verschillende regio’s duurt me
 
  
 
-**Wat gebeurt er met inactieve Amazon S3-gebruikerstoetsen?**
+**wat met de inactieve sleutels van de de gebruikerstoegang van Amazon S3 gebeurt?**
 
-Adobe verstrekt de klanten van de Audience Manager van de toegangstoetsen van de gebruiker voor de Audience Manager [!DNL Amazon S3] emmers. Om veiligheidsredenen worden de toetsen automatisch uitgeschakeld na 100 dagen inactiviteit.
+Adobe biedt Audience Manager-klanten toegangssleutels voor [!DNL Amazon S3] emmers. Om veiligheidsredenen worden deze toegangstoetsen automatisch uitgeschakeld als ze 100 dagen ongebruikt blijven.
 
-Neem contact op met de Klantenondersteuning als u uw toegangstoetsen weer wilt inschakelen of nieuwe toegangstoetsen wilt aanvragen.
+Als uw toegangstoetsen zijn uitgeschakeld, kunt u contact opnemen met de Klantenondersteuning om deze weer in te schakelen of nieuwe sleutels aan te vragen.
+
+Voor uitgebreide beveiliging worden toegangstoetsen die 1000 dagen inactief blijven, samen met de Amazon S3 IAM-gebruikersaccount permanent verwijderd. Als u een terugkerende klant bent en na deze periode toegang nodig hebt, neemt u contact op met de Klantenondersteuning om uw account opnieuw te maken en nieuwe toegangstoetsen te ontvangen.
