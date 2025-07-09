@@ -5,13 +5,13 @@ title: Audience Marketplace optimaliseren
 feature: Audience Marketplace
 hide: true
 hidefromtoc: true
-source-git-commit: a03953af94e98d1aabfc9cb6cd1af82f42080d91
+exl-id: 92d4d043-3cc1-4a59-926f-c29709d9bc63
+source-git-commit: e9b8f102b5a123ba4a9f6e9c9a29e331d803d293
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
-
 
 # Audience Marketplace optimaliseren {#audience-marketplace-optimization}
 
@@ -19,7 +19,7 @@ Adobe verbetert de Audience Marketplace om de zichtbaarheid van gegevensleveranc
 
 Tijdens dit proces verwijderen we gegevensproviders die niet actief worden gebruikt. De optimalisatie zal ook eigenschappen verwijderen die door deze gegevensleveranciers worden verstrekt. Dit proces is ontworpen om de markt te stroomlijnen en de algemene prestaties voor alle gebruikers te verbeteren.
 
-**Chronologie:** De leveranciers van gegevens zullen eind Juli 2025 worden verwijderd.
+**Chronologie:** De leveranciers van gegevens zullen tijdens Augustus 2025 worden verwijderd.
 
 ## Wat verandert {#what-changes}
 
@@ -121,4 +121,4 @@ Neem contact met ons op als u een sterk bedrijfsargument hebt om een specifieke 
 
 ### Wanneer worden de wijzigingen van kracht?
 
-De voor verwijdering geselecteerde gegevensleveranciers worden eind juli 2025 verwijderd.
+Gegevensleveranciers die voor verwijdering zijn geselecteerd, worden in augustus 2025 verwijderd.
