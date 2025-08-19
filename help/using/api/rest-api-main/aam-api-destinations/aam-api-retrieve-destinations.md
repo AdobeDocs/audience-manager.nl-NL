@@ -1,22 +1,22 @@
 ---
-description: Een methode van de GET die de bestemming voor gespecificeerde destinationId terugkeert.
+description: Een methode van GET die de bestemming voor gespecificeerde destinationId terugkeert.
 seo-description: A GET method that returns the destination for the specified destinationId.
 seo-title: Return A Destination by Destination ID
 solution: Audience Manager
-title: Een bestemming retourneren op destinatie-id
+title: Retourneer een doel op doel-id
 uuid: abce7426-55a5-4045-93a7-0487652a7189
 feature: API
 exl-id: c0850e71-7830-4635-b773-e9a28ab5bd68
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '332'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# Een bestemming retourneren op destinatie-id {#return-a-destination-by-destination-id}
+# Retourneer een doel op doel-id {#return-a-destination-by-destination-id}
 
-A `GET` methode die de bestemming voor gespecificeerde terugkeert `destinationId`.
+Een `GET` -methode die het doel voor de opgegeven `destinationId` retourneert.
 
 <!-- r_get_all_destinations_order_id.xml -->
 
@@ -26,7 +26,7 @@ A `GET` methode die de bestemming voor gespecificeerde terugkeert `destinationId
 
 >[!NOTE]
 >
->Als u de `mappings` veldpas binnen `includeMappings=true` in de URL.
+>U kunt als volgt de velddoorloop `mappings` in `includeMappings=true` in de URL vullen.
 
 ## Antwoord
 
@@ -58,7 +58,7 @@ A `GET` methode die de bestemming voor gespecificeerde terugkeert `destinationId
 
 ## Alle doelen retourneren {#return-all-destinations}
 
-A `GET` methode die alle bestemmingen voor de gespecificeerde partner terugkeert.
+Een `GET` methode die alle bestemmingen voor de gespecificeerde partner terugkeert.
 
 <!-- r_get_all_destinations.xml -->
 
@@ -68,14 +68,13 @@ A `GET` methode die alle bestemmingen voor de gespecificeerde partner terugkeert
 
 >[!NOTE]
 >
->* *(Optioneel)* Doorgeven in `containsSegment=<sid>` om een array te retourneren van alle doelen die aan het opgegeven segment zijn toegewezen. Uw query kan er bijvoorbeeld als volgt uitzien: `GET .../destinations/?containsSegment=4321`.
+>* *(Facultatief)* pas binnen `containsSegment=<sid>` om een serie van alle bestemmingen terug te keren die aan het gespecificeerde segment in kaart worden gebracht. Uw query kan er bijvoorbeeld als volgt uitzien: `GET .../destinations/?containsSegment=4321` .
 >
 >* Retourneert het volledige doelobject niet. Hiermee wordt het doel via de gegevensvolgorde opgehaald als u een volledig gevuld object nodig hebt.
 
-
 ### Optionele queryparameters
 
-U kunt deze optionele parameters gebruiken met API-methoden die geretourneerd worden *alles* eigenschappen voor een object. Stel deze opties in de tekenreeks request wanneer u die query doorgeeft aan de [!DNL API]. Zie [Optionele parameters](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+U kunt deze facultatieve parameters met API methodes gebruiken die *alle* eigenschappen voor een voorwerp terugkeren. Stel deze opties in de aanvraagtekenreeks in wanneer u die query aan de [!DNL API] doorgeeft. Zie [ Facultatieve Parameters ](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -95,7 +94,7 @@ U kunt deze optionele parameters gebruiken met API-methoden die geretourneerd wo
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> sortBy</code> </td>
-   <td colname="col2">Hiermee worden de resultaten gesorteerd en geretourneerd volgens de opgegeven waarden <span class="keyword"> JSON</span> eigenschap. </td>
+   <td colname="col2">Sorteert en keert resultaten volgens het gespecificeerde <span class="keyword"> JSON </span> bezit terug. </td>
   </tr>
   <tr valign="top"> 
    <td colname="col1"><code> descending</code> </td>
@@ -142,7 +141,7 @@ U kunt deze optionele parameters gebruiken met API-methoden die geretourneerd wo
 
 ## Een doeltoewijzing retourneren met de toewijzingsid {#return-dest-mapping-id}
 
-A `GET` methode die een individuele bestemmingstoewijzing terugkeert die op wordt gebaseerd `mappingId`.
+Een `GET` -methode die een afzonderlijke doeltoewijzing retourneert op basis van de `mappingId` .
 
 <!-- r_get_destination_trait_data_order.xml -->
 
@@ -179,7 +178,7 @@ A `GET` methode die een individuele bestemmingstoewijzing terugkeert die op word
 
 ## Toewijzingen retourbestemming {#return-dest-mappings}
 
-A `GET` methode die de toewijzingen voor een bestemming terugkeert.
+Een `GET` -methode die de toewijzingen voor een doel retourneert.
 
 <!-- r_get_destination_mappings.xml -->
 
@@ -251,9 +250,9 @@ A `GET` methode die de toewijzingen voor een bestemming terugkeert.
 {
 ```
 
-## Alle beschikbare Platforms van de Bestemming terugkeren {#return-dest-platforms}
+## Alle beschikbare doelplatforms retourneren {#return-dest-platforms}
 
-A `GET` methode die alle beschikbare apparatenplatforms voor bestemmingen terugkeert.
+Een `GET` methode die alle beschikbare apparatenplatforms voor bestemmingen terugkeert.
 
 <!-- r_get_dest_platforms.xml -->
 
@@ -271,7 +270,7 @@ BROWSER, ANDROID, iOS, ALL
 
 ## S2S- en Bulk S2S-taakgeschiedenis retourneren {#return-job-history}
 
-A `GET` methode die uitgaand terugkeert [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) en bulkgoederen [!UICONTROL S2S] informatie over de geschiedenis van de doeltaak.
+Een `GET` -methode die uitgaande [!UICONTROL Server-to-Server] ( [!UICONTROL S2S]) en bulkgegevens van de [!UICONTROL S2S] -doeltaakgeschiedenis retourneert.
 
 <!-- r_get_job_history.xml -->
 
@@ -279,7 +278,7 @@ A `GET` methode die uitgaand terugkeert [!UICONTROL Server-to-Server] ( [!UICONT
 
 `GET https://api.demdex.com/v1/destinations/655/history/outbound?startDate=1000000000&endDate=1403034473000`
 
-Vereiste queryparameters: `startDate` = *&lt;`epochtime`>* en `endDate` = *&lt;`epochtime`>*.
+Vereiste vraagparameters: `startDate` = *&lt;`epochtime`>* en `endDate` = *&lt; `epochtime`>*.
 
 ### Antwoord
 

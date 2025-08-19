@@ -3,18 +3,18 @@ description: De de actiecomponenten van gegevens omvatten de Diefstal van de Geg
 seo-description: Data action components include Customer Data Feeds, the Data Collection Server, SFTP/S3/HTTP publishers, IRIS, and the Profile Cache Server.
 seo-title: Data Action Components
 solution: Audience Manager
-title: Onderdelen voor actie op data
+title: Componenten van gegevenshandeling
 uuid: c4c4cc46-8c96-4ef5-8269-571cc5ac9276
 feature: System Components
 exl-id: 8065c19f-1930-4164-a952-1686aa5cb622
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 2%
+source-wordcount: '658'
+ht-degree: 1%
 
 ---
 
-# Onderdelen voor actie op data{#data-action-components}
+# Componenten van gegevenshandeling{#data-action-components}
 
 De de actiecomponenten van gegevens omvatten de Diefstal van de Gegevens van de Klant, de Server van de Inzameling van Gegevens, SFTP/S3/HTTP uitgevers, IRIS, en de Server van het Geheime voorgeheugen van het Profiel.
 
@@ -24,11 +24,11 @@ c_compact.xml
 
  -->
 
-De componenten van de actie zijn systemen en processen die u gegevens binnen en uit laten bewegen [!DNL Audience Manager] en (bij gebrek aan een betere uitdrukking) hiermee te doen. Deze [!DNL Audience Manager] tot de componenten behoren :
+Actiecomponenten zijn systemen en processen waarmee u gegevens in en uit [!DNL Audience Manager] kunt verplaatsen en er (bij gebrek aan een betere uitdrukking) iets mee kunt doen. Deze [!DNL Audience Manager] -componenten zijn:
 
 ## CDF (Customer Data Feeds, klantdatafeeds) {#cdf}
 
-[!UICONTROL CDF] Dit zijn bestanden die per uur naar klanten worden verzonden. Deze bevatten gebruikers-id&#39;s samen met de bijbehorende segment-id&#39;s, teken-id&#39;s en andere gegevens. Zie voor meer informatie [Overzicht van de doorvoergegevens voor klantgegevens](../../features/cdf-files.md).
+[!UICONTROL CDF] zijn bestanden die per uur naar klanten worden verzonden. Deze bevatten gebruikers-id&#39;s samen met de bijbehorende segment-id&#39;s, teken-id&#39;s en andere gegevens. Voor meer informatie, zie [ het Overzicht van het voer van Gegevens van de Klant ](../../features/cdf-files.md).
 
 ## Data Collection Server (DCS) {#dcs}
 
@@ -36,50 +36,50 @@ Zie [Onderdelen voor dataverzameling](../../reference/system-components/componen
 
 ## SFTP/S3 {#sftp-s3}
 
-De [!UICONTROL SFTP/S3] uitgevers ontvangen gesynchroniseerde id-gegevens van de [!UICONTROL Outbound Feed Converter]. Wanneer deze bestanden gereed zijn, worden de [!UICONTROL SFTP/S3 publishers] Verzend deze gegevens naar een doel dat door de client is opgegeven. Deze bestanden bevatten gesynchroniseerde id-gegevens met een één-op-veel-toewijzing van [!DNL Audience Manager] gebruikers-id&#39;s (UUID) naar:
+De [!UICONTROL SFTP/S3] -uitgevers ontvangen gesynchroniseerde id-gegevens van de [!UICONTROL Outbound Feed Converter] . Wanneer deze bestanden gereed zijn, verzendt [!UICONTROL SFTP/S3 publishers] deze gegevens naar een doel dat door de client is opgegeven. Deze bestanden bevatten gesynchroniseerde id-gegevens met een één-op-veel toewijzing van [!DNL Audience Manager] gebruikers-id&#39;s (UUID) aan:
 
-* Apparaat-id/gegevensaanbieder-id&#39;s (DPUUID)
+* Id&#39;s van apparaat/gegevensaanbieder (DPUUID)
 * Gekwalificeerde segment-id&#39;s
 * Trait-id&#39;s
 
-[!DNL Audience Manager] klanten hebben geen toegang tot eigenschappen die direct controleren [!UICONTROL SFPT/S3 publishers]. De klanten gebruiken deze dienst onrechtstreeks wanneer zij creëren en gegevens verzenden naar bestemmingen. De [!UICONTROL SFTP/S3] het systeem is in wezen een geautomatiseerd taakproces dat op geregelde tijdstippen wordt uitgevoerd.
+[!DNL Audience Manager] -klanten hebben geen toegang tot functies die de [!UICONTROL SFPT/S3 publishers] rechtstreeks besturen. De klanten gebruiken deze dienst onrechtstreeks wanneer zij creëren en gegevens verzenden naar bestemmingen. Het [!UICONTROL SFTP/S3] -systeem is in feite een geautomatiseerd taakproces dat met geplande intervallen wordt uitgevoerd.
 
 ## IRIS {#iris}
 
-in de Griekse mythologie, [!UICONTROL Iris] is een figuur die snel reist en berichten levert. De [!UICONTROL IRIS] het systeem is een naamplaatje dat de kenmerken van dit cijfer uit de oude wereld weerspiegelt . In moderne termen [!UICONTROL IRIS] is een low-latency, high-frequency cookiesynchronisatie en de dienst van de gegevensoverdracht.
+In de Griekse mythologie is [!UICONTROL Iris] een figuur die snel berichten reist en levert. Het [!UICONTROL IRIS] -systeem is een naamplaatje dat de kenmerken van deze figuur uit de oude wereld weerspiegelt. In moderne termen is [!UICONTROL IRIS] een low-latency, high-frequency cookie synchronisatie en gegevensoverdrachtservice.
 
-[!UICONTROL IRIS] werkt met hetzelfde type gegevens als de [!UICONTROL SFTP/S3] systeem. Maar [!UICONTROL IRIS] is verschillend omdat het gegevens naar bestemmingen in real time eerder dan bij vastgestelde intervallen verzendt. Dit is een apart systeem omdat het [!UICONTROL SFTP/S3] uitgevers kunnen geen gegevens naar een bestemming van HTTP verzenden en zij zijn niet ontworpen voor gegevensoverdracht in real time.
+[!UICONTROL IRIS] werkt met hetzelfde type gegevens als het [!UICONTROL SFTP/S3] -systeem. [!UICONTROL IRIS] is echter anders omdat het gegevens naar doelen verzendt in real time in plaats van met ingestelde intervallen. Dit is een apart systeem omdat de [!UICONTROL SFTP/S3] -uitgevers geen gegevens naar een HTTP-bestemming kunnen verzenden en ze niet zijn ontworpen voor realtime gegevensoverdracht.
 
-Er zijn geen controles UI die klanten laten werken direct met [!UICONTROL IRIS]. Klanten werken met [!UICONTROL IRIS] indirect wanneer zij tot stand brengen en gegevens verzenden naar bestemmingen, en voor andere processen die snelle gegevensoverdrachten vereisen.
+Er zijn geen UI-besturingselementen waarmee klanten rechtstreeks met [!UICONTROL IRIS] kunnen werken. Klanten werken indirect met [!UICONTROL IRIS] wanneer ze gegevens maken en verzenden naar doelen en voor andere processen die snelle gegevensoverdracht vereisen.
 
-Voorbeelden van [!UICONTROL IRIS] de diensten en kenmerken omvatten :
+Voorbeelden van [!UICONTROL IRIS] -services en -functies zijn:
 
-* Snelle synchronisatie (binnen 30 seconden) voor cookies en segmenten. Het kan de [!DNL Audience Manager] cookie, partnercookies of beide.
-* Gegevensoverdracht in realtime. [!UICONTROL IRIS] is verantwoordelijk voor het verzenden van de in real time gebeurtenissen van de segmentkwalificatie naar een partner of een andere bestemming. Deze gegevens zijn in JSON-indeling en worden verzonden via een HTTP-verbinding `POST` verzoek.
+* Snelle synchronisatie (binnen 30 seconden) voor cookies en segmenten. Het kan de cookie van [!DNL Audience Manager] , partnercookies of beide synchroniseren.
+* Gegevensoverdracht in realtime. [!UICONTROL IRIS] is verantwoordelijk voor het verzenden van realtime segmentkwalificatiegebeurtenissen naar een partner of een andere bestemming. Deze gegevens zijn in JSON-indeling en worden verzonden via een HTTP `POST` -aanvraag.
 
-* Bulk server-aan-server gegevensoverdrachten: Als u grote hoeveelheden gegevens met [!DNL Audience Manager], [!UICONTROL IRIS] Dit is het systeem waarmee uw servers gegevens overdragen.
+* Bulk server-aan-server gegevensoverdrachten: als u grote hoeveelheden gegevens met [!DNL Audience Manager] ruilt, is [!UICONTROL IRIS] het systeem dat uw servers met om gegevens over te brengen in dienst nemen.
 
-* Betrouwbare infrastructuur die op schaal werkt en fouttolerantie heeft. Systemen die [!UICONTROL IRIS] omvat Amazon SQS, Amazon EC2 en Cassandra.
+* Betrouwbare infrastructuur die op schaal werkt en fouttolerantie heeft. Systemen die [!UICONTROL IRIS] aandrijven omvatten Amazon SQS, Amazon EC2, en Cassandra.
 
-**Regels voor segmenttoewijzing**
+**Regels van de Toewijzing van het Segment**
 
-Om verkeer tussen te optimaliseren [!UICONTROL IRIS] en segmentbestemmingen, [!UICONTROL IRIS] verzendt segmenten naar bestemmingen die op een reeks regels worden gebaseerd.
+Om verkeer tussen [!UICONTROL IRIS] en segmentbestemmingen te optimaliseren, verzendt [!UICONTROL IRIS] segmenten naar bestemmingen die op een reeks regels worden gebaseerd.
 
-1. **Nieuwe segmentkwalificatie**: wanneer een apparaat in aanmerking komt voor een nieuw segment, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan dat apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten.
+1. **Nieuwe segmentkwalificatie**: wanneer een apparaat voor een nieuw segment kwalificeert, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan dat apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten.
 
-1. **Nieuwe segmentdeskwalificatie**: wanneer een apparaat niet langer voor een segment in aanmerking komt, [!UICONTROL IRIS] verzendt alle segmentkwalificaties en ontzettingen verbonden aan dat apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten.
+1. **Nieuwe segmentdeskwalificatie**: wanneer een apparaat niet meer voor een segment kwalificeert, [!UICONTROL IRIS] verzendt alle segmentkwalificaties en ontzettingen verbonden aan dat apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten.
 
-1. **Updates voor doeltoewijzing**: wanneer een bestemmingstoewijzing wordt bijgewerkt, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan een apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd ziet de Audience Manager het apparaat.
+1. **de kaartupdates van de Bestemming**: wanneer een bestemmingstoewijzing wordt bijgewerkt, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan een apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd Audience Manager het apparaat ziet.
 
-1. **Updates van apparaatgrafieken**: wanneer een apparaat-id wordt toegevoegd aan of verwijderd uit de apparaatgrafiek die wordt gebruikt om een segment te evalueren, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan dat apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd ziet de Audience Manager het apparaat.
+1. **de grafieken van het Apparaat werkt** bij: wanneer om het even welke apparatenidentiteitskaart wordt toegevoegd of uit de apparatengrafiek wordt verwijderd die wordt gebruikt om een segment te evalueren, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan dat apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd Audience Manager het apparaat ziet.
 
 >[!IMPORTANT]
 >
->Als Audience Manager geen van de bovenstaande updates detecteert gedurende 3 opeenvolgende dagen, [!UICONTROL IRIS] verzendt alle segmenten verbonden aan een apparaat naar alle bestemmingen in kaart gebracht aan deze segmenten, de volgende tijd ziet de Audience Manager het apparaat.
+>Als Audience Manager drie opeenvolgende dagen geen updates detecteert, verzendt [!UICONTROL IRIS] alle segmenten die aan een apparaat zijn gekoppeld naar alle doelen die aan deze segmenten zijn toegewezen, de volgende keer dat Audience Manager het apparaat ziet.
 
-**Voorbeeldgegevensbestand**
+**het gegevensbestand van de Steekproef**
 
-Het volgende voorbeeld bevat real-time segmentgegevens van [!UICONTROL IRIS]. Houd er rekening mee dat dit alleen voorbeeldgegevens zijn. Elke klant kan verschillende opmaakvereisten hebben zodat de inhoud kan variëren.
+Het volgende voorbeeld bevat realtime segmentgegevens van [!UICONTROL IRIS] . Houd er rekening mee dat dit alleen voorbeeldgegevens zijn. Elke klant kan verschillende opmaakvereisten hebben zodat de inhoud kan variëren.
 
 ```
 {

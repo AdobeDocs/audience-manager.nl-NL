@@ -3,26 +3,26 @@ description: In dit artikel worden de vergelijkingsoperatoren beschreven die doo
 seo-description: This article describes the comparison operators used by Trait Builder.
 seo-title: Working with Comparison Operators in Trait Builder
 solution: Audience Manager
-title: Werken met vergelijkingsoperatoren in Eigenschapbuilder
+title: Werken met vergelijkingsoperatoren in Trait Builder
 uuid: 41bec3b3-e5df-4a6f-abb0-80ce4c75f5e7
 feature: Traits
 exl-id: 93181ca3-46c8-45ee-b0fb-da9ceec19a39
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 8%
+ht-degree: 4%
 
 ---
 
-# Werken met vergelijkingsoperatoren in Eigenschapbuilder {#working-with-comparison-operators-in-trait-builder}
+# Werken met vergelijkingsoperatoren in Trait Builder {#working-with-comparison-operators-in-trait-builder}
 
-In dit artikel worden de vergelijkingsoperatoren beschreven die door [!UICONTROL Trait Builder].
+In dit artikel worden de vergelijkingsoperatoren beschreven die door [!UICONTROL Trait Builder] worden gebruikt.
 
 ## Doel van de vergelijkingsoperatoren
 
 <!-- c_tb_comparison_operators.xml -->
 
-Vergelijkingsoperatoren (of relationele operatoren) worden gebruikt om de relatie tussen verschillende waarden te vergelijken, te testen of te evalueren. In [!UICONTROL Trait Builder]Wanneer u signaalregels maakt, kunt u met vergelijkingsoperatoren de relatie tussen verschillende sleutelwaardeparen testen. U kunt bijvoorbeeld een signaalregel maken om een publiek voor dure camerakoppen te definiëren. In dit geval kunt u een camera/prijs-sleutelwaardepaar maken en een gebruiker kwalificeren als deze naar een camera heeft gezocht met een prijs die gelijk is aan of hoger is dan een ingestelde hoeveelheid.
+Vergelijkingsoperatoren (of relationele operatoren) worden gebruikt om de relatie tussen verschillende waarden te vergelijken, te testen of te evalueren. In [!UICONTROL Trait Builder] kunt u bij het samenstellen van signaalregels met vergelijkingsoperatoren de relatie tussen verschillende sleutel-waardeparen testen. U kunt bijvoorbeeld een signaalregel maken om een publiek voor dure camerakoppen te definiëren. In dit geval kunt u een camera/prijs-sleutelwaardepaar maken en een gebruiker kwalificeren als deze naar een camera heeft gezocht met een prijs die gelijk is aan of hoger is dan een ingestelde hoeveelheid.
 
 ## Voordelen van vergelijkingsoperatoren
 
@@ -41,22 +41,21 @@ U kunt regels maken met de volgende vergelijkingsoperatoren:
 | **=>** | Groter dan/gelijk aan |
 | **&lt;=** | Kleiner dan/gelijk aan |
 
-## Benoemde operatoren
+## Benoemde operators
 
 U kunt regels maken met de volgende benoemde operatoren:
 
-| Operator | Evalueert naar [!DNL True] Wanneer |
+| Operator | Evalueert naar [!DNL True] When |
 |---|---|
-| **[!UICONTROL Contains]** | De waarde in een sleutelwaardepaar *contains* tekens die door deze operator worden opgegeven. |
-| **[!UICONTROL Matcheswords]** | De waarde in een sleutelwaardepaar *overeenkomsten* het patroon dat door deze operator wordt opgegeven. |
-| **[!UICONTROL Startswith]** | De waarde in een sleutelwaardepaar *begint met* tekens die door deze operator worden opgegeven. |
-| **[!UICONTROL Endswith]** | De waarde in een sleutelwaardepaar *eindigt met* de tekens die door deze operator worden opgegeven. |
-| **[!UICONTROL Matchesregex]** | De waarde in een sleutelwaardepaar *overeenkomsten* het patroon dat wordt opgegeven door een reguliere expressie. [Meer informatie](../../features/traits/trait-builder-regex.md) over het gebruik van reguliere expressies in [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Contains]** | De waarde in een zeer belangrijk-waardepaar *bevat* karakters die door deze exploitant worden gespecificeerd. |
+| **[!UICONTROL Matcheswords]** | De waarde in een zeer belangrijk-waardepaar *past* het patroon aan dat door deze exploitant wordt gespecificeerd. |
+| **[!UICONTROL Startswith]** | De waarde in een zeer belangrijk-waardepaar *begint met* karakters die door deze exploitant worden gespecificeerd. |
+| **[!UICONTROL Endswith]** | De waarde in een zeer belangrijk-waardepaar *beëindigt met* de karakters die door deze exploitant worden gespecificeerd. |
+| **[!UICONTROL Matchesregex]** | De waarde in een zeer belangrijk-waardepaar *past* het patroon aan dat door een regelmatige uitdrukking wordt gespecificeerd. [ leer meer ](../../features/traits/trait-builder-regex.md) over het gebruiken van regelmatige uitdrukkingen in [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
 >* [Booleaanse expressies in Trait en Segment Builder](../../reference/boolean-expressions-tsb.md)
->* [Booleaanse expressies begrijpen in TraitBuilder](../../reference/boolean-expressions-tsb.md)
->* [Orde van Verrichtingen in Uitdrukkingen TraitBuilder](../../features/traits/trait-operator-precedence.md)
+>* [ Begrijpend de Uitdrukkingen Van Boole in TraitBuilder ](../../reference/boolean-expressions-tsb.md)
+>* [ Orde van Verrichtingen in Uitdrukkingen TraitBuilder ](../../features/traits/trait-operator-precedence.md)
 >* [Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren](../../features/traits/trait-expression-samples.md)
-

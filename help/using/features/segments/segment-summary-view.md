@@ -10,47 +10,47 @@ feature: Segments
 exl-id: d33c8146-fd98-47fc-aa3d-96f002538df4
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Pagina Segmentdetails {#segment-summary-view}
 
-De detailspagina voor een individueel segment verstrekt een overzicht van de segmentdetails, zoals de segmentnaam, identiteitskaart, prestatiesmetriek, regels die het segment, en de bestemmingstoewijzingen bepalen. Ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** en klik op de naam van het segment waarmee u wilt werken.
+De detailspagina voor een individueel segment verstrekt een overzicht van de segmentdetails, zoals de segmentnaam, identiteitskaart, prestatiesmetriek, regels die het segment, en de bestemmingstoewijzingen bepalen. Als u deze details wilt weergeven, gaat u naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** en klikt u op de naam van het segment waarmee u wilt werken.
 
 ## Segmentbeheertools {#segment-management-tools}
 
 De bovenkant van de pagina van de segmentdetails bewaart de hulpmiddelen die u kunt gebruiken om uw segmenten te beheren:
 
-1. **[!UICONTROL Add New]**: Gebruik deze optie om de [!UICONTROL Segment Builder] en maakt u nieuwe segmenten.
+1. **[!UICONTROL Add New]**: Gebruik deze optie om [!UICONTROL Segment Builder] te activeren en nieuwe segmenten te maken.
 2. **[!UICONTROL Edit]**: Gebruik deze optie om de configuratie van het huidige segment te wijzigen.
 3. **[!UICONTROL Duplicate]**: Gebruik deze optie om een kopie van het huidige segment te maken.
-4. **[!UICONTROL Delete]**: Gebruik deze optie om het huidige segment uit uw rekening van de Audience Manager te verwijderen.
-5. **[!UICONTROL Marketplace Recommendations]**: Gebruik deze optie om vergelijkbare segmenten te zoeken als de segmenten die u bekijkt, van [!UICONTROL Audience Marketplace] gegevensfeeds waarop u geen abonnement hebt. Zie [Audience Marketplace voor gegevenskopers](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) om te leren hoe te om de Marketplace te navigeren en gelijkaardige segmenten te vinden.
+4. **[!UICONTROL Delete]**: Gebruik deze optie om het huidige segment uit uw Audience Manager-account te verwijderen.
+5. **[!UICONTROL Marketplace Recommendations]**: met deze optie kunt u zoeken naar segmenten die vergelijkbaar zijn met de segmenten die u bekijkt, vanuit [!UICONTROL Audience Marketplace] -gegevensfeeds waarop u geen abonnement hebt. Zie [ Audience Marketplace voor de Kopers van Gegevens ](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) leren hoe te om de Marketplace te navigeren en gelijkaardige segmenten te vinden.
 
-![basissegmentinformatie](assets/basic-segment-information.png)
+![ basis-segment-informatie ](assets/basic-segment-information.png)
 
 ## Segmentinformatie {#basics}
 
 Onder de hulpmiddelen van het segmentbeheer kunt u de volgende segmentinformatie vinden:
 
-1. **[!UICONTROL Basic Information]:** Hiermee geeft u de vereiste en optionele details weer die bij het maken van het segment zijn opgegeven. Zie [Segment Builder](segment-builder.md) voor een gedetailleerd overzicht van wat deze velden betekenen.
-2. **[!UICONTROL Segment Graph]:** Geeft prestatiegegevens grafisch weer en voor vaste intervallen van 1, 7, 14, 30, 60 en 90 dagen. We verklaren segmentpopulatieaantallen in een [afzonderlijk artikel](../../features/segments/segment-builder-data.md).
+1. **[!UICONTROL Basic Information]:** toont vereiste en facultatieve details die bij de verwezenlijking van het segment werden gespecificeerd. Zie {de Bouwer van het 0} Segment [ voor een gedetailleerd overzicht van wat deze gebieden betekenen.](segment-builder.md)
+2. **[!UICONTROL Segment Graph]:** geeft prestatiegegevens grafisch weer en voor vaste intervallen van 1, 7, 14, 30, 60 en 90 dagen. Wij verklaren segmentpopulatieaantallen in a [ afzonderlijk artikel ](../../features/segments/segment-builder-data.md).
 
-   ![segmentgrafiek](assets/segment-graph.png)
+   ![ segmenten-grafiek ](assets/segment-graph.png)
 
-3. **[!UICONTROL Identity Type Breakdown &#x200B;]:** Het rapport toont het aantal mensen of huishoudens die voor een segment in aanmerking komen door het aantal apparaat-id&#39;s en/of externe apparaat-grafiek-id&#39;s te tellen die zijn gekoppeld aan de apparaten die voor het segment in aanmerking kwamen (weergegeven door het [!UICONTROL Total Segment Population]). De apparaat-id&#39;s en externe apparaatgrafiek-id&#39;s die in dit rapport worden weergegeven, worden gebruikt om profielen samen te voegen met de regel voor het samenvoegen van profielen die het segment gebruikt. Dit rapport wordt alleen weergegeven als u een apparaatgegevensbron of een externe apparaatgrafiek hebt geselecteerd in de regel voor het samenvoegen van profielen die het segment gebruikt.
+3. **[!UICONTROL Identity Type Breakdown]:** het rapport toont het aantal mensen of huishoudens die voor een segment door het aantal dwars-apparaat IDs en/of Externe identiteitskaart van de Grafiek van het Apparaat te tellen die met de apparaten verbonden zijn die voor het segment (die door [!UICONTROL Total Segment Population] worden getoond) kwalificeren. De apparaat-id&#39;s en externe apparaatgrafiek-id&#39;s die in dit rapport worden weergegeven, worden gebruikt om profielen samen te voegen met de regel voor het samenvoegen van profielen die het segment gebruikt. Dit rapport wordt alleen weergegeven als u een apparaatgegevensbron of een externe apparaatgrafiek hebt geselecteerd in de regel voor het samenvoegen van profielen die het segment gebruikt.
 
-   ![segmentgrafiek](assets/segment-type.png)
+   ![ segmenten-grafiek ](assets/segment-type.png)
 
    >[!NOTE]
    >
-   >Audience Manager geeft alleen de [!UICONTROL Identity Type Breakdown] rapporteren als u apparaat-id&#39;s hebt die zijn gekwalificeerd voor het segment.
+   >Audience Manager geeft het [!UICONTROL Identity Type Breakdown] -rapport alleen weer als u id&#39;s voor alle apparaten hebt die voor het segment zijn gekwalificeerd.
 
-   Bekijk de onderstaande video voor een overzicht van [!UICONTROL Identity Type Breakdown].
+   Bekijk de onderstaande video voor een overzicht van [!UICONTROL Identity Type Breakdown] .
    >[!VIDEO](https://video.tv.adobe.com/v/27977/)
 
-4. **[!UICONTROL Segment Rules]:** Maakt een lijst van eigenschappen in het segment samen met kwalificatieregels.
-5. **[!UICONTROL Destination Mappings]:** Vermeldt bestemmingstoewijzingen voor het segment.
-6. **[!UICONTROL Management Tools]:** Besturingselementen waarmee u segmenten kunt maken, bewerken, klonen en verwijderen.
+4. **[!UICONTROL Segment Rules]:** maakt een lijst van eigenschappen in het segment samen met kwalificatieregels.
+5. **[!UICONTROL Destination Mappings]:** maakt een lijst van bestemmingstoewijzingen voor het segment.
+6. **[!UICONTROL Management Tools]:** Controles die u, segmenten tot stand laten brengen uitgeven, klonen en schrappen.

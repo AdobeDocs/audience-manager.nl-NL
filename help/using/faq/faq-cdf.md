@@ -9,8 +9,8 @@ feature: Customer Data Feeds
 exl-id: a948accc-6bec-4748-bcc8-2b77acf6b96a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ Nogmaals, dit is moeilijk in te schatten. Maar als u CDF-bestanden gaat ontvange
 
 <br>
 
-## Data-integriteit {#data-integrity}
+## Gegevensintegriteit {#data-integrity}
 
 **Hoe kan ik de integriteit controleren van de data die naar Amazon S3 zijn geüpload?**
 
@@ -72,7 +72,7 @@ Nogmaals, dit is moeilijk in te schatten. Maar als u CDF-bestanden gaat ontvange
 
 <br> 
 
-## Dataretentie {#data-retension}
+## Gegevens bewaren {#data-retension}
 
 **Hoe lang slaat u CDF-bestanden op?**
 
@@ -87,4 +87,3 @@ U kunt alleen CDF-bestanden genereren voor de afgelopen acht dagen. CDF-bestande
 >[!MORELIKETHIS]
 >
 >* [Klantdatafeeds](../features/cdf-files.md)
-

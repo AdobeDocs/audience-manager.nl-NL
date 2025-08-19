@@ -8,7 +8,7 @@ uuid: 56a1e88a-41da-4d51-a21e-2be98cca7fa2
 feature: Log Files
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Statusupdates voor metagegevensbestanden{#status-updates-for-metadata-files}
 
-De S3-statusmap bevat een `.info` bestanden met succes- en foutgegevens over uw geüploade bestanden. Het bestand bevat gegevens met JSON-indeling met statusresultaten in een array.
+De S3-statusmap bevat een `.info` -bestand met gelukte en mislukte informatie over de geüploade bestanden. Het bestand bevat gegevens met JSON-indeling met statusresultaten in een array.
 
-De inhoud van uw `.info` Het bestand zal er ongeveer zo uitzien als in dit voorbeeld.
+De inhoud van het `.info` -bestand ziet er ongeveer zo uit als in dit voorbeeld.
 
 ```js
 //sample file path
@@ -61,9 +61,9 @@ De inhoud van uw `.info` Het bestand zal er ongeveer zo uitzien als in dit voorb
 
 ## Metagegevens sleutelwaardeparen gedefinieerd {#key-value-pairs}
 
-In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties van een bestand met de metagegevensstatus.
+In de volgende tabellen worden de sleutels in de secties `Files` en `Summary` van een metagegevensstatusbestand weergegeven en gedefinieerd.
 
-**Toetsen in de bestandenarray**
+**Sleutels in de Serie van Dossiers**
 
 <table id="table_BF23C032FEFA446282E9364E85BE8C9F"> 
  <thead> 
@@ -83,19 +83,19 @@ In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties va
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileChecksumMD5</code> </p> </td> 
-   <td colname="col2"> <p>De MD 5-controlesom voor het metagegevensbestand dat naar uw <code> meta</code> directory. </p> </td> 
+   <td colname="col2"> <p>De MD 5-controlesom voor het metagegevensbestand dat is geüpload naar uw <code> meta</code> -map. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> FileName</code> </p> </td> 
-   <td colname="col2"> <p>De naam van het metagegevensbestand dat naar uw <code> meta</code> directory. </p> </td> 
+   <td colname="col2"> <p>De naam van het metagegevensbestand dat naar de map <code> meta</code> is geüpload. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MetadataType</code> </p> </td> 
-   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de onderliggende id in uw bestandsnaam. </p> <p>Zie <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naamgevingsconventies voor metagegevensbestanden</a>. </p> </td> 
+   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de onderliggende id in uw bestandsnaam. </p> <p>Zie <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Namen van conventies voor metagegevensbestanden </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Parent</code> </p> </td> 
-   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de bovenliggende id in uw bestandsnaam. </p> <p>Zie <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Naamgevingsconventies voor metagegevensbestanden</a>. </p> </td> 
+   <td colname="col2"> <p>De leesbare naam voor het type gegevens dat uw bestand bevat. Deze is gebaseerd op de bovenliggende id in uw bestandsnaam. </p> <p>Zie <a href="../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md"> Namen van conventies voor metagegevensbestanden </a> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> Status</code> </p> </td> 
@@ -108,7 +108,7 @@ In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties va
  </tbody> 
 </table>
 
-**Toetsen in het object Summary**
+**Sleutels in het Summiere Voorwerp**
 
 <table id="table_C765A0CDBAA14A2FB5E0D38BDD1D292A"> 
  <thead> 
@@ -120,7 +120,7 @@ In de volgende tabellen worden de sleutels in de `Files` en `Summary` secties va
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> Day</code> </p> </td> 
-   <td colname="col2"> <p>Datum bestandsverwerking in <code><i>yyyy-mm-dd</i></code> gebruiken. </p> </td> 
+   <td colname="col2"> <p>Datum van bestandsverwerking in <code><i>yyyy-mm-dd</i></code> -indeling. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> GlobalStatus</code> </p> </td> 

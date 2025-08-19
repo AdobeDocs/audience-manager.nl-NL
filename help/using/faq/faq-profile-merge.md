@@ -10,8 +10,8 @@ feature: Profile Merge
 exl-id: 03ad79b7-a111-437e-82c5-c7406bd33c39
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 82%
+source-wordcount: '1583'
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Antwoorden op veelgestelde vragen over regels voor profielsamenvoeging en appara
 
 <!-- profile-merge-faq.xml -->
 
-## Basisbeginselen van apparaatgrafieken {#device-graph-basics}
+## Grondbeginselen van apparaatgrafiek {#device-graph-basics}
 
 **Wat is een apparaatgrafiek?**
 
@@ -31,13 +31,13 @@ Een apparaatgrafiek is een set id-toewijzingen waarmee groepen van anonieme appa
 
 **Wat is een externe apparaatgrafiek?**
 
-Een externe apparaatgrafiek is een apparaatgrafiek in [!DNL Audience Manager] die niet uitsluitend op basis van uw eigen cross-device databronnen is gemaakt. Wanneer u bijvoorbeeld een [Regel voor samenvoegen van profiel](../features/profile-merge-rules/merge-rules-start.md) en kies de grafiekopties voor apparaten van derden, werkt u met een externe apparaatgrafiek. Zie [Apparaatopties](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Een externe apparaatgrafiek is een apparaatgrafiek in [!DNL Audience Manager] die niet uitsluitend op basis van uw eigen cross-device databronnen is gemaakt. Bijvoorbeeld, wanneer u de Regel van de Fusie van het a [ Profiel ](../features/profile-merge-rules/merge-rules-start.md) creeert en de opties van de de grafiekgrafiek van het derdeapparaat kiest, werkt u met een externe apparatengrafiek. Zie [Apparaatopties](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 
 **Wat zijn gangbare gebruiksscenario’s voor het gebruik van een externe apparaatgrafiek in een [!UICONTROL Profile Merge Rule]?**
 
-Het belangrijkste doel van het gebruik van een apparaatgrafiek in een [!UICONTROL Profile Merge Rule] is het evalueren en kwalificeren van meerdere apparaten die tot één persoon of huishouden behoren voor een bepaald segment. Het segment zelf kan veelvoudige toepassingen bijvoorbeeld hebben, richtend een publiek van vooruitzichten met een advertentie die door een DSP wordt gediend of personaliserend de ervaring van een klant onsite via een onsite verpersoonlijkingsplatform. Zie [Gebruiksscenario’s voor externe apparaatgrafieken](../features/profile-merge-rules/external-graph-use-cases.md).
+Het belangrijkste doel van het gebruik van een apparaatgrafiek in een [!UICONTROL Profile Merge Rule] is het evalueren en kwalificeren van meerdere apparaten die tot één persoon of huishouden behoren voor een bepaald segment. Het segment zelf kan veelvoudige toepassingen hebben, bijvoorbeeld, richtend een publiek van vooruitzichten met een advertentie die door een DSP wordt gediend of personaliserend de ervaring van een klant onsite via een onsite verpersoonlijkingsplatform. Zie [Gebruiksscenario’s voor externe apparaatgrafieken](../features/profile-merge-rules/external-graph-use-cases.md).
 
  
 
@@ -53,7 +53,7 @@ Eenmaal per week.
 
  
 
-## Apparaatgrafieken en regels voor profielsamenvoeging {#device-graph-profile-merge-rules}
+## Apparaatgrafieken en regels voor het samenvoegen van profielen {#device-graph-profile-merge-rules}
 
 **Hoe wordt een apparaatgrafiek in [!DNL Audience Manager] gebruikt?**
 
@@ -89,7 +89,7 @@ De apparaten die [!DNL Audience Manager] samenvoegt en leest, zijn dezelfde appa
 
  
 
-## Segmenten, apparaatgrafieken en regels voor profielsamenvoeging {#segments-device-graphs-rules}
+## Segmenten, apparaatgrafieken en regels voor het samenvoegen van profielen {#segments-device-graphs-rules}
 
 **Hoe desegmenteert [!DNL Audience Manager] een apparaat wanneer het niet langer kwalificeert voor een segment met een [!UICONTROL Profile Merge Rule] die een apparaatgrafiek gebruikt?**
 
@@ -111,7 +111,7 @@ Ja.
 
 **Omvatten de schattingen van de segmentgrootte apparaten die voor een segment kwalificeren op basis van verbindingen geleverd door een [!UICONTROL Profile Merge Rule] die een apparaatgrafiekoptie gebruikt?**
 
-Nee. Zie de definities voor [!UICONTROL Estimated Real-Time Population] en [!UICONTROL Estimated Total Population] in [Populatiedata van eigenschappen en segmenten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=nl-NL).
+Nee. Zie de definities voor [!UICONTROL Estimated Real-Time Population] en [!UICONTROL Estimated Total Population] in [Populatiedata van eigenschappen en segmenten in Segment Builder](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html).
 
  
 
@@ -127,7 +127,7 @@ Ja. In Audience Manager worden voor de segmentevaluatie geen eigenschappen meege
 
  
 
-## Eigenschapfrequentie, apparaatgrafieken en regels voor profielsamenvoeging {#trait-freq-device-rules}
+## Trait Frequency, Device Graphs en Profile Merge Rules {#trait-freq-device-rules}
 
 **Hoe berekent [!DNL Audience Manager] de frequentie van eigenschappen met een [!UICONTROL Profile Merge Rule] die gebruikmaakt van een apparaatgrafiek?**
 
@@ -167,7 +167,7 @@ De eigenschapfrequentie wordt gedefinieerd door de som van het aantal kwalificat
 
  
 
-## Rapporten, apparaatgrafieken en regels voor profielsamenvoeging {#reports-device-graphs-rules}
+## Rapporten, Apparaatgrafieken en Regels voor het samenvoegen van profielen {#reports-device-graphs-rules}
 
 **Kan ik het aantal apparaten zien dat kan worden bereikt door een [!UICONTROL Profile Merge Rule] die gebruikmaakt van een apparaatgrafiek?**
 
@@ -259,13 +259,13 @@ Ja. Het cijfer van de totale segmentpopulatie omvat de extra apparaten die kwali
 
 Nee.
 
-**Waarom zie ik geen segmentpopulatie voor segmentexport naar Adobe Campaign na 16 maart 2020?**
+**waarom zie ik nul segmentbevolking voor segmentuitvoer naar Adobe Campaign na 16 Maart, 2020?**
 
 Eind 2019 hebben we een aantal verbeteringen in de regels voor het samenvoegen van profielen gepubliceerd om de nauwkeurigheid van batchbestanden die met id&#39;s voor meerdere apparaten zijn gegenereerd, te verbeteren. Deze verbeteringen worden strikt nageleefd in uw Audience Manager-exemplaar vanaf maandag 16 maart 2020. Dientengevolge, zullen de segmenten die aan een bestemming worden in kaart gebracht gebruikend cross-device IDs ophouden producerend de uitvoer in sommige configuraties van de Regels van de Fusie van het Profiel.
 
-Om de correcte integratie tussen uw instantie van de Audience Manager en bestemmingen te verzekeren gebruikend dwars-apparaat IDs, zoals Adobe Campaign, zorg ervoor u aan de volgende vereisten voldoet:
+Om de correcte integratie tussen uw Audience Manager-instantie en bestemmingen te verzekeren die gebruik maken van apparaat-id&#39;s, zoals Adobe Campaign, moet u aan de volgende vereisten voldoen:
 
-1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan de bestemming van de door Adobe Campaign aangegeven id. De regel voor het samenvoegen van profielen moet de opdracht [!UICONTROL Last Authenticated Profile] zodat alle geverifieerde profielen in de exportbewerking kunnen worden opgenomen. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile].
+1. Controleer de regel voor het samenvoegen van profielen die wordt gebruikt door de segmenten die zijn toegewezen aan de bestemming van de door Adobe Campaign aangegeven id. De regel voor het samenvoegen van profielen moet de optie [!UICONTROL Last Authenticated Profile] gebruiken, zodat alle geverifieerde profielen kunnen worden opgenomen in de exportbewerking. Als de regel voor het samenvoegen van profielen een andere optie gebruikt, schakelt u deze over naar [!UICONTROL Last Authenticated Profile] .
 2. Selecteer de gegevensbron voor de Adobe Campaign-declaratie-id in de instellingen voor de regel voor het samenvoegen van profielen.
 
 >[!NOTE]
@@ -275,4 +275,3 @@ Om de correcte integratie tussen uw instantie van de Audience Manager en bestemm
 >[!MORELIKETHIS]
 >
 >* [Profielkoppeling](../features/profile-merge-rules/profile-link-use-case.md)
-

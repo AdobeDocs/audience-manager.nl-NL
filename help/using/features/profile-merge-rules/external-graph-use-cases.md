@@ -1,28 +1,28 @@
 ---
-description: Recommendations en gebruik gevallen voor prospectie, herbestemming en personalisatie voor onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de integratie van Adobe met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
+description: Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van Audience Manager. Dit omvat integratie van Adobe met deterministische of probabilistische ondernemingen van de apparatengrafiek van derden.
 seo-description: Recommendations and use cases for prospecting, retargeting, and personalization for unknown users with an external device graph. An external device graph is defined as a device graph that is separate from Audience Manager. This includes integrations Adobe has with third-party deterministic or probabilistic device graph companies.
 seo-title: External Device Graph Use Cases
 solution: Audience Manager
-title: Gebruiksscenario’s voor grafiek van externe apparaten
+title: Gebruiksscenario's externe apparaatgrafiek
 uuid: f4bc822d-39d2-4680-90ed-7ee2ead6db6f
 feature: Profile Merge
 exl-id: 657aecfd-7fa3-466e-8331-c49cc921e3a9
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 7%
+source-wordcount: '294'
+ht-degree: 4%
 
 ---
 
-# Gebruiksscenario’s voor grafiek van externe apparaten {#external-device-graph-use-cases}
+# Gebruiksscenario&#39;s externe apparaatgrafiek {#external-device-graph-use-cases}
 
-Recommendations en gebruik gevallen voor prospectie, herbestemming en personalisatie voor onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van de Audience Manager. Dit geldt ook voor de integratie van Adobe met deterministische of probabilistische apparaatgrafiekbedrijven van derden.
+Aanbevelingen en gebruiksgevallen voor het doorzoeken, opnieuw richten en personaliseren van onbekende gebruikers met een externe apparaatgrafiek. Een externe apparaatgrafiek wordt gedefinieerd als een apparaatgrafiek die los staat van Audience Manager. Dit omvat integratie van Adobe met deterministische of probabilistische ondernemingen van de apparatengrafiek van derden.
 
-## Recommendations {#recommendations}
+## Aanbevelingen {#recommendations}
 
 Overweeg grafiekopties van apparaten van derden voor campagnes die:
 
-* Een laag verificatieniveau hebben voor alle digitale eigenschappen. Gebruik de [!UICONTROL Profile Link Device Graph option] als u een groot aantal geverifieerde gebruikers hebt.
+* Een laag verificatieniveau hebben voor alle digitale eigenschappen. Gebruik [!UICONTROL Profile Link Device Graph option] als u een groot aantal geverifieerde gebruikers hebt.
 * Doelgroep: groot publiek. Apparaatgrafieken van derden bevatten geverifieerde en niet-geverifieerde gegevens.
 * Segment geauthenticeerde en/of ongeautoriseerde bezoekers op individueel en huishoudelijk niveau.
 
@@ -114,21 +114,20 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 ## Geavanceerde interDevice-doelen {#advanced-graph-expansion}
 
-In dit gebruiksgeval ziet u hoe u doelgroepen voor geverifieerde bezoekers kunt uitbreiden met apparaten in een externe apparaatgrafiek, door het **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** regel.
+In dit geval kunt u met de regel **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** de doelgroep voor geverifieerde bezoekers uitbreiden met apparaten uit een externe apparaatgrafiek.
 
-![last-device-graph](assets/last-profile-link.png)
+![ last-apparaat-grafiek ](assets/last-profile-link.png)
 
-In het onderstaande voorbeeld wil het bedrijf Acme Inc. zich richten op alle huishoudens met een inkomen van meer dan $100.000/jaar, die [!DNL Acme Inc.] abonnees op [!DNL Data Plan A], die een [!DNL iPhone 7] apparaat.
+In het onderstaande voorbeeld wil het bedrijf Acme Inc. zich richten op alle huishoudens met een inkomen van meer dan $100.000/jaar, die [!DNL Acme Inc.] abonnees op [!DNL Data Plan A] hebben, die een [!DNL iPhone 7] apparaat gebruiken.
 
-John gebruikt zijn iPhone 7 op Plan A van Gegevens om op de website van Acme Inc. voor authentiek te verklaren. Tegelijkertijd is het [!DNL Profile Link Device Graph] cluster bevat twee extra apparaten die hij regelmatig gebruikt: zijn laptop ([!DNL Device 1]) en zijn secundaire smartphone, [!DNL Device 2] a) [!DNL Samsung S7] op [!DNL Data Plan B]).
+John gebruikt zijn iPhone 7 op Plan A van Gegevens om op de website van Acme Inc. voor authentiek te verklaren. Tegelijkertijd bevat het John&#39;s [!DNL Profile Link Device Graph] -cluster twee aanvullende apparaten die hij regelmatig gebruikt: zijn laptop ([!DNL Device 1] ) en zijn secundaire smartphone, [!DNL Device 2] (a [!DNL Samsung S7] on [!DNL Data Plan B] ).
 
-Met de **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]**, [!DNL Acme Inc.] kan gepersonaliseerde berichten aan alle drie apparaten van de cluster van de apparatengrafiek van John leveren, alhoewel slechts één van hen aanvankelijk voor het segment kwalificeert.
+Door **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** te gebruiken, [!DNL Acme Inc.] kan gepersonaliseerde berichten aan alle drie apparaten van de cluster van de apparatengrafiek van John leveren, alhoewel slechts één van hen aanvankelijk voor het segment kwalificeert.
 
-![geavanceerd-grafiek-uitbreiding](assets/advanced-device-graph-expansion.png)
+![ ver-grafiek-uitbreiding ](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >
 >* [Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen](profile-link-use-case.md)
 >* [Algemene gebruiksscenario’s voor regels voor profielsamenvoeging](merge-rule-targeting-options.md)
->* [Veelgestelde vragen over regels voor samenvoegen van profielen](../../faq/faq-profile-merge.md)
-
+>* [ Veelgestelde vragen van de Regels van de Fusie van het Profiel ](../../faq/faq-profile-merge.md)

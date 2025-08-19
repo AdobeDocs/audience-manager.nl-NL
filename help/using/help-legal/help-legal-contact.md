@@ -8,8 +8,8 @@ feature: Support
 exl-id: 02c80394-c5ed-4963-8543-4585c0c289c6
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '243'
+ht-degree: 93%
 
 ---
 
@@ -30,12 +30,12 @@ Het Adobe Experience Cloud-klantenserviceteam is hier om u te helpen en biedt ee
 
 Afhankelijk van de configuratie van uw oplossing zijn sommige opties die in deze documentatie worden beschreven, mogelijk niet voor u beschikbaar. Aangezien elk account uniek is, kunt u het beste uw contract raadplegen voor prijzen, vervaldatums, voorwaarden en bepalingen. Neem contact op met uw accountmanager als u uw serviceniveau wilt wijzigen of uitbreiden, of als u vragen hebt over uw huidige service.
 
-## Juridische informatie {#legal}
+## Juridisch {#legal}
 
 Published by Adobe Systems Incorporated.
 
 [Gebruiksvoorwaarden](https://www.adobe.com/nl/legal/terms.html) | [Privacy Center](https://www.adobe.com/nl/privacy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. Een handelsmerksymbool (®, ™, etc.) geeft een Adobe-handelsmerk aan.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_nl](https://www.adobe.com/nl/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/nl/products/eula/third_party/).

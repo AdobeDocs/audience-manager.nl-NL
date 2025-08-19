@@ -9,7 +9,7 @@ feature: Data Governance & Privacy
 exl-id: ff2aa030-94cd-45dc-a9a2-283b38ab5e46
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 96%
 
 ---
@@ -56,7 +56,7 @@ Some partners, as listed in the table below, have changed their integration requ
  </tbody> 
 </table> -->
 
-## Audience Manager-gebruikersinterfaceupdate - Yahoo/Oath/DataX-integratie {#ui-update}
+## Audience Manager-update gebruikersinterface - Yahoo/Oath/DataX-integratie {#ui-update}
 
 Naast de hierboven vermelde updates van het IAB-framework heeft Yahoo/Oath/DataX de nieuwe parameters **gdpr** en **gdpr_mode** toegevoegd aan hun taxonomie- en Audience-API’s. Hun parameters laten Yahoo/Oath/DataX weten dat ze de rechten hebben om een bepaald segment te verwerken als dataverwerker of datacontroller. Daardoor moeten Audience Manager-klanten die segmenten naar een Yahoo/Oath/DataX-bestemming verzenden, de juiste parameter (Processor of Controller) aangeven op basis van hun overeenkomst met Oath.
 

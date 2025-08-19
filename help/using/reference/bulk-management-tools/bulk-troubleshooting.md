@@ -3,18 +3,18 @@ description: Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bul
 seo-description: What to do when the worksheets return an error or your bulk request fails.
 seo-title: Troubleshooting Tips for Bulk Management Tools
 solution: Audience Manager
-title: Tips voor het oplossen van problemen met Bulk Management Tools
+title: Tips voor het oplossen van problemen voor Bulk Management Tools
 uuid: 550908a1-e24e-4f31-954b-7132c0c8dc3e
 feature: BAAAM
 exl-id: 4f1c501c-2e28-4ce5-829f-4d81d10cdccd
 source-git-commit: bd1ad233dd69bc8683731d0c63dc3fb74ef91ade
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 2%
+source-wordcount: '410'
+ht-degree: 0%
 
 ---
 
-# Tips voor het oplossen van problemen met Bulk Management Tools{#troubleshooting-tips-for-bulk-management-tools}
+# Tips voor het oplossen van problemen voor Bulk Management Tools{#troubleshooting-tips-for-bulk-management-tools}
 
 Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontbreekt.
 
@@ -30,7 +30,7 @@ Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontb
 
 >[!NOTE]
 >
->[RBAC-groepsmachtigingen](../../features/administration/administration-overview.md) toegewezen in de [!DNL Audience Manager] UI wordt gerespecteerd in [!UICONTROL Bulk Management Tools].
+>[ RBAC groepstoestemmingen ](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
 
 Factoren zoals zwaar netwerkverkeer, servergebruik, en grote gegevensreeksen kunnen een bulkverzoek veroorzaken om of uit tijd te ontbreken. Als er een probleem is, stopt het werkblad met het schrijven van gegevens en wordt er een foutbericht weergegeven. Wanneer dit gebeurt, moet u:
 
@@ -52,21 +52,21 @@ De volgende lijst maakt een lijst van sommige gemeenschappelijke problemen u wan
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Verificatiefout</b> </td> 
+   <td colname="col1"> <b> fout van de Authentificatie </b> </td> 
    <td colname="col2"> 
-    <b>Bijwerken naar de nieuwste versie van Microsoft Excel</b>: Wanneer een nieuwe versie van Microsoft Excel wordt vrijgegeven en u een oudere versie gebruikt, zou u een authentificatiefout in het Werkblad van het Beheer van het Bulk kunnen ontmoeten. Update naar de nieuwste versie van Microsoft Excel om de verificatiefout op te lossen.
+    <b> Update aan recentste versie van Microsoft Excel </b>: Wanneer een nieuwe versie van Microsoft Excel wordt vrijgegeven en u een oudere versie gebruikt, zou u een authentificatiefout in het Werkblad van het Beheer van het Bulk kunnen ontmoeten. Update naar de nieuwste versie van Microsoft Excel om de verificatiefout op te lossen.
 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Lange vertragingen</b> </td> 
+   <td colname="col1"> <b> Lange vertragingen </b> </td> 
    <td colname="col2"> 
     <ul id="ul_AA6F414024B2475AB1C0B46DC3FF0B36"> 
-     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b>Compatibiliteitsmodus uitschakelen</b>: Controleer of er andere werkbladen zijn geopend in de compatibiliteitsmodus van Microsoft Excel. In de compatibiliteitsmodus kunnen de runtimes toenemen. Sluit spreadsheets die geopend zijn in deze modus en probeer het bulkverzoek opnieuw. </li> 
-     <li id="li_234BFCF563234DE198884F33AB75280D"> <b>Systeembronnen</b>: Beperkte systeembronnen dragen bij tot lange vertragingen. Sluit alle andere programma's voordat u een aanvraag bulksgewijs indient. </li> 
+     <li id="li_ECC83AC39D7142519AA9A223DB8FCF23"> <b> draai van verenigbaarheidswijze </b>: Controle als u andere aantekenvellen open op de verenigbaarheidswijze van Microsoft Excel hebt. In de compatibiliteitsmodus kunnen de runtimes toenemen. Sluit spreadsheets die geopend zijn in deze modus en probeer het bulkverzoek opnieuw. </li> 
+     <li id="li_234BFCF563234DE198884F33AB75280D"> <b> middelen van het Systeem </b>: De beperkte systeemmiddelen dragen aan lange vertragingen bij. Sluit alle andere programma's voordat u een aanvraag bulksgewijs indient. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Geen reactie</b> </td> 
+   <td colname="col1"> <b> Geen reactie </b> </td> 
    <td colname="col2">Als u op een actieknop klikt en er gebeurt niets: 
     <ul id="ul_142E63CDD556414AB639E51734FEDBCF"> 
      <li id="li_DBB6C819603D46B5AECC9C854FDAFDF1">Zorg ervoor dat u de juiste kopteksten voor de selectieactie hebt. </li> 
@@ -79,4 +79,4 @@ De volgende lijst maakt een lijst van sommige gemeenschappelijke problemen u wan
 
 ## Foutberichten
 
-Soms kunt u foutberichten ontvangen wanneer u bulksgewijs wijzigingen aanbrengt. Als u het foutbericht wilt interpreteren, raadpleegt u [Responscodes gedefinieerd](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API-documentatie.
+Soms kunt u foutberichten ontvangen wanneer u bulksgewijs wijzigingen aanbrengt. Om het foutenbericht te interpreteren, zie [ Gedefinieerde Codes van de Reactie ](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API documentatie.

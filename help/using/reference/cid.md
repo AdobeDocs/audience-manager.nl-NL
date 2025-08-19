@@ -9,18 +9,18 @@ feature: Reference
 exl-id: 18e6b1db-fe51-4560-9458-8d65474d2506
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 2%
+source-wordcount: '606'
+ht-degree: 0%
 
 ---
 
 # CID vervangt DPID en DPUUID{#cid-replaces-dpid-and-dpuuid}
 
-De te gebruiken code bijwerken `d_cid` of `d_cid_ic` in plaats van `d_dpid` en `d_dpuuid`. De variabelen DPID en DPUUID blijven werken, maar u zou hen moeten overwegen verouderd. Dit omvat DPID- en DPUUID-varianten zonder de `d_ prefix`.
+Werk de code bij voor gebruik van `d_cid` of `d_cid_ic` in plaats van `d_dpid` en `d_dpuuid` . De variabelen DPID en DPUUID blijven werken, maar u zou hen moeten overwegen verouderd. Dit zijn DPID- en DPUUID-varianten zonder de `d_ prefix` .
 
-## DPID en DPUUID: Een revisie {#dpid-dpuuid-review}
+## DPID en DPUUID: een revisie {#dpid-dpuuid-review}
 
-DPID en DPUUID zijn zeer belangrijk-waardeparen die een gegevensleverancier identiteitskaart en een gebruiker - identiteitskaart bevatten. Deze sleutelwaardeparen koppelen leverancier-id&#39;s aan gebruiker-id&#39;s. Zij verzenden in gegevens tijdens gebeurtenisvraag, voor binnenkomende synchronisatiegebeurtenissen, en voor de vraag van identiteitskaart. Zonder hen [!DNL Audience Manager]en andere services of functies, hebben geen manier om id&#39;s aan te passen en te synchroniseren. Deze variabelen worden soms met of zonder de `d_` zoals hieronder weergegeven. Opmerking: in de code *cursief* Hiermee wordt een tijdelijke aanduiding voor een variabele aangegeven.
+DPID en DPUUID zijn zeer belangrijk-waardeparen die een gegevensleverancier identiteitskaart en een gebruiker - identiteitskaart bevatten. Deze sleutelwaardeparen koppelen leverancier-id&#39;s aan gebruiker-id&#39;s. Zij verzenden in gegevens tijdens gebeurtenisvraag, voor binnenkomende synchronisatiegebeurtenissen, en voor de vraag van identiteitskaart. Zonder deze id&#39;s zouden [!DNL Audience Manager] en andere services of functies geen manier hebben om id&#39;s te koppelen en te synchroniseren. Deze variabelen worden soms met of zonder het voorvoegsel `d_` uitgedrukt, zoals hieronder wordt weergegeven. Nota, in de code, *cursief* wijst op veranderlijke placeholder.
 
 <table id="table_932B4416AE1E44E4A1E98D779D3B1ED5"> 
  <thead> 
@@ -51,14 +51,14 @@ DPID en DPUUID zijn zeer belangrijk-waardeparen die een gegevensleverancier iden
 
 Deze sleutelwaardeparen werken nog, maar zijn afgekeurd. Werk de code bij om CID of CID_IC te gebruiken.
 
-## CID en CID_IC: Info {#cid-cidic-about}
+## CID en CID_IC: informatie {#cid-cidic-about}
 
 De sleutel-waardeparen CID en CID_IC vervangen DPID en DPUUID. Zij verstrekken de zelfde functies zoals DPID en DPUUID, maar zijn efficiënter omdat zij gegevensleverancier identiteitskaart (of integratiecode) en gebruiker - identiteitskaart in één enkel zeer belangrijk-waardepaar omvatten. In elk zeer belangrijk-waardepaar:
 
 * Het symbool = scheidt de sleutel van zijn verwante waarden.
 * Het niet-afdrukbare ASCII-teken %01 scheidt de waarden.
 
-`d_cid` en `d_cid_ic` gebruik de hieronder getoonde syntaxis. Opmerking: in de code *cursief* Hiermee wordt een tijdelijke aanduiding voor een variabele aangegeven.
+`d_cid` en `d_cid_ic` gebruiken de hieronder getoonde syntaxis. Nota, in de code, *cursief* wijst op veranderlijke placeholder.
 
 <table id="table_0C8A4F8FDBC84416B4EB476F67BCFA8E"> 
  <thead> 
@@ -69,28 +69,28 @@ De sleutel-waardeparen CID en CID_IC vervangen DPID en DPUUID. Zij verstrekken d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Klant-id (CID) </p> </td> 
+   <td colname="col1"> <p>Customer ID (CID) </p> </td> 
    <td colname="col2"> <p> <code>d_cid=<i>data provider ID</i>%01<i>user ID</i></code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Code voor integratie van klant-id (CID_IC) </p> </td> 
-   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> An <span class="term"> integratiecode</span> is een alternatieve id die u kunt gebruiken in plaats van de gegevensbron-id, toegewezen door <span class="keyword"> Audience Manager</span>. Zie <a href="../features/manage-datasources.md#create-data-source"> Een gegevensbron maken</a> als u een integratiecode moet vormen. </p> </td> 
+   <td colname="col2"> <p> <code>d_cid_ic=<i>integration code</i>%01<i>user ID</i></code> </p> <p> Een <span class="term"> integratiecode </span> is een afwisselende identiteitskaart u in plaats van de Gegevens Source identiteitskaart kunt gebruiken, die door <span class="keyword"> Audience Manager </span> wordt toegewezen. Zie <a href="../features/manage-datasources.md#create-data-source"> Creeer een Gegevens Source </a> als u een integratiecode moet vormen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Zie ook: [URL-variabelen en syntaxis voor opgegeven id&#39;s](../features/declared-ids.md#variables-and-syntax).
+Zie ook, [ Variabelen URL en Syntaxis voor Gedeclareerde IDs ](../features/declared-ids.md#variables-and-syntax).
 
 >[!NOTE]
 >
->U kunt integratiecodes gebruiken voor uw eigen gegevensbronnen en voor de globale [gedeelde gegevensbronnen](../features/datasources-list-and-settings.md#settings-menu-options), waartoe u toegang hebt. U kunt bijvoorbeeld integratiecodes gebruiken wanneer u werkt met gegevensbronnen van mobiele id&#39;s. Gebruik de volgende integratiecodes, precies zoals hieronder gespecificeerd:
+>U kunt integratiecodes voor uw eigen gegevensbronnen en voor globale [ gedeelde gegevensbronnen ](../features/datasources-list-and-settings.md#settings-menu-options) gebruiken, die u toegang tot hebt. U kunt bijvoorbeeld integratiecodes gebruiken wanneer u werkt met gegevensbronnen van mobiele id&#39;s. Gebruik de volgende integratiecodes, precies zoals hieronder gespecificeerd:
 
-* **DSID_20914** voor GAID, die apparaten vertegenwoordigt waarop het Android-besturingssysteem wordt uitgevoerd.
-* **DSID_20915** voor IDFA, die apparaten vertegenwoordigt waarop het iOS-besturingssysteem wordt uitgevoerd.
+* **DSID_20914** voor GAID, die apparaten vertegenwoordigen die het werkende systeem van Android in werking stellen.
+* **DSID_20915** voor IDFA, die apparaten vertegenwoordigen die het werkende systeem van iOS in werking stellen.
 
 **Voorbeelden**
 
-De volgende tabel bevat voorbeelden per gebeurtenistype.
+In de volgende tabel staan voorbeelden per gebeurtenistype.
 
 <table id="table_097A58CCD6E64C4DB0652271A4F31AE8"> 
  <thead> 
@@ -117,7 +117,7 @@ De volgende tabel bevat voorbeelden per gebeurtenistype.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Audience Manager-UUID (ID) genereren </p> </td> 
+   <td colname="col1"> <p>Audience Manager UUID (ID) genereren </p> </td> 
    <td colname="col2"> 
     <ul id="ul_EAA764DCFF7244F69ABF67ACEE13E579"> 
      <li id="li_18467A531FAF454A881CBD157BBFD6D2">Nieuw: <code> .../id?d_cid=123%01987...</code> </li> 
@@ -127,7 +127,7 @@ De volgende tabel bevat voorbeelden per gebeurtenistype.
  </tbody> 
 </table>
 
-Elke vraag kan veelvoudige ook omvatten `d_cid` en `d_cid_ic` sleutelwaardeparen zoals deze:
+Elke aanroep kan ook meerdere `d_cid` - en `d_cid_ic` sleutelwaardeparen als volgt bevatten:
 
 ```
 ...?d_cid=123%01456&d_cid=123%01789&d_cid_ic=543%01333...
@@ -145,18 +145,18 @@ Elke vraag kan veelvoudige ook omvatten `d_cid` en `d_cid_ic` sleutelwaardeparen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>URL-codering </p> </td> 
-   <td colname="col2"> <p>Uw ontwikkelingsteams <i>moet</i> Pas URL-codering toe op de volgende variabelen in het sleutelwaardepaar CID: </p> <p> 
+   <td colname="col2"> <p>Uw ontwikkelingsteams <i> moet </i> het coderen URL op de volgende variabelen in CID zeer belangrijk-waardepaar toepassen: </p> <p> 
      <ul id="ul_66DCB63C60914057B2BE21F49D9A36CA"> 
       <li id="li_6D82B4DB40BB4BB0B8FAF5841577FAAC"><code> user ID</code> <code> (dpuuid)</code> </li> 
       <li id="li_D2F94B07B0D84B09A5CDFA48518DDD62"><code> integration code</code> </li> 
-     </ul> </p> <p> <p>Opmerking: U moet URL coderen gebruiker - identiteitskaart en integratiecode <i>voor</i> ze samenvoegen tot een tekenreeks. Dit komt doordat het ASCII-teken %01 dat de twee variabelen scheidt, niet in de URL-codering moet worden vastgelegd. </p> </p> <p>URL-codering zorgt ervoor dat uw gebruikers-id's en integratiecodes die gereserveerde of onveilige tekens bevatten, zoals, maar niet beperkt tot, + of =, correct naar onze servers worden verzonden. </p> <p>Gebruik de <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> ASCII-coderingstabel</a> ter referentie. </p> </td> 
+     </ul> </p> <p> <p>Nota: U moet URL coderen de gebruiker - identiteitskaart en integratiecode <i> alvorens </i> hen in een koord aaneenschakelt. Dit komt doordat het ASCII-teken %01 dat de twee variabelen scheidt, niet in de URL-codering moet worden vastgelegd. </p> </p> <p>URL-codering zorgt ervoor dat uw gebruikers-id's en integratiecodes die gereserveerde of onveilige tekens bevatten, zoals, maar niet beperkt tot, + of =, correct naar onze servers worden verzonden. </p> <p>Gebruik de <a href="https://www.w3schools.com/tags/ref_urlencode.asp" format="https" scope="external"> ASCII-coderingstabel </a> ter referentie. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Integratiecodes gebruiken voor algemene gedeelde gegevensbronnen </p> </td> 
-   <td colname="col2"> <p>U kunt integratiecodes gebruiken voor uw eigen gegevensbronnen en voor de globale <a href="../features/datasources-list-and-settings.md#settings-menu-options"> gedeelde gegevensbronnen</a>, waartoe u toegang hebt. U kunt bijvoorbeeld integratiecodes gebruiken wanneer u werkt met gegevensbronnen van mobiele id's. Gebruik de volgende integratiecodes, precies zoals hieronder gespecificeerd: </p> <p> 
+   <td colname="col2"> <p>U kunt integratiecodes voor uw eigen gegevensbronnen en voor globale <a href="../features/datasources-list-and-settings.md#settings-menu-options"> gedeelde gegevensbronnen </a> gebruiken, waar u toegang tot hebt. U kunt bijvoorbeeld integratiecodes gebruiken wanneer u werkt met gegevensbronnen van mobiele id's. Gebruik de volgende integratiecodes, precies zoals hieronder gespecificeerd: </p> <p> 
      <ul id="ul_B306EE96A3BD4CE982E113D5E23826CF"> 
-      <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b>DSID_20914</b> voor GAID, die apparaten vertegenwoordigt waarop het Android-besturingssysteem wordt uitgevoerd. </li> 
-      <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b>DSID_20915</b> voor IDFA, die apparaten vertegenwoordigt waarop het iOS-besturingssysteem wordt uitgevoerd. </li> 
+      <li id="li_3340C7AFA9AB4105A2CCF3E476EC7552"> <b> DSID_20914 </b> voor GAID, die apparaten vertegenwoordigen die het werkende systeem van Android in werking stellen. </li> 
+      <li id="li_779D9F08021043FCB233A0ABF5160C76"> <b> DSID_20915 </b> voor IDFA, die apparaten vertegenwoordigen die het werkende systeem van iOS in werking stellen. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

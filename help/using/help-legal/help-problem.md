@@ -8,8 +8,8 @@ feature: Support
 exl-id: 2f7b9dbe-7aac-41b0-aab8-3b703d7a2441
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 98%
 
 ---
 
@@ -25,11 +25,11 @@ r_problem.xml
 
  -->
 
-Neem contact op met de [klantenservice](https://helpx.adobe.com/nl/marketing-cloud/contact-support.html) voor technische problemen of om een fout te melden.
+Neem contact op met de [klantenservice](https://helpx.adobe.com/marketing-cloud/contact-support.html) voor technische problemen of om een fout te melden.
 
 * **Telefoon:** 1-800-497-0335
 
-   Voor gratis nummers buiten de Verenigde Staten raadpleegt u onze [regionale website met contactnummers van de klantenservice](https://helpx.adobe.com/nl/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wanneer u wordt gevraagd een optie voor uw product te selecteren, drukt u op 4 om contact op te nemen met het [!DNL Audience Manager]-team.
+  Voor gratis nummers buiten de Verenigde Staten raadpleegt u onze [regionale website met contactnummers van de klantenservice](https://helpx.adobe.com/nl/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Wanneer u wordt gevraagd een optie voor uw product te selecteren, drukt u op 4 om contact op te nemen met het [!DNL Audience Manager]-team.
 
 * **E-mail:** amsupport@adobe.com
 
@@ -74,7 +74,7 @@ Houd de volgende informatie bij de hand als u contact met ons opneemt.
  </tbody> 
 </table>
 
-## Bij uitval {#outage}
+## In geval van uitval {#outage}
 
 Als u vermoedt dat er een storing is, controleert u eerst de [pagina Experience Cloud System Status](https://status.adobe.com/) ([!DNL https://status.adobe.com]). Hier worden alle storingen, incidenten en onderhoud bijgehouden voor Experience Cloud Solutions, inclusief Audience Manager, en de pagina bevat de laatste updates van ons Tech Ops-team. Als u nog steeds hulp nodig hebt, hebt u naast de bovenstaande informatie ook de volgende gegevens nodig wanneer u contact opneemt met de klantenservice:
 

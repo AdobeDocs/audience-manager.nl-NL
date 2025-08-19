@@ -25,7 +25,7 @@ Als u een nieuwe [!UICONTROL data source] wilt maken, gaat u naar **[!UICONTROL 
 
 >[!TIP]
 >
->Zie {de Montages van Source van 0} Gegevens en de Opties van het Menu [&#128279;](../features/datasources-list-and-settings.md#settings-menu-options) voor beschrijvingen van deze verschillende controles.
+>Zie {de Montages van Source van 0} Gegevens en de Opties van het Menu [ voor beschrijvingen van deze verschillende controles.](../features/datasources-list-and-settings.md#settings-menu-options)
 
 ## [!UICONTROL Data Source] Details {#details}
 
@@ -35,9 +35,9 @@ Vul de volgende velden in om de sectie [!UICONTROL Data Source Details] te volto
 1. **[!UICONTROL Description]** (optioneel): voer een beschrijving in voor de gegevensbron om u te helpen de rol of het doel van de gegevensbron te definiëren.
 1. **[!UICONTROL Integration Code]** (optioneel): voer een integratiecode in. Deze codes zijn vereist wanneer u wilt:
    * [ creeer een dwars-apparatengegevensbron ](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Gebruik de [ Dienst van de Identiteit van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
+   * Gebruik de [ Dienst van de Identiteit van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html).
    * Het werk met [ Regels van de Fusie van het Profiel ](../features/profile-merge-rules/merge-rules-start.md).
-1. **[!UICONTROL Namespace]** (alleen-lezen): Dit veld is alleen-lezen en wordt automatisch gegenereerd wanneer u de gegevensbron opslaat. Als u segmenten van Audience Manager aan Experience Platform wilt uitvoeren, moet u een overeenkomstige [ identiteit tot stand brengen namespace ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl-NL#manage-namespaces) in Experience Platform, gebruikend automatisch geproduceerde waarde als namespace [ identiteitssymbool ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) in Experience Platform.
+1. **[!UICONTROL Namespace]** (alleen-lezen): Dit veld is alleen-lezen en wordt automatisch gegenereerd wanneer u de gegevensbron opslaat. Als u segmenten van Audience Manager naar Experience Platform wilt uitvoeren, moet u een overeenkomstige [ identiteit tot stand brengen namespace ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#manage-namespaces) in Experience Platform, gebruikend automatisch geproduceerde waarde als namespace [ identiteitssymbool ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) in Experience Platform.
 1. **[!UICONTROL ID Type]**: Selecteer het type id&#39;s dat deze gegevensbron zal bevatten:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -69,7 +69,7 @@ Verwijder een [!UICONTROL data source] die u niet meer nodig hebt.
 >Houd rekening met de volgende beperkingen:
 >
 >* U kunt geen [ Actief Publiek of Gegevens Source Gesynchroniseerd Spoor ](../features/traits/client-activity-synced-audience-traits.md) schrappen.
->* Voor klanten die Adobe Analytics gebruiken: met Audience Manager kunt u geen gegevensbronnen verwijderen die automatisch zijn gemaakt op basis van uw [!DNL Analytics] -rapportsuite. Gebruik de [ Dienst van de Kern ](https://experienceleague.adobe.com/nl/docs/core-services/interface/services/customer-attributes/attributes) om deze gegevensbronnen unmap.
+>* Voor klanten die Adobe Analytics gebruiken: Audience Manager staat u niet toe gegevensbronnen te verwijderen die automatisch zijn gemaakt op basis van uw [!DNL Analytics] -rapportsuite. Gebruik de [ Dienst van de Kern ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) om deze gegevensbronnen unmap.
 
 1. Klik op **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]** .
 1. Schakel het selectievakje naast een of meer gegevensbronnen in.

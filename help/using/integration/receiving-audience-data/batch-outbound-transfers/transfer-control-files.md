@@ -1,26 +1,26 @@
 ---
-description: Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat de Audience Manager correct behandelde dossieroverdrachten.
+description: Transfer-control (.info) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat Audience Manager correcte dossieroverdrachten behandelde.
 seo-description: Transfer-control (.info) files provide metadata information about file transfers so that partners can verify that Audience Manager handled file transfers correctly.
 seo-title: Transfer-Control Files for Log File Transfers
 solution: Audience Manager
-title: Overdrachtbeheerbestanden voor logboekbestandoverdracht
+title: Bestanden voor bestandsoverdracht overdragen van logbestanden
 uuid: ef58213e-7b37-4c5a-8556-0de695706793
 feature: Outbound Data Transfers
 exl-id: 4fd1aab1-2dc2-4de9-97be-58e79825db40
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# Overdrachtbeheerbestanden voor logboekbestandoverdracht {#transfer-control-files-for-log-file-transfers}
+# Bestanden voor bestandsoverdracht overdragen van logbestanden {#transfer-control-files-for-log-file-transfers}
 
-Overdrachtscontrole ([!DNL .info]) bevatten metagegevens over bestandsoverdrachten, zodat partners kunnen controleren of de Audience Manager de bestandsoverdracht correct heeft verwerkt.
+Transfer-control ([!DNL .info]) dossiers verstrekken meta-gegevensinformatie over dossieroverdrachten zodat de partners kunnen verifiëren dat Audience Manager correct dossieroverdrachten behandelde.
 
-[!DNL Audience Manager] verzendt een overdracht-controle dossier naar een partner met elke dossieroverdracht. Vanwege de multithread-aard van de [!DNL FTP] uitgever, zou het overdrachtcontrole dossier kunnen worden verzonden alvorens de daadwerkelijke dossiers worden gebeëindigd overbrengend.
+[!DNL Audience Manager] verzendt een overdracht-controle dossier naar een partner met elke dossieroverdracht. Vanwege de multithread-aard van de [!DNL FTP] -uitgever kan het overdrachtcontrole-bestand worden verzonden voordat de eigenlijke bestanden zijn overgebracht.
 
-De metagegevens in het dialoogvenster [!DNL .info] bestand laat partners:
+De meta-gegevens in het [!DNL .info] dossier laten partners:
 
 * bepalen wanneer een volledige overdrachtscyclus is voltooid (het totale aantal bestanden in de reeks is afgeleverd);
 * Bepaal of een bestand in de reeks volledig/correct is (door de grootte van het bestand in bytes en het totale aantal regels te onderzoeken).
@@ -28,9 +28,9 @@ De metagegevens in het dialoogvenster [!DNL .info] bestand laat partners:
 
 ## Naamgevingsconventies voor bestanden {#file-naming-conventions}
 
-Het overdrachtcontrole-bestand heeft dezelfde naam als de hoofdmap van de batch/reeks met een [!DNL .info] bestandsextensie.s
+Het overdrachtsbesturingsbestand heeft dezelfde naam als de hoofdmap van de batch/reeks met een bestandsextensie van [!DNL .info] .
 
-Als het eerste bestand in de reeks bijvoorbeeld een naam had: [!DNL ftp_12345_67890_full_1500727351632-1.sync], krijgt het controlebestand een naam [!DNL ftp_12345_67890_iter_1500727351632.info].
+Als het eerste bestand in de reeks bijvoorbeeld de naam [!DNL ftp_12345_67890_full_1500727351632-1.sync] heeft, krijgt het besturingsbestand de naam [!DNL ftp_12345_67890_iter_1500727351632.info] .
 
 ## Bestandsindeling {#file-format}
 
@@ -77,7 +77,7 @@ Als het eerste bestand in de reeks bijvoorbeeld een naam had: [!DNL ftp_12345_67
 
 >[!NOTE]
 >
-> De totale nummers van de batch zijn exclusief voor de [!DNL .info] bestand zelf. De totalen omvatten dus niet de [!DNL .info] bestand, de grootte van de byte of het aantal regels.
+> Het totale aantal batches is exclusief voor het [!DNL .info] -bestand zelf. Dat wil zeggen dat de totalen geen rekening houden met het bestand [!DNL .info] , de grootte van de byte of het aantal regels.
 >
 > De grootte van de byte van dossiers en de lijnaantallen zijn inclusief om het even welke kopbal en (lege) lijnen/rijen spacer. Als u het aantal feitelijke gegevenslijnen/rijen wilt ophalen, verwijdert u koppen.
 >

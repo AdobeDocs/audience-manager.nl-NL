@@ -3,18 +3,18 @@ description: Beschrijft de onderliggende software die de interactieve rapporten 
 seo-description: Describes the underlying software that powers the interactive reports and the data update schedule.
 seo-title: Report Technology
 solution: Audience Manager
-title: Rapportagetechnologie
+title: Rapporttechnologie
 uuid: 5f3d815b-e1e6-42f2-b848-ac035a5aa77d
 feature: Overlap Reports
 exl-id: 59d875d6-a630-4795-93a7-1d432860f0a1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 1%
+source-wordcount: '255'
+ht-degree: 0%
 
 ---
 
-# Rapportagetechnologie{#report-technology}
+# Rapporttechnologie{#report-technology}
 
 Beschrijft de onderliggende software die de interactieve rapporten en het programma van de gegevensupdate bevoegdheden.
 
@@ -26,7 +26,7 @@ c_report_technology.xml
 
 ## Interactieve rapporten gebruiken Tableau-technologie
 
-[!DNL Audience Manager] gebruik [Tableau](https://www.tableausoftware.com/) software voor het weergeven van gegevens in de interactieve rapporten. Met [!DNL Tableau]de [!UICONTROL Delivery and Overlap] rapporten gebruiken visuele aanwijzingen en symbolen die u helpen:
+[!DNL Audience Manager] gebruikt [ Tableau ](https://www.tableausoftware.com/) software om gegevens in de interactieve rapporten te tonen. Met [!DNL Tableau] gebruiken de [!UICONTROL Delivery and Overlap] -rapporten visuele aanwijzingen en symbolen die u helpen:
 
 * Kies voor hoge en lage prestaties.
 * Steunkleurovergangen en -segmenten met een lage en hoge unieke bezoekersoverlapping.
@@ -39,7 +39,7 @@ De rapportgegevens worden elke zondag wekelijks bijgewerkt. De update verwerkt g
 
 ## Vormen, kleuren en grootten die worden gebruikt in interactieve rapporten {#shapes-colors-sizes}
 
-De meeste interactieve rapporten geven resultaten weer met vormen van verschillende grootten en kleuren. Deze weergave-indeling is ontworpen om u te helpen de gegevens visueel te begrijpen zonder dat u door rijen en kolommen met getallen hoeft te bladeren.
+De meeste interactieve rapporten geven resultaten weer met vormen van verschillende grootten en kleuren. Deze weergave-indeling is ontworpen om u te helpen visueel inzicht te krijgen in de gegevens zonder dat u door rijen en kolommen met getallen hoeft te bladeren.
 
 <!-- 
 
@@ -60,7 +60,7 @@ In de volgende tabel worden de vormen, grootten en kleuren gedefinieerd die word
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>Vormen</b> </td> 
+   <td colname="col1"> <b> Vormen </b> </td> 
    <td colname="col2"> 
     <ul id="ul_076773ABD0BB4CE6834ACFA8B3D6AC2E"> 
      <li id="li_BBAB37A6EC1549B48C0E4D3BFAF7062C">De cirkels wijzen op uw eigen eerstepartijeigenschappen. </li> 
@@ -68,15 +68,15 @@ In de volgende tabel worden de vormen, grootten en kleuren gedefinieerd die word
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Kleuren</b> </td> 
+   <td colname="col1"> <b> Kleuren </b> </td> 
    <td colname="col2"> 
     <ul id="ul_F5D243297F0C4E5A8EDCBD28A548869E"> 
-     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">Rode tinten geven aan <i>laag</i> overlappen. </li> 
-     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">Groene tinten geven aan <i>hoog</i> overlappen. </li> 
+     <li id="li_332EB873A35440E6BB6093E36A0FAC3D">De rode schaduwen wijzen op <i> lage </i> overlapping. </li> 
+     <li id="li_29DFDB1218DF4069B5DCFF841D48EF56">De groene schaduwen wijzen op <i> hoge </i> overlapping. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b>Grootte</b> </td> 
+   <td colname="col1"> <b> Grootte </b> </td> 
    <td colname="col2"> De grootte neemt toe of daalt direct in verhouding tot bereik (het aantal of % van kliks of unieke gebruikers in een eigenschap of een segment). </td> 
   </tr> 
  </tbody> 
@@ -84,4 +84,4 @@ In de volgende tabel worden de vormen, grootten en kleuren gedefinieerd die word
 
 ## Documentatie tableau {#tableau-documentation}
 
-Voor meer informatie over de controles van Tableau die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor [Tableau Server op Linux 2018.2](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+Meer over de controles van Tableau leren die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor [ Server van Tableau op Linux 2018.2 ](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)

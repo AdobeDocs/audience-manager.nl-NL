@@ -1,5 +1,5 @@
 ---
-description: Methoden waarmee u de algemene taxonomie van de Audience Manager kunt weergeven. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
+description: Methoden waarmee u de algemene taxonomie van Audience Manager kunt bekijken. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
 seo-description: Methods that let you view the Audience Manager common taxonomy. This optional classification scheme organizes traits into industry standard categories.
 seo-title: Taxonomic API Methods
 solution: Audience Manager
@@ -10,23 +10,23 @@ exl-id: 8bc6dcbb-7f5b-4a7b-998d-025eaf76c409
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
 # Taxonomische API-methoden {#taxonomic-api-methods}
 
-Methoden waarmee u de algemene taxonomie van de Audience Manager kunt weergeven. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
+Methoden waarmee u de algemene taxonomie van Audience Manager kunt bekijken. Dit facultatieve classificatieschema organiseert de eigenschappen in industriestandaard categorieën.
 
 <!-- c_rest_api_taxonomy.xml -->
 
 >[!NOTE]
 >
->U kunt geen nieuwe taxonomische categorieën tot stand brengen of eigenschappen met deze methodes classificeren. Als u een eigenschap wilt classificeren, geeft u de juiste waarde op `categoryId` met een standaard methode maken of bijwerken.
+>U kunt geen nieuwe taxonomische categorieën tot stand brengen of eigenschappen met deze methodes classificeren. Als u een eigenschap wilt classificeren, geeft u de juiste `categoryId` op met een methode voor het maken of bijwerken van kenmerken.
 
 ## Een specifieke taxonomie retourneren {#return-specific-taxonomy}
 
-A `GET` methode die details over de gespecificeerde taxonomische categorie terugkeert.
+Een `GET` -methode die details retourneert over de opgegeven taxonomische categorie.
 
 <!-- r_rest_api_taxonomy.xml -->
 
@@ -36,7 +36,7 @@ A `GET` methode die details over de gespecificeerde taxonomische categorie terug
 
 ### Antwoord
 
-Resultaten van een succesvolle reactie `200 OK` en de categorie voor de opgegeven id. Een mislukte aanvraag wordt geretourneerd `404 No Content` als de id niet bestaat.
+Een geslaagde reactie retourneert `200 OK` en de categorie voor de opgegeven id. Een mislukte aanvraag retourneert `404 No Content` als de id niet bestaat.
 
 ```
 {
@@ -51,7 +51,7 @@ Resultaten van een succesvolle reactie `200 OK` en de categorie voor de opgegeve
 
 ## Alle taxonomische categorieën retourneren {#return-all-taxonomy-categories}
 
-A `GET` methode die een lijst van de top-level categorieën in een serie terugkeert.
+Een `GET` -methode die een lijst retourneert van de categorieën op hoofdniveau in een array.
 
 <!-- r_rest_api_taxonomies.xml -->
 
@@ -94,7 +94,7 @@ Afgekort voor bondigheid.
 
 ## Taxonomische subcategorieën retourneren {#return-taxonomy-sub-categories}
 
-A `GET` methode die subcategorieën voor de opgegeven bovenliggende categorie in een array retourneert.
+Een `GET` -methode die subcategorieën retourneert voor de opgegeven bovenliggende categorie in een array.
 
 <!-- r_rest_api_taxonomy_sub.xml -->
 
@@ -104,7 +104,7 @@ A `GET` methode die subcategorieën voor de opgegeven bovenliggende categorie in
 
 ### Antwoord
 
-Resultaten van een succesvolle reactie `200 OK` en de categorie voor de opgegeven id. Een mislukte aanvraag wordt geretourneerd `404 No Content` als de id niet bestaat. Afgekort voor bondigheid.
+Een geslaagde reactie retourneert `200 OK` en de categorie voor de opgegeven id. Een mislukte aanvraag retourneert `404 No Content` als de id niet bestaat. Afgekort voor bondigheid.
 
 ```
 [

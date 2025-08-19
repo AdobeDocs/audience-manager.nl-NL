@@ -9,11 +9,11 @@ exl-id: 353b9035-20f3-41ff-819c-71f161e6b1e1
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
-# Richtlijnen voor GDPR (AVG)-gereedheid voor Audience Manager-klanten (Gegevenscontrollers) {#gdpr-readiness-guidance}
+# GDPR-gebruikershulp voor Audience Manager-klanten (gegevenscontrollers) {#gdpr-readiness-guidance}
 
 Audience Manager adviseert proactief te zijn op de gebieden van data-governance en organisatorische gereedheid. Dit zal u helpen ervoor te zorgen dat uw consumentendata zijn georganiseerd voor processen in verband met toegangs- of verwijderingsaanvragen, dat uw teams klaar zijn om deze aanvragen te begeren, en dat uw klanten (geregistreerde personen) een positieve, gedifferentieerde ervaring met uw merk hebben.
 

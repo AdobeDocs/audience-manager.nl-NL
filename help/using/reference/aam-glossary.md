@@ -9,8 +9,8 @@ feature: Reference
 exl-id: 9e2ee3d3-01b2-4038-abda-fedf0f16f163
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 98%
+source-wordcount: '1157'
+ht-degree: 96%
 
 ---
 
@@ -52,14 +52,14 @@ Zie DPUUID in de [Index van in id’s in Audience Manager](../reference/ids-in-a
 
 In [Addressable Audience](/help/using/features/addressable-audiences.md) staat dit cijfer voor apparaten waarvoor het volgende geldt:
 * Ze hebben een op regels gebaseerde, of een onboarded eigenschap gerealiseerd tijdens het terugkijkvenster
-   **AND**
+  **AND**
 * Ze hebben een id-synchronisatie met de gekozen bestemming, ongeacht het tijdstip van de synchronisaties.
 
 
 
 **Klantkenmerken**
 
-Zie [Klantattributen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL) in de [!DNL Experience Cloud Core Services]-productdocumentatie.
+Zie [Klantattributen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de [!DNL Experience Cloud Core Services]-productdocumentatie.
 
 
 
@@ -93,7 +93,7 @@ Zie de [Index van id’s in Audience Manager](../reference/ids-in-aam.md).
 
 **Bestemming**
 
-In [!DNL Audience Manager] is een bestemming elk ander systeem (advertentieserver, DSP, advertentienetwerk, enz.) waarmee u data wilt delen. De [!UICONTROL Destination Builder] in onze UI biedt de tools waarmee u deze processen voor datalevering kunt maken en beheren. [!DNL Audience Manager]-bestemmingsfuncties bevinden zich in **[!UICONTROL Audience Data > Destinations]**.
+In [!DNL Audience Manager] is een doel elk ander systeem (advertentieserver, DSP, netwerk, enz.) waarmee u gegevens wilt delen. De [!UICONTROL Destination Builder] in onze UI biedt de tools waarmee u deze processen voor datalevering kunt maken en beheren. [!DNL Audience Manager]-bestemmingsfuncties bevinden zich in **[!UICONTROL Audience Data > Destinations]**.
 
 
 
@@ -111,7 +111,7 @@ De [!UICONTROL Data Integration Library] is een API-bibliotheek die door [!DNL A
 
 **Experience Cloud ID (ECID)**
 
-Vroeger bekend als de [!DNL Marketing Cloud]-id (MID of MCID). De [!DNL Experience Cloud]-id staat centraal in de id-service. Dit is een unieke en permanente id voor bezoekers van uw website. Zie Cookies en de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL).
+Vroeger bekend als de [!DNL Marketing Cloud]-id (MID of MCID). De [!DNL Experience Cloud]-id staat centraal in de id-service. Dit is een unieke en permanente id voor bezoekers van uw website. Zie Cookies en de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 
 
@@ -268,6 +268,6 @@ TTL bepaalt hoeveel dagen een gekwalificeerde bezoeker in een eigenschap blijft.
 
 De [!DNL Experience Cloud]id-service (voorheen bezoekers-id) verschaft een universele, permanente id aan de hand waarvan uw bezoekers kunnen worden geïdentificeerd in alle oplossingen in de [!DNL Experience Cloud].
 
-Raadpleeg de documentatie bij de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
+Raadpleeg de documentatie bij de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
 ## W-X-Y-Z {#w-z}

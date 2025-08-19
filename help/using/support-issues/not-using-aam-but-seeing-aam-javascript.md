@@ -8,8 +8,8 @@ feature: Support
 exl-id: f409e326-17b3-40ee-8570-8d99119fe337
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 90%
+source-wordcount: '136'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,6 @@ Waarom gebeurt dit?
 
 ## Antwoord
 
-Waarschijnlijk voert u de [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) uit op uw eigendom. Als dat zo is, deze verwijzing naar Audience Manager niet noodzakelijkerwijs naar het eigendom waarop Audience Manager wordt uitgevoerd. Het betekent dat Audience Manager deze service aanstuurt.
+Waarschijnlijk voert u de [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) uit op uw eigendom. Als dat zo is, deze verwijzing naar Audience Manager niet noodzakelijkerwijs naar het eigendom waarop Audience Manager wordt uitgevoerd. Het betekent dat Audience Manager deze service aanstuurt.
 
-De server call van Audience Manager wordt meestal uitgevoerd om [klant-id’s te synchroniseren](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=nl-NL).
+De server call van Audience Manager wordt meestal uitgevoerd om [klant-id’s te synchroniseren](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html).

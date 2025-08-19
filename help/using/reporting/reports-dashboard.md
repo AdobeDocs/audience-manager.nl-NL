@@ -3,18 +3,18 @@ description: Gebruik het dashboard om informatie over de unieke bezoekerscijfers
 seo-description: Use the Dashboard to view information about your partners' unique visitor counts broken down by trait types and segments for a specified time frame.
 seo-title: Reports Dashboard
 solution: Audience Manager
-title: Dashboard voor rapporten
+title: Rapportendashboard
 uuid: 350eee2d-72f7-42a7-916b-60f9a362c5cf
 feature: Reporting Reference
 exl-id: 1ca0280a-d67b-46f7-9c58-effc5be4e38f
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
-# Dashboard voor rapporten {#reports-dashboard}
+# Rapportendashboard {#reports-dashboard}
 
 Gebruik het dashboard om informatie over uw unieke bezoekerstellingen te bekijken die door trekkentypes en segmenten, voor een gespecificeerd tijdkader worden verdeeld.
 
@@ -24,34 +24,34 @@ c_dashboard.xml
 
  -->
 
-[!DNL Audience Manager] gebruik [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) om gebruikersgroepmachtigingen uit te breiden naar de [!UICONTROL Dashboard]. Gebruikers kunnen alleen informatie op het dashboard zien die ze kunnen bekijken. [!UICONTROL RBAC] Met functionaliteit kunt u bepalen welke rapportgegevens interne teams kunnen weergeven.
+[!DNL Audience Manager] gebruikt [!UICONTROL Role Based Access Control] ([!UICONTROL RBAC]) om user-group toestemmingen tot [!UICONTROL Dashboard] uit te breiden. Gebruikers kunnen alleen informatie op het dashboard zien die ze kunnen bekijken. Met de functie [!UICONTROL RBAC] kunt u bepalen welke rapportgegevens interne teams kunnen weergeven.
 
 Bijvoorbeeld, kan een agentschap dat verschillende adverteerderrekeningen beheert gebruiker-groep toestemmingen vormen zodat een team dat de rekening van Advertiser A beheert niet de rapportgegevens van Advertiser B kan zien. Dit dashboard kan worden gebruikt om problemen met de gegevenslevering op te lossen.
 
-Bijvoorbeeld, als u een dip, of een spiek opmerkt, in totaal unieke gebruikers met de uitsplitsing van type van unieke gebruiker (regel-gebaseerd vs. op-borded), hebt u een beter uitgangspunt om een potentieel gegeven-levering probleem te volgen. Als u een dip opmerkt in totaal unieke gebruikers en in unieke gebruikers aan boord, kunt u naar de [!UICONTROL On-boarding Status] rapporteren om te zien of er een probleem met een binnenkomend bestand was.
+Bijvoorbeeld, als u een dip, of een spiek opmerkt, in totaal unieke gebruikers met de uitsplitsing van type van unieke gebruiker (regel-gebaseerd vs. op-ingetekend), hebt u een beter uitgangspunt om een potentieel gegeven-levering probleem te volgen. Als u een dip opmerkt in totaal unieke gebruikers en in geregistreerde unieke gebruikers, kunt u naar het [!UICONTROL On-boarding Status] -rapport gaan om te kijken of er een probleem was met een binnenkomend bestand.
 
-**Ga als volgt te werk om het dashboard te openen:**
+**om tot het dashboard toegang te hebben:**
 
-1. Klik in het bovenste navigatiemenu op **[!UICONTROL Dashboard]**.
-2. *Optioneel* Selecteer het gewenste tijdkader vanaf de laatste rapportdatum in de vervolgkeuzelijst (7 dagen, 14 dagen (standaardinstelling), 30 dagen of 60 dagen).
+1. Klik in het bovenste navigatiemenu op **[!UICONTROL Dashboard]** .
+2. *Facultatieve* selecteer het gewenste tijdkader van de laatste rapporteringsdatum van de drop-down lijst (7 Dagen, 14 Dagen (het gebrek), 30 Dag, of 60 Dagen).
 
-   Afhankelijk van de geselecteerde periode verandert de delta in de [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] en [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] de panelen tonen de verandering in unieke bezoekers in het publiek over de periode die vandaag ten opzichte van de voorafgaande periode van dezelfde lengte eindigt. Als u bijvoorbeeld 7 dagen selecteert, vergelijkt de delta de unieke bezoekers van de afgelopen zeven dagen die vandaag eindigen met de unieke bezoekers van de zeven dagen die zeven dagen geleden eindigen.
+   Afhankelijk van de geselecteerde periode wordt bij de deltawijziging in de deelvensters [!UICONTROL Largest Traits] > [!UICONTROL Most Changed Traits] en [!UICONTROL Largest Segments] > [!UICONTROL Most Changed Segments] de wijziging in unieke bezoekers in de doelgroep weergegeven in de periode die vandaag eindigt ten opzichte van de voorgaande periode met dezelfde lengte. Als u bijvoorbeeld 7 dagen selecteert, vergelijkt de delta de unieke bezoekers van de afgelopen zeven dagen die vandaag eindigen met de unieke bezoekers van de zeven dagen die zeven dagen geleden eindigen.
 
    >[!NOTE]
    >
-   >U kunt een verandering van delta onderzoeken die uit het gewone schijnt door te lopen [!UICONTROL Trend] verslag. Als u bijvoorbeeld een ongewoon grote deltawijziging ziet in de afgelopen zeven dagen, kunt u een [!UICONTROL Trend] de laatste 14 dagen (2 x 7) rapporteren om de getallen beter te begrijpen.
+   >U kunt een wijziging in de delta onderzoeken die ongebruikelijk lijkt door een [!UICONTROL Trend] -rapport uit te voeren. Als u bijvoorbeeld een ongewoon grote deltawijziging ziet in de afgelopen zeven dagen, kunt u een [!UICONTROL Trend] -rapport uitvoeren voor de laatste 14 dagen (2 x 7) om de getallen beter te begrijpen.
 
    Afhankelijk van de machtigingen van de aangemelde gebruiker worden de volgende deelvensters weergegeven:
 
-   * [Partner Uniques](../reporting/reports-dashboard.md#partner-uniques)
-   * [Grootste overtrekken/Meest gewijzigde overgangen](../reporting/reports-dashboard.md#largest-traits)
+   * [ Uniques van de Partner ](../reporting/reports-dashboard.md#partner-uniques)
+   * [ de Grootste Beetjes/Meest veranderde Beetjes ](../reporting/reports-dashboard.md#largest-traits)
    * [Grootste segmenten/Meest gewijzigde segmenten](../reporting/reports-dashboard.md#most-changed-segments)
 
-3. *Optioneel* Klikken **[!UICONTROL Normalize]** boven een willekeurige grafiek om alle gegevens op dezelfde schaal weer te geven. U kunt ook met de muis over elk gegevenspunt klikken om meer informatie weer te geven.
+3. *Facultatieve* klik **[!UICONTROL Normalize]** boven om het even welke grafiek om alle gegevens op de zelfde schaal te tonen. U kunt ook met de muis over elk gegevenspunt klikken om meer informatie weer te geven.
 
 ## Partner Uniques {#partner-uniques}
 
-Toestemming vereist om te bekijken: [!UICONTROL View All Traits].
+Machtiging vereist voor weergave: [!UICONTROL View All Traits].
 
 ![](assets/partner_uniques.png)
 
@@ -63,13 +63,13 @@ In dit deelvenster wordt het aantal unieke bezoekers tijdens de opgegeven tijdsp
 
 ## Grootste overtrekken/Meest gewijzigde overgangen {#largest-traits}
 
-Toestemming vereist om te bekijken: [!UICONTROL View Traits].
+Machtiging vereist voor weergave: [!UICONTROL View Traits].
 
 ![](assets/largest_traits.png)
 
 In dit deelvenster wordt het aantal unieke bezoekers weergegeven dat door verschillende kenmerken is vastgelegd.
 
-Gebruik de **[!UICONTROL Show]** vervolgkeuzelijst voor informatie over verschillende typen kenmerken: [!UICONTROL All Traits], [!UICONTROL Algorithmic], [!UICONTROL Onboarded], of [!UICONTROL Rule-Based].
+Gebruik de vervolgkeuzelijst **[!UICONTROL Show]** om informatie weer te geven over verschillende typen kenmerken: [!UICONTROL All Traits] , [!UICONTROL Algorithmic] , [!UICONTROL Onboarded] of [!UICONTROL Rule-Based] .
 
 Dit deelvenster bevat de volgende tabbladen:
 
@@ -82,11 +82,11 @@ Dit deelvenster bevat de volgende tabbladen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Grootste sporen</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Grootste overtrekken </span> </p> </td> 
    <td colname="col2"> <p>Geeft informatie weer over het aantal unieke bezoekers dat op nummer is gesorteerd (hoogste naar laagste) en geeft ook de deltawijziging van unieke bezoekers tijdens het opgegeven tijdkader weer. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Meest gewijzigde overeenkomsten</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Meest gewijzigde overeenkomsten </span> </p> </td> 
    <td colname="col2"> <p>Hier wordt informatie weergegeven over het aantal unieke bezoekers dat is gesorteerd op de deltawijziging. </p> </td> 
   </tr> 
  </tbody> 
@@ -94,7 +94,7 @@ Dit deelvenster bevat de volgende tabbladen:
 
 ## Grootste segmenten/Meest gewijzigde segmenten {#most-changed-segments}
 
-Toestemming vereist om te bekijken: [!UICONTROL View Segments].
+Machtiging vereist voor weergave: [!UICONTROL View Segments].
 
 ![](assets/largest_segments.png)
 
@@ -111,11 +111,11 @@ Dit deelvenster bevat de volgende tabbladen:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Grootste segmenten</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Grootste segmenten </span> </p> </td> 
    <td colname="col2"> <p>Geeft informatie weer over het aantal unieke bezoekers en de deltawijziging van unieke bezoekers tijdens het opgegeven tijdkader. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><span class="wintitle"> Meest gewijzigde segmenten</span> </p> </td> 
+   <td colname="col1"> <p><span class="wintitle"> Meest gewijzigde segmenten </span> </p> </td> 
    <td colname="col2"> <p>Hier wordt informatie weergegeven over het aantal unieke bezoekers dat is gesorteerd op de deltawijziging. </p> </td> 
   </tr> 
  </tbody> 

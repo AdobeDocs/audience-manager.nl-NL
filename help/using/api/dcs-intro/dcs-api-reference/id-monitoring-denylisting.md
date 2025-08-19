@@ -10,45 +10,45 @@ feature: DCS
 exl-id: 8fd31b00-a822-4fd5-b6f5-7f20546da1d9
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
 # ID-controle en Voegend op lijst van gewenste personen maken
 
-De [!DNL DCS] controleert de id&#39;s die het ontvangt en voegt de id&#39;s die gedurende een korte periode ongebruikelijk hoog worden verzonden, toe aan een lijst van gewezen personen.
+De [!DNL DCS] bewaakt de id&#39;s die het ontvangt en voegt de id&#39;s toe die gedurende een korte periode ongebruikelijk hoog worden verzonden naar een lijst van gewezen personen.
 
 ## Overzicht
 
-Om de infrastructuur van de Audience Manager tegen kwaadwillige activiteit te beschermen, [!DNL DCS] gebruikt een geavanceerd algoritme om de IDs te controleren het ontvangt. Deze kunnen [!UICONTROL Data Provider Unique User ID]s ([!UICONTROL CRM ID]s), [!UICONTROL Audience Manager Unique User ID]s ([!UICONTROL AAM UUID]s), of [!UICONTROL Experience Cloud ID]s ([!UICONTROL ECID]s). Zie [Index van id&#39;s in Audience Manager](../../../reference/ids-in-aam.md) voor gedetailleerde uitleg van de id&#39;s die door Audience Manager worden ondersteund.
+Om de Audience Manager-infrastructuur tegen kwaadaardige activiteiten te beschermen, gebruikt de [!DNL DCS] een geavanceerd algoritme om de id&#39;s die het ontvangt te controleren. Deze kunnen [!UICONTROL Data Provider Unique User ID] s ([!UICONTROL CRM ID] zijn), [!UICONTROL Audience Manager Unique User ID] s ([!UICONTROL AAM UUID] s), of [!UICONTROL Experience Cloud ID] s ([!UICONTROL ECID] s). Zie [ Index van IDs in Audience Manager ](../../../reference/ids-in-aam.md) voor gedetailleerde verklaringen van IDs die door Audience Manager wordt gesteund.
 
-De [!DNL DCS] bewaakt de frequentie waarmee deze id&#39;s worden ontvangen om mogelijke schadelijke activiteit op te sporen. Wanneer de [!DNL DCS] detecteert een ongebruikelijk grote hoeveelheid van [!DNL DCS] aanvragen voor een bepaalde id binnen een korte tijd, die id wordt toegevoegd aan een lijst van gewezen personen.
+[!DNL DCS] controleert de frequentie waarmee het deze IDs ontvangt om potentiële kwaadwillige activiteit te ontdekken. Wanneer [!DNL DCS] in een korte tijd een ongebruikelijk grote hoeveelheid [!DNL DCS] -aanvragen voor een bepaalde id detecteert, wordt die id toegevoegd aan een lijst van gewezen personen.
 
 ## Foutcodes
 
-U kunt id&#39;s identificeren die aan een lijst van gewezen personen zijn toegevoegd met de foutcodes die u ontvangt van de [!DNL DCS]. De foutcodes die u ontvangt zijn:
+U kunt id&#39;s die aan een lijst van gewezen personen zijn toegevoegd identificeren aan de hand van de foutcodes die u van het dialoogvenster [!DNL DCS] hebt ontvangen. De foutcodes die u ontvangt zijn:
 
 * 303: geblokkeerde klant-id;
-* 306: Geblokkeerde gedeclareerde apparaat-id;
-* 307: Bewerking van geblokkeerd profiel voor id.
+* 306: geblokkeerde aangegeven apparaat-id;
+* 307: Geblokkeerde profielbewerking voor id.
 
-Zie [DCS-foutcodes, berichten en voorbeelden](dcs-error-codes.md) voor meer informatie over de foutcodes die u ontvangt.
+Zie [ Codes van de Fout DCS, Berichten, en Voorbeelden ](dcs-error-codes.md) voor details op de foutencodes die u kunt ontvangen.
 
 ## Id&#39;s verwijderen uit lijsten van gewezen personen
 
-Id&#39;s die aan lijsten van gewezen personen zijn toegevoegd, mogen in geen enkele toekomstige aanvraag worden gebruikt, omdat ze tot onjuiste gegevensrapportage leiden. De [!DNL DCS] biedt geen ondersteuning voor het verwijderen van id&#39;s uit lijsten van gewezen personen.
+Id&#39;s die aan lijsten van gewezen personen zijn toegevoegd, mogen in geen enkele toekomstige aanvraag worden gebruikt, omdat ze tot onjuiste gegevensrapportage leiden. Het [!DNL DCS] biedt geen ondersteuning voor het verwijderen van id&#39;s uit lijsten van gewezen personen.
 
 ## Effect op id-synchronisatie
 
-[!DNL DCS] De vraag kan één of veelvoudige types van IDs omvatten. Vraag die één enkele identiteitskaart bevatten wordt volledig genegeerd als die identiteitskaart aan een lijst van gewezen personen wordt toegevoegd, en geen synchronisatie van identiteitskaart komt in deze situatie voor.
+[!DNL DCS] vraag kan één of veelvoudige types van IDs omvatten. Vraag die één enkele identiteitskaart bevatten wordt volledig genegeerd als die identiteitskaart aan een lijst van gewezen personen wordt toegevoegd, en geen synchronisatie van identiteitskaart komt in deze situatie voor.
 
-Wanneer een veelvoudige vraag van identiteitskaart ook een gevoegde op lijst van gewenste personen identiteitskaart omvat, [!DNL DCS] negeert ontkende identiteitskaart en gebruikt slechts resterende, toegestane IDs voor synchronisatie.
+Wanneer een veelvoudige vraag van identiteitskaart ook een gevoegde op lijst van gewenste personen identiteitskaart omvat, negeert [!DNL DCS] ontkende identiteitskaart en gebruikt slechts resterende, toegestane IDs voor synchronisatie.
 
 ## Causes and Fixes for ID Voegende op lijst van gewenste personen
 
-De meest frequente oorzaak van IDs die aan lijsten van gewezen personen wordt toegevoegd is de onjuiste integratie tussen klanteninfrastructuur en Audience Manager. Wanneer u een gevoegde op lijst van gewenste personen identiteitskaart identificeert, zorg ervoor om uw integratie van de Audience Manager grondig te herzien. Zie **Implementatie- en integratiehulplijnen** voor gedetailleerde verklaringen van hoe u Audience Manager zou moeten vormen om met andere oplossingen van Experience Cloud of externe systemen te werken.
+De meest voorkomende oorzaak van id&#39;s die aan lijsten van gewezen personen worden toegevoegd, is de onjuiste integratie tussen de klanteninfrastructuur en Audience Manager. Wanneer u een op de lijst met ongewenste personen staan id identificeert, moet u de Audience Manager-integratie grondig controleren. Zie **de Gidsen van de Implementatie en van de Integratie** voor gedetailleerde verklaringen van hoe u Audience Manager zou moeten vormen om met andere oplossingen van Experience Cloud of externe systemen te werken.
 
-Een andere veelvoorkomende oorzaak van id&#39;s die aan lijsten van gewezen personen worden toegevoegd, is het indexeren van bots (webcrawlers), die over het algemeen tot een toename van het verkeer leiden, waardoor dezelfde id&#39;s naar de [!DNL DCS] meerdere keren. Als u indexerende bots identificeert als de reden waarom id&#39;s aan lijsten van gewezen personen worden toegevoegd, moet u beide toegang tot uw website beperken.
+Een andere veelvoorkomende oorzaak van id&#39;s die aan lijsten van gewezen personen worden toegevoegd, is het indexeren van bots (webcrawlers), die over het algemeen tot een toename van het verkeer leiden, waardoor dezelfde id&#39;s meerdere keren naar de [!DNL DCS] worden verzonden. Als u indexerende bots identificeert als de reden waarom id&#39;s aan lijsten van gewezen personen worden toegevoegd, moet u beide toegang tot uw website beperken.
 
-Neem contact op met de Klantenondersteuning als u problemen hebt met de integratie. Voordat u een supportverzoek opent, moet u ervoor zorgen dat u de `.har` `HTTP` archief van uw browser klaar. Dit archief helpt het ondersteuningsteam te bepalen waarom de id aan een lijst van gewezen personen is toegevoegd.
+Neem contact op met de Klantenondersteuning als u problemen hebt met de integratie. Voordat u een supportverzoek opent, moet u het archief van uw browser `.har` `HTTP` gereed houden. Dit archief helpt het ondersteuningsteam te bepalen waarom de id aan een lijst van gewezen personen is toegevoegd.

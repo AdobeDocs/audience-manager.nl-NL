@@ -9,8 +9,8 @@ feature: Reporting Reference
 exl-id: 1e6531b2-bb39-4056-9d5e-164f50955f99
 source-git-commit: 3bddd51582f3f8c46908dba5c5ac1938cb480013
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Om de hoeveelheid berekeningen te verminderen worden in deze rapporten statistis
 
 **Als ik een e-mailmarketingcampagne voer, hoe kan ik dan bepalen of omgeleide gebruikers naar mijn website komen vanuit die campagne of vanuit andere bronnen?**
 
-Voeg een campagnespecifieke querytekenreeks toe aan de URL van het websitegedeelte dat u wilt controleren. Stel vervolgens een eigenschapregel in om deze variabele vast te leggen. Als uw URL bijvoorbeeld op deze manier langskomt in een campagne-id: `www.test123.com/electronics?campaign=123`, maak dan een eigenschapregel om deze data vast te leggen van de `h_referer`-variabele met een eigenschapregel die zoekt naar een kop als `h_referer = 'campaign=123'`.
+Voeg een campagnespecifieke querytekenreeks toe aan de URL van het websitegedeelte dat u wilt controleren. Stel vervolgens een eigenschapregel in om deze variabele vast te leggen. Als uw URL bijvoorbeeld een campagne-id als deze doorgeeft, `www.test123.com/electronics?campaign=123` , maakt u een regel om die gegevens van de `h_referer` -variabele vast te leggen met een regel die naar een koptekst als `h_referer = 'campaign=123'` zoekt.
 
 <br>
 

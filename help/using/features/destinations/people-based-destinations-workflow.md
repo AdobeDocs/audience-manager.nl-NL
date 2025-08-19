@@ -8,7 +8,7 @@ feature: People-based Destinations
 exl-id: 224334d5-419c-4bb1-b76c-ce996a543b7a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1350'
 ht-degree: 2%
 
 ---
@@ -18,72 +18,72 @@ ht-degree: 2%
 >[!IMPORTANT]
 >Dit artikel bevat productdocumentatie die u door de opstelling en het gebruik van deze eigenschap moet begeleiden. Niets in dit document is juridisch advies. Raadpleeg uw eigen juridisch adviseur voor juridische begeleiding.
 
-[!DNL People-Based Destinations] biedt veelvoudige implementatiestrategieën aan, afhankelijk van hoe uw klantengegevens gestructureerd zijn. Dit artikel biedt een overzicht van de implementatiestappen die u moet volgen voor [!DNL People-Based Destinations], afhankelijk van uw scenario.
+[!DNL People-Based Destinations] biedt meerdere implementatiestrategieën, afhankelijk van de structuur van uw klantgegevens. Dit artikel biedt een overzicht van de implementatiestappen die u moet volgen voor [!DNL People-Based Destinations] , afhankelijk van uw scenario.
 
 ## Overzicht {#overview}
 
-De configuratie van [!DNL People-Based Destinations] neemt u door veelvoudige secties van Audience Manager en vereist verschillende montages en gegevens op het instappen methodes, afhankelijk van welk soort klantengegevens u reeds in Audience Manager hebt, en welk soort publiek richt u wilt uitvoeren.
+De configuratie van [!DNL People-Based Destinations] doorloopt meerdere secties van Audience Manager en vereist verschillende instellingen en gegevens voor instapmethoden, afhankelijk van het type klantgegevens dat u al hebt in Audience Manager en het soort publiek dat u wilt inzetten.
 
 >[!IMPORTANT]
-> Voor het configureren [!DNL People-Based Destinations]Lees dit artikel zorgvuldig en volledig door. Na het lezen van deze gids, zou u een duidelijk inzicht in het scenario moeten hebben dat u door zult toelaten [!DNL People-Based Destinations].
+> Lees dit artikel zorgvuldig en volledig voordat u [!DNL People-Based Destinations] configureert. Nadat u deze handleiding hebt gelezen, hebt u een duidelijk inzicht in het scenario dat u inschakelt via [!DNL People-Based Destinations] .
 
-Er zijn zes implementatieaspecten die u moet verduidelijken voordat u kunt gebruiken [!DNL People-Based Destinations]. Dit artikel zal u helpen begrijpen wat uw huidige configuratie is, zodat u de implementatiestappen voor uw scenario kunt correct volgen.
+Er zijn zes implementatieaspecten die u moet verduidelijken voordat u [!DNL People-Based Destinations] gebruikt. Dit artikel zal u helpen begrijpen wat uw huidige configuratie is, zodat u de implementatiestappen voor uw scenario kunt correct volgen.
 
-![pbd-implementatie](assets/pbd-implementation.png)
+![ pbd-implementatie ](assets/pbd-implementation.png)
 
-## 1. Gebruiksscenario definiëren {#defining-your-use-case}
+## &#x200B;1. Uw gebruikscase definiëren {#defining-your-use-case}
 
-Voordat u begint met implementeren [!DNL People-Based Destinations], moet u duidelijk het gebruiksgeval bepalen dat u deze eigenschap voor zult gebruiken. U kunt [!DNL People-Based Destinations] doelgroepen op twee manieren te richten , op basis van publieksactiviteiten :
+Voordat u begint met het implementeren van [!DNL People-Based Destinations] , moet u duidelijk definiëren voor welk gebruiksscenario u deze functie gaat gebruiken. U kunt [!DNL People-Based Destinations] gebruiken om doelgroepen op twee manieren te richten, op basis van publieksactiviteit:
 
-**A) Doelgerichtheid van het publiek op basis van uw gecombineerde online- en offlinegebruikersactiviteit**. In dit scenario, wilt u bestaande publieksgegevens van Audience Manager met gegevens van uw intern combineren [!DNL CRM] systeem, en verzend de resulterende publiekssegmenten naar [!DNL People-Based Destinations]. Hier is een voorbeeld dat dit scenario illustreert:
+**A) het doelpubliek dat op uw gecombineerde online en off-line gebruikersactiviteit** wordt gebaseerd. In dit scenario wilt u bestaande publieksgegevens van Audience Manager combineren met gegevens van uw interne [!DNL CRM] -systeem en de resulterende publiekssegmenten naar [!DNL People-Based Destinations] sturen. Hier is een voorbeeld dat dit scenario illustreert:
 
-Uw bedrijf, een luchtvaartmaatschappij, heeft verschillende klantniveaus (Bronze, Silver, en Goud), en u wilt elk van de niveaus van gepersonaliseerde aanbiedingen via sociale platforms voorzien. U gebruikt Audience Manager om klantactiviteiten op uw website te analyseren. Niet alle klanten gebruiken echter de mobiele app van de luchtvaartmaatschappij en sommige van hen hebben zich niet aangemeld bij de website van het bedrijf. Uw klantgegevens zijn meestal beperkt tot lidmaatschap-id&#39;s en e-mailadressen.
+Uw bedrijf, een luchtvaartmaatschappij, heeft verschillende klantniveaus (Bronze, Silver, en Goud), en u wilt elk van de niveaus van gepersonaliseerde aanbiedingen via sociale platforms voorzien. U gebruikt Audience Manager om de klantactiviteiten op uw website te analyseren. Niet alle klanten gebruiken echter de mobiele app van de luchtvaartmaatschappij en sommige van hen hebben zich niet aangemeld bij de website van het bedrijf. Uw klantgegevens zijn meestal beperkt tot lidmaatschap-id&#39;s en e-mailadressen.
 
-Als u deze wilt gebruiken voor verschillende sociale media en vergelijkbare kanalen voor personen, kunt u uw [gehashte e-mailadressen](people-based-destinations-prerequisites.md) in Audience Manager en combineer hen met uw bestaande online activiteiteneigenschappen, om nieuwe publiekssegmenten te bouwen. Vervolgens kunt u die segmenten gebruiken om uw publiek door te bladeren [!DNL People-Based Destinations].
+Om hen over sociale media en gelijkaardige op mensen-gebaseerde kanalen te richten, kunt u uw [ gehakt e-mailadressen ](people-based-destinations-prerequisites.md) brengen in Audience Manager en hen combineren met uw bestaande online activiteiteneigenschappen, om nieuwe publiekssegmenten te bouwen. Vervolgens kunt u deze segmenten gebruiken om uw doelgroep te kiezen via [!DNL People-Based Destinations] .
 
-**B) Doelgerichtheid van het publiek uitsluitend gebaseerd op uw offlinegebruikersactiviteit**. In dit scenario, uw [!DNL CRM] Het systeem bevat uw klanten e-mailadressen en andere klantenattributen, maar klanten hebben helemaal niet met uw website in wisselwerking gestaan, zodat hebt u geen klantenactiviteit in Audience Manager. Hier is een voorbeeld dat dit scenario illustreert:
+**B) het publiek dat zich richt uitsluitend op uw off-line gebruikersactiviteit** wordt gebaseerd. In dit scenario bevat uw [!DNL CRM] -systeem uw klanten-e-mailadressen en andere klantkenmerken, maar klanten hebben helemaal geen interactie met uw website gehad, zodat u in Audience Manager geen activiteiten van klanten hebt. Hier is een voorbeeld dat dit scenario illustreert:
 
-Uw bedrijf, een aanbieder van telecommunicatiediensten, houdt klantgegevens zoals e-mailadressen en aangekochte telecomplannen in een intern [!DNL CRM]. U wilt bestaande klanten op sociale platforms als doel hebben om hun upgradepakketten aan te bieden op basis van hun bestaande abonnementen. Om dit te doen, kunt u uw gehakte klanten e-mailadressen in Audience Manager opnemen, en segmenten creëren die op de bestaande klantenabonnementen worden gebaseerd. Vervolgens kunt u deze segmenten naar [!DNL People-Based Destinations] om uw klanten met gepersonaliseerde aanbiedingen te richten.
+Uw bedrijf, een aanbieder van telecommunicatiediensten, bewaart klantgegevens zoals e-mailadressen en aangekochte telecomplannen in een intern [!DNL CRM]. U wilt bestaande klanten op sociale platforms als doel hebben om hun upgradepakketten aan te bieden op basis van hun bestaande abonnementen. Hiervoor kunt u uw gehashte e-mailadressen van klanten opnemen in Audience Manager en segmenten maken op basis van de bestaande abonnementen van klanten. Vervolgens kunt u deze segmenten naar [!DNL People-Based Destinations] sturen om uw klanten te richten op persoonlijke aanbiedingen.
 
-## 2. Het type e-mailadressen definiëren {#define-target-email}
+## &#x200B;2. Bepaal het type van gerichte e-mailadressen {#define-target-email}
 
 De tweede stap bij het bepalen van uw implementatiestrategie bepaalt welk type van klant e-mailadressen u wilt richten.
 
-**A) Doelgerichtheid van het publiek op basis van uw geverifieerde e-mailadressen**. In dit scenario zijn er meerdere accounts gekoppeld aan meerdere e-mailadressen en wilt u deze richten op persoonlijke aanbiedingen die alleen zijn gebaseerd op het e-mailadres dat ze in real-time op uw website verifiëren.
+**A) het richten van het publiek dat op uw voor authentiek verklaarde e-mailadressen** wordt gebaseerd. In dit scenario zijn er meerdere accounts gekoppeld aan meerdere e-mailadressen en wilt u deze richten op persoonlijke aanbiedingen die alleen zijn gebaseerd op het e-mailadres dat ze in real-time op uw website verifiëren.
 
-**B) Doelgerichtheid van het publiek op basis van al uw bijbehorende e-mailadressen**. In dit scenario zijn er meerdere accounts gekoppeld aan meerdere e-mailadressen en wilt u deze richten op al hun gekoppelde e-mailadressen, ongeacht de geverifieerde activiteit.
+**B) het richten van het publiek dat op elk van uw bijbehorende e-mailadressen** wordt gebaseerd. In dit scenario zijn er meerdere accounts gekoppeld aan meerdere e-mailadressen en wilt u deze richten op al hun gekoppelde e-mailadressen, ongeacht de geverifieerde activiteit.
 
-## 3. Identificeer het type van Klant IDs (CRM IDs) dat u hebt {#identify-customer-id}
+## &#x200B;3. Identificeer het type van Klant IDs (CRM IDs) dat u hebt {#identify-customer-id}
 
-Doelgroepen in [!DNL People-Based Destinations] vereist dat u [SHA256 hashed](people-based-destinations-prerequisites.md) versies van uw klanten e-mailadressen. Afhankelijk van uw bestaande configuratie van de Audience Manager, kunt u in één van de volgende twee scenario&#39;s vinden:
+Het richten publiek in [!DNL People-Based Destinations] vereist u om [ SHA256 gehakt ](people-based-destinations-prerequisites.md) versies van uw klanten e-mailadressen te verzenden. Afhankelijk van uw bestaande configuratie van Audience Manager, kunt u in één van de volgende twee scenario&#39;s vinden:
 
-**A) De klant-id&#39;s van uw Audience Manager ([DPUUID&#39;s](../../reference/ids-in-aam.md)) zijn al in kleine letters, e-mailadressen met hashing**. In dit scenario kunt u deze bestaande id&#39;s gebruiken om uw doelgroepen in te stellen [!DNL People-Based Destinations].
+**A) Uw klant IDs van Audience Manager ([ DPUUIDs ](../../reference/ids-in-aam.md)) is reeds in kleine letters, gehakt e-mailadressen**. In dit scenario kunt u deze bestaande id&#39;s gebruiken om uw publiek in [!DNL People-Based Destinations] als doel in te stellen.
 
-**B) Customer ID&#39;s van uw Audience Manager ([DPUUID&#39;s](../../reference/ids-in-aam.md)) zijn geen kleine letters, gehashte e-mailadressen**. In dit scenario kunnen uw bestaande klant-id&#39;s niet worden verzonden naar [!DNL People-Based Destinations]. Te gebruiken [!DNL People-Based Destinations], moet u een synchronisatie uitvoeren van identiteitskaart tussen uw bestaande klant IDs en kleine, gehakte versies van uw klanten e-mailadressen. Je doet dit via [bestandsgebaseerde id-synchronisatie](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) of door [gedeclareerde id&#39;s](../declared-ids.md).
+**B) Uw klant IDs van Audience Manager ([ DPUUIDs ](../../reference/ids-in-aam.md)) zijn niet kleine letters, gehakt e-mailadressen**. In dit scenario kunnen uw bestaande klant-id&#39;s niet worden verzonden naar [!DNL People-Based Destinations] . Als u [!DNL People-Based Destinations] wilt gebruiken, moet u een id-synchronisatie uitvoeren tussen uw bestaande klant-id&#39;s en kleine, gehashte versies van uw klanten-e-mailadressen. U doet dit of door [ op dossier-gebaseerde synchronisatie van identiteitskaart ](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) of door [ gedeclareerde IDs ](../declared-ids.md) te gebruiken.
 
-## 4. Kwalificatie {#trait-qualification}
+## &#x200B;4. Kwalificatie van het goederenverkeer {#trait-qualification}
 
-Uw doelgroep nauwkeurig instellen in [!DNL People-Based Destinations], moeten uw gebruikers voor of regel-gebaseerde of ongeboete eigenschappen in aanmerking komen, afhankelijk van het type van publiek gericht dat u wilt uitvoeren.
+Om uw publiek in [!DNL People-Based Destinations] nauwkeurig te richten, moeten uw gebruikers voor of regel-gebaseerde of ongebogen eigenschappen in aanmerking komen, afhankelijk van het type van publiek dat richt dat u wilt uitvoeren.
 
-**A) Kwalificeer uw klant IDs en apparaat IDs in echt - tijd voor op regel-gebaseerde eigenschappen**. Deze optie is van toepassing op het gebruik van geval A van [1. Gebruiksscenario definiëren](people-based-destinations-workflow.md#defining-your-use-case). Als uw plan doelpubliek op online en off-line activiteit moet richten, dan zult u hoogstwaarschijnlijk reeds uw publiek voor kwalificeren [op regels gebaseerde kenmerken](../traits/trait-and-segment-qualification-reference.md).
+**A) kwalificeer uw klant IDs en apparaat IDs in real time voor op regel-gebaseerde eigenschappen**. Deze optie is op geval A van [ 1 van toepassing. Het bepalen van Uw Hoofdlettergebruik ](people-based-destinations-workflow.md#defining-your-use-case). Als uw plan publiek moet richten dat op online en off-line activiteit wordt gebaseerd, dan zult u zeer waarschijnlijk reeds uw publiek voor [ op regel-gebaseerde trekken ](../traits/trait-and-segment-qualification-reference.md) kwalificeren.
 
-**B) Ingebouwde traits tegen uw klant-id&#39;s via binnenkomende gegevensbestanden**. Deze optie is van toepassing op het gebruik van geval B vanuit [1. Gebruiksscenario definiëren](people-based-destinations-workflow.md#defining-your-use-case). Wanneer het richten van uw publiek dat op puur off-line activiteit wordt gebaseerd, moet u klant IDs voor onboard trekken door kwalificeren [binnenkomende gegevensbestanden](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+**B) De sporen aan boord tegen uw klant IDs via binnenkomende gegevensdossiers**. Deze optie is op geval B van [ 1 van toepassing. Het bepalen van Uw Hoofdlettergebruik ](people-based-destinations-workflow.md#defining-your-use-case). Wanneer het richten van uw publiek dat op puur off-line activiteit wordt gebaseerd, moet u klant IDs voor aan boord genomen trekken door [ binnenkomende gegevensdossiers ](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md) kwalificeren.
 
-## 5. Gegevensbronnen en gehashte e-mailadressen aan boord maken of labelen {#create-label-data-sources}
+## &#x200B;5. Maak of label gegevensbronnen en e-mailadressen aan boord met hashing {#create-label-data-sources}
 
-Afhankelijk van het type klant-id&#39;s in Audience Manager (zie [3. Identificeer het type van Klant IDs (CRM IDs) dat u hebt](people-based-destinations-workflow.md#identify-customer-id), zult u in één van de volgende scenario&#39;s vinden:
+Afhankelijk van het type van klant IDs dat u in Audience Manager hebt (zie [ . Identificeer het Type van identiteitskaart van de Klant (CRM IDs) dat u ](people-based-destinations-workflow.md#identify-customer-id) hebt, zult u in één van de volgende scenario&#39;s vinden:
 
-**A) Een label toewijzen aan een bestaande gegevensbron**. Deze optie is op het scenario van toepassing waar uw klant-id&#39;s van de Audience Manager ([DPUUID&#39;s](../../reference/ids-in-aam.md)) zijn al kleine, gehashte e-mailadressen. In dit geval moet u een label toewijzen aan de gegevensbron waarin u de id&#39;s opslaat als een [!DNL PII] gegevensbron. Zie [Instellingen gegevensbron](../datasources-list-and-settings.md) voor meer informatie over de gegevensbroninstellingen. U moet ervoor zorgen dat de optie Kan niet worden gekoppeld aan persoonlijk identificeerbare gegevens is uitgeschakeld.
+**A) Etiket een bestaande gegevensbron**. Deze optie is op het scenario van toepassing waar uw klant IDs van Audience Manager ([ DPUUIDs ](../../reference/ids-in-aam.md)) reeds in kleine letters, gehakt e-mailadressen zijn. In dit geval moet u een label toewijzen aan de gegevensbron waarin u de id&#39;s opslaat als een [!DNL PII] -gegevensbron. Zie {de Montages van Source van 0} Gegevens [ voor details op de gegevensbronmontages. ](../datasources-list-and-settings.md) U moet ervoor zorgen dat de optie Kan niet worden gekoppeld aan persoonlijk identificeerbare gegevens is uitgeschakeld.
 
-**B) Een nieuwe gegevensbron maken**. Deze optie is op het scenario van toepassing waar uw klant-id&#39;s van de Audience Manager ([DPUUID&#39;s](../../reference/ids-in-aam.md)) zijn geen gehashte e-mailadressen. In dit geval moet u een nieuwe gegevensbron voor alle apparaten maken en de gehashte e-mailadressen aan boord van deze gegevensbron plaatsen. U kunt dit op twee manieren doen:
+**B) creeer een nieuwe gegevensbron**. Deze optie is op het scenario van toepassing waar uw klant IDs van Audience Manager ([ DPUUIDs ](../../reference/ids-in-aam.md)) geen gehashte e-mailadressen zijn. In dit geval moet u een nieuwe gegevensbron voor alle apparaten maken en de gehashte e-mailadressen aan boord van deze gegevensbron plaatsen. U kunt dit op twee manieren doen:
 
-* Gebruik op bestand-id gebaseerde synchronisatie. Zie [Naam- en contentvereisten voor id-synchronisatiebestanden](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) voor details over hoe id-synchronisatiebestanden eruit moeten zien. Als u deze methode gebruikt, kunt u zich richten op al uw gehashte e-mailadressen vanuit uw [!DNL CRM] database.
-* Gebruiken [gedeclareerde id&#39;s](../declared-ids.md) om uw gehashte e-mailadressen te verklaren wanneer het overgaan in voor authentiek verklaarde klant IDs. Wanneer u deze methode gebruikt, richt Audience Manager namens u alleen uw gehashte e-mailadressen op van gebruikers die online zijn geverifieerd. De e-mailadressen die in op mensen-gebaseerde kanalen worden gericht zijn slechts degenen in de verklaarde de gebeurtenisvraag van identiteitskaart Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in real time geactiveerd.
+* Gebruik op bestanden gebaseerde id-synchronisatie. Zie [Naam- en contentvereisten voor id-synchronisatiebestanden](../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md) voor details over hoe id-synchronisatiebestanden eruit moeten zien. Wanneer u deze methode gebruikt, kunt u zich richten op al uw gehashte e-mailadressen vanuit uw [!DNL CRM] -database.
+* Het gebruik [ verklaarde IDs ](../declared-ids.md) om uw gehakt e-mailadressen te verklaren wanneer het overgaan in voor authentiek verklaarde klant IDs. Als u deze methode gebruikt, richt Audience Manager zich namens u alleen op uw gehashte e-mailadressen van gebruikers die online zijn geverifieerd. De e-mailadressen die in op mensen-gebaseerde kanalen worden gericht zijn slechts degenen in de verklaarde de gebeurtenisvraag van identiteitskaart Andere e-mailadressen die aan de klant-id zijn gekoppeld, worden niet in real time geactiveerd.
 
-## 6. Een regel voor het samenvoegen van profielen gebruiken voor segmentatie {#use-profile-merge-rules}
+## &#x200B;6. Een regel voor het samenvoegen van profielen gebruiken voor segmentatie {#use-profile-merge-rules}
 
-Afhankelijk van uw gebruikscase (zie [1. Gebruiksscenario definiëren](people-based-destinations-workflow.md#defining-your-use-case)), zijn er twee manieren om te gebruiken [!DNL Profile Merge Rules] voor segmentatie.
+Afhankelijk van uw gebruiksgeval (zie [ 1. Het bepalen van Uw Geval van het Gebruik ](people-based-destinations-workflow.md#defining-your-use-case)), zijn er twee manieren om [!DNL Profile Merge Rules] voor segmentatie te gebruiken.
 
-**A) Bestaande gebruiken[!DNL Profile Merge Rules]**. Deze optie is van toepassing op het eerste gebruiksgeval (doelgroep gebaseerd op gecombineerde online- en offlinegebruikersactiviteiten). In dit scenario, hebt u bestaande klantenactiviteit in Audience Manager en u hebt reeds minstens één Regel van de Fusie van het Profiel bepaald die u in segmentatie hebt gebruikt. In dit geval hoeft u geen nieuwe [!DNL Profile Merge Rules].
+**A) Gebruik bestaand[!DNL Profile Merge Rules]**. Deze optie is van toepassing op het eerste gebruiksgeval (doelgroep gebaseerd op gecombineerde online- en offlinegebruikersactiviteiten). In dit scenario, hebt u bestaande klantenactiviteit in Audience Manager en u hebt reeds minstens één Regel van de Fusie van het Profiel bepaald die u in segmentatie hebt gebruikt. In dit geval hoeft u geen nieuwe [!DNL Profile Merge Rules] te maken.
 
-**B) Maak een nieuwe [!DNL All Cross-Device Profiles] Regel samenvoegen**. Deze optie is van toepassing op het tweede gebruiksgeval (doelgroep die uitsluitend op offlinegebruikersactiviteit is gebaseerd). In dit scenario brengt u uw off-line klantengegevens van uw [!DNL CRM] in Audience Manager, en wil segmenten van die gegevens tot stand brengen. Om dit te doen, [!DNL People-Based Destinations] introduceert een nieuwe, vierde regel voor het samenvoegen van profielen, genaamd **[!DNL All Cross-Device Profiles]**. Dit is de regel die u moet gebruiken wanneer het segmenteren van zuiver off-line gegevens.
+**B) creeer een nieuwe, [!DNL All Cross-Device Profiles] Regel van de Fusie**. Deze optie is van toepassing op het tweede gebruiksgeval (doelgroep die uitsluitend op offlinegebruikersactiviteit is gebaseerd). In dit scenario brengt u uw offline klantgegevens van uw [!DNL CRM] naar Audience Manager en wilt u segmenten maken van die gegevens. Hiertoe introduceert [!DNL People-Based Destinations] een nieuwe, vierde regel voor het samenvoegen van profielen, genaamd **[!DNL All Cross-Device Profiles]** . Dit is de regel die u moet gebruiken wanneer het segmenteren van zuiver off-line gegevens.

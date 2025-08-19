@@ -3,26 +3,26 @@ description: TLS (Transport Layer Security) is een cryptografisch protocol dat w
 seo-description: Transport Layer Security (TLS) is a cryptographic protocol used to establish a secure communications channel between two systems. It is used to authenticate one or both systems, and protect the confidentiality and integrity of information that passes between systems. In May 2018, there were three versions of the TLS protocol in use  TLS 1.0, 1.1, and 1.2.
 seo-title: TLS 1.0 and 1.1 Deprecation
 solution: Audience Manager
-title: Afschaffing van TLS 1.0 en 1.1
+title: TLS 1.0 en 1.1 Deprectie
 uuid: 6a820e63-dd49-4689-9596-940aabba18ec
 feature: Reference
 exl-id: 857105c1-726a-4d79-bd1c-accb368aef29
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 2%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
-# Afschaffing van TLS 1.0 en 1.1{#tls-deprecation}
+# TLS 1.0 en 1.1 Deprectie{#tls-deprecation}
 
-TLS (Transport Layer Security) is een cryptografisch protocol dat wordt gebruikt om een beveiligd communicatiekanaal tussen twee systemen tot stand te brengen. Het wordt gebruikt om één of beide systemen voor authentiek te verklaren, en de vertrouwelijkheid en de integriteit van informatie te beschermen die tussen systemen overgaat. In mei 2018 waren er drie versies van het TLS-protocol in gebruik: TLS 1.0, 1.1 en 1.2.
+TLS (Transport Layer Security) is een cryptografisch protocol dat wordt gebruikt om een beveiligd communicatiekanaal tussen twee systemen tot stand te brengen. Het wordt gebruikt om één of beide systemen voor authentiek te verklaren, en de vertrouwelijkheid en de integriteit van informatie te beschermen die tussen systemen overgaat. In mei 2018 werden drie versies van het TLS-protocol gebruikt: TLS 1.0, 1.1 en 1.2.
 
-In maart 2019 [!DNL Adobe] heeft de steun voor [!DNL TLS 1.0] protocol. Adobe Audience Manager-functionaliteit werkt niet voor eindgebruikers die browsers gebruiken die alleen ondersteuning bieden [!DNL TLS 1.0].
+In maart 2019 heeft [!DNL Adobe] de ondersteuning voor het [!DNL TLS 1.0] -protocol beëindigd. Adobe Audience Manager-functionaliteit werkt niet voor eindgebruikers die browsers gebruiken die alleen [!DNL TLS 1.0] ondersteunen.
 
-In maart 2020 [!DNL Adobe] de steun voor de [!DNL TLS 1.1] protocol. De functionaliteit van Adobe Audience Manager werkt niet meer voor eindgebruikers die browsers gebruiken die alleen ondersteuning bieden voor [!DNL TLS 1.1].
+In maart 2020 beëindigt [!DNL Adobe] de ondersteuning voor het [!DNL TLS 1.1] -protocol. Adobe Audience Manager-functionaliteit werkt niet meer voor eindgebruikers die browsers gebruiken die alleen [!DNL TLS 1.1] ondersteunen.
 
-Adobe beveelt ten zeerste aan gebruik te maken van [!DNL TLS 1.2], de laatste versie van het protocol. Alle moderne browsers gebruiken [!DNL TLS 1.2]. We hebben een lijst met browsers, versies en hun [!DNL TLS] ondersteuning. Ga voor meer informatie over ondersteuning van TLS-browsers naar [De verbinding van Wikipedia van de Veiligheid van de Laag van het Vervoer](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Adobe raadt u ten zeerste aan [!DNL TLS 1.2] te gebruiken, wat op het moment van schrijven de nieuwste versie van het protocol is. Alle moderne browsers gebruiken [!DNL TLS 1.2] . We hebben een lijst met browsers, versies en hun [!DNL TLS] ondersteuning voor u verzameld. Voor meer informatie over de browser van TLS steun, bezoek [ de verbinding van Wikipedia van de Veiligheid van de Laag van het Vervoer ](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 

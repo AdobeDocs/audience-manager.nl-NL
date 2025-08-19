@@ -9,8 +9,8 @@ feature: API
 exl-id: f9907f6e-d553-4771-945b-2fddb3c9ce2f
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 2%
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Domeinbeheermethoden waarmee u domeinen kunt maken en beheren waarnaar u gegeven
 
 ## Een nieuw domein maken {#create-new-domain}
 
-A `POST` methode die u een nieuw domein voor (koekjesbestemmingen slechts) laat creëren.
+Een methode `POST` waarmee u een nieuw domein kunt maken voor (alleen cookie-doelen).
 
 <!-- r_post_new_partner_site.xml -->
 
@@ -40,7 +40,7 @@ A `POST` methode die u een nieuw domein voor (koekjesbestemmingen slechts) laat 
 
 ### Antwoord
 
-Resultaten van een succesvolle reactie `201 created` en de partnerplaats, met inbegrip van zijn unieke identiteitskaart
+Een geslaagde reactie retourneert `201 created` en de partnersite, inclusief de unieke id.
 
 ```
 {
@@ -52,7 +52,7 @@ Resultaten van een succesvolle reactie `201 created` en de partnerplaats, met in
 
 ## Een domein verwijderen {#delete-domain}
 
-A `DELETE` methode waarmee u een domein kunt verwijderen (alleen voor cookie-doelen).
+Een methode `DELETE` waarmee u een domein kunt verwijderen (alleen voor cookie-doelen).
 
 <!-- r_delete_partner_site.xml -->
 
@@ -62,11 +62,11 @@ A `DELETE` methode waarmee u een domein kunt verwijderen (alleen voor cookie-doe
 
 ### Antwoord
 
-Resultaten van een succesvolle reactie `204 no content`. Retourneert `404 not found` als de partnerplaats niet kan worden gevonden.
+Een geslaagde reactie retourneert `204 no content` . Retourneert `404 not found` als de partnersite niet kan worden gevonden.
 
 ## Eigenschappen voor een domein retourneren {#return-props-domain}
 
-A `GET` methode die details over het gespecificeerde domein (voor koekjesbestemmingen slechts) terugkeert.
+Een methode `GET` die details over het gespecificeerde domein (voor koekjesbestemmingen slechts) terugkeert.
 
 <!-- r_get_partner_site.xml -->
 
@@ -76,7 +76,7 @@ A `GET` methode die details over het gespecificeerde domein (voor koekjesbestemm
 
 ### Antwoord
 
-Resultaten van een succesvolle reactie `200 OK` en gegevens zoals weergegeven in onderstaande steekproef. Retourneert `404 Not found` als de site-id of partner niet wordt gevonden.
+Bij een geslaagde reactie worden `200 OK` en gegevens geretourneerd, zoals in het onderstaande voorbeeld wordt getoond. Retourneert `404 Not found` als de site-id of partner niet wordt gevonden.
 
 ```
 {
@@ -88,7 +88,7 @@ Resultaten van een succesvolle reactie `200 OK` en gegevens zoals weergegeven in
 
 ## Eigenschappen retourneren voor alle domeinen {#return-props-all-domains}
 
-A `GET` methode die informatie over al uw domeinen (voor koekjesbestemmingen slechts) terugkeert.
+Een methode `GET` die informatie over al uw domeinen (voor koekjesbestemmingen slechts) terugkeert.
 
 <!-- r_get_partner_sites.xml -->
 
@@ -98,7 +98,7 @@ A `GET` methode die informatie over al uw domeinen (voor koekjesbestemmingen sle
 
 ### Optionele queryparameters
 
-U kunt deze optionele parameters gebruiken met [!DNL API] methoden die worden geretourneerd *alles* eigenschappen voor een object. Stel deze opties in de tekenreeks request wanneer u die query doorgeeft aan de [!DNL API]. Zie [Optionele parameters](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+U kunt deze facultatieve parameters met [!DNL API] methodes gebruiken die *alle* eigenschappen voor een voorwerp terugkeren. Stel deze opties in de aanvraagtekenreeks in wanneer u die query aan de [!DNL API] doorgeeft. Zie [ Facultatieve Parameters ](../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 
@@ -133,7 +133,7 @@ U kunt deze optionele parameters gebruiken met [!DNL API] methoden die worden ge
 
 ### Antwoord
 
-Resultaten van een succesvolle reactie `200 OK` en gegevens in een array zoals in het onderstaande voorbeeld wordt getoond. Retourneert `404 Not found` als de site-id of partner niet wordt gevonden.
+Een geslaagde reactie retourneert `200 OK` en gegevens in een array, zoals in het onderstaande voorbeeld wordt getoond. Retourneert `404 Not found` als de site-id of partner niet wordt gevonden.
 
 ```
 [

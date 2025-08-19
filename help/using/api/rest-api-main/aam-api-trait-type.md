@@ -3,18 +3,18 @@ description: Optionele methoden waarmee u eigenschappen kunt toewijzen aan een d
 seo-description: Optional methods that let you to assign traits to a user-defined type or category, usually according to function or for your own internal reporting processes.
 seo-title: Trait Type Methods
 solution: Audience Manager
-title: Methoden voor eigenschaptypen
+title: Methoden voor type traditie
 uuid: 082931d5-457b-4622-817b-86303f38c26a
 feature: API
 exl-id: d450f9ce-2abb-4a8b-b8db-2962b84fb341
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '151'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# Methoden voor eigenschaptypen {#trait-type-methods}
+# Methoden voor type traditie {#trait-type-methods}
 
 Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebruiker gedefinieerd type of categorie, meestal op basis van de functie of voor uw eigen interne rapportageprocessen.
 
@@ -22,13 +22,13 @@ Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebrui
 
 >[!NOTE]
 >
->Trainingstypemethoden wijzen geen kenmerken toe aan categorieën die door de [gemeenschappelijke taxonomie](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Beschouw deze als labels die los staan van de algemene taxonomie.
+>Het type van spoor methodes wijst geen eigenschappen aan categorieën toe die door [ worden gebruikt gemeenschappelijke taxonomie ](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Beschouw deze als labels die los staan van de algemene taxonomie.
 
-Voor visuele referentie: [!UICONTROL Trait Types] is een dropdown-besturingselement in het dialoogvenster [!DNL UI] krachtens **[!UICONTROL Traits > Create new trait > Basic Information]**.
+Voor visuele referentie is [!UICONTROL Trait Types] een vervolgkeuzemenu in de lus [!DNL UI] under **[!UICONTROL Traits > Create new trait > Basic Information]** .
 
 ## Een nieuw type overtrek maken {#create-trait-type}
 
-A `POST` een methode waarmee u een nieuw type eigenschap kunt maken.
+Een methode `POST` waarmee u een nieuw type eigenschap kunt maken.
 
 <!-- r_rest_api_create_trait_type.xml -->
 
@@ -61,7 +61,7 @@ A `POST` een methode waarmee u een nieuw type eigenschap kunt maken.
 
 ## Eigenschappen retourneren voor een type overtrek {#return-props}
 
-A `GET` methode die details over het gespecificeerde type van eigenschap terugkeert.
+Een methode `GET` die details over het opgegeven type eigenschap retourneert.
 
 <!-- r_rest_api_get_trait_type.xml -->
 
@@ -84,9 +84,9 @@ A `GET` methode die details over het gespecificeerde type van eigenschap terugke
 }
 ```
 
-## Eigenschappen retourneren voor alle travetypen {#return-props-all}
+## Eigenschappen retourneren voor alle typen sporen {#return-props-all}
 
-A `GET` methode die details over al uw types van eigenschap in een serie terugkeert.
+Een `GET` -methode die details retourneert over al uw kenmerktypen in een array.
 
 <!-- r_rest_api_get_trait_types.xml -->
 

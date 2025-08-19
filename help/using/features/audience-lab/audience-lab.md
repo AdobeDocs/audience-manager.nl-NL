@@ -9,25 +9,25 @@ feature: Audience Lab
 exl-id: b7fbeb03-52aa-4489-8fcb-45bc2d26621d
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 2%
+source-wordcount: '549'
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Audience Lab] {#audience-lab}
 
-Meerdere testsegmenten maken in [!UICONTROL Segment Test Groups] de doeltreffendheid van verschillende bestemmingen te vergelijken en te meten. U kunt een controlegroep opzij zetten en uw segment in percentages van een geheel verdelen, om doeltreffendheid te testen.
+Maak wederzijds exclusieve testsegmenten in [!UICONTROL Segment Test Groups] om de effectiviteit van verschillende doelen te vergelijken en te meten. U kunt een controlegroep opzij zetten en uw segment in percentages van een geheel verdelen, om doeltreffendheid te testen.
 
 ## Overzicht {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] gebruik [Profielkoppeling](../../features/profile-merge-rules/merge-rules-overview.md) om cross-device tests uit te voeren. Dit helpt ervoor zorgen een gebruiker voor het zelfde testsegment kwalificeert en de zelfde behandeling over apparaten ontvangt. De testsegmenten in testgroepen nemen de [Regel voor samenvoegen van profiel](../../features/profile-merge-rules/merge-rules-dashboard.md) het basissegment heeft eraan toegewezen.
+[!UICONTROL Audience Lab] gebruikt [ Verbinding van het Profiel ](../../features/profile-merge-rules/merge-rules-overview.md) om dwars-apparaat het testen te aandrijven. Dit helpt ervoor zorgen een gebruiker voor het zelfde testsegment kwalificeert en de zelfde behandeling over apparaten ontvangt. De testsegmenten in testgroepen zullen de [ Regel van de Fusie van het Profiel ](../../features/profile-merge-rules/merge-rules-dashboard.md) erven het basissegment aan het heeft toegewezen.
 
-De [!UICONTROL Audience Lab] de standaardmening toont een kaart voor elk van de testgroepen. Klik op een kaart voor toegang tot de **[!UICONTROL Test Group]** weergeven. Deze weergave bevat de volgende informatie:
+In de standaardweergave van [!UICONTROL Audience Lab] wordt een kaart weergegeven voor elk van de testgroepen. Klik op een kaart om de weergave **[!UICONTROL Test Group]** te openen. Deze weergave bevat de volgende informatie:
 
 * **[Testgroepgegevens](../../features/audience-lab/audience-lab-information-view.md)**
 * **[Testgroeprapportage](../../features/audience-lab/audience-lab-reporting-view.md)**
 
-U kunt **maximaal 10 testgroepen**, elk met **tot 15 testsegmenten**.
+U kunt **tot 10 testgroepen** tot stand brengen, elk met **tot 15 testsegmenten**.
 
 ![](assets/test-groups-view.PNG)
 
@@ -41,7 +41,7 @@ Wanneer u meerdere testgroepen met meerdere testsegmenten maakt, is het misschie
 
 ![](assets/search_and_filter_audience_lab.png)
 
-U kunt de testgroepen ook filteren op status. Alle beschikbare statussen worden beschreven in de [Status](../../features/audience-lab/audience-lab.md#status) hieronder.
+U kunt de testgroepen ook filteren op status. Alle beschikbare statussen worden beschreven in de [ hieronder sectie van de Status ](../../features/audience-lab/audience-lab.md#status).
 
 ## [!UICONTROL Status] {#status}
 
@@ -57,23 +57,23 @@ De status van een testgroep kan actief, gepland, gepauzeerd, concept of voltooid
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Actief </span></b> </p> </td> 
-   <td colname="col2"> <p>An <i>actief</i> testgroep betekent dat er momenteel gegevens naar bestemmingen worden verzonden. Druk <b><span class="uicontrol"> Testen onderbreken </span></b> in de <b><span class="uicontrol"> Testgroep </span></b> kaart om het verzenden van gegevens naar bestemmingen op te schorten. </p> </td> 
+   <td colname="col2"> <p>Een <i> actieve </i> testgroep betekent dat het gegeven momenteel naar bestemmingen wordt verzonden. Druk op <b><span class="uicontrol"> Testen onderbreken </span></b> in de <b><span class="uicontrol"> Testgroep </span></b> -kaart om het verzenden van gegevens naar doelen te onderbreken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gepland </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>gepland</i> de testgroep is nog niet actief maar kan niet meer worden bewerkt. Het wordt actief op de begindatum die u in het dialoogvenster <b>Testgroepen maken</b> wizard. </p> </td> 
+   <td colname="col2"> <p>A <i> geplande </i> testgroep is nog niet actief maar kan niet meer worden uitgegeven. Het zal actief worden op de begindatum u in <b> selecteerde creeer de Groepen van de Test </b> tovenaar. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Gepauzeerd </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>gepauzeerd</i> de testgroep verzendt momenteel geen gegevens naar bestemmingen. Druk <b><span class="uicontrol"> Actief maken </span></b> in de <b><span class="uicontrol"> Testgroep </span></b> kaart om het verzenden van kenmerken te hervatten. </p> </td> 
+   <td colname="col2"> <p>A <i> gepauzeerde </i> testgroep verzendt momenteel geen gegevens naar bestemmingen. Druk op <b><span class="uicontrol"> Actief maken </span></b> in de kaart <b><span class="uicontrol"> Testgroep </span></b> om het verzenden van kenmerken te hervatten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Concept </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>ontwerp</i> de testgroep is nog niet actief en kan nog steeds worden bewerkt. Het verzendt nog geen gegevens naar de in kaart gebrachte bestemmingen. </p> </td> 
+   <td colname="col2"> <p>A <i> ontwerp </i> testgroep is nog niet actief en kan nog worden uitgegeven. Het verzendt nog geen gegevens naar de in kaart gebrachte bestemmingen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Voltooid </span></b> </p> </td> 
-   <td colname="col2"> <p>A <i>voltooid</i> de testgroep heeft de einddatum bereikt u in selecteerde <b><span class="uicontrol"> Testgroepen maken </span></b> en het verzenden van rapportgegevens is gestopt. </p> </td>
+   <td colname="col2"> <p>A <i> voltooide </i> testgroep heeft de einddatum bereikt u in <b><span class="uicontrol"> creeerde de tovenaar van de Groepen van de Test </span></b> selecteerde en het verzenden van het melden van gegevens ophoudt. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -83,14 +83,14 @@ De status van een testgroep kan actief, gepland, gepauzeerd, concept of voltooid
 <table id="table_481A411E2D2F4FE891595D00E775CF60"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Acties </th> 
+   <th colname="col1" class="entry"> Handelingen </th> 
    <th colname="col2" class="entry"> Beschrijving </th>
   </tr>
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Bewerken </span></b> </p> </td>
-   <td colname="col2"> <p>Beschikbaar <b>alleen</b> voor concepttestgroepen. Hiermee kunt u het dialoogvenster <b><span class="uicontrol"> Nieuwe testgroep maken </span></b> wizard. </p> </td>
+   <td colname="col2"> <p>Beschikbaar <b> slechts </b> voor de groepen van de ontwerptest. Hiermee kunt u de wizard <b><span class="uicontrol"> Nieuwe testgroep maken </span></b> hervatten. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p> <b><span class="uicontrol"> Pauzeren </span></b> </p> </td>

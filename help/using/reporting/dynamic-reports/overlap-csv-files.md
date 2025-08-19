@@ -3,18 +3,18 @@ description: U kunt een .csv- dossier voor een Rapport van de Overlapping verzoe
 seo-description: You can request a .csv file for an Overlap Report when that report reaches its 1-million record limit. A report may have reached this limit when you see an "Unexpected error has occurred" message. Contact Customer Care to request a compressed .csv file, which you can import and work with in your own database system. Files are available for segment-to-segment, segment-to-trait, and trait-to-trait overlap reports.
 seo-title: CSV Files for Overlap Reports
 solution: Audience Manager
-title: CSV-bestanden voor overlaprapporten
+title: CSV-bestanden voor overlappende rapporten
 uuid: 047e440e-00c5-4d06-a809-51d776326cd6
 feature: Overlap Reports
 exl-id: 759c39cb-64ec-47dd-a3a4-027408aa6b5e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
-# CSV-bestanden voor overlaprapporten{#csv-files-for-overlap-reports}
+# CSV-bestanden voor overlappende rapporten{#csv-files-for-overlap-reports}
 
 U kunt een .csv- dossier voor een Rapport van de Overlapping verzoeken wanneer dat rapport zijn 1 miljoen verslaggrens bereikt. Een rapport kan deze limiet hebben bereikt wanneer u het bericht &quot;Onverwachte fout is opgetreden&quot; ziet. Neem contact op met de klantenservice om een gecomprimeerd .csv-bestand aan te vragen waarmee u in uw eigen databasesysteem kunt importeren en werken. De dossiers zijn beschikbaar voor segment-aan-segment, segment-aan-eigenschap, en de eigenschap-aan-lijn overlappende rapporten.
 
@@ -32,23 +32,23 @@ In de volgende tabel vindt u een overzicht en beschrijving van de naamconventies
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Bestandsextensie </p> </td> 
-   <td colname="col2"> <p>Rapportbestanden voor overlappen worden gecomprimeerd met gzip en hebben een <code> .gz</code> bestandsextensie. U moet de opdracht <code> .csv</code> extensie naar het bestand na decompressie. </p> </td> 
+   <td colname="col2"> <p>Overlap rapportbestanden worden gecomprimeerd met gzip en hebben een bestandsextensie <code> .gz</code> . U moet de extensie <code> .csv</code> na decompressie aan het bestand toevoegen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bestandsnaam </p> </td> 
    <td colname="col2"> <p>Syntaxis bestandsnaam: </p> <p> 
      <ul id="ul_D69D320A1AE94361B75D2AB47F90C4D1"> 
-      <li id="li_FFB104975D104050AB67FEEC903C6E2E">Segment-aan-segment dossiers: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_FFB104975D104050AB67FEEC903C6E2E">Segment-naar-segment bestanden: <code>S2S_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
       <li id="li_7DEC51D693FB4377840D652AF40386EF">Bestanden segmenteren naar doel: <code>S2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
-      <li id="li_CCB35A2BCB714E518AB279D453740623">Trait-to-trait bestanden: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
+      <li id="li_CCB35A2BCB714E518AB279D453740623">Trait-to-trait-bestanden: <code>T2T_overlap_<i>partner ID</i>_<i>yyyy-mm-dd</i>_<i>date range</i></code> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datumbereik </p> </td> 
    <td colname="col2"> <p>De datumwaaier voor een rapport is een 5 cijferidentiteitskaart die omvat: </p> <p> 
      <ul id="ul_7B334CDFD7DA42AC8F383BE0F8F77FB9"> 
-      <li id="li_0045DED532E747C08824DCC98A9174B3"> <code> 70000</code> voor een verslag van 7 dagen. </li> 
-      <li id="li_3A22775F78E648BF8AC32A9E1AF1F5DE"> <code> 30000</code> voor een verslag van 30 dagen. </li> 
+      <li id="li_0045DED532E747C08824DCC98A9174B3"> <code> 70000</code> voor een rapport van 7 dagen. </li> 
+      <li id="li_3A22775F78E648BF8AC32A9E1AF1F5DE"> <code> 30000</code> voor een rapport van 30 dagen. </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ In het bestand worden tekenreeksgegevens tussen dubbele aanhalingstekens geplaat
 
 ## Rapportrecords segment-naar-segment {#segment-segment-records}
 
-Een gegevensbestand voor uw [Overlap-rapport segment-naar-segment](segment-segment-overlap-report.md) bevat de volgende records.
+Een gegevensdossier voor uw [ Segment-aan-Segment het Rapport van de Overlapping ](segment-segment-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -112,7 +112,7 @@ Een gegevensbestand voor uw [Overlap-rapport segment-naar-segment](segment-segme
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de hieronder aangegeven tijdsintervallen. </p> <p> 
+   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de tijdsintervallen die hieronder worden weergegeven. </p> <p> 
      <ul id="ul_129D6CB0EB6F48F28440D22DA257D1A4"> 
       <li id="li_5FC34516A437459F854C81B1CE353B89"> <code> 7</code>: 7 dagen </li> 
       <li id="li_2CECC5039DAF4796BCCF27DACC3754A3"> <code> 30</code>: 30 dagen </li> 
@@ -143,7 +143,7 @@ Een gegevensbestand voor uw [Overlap-rapport segment-naar-segment](segment-segme
 
 ## Registers gesegmenteerd rapport {#segment-trait-records}
 
-Een gegevensbestand voor uw [Overlap-rapport segment-naar-spoor](segment-trait-overlap-report.md) bevat de volgende records.
+Een gegevensdossier voor uw [ segment-aan-Trait het Rapport van de Overlapping ](segment-trait-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -175,7 +175,7 @@ Een gegevensbestand voor uw [Overlap-rapport segment-naar-spoor](segment-trait-o
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de hieronder aangegeven tijdsintervallen. </p> <p> 
+   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de tijdsintervallen die hieronder worden weergegeven. </p> <p> 
      <ul id="ul_4B07DFF4A226428A930E22B5FF73E1D0"> 
       <li id="li_4BD0F8AE64C74D7BBE2298F19E2F5328"> <code> 7</code>: 7 dagen </li> 
       <li id="li_7C0C0D2CD9144C4CAF00EDEA90929104"> <code> 30</code>: 30 dagen </li> 
@@ -210,7 +210,7 @@ Een gegevensbestand voor uw [Overlap-rapport segment-naar-spoor](segment-trait-o
 
 ## Trait-to-Trait Report Records {#trait-trait-records}
 
-Een gegevensbestand voor uw [Rapport overlappingen trait-to-Trait](trait-trait-overlap-report.md) bevat de volgende records.
+Een gegevensdossier voor uw [ Trait-aan-Trait het Rapport van de Overlapping ](trait-trait-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 
@@ -250,7 +250,7 @@ Een gegevensbestand voor uw [Rapport overlappingen trait-to-Trait](trait-trait-o
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> rangeid</code> </p> </td> 
-   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de hieronder aangegeven tijdsintervallen. </p> <p> 
+   <td colname="col2"> <p>U kunt rapporten krijgen voor 7- en 30-dagen terugblik-achterintervallen. De <code> rangeid</code> komt overeen met de tijdsintervallen die hieronder worden weergegeven. </p> <p> 
      <ul id="ul_BC2C41B90F864522B075EFDED33537EC"> 
       <li id="li_929639F70A1A4039BA19332562B71845"> <code> 7</code>: 7 dagen </li> 
       <li id="li_1C489A4B755D4444AD5FAAF0B492F412"> <code> 30</code>: 30 dagen </li> 
@@ -278,7 +278,7 @@ Een gegevensbestand voor uw [Rapport overlappingen trait-to-Trait](trait-trait-o
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> base_trait_uniques_overlap_perc</code> </p> </td> 
-   <td colname="col2"> <p>% van de uniques-gebruikers die de geselecteerde kenmerken overlappen. In het UI-rapport wordt dit nummer weergegeven in het pop-upvenster wanneer u de muisaanwijzer op een kenmerk in de warmteafspeelresultaten plaatst. </p> </td> 
+   <td colname="col2"> <p>% van de unieke gebruikers die de geselecteerde kenmerken overlappen. In het UI-rapport wordt dit nummer weergegeven in het pop-upvenster wanneer u de muisaanwijzer op een kenmerk in de warmteafspeelresultaten plaatst. </p> </td> 
   </tr> 
  </tbody> 
 </table>

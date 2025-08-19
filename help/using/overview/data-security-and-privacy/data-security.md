@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: 94b70250-dca3-4c50-b4dd-bc37178a587e
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 98%
+source-wordcount: '988'
+ht-degree: 92%
 
 ---
 
@@ -49,7 +49,7 @@ Processen die helpen ons systeem en uw data te beveiligen.
 
 **Beveiligde toegang:**  Audience Manager vereist sterke wachtwoorden voor aanmelding bij het systeem. Zie [wachtwoordvereisten](../../reference/password-requirements.md).
 
-## Privacy en Personally Identifiable Information (PII) {#pii}
+## Privacy en persoonlijk identificeerbare informatie (PII) {#pii}
 
 Processen die persoonlijke informatie beveiligen. Zie het [Adobe Privacy Center](https://www.adobe.com/nl/privacy/advertising-services.html) voor meer privacyinformatie.
 
@@ -57,15 +57,15 @@ Processen die persoonlijke informatie beveiligen. Zie het [Adobe Privacy Center]
 
 **IP-adressen:**  Audience Manager verzamelt IP-adressen. IP-adressen worden gebruikt bij processen voor dataverwerking en logboeksamenvoeging. Ze zijn ook vereist voor opzoeken en targeting van geografische gebieden en locaties. Bovendien worden alle IP-adressen in bewaarde logboekbestanden binnen 90 dagen onzichtbaar gemaakt.
 
-## Datapartitionering {#data-partitioning}
+## Gegevens partitioneren {#data-partitioning}
 
 Processen die data van individuele klanten helpen beschermen.
 
-**Verdeling van gegevens over overtrekken:**  Uw gegevens ([!UICONTROL traits], id&#39;s, enz.) worden gepartitioneerd per client. Dit voorkomt onbedoelde openbaarmaking van informatie tussen verschillende clients. De data van eigenschappen in cookies worden bijvoorbeeld gepartitioneerd per klant en opgeslagen in een clientspecifiek subdomein. De data kunnen niet per ongeluk door een andere Audience Manager-client worden gelezen of gebruikt. Bovendien worden de eigenschapdata die op de [!UICONTROL Profile Cache Servers (PCS)] worden opgeslagen, eveneens per klant gepartitioneerd. Dit voorkomt dat andere clients uw data per ongeluk gebruiken in een gebeurteniscall of een andere aanvraag.
+**het Verdelen van Gegevens van het Staal:** Uw gegevens ([!UICONTROL traits], IDs, enz.) wordt verdeeld door cliënt. Dit voorkomt onbedoelde openbaarmaking van informatie tussen verschillende clients. De data van eigenschappen in cookies worden bijvoorbeeld gepartitioneerd per klant en opgeslagen in een clientspecifiek subdomein. De data kunnen niet per ongeluk door een andere Audience Manager-client worden gelezen of gebruikt. Bovendien worden de eigenschapdata die op de [!UICONTROL Profile Cache Servers (PCS)] worden opgeslagen, eveneens per klant gepartitioneerd. Dit voorkomt dat andere clients uw data per ongeluk gebruiken in een gebeurteniscall of een andere aanvraag.
 
 **Datapartitionering in rapporten:**  Client-id’s maken deel uit van de identificatiesleutel in alle rapportagetabellen en rapportquery’s worden gefilterd op id. Dit voorkomt dat uw data worden weergegeven in de rapporten van een andere klant van Audience Manager.
 
-## Binnenkomende server-naar-server (S2S)-overdracht {#inbound-s2s}
+## Binnenkomende Server-aan-Server (S2S) Overdrachten {#inbound-s2s}
 
 Adobe Audience Manager ondersteunt twee hoofdmethoden voor het overdragen van onboarded S2S-databestanden naar onze systemen:
 
@@ -73,15 +73,15 @@ Beide methodes zijn ontworpen met het oog op de veiligheid van onze klant- en pa
 
 **SFTP:** Voor de optie SFTP kiezen de meeste klanten ervoor bestanden te leveren via het SFTP-protocol (Secure FTP), dat het SSH-protocol (Secure Shell) gebruikt. Deze methode zorgt ervoor dat bestanden versleuteld zijn terwijl ze onderweg zijn tussen de systemen van de klant en het systeem van Adobe. Voor elke klant maken we een jailed drop-boxlocatie op onze SFTP-servers, die is gekoppeld aan een gebruikersaccount op dat systeem. Alleen de interne systeemgebruikers met referenties en toestemmingen van de klant hebben toegang tot deze jailed drop-boxlocatie. Deze jail is nooit toegankelijk voor andere klanten.
 
-**[!UICONTROL Amazon Web Services S3]via HTTPS:** Voor de S3-leveringsoptie adviseren we dat alle klanten hun S3-clients configureren voor het gebruik van de HTTPS-versleutelingsmethode voor bestandsoverdracht (dat is niet de standaardinstelling, dus dit moet expliciet worden geconfigureerd). De HTTPS-optie wordt ondersteund door zowel het s3cmd-opdrachtregelprogramma als door de S3-bibliotheken die beschikbaar zijn in elke belangrijke programmeertaal. Als deze HTTPS-optie is ingeschakeld, worden de data van de klant versleuteld terwijl ze onderweg zijn tussen onze systemen. Voor elke klant maken we een afzonderlijke S3-bucket-submap die alleen toegankelijk is met de referenties van deze klant en die van onze interne systeemgebruikers.
+**[!UICONTROL Amazon Web Services S3]via HTTPS:** Voor de S3 leveringsoptie, adviseren wij dat alle klanten hun S3 cliënten vormen om de encryptiemethode HTTPS voor dossieroverdrachten te gebruiken (dit is niet het gebrek, zodat moet het uitdrukkelijk worden gevormd). De HTTPS-optie wordt ondersteund door zowel het s3cmd-opdrachtregelprogramma als door de S3-bibliotheken die beschikbaar zijn in elke belangrijke programmeertaal. Als deze HTTPS-optie is ingeschakeld, worden de data van de klant versleuteld terwijl ze onderweg zijn tussen onze systemen. Voor elke klant maken we een afzonderlijke S3-bucket-submap die alleen toegankelijk is met de referenties van deze klant en die van onze interne systeemgebruikers.
 
 Als u PGP-versleuteling wilt toevoegen aan uw databestanden, raadpleegt u [PGP-bestandsversleuteling voor binnenkomende datatypen](../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md).
 
-## Data beveiligen met Escaping {#escaping-data}
+## Gegevens beveiligen met Escaping {#escaping-data}
 
 Merk op dat [!DNL Audience Manager] geen escape uitvoert op uitgaande data om deze te beveiligen tegen mogelijke cross-site scripting (XSS), enz. Het is de verantwoordelijkheid van de klant om een escape uit te voeren op binnenkomende data.
 
-## HTTP Strict-Transport-Security {#hsts}
+## HTTP Strikt vervoer-Veiligheid {#hsts}
 
 [!DNL HTTP Strict-Transport-Security (HSTS)] is een branchebreed beveiligingsmechanisme dat bescherming biedt tegen het kapen van cookies en aanvallen die het protocol downgraden.
 
@@ -91,6 +91,6 @@ Dit beleid verbetert de databeveiliging tussen clients en Adobe [Edge](../../ref
 
 ### Voorbeeld {#hsts-example}
 
-Laten we de `yourcompany.demdex.com` domein verzendt verkeer naar [!DNL DCS] via [!DNL HTTP]. [!DNL HSTS] werkt de calls bij om in plaats daarvan [!DNL HTTPS] te gebruiken, en alle volgende [!DNL DCS] calls van `yourcompany.demdex.com` zullen [!DNL HTTPS] gebruiken in plaats van [!DNL HTTP].
+Laten we zeggen dat het `yourcompany.demdex.com` -domein verkeer verstuurt naar de [!DNL DCS] via [!DNL HTTP] . [!DNL HSTS] werkt de calls bij om in plaats daarvan [!DNL HTTPS] te gebruiken, en alle volgende [!DNL DCS] calls van `yourcompany.demdex.com` zullen [!DNL HTTPS] gebruiken in plaats van [!DNL HTTP].
 
 Zie [HTTP Strict Transport Security - Wikipedia](https://nl.wikipedia.org/wiki/HTTP_Strict_Transport_Security) voor meer informatie over HSTS.

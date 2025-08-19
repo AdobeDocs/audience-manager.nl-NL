@@ -10,8 +10,8 @@ feature: Overview
 exl-id: b5884d26-0be1-4eaa-99a1-7247942bf6c9
 source-git-commit: b0521682c6332d23e55d769e7421680337670fa4
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 84%
+source-wordcount: '574'
+ht-degree: 87%
 
 ---
 
@@ -33,7 +33,7 @@ De *`Organization ID`* is een unieke id die uw organisatie identificeert in [!DN
 
 Een *`Organization ID`* kan er bijvoorbeeld zo uitzien: `1FD6776A524453CC0A490D44@AdobeOrg`.
 
-De *`Organization ID`* wordt gebruikt door de [DIL](../dil/dil-overview.md)-API van Audience Manager, de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) en andere [!DNL Experience Cloud] oplossingen. Gebruikers met beheerdertoestemmingen kunnen de *`Organization ID`* op de [!DNL Adobe Admin Console] vinden. Zie [Veelgestelde vragen over Beheer - User Management](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
+De *`Organization ID`* wordt gebruikt door de [DIL](../dil/dil-overview.md)-API van Audience Manager, de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) en andere [!DNL Experience Cloud] oplossingen. Gebruikers met beheerdertoestemmingen kunnen de *`Organization ID`* op de [!DNL Adobe Admin Console] vinden. Zie [Veelgestelde vragen over Beheer - User Management](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
  
 
@@ -47,9 +47,9 @@ Ja. Zie [Bulkbeheertools](../reference/bulk-management-tools/bulk-management-int
 
  
 
-**Bij het exporteren van een bulk-id naar een doel ontbreken enkele klant-id&#39;s. Waarom gebeurt dat?**
+**wanneer het uitvoeren van een bulkidentiteitskaart- uitvoer naar een bestemming, ontbreken sommige klant IDs. Waarom gebeurt dat?**
 
-Wanneer een apparaat-id ([AAM UUID](../reference/ids-in-aam.md)) is gekoppeld aan meerdere CRM-id&#39;s ([DPUUID&#39;s](../reference/ids-in-aam.md)), wordt alleen de laatste toewijzing geëxporteerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
+Wanneer een apparatenidentiteitskaart ([ AAM UUID ](../reference/ids-in-aam.md)) met veelvoudige CRM IDs ([ DPUUIDs ](../reference/ids-in-aam.md)) wordt verbonden, slechts wordt de recentste afbeelding uitgevoerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
 
  
 
@@ -67,7 +67,7 @@ Uw datafeed en alle eigenschappen in de feed worden weergegeven als submappen en
 
 **Wat is [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Tags]. Zie voor meer informatie [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL).
+Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Tags]. Voor meer informatie, zie [ de Markeringen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html).
 
  
 
@@ -95,4 +95,4 @@ U kunt Trait Recommendations het best gebruiken in de volgende gevallen:
 
 **Is er een verschil tussen de segmenten van Adobe Analytics en Audience Manager?**
 
-Ja, lees [Inzicht in segmenten in Analytics en Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=nl-NL) voor een uitgebreide beschrijving van de verschillen.
+Ja, lees [Inzicht in segmenten in Analytics en Audience Manager](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) voor een uitgebreide beschrijving van de verschillen.

@@ -3,24 +3,24 @@ description: Beschrijft de verhouding tussen nauwkeurigheid en bereik in algorit
 seo-description: Describes the relationship between accuracy and reach in algorithmic traits.
 seo-title: Accuracy and Reach
 solution: Audience Manager
-title: Nauwkeurigheid en bereik
+title: Nauwkeurigheid en Bereik
 uuid: d121e099-6642-4003-ad4f-507d21e478d8
 feature: Traits
 exl-id: 647b283a-fcfa-4e3f-8667-50c6aacbc78a
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 1%
+source-wordcount: '342'
+ht-degree: 0%
 
 ---
 
-# Nauwkeurigheid en bereik {#accuracy-and-reach}
+# Nauwkeurigheid en Bereik {#accuracy-and-reach}
 
 Beschrijft de verhouding tussen nauwkeurigheid en bereik in algoritmische eigenschappen.
 
 <!-- c_accuracy_reach.xml -->
 
-## Nauwkeurigheid versus Bereik: Info
+## Accuracy vs Reach: informatie
 
 Het is belangrijk om de relatie tussen nauwkeurigheid en bereik te begrijpen wanneer het werken met algoritmische eigenschappen. De nauwkeurigheid wordt vertegenwoordigd door een gegraveerde waarde die wijst op hoe gelijkaardig gebruikers aan uw basislijn zijn. De nauwkeurigheidsschaal loopt van 0 (minst nauwkeurig) tot en met 1 (meest nauwkeurig). Bereik is gewoon een waarde die het aantal unieke gebruikers vertegenwoordigt dat u in een eigenschap wilt opnemen. Bereik en nauwkeurigheid zijn omgekeerd. Nauwkeurige kenmerken bereiken minder gebruikers en kenmerken met een groter bereik zijn minder nauwkeurig. Dit concept wordt in de volgende afbeelding geïllustreerd.
 
@@ -36,5 +36,5 @@ De focus op nauwkeurigheid of bereik hangt af van wat u met een bepaald segment 
 
 | Trainingsbesluit begunstigt | Helpt zoeken |
 |---|---|
-| **Nauwkeurigheid** | Gebruikers die vergelijkbaar zijn met basislijnklanten in uw model. Nuttig voor gerichte campagnes wanneer u een specifiek publiek wilt bereiken. |
-| **Reach** | Een specifiek aantal gebruikers voor elke gegevensuitvoering. Nuttig voor merkcampagnes wanneer u in het bereiken van een publiek van een specifieke grootte geinteresseerd bent. |
+| **Nauwkeurigheid** | Gebruikers die vergelijkbaar zijn met klanten in uw model. Nuttig voor gerichte campagnes wanneer u een specifiek publiek wilt bereiken. |
+| **Bereik** | Een specifiek aantal gebruikers voor elke gegevensuitvoering. Nuttig voor merkcampagnes wanneer u geïnteresseerd bent in het bereiken van een publiek van een bepaalde grootte. |

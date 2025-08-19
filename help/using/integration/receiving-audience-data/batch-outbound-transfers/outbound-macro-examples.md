@@ -9,8 +9,8 @@ feature: Outbound Data Transfers
 exl-id: 7e3f2b25-7b7c-47fe-aa62-7ebd4e25f9ba
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ Voorbeelden van hoe sommige algemene macro&#39;s worden gebruikt om uitgaande do
 
 >[!NOTE]
 >
->In de tabellen: **vet** type identificeert elke macro met zijn verwante output. Voor de indelingsvoorbeelden worden de `<` `>` er zijn symbolen toegevoegd om elke macro visueel te kunnen scheiden.
+>In de lijsten, **vet** type identificeert elke macro met zijn verwante output. In de indelingsvoorbeelden zijn de `<` `>` -symbolen toegevoegd om elke macro visueel te kunnen scheiden.
 
 ## Bestandsnaammacro&#39;s {#file-name-macros}
 
-Voor een lijst met beschikbare macro&#39;s en definities raadpleegt u [Uitgaande sjabloonmacro&#39;s](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Voor een lijst van beschikbare macro&#39;s en definities, zie [ Uitgaande Macro&#39;s van het Malplaatje ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -72,7 +72,7 @@ Voor een lijst met beschikbare macro&#39;s en definities raadpleegt u [Uitgaande
 
 ## Macro&#39;s koptekstrij {#header-macros}
 
-Voor een lijst met beschikbare macro&#39;s en definities raadpleegt u [Uitgaande sjabloonmacro&#39;s](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Voor een lijst van beschikbare macro&#39;s en definities, zie [ Uitgaande Macro&#39;s van het Malplaatje ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -91,7 +91,7 @@ Voor een lijst met beschikbare macro&#39;s en definities raadpleegt u [Uitgaande
 
 ## Bestandsinhoudsmacro&#39;s {#file-content-macros}
 
-Voor een lijst met beschikbare macro&#39;s en definities raadpleegt u [Uitgaande sjabloonmacro&#39;s](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Voor een lijst van beschikbare macro&#39;s en definities, zie [ Uitgaande Macro&#39;s van het Malplaatje ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 
@@ -123,12 +123,12 @@ Voor een lijst met beschikbare macro&#39;s en definities raadpleegt u [Uitgaande
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
-   <td colname="col2"> <p><b>Indeling:</b> </p> <p> 
+   <td colname="col2"> <p><b> Formaat:</b> </p> <p> 
      <code>
        {"AdvertiserId":"&lt;PIDALIAS&gt;",&nbsp;"DataCenterId":&nbsp;2,"TDID":"&lt;DP_UUID&gt;", "Data":[&lt;SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;"&lt;CLOSE_CURLY_BRACKET&gt;}; separator=","&gt;&lt;if(SEGMENT_LIST&nbsp;&amp;&amp;&nbsp;REMOVED_SEGMENT_LIST)&gt;&lt;COMMA&gt;&lt;endif&gt; &lt;REMOVED_SEGMENT_LIST:{seg|&lt;OPEN_CURLY_BRACKET&gt;"Name":"&lt;seg.alias&gt;", "TtlInMinutes":0&lt;CLOSE_CURLY_BRACKET&gt;};&nbsp;separator=","&gt;]}
      </code></p><p><b>Uitvoer:</b></p> <p>
      <code>//First&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2, "TDID":"dfd215e4-8d6b-4fdb-90b9-fab4456f2c9d","Data":[{"Name":"4321"}]} //Second&nbsp;example {"AdvertiserId":"12345",&nbsp;"DataCenterId":&nbsp;2,"TDID":"9099e8fe-abab-5114-abaa-28bdaa0539ca","Data":[{"Name":"4321"},{"Name":"987","TtlInMinutes":0}, {"Name":"654","TtlInMinutes":0}]} 
-     </code></p> <p> <p>Opmerking: In het eerste voorbeeld retourneert de macro alleen gegevens voor <code> SEGMENT_LIST </code> omdat <code> REMOVED_SEGMENT_LIST </code> is leeg. In het tweede voorbeeld worden gegevens voor beide macro's geretourneerd. </p> </p> </td> 
+     </code></p> <p> <p>Opmerking: in het eerste voorbeeld retourneert de macro alleen gegevens voor <code> SEGMENT_LIST </code> omdat <code> REMOVED_SEGMENT_LIST </code> leeg is. Het tweede voorbeeld retourneert gegevens voor beide macro's. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
@@ -147,10 +147,10 @@ Voor een lijst met beschikbare macro&#39;s en definities raadpleegt u [Uitgaande
 
 ### `DPUUID` Voorbeelden
 
-Om u te helpen begrijpen hoe `DPUUID` macro outputs data, laten ons veronderstellen 2 `DPID`is toegewezen aan `DPUUID`zoals hieronder getoond:
+Om u te helpen begrijpen hoe de `DPUUID` macro outputs gegevens, laat veronderstellen wij 2 hebben `DPID` in kaart gebracht aan `DPUUID` zoals hieronder getoond:
 
-* DPID `1111` maps to DPUUIDs `AAAA` (timestamp = 1) en `BBBB` (timestamp = 2).
-* DPID `2222` toewijzingen naar DPUUID `CCCC`.
+* DPID `1111` verwijst naar DPUUID&#39;s `AAAA` (timestamp = 1) en `BBBB` (timestamp = 2).
+* DPID `2222` wordt toegewezen aan DPUUID `CCCC` .
 
 Op basis van deze voorwaarden worden in de volgende tabel enkele mogelijke opmaaktekenreeksen en de uitvoer ervan opgesomd.
 
@@ -171,14 +171,14 @@ Op basis van deze voorwaarden worden in de volgende tabel enkele mogelijke opmaa
   <tr> 
    <td colname="col1"> <p>Retourneer een maximum van 1 afbeelding voor alle DPIDs </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=1111,2222|maxMappings=1|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Voor DPID <code> 1111 </code>, wordt de macro toegewezen aan DPUUID <code> BBBB </code> alleen omdat die id de grotere tijdstempel heeft. </p> </td> 
+   <td colname="col3"> <p> <code> [["1111","BBBB"],["2222","CCCC"]] </code> </p> <p>Voor DPID <code> 1111 </code> wordt de macro alleen toegewezen aan DPUUID <code> BBBB </code> omdat die ID een groter tijdstempel heeft. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Retourneer een maximum van 2 toewijzingen voor één enkele DPID </p> </td> 
    <td colname="col2"> <p> <code> &lt;DPUUIDS; format="dpids=2222|maxMappings=2|format=json"&gt; </code> </p> </td> 
-   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Alhoewel <code> maxMappings=2 </code>, retourneert deze macro slechts 1 DPID naar DPUUID-toewijzing omdat de opgegeven DPID slechts één DPUUID heeft. </p> </td> 
+   <td colname="col3"> <p> <code> [["2222","CCCC"]] </code> </p> <p>Hoewel <code> maxMappings=2 </code>, deze macro slechts 1 DPID aan afbeelding DPUUID terugkeert omdat gespecificeerde DPID slechts één DPUUID heeft. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-[Uitgaande sjabloonmacro’s](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)
+[Uitgaande sjabloonmacro&#39;s](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md)

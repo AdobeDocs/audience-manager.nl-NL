@@ -1,5 +1,5 @@
 ---
-description: Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk in de Audience Manager met die gegevens.
+description: Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk in Audience Manager met die gegevens.
 seo-description: Collect data sent from FLA files to Analytics and work with that information in Audience Manager.
 seo-title: Flash DIL
 solution: Audience Manager
@@ -9,8 +9,8 @@ feature: DIL Implementation
 exl-id: e530d893-db26-4411-8df7-9bb2df84b68e
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '686'
+ht-degree: 1%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 >[!WARNING]
 >
->Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
+>Vanaf juli 2023 heeft Adobe de ontwikkeling van de extensie [!DNL Data Integration Library (DIL)] en [!DNL DIL] stopgezet.
 >
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
 >
->Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan.
+>De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan moeten gebruiken.
 
-Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk in de Audience Manager met die gegevens.
+Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk in Audience Manager met die gegevens.
 
 <!-- 
 
@@ -32,9 +32,9 @@ c_flash_dil_toc.xml
 
  -->
 
-[!UICONTROL Flash DIL] is een [!DNL ActionScript] codebibliotheek waarmee u met videoplaybackgegevens in Audience Manager kunt werken. [!DNL Flash DIL] werkt door SWF-inhoud op te nemen in de Adobe [!UICONTROL AppMeasurement] De bibliotheek wordt doorgegeven aan Analytics. [!DNL Flash DIL] verzendt die gegevens naar de afzonderlijke [!UICONTROL DIL] JavaScript-gegevensverzamelingsmodule, die die informatie doorgeeft aan de Audience Manager. Analytische gegevens ( [!UICONTROL Props], [!UICONTROL eVars], evenementen, enz.) die zijn vastgelegd in [!DNL FLA] bestand is beschikbaar in Audience Manager als karakteristieken of ongebruikte signalen.
+[!UICONTROL Flash DIL] is een [!DNL ActionScript] -codebibliotheek waarmee u in Audience Manager kunt werken met videoafspeelgegevens. [!DNL Flash DIL] werkt door SWF-inhoud vast te leggen die de Adobe [!UICONTROL AppMeasurement] -bibliotheek doorgeeft aan Analytics. [!DNL Flash DIL] verzendt die gegevens naar de afzonderlijke [!UICONTROL DIL] JavaScript-module voor gegevensverzameling, die die informatie doorgeeft aan Audience Manager. Analytische gegevens ( [!UICONTROL Props] , [!UICONTROL eVars] , gebeurtenissen, enz.) die uit het [!DNL FLA] -bestand zijn vastgelegd, zijn in Audience Manager beschikbaar als kenmerkende of ongebruikte signalen.
 
-## Vereisten voor gegevensverzameling Flash DIL {#requirements}
+## Vereisten voor Flash DIL-gegevensverzameling {#requirements}
 
 Algemene eisen inzake implementatie en code.
 
@@ -44,27 +44,27 @@ c_flash_dil_intro.xml
 
  -->
 
-**Implementatievereisten**
+**Vereisten van de Implementatie**
 
 [!UICONTROL Flash] gegevensverzameling vereist:
 
-* De [!UICONTROL DIL] klassenbibliotheek ( `dil.swc`). Verkrijg [!UICONTROL DIL] klassenbibliotheek van uw contact van de Oplossingen van de Partner.
+* De [!UICONTROL DIL] -klassebibliotheek ( `dil.swc` ). Verkrijg de [!UICONTROL DIL] klassenbibliotheek van uw contact van de Oplossingen van de Partner.
 
-* JavaScript [!UICONTROL DIL] code voor gegevensverzameling op de pagina.
-* [DIL ActionScript-bibliotheek](../dil/dil-flash.md#flash-dil-actionscript) geladen in het Flash-object waarvan u gegevens wilt verzamelen.
-* Adobe [!DNL AppMeasurement] [!DNL AS] bibliotheek (versie 3.5.2 of hoger) geladen in de [!DNL Flash] -object waarvan u gegevens wilt verzamelen.
+* JavaScript [!UICONTROL DIL] -code voor gegevensverzameling op de pagina.
+* [ de bibliotheek van ActionScript van DIL ](../dil/dil-flash.md#flash-dil-actionscript) geladen in het voorwerp van de Flits u gegevens van wilt verzamelen.
+* Adobe [!DNL AppMeasurement] [!DNL AS] library (versie 3.5.2 of hoger) heeft het [!DNL Flash] -object geladen waarvan u gegevens wilt verzamelen.
 
-**AllowScriptAccess instellen op `Always` of`sameDomain`**
+**plaats AllowScriptAccess aan `Always` of`sameDomain`**
 
-De `AllowScriptAccess` in de code van HTML die een dossier van de SWF laadt controleert de capaciteit om uitgaande toegang URL van binnen het dossier van de SWF uit te voeren. Wanneer u een [!UICONTROL Flash DIL] gegevensintegratie, zorg ervoor de Flash `AllowScriptAccess` parameter is ingesteld op `always` of `sameDomain`. [!UICONTROL Flash DIL] gegevensverzameling werkt niet als `AllowScriptAccess` is ingesteld op `never`. Zie [Toegang tot scripts of hostwebpagina beheren](https://helpx.adobe.com/nl/flash/kb/control-access-scripts-host-web.html).
+De `AllowScriptAccess` in HTML-code die een SWF-bestand laadt, bepaalt de mogelijkheid om uitgaande URL-toegang uit te voeren vanuit het SWF-bestand. Wanneer u een [!UICONTROL Flash DIL] -gegevensintegratie configureert, moet u ervoor zorgen dat de Flash-parameter `AllowScriptAccess` is ingesteld op `always` of `sameDomain` . [!UICONTROL Flash DIL] -gegevensverzameling werkt niet als `AllowScriptAccess` is ingesteld op `never` . Zie {de Toegang van 0} Controle tot Manuscripten of Web-pagina van de Gastheer [.](https://helpx.adobe.com/flash/kb/control-access-scripts-host-web.html)
 
-**JS [!UICONTROL DIL] Plaatsing code**
+**JS [!UICONTROL DIL] Plaatsing van de Code**
 
-Probeer de JS te plaatsen [!UICONTROL DIL] de module van de gegevensinzameling op de pagina zodat laadt het vóór [!DNL FLA] bestand. Wanneer de [!DNL FLA] bestand wordt eerst geladen, voordat [!UICONTROL DIL] de gegevensinzameling is klaar, kunt u de aanvankelijke gegevenssignalen missen die [!UICONTROL Flash DIL] verzendt naar die module. Maar als het eenmaal is geïnstantieerd, [!UICONTROL DIL] in de module voor gegevensverzameling worden alle volgende gegevens van het SWF-bestand vastgelegd die door [!UICONTROL Flash DIL].
+Probeer de JS [!UICONTROL DIL] -gegevensverzamelingsmodule op de pagina te plaatsen, zodat deze voor het [!DNL FLA] -bestand wordt geladen. Wanneer het [!DNL FLA] -bestand het eerst wordt geladen, voordat [!UICONTROL DIL] -gegevensverzameling gereed is, kunt u de eerste gegevenssignalen die [!UICONTROL Flash DIL] naar die module verzendt, overslaan. Als de gegevensverzamelingsmodule [!UICONTROL DIL] echter eenmaal is geïnstantieerd, worden alle volgende SWF-bestandsgegevens vastgelegd die door [!UICONTROL Flash DIL] worden doorgegeven.
 
 ## Gegevens verzameld door Flash DIL {#data-collected}
 
-[!UICONTROL Flash DIL] legt paginaweergave, koppelingen bijhouden, media bijhouden en andere mediaweergavegebeurtenissen van de Adobe vast [!UICONTROL AppMeasurement] bibliotheek.
+[!UICONTROL Flash DIL] legt paginaweergave, koppelingen bijhouden, media bijhouden en andere mediaweergavegebeurtenissen vast vanuit de Adobe [!UICONTROL AppMeasurement] -bibliotheek.
 
 <!-- 
 
@@ -72,9 +72,9 @@ r_flash_dil_data_collected.xml
 
  -->
 
-**Paginaweergavegebeurtenissen**
+**Gebeurtenissen van de Mening van de Pagina**
 
-Tenzij anders bepaald door `s.trackVars`, [!UICONTROL Flash DIL] Verzamelt de volgende gegevens van Adobe AppMeasurement:
+Tenzij anders opgegeven door `s.trackVars` , verzamelt [!UICONTROL Flash DIL] de volgende gegevens vanuit Adobe AppMeasurement:
 
 * `pageName`
 * `channel`
@@ -84,31 +84,31 @@ Tenzij anders bepaald door `s.trackVars`, [!UICONTROL Flash DIL] Verzamelt de vo
 * `prop1 - prop75`
 * `eVar1 - eVar75`
 
-**Gebeurtenissen voor bijhouden van koppelingen**
+**Verbinding die Gebeurtenissen** volgen
 
-Tenzij anders bepaald door `s.linkTrackVars`, [!UICONTROL Flash DIL] verzamelt de volgende gegevens van Adobe [!UICONTROL AppMeasurement]:
+Tenzij anders opgegeven door `s.linkTrackVars` , verzamelt [!UICONTROL Flash DIL] de volgende gegevens vanuit Adobe [!UICONTROL AppMeasurement] :
 
 * `pe` (Type spoorverbinding geroepen)
-* `pev1` (Koppeling-URL)
-* `pev2`(Koppelingstekst)
+* `pev1` (URL van koppeling)
+* `pev2` (Koppelingstekst)
 
-**Gebeurtenissen voor het bijhouden van media**
+**Media die Gebeurtenissen volgen**
 
-Tenzij anders bepaald door `s.Media.trackVars`, [!UICONTROL Flash DIL] Hiermee worden alle opgesomde gegevens verzameld in de sectie Gebeurtenissen paginaweergave.
+Tenzij anders opgegeven door `s.Media.trackVars` , verzamelt [!UICONTROL Flash DIL] alle gegevens die zijn opgesomd in de sectie Gebeurtenissen paginaweergave.
 
-**Andere gegevenspunten**
+**Andere Punten van Gegevens**
 
 De gegevens van deze parameters worden standaard verzameld:
 
-* `mediaName` (Naam media/video-element)
+* `mediaName` (naam media/video-element)
 * `mediaAdName` (Advertentienaam)
-* `mediaAdParentName` (Naam van de inhoud van het primaire medium waarop de advertentie is genest)
+* `mediaAdParentName` (Naam van de primaire media-inhoud waaronder de advertentie is genest)
 * `mediaAdParentPod` (De pod of het ad-einde binnen de primaire inhoud waar de advertentie wordt afgespeeld)
-* `mediaAdParentPodPos` (De numerieke positie binnen de pod waarin de advertentie wordt afgespeeld. Meer dan één advertentie kan in een pod worden afgespeeld.
+* `mediaAdParentPodPos` (De numerieke positie in de pod waarin de advertentie wordt afgespeeld. Meer dan één advertentie kan in een pod worden afgespeeld.
 
 ## Flash DIL-gegevens in Audience Manager {#flash-dil-data}
 
-De [!UICONTROL Flash DIL] van Adobe AppMeasurement gegevens in Audience Manager eigenschappen en ongebruikte signalen omzet.
+De module [!UICONTROL Flash DIL] verandert Adobe AppMeasurement-gegevens in Audience Manager-kenmerken en ongebruikte signalen.
 
 <!-- 
 
@@ -116,27 +116,27 @@ c_flash_dil_in_aam.xml
 
  -->
 
-Analyse [!UICONTROL Props], [!UICONTROL eVars]en gebeurtenissen werken als eigenschappen in de Audience Manager. De sporen zijn zeer belangrijk-waardeparen en worden gebruikt om segmenten te bouwen. Bijvoorbeeld in een analysehulpmiddel als `c30=foo`, `c30` is de sleutel (een constante) en `foo` is de waarde (een variabele).
+Analyses [!UICONTROL Props] , [!UICONTROL eVars] en gebeurtenissen werken als eigenschappen in Audience Manager. De sporen zijn zeer belangrijk-waardeparen en worden gebruikt om segmenten te bouwen. In een analysehulpmiddel als `c30=foo` is `c30` bijvoorbeeld de sleutel (een constante) en `foo` de waarde (een variabele).
 
-**Audience Manager-eigenschappen afstemmen op analytische variabelen**
+**de Rondjes van de Gelijke Audience Manager aan de Variabelen van Analytics**
 
-De analysegegevens gebruiken die door [!UICONTROL Flash DIL], zou u Audience Manager eigenschappen moeten tot stand brengen die de belangrijkste waarde met vooraf bepalen hebben `c_`.
+Als u de analysegegevens wilt gebruiken die door [!UICONTROL Flash DIL] worden doorgegeven, moet u Audience Manager-kenmerken maken waarvan de hoofdwaarde vooraf is bepaald door `c_` .
 
 Zie de tabel voor voorbeelden:
 
-| Gegevenselement Analytics | Voorbeeld van analyse | Als Audience Manager |
+| Gegevenselement Analytics | Voorbeeld van analyse | Als Audience Manager Trait |
 |---|---|---|
 | **prop** | `c30=foo` | `c_prop30=foo` |
-| **vervagen** | `v35=bar` | `c_evar35=bar` |
+| **evar** | `v35=bar` | `c_evar35=bar` |
 | **gebeurtenissen** | `events=event10` | `c_events=event10` |
 
-**DIL-/analysegegevens als ongebruikte signalen**
+**Gegevens DIL/Analytics als Ongebruikte Signalen**
 
-Audience Manager accepteert Analytics [!UICONTROL Props], [!UICONTROL eVars]en gebeurtenissen, zelfs zonder bijbehorend kenmerk. In dit geval zijn de gegevens niet beschikbaar voor het maken van de eigenschap en worden deze weergegeven in het dialoogvenster [Rapport Ongebruikte signalen](../reporting/dynamic-reports/unused-signals.md) in plaats daarvan. Als u deze informatie optimaal wilt benutten, maakt u Audience Manager-eigenschappen die overeenkomen met de analysegegevens die door de [!UICONTROL Flash DIL] bibliotheek.
+Audience Manager accepteert Analytics [!UICONTROL Props] , [!UICONTROL eVars] en gebeurtenissen, zelfs zonder bijbehorend kenmerk. In dit geval, zijn de gegevens niet beschikbaar voor het verwezenlijking van de eigenschap en verschijnen in het [ Ongebruikte rapport van Signalen ](../reporting/dynamic-reports/unused-signals.md) in plaats daarvan. Als u deze informatie optimaal wilt benutten, maakt u Audience Manager-kenmerken die overeenkomen met de analysegegevens die door de [!UICONTROL Flash DIL] -bibliotheek worden doorgegeven.
 
 ## Flash DIL ActionScript-bibliotheek {#flash-dil-actionscript}
 
-Code voor uw [!DNL Flash] -object om analysegegevens naar de Audience Manager te verzenden.
+Code voor het [!DNL Flash] -object waarmee de analysegegevens naar Audience Manager worden verzonden.
 
 <!-- 
 
@@ -146,9 +146,9 @@ r_flash_dil_actionscript.xml
 
 >[!NOTE]
 >
->* Voor elke [!DNL Flash] object, ondersteunt de code één partnerinstantie ( `d.partner`alleen ).
+>* Voor elk [!DNL Flash] -object ondersteunt de code slechts één partnerinstantie ( `d.partner` ).
 >
->* Vereist de Adobe [!UICONTROL AppMeasurement] [!DNL AS] bibliotheekversie 3.5.2 of hoger.
+>* Vereist Adobe [!UICONTROL AppMeasurement] [!DNL AS] library versie 3.5.2 of hoger.
 
 ```js
 import com.omniture.AppMeasurement; // Omit this line if it already exists in the code 
@@ -163,7 +163,7 @@ s.loadModule(d);
 
 >[!MORELIKETHIS]
 >
->* [Eigenschappen ](../features/traits/trait-details-page.md)
+>* [ Tanden ](../features/traits/trait-details-page.md)
 >* [Signalen, eigenschappen en segmenten](../reference/signal-trait-segment.md)
 >* [Sleutelwaardeparen](../reference/key-value-pairs-explained.md)
 >* [Voorvoegselvereisten voor belangrijke variabelen](../features/traits/trait-variable-prefixes.md)

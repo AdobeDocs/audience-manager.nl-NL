@@ -1,5 +1,5 @@
 ---
-description: AamGpt is een JavaScript-functie die Audience Manager cookie-gegevens leest en die informatie naar Google Publisher Tags verzendt.
+description: AamGpt is een JavaScript-functie die Audience Manager cookie data leest en die informatie naar Google Publisher Tags verzendt.
 seo-description: AamGpt is a JavaScript function that reads Audience Manager cookie data and sends that information to Google Publisher Tags.
 seo-title: Audience Manager Code for Google Publisher Tags
 solution: Audience Manager
@@ -10,21 +10,21 @@ exl-id: 04e74399-7b6a-400e-a1e6-94fe296e7209
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 15%
+ht-degree: 0%
 
 ---
 
 # Audience Manager-code voor Google Publisher-tags {#audience-manager-code-for-google-publisher-tags}
 
-`AamGpt` is een [!DNL JavaScript] functie die de gegevens van het koekje van de Audience Manager leest en die informatie verzendt naar [!DNL Google Publisher Tags].
+`AamGpt` is een [!DNL JavaScript] -functie die gegevens van Audience Manager-cookies leest en die informatie naar [!DNL Google Publisher Tags] verzendt.
 
 >[!NOTE]
 >
->Deze functie is niet vereist als u uw eigen code hebt om Audience Manager cookie-gegevens te lezen vanuit de [!UICONTROL UUID] en doelcookies.
+>Deze functie is niet vereist als u uw eigen code hebt om Audience Manager cookie-gegevens uit de [!UICONTROL UUID] - en doelcookies te lezen.
 
 ## Voorbeeldcode
 
-Plaats de `AamGpt` code boven aan de pagina, ideaal binnen de `<head>` codeblok. De `AamGpt` code is hieronder beschikbaar:
+Plaats de `AamGpt` -code boven aan de pagina, idealiter binnen het `<head>` -codeblok. De code `AamGpt` is hieronder beschikbaar:
 
 ```js
 var AamGpt = {  

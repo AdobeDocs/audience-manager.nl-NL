@@ -9,11 +9,11 @@ exl-id: 2777fdf1-df79-4111-9fe4-d2638ee10395
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '75'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
-# Veelgestelde vragen over Audience Manager Overzicht {#audience-manager-faq}
+# Overzicht van veelgestelde vragen in Audience Manager {#audience-manager-faq}
 
 In deze sectie vindt u een lijst van categorieën van Veelgestelde vragen voor verschillende functies van Audience Manager.
 

@@ -1,5 +1,5 @@
 ---
-description: Deze pagina illustreert het proces van het creëren van de pixel van de Douane van de Auditie van de Website van Facebook (WCA) voor het verzenden van web-based Audience Manager publiekssegmenten naar Facebook, voor online en gericht met betere transparantie.
+description: Deze pagina illustreert het proces van het maken van WCA-pixels (Custom Audiences) op de Facebook-website, waarmee u op het web gebaseerde Audience Manager-publiekssegmenten naar Facebook kunt sturen, zodat u deze online kunt plaatsen en doelgericht kunt gebruiken.
 seo-description: This page illustrates the process of creating Facebook Website Custom Audiences (WCA) pixels for the purposes of sending web-based Audience Manager audience segments to Facebook, for online ad targeting with improved transparency.
 seo-title: Facebook WCA Integration
 solution: Audience Manager
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # [!DNL Facebook WCA] Integratie {#facebook-wca-integration}
 
-Deze pagina illustreert het proces voor het maken van [!DNL Facebook Website Custom Audiences] ([!DNL WCA]) voor het verzenden van webgebaseerde [!DNL Audience Manager] doelsegmenten naar [!DNL Facebook], voor een betere transparantie bij het online en doelgericht gebruik.
+Deze pagina illustreert het proces van het maken van [!DNL Facebook Website Custom Audiences] ([!DNL WCA] ) pixels voor het verzenden van op het web gebaseerde [!DNL Audience Manager] publiekssegmenten naar [!DNL Facebook] , voor online en doelgericht met verbeterde transparantie.
 
 >[!IMPORTANT]
 >
@@ -23,36 +23,36 @@ Deze pagina illustreert het proces voor het maken van [!DNL Facebook Website Cus
 
 ## Overzicht {#overview}
 
-[Aangepast publiek voor facebook-website (WCA)](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) Hiermee kunt u een lijst maken met personen die bepaalde pagina&#39;s hebben bezocht of bepaalde handelingen op uw website hebben uitgevoerd. [!DNL Audience Manager] activering in [!DNL WCA] gebruiken [!DNL URL] doelen, waarmee u een aangepaste op pixels gebaseerde integratie kunt configureren om een op het web gebaseerd publiek te sturen naar [!DNL Facebook] voor doelwitten.
+[ Eigen publiek van de Website van Facebook (WCA) ](https://www.facebook.com/business/help/610516375684216?id=2469097953376494) staat u toe om een lijst van mensen tot stand te brengen die bepaalde pagina&#39;s hebben bezocht of bepaalde acties op uw website hebben genomen. [!DNL Audience Manager] schakelt activering in [!DNL WCA] using [!DNL URL] -doelen in, waarmee u een aangepaste op pixels gebaseerde integratie kunt configureren om een op het web gebaseerd publiek naar [!DNL Facebook] te sturen voor activering.
 
 ![Facebook WCA-integratie](/help/using/integration/assets/facebook-wca-integration.png)
 
 >[!IMPORTANT]
 >
-> Voor deze functie moet u de optie [!UICONTROL Website] publiek voor sociale platforms, optie in [URL-doelen](/help/using/features/destinations/create-url-destination.md). Sociale platforms vereisen dat de informatie van de verwijzer wordt ontmaskerd wanneer verzonden naar hun platform. Houd er rekening mee dat dit betekent dat het doelplatform/de doelpartner informatie in uw referentie kan zien [!DNL URL].
+> Dit vermogen vereist dat u het [!UICONTROL Website] publiek voor sociale platformoptie in [ bestemmingen URL ](/help/using/features/destinations/create-url-destination.md) selecteert. Sociale platforms vereisen dat de informatie van de verwijzer wordt ontmaskerd wanneer verzonden naar hun platform. Houd er rekening mee dat dit betekent dat het doelplatform/de doelpartner informatie kan zien in uw referentie [!DNL URL] .
 
 ## Vereisten {#prerequisites}
 
 1. [!DNL Facebook Ad Account]
-2. [!DNL Audience Manager] segmenten, klaar om toe te wijzen aan uw nieuwe [!DNL Facebook] bestemming. Hier [hoe te om een segment te creëren](/help/using/features/segments/segment-builder.md) in de [!DNL Audience Manager] UI.
-3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versie 4.1.0 of hoger. Download de nieuwste versie **[hier](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
-4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versie 9.0 of hoger, downloadbaar vanaf **[hier](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Als u [Server-Side Forwarding (SSF)](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=nl-NL) om gegevens te importeren in [!DNL Audience Manager], moet u AppMeasurement versie 2.12 of hoger gebruiken. Downloaden [!DNL AppMeasurement] met de [Analysebeheer](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=nl-NL).
+2. [!DNL Audience Manager] -segmenten, klaar om toe te wijzen aan uw nieuwe [!DNL Facebook] -doel. Hier is [ hoe te om een segment ](/help/using/features/segments/segment-builder.md) in [!DNL Audience Manager] UI tot stand te brengen.
+3. [!DNL Adobe Experience Platform Identity Service] ([!DNL ECID]) Versie 4.1.0 of hoger. Download de recentste versie **[hier ](https://github.com/Adobe-Marketing-Cloud/id-service/releases)**.
+4. [!DNL Audience Manager Data Integration Library] ([!DNL DIL]) versie 9.0 of nieuwer, downloadbaar van **[hier ](https://github.com/Adobe-Marketing-Cloud/dil/releases)**. Alternatief, als u [ Server-zij door:sturen (SSF) ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) gebruikt om gegevens in [!DNL Audience Manager] in te voeren, moet u versie 2.12 van AppMeasurement of nieuwer gebruiken. Download [!DNL AppMeasurement] gebruikend de [ Manager van de Code van Analytics ](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html).
 
-U wordt aangeraden de bibliotheken in stap 3 en 4 te installeren of bij te werken met [Adobe Experience Platform-tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL).
+Wij adviseren dat u de bibliotheken in stappen 3 en 4 gebruikend [ de Markeringen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) installeert of bevordert.
 
-## Stap 1 - een [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
+## Stap 1 - Maak een [!UICONTROL Facebook Destination] in [!DNL Audience Manager] {#step-1-create-facebook-destination}
 
-Een nieuwe [!UICONTROL URL Destination] in [!DNL Audience Manager] en noem deze [!DNL Facebook Website Custom Audiences]. Gebruik de onderstaande instellingen bij het maken van het doel. U kunt ook verwijzen naar de [Een URL-doel configureren](/help/using/features/destinations/create-url-destination.md) pagina.
+Maak een nieuwe [!UICONTROL URL Destination] in [!DNL Audience Manager] en noem deze [!DNL Facebook Website Custom Audiences] . Gebruik de onderstaande instellingen bij het maken van het doel. U kunt ook naar [ verwijzen vormt een URL- Bestemming ](/help/using/features/destinations/create-url-destination.md) pagina.
 
 ### Basisinformatie
 
 * **[!UICONTROL Category]**: Aangepast
 * **[!UICONTROL Type]**: [!DNL URL]
-* Selecteer de **[!UICONTROL Auto-fill Destination Mapping]** selectievakje en selecteer vervolgens **[!UICONTROL Segment ID]**.
+* Schakel het selectievakje **[!UICONTROL Auto-fill Destination Mapping]** in en selecteer vervolgens **[!UICONTROL Segment ID]** .
 
 ### [!UICONTROL Data Export Labels]
 
-Selecteer de optie **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**.
+Selecteer de optie **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]** .
 
 >[!NOTE]
 >
@@ -60,57 +60,57 @@ Selecteer de optie **[!UICONTROL This destination may enable a combination with 
 
 ### Configuratie
 
-* **[!UICONTROL URL type]**: Select **[!UICONTROL Website audience for social platforms]**. Selecteer deze [!UICONTROL URL Type] optie, [!DNL Audience Manager] verbergt de verwijzende persoon niet [!DNL URL] informatie bij het afvuren van een [!DNL Facebook WCA] pixel.
-* **[!UICONTROL Serialize]**: Select **[!UICONTROL Enable]**.
-* In de **[!UICONTROL Base URL]** en **[!UICONTROL Secure URL]** veld, voert u de [!DNL Facebook WCA] pixel.
+* **[!UICONTROL URL type]**: Selecteer **[!UICONTROL Website audience for social platforms]** . Als u deze optie [!UICONTROL URL Type] selecteert, worden de [!DNL Audience Manager] referentie [!DNL URL] -gegevens niet verborgen wanneer een [!DNL Facebook WCA] pixel wordt afgevuurd.
+* **[!UICONTROL Serialize]**: Selecteer **[!UICONTROL Enable]** .
+* Voer in het veld **[!UICONTROL Base URL]** en **[!UICONTROL Secure URL]** de [!DNL Facebook WCA] pixel in.
 * **[!UICONTROL Delimiter]**: `,`
 
-Basis [!DNL URL] voorbeeld: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
+Base [!DNL URL] voorbeeld: `https://www.facebook.com/tr/?id=XXXXXXXXX&ev=Adobe-Audience-Manager-Segment&cd[segID]=%ALIAS%&noscript=1`
 
-Voorbeeld van pixel die van de pagina worden afgegaan. In dit voorbeeld wordt een gebruiker getoond die in aanmerking komt voor drie [!DNL Audience Manager] segmenten, met de ID&#39;s 3401321, 2993399, 3263410:
+Voorbeeld van pixel die van de pagina worden afgegaan. In dit voorbeeld wordt een gebruiker weergegeven die in aanmerking komt voor drie [!DNL Audience Manager] -segmenten, met de id&#39;s 3401321, 2993399, 3263410:
 
 `https://www.facebook.com/tr/?id=6876666666662303&ev=Adobe-Audience-Manager-Segment&cd[segID]=3401321,2993399,3263410&noscript=1`
 
 | Parameter | Beschrijving |
 |---------|----------|
-| `id` | Uw [!DNL Facebook] pixel ID, die u in kunt vinden [!DNL Facebook Ad Manager] gebruikersinterface bij het maken van publiekspixels. |
-| `ev` | Gebeurtenis. Dit is een willekeurige waarde die wordt weergegeven in het dialoogvenster [!DNL Facebook Ad Manager] gebruikersinterface wanneer de pixel op de site wordt geactiveerd. Zie de [!UICONTROL Include] item in [Stap 3](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience)voor meer informatie. |
-| `cd[segID]` | Een extra parameter, die binnen zal beginnen te bevolken binnen [!DNL Facebook Ad Manager] gebruikersinterface wanneer de pixel op de site wordt geactiveerd. `segID` is ook arbitrair. |
-| `%ALIAS%` | An [!DNL Audience Manager] macro, die dynamisch wordt vervangen door de [!DNL Audience Manager] [!UICONTROL segment] ID&#39;s waarvoor de sitebezoeker in aanmerking komt, gescheiden door komma&#39;s, |
+| `id` | Uw [!DNL Facebook] pixel-id, die u kunt vinden in de gebruikersinterface van [!DNL Facebook Ad Manager] wanneer u publiekspixels maakt. |
+| `ev` | Gebeurtenis. Dit is een willekeurige waarde die in de gebruikersinterface van [!DNL Facebook Ad Manager] wordt weergegeven wanneer de pixel op de site wordt geactiveerd. Zie het [!UICONTROL Include] punt in [ Stap 3 ](/help/using/integration/integrating-third-party/facebook-wca-integration.md#step-3-create-audience), voor meer informatie. |
+| `cd[segID]` | Een aanvullende parameter die wordt gevuld in de gebruikersinterface van [!DNL Facebook Ad Manager] wanneer de pixel op de site wordt geactiveerd. `segID` is ook arbitrair. |
+| `%ALIAS%` | Een [!DNL Audience Manager] macro, die dynamisch wordt vervangen door de [!DNL Audience Manager] [!UICONTROL segment] id&#39;s waarvoor de sitebezoeker in aanmerking komt, gescheiden door komma&#39;s, |
 
-Uw [!UICONTROL URL destination] De configuratie zou als in het hieronder beeld moeten kijken:
+Uw [!UICONTROL URL destination] -configuratie moet er als volgt uitzien in de onderstaande afbeelding:
 
-![Doelconfiguratie](/help/using/integration/assets/facebook-wca.png)
+![ Configuratie van de Bestemming ](/help/using/integration/assets/facebook-wca.png)
 
-Sla de [!UICONTROL destination]. Vervolgens kunt u doorgaan naar de knop **Segmenttoewijzingen** stap.
+Sla de [!UICONTROL destination] op. Dan, kunt u aan de **Mappings van het Segment** stap te werk gaan.
 
 ## Stap 2 - de Toewijzingen van het segment - de Segment van de kaart aan Bestemming {#step-2-segment-mappings}
 
-In de [URL-doel configureren](/help/using/features/destinations/create-url-destination.md) werkschema, kaart het toepasselijke segment aan uw nieuw gecreeerd [!UICONTROL destination]. Merk op dat de toewijzingswaarde automatisch wordt gevuld met de [!DNL Audience Manager] [!UICONTROL segment ID].
+In [ vorm URL bestemmings ](/help/using/features/destinations/create-url-destination.md) werkschema, kaart het toepasselijke segment aan uw onlangs gecreeerd [!UICONTROL destination]. De toewijzingswaarde wordt automatisch gevuld met de [!DNL Audience Manager] [!UICONTROL segment ID] .
 
 Voer indien van toepassing een einddatum in, laat anders niets staan voor de einddatum.
 
-## Stap 3 - Een [!UICONTROL Audience] binnen [!DNL Facebook Ads Manager] {#step-3-create-audience}
+## Stap 3 - Een [!UICONTROL Audience] binnen [!DNL Facebook Ads Manager] maken {#step-3-create-audience}
 
-Zie [Aangepast publiek voor website maken](https://www.facebook.com/business/help/666509013483225) in de [!DNL Facebook] Help documentatie. Selecteer de [!UICONTROL Create Audience] opties in de onderstaande tabel:
+Zie [ een publiek van de Douane van de Website ](https://www.facebook.com/business/help/666509013483225) in de [!DNL Facebook] hulpdocumentatie creëren. Selecteer de opties voor [!UICONTROL Create Audience] in de onderstaande tabel:
 
 | Item | Beschrijving |
 |---------|----------|
 | Websiteverkeer | Aangepaste combinatie |
-| Inclusief | <ul><li>Selecteren **[!UICONTROL Event]** > Selecteren **[!UICONTROL Adobe-Audience-Manager-Segment]**. Dit was de waarde van de `ev` in de voorbeeldpixel in stap 1. Als de pixel nog moet worden geactiveerd, **[!UICONTROL Event]** of **[!UICONTROL Adobe-Audience-Manager-Segment]** mag niet worden weergegeven in het [!DNL Facebook] gebruikersinterface.</li><li>Een parameter toevoegen: Selecteren `segID`.</li><li><p>Selecteer de **contains** operator.</p><p>Dit is belangrijk, aangezien bezoekers in aanmerking kunnen komen voor meerdere segmenten, er meerdere [!UICONTROL segment IDs] in de parameter pixel. De equals gebruiken (`=`) niet in aanmerking komen voor het publiek en u ziet een lager volume.</p></li><li>Voeg een waarde toe: voer het veld in [!DNL Audience Manager] segment-id.</li></ul> |
+| Inclusief | <ul><li>Selecteer **[!UICONTROL Event]** > Selecteren **[!UICONTROL Adobe-Audience-Manager-Segment]** . Dit was de waarde van de parameter `ev` in de voorbeeldpixel in stap 1. Als de pixel nog moet worden geactiveerd, wordt de optie **[!UICONTROL Event]** of **[!UICONTROL Adobe-Audience-Manager-Segment]** mogelijk niet weergegeven in de gebruikersinterface van [!DNL Facebook] .</li><li>Voeg een parameter toe: Selecteren `segID` .</li><li><p>Selecteer **bevat** exploitant.</p><p>Dit is belangrijk, aangezien bezoekers in aanmerking kunnen komen voor meerdere segmenten, kan de pixelparameter meerdere [!UICONTROL segment IDs] bevatten. Het gebruik van de gelijk (`=`) exploitant kan uw bezoekers voor het publiek niet kwalificeren, en u zult een lager volume waarnemen.</p></li><li>Voeg een waarde toe: voer de [!DNL Audience Manager] segment-id in.</li></ul> |
 | Nieuwe voorwaarde toevoegen | Optionele instelling. |
 | In de laatste | Optionele instelling. |
-| Auditienaam | We raden u aan hetzelfde te gebruiken [!DNL Audience Manager] segmentnaam voor consistentie, tenzij u extra voorwaarden aan dit publiek toevoegt. |
+| Auditienaam | We raden u aan dezelfde segmentnaam van [!DNL Audience Manager] te gebruiken voor consistentie, tenzij u aanvullende voorwaarden toevoegt aan deze doelgroep. |
 
-## Stap 4 - Wijs de [!UICONTROL Audience] een [!UICONTROL Campaign] in [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
+## Stap 4 - Wijs de [!UICONTROL Audience] toe aan een [!UICONTROL Campaign] in [!DNL Facebook Ads Manager] {#step-4-assign-audience-to-campaign}
 
-Na het maken van de [!DNL Custom Audience], wijst u deze toe aan een advertentiecampagne. Maak een nieuwe campagne of bewerk een bestaande campagne. Uw nieuwe publiek wordt vermeld in het dialoogvenster [!DNL Facebook] gebruikersinterface. Uw advertentiecampagne is gericht op gebruikers die de pixelbrand op hun browser hebben gezien tijdens het bezoeken van uw site, als [!DNL Audience Manager] neemt hen in het segment op.
+Nadat u de [!DNL Custom Audience] hebt gemaakt, wijst u deze toe aan een advertentiecampagne. Maak een nieuwe campagne of bewerk een bestaande campagne en u ziet dat het nieuwe publiek wordt vermeld in de gebruikersinterface van [!DNL Facebook] . Uw advertentiecampagne is gericht op gebruikers die de pixelbrand op hun browser hebben gezien toen ze uw site bezoeken, als [!DNL Audience Manager] deze in het segment opneemt.
 
 ## Samenvatting {#summary}
 
-Nu hebt u uw [!DNL Audience Manager] naar het segment [!DNL Facebook WCA] bestemming, [!DNL Audience Manager] zal selectief de [!DNL Facebook WCA] pixel aan gebruikers van een bepaald segment met respectieve segment ID in het pixel om het te bevolken [!DNL Facebook Audience]. Dit leidt tot een geleidelijke toename van de [!DNL Facebook Audience] hoe meer de tag wordt geactiveerd voor het toepasselijke publiek op uw site.
+Nu u het [!DNL Audience Manager] -segment hebt toegewezen aan het [!DNL Facebook WCA] doel, wordt de [!DNL Audience Manager] -pixel selectief geactiveerd voor gebruikers van een bepaald segment met de respectievelijke segment-id in de pixel om de [!DNL Facebook WCA] -tekenreeks te vullen. [!DNL Facebook Audience] Dit leidt tot een geleidelijke verhoging van [!DNL Facebook Audience] hoe meer de markering aan het toepasselijke publiek op uw plaats in brand wordt gestoken.
 
 >[!NOTE]
 >
-> Als een gebruiker buiten de [!DNL Audience Manager] segment, is er momenteel geen manier voor [!DNL Audience Manager] om [!DNL Facebook] om de gebruiker uit de [!DNL Custom Audience].
+> Als een gebruiker buiten het [!DNL Audience Manager] -segment valt, is het momenteel niet mogelijk voor [!DNL Audience Manager] om [!DNL Facebook] op de hoogte te brengen om de gebruiker uit het [!DNL Custom Audience] -segment te verwijderen.
 >

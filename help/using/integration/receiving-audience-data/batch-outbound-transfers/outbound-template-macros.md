@@ -3,24 +3,24 @@ description: Hiermee geeft u de macro's weer die u kunt gebruiken om uitgaande s
 seo-description: Lists the macros you can use to create outbound templates. These include file name macros, header macros, and content macros.
 seo-title: Outbound Template Macros
 solution: Audience Manager
-title: Uitgaande sjabloonmacro’s
+title: Uitgaande sjabloonmacro's
 uuid: dec082d3-306b-4ff5-afb2-418bd543d8d0
 feature: Outbound Data Transfers
 exl-id: 6988d0e5-7a99-4291-91d3-bcd3a15630fd
 source-git-commit: d76505fda1ba448a1aaa3a756ef3bcf193a2718a
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 2%
+source-wordcount: '708'
+ht-degree: 0%
 
 ---
 
-# Uitgaande sjabloonmacro’s {#outbound-template-macros}
+# Uitgaande sjabloonmacro&#39;s {#outbound-template-macros}
 
 Hiermee geeft u de macro&#39;s weer die u kunt gebruiken om uitgaande sjablonen te maken. Dit zijn onder andere bestandsnaammacro&#39;s, koptekstmacro&#39;s en inhoudmacro&#39;s.
 
 ## Bestandsnaam en Koptekstmacro&#39;s {#file-name-header-macros}
 
-De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebruiken in de bestandsnaam en om koptekstvelden te definiëren. Zie voor codevoorbeelden [Uitgaande macrovoorbeelden](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebruiken in de bestandsnaam en om koptekstvelden te definiëren. Voor codesteekproeven, zie [ Uitgaande MacroVoorbeelden ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -32,7 +32,7 @@ De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebru
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> ASCII_SOH </code> </p> </td> 
-   <td colname="col2"> <p>Een niet-afdrukbaar ASCII-teken. Hiermee wordt het begin van een rij of een sectie met inhoud aangegeven. Deze kan ook worden gebruikt om gegevenskolommen in een bestand te scheiden. </p> </td> 
+   <td colname="col2"> <p>A non-printing ASCII character. Hiermee wordt het begin van een rij of een sectie met inhoud aangegeven. Deze kan ook worden gebruikt om gegevenskolommen in een bestand te scheiden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -52,7 +52,7 @@ De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebru
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID_ALIAS </code> </p> </td> 
-   <td colname="col2"> <p>An alias for an order/destination ID. </p> <p>De alias wordt ingesteld in de interface voor beheerders. </p> </td> 
+   <td colname="col2"> <p>An alias for an order/destination ID. </p> <p>De alias wordt ingesteld in de interface van de beheerder. </p> </td> 
   </tr>
   <tr> 
    <td colname="col1"> <p> <code> SPLITNUM </code> </p> </td> 
@@ -67,8 +67,8 @@ De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebru
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Geeft het synchronisatietype aan en omvat: </p> 
     <ul id="ul_CA5057DA18144AB8BC17B3EB79891B25"> 
-     <li id="li_6DFEE438860D4DB18EF831E3AF525F1E"> <code> full </code>: Volledige synchronisatie. </li> 
-     <li id="li_1A7BBBB40AD94FC39B06F4FC49586595"> <code> iter </code>: Incrementele synchronisatie. </li> 
+     <li id="li_6DFEE438860D4DB18EF831E3AF525F1E"> <code> full </code>: volledige synchronisatie. </li> 
+     <li id="li_1A7BBBB40AD94FC39B06F4FC49586595"> <code> iter </code>: incrementele synchronisatie. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebru
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> TIMESTAMP </code> </p> </td> 
-   <td colname="col2"> <p>Een tijdstempel van 10 cijfers, UTC en Unix. </p> <p>Het kan ook worden opgemaakt als <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> volgt de opmaakregels voor datum- en tijdstempels van Java. </p> </td> 
+   <td colname="col2"> <p>Een tijdstempel van 10 cijfers, UTC en Unix. </p> <p>Deze kan ook worden opgemaakt als <code> &lt;TIMESTAMP; format="YYYYMMDDhhmmss"&gt; </code> volgens de regels voor het opmaken van datum- en tijdstempels van Java. </p> </td> 
   </tr>
 
 </tbody> 
@@ -94,7 +94,7 @@ De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebru
 
 ## Inhoudsmacro&#39;s {#content-macros}
 
-Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatteren. Zie voor codevoorbeelden [Uitgaande macrovoorbeelden](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatteren. Voor codesteekproeven, zie [ Uitgaande MacroVoorbeelden ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 
@@ -106,15 +106,15 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> CLOSE_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een accolade sluiten ingevoegd <code>&rbrace;</code> teken. </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een haakje sluiten <code>}</code> in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="term"> Unieke gebruikersnaam gegevensaanbieder </span>. </p> <p>Dit is identiteitskaart voor de gegevenspartner u gegevens naar in een uitgaand dossier verzendt. </p> </td> 
+   <td colname="col2"> <p> <span class="term"> Unieke gebruikersnaam gegevensaanbieder </span> . </p> <p>Dit is identiteitskaart voor de gegevenspartner u gegevens naar in een uitgaand dossier verzendt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DP_UUID_LIST </code> </p> </td> 
-   <td colname="col2"> <p>Keert een lijst terug die veelvoudige IDs voor een gegevenspartner bevat. Dit is nuttig als u een grote organisatie met veelvoudige onderverdelingen of andere organisatorische groepen hebt u gegevens met mag delen. Deze macro keert een lijst van identiteitskaarts voor die ondergeschikte groepen terug. </p> </td> 
+   <td colname="col2"> <p>Keert een lijst terug die veelvoudige IDs voor een gegevenspartner bevat. Dit is nuttig als u een grote organisatie met veelvoudige onderverdelingen of andere organisatorische groepen hebt u gegevens met mag delen. Deze macro retourneert een lijst met de id's voor die onderliggende groepen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPID </code> </p> </td> 
@@ -122,7 +122,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> DPUUIDS </code> </p> </td> 
-   <td colname="col2"> <p>De uitvoer van deze macro wijst de gegevensleverancier-id (DPID) toe aan gerelateerde unieke gebruikers-id's (DPUUID). Deze macro moet een opmaaktekenreeks hebben om de uitvoer ervan te bepalen. De voorbeelduitvoer ziet er ongeveer als volgt uit: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>De <code> maxMappings </code> met deze instelling bepaalt u hoeveel toewijzingen de macro moet retourneren. Wanneer <code> maxMappings=0 </code>, retourneert deze macro alle toewijzingen voor elke opgegeven DPID. Gegevens worden gesorteerd op tijdstempel (meest recente eerst) en retourneert eerst resultaten met de grootste tijdstempel. </p> </td> 
+   <td colname="col2"> <p>De uitvoer van deze macro wijst de gegevensleverancier-id (DPID) toe aan gerelateerde unieke gebruikers-id's (DPUUID). Deze macro moet een opmaaktekenreeks hebben om de uitvoer ervan te bepalen. De voorbeelduitvoer ziet er ongeveer als volgt uit: </p> <p> <code> "dpids=dpid1,dpid2,...dpid n|maxMappings= n|format=json" </code> </p> <p>De instelling <code> maxMappings </code> bepaalt hoeveel toewijzingen de macro moet retourneren. Wanneer <code> maxMappings=0 </code>, keert deze macro alle afbeeldingen voor elke gespecificeerde DPID terug. Gegevens worden gesorteerd op tijdstempel (meest recente eerst) en retourneert eerst resultaten met de grootste tijdstempel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> if(SEGMENT_LIST &amp;&amp; REMOVED_SEGMENT_LIST)endif </code> </p> </td> 
@@ -130,11 +130,11 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> MCID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud ID.</span> </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Adobe Experience Cloud </span> -id. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPEN_CURLY_BRACKET </code> </p> </td> 
-   <td colname="col2"> <p>Hiermee wordt een open accolade ingevoegd <code>&lbrace;</code> teken. </p> </td> 
+   <td colname="col2"> <p>Hiermee voegt u een open haakje <code>{</code> in. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OPT_OUT </code> </p> </td> 
@@ -150,7 +150,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> OUTPUT_ATTRIBUTE_VALUE </code> </p> </td> 
-   <td colname="col2"> <p>Retourneert <code> 1 </code> als een statische, hardcodeerde waarde. </p> </td> 
+   <td colname="col2"> <p>Retourneert <code> 1 </code> als een statische, gecodeerde waarde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PID </code> </p> </td> 
@@ -158,7 +158,7 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> PIDALIAS </code> </p> </td> 
-   <td colname="col2"> <p>An alias for an order/destination ID. </p> <p>De alias wordt ingesteld in de interface voor beheerders. </p> </td> 
+   <td colname="col2"> <p>An alias for an order/destination ID. </p> <p>De alias wordt ingesteld in de interface van de beheerder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> REMOVED_SEGMENT_LIST </code> </p> </td> 
@@ -168,25 +168,25 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
    <td colname="col1"> <p> <code> SEGMENT_LIST </code> </p> </td> 
    <td colname="col2"> <p>Retourneert een lijst met segmenten in een lijst. Accepteert de volgende optionele argumenten: </p> 
     <ul id="ul_B111AA0D6C18445598A1444B8B7E9325"> 
-     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: Segment-id. Vervangen. Gebruik <code> sid </code>. </li> 
-     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: Klantsegment-id. Vervangen. Gebruik <code> sid </code>. </li> 
+     <li id="li_8603B40229624856AF1FBC434DB8F16A"> <code> segmentId </code>: Segment-id. Vervangen. Gebruik <code> sid </code> . </li> 
+     <li id="li_1EF40DDCA3C5447586904CF021D8F912"> <code> csegid </code>: ID van klantsegment. Vervangen. Gebruik <code> sid </code> . </li> 
      <li id="li_D85F0A5D16AE4DAFB55C17DBB35EA66E"> <code> sid </code>: Segment-id </li> 
-     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: Retourneert <code> 5 </code>, een statische, gecodeerde waarde die gegevens als segmentgegevens identificeert. </li> 
-     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: Vervangen. Niet gebruiken. </li>
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Een Unix-tijdstempel dat aangeeft dat de status van het laatste tijdsegment is bijgewerkt. </li>
-     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD28"> <code> lastRealizationTime </code>: Een Unix-tijdstempel waarmee de laatste keer wordt aangegeven dat een segment werd gerealiseerd. </li>
-    </ul> <p>Plaats deze variabelen tussen accolades na de macro. Deze code scheidt bijvoorbeeld de resultaten met een verticale streep (|): <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
+     <li id="li_9BE103EFD8384464B46FAC00422431DB"> <code> type </code>: retourneert <code> 5 </code> , een statische, gecodeerde waarde die gegevens identificeert als segmentgegevens. </li> 
+     <li id="li_FE5049089F2944FA9DB9F9D546DBA167"> <code> alias </code>: afgekeurd. Niet gebruiken. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD27"> <code> lastUpdateTime </code>: Een Unix-tijdstempel dat aangeeft wanneer de status van het laatste segment is bijgewerkt. </li>
+     <li id="li_DD778AA2D1DB4D409CF5026B5D9DBD28"> <code> lastRealizationTime </code>: Een Unix-tijdstempel die de laatste keer aangeeft dat een segment werd gerealiseerd. </li>
+    </ul> <p>Plaats deze variabelen tussen accolades na de macro. Deze code scheidt bijvoorbeeld de resultaten met het teken "|" van de pipe: <code> &lt;SEGMENT_LIST:{seg|&lt;seg.type&gt;,&lt;seg.sid&gt;}; separator=","&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SET_ATTRIBUTES </code> </p> </td> 
-   <td colname="col2"> <p>Retourneert <code> 1 </code>, als een statische, hardcodeerde waarde. </p> </td> 
+   <td colname="col2"> <p>Retourneert <code> 1 </code> als een statische, gecodeerde waarde. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> SYNC_MODE </code> </p> </td> 
    <td colname="col2"> <p>Geeft het synchronisatietype aan en omvat: </p> 
     <ul id="ul_A3ADC37E66F043DABDA9C4066024B6C1"> 
-     <li id="li_A1859F63ACF24618884C41F2DAB19ABB"> <code> full </code>: Volledige synchronisatie. </li> 
-     <li id="li_520DDED3662B428DB9DB55D494221D97"> <code> iter </code>: Incrementele synchronisatie. </li> 
+     <li id="li_A1859F63ACF24618884C41F2DAB19ABB"> <code> full </code>: volledige synchronisatie. </li> 
+     <li id="li_520DDED3662B428DB9DB55D494221D97"> <code> iter </code>: incrementele synchronisatie. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -206,18 +206,18 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
    <td colname="col1"> <p> <code> TRAIT_LIST </code> </p> </td> 
    <td colname="col2"> <p>Retourneert een lijst met kenmerken. Accepteert de volgende optionele argumenten: </p> 
     <ul id="ul_E9CDC4DD47B9435086FF42143D9E8177"> 
-     <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code> type </code>: Geeft de typen eigenschap aan op basis van een numerieke id. Retourneert: 
+     <li id="li_4BBC57F0D7874F8EA8C6D39DB3572257"> <code> type </code>: geeft de typen eigenschap aan op basis van een numerieke id. Retourneert: 
       <ul id="ul_D2357E6CF47B4EBC8D3772D17B2EADA3"> 
-       <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code> 10 </code> die een spoor DPM (off-line, die door een binnenkomende baan wordt ingezien) identificeert. </li> 
-       <li id="li_7AFF8A1D0E1140459CC95CF43A97B9B6"> <code> 3 </code> die een op regels gebaseerde eigenschap (realtime, aan boord genomen via de DCS) identificeert. </li> 
+       <li id="li_C6C2A019FCD945E085E1ABB564C4EDAD"> <code> 10 </code> die een DPM-kenmerk identificeert (offline, ingesloten door een binnenkomende taak). </li> 
+       <li id="li_7AFF8A1D0E1140459CC95CF43A97B9B6"> <code> 3 </code> die een op regels gebaseerde eigenschap identificeert (realtime, ingeschakeld via de DCS). </li> 
       </ul> </li> 
-     <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>: traditie-id. </li> 
-     <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>: De laatste keer dat de eigenschap werd gerealiseerd. Unix-tijdstempel. </li> 
+     <li id="li_1DDE25334CF9479A8C4738F3CB3C40AA"> <code> traitId </code>: doel-id. </li> 
+     <li id="li_DCB89F2A40BB43C98EE3C84B5B3CDD33"> <code> lastRealized </code>: De laatste keer dat de eigenschap werd uitgevoerd. Unix-tijdstempel. </li> 
     </ul> <p>Plaats deze variabelen tussen accolades na de macro. In deze code worden de resultaten bijvoorbeeld gescheiden met het teken "|" van de pipe: <code> &lt;TRAIT_LIST:{trait|&lt;trait.Id&gt;,&lt;trait.lastRealized&gt;};separator="," </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> UUID </code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> gebruikersnaam. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> -gebruikersnaam. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -225,4 +225,3 @@ Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatte
 >[!MORELIKETHIS]
 >
 >* [Uitgaande macrovoorbeelden](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md)
-

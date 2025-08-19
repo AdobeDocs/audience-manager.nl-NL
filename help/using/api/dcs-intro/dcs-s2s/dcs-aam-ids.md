@@ -3,29 +3,29 @@ description: In deze sectie wordt beschreven hoe u een DCS-reactie kunt parseren
 seo-description: This section describes how to parse a DCS response to retrieve the visitor and region IDs required to make real-time calls to the DCS.
 seo-title: Get User IDs and Regions From a DCS Response
 solution: Audience Manager
-title: Gebruikers-id’s en -regio’s ontvangen van een DCS-reactie
+title: Gebruikersnaam en -regio's ophalen uit een DCS-reactie
 uuid: 08036045-3b26-4d40-8e94-7d0884048683
 feature: DCS
 exl-id: 3c0c5e57-2d59-4938-9bbd-761495142c31
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
-# Gebruikers-id’s en -regio’s ontvangen van een DCS-reactie {#get-user-ids-and-regions-from-a-dcs-response}
+# Gebruikersnaam en -regio&#39;s ophalen uit een DCS-reactie {#get-user-ids-and-regions-from-a-dcs-response}
 
-In deze sectie wordt beschreven hoe u een [!DNL DCS] reactie om bezoeker en gebied IDs terug te winnen die wordt vereist om vraag in real time aan te maken [!DNL DCS].
+In deze sectie wordt beschreven hoe u een [!DNL DCS] -reactie kunt parseren om de id&#39;s van de bezoeker en regio op te halen die nodig zijn om real-time aanroepen uit te voeren naar de [!DNL DCS] .
 
 ## Gebruiker- en regio-id&#39;s {#user-region-ids}
 
-A [!DNL DCS] reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar de [!DNL DCS].
+Een [!DNL DCS] -reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar de [!DNL DCS] .
 
 * De gebruikers-id is vereist om gegevens te identificeren en aan een bepaalde bezoeker te koppelen.
-* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam die u gegevens naar de [!DNL DCS]. De [!DNL DCS] slaat informatie in gegevenscentra op die geografisch dichtst bij bezoekers van de plaats zijn. Zie [Id&#39;s, locaties en hostnamen van DCS-regio&#39;s](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS] moet verzenden. In [!DNL DCS] wordt informatie opgeslagen in datacenters die zich geografisch het dichtst bij sitebezoekers bevinden. Zie [ DCS Gebied IDs, Locaties, en de Namen van de Gastheer ](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
-Deze parameters worden hieronder beschreven. Code in *cursief* vertegenwoordigt een variabele placeholder.
+Deze parameters worden hieronder beschreven. De code in *cursief* vertegenwoordigt veranderlijke placeholder.
 
 <table id="table_822C02D5978348DCB7153001882D397C"> 
  <thead> 
@@ -37,7 +37,7 @@ Deze parameters worden hieronder beschreven. Code in *cursief* vertegenwoordigt 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code> </p> </td> 
+   <td colname="col1"> <p><code>"uuid": <i>user ID</i></code></span> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
    <td colname="col3"> <p> <code> "uuid":"123456789"</code> </p> </td> 
   </tr> 
@@ -51,7 +51,7 @@ Deze parameters worden hieronder beschreven. Code in *cursief* vertegenwoordigt 
 
 ## Samplereactie {#sample-response}
 
-Deze eenvoudige reactie toont de `UUID` en regio `ID`. Dit zijn alleen voorbeeldgegevens. Uw logbestanden kunnen langer en complexer zijn.
+Deze eenvoudige reactie laat de `UUID` en het gebied `ID` zien. Dit zijn alleen voorbeeldgegevens. Uw logbestanden kunnen langer en complexer zijn.
 
 ```js
 {
@@ -64,4 +64,4 @@ Deze eenvoudige reactie toont de `UUID` en regio `ID`. Dit zijn alleen voorbeeld
 
 ## Volgende stappen {#next-steps}
 
-Zodra u de gebruikers-id en de regionale servernaam hebt, kunt u beginnen met verzenden en ontvangen [!DNL DCS] gegevens. Zie [DCS API-aanroepen maken](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Zodra u de gebruikers-id en de regionale servernaam hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS] -gegevens. Zie [ het Maken van vraag DCS API ](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

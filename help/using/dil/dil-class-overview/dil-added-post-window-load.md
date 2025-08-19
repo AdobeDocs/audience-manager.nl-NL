@@ -1,5 +1,5 @@
 ---
-description: Gebruikt om DIL te laten weten dat het wordt geladen nadat het venster wordt geladen.
+description: Wordt gebruikt om DIL te laten weten dat het wordt geladen nadat het venster is geladen.
 seo-description: Used to let DIL know that it is loaded after the window loads.
 seo-title: isAddedPostWindowLoad
 solution: Audience Manager
@@ -9,8 +9,8 @@ feature: DIL Implementation
 exl-id: 955fe0f2-2a64-491f-9098-e5aabcc697db
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 0%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 1%
 
 >[!WARNING]
 >
->Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
+>Vanaf juli 2023 heeft Adobe de ontwikkeling van de extensie [!DNL Data Integration Library (DIL)] en [!DNL DIL] stopgezet.
 >
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
 >
->Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan.
+>De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan moeten gebruiken.
 
-Gebruikt om DIL te laten weten dat het wordt geladen nadat het venster wordt geladen.
+Wordt gebruikt om DIL te laten weten dat het wordt geladen nadat het venster is geladen.
 
-**Functiehandtekening:** `isAddedPostWindowLoad: function()`
+**de Handtekening van de Functie:** `isAddedPostWindowLoad: function()`
 
 <!--
 r_dil_added_post_window_load.xml

@@ -8,7 +8,7 @@ feature: Overview
 exl-id: 45fd53e6-b8e1-49b4-99a3-c78adc90c707
 source-git-commit: 15e36d2847627b5e5ccef11f8073ce5124f14815
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -19,46 +19,46 @@ ht-degree: 0%
 
 Toegankelijkheid heeft betrekking op een reeks functies die een softwareproduct bruikbaar maken, met zo weinig mogelijk moeite van gebruikers met verschillende handicaps, zoals visuele, auditieve, cognitieve, motorische of andere handicaps.
 
-Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Voor meer informatie over Adobe aan toegankelijkheid, zie [Toegankelijkheid Adobe](https://www.adobe.com/accessibility.html).
+Adobe is marktleider op het gebied van toegankelijkheid en ondersteunt het creëren van uitstekende webervaringen door ontwikkelaars aan te moedigen rijke, aantrekkelijke inhoud te produceren die voor alle gebruikers toegankelijk is. Voor meer details over Adobe toewijding aan toegankelijkheid, zie [ Toegankelijkheid van Adobe ](https://www.adobe.com/accessibility.html).
 
-De meest voorkomende toegankelijkheidsfuncties in softwareproducten zijn: toetsenbordnavigatie, semantische structuur, voldoende contrast tussen voorgrondelementen en achtergrondelementen, ondersteunende hulpmiddelen, duidelijke elementlabels enzovoort.
+De meest voorkomende toegankelijkheidsfuncties in softwareproducten zijn: toetsenbordnavigatie, semantische structuur, voldoende contrast tussen voorgrondelementen en achtergrondelementen, ondersteuning voor ondersteunende hulpmiddelen, duidelijke elementlabels, enzovoort.
 
-Om te maken [!DNL Audience Manager] We hebben ondersteuning ontwikkeld voor meerdere toegankelijkheidsfuncties, die voor iedereen gebruiksvriendelijker zijn.
+Om [!DNL Audience Manager] voor iedereen gemakkelijker te gebruiken, hebben wij steun voor veelvoudige toegankelijkheidseigenschappen ontwikkeld.
 
 ## Toetsenbordnavigatie {#keyboard-navigation}
 
 [!DNL Audience Manager] ondersteunt volledige toetsenbordtoegankelijkheid:
 
-* De `Tab` en de pijlen bewegen tussen individuele elementen van het gebruikersinterface.
+* De `Tab` -toets en de pijlen bewegen tussen afzonderlijke elementen van de gebruikersinterface.
 
-   ![toegankelijkheid - markering](assets/accesibility-highlight.png)
+  ![ toegankelijkheid-hoogtepunt ](assets/accesibility-highlight.png)
 
-* De `Return` (`Enter`) en `Space` -toetsen activeren het geselecteerde item.
+* Met de toetsen `Return` (`Enter` ) en `Space` activeert u het geselecteerde item.
 
 ## Toegankelijke tabelsortering {#table-sorting}
 
-De kopballen van de lijst zijn selecteerbaar wanneer het navigeren via `Tab` en u kunt de sorteervolgorde wijzigen door op `Space`.
+Tabelkoppen kunnen worden geselecteerd wanneer u navigeert via de `Tab` -toets. U kunt de sorteervolgorde wijzigen door op `Space` te drukken.
 
-![accessibility-table-headers](assets/accessibility-table-headers.png)
+![ toegankelijkheid-lijst-kopballen ](assets/accessibility-table-headers.png)
 
 ## Ondersteuning van ondersteunende hulpmiddelen {#assistive-technologies}
 
-Door het gebruik van semantische code en [ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), interactieve elementen binnen de [!DNL Audience Manager] de gebruikersinterface omvat overeenkomstige etiketten, toegankelijke namen, en rollen die zowel hun doel als hun huidige staat identificeren.
+Door het gebruik van semantische code en [ ARIA ](https://www.w3.org/WAI/standards-guidelines/aria/), omvatten de interactieve elementen binnen het [!DNL Audience Manager] gebruikersinterface overeenkomstige etiketten, toegankelijke namen, en rollen die zowel hun doel als hun huidige staat identificeren.
 
 Zo zorgt u ervoor dat ondersteunende hulpmiddelen, zoals schermlezers, de labels en andere informatie voor gebruikers kunnen lezen, zodat ze gemakkelijk met de besturingselementen van de toepassing kunnen werken.
 
-Alle interactieve elementen in de gebruikersinterface van de Audience Manager bevatten de bijbehorende labels. Zo weet u zeker dat ondersteunende hulpmiddelen, zoals schermlezers, de labels aan gebruikers kunnen voorlezen.
+Alle interactieve elementen in de Audience Manager-gebruikersinterface bevatten de bijbehorende labels. Zo weet u zeker dat ondersteunende hulpmiddelen, zoals schermlezers, de labels aan gebruikers kunnen voorlezen.
 
 ## Kleuren en contrast {#colors-contrast}
 
-De [!DNL Audience Manager] de gebruikersinterface streeft ernaar voldoende contrast in de toepassing te bieden voor een toegankelijke kijkervaring voor gebruikers met een laag gezichtsvermogen of een laag kleurfalen.
+De gebruikersinterface van [!DNL Audience Manager] streeft ernaar voldoende contrast in de toepassing te bieden voor een toegankelijke kijkervaring voor gebruikers met een laag gezichtsvermogen of een laag kleurfalen.
 
 Voorbeeld: laadschermen bevatten een spinner in een wit modaal vak, alles boven op een donkergrijze bedekking.
 
-![toegankelijkheid, laden](assets/accessibility-loading.png)
+![ toegankelijkheid-lading ](assets/accessibility-loading.png)
 
-## Meer informatie {#further-reading}
+## Verdere lezing {#further-reading}
 
-[!DNL Audience Manager] streeft ernaar een steeds grotere mate van toegankelijkheid te bieden , waardoor het product voor iedereen gebruiksvriendelijk wordt gemaakt .
+Met [!DNL Audience Manager] wordt ernaar gestreefd een steeds hogere mate van toegankelijkheid te bieden, waardoor het product voor iedereen gebruiksvriendelijk wordt.
 
-We raden u aan de [Feedbackformulier voor toegankelijkheid Adobe](https://www.adobe.com/accessibility/feedback.html) om ons verbeteringssuggesties en toegankelijkheidskwesties te sturen waar u mee bezig bent. We zijn erg blij dat je rekening houdt met je feedback en deze verbetert [!DNL Audience Manager].
+Wij moedigen u aan om de [ Vorm van de Terugkoppeling van de Toegankelijkheid van Adobe ](https://www.adobe.com/accessibility/feedback.html) te gebruiken om ons verbeteringssuggesties en toegankelijkheidskwesties te verzenden die u in werking stelt. We zijn erg blij dat u rekening houdt met uw feedback en [!DNL Audience Manager] verbetert.

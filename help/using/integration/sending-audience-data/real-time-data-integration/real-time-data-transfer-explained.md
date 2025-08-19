@@ -1,5 +1,5 @@
 ---
-description: Een algemeen overzicht van hoe de Audience Manager gegevensoverdrachten in real time met een derdeinhoudsleverancier uitvoert.
+description: Een algemeen overzicht van hoe Audience Manager realtime gegevensoverdracht uitvoert met een externe contentprovider.
 seo-description: A general overview of how Audience Manager performs real-time data transfers with a third-party content provider.
 seo-title: Real-Time Data Transfer Process Described
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Real-Time Data Transfer Process beschreven{#real-time-data-transfer-process-described}
 
-Een algemeen overzicht van hoe de Audience Manager gegevensoverdrachten in real time met een derdeinhoudsleverancier uitvoert.
+Een algemeen overzicht van hoe Audience Manager realtime gegevensoverdracht uitvoert met een externe contentprovider.
 
 <!-- real-time-data-transfer-explained.xml -->
 
@@ -26,12 +26,12 @@ In real time gegevensoverdrachten verzenden en ontvangen segment IDs als gebruik
 
 ## Stappen voor gegevensintegratie
 
-Het integratieproces van gegevens in real time werkt als volgt:
+Het proces van de gegevensintegratie in real time werkt als volgt:
 
-1. Een gebruiker bezoekt de plaats van een klant die Audience Manager code bevat.
-1. Audience Manager laadt een iframe en belt naar onze [!UICONTROL Data Collection Server] ( [!DNL DCS]).
-1. De [!DNL DCS] roept de derdenserver (in real time) om te controleren of heeft de verkoper om het even welke segmentinformatie over de gebruiker.
-1. De inhoudsleverancier keert segmentinformatie over die gebruiker aan Audience Manager terug.
-1. Audience Manager ontvangt deze segmentinformatie en stelt het beschikbaar voor het richten en het bouwen van nieuwe eigenschappen en segmenten.
+1. Een gebruiker bezoekt de site van een klant die Audience Manager-code bevat.
+1. Audience Manager laadt een iframe en roept het [!UICONTROL Data Collection Server] ( [!DNL DCS] ) aan.
+1. [!DNL DCS] roept de server van de derde (in echt - tijd) om te controleren of de verkoper om het even welke segmentinformatie over de gebruiker heeft.
+1. De inhoudsprovider retourneert gesegmenteerde informatie over die gebruiker naar Audience Manager.
+1. Audience Manager ontvangt deze segmentinformatie en stelt deze beschikbaar voor het richten en het bouwen van nieuwe eigenschappen en segmenten.
 
 ![](assets/rt_reduce70.png)

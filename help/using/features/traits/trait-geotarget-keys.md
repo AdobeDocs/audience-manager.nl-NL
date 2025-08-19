@@ -1,5 +1,5 @@
 ---
-description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met geografische variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
+description: Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met geografische variabelen over alle eigenschappen in uw Audience Manager rekening te richten.
 seo-description: Describes the common platform-level key-value pairs you can use to target users with geographic variables across all properties in your Audience Manager account.
 seo-title: Geotargeting With Platform-level Keys
 solution: Audience Manager
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Geotargeting met toetsen op platformniveau {#geotargeting-with-platform-level-keys}
 
-Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met geografische variabelen over alle eigenschappen in uw rekening van de Audience Manager te richten.
+Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met geografische variabelen over alle eigenschappen in uw Audience Manager rekening te richten.
 
 <!-- c_tb_platform_vars.xml -->
 

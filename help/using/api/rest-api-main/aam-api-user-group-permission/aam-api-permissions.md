@@ -3,26 +3,26 @@ description: Stel API-methoden in om machtigingen voor objecten en groepen te be
 seo-description: Rest API methods to manage permissions for objects and groups.
 seo-title: Permissions Management API Methods
 solution: Audience Manager
-title: API-methoden voor toestemmingenbeheer
+title: API-methoden voor machtigingenbeheer
 uuid: 111d0f92-d92c-4d4b-b0d6-10dd3fa466ad
 feature: API
 exl-id: 7aac8ea8-4120-4c6b-88a6-30e8aa727dc8
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
-# API-methoden voor toestemmingenbeheer {#permissions-management-api-methods}
+# API-methoden voor machtigingenbeheer {#permissions-management-api-methods}
 
-Rust [!DNL API] methoden voor het beheren van machtigingen voor objecten en groepen.
+Stel [!DNL API] -methoden in om machtigingen voor objecten en groepen te beheren.
 
 <!-- c_rest_api_perm_man.xml -->
 
 ## Beschikbare objecttypen weergeven {#list-object-types}
 
-A `GET` methode aan een lijst van beschikbare objecten types waarop op rol-gebaseerde toegangscontroles kunnen worden geplaatst.
+Een `GET` -methode om beschikbare objecttypen weer te geven waarop op rollen gebaseerde toegangsbesturingselementen kunnen worden ingesteld.
 
 <!-- r_rest_api_perm_list.xml -->
 
@@ -38,7 +38,7 @@ A `GET` methode aan een lijst van beschikbare objecten types waarop op rol-gebas
 
 ## Beschikbare machtigingen weergeven voor een objecttype {#list-permissions-object-type}
 
-A `GET` om de beschikbare machtigingen voor een objecttype weer te geven.
+Een methode `GET` om de beschikbare machtigingen voor een objecttype weer te geven.
 
 <!-- r_rest_api_perm_list_perms.xml -->
 

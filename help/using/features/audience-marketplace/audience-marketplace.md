@@ -11,24 +11,23 @@ exl-id: ee608bcd-6827-4fac-be96-8e16ff390ec0
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
 # Audience Marketplace {#audience-marketplace}
 
-[!UICONTROL Audience Marketplace] biedt gegevensleveranciers en kopers de mogelijkheid om gegevenstransacties op een zelfbedieningsmanier uit te voeren met minimale inspanningen. Dit doet hij door speciale functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, [!UICONTROL Audience Marketplace] zorgt voor contracten, facturering en betalingen tussen gegevensaanbieders en verkopers.
+Met [!UICONTROL Audience Marketplace] kunnen gegevensproviders en kopers zo weinig mogelijk gegevenstransacties zelf uitvoeren. Dit doet hij door speciale functies te bieden die afhankelijk zijn van je rol als gegevenskoper of gegevensverkoper. Je kunt zelfs tegelijkertijd koper en verkoper zijn. En als dit niet beter kan, zorgt [!UICONTROL Audience Marketplace] voor contracten, facturering en betalingen tussen gegevensleveranciers en verkopers.
 
-Praat met uw [!DNL Audience Manager] verkoopspecialist om aan de slag te gaan. Ze kunnen [!UICONTROL Audience Marketplace for you].
+Bespreek het met uw verkoopspecialist van [!DNL Audience Manager] om aan de slag te gaan. Ze kunnen [!UICONTROL Audience Marketplace for you] activeren.
 
 >[!NOTE]
 >
->Gebruikersrollen bepalen wat u kunt en niet kunt doen in [!UICONTROL Audience Marketplace].
+>Gebruikersrollen bepalen wat u kunt en niet kunt doen in [!UICONTROL Audience Marketplace] .
 >
 > * Beheerders kunnen gegevensfeeds maken, abonnees beheren en zich abonneren op gegevensfeeds.
 > * Gebruikers kunnen alleen feeds zoeken en weergeven.
 
-
-* [Audience Marketplace voor dataproviders](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
-* [Audience Marketplace voor datakopers](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
-* [Privédatafeeds](/help/using/features/audience-marketplace/marketplace-private-feeds.md)
+* [Audience Marketplace for Data Providers](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-data-providers.md)
+* [Audience Marketplace for Data Buyers](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md)
+* [Privégegevensfeeds](/help/using/features/audience-marketplace/marketplace-private-feeds.md)

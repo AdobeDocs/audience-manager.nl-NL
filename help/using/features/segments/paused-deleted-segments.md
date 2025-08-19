@@ -10,7 +10,7 @@ exl-id: 994da89c-c9db-4cd5-b2bc-cfda231e5f2d
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Beschrijft de gevolgen op gesegmenteerde gebruikers, gegevens, en bestemmingen w
 
 ## Toegang tot de besturingselementen Pauzeren en Verwijderen
 
-Houd de muisaanwijzer boven een segmentnaam in de lijst met segmenten om de **[!UICONTROL pause]** en **[!UICONTROL delete]** pictogrammen (in de [!UICONTROL Actions] kolom). Deze functies zijn van invloed op segmenten zoals hieronder wordt beschreven.
+Houd de muisaanwijzer boven een segmentnaam in de lijst met segmenten om de pictogrammen **[!UICONTROL pause]** en **[!UICONTROL delete]** weer te geven (in de kolom [!UICONTROL Actions] ). Deze functies zijn van invloed op segmenten zoals hieronder wordt beschreven.
 
 ## Functionaliteit gepauzeerd segment
 
@@ -45,4 +45,4 @@ Een verwijderd segment:
 
 >[!NOTE]
 >
->U kunt segmenten ook pauzeren en verwijderen met behulp van een [!DNL API] methode. Zie voor meer informatie [REST API&#39;s](../../api/rest-api-main/rest-api-main.md).
+>U kunt segmenten ook pauzeren en verwijderen met de methode [!DNL API] . Voor meer informatie, zie [ REST APIs ](../../api/rest-api-main/rest-api-main.md).

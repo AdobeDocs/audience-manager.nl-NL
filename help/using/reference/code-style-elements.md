@@ -10,7 +10,7 @@ exl-id: 12f9b802-b645-4fc3-96ea-3d16b1f4890a
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 8%
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ Deze elementen identificeren codeopties en variabelen die door de hulpdocumentat
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> <i>variable</i> </code> </p> </td> 
-   <td colname="col2"> <p>Variabelen worden weergegeven in <i>cursief</i>. Vervang de juiste waarde voor de variabelenaam. </p> <p>Voor visuele duidelijkheid worden soms variabelen en andere code-elementen weergegeven tussen &lt; &gt; vierkante haakjes. U hoeft deze symbolen niet in uw code te gebruiken. </p> </td> 
+   <td colname="col2"> <p>De variabelen verschijnen in <i> cursief </i>. Vervang de juiste waarde voor de variabelenaam. </p> <p>Voor visuele duidelijkheid worden soms variabelen en andere code-elementen weergegeven tussen &lt; &gt; vierkante haakjes. U hoeft deze symbolen niet in uw code te gebruiken. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> [optional]</code> </p> </td> 
@@ -36,7 +36,7 @@ Deze elementen identificeren codeopties en variabelen die door de hulpdocumentat
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> (this|that) </code> </p> </td> 
-   <td colname="col2"> <p>Items tussen haakjes geven een Booleaanse waarde aan <span class="wintitle"> OF</span> keuze. </p> </td> 
+   <td colname="col2"> <p>Items tussen haakjes geven een Booleaanse optie aan <span class="wintitle"> OF </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> literal</code> </p> </td> 

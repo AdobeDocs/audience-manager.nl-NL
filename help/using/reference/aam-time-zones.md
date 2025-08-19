@@ -9,8 +9,8 @@ feature: Reference
 exl-id: bb89cf76-dd43-454b-aaa8-8e5415493ecc
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 11%
+source-wordcount: '84'
+ht-degree: 0%
 
 ---
 
@@ -18,4 +18,4 @@ ht-degree: 11%
 
 Audience Manager gebruikt Coordinated Universal Time (UTC) voor de volledige gebruikersinterface.
 
-Tenzij anders aangegeven, kunt u alle datums en datumbereiken selecteren in het dialoogvenster [!DNL Adobe] [!DNL Audience Manager] UI is [Coordinated Universal Time (UTC)](https://www.timeanddate.com/worldclock/timezone/utc). In het dialoogvenster [Doel maken](../features/destinations/create-cookie-destination.md#segments-mapping) stroom, wanneer het in kaart brengen van segmenten aan uw bestemming, de begin en einddatum u selecteert zijn middernacht UTC. Hetzelfde geldt voor alle datums in [!DNL Audience Manager].
+Tenzij anders gespecificeerd, zijn alle data en datumwaaiers u in [!DNL Adobe] [!DNL Audience Manager] UI kunt selecteren [ gecoördineerde Universele Tijd (UTC) ](https://www.timeanddate.com/worldclock/timezone/utc). Bijvoorbeeld, in [ creeer de stroom van de Bestemming ](../features/destinations/create-cookie-destination.md#segments-mapping), wanneer het in kaart brengen van segmenten aan uw bestemming, zijn de begin en einddatum u uitgezocht middernacht UTC. Hetzelfde geldt voor alle datums in [!DNL Audience Manager] .

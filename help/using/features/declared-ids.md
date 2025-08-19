@@ -37,7 +37,7 @@ Sommige browsers en de meeste mobiele apparaten accepteren [!DNL cookies] niet v
  <tbody> 
   <tr> 
    <td colname="col1"> <b> Vraag van de Gebeurtenis </b> </td> 
-   <td colname="col2"> <p>Als u wilt werken, hebt u <span class="wintitle"> DIL </span> en de code <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL" format="https" scope="external"> Adobe Experience Platform Identity Service </a> op de pagina nodig. <span class="wintitle"> DIL </span> haalt <span class="wintitle"> gedeclareerde id's </span> op van de <code> setVisitorID </code> -functie die wordt geleverd door de <span class="keyword"> Adobe Experience Platform Identity Service </span> en geeft die door aan <span class="keyword"> Audience Manager </span> . </p> </td> 
+   <td colname="col2"> <p>Als u wilt werken, hebt u <span class="wintitle"> DIL </span> en de code <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html" format="https" scope="external"> Adobe Experience Platform Identity Service </a> op de pagina nodig. <span class="wintitle"> DIL </span> haalt <span class="wintitle"> gedeclareerde id's </span> op van de <code> setVisitorID </code> -functie die wordt geleverd door de <span class="keyword"> Adobe Experience Platform Identity Service </span> en geeft die door aan <span class="keyword"> Audience Manager </span> . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b> identiteitskaart van de Gelijke </b> </td> 
@@ -184,7 +184,7 @@ Beschrijft de configuratievariabelen die worden gebruikt om [!UICONTROL declared
 
 ## [!UICONTROL DIL] gebruikt de lus [!DNL Adobe Experience Platform Identity Service] to Pass [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Wanneer gebruikt met de [ Dienst van de Identiteit van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL), te hoeven u niet meer binnen [!UICONTROL declared IDs] met de afgekeurde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan vertrouwen de huidige versies van [!UICONTROL DIL] op de `visitorService` functie om [!UICONTROL declared IDs] van de `setCustomerIDs` functie in [!UICONTROL Adobe Experience Platform Identity Service] te krijgen. Voor meer informatie, zie [ Klant IDs en de Staten van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL). U roept `visitorService` in `DIL.create` aan, zoals hieronder wordt weergegeven.
+Wanneer gebruikt met de [ Dienst van de Identiteit van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html), te hoeven u niet meer binnen [!UICONTROL declared IDs] met de afgekeurde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan vertrouwen de huidige versies van [!UICONTROL DIL] op de `visitorService` functie om [!UICONTROL declared IDs] van de `setCustomerIDs` functie in [!UICONTROL Adobe Experience Platform Identity Service] te krijgen. Voor meer informatie, zie [ Klant IDs en de Staten van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). U roept `visitorService` in `DIL.create` aan, zoals hieronder wordt weergegeven.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-In het `namespace` key-value paar is `MCORG` uw [!DNL Experience Cloud] Organisatie-id. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het dashboard van [!DNL Experience Cloud] . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [ begonnen worden met de diensten van Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/services/getting-started).
+In het `namespace` key-value paar is `MCORG` uw [!DNL Experience Cloud] Organisatie-id. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het dashboard van [!DNL Experience Cloud] . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [ begonnen worden met de diensten van Experience Cloud ](https://experienceleague.adobe.com/en/docs/core-services/interface/services/getting-started).
 
 ## Verouderde functies {#deprecated-functions}
 

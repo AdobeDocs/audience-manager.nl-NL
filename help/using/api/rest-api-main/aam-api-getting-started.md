@@ -9,139 +9,139 @@ feature: API
 exl-id: f7d5e52d-ad21-4020-a299-d440f954c51a
 source-git-commit: 622664170f2a76039bcf2333bde43ce9e60b6af2
 workflow-type: tm+mt
-source-wordcount: '2558'
+source-wordcount: '2563'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met [!DNL REST] [!DNL APIs] {#getting-started-with-rest-apis}
 
-Informatie over algemene vereisten, authentificatie, facultatieve vraagparameters, verzoek [!DNL URLs]en andere verwijzingen.
+Informatie over algemene vereisten, authentificatie, facultatieve vraagparameters, verzoek [!DNL URLs], en andere verwijzingen.
 
-## API-vereisten en Recommendations {#api-requirements-recommendations}
+## API-vereisten en aanbevelingen {#api-requirements-recommendations}
 
-Let op het volgende wanneer u werkt met [Audience Manager-API](https://bank.demdex.com/portal/swagger/index.html#/) code:
+Neem nota van het volgende wanneer het werken met [ Audience Manager API ](https://bank.demdex.com/portal/swagger/index.html#/) code:
 
-* **Parameters aanvragen:** alle aanvraagparameters zijn vereist, tenzij anders aangegeven.
-* **Aanvraagkoppen**: bij gebruik [Adobe Developer](https://www.adobe.io/) tokens, u moet de `x-api-key` header. U kunt uw [!DNL API] door de instructies in de [Integratie van serviceaccount](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) pagina.
-* **[!DNL JSON]inhoudstype:** Opgeven `content-type: application/json`  *en*  `accept: application/json` in uw code.
-* **Verzoeken en antwoorden:** Aanvragen verzenden als een correct opgemaakt bestand [!DNL JSON] object. [!DNL Audience Manager] reageert met [!DNL JSON] opgemaakte gegevens. Serverreacties kunnen gevraagde gegevens, een statuscode of beide bevatten.
-* **Toegang:** Uw [!DNL Audience Manager] consultant zal u een klant-id en een sleutel geven waarmee u [!DNL API] verzoeken.
-* **Documentatie en codevoorbeelden:** Tekst in *cursief* vertegenwoordigt een variabele die u verstrekt of binnen overgaat wanneer het maken of het ontvangen [!DNL API] gegevens. Vervangen *cursief* tekst met uw eigen code, parameters of andere vereiste informatie.
+* **de parameters van het Verzoek:** alle verzoekparameters worden vereist tenzij anders gespecificeerd.
+* **de kopballen van het Verzoek**: wanneer het gebruiken van [ Adobe Developer ](https://www.adobe.io/) tokens, moet u de `x-api-key` kopbal verstrekken. U kunt uw [!DNL API] sleutel krijgen door de instructies in de [ pagina van de Integratie van de Rekening van de Dienst te volgen ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+* **[!DNL JSON]inhoudstype:** specificeer `content-type: application/json` *en* `accept: application/json` in uw code.
+* **Verzoeken en reacties:** verzend verzoeken als behoorlijk geformatteerd [!DNL JSON] voorwerp. [!DNL Audience Manager] reageert met [!DNL JSON] opgemaakte gegevens. Serverreacties kunnen gevraagde gegevens, een statuscode of beide bevatten.
+* **Toegang:** Uw [!DNL Audience Manager] consultant zal u van een cliëntidentiteitskaart en een sleutel voorzien die u [!DNL API] verzoeken laat maken.
+* **Documentatie en codesteekproeven:** Tekst in *cursief* vertegenwoordigt een variabele die u verstrekt of binnen overgaat wanneer het maken van of het ontvangen van [!DNL API] gegevens. Vervang *cursief* tekst met uw eigen code, parameters, of andere vereiste informatie.
 
 ## Verificatie {#authentication}
 
-De [!DNL Audience Manager] [!DNL REST APIs] drie verificatiemethoden ondersteunen.
+De [!DNL Audience Manager] [!DNL REST APIs] ondersteunt drie verificatiemethoden.
 
-* [!BADGE Aanbevolen]{type=positive}[OAuth Server-to-Server Authentificatie](#oauth-adobe-developer) gebruiken [Adobe Developer Console](https://www.adobe.io/). [!DNL Adobe Developer] is het ecosysteem en de gemeenschap van ontwikkelaars van Adobe. Hieronder vallen [API&#39;s voor alle Adobe producten](https://developer.adobe.com/apis/). Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs]. Meer informatie over [OAuth Server-to-Server Authentificatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) in de Adobe Developer documentation.
-* [!BADGE Vervangen]{type=negative}[JWT-verificatie (serviceaccount)](#jwt) gebruiken [Adobe Developer Console](https://www.adobe.io/). [!DNL Adobe Developer] is het ecosysteem en de gemeenschap van ontwikkelaars van Adobe. Hieronder vallen [API&#39;s voor alle Adobe producten](https://developer.adobe.com/apis/).
-* [!BADGE Vervangen]{type=negative}[Oudere OAuth-verificatie](#oauth-deprecated). Hoewel deze methode is vervangen, kunnen klanten met bestaande [!DNL OAuth] Deze methode kan worden gebruikt voor integraties.
+* [!BADGE  geadviseerde ]{type=positive} [ OAuth Server-aan-Server Authentificatie ](#oauth-adobe-developer) gebruikend [ de ontwikkelaarsconsole van Adobe ](https://www.adobe.io/). [!DNL Adobe Developer] is het Adobe-ontwikkelaarsecosysteem en -gemeenschap. Het omvat [ APIs voor alle producten van Adobe ](https://developer.adobe.com/apis/). Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs] in te stellen en te gebruiken. Lees meer over [ Server-aan-Server Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) OAuth in de de ontwikkelaarsdocumentatie van Adobe.
+* [!BADGE  Vervangen ]{type=negative} [ JWT (de Rekening van de Dienst) Authentificatie ](#jwt) gebruikend [ de ontwikkelaarsconsole van Adobe ](https://www.adobe.io/). [!DNL Adobe Developer] is het Adobe-ontwikkelaarsecosysteem en -gemeenschap. Het omvat [ APIs voor alle producten van Adobe ](https://developer.adobe.com/apis/).
+* [!BADGE  Vervangen ]{type=negative} [ Verouderde OAuth Authentificatie ](#oauth-deprecated). Hoewel deze methode is afgekeurd, kunnen klanten met bestaande [!DNL OAuth] -integratie deze methode blijven gebruiken.
 
 >[!IMPORTANT]
 >
->Afhankelijk van uw verificatiemethode moet u uw verzoek aanpassen [!DNL URLs] dienovereenkomstig. Zie de [Omgevingen](#environments) voor details over hostnames die u zou moeten gebruiken.
+>Afhankelijk van uw verificatiemethode moet u uw verzoek [!DNL URLs] dienovereenkomstig aanpassen. Zie de [ sectie van Milieu&#39;s ](#environments) voor details over hostnames die u zou moeten gebruiken.
 
 ## OAuth Server-to-Server Authentificatie gebruikend Adobe Developer {#oauth-adobe-developer}
 
-Deze sectie behandelt hoe te om de vereiste geloofsbrieven te verzamelen om Audience Manager API vraag voor authentiek te verklaren, zoals die in het stroomschema hieronder wordt geschetst. U kunt de meeste vereiste geloofsbrieven in eerste éénmalige opstelling verzamelen. Het toegangstoken, echter, moet om de 24 uur worden verfrist.
+In deze sectie wordt beschreven hoe u de vereiste referenties kunt verzamelen voor het verifiëren van Audience Manager API-aanroepen, zoals hieronder in het stroomschema wordt beschreven. U kunt de meeste vereiste geloofsbrieven in eerste éénmalige opstelling verzamelen. Het toegangstoken, echter, moet om de 24 uur worden verfrist.
 
-![Het diagram van de de authentificatiestroom van Audience Managers.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
+![ diagram van de de authentificatiestroom van Audience Manager.](/help/using/api/rest-api-main/assets/aam-authentication-flow.png)
 
 ### Adobe Developer - Overzicht {#developer-overview}
 
-[!DNL Adobe Developer] is het ecosysteem en de gemeenschap van ontwikkelaars van Adobe. Hieronder vallen [API&#39;s voor alle Adobe producten](https://developer.adobe.com/apis).
+[!DNL Adobe Developer] is het Adobe-ontwikkelaarsecosysteem en -gemeenschap. Het omvat [ APIs voor alle producten van Adobe ](https://developer.adobe.com/apis).
 
-Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs].
+Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs] in te stellen en te gebruiken.
 
 ### Vereisten {#prerequisites-server-to-server}
 
-Voordat u kunt configureren [!DNL OAuth Server-to-Server] verificatie, zorg ervoor dat u toegang hebt tot de [Adobe Developer Console](https://developer.adobe.com/console/home) in [Adobe Developer](https://developer.adobe.com/). Neem contact op met uw organisatiebeheerder voor verzoeken om toegang.
+Alvorens u [!DNL OAuth Server-to-Server] authentificatie kunt vormen, zorg ervoor u toegang tot [ Adobe Developer Console ](https://developer.adobe.com/console/home) in [ Adobe Developer ](https://developer.adobe.com/) hebt. Neem contact op met uw organisatiebeheerder voor verzoeken om toegang.
 
 ### Verificatie {#oauth}
 
-Voer de onderstaande stappen uit om te configureren [!DNL OAuth Server-to-Server] verificatie met [!DNL Adobe Developer]:
+Voer de onderstaande stappen uit om [!DNL OAuth Server-to-Server] verificatie te configureren met [!DNL Adobe Developer] :
 
-1. Aanmelden bij de [Adobe Developer Console](https://developer.adobe.com/console/home).
-1. Voer de stappen in het dialoogvenster [OAuth Server-to-Server referentie implementatiegids](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
-   * Tijdens [Stap 2: voeg API aan uw project toe gebruikend de authentificatie van de Rekening van de Dienst](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), kiest u de [!DNL Audience Manager] [!DNL API] -optie.
-1. Probeer de verbinding uit door eerst uw [!DNL API] vraag gebaseerd op de instructies van [Stap 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+1. Login aan [ Adobe Developer Console ](https://developer.adobe.com/console/home).
+1. Volg de stappen in de [ Server-aan-Server referentie van OAuth implementatiegids ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/).
+   * Tijdens [ Stap 2: voeg API aan uw project toe gebruikend de authentificatie van de Rekening van de Dienst ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), kies de [!DNL Audience Manager] [!DNL API] optie.
+1. Probeer uit de verbinding door uw eerste [!DNL API] vraag te maken die op de instructies van [ wordt gebaseerd Stap 3 ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!NOTE]
 >
->Om te vormen en met het [!DNL Audience Manager] [!DNL REST APIs] op een geautomatiseerde manier, kunt u cliëntgeheimen programmatically roteren. Zie [de ontwikkelaarsdocumentatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) voor gedetailleerde instructies.
+>Als u de [!DNL Audience Manager] [!DNL REST APIs] automatisch wilt configureren en gebruiken, kunt u de clientgeheimen programmatisch roteren. Zie [ de ontwikkelaardocumentatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#rotating-client-secrets-programmatically) voor gedetailleerde instructies.
 
-### Audience Manager-API toevoegen aan een project {#add-aam-api-to-project}
+### Audience Manager API toevoegen aan een project {#add-aam-api-to-project}
 
-Ga naar [Adobe Developer Console](https://www.adobe.com/go/devs_console_ui) en meld u aan met uw Adobe ID. Voer vervolgens de stappen uit die in de zelfstudie worden beschreven [een leeg project maken](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) in de Adobe Developer Console-documentatie.
+Ga naar [ Adobe Developer Console ](https://www.adobe.com/go/devs_console_ui) en teken binnen met uw Adobe ID. Daarna, volg de stappen die in het leerprogramma worden geschetst op [ creërend een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty/) in de documentatie van Adobe Developer Console.
 
-Als u een nieuw project hebt gemaakt, selecteert u **[!UICONTROL Add API]** op de **[!UICONTROL Project Overview]** scherm.
+Wanneer u een nieuw project hebt gemaakt, selecteert u **[!UICONTROL Add API]** op het **[!UICONTROL Project Overview]** -scherm.
 
 >[!TIP]
 >
 >Als u provisioned voor verscheidene organisaties bent, gebruik de organisatieselecteur in de hogere juiste hoek van de interface om ervoor te zorgen dat u in de organisatie bent u nodig hebt.
 
-![Scherm Developer Console met de optie Add API gemarkeerd.](/help/using/api/rest-api-main/assets/add-api.png)
+![ het scherm van Developer Console met Add wordt benadrukt API optie.](/help/using/api/rest-api-main/assets/add-api.png)
 
-De **[!UICONTROL Add an API]** wordt weergegeven. Selecteer het productpictogram voor Adobe Experience Cloud en kies **[!UICONTROL Audience Manager API]** voordat u selecteert **[!UICONTROL Next]**.
+Het scherm **[!UICONTROL Add an API]** wordt weergegeven. Selecteer het productpictogram voor Adobe Experience Cloud en kies vervolgens **[!UICONTROL Audience Manager API]** voordat u **[!UICONTROL Next]** selecteert.
 
-![Selecteer Audience Manager-API.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
+![ Uitgezochte Audience Manager API.](/help/using/api/rest-api-main/assets/audience-manager-api.png)
 
 >[!TIP]
 >
->Selecteer de **[!UICONTROL View docs]** om in een afzonderlijk browservenster naar het volledige venster te navigeren [Referentiedocumentatie voor Audience Manager API](https://bank.demdex.com/portal/swagger/index.html#).
+>Selecteer de **[!UICONTROL View docs]** optie om in een afzonderlijk browser venster aan de volledige [ Audience Manager API verwijzingsdocumentatie ](https://bank.demdex.com/portal/swagger/index.html#) te navigeren.
 
 ### Selecteer het verificatietype OAuth Server-to-Server {#select-oauth-server-to-server}
 
-Selecteer vervolgens het verificatietype dat u wilt maken voor het genereren van toegangstokens en voor toegang tot de Audience Manager-API.
+Selecteer vervolgens het verificatietype dat u wilt genereren voor toegangstokens en toegang tot de Audience Manager API.
 
 >[!IMPORTANT]
 >
->Selecteer de **[!UICONTROL OAuth Server-to-Server]** de enige methode die wordt ondersteund om verder te gaan. De **[!UICONTROL Service Account (JWT)]** is vervangen. Terwijl de integratie die de authentificatiemethode JWT gebruikt tot 1 Januari, 2025 zal blijven werken, adviseert de Adobe sterk dat u bestaande integratie aan de nieuwe server-aan-server methode OAuth vóór die datum migreert.
+>Selecteer de methode **[!UICONTROL OAuth Server-to-Server]** omdat dit de enige methode is die vooruit wordt ondersteund. De methode **[!UICONTROL Service Account (JWT)]** is vervangen. Terwijl de integratie die de authentificatiemethode JWT gebruikt tot 1 Januari, 2025 zal blijven werken, adviseert Adobe sterk dat u bestaande integratie aan de nieuwe server-aan-server methode OAuth vóór die datum migreert.
 
-![Selecteer OAuth-verificatiemethode.](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)
+![ Uitgezochte OAuth authentificatiemethode.](/help/using/api/rest-api-main/assets/select-oauth-authentication-method.png)
 
 ### Selecteer de productprofielen voor uw integratie {#select-product-profiles}
 
-In de **[!UICONTROL Configure API]** selecteert u de gewenste productprofielen. Via de hier geselecteerde productprofielen krijgt het serviceaccount van uw integratie toegang tot korrelfuncties.
+Selecteer in het scherm **[!UICONTROL Configure API]** de gewenste productprofielen. Via de hier geselecteerde productprofielen krijgt het serviceaccount van uw integratie toegang tot korrelfuncties.
 
-![Selecteer productprofielen voor uw integratie.](/help/using/api/rest-api-main/assets/select-product-profiles.png)
+![ Uitgezochte productprofielen voor uw integratie.](/help/using/api/rest-api-main/assets/select-product-profiles.png)
 
-Selecteren **[!UICONTROL Save configured API]** wanneer u klaar bent.
+Selecteer **[!UICONTROL Save configured API]** wanneer u klaar bent.
 
 ### Referenties verzamelen {#gather-credentials}
 
-Zodra API aan het project is toegevoegd, **[!UICONTROL Audience Manager API]** De pagina voor het project toont de volgende geloofsbrieven die in alle vraag aan Audience Manager APIs worden vereist:
+Zodra API aan het project is toegevoegd, **[!UICONTROL Audience Manager API]** toont de pagina voor het project de volgende geloofsbrieven die in alle vraag aan Audience Manager APIs worden vereist:
 
-![Integratiegegevens na het toevoegen van een API in de Developer Console.](/help/using/api/rest-api-main/assets/api-integration-information.png)
+![ de informatie van de Integratie na het toevoegen van API in Developer Console.](/help/using/api/rest-api-main/assets/api-integration-information.png)
 
 * `{API_KEY}` ([!UICONTROL Client ID])
 * `{ORG_ID}` ([!UICONTROL Organization ID])
 
 ## Een toegangstoken genereren {#generate-access-token}
 
-De volgende stap bestaat uit het genereren van een `{ACCESS_TOKEN}` referentie voor gebruik in Audience Manager API vraag. In tegenstelling tot de waarden voor `{API_KEY}` en `{ORG_ID}`moet om de 24 uur een nieuw token worden gegenereerd om Audience Manager API&#39;s te kunnen blijven gebruiken. Selecteren **[!UICONTROL Generate access token]**, zoals hieronder weergegeven.
+De volgende stap bestaat uit het genereren van een `{ACCESS_TOKEN}` -referentie voor gebruik in Audience Manager API-aanroepen. In tegenstelling tot de waarden voor `{API_KEY}` en `{ORG_ID}` , moet om de 24 uur een nieuw token worden gegenereerd om Audience Manager API&#39;s te kunnen blijven gebruiken. Selecteer **[!UICONTROL Generate access token]**, zoals hieronder wordt weergegeven.
 
-![Toon hoe te om toegangstoken te produceren](/help/using/api/rest-api-main/assets/generate-acces-token.gif)
+![ toon hoe te om toegangstoken ](/help/using/api/rest-api-main/assets/generate-acces-token.gif) te produceren
 
 ## Een API-aanroep testen {#test-api-call}
 
-Nadat u het token van de verificatiehouder hebt opgehaald, voert u een API-aanroep uit om te testen of u nu toegang hebt tot Audience Manager-API&#39;s.
+Nadat u uw token voor de verificatiehouder hebt opgehaald, voert u een API-aanroep uit om te testen of u nu toegang hebt tot Audience Manager API&#39;s.
 
-1. Ga naar de [API-naslagdocumentatie](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
-2. Selecteren **[!UICONTROL Authorize]** en plak het toegangstoken dat u in het [toegangstoken genereren](#generate-access-token) stap.
+1. Navigeer aan de [ API verwijzingsdocumentatie ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_).
+2. Selecteer **[!UICONTROL Authorize]** en kleef het toegangstoken dat u in [ hebt verkregen het toegangstoken ](#generate-access-token) stap produceert.
 
-   ![API-aanroepen autoriseren](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
+   ![ autoriseer API vraag ](/help/using/api/rest-api-main/assets/authorize-api-calls.gif)
 
-3. Voer een vraag van de GET aan uit `/datasources` API eindpunt om een lijst van alle globaal beschikbare gegevensbronnen terug te winnen, zoals die in wordt vermeld [API-naslagdocumentatie](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Selecteren **[!UICONTROL Try it out]**, gevolgd door **[!UICONTROL Execute]**, zoals hieronder weergegeven.
+3. Voer een vraag van GET aan het `/datasources` API eindpunt uit om een lijst van alle globaal beschikbare gegevensbronnen terug te winnen, zoals vermeld in de [ API verwijzingsdocumentatie ](https://bank.demdex.com/portal/swagger/index.html#/Data%20Source%20API/get_datasources_). Selecteer **[!UICONTROL Try it out]** , gevolgd door **[!UICONTROL Execute]** , zoals hieronder wordt weergegeven.
 
-   ![API-aanroepen uitvoeren](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
+   ![ voer API vraag uit ](/help/using/api/rest-api-main/assets/perform-api-calls.gif)
 
 
 >[!BEGINSHADEBOX]
 
 >[!BEGINTABS]
 
->[!TAB API-verzoek]
+>[!TAB  API verzoek ]
 
 ```shell
 curl -X 'GET' \
@@ -151,7 +151,7 @@ curl -X 'GET' \
 ```
 
 
->[!TAB API-reactie bij gebruik van de juiste token]
+>[!TAB  API reactie in het geval van het gebruiken van het correcte dragerteken ]
 
 
 Wanneer het gebruiken van een werkend toegangstoken, keert het API eindpunt een 200 reactie, samen met een antwoordlichaam terug dat alle globale gegevensbronnen omvat die uw organisatie toegang heeft tot.
@@ -211,96 +211,96 @@ Wanneer het gebruiken van een werkend toegangstoken, keert het API eindpunt een 
 
 >[!ENDSHADEBOX]
 
-## [!BADGE Vervangen]{type=negative}[!DNL JWT] ([!DNL Service Account]) Verificatie met Adobe Developer {#jwt}
+## [!BADGE  Vervangen ]{type=negative} [!DNL JWT] ([!DNL Service Account]) Authentificatie die Adobe Developer gebruikt {#jwt}
 
-+++ Informatie weergeven over de vervangen [!DNL JWT] ([!DNL Service Account]) methode om verificatietokens te verkrijgen.
++++ Informatie weergeven over de afgekeurde methode [!DNL JWT] ([!DNL Service Account] ) voor het verkrijgen van verificatietokens.
 
 ### Adobe Developer - Overzicht {#adobeio}
 
-[!DNL Adobe Developer] is het ecosysteem en de gemeenschap van ontwikkelaars van Adobe. Hieronder vallen [API&#39;s voor alle Adobe producten](https://www.adobe.io/apis.html).
+[!DNL Adobe Developer] is het Adobe-ontwikkelaarsecosysteem en -gemeenschap. Het omvat [ APIs voor alle producten van Adobe ](https://www.adobe.io/apis.html).
 
-Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs].
+Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs] in te stellen en te gebruiken.
 
 ### Vereisten {#prerequisites}
 
-Voordat u kunt configureren [!DNL JWT] verificatie, zorg ervoor dat u toegang hebt tot de [Adobe Developer Console](https://console.adobe.io/) in [Adobe Developer](https://www.adobe.io/). Neem contact op met uw organisatiebeheerder voor verzoeken om toegang.
+Alvorens u [!DNL JWT] authentificatie kunt vormen, zorg ervoor u toegang tot [ Adobe Developer Console ](https://console.adobe.io/) in [ Adobe Developer ](https://www.adobe.io/) hebt. Neem contact op met uw organisatiebeheerder voor verzoeken om toegang.
 
 ### Verificatie {#auth}
 
-Voer de onderstaande stappen uit om te configureren [!DNL JWT (Service Account)] verificatie met [!DNL Adobe Developer]:
+Voer de onderstaande stappen uit om [!DNL JWT (Service Account)] verificatie te configureren met [!DNL Adobe Developer] :
 
-1. Aanmelden bij de [Adobe Developer Console](https://console.adobe.io/).
-1. Voer de stappen uit in [Verbinding serviceaccount](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
-   * Tijdens [Stap 2: voeg API aan uw project toe gebruikend de authentificatie van de Rekening van de Dienst](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), kiest u de [!DNL Audience Manager] [!DNL API] -optie.
-1. Probeer de verbinding uit door eerst uw [!DNL API] vraag gebaseerd op de instructies van [Stap 3](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+1. Login aan [ Adobe Developer Console ](https://console.adobe.io/).
+1. Volg de stappen in [ Verbinding van de Rekening van de Dienst ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+   * Tijdens [ Stap 2: voeg API aan uw project toe gebruikend de authentificatie van de Rekening van de Dienst ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md), kies de [!DNL Audience Manager] [!DNL API] optie.
+1. Probeer uit de verbinding door uw eerste [!DNL API] vraag te maken die op de instructies van [ wordt gebaseerd Stap 3 ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!NOTE]
 >
->Om te vormen en met het [!DNL Audience Manager] [!DNL REST APIs] op een geautomatiseerde manier kunt u de [!DNL JWT] programmatisch. Zie [JWT-verificatie (serviceaccount)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) voor gedetailleerde instructies.
+>Als u de [!DNL Audience Manager] [!DNL REST APIs] automatisch wilt configureren en bewerken, kunt u de [!DNL JWT] programmatisch genereren. Zie [ JWT (de Rekening van de Dienst) Authentificatie ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md) voor gedetailleerde instructies.
 
 ### Machtigingen voor RBAC&#39;s van technische rekeningen
 
-Als uw Audience Manager-account [Op rollen gebaseerd Toegangsbeheer](../../features/administration/administration-overview.md), moet u een technische gebruikersrekening van de Audience Manager tot stand brengen en het toevoegen aan de Audience Manager RBAC groep die de API vraag zal maken.
+Als uw Audience Manager rekening [ Op rol-Gebaseerd Toegangsbeheer ](../../features/administration/administration-overview.md) gebruikt, moet u een Audience Manager technische gebruikersrekening tot stand brengen en het toevoegen aan de groep van Audience Manager RBAC die de API vraag zal maken.
 
 Voer de onderstaande stappen uit om een technische gebruikersaccount te maken en deze toe te voegen aan een RBAC-groep:
 
-1. Maak een `GET` oproep aan `https://aam.adobe.io/v1/users/self`. De vraag zal tot een technische gebruikersrekening leiden die u in kunt zien [!UICONTROL Admin Console]in de [!UICONTROL Users] pagina.
+1. Roep `GET` aan `https://aam.adobe.io/v1/users/self` . Met de aanroep wordt een technische gebruikersaccount gemaakt die u kunt zien op de pagina [!UICONTROL Admin Console] in [!UICONTROL Users] .
 
-   ![technische rekening](assets/technical-account.png)
+   ![ technische rekening ](assets/technical-account.png)
 
-1. Meld u aan bij uw Audience Manager-account en [toevoegen aan de technische gebruikersaccount](../../features/administration/administration-overview.md#create-group) aan de gebruikersgroep die de API vraag zal maken.
+1. Login aan uw rekening van Audience Manager en [ voeg de technische gebruikersrekening ](../../features/administration/administration-overview.md#create-group) aan de gebruikersgroep toe die de API vraag zal maken.
 
 +++
 
-## [!BADGE Vervangen]{type=negative}[!DNL OAuth] Verificatie (afgekeurd) {#oauth-deprecated}
+## [!BADGE  Vervangen ]{type=negative} [!DNL OAuth] Authentificatie (Vervangen) {#oauth-deprecated}
 
-+++ Informatie weergeven over de verouderde nalatenschap [!DNL OAuth] Verificatiemethode voor het verkrijgen van verificatietokens.
++++ Informatie weergeven over de vervangen verificatiemethode van [!DNL OAuth] voor het verkrijgen van verificatietokens.
 
 >[!WARNING]
-> [!DNL Audience Manager] [!UICONTROL REST API] tokenauthentificatie en vernieuwing via [!DNL OAuth 2.0] is nu afgekeurd.
+> [!DNL Audience Manager] [!UICONTROL REST API] tokenverificatie en -vernieuwing via [!DNL OAuth 2.0] is nu afgekeurd.
 >
-> Gebruik [JWT-verificatie (serviceaccount)](#jwt-service-account-authentication-jwt) in plaats daarvan.
+> Gelieve te gebruiken [ JWT (de Rekening van de Dienst) Authentificatie ](#jwt-service-account-authentication-jwt) in plaats daarvan.
 
-De [!DNL Audience Manager] [!UICONTROL REST API] volgt [!DNL OAuth 2.0] normen voor tokenauthentificatie en vernieuwing. In de onderstaande secties wordt beschreven hoe u de verificatie uitvoert en met de functie [!DNL API]s.
+De [!DNL Audience Manager] [!UICONTROL REST API] volgt [!DNL OAuth 2.0] -standaarden voor tokenverificatie en -vernieuwing. De secties beschrijven hieronder om voor authentiek te verklaren en beginnen werkend met [!DNL API] s.
 
-### Een generiek bestand maken [!DNL API] Gebruiker {#requirements}
+### Een algemene [!DNL API] gebruiker maken {#requirements}
 
-We raden u aan een aparte, technische gebruikersaccount te maken voor het werken met de [!DNL Audience Manager] [!DNL API]s. Dit is een generieke account die niet is gekoppeld aan of gekoppeld aan een specifieke gebruiker in uw organisatie. Dit type van [!DNL API] Met gebruikersaccount kunt u twee dingen doen:
+Wij adviseren u een afzonderlijke, technische gebruikersrekening voor het werken met [!DNL Audience Manager] tot stand brengen [!DNL API] s. Dit is een generieke account die niet is gekoppeld aan of gekoppeld aan een specifieke gebruiker in uw organisatie. Met dit type [!DNL API] -gebruikersaccount kunt u twee dingen doen:
 
-* Identificeer welke dienst roept [!DNL API] (Bijvoorbeeld, vraag van uw apps die onze gebruiken [!DNL API]s of van andere gereedschappen die [!DNL API] verzoeken).
-* Ononderbroken toegang tot de [!DNL API]s. Een account die aan een bepaalde persoon is gekoppeld, kan worden verwijderd wanneer deze uw bedrijf verlaat. Zo voorkomt u dat u met de beschikbare [!DNL API] code. Met een algemene account die niet aan een bepaalde werknemer is gekoppeld, voorkomt u dit probleem.
+* Identificeer welke dienst [!DNL API] roept (b.v., vraag van uw apps die onze [!DNL API] s of van andere hulpmiddelen gebruiken die [!DNL API] verzoeken indienen).
+* Verstrek ononderbroken toegang tot [!DNL API] s. Een account die aan een bepaalde persoon is gekoppeld, kan worden verwijderd wanneer deze uw bedrijf verlaat. Zo voorkomt u dat u met de beschikbare [!DNL API] -code werkt. Met een algemene account die niet aan een bepaalde werknemer is gekoppeld, voorkomt u dit probleem.
 
-Als voorbeeld of gebruiksgeval voor dit type van rekening, laten wij zeggen u veel segmenten in één keer met wilt veranderen [Bulkbeheertools](../../reference/bulk-management-tools/bulk-management-intro.md). Wel, om dit te doen, heeft uw gebruikersrekening nodig [!DNL API] toegang. In plaats van machtigingen toe te voegen aan een specifieke gebruiker, maakt u een niet-specifieke gebruiker. [!DNL API] gebruikersaccount met de juiste gegevens, sleutel en geheim om [!DNL API] oproepen. Dit is ook handig als u uw eigen toepassingen ontwikkelt die gebruikmaken van de [!DNL Audience Manager] [!DNL API]s.
+Als voorbeeld of gebruiksgeval voor dit type van rekening, zeg u een hoop segmenten meteen met de [ Hulpmiddelen van het Beheer van het Bulk ](../../reference/bulk-management-tools/bulk-management-intro.md) wilt veranderen. Uw gebruikersaccount heeft hiervoor [!DNL API] toegang nodig. In plaats van machtigingen toe te voegen aan een specifieke gebruiker, maakt u een niet-specifieke [!DNL API] gebruikersaccount met de juiste referenties, sleutel en geheim om [!DNL API] -aanroepen uit te voeren. Dit is ook nuttig als u uw eigen toepassingen ontwikkelt die [!DNL Audience Manager] gebruiken [!DNL API] s.
 
-Werk met uw [!DNL Audience Manager] consultant voor het opzetten van een generiek [!DNL API]-only user account.
+Werk samen met uw [!DNL Audience Manager] -consultant om een algemene [!DNL API] -gebruikersaccount in te stellen.
 
 ### Workflow voor wachtwoordverificatie {#password-authentication-workflow}
 
-Wachtwoordverificatie veilige toegang tot onze [!DNL REST API]. De onderstaande stappen geven een overzicht van de workflow voor wachtwoordverificatie via een [!DNL JSON] in uw browser.
+Wachtwoordverificatie is beveiligd met toegang tot onze [!DNL REST API] . In de onderstaande stappen wordt een overzicht gegeven van de workflow voor wachtwoordverificatie van een [!DNL JSON] -client in uw browser.
 
 >[!TIP]
 >
 >Codeer toegang en vernieuw tokens als u hen in een gegevensbestand opslaat.
 
-#### Stap 1: Verzoek [!DNL API] Toegang
+#### Stap 1: Toegang aanvragen [!DNL API]
 
-Contacteer uw manager van de Oplossingen van de Partner. Zij zullen u van een [!DNL API] client-id en geheim. De id en het geheim verifiëren u aan [!DNL API].
+Contacteer uw manager van de Oplossingen van de Partner. Ze geven u een [!DNL API] client-id en een geheim. De id en het geheim verifiëren u aan [!DNL API].
 
-Opmerking: als u een vernieuwingstoken wilt ontvangen, geeft u dat op wanneer u een aanvraag indient [!DNL API] toegang.
+Opmerking: als u een token voor vernieuwen wilt ontvangen, geeft u dat op wanneer u [!DNL API] toegang aanvraagt.
 
 #### Stap 2: De token aanvragen
 
-Geef een symbolische aanvraag door aan uw voorkeur [!DNL JSON] client. Wanneer u het verzoek bouwt:
+Geef een symbolische aanvraag door met de voorkeursclient [!DNL JSON] . Wanneer u het verzoek bouwt:
 
-* Een `POST` methode om aan te roepen `https://api.demdex.com/oauth/token`.
-* Zet uw cliënt ID en geheim in een basis-64 gecodeerde koord om. Scheid de id en het geheim tijdens het conversieproces met een dubbele punt. Bijvoorbeeld de referenties `testId : testSecret` omzetten in `dGVzdElkOnRlc3RTZWNyZXQ=`.
-* Geef in [!DNL HTTP] [!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded` . De koptekst kan er bijvoorbeeld als volgt uitzien: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
+* Gebruik een methode `POST` om `https://api.demdex.com/oauth/token` aan te roepen.
+* Zet uw cliënt ID en geheim in een basis-64 gecodeerde koord om. Scheid de id en het geheim tijdens het conversieproces met een dubbele punt. De gegevens `testId : testSecret` worden bijvoorbeeld omgezet in `dGVzdElkOnRlc3RTZWNyZXQ=` .
+* Geef de [!DNL HTTP] [!DNL headers] `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded` door. De koptekst kan er bijvoorbeeld als volgt uitzien: <br/>`Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br/>`Content-Type: application/x-www-form-urlencoded`
 * Stel de aanvraaginstantie als volgt in:
   <br/> `grant_type=password&username=<your-AudienceManager-user-name>&password=<your-AudienceManager-password>`
 
 #### Stap 3: Ontvang het token
 
-De [!DNL JSON] reactie bevat uw toegangstoken. De reactie moet er als volgt uitzien:
+De reactie [!DNL JSON] bevat uw toegangstoken. De reactie moet er als volgt uitzien:
 
 ```json
 {
@@ -312,32 +312,32 @@ De [!DNL JSON] reactie bevat uw toegangstoken. De reactie moet er als volgt uitz
 }
 ```
 
-De `expires_in` key vertegenwoordigt het aantal seconden tot het toegangstoken verloopt. U kunt het beste korte vervaltijden gebruiken om de belichting te beperken als het token ooit wordt blootgesteld.
+De sleutel `expires_in` vertegenwoordigt het aantal seconden tot het toegangstoken verloopt. U kunt het beste korte vervaltijden gebruiken om de belichting te beperken als het token ooit wordt blootgesteld.
 
 ### Token vernieuwen {#refresh-token}
 
-Tokens vernieuwen [!DNL API] toegang nadat het originele teken verloopt. Indien gevraagd, het antwoord [!DNL JSON] in de wachtwoordworkflow bevat een token voor vernieuwen. Als u ontvangt vernieuw symbolisch, creeer nieuwe door het proces van de wachtwoordauthentificatie.
+Tokens vernieuwen vernieuwt [!DNL API] de toegang nadat het oorspronkelijke token is verlopen. Indien gevraagd, bevat de reactie [!DNL JSON] in de wachtwoordworkflow een token voor vernieuwen. Als u ontvangt vernieuw symbolisch, creeer nieuwe door het proces van de wachtwoordauthentificatie.
 
 U kunt ook een vernieuwingstoken gebruiken om een nieuw token te genereren voordat het bestaande toegangstoken verloopt.
 
-Als uw toegangstoken is verlopen, ontvangt u een `401 Status Code` en de volgende koptekst in het antwoord:
+Als uw toegangstoken is verlopen, ontvangt u een `401 Status Code` en de volgende kopbal in de reactie:
 
 `WWW-Authenticate: Bearer realm="oauth", error="invalid_token", error_description="Access token expired: <token>"`
 
-In de volgende stappen wordt een overzicht gegeven van de workflow voor het gebruik van een vernieuwingstoken om een nieuw toegangstoken te maken van een [!DNL JSON] in uw browser.
+In de volgende stappen wordt een overzicht gegeven van de workflow voor het gebruik van een vernieuwingstoken om een nieuw toegangstoken te maken van een [!DNL JSON] -client in uw browser.
 
 #### Stap 1: Nieuwe token aanvragen
 
-Geef een vernieuwingstoken-aanvraag door aan uw voorkeur [!DNL JSON] client. Wanneer u het verzoek bouwt:
+Geef een vernieuwingstoken-aanvraag door aan uw voorkeursclient [!DNL JSON] . Wanneer u het verzoek bouwt:
 
-* Een `POST` methode om aan te roepen `https://api.demdex.com/oauth/token`.
-* Zet uw cliënt ID en geheim in een basis-64 gecodeerde koord om. Scheid de id en het geheim tijdens het conversieproces met een dubbele punt. Bijvoorbeeld de referenties `testId : testSecret` omzetten in `dGVzdElkOnRlc3RTZWNyZXQ=`.
-* Geef in de HTTP-headers door `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded`. De koptekst kan er bijvoorbeeld als volgt uitzien: <br> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br> `Content-Type: application/x-www-form-urlencoded`
-* Vermeld in de aanvraaginstantie de `grant_type:refresh_token` en ga binnen vernieuwen teken u in uw vorig toegangsverzoek ontving. Het verzoek moet er als volgt uitzien: <br> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
+* Gebruik een methode `POST` om `https://api.demdex.com/oauth/token` aan te roepen.
+* Zet uw cliënt ID en geheim in een basis-64 gecodeerde koord om. Scheid de id en het geheim tijdens het conversieproces met een dubbele punt. De gegevens `testId : testSecret` worden bijvoorbeeld omgezet in `dGVzdElkOnRlc3RTZWNyZXQ=` .
+* Geef de HTTP-headers `Authorization:Basic <base-64 clientID:clientSecret>` en `Content-Type: application/x-www-form-urlencoded` door. De koptekst kan er bijvoorbeeld als volgt uitzien: <br> `Authorization: Basic dGVzdElkOnRlc3RTZWNyZXQ=` <br> `Content-Type: application/x-www-form-urlencoded`
+* In het aanvraaglichaam, specificeer `grant_type:refresh_token` en ga in vernieuwt token over u in uw vorige toegangsverzoek ontving. De aanvraag moet er als volgt uitzien: <br> `grant_type=refresh_token&refresh_token=b27122c0-b0c7-4b39-a71b-1547a3b3b88e`
 
 #### Stap 2: Ontvang het Nieuwe Token
 
-De [!DNL JSON] de reactie bevat uw nieuw toegangstoken. De reactie moet er als volgt uitzien:
+De reactie [!DNL JSON] bevat uw nieuwe toegangstoken. De reactie moet er als volgt uitzien:
 
 ```json
 {
@@ -351,42 +351,42 @@ De [!DNL JSON] de reactie bevat uw nieuw toegangstoken. De reactie moet er als v
 
 ### Autorisatiecode en impliciete verificatie {#authentication-code-implicit}
 
-De [!DNL Audience Manager] [!UICONTROL REST API] steunt vergunningscode en impliciete authentificatie. Om deze toegangsmethodes te gebruiken, moeten uw gebruikers login aan `https://api.demdex.com/oauth/authorize` om tokens te openen en te vernieuwen.
+[!DNL Audience Manager] [!UICONTROL REST API] ondersteunt machtigingscode en impliciete verificatie. Als u deze toegangsmethoden wilt gebruiken, moeten uw gebruikers zich aanmelden bij `https://api.demdex.com/oauth/authorize` om toegang te krijgen tot tokens en deze te vernieuwen.
 
 +++
 
-## Verifiëren [!DNL API] Verzoeken {#authenticated-api-requests}
+## [!DNL API] Verzoeken voor authentiek maken {#authenticated-api-requests}
 
-Vereisten voor oproepen [!DNL API] methoden nadat u een verificatietoken hebt ontvangen.
+Vereisten voor het aanroepen van [!DNL API] -methoden nadat u een verificatietoken hebt ontvangen.
 
-Om vraag tegen beschikbaar te maken [!DNL API] methoden:
+U kunt als volgt oproepen met de beschikbare [!DNL API] -methoden:
 
-* In de `HTTP` header, set `Authorization: Bearer <token>`.
-* Wanneer u [JWT-verificatie (serviceaccount)](#jwt), moet u de `x-api-key` koptekst, die hetzelfde zal zijn als uw `client_id`. U kunt uw `client_id` van de [Adobe Developer-integratie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) pagina.
-* De vereiste vraag [!DNL API] methode.
+* Stel in de header `HTTP` `Authorization: Bearer <token>` in.
+* Wanneer het gebruiken van [ JWT (de Rekening van de Dienst) Authentificatie ](#jwt), moet u de `x-api-key` kopbal verstrekken, die het zelfde als uw `client_id` zal zijn. U kunt uw `client_id` van de [ integratie van Adobe Developer ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) pagina krijgen.
+* Roep de vereiste [!DNL API] -methode aan.
 
-## Optioneel [!DNL API] Zoekparameters {#optional-api-query-parameters}
+## Optionele [!DNL API] queryparameters {#optional-api-query-parameters}
 
 Stel de optionele parameters in die beschikbaar zijn voor methoden die alle eigenschappen voor een object retourneren.
 
-U kunt deze optionele parameters gebruiken met [!DNL API] methoden die worden geretourneerd *alles* eigenschappen voor een object. Stel deze opties in de tekenreeks request wanneer u die query doorgeeft aan de [!DNL API].
+U kunt deze facultatieve parameters met [!DNL API] methodes gebruiken die *alle* eigenschappen voor een voorwerp terugkeren. Stel deze opties in de aanvraagtekenreeks in wanneer u die query aan de [!DNL API] doorgeeft.
 
 | Parameter | Beschrijving |
 |--- |--- |
 | `page` | Geeft resultaten op paginanummer. De nummering begint bij 0. |
 | `pageSize` | Stelt het aantal reactieresultaten in dat door de aanvraag wordt geretourneerd (10 is standaard). |
-| `sortBy` | Hiermee worden de resultaten gesorteerd en geretourneerd volgens de opgegeven waarden [!DNL JSON] eigenschap. |
+| `sortBy` | Sorteert en retourneert resultaten volgens de opgegeven eigenschap [!DNL JSON] . |
 | `descending` | Sorteert en retourneert resultaten in aflopende volgorde. `ascending` is standaard. |
-| `search` | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Bijvoorbeeld, laten wij zeggen u resultaten voor alle modellen wilt vinden die het woord &quot;Test&quot;in om het even welke waardegebieden voor dat punt hebben. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://aam.adobe.io/v1/models/?search=Test`.  U kunt zoeken op elke waarde die wordt geretourneerd door &quot;[!DNL get all]&quot;. |
+| `search` | Retourneert resultaten op basis van de opgegeven tekenreeks die u als zoekparameter wilt gebruiken. Bijvoorbeeld, laten wij zeggen u resultaten voor alle modellen wilt vinden die het woord &quot;Test&quot;in om het even welke waardegebieden voor dat punt hebben. Uw voorbeeldverzoek kan er als volgt uitzien:   `GET https://aam.adobe.io/v1/models/?search=Test`.  U kunt op om het even welke waarde zoeken die door een &quot;[!DNL get all]&quot;methode is teruggekeerd. |
 | `folderId` | Retourneert alle id&#39;s voor [!UICONTROL traits] in de opgegeven map. Niet beschikbaar voor alle methoden. |
-| `permissions` | Retourneert een lijst met segmenten op basis van de opgegeven machtiging. `READ` is standaard. Bevoegdheden omvatten:<ul><li>`READ` : De terugkeer en meningsinformatie over een segment.</li><li>`WRITE` : Gebruik  `PUT`  een segment bijwerken.</li><li>`CREATE` : Gebruik  `POST`  om een segment te maken.</li><li>`DELETE` : Een segment verwijderen. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br>Geef meerdere machtigingen op met afzonderlijke sleutelwaardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren met  `READ`  en  `WRITE`  alleen machtigingen, doorgeven  `"permissions":"READ"`, `"permissions":"WRITE"` . |
-| `includePermissions` | ([!DNL Boolean]) Instellen op `true` om uw toestemmingen voor het segment terug te keren. Standaard is `false`. |
+| `permissions` | Retourneert een lijst met segmenten op basis van de opgegeven machtiging. `READ` is standaard. Bevoegdheden omvatten:<ul><li>`READ` : retourneer en bekijk informatie over een segment.</li><li>`WRITE` : gebruik `PUT` om een segment bij te werken.</li><li>`CREATE` : gebruik `POST` om een segment te maken.</li><li>`DELETE` : Verwijder een segment. Vereist toegang tot eventuele onderliggende kenmerken. Bijvoorbeeld, zult u rechten nodig hebben om de eigenschappen te schrappen die tot een segment behoren als u het wilt verwijderen.</li></ul><br> specificeer veelvoudige toestemmingen met afzonderlijke zeer belangrijk-waardeparen. Als u bijvoorbeeld een lijst met segmenten wilt retourneren die alleen `READ` en `WRITE` machtigingen hebben, geeft u `"permissions":"READ"` en `"permissions":"WRITE"` door. |
+| `includePermissions` | ([!DNL Boolean]) Reeks aan `true` om uw toestemmingen voor het segment terug te keren. De standaardwaarde is `false` . |
 
 {style="table-layout:auto"}
 
 ### Een opmerking over paginaopties
 
-Wanneer paginagegevens *is niet* gespecificeerd, keert het verzoek onbewerkt terug [!DNL JSON] resulteert in een array. Als paginagegevens *is* opgegeven, wordt de geretourneerde lijst opgenomen in een [!DNL JSON] object dat informatie bevat over het totale resultaat en de huidige pagina. Uw voorbeeldverzoek met behulp van paginaopties kan er als volgt uitzien:
+Wanneer de paginainformatie *niet* wordt gespecificeerd, keert het verzoek gewone [!DNL JSON] resultaten in een serie terug. Als de paginainformatie ** wordt gespecificeerd, dan wordt de teruggekeerde lijst verpakt in een [!DNL JSON] voorwerp dat informatie over het totale resultaat en de huidige pagina bevat. Uw voorbeeldverzoek met behulp van paginaopties kan er als volgt uitzien:
 
 ```
 GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
@@ -394,15 +394,15 @@ GET https://aam.adobe.io/v1/models/?page=1&pageSize=2&search=Test
 
 ## [!DNL API URLs] {#api-urls}
 
-[!DNL URLs] voor verzoeken, het opvoeren en productiemilieu&#39;s, en versies.
+[!DNL URLs] voor aanvragen, testomgevingen en productieomgevingen en versies.
 
 ## Verzoek [!DNL URLs] {#request-urls}
 
-De volgende tabel bevat de aanvraag [!DNL URLs] gebruikt om binnen te gaan [!DNL API] verzoeken, via methode.
+In de volgende tabel wordt de aanvraag [!DNL URLs] weergegeven die wordt gebruikt om [!DNL API] -aanvragen via methode door te geven.
 
-Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek aanpassen [!DNL URLs] volgens onderstaande tabellen.
+Afhankelijk van de verificatiemethode die u gebruikt, moet u uw verzoek [!DNL URLs] aanpassen aan de hand van de onderstaande tabellen.
 
-### Verzoek [!DNL URLs] voor de [!BADGE Aanbevolen]{type=positive}[!BADGE Vervangen]{type=negative}[!DNL JWT] Verificatie via Adobe Developer {#request-urls-jwt}
+### Verzoek [!DNL URLs] voor [!BADGE  Geadviseerde ]{type=positive} Server-aan-Server en [!BADGE  Vervangen ]{type=negative} [!DNL JWT] Authentificatie door Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] Methoden | Verzoek [!DNL URL] |
 |--- |--- |
@@ -411,7 +411,7 @@ Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek aanp
 | [!DNL Derived Signals] | `https://aam.adobe.io/v1/signals/derived/` |
 | [!DNL Destinations] | `https://aam.adobe.io/v1/destinations/` |
 | [!DNL Domains] | `https://aam.adobe.io/v1/partner-sites/` |
-| [!DNL Folders] | Tanden:  `https://aam.adobe.io/v1/folders/traits /`<br>Segmenten:  `https://aam.adobe.io/v1/folders/segments /` |
+| [!DNL Folders] | Traits: `https://aam.adobe.io/v1/folders/traits /`<br> Segmenten: `https://aam.adobe.io/v1/folders/segments /` |
 | [!DNL Schema] | `https://aam.adobe.io/v1/schemas/` |
 | [!DNL Segments] | `https://aam.adobe.io/v1/segments/` |
 | [!DNL Traits] | `https://aam.adobe.io/v1/traits/` |
@@ -420,7 +420,7 @@ Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek aanp
 
 {style="table-layout:auto"}
 
-### Verzoek [!DNL URLs] voor de [!BADGE Vervangen]{type=negative}[!DNL OAuth] Verificatie {#request-urls-oauth}
+### Verzoek [!DNL URLs] voor [!BADGE  Afgekeurde ]{type=negative} erfenis [!DNL OAuth] Authentificatie {#request-urls-oauth}
 
 | [!DNL API] Methoden | Verzoek [!DNL URL] |
 |--- |--- |
@@ -429,7 +429,7 @@ Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek aanp
 | [!DNL Derived Signals] | `https://api.demdex.com/v1/signals/derived/` |
 | [!DNL Destinations] | `https://api.demdex.com/v1/destinations/` |
 | [!DNL Domains] | `https://api.demdex.com/v1/partner-sites/` |
-| [!DNL Folders] | Tanden:  `https://api.demdex.com/v1/folders/traits /`<br>Segmenten:  `https://api.demdex.com/v1/folders/segments /` |
+| [!DNL Folders] | Traits: `https://api.demdex.com/v1/folders/traits /`<br> Segmenten: `https://api.demdex.com/v1/folders/segments /` |
 | [!DNL Schema] | `https://api.demdex.com/v1/schemas/` |
 | [!DNL Segments] | `https://api.demdex.com/v1/segments/` |
 | [!DNL Traits] | `https://api.demdex.com/v1/traits/` |
@@ -440,9 +440,9 @@ Afhankelijk van de authentificatiemethode die u gebruikt, moet u uw verzoek aanp
 
 ## Omgevingen {#environments}
 
-De [!DNL Audience Manager] [!DNL API]s biedt toegang tot verschillende werkomgevingen. Deze milieu&#39;s helpen u code tegen afzonderlijke gegevensbestanden testen zonder levende, productiegegevens te beïnvloeden. In de volgende tabel worden de beschikbare [!DNL API] omgevingen en bijbehorende hostnamen van bronnen.
+De [!DNL Audience Manager] [!DNL API] verleent toegang tot verschillende het werk milieu&#39;s. Deze milieu&#39;s helpen u code tegen afzonderlijke gegevensbestanden testen zonder levende, productiegegevens te beïnvloeden. De volgende tabel bevat een lijst met de beschikbare [!DNL API] -omgevingen en de bijbehorende hostnamen van bronnen.
 
-Afhankelijk van de verificatiemethode die u gebruikt, moet u uw omgeving aanpassen [!DNL URLs] volgens onderstaande tabel.
+Afhankelijk van de verificatiemethode die u gebruikt, moet u de omgeving [!DNL URLs] aanpassen aan de hand van de onderstaande tabel.
 
 | Omgeving | Hostnaam voor [!DNL JWT] verificatie | Hostnaam voor [!DNL OAuth] verificatie |
 |---|---|---|
@@ -451,22 +451,22 @@ Afhankelijk van de verificatiemethode die u gebruikt, moet u uw omgeving aanpass
 
 >[!NOTE]
 >
->De [!DNL Audience Manager] bètaomgeving is een kleinschalige, zelfstandige versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
+>De bètaomgeving van [!DNL Audience Manager] is een zelfstandige, kleinere versie van de productieomgeving. Alle gegevens die u wilt testen, moeten in deze omgeving worden ingevoerd en verzameld.
 
 ## Versies {#versions}
 
-Nieuwe versies van deze [!DNL API]s worden vrijgegeven volgens een regelmatig schema. Een nieuwe release verhoogt de [!DNL API] versienummer. Naar het versienummer wordt verwezen in de aanvraag [!DNL URL] als `v<version number>` zoals in het volgende voorbeeld wordt getoond:
+De nieuwe versies van deze [!DNL API] s worden vrijgegeven op een regelmatig programma. Een nieuwe versie verhoogt het [!DNL API] versienummer. In de aanvraag [!DNL URL] wordt naar het versienummer verwezen als `v<version number>` , zoals in het volgende voorbeeld wordt getoond:
 
 `https://<host>/v1/...`
 
 ## Responscodes gedefinieerd {#response-codes-defined}
 
-`HTTP` statuscodes en reactietekst die door de [!DNL Audience Manager] [!UICONTROL REST API].
+`HTTP` -statuscodes en reactietekst die door de [!DNL Audience Manager] [!UICONTROL REST API] worden geretourneerd.
 
 | Antwoordcode-id | Antwoordtekst | Definitie |
 |---|---|---|
 | `200` | `OK` | De aanvraag is verwerkt. Hiermee worden de verwachte inhoud of gegevens geretourneerd, indien vereist. |
-| `201` | `Created` | De bron is gemaakt. Retourneert voor `PUT` en `POST` verzoeken. |
+| `201` | `Created` | De bron is gemaakt. Retourneert voor `PUT` - en `POST` -aanvragen. |
 | `204` | `No Content` | De bron is verwijderd. De responsinstantie is leeg. |
 | `400` | `Bad Request` | De server begrijpt het verzoek niet. Gewoonlijk vanwege een onjuiste syntaxis. Controleer uw verzoek en probeer het opnieuw. |
 | `403` | `Forbidden` | U hebt geen toegang tot de bron. |
@@ -476,7 +476,7 @@ Nieuwe versies van deze [!DNL API]s worden vrijgegeven volgens een regelmatig sc
 
 >[!MORELIKETHIS]
 >
->* [JWT-verificatie (serviceaccount)](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
->* [OAuth-verificatie](../../api/rest-api-main/aam-api-getting-started.md#oauth)
->* [OAuth 2.0](https://oauth.net/2/)
->* [OAuth 2 Vereenvoudigd](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)
+>* [ JWT (de Rekening van de Dienst) Authentificatie ](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/JWT/JWT.md)
+>* [ OAuth Authentificatie ](../../api/rest-api-main/aam-api-getting-started.md#oauth)
+>* [ OAuth 2.0 ](https://oauth.net/2/)
+>* [ OAuth 2 Vereenvoudigd ](https://aaronparecki.com/articles/2012/07/29/1/oauth2-simplified#browser-based-apps)

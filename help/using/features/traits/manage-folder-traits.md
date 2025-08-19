@@ -4,57 +4,57 @@ keywords: Mappenmap;Maptraits;mapkenmerken;mapkenmerken
 seo-description: Create, edit, and delete folder traits.
 seo-title: Manage Folder Traits
 solution: Audience Manager
-title: Mapeigenschappen beheren
+title: Maptrajecten beheren
 uuid: 287ac280-bd58-4985-85bd-b6501eb64b7f
 feature: Traits
 exl-id: fa7a8d2a-dacc-413e-89d6-d3b7ce7bbbe3
 source-git-commit: f7a4478589f4af1d467f1045a97dbb7f5cd6f9e5
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 5%
+source-wordcount: '362'
+ht-degree: 4%
 
 ---
 
-# Mapeigenschappen beheren {#manage-folder-traits}
+# Maptrajecten beheren {#manage-folder-traits}
 
 Mapkenmerken maken, bewerken en verwijderen.
 
 ## Een maphandleiding maken {#create-folder-trait}
 
-A [!UICONTROL folder trait] wordt automatisch gemaakt wanneer u een nieuwe map maakt in uw taxonomie.
+Een [!UICONTROL folder trait] wordt automatisch gecreeerd wanneer u een nieuwe omslag in uw taxonomie creeert.
 
 <!-- create-folder-trait.xml -->
 
-1. Ga naar **[!UICONTROL Audience Data > Traits]** om naar de **Treinen** dashboard.
-1. In de [!UICONTROL Trait Storage] venster, aanwijzen boven:
+1. Ga naar **[!UICONTROL Audience Data > Traits]** om aan het **** dashboard van Tonen {te navigeren.
+1. Houd de muisaanwijzer boven [!UICONTROL Trait Storage] in het venster:
 
    * Tekst Alle sporen om een nieuwe hoofdmap toe te voegen.
-   * Een bestaande bovenliggende map om een nieuwe ondergeschikte map toe te voegen.
+   * Een bestaande bovenliggende map om een nieuwe onderliggende map toe te voegen.
 
    ![](assets/folder_traits_create.PNG)
 
 1. Klik op het pictogram + om de map te maken. U kunt maximaal 2000 mappen maken in uw taxonomie. Raadpleeg de documentatie over [gebruikslimieten](../../features/administration/usage-limits.md) voor meer informatie.
-1. Geef de map een naam en klik op **Opslaan**. Een map met de naam Electronics heeft bijvoorbeeld een mapkenmerk met de naam &#39;Electronics Folder Trait&#39;. U kunt de nieuwe mapkenmerken weergeven en selecteren op het dashboard met kenmerken.
-1. De nieuwe mapkenmerken worden automatisch toegewezen aan de [!DNL Audience Manager] gegenereerde gegevensbron. Uw gebruikers [!UICONTROL Role-Based Access Control] ([!DNL RBAC]) kunt u de gegevensbron wijzigen in de workflow voor het bewerken van de map. Zie [Een mappenset bewerken](../../features/traits/manage-folder-traits.md#edit-folder-trait).
+1. Noem de omslag en klik **sparen**. Een map met de naam Electronics heeft bijvoorbeeld een mapkenmerk met de naam &#39;Electronics Folder Trait&#39;. U kunt de nieuwe mapkenmerken weergeven en selecteren op het dashboard met kenmerken.
+1. Het nieuwe mapkenmerk wordt automatisch toegewezen aan de [!DNL Audience Manager] gegenereerde gegevensbron. Uw gebruikers met de juiste [!UICONTROL Role-Based Access Control] ([!DNL RBAC] ) machtigingen kunnen de gegevensbron wijzigen in de workflow voor het bewerken van de mapmap. Zie [ een Spoor van de Omslag ](../../features/traits/manage-folder-traits.md#edit-folder-trait) uitgeven.
 
 ## Een mappenset bewerken {#edit-folder-trait}
 
-Hierin wordt beschreven hoe u een [!UICONTROL folder trait].
+Beschrijft hoe u een [!UICONTROL folder trait] kunt bewerken.
 
 <!-- edit-folder-trait.xml -->
 
-1. In de [!UICONTROL Traits] dashboard, aanwijzen boven de **[!UICONTROL Actions]** kolom voor het mapkenmerk dat u wilt bewerken.
+1. Houd de muisaanwijzer boven de kolom [!UICONTROL Traits] in het dashboard van **[!UICONTROL Actions]** voor de mapkenmerken die u wilt bewerken.
 1. Klik op het potlood om de eigenschap te bewerken.
 
    ![](assets/folder_traits_edit_border.png)
 
-1. De **[!UICONTROL Edit]** in de workflow kunt u de gegevensbron voor mapkenmerken wijzigen. Selecteer de gewenste gegevensbron en klik op **[!UICONTROL Save]**. Gegevensbronnen worden numeriek gesorteerd op [!DNL DPID]in de vervolgkeuzelijst.
+1. Met de **[!UICONTROL Edit]** -workflow kunt u de gegevensbron voor mapkenmerken wijzigen. Selecteer de gewenste gegevensbron en klik op **[!UICONTROL Save]** . Gegevensbronnen worden numeriek gesorteerd op [!DNL DPID] in de vervolgkeuzelijst.
 
-   Als uw bedrijf [!UICONTROL Role-Based Access Rights (RBAC)], hebt u of uw gebruikers [toegangsmachtigingen](../../features/traits/about-folder-traits.md#role-based-access-controls) om gegevensbronnen met kenmerken te kunnen traceren.
+   Als uw bedrijf [!UICONTROL Role-Based Access Rights (RBAC)] gebruikt, hebt u of uw gebruikers [ toegangstoestemmingen ](../../features/traits/about-folder-traits.md#role-based-access-controls) nodig om gegevensbronnen te trekken.
 
 >[!NOTE]
 >
->U kunt de naam van een mapkenmerk niet rechtstreeks wijzigen. [De naam van de bijbehorende opslagmap wijzigen](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) om de naam van het mapkenmerk te wijzigen.
+>U kunt de naam van een mapkenmerk niet rechtstreeks wijzigen. [ noem zijn bijbehorende opslagomslag ](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) anders om de naam van het omslagspoor te veranderen.
 
 ## Een mapmap verwijderen {#delete-folder-trait}
 
@@ -62,11 +62,11 @@ Verwijder een mapkenmerk door de opslagmap te verwijderen waartoe de eigenschap 
 
 <!-- delete-folder-trait.xml -->
 
-1. **Poortgegevens > Verrichting** om naar de **Treinen** dashboard.
-1. In de [!UICONTROL Trait Storage] , verwijdert u een map door de muisaanwijzer boven de map te houden en op het X-pictogram te klikken.
+1. **Gegevens van het publiek > Trekken** om aan het **** dashboard van Tonen {te navigeren.
+1. Verwijder in het [!UICONTROL Trait Storage] -venster een map door de muisaanwijzer boven de map te houden en op het X-pictogram te klikken.
 
-   ![Stap resultaat](assets/folder_traits_create.PNG)
+   ![ Resultaat van de Stap ](assets/folder_traits_create.PNG)
 
 >[!NOTE]
 >
->U kunt een mapkenmerk niet verwijderen als dit wordt gebruikt in een segmentexpressie. Ga naar de [weergave met kenmerken](../../features/traits/trait-details-page.md) om te zien in welke segmenten de mapkenmerken worden gebruikt. Klik vervolgens op de segmentnaam om het dialoogvenster [overzichtsweergave van segment](../../features/segments/segment-summary-view.md)Hiermee kunt u kenmerken uit segmentexpressies verwijderen.
+>U kunt een mapkenmerk niet verwijderen als dit wordt gebruikt in een segmentexpressie. Navigeer aan de [ sectie van de trekmening ](../../features/traits/trait-details-page.md) om te zien welke segmenten het omslagspoor gebruiken. Dan, klik op de segmentnaam om de [ summiere mening van het segment ](../../features/segments/segment-summary-view.md) te openen, die u toestaat om sporen uit segmentuitdrukkingen te verwijderen.

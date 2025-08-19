@@ -1,5 +1,5 @@
 ---
-description: Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van de Audience Manager (DMP). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het proces van de implementatie van de Audience Manager begrijpen. Aan de slag met de Audience Manager kan ongeveer zes weken tot drie maanden duren, afhankelijk van uw behoeften voor gegevensverzameling.
+description: In deze sectie worden de processen beschreven en uitgelegd die verband houden met het starten met het Audience Manager-platform voor gegevensbeheer (DMP). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het de implementatieproces van Audience Manager begrijpen. Aan de slag met Audience Manager kan ongeveer zes weken tot drie maanden duren, afhankelijk van uw behoeften voor gegevensverzameling.
 seo-description: This section outlines and explains the processes related to getting started with the Audience Manager data management platform (DMP). This section is designed to help business teams, project managers, and technology managers understand the Audience Manager implementation process. Getting started with Audience Manager can take approximately six weeks to three months, depending on your data collection needs.
 seo-title: Implementing Audience Manager
 solution: Audience Manager
@@ -9,14 +9,14 @@ feature: Third-party Integration
 exl-id: 8f8a6881-d616-4d0e-aeaa-bf3bb3a172f9
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '996'
 ht-degree: 0%
 
 ---
 
 # Audience Manager implementeren {#implementing-audience-manager}
 
-Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van de Audience Manager ([!DNL DMP]). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het proces van de implementatie van de Audience Manager begrijpen. Aan de slag met de Audience Manager kan ongeveer zes weken tot drie maanden duren, afhankelijk van uw behoeften voor gegevensverzameling.
+Deze sectie schetst en verklaart de processen met betrekking tot het worden begonnen met het platform van het gegevensbeheer van Audience Manager ([!DNL DMP]). Deze sectie wordt ontworpen om bedrijfsteams, projectmanagers, en technologiemanagers te helpen het de implementatieproces van Audience Manager begrijpen. Aan de slag met Audience Manager kan ongeveer zes weken tot drie maanden duren, afhankelijk van uw behoeften voor gegevensverzameling.
 
 Onze implementatietechnieken helpen een consultatief partnerschap met nieuwe klanten tot stand te brengen. Dit proces is bedoeld om:
 
@@ -27,7 +27,7 @@ Onze implementatietechnieken helpen een consultatief partnerschap met nieuwe kla
 
 Onze teams van de Oplossingen van de Partner en van het Beheer van de Rekening zullen nauw met u vóór, tijdens, en na het implementatieproces samenwerken.
 
-Audience Manager volgt een gefaseerde benadering van opstelling en implementatie.
+Audience Manager hanteert een gefaseerde aanpak van installatie en implementatie.
 
 ## Fase definiëren {#define-phase}
 
@@ -37,7 +37,7 @@ De bepaalde fase introduceert u aan ons project van de Oplossingen van de Partne
 
 Deze stap wordt ontworpen om potentiële cliënten te helpen bepalen en over projectwerkingsgebied overeenkomen, douanevereisten begrijpen, mijlpalen, en opstellingsmededelingen vestigen.
 
-In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreven:
+In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens deze fase plaatsvinden:
 
 <table id="table_E6E4DA99B19244FB996CC3AB42CEA5DA"> 
  <thead> 
@@ -86,7 +86,7 @@ De ontdekkingsfase wordt gewijd aan het verzamelen van vereisten, het leiden van
 
 <!-- c_discovery.xml -->
 
-In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreven:
+In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens deze fase plaatsvinden:
 
 <table id="table_89E7CD7832E142519EDC1F285A5BBE79"> 
  <thead> 
@@ -102,7 +102,7 @@ In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreve
    <td colname="col2"> 
     <ul id="ul_CB78589D5906439F8632A0C4B6F4130A"> 
      <li id="li_63D9C730FE5A4A55A76C5967A1EFFB8E">Ontwikkelingsplannen voor tagbeheer en gegevensverzameling </li> 
-     <li id="li_71AC8F2AB5BA4BD29D98D89D9974EDB2">Ontwikkel plannen die klantenbehoeften, doelstellingen, en verwachtingen ontmoeten </li> 
+     <li id="li_71AC8F2AB5BA4BD29D98D89D9974EDB2">Ontwikkel plannen die aan klantenbehoeften, doelstellingen, en verwachtingen voldoen </li> 
     </ul> </td> 
    <td colname="col3"> Bedrijfsteams </td> 
   </tr> 
@@ -117,7 +117,7 @@ In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreve
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Doelen zoeken </td> 
-   <td colname="col2"> Ontdek als de cliënt gegevens naar andere advertentieservers, DSP, netwerken of uitwisselingen verzendt </td> 
+   <td colname="col2"> Ontdek als de cliënt gegevens naar andere advertentieservers, DSPs, netwerken, of uitwisselingen verzendt </td> 
    <td colname="col3"> Bedrijfsteams </td> 
   </tr> 
   <tr valign="top"> 
@@ -136,7 +136,7 @@ In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreve
 De te leveren producten voor deze fase kunnen omvatten:
 
 * Een voltooide strategie voor het verzamelen van gegevens van eerste, tweede en derde partijen;
-* Een voltooid [!DNL CRM] of een plan voor het opnemen van het gegevenspakhuis;
+* Een volledig [!DNL CRM]- of gegevenspakopieplan;
 * Gedefinieerde publiekssegmentatievereisten;
 * een voltooide datataxonomie;
 * Een ontwikkeld plan voor gegevensintegratie van derden.
@@ -147,31 +147,31 @@ Tijdens de bouw, de test, en de treinstand, zult u de strategie en het prototype
 
 <!-- c_build_test_train.xml -->
 
-Uw strategie voor gegevensverzameling wordt van begin tot einde gevolgd [!DNL QA] testen. De Oplossingen van de partner zullen ontdekte insecten volgen en probleemresoluties met onze systeemingenieurs coördineren. De opleiding van de klant kan parallel met deze andere inspanningen beginnen.
+Uw strategie voor gegevensverzameling wordt van begin tot eind [!DNL QA] getest. De Oplossingen van de partner zullen ontdekte insecten volgen en probleemresoluties met onze systeemingenieurs coördineren. De opleiding van de klant kan parallel met deze andere inspanningen beginnen.
 
-In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreven:
+In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens deze fase plaatsvinden:
 
 | Activiteit | Doel/beschrijving | Deelnemers |
 |---|---|---|
-| Een strategie voor gegevensverzameling voorbereiden | Werk met Adobe technische teams om een plan van de gegevensinzameling te bouwen dat uw bedrijfsvereisten voldoet | Bedrijfs- en technische teams |
+| Een strategie voor gegevensverzameling voorbereiden | Werk samen met de technische teams van Adobe om een plan voor gegevensverzameling te bouwen dat aan uw bedrijfsvereisten voldoet | Bedrijfs- en technische teams |
 | Code implementeren en testen | Test de voorgestelde oplossing in een testomgeving en voer tests uit tussen verschillende browsers | Technische teams |
 | Functionaliteit controleren en fouten oplossen | Resultaten onderzoeken en communiceren, fouten oplossen en opnieuw testen | Technische teams |
-| Gebruikerstraining | Voorlichting en begrip van de eigenschappen, de hulpmiddelen en de rapporten van de Audience Manager verstrekken | Bedrijfsteams |
+| Gebruikerstraining | Voorlichting en inzicht verschaffen in Audience Manager-functies, -gereedschappen en -rapporten | Bedrijfsteams |
 
 De te leveren producten voor deze fase kunnen omvatten:
 
 * een voltooid en aanvaard plan voor gegevensverzameling;
-* Van begin tot eind [!DNL QA] testen;
-* Basisinstructies over de gebruikersinterfacefuncties van de Audience Manager;
+* end-to-end [!DNL QA] testen;
+* Basisinstructies voor Audience Manager-gebruikersinterfacefuncties;
 * Aanvaarding en aftekening.
 
 ## Fase starten, ondersteunen en optimaliseren {#launch-support-optimize-phase}
 
-Tijdens de lancering, steun, en optimaliseringsfase, uw gegevens-inzameling en prototyped implementatie beweegt zich van ontwikkeling aan een levende, productiemilieu. We blijven training volgen over productvertrouwdheid en strategieën die kunnen helpen uw [!DNL ROI] door gegevensgestuurde optimalisatie.
+Tijdens de lancering, steun, en optimaliseringsfase, uw gegevens-inzameling en prototyped implementatie beweegt zich van ontwikkeling aan een levende, productiemilieu. We blijven training volgen over productvertrouwdheid en strategieën die u kunnen helpen [!DNL ROI] te verbeteren door gegevensgestuurde optimalisatie.
 
 <!-- c_launch_support_optimize.xml -->
 
-In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreven:
+In de volgende tabel worden de belangrijkste activiteiten beschreven die tijdens deze fase plaatsvinden:
 
 <table id="table_040B9CBED6F04A41B4501DA4B45F5A16"> 
  <thead> 
@@ -204,7 +204,7 @@ In de volgende tabel worden de belangrijkste activiteiten in deze fase beschreve
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> Follow-upcommunicatie </td> 
-   <td colname="col2"> Regelmatig geplande communicatie om op de hoogte te blijven van uw gebruikerservaring met Audience Manager </td> 
+   <td colname="col2"> Regelmatig geplande communicatie om op de hoogte te blijven van je gebruikerservaring met Audience Manager </td> 
    <td colname="col3"> Bedrijfs- en technische teams </td> 
   </tr> 
  </tbody> 
@@ -216,13 +216,13 @@ De taken voor deze fase kunnen omvatten:
 * Inzicht in aangepaste rapporten;
 * Hoe krijgt u productondersteuning?
 * Reageren op of vragen om functieverzoeken, fouten en feedback van gebruikers.
-* Meer bekendheid geven aan functies en rapporten van Audience Managers.
+* Meer bekendheid geven aan Audience Manager-functies en -rapporten.
 
 ## Codeimplementatie {#code-implementation}
 
-Audience Manager gebruikt de Data Integration Library ([!DNL DIL]), om publieksgegevens te ontvangen.
+Audience Manager gebruikt Data Integration Library ([!DNL DIL]), om publieksgegevens te ontvangen.
 
-Voor gedetailleerde instructies over het gebruik [!DNL DIL], zie [DIL-code ophalen en implementeren](../dil/dil-overview.md).
+Voor gedetailleerde instructies op hoe te om [!DNL DIL] te gebruiken, zie [ het Krijgen en het Uitvoeren van de Code van DIL ](../dil/dil-overview.md).
 
 ### Deelnemers
 
@@ -232,6 +232,6 @@ De Oplossingen van de partner kunnen direct met uw technische teams werken helpe
 
 Onze gezamenlijke inspanningen stoppen niet met de definitieve implementatie. Nadat de implementatie is voltooid, neemt ons accountbeheerteam de taak over.
 
-Accountmanagers bieden ondersteuning en services voor overleg nadat de implementatie van het product is voltooid. U kunt regelmatige vergaderingen met uw accountmanager verwachten. Deze vergaderingen zorgen ervoor dat u de maximumhoeveelheid gebruik en waarde van Audience Manager krijgt.
+Accountmanagers bieden ondersteuning en services voor overleg nadat de implementatie van het product is voltooid. U kunt regelmatige vergaderingen met uw accountmanager verwachten. Deze vergaderingen zorgen ervoor dat u de maximale hoeveelheid gebruik en waarde van Audience Manager krijgt.
 
-Contact opnemen [hier](https://www.adobe.com/products/audiencemanager.html) voor meer informatie en om met Audience Manager te beginnen.
+Contacteer ons [ hier ](https://www.adobe.com/products/audiencemanager.html) voor meer informatie en om met Audience Manager begonnen te worden.

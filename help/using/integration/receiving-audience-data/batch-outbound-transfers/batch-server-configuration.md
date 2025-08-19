@@ -1,5 +1,5 @@
 ---
-description: Voordat u batchgegevens naar leveranciers van inhoud van derden kunt verzenden, moet u de integratie tussen Audience Manager en de leverancier van inhoud van derden configureren.
+description: Voordat u batchgegevens kunt verzenden naar leveranciers van inhoud van derden, moet u de integratie tussen Audience Manager en de leverancier van inhoud van derden configureren.
 seo-description: Before you can send batch data to third-party content providers, you need to configure the integration between Audience Manager and the third-party content provider.
 seo-title: Configure batch data integration
 solution: Audience Manager
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 # Integratie van gegevensoverdracht in batch configureren
 
-Voordat u batchgegevens naar leveranciers van inhoud van derden kunt verzenden, moet u de integratie tussen Audience Manager en de leverancier van inhoud van derden configureren. U kunt dit op twee manieren doen:
+Voordat u batchgegevens kunt verzenden naar leveranciers van inhoud van derden, moet u de integratie tussen Audience Manager en de leverancier van inhoud van derden configureren. U kunt dit op twee manieren doen:
 
 ## Hulp-configuratie aanvragen via uw Adobe-consultant {#config-consultant}
 
-Als u met een consultant van de Adobe werkt, zullen zij het configuratieproces voor u behandelen.
+Als u met een Adobe-consultant werkt, zullen zij voor u zorgen over het configuratieproces.
 
 ## Hulp-configuratie aanvragen via Adobe Customer Support {#config-support}
 
-Als u niet met een consultant voor Adobe werkt, kunt u nog steeds de integratie van batchoverbrengingen configureren door de Klantenondersteuning. Neem contact op met Customer Support voor meer informatie.
+Als u niet met een Adobe-consultant werkt, kunt u nog steeds de integratie van batchoverdrachten configureren door de Klantenondersteuning. Neem contact op met de Klantenondersteuning voor meer informatie.
 
 >[!IMPORTANT]
 >

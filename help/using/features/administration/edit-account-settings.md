@@ -10,7 +10,7 @@ exl-id: 77fe5440-9286-44cd-b51f-600310e2dc8b
 source-git-commit: 92e2fcb5cea6560e9288ee5f819df52e9e4768b7
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 5%
+ht-degree: 0%
 
 ---
 
@@ -20,11 +20,11 @@ Gebruikers die geen beheerder zijn, kunnen hun eigen profielen bewerken, waarond
 
 <!-- t_edit_account_settings.xml -->
 
-Gebruikers met beheerdersrechten kunnen gebruikers maken en deze toevoegen aan groepen voor machtigingsdoeleinden, zoals wordt uitgelegd in [Gebruikers maken](../../features/administration/administration-overview.md#create-users) en [Een groep maken](../../features/administration/administration-overview.md#create-group).
+De gebruikers Admin kunnen gebruikers tot stand brengen en hen toevoegen aan groepen voor toestemmingsdoeleinden, zoals die in [ worden verklaard leidt tot Gebruikers ](../../features/administration/administration-overview.md#create-users) en [ tot een Groep ](../../features/administration/administration-overview.md#create-group).
 
-1. Klik in de koptekst van de Audience Manager op ![](assets/icon_profile.png).
-1. Klikken **[!UICONTROL Account Settings]** en klik vervolgens op **[!UICONTROL Edit]** om de [!UICONTROL My Account] pagina.
-1. In de **[!UICONTROL Email Address]** Geef indien nodig uw nieuwe e-mailadres op. Audience Manager verzendt geen regelmatig bericht naar gebruikers. Beheerders van Audience Managers hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig via e-mail versturen. Als een gebruiker bijvoorbeeld zijn of haar wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
+1. Klik in de Audience Manager-header op ![](assets/icon_profile.png) .
+1. Klik op **[!UICONTROL Account Settings]** en vervolgens op **[!UICONTROL Edit]** om de pagina [!UICONTROL My Account] weer te geven.
+1. Geef in het veld **[!UICONTROL Email Address]** zo nodig uw nieuwe e-mailadres op. Audience Manager verzendt geen regelmatig bericht naar gebruikers. Audience Manager-beheerders hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig via e-mail versturen. Als een gebruiker bijvoorbeeld zijn of haar wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
 1. Als u het wachtwoord opnieuw wilt instellen, geeft u het huidige wachtwoord op, geeft u het nieuwe wachtwoord op en bevestigt u het nieuwe wachtwoord.
-Zie ook: [Wachtwoordvereisten, vergrendelde accounts en vergeten wachtwoorden](../../reference/password-requirements.md).
+Zie ook, [ Vereisten van het Wachtwoord, Vergrendelde Rekeningen, en Gevergeten Wachtwoorden ](../../reference/password-requirements.md).
 1. Klik op **[!UICONTROL Save]**.

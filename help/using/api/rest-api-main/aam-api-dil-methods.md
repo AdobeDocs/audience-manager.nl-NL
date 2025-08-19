@@ -1,32 +1,32 @@
 ---
-description: Methoden waarmee u programmatically met de Data Integration Library (DIL) kunt werken.
+description: Methoden waarmee u programmatisch kunt werken met de Data Integration Library (DIL).
 seo-description: Methods that let you work programmatically with the Data Integration Library (DIL).
 seo-title: Data Integration Library API Methods
 solution: Audience Manager
-title: API-methoden voor Data Integration Library
+title: Data Integration Library API-methoden
 uuid: 507e7afd-3ae7-44de-98b0-589d699c453b
 feature: API
 exl-id: d2f3e4e8-65be-4fec-90d7-5991514b8efc
 source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 8%
+source-wordcount: '166'
+ht-degree: 0%
 
 ---
 
-# API-methoden voor Data Integration Library {#data-integration-library-api-methods}
+# Data Integration Library API-methoden {#data-integration-library-api-methods}
 
-Methoden waarmee u programmatisch kunt werken met de [!UICONTROL Data Integration Library] ([!UICONTROL DIL].
+Methoden waarmee u programmatically met [!UICONTROL Data Integration Library] ([!UICONTROL DIL] kunt werken.
 
 >[!IMPORTANT]
 >
->De Data Integration Library-API is afgekeurd. Deze API gebruikt om DIL te genereren, die u nu zelf kunt downloaden: [DIL downloaden](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>De Data Integration Library API is vervangen. Deze API gebruikte om DIL te produceren, die u nu zelf-download kunt hier: [ download van DIL ](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 
 ## Retourversies voor DIL {#return-version-dil}
 
-A `GET` methode die een lijst van versies terugkeert die van oudst aan nieuwste worden bevolen.
+Een methode `GET` die een lijst retourneert met versies die van oudste naar nieuwste zijn geordend.
 
 <!-- r_api_return_versions_dil.xml -->
 
@@ -36,7 +36,7 @@ A `GET` methode die een lijst van versies terugkeert die van oudst aan nieuwste 
 
 ### Antwoord
 
-Een succesvol verzoek retourneert een antwoordcode `["4.0", "4.1"]` zoals hieronder weergegeven.
+Een geslaagde aanvraag retourneert de antwoordcode `["4.0", "4.1"]` zoals hieronder wordt weergegeven.
 
 ```
 ["4.0", "4.1"]
@@ -44,7 +44,7 @@ Een succesvol verzoek retourneert een antwoordcode `["4.0", "4.1"]` zoals hieron
 
 ## JSON-schema retourneren voor versie {#return-json-schema-version}
 
-A `GET` methode die de [!DNL JSON] schema voor het [!UICONTROL DIL] versie. Ondersteunt het gebruik van alias [!UICONTROL LATEST] voor versie om de nieuwste versie van [!UICONTROL DIL].
+Een methode `GET` die het [!DNL JSON] schema voor de [!UICONTROL DIL] versie retourneert. Ondersteunt het gebruik van alias [!UICONTROL LATEST] voor versie om de nieuwste versie van [!UICONTROL DIL] op te halen.
 
 <!-- r_api_return_json_schema_for_version.xml -->
 
@@ -54,7 +54,7 @@ A `GET` methode die de [!DNL JSON] schema voor het [!UICONTROL DIL] versie. Onde
 
 ### Antwoord
 
-Een succesvol verzoek retourneert een antwoordcode `["4.0", "4.1"]` en gegevens zoals hieronder weergegeven.
+Een geslaagde aanvraag retourneert antwoordcode `["4.0", "4.1"]` en gegevens zoals hieronder wordt weergegeven.
 
 ```
 { 
@@ -380,7 +380,7 @@ Een succesvol verzoek retourneert een antwoordcode `["4.0", "4.1"]` en gegevens 
 
 ## DIL genereren {#generate-dil}
 
-A `GET` methode die wordt gegenereerd [!UICONTROL DIL] op basis van doorgegeven informatie in de aanvraaginstantie met de opgegeven versie van [!UICONTROL DIL]. Als de alias `LATEST` wordt gebruikt voor versie in URL, de recentste versie van [!UICONTROL DIL] wordt gegenereerd.
+Een `GET` -methode die [!UICONTROL DIL] genereert op basis van de methode die in de hoofdtekst van de aanvraag is doorgegeven met de opgegeven versie van [!UICONTROL DIL] . Als de alias `LATEST` wordt gebruikt voor versie in de URL, wordt de laatste versie van [!UICONTROL DIL] gegenereerd.
 
 <!-- r_api_generate_dil.xml -->
 
@@ -464,4 +464,4 @@ A `GET` methode die wordt gegenereerd [!UICONTROL DIL] op basis van doorgegeven 
 
 ### Antwoord
 
-Een geslaagde update retourneert een antwoordcode `201 created` samen met de [!UICONTROL DIL] [!DNL JavaScript] code.
+Een geslaagde update retourneert de antwoordcode `201 created` samen met de [!UICONTROL DIL] [!DNL JavaScript] -code.

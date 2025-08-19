@@ -1,24 +1,24 @@
 ---
-description: De Audience Manager gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
+description: Audience Manager maakt gebruik van gedistribueerde, 'edge-computing' topologieën om tegemoet te komen aan de eisen die externe bronnen stellen aan onze systemen.
 seo-description: Audience Manager uses distributed, edge-computing topologies to meet the demands placed on our systems by external sources.
 seo-title: Understanding the Edge Data Center
 solution: Audience Manager
-title: Werken met het Edge-datacenter
+title: Edge Data Center
 uuid: 4177e666-99f4-453d-94dd-058c6182c8d2
 feature: System Components
 exl-id: 28958b49-3075-4601-9271-ef2913721a66
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# Werken met het Edge-datacenter{#understanding-the-edge-data-center}
+# Edge Data Center{#understanding-the-edge-data-center}
 
-De Audience Manager gebruikt verdeelde, rand-gegevensverwerkingstopologieën om aan de eisen te voldoen die op onze systemen door externe bronnen worden geplaatst.
+Audience Manager maakt gebruik van gedistribueerde, &#39;edge-computing&#39; topologieën om tegemoet te komen aan de eisen die externe bronnen stellen aan onze systemen.
 
-## Basisbeginselen van Edge Data Center {#edge-data-center-basics}
+## Basisprincipes van Edge-datacenter {#edge-data-center-basics}
 
 <!-- 
 
@@ -26,20 +26,20 @@ c_compedge.xml
 
  -->
 
-Edge Computing biedt betere prestaties in reactie op diffuse, internet-brede vraag, omdat de &quot;edge&quot; zelf een wereldwijde grens is. Dit betekent [!DNL Audience Manager] Plaatst dynamisch de verwerking dichtst bij de bronnen van vraag en keert gegevens door de kortst mogelijke weg terug. Edge Computing helpt de siteprestaties te behouden, waardoor de gebruikerservaring op uw website behouden blijft. Het centrum van randgegevens is een zeer belangrijke gateway voor het bewegen van gegevens binnen en uit [!DNL Audience Manager].
+Edge computing biedt betere prestaties als reactie op diffuse, internet-brede vraag, omdat de &quot;edge&quot; zelf een wereldwijde grens is. Dit betekent dat [!DNL Audience Manager] de verwerking dynamisch het dichtst bij de bronnen van vraag plaatst en gegevens door de kortst mogelijke weg terugkeert. Edge Computing helpt de siteprestaties te behouden, waardoor de gebruikerservaring op uw website behouden blijft. Het Edge-gegevenscentrum is een belangrijke gateway voor het in- en uitschakelen van gegevens in [!DNL Audience Manager] .
 
-De [!DNL Audience Manager] edge data center omvat:
+Het datacenter van de [!DNL Audience Manager] edge bevat:
 
-* **Kernservers:** Dit zijn de belangrijkste [!DNL Audience Manager] systemen. Ze werken de Edge-servers bij en verschaffen gegevens aan de Edge-servers.
+* **Servers van de Kern:** dit zijn de belangrijkste [!DNL Audience Manager] systemen. Ze werken de Edge-servers bij en verschaffen gegevens aan de Edge-servers.
 
-* **Edge-servers:** Dit zijn doorgaans toepassings- en/of webservers. Ze zitten op de grens tussen [!DNL Audience Manager] en het internet. Edge-servers, zoals de [!DNL DCS] of Akamai-systemen, verwerken doorgaans gegevens en verzoeken die van en naar [!DNL Audience Manager].
+* **de Servers van Edge:** typisch, zijn dit toepassing en/of Webservers. Ze zitten aan de grens tussen [!DNL Audience Manager] en internet. Edge-servers, zoals de [!DNL DCS] - of Akamai-systemen, verwerken doorgaans gegevens en aanvragen die van en naar [!DNL Audience Manager] gaan.
 
-* **Balans laden:** Beheer ongelijkmatige verwerkings-/verwerkingsvereisten die inherent zijn aan internettoepassingen. Deze balanceringen voorkomen dat clusters van servers worden overbelast terwijl andere inactief blijven.
+* **de Balancers van de Lading:** beheert ongelijke gegevensverwerking/verwerkingseisen inherent aan de toepassingen van Internet. Deze balanceringen voorkomen dat clusters van servers worden overbelast terwijl andere inactief blijven.
 
-Het volgende diagram illustreert de omgeving van het datacenter van de rand van de Audience Manager.
+In het volgende diagram wordt de omgeving van het Audience Manager edge-datacenter geïllustreerd.
 
 ![](assets/edge_data_center.png)
 
 ## Geografische verdeling en taakverdeling {#geo-dist-balance}
 
-Zie de [!DNL DCS] sectie in [Componenten gegevensverzameling](../../reference/system-components/components-data-collection.md).
+Zie de [!DNL DCS] sectie in [ Componenten van de Inzameling van Gegevens ](../../reference/system-components/components-data-collection.md).

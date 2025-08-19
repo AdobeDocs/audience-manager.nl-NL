@@ -10,8 +10,8 @@ feature: Onboarding Offline Data
 exl-id: 48eef5f1-0655-4dac-9ab4-74b11c705c13
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 89%
+source-wordcount: '1343'
+ht-degree: 86%
 
 ---
 
@@ -35,9 +35,9 @@ Het onboardingproces bestaat uit twee stappen die worden beschreven in [Overzich
 We raden het volgende aan:
 
 * Werk samen met uw dataprovider om het dagelijks binnenkomende databestand volgens de specificaties van Adobe in te delen. Zie de volgende documentatie voor vereisten voor bestandsnaamgeving en syntaxis:
-   * [Naam- en contentvereisten voor id-synchronisatiebestanden](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
-   * [Content van binnenkomende databestanden: syntaxis, ongeldige tekens, variabelen en voorbeelden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
-   * [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+   * [Naam en inhoudsvereisten voor id-synchronisatiebestanden](../integration/sending-audience-data/batch-data-transfer-explained/id-sync-file-based.md)
+   * [Inbound Data File Contents: Syntax, Invalid Characters, Variables en Examples](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md)
+   * [Amazon S3-vereisten voor naam en bestandsgrootte voor binnenkomende gegevensbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 * Werk samen met uw [!DNL Adobe]-consultant om een testdatabestand naar [!DNL Adobe] te verzenden voor indelingverificatie.
 * Werk samen met uw [!DNL Adobe]-consultant om een taxonomie te maken die geschikt is voor het interpreteren van de content van het databestand.
 * Bevestig in de staging-/ontwikkelomgeving dat de id-synchronisatie is geconfigureerd om de bezoekers-id van de dataprovider correct op te halen en deze in real time naar de [!DNL Audience Manager]-servers over te brengen.
@@ -58,10 +58,10 @@ Zie [Bestandscompressie voor binnenkomende dataoverdrachtsbestanden](../integrat
 
 **Kan ik een binnenkomend databestand ([!DNL .sync] - of [!DNL .overwrite] -bestand) uploaden alvorens code [!DNL Audience Manager] in productie te implementeren?**
 
-Ja. Als u een [!UICONTROL cross-device data source] om de gegevens op te slaan van CRM die u uploadt, slaat de Audience Manager altijd de gegevens op. In feite, na [!UICONTROL Profile Merge Rules] de verhogingen die de Audience Manager in oktober 2019 lanceerde die voor off-line-slechts gebruiksgevallen toestaan, kunt u uploaden en actie op gegevens zonder de code van de Audience Manager in productie helemaal op te stellen. Zie:
+Ja. Zolang u een [!UICONTROL cross-device data source] gebruikt om de CRM-gegevens op te slaan die u uploadt, slaat Audience Manager altijd de gegevens op. Na de [!UICONTROL Profile Merge Rules] -verbeteringen die Audience Manager in oktober 2019 heeft geïntroduceerd en die alleen offline kunnen worden gebruikt, kunt u gegevens uploaden en actie ondernemen zonder Audience Manager-code in productie te hoeven nemen. Zie:
 
-* [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html?lang=nl-NL)
-* [!UICONTROL People-based Destinations] - [Personalisatie op basis van gegevens die alleen offline beschikbaar zijn](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html?lang=nl-NL)
+* [Overzicht van de verbeteringen op het gebied van regels voor profielsamenvoeging](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/overview-of-profile-merge-rule-enhancements.html)
+* [!UICONTROL People-based Destinations] - [ Personalization die op off-line-Enige Gegevens ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/people-based/implementation-guide/people-based-destinations-workflow-offline.html) wordt gebaseerd
 
 <br>
 
@@ -154,9 +154,9 @@ FTP-bestanden worden verwijderd nadat ze zijn verwerkt. [!DNL S3]-bestanden word
 
 * **Volledig:** een volledig bestand overschrijft alle bestaande bezoekersprofielen en vervangt deze door de data in het bestand. Volledige bestanden zijn te herkennen aan de `.overwrite`-tag die aan de bestandsnaam wordt toegevoegd. U kunt een `.overwrite`-bestand gebruiken om bezoekerseigenschappen opnieuw in te stellen of om verouderde eigenschappen te verwijderen.
 
-   >[!NOTE]
-   >
-   >De [!DNL .overwrite]-bestanden overschrijven alleen [!DNL Audience Manager]-profieldata die aan deze dataprovider zijn gekoppeld. Met andere woorden: alle [!DNL Audience Manager]-data die aan de bezoeker zijn gekoppeld, blijven intact nadat een [!DNL .overwrite]-bestand is verwerkt.
+  >[!NOTE]
+  >
+  >De [!DNL .overwrite]-bestanden overschrijven alleen [!DNL Audience Manager]-profieldata die aan deze dataprovider zijn gekoppeld. Met andere woorden: alle [!DNL Audience Manager]-data die aan de bezoeker zijn gekoppeld, blijven intact nadat een [!DNL .overwrite]-bestand is verwerkt.
 
 * **Incrementeel:** een incrementeel bestand voegt nieuwe data toe aan uw bestaande bezoekersprofielen. Incrementele bestanden zijn te herkennen aan de `.sync`-tag die aan de bestandsnaam wordt toegevoegd. Als u een incrementeel bestand verzendt, worden bestaande profielen niet gewist of overschreven.
 
@@ -169,7 +169,7 @@ De volgende gebruiksscenario’s tonen aan hoe deze bestandstypen van invloed zi
 
 Zie voor meer informatie over volledige en incrementele bestandstypen:
 
-* [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-data...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Amazon S3-vereisten voor naam en bestandsgrootte voor binnenkomende gegevens...](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
@@ -183,11 +183,11 @@ Tijdens de verwerking slaat [!DNL Audience Manager] deze record over en gaat naa
 
 Tijdstempels worden gebruikt voor vastleggen en bewaren. Ze worden vereist door de syntaxis die wordt gebruikt voor correct geformatteerde namen van binnenkomende bestanden. Zie:
 
-* [Amazon S3-naamvereisten voor binnenkomende databestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Amazon S3-naamvereisten voor binnenkomende gegevensbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
-**Wat is een [!DNL Data Provider ID (DPID)] en hoe krijg ik het?**
+**wat is a [!DNL Data Provider ID (DPID)] en hoe krijg ik het?**
 
 Uw Adobe-consultant wijst een driecijferige of viercijferige [DPID (Data Provider ID)](../reference/ids-in-aam.md) toe aan uw specifieke databron. Deze id is uniek en verandert niet.
 
@@ -203,8 +203,8 @@ Zie [Bestandscompressie voor binnenkomende dataoverdrachtsbestanden](../integrat
 
 Ja, zie:
 
-* [Bestandscompressie voor binnenkomende dataoverdrachtbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
-* [Amazon S3-naamvereisten voor binnenkomende databestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
+* [Bestandscompressie voor binnenkomende gegevensoverdrachtbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md)
+* [Amazon S3-naamvereisten voor binnenkomende gegevensbestanden](../integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md)
 
  
 
@@ -226,7 +226,7 @@ Als best practice adviseren wij [!DNL Amazon S3] omdat het proces eenvoudiger is
 
 >[!WARNING]
 >
->De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Terwijl de binnenkomende gegevensdossieropname nog in bestaande FTP- integratie wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord van offlinegegevens voor nieuwe integratie. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
+>De ondersteuning voor FTP-configuraties wordt geleidelijk afgeschaft. Terwijl de binnenkomende gegevensdossieropname nog in bestaande integratie van FTP wordt gesteund, adviseren wij sterk gebruikend [!DNL Amazon S3] aan boord off-line gegevens voor nieuwe integratie. Zie [Vereisten voor naam en bestandsgrootte van binnenkomende Amazon S3-databestanden](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) voor meer informatie.
 
  
 
@@ -247,4 +247,3 @@ Dat hangt ervan af. [!DNL Audience Manager] leest tot 119000 vermeldingen van de
 >[!MORELIKETHIS]
 >
 >* [Beschrijving van batchdataoverdracht](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md)
-

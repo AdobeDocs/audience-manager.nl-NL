@@ -9,7 +9,7 @@ feature: Audience Lab
 exl-id: 25bdabb5-2ba8-45d2-81ca-05c0590d7d96
 source-git-commit: 2b7858ba9000f0e0a1310bf40cd33ce3b0b01de6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '326'
 ht-degree: 94%
 
 ---
@@ -48,6 +48,6 @@ In dit geval telt [!UICONTROL Audience Lab] drie conversies, één voor elk appa
 
 Zie [Segmenttestgroep maken](../features/audience-lab/audience-lab-manage-test-groups.md#create-test-groups) voor informatie over het gebruik van [!UICONTROL Audience Lab] met [!UICONTROL RBAC]-rechten.
 
-**Kan ik gebruiken [!UICONTROL Audience Lab] in samenhang met de [!UICONTROL Profile Link Device Graph] en externe apparaatgrafieken (Tapad Device Graph, Liveramp Device Graph)?**
+**kan ik [!UICONTROL Audience Lab] samen met [!UICONTROL Profile Link Device Graph] en de Externe Grafieken van het Apparaat gebruiken (de Grafiek van het Apparaat van de Tapad, de Grafiek van het Apparaat van de Liveramp)?**
 
 Vooralsnog kunnen segmentpopulaties in [!UICONTROL Audience Lab] alleen worden opgedeeld volgens de apparaten die zijn aangesloten op een gekwalificeerd apparaat wanneer u [!UICONTROL Profile Link Device Graph] gebruikt. Wij werken aan het toevoegen van ondersteuning in [!UICONTROL Audience Lab] voor de andere apparaatgrafieken en zullen u laten weten wanneer dat is gebeurd.

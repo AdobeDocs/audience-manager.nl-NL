@@ -1,41 +1,41 @@
 ---
-description: De bètaomgeving is bedoeld voor het testen van de implementatie van uw Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Neem contact op met de vertegenwoordiger van de Partner Solutions van uw Audience Manager als u geïnteresseerd bent in het gebruik van de bètaomgeving.
+description: De bètaomgeving is bedoeld voor het testen van uw Audience Manager-implementatie. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger als u geïnteresseerd bent in het gebruik van de bètaomgeving.
 keywords: sandbox
 seo-description: The beta environment is for testing your Audience Manager implementation. Changes made in beta do not affect production data. Contact your Audience Manager Partner Solutions representative if you're interested in using the beta environment.
 seo-title: Beta Environment
 solution: Audience Manager
-title: Bètaomgeving
+title: Beta-omgeving
 uuid: de4a1a46-cfa4-4f64-8569-48a7650fd8cf
 feature: Reference
 exl-id: a6a5e1c2-29a2-40bf-972c-87fb8716a394
 source-git-commit: fce39268f1c8c4dd1b7ff21b61a9830a20fa0b4e
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '362'
+ht-degree: 1%
 
 ---
 
-# Bètaomgeving {#beta-environment}
+# Beta-omgeving {#beta-environment}
 
-De bètaomgeving is bedoeld voor het testen van de implementatie van uw Audience Manager. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Neem contact op met de vertegenwoordiger van de Partner Solutions van uw Audience Manager als u geïnteresseerd bent in het gebruik van de bètaomgeving.
+De bètaomgeving is bedoeld voor het testen van uw Audience Manager-implementatie. Wijzigingen in bèta hebben geen invloed op de productiegegevens. Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger als u geïnteresseerd bent in het gebruik van de bètaomgeving.
 
 ## Overzicht
 
 De functionaliteit in de omgeving van de bveta is een exacte replica van de productieomgeving, zonder experimentele of niet-uitgebrachte kenmerken. Uw aanmeldingsgegevens van de productieomgeving zijn geldig in de bètaomgeving.
 
-**Plan bijwerken**
+**Plan van de Update**
 
-De bètaomgeving wordt aan het einde van elke maand bijgewerkt tijdens niet-piekuren.
+De bètaomgeving wordt aan het einde van elke maand tijdens niet-piekuren bijgewerkt.
 
 >[!IMPORTANT]
 >
->Merk op dat uw klantgegevens ([signalen, eigenschappen en segmenten](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=nl-NL)) niet wordt gesynchroniseerd tussen de productie- en bètaomgevingen.
+>Merk op dat uw klantengegevens ([ signalen, trekken, en segmenten ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) niet tussen de productie en bètamilieu&#39;s worden gesynchroniseerd.
 
 ## Binnenkomend verkeer
 
 De bètaomgeving ondersteunt alleen binnenkomend verkeer voor de validatie van de bestandsnaam en de inhoudsyntaxis. Aangezien er geen id-toewijzing plaatsvindt in de bètaomgeving, zullen klanten geen segmentpopulaties zien.
 
-De [!UICONTROL Onboarding Status] pagina wordt altijd gerapporteerd [!UICONTROL No matching AAM ID] bij inname van bestanden in de bètaomgeving.
+Hierdoor rapporteert de pagina [!UICONTROL Onboarding Status] altijd [!UICONTROL No matching AAM ID] bij het opnemen van bestanden in de bètaomgeving.
 
 Wij adviseren alle klanten om het even welke binnenkomende tests op hun productiemilieu uit te voeren.
 
@@ -45,22 +45,22 @@ Het uitgaande verkeer wordt niet toegelaten voor het bètamilieu.
 
 ## Eindpunten
 
-| Service | URL/hostnaam | Hoe te om toegang te verkrijgen |
+| Service | URL/hostnaam | Toegang verkrijgen |
 |--- |--- | --- |
-| S3 | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of klantenservice | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of de klantenservice om een Amazon S3-emmertje voor uw bètainstantie in te stellen. Meer informatie over de [voordelen van het gebruik van Amazon S3](../reference/amazon-s3.md). |
-| DCS | `https://dcs-beta.demdex.net/...` | Zie [De DCS openen in de bètomgeving](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of klantenservice | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of de klantenservice om een Amazon S3-emmertje voor uw bètaversie in te stellen. Lees over de [ voordelen om Amazon S3 ](../reference/amazon-s3.md) te gebruiken. |
+| DCS | `https://dcs-beta.demdex.net/...` | Zie [ Toegang hebbend tot DCS in het Milieu van Beta ](../reference/beta-environment.md#access-dcs-beta-environment). |
 | UI | `https://bank-beta.demdex.com` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. |
-| API | `https://api-beta.demdex.com/...` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. We raden u aan een algemene API-gebruiker te maken. [zie details](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. Wij adviseren dat u een generische API gebruiker creeert, [ zie details ](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
-## De DCS openen in de bètomgeving {#access-dcs-beta-environment}
+## De DCS openen in de Beta-omgeving {#access-dcs-beta-environment}
 
-1. Maak een vraag DCS gebruikend de krulling [command](https://curl.haxx.se/docs/manpage.html). Curl is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
+1. Maak een vraag DCS, gebruikend het krullen [ bevel ](https://curl.haxx.se/docs/manpage.html). Curl is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
 
    Bijvoorbeeld:
 
    `curl -v https://dcs-beta.demdex.net/event`
 
-1. Controleer of uw verzoek door de bètaversie-DCS is verzonden door te zoeken naar &quot;sandbox&quot; in de DCS-antwoordheader.
+1. Verifieer dat uw verzoek door bèta DCS door &quot;zandbak&quot;in de DCS reactiekop te zoeken werd gediend.
 
    Bijvoorbeeld:
 

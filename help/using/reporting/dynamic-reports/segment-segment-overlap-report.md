@@ -3,24 +3,24 @@ description: Retourneert gegevens over het aantal unieke gebruikers dat wordt ge
 seo-description: Returns data on how many unique users are shared between your segments.
 seo-title: Segment-to-Segment Overlap Report
 solution: Audience Manager
-title: Overlaprapport Segment-naar-segment
+title: Overlap-rapport segment-naar-segment
 uuid: 0339eb6c-6355-44a3-9c46-f159485449d1
 feature: Overlap Reports
 exl-id: 43a8ea20-3197-4623-a03a-bfe40e5049cd
 source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 10%
+ht-degree: 6%
 
 ---
 
-# Overlaprapport Segment-naar-segment{#segment-to-segment-overlap-report}
+# Overlap-rapport segment-naar-segment{#segment-to-segment-overlap-report}
 
 Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld tussen uw segmenten.
 
 >[!NOTE]
 >
->De overlappende verslagen in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten van gegevensbronnen slechts zien die u toegang hebt tot gebaseerd op [RBAC-gebruikersgroep](/help/using/features/administration/administration-overview.md) dat u tot behoort.
+>De overlappende rapporten in Audience Manager houden zich aan de RBAC-beginselen. U kunt segmenten van gegevensbronnen slechts zien die u toegang tot hebt gebaseerd op de [ RBAC Gebruikersgroep ](/help/using/features/administration/administration-overview.md) die u tot behoort.
 
 <!-- 
 
@@ -30,18 +30,18 @@ c_segment_segment_overlap.xml
 
 ## Overzicht
 
-De [!UICONTROL Segment-to-Segment Overlap] het rapport kan u helpen:
+Het [!UICONTROL Segment-to-Segment Overlap] -rapport kan u helpen:
 
 * Identificeer segmenten met hoge of lage overlapping, afhankelijk van uw behoeften. Traits met hoge overlap geven u een doelgroep, maar minder unieke bezoekers. Traits met een lage overlapping kunnen nuttig zijn om een grotere, unieke bezoekersset te bereiken.
 * Vind onverwachte overlapping en gebruik die informatie om nieuwe, krachtige segmenten te bouwen.
 
 ## Voorbeeldrapport
 
-De volgende illustratie biedt een overzicht op hoog niveau van de [!UICONTROL Segment-to-Segment Overlap] verslag.
+De volgende afbeelding biedt een overzicht op hoog niveau van het [!UICONTROL Segment-to-Segment Overlap] -rapport.
 
 >[!NOTE]
 >
->De [!UICONTROL Segment-to-Segment Overlap] het rapport keert een leeg gebied terug wanneer het het zelfde segment aan zich vergelijkt.
+>Het [!UICONTROL Segment-to-Segment Overlap] rapport keert een leeg gebied terug wanneer het het zelfde segment aan zich vergelijkt.
 
 ![](assets/segment-to-segment-overlap.png)
 
@@ -57,7 +57,7 @@ r_s2s_data_pop.xml
 
  -->
 
-De pop-up voor de [!UICONTROL Segment-to-Segment Overlap] rapport bevat de onderstaande meetgegevens. Merk op dat de unieke metrische waarde in de tabel uw *realtime gebruikers*.
+De pop-up voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hieronder metriek. Merk op dat uniques metrisch in de lijst uw *gebruikers in real time* vertegenwoordigt.
 
 | Metrisch | Beschrijving |
 |---|---|
@@ -68,16 +68,15 @@ De pop-up voor de [!UICONTROL Segment-to-Segment Overlap] rapport bevat de onder
 | **[!UICONTROL Base Segment Uniques]** | Het aantal unieke bezoekers in uw basissegment. |
 | **[!UICONTROL Base Segment Uniques]** | Het aantal unieke bezoekers in uw overlappende segment. |
 | **[!UICONTROL Overlapping Uniques]** | Het aantal unieke bezoekers dat wordt gedeeld tussen de vergeleken segmenten. |
-| **[!UICONTROL Overlap %]** | Audience Manager gebruikt de volgende formule om overlap % te verkrijgen: Overlappende Uniques / (Base Segment Uniques + Overlappende Segment Uniques - Overlappende Uniques) |
+| **[!UICONTROL Overlap %]** | Audience Manager gebruikt de volgende formule om de overlap % te verkrijgen: Overlappende Uniques / (Uniques van het basissegment + Uniques van het overlappende segment - Overlappende Uniques) |
 
 
 
 >[!MORELIKETHIS]
 >
 >* [Resultaten van filterrapporten met dataregelaars](../../reporting/dynamic-reports/data-sliders.md)
->* [Vormen, kleuren en grootten die worden gebruikt in interactieve rapporten](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes)
->* [Verklaarde pictogrammen en gereedschappen rapporteren](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [ Vormen, Kleuren, en Grootte die in Interactieve Rapporten ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes) worden gebruikt
+>* [ Verklaarde pictogrammen en Hulpmiddelen van het 0} Rapport {](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Overlaprapporten: updateplanning en minimale segmentgrootte](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [Datasampling en foutpercentages in geselecteerde Audience Manager-rapporten...](../../reporting/report-sampling.md)
+>* [ de Steekproef van Gegevens en de Tarieven van de Fout in de Geselecteerde Rapporten van Audience Manager... ](../../reporting/report-sampling.md)
 >* [CSV-bestanden voor overlaprapporten](../../reporting/dynamic-reports/overlap-csv-files.md)
-

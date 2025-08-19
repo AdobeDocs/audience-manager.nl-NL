@@ -9,8 +9,8 @@ feature: DIL Implementation
 exl-id: 814268bc-4387-4e06-ae94-eda86993a967
 source-git-commit: cad38e2c523e9b762aa996c275daefa96c8e14b0
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 2%
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 2%
 
 >[!WARNING]
 >
->Vanaf juli 2023 heeft Adobe de ontwikkeling van de [!DNL Data Integration Library (DIL)] en de [!DNL DIL] extensie.
+>Vanaf juli 2023 heeft Adobe de ontwikkeling van de extensie [!DNL Data Integration Library (DIL)] en [!DNL DIL] stopgezet.
 >
->Bestaande klanten kunnen hun [!DNL DIL] uitvoering. Adobe zal zich echter niet ontwikkelen [!DNL DIL] verder dan dit punt. Klanten worden aangemoedigd om te evalueren [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun strategie voor het verzamelen van gegevens op lange termijn.
+>Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
 >
->Klanten die na juli 2023 nieuwe integratie voor gegevensverzameling willen implementeren, moeten [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan.
+>De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) in plaats daarvan moeten gebruiken.
 
 Hiermee wordt een specifieke waarde opgehaald van een advertentieserver.
 
-**Functiehandtekening:** `dexGetQSVars: function (variableName, partner, containerNSID) {}`
+**de Handtekening van de Functie:** `dexGetQSVars: function (variableName, partner, containerNSID) {}`
 
 <!-- 
 
@@ -40,12 +40,12 @@ r_dil_get_dexqsvars.xml
 |---|---|---|
 | `variableName` | String | De naam van de variabele waarvoor u een waarde wilt ophalen. |
 | `partner` | String | De partnernaam aan onderzoek naar. |
-| `containerNSID` | Geheel | De [!DNL NSID] van de container waarnaar u zoekt. Standaardwaarden is `0`. |
+| `containerNSID` | Geheel | De [!DNL NSID] van de container waarnaar u zoekt. De standaardwaarde is `0` . |
 
-**Antwoord**
+**Reactie**
 
-Hiermee wordt de waarde van de variabele voor een geretourneerd [!UICONTROL DIL] -instantie.
+Retourneert de variabele waarde voor een instantie [!UICONTROL DIL] .
 
-**Voorbeeldcode**
+**Code van de Steekproef**
 
 <pre class="java"><code>var value = DIL.dexGetQSVars('<i>variableName</i>','<i>partnerName</i>',<i>containerNSID</i>);</code></pre>

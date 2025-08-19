@@ -9,8 +9,8 @@ feature: Data Governance & Privacy
 exl-id: bccf49d7-1a3b-4286-86fb-59e472af4501
 source-git-commit: 319be4dade263c5274624f07616b404decb7066f
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 83%
+source-wordcount: '754'
+ht-degree: 81%
 
 ---
 
@@ -28,7 +28,7 @@ Antwoorden op algemene vragen of problemen in verband met privacy en data.
 
 **Hoe gebruikt Audience Manager cookies en welke cookies worden ingesteld?**
 
-Zie [Audience Manager-cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=nl-NL).
+Zie [Audience Manager-cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
 
 **Kunnen Audience Manager-clients in de VS gebruikers targeten op EU-eigenschappen?**
 
@@ -41,7 +41,7 @@ Ja. Audience Manager werkt met clients die internationale eigenschappen en een i
 
  -->
 
-## Veelgestelde vragen over dataretentie {#data-retention-faq}
+## Veelgestelde vragen over gegevensbewaring {#data-retention-faq}
 
 In de volgende tabel staan de retentietijden voor verschillende datatypen en opslagsystemen.
 
@@ -55,11 +55,11 @@ In de volgende tabel staan de retentietijden voor verschillende datatypen en ops
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Back-endservers </p> </td> 
-   <td colname="col2"> <p>120 dagen </p> <p> Audience Manager verwijdert gebruikersdata van onze back-endservers 120 dagen nadat een gebruiker voor het laatst op het Audience Manager-platform is gezien. Indien <span class="keyword"> Audience Manager</span> registreert gebruikersactiviteit binnen deze cyclus van 120 dagen, zullen wij deze gegevens nog 120 dagen bewaren. </p> </td> 
+   <td colname="col2"> <p>120 </p> <p> Audience Manager verwijdert gebruikersdata van onze back-endservers 120 dagen nadat een gebruiker voor het laatst op het Audience Manager-platform is gezien. Als <span class="keyword"> Audience Manager </span> gebruikersactiviteit binnen deze cyclus van 120 dagen registreert, zullen wij deze gegevens nog 120 dagen bewaren. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Edge-servers </p> </td> 
-   <td colname="col2"> <p> 14 dagen </p> <p>Audience Manager verwijdert gebruikersdata van onze Edge-servers 14 dagen nadat een gebruiker voor het laatst op het Audience Manager-platform is gezien. Indien <span class="keyword"> Audience Manager</span> registreert de gebruikersactiviteit binnen deze cyclus van 14 dagen, wij zullen deze gegevens nog 14 dagen bewaren. Als de gebruiker na de cyclus van 14 dagen weer actief wordt, is er een vertraging tussen die eerste nieuwe paginaweergave en wanneer de gebruiker actioneerbaar wordt. Het duurt 6-18 uur om het volledige profiel weer naar het randcentrum terug te krijgen na meer dan 14 dagen inactiviteit. </p> </td> 
+   <td colname="col2"> <p> 14 dagen </p> <p>Audience Manager verwijdert gebruikersdata van onze Edge-servers 14 dagen nadat een gebruiker voor het laatst op het Audience Manager-platform is gezien. Als <span class="keyword"> Audience Manager </span> gebruikersactiviteit binnen deze cyclus van 14 dagen registreert, zullen wij deze gegevens nog 14 dagen bewaren. Als de gebruiker na de cyclus van 14 dagen weer actief wordt, is er een vertraging tussen die eerste nieuwe paginaweergave en wanneer de gebruiker actioneerbaar wordt. Het duurt 6-18 uur om het volledige profiel weer naar het randcentrum terug te krijgen na meer dan 14 dagen inactiviteit. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Onbewerkte logboeken </p> </td> 
@@ -71,7 +71,7 @@ In de volgende tabel staan de retentietijden voor verschillende datatypen en ops
   </tr> 
   <tr> 
    <td colname="col1"> <p>Profielen op CRM-niveau (geverifieerde profielen) </p> </td> 
-   <td colname="col2"> <p>Het standaard Time-To-Live-interval (TTL) voor inactieve profielen op CRM-niveau (klant-id’s) is 24 maanden. Nochtans, kunt u het gebruikersinterface van de Audience Manager gebruiken om het interval van TTL voor inactieve CRM-vlakke profielen tussen één maand en 5 jaar te verminderen of uit te breiden. Dit kunt u doen wanneer u een cross-device databron maakt of bewerkt.</p> <p>Zie Databroninstellingen in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Een cross-device databron maken</a> voor meer informatie.</p> </td> 
+   <td colname="col2"> <p>Het standaard Time-To-Live-interval (TTL) voor inactieve profielen op CRM-niveau (klant-id’s) is 24 maanden. Nochtans, kunt u het gebruikersinterface van Audience Manager gebruiken om het interval van TTL voor inactieve CRM-vlakke profielen tussen één maand en 5 jaar te verminderen of uit te breiden. Dit kunt u doen wanneer u een cross-device databron maakt of bewerkt.</p> <p>Zie Databroninstellingen in <a href="../features/profile-merge-rules/merge-rules-start.md#settings">Een cross-device databron maken</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mobiele apparaat-id’s </p> </td> 
@@ -96,7 +96,7 @@ In de volgende tabel staan de retentietijden voor verschillende datatypen en ops
  </tbody> 
 </table>
 
-## Dataretentie van eigenschapkwalificaties {#trait-qual}
+## Bewaring van kwalificatiegegevens {#trait-qual}
 
 In de onderstaande tabel staan de retentieopties voor eigenschapkwalificaties.
 
