@@ -63,7 +63,7 @@ De tabel definieert de elementen in de naam van een uitgaand gegevensbestand.
       <li id="li_94DAFA169380405981AFEF1B581997E6">20914 - <span class="keyword"> Google Advertiser ID </span> (raw, unhashed) </li> 
       <li id="li_DE74BE06331C49CF87606A192D815B96">20915 - <span class="keyword"> Apple-id voor adverteerders </span> (onbewerkt, ongehashed) </li> 
       <li id="li_E0A033FEC3174EF08E93EB7C65266337">Leveranciers-id - gebruikers-id's van derden (web/cookie) </li> 
-     </ul> </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html">Algemene databronnen</a> voor meer informatie.</p></td> 
+     </ul> </p> <p>Zie <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/global-data-sources.html?lang=nl-NL">Algemene databronnen</a> voor meer informatie.</p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code><i>PID_ALIAS </i></code> </p> </td> 

@@ -29,7 +29,7 @@ De bètaomgeving wordt aan het einde van elke maand tijdens niet-piekuren bijgew
 
 >[!IMPORTANT]
 >
->Merk op dat uw klantengegevens ([ signalen, trekken, en segmenten ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=en)) niet tussen de productie en bètamilieu&#39;s worden gesynchroniseerd.
+>Merk op dat uw klantengegevens ([ signalen, trekken, en segmenten ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=nl-NL)) niet tussen de productie en bètamilieu&#39;s worden gesynchroniseerd.
 
 ## Binnenkomend verkeer
 

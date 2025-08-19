@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Beoogd publiek
 
-Deze pagina is voorgenomen voor de klanten van Audience Manager die de [ de markeringsuitbreiding van Audience Manager ](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/audience-manager/overview) gebruiken om de gegevens van de Webinzameling in Audience Manager te brengen. Voor klanten die de bibliotheek van AppMeasurement JavaScript gebruiken, te lezen gelieve de gids op hoe te om uw bibliotheek van de gegevensinzameling voor Audience Manager [ van de bibliotheek van AppMeasurement JavaScript aan de bibliotheek van SDK JavaScript van het Web bij te werken ](appmeasurement-to-web-sdk.md).
+Deze pagina is voorgenomen voor de klanten van Audience Manager die de [ de markeringsuitbreiding van Audience Manager ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/audience-manager/overview) gebruiken om de gegevens van de Webinzameling in Audience Manager te brengen. Voor klanten die de bibliotheek van AppMeasurement JavaScript gebruiken, te lezen gelieve de gids op hoe te om uw bibliotheek van de gegevensinzameling voor Audience Manager [ van de bibliotheek van AppMeasurement JavaScript aan de bibliotheek van SDK JavaScript van het Web bij te werken ](appmeasurement-to-web-sdk.md).
 
 ## Voordelen en nadelen van dit implementatiepad
 

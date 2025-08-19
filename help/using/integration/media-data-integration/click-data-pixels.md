@@ -96,7 +96,7 @@ Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. E
   <tr> 
    <td colname="col1"> <p> <code> d_mid</code> </p> </td> 
    <td colname="col02"> <p> <code> %d_mid%</code> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Experience Cloud </span> ID (ECID). Voor meer informatie over ECID, zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en identiteitskaart van Experience Cloud </a>. </p> <p>Optioneel. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Experience Cloud </span> ID (ECID). Voor meer informatie over ECID, zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL" format="https" scope="external"> Cookies en identiteitskaart van Experience Cloud </a>. </p> <p>Optioneel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> d_placement</code> </p> </td> 

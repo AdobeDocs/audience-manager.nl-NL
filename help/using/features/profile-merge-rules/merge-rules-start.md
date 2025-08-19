@@ -150,7 +150,7 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Voor meer informatie, zie [ een Gegevens van het Apparaat Source ](#create-data-source) en [ Klantidentiteitskaarts en de Staten van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) creëren.
+Voor meer informatie, zie [ een Gegevens van het Apparaat Source ](#create-data-source) en [ Klantidentiteitskaarts en de Staten van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) creëren.
 
 ### Functie `DIL.create` configureren
 
@@ -165,7 +165,7 @@ var vDil = DIL.create({
 });
 ```
 
-In het namespace zeer belangrijk-waardepaar, is de `*` MCORG `*` variabele uw [!DNL Experience Cloud] identiteitskaart van de Organisatie. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het dashboard van [!DNL Experience Cloud] . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [ Beleid: De Diensten van de Kern ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+In het namespace zeer belangrijk-waardepaar, is de `*` MCORG `*` variabele uw [!DNL Experience Cloud] identiteitskaart van de Organisatie. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het dashboard van [!DNL Experience Cloud] . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [ Beleid: De Diensten van de Kern ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
 
 ### SDK&#39;s configureren
 
@@ -223,7 +223,7 @@ Controleer de methoden in uw [!DNL SDK] -code waarmee u [!UICONTROL declared IDs
  </tbody>
 </table>
 
-Zie ook, [ Methoden van Audience Manager voor Android ](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html) en [ methodes van Audience Manager voor iOS ](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html).
+Zie ook, [ Methoden van Audience Manager voor Android ](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=nl-NL) en [ methodes van Audience Manager voor iOS ](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=nl-NL).
 
 >[!MORELIKETHIS]
 >

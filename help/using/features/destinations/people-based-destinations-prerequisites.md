@@ -50,7 +50,7 @@ Voordat u [!UICONTROL People-Based Destinations] kunt gebruiken om doelsegmenten
 
 Leren hoe te om uw [!DNL LinkedIn Campaign Manager] gebruikerstoestemmingen uit te geven, zie [ toevoegen, uitgeven, en verwijderen de Toestemmingen van de Gebruiker op de Rekeningen van Advertising ](https://www.linkedin.com/help/lms/answer/5753) in de documentatie LinkedIn.
 
-Zie [ Begrijpend en Vormend LinkedIn op mensen-Gebaseerde Doel ](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html) voor videoinstructies.
+Zie [ Begrijpend en Vormend LinkedIn op mensen-Gebaseerde Doel ](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/data-activation/people-based-destinations/understanding-and-configuring-the-linkedin-pbd.html?lang=nl-NL) voor videoinstructies.
 
 ### [!DNL Google Customer Match] {#gcm}
 
@@ -99,7 +99,7 @@ Bekijk de onderstaande video om te zien wat de hashingvereisten van [!UICONTROL 
 
 >[!VIDEO](https://video.tv.adobe.com/v/29003/)
 
-Adobe Experience Cloud biedt u de mogelijkheid om de id&#39;s van de klant via de [!DNL Adobe Experience Platform Identity Service (ECID)] te verbergen. Zie [ SHA256 het Hashing Steun voor setCustomerIDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html) voor gedetailleerde informatie over hoe te om ECID te gebruiken om klant IDs te hakken.
+Adobe Experience Cloud biedt u de mogelijkheid om de id&#39;s van de klant via de [!DNL Adobe Experience Platform Identity Service (ECID)] te verbergen. Zie [ SHA256 het Hashing Steun voor setCustomerIDs ](https://experienceleague.adobe.com/docs/id-service/using/reference/hashing-support.html?lang=nl-NL) voor gedetailleerde informatie over hoe te om ECID te gebruiken om klant IDs te hakken.
 
 ## Gebruikersmachtiging verkrijgen {#obtaining-user-permission}
 

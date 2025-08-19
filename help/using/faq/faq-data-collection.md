@@ -191,7 +191,7 @@ Nee, ga in dit geval niet uit van de [!UICONTROL General Reports] en [!UICONTROL
 
 De rapporten berekenen populaties op basis van de niet-geverifieerde profielrecords (UUID’s) die we zien in de back-end op het tijdstip dat de rapporten worden gegenereerd.
 
-Bij een eerste call naar de [!DNL DCS] zijn de gedeclareerde id’s *niet* gekoppeld aan een UUID (er is dus geen [demdex-cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html) aanwezig aan de clientzijde). De [!DNL DCS] genereert willekeurig een UUID, stelt een [!DNL demdex]-cookie in en geeft dit door in de reactiecall, maar de UUID wordt niet naar de back-end verzonden.
+Bij een eerste call naar de [!DNL DCS] zijn de gedeclareerde id’s *niet* gekoppeld aan een UUID (er is dus geen [demdex-cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=nl-NL) aanwezig aan de clientzijde). De [!DNL DCS] genereert willekeurig een UUID, stelt een [!DNL demdex]-cookie in en geeft dit door in de reactiecall, maar de UUID wordt niet naar de back-end verzonden.
 
 >[!NOTE]
 >

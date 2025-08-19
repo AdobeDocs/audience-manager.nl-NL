@@ -23,6 +23,6 @@ Waarom gebeurt dit?
 
 ## Antwoord
 
-Waarschijnlijk voert u de [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) uit op uw eigendom. Als dat zo is, deze verwijzing naar Audience Manager niet noodzakelijkerwijs naar het eigendom waarop Audience Manager wordt uitgevoerd. Het betekent dat Audience Manager deze service aanstuurt.
+Waarschijnlijk voert u de [Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) uit op uw eigendom. Als dat zo is, deze verwijzing naar Audience Manager niet noodzakelijkerwijs naar het eigendom waarop Audience Manager wordt uitgevoerd. Het betekent dat Audience Manager deze service aanstuurt.
 
-De server call van Audience Manager wordt meestal uitgevoerd om [klant-id’s te synchroniseren](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html).
+De server call van Audience Manager wordt meestal uitgevoerd om [klant-id’s te synchroniseren](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=nl-NL).

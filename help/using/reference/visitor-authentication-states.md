@@ -19,7 +19,7 @@ ht-degree: 2%
 
 De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. Audience Manager verwerkt de verificatiestatus van de bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisaanroepen op dezelfde manier.
 
-Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de methode `setCustomerID` het optionele object `AuthState` . `AuthState` identificeert bezoekers volgens hun [ authentificatiestatus ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html). [!DNL Audience Manager] behandelt de gerealiseerde eigenschappen verschillend, afhankelijk van de authentificatiestatus die in de vraag wordt overgegaan en de [ Regel van de Fusie van het Profiel ](../features/profile-merge-rules/merge-rules-dashboard.md) u voor segmentatie gebruikt.
+Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de methode `setCustomerID` het optionele object `AuthState` . `AuthState` identificeert bezoekers volgens hun [ authentificatiestatus ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL). [!DNL Audience Manager] behandelt de gerealiseerde eigenschappen verschillend, afhankelijk van de authentificatiestatus die in de vraag wordt overgegaan en de [ Regel van de Fusie van het Profiel ](../features/profile-merge-rules/merge-rules-dashboard.md) u voor segmentatie gebruikt.
 
 ## Status verificatie: ONBEKEND {#auth-status-unknown}
 
@@ -57,4 +57,4 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
 
 >[!MORELIKETHIS]
 >
->* [Klant-id&#39;s en verificatiestatussen](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)
+>* [Klant-id&#39;s en verificatiestatussen](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL)

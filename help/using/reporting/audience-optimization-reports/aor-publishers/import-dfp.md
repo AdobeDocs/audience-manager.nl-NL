@@ -82,7 +82,7 @@ U moet de [!DNL Audience Manager] id zelf instellen en kunt met [!DNL Audience M
   </tr> 
   <tr> 
    <td colname="col1"> <p>Stap 6 </p> </td> 
-   <td colname="col2"> <p>Compileer de eerste vereisten en open een steunkaartje door de instructies te volgen die <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html"> hier </a> worden gedetailleerd om van het proces van logboekopname af te schoppen. </p> </td> 
+   <td colname="col2"> <p>Compileer de eerste vereisten en open een steunkaartje door de instructies te volgen die <a href="https://experienceleague.adobe.com/docs/customer-one/using/home.html?lang=nl-NL"> hier </a> worden gedetailleerd om van het proces van logboekopname af te schoppen. </p> </td> 
    <td colname="col3"> <p>U, of <span class="keyword"> Audience Manager </span> Consulting namens u </p> </td> 
   </tr> 
  </tbody> 

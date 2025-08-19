@@ -60,7 +60,7 @@ In [!UICONTROL Trait Builder] kunt u met de [!UICONTROL Basic Information] -inst
   </tr>
    <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Gebeurtenistype </span></b> </td> 
-   <td colname="col2"> Wijst de eigenschap aan een type of een categorie toe, gewoonlijk volgens functie (bijvoorbeeld omzetting, plaatsbezoeker, partner, paginamening, enz.). Optioneel. <p> Leren hoe te om omzettingseigenschappen tot stand te brengen, zie <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html"> Creërend de Tanden van de Omzetting in de video van Audience Manager </a>. </p></td> 
+   <td colname="col2"> Wijst de eigenschap aan een type of een categorie toe, gewoonlijk volgens functie (bijvoorbeeld omzetting, plaatsbezoeker, partner, paginamening, enz.). Optioneel. <p> Leren hoe te om omzettingseigenschappen tot stand te brengen, zie <a href="https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/creating-conversion-traits.html?lang=nl-NL"> Creërend de Tanden van de Omzetting in de video van Audience Manager </a>. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b><span class="uicontrol"> Integratiecode </span></b> </td> 

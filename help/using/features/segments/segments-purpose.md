@@ -36,7 +36,7 @@ Wanneer u Adobe Analytics [!UICONTROL segments] toewijst of suites rapporteert a
 
 >[!TIP]
 >
->Audience Manager [!UICONTROL segments] verschilt van [!DNL Adobe Analytics] [!UICONTROL segments] . Lees [ Begrip Segmenten in Analytics en Audience Manager ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html) voor een diepgaande beschrijving van de verschillen.
+>Audience Manager [!UICONTROL segments] verschilt van [!DNL Adobe Analytics] [!UICONTROL segments] . Lees [ Begrip Segmenten in Analytics en Audience Manager ](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=nl-NL) voor een diepgaande beschrijving van de verschillen.
 
 ## Op regels gebaseerde [!UICONTROL Segments] maken met [!UICONTROL Segment Builder]
 

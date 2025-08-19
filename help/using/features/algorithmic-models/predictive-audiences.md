@@ -122,11 +122,11 @@ Houd rekening met de volgende overwegingen en beperkingen wanneer u uw [!UICONTR
 
 ## [!UICONTROL Data Export Controls] {#dec}
 
-De voorspellende segmenten die door [!UICONTROL Predictive Audiences] modellen worden gecreeerd erven de [ Controles van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) van de volgende eerste gegevensbronnen van de partij:
+De voorspellende segmenten die door [!UICONTROL Predictive Audiences] modellen worden gecreeerd erven de [ Controles van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=nl-NL) van de volgende eerste gegevensbronnen van de partij:
 
 1. De eerste gegevensbron die u kiest bij het bouwen van het model.
 1. De gegevensbronnen van de eerste partij van uw doelpubliek. Met name de besturingselementen voor gegevensexport van de [!UICONTROL traits] of [!UICONTROL segments] die het doelpubliek vormen.
-1. De [ Controles van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html) van [!UICONTROL Profile Merge Rule] die u voor het model selecteerde.
+1. De [ Controles van de Uitvoer van Gegevens ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=nl-NL) van [!UICONTROL Profile Merge Rule] die u voor het model selecteerde.
 
 De nieuwe voorspellende functies [!UICONTROL traits] en [!UICONTROL segments] hebben dezelfde privacybeperkingen als de samenvoeging van de hierboven beschreven gegevensbronnen van de eerste partij.
 
@@ -146,6 +146,6 @@ Als u een [!UICONTROL Profile Merge Rule] selecteert die zowel apparaatgegevens 
 
 ## [!UICONTROL Role-Based Access Controls] {#rbac}
 
-De eigenschappen en de segmenten die u voor persona&#39;s en publieksclassificatie kiest zijn onderworpen aan Audience Manager [ Op rol-Gebaseerde Controles van de Toegang ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html).
+De eigenschappen en de segmenten die u voor persona&#39;s en publieksclassificatie kiest zijn onderworpen aan Audience Manager [ Op rol-Gebaseerde Controles van de Toegang ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=nl-NL).
 
-De gebruikers van Audience Manager kunnen slechts sporen of segmenten voor persona&#39;s en doelpubliek selecteren, dat zij [ toestemming hebben om ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions) te bekijken.
+De gebruikers van Audience Manager kunnen slechts sporen of segmenten voor persona&#39;s en doelpubliek selecteren, dat zij [ toestemming hebben om ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=nl-NL#wild-card-permissions) te bekijken.

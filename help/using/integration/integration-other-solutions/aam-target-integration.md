@@ -20,7 +20,7 @@ Dankzij deze integratie kunt u Audience Manager-segmenten naar Adobe [!DNL Targe
 
 Een Audience Manager - [!DNL Target] integratie vereist:
 
-* De [ dienst van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html). Als u deze dienst niet gebruikt, zie de [ implementatiegidsen ](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html) om begonnen te worden.
+* De [ dienst van Experience Cloud ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL). Als u deze dienst niet gebruikt, zie de [ implementatiegidsen ](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=nl-NL) om begonnen te worden.
 * [!DNL Profiles and Audiences]. Als u niet bent ingericht voor [!DNL Profiles and Audiences], neemt u contact op met de klantenservice om aan de slag te gaan.
 
 Al uw Audience Manager-segmenten verschijnen in [!DNL Target] kort nadat u deze stappen in het implementatieproces hebt uitgevoerd. Kijk in **[!UICONTROL Audiences > Audience List]** om uw Audience Manager-segmenten in [!DNL Target] weer te geven. Audience Manager-segmenten identificeren op Experience Cloud in de kolom **[!UICONTROL Source]** en op `aam-integration-user@adobe.com` in de kolom **[!UICONTROL Modified]** .

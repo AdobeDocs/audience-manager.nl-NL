@@ -43,9 +43,9 @@ Zie het [Adobe Privacy Center](https://www.adobe.com/nl/privacy/opt-out.html) vo
 
 ## Regelgeving {#compliance}
 
-[!DNL Audience Manager] helpt u aan uw verplichtingen in het kader van bepaalde privacyverordeningen, door privacyhulpmiddelen zoals [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) voor gegevenstoegang voldoen en verzoeken schrappen.
+[!DNL Audience Manager] helpt u aan uw verplichtingen in het kader van bepaalde privacyverordeningen, door privacyhulpmiddelen zoals [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) voor gegevenstoegang voldoen en verzoeken schrappen.
 
-Deze service biedt een [!DNL RESTful API] en een gebruikersinterface voor het beheer van aanvragen in verband met consumentendata. Met behulp van de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) kunt u aanvragen voor toegang tot en verwijdering van persoonlijke data verzenden op aanvraag van een individuele consument.Zo kunt u dit gedeelte van uw nalevingsverplichtingen automatiseren.
+Deze service biedt een [!DNL RESTful API] en een gebruikersinterface voor het beheer van aanvragen in verband met consumentendata. Met behulp van de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) kunt u aanvragen voor toegang tot en verwijdering van persoonlijke data verzenden op aanvraag van een individuele consument.Zo kunt u dit gedeelte van uw nalevingsverplichtingen automatiseren.
 
 Terwijl de de gegevenstoegang en schrappingsverzoeken door Privacy Service worden behandeld, [ opt-out verzoeken ](data-privacy-requests.md#opt-out-requests) momenteel door [ DCS API ](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) worden gesteund. Zie [Data Privacy-aanvragen](data-privacy-requests.md) voor meer informatie.
 

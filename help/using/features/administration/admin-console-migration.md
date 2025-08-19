@@ -39,7 +39,7 @@ Als Audience Manager-gebruiker hoeft u alleen maar contact op te nemen met uw [!
 Audience Manager-beheerders moeten de onderstaande stappen volgen om gebruikers te migreren naar [!DNL Admin Console] .
 
 1. Ga naar [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com) en login gebruikend uw Adobe ID of Enterprise ID. Als u geen toegang hebt tot de [!DNL Admin Console] , neemt u contact op met de klantenservice of uw Adobe-consultant.
-2. Controleer de [!DNL Adobe Admin Console] [ hulpgids ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html) voor gedetailleerde instructies op hoe te om gebruikersrekeningen tot stand te brengen en te beheren.
+2. Controleer de [!DNL Adobe Admin Console] [ hulpgids ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/users.ug.html) voor gedetailleerde instructies op hoe te om gebruikersrekeningen tot stand te brengen en te beheren.
 3. Maak nieuwe gebruikersaccounts voor al je bestaande Audience Manager-gebruikers.
 4. Stel uw gebruikers op de hoogte van de nieuwe gebruikersaccounts. Wanneer gebruikers naar [!DNL Admin Console] zijn gemigreerd, moeten ze geen oude logins meer gebruiken.
 

@@ -59,7 +59,7 @@ In [Addressable Audience](/help/using/features/addressable-audiences.md) staat d
 
 **Klantkenmerken**
 
-Zie [Klantattributen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) in de [!DNL Experience Cloud Core Services]-productdocumentatie.
+Zie [Klantattributen](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=nl-NL) in de [!DNL Experience Cloud Core Services]-productdocumentatie.
 
 
 
@@ -111,7 +111,7 @@ De [!UICONTROL Data Integration Library] is een API-bibliotheek die door [!DNL A
 
 **Experience Cloud ID (ECID)**
 
-Vroeger bekend als de [!DNL Marketing Cloud]-id (MID of MCID). De [!DNL Experience Cloud]-id staat centraal in de id-service. Dit is een unieke en permanente id voor bezoekers van uw website. Zie Cookies en de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
+Vroeger bekend als de [!DNL Marketing Cloud]-id (MID of MCID). De [!DNL Experience Cloud]-id staat centraal in de id-service. Dit is een unieke en permanente id voor bezoekers van uw website. Zie Cookies en de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL).
 
 
 
@@ -268,6 +268,6 @@ TTL bepaalt hoeveel dagen een gekwalificeerde bezoeker in een eigenschap blijft.
 
 De [!DNL Experience Cloud]id-service (voorheen bezoekers-id) verschaft een universele, permanente id aan de hand waarvan uw bezoekers kunnen worden geïdentificeerd in alle oplossingen in de [!DNL Experience Cloud].
 
-Raadpleeg de documentatie bij de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+Raadpleeg de documentatie bij de [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
 
 ## W-X-Y-Z {#w-z}

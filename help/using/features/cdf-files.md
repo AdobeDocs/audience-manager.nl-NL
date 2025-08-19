@@ -111,7 +111,7 @@ Een [!UICONTROL CDF] -bestand bevat enkele of alle hieronder gedefinieerde velde
   <tr> 
    <td colname="col1"> <p><code> MCDevice </code> </p> </td> 
    <td colname="col2"> <p>String </p> </td> 
-   <td colname="col3"> <p>De <span class="keyword"> Experience Cloud </span> -id (MID) die aan de sitebezoeker is toegewezen. Zie ook, <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Dienst van de Identiteit van Adobe Experience Platform </a>. </p> </td> 
+   <td colname="col3"> <p>De <span class="keyword"> Experience Cloud </span> -id (MID) die aan de sitebezoeker is toegewezen. Zie ook, <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL" format="https" scope="external"> Cookies en de Dienst van de Identiteit van Adobe Experience Platform </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> All Segments</code> </p> </td> 
@@ -163,7 +163,7 @@ Hiermee geeft u de gegevensstructuur van een [!UICONTROL CDF] -bestand weer en d
       <li id="li_FE38DA4969EE4E19B39124E77E2EA5F9">Parameters aanvragen </li> 
       <li id="li_9AC25DA883214FBC902D7CE9DACFAE28">Verwijzing </li> 
       <li id="li_BA05F1C33B5B4625B450425FF1911B30">IP-adres </li> 
-      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (of MID). Zie ook, <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Dienst van de Identiteit van Adobe Experience Platform </a> </li> 
+      <li id="li_08E632FB135F42B5830D5CBFE6EE6BE8">Experience Cloud Device ID (of MID). Zie ook, <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL" format="https" scope="external"> Cookies en de Dienst van de Identiteit van Adobe Experience Platform </a> </li> 
       <li id="li_7A05AF4790A1425A90D019681DF4A595">Alle segmenten </li> 
       <li id="li_1B5A6F076A354BA0A931CB260E6D2675">Alle sporen </li> 
      </ol> </p> <p>Voor gebiedsbeschrijvingen, zie <a href="#cdf-defined"> Gedefinieerde Inhoud van de Diervoeders van de Gegevens van de Klant </a>. </p> </td> 

@@ -28,7 +28,7 @@ Antwoorden op algemene vragen of problemen in verband met privacy en data.
 
 **Hoe gebruikt Audience Manager cookies en welke cookies worden ingesteld?**
 
-Zie [Audience Manager-cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html).
+Zie [Audience Manager-cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-am.html?lang=nl-NL).
 
 **Kunnen Audience Manager-clients in de VS gebruikers targeten op EU-eigenschappen?**
 

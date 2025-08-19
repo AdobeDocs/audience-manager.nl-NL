@@ -20,7 +20,7 @@ ht-degree: 2%
 
 ## Een voorspellend model voor soorten publiek maken {#create-predictive-audiences}
 
-Voordat u een [!UICONTROL Predictive Audiences] -model maakt, moet u bepalen aan welke gegevensbron van de eerste partij u de [!UICONTROL Predictive Audiences] -kenmerken en -segmenten wilt toewijzen. U kunt een bestaande bron van eerste-partijgegevens gebruiken, of nieuwe creëren. Zie [ Gegevensbronnen beheren ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html) voor details op hoe te om een nieuwe bron van eerste-partijgegevens tot stand te brengen.
+Voordat u een [!UICONTROL Predictive Audiences] -model maakt, moet u bepalen aan welke gegevensbron van de eerste partij u de [!UICONTROL Predictive Audiences] -kenmerken en -segmenten wilt toewijzen. U kunt een bestaande bron van eerste-partijgegevens gebruiken, of nieuwe creëren. Zie [ Gegevensbronnen beheren ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-sources/manage-datasources.html?lang=nl-NL) voor details op hoe te om een nieuwe bron van eerste-partijgegevens tot stand te brengen.
 
 Volg de onderstaande stappen als u weet welke gegevensbron u wilt gebruiken.
 

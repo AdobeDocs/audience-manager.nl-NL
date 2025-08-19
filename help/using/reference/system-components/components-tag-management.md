@@ -38,7 +38,7 @@ Het clientportaal is de primaire gebruikersinterface (UI) voor tag- en gegevensb
 
 ## DIL/TIM-container {#dil-tim}
 
-Met de [!UICONTROL DIL] -container kunt u [!DNL Audience Manager] -code voor gegevensverzameling op uw website implementeren. [!UICONTROL TIM] is het afgekeurde beheer voor het invoegen van tags. Deze wordt niet meer gebruikt door [!DNL Audience Manager] . In plaats daarvan, gebruikt u de [!DNL Audience Manager] uitbreiding in [ de Markeringen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html) om containercode te vormen en te produceren die u op pagina&#39;s in uw inventaris plaatst.
+Met de [!UICONTROL DIL] -container kunt u [!DNL Audience Manager] -code voor gegevensverzameling op uw website implementeren. [!UICONTROL TIM] is het afgekeurde beheer voor het invoegen van tags. Deze wordt niet meer gebruikt door [!DNL Audience Manager] . In plaats daarvan, gebruikt u de [!DNL Audience Manager] uitbreiding in [ de Markeringen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=nl-NL) om containercode te vormen en te produceren die u op pagina&#39;s in uw inventaris plaatst.
 
 ## Data Integration Library (DIL) {#dil}
 
