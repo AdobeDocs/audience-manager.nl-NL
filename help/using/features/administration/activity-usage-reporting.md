@@ -50,7 +50,7 @@ Wanneer uw rapport is geladen, ziet u een uitsplitsing van uw [!UICONTROL Activi
 [!UICONTROL Activities] definieert het totale totaal van alle onsite en externe interacties met Audience Manager, gesplitst in de volgende categorieën:
 
 * **[!UICONTROL Server Calls]**: elke gebeurtenis voor gegevensverzameling of -herstel die via websites, servers, e-mail, mobiele toepassingen of andere systemen naar Audience Manager wordt verzonden.
-* **[!UICONTROL Pixel Calls](vroeger gekend als [!UICONTROL Impression Server Calls])**: Gegevens die uit advertenties (zoals het beeldvolume van een gericht platform) worden verzameld of e-mailimkopvraag die aan Audience Manager wordt gemaakt. Hiervoor is de aanwezigheid van de parameter `d_event` in de queryreeks vereist.
+* **[!UICONTROL Pixel Calls] (vroeger gekend als [!UICONTROL Impression Server Calls])**: Gegevens die uit advertenties (zoals het beeldvolume van een gericht platform) worden verzameld of e-mailimkopvraag die aan Audience Manager wordt gemaakt. Hiervoor is de aanwezigheid van de parameter `d_event` in de queryreeks vereist.
 * **[!UICONTROL On-Boarded Records]**: Unieke records die u van uw eigen CRM-systeem (customer relationship management system) of andere offlinegegevensbestanden, zoals callcenter-records, apparaat-id&#39;s en aangepaste gegevensfeeds van externe gegevensleveranciers hebt ingesloten.
 * **[!UICONTROL Log File Records]**: Unieke records van logbestanden die vanuit een doelplatform in Audience Manager worden ingevoerd.
 

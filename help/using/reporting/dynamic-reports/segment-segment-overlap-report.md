@@ -76,7 +76,7 @@ De pop-up voor het [!UICONTROL Segment-to-Segment Overlap] rapport bevat de hier
 >
 >* [Resultaten van filterrapporten met dataregelaars](../../reporting/dynamic-reports/data-sliders.md)
 >* [ Vormen, Kleuren, en Grootte die in Interactieve Rapporten ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes) worden gebruikt
->* [ Verklaarde pictogrammen en Hulpmiddelen van het 0} Rapport {](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [ Verklaarde pictogrammen en Hulpmiddelen van het 0&rbrace; Rapport &lbrace;](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Overlaprapporten: updateplanning en minimale segmentgrootte](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [ de Steekproef van Gegevens en de Tarieven van de Fout in de Geselecteerde Rapporten van Audience Manager... ](../../reporting/report-sampling.md)
 >* [CSV-bestanden voor overlaprapporten](../../reporting/dynamic-reports/overlap-csv-files.md)

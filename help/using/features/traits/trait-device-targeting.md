@@ -19,8 +19,8 @@ ht-degree: 1%
 >[!WARNING]
 >
 >Google heeft de functionaliteit van [!DNL Google Chrome] en alle [!DNL Chromium] gebaseerde browsers bijgewerkt om de informatie die via de header `User-Agent` wordt verzameld, tot een minimum te beperken.
->>Beginnend met Maart 2023, steunt Audience Manager deze updates door leveraging [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Om het gebruiken van eigenschapinformatie voort te zetten die via de `User-Agent` kopbal wordt verstrekt, moet u [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) gebruiken en [ Hints van de Cliënt van Entropy Gebruiker-Agent ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en) toelaten.
->>Deze updates worden niet gesteund door [ DIL ](../../../using/dil/dil-overview.md), zodat zullen de klanten van Audience Manager die [!DNL DIL] gebruiken geen trekinformatie via de `User-Agent` kopbal kunnen verzamelen.
+>&#x200B;>Beginnend met Maart 2023, steunt Audience Manager deze updates door leveraging [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en). Om het gebruiken van eigenschapinformatie voort te zetten die via de `User-Agent` kopbal wordt verstrekt, moet u [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en) gebruiken en [ Hints van de Cliënt van Entropy Gebruiker-Agent ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en) toelaten.
+>&#x200B;>Deze updates worden niet gesteund door [ DIL ](../../../using/dil/dil-overview.md), zodat zullen de klanten van Audience Manager die [!DNL DIL] gebruiken geen trekinformatie via de `User-Agent` kopbal kunnen verzamelen.
 
 Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van Audience Manager te richten.
 

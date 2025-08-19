@@ -121,7 +121,7 @@ De pop-up voor het [!UICONTROL Trait-to-Trait Overlap] rapport bevat de hieronde
 >
 >* [Resultaten van filterrapporten met dataregelaars](../../reporting/dynamic-reports/data-sliders.md)
 >* [ Vormen, Kleuren, en Grootte die in Dynamische Rapporten ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes) worden gebruikt
->* [ Verklaarde pictogrammen en Hulpmiddelen van het 0} Rapport {](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [ Verklaarde pictogrammen en Hulpmiddelen van het 0&rbrace; Rapport &lbrace;](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Overlaprapporten: updateplanning en minimale segmentgrootte](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
 >* [ de Steekproef van Gegevens en de Tarieven van de Fout in de Geselecteerde Rapporten van Audience Manager... ](../../reporting/report-sampling.md)
 >* [CSV-bestanden voor overlaprapporten](../../reporting/dynamic-reports/overlap-csv-files.md)

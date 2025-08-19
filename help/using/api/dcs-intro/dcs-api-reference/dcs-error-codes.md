@@ -181,7 +181,7 @@ In de lijsten hieronder, *cursief* vertegenwoordigt veranderlijke placeholder.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Id van klant is verwijderd omdat deze de limiet voor een bepaalde naamruimte overschrijdt. Naamruimte-id is <code><i>ID</i></code> , klant-id is <code><i>ID</i></code> . </p> </td> 
-   <td colname="col3"> <p>Deze foutencode is teruggekeerd als er meer dan 3 klant IDs voor zelfde namespace (<code> DPID</code>) op een <span class="wintitle"> DCS </span> vraag wordt verklaard. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In dit voorbeeld <span class="wintitle"> DCS </span> verzoek, zijn er 4 die identiteitskaart voor zelfde namespace (met de integratiecode wordt verklaard). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
+   <td colname="col3"> <p>Deze foutencode is teruggekeerd als er meer dan 3 klant IDs voor zelfde namespace (<code> DPID</code>) op een <span class="wintitle"> DCS </span> vraag wordt verklaard. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>In dit voorbeeld <span class="wintitle"> DCS </span> verzoek, zijn er 4 die identiteitskaart voor zelfde namespace (met de integratiecode wordt verklaard). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ In de lijsten hieronder, *cursief* vertegenwoordigt veranderlijke placeholder.
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Aanvraag bevat een ongeldige globale apparaat-id </p> </td> 
    <td colname="col3"> <p><span class="wintitle"> DCS </span> keert deze foutencode terug wanneer het verzoek een ongeldige Globale identiteitskaart van het Apparaat bevat. DCS negeert de ongeldige identiteitskaart en werpt een fout 312 samen met de specifieke fouten van ongeldige identiteitskaart Verwijs naar <a href="../../../features/global-data-sources.md" format="dita" scope="local"> Globale Gegevensbronnen </a> en <a href="../../../reference/ids-in-aam.md" format="dita" scope="local"> Index van IDs in Audience Manager </a> voor gedetailleerde informatie over de correcte formaten van identiteitskaart van de apparatenreclame en overeenkomstige globale gegevensbronnen.</p>
-   <p>Voorbeeld van een onjuiste aanroep: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Voorbeeld van een onjuiste aanroep: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Uitleg: Een <span class="keyword"> IDFA (DPID 20915) </span> moet een hoofdletteridentiteitskaart zijn. De id in het verzoek is in kleine letters.</p>
    </td>
   </tr>

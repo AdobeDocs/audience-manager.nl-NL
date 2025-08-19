@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u uw Audience Manager-kenmerken en -segmenten delen met Adobe Experience Platform- en Experience Platform-segmenten naar Audience Manager.
 
-U hebt [[!DNL Audience Manager source connector] ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) en [ het 3} doel van het publiek van Experience Cloud {in Experience Platform nodig om publiek toe te laten delend tussen Audience Manager en Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
+U hebt [[!DNL Audience Manager source connector] ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) en [ het 3&rbrace; doel van het publiek van Experience Cloud &lbrace;in Experience Platform nodig om publiek toe te laten delend tussen Audience Manager en Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
 
 U kunt de eigenschappen en de segmenten van Audience Manager in Experience Platform gebruiken om de gegevens van Audience Manager aan uw klantenprofielen toe te voegen en van de Experience Platform [ segmenteringsdienst ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en) te profiteren.
 
@@ -74,7 +74,7 @@ In de volgende secties wordt beschreven hoe u het delen van gegevens van Experie
 
 >[!IMPORTANT]
 >
-> In deze sectie wordt de integratie beschreven van Experience Platform tot Audience Manager voor het delen van oudere segmenten. U kunt deze integratie nu instellen zonder ondersteuning van Adobe-vertegenwoordigers voor klanten. Voor meer informatie, lees de [ bestemmingsdocumentatie van het publiek 0} Experience Cloud.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
+> In deze sectie wordt de integratie beschreven van Experience Platform tot Audience Manager voor het delen van oudere segmenten. U kunt deze integratie nu instellen zonder ondersteuning van Adobe-vertegenwoordigers voor klanten. Voor meer informatie, lees de [ bestemmingsdocumentatie van het publiek 0&rbrace; Experience Cloud.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
 
 >[!NOTE]
 >

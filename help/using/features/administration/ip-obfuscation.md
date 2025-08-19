@@ -48,7 +48,7 @@ Volg de stappen hieronder om IP adresverwarring te vormen.
 1. Login aan Audience Manager met een beheerderrekening en ga naar **Beleid > Privacy**.
 2. Kies het type van IP verduistering dat u wilt gebruiken.
    1. **verduisteren alle IP adressen:** selecteer deze optie om Audience Manager te hebben verduisteren het laatste octet van alle bezoekerIP adressen, ongeacht het gebied zij uit voortkomen.
-   2. **Obfuscate IP adressen voor specifieke landen:** selecteer deze optie om Audience Manager te hebben verduisteren het laatste octet van bezoekerIP adressen voor specifieke landen. Gebruik de **Lijst van Landen** of het overeenkomstige **3} gebied van het Onderzoek {om de landen te vinden om IP verwarring voor toe te laten, en + pictogram te klikken om hen aan** toe te voegen Geselecteerd voor de lijst van de Verduistering **.** Zodra u alle vereiste landen aan **selecteerde voor Verduistering** lijst hebt toegevoegd, klik **sparen**.
+   2. **Obfuscate IP adressen voor specifieke landen:** selecteer deze optie om Audience Manager te hebben verduisteren het laatste octet van bezoekerIP adressen voor specifieke landen. Gebruik de **Lijst van Landen** of het overeenkomstige **3&rbrace; gebied van het Onderzoek &lbrace;om de landen te vinden om IP verwarring voor toe te laten, en + pictogram te klikken om hen aan** toe te voegen Geselecteerd voor de lijst van de Verduistering **.** Zodra u alle vereiste landen aan **selecteerde voor Verduistering** lijst hebt toegevoegd, klik **sparen**.
 
 ![](assets/ip-obfuscation.png)
 

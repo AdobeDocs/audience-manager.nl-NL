@@ -36,7 +36,7 @@ Wanneer u een [!DNL URL] -doel maakt, kunt u de volgende macro&#39;s in de [!DNL
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <code> %alias%</code> </p> </td> 
-   <td colname="col2"> <p>Vereist. </p> <p>Bepaalt de plaats van de in kaart gebrachte segmentwaarde in een bestemmingsURL. Gewoonlijk is dit identiteitskaart van het 1} Segment <i>, maar kon ook de integratiecode zijn.</i> </p> </td> 
+   <td colname="col2"> <p>Vereist. </p> <p>Bepaalt de plaats van de in kaart gebrachte segmentwaarde in een bestemmingsURL. Gewoonlijk is dit identiteitskaart van het 1&rbrace; Segment <i>, maar kon ook de integratiecode zijn.</i> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <code> %did%</code> </p> </td> 

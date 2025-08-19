@@ -33,7 +33,7 @@ Een [!DNL Google Ads] lijst voor opnieuw in de handel brengen instellen als een 
 1. In Audience Manager, [ creeer a  [!DNL URL destination]](../../features/destinations/create-url-destination.md) of geef bestaand uit [!DNL destination]. Gebruik de volgende instellingen bij het maken van de [!DNL destination] :
    * Type: URL
    * Serialiseren: Ingeschakeld
-   * Scheidingsteken: puntkomma (&amp;puntkomma; )
+   * Scheidingsteken: puntkomma (&puntkomma; )
 
 1. Voeg in de sectie [!UICONTROL Segment Mappings] van de [!DNL URL] [!DNL destination] -sectie de code uit stap 2 toe aan de velden [!DNL URL] en [!DNL Secure URL] . Plaats een voorvoegsel voor de code tussen `http:` en `https:` in respectievelijk de velden [!DNL URL] en [!DNL Secure URL] .
 

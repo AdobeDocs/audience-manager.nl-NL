@@ -25,7 +25,7 @@ Een [!UICONTROL folder trait] wordt automatisch gecreeerd wanneer u een nieuwe o
 
 <!-- create-folder-trait.xml -->
 
-1. Ga naar **[!UICONTROL Audience Data > Traits]** om aan het **** dashboard van Tonen {te navigeren.
+1. Ga naar **[!UICONTROL Audience Data > Traits]** om aan het **&#x200B;**&#x200B;dashboard van Tonen &lbrace;te navigeren.
 1. Houd de muisaanwijzer boven [!UICONTROL Trait Storage] in het venster:
 
    * Tekst Alle sporen om een nieuwe hoofdmap toe te voegen.
@@ -62,7 +62,7 @@ Verwijder een mapkenmerk door de opslagmap te verwijderen waartoe de eigenschap 
 
 <!-- delete-folder-trait.xml -->
 
-1. **Gegevens van het publiek > Trekken** om aan het **** dashboard van Tonen {te navigeren.
+1. **Gegevens van het publiek > Trekken** om aan het **&#x200B;**&#x200B;dashboard van Tonen &lbrace;te navigeren.
 1. Verwijder in het [!UICONTROL Trait Storage] -venster een map door de muisaanwijzer boven de map te houden en op het X-pictogram te klikken.
 
    ![ Resultaat van de Stap ](assets/folder_traits_create.PNG)

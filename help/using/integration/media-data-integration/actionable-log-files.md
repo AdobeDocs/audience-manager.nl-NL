@@ -62,7 +62,7 @@ De signalen zijn de [ kleinste gegevenseenheden ](../../reference/signal-trait-s
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] worden ondersteund voor de volgende advertentieservers:
->> <br>
+>&#x200B;> <br>
 >
 > * [ de Manager van de Campagne van Google ](#dcm-logs-signals)
 > * [ Google Advertentiemanager ](#ad-manager-logs-signals)
@@ -209,7 +209,7 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ### Handbare signalen van Adobe Advertising Cloud, Flash Talk en Sizmek en server logs {#generic-logs-signals}
 
-Eerst moet u uw aanmeldingen bij de advertentieserver deponeren in de Amazon S3-emmers. Om dit te verwezenlijken, lees {de Dossiers van 0} Gegevens voor de Rapporten van Audience Optimization en de Geschikte Dossiers van het Logboek [ ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) en *contacteer uw* adviseur. [!DNL Audience Manager] De tabel bevat een lijst met actiemogelijkheden van logbestanden van advertentieservers:
+Eerst moet u uw aanmeldingen bij de advertentieserver deponeren in de Amazon S3-emmers. Om dit te verwezenlijken, lees {de Dossiers van 0} Gegevens voor de Rapporten van Audience Optimization en de Geschikte Dossiers van het Logboek [&#128279;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md) en *contacteer uw* adviseur. [!DNL Audience Manager] De tabel bevat een lijst met actiemogelijkheden van logbestanden van advertentieservers:
 
 <table id="table_A5A2A10D471C4C9D8DCD88F9C017040C"> 
  <thead> 

@@ -31,7 +31,7 @@ Het is van essentieel belang dat onze klanten aangepaste segmenten en gegevensmo
 
 ## De taxonomie gebruikt industriestandaard classificatiecategorieën
 
-De gemeenschappelijke taxonomie is gebaseerd op de classificaties die door [!DNL Interactive Advertising Bureau (IAB)] worden gecreeerd. Verwijs naar de [!DNL IAB] website van [ ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) voor meer informatie over de richtlijnen van de kwaliteitsgarantie voor netwerken en uitwisselingen.
+De gemeenschappelijke taxonomie is gebaseerd op de classificaties die door [!DNL Interactive Advertising Bureau (IAB)] worden gecreeerd. Verwijs naar de [!DNL IAB] website van [&#128279;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) voor meer informatie over de richtlijnen van de kwaliteitsgarantie voor netwerken en uitwisselingen.
 
 ## Taxonomische organisatie
 

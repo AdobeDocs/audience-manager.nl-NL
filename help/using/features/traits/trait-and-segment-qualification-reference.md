@@ -19,7 +19,7 @@ ht-degree: 0%
 
 De kwalificatie van het spoor, of de verwezenlijking van het bezit, wordt behandeld verschillend in Audience Manager, afhankelijk van het handelstype. Zie [ Kwalificatie van het Beetje door Type van het Spoor ](#trait-type) voor details over het type van eigenschap kwalificatie.
 
-Bovendien, zie {de Bevolking van het segment in real time en de Totale Bevolking van het Segment [ voor details over segmentkwalificatie.](#real-time-segment)
+Bovendien, zie &lbrace;de Bevolking van het segment in real time en de Totale Bevolking van het Segment [ voor details over segmentkwalificatie.](#real-time-segment)
 
 
 
@@ -28,7 +28,7 @@ Bovendien, zie {de Bevolking van het segment in real time en de Totale Bevolking
 | Type overtrek | Kwalificatiecriteria |
 |---|---|
 | Op regels gebaseerde tradities | De vakkwalificatie gebeurt in real time, aangezien de gebruikers voor een eigenschap in hun browser kwalificeren. Uw gebruikers zullen beginnen kwalificerend voor een op regel-gebaseerd bezit ongeveer 4 uren nadat u [ het spoor ](create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) in UI creeert. Op regel-gebaseerde treinen staan u toe om [ recentie en frequentie ](../segments/recency-and-frequency.md) controles voor het afvangen van frequentie en andere gebruiksgevallen te gebruiken. |
-| Treinen aan boord | De kwalificatie van het spoor gebeurt nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt ingevoerd in Audience Manager [ ](../../faq/faq-inbound-data-ingestion.md) en dat is wanneer de vakkwalificatie gebeurt. U moet ongeveer 4 uur wachten nadat u een ingebouwd kenmerk hebt gemaakt voordat u een binnenkomend bestand uploadt voor verwerking. Voor niet-geregistreerde kenmerken is het maximumaantal kwalificaties voor een gebruikersprofiel 1. |
+| Treinen aan boord | De kwalificatie van het spoor gebeurt nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt ingevoerd in Audience Manager [&#128279;](../../faq/faq-inbound-data-ingestion.md) en dat is wanneer de vakkwalificatie gebeurt. U moet ongeveer 4 uur wachten nadat u een ingebouwd kenmerk hebt gemaakt voordat u een binnenkomend bestand uploadt voor verwerking. Voor niet-geregistreerde kenmerken is het maximumaantal kwalificaties voor een gebruikersprofiel 1. |
 | Algorithmic Traits | Voor algoritmische kenmerken is het maximumaantal kwalificaties voor een gebruikersprofiel 1. |
 | Maptrajecten | Een mapkenmerk geeft een overzicht van de kwalificaties van de kenmerken die het bevat. Lees [ de Tanden van de Omslag: Ongeveer ](about-folder-traits.md) voor meer informatie. |
 | Actieve doelgroepen en gesynchroniseerde gegevensstromen van Source | Een [!UICONTROL Active Audience] -kenmerk bevat alle apparaten die in uw Audience Manager-account worden beheerd. [!UICONTROL Data Source Synced Traits] houdt alle gebruikers bij die aan een gegevensbron zijn gekoppeld. Lees meer over [ de Actieve Traits van het Publiek en Gegevens Source Gesynchroniseerde Tanden ](client-activity-synced-audience-traits.md). |
@@ -65,7 +65,7 @@ Elke verandering in de realisatie van de eigenschap weerspiegelt in segmentpopul
 
 [!UICONTROL Total Segment Population] telt het aantal apparaten die voor het geselecteerde segment binnen de geselecteerde tijdwaaier gekwalificeerd hebben. Het [!UICONTROL 1 Day] rapport vertegenwoordigt het meest bijgewerkte aantal segmentpopulaties.
 
-Denk aan de cijfers op deze manier. In het beeld hierboven, van de [ mening van de Details van het 1} Segment ](../../features/segments/segment-summary-view.md), vertegenwoordigt 9.993 het aantal actieve apparaten, die uw eigenschappen gisteren bezochten, en voor het segment gekwalificeerd. De [!UICONTROL Total Segment Population] van 699.532 staat voor het totale aantal apparaten dat momenteel voor dit segment is gekwalificeerd. De [!UICONTROL Total Segment Population] figuur is bedoeld om het totale aantal apparaten te tonen dat voor segmentatie/het richten zou kunnen worden gebruikt.
+Denk aan de cijfers op deze manier. In het beeld hierboven, van de [ mening van de Details van het 1&rbrace; Segment ](../../features/segments/segment-summary-view.md), vertegenwoordigt 9.993 het aantal actieve apparaten, die uw eigenschappen gisteren bezochten, en voor het segment gekwalificeerd. De [!UICONTROL Total Segment Population] van 699.532 staat voor het totale aantal apparaten dat momenteel voor dit segment is gekwalificeerd. De [!UICONTROL Total Segment Population] figuur is bedoeld om het totale aantal apparaten te tonen dat voor segmentatie/het richten zou kunnen worden gebruikt.
 
 Omdat we twee verschillende computertaken uitvoeren om de twee populaties te berekenen, loopt [!UICONTROL Total Segment Population] altijd 24 uur achter op de [!UICONTROL Real-time Segment Population] . In de bovenstaande grafiek ziet u een [!UICONTROL Real-time Segment Population] van 742.000  en een [!UICONTROL Total Segment Population] van 742.000 voor 2 februari. De volgende dag worden de 8.116 profielen toegevoegd aan [!UICONTROL Total Segment Population] .
 

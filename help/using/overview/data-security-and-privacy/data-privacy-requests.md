@@ -28,15 +28,15 @@ We adviseren u om voor het lezen van het artikel de [Verklarende woordenlijst GD
 U kunt op twee manieren individuele verzoeken verzenden om consumentengegevens vanuit [!DNL Audience Manager] te openen en te verwijderen:
 
 * Via de [Privacy Service-gebruikersinterface](https://privacyui.cloud.adobe.io/). Zie de documentatie [hier](https://docs.adobe.com/content/help/nl-NL/experience-platform/privacy/home.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md).
-* Via de **[!DNL Privacy Service API]**. Zie hier de documentatie [ ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) en [!DNL API] verwijzing [ ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+* Via de **[!DNL Privacy Service API]**. Zie hier de documentatie [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) en [!DNL API] verwijzing [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
-Wanneer het verzenden van individuele verzoeken van de gegevensprivacy, kunt u om het even welke [!DNL Audience Manager] herkenningstekens (IDs) voorleggen, zoals die in de **[2} sectie van de Herkenningstekens van Audience Manager wordt beschreven, samen met hun respectieve namespace IDs (gegevensbron IDs).](data-privacy-ids.md)**
+Wanneer het verzenden van individuele verzoeken van de gegevensprivacy, kunt u om het even welke [!DNL Audience Manager] herkenningstekens (IDs) voorleggen, zoals die in de **[2&rbrace; sectie van de Herkenningstekens van Audience Manager wordt beschreven, samen met hun respectieve namespace IDs (gegevensbron IDs).](data-privacy-ids.md)**
 
 De [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) ondersteunt twee typen aanvragen: aanvragen voor datatoegang en aanvragen voor dataverwijdering.
 
 ## Verzoeken om gegevenstoegang {#access-data}
 
-U kunt individuele verzoeken van de gegevenstoegang door [ Privacy Service UI ](https://privacyui.cloud.adobe.io) verzenden (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) of door Privacy Service API te roepen (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) en [!DNL API] verwijzing [ ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+U kunt individuele verzoeken van de gegevenstoegang door [ Privacy Service UI ](https://privacyui.cloud.adobe.io) verzenden (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) of door Privacy Service API te roepen (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) en [!DNL API] verwijzing [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Met de [Privacy Service-gebruikersinterface](https://privacyui.cloud.adobe.io/) kunt u nieuwe taakaanvragen maken met de [!UICONTROL Request Builder] of door een [!DNL JSON]-bestand te uploaden.
 
@@ -46,7 +46,7 @@ We begrijpen dat u streeft naar de honorering van uw Data Privacy-aanvragen binn
 
 ## Verzoeken om gegevens te verwijderen {#delete-data}
 
-U kunt verzoeken van de gegevensschrapping door [ Privacy Service UI ](https://privacyui.cloud.adobe.io) (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) of door Privacy Service API te roepen (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) en [!DNL API] verwijzing [ ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+U kunt verzoeken van de gegevensschrapping door [ Privacy Service UI ](https://privacyui.cloud.adobe.io) (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) of door Privacy Service API te roepen (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) en [!DNL API] verwijzing [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Met de [Privacy Service-gebruikersinterface](https://privacyui.cloud.adobe.io/) kunt u nieuwe taakaanvragen maken met de [!UICONTROL Request Builder] of door een [!DNL JSON]-bestand te uploaden.
 

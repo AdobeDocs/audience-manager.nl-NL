@@ -36,7 +36,7 @@ Er zijn twee methoden om het doorsturen van gegevens van [!DNL Adobe Analytics] 
 
 ### Implementatie met [!DNL Adobe Experience Platform Tags]
 
-[!DNL Adobe] adviseert u de [ 2} uitbreiding van Markeringen {aan instrument ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) en [!DNL Adobe Analytics] op uw eigenschappen gebruikt. [!DNL Audience Manager] In dit geval hoeft u geen code handmatig te kopiëren. In plaats daarvan moet u gegevensdeling inschakelen in de extensie [!DNL Analytics] , zoals in de onderstaande afbeelding wordt getoond. Zie ook de [ documentatie van de Uitbreiding van 0} Adobe Analytics.](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html#adobe-audience-manager)
+[!DNL Adobe] adviseert u de [ 2&rbrace; uitbreiding van Markeringen {aan instrument ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) en [!DNL Adobe Analytics] op uw eigenschappen gebruikt. [!DNL Audience Manager] In dit geval hoeft u geen code handmatig te kopiëren. In plaats daarvan moet u gegevensdeling inschakelen in de extensie [!DNL Analytics] , zoals in de onderstaande afbeelding wordt getoond. Zie ook de [ documentatie van de Uitbreiding van 0} Adobe Analytics.](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html#adobe-audience-manager)
 
 >[!TIP]
 >

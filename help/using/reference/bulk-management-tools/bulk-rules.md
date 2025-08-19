@@ -38,7 +38,7 @@ In uw aantekenvel, keert de de regelkolom van de eigenschap terug en keurt regel
 
 ## Voorbeeld van een regelbouwer {#rule-builder-example}
 
-Neem een voorbeeld dat aantoont hoe te om [!UICONTROL Segment Builder] te gebruiken om een regel tot stand te brengen u aan het bulkaantekenvel kunt. Nochtans, is dit geen reeks geleidelijke instructies voor die hulpmiddelen. In plaats daarvan beginnen we met een eenvoudige regel die al is gemaakt. Voor instructies over hoe te om de regelbouwers te gebruiken zie [ de Bouwer van het Segment van 0} en ](../../features/segments/segment-builder.md) Trait Builder [.](../../features/traits/about-trait-builder.md)
+Neem een voorbeeld dat aantoont hoe te om [!UICONTROL Segment Builder] te gebruiken om een regel tot stand te brengen u aan het bulkaantekenvel kunt. Nochtans, is dit geen reeks geleidelijke instructies voor die hulpmiddelen. In plaats daarvan beginnen we met een eenvoudige regel die al is gemaakt. Voor instructies over hoe te om de regelbouwers te gebruiken zie [ de Bouwer van het Segment van 0&rbrace; en ](../../features/segments/segment-builder.md) Trait Builder [.](../../features/traits/about-trait-builder.md)
 
 Met de visuele regelbouwer, hebben wij een segmentregel met 3 eigenschappen en een exploitant Van Boole [!UICONTROL AND] gecreeerd.
 

@@ -33,9 +33,9 @@ Neem nota van het volgende wanneer het werken met [ Audience Manager API ](https
 
 De [!DNL Audience Manager] [!DNL REST APIs] ondersteunt drie verificatiemethoden.
 
-* [!BADGE  geadviseerde ]{type=positive} [ OAuth Server-aan-Server Authentificatie ](#oauth-adobe-developer) gebruikend [ de ontwikkelaarsconsole van Adobe ](https://www.adobe.io/). [!DNL Adobe Developer] is het Adobe-ontwikkelaarsecosysteem en -gemeenschap. Het omvat [ APIs voor alle producten van Adobe ](https://developer.adobe.com/apis/). Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs] in te stellen en te gebruiken. Lees meer over [ Server-aan-Server Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) OAuth in de de ontwikkelaarsdocumentatie van Adobe.
-* [!BADGE  Vervangen ]{type=negative} [ JWT (de Rekening van de Dienst) Authentificatie ](#jwt) gebruikend [ de ontwikkelaarsconsole van Adobe ](https://www.adobe.io/). [!DNL Adobe Developer] is het Adobe-ontwikkelaarsecosysteem en -gemeenschap. Het omvat [ APIs voor alle producten van Adobe ](https://developer.adobe.com/apis/).
-* [!BADGE  Vervangen ]{type=negative} [ Verouderde OAuth Authentificatie ](#oauth-deprecated). Hoewel deze methode is afgekeurd, kunnen klanten met bestaande [!DNL OAuth] -integratie deze methode blijven gebruiken.
+* [!BADGE &#x200B; geadviseerde &#x200B;]{type=positive} [ OAuth Server-aan-Server Authentificatie ](#oauth-adobe-developer) gebruikend [ de ontwikkelaarsconsole van Adobe ](https://www.adobe.io/). [!DNL Adobe Developer] is het Adobe-ontwikkelaarsecosysteem en -gemeenschap. Het omvat [ APIs voor alle producten van Adobe ](https://developer.adobe.com/apis/). Dit is de aanbevolen manier om [!DNL Adobe] [!DNL APIs] in te stellen en te gebruiken. Lees meer over [ Server-aan-Server Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/) OAuth in de de ontwikkelaarsdocumentatie van Adobe.
+* [!BADGE &#x200B; Vervangen &#x200B;]{type=negative} [ JWT (de Rekening van de Dienst) Authentificatie ](#jwt) gebruikend [ de ontwikkelaarsconsole van Adobe ](https://www.adobe.io/). [!DNL Adobe Developer] is het Adobe-ontwikkelaarsecosysteem en -gemeenschap. Het omvat [ APIs voor alle producten van Adobe ](https://developer.adobe.com/apis/).
+* [!BADGE &#x200B; Vervangen &#x200B;]{type=negative} [ Verouderde OAuth Authentificatie ](#oauth-deprecated). Hoewel deze methode is afgekeurd, kunnen klanten met bestaande [!DNL OAuth] -integratie deze methode blijven gebruiken.
 
 >[!IMPORTANT]
 >
@@ -211,7 +211,7 @@ Wanneer het gebruiken van een werkend toegangstoken, keert het API eindpunt een 
 
 >[!ENDSHADEBOX]
 
-## [!BADGE  Vervangen ]{type=negative} [!DNL JWT] ([!DNL Service Account]) Authentificatie die Adobe Developer gebruikt {#jwt}
+## [!BADGE &#x200B; Vervangen &#x200B;]{type=negative} [!DNL JWT] ([!DNL Service Account]) Authentificatie die Adobe Developer gebruikt {#jwt}
 
 +++ Informatie weergeven over de afgekeurde methode [!DNL JWT] ([!DNL Service Account] ) voor het verkrijgen van verificatietokens.
 
@@ -252,7 +252,7 @@ Voer de onderstaande stappen uit om een technische gebruikersaccount te maken en
 
 +++
 
-## [!BADGE  Vervangen ]{type=negative} [!DNL OAuth] Authentificatie (Vervangen) {#oauth-deprecated}
+## [!BADGE &#x200B; Vervangen &#x200B;]{type=negative} [!DNL OAuth] Authentificatie (Vervangen) {#oauth-deprecated}
 
 +++ Informatie weergeven over de vervangen verificatiemethode van [!DNL OAuth] voor het verkrijgen van verificatietokens.
 
@@ -402,7 +402,7 @@ In de volgende tabel wordt de aanvraag [!DNL URLs] weergegeven die wordt gebruik
 
 Afhankelijk van de verificatiemethode die u gebruikt, moet u uw verzoek [!DNL URLs] aanpassen aan de hand van de onderstaande tabellen.
 
-### Verzoek [!DNL URLs] voor [!BADGE  Geadviseerde ]{type=positive} Server-aan-Server en [!BADGE  Vervangen ]{type=negative} [!DNL JWT] Authentificatie door Adobe Developer {#request-urls-jwt}
+### Verzoek [!DNL URLs] voor [!BADGE &#x200B; Geadviseerde &#x200B;]{type=positive} Server-aan-Server en [!BADGE &#x200B; Vervangen &#x200B;]{type=negative} [!DNL JWT] Authentificatie door Adobe Developer {#request-urls-jwt}
 
 | [!DNL API] Methoden | Verzoek [!DNL URL] |
 |--- |--- |
@@ -420,7 +420,7 @@ Afhankelijk van de verificatiemethode die u gebruikt, moet u uw verzoek [!DNL UR
 
 {style="table-layout:auto"}
 
-### Verzoek [!DNL URLs] voor [!BADGE  Afgekeurde ]{type=negative} erfenis [!DNL OAuth] Authentificatie {#request-urls-oauth}
+### Verzoek [!DNL URLs] voor [!BADGE &#x200B; Afgekeurde &#x200B;]{type=negative} erfenis [!DNL OAuth] Authentificatie {#request-urls-oauth}
 
 | [!DNL API] Methoden | Verzoek [!DNL URL] |
 |--- |--- |

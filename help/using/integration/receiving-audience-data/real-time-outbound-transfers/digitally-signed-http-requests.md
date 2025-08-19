@@ -85,7 +85,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-RFC voor de [!DNL HMAC] knoeiboelimplementatie is [ https://www.ietf.org/rfc/rfc2104.txt ](https://www.ietf.org/rfc/rfc2104.txt). Een testplaats: [ https://asecuritysite.com/encryption/hmac ](https://asecuritysite.com/encryption/hmac) (merk op dat u [ ](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) hexcodering in base64 moet omzetten).
+RFC voor de [!DNL HMAC] knoeiboelimplementatie is [ https://www.ietf.org/rfc/rfc2104.txt ](https://www.ietf.org/rfc/rfc2104.txt). Een testplaats: [ https://asecuritysite.com/encryption/hmac ](https://asecuritysite.com/encryption/hmac) (merk op dat u [&#128279;](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) hexcodering in base64 moet omzetten).
 
 ## De persoonlijke sleutel roteren {#rotate-private-key}
 

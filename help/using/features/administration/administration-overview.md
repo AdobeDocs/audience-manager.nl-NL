@@ -34,7 +34,7 @@ Met de opties in het menu [!UICONTROL Administration] kunt u Audience Manager-ge
 
 Enterprise-klanten die [!DNL Audience Manager] gebruiken, hebben één platform voor gegevensbeheer nodig voor al hun gegevens, maar moeten de zichtbaarheid van de verschillende gegevenselementen voor specifieke bedrijfseenheden kunnen beheren. U kunt dit verwezenlijken gebruikend groepstoestemmingen, die ook als [!UICONTROL Role-Based Access Control] worden bedoeld ([!UICONTROL RBAC]).
 
-[!DNL Audience Manager] gebruikt groepen om machtigingen toe te wijzen. Machtigingen worden niet op gebruikersniveau toegewezen. Groepmachtigingen zijn gekoppeld aan objecten ([!UICONTROL traits], segmenten, enzovoort) en aan handelingen die u op die objecten kunt uitvoeren (bewerken, weergeven, enz.). Deze besturingselementen zijn ook beschikbaar via de Audience Manager REST API&#39;s. Zie [ Beheer van de Gebruiker 0}, ](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md) Beheer van de Groep [, en ](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) het Beheer van toestemmingen [ API methodes.](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
+[!DNL Audience Manager] gebruikt groepen om machtigingen toe te wijzen. Machtigingen worden niet op gebruikersniveau toegewezen. Groepmachtigingen zijn gekoppeld aan objecten ([!UICONTROL traits], segmenten, enzovoort) en aan handelingen die u op die objecten kunt uitvoeren (bewerken, weergeven, enz.). Deze besturingselementen zijn ook beschikbaar via de Audience Manager REST API&#39;s. Zie [ Beheer van de Gebruiker 0&rbrace;, ](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md) Beheer van de Groep [, en ](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) het Beheer van toestemmingen [ API methodes.](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
 
 ## Gebruikers maken {#create-users}
 
@@ -46,7 +46,7 @@ Enterprise-klanten die [!DNL Audience Manager] gebruiken, hebben één platform 
 > 
 > Nadat alle klanten zijn gemigreerd, zal de sectie van het gebruikersbeheer van dit document weggaan.
 > 
-Maak gebruikers in [!DNL Audience Manager] en geef gebruikersgegevens, aanmeldingsstatus en wijs gebruikers toe aan groepen.
+>Maak gebruikers in [!DNL Audience Manager] en geef gebruikersgegevens, aanmeldingsstatus en wijs gebruikers toe aan groepen.
 
 1. Klik op **[!UICONTROL Administration]** > **[!UICONTROL Users]** .
 1. Klik op ![](assets/icon_add.png) om de pagina [!UICONTROL Create New User] weer te geven.

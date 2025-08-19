@@ -26,7 +26,7 @@ c_compcollect.xml
 
 Audience Manager bevat de volgende componenten voor gegevensverzameling:
 
-* {de Servers van de Inzameling van 0} Gegevens (DCS) en de Servers van het Geheime voorgeheugen van het Profiel (PCS) [](../../reference/system-components/components-data-collection.md#dcs-pcs)
+* {de Servers van de Inzameling van 0} Gegevens (DCS) en de Servers van het Geheime voorgeheugen van het Profiel (PCS) [&#128279;](../../reference/system-components/components-data-collection.md#dcs-pcs)
 * [ Data Integration Library (DIL) ](../../reference/system-components/components-data-collection.md#dil)
 * [ Binnenkomende Server-aan-Server ](../../reference/system-components/components-data-collection.md#inbound-outbound-server)
 * [Logbestanden](../../reference/system-components/components-data-collection.md#log-files)
