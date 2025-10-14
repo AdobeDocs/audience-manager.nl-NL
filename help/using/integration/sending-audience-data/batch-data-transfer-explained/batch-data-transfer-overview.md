@@ -33,7 +33,7 @@ Belangrijke overwegingen over deze stap:
 * **sluit [!DNL PII] uit:** Gebruiker IDs moet geen persoonlijk identificeerbare informatie ([!DNL PII]) bevatten.
 * **Geval en inhoudsgevoeligheid:** tijdens een gegevenssynchronisatie in real time, gebruiker IDs die van uw plaats door [!DNL Audience Manager] wordt gevangen moet beantwoorden aan IDs die van uw off-line bewaarplaats wordt overgegaan. Als offlinerecords bijvoorbeeld informatie bevatten over [!DNL User123] , maar uw site geeft die id weer als [!DNL USER123] , dan ziet [!DNL Audience Manager] deze als verschillende bezoekers. Hierdoor kan de online-informatie voor deze bezoeker niet worden gekoppeld aan de corresponderende records in uw offlinedatabase. Id&#39;s moeten exact overeenkomen.
 
-Zie [ Synchronisatie van identiteitskaart voor Binnenkomende Overdrachten van Gegevens ](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
+Zie [&#x200B; Synchronisatie van identiteitskaart voor Binnenkomende Overdrachten van Gegevens &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/id-sync-http.md).
 
 ## Stap 2: Gegevensbestandsindeling
 
@@ -59,4 +59,4 @@ Wanneer u offline gegevens online brengt, kunt u deze informatie voor offlinecam
 
 ## Verdere technische lezing
 
-De ingenieurs van systemen, ontwikkelaars, of de technische/implementatieteams zouden [ beschreven Proces van de Overdracht van Gegevens van de Partij ](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) en de andere artikelen in deze sectie moeten herzien. Deze artikelen bevatten informatie over overdrachtprotocollen, bestandsinhoud en vereisten voor bestandsnamen.
+De ingenieurs van systemen, ontwikkelaars, of de technische/implementatieteams zouden [&#x200B; beschreven Proces van de Overdracht van Gegevens van de Partij &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) en de andere artikelen in deze sectie moeten herzien. Deze artikelen bevatten informatie over overdrachtprotocollen, bestandsinhoud en vereisten voor bestandsnamen.

@@ -34,7 +34,7 @@ In de volgende tabel worden de algemene gegevensbronnen beschreven die door Audi
 
 ## Gegevens uit globale gegevensbronnen importeren
 
-U kunt apparaat IDs van globale gegevensbronnen door zowel [ gegevensoverdracht in real time ](../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md) als [ partij gegevensoverdracht ](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) invoeren.
+U kunt apparaat IDs van globale gegevensbronnen door zowel [&#x200B; gegevensoverdracht in real time &#x200B;](../integration/sending-audience-data/real-time-data-integration/real-time-data-transfer.md) als [&#x200B; partij gegevensoverdracht &#x200B;](../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-explained.md) invoeren.
 
 >[!IMPORTANT]
 >
@@ -46,14 +46,14 @@ Op apparaten die [!DNL iOS] en [!DNL Android] in werking stellen, slechts kunnen
 
 ## Validatie van algemene apparaat-id
 
-Audience Manager valideert de apparaat advertentie-id&#39;s ([!UICONTROL DAID]) die door klanten zijn geïmporteerd, op basis van hun indeling, om ervoor te zorgen dat deze overeenkomen met de standaardindeling die door apparaatfabrikanten wordt beschreven. Zie [ Index van IDs in Audience Manager ](../reference/ids-in-aam.md) voor een gedetailleerde afbeelding van apparaat reclame IDs aan globale gegevensbronnen en het juiste formaat voor elke identiteitskaart. Zorg ervoor dat u apparaat-id&#39;s in de juiste indeling importeert op basis van het apparaattype. Audience Manager wijst apparaat-id&#39;s die niet aan de juiste indeling voldoen af en retourneert een foutbericht om aan te geven dat de id is afgewezen.
+Audience Manager valideert de apparaat advertentie-id&#39;s ([!UICONTROL DAID]) die door klanten zijn geïmporteerd, op basis van hun indeling, om ervoor te zorgen dat deze overeenkomen met de standaardindeling die door apparaatfabrikanten wordt beschreven. Zie [&#x200B; Index van IDs in Audience Manager &#x200B;](../reference/ids-in-aam.md) voor een gedetailleerde afbeelding van apparaat reclame IDs aan globale gegevensbronnen en het juiste formaat voor elke identiteitskaart. Zorg ervoor dat u apparaat-id&#39;s in de juiste indeling importeert op basis van het apparaattype. Audience Manager wijst apparaat-id&#39;s die niet aan de juiste indeling voldoen af en retourneert een foutbericht om aan te geven dat de id is afgewezen.
 
-* Het overseinen van de fout voor de overdrachten van partijgegevens wordt hier geschetst: [ Aan boord de Termen en Definities van het Rapport van de Status ](../reporting/onboarding-status-report.md#report-terms-conditions).
-* Het overseinen van de fout voor gegevensoverdrachten in real time wordt hier geschetst: [ Codes van de Fout DCS, Berichten, en Voorbeelden ](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
+* Het overseinen van de fout voor de overdrachten van partijgegevens wordt hier geschetst: [&#x200B; Aan boord de Termen en Definities van het Rapport van de Status &#x200B;](../reporting/onboarding-status-report.md#report-terms-conditions).
+* Het overseinen van de fout voor gegevensoverdrachten in real time wordt hier geschetst: [&#x200B; Codes van de Fout DCS, Berichten, en Voorbeelden &#x200B;](../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
 
 ## Expiratiebeleid voor apparaat-id
 
-Audience Manager verwerpt automatisch apparaat reclame IDs na 120 dagen van inactiviteit, gelijkend op [ AAM UUID ](../faq/faq-privacy.md) s.
+Audience Manager verwerpt automatisch apparaat reclame IDs na 120 dagen van inactiviteit, gelijkend op [&#x200B; AAM UUID &#x200B;](../faq/faq-privacy.md) s.
 
 ## Nieuwe globale gegevensbronnen aanvragen
 
@@ -61,4 +61,4 @@ Neem contact op met de klantenservice van Adobe Consulting of Adobe om nieuwe we
 
 * de naam van het gevraagde platform (bv. [!UICONTROL Apple IDFA]);
 * de naam van het bedrijf/de organisatie die het platform beheert (bijvoorbeeld [!UICONTROL Apple Inc.]);
-* Verbindingen met de technische specificaties voor het apparaat reclame ID namespace (b.v., [ Documentatie AdSupport ](https://developer.apple.com/documentation/adsupport)).
+* Verbindingen met de technische specificaties voor het apparaat reclame ID namespace (b.v., [&#x200B; Documentatie AdSupport &#x200B;](https://developer.apple.com/documentation/adsupport)).

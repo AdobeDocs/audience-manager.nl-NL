@@ -27,8 +27,8 @@ c_compcollect.xml
 Audience Manager bevat de volgende componenten voor gegevensverzameling:
 
 * {de Servers van de Inzameling van 0} Gegevens (DCS) en de Servers van het Geheime voorgeheugen van het Profiel (PCS) [&#128279;](../../reference/system-components/components-data-collection.md#dcs-pcs)
-* [ Data Integration Library (DIL) ](../../reference/system-components/components-data-collection.md#dil)
-* [ Binnenkomende Server-aan-Server ](../../reference/system-components/components-data-collection.md#inbound-outbound-server)
+* [&#x200B; Data Integration Library (DIL) &#x200B;](../../reference/system-components/components-data-collection.md#dil)
+* [&#x200B; Binnenkomende Server-aan-Server &#x200B;](../../reference/system-components/components-data-collection.md#inbound-outbound-server)
 * [Logbestanden](../../reference/system-components/components-data-collection.md#log-files)
 
 ## Gegevensverzamelingsservers (DCS) en profielcacheservers (PCS) {#dcs-pcs}
@@ -40,7 +40,7 @@ De DCS en PCS werken samen en verlenen afzonderlijk de diensten met betrekking t
 In [!DNL Audience Manager] wordt de DCS:
 
 * Ontvangt en evalueert de gegevens van de eigenschap van een gebeurtenisvraag. Dit omvat informatie die voor segmentatie in real time wordt gebruikt en gegevens die bij geplande intervallen door server-aan-server overdrachten worden overgegaan.
-* De gebruikers van segmenten die op hun gerealiseerde eigenschappen en de kwalificatieregels worden gebaseerd u met [ Bouwer van het Segment ](../../features/segments/segment-builder.md) creeert.
+* De gebruikers van segmenten die op hun gerealiseerde eigenschappen en de kwalificatieregels worden gebaseerd u met [&#x200B; Bouwer van het Segment &#x200B;](../../features/segments/segment-builder.md) creeert.
 * Hiermee maakt en beheert u apparaat-id&#39;s en geverifieerde profiel-id&#39;s. Dit omvat id&#39;s voor gegevensleveranciers, gebruikers-id&#39;s, gedeclareerde id&#39;s, integratiecodes, enzovoort.
 * Controleert PCS op extra eigenschappen een gebruiker reeds vóór een real-time gebeurtenisvraag heeft gerealiseerd. Dit laat DCS gebruikers kwalificeren die op gegevens in real time en historische gegevens worden gebaseerd.
 * Schrijft logbestanden en stuurt deze naar analysesystemen voor opslag en verwerking.
@@ -67,7 +67,7 @@ Er zijn geen UI-besturingselementen waarmee onze klanten rechtstreeks met [!UICO
 
 **Het zuiveren inactieve identiteitskaart van[!UICONTROL PCS]**
 
-Zoals eerder aangegeven, slaat [!UICONTROL PCS] de standaard-id&#39;s voor actieve gebruikers op. Een actieve gebruiker is om het even welke gebruiker die door de [ servers van randgegevens ](../../reference/system-components/components-edge.md) van om het even welk domein tijdens de laatste 14 dagen is gezien. Met deze aanroepen van de [!UICONTROL PCS] wordt een gebruiker in een actieve status gehouden:
+Zoals eerder aangegeven, slaat [!UICONTROL PCS] de standaard-id&#39;s voor actieve gebruikers op. Een actieve gebruiker is om het even welke gebruiker die door de [&#x200B; servers van randgegevens &#x200B;](../../reference/system-components/components-edge.md) van om het even welk domein tijdens de laatste 14 dagen is gezien. Met deze aanroepen van de [!UICONTROL PCS] wordt een gebruiker in een actieve status gehouden:
 
 * [!DNL /event] oproepen
 * [!DNL /ibs] aanroepen (ID-syncs)
@@ -82,15 +82,15 @@ De [!UICONTROL PCS] fushes geeft aan of ze 17 dagen lang inactief zijn. Deze ken
 
 **Andere [!UICONTROL DCS/PCS] Processen: De Opt-out van de Privacy**
 
-Deze serversystemen verwerken privacy- en gebruikersuitsluitingsverzoeken. De gegevens van het gebruikerscookie worden niet verzameld in het logbestand als een gebruiker ervoor heeft gekozen geen gegevens meer te verzamelen. Voor meer informatie over ons privacybeleid zie het [ Centrum van de Privacy van Adobe ](https://www.adobe.com/nl/privacy/advertising-services.html).
+Deze serversystemen verwerken privacy- en gebruikersuitsluitingsverzoeken. De gegevens van het gebruikerscookie worden niet verzameld in het logbestand als een gebruiker ervoor heeft gekozen geen gegevens meer te verzamelen. Voor meer informatie over ons privacybeleid zie het [&#x200B; Centrum van de Privacy van Adobe &#x200B;](https://www.adobe.com/nl/privacy/advertising-services.html).
 
 ## Data Integration Library (DIL) {#dil}
 
-[!UICONTROL DIL] is code die u op de pagina plaatst voor gegevensverzameling. Zie [ DIL API ](../../dil/dil-overview.md) voor meer informatie over de beschikbare diensten en methodes.
+[!UICONTROL DIL] is code die u op de pagina plaatst voor gegevensverzameling. Zie [&#x200B; DIL API &#x200B;](../../dil/dil-overview.md) voor meer informatie over de beschikbare diensten en methodes.
 
 ## Binnenkomende server-naar-server {#inbound-outbound-server}
 
-Dit zijn systemen die gegevens ontvangen die door diverse server-aan-server integratie met onze cliënten worden verzonden. Zie de documentatie bij [ verzendend publieksgegevens ](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) voor meer informatie.
+Dit zijn systemen die gegevens ontvangen die door diverse server-aan-server integratie met onze cliënten worden verzonden. Zie de documentatie bij [&#x200B; verzendend publieksgegevens &#x200B;](/help/using/integration/sending-audience-data/real-time-data-integration/real-time-tech-specs.md) voor meer informatie.
 
 ## Logbestanden {#log-files}
 
@@ -98,4 +98,4 @@ In [!UICONTROL PCS] worden gegevens gemaakt en naar de logbestanden geschreven. 
 
 >[!MORELIKETHIS]
 >
->* [ het Centrum van de Privacy van Adobe ](https://www.adobe.com/nl/privacy.html)
+>* [&#x200B; het Centrum van de Privacy van Adobe &#x200B;](https://www.adobe.com/nl/privacy.html)

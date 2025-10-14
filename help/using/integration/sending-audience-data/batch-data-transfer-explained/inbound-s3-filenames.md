@@ -126,7 +126,7 @@ In de volgende voorbeelden worden correct opgemaakte bestandsnamen weergegeven. 
  <li> <code> s3n://&lt;AWS_Bucket&gt;/&lt;partner_name&gt;/date=2016-05-09/ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-U kunt [ downloaden ](assets/ftp_dpm_1234_1445374061.overwrite) het steekproefdossier als u extra voorbeelden wilt. Dit bestand is opgeslagen met de bestandsextensie `.overwrite` . Open het met een eenvoudige teksteditor.
+U kunt [&#x200B; downloaden &#x200B;](assets/ftp_dpm_1234_1445374061.overwrite) het steekproefdossier als u extra voorbeelden wilt. Dit bestand is opgeslagen met de bestandsextensie `.overwrite` . Open het met een eenvoudige teksteditor.
 
 ## Geaccepteerde bestandsgrootten {#accepted-file-sizes}
 
@@ -165,4 +165,4 @@ De binnenkomende gegevensdossiers hebben een lijnlengtelimiet van 102400 bytes. 
 
 >[!MORELIKETHIS]
 >
->* [ de Vereisten van de Naam van FTP voor de Binnenkomende Dossiers van Gegevens ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)
+>* [&#x200B; de Vereisten van de Naam van FTP voor de Binnenkomende Dossiers van Gegevens &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-ftp-filenames.md)

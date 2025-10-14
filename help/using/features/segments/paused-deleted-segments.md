@@ -45,4 +45,4 @@ Een verwijderd segment:
 
 >[!NOTE]
 >
->U kunt segmenten ook pauzeren en verwijderen met de methode [!DNL API] . Voor meer informatie, zie [ REST APIs ](../../api/rest-api-main/rest-api-main.md).
+>U kunt segmenten ook pauzeren en verwijderen met de methode [!DNL API] . Voor meer informatie, zie [&#x200B; REST APIs &#x200B;](../../api/rest-api-main/rest-api-main.md).

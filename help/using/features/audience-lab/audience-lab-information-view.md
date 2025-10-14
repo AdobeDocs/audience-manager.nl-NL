@@ -22,7 +22,7 @@ U kunt ook informatie zien over het basislijnsegment dat u voor de testgroep heb
 
 **[!UICONTROL Test Segments]** wordt willekeurig gevuld met gebruikers van het basislijnsegment u voor de testgroep gebruikte. Het overzicht toont de percentages gebruikers u aan elk testsegment toewees.
 
-De **[!UICONTROL Conversion Traits]** drijft de rapportering voor de testgroepen. Om een bezit als omzetting aan te wijzen, wanneer het creëren van of het uitgeven van eigenschappen in [!UICONTROL Trait Builder], selecteer **Omzetting** als **[Type van Gebeurtenis ](../../features/traits/create-onboarded-rule-based-traits.md).**
+De **[!UICONTROL Conversion Traits]** drijft de rapportering voor de testgroepen. Om een bezit als omzetting aan te wijzen, wanneer het creëren van of het uitgeven van eigenschappen in [!UICONTROL Trait Builder], selecteer **Omzetting** als **[Type van Gebeurtenis &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md).**
 
 De **[!UICONTROL Destinations]** -kaart is inklapbaar. Druk de pijlen om individuele bestemmingen te openen of te sluiten en de volgende informatie voor testsegmenten te verkrijgen, die door de bestemmingen worden gegroepeerd deze in kaart worden gebracht:
 

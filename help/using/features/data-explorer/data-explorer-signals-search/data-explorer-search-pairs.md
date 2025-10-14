@@ -16,7 +16,7 @@ ht-degree: 0%
 # De signalen van het onderzoek door zeer belangrijke paren {#search-signals-by-key-value-pairs}
 
 Zoek naar één of veelvoudige signalen, die op hun respectieve sleutel-waarde paren worden gebaseerd.
-Om naar meer dan één signaal te zoeken, klik ![ toevoegen ](assets/icon_add.png) knoop. Voer de sleutelwaardeparen in waarnaar u wilt zoeken en gebruik vervolgens de volgende filters om de resultaten te beperken.
+Om naar meer dan één signaal te zoeken, klik ![&#x200B; toevoegen &#x200B;](assets/icon_add.png) knoop. Voer de sleutelwaardeparen in waarnaar u wilt zoeken en gebruik vervolgens de volgende filters om de resultaten te beperken.
 
 * **status van het Signaal**: onderzoek naar signalen inbegrepen in eigenschappen, ongebruikte signalen, of allebei.
 * **verslagen van de Mening voor**: selecteer het tijdinterval waarin om naar ontvangen signalen te zoeken.
@@ -24,7 +24,7 @@ Om naar meer dan één signaal te zoeken, klik ![ toevoegen ](assets/icon_add.pn
 
 >[!IMPORTANT]
 >
->Voor een gestroomlijnde gebruikerservaring zijn de zoekresultaten van sleutelwaardepaarten gebaseerd op gegevensbemonstering. Zie [ de Steekproef van Gegevens en Tarieven van de Fout ](/help/using/reporting/report-sampling.md) voor details over hoe [!DNL Audience Manager] gegevensbemonstering gebruikt en waarom de lichte resultaatvariaties wanneer het vergelijken van zeer belangrijk-waardeonderzoek aan algemene onderzoeken kunnen verschijnen.
+>Voor een gestroomlijnde gebruikerservaring zijn de zoekresultaten van sleutelwaardepaarten gebaseerd op gegevensbemonstering. Zie [&#x200B; de Steekproef van Gegevens en Tarieven van de Fout &#x200B;](/help/using/reporting/report-sampling.md) voor details over hoe [!DNL Audience Manager] gegevensbemonstering gebruikt en waarom de lichte resultaatvariaties wanneer het vergelijken van zeer belangrijk-waardeonderzoek aan algemene onderzoeken kunnen verschijnen.
 
 Wanneer het zoeken naar signalen die veelvoudige zeer belangrijk-waardeparen gebruiken, [!DNL Audience Manager] verbindt de paren gebruikend de logische **EN** exploitant. Stel dat u een zoekopdracht uitvoert met de volgende sleutelwaardeparen:
 
@@ -38,7 +38,7 @@ Deze zoekopdracht levert alleen resultaten op die in aanmerking komen voor alle 
 
 ## Signalen die zijn uitgesloten van signaalzoekopdracht {#excluded-signals}
 
-Keyvariabelen die door Audience Manager worden gebruikt en die door de voorvoegsels `d_` en `h_` worden voorgefixeerd, worden niet door [!UICONTROL Signals Search] omringd. Zie [ Vereisten van de Prefix voor Zeer belangrijke Variabelen ](../../traits/trait-variable-prefixes.md) voor details.
+Keyvariabelen die door Audience Manager worden gebruikt en die door de voorvoegsels `d_` en `h_` worden voorgefixeerd, worden niet door [!UICONTROL Signals Search] omringd. Zie [&#x200B; Vereisten van de Prefix voor Zeer belangrijke Variabelen &#x200B;](../../traits/trait-variable-prefixes.md) voor details.
 
 ## Hoofdlettergevoeligheid en automatisch zoeken {#case-insensitivity}
 

@@ -31,7 +31,7 @@ t_bulk_updates.xml
 
 >[!NOTE]
 >
->[ RBAC groepstoestemmingen ](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
+>[&#x200B; RBAC groepstoestemmingen &#x200B;](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
 
 Als u bulkupdates wilt maken, opent u het [!UICONTROL Bulk Management Tools] -werkblad en:
 
@@ -46,10 +46,10 @@ Als u bulkupdates wilt maken, opent u het [!UICONTROL Bulk Management Tools] -we
 5. Klik in de werkbladwerkbalk op een updateknop die overeenkomt met de knop        object dat je bijwerkt.
 Met deze handeling wordt het dialoogvenster [!UICONTROL Account Information] geopend.
 
-6. Verstrek het vereiste [ login informatie ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik **[!UICONTROL Submit]**.
+6. Verstrek het vereiste [&#x200B; login informatie &#x200B;](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik **[!UICONTROL Submit]**.
 
-   In het werkblad wordt een kolom [!UICONTROL Results] gemaakt. De kolom [!UICONTROL Results] retourneert de JSON-reactie voor een geslaagde bewerking. Zie [ REST APIs ](../../api/rest-api-main/rest-api-main.md) voor voorbeelden. Voordat u gegevens invoert, moet uw bulkupdatewerkblad er ongeveer als volgt uitzien:
+   In het werkblad wordt een kolom [!UICONTROL Results] gemaakt. De kolom [!UICONTROL Results] retourneert de JSON-reactie voor een geslaagde bewerking. Zie [&#x200B; REST APIs &#x200B;](../../api/rest-api-main/rest-api-main.md) voor voorbeelden. Voordat u gegevens invoert, moet uw bulkupdatewerkblad er ongeveer als volgt uitzien:
 
 ![](assets/update.png)
 
-Als uw bulkupdate een fout terugkeert of ontbreekt, zie [ het Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk ](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Als uw bulkupdate een fout terugkeert of ontbreekt, zie [&#x200B; het Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk &#x200B;](../../reference/bulk-management-tools/bulk-troubleshooting.md).

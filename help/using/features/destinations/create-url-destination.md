@@ -38,10 +38,10 @@ Deze sectie bevat velden en opties waarmee het maken van [!DNL URL destination] 
 
 ## [!UICONTROL Data Export Labels] {#data-export-labels-dest}
 
-Deze sectie bevat opties die [ de controles van de gegevensuitvoer ](../../features/data-export-controls.md) op een [!DNL URL] bestemming toepassen. Sla deze stap over als u geen besturingselementen voor het exporteren van gegevens gebruikt. Deze sectie voltooien:
+Deze sectie bevat opties die [&#x200B; de controles van de gegevensuitvoer &#x200B;](../../features/data-export-controls.md) op een [!DNL URL] bestemming toepassen. Sla deze stap over als u geen besturingselementen voor het exporteren van gegevens gebruikt. Deze sectie voltooien:
 
 1. Klik op **[!UICONTROL Data Export Labels]** om de besturingselementen weer te geven.
-2. Selecteer een etiket dat aan de controle beantwoordt van de gegevensuitvoer die op de bestemming wordt toegepast (zie [ de Etiketten van de Uitvoer aan een Bestemming ](/help/using/features/destinations/add-data-export-labels.md) voor details toevoegen).
+2. Selecteer een etiket dat aan de controle beantwoordt van de gegevensuitvoer die op de bestemming wordt toegepast (zie [&#x200B; de Etiketten van de Uitvoer aan een Bestemming &#x200B;](/help/using/features/destinations/add-data-export-labels.md) voor details toevoegen).
 3. Klik op **[!UICONTROL Save]**.
 
 ## Configuratie {#configure-base-data}
@@ -50,13 +50,13 @@ Deze sectie bevat opties waarmee u een basis [!DNL URL] en gegevensscheidingstek
 
 1. Klik op **[!UICONTROL Configuration]** om de besturingselementen weer te geven.
 1. *(Optioneel)* Selecteer het selectievakje **[!UICONTROL Serialize]** .
-Hierdoor kunt u segmenten opeenvolgend naar een [!DNL destination] verzenden in plaats van afzonderlijke aanroepen voor elk segment te maken. Serienummering helpt gegevensoverdracht efficiënt te maken. Als u dit selectievakje inschakelt, worden de velden URL en scheidingstekens weergegeven. Voor meer informatie, zie [ Standaard en Serie zeer belangrijke - waardeparen ](../../features/destinations/key-value-pairs.md).
+Hierdoor kunt u segmenten opeenvolgend naar een [!DNL destination] verzenden in plaats van afzonderlijke aanroepen voor elk segment te maken. Serienummering helpt gegevensoverdracht efficiënt te maken. Als u dit selectievakje inschakelt, worden de velden URL en scheidingstekens weergegeven. Voor meer informatie, zie [&#x200B; Standaard en Serie zeer belangrijke - waardeparen &#x200B;](../../features/destinations/key-value-pairs.md).
 1. Als u **[!UICONTROL Serialize]** selecteert, moet u ook de hieronder beschreven velden URL en scheidingsteken configureren.
 
 | Veld | Beschrijving |
 |--- |--- |
-| [!UICONTROL Base URL] | Het basisgedeelte van een standaard `HTTP` [!DNL URL] dat niet wordt gewijzigd. Ook, moet u `%ALIAS%` [ placeholder macro ](../../features/destinations/destination-macros.md#destination-macros-defined) in de basis URL plaatsen. Voorbeeld: `https://www.myCompany.com/%alias%...` |
-| [!UICONTROL Secure URL] | Het basisgedeelte van een beveiligde `HTTPS` [!DNL URL] dat niet wordt gewijzigd. Ook moet u de `%ALIAS%`   [ placeholder macro ](../../features/destinations/destination-macros.md#destination-macros-defined) in basis URL. Voorbeeld: `https://www.myCompany.com/%alias%...` |
+| [!UICONTROL Base URL] | Het basisgedeelte van een standaard `HTTP` [!DNL URL] dat niet wordt gewijzigd. Ook, moet u `%ALIAS%` [&#x200B; placeholder macro &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) in de basis URL plaatsen. Voorbeeld: `https://www.myCompany.com/%alias%...` |
+| [!UICONTROL Secure URL] | Het basisgedeelte van een beveiligde `HTTPS` [!DNL URL] dat niet wordt gewijzigd. Ook moet u de `%ALIAS%`   [&#x200B; placeholder macro &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) in basis URL. Voorbeeld: `https://www.myCompany.com/%alias%...` |
 | [!UICONTROL Delimiter] | Het symbool dat de segmentvariabelen in de tekenreeks [!DNL URL] scheidt. Dit is meestal een komma of een puntkomma. Krijg deze informatie van uw bestemmingspartner. |
 
 ## [!UICONTROL Segment Mappings] {#segment-mappings}

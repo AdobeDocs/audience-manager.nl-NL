@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## Beoogd publiek
 
-Deze pagina is voorgenomen voor de klanten van Audience Manager die de [ de markeringsuitbreiding van Audience Manager ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/audience-manager/overview) gebruiken om de gegevens van de Webinzameling in Audience Manager te brengen. Voor klanten die de bibliotheek van AppMeasurement JavaScript gebruiken, te lezen gelieve de gids op hoe te om uw bibliotheek van de gegevensinzameling voor Audience Manager [ van de bibliotheek van AppMeasurement JavaScript aan de bibliotheek van SDK JavaScript van het Web bij te werken ](appmeasurement-to-web-sdk.md).
+Deze pagina is voorgenomen voor de klanten van Audience Manager die de [&#x200B; de markeringsuitbreiding van Audience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/audience-manager/overview) gebruiken om de gegevens van de Webinzameling in Audience Manager te brengen. Voor klanten die de bibliotheek van AppMeasurement JavaScript gebruiken, te lezen gelieve de gids op hoe te om uw bibliotheek van de gegevensinzameling voor Audience Manager [&#x200B; van de bibliotheek van AppMeasurement JavaScript aan de bibliotheek van SDK JavaScript van het Web bij te werken &#x200B;](appmeasurement-to-web-sdk.md).
 
 ## Voordelen en nadelen van dit implementatiepad
 
@@ -33,7 +33,7 @@ De volgende stappen bevatten concrete doelstellingen die moeten worden nagestree
 
 Volg de onderstaande instructies om een gegevensstroom te maken in de gegevensverzameling van Adobe Experience Platform. Wanneer u gegevens naar deze gegevensstroom verzendt, stuurt het gegevens door naar Audience Manager. In de toekomst stuurt dezelfde gegevensstroom gegevens door naar Real-Time CDP.
 
-1. Navigeer aan [ experience.adobe.com ](https://experience.adobe.com) en login gebruikend uw geloofsbrieven.
+1. Navigeer aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com) en login gebruikend uw geloofsbrieven.
 1. Gebruik de startpagina of de productkiezer rechtsboven om naar **[!UICONTROL Data Collection]** te navigeren.
 1. Selecteer **[!UICONTROL Datastreams]** in de linkernavigatie.
 1. Selecteer **[!UICONTROL New Datastream]** .
@@ -42,7 +42,7 @@ Volg de onderstaande instructies om een gegevensstroom te maken in de gegevensve
 1. Selecteer **[!UICONTROL Adobe Audience Manager]** in het vervolgkeuzemenu voor de service.
 1. Controleer of de optie **[!UICONTROL Enable XDM Flattened Fields]** is uitgeschakeld.
 
-   ![ voegt de dienst van Audience Manager ](assets/add-service.png) {style="border:1px solid lightslategray"} toe
+   ![&#x200B; voegt de dienst van Audience Manager &#x200B;](assets/add-service.png) {style="border:1px solid lightslategray"} toe
 
 Uw gegevensstroom is nu klaar om gegevens te ontvangen en door te geven aan Audience Manager.
 
@@ -58,11 +58,11 @@ Deze sectie bereidt uw markering voor het grootste deel van de migratieinspannin
 1. Selecteer **[!UICONTROL Catalog]** boven in het scherm om een lijst met alle beschikbare extensies weer te geven.
 1. Zoek en selecteer de extensie **[!UICONTROL Adobe Experience Platform Web SDK]** en selecteer vervolgens **[!UICONTROL Install]** aan de rechterkant.
 
-   ![ Catalogus ](assets/catalog.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; Catalogus &#x200B;](assets/catalog.png) {style="border:1px solid lightslategray"}
 
 1. De instellingen voor de extensieconfiguratie worden weergegeven. Zoek de sectie **[!UICONTROL Datastreams]** en selecteer de sandbox die u gebruikt en de gegevensstroom die u in de vorige stap hebt gemaakt.
 
-   ![ selectie DataStream ](assets/datastream-select.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; selectie DataStream &#x200B;](assets/datastream-select.png) {style="border:1px solid lightslategray"}
 
 1. Selecteer **[!UICONTROL Save]** .
 
@@ -86,7 +86,7 @@ Het gegevenselement van gegevensobjecten verstrekt een intuïtief kader om een l
    * **[!UICONTROL Solution]**: [!UICONTROL Adobe Audience Manager]
 1. Selecteer **[!UICONTROL Save]** .
 
-   ![ creeer gegevenselement ](assets/create-data-element.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; creeer gegevenselement &#x200B;](assets/create-data-element.png) {style="border:1px solid lightslategray"}
 
 Uw markeringsbezit heeft nu alles nodig om elke regel bij te werken.
 
@@ -136,7 +136,7 @@ Het publiceren van bijgewerkte regels volgt de zelfde werkschema zoals om het ev
 1. Test uw veranderingen in uw ontwikkelomgeving om ervoor te zorgen dat alle regels behoorlijk vuren, en dat het gegevensvoorwerp met verwachte waarden bevolkt is.
 1. Als u klaar bent, dient u de bibliotheek ter goedkeuring in, bouwt u de bibliotheek naar de testfase, keurt u de bibliotheek goed en publiceert u de bibliotheek naar de productie.
 
-   ![ het Publiceren stroom ](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; het Publiceren stroom &#x200B;](assets/publishing-flow.png) {style="border:1px solid lightslategray"}
 
 +++
 

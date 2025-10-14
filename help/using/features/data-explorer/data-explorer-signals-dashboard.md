@@ -35,7 +35,7 @@ Deze sectie toont u de hoogste 50 nieuwe ongebruikte signalen die in de afgelope
 
 ## Opgeslagen zoekopdrachten {#saved-searches}
 
-[!DNL Audience Manager] toont al uw [ bewaarde onderzoeken ](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) op [!UICONTROL Dashboard] en herlaadt hen telkens als u [!UICONTROL Dashboard] laadt.
+[!DNL Audience Manager] toont al uw [&#x200B; bewaarde onderzoeken &#x200B;](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) op [!UICONTROL Dashboard] en herlaadt hen telkens als u [!UICONTROL Dashboard] laadt.
 
 Opgeslagen zoekopdrachten geven de bovenste 50 resultaten weer voor de corresponderende criteria.
 

@@ -27,7 +27,7 @@ Standaarden voor plaatsing van code, ondersteunde indelingen voor sleutelwaarden
 Voor dit doeltype is het volgende vereist:
 
 * **[!UICONTROL DIL]:** [!UICONTROL Data Integration Library] code zou op uw inventaris moeten worden opgesteld. Met [!UICONTROL DIL] voorkomt u de noodzaak om speciale code te schrijven voor gegevensverzameling, integratie, het lezen van cookiewaarden en het herstellen van paginagegevens.
-* **`get_aamCookie`Functie:** Code waarmee de Audience Manager-gebruikers-id en -cookie worden vastgelegd. Plaats [ deze code ](../../features/destinations/get-aam-cookie-code.md) op de bovenkant van de pagina of binnen de `<head>` codeblok.
+* **`get_aamCookie`Functie:** Code waarmee de Audience Manager-gebruikers-id en -cookie worden vastgelegd. Plaats [&#x200B; deze code &#x200B;](../../features/destinations/get-aam-cookie-code.md) op de bovenkant van de pagina of binnen de `<head>` codeblok.
 * **verzend Logboeken van de Levering naar Audience Manager:** als u een (facultatief) rapport van de segmentlevering wilt, Audience Manager van een dagelijks logboek voorzien dat indruk-vlakke leveringsgegevens bevat. De gegevens kunnen in onbewerkte indeling worden opgeslagen, maar elke record moet de Audience Manager [!UICONTROL UUID] bevatten. Audience Manager kan deze ophalen of ontvangen via [!DNL FTP] .
 
 ### Cookie-indeling en sleutelwaardengegevens
@@ -94,7 +94,7 @@ Instellen [!DNL OAS]
 
 * Installeer [!UICONTROL DIL] -code op uw site.
 * OAS maken als een cookiebestemming in Audience Manager.
-* Plaats de functie `get_aamCookie` boven aan de pagina, in het ideale geval in de `<head>` -codeblok. De `get_aamCookie` code is beschikbaar [ hier ](../../features/destinations/get-aam-cookie-code.md).
+* Plaats de functie `get_aamCookie` boven aan de pagina, in het ideale geval in de `<head>` -codeblok. De `get_aamCookie` code is beschikbaar [&#x200B; hier &#x200B;](../../features/destinations/get-aam-cookie-code.md).
 * Wijzig de advertentietag om de functie `get_aamCookie` aan te roepen en neem de cookienaam op die u hebt opgegeven bij het instellen van de bestemming [!DNL OAS] . Als u bijvoorbeeld de cookie `test_cookie` een naam hebt gegeven, moet de tag ad `get_aamCookie` aanroepen en naar de naam van de cookie verwijzen.
 * De advertentietag kan er ongeveer zo uitzien als hieronder.
 

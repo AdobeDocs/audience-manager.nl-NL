@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Gegevens verzenden naar de methoden [!DNL DCS] [!DNL API] using `GET` of `POST` .
 
-U kunt gegevens naar de [!DNL DCS] verzenden met een van de methoden `GET` of `POST` . Neem een blik bij de steekproefvraag hieronder, gebruikend [ krullen ](https://curl.haxx.se/). In alle drie voorbeeldaanroepen voegen we de signalen `c_likes = famous popstar` en `c_loves = famous actress` toe aan het apparaatprofiel `12345678901234567890123456789012345678` .
+U kunt gegevens naar de [!DNL DCS] verzenden met een van de methoden `GET` of `POST` . Neem een blik bij de steekproefvraag hieronder, gebruikend [&#x200B; krullen &#x200B;](https://curl.haxx.se/). In alle drie voorbeeldaanroepen voegen we de signalen `c_likes = famous popstar` en `c_loves = famous actress` toe aan het apparaatprofiel `12345678901234567890123456789012345678` .
 
 ## Gegevens verzenden via [!DNL GET] {#send-data-via-get}
 

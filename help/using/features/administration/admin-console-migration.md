@@ -18,17 +18,17 @@ ht-degree: 1%
 
 ## Overzicht {#overview}
 
-[!DNL Audience Manager] het beheer van de gebruikersrekening beweegt zich aan [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html), voor een meer gestroomlijnde ervaring over uw oplossingen van Adobe.
+[!DNL Audience Manager] het beheer van de gebruikersrekening beweegt zich aan [&#x200B; Adobe Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html), voor een meer gestroomlijnde ervaring over uw oplossingen van Adobe.
 
 De voordelen van het gebruik van [!DNL Admin Console] zijn onder andere:
 
 | Voordeel | Beschrijving |
 |---|---|
 | Single Sign-On voor oplossingen | [!DNL Audience Manager] -gebruikers kunnen zich aanmelden bij [!DNL Experience Cloud] en alle andere oplossingen met hun [!DNL Adobe ID] of [!DNL Enterprise ID] . Met deze aanmelding hebt u toegang tot geïntegreerde oplossingen en kernservices in [!DNL Experience Cloud] . Na de migratie worden gebruikers die proberen zich aan te melden via oude logins (`bank.demdex.com`), omgeleid naar `experiencecloud.adobe.com` . |
-| Gebruikers en groepen beheren | Zodra de migratie volledig is, [!DNL Audience Manager] zullen de beheerders gebruikers en groepen uitsluitend in [[!DNL Admin Console] beheren ](https://adminconsole.adobe.com/enterprise/). |
-| Producten en services beheren | Vanuit [[!DNL Admin Console] ](https://adminconsole.adobe.com/enterprise/), kunnen de beheerders: <ul><li>Gebruikers maken, bijwerken en verwijderen</li><li>Toegang verlenen tot oplossingen en services</li></ul> |
+| Gebruikers en groepen beheren | Zodra de migratie volledig is, [!DNL Audience Manager] zullen de beheerders gebruikers en groepen uitsluitend in [[!DNL Admin Console] beheren &#x200B;](https://adminconsole.adobe.com/enterprise/). |
+| Producten en services beheren | Vanuit [[!DNL Admin Console] &#x200B;](https://adminconsole.adobe.com/enterprise/), kunnen de beheerders: <ul><li>Gebruikers maken, bijwerken en verwijderen</li><li>Toegang verlenen tot oplossingen en services</li></ul> |
 
-Om gebruikersmigratie te vergemakkelijken, vragen wij alle [!DNL Audience Manager] beheerders beginnen hun gebruikersrekeningen aan [ Adobe Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) zo spoedig mogelijk te migreren, door de stappen te volgen die in dit artikel worden beschreven.
+Om gebruikersmigratie te vergemakkelijken, vragen wij alle [!DNL Audience Manager] beheerders beginnen hun gebruikersrekeningen aan [&#x200B; Adobe Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html) zo spoedig mogelijk te migreren, door de stappen te volgen die in dit artikel worden beschreven.
 
 ## Wat gebruikers moeten doen {#what-to-do-users}
 
@@ -38,8 +38,8 @@ Als Audience Manager-gebruiker hoeft u alleen maar contact op te nemen met uw [!
 
 Audience Manager-beheerders moeten de onderstaande stappen volgen om gebruikers te migreren naar [!DNL Admin Console] .
 
-1. Ga naar [ https://adminconsole.adobe.com ](https://adminconsole.adobe.com) en login gebruikend uw Adobe ID of Enterprise ID. Als u geen toegang hebt tot de [!DNL Admin Console] , neemt u contact op met de klantenservice of uw Adobe-consultant.
-2. Controleer de [!DNL Adobe Admin Console] [ hulpgids ](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/users.ug.html) voor gedetailleerde instructies op hoe te om gebruikersrekeningen tot stand te brengen en te beheren.
+1. Ga naar [&#x200B; https://adminconsole.adobe.com &#x200B;](https://adminconsole.adobe.com) en login gebruikend uw Adobe ID of Enterprise ID. Als u geen toegang hebt tot de [!DNL Admin Console] , neemt u contact op met de klantenservice of uw Adobe-consultant.
+2. Controleer de [!DNL Adobe Admin Console] [&#x200B; hulpgids &#x200B;](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/users.ug.html) voor gedetailleerde instructies op hoe te om gebruikersrekeningen tot stand te brengen en te beheren.
 3. Maak nieuwe gebruikersaccounts voor al je bestaande Audience Manager-gebruikers.
 4. Stel uw gebruikers op de hoogte van de nieuwe gebruikersaccounts. Wanneer gebruikers naar [!DNL Admin Console] zijn gemigreerd, moeten ze geen oude logins meer gebruiken.
 

@@ -81,5 +81,5 @@ De [!UICONTROL AND NOT] exploitant is nuttig wanneer het gemakkelijker is om een
 
 >[!MORELIKETHIS]
 >
->* [ Werkend met de Exploitanten van de Vergelijking in TraitBuilder ](../features/traits/trait-comparison-operators.md)
->* [ Orde van Verrichtingen in Uitdrukkingen TraitBuilder ](../features/traits/trait-operator-precedence.md)
+>* [&#x200B; Werkend met de Exploitanten van de Vergelijking in TraitBuilder &#x200B;](../features/traits/trait-comparison-operators.md)
+>* [&#x200B; Orde van Verrichtingen in Uitdrukkingen TraitBuilder &#x200B;](../features/traits/trait-operator-precedence.md)

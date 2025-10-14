@@ -22,7 +22,7 @@ Aanbevelingen en gebruiksgevallen voor het opnieuw toewijzen van segmenten en ge
 
 Bekijk de apparaatgrafiek van [!UICONTROL Profile Link] voor campagnes die:
 
-* Een hoog verificatieniveau hebben voor alle digitale eigenschappen. Gebruik een [ externe optie van de apparatengrafiek ](merge-rule-definitions.md#device-options) als u een kleine hoeveelheid voor authentiek verklaarde gebruikers hebt.
+* Een hoog verificatieniveau hebben voor alle digitale eigenschappen. Gebruik een [&#x200B; externe optie van de apparatengrafiek &#x200B;](merge-rule-definitions.md#device-options) als u een kleine hoeveelheid voor authentiek verklaarde gebruikers hebt.
 * Noodzaak van nauwkeurige gerichtheid op bekende doelgroepen. [!UICONTROL Profile Link Device Graph] wordt gebouwd gebruikend eerste-partij, voor authentiek verklaarde gegevens.
 * Het bekende publiek van het doel over hun voor authentiek verklaarde en niet voor authentiek verklaarde staten in real time.
 
@@ -38,16 +38,16 @@ Laten wij zeggen John bezit drie apparaten die hij regelmatig gebruikt om naar v
 
 Zelfs als John niet voor authentiek wordt verklaard op alle drie bovengenoemde apparaten, door de **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** regel te gebruiken, kan een vakantiepakketleverancier deze apparaten aan het voor authentiek verklaarde profiel van John associëren, veronderstellend dat hij de laatste persoon was om op alle drie apparaten voor authentiek te verklaren.
 
-![ last-apparaat-grafiek ](assets/last-device-graph.png)
+![&#x200B; last-apparaat-grafiek &#x200B;](assets/last-device-graph.png)
 
 Aangezien Audience Manager elk apparaatprofiel kwalificeert dat deelnam aan de profielsamenvoeging voor een segment, worden alle drie apparaatprofielen gesegmenteerd. Met [!UICONTROL Profile Link Device Graph] kan Audience Manager het gedrag op alle drie apparaten bekijken en elk apparaat kwalificeren voor een segment waarvoor geen enkel apparaatprofiel afzonderlijk in aanmerking komt.
 
 Hierdoor kunnen marketers alle apparaten die eigendom zijn van één persoon een consistente ervaring bieden op basis van de gebruikersactiviteit in plaats van de afzonderlijke apparaatactiviteit. [!UICONTROL Profile Merge Rule]
 
-![ dwars-apparaat-verpersoonlijking ](assets/cross-device-personalization.png)
+![&#x200B; dwars-apparaat-verpersoonlijking &#x200B;](assets/cross-device-personalization.png)
 
 >[!MORELIKETHIS]
 >
 >* [Gebruiksscenario’s voor grafiek van externe apparaten](external-graph-use-cases.md)
 >* [Algemene gebruiksscenario’s voor regels voor profielsamenvoeging](merge-rule-targeting-options.md)
->* [ Veelgestelde vragen van de Regels van de Fusie van het Profiel ](../../faq/faq-profile-merge.md)
+>* [&#x200B; Veelgestelde vragen van de Regels van de Fusie van het Profiel &#x200B;](../../faq/faq-profile-merge.md)

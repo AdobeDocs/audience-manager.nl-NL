@@ -28,7 +28,7 @@ Actiecomponenten zijn systemen en processen waarmee u gegevens in en uit [!DNL A
 
 ## CDF (Customer Data Feeds, klantdatafeeds) {#cdf}
 
-[!UICONTROL CDF] zijn bestanden die per uur naar klanten worden verzonden. Deze bevatten gebruikers-id&#39;s samen met de bijbehorende segment-id&#39;s, teken-id&#39;s en andere gegevens. Voor meer informatie, zie [ het Overzicht van het voer van Gegevens van de Klant ](../../features/cdf-files.md).
+[!UICONTROL CDF] zijn bestanden die per uur naar klanten worden verzonden. Deze bevatten gebruikers-id&#39;s samen met de bijbehorende segment-id&#39;s, teken-id&#39;s en andere gegevens. Voor meer informatie, zie [&#x200B; het Overzicht van het voer van Gegevens van de Klant &#x200B;](../../features/cdf-files.md).
 
 ## Data Collection Server (DCS) {#dcs}
 

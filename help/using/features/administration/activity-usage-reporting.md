@@ -24,7 +24,7 @@ Daarnaast kunt u de [!UICONTROL Activity Usage Report] altijd downloaden wanneer
 
 ## Overwegingen {#considerations}
 
-[!UICONTROL Activity Usage Report] is beschikbaar aan alle gebruikers van Audience Manager met [ beheerdervoorrechten ](edit-account-settings.md).
+[!UICONTROL Activity Usage Report] is beschikbaar aan alle gebruikers van Audience Manager met [&#x200B; beheerdervoorrechten &#x200B;](edit-account-settings.md).
 
 >[!IMPORTANT]
 >
@@ -41,7 +41,7 @@ Er zijn twee belangrijke gebruiksgevallen van [!UICONTROL Activity Usage Report]
 
 Als u [!UICONTROL Activity Usage Report] wilt bekijken, meldt u zich aan bij uw Audience Manager-account en gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Usage]** .
 
-![ aur-ui ](assets/aur-ui.png)
+![&#x200B; aur-ui &#x200B;](assets/aur-ui.png)
 
 Gebruik vervolgens het filter **[!UICONTROL Reporting Interval]** om het tijdsinterval te selecteren waarvoor het rapport moet worden gegenereerd. U kunt kiezen tussen 30, 60, 90 dagen of een aangepast datumbereik.
 
@@ -60,17 +60,17 @@ Wanneer uw rapport is geladen, ziet u een uitsplitsing van uw [!UICONTROL Activi
 
 Bovendien kunt u de grafiektypen van [!UICONTROL Activity Usage Trends] gebruiken om te schakelen tussen twee typen grafieken.
 
-![ aur-ui-grafieken ](assets/aur-ui-graphs.png)
+![&#x200B; aur-ui-grafieken &#x200B;](assets/aur-ui-graphs.png)
 
 U kunt de cursor ook boven een bepaalde datum in de tijdlijn plaatsen om het gedetailleerde gebruik voor die datum te zien.
 
-![ aur-hover ](assets/aur-hover.png)
+![&#x200B; aur-hover &#x200B;](assets/aur-hover.png)
 
 ## Exporteren [!UICONTROL Activity Usage Reports] {#export}
 
 Voor een beter overzicht van het gebruiksniveau van uw Audience Manager-activiteit, kunt u de [!UICONTROL Activity Usage Report] exporteren op basis van het type records dat u wilt opnemen.
 
-![ aur-export ](assets/aur-export.png)
+![&#x200B; aur-export &#x200B;](assets/aur-export.png)
 
 De rapporten **[!UICONTROL Onboarded Records Breakdown]** en **[!UICONTROL Onsite Server Calls Breakdown]** verschaffen de meest granulaire insight van brongegevens die beschikbaar zijn voor deze activiteiten. Het volume dat aan deze uitsplitsingen wordt toegewezen is gebaseerd op uw implementatie.
 

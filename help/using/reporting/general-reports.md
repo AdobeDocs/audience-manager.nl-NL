@@ -95,7 +95,7 @@ Wanneer u de resultaten filtert met [!UICONTROL Device ID] :
 * [!UICONTROL Total Trait Realization] is het totale aantal anonieme resultaten binnen het geselecteerde tijdbereik.
 * [!UICONTROL Total Trait Population] is het aantal anonieme apparaatbezoekers dat deze eigenschap in hun profiel heeft.
 
-![ algemeen-rapport-eigenschap-apparaat ](assets/general-report-traits-deviceid.png)
+![&#x200B; algemeen-rapport-eigenschap-apparaat &#x200B;](assets/general-report-traits-deviceid.png)
 
 Wanneer u de resultaten filtert met [!UICONTROL Cross-Device ID] :
 
@@ -103,7 +103,7 @@ Wanneer u de resultaten filtert met [!UICONTROL Cross-Device ID] :
 * [!UICONTROL Total Trait Realization] is het totale aantal geverifieerde eigenschapresultaten binnen het geselecteerde tijdbereik.
 * [!UICONTROL Total Trait Population] is het aantal geverifieerde bezoekers dat deze eigenschap in hun profiel heeft.
 
-![ algemeen-rapport-traits-dwars-apparaat ](assets/general-report-traits-cross-device.png)
+![&#x200B; algemeen-rapport-traits-dwars-apparaat &#x200B;](assets/general-report-traits-cross-device.png)
 
 <!-- 
 ### Unique Trait Realizations

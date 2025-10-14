@@ -22,13 +22,13 @@ U kunt gegevensbestanden versleutelen met [!DNL PGP] -codering wanneer u ze naar
 
 >[!IMPORTANT]
 >
->[!DNL PGP] -codering omvat bestandscompressie. Wanneer het verzenden van [!DNL PGP] gecodeerde binnenkomende dossiers zorg u niet [ comprimeert ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) hen gebruikend gzip (`.gz`).
+>[!DNL PGP] -codering omvat bestandscompressie. Wanneer het verzenden van [!DNL PGP] gecodeerde binnenkomende dossiers zorg u niet [&#x200B; comprimeert &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) hen gebruikend gzip (`.gz`).
 >
->[!DNL PGP] gecodeerde binnenkomende dossiers die ook [ worden samengeperst ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) zijn ongeldig in Audience Manager.
+>[!DNL PGP] gecodeerde binnenkomende dossiers die ook [&#x200B; worden samengeperst &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-compression.md) zijn ongeldig in Audience Manager.
 
 Volg de onderstaande stappen om binnenkomende gegevensbestanden te coderen.
 
-1. Download de [ openbare sleutel van Audience Manager ](./assets/adobe_pgp.pub).
+1. Download de [&#x200B; openbare sleutel van Audience Manager &#x200B;](./assets/adobe_pgp.pub).
 2. Importeer de openbare sleutel naar de vertrouwde opslag.
 
    Als u bijvoorbeeld [!DNL GPG] gebruikt, kan de opdracht op het volgende lijken:

@@ -28,10 +28,10 @@ tussen Audience Manager en op mensen gebaseerde platforms.
 ## Platformverificatie configureren op basis van personen {#configure-authentication}
 
 1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]** . Als u een eerder geconfigureerde integratie met een sociaal platform hebt, wordt deze in deze pagina weergegeven. Anders is de pagina leeg.
-   ![ op mensen-gebaseerde-integratie ](assets/pbd-config.png)
+   ![&#x200B; op mensen-gebaseerde-integratie &#x200B;](assets/pbd-config.png)
 2. Klik op **[!UICONTROL Add Account]**.
 3. Gebruik het vervolgkeuzemenu **[!UICONTROL People-Based Platform]** om het platform te selecteren waarmee u de integratie wilt configureren.
-   ![ op mensen-gebaseerd-platform ](assets/pbd-add.png)
+   ![&#x200B; op mensen-gebaseerd-platform &#x200B;](assets/pbd-add.png)
 4. Klik op **[!UICONTROL Confirm]** om te worden omgeleid naar de verificatiepagina van het geselecteerde platform.
 5. Zodra je je hebt geverifieerd op je account bij een sociaal platform, word je doorgestuurd naar Audience Manager waar je de bijbehorende adverteerderaccounts kunt bekijken. Selecteer het adverteerderaccount dat u wilt gebruiken en klik op **[!UICONTROL Confirm]** .
 6. Audience Manager geeft boven aan de pagina een melding weer om aan te geven of de account is toegevoegd. Met deze melding kunt u ook een e-mailadres voor contactpersonen toevoegen om berichten van Adobe te ontvangen wanneer de verificatie van het sociale platform bijna verlopen is.
@@ -55,4 +55,4 @@ Hieronder wordt beschreven hoe u een verlopen of bijna verlopen verificatie vern
 1. Meld u aan bij uw Audience Manager-account en ga naar **[!UICONTROL Administration]** > **[!UICONTROL Integrated Accounts]** .
 1. Identificeer de integratie die u authentificatie voor moet vernieuwen. Verlopen verificaties worden gemarkeerd als [!UICONTROL Expired] , terwijl voor verificaties die binnenkort verlopen, binnenkort het resterende aantal geverifieerde dagen wordt weergegeven.
 1. Klik op het bijbehorende pictogram **[!UICONTROL Renew]** in de kolom [!UICONTROL Expiration] . Dit activeert de **[!UICONTROL Renew Account]** -workflow, die u weer doorloopt op de verificatiepagina van het sociale platform. Zodra u voor authentiek verklaart, wordt het teken vernieuwd met de nieuwe vervaldatum.
-   ![ pbd-vernieuwt ](assets/pbd-renew.png)
+   ![&#x200B; pbd-vernieuwt &#x200B;](assets/pbd-renew.png)

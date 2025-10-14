@@ -35,4 +35,4 @@ Hier worden de variabelen weergegeven die door de parameter `destinationType` wo
 
 >[!MORELIKETHIS]
 >
->* [ hoe te om een Type van Bestemming te kiezen ](../../../features/destinations/destinations.md)
+>* [&#x200B; hoe te om een Type van Bestemming te kiezen &#x200B;](../../../features/destinations/destinations.md)

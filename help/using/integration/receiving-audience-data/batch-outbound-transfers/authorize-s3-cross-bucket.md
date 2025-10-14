@@ -20,7 +20,7 @@ Het [!UICONTROL Outbound Data Transfer] -proces voor klanten die [!DNL Amazon Si
 
 Als u uw [!DNL Amazon S3] toegangstoets en geheime sleutel liever niet met ons deelt, neemt u contact op met uw [!DNL Audience Manager] consultant of de klantenservice en stelt u [!DNL Cross-Account Bucket Permissions] voor u in.
 
-U moet slechts onze [!DNL Amazon S3] rekeningsidentiteitskaart aan een lijst van gewenste personen voor het [!DNL S3] emmertje toevoegen waar u wenst om de uitgaande gegevensdossiers te ontvangen, zoals die in de [ S3 documentatie van Amazon ](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html) worden beschreven. Uw [!DNL Audience Manager] consultant of klantenservice zal u onze [!DNL Amazon S3] account-id verstrekken.
+U moet slechts onze [!DNL Amazon S3] rekeningsidentiteitskaart aan een lijst van gewenste personen voor het [!DNL S3] emmertje toevoegen waar u wenst om de uitgaande gegevensdossiers te ontvangen, zoals die in de [&#x200B; S3 documentatie van Amazon &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/dev/example-walkthroughs-managing-access-example2.html) worden beschreven. Uw [!DNL Audience Manager] consultant of klantenservice zal u onze [!DNL Amazon S3] account-id verstrekken.
 
 >[!NOTE]
 >

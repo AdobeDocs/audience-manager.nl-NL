@@ -26,12 +26,12 @@ t_reports_outbound_history.xml
 
 1. Klik op **[!UICONTROL Analytics]** > **[!UICONTROL Outbound File History]** .
 
-   ![ Resultaat van de Stap ](assets/outbound_history.png)
+   ![&#x200B; Resultaat van de Stap &#x200B;](assets/outbound_history.png)
 
 1. Begin in het vak **[!UICONTROL Search for a Destination]** met typen en selecteer het gewenste doel.
 1. Geef in het vak **[!UICONTROL Select a Date Range]** de begin- en einddatum voor het rapport op en klik vervolgens op **[!UICONTROL Apply Date Filter]** .
 
-   ![ Resultaat van de Stap ](assets/outbound_history_stats.png)
+   ![&#x200B; Resultaat van de Stap &#x200B;](assets/outbound_history_stats.png)
 
    De volgende tabel bevat informatie die correspondeert met kolommen in het rapport:
 

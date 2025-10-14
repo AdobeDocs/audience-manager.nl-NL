@@ -24,11 +24,11 @@ Dit zijn speciale kenmerken die worden gebruikt door [!UICONTROL Addressable Aud
 
 ## Actieve doelgroepen {#active-audience-traits}
 
-Een [!UICONTROL Active Audience] -kenmerk bevat alle apparaten die in uw [!DNL Audience Manager] -account worden beheerd. U kunt een [!UICONTROL Active Audience Trait] net als andere kenmerken gebruiken wanneer u segmenten maakt of bewerkt. Ook, [ Adressable Soorten publiek ](../../features/addressable-audiences.md) vereist dit spoor om overlappende gegevens te produceren. Alle accounts hebben standaard de eigenschap [!UICONTROL Active Audience] . Deze eigenschap kan niet worden verwijderd.
+Een [!UICONTROL Active Audience] -kenmerk bevat alle apparaten die in uw [!DNL Audience Manager] -account worden beheerd. U kunt een [!UICONTROL Active Audience Trait] net als andere kenmerken gebruiken wanneer u segmenten maakt of bewerkt. Ook, [&#x200B; Adressable Soorten publiek &#x200B;](../../features/addressable-audiences.md) vereist dit spoor om overlappende gegevens te produceren. Alle accounts hebben standaard de eigenschap [!UICONTROL Active Audience] . Deze eigenschap kan niet worden verwijderd.
 
 ## Gegevens Source gesynchroniseerde kenmerken {#data-source-synced-traits}
 
-[!UICONTROL Data Source Synced Traits] verschijnen in de [!UICONTROL Audience Traits] omslag wanneer u [ creeert of een gegevensbron ](../../features/manage-datasources.md#create-data-source) uitgeeft en één van beiden van deze montages toepast:
+[!UICONTROL Data Source Synced Traits] verschijnen in de [!UICONTROL Audience Traits] omslag wanneer u [&#x200B; creeert of een gegevensbron &#x200B;](../../features/manage-datasources.md#create-data-source) uitgeeft en één van beiden van deze montages toepast:
 
 ![](assets/datasource_synced.png)
 

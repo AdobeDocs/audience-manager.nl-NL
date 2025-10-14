@@ -123,6 +123,6 @@ Een factureringsrapport bevat de volgende informatie.
 
 >[!MORELIKETHIS]
 >
->* [ Facturerings en de Toewijzing van de Indruk voor de Eigen Gegevens van CPM ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [ Facturerings en Toewijzing van de Indrukking voor de Diefstal van de Gegevens van het Vlaming ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [ hoe te om het Gebruik van CPM te melden ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [&#x200B; Facturerings en de Toewijzing van de Indruk voor de Eigen Gegevens van CPM &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [&#x200B; Facturerings en Toewijzing van de Indrukking voor de Diefstal van de Gegevens van het Vlaming &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [&#x200B; hoe te om het Gebruik van CPM te melden &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)

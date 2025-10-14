@@ -35,7 +35,7 @@ Een [!UICONTROL folder trait] wordt automatisch gecreeerd wanneer u een nieuwe o
 
 1. Klik op het pictogram + om de map te maken. U kunt maximaal 2000 mappen maken in uw taxonomie. Raadpleeg de documentatie over [gebruikslimieten](../../features/administration/usage-limits.md) voor meer informatie.
 1. Noem de omslag en klik **sparen**. Een map met de naam Electronics heeft bijvoorbeeld een mapkenmerk met de naam &#39;Electronics Folder Trait&#39;. U kunt de nieuwe mapkenmerken weergeven en selecteren op het dashboard met kenmerken.
-1. Het nieuwe mapkenmerk wordt automatisch toegewezen aan de [!DNL Audience Manager] gegenereerde gegevensbron. Uw gebruikers met de juiste [!UICONTROL Role-Based Access Control] ([!DNL RBAC] ) machtigingen kunnen de gegevensbron wijzigen in de workflow voor het bewerken van de mapmap. Zie [ een Spoor van de Omslag ](../../features/traits/manage-folder-traits.md#edit-folder-trait) uitgeven.
+1. Het nieuwe mapkenmerk wordt automatisch toegewezen aan de [!DNL Audience Manager] gegenereerde gegevensbron. Uw gebruikers met de juiste [!UICONTROL Role-Based Access Control] ([!DNL RBAC] ) machtigingen kunnen de gegevensbron wijzigen in de workflow voor het bewerken van de mapmap. Zie [&#x200B; een Spoor van de Omslag &#x200B;](../../features/traits/manage-folder-traits.md#edit-folder-trait) uitgeven.
 
 ## Een mappenset bewerken {#edit-folder-trait}
 
@@ -50,11 +50,11 @@ Beschrijft hoe u een [!UICONTROL folder trait] kunt bewerken.
 
 1. Met de **[!UICONTROL Edit]** -workflow kunt u de gegevensbron voor mapkenmerken wijzigen. Selecteer de gewenste gegevensbron en klik op **[!UICONTROL Save]** . Gegevensbronnen worden numeriek gesorteerd op [!DNL DPID] in de vervolgkeuzelijst.
 
-   Als uw bedrijf [!UICONTROL Role-Based Access Rights (RBAC)] gebruikt, hebt u of uw gebruikers [ toegangstoestemmingen ](../../features/traits/about-folder-traits.md#role-based-access-controls) nodig om gegevensbronnen te trekken.
+   Als uw bedrijf [!UICONTROL Role-Based Access Rights (RBAC)] gebruikt, hebt u of uw gebruikers [&#x200B; toegangstoestemmingen &#x200B;](../../features/traits/about-folder-traits.md#role-based-access-controls) nodig om gegevensbronnen te trekken.
 
 >[!NOTE]
 >
->U kunt de naam van een mapkenmerk niet rechtstreeks wijzigen. [ noem zijn bijbehorende opslagomslag ](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) anders om de naam van het omslagspoor te veranderen.
+>U kunt de naam van een mapkenmerk niet rechtstreeks wijzigen. [&#x200B; noem zijn bijbehorende opslagomslag &#x200B;](../../features/traits/trait-storage.md#rename-delete-trait-storage-folder) anders om de naam van het omslagspoor te veranderen.
 
 ## Een mapmap verwijderen {#delete-folder-trait}
 
@@ -65,8 +65,8 @@ Verwijder een mapkenmerk door de opslagmap te verwijderen waartoe de eigenschap 
 1. **Gegevens van het publiek > Trekken** om aan het **&#x200B;**&#x200B;dashboard van Tonen &lbrace;te navigeren.
 1. Verwijder in het [!UICONTROL Trait Storage] -venster een map door de muisaanwijzer boven de map te houden en op het X-pictogram te klikken.
 
-   ![ Resultaat van de Stap ](assets/folder_traits_create.PNG)
+   ![&#x200B; Resultaat van de Stap &#x200B;](assets/folder_traits_create.PNG)
 
 >[!NOTE]
 >
->U kunt een mapkenmerk niet verwijderen als dit wordt gebruikt in een segmentexpressie. Navigeer aan de [ sectie van de trekmening ](../../features/traits/trait-details-page.md) om te zien welke segmenten het omslagspoor gebruiken. Dan, klik op de segmentnaam om de [ summiere mening van het segment ](../../features/segments/segment-summary-view.md) te openen, die u toestaat om sporen uit segmentuitdrukkingen te verwijderen.
+>U kunt een mapkenmerk niet verwijderen als dit wordt gebruikt in een segmentexpressie. Navigeer aan de [&#x200B; sectie van de trekmening &#x200B;](../../features/traits/trait-details-page.md) om te zien welke segmenten het omslagspoor gebruiken. Dan, klik op de segmentnaam om de [&#x200B; summiere mening van het segment &#x200B;](../../features/segments/segment-summary-view.md) te openen, die u toestaat om sporen uit segmentuitdrukkingen te verwijderen.

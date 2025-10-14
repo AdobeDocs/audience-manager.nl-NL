@@ -21,7 +21,7 @@ Beschrijft de vereiste en optionele stappen waarmee u een [!UICONTROL Look-Alike
 
 ## Sectie Modelbouwer
 
-[!UICONTROL Model Builder] bestaat uit de secties [!UICONTROL Basic Information] en [!UICONTROL Configuration] . Als u een model wilt maken, vult u de vereiste velden in deze twee secties in. Sla het model op om het algoritme te starten. [!DNL Audience Manager] verzendt u een geautomatiseerd bericht nadat de eerste gegevensuitvoering is voltooid. Nadat u e-mail ontvangt, kunt u naar [ Trait Builder ](../../features/traits/about-trait-builder.md) gaan en algoritmische eigenschappen tot stand brengen.
+[!UICONTROL Model Builder] bestaat uit de secties [!UICONTROL Basic Information] en [!UICONTROL Configuration] . Als u een model wilt maken, vult u de vereiste velden in deze twee secties in. Sla het model op om het algoritme te starten. [!DNL Audience Manager] verzendt u een geautomatiseerd bericht nadat de eerste gegevensuitvoering is voltooid. Nadat u e-mail ontvangt, kunt u naar [&#x200B; Trait Builder &#x200B;](../../features/traits/about-trait-builder.md) gaan en algoritmische eigenschappen tot stand brengen.
 
 >[!NOTE]
 >
@@ -35,20 +35,20 @@ Beschrijft de vereiste en optionele stappen waarmee u een [!UICONTROL Look-Alike
 Voer de onderstaande stappen uit om een [!UICONTROL Look-Alike Model] te maken:
 
 1. Ga naar **[!UICONTROL Audience Data]** > **[!UICONTROL Models]** en klik op **[!UICONTROL Add New]** in de sectie [!UICONTROL Look-Alike Modeling] .
-   ![ blik-alike-voeg ](assets/look-alike-add.png) toe
-1. In de [ Basisinformatie ](../../features/algorithmic-models/create-model.md#basic-information) sectie
+   ![&#x200B; blik-alike-voeg &#x200B;](assets/look-alike-add.png) toe
+1. In de [&#x200B; Basisinformatie &#x200B;](../../features/algorithmic-models/create-model.md#basic-information) sectie
    * Geef het model een naam.
    * *(Facultatief)* verstrek een korte beschrijving over het model.
    * Stel de status voor het model in op **[!UICONTROL Active]** of **[!UICONTROL Inactive]** . Inactieve modellen worden niet uitgevoerd en produceren geen gegevens.
-     ![ look-alike-basic ](assets/look-alike-basic.png)
-1. In de [ sectie van de Configuratie ](../../features/algorithmic-models/create-model.md#configuration):
-   * Klik op **[!UICONTROL Browse All Traits]** of **[!UICONTROL Browse All Segments]** om een kenmerk of segment te selecteren waarop u wilt modelleren. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt eigenschappen door het type van het dienstreis ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], en [!UICONTROL Algorithmic]) of bevolkingstype ([ identiteitskaart van het Apparaat ](../../reference/ids-in-aam.md) en [ identiteitskaart van het Apparaat ](../../reference/ids-in-aam.md)) ook filtreren.
-     ![ doorbladeren-traits ](assets/browse-traits.png)
+     ![&#x200B; look-alike-basic &#x200B;](assets/look-alike-basic.png)
+1. In de [&#x200B; sectie van de Configuratie &#x200B;](../../features/algorithmic-models/create-model.md#configuration):
+   * Klik op **[!UICONTROL Browse All Traits]** of **[!UICONTROL Browse All Segments]** om een kenmerk of segment te selecteren waarop u wilt modelleren. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt eigenschappen door het type van het dienstreis ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], en [!UICONTROL Algorithmic]) of bevolkingstype ([&#x200B; identiteitskaart van het Apparaat &#x200B;](../../reference/ids-in-aam.md) en [&#x200B; identiteitskaart van het Apparaat &#x200B;](../../reference/ids-in-aam.md)) ook filtreren.
+     ![&#x200B; doorbladeren-traits &#x200B;](assets/browse-traits.png)
    * Kies een terugblik periode van 30, 60, of 90 dagen. Hiermee stelt u een tijdbereik in voor het model.
    * Het algoritme [!UICONTROL TraitWeight] is standaard geselecteerd.
    * Selecteer een gegevensbron in de lijst [!UICONTROL Available Data] .
    * Klik op **[!UICONTROL Save]** als u klaar bent.
-     ![ blik-alias-configuratie ](assets/look-alike-configuration.png)
+     ![&#x200B; blik-alias-configuratie &#x200B;](assets/look-alike-configuration.png)
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
@@ -115,4 +115,4 @@ Bekijk de onderstaande video om te leren hoe u een model maakt voor de eerste lo
 
 >[!MORELIKETHIS]
 >
->* [ Begrijpend TraitWeight ](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)
+>* [&#x200B; Begrijpend TraitWeight &#x200B;](../../features/algorithmic-models/understanding-models.md#understanding-traitweight)

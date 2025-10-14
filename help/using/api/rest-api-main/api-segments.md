@@ -22,5 +22,5 @@ Methoden waarmee u programmatisch met segmenten kunt werken.
 >
 >De segmentmethoden [!DNL API] zijn herschreven met [!DNL Swagger] en gemigreerd. Zie:
 >
->* [ Adobe Audience Manager API Docs ](https://bank.demdex.com/portal/swagger/index.html)
+>* [&#x200B; Adobe Audience Manager API Docs &#x200B;](https://bank.demdex.com/portal/swagger/index.html)
 >* [Migratie van Audience Manager-API-code](../../api/api-swagger-migration.md)

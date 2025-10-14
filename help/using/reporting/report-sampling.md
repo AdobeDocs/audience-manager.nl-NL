@@ -59,7 +59,7 @@ Het is belangrijk om op te merken dat onze tests en modellen tonen dat het foute
 
 ## De methode voor het nemen van minihashmonsters gebruiken {#minhash}
 
-Gebaseerd op de [ minihash ](https://en.wikipedia.org/wiki/MinHash) steekproefmethodologie, gebruikt Audience Manager een nieuwe methode om eigenschap en segmentschatters bovenop een Één Permutatie het gegevensschets van het Hakken van de Permutatie te berekenen. Deze nieuwe methode produceert een lagere variantie dan de standaardschatter voor gelijkenis Jaccard. Zie de volgende sectie voor de rapporten die deze methodologie gebruiken.
+Gebaseerd op de [&#x200B; minihash &#x200B;](https://en.wikipedia.org/wiki/MinHash) steekproefmethodologie, gebruikt Audience Manager een nieuwe methode om eigenschap en segmentschatters bovenop een Één Permutatie het gegevensschets van het Hakken van de Permutatie te berekenen. Deze nieuwe methode produceert een lagere variantie dan de standaardschatter voor gelijkenis Jaccard. Zie de volgende sectie voor de rapporten die deze methodologie gebruiken.
 
 <!--
 
@@ -86,6 +86,6 @@ Reports that use Minhash sampling methodology:
 
 | Statistische bemonstering | Methode voor het nemen van minihash |
 |--- |--- |
-| [ Adressable Gegevens van het publiek ](../features/addressable-audiences.md) (klant en segment-vlakke gegevens). | [ overlap rapporten ](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (spoor-aan-spoor, segment-aan-spoor, en segment-aan-segment) |
-| [ Totale Apparaten ](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metrisch voor a [!UICONTROL Profile Merge Rule]. | [Trait Recommendations](/help/using/features/segments/trait-recommendations.md) |
-| [ Data Explorer ](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) gebruikt bemonsterde gegevens in het [!UICONTROL Search] lusje en om het even welk [!UICONTROL Saved Searches] | [ de Aanbevelingen van Audience Marketplace ](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |
+| [&#x200B; Adressable Gegevens van het publiek &#x200B;](../features/addressable-audiences.md) (klant en segment-vlakke gegevens). | [&#x200B; overlap rapporten &#x200B;](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) (spoor-aan-spoor, segment-aan-spoor, en segment-aan-segment) |
+| [&#x200B; Totale Apparaten &#x200B;](../features/profile-merge-rules/profile-link-metrics.md#merge-rule-metrics) metrisch voor a [!UICONTROL Profile Merge Rule]. | [Trait Recommendations](/help/using/features/segments/trait-recommendations.md) |
+| [&#x200B; Data Explorer &#x200B;](../features/data-explorer/data-explorer-signals-search/data-explorer-search-pairs.md) gebruikt bemonsterde gegevens in het [!UICONTROL Search] lusje en om het even welk [!UICONTROL Saved Searches] | [&#x200B; de Aanbevelingen van Audience Marketplace &#x200B;](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#finding-similar-traits) |

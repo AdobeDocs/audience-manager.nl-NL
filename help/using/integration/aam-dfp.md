@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Stel [!DNL Google Ad Manager] in als een doel en verzend Audience Manager-segmentgegevens naar dat platform.
 
-In de documentatie in deze sectie wordt de verouderde methode beschreven voor integratie met [!DNL Google Ad Manager] en deze is verwijderd. Voor [!DNL Google Ad Manager] integratie, zie [ de Manager van Google integreren Ad gebruikend de Markeringen van de Uitgever van Google (GPT) ](../integration/gpt-aam-destination/gpt-aam-requirements.md).
+In de documentatie in deze sectie wordt de verouderde methode beschreven voor integratie met [!DNL Google Ad Manager] en deze is verwijderd. Voor [!DNL Google Ad Manager] integratie, zie [&#x200B; de Manager van Google integreren Ad gebruikend de Markeringen van de Uitgever van Google (GPT) &#x200B;](../integration/gpt-aam-destination/gpt-aam-requirements.md).

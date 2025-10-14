@@ -15,13 +15,13 @@ ht-degree: 2%
 
 # Rapportage van voorspellende doelgroepen
 
-Nadat u een [!UICONTROL Predictive Audiences] -model hebt opgeslagen, start Audience Manager de training. Binnen een paar uren, zal het gegevens verwerkte model beginnen publiek op de [ Servers van de Inzameling van Gegevens te analyseren ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=nl-NL#dcs-pcs). Rapportage is de volgende dag beschikbaar.
+Nadat u een [!UICONTROL Predictive Audiences] -model hebt opgeslagen, start Audience Manager de training. Binnen een paar uren, zal het gegevens verwerkte model beginnen publiek op de [&#x200B; Servers van de Inzameling van Gegevens te analyseren &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=nl-NL#dcs-pcs). Rapportage is de volgende dag beschikbaar.
 
 Ga naar [!UICONTROL Predictive Audiences] > **[!UICONTROL Audience Data]** en klik op het model in de lijst om de resultaten van de **[!UICONTROL Models]** -classificatie te bekijken.
 
 Gebruik de filteropties aan de linkerkant om naar de modelnaam te zoeken of de resultaten te filteren op basis van het modeltype.
 
-![ voorspellend-publiek-filter ](assets/predictive-audiences-filter-models.png)
+![&#x200B; voorspellend-publiek-filter &#x200B;](assets/predictive-audiences-filter-models.png)
 
 De modellenlijst toont u de volgende informatie:
 
@@ -47,7 +47,7 @@ Het donut-diagram toont u een op persoon-gebaseerde uitsplitsing van uw doelpubl
 
 Als de modelstatus [!UICONTROL Pending], [!UICONTROL Warning] of [!UICONTROL Error] is, wordt de modelstatus weergegeven in plaats van de grafieken.
 
-![ slim-persona-rapport ](assets/predictive-audiences-report.png)
+![&#x200B; slim-persona-rapport &#x200B;](assets/predictive-audiences-report.png)
 
 De rapportlijst toont u de volgende informatie voor elk [!UICONTROL Predictive Audiences] segment.
 
@@ -70,7 +70,7 @@ Klik op [!UICONTROL View All Influential Traits] om de invloedrijke kenmerken va
 
 In het venster [!UICONTROL Influential Traits] ziet u de volgende informatie voor elke persoon van het geselecteerde model:
 
-![ invloedrijke-trekken ](assets/predictive-audiences-influential-traits.png)
+![&#x200B; invloedrijke-trekken &#x200B;](assets/predictive-audiences-influential-traits.png)
 
 1. **[!UICONTROL TRAIT ID]**: de eigenschap-id van elk invloedrijk kenmerk voor de geselecteerde persoon;
 1. **[!UICONTROL NAME]**: de naam van elke invloedrijke eigenschap voor de geselecteerde persoon;

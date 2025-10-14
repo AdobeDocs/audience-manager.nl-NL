@@ -22,11 +22,11 @@ Dit rapport retourneert een frequentietelling van alle ongebruikte gegevens die 
 >
 >Als u het bericht &quot;U hebt geen toegang tot Audience Reports&quot; ziet, neemt u contact op met uw Audience Manager-consultant of de klantenservice om het rapport aan u voor te leggen.
 
-![ Schermafbeelding van het Ongebruikte Rapport van Signalen ](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
+![&#x200B; Schermafbeelding van het Ongebruikte Rapport van Signalen &#x200B;](/help/using/reporting/dynamic-reports/assets/unused-signals.png)
 
 ## Overzicht
 
-Een signaal is informatie van uw website die binnen aan [!DNL Audience Manager] in de vorm van [ wordt overgegaan sleutel-waarde paren ](../../reference/key-value-pairs-explained.md) (b.v., `color=blue, price>100, gender=female`, enz.).
+Een signaal is informatie van uw website die binnen aan [!DNL Audience Manager] in de vorm van [&#x200B; wordt overgegaan sleutel-waarde paren &#x200B;](../../reference/key-value-pairs-explained.md) (b.v., `color=blue, price>100, gender=female`, enz.).
 
 Ongebruikte signalen bestaan uit gegevens die u verzamelt, maar die niet aan een eigenschap zijn toegewezen. Het [!UICONTROL Unused Signals] rapport toont gegevens in een lijst door datum, sleutel, waarde, en frequentietelling. Elk niet-toegewezen signaal dat ten minste 100 keer per dag wordt doorgegeven aan [!DNL Audience Manager] , komt in aanmerking voor het [!UICONTROL Unused Signals] -rapport.
 

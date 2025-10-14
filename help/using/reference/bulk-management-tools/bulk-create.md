@@ -30,7 +30,7 @@ t_bulk_create.xml
 
 >[!NOTE]
 >
->[ RBAC groepstoestemmingen ](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
+>[&#x200B; RBAC groepstoestemmingen &#x200B;](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
 
 >[!CAUTION]
 >
@@ -44,10 +44,10 @@ Als u meerdere objecten wilt maken, opent u het werkblad van [!UICONTROL Bulk Ma
 4. Plak of typ de gegevens die u wilt wijzigen in een bijbehorende kolom op basis van het koptekstlabel.
 5. Klik in de werkbladwerkbalk op de knop Maken die overeenkomt met het item dat u bijwerkt.
 Met deze handeling wordt het dialoogvenster [!UICONTROL Account Information] geopend.
-6. Verstrek het vereiste [ login informatie ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik **[!UICONTROL Submit]**.
+6. Verstrek het vereiste [&#x200B; login informatie &#x200B;](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik **[!UICONTROL Submit]**.
 
-In het werkblad wordt een kolom [!UICONTROL Results] gemaakt. De kolom [!UICONTROL Results] retourneert de JSON-reactie voor een geslaagde bewerking. Zie [ REST APIs ](../../api/rest-api-main/rest-api-main.md) voor voorbeelden. Voordat u gegevens invoert, moet het werkblad voor bulksgewijs maken er ongeveer zo uitzien als in het volgende voorbeeld. Niet alle verschillende opties voor het maken van bestanden worden hier weergegeven. Dit is inbegrepen om u te helpen begrijpen hoe een voltooid aantekenvel zou kunnen kijken.
+In het werkblad wordt een kolom [!UICONTROL Results] gemaakt. De kolom [!UICONTROL Results] retourneert de JSON-reactie voor een geslaagde bewerking. Zie [&#x200B; REST APIs &#x200B;](../../api/rest-api-main/rest-api-main.md) voor voorbeelden. Voordat u gegevens invoert, moet het werkblad voor bulksgewijs maken er ongeveer zo uitzien als in het volgende voorbeeld. Niet alle verschillende opties voor het maken van bestanden worden hier weergegeven. Dit is inbegrepen om u te helpen begrijpen hoe een voltooid aantekenvel zou kunnen kijken.
 
 ![](assets/cretetraits.png)
 
-Als uw bulkupdate een fout terugkeert of ontbreekt, zie [ het Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk ](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Als uw bulkupdate een fout terugkeert of ontbreekt, zie [&#x200B; het Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk &#x200B;](../../reference/bulk-management-tools/bulk-troubleshooting.md).

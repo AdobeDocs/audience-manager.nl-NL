@@ -55,7 +55,7 @@ Voltooi de vereiste gebieden in de **[!UICONTROL Basic Information]** sectie *al
    >
    >Neem het voorvoegsel `c_` (of een andere naamgevingsconventie) voor de toetsvariabele op als uw gebeurtenisaanroepen gegevens naar [!DNL Audience Manager] verzenden met behulp van die syntaxis.
 
-1. Selecteer a [ vergelijkingsexploitant ](../../features/traits/trait-comparison-operators.md) van **[!UICONTROL Operator]** dropdown. De vergelijkingsexploitant evalueert de verhouding tussen de elementen in een signaal.
+1. Selecteer a [&#x200B; vergelijkingsexploitant &#x200B;](../../features/traits/trait-comparison-operators.md) van **[!UICONTROL Operator]** dropdown. De vergelijkingsexploitant evalueert de verhouding tussen de elementen in een signaal.
 
    >[!NOTE]
    >
@@ -119,8 +119,8 @@ Deze procedure beschrijft hoe te om een treklijn te schrappen.
 
 >[!MORELIKETHIS]
 >
->* [ creeer een Nieuwe Groep van de Regel ](../../features/traits/manage-trait-rules.md#create-rule-group)
->* [ Beweeg Regels tussen Groepen ](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
->* [ creeer een Regel van het Tpoor ](../../features/traits/manage-trait-rules.md#create-trait-rule)
->* [ Schrap een Regel van het Spoor ](../../features/traits/manage-trait-rules.md#delete-trait)
->* [ Beweeg Regels tussen Groepen ](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [&#x200B; creeer een Nieuwe Groep van de Regel &#x200B;](../../features/traits/manage-trait-rules.md#create-rule-group)
+>* [&#x200B; Beweeg Regels tussen Groepen &#x200B;](../../features/traits/manage-trait-rules.md#move-rules-between-groups)
+>* [&#x200B; creeer een Regel van het Tpoor &#x200B;](../../features/traits/manage-trait-rules.md#create-trait-rule)
+>* [&#x200B; Schrap een Regel van het Spoor &#x200B;](../../features/traits/manage-trait-rules.md#delete-trait)
+>* [&#x200B; Beweeg Regels tussen Groepen &#x200B;](../../features/traits/manage-trait-rules.md#move-rules-between-groups)

@@ -26,7 +26,7 @@ Met [!UICONTROL Destination Builder] kunt u op cookies gebaseerde of [!DNL URL] 
 | [!UICONTROL Destination Builder] Sectie | Doel |
 |--- |--- |
 | Basisinformatie | Wordt gebruikt om het doel een naam te geven, het te beschrijven en het doeltype ([!DNL URL] of [!DNL cookie] ) en platform (all, [!DNL Android] , browser of [!DNL iOS]) te selecteren. |
-| Configuratie | Bevat besturingselementen voor: <br/><ul><li>Het overgaan in zeer belangrijke-waardegegevens aan [!DNL URL] bestemmingen. U kunt gegevens verzenden als individuele of geserialiseerde sleutel-waardeparen. Voor details zie, [ Serienummering van de Bestemming ](../../features/destinations/key-value-pairs.md#destination-serialized) en [ Standaard en Serie zeer belangrijke - waardeparen ](../../features/destinations/key-value-pairs.md). </li><li>Elementen van een cookiebestemming, zoals de naam, het domein, de grootte, het vervalinterval, de gegevensindeling, enz.</li></ul> |
+| Configuratie | Bevat besturingselementen voor: <br/><ul><li>Het overgaan in zeer belangrijke-waardegegevens aan [!DNL URL] bestemmingen. U kunt gegevens verzenden als individuele of geserialiseerde sleutel-waardeparen. Voor details zie, [&#x200B; Serienummering van de Bestemming &#x200B;](../../features/destinations/key-value-pairs.md#destination-serialized) en [&#x200B; Standaard en Serie zeer belangrijke - waardeparen &#x200B;](../../features/destinations/key-value-pairs.md). </li><li>Elementen van een cookiebestemming, zoals de naam, het domein, de grootte, het vervalinterval, de gegevensindeling, enz.</li></ul> |
 | Segmenttoewijzingen | Hier volgt u: <br/><ul><li>Zoek, voeg, en beheer segmenten toe verbonden aan alle bestemmingstypes. </li><li>Geef leveringsprioriteiten op voor afzonderlijke segmenten (alleen voor op [!DNL cookie] gebaseerde segmenten).</li></ul> |
 
 ## Methoden voor gegevenslevering {#data-delivery-methods}
@@ -36,4 +36,4 @@ Verzend informatie naar een doel door deze door te geven via een [!DNL URL] -tek
 * [!DNL URL] en op cookies gebaseerde doelen verzenden gegevens synchroon, terwijl een gebruiker actie onderneemt op een pagina.
 * De server-aan-server gegevenstransmissie is asynchroon en kan voorkomen lang nadat een gebruiker de pagina heeft verlaten. Het leveringstype u selecteert hangt van uw bedrijfsvereisten af en hoe een bepaalde gegevenspartner gegevens wil, of kan, ontvangen.
 
-Zie [ hoe te om een Type van Bestemming ](../../features/destinations/destinations.md) voor meer informatie te kiezen.
+Zie [&#x200B; hoe te om een Type van Bestemming &#x200B;](../../features/destinations/destinations.md) voor meer informatie te kiezen.

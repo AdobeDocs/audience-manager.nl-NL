@@ -19,7 +19,7 @@ ht-degree: 2%
 
 De verificatiestatus van de bezoeker in Audience Manager bepaalt of de nieuwe informatie over de eigenschap wordt geschreven naar het geverifieerde profiel van de bezoeker of naar het apparaatprofiel, waar de gegevens zijn verzameld. Audience Manager verwerkt de verificatiestatus van de bezoekersidentiteitskaart UNKNOWN en LOGGED_OUT in gebeurtenisaanroepen op dezelfde manier.
 
-Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de methode `setCustomerID` het optionele object `AuthState` . `AuthState` identificeert bezoekers volgens hun [ authentificatiestatus ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL). [!DNL Audience Manager] behandelt de gerealiseerde eigenschappen verschillend, afhankelijk van de authentificatiestatus die in de vraag wordt overgegaan en de [ Regel van de Fusie van het Profiel ](../features/profile-merge-rules/merge-rules-dashboard.md) u voor segmentatie gebruikt.
+Vanaf [!DNL Experience Cloud] ID service v1.5+ bevat de methode `setCustomerID` het optionele object `AuthState` . `AuthState` identificeert bezoekers volgens hun [&#x200B; authentificatiestatus &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL). [!DNL Audience Manager] behandelt de gerealiseerde eigenschappen verschillend, afhankelijk van de authentificatiestatus die in de vraag wordt overgegaan en de [&#x200B; Regel van de Fusie van het Profiel &#x200B;](../features/profile-merge-rules/merge-rules-dashboard.md) u voor segmentatie gebruikt.
 
 ## Status verificatie: ONBEKEND {#auth-status-unknown}
 
@@ -53,7 +53,7 @@ Voorbeeldaanroep (de aanvraagwaarde die overeenkomt met de verificatiestatus wor
 
 >[!NOTE]
 >
->[!DNL Audience Manager] voert een synchronisatie van identiteitskaart tussen [ CID en UUID ](../reference/ids-in-aam.md) in alle drie gevallen uit.
+>[!DNL Audience Manager] voert een synchronisatie van identiteitskaart tussen [&#x200B; CID en UUID &#x200B;](../reference/ids-in-aam.md) in alle drie gevallen uit.
 
 >[!MORELIKETHIS]
 >

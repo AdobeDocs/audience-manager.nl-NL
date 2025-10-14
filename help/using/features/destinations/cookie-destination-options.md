@@ -100,4 +100,4 @@ De [!UICONTROL Publish Data To] -instellingen retourneren een cookie als het dom
 
 >[!MORELIKETHIS]
 >
->* [ creeer een Bestemming van het Koekje ](../../features/destinations/create-cookie-destination.md)
+>* [&#x200B; creeer een Bestemming van het Koekje &#x200B;](../../features/destinations/create-cookie-destination.md)

@@ -79,7 +79,7 @@ Het model kan niet worden uitgevoerd. In dergelijke gevallen kunt u contact opne
 Maak een nieuw model door dezelfde personen en doelgroepen te selecteren als het vorige model. Wijs tijdens het maken van een model een andere [!UICONTROL Profile Merge Rule] toe.
 
 >[!WARNING]
-> Alternatief, kunt u [ Bouwer van het Segment ](../features/segments/segment-builder.md) gebruiken om a [!UICONTROL segment] met een bestaand vooruitlopend [!UICONTROL trait] manueel tot stand te brengen en het toe te wijzen a [!UICONTROL Profile Merge Rule] van uw keus.
+> Alternatief, kunt u [&#x200B; Bouwer van het Segment &#x200B;](../features/segments/segment-builder.md) gebruiken om a [!UICONTROL segment] met een bestaand vooruitlopend [!UICONTROL trait] manueel tot stand te brengen en het toe te wijzen a [!UICONTROL Profile Merge Rule] van uw keus.
 > 
 > We raden deze werkwijze echter niet aan, omdat voorspellende [!UICONTROL traits] automatisch de [!UICONTROL Profile Merge Rule] overerft van het model waartoe ze behoren en ze zijn gemaakt van invloedrijke [!UICONTROL traits] die voldoen aan de [!UICONTROL Profile Merge Rule] van het model.
 

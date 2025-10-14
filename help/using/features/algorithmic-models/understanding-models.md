@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Nieuwe gebruikers zoeken met [!UICONTROL Look-Alike Modeling] {#find-new-users}
 
-Met [!UICONTROL Look-Alike Modeling] kunt u nieuwe, unieke doelgroepen detecteren via geautomatiseerde gegevensanalyse. Het proces wordt gestart wanneer u een [!UICONTROL trait] of [!UICONTROL segment] , een tijdinterval en een eerste en een derde [!UICONTROL data sources] selecteert. Uw keuzen verstrekken de input voor het algoritmische model. Wanneer het analyseproces loopt, zoekt het naar in aanmerking komende gebruikers die op gedeelde kenmerken van de geselecteerde bevolking worden gebaseerd. Op voltooiing, is dit gegeven beschikbaar in [ Trait Builder ](../../features/traits/about-trait-builder.md) waar u het kunt gebruiken om eigenschappen tot stand te brengen die op [ worden gebaseerd nauwkeurigheid en bereik ](../../features/traits/trait-accuracy-reach.md). Daarnaast kunt u segmenten maken die algoritmische kenmerken combineren met [!UICONTROL rules-based traits] en andere kwalificatievereisten toevoegen met [!DNL Boolean] -expressies en vergelijkingsoperatoren. [!UICONTROL Look-Alike Modeling] biedt u een dynamische manier om waarde te extraheren uit al uw beschikbare gegevens over de eigenschap.
+Met [!UICONTROL Look-Alike Modeling] kunt u nieuwe, unieke doelgroepen detecteren via geautomatiseerde gegevensanalyse. Het proces wordt gestart wanneer u een [!UICONTROL trait] of [!UICONTROL segment] , een tijdinterval en een eerste en een derde [!UICONTROL data sources] selecteert. Uw keuzen verstrekken de input voor het algoritmische model. Wanneer het analyseproces loopt, zoekt het naar in aanmerking komende gebruikers die op gedeelde kenmerken van de geselecteerde bevolking worden gebaseerd. Op voltooiing, is dit gegeven beschikbaar in [&#x200B; Trait Builder &#x200B;](../../features/traits/about-trait-builder.md) waar u het kunt gebruiken om eigenschappen tot stand te brengen die op [&#x200B; worden gebaseerd nauwkeurigheid en bereik &#x200B;](../../features/traits/trait-accuracy-reach.md). Daarnaast kunt u segmenten maken die algoritmische kenmerken combineren met [!UICONTROL rules-based traits] en andere kwalificatievereisten toevoegen met [!DNL Boolean] -expressies en vergelijkingsoperatoren. [!UICONTROL Look-Alike Modeling] biedt u een dynamische manier om waarde te extraheren uit al uw beschikbare gegevens over de eigenschap.
 
 ## Voordelen {#advantages}
 
@@ -191,5 +191,5 @@ De overzichtspagina van het model bevat de volgende secties.
 >[!MORELIKETHIS]
 >
 >* [Doelen](../../features/destinations/destinations.md)
->* [ Tanden ](../../features/traits/trait-details-page.md)
->* [ Segmenten ](../../features/segments/segments-purpose.md)
+>* [&#x200B; Tanden &#x200B;](../../features/traits/trait-details-page.md)
+>* [&#x200B; Segmenten &#x200B;](../../features/segments/segments-purpose.md)

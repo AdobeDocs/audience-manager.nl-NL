@@ -39,7 +39,7 @@ In de taxonomie van [!DNL Audience Manager] worden gegevens ingedeeld in geneste
 
 ## Verrichtingen in gegevenscategorieën classificeren
 
-U wijst taxonomische classificaties toe bij het maken of bewerken van kenmerken in de [!UICONTROL Add New Trait Wizard] (in * **[!UICONTROL Audience Data > Traits]** *). Verwijs naar de [ documentatie bij het creëren van eigenschappen ](../../features/traits/create-onboarded-rule-based-traits.md) voor meer informatie.
+U wijst taxonomische classificaties toe bij het maken of bewerken van kenmerken in de [!UICONTROL Add New Trait Wizard] (in * **[!UICONTROL Audience Data > Traits]** *). Verwijs naar de [&#x200B; documentatie bij het creëren van eigenschappen &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md) voor meer informatie.
 
 ## Werken met de taxonomie: aanvullende overwegingen
 

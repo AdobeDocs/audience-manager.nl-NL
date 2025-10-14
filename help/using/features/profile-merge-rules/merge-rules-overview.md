@@ -26,14 +26,14 @@ Doorgaans is segmentering van het publiek en doelgericht afhankelijk van gegeven
 
 ![](assets/unauthenticated2.png)
 
-[!UICONTROL Profile Merge Rules] wijzigt fundamenteel de manier waarop [!DNL Audience Manager] gegevens en segmenten verzamelt die gebruikers als doelgroep kunnen gebruiken. Het laat u met 2 verschillende types van profielen werken, een apparatenprofiel en een [ voor authentiek verklaard profiel ](../../reference/visitor-authentication-states.md).
+[!UICONTROL Profile Merge Rules] wijzigt fundamenteel de manier waarop [!DNL Audience Manager] gegevens en segmenten verzamelt die gebruikers als doelgroep kunnen gebruiken. Het laat u met 2 verschillende types van profielen werken, een apparatenprofiel en een [&#x200B; voor authentiek verklaard profiel &#x200B;](../../reference/visitor-authentication-states.md).
 
 | Profieltype | Beschrijving |
 |---|---|
 | [!UICONTROL Device Profile] | Een [!UICONTROL device profile] is gekoppeld aan een id voor een bepaald apparaat, zoals een [!UICONTROL cookie] ID of een mobiele apparaat-id.<br><br> Het omvat:<ul><li>[!UICONTROL Rule-based traits] wordt uitgevoerd wanneer een gebruiker niet wordt geverifieerd.</li><li>[!UICONTROL Onboarded traits] gekoppeld aan een apparaat-id, zoals [!UICONTROL cookie-based] , gegevens van derden.</li></ul> |
 | [!UICONTROL Authenticated Profile] | [!UICONTROL authenticated profile] is gekoppeld aan een gebruikersnaam die wordt doorgegeven wanneer een persoon zich aanmeldt bij uw site.<br><br> het omvat:<ul><li>[!UICONTROL Rule-based traits] wordt verzameld op verschillende apparaten wanneer een gebruiker wordt geverifieerd.</li><li>[!UICONTROL Onboarded traits] in een offlinebestand dat is gekoppeld aan dezelfde gebruiker-id.</li></ul> |
 
-Deze verschillende profielen bepalen de gegevens die u voor segmentatie kunt gebruiken. Bijvoorbeeld, met een [ voor authentiek verklaard profiel ](../../reference/visitor-authentication-states.md), kunt u nauwkeurige [!UICONTROL segments] bouwen die op gegevens van veelvoudige apparaten voor één enkele gebruiker wordt gebaseerd. Dit betekent dat u klanten op meerdere apparaten een consistente merkervaring kunt bieden. [!DNL Audience Manager] bereikt dit door de afbeelding van de verschillende apparaten op te slaan een persoon voor hun online activiteiten aan hun [ voor authentiek verklaarde profiel ](../../reference/visitor-authentication-states.md) gebruikt. Deze toewijzingen worden de [!UICONTROL Profile Link Device Graph] genoemd.
+Deze verschillende profielen bepalen de gegevens die u voor segmentatie kunt gebruiken. Bijvoorbeeld, met een [&#x200B; voor authentiek verklaard profiel &#x200B;](../../reference/visitor-authentication-states.md), kunt u nauwkeurige [!UICONTROL segments] bouwen die op gegevens van veelvoudige apparaten voor één enkele gebruiker wordt gebaseerd. Dit betekent dat u klanten op meerdere apparaten een consistente merkervaring kunt bieden. [!DNL Audience Manager] bereikt dit door de afbeelding van de verschillende apparaten op te slaan een persoon voor hun online activiteiten aan hun [&#x200B; voor authentiek verklaarde profiel &#x200B;](../../reference/visitor-authentication-states.md) gebruikt. Deze toewijzingen worden de [!UICONTROL Profile Link Device Graph] genoemd.
 
 ![](assets/authenticated2.png)
 
@@ -41,7 +41,7 @@ Deze verschillende profielen bepalen de gegevens die u voor segmentatie kunt geb
 
 Met [!UICONTROL Profile Merge Rules] kunt u:
 
-* De gebruikers van het doel die op [ worden gebaseerd voor authentiek verklaarde profiel ](../../reference/visitor-authentication-states.md), anonieme profielen, of combinaties van allebei.
+* De gebruikers van het doel die op [&#x200B; worden gebaseerd voor authentiek verklaarde profiel &#x200B;](../../reference/visitor-authentication-states.md), anonieme profielen, of combinaties van allebei.
 * Richt een specifieke klant over hun apparaten.
 * Bouw een apparatengrafiek die op deterministische gegevens wordt gebaseerd.
 * Stel de gegevens in uw [!UICONTROL segments] nauwkeurig in op basis van verschillende profielen.

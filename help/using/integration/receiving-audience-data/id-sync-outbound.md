@@ -75,5 +75,5 @@ De [!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitsk
 
 >[!MORELIKETHIS]
 >
->* [ de Server van de Inzameling van Gegevens (DCS) API Methoden en Code ](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
+>* [&#x200B; de Server van de Inzameling van Gegevens (DCS) API Methoden en Code &#x200B;](../../api/dcs-intro/dcs-event-calls/dcs-event-calls.md)
 >* [Onderdelen voor dataverzameling](../../reference/system-components/components-data-collection.md)

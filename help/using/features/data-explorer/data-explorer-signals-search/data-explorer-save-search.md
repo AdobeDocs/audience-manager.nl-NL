@@ -20,7 +20,7 @@ Optimaliseer de inspanningen van het signaalonderzoek door tot 10 reeksen onderz
 1. Ga naar **[!UICONTROL Audience Data > Signals > Search]** en voer een **[!UICONTROL Signals Search]** uit met de sleutel-waardeparen en/of de filters die u voor toekomstige onderzoeken wilt bewaren.
 1. Klik op **[!UICONTROL Save this Search]** als u de zoekresultaten hebt opgehaald.
 
-   ![ Resultaat van de Stap ](assets/save-search-criteria.png)
+   ![&#x200B; Resultaat van de Stap &#x200B;](assets/save-search-criteria.png)
 1. Voer een suggestieve naam in voor de zoekopdracht, zodat u deze later kunt herkennen.
 1. (Optioneel) Schakel de optie **[!UICONTROL Track this search result in the dashboard]** in als u wilt dat het signaaldashboard de signalen opneemt in de huidige zoekset.
 1. Selecteer de **[!UICONTROL Default Sorting]** criteria:
@@ -31,7 +31,7 @@ Optimaliseer de inspanningen van het signaalonderzoek door tot 10 reeksen onderz
    * **[!UICONTROL Ascending]**
 1. Klik op **[!UICONTROL Save]**. U kunt de opgeslagen zoekopdracht weergeven in de sectie [!UICONTROL Saved Search] en deze gebruiken wanneer u deze nodig hebt.
 
-![ bewaard onderzoek ](assets/saved-search.png)
+![&#x200B; bewaard onderzoek &#x200B;](assets/saved-search.png)
 
 Bekijk de onderstaande video voor informatie over het opslaan van zoekopdrachten in signalen.
 

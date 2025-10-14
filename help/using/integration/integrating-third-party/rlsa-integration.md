@@ -23,14 +23,14 @@ Voor deze procedure is een [!DNL Google Ads] lijst met opnieuw in de handel bren
 
 Een [!DNL Google Ads] lijst voor opnieuw in de handel brengen instellen als een [!DNL Audience Manager] [!DNL URL destination] :
 
-1. In uw [!DNL Google Ads] rekening, [ creeer een website re-marketing lijst ](https://support.google.com/tagmanager/answer/6106960?hl=en) en schrijf uw omzettingsidentiteitskaart neer.
+1. In uw [!DNL Google Ads] rekening, [&#x200B; creeer een website re-marketing lijst &#x200B;](https://support.google.com/tagmanager/answer/6106960?hl=en) en schrijf uw omzettingsidentiteitskaart neer.
 1. Gebruik de volgende URL als sjabloon voor de Basis URL en Veilige URL. Vervang de sectie xxxxxxxx door uw omzettings ID.
 
    ```
     //googleads.g.doubleclick.net/pagead/viewthroughconversion/xxxxxxxx/?value=0&guid=ON&script=0&data=%ALIAS%
    ```
 
-1. In Audience Manager, [ creeer a  [!DNL URL destination]](../../features/destinations/create-url-destination.md) of geef bestaand uit [!DNL destination]. Gebruik de volgende instellingen bij het maken van de [!DNL destination] :
+1. In Audience Manager, [&#x200B; creeer a  [!DNL URL destination]](../../features/destinations/create-url-destination.md) of geef bestaand uit [!DNL destination]. Gebruik de volgende instellingen bij het maken van de [!DNL destination] :
    * Type: URL
    * Serialiseren: Ingeschakeld
    * Scheidingsteken: puntkomma (&puntkomma; )
@@ -71,6 +71,6 @@ Een voltooide afbeelding kan er ongeveer als volgt uitzien:
 >[!MORELIKETHIS]
 >
 >* [[!DNL Destinations]](../../features/destinations/destinations.md)
->* [ creeer a  [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
->* [ Ongeveer AdWords die Lijsten van de Nota&#39;s ](https://support.google.com/adwords/answer/2472738) markeren
->* [ hoe AdWords het Markeren werkt ](https://support.google.com/adwords/answer/2454000)
+>* [&#x200B; creeer a  [!DNL URL Destination]](../../features/destinations/create-url-destination.md)
+>* [&#x200B; Ongeveer AdWords die Lijsten van de Nota&#39;s &#x200B;](https://support.google.com/adwords/answer/2472738) markeren
+>* [&#x200B; hoe AdWords het Markeren werkt &#x200B;](https://support.google.com/adwords/answer/2454000)

@@ -20,7 +20,7 @@ Methoden waarmee u programmatically met [!UICONTROL Data Integration Library] ([
 
 >[!IMPORTANT]
 >
->De Data Integration Library API is vervangen. Deze API gebruikte om DIL te produceren, die u nu zelf-download kunt hier: [ download van DIL ](https://github.com/Adobe-Marketing-Cloud/dil/releases).
+>De Data Integration Library API is vervangen. Deze API gebruikte om DIL te produceren, die u nu zelf-download kunt hier: [&#x200B; download van DIL &#x200B;](https://github.com/Adobe-Marketing-Cloud/dil/releases).
 
 <!-- c_data_integr_library_api.xml -->
 

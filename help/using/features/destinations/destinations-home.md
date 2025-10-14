@@ -24,7 +24,7 @@ Op de landingspagina van [!UICONTROL Destination] staan al uw [!DNL URL] -doelen
 De standaard landende pagina maakt een lijst van uw bestemmingen, die op type worden gebaseerd. U kunt de bestemmingen filtreren door de vier beschikbare lusjes te gebruiken:
 
 * **allen**: toont alle soorten bestemmingen.
-* **Adobe Experience Cloud**: toont bestemmingen die gegevens naar andere oplossingen van Adobe Experience Cloud verzenden. Adobe Analytics is momenteel de enige ondersteunde optie. Zie [ een Bestemming van Analytics ](/help/using/features/destinations/create-analytics-destination.md) vormen.
+* **Adobe Experience Cloud**: toont bestemmingen die gegevens naar andere oplossingen van Adobe Experience Cloud verzenden. Adobe Analytics is momenteel de enige ondersteunde optie. Zie [&#x200B; een Bestemming van Analytics &#x200B;](/help/using/features/destinations/create-analytics-destination.md) vormen.
 * **Geïntegreerde Platforms**: toont op mensen-gebaseerde en op apparaat-gebaseerde bestemmingen (ook genoemd server-aan-server bestemmingen).
 * **Douane**: toont koekje en bestemmingen URL.
 
@@ -35,6 +35,6 @@ De standaard landende pagina maakt een lijst van uw bestemmingen, die op type wo
 
 Selecteer **[!UICONTROL Integrated Platforms > Device-Based]** als u de publieksgegevens en de overeenkomstige snelheden voor de bestemming van de server naar de server wilt zien.
 
-Voor meer informatie over de getoonde informatie, zie [ Adresseerbare Interface van het publiek ](/help/using/features/addressable-audiences.md#addressable-audience-interface).
+Voor meer informatie over de getoonde informatie, zie [&#x200B; Adresseerbare Interface van het publiek &#x200B;](/help/using/features/addressable-audiences.md#addressable-audience-interface).
 
 ![](/help/using/features/assets/addressable-audiences-landing.png)

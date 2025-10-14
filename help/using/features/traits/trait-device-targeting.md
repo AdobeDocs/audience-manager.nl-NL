@@ -19,8 +19,8 @@ ht-degree: 1%
 >[!WARNING]
 >
 >Google heeft de functionaliteit van [!DNL Google Chrome] en alle [!DNL Chromium] gebaseerde browsers bijgewerkt om de informatie die via de header `User-Agent` wordt verzameld, tot een minimum te beperken.
->&#x200B;>Beginnend met Maart 2023, steunt Audience Manager deze updates door leveraging [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL). Om het gebruiken van eigenschapinformatie voort te zetten die via de `User-Agent` kopbal wordt verstrekt, moet u [ SDK van het Web ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) gebruiken en [ Hints van de Cliënt van Entropy Gebruiker-Agent ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=nl-NL) toelaten.
->&#x200B;>Deze updates worden niet gesteund door [ DIL ](../../../using/dil/dil-overview.md), zodat zullen de klanten van Audience Manager die [!DNL DIL] gebruiken geen trekinformatie via de `User-Agent` kopbal kunnen verzamelen.
+>&#x200B;>Beginnend met Maart 2023, steunt Audience Manager deze updates door leveraging [&#x200B; SDK van het Web van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL). Om het gebruiken van eigenschapinformatie voort te zetten die via de `User-Agent` kopbal wordt verstrekt, moet u [&#x200B; SDK van het Web &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) gebruiken en [&#x200B; Hints van de Cliënt van Entropy Gebruiker-Agent &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=nl-NL) toelaten.
+>&#x200B;>Deze updates worden niet gesteund door [&#x200B; DIL &#x200B;](../../../using/dil/dil-overview.md), zodat zullen de klanten van Audience Manager die [!DNL DIL] gebruiken geen trekinformatie via de `User-Agent` kopbal kunnen verzamelen.
 
 Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kunt gebruiken om gebruikers met apparaat-verwante variabelen over alle eigenschappen in uw rekening van Audience Manager te richten.
 
@@ -28,11 +28,11 @@ Beschrijft gemeenschappelijke platform-vlakke zeer belangrijke-waardeparen u kun
 
 <!-- c_tb_device_targeting.xml -->
 
-Met variabelen op platformniveau kunt u gegevens van een bepaalde site gebruiken en deze beschikbaar maken voor alle eigenschappen in uw [!DNL Audience Manager] -account. Deze variabelen worden gevormd door [ zeer belangrijk-waardeparen ](../../reference/key-value-pairs-explained.md) met de sleutel die door `d_` zoals hieronder getoond wordt vooraf bepaald.
+Met variabelen op platformniveau kunt u gegevens van een bepaalde site gebruiken en deze beschikbaar maken voor alle eigenschappen in uw [!DNL Audience Manager] -account. Deze variabelen worden gevormd door [&#x200B; zeer belangrijk-waardeparen &#x200B;](../../reference/key-value-pairs-explained.md) met de sleutel die door `d_` zoals hieronder getoond wordt vooraf bepaald.
 
 ## Sleutels op platformniveau die door de Agent van de Gebruiker worden bepaald {#keys-user-agent}
 
-[!UICONTROL Data Collection Servers] haalt de waarden voor deze sleutels uit de [ kopbal van de gebruikersagent ](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` verzoeken. De waarden vertegenwoordigen informatie op apparaatniveau uit de [!UICONTROL Device Atlas] -database. De signalen in de onderstaande tabel zijn beschikbaar, zoals u uit het voorbeeld van de gebruikersagent hebt geëxtraheerd. [ Download een lijst van de gemeenschappelijkste sleutels ](assets/device_keys.csv), volgens [!UICONTROL Device Atlas] metingen.
+[!UICONTROL Data Collection Servers] haalt de waarden voor deze sleutels uit de [&#x200B; kopbal van de gebruikersagent &#x200B;](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.43) in `HTTP` verzoeken. De waarden vertegenwoordigen informatie op apparaatniveau uit de [!UICONTROL Device Atlas] -database. De signalen in de onderstaande tabel zijn beschikbaar, zoals u uit het voorbeeld van de gebruikersagent hebt geëxtraheerd. [&#x200B; Download een lijst van de gemeenschappelijkste sleutels &#x200B;](assets/device_keys.csv), volgens [!UICONTROL Device Atlas] metingen.
 
 | [!DNL Signal] | [!DNL Type] | [!DNL Example] |
 |---|---|---|

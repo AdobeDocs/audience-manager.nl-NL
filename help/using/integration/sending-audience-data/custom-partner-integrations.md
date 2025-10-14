@@ -25,7 +25,7 @@ Audience Manager neemt cookie- en mobiele-id-gegevens op van de Oracle Data Clou
 
 ### Integratiespecificaties
 
-De binnenkomende Dossiers van Gegevens die van de Wolk van de Gegevens van Oracle worden ontvangen verschillen van de standaard binnenkomende die dossiernaamsyntaxis in [ wordt beschreven Amazon S3 Naam en de Vereisten van de Grootte van het Dossier voor Binnenkomende Dossiers van Gegevens ](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) en van de standaard binnenkomende die syntaxis van de dossierinhoud in [ wordt beschreven de Inhoud van het Dossier van Gegevens: Syntaxis, Ongeldige Karakters, Variabelen, en Voorbeelden ](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+De binnenkomende Dossiers van Gegevens die van de Wolk van de Gegevens van Oracle worden ontvangen verschillen van de standaard binnenkomende die dossiernaamsyntaxis in [&#x200B; wordt beschreven Amazon S3 Naam en de Vereisten van de Grootte van het Dossier voor Binnenkomende Dossiers van Gegevens &#x200B;](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-s3-filenames.md) en van de standaard binnenkomende die syntaxis van de dossierinhoud in [&#x200B; wordt beschreven de Inhoud van het Dossier van Gegevens: Syntaxis, Ongeldige Karakters, Variabelen, en Voorbeelden &#x200B;](/help/using/integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 Naast de standaardimplementatievelden voor binnenkomende gegevensbestanden zijn de hieronder gemarkeerde elementen vereist. Zie Syntaxis bestandsnaam en syntaxis bestandsinhoud op de twee pagina&#39;s die hierboven zijn gekoppeld voor beschrijvingen van alle andere standaardvelden en bestandsnaamelementen.
 
@@ -54,4 +54,4 @@ De `ID type` kan zijn:
 
 ## Voorbeeld van inbound-bestand voor ODC
 
-Download het [ steekproefdossier ](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Dit bestand kwalificeert verschillende IDFA&#39;s voor de kenmerk-id 38838. U kunt dit bestand openen in een standaardteksteditor of code-editor.
+Download het [&#x200B; steekproefdossier &#x200B;](/help/using/integration/assets/ftp_dpm_odc_12345_1556223815.sync). Dit bestand kwalificeert verschillende IDFA&#39;s voor de kenmerk-id 38838. U kunt dit bestand openen in een standaardteksteditor of code-editor.

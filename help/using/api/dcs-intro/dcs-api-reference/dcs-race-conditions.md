@@ -39,4 +39,4 @@ Foutafhandeling is beperkt voor ongeldige of onjuist gevormde query&#39;s. Een o
 * Komt uit een ongeldig/niet-geselecteerd geografisch gebied.
 * Hiermee schakelt u browsercookies uit (alle cookies of cookies van derden).
 
-Zie ook, [ Codes van de Fout DCS, Berichten, en Voorbeelden ](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).
+Zie ook, [&#x200B; Codes van de Fout DCS, Berichten, en Voorbeelden &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md).

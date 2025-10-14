@@ -26,7 +26,7 @@ Deze methodologie wordt vaak bedoeld als &quot;het blokkeren van creatief.&quot;
 >
 >De tekststijlen (`monospaced text`, *cursief*, steunen `[ ]` `( )`, enz.) wijzen op codeelementen en opties. Zie [Stijlconventies voor code- en tekstelementen](../../reference/code-style-elements.md) voor meer informatie.
 
-De gebeurtenisaanroep verzamelt impressie- en conversiedata en verzendt deze naar de [!DNL Audience Manager][-dataverzamelingsservers ](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). Dit proces baseert zich op advertentieservers van derden die de aanvraag in de advertentie plaatsen om te bepalen welke content in de code wordt opgenomen. De advertentieservers van derden (bijvoorbeeld [!DNL DFA]) kunnen deze code in elke advertentie-impressie plaatsen. Bovendien gebruikt een advertentievraag geen [!DNL JavaScript] en past deze geen framebustertechnieken toe om toegang te krijgen tot uitgeversdata buiten de advertentietag.
+De gebeurtenisaanroep verzamelt impressie- en conversiedata en verzendt deze naar de [!DNL Audience Manager][-dataverzamelingsservers &#x200B;](/help/using/reference/system-components/components-data-collection.md) ([!DNL DCS]). Dit proces baseert zich op advertentieservers van derden die de aanvraag in de advertentie plaatsen om te bepalen welke content in de code wordt opgenomen. De advertentieservers van derden (bijvoorbeeld [!DNL DFA]) kunnen deze code in elke advertentie-impressie plaatsen. Bovendien gebruikt een advertentievraag geen [!DNL JavaScript] en past deze geen framebustertechnieken toe om toegang te krijgen tot uitgeversdata buiten de advertentietag.
 
 Gebeurtenisaanroepen bestaan uit sleutel-waardeparen die de volgende syntaxis gebruiken:
 
@@ -38,7 +38,7 @@ In het sleutelwaardepaar, is de waardevariabele identiteitskaart of macro die do
 
 ## Ondersteunde sleutelwaardeparen {#supported-key-value-pairs}
 
-Aanroepen van indrukwekkende gebeurtenissen accepteren gegevens die in sleutelwaardeparen worden gevormd. In de volgende tabel vindt u een overzicht en beschrijving van de toetsen die worden gebruikt om deze variabelen vast te houden. Veel van deze worden vereist als u gegevens in de [ Rapporten van Audience Optimization ](../../reporting/audience-optimization-reports/audience-optimization-reports.md) wilt vangen en analyseren.
+Aanroepen van indrukwekkende gebeurtenissen accepteren gegevens die in sleutelwaardeparen worden gevormd. In de volgende tabel vindt u een overzicht en beschrijving van de toetsen die worden gebruikt om deze variabelen vast te houden. Veel van deze worden vereist als u gegevens in de [&#x200B; Rapporten van Audience Optimization &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md) wilt vangen en analyseren.
 
 <table id="table_F068C4D49F7D4775924D3CA712BF15BA"> 
  <thead> 
@@ -113,8 +113,8 @@ Aanroepen van indrukwekkende gebeurtenissen accepteren gegevens die in sleutelwa
 
 ## Aanvullende functionaliteit - [!DNL Audience Optimization Reports] {#additional-functionality-aor}
 
-U kunt pixelvraag gebruiken om de [ Rapporten van Audience Optimization ](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) te aandrijven. Zie [ Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u wenst om pixel te gebruiken om de rapporten aan te drijven.
+U kunt pixelvraag gebruiken om de [&#x200B; Rapporten van Audience Optimization &#x200B;](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) te aandrijven. Zie [&#x200B; Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u wenst om pixel te gebruiken om de rapporten aan te drijven.
 
 >[!MORELIKETHIS]
 >
->* [ Gegevens en de Dossiers van Meta-gegevens voor de Rapporten van Audience Optimization ](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [&#x200B; Gegevens en de Dossiers van Meta-gegevens voor de Rapporten van Audience Optimization &#x200B;](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

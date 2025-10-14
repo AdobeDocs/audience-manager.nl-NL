@@ -20,7 +20,7 @@ Maak wederzijds exclusieve testsegmenten in [!UICONTROL Segment Test Groups] om 
 
 ## Overzicht {#audience-lab-overview}
 
-[!UICONTROL Audience Lab] gebruikt [ Verbinding van het Profiel ](../../features/profile-merge-rules/merge-rules-overview.md) om dwars-apparaat het testen te aandrijven. Dit helpt ervoor zorgen een gebruiker voor het zelfde testsegment kwalificeert en de zelfde behandeling over apparaten ontvangt. De testsegmenten in testgroepen zullen de [ Regel van de Fusie van het Profiel ](../../features/profile-merge-rules/merge-rules-dashboard.md) erven het basissegment aan het heeft toegewezen.
+[!UICONTROL Audience Lab] gebruikt [&#x200B; Verbinding van het Profiel &#x200B;](../../features/profile-merge-rules/merge-rules-overview.md) om dwars-apparaat het testen te aandrijven. Dit helpt ervoor zorgen een gebruiker voor het zelfde testsegment kwalificeert en de zelfde behandeling over apparaten ontvangt. De testsegmenten in testgroepen zullen de [&#x200B; Regel van de Fusie van het Profiel &#x200B;](../../features/profile-merge-rules/merge-rules-dashboard.md) erven het basissegment aan het heeft toegewezen.
 
 In de standaardweergave van [!UICONTROL Audience Lab] wordt een kaart weergegeven voor elk van de testgroepen. Klik op een kaart om de weergave **[!UICONTROL Test Group]** te openen. Deze weergave bevat de volgende informatie:
 
@@ -41,7 +41,7 @@ Wanneer u meerdere testgroepen met meerdere testsegmenten maakt, is het misschie
 
 ![](assets/search_and_filter_audience_lab.png)
 
-U kunt de testgroepen ook filteren op status. Alle beschikbare statussen worden beschreven in de [ hieronder sectie van de Status ](../../features/audience-lab/audience-lab.md#status).
+U kunt de testgroepen ook filteren op status. Alle beschikbare statussen worden beschreven in de [&#x200B; hieronder sectie van de Status &#x200B;](../../features/audience-lab/audience-lab.md#status).
 
 ## [!UICONTROL Status] {#status}
 

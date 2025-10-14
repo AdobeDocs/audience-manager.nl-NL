@@ -23,6 +23,6 @@ Volg de onderstaande stappen om dit te doen.
 
 >[!NOTE]
 >
->Wanneer het overbrengen van binnenkomende gegevens naar het Audience Manager Amazon S3 emmertje, zorg ervoor om de `bucket-owner-full-control` [ toegangsbeheerlijst ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html) te gebruiken opdat de Manager van het Publiek de gegevens correct verwerkt.
+>Wanneer het overbrengen van binnenkomende gegevens naar het Audience Manager Amazon S3 emmertje, zorg ervoor om de `bucket-owner-full-control` [&#x200B; toegangsbeheerlijst &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/about-object-ownership.html) te gebruiken opdat de Manager van het Publiek de gegevens correct verwerkt.
 >
 >Voorbeeld voor de Amazon Web Services-opdracht: `aws s3 cp <user_s3_uri> <AAM_s3_uri> --acl bucket-owner-full-control`

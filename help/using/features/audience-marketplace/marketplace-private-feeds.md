@@ -73,13 +73,13 @@ In de volgende tabel worden de rol of functies gedefinieerd die door elk actieta
 
 De volgende documentatie kan u helpen met privé gegevensvoer beginnen.
 
-* [ creeer een Openbare of Privé Diervoed van Gegevens ](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)
-* [ Overzicht, keur, of verwerp Privé Verzoeken van het Gegeven ](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests) goed
+* [&#x200B; creeer een Openbare of Privé Diervoed van Gegevens &#x200B;](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed)
+* [&#x200B; Overzicht, keur, of verwerp Privé Verzoeken van het Gegeven &#x200B;](../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests) goed
 * [Privégegevensfeeds voor kopers](../../features/audience-marketplace/marketplace-private-feeds.md#private-data-feeds-for-buyers)
 
 ## Privégegevensfeeds voor kopers {#private-data-feeds-for-buyers}
 
-Als koper, verschijnen de privé gegevensvoer in [ Marketplace ](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) als een andere aanbieding. In dit geval bevat de lijst met feed echter geen samenvattingsinformatie voor kenmerken, unieke gebruikers en overlappende gebruikers. De gegevensverkoper heeft ook een optie om de naam van de gegevensverkoper weer te geven of te verbergen in de kolom [!UICONTROL Provider] van de lijst [!UICONTROL Marketplace] . Nadat de verkoper uw abonnementsaanvraag heeft goedgekeurd, worden alle gegevens in een privéfeed beschikbaar voor jou (het werkt net als een openbare feed). In het onderstaande voorbeeld van [!UICONTROL Marketplace] worden de drie verschillende typen feed weergegeven die voor u als koper beschikbaar zijn.
+Als koper, verschijnen de privé gegevensvoer in [&#x200B; Marketplace &#x200B;](../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace) als een andere aanbieding. In dit geval bevat de lijst met feed echter geen samenvattingsinformatie voor kenmerken, unieke gebruikers en overlappende gebruikers. De gegevensverkoper heeft ook een optie om de naam van de gegevensverkoper weer te geven of te verbergen in de kolom [!UICONTROL Provider] van de lijst [!UICONTROL Marketplace] . Nadat de verkoper uw abonnementsaanvraag heeft goedgekeurd, worden alle gegevens in een privéfeed beschikbaar voor jou (het werkt net als een openbare feed). In het onderstaande voorbeeld van [!UICONTROL Marketplace] worden de drie verschillende typen feed weergegeven die voor u als koper beschikbaar zijn.
 
 ![](assets/buyer_marketplace.png)
 
@@ -112,7 +112,7 @@ In de tabel wordt beschreven hoe deze verschillende voedertypen gegevens weergev
 
 ### Volgende stappen
 
-Zie [ aan een Privé Invoer van Gegevens ](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) intekenen om toegang te verzoeken.
+Zie [&#x200B; aan een Privé Invoer van Gegevens &#x200B;](../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) intekenen om toegang te verzoeken.
 
 ## Hoe te opstelling de het Delen verhouding tussen de Leverancier van Gegevens en de Koper van Gegevens {#set-up-sharing-relationship}
 
@@ -140,11 +140,11 @@ In deze stap, identificeert u de eigenschappen die u met uw partner wilt delen. 
 * Aan de gegevensbron worden geassocieerd u als deel van stap 2 creeerde.
 * Opslaan in de nieuwe submap, onder gegevens van derden.
 
-Lees meer over [ het creëren van eigenschappen ](/help/using/features/traits/create-onboarded-rule-based-traits.md) en [ het uitgeven eigenschappen ](/help/using/features/traits/manage-trait-rules.md#edit-trait).
+Lees meer over [&#x200B; het creëren van eigenschappen &#x200B;](/help/using/features/traits/create-onboarded-rule-based-traits.md) en [&#x200B; het uitgeven eigenschappen &#x200B;](/help/using/features/traits/manage-trait-rules.md#edit-trait).
 
 ### Stap 4 - Gegevensaanbieder - Gegevensfeed maken
 
-Maak vervolgens een gegevensfeed om uw kenmerken te delen met de koper van de gegevens. Verwijs naar [ creeer een Openbare of Privé Diervoed van Gegevens ](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) voor instructies op hoe te om een gegevensvoer tot stand te brengen.
+Maak vervolgens een gegevensfeed om uw kenmerken te delen met de koper van de gegevens. Verwijs naar [&#x200B; creeer een Openbare of Privé Diervoed van Gegevens &#x200B;](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md) voor instructies op hoe te om een gegevensvoer tot stand te brengen.
 
 >[!IMPORTANT]
 >
@@ -154,14 +154,14 @@ Maak vervolgens een gegevensfeed om uw kenmerken te delen met de koper van de ge
 
 ### Stap 5 - Koper van gegevens - Toegang aanvragen
 
-Ga naar **Audience Marketplace > Marketplace**. Zoek naar de gegevensvoer die door de gegevensleverancier in de vorige stap wordt gecreeerd. Klik **Toegang van het Verzoek**. De aangewezen contactpersoon van de gegevensleverancier ontvangt nu een e-mailbericht. Zie ook, [ aan een Privé Diervoed van Gegevens ](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) intekenen.
+Ga naar **Audience Marketplace > Marketplace**. Zoek naar de gegevensvoer die door de gegevensleverancier in de vorige stap wordt gecreeerd. Klik **Toegang van het Verzoek**. De aangewezen contactpersoon van de gegevensleverancier ontvangt nu een e-mailbericht. Zie ook, [&#x200B; aan een Privé Diervoed van Gegevens &#x200B;](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-private-data-feed) intekenen.
 
 ### Stap 6 - Gegevensaanbieder - Toegang verlenen
 
-Ga naar **Audience Marketplace > Mijn Gedeelde Gegevens** en onderzoek naar het voer u in stap 4 creeerde. Klik in het nieuwe toegangsverzoek en klik **verlenen Toegang** om het verzoek goed te keuren. Zie ook, [ Overzicht, keur, of verwerp Privé Verzoeken van het Feed ](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests) goed.
+Ga naar **Audience Marketplace > Mijn Gedeelde Gegevens** en onderzoek naar het voer u in stap 4 creeerde. Klik in het nieuwe toegangsverzoek en klik **verlenen Toegang** om het verzoek goed te keuren. Zie ook, [&#x200B; Overzicht, keur, of verwerp Privé Verzoeken van het Feed &#x200B;](/help/using/features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#manage-private-requests) goed.
 
 ### Stap 7 - Koper van gegevens - Abonnement inschakelen
 
-Nadat de gegevensleverancier toegang tot het gegevensvoer verleent, kunt u het voer in uw rekening in **Audience Marketplace zien > Marketplace**. Herzie de details, draai de knoop van het Abonnement, en klik **Overzicht &amp; Abonneren**. Zie [ Opslag voor Geabonneerde Diefelen van Gegevens ](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) voor informatie over waar te om de derdeeigenschappen te vinden.
+Nadat de gegevensleverancier toegang tot het gegevensvoer verleent, kunt u het voer in uw rekening in **Audience Marketplace zien > Marketplace**. Herzie de details, draai de knoop van het Abonnement, en klik **Overzicht &amp; Abonneren**. Zie [&#x200B; Opslag voor Geabonneerde Diefelen van Gegevens &#x200B;](/help/using/features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee) voor informatie over waar te om de derdeeigenschappen te vinden.
 
 Deze kenmerken kunnen alleen worden bewerkt in de account van de gegevensaanbieder.

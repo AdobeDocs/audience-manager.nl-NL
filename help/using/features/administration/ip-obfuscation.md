@@ -27,15 +27,15 @@ Volgens de beginselen van &quot;Privacy door Ontwerp&quot; staat Adobe Audience 
 * Voor verwarring: `255.255.255.255`
 * Na verduistering: `255.255.255.0`
 
-Zie ook, het Verzamelen van IP adressen en IP de Verduistering van het Adres in onze [ sectie van de Privacy van Gegevens ](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Zie ook, het Verzamelen van IP adressen en IP de Verduistering van het Adres in onze [&#x200B; sectie van de Privacy van Gegevens &#x200B;](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
 ### IP Voorrang van de Verduistering {#precedence}
 
-[ datastream-vlakke IP verwarring ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL#create) neemt belangrijkheid over om het even welke IP die optieoptie in Audience Manager wordt geplaatst, en het wordt toegepast op alle IP adressen. Elke opzoekhandeling van de geolocatie door Audience Manager wordt beïnvloed door de optie op gegevensstroomniveau [!UICONTROL IP obfuscation] . Een opzoekhandeling naar een geolocatie in Audience Manager, gebaseerd op een volledig verduisterde IP, zal resulteren in een onbekend gebied en alle segmenten op basis van de resulterende geolocatiegegevens zullen niet worden uitgevoerd.
+[&#x200B; datastream-vlakke IP verwarring &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL#create) neemt belangrijkheid over om het even welke IP die optieoptie in Audience Manager wordt geplaatst, en het wordt toegepast op alle IP adressen. Elke opzoekhandeling van de geolocatie door Audience Manager wordt beïnvloed door de optie op gegevensstroomniveau [!UICONTROL IP obfuscation] . Een opzoekhandeling naar een geolocatie in Audience Manager, gebaseerd op een volledig verduisterde IP, zal resulteren in een onbekend gebied en alle segmenten op basis van de resulterende geolocatiegegevens zullen niet worden uitgevoerd.
 
 ## IP de Vereisten van de Obfuscatie van het Adres {#ip-obfuscation-requirements}
 
-IP de adresverwarring is beschikbaar slechts aan de beheerderrekeningen van Audience Manager. Zie [ Gebruikers ](/help/using/features/administration/administration-overview.md#create-users) creëren om te begrijpen hoe te om beheerdervoorrechten voor een gebruiker toe te wijzen.
+IP de adresverwarring is beschikbaar slechts aan de beheerderrekeningen van Audience Manager. Zie [&#x200B; Gebruikers &#x200B;](/help/using/features/administration/administration-overview.md#create-users) creëren om te begrijpen hoe te om beheerdervoorrechten voor een gebruiker toe te wijzen.
 
 >[!NOTE]
 >
@@ -60,6 +60,6 @@ Om IP adresverwarring voor specifieke landen onbruikbaar te maken, vind de lande
 
 ## Verwante concepten {#related-concepts}
 
-* [ Privacy van Gegevens ](/help/using/overview/data-security-and-privacy/data-privacy.md)
+* [&#x200B; Privacy van Gegevens &#x200B;](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP de Demonstratie van de Video van de Verduistering van het Adres
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)

@@ -26,12 +26,12 @@ Het dashboard van [!UICONTROL Profile Merge Rules] biedt een geïntegreerde werk
 
 Wanneer u met [!UICONTROL Profile Merge Rules] werkt, kunt u:
 
-* Maak maximaal 4 [!UICONTROL Profile Merge Rules] van uw apparaatgegevensbronnen. Zie [ Source van Gegevens van het dwars-Apparaat creëren ](merge-rules-start.md#create-data-source).
-* Wijs een standaardsamenvoegregel aan. [ Bouwer van het Segment ](../segments/segment-builder.md) past automatisch de standaardregel op om het even welke nieuwe segmenten toe u creeert.
-* Pas [ Controles van de Uitvoer van Gegevens ](../data-export-controls.md) op een fusieregel toe. [!UICONTROL Data Export Controls] voorkomt dat u gegevens naar bestemmingen verzendt wanneer dat in strijd is met de privacy van gegevens of overeenkomsten voor het gebruik van gegevens.
+* Maak maximaal 4 [!UICONTROL Profile Merge Rules] van uw apparaatgegevensbronnen. Zie [&#x200B; Source van Gegevens van het dwars-Apparaat creëren &#x200B;](merge-rules-start.md#create-data-source).
+* Wijs een standaardsamenvoegregel aan. [&#x200B; Bouwer van het Segment &#x200B;](../segments/segment-builder.md) past automatisch de standaardregel op om het even welke nieuwe segmenten toe u creeert.
+* Pas [&#x200B; Controles van de Uitvoer van Gegevens &#x200B;](../data-export-controls.md) op een fusieregel toe. [!UICONTROL Data Export Controls] voorkomt dat u gegevens naar bestemmingen verzendt wanneer dat in strijd is met de privacy van gegevens of overeenkomsten voor het gebruik van gegevens.
 * Houd het gemiddelde aantal apparaten voor elke gebruiker bij.
-* Het werk met basiscontroles om, regels tot stand te brengen uit te geven en te schrappen. Alleen beheerders kunnen regels beheren, maar andere gebruikers kunnen deze weergeven en toepassen op segmenten. Zie {de Opties van de Regel van de Samenvoeging van het 0} Gedefinieerde [ en ](merge-rule-definitions.md) Gevallen van het Gebruik voor de Regels van de Fusie [.](merge-rule-targeting-options.md)
+* Het werk met basiscontroles om, regels tot stand te brengen uit te geven en te schrappen. Alleen beheerders kunnen regels beheren, maar andere gebruikers kunnen deze weergeven en toepassen op segmenten. Zie {de Opties van de Regel van de Samenvoeging van het 0} Gedefinieerde [&#x200B; en &#x200B;](merge-rule-definitions.md) Gevallen van het Gebruik voor de Regels van de Fusie [.](merge-rule-targeting-options.md)
 
 >[!MORELIKETHIS]
 >
->* [ Veelgestelde vragen van de Regels van de Fusie van het Profiel ](../../faq/faq-profile-merge.md)
+>* [&#x200B; Veelgestelde vragen van de Regels van de Fusie van het Profiel &#x200B;](../../faq/faq-profile-merge.md)

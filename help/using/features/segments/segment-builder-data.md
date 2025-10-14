@@ -132,7 +132,7 @@ In de volgende tabel worden de werkelijke cijfers voor de real-time en de totale
 
 ### Beperkingen vanwege [!UICONTROL Merge Rules] bij schatting van segmentpopulaties
 
-Er is momenteel een bekende beperking, omdat onze schatting van de segmentgrootte geen rekening houdt met [!UICONTROL profile merge rules] . Bijvoorbeeld, bekijk segmenten met **[!UICONTROL No Authenticated Profile + Current Device Profile]** [ fusieregel ](../../features/profile-merge-rules/merge-rule-definitions.md). Wegens de manier wij momenteel de aantallen van de segmentraming berekenen, zullen de geschatte populaties voor authentiek verklaarde profielen omvatten. De bestaande segmentpopulaties negeren geverifieerde profielen echter op de juiste wijze.
+Er is momenteel een bekende beperking, omdat onze schatting van de segmentgrootte geen rekening houdt met [!UICONTROL profile merge rules] . Bijvoorbeeld, bekijk segmenten met **[!UICONTROL No Authenticated Profile + Current Device Profile]** [&#x200B; fusieregel &#x200B;](../../features/profile-merge-rules/merge-rule-definitions.md). Wegens de manier wij momenteel de aantallen van de segmentraming berekenen, zullen de geschatte populaties voor authentiek verklaarde profielen omvatten. De bestaande segmentpopulaties negeren geverifieerde profielen echter op de juiste wijze.
 
 >[!MORELIKETHIS]
 >

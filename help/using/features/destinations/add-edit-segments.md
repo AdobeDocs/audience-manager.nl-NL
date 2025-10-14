@@ -26,6 +26,6 @@ U kunt als volgt segmenttoewijzingen voor een [!DNL S2S] -doel toevoegen of bewe
    * Typ in het vak **[!UICONTROL Search and Add Segments]** de naam van een segment of klik op **[!UICONTROL Browse All Segments]** om door een lijst met beschikbare segmenten te bladeren.
    * Klik op **[!UICONTROL Add Selected Segments]** wanneer u het gewenste segment vindt. Als u een segment toevoegt, wordt het venster [!UICONTROL Edit Mapping] geopend.
    * In [!UICONTROL Edit Mapping]:
-      * **[!UICONTROL Mappings]**: Plaats een waarde voor het [ zeer belangrijk-waardepaar ](../../features/destinations/key-value-pairs.md) dat door deze bestemming wordt gebruikt.
+      * **[!UICONTROL Mappings]**: Plaats een waarde voor het [&#x200B; zeer belangrijk-waardepaar &#x200B;](../../features/destinations/key-value-pairs.md) dat door deze bestemming wordt gebruikt.
       * **[!UICONTROL Start Date]** en **[!UICONTROL End Date]**: kies een begin- en einddatum voor het doel. Als de einddatum leeg is, verloopt de bestemming nooit.
 3. Klik op **[!UICONTROL Save]** en vervolgens op **[!UICONTROL Done]** .

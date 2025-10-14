@@ -57,5 +57,5 @@ In de volgende tabel worden de algemene voorvoegsels gedefinieerd die door [!UIC
 
 >[!MORELIKETHIS]
 >
->* [ BasisOverzicht van de Informatie ](../../features/traits/create-onboarded-rule-based-traits.md)
+>* [&#x200B; BasisOverzicht van de Informatie &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md)
 >* [Eigenschapregels beheren](../../features/traits/manage-trait-rules.md#managing-trait-rules)

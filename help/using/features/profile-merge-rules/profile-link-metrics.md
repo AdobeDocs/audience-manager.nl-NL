@@ -113,4 +113,4 @@ Naast de andere gegevensvisualisaties bevatten [!UICONTROL Profile Link] -rappor
 
 >[!MORELIKETHIS]
 >
->* [ Veelgestelde vragen van de Regels van de Fusie van het Profiel ](../../faq/faq-profile-merge.md)
+>* [&#x200B; Veelgestelde vragen van de Regels van de Fusie van het Profiel &#x200B;](../../faq/faq-profile-merge.md)

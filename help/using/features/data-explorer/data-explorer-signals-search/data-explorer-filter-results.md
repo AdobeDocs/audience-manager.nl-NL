@@ -25,4 +25,4 @@ Filter de resultaten van een signaalonderzoek dat op het signaaltype wordt gebas
    * **[!UICONTROL General online data]**: real-time gegevens die door uw bezoekers worden gegenereerd en die niet zijn opgenomen in actioneerbare logbestanden en [!DNL Adobe Analytics] ;
    * **[!UICONTROL Onboarded records]**: gegevens die zijn ontvangen via batchgegevensoverdracht. Gebruik het vervolgkeuzemenu **[!UICONTROL Filter by data source]** om de gegevensbron te selecteren waaruit signalen moeten worden weergegeven.
 
-1. Naar keuze, kunt u [ sparen de Criteria van het Onderzoek ](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) voor toekomstig gebruik.
+1. Naar keuze, kunt u [&#x200B; sparen de Criteria van het Onderzoek &#x200B;](../../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) voor toekomstig gebruik.

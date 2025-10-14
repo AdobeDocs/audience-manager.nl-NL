@@ -30,7 +30,7 @@ t_bulk_requests.xml
 
 >[!NOTE]
 >
->[ RBAC groepstoestemmingen ](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
+>[&#x200B; RBAC groepstoestemmingen &#x200B;](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
 
 Het werkblad van [!UICONTROL Request] heeft geen eigen reeks kolomkopballen en u te hoeven om geen IDs aan om het even welke kolommen te kopiëren. In plaats daarvan worden gegevens geretourneerd op basis van de actieknop waarop u op de werkbalk klikt. En een optionele rapportfunctie retourneert een frequentietelling voor pixelbranden en een uniek aantal gebruikers voor verschillende vaste tijdintervallen.
 
@@ -53,4 +53,4 @@ Als u aanvragen voor grote hoeveelheden wilt indienen, opent u het werkblad van 
 >
 >In uw resultaten retourneren de kolommen `createTime` en `updateTime` gegevens in exponentiële notatie. De onderliggende datum-/tijdstempels worden opgenomen in UNIX UTC-tijd. Het werkblad kan momenteel geen datum-/tijdstempels in een leesbare indeling retourneren.
 
-Als uw bulkupdate een fout terugkeert of ontbreekt, zie [ het Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk ](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Als uw bulkupdate een fout terugkeert of ontbreekt, zie [&#x200B; het Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk &#x200B;](../../reference/bulk-management-tools/bulk-troubleshooting.md).

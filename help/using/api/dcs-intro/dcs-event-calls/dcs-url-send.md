@@ -32,7 +32,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 >[!NOTE]
 >
->U kunt ook gegevens naar de [!DNL DCS] verzenden met de methode `POST` . De vraagsyntaxis wordt beschreven in [ DCS API Methoden ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md).
+>U kunt ook gegevens naar de [!DNL DCS] verzenden met de methode `POST` . De vraagsyntaxis wordt beschreven in [&#x200B; DCS API Methoden &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md).
 
 ## Beloproepparameters {#dcs-call-parameters}
 
@@ -96,7 +96,7 @@ https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_r
 
 ## Volgende stappen {#dcs-next-steps}
 
-Nu u bekend bent met het verzenden van gegevens naar de [!DNL DCS], is het tijd om te bekijken hoe u gegevens ervan kunt terugkrijgen en die informatie kunt parseren. Zie [ Gegevens van DCS ](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md) ontvangen.
+Nu u bekend bent met het verzenden van gegevens naar de [!DNL DCS], is het tijd om te bekijken hoe u gegevens ervan kunt terugkrijgen en die informatie kunt parseren. Zie [&#x200B; Gegevens van DCS &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md) ontvangen.
 
 >[!MORELIKETHIS]
 >

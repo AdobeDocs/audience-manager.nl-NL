@@ -23,7 +23,7 @@ In deze sectie wordt beschreven hoe u een [!DNL DCS] -reactie kunt parseren om d
 Een [!DNL DCS] -reactie bevat gegevens over uw sitebezoekers. U hebt de bezoeker- en regio-id nodig voordat u server-naar-server aanroepen kunt uitvoeren naar de [!DNL DCS] .
 
 * De gebruikers-id is vereist om gegevens te identificeren en aan een bepaalde bezoeker te koppelen.
-* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS] moet verzenden. In [!DNL DCS] wordt informatie opgeslagen in datacenters die zich geografisch het dichtst bij sitebezoekers bevinden. Zie [ DCS Gebied IDs, Locaties, en de Namen van de Gastheer ](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* De regio-id is vereist omdat deze is gekoppeld aan een regionale servernaam, die u gegevens naar de [!DNL DCS] moet verzenden. In [!DNL DCS] wordt informatie opgeslagen in datacenters die zich geografisch het dichtst bij sitebezoekers bevinden. Zie [&#x200B; DCS Gebied IDs, Locaties, en de Namen van de Gastheer &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 Deze parameters worden hieronder beschreven. De code in *cursief* vertegenwoordigt veranderlijke placeholder.
 
@@ -64,4 +64,4 @@ Deze eenvoudige reactie laat de `UUID` en het gebied `ID` zien. Dit zijn alleen 
 
 ## Volgende stappen {#next-steps}
 
-Zodra u de gebruikers-id en de regionale servernaam hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS] -gegevens. Zie [ het Maken van vraag DCS API ](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Zodra u de gebruikers-id en de regionale servernaam hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS] -gegevens. Zie [&#x200B; het Maken van vraag DCS API &#x200B;](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

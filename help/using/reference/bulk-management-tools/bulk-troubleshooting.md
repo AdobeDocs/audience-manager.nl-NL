@@ -30,7 +30,7 @@ Wat te doen wanneer de aantekenvellen een fout terugkeren of uw bulkverzoek ontb
 
 >[!NOTE]
 >
->[ RBAC groepstoestemmingen ](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
+>[&#x200B; RBAC groepstoestemmingen &#x200B;](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
 
 Factoren zoals zwaar netwerkverkeer, servergebruik, en grote gegevensreeksen kunnen een bulkverzoek veroorzaken om of uit tijd te ontbreken. Als er een probleem is, stopt het werkblad met het schrijven van gegevens en wordt er een foutbericht weergegeven. Wanneer dit gebeurt, moet u:
 
@@ -79,4 +79,4 @@ De volgende lijst maakt een lijst van sommige gemeenschappelijke problemen u wan
 
 ## Foutberichten
 
-Soms kunt u foutberichten ontvangen wanneer u bulksgewijs wijzigingen aanbrengt. Om het foutenbericht te interpreteren, zie [ Gedefinieerde Codes van de Reactie ](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API documentatie.
+Soms kunt u foutberichten ontvangen wanneer u bulksgewijs wijzigingen aanbrengt. Om het foutenbericht te interpreteren, zie [&#x200B; Gedefinieerde Codes van de Reactie &#x200B;](/help/using/api/rest-api-main/aam-api-getting-started.md) in onze API documentatie.

@@ -29,7 +29,7 @@ De bètaomgeving wordt aan het einde van elke maand tijdens niet-piekuren bijgew
 
 >[!IMPORTANT]
 >
->Merk op dat uw klantengegevens ([ signalen, trekken, en segmenten ](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=nl-NL)) niet tussen de productie en bètamilieu&#39;s worden gesynchroniseerd.
+>Merk op dat uw klantengegevens ([&#x200B; signalen, trekken, en segmenten &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=nl-NL)) niet tussen de productie en bètamilieu&#39;s worden gesynchroniseerd.
 
 ## Binnenkomend verkeer
 
@@ -47,14 +47,14 @@ Het uitgaande verkeer wordt niet toegelaten voor het bètamilieu.
 
 | Service | URL/hostnaam | Toegang verkrijgen |
 |--- |--- | --- |
-| S3 | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of klantenservice | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of de klantenservice om een Amazon S3-emmertje voor uw bètaversie in te stellen. Lees over de [ voordelen om Amazon S3 ](../reference/amazon-s3.md) te gebruiken. |
-| DCS | `https://dcs-beta.demdex.net/...` | Zie [ Toegang hebbend tot DCS in het Milieu van Beta ](../reference/beta-environment.md#access-dcs-beta-environment). |
+| S3 | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of klantenservice | Neem contact op met uw Audience Manager Partner Solutions-vertegenwoordiger of de klantenservice om een Amazon S3-emmertje voor uw bètaversie in te stellen. Lees over de [&#x200B; voordelen om Amazon S3 &#x200B;](../reference/amazon-s3.md) te gebruiken. |
+| DCS | `https://dcs-beta.demdex.net/...` | Zie [&#x200B; Toegang hebbend tot DCS in het Milieu van Beta &#x200B;](../reference/beta-environment.md#access-dcs-beta-environment). |
 | UI | `https://bank-beta.demdex.com` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. |
-| API | `https://api-beta.demdex.com/...` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. Wij adviseren dat u een generische API gebruiker creeert, [ zie details ](../api/rest-api-main/aam-api-getting-started.md#requirements). |
+| API | `https://api-beta.demdex.com/...` | Uw referenties voor de productieomgeving zijn geldig voor de bètaomgeving. Wij adviseren dat u een generische API gebruiker creeert, [&#x200B; zie details &#x200B;](../api/rest-api-main/aam-api-getting-started.md#requirements). |
 
 ## De DCS openen in de Beta-omgeving {#access-dcs-beta-environment}
 
-1. Maak een vraag DCS, gebruikend het krullen [ bevel ](https://curl.haxx.se/docs/manpage.html). Curl is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
+1. Maak een vraag DCS, gebruikend het krullen [&#x200B; bevel &#x200B;](https://curl.haxx.se/docs/manpage.html). Curl is een hulpmiddel om gegevens van of naar een server over te brengen, gebruikend één van vele gesteunde protocollen.
 
    Bijvoorbeeld:
 

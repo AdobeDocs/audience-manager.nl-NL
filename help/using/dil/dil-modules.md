@@ -20,9 +20,9 @@ ht-degree: 0%
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de extensie [!DNL Data Integration Library (DIL)] en [!DNL DIL] stopgezet.
 >
->Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
+>Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [&#x200B; SDK van het Web van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
 >
->De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan moeten gebruiken.
+>De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [&#x200B; SDK van het Web van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan moeten gebruiken.
 
 Beschrijft methodes in `DIL.modules` namespace. Met deze modules kunt u programmatisch gegevens verzamelen en werken met Audience Manager-objecten.
 
@@ -162,7 +162,7 @@ dil-google-universal-analytics.xml
 >
 >* [!DNL Audience Manager] heeft geen insight in of controle over de Google `analytics.js` -codebibliotheek. Controleer of de gegevensverzameling van [!UICONTROL DIL] nog steeds werkt als of wanneer Google nieuwe versies van `analytics.js` publiceert.
 >
->* U kunt `GA.submitUniversalAnalytics();` niet gebruiken als u nog steeds werkt met code voor het bijhouden van Google-analyses (bijvoorbeeld `ga.js` of `dc.js` ). Zie [ GA.init ](../dil/dil-modules.md#ga-init) in plaats daarvan.
+>* U kunt `GA.submitUniversalAnalytics();` niet gebruiken als u nog steeds werkt met code voor het bijhouden van Google-analyses (bijvoorbeeld `ga.js` of `dc.js` ). Zie [&#x200B; GA.init &#x200B;](../dil/dil-modules.md#ga-init) in plaats daarvan.
 >
 
 **de Handtekening van de Functie:** `DIL.modules.GA.submitUniversalAnalytics(gaObject, dilInstance, internalPropertyName);`
@@ -220,7 +220,7 @@ r_dil_ga_init.xml
 
 >[!IMPORTANT]
 >
->`GA.init()` werkt alleen met code `ga.js` of `dc.js` voor het bijhouden van analyses van Google. U kunt deze [!UICONTROL DIL] functie niet aanroepen als u `analytics.js` gebruikt, de nieuwste codebibliotheek voor Google [!DNL Universal Analytics] . [!DNL Audience Manager] klanten die [!UICONTROL DIL] en [!DNL Universal Analytics] gebruiken zouden [ GA.submitUniversalAnalytics ](../dil/dil-modules.md#ga-submit-universal-analytics) moeten zien.
+>`GA.init()` werkt alleen met code `ga.js` of `dc.js` voor het bijhouden van analyses van Google. U kunt deze [!UICONTROL DIL] functie niet aanroepen als u `analytics.js` gebruikt, de nieuwste codebibliotheek voor Google [!DNL Universal Analytics] . [!DNL Audience Manager] klanten die [!UICONTROL DIL] en [!DNL Universal Analytics] gebruiken zouden [&#x200B; GA.submitUniversalAnalytics &#x200B;](../dil/dil-modules.md#ga-submit-universal-analytics) moeten zien.
 
 **de Handtekening van de Functie:** `DIL.modules.GA.init(_gaq, dilInstance, trackVars);`
 
@@ -317,7 +317,7 @@ De URL-gebeurtenisaanroep naar Audience Manager kan er als volgt uitzien:
 
 >[!MORELIKETHIS]
 >
->* [ het Volgen Code van Google Analytics ](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
->* [ Volledige Verbetering van het Web: ga.js/dc.js aan analytics.js ](https://developers.google.com/analytics/devguides/collection/upgrade)
->* [ Toevoegend analytics.js aan Uw Plaats ](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
->* [ de Verwijzing van de Methoden van de Objecten van de ga ](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)
+>* [&#x200B; het Volgen Code van Google Analytics &#x200B;](https://developers.google.com/analytics/devguides/collection/gajs/methods/)
+>* [&#x200B; Volledige Verbetering van het Web: ga.js/dc.js aan analytics.js &#x200B;](https://developers.google.com/analytics/devguides/collection/upgrade)
+>* [&#x200B; Toevoegend analytics.js aan Uw Plaats &#x200B;](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
+>* [&#x200B; de Verwijzing van de Methoden van de Objecten van de ga &#x200B;](https://developers.google.com/analytics/devguides/collection/analyticsjs/ga-object-methods-reference)

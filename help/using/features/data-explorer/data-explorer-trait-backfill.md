@@ -29,15 +29,15 @@ Wanneer u eigenschappen van ongebruikte signalen creeert, kunt u verkiezen om de
 
 Hieronder wordt beschreven hoe u de gemaakte fouten kunt terugvullen:
 
-1. Ga naar [!UICONTROL Audience Data > Signals > Search] en stel een Signalen Onderzoek in werking of gebruik het [ Signals Dashboard ](../../features/data-explorer/data-explorer-signals-dashboard.md) om de signalen te identificeren in het nieuwe bezit te gebruiken.
+1. Ga naar [!UICONTROL Audience Data > Signals > Search] en stel een Signalen Onderzoek in werking of gebruik het [&#x200B; Signals Dashboard &#x200B;](../../features/data-explorer/data-explorer-signals-dashboard.md) om de signalen te identificeren in het nieuwe bezit te gebruiken.
 1. Maak een nieuw kenmerk op basis van de gewenste signalen.
 1. Gebruik **[!UICONTROL Backfill Options]** in de **[!UICONTROL Trait Expression]** sectie om het tijdinterval te selecteren waarvoor u de resultaten van de eigenschap wilt terugvullen. Vooraf gedefinieerde backfill-intervallen zijn 1, 7, 14 en 30 dagen. U kunt ook een aangepast datumbereik van maximaal 30 dagen kiezen.
 
-   ![ spoor-terugvulling ](assets/signals-trait-backfill.png)
+   ![&#x200B; spoor-terugvulling &#x200B;](assets/signals-trait-backfill.png)
 
 1. (Optioneel) Klik op **[!UICONTROL Estimate Realizations]** in de sectie **[!UICONTROL Estimated Trait Realizations]** om de geschatte [!UICONTROL Unique Trait Realizations] en [!UICONTROL Total Trait Population] waarden voor de teruggevulde eigenschap in de afgelopen 7 dagen te bekijken.
 
-   ![ raming-eigenschap-realisaties ](assets/estimate-trait-realizations.png)
+   ![&#x200B; raming-eigenschap-realisaties &#x200B;](assets/estimate-trait-realizations.png)
 
    >[!IMPORTANT]
    >

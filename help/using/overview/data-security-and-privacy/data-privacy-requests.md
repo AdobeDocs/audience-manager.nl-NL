@@ -19,7 +19,7 @@ ht-degree: 42%
 
 ## Overzicht {#overview}
 
-Dit document verstrekt een overzicht van het beheren van individuele gegevensprivacy en opt-out verzoeken die u naar [!DNL Audience Manager] door [ Privacy Service UI ](https://privacyui.cloud.adobe.io/) en **[!DNL Privacy Service API]** kunt verzenden.
+Dit document verstrekt een overzicht van het beheren van individuele gegevensprivacy en opt-out verzoeken die u naar [!DNL Audience Manager] door [&#x200B; Privacy Service UI &#x200B;](https://privacyui.cloud.adobe.io/) en **[!DNL Privacy Service API]** kunt verzenden.
 
 Met deze gereedschappen kunt u privacyverzoeken voor consumentengegevens verzenden die zijn ingediend onder [!DNL GDPR] en [!DNL CCPA] .
 
@@ -36,21 +36,21 @@ De [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform
 
 ## Verzoeken om gegevenstoegang {#access-data}
 
-U kunt individuele verzoeken van de gegevenstoegang door [ Privacy Service UI ](https://privacyui.cloud.adobe.io) verzenden (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=nl-NL) of door Privacy Service API te roepen (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=nl-NL) en [!DNL API] verwijzing [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+U kunt individuele verzoeken van de gegevenstoegang door [&#x200B; Privacy Service UI &#x200B;](https://privacyui.cloud.adobe.io) verzenden (documentatie [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=nl-NL) of door Privacy Service API te roepen (documentatie [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=nl-NL) en [!DNL API] verwijzing [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Met de [Privacy Service-gebruikersinterface](https://privacyui.cloud.adobe.io/) kunt u nieuwe taakaanvragen maken met de [!UICONTROL Request Builder] of door een [!DNL JSON]-bestand te uploaden.
 
-Als u wilt zien hoe een geldig [!DNL JSON]-bestand eruitziet, kunt u een [ voorbeeld-JSON downloaden](../data-security-and-privacy/assets/access_request.json).
+Als u wilt zien hoe een geldig [!DNL JSON]-bestand eruitziet, kunt u een [&#x200B; voorbeeld-JSON downloaden](../data-security-and-privacy/assets/access_request.json).
 
 We begrijpen dat u streeft naar de honorering van uw Data Privacy-aanvragen binnen de tijdsperiode die wettelijk is vastgesteld.
 
 ## Verzoeken om gegevens te verwijderen {#delete-data}
 
-U kunt verzoeken van de gegevensschrapping door [ Privacy Service UI ](https://privacyui.cloud.adobe.io) (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=nl-NL) of door Privacy Service API te roepen (documentatie [ hier ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=nl-NL) en [!DNL API] verwijzing [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
+U kunt verzoeken van de gegevensschrapping door [&#x200B; Privacy Service UI &#x200B;](https://privacyui.cloud.adobe.io) (documentatie [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=nl-NL) of door Privacy Service API te roepen (documentatie [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=nl-NL) en [!DNL API] verwijzing [&#128279;](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
 Met de [Privacy Service-gebruikersinterface](https://privacyui.cloud.adobe.io/) kunt u nieuwe taakaanvragen maken met de [!UICONTROL Request Builder] of door een [!DNL JSON]-bestand te uploaden.
 
-Als u wilt zien hoe een geldig [!DNL JSON]-bestand eruitziet, kunt u een [ voorbeeld-JSON downloaden](../data-security-and-privacy/assets/access_request.json).
+Als u wilt zien hoe een geldig [!DNL JSON]-bestand eruitziet, kunt u een [&#x200B; voorbeeld-JSON downloaden](../data-security-and-privacy/assets/access_request.json).
 
 Adobe begrijpt uw streven om binnen 30 dagen te voldoen aan de Data Privacy-aanvragen van uw consumenten. Daarom heeft [!DNL Adobe] zich ertoe verbonden uw verzoek om gegevens te verwijderen zo snel mogelijk te verwerken.
 
@@ -65,13 +65,13 @@ Wanneer u gedeclareerde id&#39;s verzendt, zoals cross-device [!DNL CRM] id&#39;
 
 In die gevallen kunt u geen verwijderingsverzoeken automatisch via [!DNL Audience Manager] naar activeringspartners verzenden.
 
-Verwijs naar onze [ op apparaat-gebaseerde documentatie van de bestemmingslijst ](assets/AAM-Partners-October2019.xlsx) om te zien welke [!DNL Audience Manager] activeringspartners unsegment steunen.
+Verwijs naar onze [&#x200B; op apparaat-gebaseerde documentatie van de bestemmingslijst &#x200B;](assets/AAM-Partners-October2019.xlsx) om te zien welke [!DNL Audience Manager] activeringspartners unsegment steunen.
 
 ## Uitschakelen van verzoeken {#opt-out-requests}
 
 [!DNL Audience Manager] ondersteunt industriestandaarden op het gebied van opt-outbeheer. Lees verder voor volledige informatie over de typen opt-out die worden ondersteund door [!DNL Audience Manager] .
 
-Terwijl de de gegevenstoegang en schrappingsverzoeken door [ Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) worden behandeld, worden de opt-out verzoeken momenteel gesteund door [!DNL DCS API]. Lees verder om te zien hoe de opt-out [!DNL API] -aanroepen eruit moeten zien.
+Terwijl de de gegevenstoegang en schrappingsverzoeken door [&#x200B; Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) worden behandeld, worden de opt-out verzoeken momenteel gesteund door [!DNL DCS API]. Lees verder om te zien hoe de opt-out [!DNL API] -aanroepen eruit moeten zien.
 
 ### Algemene opt-outaanvragen
 
@@ -127,7 +127,7 @@ Na een opt-out op partnerniveau met een gedeclareerde id-call gebeurt het volgen
 * [!UICONTROL Destination] -partners ontvangen de aanvraag voor het ongedaan maken van het segment voor de [!DNL CRM] ID en laatste apparaat-id. Desegmentatie werkt voor zowel [realtime](data-privacy-requests.md#aam-partners-with-unsegmentation)- als batchbestemmingen.
 * Er worden geen historische data verwijderd.
 
-Wanneer [!DNL Audience Manager] een partner-vlakke opt-out verzoek ontvangt, [!DNL JSON] door [!DNL DCS] is teruggekeerd bevat [ foutencode 171 ](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), met het bericht [!UICONTROL "Encountered opt out tag"], in plaats van [!DNL Audience Manager] gebruiker - identiteitskaart
+Wanneer [!DNL Audience Manager] een partner-vlakke opt-out verzoek ontvangt, [!DNL JSON] door [!DNL DCS] is teruggekeerd bevat [&#x200B; foutencode 171 &#x200B;](../../api/dcs-intro/dcs-api-reference/dcs-error-codes.md#opt-out-error-codes), met het bericht [!UICONTROL "Encountered opt out tag"], in plaats van [!DNL Audience Manager] gebruiker - identiteitskaart
 
 U kunt een aanvraag voor opt-out van een gedeclareerde id aanvragen met de sleutelwaardeparen `d_cid` en `d_cid_ic`. De oude parameters zoals `d_dpid` en `d_dpuuid` werken nog steeds, maar worden beschouwd als afgekeurd. Zie [CID vervangt DPID en DPUUID](../../reference/cid.md). In de voorbeelden geeft *cursief* een plaatsaanduiding voor variabelen aan.
 
@@ -173,10 +173,10 @@ Voor een aantal van onze activeringspartners geldt echter het volgende:
 
 In die gevallen kunt u geen verwijderingsverzoeken automatisch via [!DNL Audience Manager] naar activeringspartners verzenden.
 
-Raadpleeg de [ lijst van op apparaat-gebaseerde bestemmingen ](/help/using/features/destinations/device-based-destinations-list.md) om te zien welke [!DNL Audience Manager] activeringspartners unsegment steunen.
+Raadpleeg de [&#x200B; lijst van op apparaat-gebaseerde bestemmingen &#x200B;](/help/using/features/destinations/device-based-destinations-list.md) om te zien welke [!DNL Audience Manager] activeringspartners unsegment steunen.
 
 ## Verzoeken om gegevenscorrectie {#correction}
 
 Aangezien [!DNL Audience Manager] niet de bron van de gegevens is, is er een beperkte rol voor gegevenscorrectie in [!DNL Audience Manager]. De correctie kan betekenen dat de consument heeft verzocht om niet-gekwalificeerd te zijn voor een onjuiste [!UICONTROL trait]/ [!UICONTROL segment] of te zijn gekwalificeerd voor de gewenste [!UICONTROL trait]/ [!UICONTROL segment] .
 
-[!DNL Audience Manager] de klanten kunnen verkiezen om de relevante signalen/traits/segmenten tegen gebruikersprofielen te vangen en deze informatie door [ off-line gegevensopname ](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar [!DNL Audience Manager] te verzenden. Houd er rekening mee dat de gebruiker gekwalificeerd blijft voor het origineel [!UICONTROL trait] en [!UICONTROL segments] als deze hun gedrag herhalen.
+[!DNL Audience Manager] de klanten kunnen verkiezen om de relevante signalen/traits/segmenten tegen gebruikersprofielen te vangen en deze informatie door [&#x200B; off-line gegevensopname &#x200B;](../../integration/sending-audience-data/batch-data-transfer-explained/batch-data-transfer-overview.md) naar [!DNL Audience Manager] te verzenden. Houd er rekening mee dat de gebruiker gekwalificeerd blijft voor het origineel [!UICONTROL trait] en [!UICONTROL segments] als deze hun gedrag herhalen.

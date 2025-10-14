@@ -30,7 +30,7 @@ De aantekenwerkbladen maken en bijwerken accepteren een header traitRule waarmee
 
 >[!NOTE]
 >
->[ RBAC groepstoestemmingen ](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
+>[&#x200B; RBAC groepstoestemmingen &#x200B;](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
 
 ## Werken met tekenregels {#trait-rules}
 
@@ -38,7 +38,7 @@ In uw aantekenvel, keert de de regelkolom van de eigenschap terug en keurt regel
 
 ## Voorbeeld van een regelbouwer {#rule-builder-example}
 
-Neem een voorbeeld dat aantoont hoe te om [!UICONTROL Segment Builder] te gebruiken om een regel tot stand te brengen u aan het bulkaantekenvel kunt. Nochtans, is dit geen reeks geleidelijke instructies voor die hulpmiddelen. In plaats daarvan beginnen we met een eenvoudige regel die al is gemaakt. Voor instructies over hoe te om de regelbouwers te gebruiken zie [ de Bouwer van het Segment van 0&rbrace; en ](../../features/segments/segment-builder.md) Trait Builder [.](../../features/traits/about-trait-builder.md)
+Neem een voorbeeld dat aantoont hoe te om [!UICONTROL Segment Builder] te gebruiken om een regel tot stand te brengen u aan het bulkaantekenvel kunt. Nochtans, is dit geen reeks geleidelijke instructies voor die hulpmiddelen. In plaats daarvan beginnen we met een eenvoudige regel die al is gemaakt. Voor instructies over hoe te om de regelbouwers te gebruiken zie [&#x200B; de Bouwer van het Segment van 0&rbrace; en &#x200B;](../../features/segments/segment-builder.md) Trait Builder [.](../../features/traits/about-trait-builder.md)
 
 Met de visuele regelbouwer, hebben wij een segmentregel met 3 eigenschappen en een exploitant Van Boole [!UICONTROL AND] gecreeerd.
 
@@ -60,7 +60,7 @@ Plak de regel in het werkblad van [!UICONTROL Bulk Management Tools] en wijs uw 
 
 U kunt uw eigen regels buiten [!UICONTROL Rule Builder] schrijven. Lees voordat u begint de documentatie over bijvoorbeeld operatoren, expressies en vereiste variabelen. We raden u aan het volgende te controleren:
 
-* [ het Werken met vergelijkingsexploitanten in Trait Builder ](../../features/traits/trait-comparison-operators.md)
-* [ Orde van Verrichtingen ](../../features/traits/trait-operator-precedence.md)
+* [&#x200B; het Werken met vergelijkingsexploitanten in Trait Builder &#x200B;](../../features/traits/trait-comparison-operators.md)
+* [&#x200B; Orde van Verrichtingen &#x200B;](../../features/traits/trait-operator-precedence.md)
 * [Voorvoegselvereisten voor belangrijke variabelen](../../features/traits/trait-variable-prefixes.md)
 * [Voorbeeldexpressies met Booleaanse en vergelijkingsoperatoren](../../features/traits/trait-expression-samples.md)

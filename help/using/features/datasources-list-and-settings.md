@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Een lijst weergeven met de momenteel geconfigureerde bestanden [!UICONTROL data sources] , nieuwe [!UICONTROL data sources] toevoegen en bestaande [!UICONTROL data sources] bewerken.
 
-U kunt [!UICONTROL data sources] ook beheren met [!DNL API] -methoden. Voor meer informatie, zie [ Gegevens Source API Methoden ](../api/rest-api-main/aam-api-data-sources.md).
+U kunt [!UICONTROL data sources] ook beheren met [!DNL API] -methoden. Voor meer informatie, zie [&#x200B; Gegevens Source API Methoden &#x200B;](../api/rest-api-main/aam-api-data-sources.md).
 
 ## [!UICONTROL Data Sources] Lijstweergave {#list-view}
 
@@ -72,7 +72,7 @@ Naast tekstvelden bevat de sectie [!UICONTROL Data Source Details] de onderstaan
 
 ## [!UICONTROL Data Export Controls] {#export-controls}
 
-[ de Controles van de Uitvoer van Gegevens ](../features/data-export-controls.md) zijn facultatieve classificatieregels u op a [!UICONTROL data source] en [!UICONTROL destination] kunt toepassen. Hiermee voorkomt u dat u gegevens naar een [!UICONTROL destination] verzendt wanneer die handeling een schending van de privacy van gegevens of een gebruiksovereenkomst oplevert. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
+[&#x200B; de Controles van de Uitvoer van Gegevens &#x200B;](../features/data-export-controls.md) zijn facultatieve classificatieregels u op a [!UICONTROL data source] en [!UICONTROL destination] kunt toepassen. Hiermee voorkomt u dat u gegevens naar een [!UICONTROL destination] verzendt wanneer die handeling een schending van de privacy van gegevens of een gebruiksovereenkomst oplevert. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
 
 >[!IMPORTANT]
 >

@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # Gegevensbestanden voor Audience Optimization-rapporten en uitvoerbare logbestanden {#data-files-for-audience-optimization-reports}
 
-Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Wanneer behoorlijk geformatteerd, kunt u deze gegevens in Audience Manager invoeren om het in de [ Rapporten van Audience Optimization ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) te bekijken en treinen tot stand te brengen gebruikend de gegevens via [ Actiebare Dossiers van het Logboek ](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
+Een gegevensbestand bevat indruk, klik, of omzettingsgegevens. Wanneer behoorlijk geformatteerd, kunt u deze gegevens in Audience Manager invoeren om het in de [&#x200B; Rapporten van Audience Optimization &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) te bekijken en treinen tot stand te brengen gebruikend de gegevens via [&#x200B; Actiebare Dossiers van het Logboek &#x200B;](/help/using/integration/media-data-integration/actionable-log-files.md). Maak uw gegevensbestanden op volgens deze specificaties in deze sectie.
 
 ## Overzicht {#overview}
 
-Een behoorlijk genoemd en geformatteerd gegevensbestand laat u indruk invoeren, klikken, of omzettingsgegevens in de [ Rapporten van Audience Optimization ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Dit is handig wanneer u werkt met een partner die niet is geïntegreerd met [!DNL Audience Manager] en u met de gegevens in die rapportsuite wilt werken. Voor dit proces zijn aparte bestanden nodig voor de weergave, klik en conversie van gegevens. Meng deze gebeurtenissen niet in één bestand.
+Een behoorlijk genoemd en geformatteerd gegevensbestand laat u indruk invoeren, klikken, of omzettingsgegevens in de [&#x200B; Rapporten van Audience Optimization &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md). Dit is handig wanneer u werkt met een partner die niet is geïntegreerd met [!DNL Audience Manager] en u met de gegevens in die rapportsuite wilt werken. Voor dit proces zijn aparte bestanden nodig voor de weergave, klik en conversie van gegevens. Meng deze gebeurtenissen niet in één bestand.
 
-Een gegevensbestand moet vergezeld gaan van een metagegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie [ Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Een gegevensbestand moet vergezeld gaan van een metagegevensbestand. De inhoud van het meta-gegevensdossier past de informatie van het gegevensdossier aan verwante, mens-leesbare etiketten in de rapportmenu&#39;s aan. Voor meer informatie, zie [&#x200B; Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
 
 ## Naamgevingsconventies voor gegevensbestanden {#naming-conventions}
 
@@ -201,4 +201,4 @@ Om uw gegevens bij te werken, verzend in een dossier dat alle beelden, klikken, 
 
 ## Volgende stappen {#next-steps}
 
-Controleer de vereisten voor het benoemen en maken van metagegevensbestanden. Om begonnen te worden, zie [ Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).
+Controleer de vereisten voor het benoemen en maken van metagegevensbestanden. Om begonnen te worden, zie [&#x200B; Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md).

@@ -28,7 +28,7 @@ Als u een apparaatgegevensbron wilt maken, gaat u naar **[!UICONTROL Audience Da
 
 >[!TIP]
 >
->Zie {de Montages van Source van 0} Gegevens en de Opties van het Menu [ voor beschrijvingen van deze verschillende controles.](../datasources-list-and-settings.md#settings-menu-options)
+>Zie {de Montages van Source van 0} Gegevens en de Opties van het Menu [&#x200B; voor beschrijvingen van deze verschillende controles.](../datasources-list-and-settings.md#settings-menu-options)
 
 ## Gegevens Source {#details}
 
@@ -44,7 +44,7 @@ De sectie [!UICONTROL Data Source Details] voltooien:
 
 ## Besturingselementen voor gegevensexport {#export-controls}
 
-[ de Controles van de Uitvoer van Gegevens ](../data-export-controls.md) zijn facultatieve classificatieregels u op een gegevensbron en een bestemming kunt toepassen. Ze verhinderen dat u gegevens naar een bestemming verzendt wanneer die handeling een inbreuk vormt op de privacy van gegevens of een gebruiksovereenkomst. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
+[&#x200B; de Controles van de Uitvoer van Gegevens &#x200B;](../data-export-controls.md) zijn facultatieve classificatieregels u op een gegevensbron en een bestemming kunt toepassen. Ze verhinderen dat u gegevens naar een bestemming verzendt wanneer die handeling een inbreuk vormt op de privacy van gegevens of een gebruiksovereenkomst. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
 
 ## Source-instellingen voor gegevens {#settings}
 
@@ -56,23 +56,23 @@ De sectie [!UICONTROL Data Source Details] voltooien:
 
 * **[!UICONTROL Data retention for inactive Customer IDs]**: Met dit besturingselement kunt u de bewaarperiode voor inactieve id&#39;s van de klant instellen. Dit bepaalt hoe lang Audience Manager de id&#39;s van de Klant in onze database bewaart nadat ze voor het laatst op het Audience Manager-platform zijn gezien. De standaardwaarde is 24 maanden (720 dagen). De minimumwaarde die u kunt instellen is 1 maand en de maximumwaarde is 5 jaar. We tellen alle maanden als 30 dagen. Audience Manager voert een proces uit dat inactieve klant-id&#39;s één keer per week verwijdert, in overeenstemming met de gegevensopslag die u hebt ingesteld voor niet-actieve klant-id&#39;s.
 
-De tekstgebieden verbonden aan deze montages laten u [!UICONTROL Data Source] met een alias anders noemen die in de [ opties van de Regel van de Fusie van het Profiel ](merge-rule-definitions.md) verschijnt. Als u bijvoorbeeld een alias toevoegt aan **[!UICONTROL Use as Authenticated Profile]** , wordt die naam weergegeven in de lijst [!UICONTROL Authenticated Profile Options] . Als u een alias aan **[!UICONTROL Use as a Device Graph]** toevoegt, verschijnt die naam in de [!UICONTROL Device Options] lijst.
+De tekstgebieden verbonden aan deze montages laten u [!UICONTROL Data Source] met een alias anders noemen die in de [&#x200B; opties van de Regel van de Fusie van het Profiel &#x200B;](merge-rule-definitions.md) verschijnt. Als u bijvoorbeeld een alias toevoegt aan **[!UICONTROL Use as Authenticated Profile]** , wordt die naam weergegeven in de lijst [!UICONTROL Authenticated Profile Options] . Als u een alias aan **[!UICONTROL Use as a Device Graph]** toevoegt, verschijnt die naam in de [!UICONTROL Device Options] lijst.
 
 ## Een regel voor het samenvoegen van profielen maken {#create-profile-merge-rule}
 
 Als u een [!UICONTROL Profile Merge Rule] wilt maken, gaat u naar **[!UICONTROL Audience Data > Profile Merge Rules > Add New Rule]** en voert u de stappen uit voor elke sectie die hier wordt beschreven.
 
-U kunt maximaal drie samenvoegregels maken nadat u een gegevensbron voor meerdere apparaten hebt ingesteld. U krijgt toegang tot een 4de Regel van de Fusie van het Profiel ([!UICONTROL All Cross-Device Profiles]) als u omhoog voor [ Op mensen-Gebaseerde Doelen ](../destinations/people-based-destinations-overview.md) ondertekent.
+U kunt maximaal drie samenvoegregels maken nadat u een gegevensbron voor meerdere apparaten hebt ingesteld. U krijgt toegang tot een 4de Regel van de Fusie van het Profiel ([!UICONTROL All Cross-Device Profiles]) als u omhoog voor [&#x200B; Op mensen-Gebaseerde Doelen &#x200B;](../destinations/people-based-destinations-overview.md) ondertekent.
 
 Beheerdersmachtigingen zijn vereist voor het maken, bewerken of verwijderen van een regel. Alle gebruikers kunnen bestaande [!UICONTROL Profile Merge Rules] weergeven en gebruiken.
 
 <!-- create-profile-merge-rule.xml -->
 
-**Vereisten:** Een dwars-apparatengegevensbron wordt vereist om a [!UICONTROL Profile Merge Rule] te bouwen. Zie [ een Gegevens Source ](../manage-datasources.md#create-data-source) creëren.
+**Vereisten:** Een dwars-apparatengegevensbron wordt vereist om a [!UICONTROL Profile Merge Rule] te bouwen. Zie [&#x200B; een Gegevens Source &#x200B;](../manage-datasources.md#create-data-source) creëren.
 
 >[!TIP]
 >
->Zie {de Opties van de Regel van de Samenvoeging van 0} Gedefinieerd [ voor beschrijvingen van deze verschillende controles.](merge-rule-definitions.md)
+>Zie {de Opties van de Regel van de Samenvoeging van 0} Gedefinieerd [&#x200B; voor beschrijvingen van deze verschillende controles.](merge-rule-definitions.md)
 
 ## Basisinformatie {#basic-info}
 
@@ -84,7 +84,7 @@ De sectie [!UICONTROL Basic Information] voltooien:
 
 ## Besturingselementen voor gegevensexport {#data-export-controls}
 
-[ de Controles van de Uitvoer van Gegevens ](../data-export-controls.md) zijn facultatieve classificatieregels u op uw [!UICONTROL Profile Merge Rule] kunt toepassen. Ze verhinderen dat u gegevens naar een bestemming verzendt wanneer die handeling een inbreuk vormt op de privacy van gegevens of een gebruiksovereenkomst. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
+[&#x200B; de Controles van de Uitvoer van Gegevens &#x200B;](../data-export-controls.md) zijn facultatieve classificatieregels u op uw [!UICONTROL Profile Merge Rule] kunt toepassen. Ze verhinderen dat u gegevens naar een bestemming verzendt wanneer die handeling een inbreuk vormt op de privacy van gegevens of een gebruiksovereenkomst. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
 
 ## Opstelling van regel voor samenvoegen van profielen {#profile-merge-rule-setup}
 
@@ -94,7 +94,7 @@ De sectie [!UICONTROL Proflie Merge Rule Setup] voltooien:
    * **[!UICONTROL No Authenticated Profile]**
    * **[!UICONTROL Current Authenticated Profile]**
    * **[!UICONTROL Last Authenticated Profile]**
-2. Selecteer een **[!UICONTROL Authenticated Profile Option]** (maximaal 3). Dit zijn de [ bronnen van dwars-apparatengegevens ](merge-rules-start.md) u eerder hebt gecreeerd.
+2. Selecteer een **[!UICONTROL Authenticated Profile Option]** (maximaal 3). Dit zijn de [&#x200B; bronnen van dwars-apparatengegevens &#x200B;](merge-rules-start.md) u eerder hebt gecreeerd.
 3. Selecteer een **[!UICONTROL Device Option]** . U kunt onder andere de volgende opties kiezen:
    * **[!UICONTROL No Device Profile]**
    * **[!UICONTROL Current Device Profile]**
@@ -122,11 +122,11 @@ Volg deze instructies om de code [!UICONTROL Adobe Experience Platform Identity 
 
 ### Vereisten
 
-U moet opstelling a [ dwars-apparatengegevensbron ](#create-data-source) en [ de regels van de profielfusie ](#create-profile-merge-rule) *alvorens* voltooit deze procedures.
+U moet opstelling a [&#x200B; dwars-apparatengegevensbron &#x200B;](#create-data-source) en [&#x200B; de regels van de profielfusie &#x200B;](#create-profile-merge-rule) *alvorens* voltooit deze procedures.
 
 ## Voor klanten van Adobe Experience Platform Identity Service {#id-service-customers}
 
-[!UICONTROL Adobe Experience Platform Identity Service] en de recentste versie van [ DIL ](../../dil/dil-overview.md) worden geadviseerd wanneer het werken met [!UICONTROL Profile Merge Rules]. U hoeft de [!UICONTROL Adobe Experience Platform Identity Service] echter niet te gebruiken om met deze functie te werken. Als u enkel [!UICONTROL DIL] gebruikt, zie de [ sectie van erfenisDIL ](#legacy-dil) hieronder.
+[!UICONTROL Adobe Experience Platform Identity Service] en de recentste versie van [&#x200B; DIL &#x200B;](../../dil/dil-overview.md) worden geadviseerd wanneer het werken met [!UICONTROL Profile Merge Rules]. U hoeft de [!UICONTROL Adobe Experience Platform Identity Service] echter niet te gebruiken om met deze functie te werken. Als u enkel [!UICONTROL DIL] gebruikt, zie de [&#x200B; sectie van erfenisDIL &#x200B;](#legacy-dil) hieronder.
 
 ### De functie Customer ID instellen configureren
 
@@ -150,11 +150,11 @@ visitor.setCustomerIDs({
      "authState":Visitor.AuthState.AUTHENTICATED
 ```
 
-Voor meer informatie, zie [ een Gegevens van het Apparaat Source ](#create-data-source) en [ Klantidentiteitskaarts en de Staten van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) creëren.
+Voor meer informatie, zie [&#x200B; een Gegevens van het Apparaat Source &#x200B;](#create-data-source) en [&#x200B; Klantidentiteitskaarts en de Staten van de Authentificatie &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL) creëren.
 
 ### Functie `DIL.create` configureren
 
-De recentste versies van [!UICONTROL DIL] nemen nu automatisch [!UICONTROL declared ID] van de `visitorService` functie in `DIL.create` op (zie [ Verklaarde Variabelen van identiteitskaart ](../declared-ids.md#declared-id-variables)). Controleer of de functie `DIL.create` correct is ingesteld, zoals in het onderstaande codevoorbeeld wordt getoond.
+De recentste versies van [!UICONTROL DIL] nemen nu automatisch [!UICONTROL declared ID] van de `visitorService` functie in `DIL.create` op (zie [&#x200B; Verklaarde Variabelen van identiteitskaart &#x200B;](../declared-ids.md#declared-id-variables)). Controleer of de functie `DIL.create` correct is ingesteld, zoals in het onderstaande codevoorbeeld wordt getoond.
 
 ```js
 var vDil = DIL.create({
@@ -165,11 +165,11 @@ var vDil = DIL.create({
 });
 ```
 
-In het namespace zeer belangrijk-waardepaar, is de `*` MCORG `*` variabele uw [!DNL Experience Cloud] identiteitskaart van de Organisatie. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het dashboard van [!DNL Experience Cloud] . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [ Beleid: De Diensten van de Kern ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
+In het namespace zeer belangrijk-waardepaar, is de `*` MCORG `*` variabele uw [!DNL Experience Cloud] identiteitskaart van de Organisatie. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het dashboard van [!DNL Experience Cloud] . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [&#x200B; Beleid: De Diensten van de Kern &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=nl-NL).
 
 ### SDK&#39;s configureren
 
-Zie [ vormen SDKs ](#configure-sdks-legacy-dil) hieronder sectie.
+Zie [&#x200B; vormen SDKs &#x200B;](#configure-sdks-legacy-dil) hieronder sectie.
 
 ## Legacy DIL {#legacy-dil}
 
@@ -185,7 +185,7 @@ DIL.create({
 });
 ```
 
-Voor meer informatie, zie de erfenis [!UICONTROL DIL] sectie in [ Gedeclareerde Variabelen van identiteitskaart ](../declared-ids.md#declared-id-variables).
+Voor meer informatie, zie de erfenis [!UICONTROL DIL] sectie in [&#x200B; Gedeclareerde Variabelen van identiteitskaart &#x200B;](../declared-ids.md#declared-id-variables).
 
 ### SDK&#39;s configureren {#configure-sdks-legacy-dil}
 
@@ -223,7 +223,7 @@ Controleer de methoden in uw [!DNL SDK] -code waarmee u [!UICONTROL declared IDs
  </tbody>
 </table>
 
-Zie ook, [ Methoden van Audience Manager voor Android ](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=nl-NL) en [ methodes van Audience Manager voor iOS ](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=nl-NL).
+Zie ook, [&#x200B; Methoden van Audience Manager voor Android &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/audience-manager-android/c-audience-manager-methods.html?lang=nl-NL) en [&#x200B; methodes van Audience Manager voor iOS &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/ios/aam-methods.html?lang=nl-NL).
 
 >[!MORELIKETHIS]
 >

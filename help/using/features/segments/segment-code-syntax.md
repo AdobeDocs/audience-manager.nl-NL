@@ -50,7 +50,7 @@ Om groepen segmenten te bouwen, verpakt de frequentiefunctie tussen haakjes en p
 
 ### Toegestane operatoren voor recentie en frequentie
 
-Plaats [ recentie en frequentie ](../../features/segments/recency-and-frequency.md) intervallen met een vergelijkingsexploitant en een geheel. [!UICONTROL Segment Builder] gebruikt standaardexpressies zoals &lt; (kleiner dan), > (groter dan), == (gelijk), enz. De typen toegestane operatoren variëren echter wanneer u de frequentie of de frequentie instelt. In de onderstaande tabel worden de toegestane frequentie-/recenentie-operatoren weergegeven.
+Plaats [&#x200B; recentie en frequentie &#x200B;](../../features/segments/recency-and-frequency.md) intervallen met een vergelijkingsexploitant en een geheel. [!UICONTROL Segment Builder] gebruikt standaardexpressies zoals &lt; (kleiner dan), > (groter dan), == (gelijk), enz. De typen toegestane operatoren variëren echter wanneer u de frequentie of de frequentie instelt. In de onderstaande tabel worden de toegestane frequentie-/recenentie-operatoren weergegeven.
 
 <table id="table_2F92617CB472442BA5639E24DB4E43D3"> 
  <thead> 
@@ -80,5 +80,5 @@ Plaats [ recentie en frequentie ](../../features/segments/recency-and-frequency.
 >
 >* [Recentheid en frequentie](../../features/segments/recency-and-frequency.md)
 >* [Booleaanse expressies in Trait en Segment Builder](../../reference/boolean-expressions-tsb.md)
->* [ Werkend met de Exploitanten van de Vergelijking in TraitBuilder ](../../features/traits/trait-comparison-operators.md)
->* [ Orde van Verrichtingen in Uitdrukkingen TraitBuilder ](../../features/traits/trait-operator-precedence.md)
+>* [&#x200B; Werkend met de Exploitanten van de Vergelijking in TraitBuilder &#x200B;](../../features/traits/trait-comparison-operators.md)
+>* [&#x200B; Orde van Verrichtingen in Uitdrukkingen TraitBuilder &#x200B;](../../features/traits/trait-operator-precedence.md)

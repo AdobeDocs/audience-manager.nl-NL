@@ -20,9 +20,9 @@ ht-degree: 0%
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de extensie [!DNL Data Integration Library (DIL)] en [!DNL DIL] stopgezet.
 >
->Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
+>Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [&#x200B; SDK van het Web van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
 >
->De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan moeten gebruiken.
+>De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [&#x200B; SDK van het Web van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan moeten gebruiken.
 
 Codevoorbeelden en beschrijvingen voor specifieke DIL-gebruiksgevallen.
 
@@ -44,7 +44,7 @@ c_dil_send_page_objects.xml
 
 **Beschrijving**
 
-In de volgende code ziet u hoe u paginagegevens kunt verzamelen en naar Audience Manager kunt verzenden met [!UICONTROL DIL] . In deze voorbeelden wordt een variabele gebruikt om gegevenselementen op te nemen in een platte lijst of een array. Herinner me, ga in variabelen als [ zeer belangrijk-waardeparen ](../reference/key-value-pairs-explained.md) over. Noteer ook het voorvoegsel `c_` vóór de toets in het sleutelwaardepaar. Dit [ vereiste prefix ](../features/traits/trait-variable-prefixes.md) identificeert informatie als user-defined gegevens. In het eerste voorbeeld moet u `c_` handmatig aan de sleutel toevoegen. In het tweede voorbeeld doet [!UICONTROL DIL] dit automatisch voor u.
+In de volgende code ziet u hoe u paginagegevens kunt verzamelen en naar Audience Manager kunt verzenden met [!UICONTROL DIL] . In deze voorbeelden wordt een variabele gebruikt om gegevenselementen op te nemen in een platte lijst of een array. Herinner me, ga in variabelen als [&#x200B; zeer belangrijk-waardeparen &#x200B;](../reference/key-value-pairs-explained.md) over. Noteer ook het voorvoegsel `c_` vóór de toets in het sleutelwaardepaar. Dit [&#x200B; vereiste prefix &#x200B;](../features/traits/trait-variable-prefixes.md) identificeert informatie als user-defined gegevens. In het eerste voorbeeld moet u `c_` handmatig aan de sleutel toevoegen. In het tweede voorbeeld doet [!UICONTROL DIL] dit automatisch voor u.
 
 **houd de Eigenschappen van de Waarde verenigbaar**
 
@@ -156,7 +156,7 @@ var search_referrer = DIL.tools.getSearchReferrer();
 
 **Lijst van de Code van de Motor van het Onderzoek Code van de Motor**
 
-Laten we er in dit geval van uitgaan dat een gebruiker de term &quot;huizen&quot; heeft gezocht vanuit [!DNL Google] Canada ( `www.google.ca` ). Let op hoe de code de vereiste parameter `c_` vooraf bepaalt in de zoekmachine ( `c_se` ) en de zoekterm ( `c_st` ). `c_` is a [ vereiste prefix ](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
+Laten we er in dit geval van uitgaan dat een gebruiker de term &quot;huizen&quot; heeft gezocht vanuit [!DNL Google] Canada ( `www.google.ca` ). Let op hoe de code de vereiste parameter `c_` vooraf bepaalt in de zoekmachine ( `c_se` ) en de zoekterm ( `c_st` ). `c_` is a [&#x200B; vereiste prefix &#x200B;](../features/traits/trait-variable-prefixes.md) die deze als klant-bepaalde variabelen aan Audience Manager identificeert.
 
 <pre class="java"><code>
 var adobe_dil = DIL.create({partner:"<i>partner name</i>"}); 
@@ -249,6 +249,6 @@ U kunt als volgt het `dil.js` -bestand verzenden in GTM:
 
 >[!MORELIKETHIS]
 >
->* [ het Centrum van de Hulp van de Manager van de Markering van Google ](https://support.google.com/tagmanager#topic=3441530)
->* [ Signalen ](../dil/dil-instance-methods.md#signals)
+>* [&#x200B; het Centrum van de Hulp van de Manager van de Markering van Google &#x200B;](https://support.google.com/tagmanager#topic=3441530)
+>* [&#x200B; Signalen &#x200B;](../dil/dil-instance-methods.md#signals)
 >* [Voorvoegselvereisten voor belangrijke variabelen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-variable-prefixes.html?lang=nl-NL#prefix-requirements-for-key-variables)

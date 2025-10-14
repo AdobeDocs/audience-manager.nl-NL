@@ -20,7 +20,7 @@ Met de optie Kanaaloverschrijdende omzetting in de Audience Optimization-rapport
 
 In de [!UICONTROL Cross Channel Conversion] -rapporten worden de resultaten van het [!DNL Google Campaign Manager] platform met [!DNL Audience Manager] -omzettingskenmerken gecombineerd. Hiermee kunt u offlineconversies koppelen aan onlineafbeeldingen of klikt u erop.
 
-U kunt [!UICONTROL Cross Channel Conversion] voor de [ Prestaties van het Segment ](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) en [ Optimale rapporten van de Frequentie ](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) gebruiken.
+U kunt [!UICONTROL Cross Channel Conversion] voor de [&#x200B; Prestaties van het Segment &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md) en [&#x200B; Optimale rapporten van de Frequentie &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/optimal-frequency.md) gebruiken.
 
 Als u de [!UICONTROL Cross Channel Conversion] -rapporten wilt weergeven, selecteert u het **[!UICONTROL AAM + Ad Server Name]** -item in de vervolgkeuzelijst **[!UICONTROL Platform]** .
 

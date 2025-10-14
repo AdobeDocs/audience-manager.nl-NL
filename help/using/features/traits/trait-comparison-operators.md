@@ -51,11 +51,11 @@ U kunt regels maken met de volgende benoemde operatoren:
 | **[!UICONTROL Matcheswords]** | De waarde in een zeer belangrijk-waardepaar *past* het patroon aan dat door deze exploitant wordt gespecificeerd. |
 | **[!UICONTROL Startswith]** | De waarde in een zeer belangrijk-waardepaar *begint met* karakters die door deze exploitant worden gespecificeerd. |
 | **[!UICONTROL Endswith]** | De waarde in een zeer belangrijk-waardepaar *beëindigt met* de karakters die door deze exploitant worden gespecificeerd. |
-| **[!UICONTROL Matchesregex]** | De waarde in een zeer belangrijk-waardepaar *past* het patroon aan dat door een regelmatige uitdrukking wordt gespecificeerd. [ leer meer ](../../features/traits/trait-builder-regex.md) over het gebruiken van regelmatige uitdrukkingen in [!UICONTROL Trait Builder]. |
+| **[!UICONTROL Matchesregex]** | De waarde in een zeer belangrijk-waardepaar *past* het patroon aan dat door een regelmatige uitdrukking wordt gespecificeerd. [&#x200B; leer meer &#x200B;](../../features/traits/trait-builder-regex.md) over het gebruiken van regelmatige uitdrukkingen in [!UICONTROL Trait Builder]. |
 
 >[!MORELIKETHIS]
 >
 >* [Booleaanse expressies in Trait en Segment Builder](../../reference/boolean-expressions-tsb.md)
->* [ Begrijpend de Uitdrukkingen Van Boole in TraitBuilder ](../../reference/boolean-expressions-tsb.md)
->* [ Orde van Verrichtingen in Uitdrukkingen TraitBuilder ](../../features/traits/trait-operator-precedence.md)
+>* [&#x200B; Begrijpend de Uitdrukkingen Van Boole in TraitBuilder &#x200B;](../../reference/boolean-expressions-tsb.md)
+>* [&#x200B; Orde van Verrichtingen in Uitdrukkingen TraitBuilder &#x200B;](../../features/traits/trait-operator-precedence.md)
 >* [Voorbeeldexpressies met booleaanse en vergelijkingsoperatoren](../../features/traits/trait-expression-samples.md)

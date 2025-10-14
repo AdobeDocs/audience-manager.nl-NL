@@ -20,13 +20,13 @@ Wanneer het publiceren van segmenten aan de partnerbestemming via een server-aan
 
 ## Verificatiestroom {#auth-flow}
 
-De [!DNL Adobe Audience Manager] [ OAuth 2.0 ](https://tools.ietf.org/html/rfc6749#section-4.4) authentificatieimplementatie is gebaseerd op de de subsidiestroom van de Referentie van de Cliënt en volgt deze stappen:
+De [!DNL Adobe Audience Manager] [&#x200B; OAuth 2.0 &#x200B;](https://tools.ietf.org/html/rfc6749#section-4.4) authentificatieimplementatie is gebaseerd op de de subsidiestroom van de Referentie van de Cliënt en volgt deze stappen:
 
 1. U moet ons voorzien van:
    * Het [!DNL OAuth 2.0] eindpunt dat het authentificatietoken produceert.
    * De referenties die worden gebruikt om een token te genereren.
-1. Een [!DNL Audience Manager] consultant plaatst - omhoog de [ bestemming ](../../../features/destinations/destinations.md) gebruikend de informatie u verstrekte.
-1. Zodra een segment aan deze bestemming in kaart wordt gebracht, maakt ons systeem van de gegevensoverdracht in real time, [ IRIS ](../../../reference/system-components/components-data-action.md#iris), een `POST` verzoek aan het symbolische eindpunt om de geloofsbrieven voor een tovenaarstoken uit te wisselen.
+1. Een [!DNL Audience Manager] consultant plaatst - omhoog de [&#x200B; bestemming &#x200B;](../../../features/destinations/destinations.md) gebruikend de informatie u verstrekte.
+1. Zodra een segment aan deze bestemming in kaart wordt gebracht, maakt ons systeem van de gegevensoverdracht in real time, [&#x200B; IRIS &#x200B;](../../../reference/system-components/components-data-action.md#iris), een `POST` verzoek aan het symbolische eindpunt om de geloofsbrieven voor een tovenaarstoken uit te wisselen.
 1. Voor elk segment dat verzoek aan het partnereindpunt publiceert, [!UICONTROL IRIS] gebruikt het dragerteken om voor authentiek te verklaren.
 
 ![](assets/oauth2-iris.png)
@@ -75,7 +75,7 @@ Content-Length: 121
 
 [!DNL Audience Manager] verzendt gegevens naar dit eindpunt in bijna real time aangezien de gebruikers voor segmenten kwalificeren. Bovendien, kan deze methode partijen off-line of aan boord genomen gegevens zo vaak verzenden zoals om de 24 uur.
 
-Het dragerteken dat door eindpunt 1 wordt geproduceerd wordt gebruikt om verzoeken aan dit eindpunt uit te geven. Het [!DNL Audience Manager] systeem van de gegevensoverdracht in real time, [ IRIS ](../../../reference/system-components/components-data-action.md#iris), construeert een normaal verzoek HTTPS en omvat een kopbal van de Vergunning. De waarde voor deze koptekst is: Drager `<bearer token from step 1>` .
+Het dragerteken dat door eindpunt 1 wordt geproduceerd wordt gebruikt om verzoeken aan dit eindpunt uit te geven. Het [!DNL Audience Manager] systeem van de gegevensoverdracht in real time, [&#x200B; IRIS &#x200B;](../../../reference/system-components/components-data-action.md#iris), construeert een normaal verzoek HTTPS en omvat een kopbal van de Vergunning. De waarde voor deze koptekst is: Drager `<bearer token from step 1>` .
 
 ### De reactie van het voorbeeld van het partnereindpunt
 

@@ -84,7 +84,7 @@ In het bestand worden tekenreeksgegevens tussen dubbele aanhalingstekens geplaat
 
 ## Rapportrecords segment-naar-segment {#segment-segment-records}
 
-Een gegevensdossier voor uw [ Segment-aan-Segment het Rapport van de Overlapping ](segment-segment-overlap-report.md) bevat de volgende verslagen.
+Een gegevensdossier voor uw [&#x200B; Segment-aan-Segment het Rapport van de Overlapping &#x200B;](segment-segment-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_1BDC7019DF2543069D7AE229C5E2454E"> 
  <thead> 
@@ -143,7 +143,7 @@ Een gegevensdossier voor uw [ Segment-aan-Segment het Rapport van de Overlapping
 
 ## Registers gesegmenteerd rapport {#segment-trait-records}
 
-Een gegevensdossier voor uw [ segment-aan-Trait het Rapport van de Overlapping ](segment-trait-overlap-report.md) bevat de volgende verslagen.
+Een gegevensdossier voor uw [&#x200B; segment-aan-Trait het Rapport van de Overlapping &#x200B;](segment-trait-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_45270B5D01014AD99921B320D3A32DB6"> 
  <thead> 
@@ -210,7 +210,7 @@ Een gegevensdossier voor uw [ segment-aan-Trait het Rapport van de Overlapping ]
 
 ## Trait-to-Trait Report Records {#trait-trait-records}
 
-Een gegevensdossier voor uw [ Trait-aan-Trait het Rapport van de Overlapping ](trait-trait-overlap-report.md) bevat de volgende verslagen.
+Een gegevensdossier voor uw [&#x200B; Trait-aan-Trait het Rapport van de Overlapping &#x200B;](trait-trait-overlap-report.md) bevat de volgende verslagen.
 
 <table id="table_603216E6AFE4439A87C91DDFF2989F53"> 
  <thead> 

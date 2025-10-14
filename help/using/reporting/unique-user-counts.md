@@ -29,7 +29,7 @@ c_unique_user_counts.xml
 De overlappende rapporten tellen gebruikers als uniek wanneer zij voor een eigenschap in aanmerking komen:
 
 * Tijdens het geselecteerde tijdinterval voor het rapport.
-* Dat heeft a [ tijd-aan-levende ](../features/traits/segment-ttl-explained.md) waarde langer dan het geselecteerde tijdinterval voor het rapport.
+* Dat heeft a [&#x200B; tijd-aan-levende &#x200B;](../features/traits/segment-ttl-explained.md) waarde langer dan het geselecteerde tijdinterval voor het rapport.
 * Als ze als actief in ons systeem worden beschouwd (dus gekwalificeerd voor andere kenmerken, een id-sync, enz.) in de afgelopen 60 dagen.
 
 ## Algemeen rapport: uniek aantal gebruikers
@@ -38,5 +38,5 @@ Het rapport Algemeen beschouwt bezoekers van de site als uniek als ze tijdens de
 
 >[!MORELIKETHIS]
 >
->* [ Interactieve Rapporten ](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
+>* [&#x200B; Interactieve Rapporten &#x200B;](../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports)
 >* [Algemene rapporten](../reporting/general-reports.md#general-reports-overview)

@@ -20,7 +20,7 @@ Met de opties van [!UICONTROL Profile Merge Rules] kunt u de focus van het publi
 
 >[!TIP]
 >
->Voor definities en beschrijvingen van deze [!UICONTROL Merge Rule] montages, zie [ Gedefinieerde de Opties van de Regel van de Fusie van het Profiel ](merge-rule-definitions.md).
+>Voor definities en beschrijvingen van deze [!UICONTROL Merge Rule] montages, zie [&#x200B; Gedefinieerde de Opties van de Regel van de Fusie van het Profiel &#x200B;](merge-rule-definitions.md).
 
 ## Apparaatgericht {#device-personalization}
 
@@ -28,13 +28,13 @@ Dit scenario is op marketers van toepassing die één enkel apparatenprofiel voo
 
 Selecteer **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** om een regel te maken die alleen apparaatprofielen als doel instelt.
 
-![ apparaat-slechts ](assets/device-only.png)
+![&#x200B; apparaat-slechts &#x200B;](assets/device-only.png)
 
 Laten we zeggen dat John drie smartphones heeft. Twee ervan zijn iPhone 7s op Data Plan A, en één daarvan is een Samsung op Data Plan B. Zonder rekening te houden met zijn voor authentiek verklaarde staat op om het even welk van de drie apparaten, wil de mobiele drager van John hem een verbetering van het gegevensplan, maar slechts voor iPhone 7 apparaten aanbieden die op Plan A van Gegevens lopen.
 
 Door de **[!UICONTROL No Cross-Device Profile]** + **[!UICONTROL Device Profile]** -regel [!DNL Device 1] en [!DNL Device 3] te gebruiken, komen beide in aanmerking voor het segment, terwijl Device 2 wordt genegeerd.
 
-![ apparaat-slechts ](assets/device-management.png)
+![&#x200B; apparaat-slechts &#x200B;](assets/device-management.png)
 
 ## Gedeelde apparaatdoelen {#target-shared-devices}
 
@@ -44,17 +44,17 @@ John gebruikt zijn eigen account om reistickets en speciale deals te boeken, ter
 
 Het marketingteam van de winkel kan de regel **[!UICONTROL Current Authenticated Profiles]** + **[!UICONTROL No Device Profile]** gebruiken om John en Jane te richten op specifieke deals, op basis van hun geverifieerde activiteiten.
 
-![ huidig-geen-apparaat ](assets/current-no-device.png)
+![&#x200B; huidig-geen-apparaat &#x200B;](assets/current-no-device.png)
 
 Door deze regel te gebruiken, negeert Audience Manager volledig het apparatenprofiel, kwalificerend identiteitskaart van CRM van John voor het segment, en niet kwalificerend identiteitskaart van CRM van Jane.
 
-![ delen-apparaat-richtend ](assets/shared-device-targeting.png)
+![&#x200B; delen-apparaat-richtend &#x200B;](assets/shared-device-targeting.png)
 
 ## Online/offline gericht {#device-household-targeting}
 
 Dit gebruiksgeval heeft betrekking op identiteitsbeheer van huishoudens. Een bedrijf kan één apparaatprofiel samenvoegen met het laatste profiel dat op dat apparaat is geverifieerd, met de regel **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Device Profile]** .
 
-![ last-apparaat-profiel ](assets/last-device-profile.png)
+![&#x200B; last-apparaat-profiel &#x200B;](assets/last-device-profile.png)
 
 Laten we eens kijken naar een segment van huishoudens met een inkomen van meer dan $100.000/jaar, dat ten minste één apparaat bevat dat een [!DNL iPhone 7] on [!DNL Data Plan B] is. We hebben twee huishoudelijke profielen (profielen voor verschillende apparaten), die elk zijn aangesloten op twee verschillende apparaatprofielen. De kenmerken die nodig zijn om voor het segment in aanmerking te komen, worden verdeeld over het apparaat en de profielen voor alle apparaten.
 
@@ -62,7 +62,7 @@ Audience Manager voegt elk apparaat en elk apparaatprofielpaar samen om te zien 
 
 Dankzij de koppeling tussen het apparaat en het profiel van het huishouden kan Audience Manager wel [!DNL Household 2] voor het segment kwalificeren, maar niet [!DNL Household 1] . Vanaf [!DNL Household 2] komt alleen [!DNL Device 3] in aanmerking voor het segment. Dit [!UICONTROL Profile Merge Rule] heeft de teller toegelaten om een verenigbaar marketing bericht aan een individueel apparaat ([!DNL Device 3]) en breder huishouden ([!DNL Household 2]) te leveren.
 
-![ huishouden-beheer ](assets/household-management.png)
+![&#x200B; huishouden-beheer &#x200B;](assets/household-management.png)
 
 ## Doelen voor op mensen gebaseerde bestemmingen {#all-cross-device}
 
@@ -74,13 +74,13 @@ Dit scenario is alleen beschikbaar voor klanten die de [!DNL People-Based Destin
 
 Laten we zeggen dat een online retailer bestaande klanten wil bereiken via sociale platforms en hun persoonlijke aanbiedingen wil laten zien op basis van hun eerdere bestellingen. Met [!UICONTROL People-Based Destinations] kunnen ze hashed-e-mailadressen van hun eigen [!DNL CRM] in Audience Manager opnemen, segmenten van de offlinegegevens maken en deze segmenten naar de sociale platforms sturen waarop ze willen adverteren, met behulp van die hashed-id en hun advertentie-uitgaven optimaliseren.
 
-Meer over deze optie leren, zie [ Op mensen-Gebaseerde Doelen ](../destinations/people-based-destinations-overview.md).
+Meer over deze optie leren, zie [&#x200B; Op mensen-Gebaseerde Doelen &#x200B;](../destinations/people-based-destinations-overview.md).
 
-![ alle-dwars-apparaat ](assets/all-cross-device.png)
+![&#x200B; alle-dwars-apparaat &#x200B;](assets/all-cross-device.png)
 
 ## Grafiekopties apparaat {#device-graph-options}
 
-Het kiezen van een [!UICONTROL device graph] optie voor een [!UICONTROL Profile Merge] regel hangt van voorwaarden af uniek aan uw digitale eigenschappen en bedrijfsdoelstellingen. Deze algemene richtlijnen kunnen u helpen begrijpen wanneer om één type van grafiek tegenover een andere te gebruiken. Opmerking: als u deze opties wilt gebruiken, moet u een contractuele relatie hebben met een externe apparaatgrafiek. Raadpleeg de onderstaande tabel voor algemene informatie over de keuze van een grafiekoptie voor apparaten. Voor specifieke gebruiksgevallen, zie [ Gevallen van het Gebruik van de Grafiek van de Verbinding van het Profiel ](profile-link-use-case.md) en [ Externe Gevallen van het Gebruik van de Grafiek van het Apparaat ](external-graph-use-cases.md).
+Het kiezen van een [!UICONTROL device graph] optie voor een [!UICONTROL Profile Merge] regel hangt van voorwaarden af uniek aan uw digitale eigenschappen en bedrijfsdoelstellingen. Deze algemene richtlijnen kunnen u helpen begrijpen wanneer om één type van grafiek tegenover een andere te gebruiken. Opmerking: als u deze opties wilt gebruiken, moet u een contractuele relatie hebben met een externe apparaatgrafiek. Raadpleeg de onderstaande tabel voor algemene informatie over de keuze van een grafiekoptie voor apparaten. Voor specifieke gebruiksgevallen, zie [&#x200B; Gevallen van het Gebruik van de Grafiek van de Verbinding van het Profiel &#x200B;](profile-link-use-case.md) en [&#x200B; Externe Gevallen van het Gebruik van de Grafiek van het Apparaat &#x200B;](external-graph-use-cases.md).
 
 <table id="table_66D9152D4FF040A186003272D456625D"> 
  <thead> 
@@ -119,4 +119,4 @@ Bekijk de onderstaande video voor een overzicht van mogelijke gebruiksgevallen v
 >
 >* [Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen](profile-link-use-case.md)
 >* [Gebruiksscenario’s voor grafiek van externe apparaten](external-graph-use-cases.md)
->* [ Veelgestelde vragen van de Regels van de Fusie van het Profiel ](../../faq/faq-profile-merge.md)
+>* [&#x200B; Veelgestelde vragen van de Regels van de Fusie van het Profiel &#x200B;](../../faq/faq-profile-merge.md)

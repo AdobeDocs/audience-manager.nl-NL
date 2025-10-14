@@ -70,4 +70,4 @@ De regionale hostnaam van de [!DNL DCS] -server is vereist voor het aanroepen va
  </tbody> 
 </table>
 
-U kunt ook [!DNL API] -methoden gebruiken om een lijst met de beschikbare [!DNL DCS] -gebieden op te halen. Zie [ DCS Gebied API Methoden ](../../../api/rest-api-main/aam-api-dcs-regions.md).
+U kunt ook [!DNL API] -methoden gebruiken om een lijst met de beschikbare [!DNL DCS] -gebieden op te halen. Zie [&#x200B; DCS Gebied API Methoden &#x200B;](../../../api/rest-api-main/aam-api-dcs-regions.md).

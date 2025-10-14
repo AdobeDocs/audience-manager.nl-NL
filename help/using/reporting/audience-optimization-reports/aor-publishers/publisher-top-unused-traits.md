@@ -38,7 +38,7 @@ Gebruik het vervolgkeuzemenu **[!UICONTROL Traits]** om aan te geven welke kenme
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten van [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Order IDs] omvatten, zoals die in Stap 3 van [ wordt beschreven de Dossiers van de Gegevens van Google Ad Manager van de Invoer (vroeger DFP) in Audience Manager ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Op deze manier zorgt u ervoor dat in het rapport de webeigenschap wordt weergegeven als [!UICONTROL Order] in plaats van als [!UICONTROL Order ID] .
+>Wanneer het toelaten van [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Order IDs] omvatten, zoals die in Stap 3 van [&#x200B; wordt beschreven de Dossiers van de Gegevens van Google Ad Manager van de Invoer (vroeger DFP) in Audience Manager &#x200B;](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Op deze manier zorgt u ervoor dat in het rapport de webeigenschap wordt weergegeven als [!UICONTROL Order] in plaats van als [!UICONTROL Order ID] .
 
 ## De resultaten interpreteren {#interpreting-results}
 

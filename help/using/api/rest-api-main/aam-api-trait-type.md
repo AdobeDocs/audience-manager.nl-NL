@@ -22,7 +22,7 @@ Optionele methoden waarmee u eigenschappen kunt toewijzen aan een door de gebrui
 
 >[!NOTE]
 >
->Het type van spoor methodes wijst geen eigenschappen aan categorieën toe die door [ worden gebruikt gemeenschappelijke taxonomie ](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Beschouw deze als labels die los staan van de algemene taxonomie.
+>Het type van spoor methodes wijst geen eigenschappen aan categorieën toe die door [&#x200B; worden gebruikt gemeenschappelijke taxonomie &#x200B;](../../api/rest-api-main/aam-api-taxonomy.md#taxonomic-api-methods). Beschouw deze als labels die los staan van de algemene taxonomie.
 
 Voor visuele referentie is [!UICONTROL Trait Types] een vervolgkeuzemenu in de lus [!DNL UI] under **[!UICONTROL Traits > Create new trait > Basic Information]** .
 

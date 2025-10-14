@@ -20,11 +20,11 @@ Audience Optimization for Publishers kan u helpen potentiële prestatiemogelijkh
 
 ## Overzicht {#aor-overview}
 
-[!UICONTROL Audience Optimization for Publishers] voegt campagneresultaten op logniveau uit [!DNL Google Ad Manager] met [!DNL Audience Manager] segment metriek samen. De rapporten zijn beschikbaar voor klanten die login van de opstelling van [!DNL Google Ad Manager] in [!DNL Audience Manager] hebben. Als u nog niet opstellings logboekopname hebt, lees [ de Dossiers van de Gegevens van de Manager van Google Ad van de Invoer in Audience Manager ](import-dfp.md) voor informatie over hoe te om het te doen.
+[!UICONTROL Audience Optimization for Publishers] voegt campagneresultaten op logniveau uit [!DNL Google Ad Manager] met [!DNL Audience Manager] segment metriek samen. De rapporten zijn beschikbaar voor klanten die login van de opstelling van [!DNL Google Ad Manager] in [!DNL Audience Manager] hebben. Als u nog niet opstellings logboekopname hebt, lees [&#x200B; de Dossiers van de Gegevens van de Manager van Google Ad van de Invoer in Audience Manager &#x200B;](import-dfp.md) voor informatie over hoe te om het te doen.
 
 ## Metagegevens {#metadata}
 
-De prestatiegegevens die in de rapporten worden weergegeven, worden geïmporteerd uit uw [!DNL Google Ad Manager] -instantie. U moet metagegevensbestanden naar ons sturen, zodat we beschrijvende, vriendelijke namen aan uw items in de rapporten kunnen toevoegen in plaats van id&#39;s. Stap 3 in [ de Dossiers van de Gegevens van Google en van de Manager van de Invoer in Audience Manager ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrijft hoe te om ons de meta-gegevens te verzenden.
+De prestatiegegevens die in de rapporten worden weergegeven, worden geïmporteerd uit uw [!DNL Google Ad Manager] -instantie. U moet metagegevensbestanden naar ons sturen, zodat we beschrijvende, vriendelijke namen aan uw items in de rapporten kunnen toevoegen in plaats van id&#39;s. Stap 3 in [&#x200B; de Dossiers van de Gegevens van Google en van de Manager van de Invoer in Audience Manager &#x200B;](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md) beschrijft hoe te om ons de meta-gegevens te verzenden.
 
 ## Beschikbare rapporten {#available-reports}
 

@@ -28,30 +28,30 @@ Abonneren op een openbare gegevensfeed:
 
 1. Ga naar **[!UICONTROL Audience Marketplace > Marketplace]** . Gebruik de zoekfunctie of blader door de lijst om een gegevenstoevoer te zoeken.
 
-   ![ subscribe ](assets/subscribe1.png)
+   ![&#x200B; subscribe &#x200B;](assets/subscribe1.png)
 
-1. Klik op de naam van de gegevensfeed die u wilt gebruiken. Dit opent de [ pagina van de plandetails ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) voor het geselecteerde voer.
+1. Klik op de naam van de gegevensfeed die u wilt gebruiken. Dit opent de [&#x200B; pagina van de plandetails &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#marketplace-buyer-details) voor het geselecteerde voer.
 
-   ![ plan-details ](assets/plan-details.png)
+   ![&#x200B; plan-details &#x200B;](assets/plan-details.png)
 
 1. Kies een gebruiksscenario in de tabel met abonnementen en:
    * Verplaats de schuifregelaar **[!UICONTROL Subscription]** naar **[!UICONTROL On]** .
    * Klik op **[!UICONTROL Review & Subscribe]**. Hierdoor wordt het venster van [!UICONTROL Terms and Conditions] geopend.
 
-   ![ subscribe ](assets/subscribe3.png)
+   ![&#x200B; subscribe &#x200B;](assets/subscribe3.png)
 
 1. In het [!UICONTROL Terms and Conditions] -venster:
 
    * **Belangrijk:** laat het **[!UICONTROL ID sync]** controlevakje gecontroleerd. Met deze instelling kunt u de gegevensaanbieder een betere overeenkomst bieden.
    * Controleer de voorwaarden en condities en klik op **[!UICONTROL Accept]** om het abonnementsproces te voltooien.
 
-   ![ subscribe ](assets/subscribe4.png)
+   ![&#x200B; subscribe &#x200B;](assets/subscribe4.png)
 
 ### Volgende stappen
 
 Nadat u zich hebt geabonneerd op een gegevensfeed:
 
-* Verifieer het abonnement door uw [!UICONTROL Traits] map te controleren. Zie [ Opslag voor Geabonneerde Evoer van Gegevens ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
+* Verifieer het abonnement door uw [!UICONTROL Traits] map te controleren. Zie [&#x200B; Opslag voor Geabonneerde Evoer van Gegevens &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#find-subscribed-data-fee).
 
 * Controleer de facturerings- en betalingsdocumentatie. Zie de verwante koppelingen hieronder.
 
@@ -93,7 +93,7 @@ Abonneren op een persoonlijke gegevensfeed:
 1. Klik op **[!UICONTROL Request Access]**. Hiermee wordt het dialoogvenster Verzoek geopend.
 1. Schrijf in het dialoogvenster Verzoek een notitie die uw interesse in de gegevensinvoer uitdrukt en klik op **[!UICONTROL Send]** . De verkoper zal je bericht bekijken en je aanvraag goedkeuren of afwijzen. Tijdens het wachten op goedkeuring wordt &#39;&#39;Gevraagd&#39;&#39; weergegeven in de lijst [!UICONTROL Marketplace] voor die gegevensinvoer.
 
-   * **[!UICONTROL Request approved]**: De status in de lijst [!UICONTROL Marketplace] verandert in &quot;Toegang verleend&quot; en u ontvangt een geautomatiseerde melding. Op dit punt kunt u zich abonneren op de feed. Zie [ aan een Openbare Diervoed van Gegevens ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) voor instructies intekenen.
+   * **[!UICONTROL Request approved]**: De status in de lijst [!UICONTROL Marketplace] verandert in &quot;Toegang verleend&quot; en u ontvangt een geautomatiseerde melding. Op dit punt kunt u zich abonneren op de feed. Zie [&#x200B; aan een Openbare Diervoed van Gegevens &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed) voor instructies intekenen.
    * **[!UICONTROL Request denied]**: De tekst &quot;Gevraagd&quot; wordt verwijderd uit de lijst [!UICONTROL Marketplace] voor de feed. U kunt proberen opnieuw te abonneren of een andere feed kiezen.
 
 ## Kortingen gegevensfeed voor kopers {#buyer-discount}
@@ -198,7 +198,7 @@ Wanneer een gegevensaanbieder een van uw gegevensfeeds deactiveert, stuurt [!DNL
 
 * **Onderwerpregel:** Abonnement aan *naam van gegevensvoer hier* wordt geannuleerd.
 
-* **Gehechtheid:** e-mail omvat een gehechtheid genoemd, &quot; `list-of-affected-entities-by-feed-revocation.csv`&quot;. Dat is een geconvolueerde manier om te zeggen dat de bijlage alle kenmerken vermeldt die in de geannuleerde feed zijn opgenomen. Als koper van gegevens kun je deze bijlage bekijken. Het zal u helpen gedesactiveerde eigenschappen van uw segmenten en [ algoritmische modellen ](../../../features/algorithmic-models/understanding-models.md) vinden en verwijderen.
+* **Gehechtheid:** e-mail omvat een gehechtheid genoemd, &quot; `list-of-affected-entities-by-feed-revocation.csv`&quot;. Dat is een geconvolueerde manier om te zeggen dat de bijlage alle kenmerken vermeldt die in de geannuleerde feed zijn opgenomen. Als koper van gegevens kun je deze bijlage bekijken. Het zal u helpen gedesactiveerde eigenschappen van uw segmenten en [&#x200B; algoritmische modellen &#x200B;](../../../features/algorithmic-models/understanding-models.md) vinden en verwijderen.
 
 ## Lijst met gedeactiveerde tracks {#deactivation-trait-list}
 
@@ -251,15 +251,15 @@ De lijst die bij een deactivering-e-mail hoort, bevat de velden zoals hieronder 
 
 Als gegevenskoper ben je verantwoordelijk voor het verwijderen van de kenmerken in een geannuleerde feed uit al je actieve/in-gebruik of inactieve segmenten. Tot de verwijderingsopties behoren:
 
-* De bulkverwijdering met [ REST APIs ](../../../api/rest-api-main/rest-api-main.md) of [ Bulk de Hulpmiddelen van het Beheer ](../../../reference/bulk-management-tools/bulk-management-intro.md).
+* De bulkverwijdering met [&#x200B; REST APIs &#x200B;](../../../api/rest-api-main/rest-api-main.md) of [&#x200B; Bulk de Hulpmiddelen van het Beheer &#x200B;](../../../reference/bulk-management-tools/bulk-management-intro.md).
 
-* Zoek handmatig naar betrokken segmenten en verwijder gedeactiveerde kenmerken met [!UICONTROL Segment Builder] . Zie [ Tanden van een Segment ](../../../features/segments/segment-builder.md#segment-builder-controls-traits) verwijderen.
+* Zoek handmatig naar betrokken segmenten en verwijder gedeactiveerde kenmerken met [!UICONTROL Segment Builder] . Zie [&#x200B; Tanden van een Segment &#x200B;](../../../features/segments/segment-builder.md#segment-builder-controls-traits) verwijderen.
 
 >[!NOTE]
 >
 >Het verwijderen van kenmerken uit actieve algoritmische modellen of bestemmingen heeft invloed op schaal en doelnauwkeurigheid. Probeer ingetrokken kenmerken indien mogelijk te vervangen door nieuwe, actieve kenmerken.
 
-[ Unsubscribe van de gedeactiveerde gegevensvoer ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) nadat u alle ingetrokken eigenschappen uit uw rekening verwijdert. Als dit een tijdelijke deactivering is, kunt u zich opnieuw abonneren nadat de gegevensaanbieder de vereiste wijzigingen heeft aangebracht en de feed opnieuw heeft geactiveerd. Zoals bij de meeste zaken, kan goede communicatie met uw partners (de gegevensleverancier en [!DNL Adobe]) u helpen door dit proces werken.
+[&#x200B; Unsubscribe van de gedeactiveerde gegevensvoer &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#unsubscribe) nadat u alle ingetrokken eigenschappen uit uw rekening verwijdert. Als dit een tijdelijke deactivering is, kunt u zich opnieuw abonneren nadat de gegevensaanbieder de vereiste wijzigingen heeft aangebracht en de feed opnieuw heeft geactiveerd. Zoals bij de meeste zaken, kan goede communicatie met uw partners (de gegevensleverancier en [!DNL Adobe]) u helpen door dit proces werken.
 
 ## De pagina met abonnementsdetails in Audience Marketplace {#marketplace-buyer-details}
 
@@ -282,16 +282,16 @@ Op deze pagina vindt u de volgende informatie:
    * Klik op **[!UICONTROL Explore All Traits]** om details over alle kenmerken in de geselecteerde gegevensfeed weer te geven.
    * Klik op **[!UICONTROL Request More Details]** om de gegevensaanbieder vragen te stellen over de geselecteerde gegevensfeed of om een korting aan te vragen. Met deze functie worden uw opmerkingen en vragen rechtstreeks naar de gegevensaanbieder verzonden.
 
-1. Gegevensinvoer rapporteert statistieken. In het Venn-diagram (en de bijbehorende maatstaven) ziet u overlappende gegevens voor de laatste 30 dagen. Zie [ de Marketplace: Ongeveer ](marketplace-data-buyers.md#about-marketplace) voor details.
-   * **[!UICONTROL 30 Day Overlapped Uniques]**: Het aantal unieke gebruikers in uw account dat de gebruikers in de account van de provider overlapt. Voor een definitie van unieke gebruikers, zie AAM UUID in de [ Index van IDs in Audience Manager ](/help/using/reference/ids-in-aam.md).
+1. Gegevensinvoer rapporteert statistieken. In het Venn-diagram (en de bijbehorende maatstaven) ziet u overlappende gegevens voor de laatste 30 dagen. Zie [&#x200B; de Marketplace: Ongeveer &#x200B;](marketplace-data-buyers.md#about-marketplace) voor details.
+   * **[!UICONTROL 30 Day Overlapped Uniques]**: Het aantal unieke gebruikers in uw account dat de gebruikers in de account van de provider overlapt. Voor een definitie van unieke gebruikers, zie AAM UUID in de [&#x200B; Index van IDs in Audience Manager &#x200B;](/help/using/reference/ids-in-aam.md).
    * **[!UICONTROL 30 Day Provider Unique Users]**: Het aantal unieke gebruikers dat afkomstig is van het account van de provider.
    * **[!UICONTROL Your Unique Users]**: Het aantal unieke gebruikers dat van uw account komt.
 
-1. **[!UICONTROL Plan Details]** Tabel. Deze lijst toont u de gebruiksgevallen die u aan het gegeven voor, evenals zijn het tariferen model kunt intekenen. Zie [ Begrijpend de Gevallen van het Gebruik van het voer van Gegevens ](#use-cases).
+1. **[!UICONTROL Plan Details]** Tabel. Deze lijst toont u de gebruiksgevallen die u aan het gegeven voor, evenals zijn het tariferen model kunt intekenen. Zie [&#x200B; Begrijpend de Gevallen van het Gebruik van het voer van Gegevens &#x200B;](#use-cases).
 
 1. Knoppen voor het uitvoeren van acties plannen.
    * Klik op **[!UICONTROL Cancel]** om de pagina te verlaten zonder wijzigingen aan te brengen.
-   * Klik op **[!UICONTROL Review & Subscribe]** om u te abonneren op een gegevensfeed. Deze knop wordt grijs weergegeven totdat u een [!UICONTROL Subscription] -schakeloptie instelt op [!UICONTROL On] . Zie ook [ aan een Openbare Diervoed van Gegevens ](#subscript-public-data-feed) abonneren en [ aan een Privé Diervoed van Gegevens ](#subscript-private-data-feed) abonneren.
+   * Klik op **[!UICONTROL Review & Subscribe]** om u te abonneren op een gegevensfeed. Deze knop wordt grijs weergegeven totdat u een [!UICONTROL Subscription] -schakeloptie instelt op [!UICONTROL On] . Zie ook [&#x200B; aan een Openbare Diervoed van Gegevens &#x200B;](#subscript-public-data-feed) abonneren en [&#x200B; aan een Privé Diervoed van Gegevens &#x200B;](#subscript-private-data-feed) abonneren.
 
 ## Gevallen van gebruik van gegevensfeed {#use-cases}
 
@@ -303,24 +303,24 @@ Als [!UICONTROL Audience Marketplace] gegevenskoper kunt u gegevens aanschaffen 
 
 ### Segmenten en overlappen
 
-Dit gebruiksgeval laat u uw eigenschappen met leverancierseigenschappen in a [ eigenschap-aan-lijn overlappend rapport vergelijken.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Ook, kunt u leverancierseigenschappen tot stand brengen of toevoegen aan een segment en extra vergelijkingen maken met [ segment-aan-lijn ](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) en [ segment-aan-segment ](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) rapporten. Met behulp van overlap-vergelijkingen kunt u:
+Dit gebruiksgeval laat u uw eigenschappen met leverancierseigenschappen in a [&#x200B; eigenschap-aan-lijn overlappend rapport vergelijken.](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) Ook, kunt u leverancierseigenschappen tot stand brengen of toevoegen aan een segment en extra vergelijkingen maken met [&#x200B; segment-aan-lijn &#x200B;](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) en [&#x200B; segment-aan-segment &#x200B;](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) rapporten. Met behulp van overlap-vergelijkingen kunt u:
 
 * **breidt publieksbereik uit:** de Lage overlapping stelt uw eigenschappen voor bevatten gebruikers u niet eerder hebt gezien. U kunt deze kenmerken gebruiken om nieuwe gebruikers te proberen te bereiken.
 * **verbeter bestaand publiek:** de Hoge overlapping stelt uw sporen voor gelijkaardig zijn aan die bezeten door de gegevensleverancier. U wilt deze kenmerken wellicht gebruiken om een doelgericht, stapsgewijs verbeterd publiek te helpen maken.
 
 ### Algorithmic Models
 
-Dit gebruiksgeval laat u leverancierseigenschappen tegen uw eigenschappen met [ algoritmische modellering ](../../../features/algorithmic-models/understanding-models.md#understanding-models) evalueren. Ons algoritmisch modelleringssysteem gebruikt bijvoorbeeld een van uw kenmerken als basis voor vergelijking met een leverancierstaak. Wanneer het model wordt uitgevoerd, kan worden getoond of het publiek in leverancierssporen gelijkaardige omzettingsattributen aan uw eigenschappen deelt.
+Dit gebruiksgeval laat u leverancierseigenschappen tegen uw eigenschappen met [&#x200B; algoritmische modellering &#x200B;](../../../features/algorithmic-models/understanding-models.md#understanding-models) evalueren. Ons algoritmisch modelleringssysteem gebruikt bijvoorbeeld een van uw kenmerken als basis voor vergelijking met een leverancierstaak. Wanneer het model wordt uitgevoerd, kan worden getoond of het publiek in leverancierssporen gelijkaardige omzettingsattributen aan uw eigenschappen deelt.
 
 ### Activering
 
-Dit gebruiksgeval laat u gegevens naar a [ bestemming ](../../../features/destinations/destinations.md) verzenden. In [!DNL Audience Manager] is een doel een systeem van derden (advertentieserver, [!DNL DSP], [!DNL DMP], Exchange, enzovoort) waarmee u gegevens wilt delen. Met een [!UICONTROL Activation] -use-case kunt u echter geen overlappende rapporten uitvoeren of de gegevens in een algoritmisch model testen.
+Dit gebruiksgeval laat u gegevens naar a [&#x200B; bestemming &#x200B;](../../../features/destinations/destinations.md) verzenden. In [!DNL Audience Manager] is een doel een systeem van derden (advertentieserver, [!DNL DSP], [!DNL DMP], Exchange, enzovoort) waarmee u gegevens wilt delen. Met een [!UICONTROL Activation] -use-case kunt u echter geen overlappende rapporten uitvoeren of de gegevens in een algoritmisch model testen.
 
 >[!MORELIKETHIS]
 >
->* [ Facturerings en de Toewijzing van de Indruk voor de Eigen Gegevens van CPM ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
->* [ Facturerings en Toewijzing van de Indrukking voor de Diefstal van de Gegevens van het Vlaming ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
->* [ hoe te om het Gebruik van CPM te melden ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
->* [ abonneert aan een Openbare Diervoed van Gegevens ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
->* [ Kortingen voor de Kopers van Gegevens ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
->* [ Marketplace: Ongeveer ](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)
+>* [&#x200B; Facturerings en de Toewijzing van de Indruk voor de Eigen Gegevens van CPM &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#cost-attribution)
+>* [&#x200B; Facturerings en Toewijzing van de Indrukking voor de Diefstal van de Gegevens van het Vlaming &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md)
+>* [&#x200B; hoe te om het Gebruik van CPM te melden &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md#report-cpm-usage)
+>* [&#x200B; abonneert aan een Openbare Diervoed van Gegevens &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#subscript-public-data-feed)
+>* [&#x200B; Kortingen voor de Kopers van Gegevens &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-manage-subscriptions.md#buyer-discount)
+>* [&#x200B; Marketplace: Ongeveer &#x200B;](../../../features/audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md#about-marketplace)

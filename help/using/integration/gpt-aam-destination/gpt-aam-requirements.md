@@ -26,9 +26,9 @@ Voor integratie op de client moet u een [!DNL GPT] -doel instellen in Audience M
 
 * **creeer a [!UICONTROL Cookie Destination]:** [!DNL GPT] moet opstelling als op koekje-gebaseerde bestemming in Audience Manager zijn.
 
-* **voert Koekjescontrole uit Code:** verpakt de [!DNL GPT] `.setTargeting` API methode in onze geadviseerde [ koekje controlerende code ](../../integration/gpt-aam-destination/gpt-aam-modify-api.md). Deze code helpt fouten te voorkomen door naar geldige AAM cookies te zoeken voordat de methode `.setTargeting` wordt aangeroepen.
+* **voert Koekjescontrole uit Code:** verpakt de [!DNL GPT] `.setTargeting` API methode in onze geadviseerde [&#x200B; koekje controlerende code &#x200B;](../../integration/gpt-aam-destination/gpt-aam-modify-api.md). Deze code helpt fouten te voorkomen door naar geldige AAM cookies te zoeken voordat de methode `.setTargeting` wordt aangeroepen.
 
-* **voeg `AamGpt` Functie toe:** de `AamGpt` code vangt gegevens van de koekjes van Audience Manager en verzendt het naar [!DNL GPT]. Plaats de [ Code van Audience Manager voor de Markeringen van de Uitgever van Google ](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) bij de bovenkant van de pagina of binnen het `<head>` codeblok.
+* **voeg `AamGpt` Functie toe:** de `AamGpt` code vangt gegevens van de koekjes van Audience Manager en verzendt het naar [!DNL GPT]. Plaats de [&#x200B; Code van Audience Manager voor de Markeringen van de Uitgever van Google &#x200B;](../../integration/gpt-aam-destination/gpt-aam-aamgpt-code.md) ( `AamGpt`) bij de bovenkant van de pagina of binnen het `<head>` codeblok.
 
   >[!NOTE]
   >
@@ -42,7 +42,7 @@ De hoeveelheid gegevens die aan [!DNL GPT] wordt doorgegeven, is afhankelijk van
 
 >[!NOTE]
 >
->Er zijn geen limieten aan het aantal toetswaarden dat u kunt verzenden, maar de [!DNL Google] request [!DNL URL] heeft wel beperkingen aan het aantal tekens dat de aanvraag kan accepteren. Zie [ Plaatsend het richten en grootte met GPT ](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
+>Er zijn geen limieten aan het aantal toetswaarden dat u kunt verzenden, maar de [!DNL Google] request [!DNL URL] heeft wel beperkingen aan het aantal tekens dat de aanvraag kan accepteren. Zie [&#x200B; Plaatsend het richten en grootte met GPT &#x200B;](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1697712).
 
 ## Integratie op de server {#server-side-integration}
 
@@ -50,8 +50,8 @@ Neem contact op met uw Audience Manager-consultant of de klantenservice als u ee
 
 >[!IMPORTANT]
 >
->Als uw Web-pagina&#39;s de [ versnelde bibliotheek van de Pagina&#39;s van Media ](https://www.ampproject.org/) ([!DNL AMP]) in werking stellen, moet u de server-zijintegratie met Audience Manager gebruiken. Als u [!DNL AMP] aanstaat en een client-side integratie met [!DNL AMP] hebt, moet u migreren naar de server-side integratie. Neem contact op met uw Audience Manager-consultant of klantenservice om de migratie te bespreken.
+>Als uw Web-pagina&#39;s de [&#x200B; versnelde bibliotheek van de Pagina&#39;s van Media &#x200B;](https://www.ampproject.org/) ([!DNL AMP]) in werking stellen, moet u de server-zijintegratie met Audience Manager gebruiken. Als u [!DNL AMP] aanstaat en een client-side integratie met [!DNL AMP] hebt, moet u migreren naar de server-side integratie. Neem contact op met uw Audience Manager-consultant of klantenservice om de migratie te bespreken.
 
 >[!MORELIKETHIS]
 >
->* [ GPT API de Gids van de Verwijzing ](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)
+>* [&#x200B; GPT API de Gids van de Verwijzing &#x200B;](https://support.google.com/dfp_premium/bin/answer.py?hl=en&answer=1650154)

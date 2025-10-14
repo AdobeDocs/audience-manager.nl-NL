@@ -20,7 +20,7 @@ Met de opties van [!UICONTROL profile merge rule] kunt u het type gegevens bepal
 
 U maakt een [!UICONTROL Profile Merge Rule] door een selectie te maken van de opties die hieronder worden beschreven, in [!UICONTROL Profile Merge Rule Setup] .
 
-![ profiel-fusie-regel-opstelling ](assets/profile-merge-rule-setup.png)
+![&#x200B; profiel-fusie-regel-opstelling &#x200B;](assets/profile-merge-rule-setup.png)
 
 ## [!UICONTROL Profile Merge Rule] Overzicht van opties {#overview}
 
@@ -28,13 +28,13 @@ U maakt een [!UICONTROL Profile Merge Rule] door een selectie te maken van de op
 
 | [!UICONTROL Cross-Device Option] | [!UICONTROL Device Option] | Beschikbaarheid | Type evaluatie | [!UICONTROL Audience Lab] Ondersteuning | Gevallen gebruiken |
 | ------------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----| -------------------- |
-| [!UICONTROL No Cross-Device Profile] | [!UICONTROL Device Profile] | Alle klanten | Realtime en batch | Ja | [ Apparaat richtend ](merge-rule-targeting-options.md#device-personalization) |
-| [!UICONTROL No Cross-Device Profile] | [!UICONTROL External Device Graph] | Alle klanten | Realtime en batch | Nee | [ Uitgebreid Apparaat richtend ](external-graph-use-cases.md#audience-expansion) |
-| [!UICONTROL Current Authenticated Profiles] | [!UICONTROL No Device Profile] | Alle klanten | Alleen in realtime | Nee | [ Gedeeld Apparaat richtend ](merge-rule-targeting-options.md#target-shared-devices) |
-| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Device Profile] | Alle klanten | Realtime en batch | Ja | [ Online/Off-line het richten ](merge-rule-targeting-options.md#device-household-targeting) |
-| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Profile Link Device Graph] | Alle klanten | Realtime en batch | Ja | [ dwars-apparaat richtend ](profile-link-use-case.md#cross-device-personalization) |
-| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] | Alle klanten | Realtime en batch | Nee | [ Geavanceerde dwars-Apparaat richtend ](external-graph-use-cases.md#advanced-graph-expansion) |
-| [!UICONTROL All Cross-Device Profiles] | NVT | Exclusief aan [ op mensen-Gebaseerde klanten ](../destinations/people-based-destinations-overview.md) | Alleen batch | Nee | [ het richten voor op mensen-Gebaseerde Doelen ](merge-rule-targeting-options.md#all-cross-device) |
+| [!UICONTROL No Cross-Device Profile] | [!UICONTROL Device Profile] | Alle klanten | Realtime en batch | Ja | [&#x200B; Apparaat richtend &#x200B;](merge-rule-targeting-options.md#device-personalization) |
+| [!UICONTROL No Cross-Device Profile] | [!UICONTROL External Device Graph] | Alle klanten | Realtime en batch | Nee | [&#x200B; Uitgebreid Apparaat richtend &#x200B;](external-graph-use-cases.md#audience-expansion) |
+| [!UICONTROL Current Authenticated Profiles] | [!UICONTROL No Device Profile] | Alle klanten | Alleen in realtime | Nee | [&#x200B; Gedeeld Apparaat richtend &#x200B;](merge-rule-targeting-options.md#target-shared-devices) |
+| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Device Profile] | Alle klanten | Realtime en batch | Ja | [&#x200B; Online/Off-line het richten &#x200B;](merge-rule-targeting-options.md#device-household-targeting) |
+| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL Profile Link Device Graph] | Alle klanten | Realtime en batch | Ja | [&#x200B; dwars-apparaat richtend &#x200B;](profile-link-use-case.md#cross-device-personalization) |
+| [!UICONTROL Last Authenticated Profiles] | [!UICONTROL External Device Graph] | Alle klanten | Realtime en batch | Nee | [&#x200B; Geavanceerde dwars-Apparaat richtend &#x200B;](external-graph-use-cases.md#advanced-graph-expansion) |
+| [!UICONTROL All Cross-Device Profiles] | NVT | Exclusief aan [&#x200B; op mensen-Gebaseerde klanten &#x200B;](../destinations/people-based-destinations-overview.md) | Alleen batch | Nee | [&#x200B; het richten voor op mensen-Gebaseerde Doelen &#x200B;](merge-rule-targeting-options.md#all-cross-device) |
 
 ## [!UICONTROL Profile Merge Rule] [!UICONTROL Segment] Evaluatie {#segment-evaluation}
 
@@ -48,7 +48,7 @@ Afhankelijk van uw [!UICONTROL Profile Merge Rules] -configuratie kan [!DNL Audi
 
 Real-time [!UICONTROL segment] evaluatie weerspiegelt direct in de [!UICONTROL Profile Merge Rules] -rapporten.
 
-De evaluatie van de partij [!UICONTROL segment] kan tot 24 uren vergen om in de [ rapporten van de Regels van de Fusie van het Profiel te bezigen ](profile-link-metrics.md).
+De evaluatie van de partij [!UICONTROL segment] kan tot 24 uren vergen om in de [&#x200B; rapporten van de Regels van de Fusie van het Profiel te bezigen &#x200B;](profile-link-metrics.md).
 
 ## [!UICONTROL Cross-Device Options] {#auth-options}
 
@@ -83,7 +83,7 @@ Met [!UICONTROL Cross-Device Options] kunt u geverifieerde en niet-geverifieerde
 
 ## [!UICONTROL Cross-Device Profile Options] {#profile-options}
 
-In [!UICONTROL Cross-Device Profile Options] wordt de lijst met [!UICONTROL cross-device data sources] weergegeven. Deze opties gebruiken de namen u verstrekte toen u a [!UICONTROL cross-device] [!UICONTROL data source] creeerde (zie [ een Gegevens van het Interapparaat Source ](merge-rules-start.md#create-data-source) creëren). U kunt maximaal 3 [!UICONTROL cross-device data sources] selecteren voor gebruik met elke profielregel. [!UICONTROL Authenticated Profile Options] zijn beschikbaar wanneer u **[!UICONTROL Current Authenticated Profiles]** of **[!UICONTROL Last Authenticated Profiles]** kiest.
+In [!UICONTROL Cross-Device Profile Options] wordt de lijst met [!UICONTROL cross-device data sources] weergegeven. Deze opties gebruiken de namen u verstrekte toen u a [!UICONTROL cross-device] [!UICONTROL data source] creeerde (zie [&#x200B; een Gegevens van het Interapparaat Source &#x200B;](merge-rules-start.md#create-data-source) creëren). U kunt maximaal 3 [!UICONTROL cross-device data sources] selecteren voor gebruik met elke profielregel. [!UICONTROL Authenticated Profile Options] zijn beschikbaar wanneer u **[!UICONTROL Current Authenticated Profiles]** of **[!UICONTROL Last Authenticated Profiles]** kiest.
 
 ## [!UICONTROL Device Options] {#device-options}
 
@@ -123,8 +123,8 @@ Met [!UICONTROL Device Options] kunt u het type *`device profile`* selecteren da
 
 ## [!UICONTROL External Merge Policies] {#external-merge-policies}
 
-De segmenten van het publiek die automatisch van andere [!DNL Experience Cloud] oplossingen werden gecreeerd, die op fusieregels buiten [!DNL Audience Manager] worden bepaald worden gebaseerd, duidelijk zoals het gebruiken van [!UICONTROL External Merge Policy]. Bijvoorbeeld, zie [ Publiek dat tussen Audience Manager en Adobe Experience Platform ](../../integration/integration-aep/aam-aep-audience-sharing.md) deelt.
+De segmenten van het publiek die automatisch van andere [!DNL Experience Cloud] oplossingen werden gecreeerd, die op fusieregels buiten [!DNL Audience Manager] worden bepaald worden gebaseerd, duidelijk zoals het gebruiken van [!UICONTROL External Merge Policy]. Bijvoorbeeld, zie [&#x200B; Publiek dat tussen Audience Manager en Adobe Experience Platform &#x200B;](../../integration/integration-aep/aam-aep-audience-sharing.md) deelt.
 
 >[!MORELIKETHIS]
 >
->* [ Veelgestelde vragen van de Regels van de Fusie van het Profiel ](../../faq/faq-profile-merge.md)
+>* [&#x200B; Veelgestelde vragen van de Regels van de Fusie van het Profiel &#x200B;](../../faq/faq-profile-merge.md)

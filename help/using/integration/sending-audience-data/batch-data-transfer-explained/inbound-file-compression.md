@@ -28,7 +28,7 @@ Audience Manager ondersteunt ook ongecomprimeerde bestanden.
 >
 >Wij steunen geen encryptie op binnenkomende die dossiers met gzip worden gecomprimeerd (`.gz`).
 >
->Om binnenkomende dossiers te coderen en te comprimeren, gebruik [ encryptie PGP ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] -codering omvat bestandscompressie.
+>Om binnenkomende dossiers te coderen en te comprimeren, gebruik [&#x200B; encryptie PGP &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-encryption.md). [!DNL PGP] -codering omvat bestandscompressie.
 
 ## Amazon S3-compressie
 

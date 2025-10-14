@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Met de code-editor van [!UICONTROL Trait Builder] kunt u uw eigen regels voor kenmerken maken. Zoek de code-editor in [!UICONTROL Traits > Add New > Rule-based > Trait Expression] en schakel over naar [!UICONTROL Code View] . Audience Manager ondersteunt alle beschikbare reguliere-expressieconstructies waarnaar in [!DNL Java Regular Expression Class Pattern] wordt verwezen. U kunt alle reguliere expressies rechtstreeks in de [!DNL Expression Builder] valideren.
 
-Zie ook, [ de Regelmatige Patronen van de Klasse van de Uitdrukking van Java ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).
+Zie ook, [&#x200B; de Regelmatige Patronen van de Klasse van de Uitdrukking van Java &#x200B;](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html).

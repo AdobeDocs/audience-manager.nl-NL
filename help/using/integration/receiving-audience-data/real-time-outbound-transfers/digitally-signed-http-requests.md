@@ -22,12 +22,12 @@ Audience Manager vereist dat de serveraanvragen van `HTTP(S)` digitaal worden on
 
 <!-- digitally_signed_http_requests.xml -->
 
-Gebruikend een privé sleutel die door u wordt verstrekt en met [!DNL Audience Manager] wordt gedeeld, kunnen wij de `HTTP(S)` verzoeken digitaal ondertekenen die tussen [ IRIS ](../../../reference/system-components/components-data-action.md#iris) en uw server van HTTP(S) worden verzonden. Dit zorgt ervoor dat:
+Gebruikend een privé sleutel die door u wordt verstrekt en met [!DNL Audience Manager] wordt gedeeld, kunnen wij de `HTTP(S)` verzoeken digitaal ondertekenen die tussen [&#x200B; IRIS &#x200B;](../../../reference/system-components/components-data-action.md#iris) en uw server van HTTP(S) worden verzonden. Dit zorgt ervoor dat:
 
 * **Authenticiteit**: slechts kan de afzender die de privé sleutel ([!UICONTROL IRIS]) heeft geldige `HTTP(S)` berichten naar de partner verzenden.
 * **integriteit van het Bericht**: met deze benadering, zelfs op `HTTP`, bent u beschermd tegen een man in de middelste aanval waar de berichten worden vervormd.
 
-[!UICONTROL IRIS] heeft ingebouwde steun om de sleutels met nul onderbreking, zoals aangetoond in [ roterend de privé sleutel ](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) hieronder sectie te roteren.
+[!UICONTROL IRIS] heeft ingebouwde steun om de sleutels met nul onderbreking, zoals aangetoond in [&#x200B; roterend de privé sleutel &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#rotate-private-key) hieronder sectie te roteren.
 
 ## Informatie die u moet opgeven {#info-to-provide}
 
@@ -54,7 +54,7 @@ POST message content
 1. [!UICONTROL IRIS] maakt een handtekening op basis van het `HTTP(S)` -bericht en de persoonlijke sleutel die door de partner wordt doorgegeven.
 1. [!UICONTROL IRIS] verzendt het `HTTP(S)` -verzoek naar de partner. Dit bericht bevat de handtekening en het werkelijke bericht, zoals in het bovenstaande voorbeeld wordt getoond.
 1. De partnerserver ontvangt de `HTTP(S)` aanvraag. De berichttekst en de handtekening die zijn ontvangen van [!UICONTROL IRIS] worden gelezen.
-1. Gebaseerd op het berichtlichaam dat en de privé sleutel wordt ontvangen, herberekent de partnerserver de handtekening. Zie [ hoe te om de handtekening ](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) sectie enkel hieronder op te berekenen hoe te om dit te bereiken.
+1. Gebaseerd op het berichtlichaam dat en de privé sleutel wordt ontvangen, herberekent de partnerserver de handtekening. Zie [&#x200B; hoe te om de handtekening &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md#calculate-signature) sectie enkel hieronder op te berekenen hoe te om dit te bereiken.
 1. Vergelijk de handtekening die op de partnerserver (ontvanger) wordt gemaakt met de handtekening die van [!UICONTROL IRIS] (afzender) wordt ontvangen.
 1. Als de handtekeningen aanpassen, dan zijn de **authenticiteit** en **berichtintegriteit** bevestigd. Alleen de afzender, die over de persoonlijke sleutel beschikt, kan een geldige handtekening (authenticiteit) verzenden. Bovendien kan een man in het midden het bericht niet wijzigen en een nieuwe geldige handtekening genereren, aangezien hij of zij niet over de persoonlijke sleutel (berichtintegriteit) beschikt.
 
@@ -85,7 +85,7 @@ String signature = Base64.encodeBase64String(result).trim();
 // signature = +wFdR/afZNoVqtGl8/e1KJ4ykPU=
 ```
 
-RFC voor de [!DNL HMAC] knoeiboelimplementatie is [ https://www.ietf.org/rfc/rfc2104.txt ](https://www.ietf.org/rfc/rfc2104.txt). Een testplaats: [ https://asecuritysite.com/encryption/hmac ](https://asecuritysite.com/encryption/hmac) (merk op dat u [&#128279;](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) hexcodering in base64 moet omzetten).
+RFC voor de [!DNL HMAC] knoeiboelimplementatie is [&#x200B; https://www.ietf.org/rfc/rfc2104.txt &#x200B;](https://www.ietf.org/rfc/rfc2104.txt). Een testplaats: [&#x200B; https://asecuritysite.com/encryption/hmac &#x200B;](https://asecuritysite.com/encryption/hmac) (merk op dat u [&#128279;](https://tomeko.net/online_tools/hex_to_base64.php?lang=en) hexcodering in base64 moet omzetten).
 
 ## De persoonlijke sleutel roteren {#rotate-private-key}
 

@@ -25,7 +25,7 @@ Een metagegevensbestand bevat namen die leesbaar zijn voor mensen en die overeen
 
 >[!IMPORTANT]
 >
->Om meta-gegevensdossiers te gebruiken, moet uw gebeurtenisvraag *alle* van de parameters omvatten die in het [ overzicht en de afbeeldingen ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) sectie worden vermeld.
+>Om meta-gegevensdossiers te gebruiken, moet uw gebeurtenisvraag *alle* van de parameters omvatten die in het [&#x200B; overzicht en de afbeeldingen &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) sectie worden vermeld.
 
 * [Gegevensbestanden voor Audience Optimization-rapporten en uitvoerbare logbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 * [Overzicht en toewijzingen voor metagegevensbestanden](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md)

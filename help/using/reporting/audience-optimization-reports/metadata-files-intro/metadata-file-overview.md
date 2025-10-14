@@ -38,11 +38,11 @@ Een metagegevensbestand met de juiste indeling kan dit creatieve bestand echter 
 
 ### Wanneer hebt u een metagegevensbestand nodig
 
-Eerst, worden een meta-gegevensdossier, en alle hieronder vermelde parameters, vereist in een gebeurtenisvraag wanneer u de [ Rapporten van Audience Optimization ](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) wilt gebruiken.
+Eerst, worden een meta-gegevensdossier, en alle hieronder vermelde parameters, vereist in een gebeurtenisvraag wanneer u de [&#x200B; Rapporten van Audience Optimization &#x200B;](../../../reporting/audience-optimization-reports/audience-optimization-reports.md) wilt gebruiken.
 
-Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar [!DNL Audience Manager] verzendt of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. Bijvoorbeeld, [!DNL Audience Manager] heeft een integratie met Google [ tweemaal klikken de Manager van de Campagne ](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Vanwege deze relatie kan [!DNL Audience Manager] id&#39;s koppelen aan namen en beschrijvingen die worden gebruikt door de rapportopties. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
+Ten tweede hebt u een metagegevensbestand nodig als u uw eigen gegevens naar [!DNL Audience Manager] verzendt of als u gegevens wilt bekijken in de rapporten van andere providers waarmee u niet bent geïntegreerd. Bijvoorbeeld, [!DNL Audience Manager] heeft een integratie met Google [&#x200B; tweemaal klikken de Manager van de Campagne &#x200B;](../../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) (DCM). Vanwege deze relatie kan [!DNL Audience Manager] id&#39;s koppelen aan namen en beschrijvingen die worden gebruikt door de rapportopties. Zonder integratie, kunnen wij nog gegevens opnemen, maar de rapportopties zullen numerieke IDs in plaats van beschrijvende naam tonen.
 
-![ beeld van het meta-gegevensmenu ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_menu.png)
+![&#x200B; beeld van het meta-gegevensmenu &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_menu.png)
 
 ## Bestandstoewijzingen {#file-mappings}
 
@@ -111,7 +111,7 @@ Met de id&#39;s die door deze sleutelwaardeparen worden doorgegeven, kunt u de n
 
 In dit voorbeeld maken we een metagegevensbestand dat creatieve namen in een [!UICONTROL Audience Optimization] -rapport plaatst. Hiervoor moeten we creatieve id&#39;s, campagne- en gegevensbronid&#39;s ophalen uit een gebeurtenisaanroep.
 
-![ beeld van de gebeurtenisvraag ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
+![&#x200B; beeld van de gebeurtenisvraag &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_event.png)
 
 ### Bestandsnaam
 
@@ -123,24 +123,24 @@ In een bestandsnaam:
 
 * De creatieve id&#39;s en campagne-id&#39;s vertegenwoordigen een categorie in plaats van een werkelijke id.
 
-![ hoe is een dossier - noem gebouwd ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
+![&#x200B; hoe is een dossier - noem gebouwd &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_name.png)
 
-Zie [ Noemende Conventies voor de Dossiers van Meta-gegevens ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
+Zie [&#x200B; Noemende Conventies voor de Dossiers van Meta-gegevens &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md).
 
 ### Bestandsinhoud
 
 In dit voorbeeld weerspiegelt de bestandsinhoud de creatieve id&#39;s en campagne-id&#39;s die zijn doorgegeven aan de gebeurtenisaanroep. Het nieuwe element hier is een leesbare naam. Na verwerking wordt de naam in dit bestand als een optie weergegeven in het Creative-menu van een [!UICONTROL Audience Optimization] -rapport.
 
-![ inhoud van een meta-gegevensdossier ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
+![&#x200B; inhoud van een meta-gegevensdossier &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/assets/metadata_file_contents.png)
 
-Zie [ Formaat van de Inhoud voor de Dossiers van Meta-gegevens ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
+Zie [&#x200B; Formaat van de Inhoud voor de Dossiers van Meta-gegevens &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-contents.md).
 
 ### Bestandslevering
 
-Nadat u een naam hebt gegeven en gegevens aan een bestand hebt toegevoegd, verzendt u deze naar een Amazon S3-opslagmap die wordt geleverd door [!DNL Audience Manager] . Zie [ Methoden van de Levering voor de Dossiers van Meta-gegevens ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
+Nadat u een naam hebt gegeven en gegevens aan een bestand hebt toegevoegd, verzendt u deze naar een Amazon S3-opslagmap die wordt geleverd door [!DNL Audience Manager] . Zie [&#x200B; Methoden van de Levering voor de Dossiers van Meta-gegevens &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-delivery-methods.md).
 
 >[!MORELIKETHIS]
 >
->* [ Dossiers van Gegevens voor de Rapporten van Audience Optimization ](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
+>* [&#x200B; Dossiers van Gegevens voor de Rapporten van Audience Optimization &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/datafiles-intro.md)
 >* [Klikdata campagne vastleggen via pixelcalls](../../../integration/media-data-integration/click-data-pixels.md)
 >* [Campagne-impressiedata vastleggen via pixelcalls](../../../integration/media-data-integration/impression-data-pixels.md)

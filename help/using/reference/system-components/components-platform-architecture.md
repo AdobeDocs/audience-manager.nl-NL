@@ -30,6 +30,6 @@ Op de kaart bevat het grijze vak [!DNL Audience Manager] systemen. Sommige compo
 
 Kleuren definiëren het type gegevens dat in- en uitstroomt van [!DNL Audience Manager] . Groen is cliëntgegevens, blauw is klantengegevens (mensen die uw plaats bezoeken), en oranje is gegevens die voor rapportering worden gebruikt.
 
-Voor systeembeschrijvingen en samenvattingen zie de gegevens [ actie ](../../reference/system-components/components-data-action.md), [ inzameling ](../../reference/system-components/components-data-collection.md), [ verwerking ](../../reference/system-components/components-data-processing.md), en [ sectie van het markeringsbeheer ](../../reference/system-components/components-tag-management.md).
+Voor systeembeschrijvingen en samenvattingen zie de gegevens [&#x200B; actie &#x200B;](../../reference/system-components/components-data-action.md), [&#x200B; inzameling &#x200B;](../../reference/system-components/components-data-collection.md), [&#x200B; verwerking &#x200B;](../../reference/system-components/components-data-processing.md), en [&#x200B; sectie van het markeringsbeheer &#x200B;](../../reference/system-components/components-tag-management.md).
 
 ![](assets/flowmap.png)

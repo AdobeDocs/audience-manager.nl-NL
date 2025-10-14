@@ -22,7 +22,7 @@ Stel een [!DNL Google] -groep in om uw [!DNL Google Campaign Manager] -gegevensb
 
 [!DNL Google Campaign Manager] is [!DNL Google] ter vervanging van [!DNL DoubleClick for Advertisers] (DFA). Net als DFA kunnen [!DNL Google Campaign Manager] -klanten hun gegevens importeren, weergeven en ermee werken in [!DNL Audience Manager] . [!DNL Audience Manager] kan echter niet rechtstreeks uw [!UICONTROL Data Transfer]- en [!UICONTROL Match Table]-bestanden openen en importeren. Het importeren van deze bestanden is een taak voor de klant.
 
-Nochtans, is de opstellingsprocedure goed gedocumenteerd in de [ Hulp van de Manager van de Campagne DoubleClick ](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). U kunt ook de onderstaande stappen doornemen om aan de slag te gaan.
+Nochtans, is de opstellingsprocedure goed gedocumenteerd in de [&#x200B; Hulp van de Manager van de Campagne DoubleClick &#x200B;](https://support.google.com/dcm/partner/answer/2941575?hl=en&ref_topic=6107456). U kunt ook de onderstaande stappen doornemen om aan de slag te gaan.
 
 >[!CAUTION]
 >
@@ -34,23 +34,23 @@ Nochtans, is de opstellingsprocedure goed gedocumenteerd in de [ Hulp van de Man
 
 ## Stappen
 
-1. [ creeer een groep ](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456).
+1. [&#x200B; creeer een groep &#x200B;](https://support.google.com/dcm/partner/answer/3370419?hl=en&ref_topic=6107456).
 
    Groepen bepalen de toegang tot uw [!DNL Google Campaign Manager] -gegevens. Uiteindelijk gaat u [!DNL Audience Manager] uitnodigen en toevoegen aan deze groep.
 
-1. [ verifieer uw status van de Opslag van de Wolk van Google ](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456).
+1. [&#x200B; verifieer uw status van de Opslag van de Wolk van Google &#x200B;](https://support.google.com/dcm/partner/answer/3370481?hl=en&ref_topic=6107456).
 
    Google Cloud Storage bevat het gegevensemmertje dat uw [!UICONTROL Data Transfer] en [!UICONTROL Match Tables] bevat. U zult een emmertje moeten opstelling of ervoor zorgen uw nieuwe groep toegang tot een bestaand emmertje van de gegevensopslag heeft.
 
-1. [ krijgt een gegevensbestand URL ](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456).
+1. [&#x200B; krijgt een gegevensbestand URL &#x200B;](https://support.google.com/dcm/partner/answer/3370482?hl=en&ref_topic=6107456).
 
    Werk met uw [!DNL Google Campaign Manager] accountmanager of consultant voor platformoplossingen. Ze geven u een URL naar uw gegevensbestanden. [!DNL Google] kan in toekomstige versies de indeling voor bucket- en bestandsnamen wijzigen. Werk opnieuw met uw accountmanager van [!DNL Google Campaign Manager] om ervoor te zorgen dat u de juiste indelingen gebruikt.
 
-1. [ vastgestelde emmer toestemmingen ](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission).
+1. [&#x200B; vastgestelde emmer toestemmingen &#x200B;](https://cloud.google.com/storage/docs/cloud-console?csw=1#_bucketpermission).
 
    Met [!DNL Cloud Storage Manager] kunt u gegevens delen en emmer-toegang beheren. Geef uw groep leestoegang tot de emmertje die uw [!UICONTROL Data Transfer] en [!UICONTROL Match Table] dossiers bevat.
 
-1. [ de opstellings gegevens die ](https://support.google.com/dcm/partner/answer/6206106?hl=en) delen.
+1. [&#x200B; de opstellings gegevens die &#x200B;](https://support.google.com/dcm/partner/answer/6206106?hl=en) delen.
 
    Gedeelde [!DNL Google Campaign Manager] gebruikers-id&#39;s zijn gecodeerd om de privacy te beschermen. Met Versleuteling voegt u twee kolommen toe aan het einde van het gegevensoverdrachtbestand, `PartnerId1` en `PartnerId2` . Deze kolommen bevatten gecodeerde gebruikers-id&#39;s die specifiek zijn voor elk bedrijf dat deze bestanden ontvangt.
 
@@ -63,6 +63,6 @@ Nochtans, is de opstellingsprocedure goed gedocumenteerd in de [ Hulp van de Man
 
    Nadat u een groep hebt gemaakt en deze toegang hebt tot een gegevensemmertje, nodigt u [!DNL Audience Manager] uit om lid te worden van de groep. Verzend een uitnodigings-e-mail naar dfaaam@adobe.com. Zorg ervoor dat u de URL van het gegevensbestand uit stap 3 opneemt. Onze interne teams zullen met u samenwerken om toegang te verifiëren nadat het goedkeuren van de uitnodiging. 1. Stel twee gegevensbronnen in voor [!DNL Google Campaign Manager] -gegevens in de [!DNL Audience Manager] -gebruikersinterface.
 
-   Geef de gegevensbronnen een naam `Advertiser Analytics: DCM Platform` en `Advertiser Analytics: AAM+DCM Platform` . In [ creeer Gegevensbronnen ](../../../features/manage-datasources.md#create-data-source) werkschema, plaats het type van identiteitskaart aan `Cookie`. Deel de id&#39;s van de twee nieuwe gegevensbronnen met onze interne teams.
+   Geef de gegevensbronnen een naam `Advertiser Analytics: DCM Platform` en `Advertiser Analytics: AAM+DCM Platform` . In [&#x200B; creeer Gegevensbronnen &#x200B;](../../../features/manage-datasources.md#create-data-source) werkschema, plaats het type van identiteitskaart aan `Cookie`. Deel de id&#39;s van de twee nieuwe gegevensbronnen met onze interne teams.
 
-1. U kunt eenvoudig kenmerken maken van de [!DNL Google Campaign Manager] -bestanden die u in [!DNL Audience Manager] importeert. Zie [ Acteerbare Dossiers van het Logboek ](../../../integration/media-data-integration/actionable-log-files.md) en vraag uw [!DNL Audience Manager] consultant of de Zorg van de Klant om de eigenschap voor u toe te laten.
+1. U kunt eenvoudig kenmerken maken van de [!DNL Google Campaign Manager] -bestanden die u in [!DNL Audience Manager] importeert. Zie [&#x200B; Acteerbare Dossiers van het Logboek &#x200B;](../../../integration/media-data-integration/actionable-log-files.md) en vraag uw [!DNL Audience Manager] consultant of de Zorg van de Klant om de eigenschap voor u toe te laten.

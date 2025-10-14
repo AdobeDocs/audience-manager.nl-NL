@@ -50,4 +50,4 @@ ht-degree: 1%
 
 ## Meer informatie
 
-Voor meer het publiceren instructies, stijlgidsen, steekproeven en andere middelen, gelieve te bezoeken de [ Samenwerken Documentatie Repo ](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Voor meer het publiceren instructies, stijlgidsen, steekproeven en andere middelen, gelieve te bezoeken de [&#x200B; Samenwerken Documentatie Repo &#x200B;](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)

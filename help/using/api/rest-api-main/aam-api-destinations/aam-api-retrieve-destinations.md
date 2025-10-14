@@ -74,7 +74,7 @@ Een `GET` methode die alle bestemmingen voor de gespecificeerde partner terugkee
 
 ### Optionele queryparameters
 
-U kunt deze facultatieve parameters met API methodes gebruiken die *alle* eigenschappen voor een voorwerp terugkeren. Stel deze opties in de aanvraagtekenreeks in wanneer u die query aan de [!DNL API] doorgeeft. Zie [ Facultatieve Parameters ](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
+U kunt deze facultatieve parameters met API methodes gebruiken die *alle* eigenschappen voor een voorwerp terugkeren. Stel deze opties in de aanvraagtekenreeks in wanneer u die query aan de [!DNL API] doorgeeft. Zie [&#x200B; Facultatieve Parameters &#x200B;](../../../api/rest-api-main/aam-api-getting-started.md#optional-api-query-parameters).
 
 <table id="table_B05A8EE22C9A4C72B84A8479E1AB7D0A"> 
  <thead> 

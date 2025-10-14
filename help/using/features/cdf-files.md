@@ -41,7 +41,7 @@ Bestandsmeldingen en [!UICONTROL CDF] -bestanden worden weergegeven in uw [!DNL 
 
 ## Volgende stappen {#next-steps}
 
-De secties hieronder en [ Veelgestelde Veelgestelde vragen van het voer van de Gegevens van de Klant ](../faq/faq-cdf.md) kunnen u helpen vertrouwd met deze dienst worden.
+De secties hieronder en [&#x200B; Veelgestelde Veelgestelde vragen van het voer van de Gegevens van de Klant &#x200B;](../faq/faq-cdf.md) kunnen u helpen vertrouwd met deze dienst worden.
 
 ## [!UICONTROL Customer Data Feed] Gedefinieerde inhoud {#cdf-defined}
 

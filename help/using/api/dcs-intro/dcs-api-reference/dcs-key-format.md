@@ -71,5 +71,5 @@ Met geserialiseerde sleutel-waarde paren, moet u de tellers specificeren die waa
 >[!MORELIKETHIS]
 >
 >* [Data verzenden naar de DCS](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md)
->* [ zeer belangrijk-Waarde prefixen en Variabelen die door DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md) worden gesteund
+>* [&#x200B; zeer belangrijk-Waarde prefixen en Variabelen die door DCS &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md) worden gesteund
 >* [Sleutelwaardeparen](../../../reference/key-value-pairs-explained.md)

@@ -25,29 +25,29 @@ In de documentatie over gegevensprivacy wordt beschreven hoe [!DNL Audience Mana
 * Consumenten ontvangen gepersonaliseerde content, productaanbiedingen met korting en gestroomlijnde gebruikerservaringen.
 * De merken ontvangen essentiële inkomstenstromen die meervoudige online bedrijfsmodellen ondersteunen.
 
-In onze voortdurende steun van dit model, [!DNL Audience Manager] blijft geëngageerd aan het voorzien van u van de hulpmiddelen helpen uw capaciteit steunen om transparantie en controle aan uw consumenten te verstrekken, terwijl het leveren van gepersonaliseerde advertenties onderworpen aan [ Online Gedrag Advertising (OBA) Zelfreguleringsprincipes ](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
+In onze voortdurende steun van dit model, [!DNL Audience Manager] blijft geëngageerd aan het voorzien van u van de hulpmiddelen helpen uw capaciteit steunen om transparantie en controle aan uw consumenten te verstrekken, terwijl het leveren van gepersonaliseerde advertenties onderworpen aan [&#x200B; Online Gedrag Advertising (OBA) Zelfreguleringsprincipes &#x200B;](https://www.iab.com/news/self-regulatory-principles-for-online-behavioral-advertising/).
 
 ## [!DNL GDPR] {#gdpr}
 
 De [General Data Protection Regulation (GDPR, ofwel Algemene verordening gegevensbescherming (AVG))](https://gdpr.eu/data-privacy/) heeft diverse nieuwe dataprivacyrechten geïntroduceerd voor leden van de Europese Unie, waaronder het **recht op toegang** en het **recht om vergeten te worden**. Dit betekent dat elke [!DNL EU] -burger wiens persoonlijke gegevens door uw bedrijf zijn verzameld, op elk gewenst moment toegang kan vragen tot zijn gegevens of deze kan verwijderen. Als u deze aanvragen niet honoreert, kan dit leiden tot boetes van miljoenen dollars voor uw organisatie.
 
-Om aan [!DNL GDPR] te voldoen, [!DNL Audience Manager] steunt gegevenstoegang en schrap [ verzoeken ](data-privacy-requests.md).
+Om aan [!DNL GDPR] te voldoen, [!DNL Audience Manager] steunt gegevenstoegang en schrap [&#x200B; verzoeken &#x200B;](data-privacy-requests.md).
 
 ## [!DNL CCPA] {#ccpa}
 
 De [California Consumer Privacy Act (CCPA)](https://www.caprivacy.org/about), die op 1 januari 2020 in werking is getreden, verleent aan de inwoners van Californië nieuwe rechten in verband met hun persoonlijke informatie en legt de verantwoordelijkheid voor databescherming bij bepaalde entiteiten die in Californië zaken doen.
 
-[!DNL CCPA] biedt nieuwe privacyrechten voor gegevens aan inwoners van Californië, waaronder het recht om hun persoonsgegevens te openen en te verwijderen en om te weten of hun persoonsgegevens worden verkocht of openbaar gemaakt (en aan wie). Om aan [!DNL CCPA] te voldoen, [!DNL Audience Manager] steunt [!DNL CCPA] toegang en schrapt [ verzoeken ](data-privacy-requests.md).
+[!DNL CCPA] biedt nieuwe privacyrechten voor gegevens aan inwoners van Californië, waaronder het recht om hun persoonsgegevens te openen en te verwijderen en om te weten of hun persoonsgegevens worden verkocht of openbaar gemaakt (en aan wie). Om aan [!DNL CCPA] te voldoen, [!DNL Audience Manager] steunt [!DNL CCPA] toegang en schrapt [&#x200B; verzoeken &#x200B;](data-privacy-requests.md).
 
 Zie het [Adobe Privacy Center](https://www.adobe.com/nl/privacy/opt-out.html) voor meer informatie.
 
 ## Regelgeving {#compliance}
 
-[!DNL Audience Manager] helpt u aan uw verplichtingen in het kader van bepaalde privacyverordeningen, door privacyhulpmiddelen zoals [ Adobe Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) voor gegevenstoegang voldoen en verzoeken schrappen.
+[!DNL Audience Manager] helpt u aan uw verplichtingen in het kader van bepaalde privacyverordeningen, door privacyhulpmiddelen zoals [&#x200B; Adobe Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) voor gegevenstoegang voldoen en verzoeken schrappen.
 
 Deze service biedt een [!DNL RESTful API] en een gebruikersinterface voor het beheer van aanvragen in verband met consumentendata. Met behulp van de [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) kunt u aanvragen voor toegang tot en verwijdering van persoonlijke data verzenden op aanvraag van een individuele consument.Zo kunt u dit gedeelte van uw nalevingsverplichtingen automatiseren.
 
-Terwijl de de gegevenstoegang en schrappingsverzoeken door Privacy Service worden behandeld, [ opt-out verzoeken ](data-privacy-requests.md#opt-out-requests) momenteel door [ DCS API ](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) worden gesteund. Zie [Data Privacy-aanvragen](data-privacy-requests.md) voor meer informatie.
+Terwijl de de gegevenstoegang en schrappingsverzoeken door Privacy Service worden behandeld, [&#x200B; opt-out verzoeken &#x200B;](data-privacy-requests.md#opt-out-requests) momenteel door [&#x200B; DCS API &#x200B;](../../api/dcs-intro/dcs-api-reference/dcs-api-reference-overview.md) worden gesteund. Zie [Data Privacy-aanvragen](data-privacy-requests.md) voor meer informatie.
 
 ## Verwante concepten {#related-concepts}
 

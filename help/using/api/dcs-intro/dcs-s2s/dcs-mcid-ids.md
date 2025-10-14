@@ -20,10 +20,10 @@ Gebruikers van id-services moeten naar deze sectie verwijzen voor informatie ove
 
 ## De gebruikersnaam ophalen van de ID Service Cookie {#get-user-ids-from-service-cookie}
 
-De [ Dienst van de Identiteit van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) wijst bezoeker en gebied IDs aan gebruikers toe die naar uw website komen. Deze id&#39;s identificeren gebruikers op alle oplossingen in de [!DNL Experience Cloud] en zijn vereist als u [!DNL DCS] -aanroepen wilt uitvoeren.
+De [&#x200B; Dienst van de Identiteit van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL) wijst bezoeker en gebied IDs aan gebruikers toe die naar uw website komen. Deze id&#39;s identificeren gebruikers op alle oplossingen in de [!DNL Experience Cloud] en zijn vereist als u [!DNL DCS] -aanroepen wilt uitvoeren.
 
 * [!UICONTROL user ID] is vereist om gegevens aan een bepaalde bezoeker te identificeren en te koppelen.
-* [!UICONTROL region ID] is vereist omdat het is gekoppeld aan een regionale servernaam, die u gegevens naar [!DNL DCS] moet verzenden. In [!DNL DCS] wordt informatie opgeslagen in datacenters die zich geografisch het dichtst bij sitebezoekers bevinden. Zie [ DCS Gebied IDs, Locaties, en de Namen van de Gastheer ](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+* [!UICONTROL region ID] is vereist omdat het is gekoppeld aan een regionale servernaam, die u gegevens naar [!DNL DCS] moet verzenden. In [!DNL DCS] wordt informatie opgeslagen in datacenters die zich geografisch het dichtst bij sitebezoekers bevinden. Zie [&#x200B; DCS Gebied IDs, Locaties, en de Namen van de Gastheer &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 De de dienstklanten van identiteitskaart kunnen deze informatie uit het de dienstkoekje van identiteitskaart halen of door een functie te roepen. In de onderstaande tabel worden de taken of stappen beschreven die u moet uitvoeren om aan de slag te gaan.
 
@@ -72,4 +72,4 @@ Een andere manier om de bezoekersidentiteitskaart te krijgen is met de `getMarke
 
 ## Volgende stappen {#next-steps}
 
-Zodra u de gebruikers- en regio-id hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS] -gegevens. Zie [ het Maken van vraag DCS API ](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).
+Zodra u de gebruikers- en regio-id hebt, kunt u beginnen met het verzenden en ontvangen van [!DNL DCS] -gegevens. Zie [&#x200B; het Maken van vraag DCS API &#x200B;](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md).

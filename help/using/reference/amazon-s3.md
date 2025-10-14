@@ -31,12 +31,12 @@ De voordelen van het gebruik van Amazon S3 zijn:
 
    * Alle mappen zijn alleen toegankelijk voor de juiste klant of client.
    * Ondersteuning voor HTTPS-protocol voor uploads en downloads. Gebruik altijd HTTPS wanneer u bestanden overbrengt in [!DNL Audience Manager] .
-   * Amazon S3 verstrekt encryptie-bij-rust voor het coderen van [ uitgaande gegevensdossiers ](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Wij gebruiken de [ SSE-S3 ](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) encryptiemethode, die encryptiesleutels toelaat om automatisch door Amazon S3 worden geproduceerd en worden beheerd.
+   * Amazon S3 verstrekt encryptie-bij-rust voor het coderen van [&#x200B; uitgaande gegevensdossiers &#x200B;](../integration/receiving-audience-data/batch-outbound-transfers/outbound-file-name-contents.md). Wij gebruiken de [&#x200B; SSE-S3 &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/dev/serv-side-encryption.html) encryptiemethode, die encryptiesleutels toelaat om automatisch door Amazon S3 worden geproduceerd en worden beheerd.
 
 * **zuivert en Steun:** Amazon S3 staat [!DNL Audience Manager] toe om nauwkeurige exemplaren van dossiers te behouden om het zuiveren of re-overdrachten gemakkelijker te maken.
 
 Zie de volgende bronnen voor meer informatie over Amazon S3:
 
-[ de Eenvoudige Dienst van de Opslag van Amazon (Amazon S3) ](https://aws.amazon.com/s3/) op de website van Amazon Web Services.
+[&#x200B; de Eenvoudige Dienst van de Opslag van Amazon (Amazon S3) &#x200B;](https://aws.amazon.com/s3/) op de website van Amazon Web Services.
 
-[ krijgt Begonnen met de Eenvoudige Dienst van de Opslag van Amazon ](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) op de website van de Documentatie van AWS.
+[&#x200B; krijgt Begonnen met de Eenvoudige Dienst van de Opslag van Amazon &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html) op de website van de Documentatie van AWS.

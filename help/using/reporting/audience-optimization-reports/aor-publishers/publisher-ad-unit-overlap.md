@@ -32,7 +32,7 @@ Gebruik de besturingselementen **[!UICONTROL Base Ad Unit]** en **[!UICONTROL Ov
 
 >[!IMPORTANT]
 >
->Wanneer het toelaten van [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Ad Unit IDs] omvatten, zoals die in Stap 3 van [ wordt beschreven de Dossiers van de Gegevens van Google Ad Manager van de Invoer (vroeger DFP) in Audience Manager ](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Op deze manier zorgt u ervoor dat in het rapport de webeigenschap wordt weergegeven als [!UICONTROL Ad Unit] in plaats van als [!UICONTROL Ad Unit ID] .
+>Wanneer het toelaten van [!UICONTROL Audience Optimization for Publishers], moet u beschrijvende meta-gegevens voor [!UICONTROL Ad Unit IDs] omvatten, zoals die in Stap 3 van [&#x200B; wordt beschreven de Dossiers van de Gegevens van Google Ad Manager van de Invoer (vroeger DFP) in Audience Manager &#x200B;](../../../reporting/audience-optimization-reports/aor-publishers/import-dfp.md). Op deze manier zorgt u ervoor dat in het rapport de webeigenschap wordt weergegeven als [!UICONTROL Ad Unit] in plaats van als [!UICONTROL Ad Unit ID] .
 
 ## De resultaten interpreteren {#interpreting-results}
 

@@ -24,7 +24,7 @@ De binnenkomende gegevens zouden als zeer belangrijk-waardeparen moeten worden g
 
 ## Parameters URL-tekenreeks en syntaxis {#url-string-syntax}
 
-De [!DNL URL] voor een inkomende gegevensoverdracht moet de hieronder beschreven variabelen bevatten. Herinner me om [ eigenschappen ](../../../features/traits/create-onboarded-rule-based-traits.md) en a [ omslagstructuur ](../../../features/traits/trait-storage.md#create-trait-storage-folder) in [!DNL Audience Manager] UI tot stand te brengen alvorens de gegevensoverdrachten in real time te vestigen.
+De [!DNL URL] voor een inkomende gegevensoverdracht moet de hieronder beschreven variabelen bevatten. Herinner me om [&#x200B; eigenschappen &#x200B;](../../../features/traits/create-onboarded-rule-based-traits.md) en a [&#x200B; omslagstructuur &#x200B;](../../../features/traits/trait-storage.md#create-trait-storage-folder) in [!DNL Audience Manager] UI tot stand te brengen alvorens de gegevensoverdrachten in real time te vestigen.
 
 >[!NOTE]
 >

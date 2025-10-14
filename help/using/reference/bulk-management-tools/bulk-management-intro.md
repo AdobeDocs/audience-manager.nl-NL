@@ -32,7 +32,7 @@ c_bulk_start.xml
 
 >[!NOTE]
 >
->[ RBAC groepstoestemmingen ](../../features/administration/administration-overview.md) die in het [!DNL Audience Manager] gebruikersinterface worden toegewezen worden in [!UICONTROL Bulk Management Tools] gerespecteerd.
+>[&#x200B; RBAC groepstoestemmingen &#x200B;](../../features/administration/administration-overview.md) die in het [!DNL Audience Manager] gebruikersinterface worden toegewezen worden in [!UICONTROL Bulk Management Tools] gerespecteerd.
 
 ## Overzicht {#overview}
 
@@ -47,7 +47,7 @@ Download het recentste aantekenvel **[hier](assets/BAAAM_V2_20210609.xlsm)** (la
 U hebt het volgende nodig om [!DNL Bulk Management Tools] te gebruiken:
 
 * Uw [!DNL Experience Cloud] -aanmelding. Als klant hebt u deze gegevens al.
-* Het werkblad [!DNL Bulk Management Tools] . [ Download het aantekenvel ](assets/BAAAM_V2_20210609.xlsm) om de recentste versie te krijgen.
+* Het werkblad [!DNL Bulk Management Tools] . [&#x200B; Download het aantekenvel &#x200B;](assets/BAAAM_V2_20210609.xlsm) om de recentste versie te krijgen.
 * [!DNL Microsoft Excel] wordt uitgevoerd op 64-bits [!DNL Microsoft Windows] . We raden u aan de nieuwste versie van [!DNL Microsoft Excel] te gebruiken. De Bulk Management Tools worden niet ondersteund op [!DNL macOS] .
 * Wanneer het openen van het aantekenvel, moet u **Macro&#39;s** voor [!DNL Bulk Management Tools] toelaten om te werken.
 
@@ -77,7 +77,7 @@ De authentificatie van het domein geeft u de optie om bulkverzoeken te testen of
 
 Het werkblad van [!UICONTROL Bulk Management Tools] bestaat uit verificatieknoppen, tabbladen voor handelingen, actieknoppen en een tabblad **[!UICONTROL Headers]** . Het tabblad **[!UICONTROL Headers]** bevat de vooraf opgemaakte kolomkoppen die worden gebruikt door de tabbladen voor handelingen. De handelingstabellen bevatten macro&#39;s die de geselecteerde bulkbewerking uitvoeren. Als u een bulkbewerking wilt uitvoeren, kopieert u een reeks kopteksten naar het juiste handelingstabblad, voert u koptekstgegevens in en klikt u op een actieknop.
 
-Na [ het voor authentiek verklaren ](#auth-reqs), klik een actieknoop om begonnen te worden.
+Na [&#x200B; het voor authentiek verklaren &#x200B;](#auth-reqs), klik een actieknoop om begonnen te worden.
 
 ![](assets/baaam-worksheet.png)
 
@@ -125,4 +125,4 @@ Laten we bijvoorbeeld eens kijken hoe u meerdere kenmerken tegelijk kunt maken. 
 
 >[!NOTE]
 >
->Als u met grote aanvragen werkt, reageert het werkblad mogelijk niet meer en lijkt het inactief te zijn. Laat het in deze gevallen alleen maar. Het aantekenvel zal ontvankelijk worden wanneer het bulkverzoek volledig is. Als het aantekenvel niet voor een lange periode antwoordt, zie de [ het oplossen van problemensectie ](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+>Als u met grote aanvragen werkt, reageert het werkblad mogelijk niet meer en lijkt het inactief te zijn. Laat het in deze gevallen alleen maar. Het aantekenvel zal ontvankelijk worden wanneer het bulkverzoek volledig is. Als het aantekenvel niet voor een lange periode antwoordt, zie de [&#x200B; het oplossen van problemensectie &#x200B;](../../reference/bulk-management-tools/bulk-troubleshooting.md).

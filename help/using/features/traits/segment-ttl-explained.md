@@ -22,7 +22,7 @@ Hoe het [!UICONTROL time-to-live] ([!DNL TTL]) interval beïnvloedt segmentlidma
 
 ## Tijd om te leven
 
-[!DNL TTL] definieert hoe lang een sitebezoeker in een segment blijft na de laatste kwalificatiegebeurtenis. [!DNL TTL] wordt ingesteld op kenmerken en niet op segmenten. Bezoekers vallen uit een segment als ze niet in aanmerking komen voor een eigenschap voor het einde van het [!DNL TTL] -interval. De standaardwaarde [!DNL TTL] voor nieuwe kenmerken is 120 dagen. Wanneer ingesteld op 0 dagen, verloopt de eigenschap nooit. [ plaats de waarde van TTL ](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) wanneer u creeert of een spoor in de [!UICONTROL Advanced Options] sectie van de interface van de trekkerverwezenlijking uitgeeft.
+[!DNL TTL] definieert hoe lang een sitebezoeker in een segment blijft na de laatste kwalificatiegebeurtenis. [!DNL TTL] wordt ingesteld op kenmerken en niet op segmenten. Bezoekers vallen uit een segment als ze niet in aanmerking komen voor een eigenschap voor het einde van het [!DNL TTL] -interval. De standaardwaarde [!DNL TTL] voor nieuwe kenmerken is 120 dagen. Wanneer ingesteld op 0 dagen, verloopt de eigenschap nooit. [&#x200B; plaats de waarde van TTL &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval) wanneer u creeert of een spoor in de [!UICONTROL Advanced Options] sectie van de interface van de trekkerverwezenlijking uitgeeft.
 
 ### 1 dag TTL toegelicht
 
@@ -55,4 +55,4 @@ Herinner me, [!DNL TTL] op uw [!DNL Audience Manager] pixel werkt onafhankelijk 
 
 >[!MORELIKETHIS]
 >
->* [ plaats een Interval van de Vervalsing van het Beetje ](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)
+>* [&#x200B; plaats een Interval van de Vervalsing van het Beetje &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#set-expiration-interval)

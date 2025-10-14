@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!UICONTROL Segments dashboard] is een gecentraliseerde werkruimte voor het beheer van uw publiekssegmenten. U kunt het dashboard van [!UICONTROL Segments] zien door naar **[!UICONTROL Audience Data]** > **[!UICONTROL Segments]** te navigeren.
 
-![ segmenten-dashboard ](assets/segments-dashboard.png)
+![&#x200B; segmenten-dashboard &#x200B;](assets/segments-dashboard.png)
 
 De pagina [!UICONTROL Segments] bevat functies en gereedschappen die u helpen:
 

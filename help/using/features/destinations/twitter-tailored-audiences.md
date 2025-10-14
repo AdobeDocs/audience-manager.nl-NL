@@ -15,14 +15,14 @@ ht-degree: 0%
 
 # [!DNL Twitter Custom Audiences] configureren als op apparaat gebaseerde zelfbediening {#configure-twitter}
 
-Dit artikel verklaart hoe te om een integratie met [ te vormenAangepast publiek Twitter ](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
+Dit artikel verklaart hoe te om een integratie met [&#x200B; te vormenAangepast publiek Twitter &#x200B;](https://business.twitter.com/en/help/campaign-setup/campaign-targeting/custom-audiences.html).
 
 ## Vereisten {#prerequisites}
 
 Voordat u de [!DNL Twitter Custom Audiences] -bestemming configureert, moet u controleren of aan de volgende voorwaarden is voldaan.
 
 * Uw [!DNL Twitter Ads] -account moet in aanmerking komen voor advertenties. Nieuwe [!DNL Twitter Ads] -accounts komen de eerste twee weken na het maken niet in aanmerking voor reclame.
-* Uw [!DNL Twitter] gebruikersrekening die u toegang voor in Audience Manager verleende moet de [ toegelaten toestemming van de het publieksmanager van de Partner hebben ](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels).
+* Uw [!DNL Twitter] gebruikersrekening die u toegang voor in Audience Manager verleende moet de [&#x200B; toegelaten toestemming van de het publieksmanager van de Partner hebben &#x200B;](https://business.twitter.com/en/help/troubleshooting/multi-user-login-faq.html#accesslevels).
 * Wanneer u de eerste [!DNL Twitter Custom Audiences] -bestemming in uw Audience Manager-exemplaar maakt, neemt u contact op met Adobe Consulting of de klantenservice om de [!DNL Twitter] ID-synchronisatie (Data Source ID = 1123) voor uw account in te schakelen. Dit is vereist voor de juiste synchronisatie tussen Audience Manager en [!DNL Twitter] .
 
 ## Een nieuw doel toevoegen [!DNL Twitter Custom Audiences] {#add-new-twitter-destination}
@@ -37,7 +37,7 @@ Voordat u de op een apparaat gebaseerde bestemming kunt toevoegen, moet u Audien
 1. Klik op **[!DNL Add Account]**.
 1. Selecteer [!DNL Twitter Custom Audiences] en klik op **[!DNL Confirm]** om te worden omgeleid naar de verificatiepagina.
 
-   ![ geïntegreerd-platforms ](assets/dbd-integrated-platforms.png)
+   ![&#x200B; geïntegreerd-platforms &#x200B;](assets/dbd-integrated-platforms.png)
 
 1. Nadat je je hebt geverifieerd, word je doorgestuurd naar Audience Manager waar je de bijbehorende adverteerderaccounts kunt bekijken. Selecteer het adverteerderaccount dat u wilt gebruiken en klik op **[!DNL Confirm]** .
 
@@ -50,9 +50,9 @@ Nadat u Audience Manager en uw [!DNL Twitter Custom Audiences] hebt gekoppeld, k
 >U kunt de naam van een bestaand op apparaat gebaseerd doel niet wijzigen. Zorg ervoor om een naam te verstrekken die u zal helpen de bestemming correct identificeren.
 
 1. Meld u aan bij uw Audience Manager-account, ga naar **[!DNL Audience Data > Destinations]** en klik op **[!DNL Create Destination]** .
-1. In de **[!DNL Basic Information]** sectie, ga a **[!DNL Name]** en **[!DNL Description]** voor uw nieuwe bestemming in, en gebruik hieronder de montages: ![ opstelling ](assets/dbd-new-basic.png)
+1. In de **[!DNL Basic Information]** sectie, ga a **[!DNL Name]** en **[!DNL Description]** voor uw nieuwe bestemming in, en gebruik hieronder de montages: ![&#x200B; opstelling &#x200B;](assets/dbd-new-basic.png)
 1. Klik op **[!DNL Next]**.
-1. Kies de [ Etiketten van de Uitvoer van Gegevens ](/help/using/features/data-export-controls.md#controls-labels) die u voor deze bestemming wilt plaatsen.
+1. Kies de [&#x200B; Etiketten van de Uitvoer van Gegevens &#x200B;](/help/using/features/data-export-controls.md#controls-labels) die u voor deze bestemming wilt plaatsen.
 1. Klik op **[!DNL Save]**.
 1. Selecteer in de sectie **[!DNL Segment Mappings]** de publiekssegmenten die u naar deze bestemming wilt verzenden.
 1. Sla het doel op.
@@ -84,5 +84,5 @@ Bij het configureren of verzenden van gegevens naar de bestemming Aangepast publ
 | Foutbericht | Voorval/Reden | Resolutie |
 |---|---|---|
 | `Internal server error` | Dit foutbericht wordt weergegeven in de gebruikersinterface van Audience Manager wanneer u probeert een nieuwe [!DNL Twitter] -account toe te voegen met een verouderde versie van de Twitter-API. | Neem contact op met de klantenservice van Adobe. |
-| `Twitter Error: This request is not properly authenticated` | Dit foutbericht wordt weergegeven in de gebruikersinterface van Audience Manager wanneer wordt geprobeerd segmenten met niet-ondersteunde segmentnamen toe te wijzen aan de bestemming. | Controleer de toegewezen segmentnamen en zorg ervoor dat deze geen niet-ondersteunde tekens bevatten. Zie [ overwegingen van de segmentafbeelding ](#segment-mapping-considerations) voor de lijst van niet gestaafde karakters. |
-| `Twitter Error: Account XXXXXXXXX was not found` | Dit foutbericht wordt weergegeven in de gebruikersinterface van Audience Manager wanneer de aanmeldingsgegevens die voor de bestemming zijn geconfigureerd, niet zijn geautoriseerd voor toegang tot het overeenkomstige Twitter Ads-account. | <ul><li>Zorg de rekeningsgeloofsbrieven ervoor dat u gebruikt aan de [ eerste vereisten ](#prerequisites) voldoen.</li><li>Navigeer naar de interface Twitter Ads met dezelfde referenties en controleer of het juiste publiek wordt weergegeven onder het corresponderende account van `XXXXXXXXX` . </li></ul> |
+| `Twitter Error: This request is not properly authenticated` | Dit foutbericht wordt weergegeven in de gebruikersinterface van Audience Manager wanneer wordt geprobeerd segmenten met niet-ondersteunde segmentnamen toe te wijzen aan de bestemming. | Controleer de toegewezen segmentnamen en zorg ervoor dat deze geen niet-ondersteunde tekens bevatten. Zie [&#x200B; overwegingen van de segmentafbeelding &#x200B;](#segment-mapping-considerations) voor de lijst van niet gestaafde karakters. |
+| `Twitter Error: Account XXXXXXXXX was not found` | Dit foutbericht wordt weergegeven in de gebruikersinterface van Audience Manager wanneer de aanmeldingsgegevens die voor de bestemming zijn geconfigureerd, niet zijn geautoriseerd voor toegang tot het overeenkomstige Twitter Ads-account. | <ul><li>Zorg de rekeningsgeloofsbrieven ervoor dat u gebruikt aan de [&#x200B; eerste vereisten &#x200B;](#prerequisites) voldoen.</li><li>Navigeer naar de interface Twitter Ads met dezelfde referenties en controleer of het juiste publiek wordt weergegeven onder het corresponderende account van `XXXXXXXXX` . </li></ul> |

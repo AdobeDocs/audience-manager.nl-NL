@@ -20,11 +20,11 @@ Gebruikers die geen beheerder zijn, kunnen hun eigen profielen bewerken, waarond
 
 <!-- t_edit_account_settings.xml -->
 
-De gebruikers Admin kunnen gebruikers tot stand brengen en hen toevoegen aan groepen voor toestemmingsdoeleinden, zoals die in [ worden verklaard leidt tot Gebruikers ](../../features/administration/administration-overview.md#create-users) en [ tot een Groep ](../../features/administration/administration-overview.md#create-group).
+De gebruikers Admin kunnen gebruikers tot stand brengen en hen toevoegen aan groepen voor toestemmingsdoeleinden, zoals die in [&#x200B; worden verklaard leidt tot Gebruikers &#x200B;](../../features/administration/administration-overview.md#create-users) en [&#x200B; tot een Groep &#x200B;](../../features/administration/administration-overview.md#create-group).
 
 1. Klik in de Audience Manager-header op ![](assets/icon_profile.png) .
 1. Klik op **[!UICONTROL Account Settings]** en vervolgens op **[!UICONTROL Edit]** om de pagina [!UICONTROL My Account] weer te geven.
 1. Geef in het veld **[!UICONTROL Email Address]** zo nodig uw nieuwe e-mailadres op. Audience Manager verzendt geen regelmatig bericht naar gebruikers. Audience Manager-beheerders hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig via e-mail versturen. Als een gebruiker bijvoorbeeld zijn of haar wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
 1. Als u het wachtwoord opnieuw wilt instellen, geeft u het huidige wachtwoord op, geeft u het nieuwe wachtwoord op en bevestigt u het nieuwe wachtwoord.
-Zie ook, [ Vereisten van het Wachtwoord, Vergrendelde Rekeningen, en Gevergeten Wachtwoorden ](../../reference/password-requirements.md).
+Zie ook, [&#x200B; Vereisten van het Wachtwoord, Vergrendelde Rekeningen, en Gevergeten Wachtwoorden &#x200B;](../../reference/password-requirements.md).
 1. Klik op **[!UICONTROL Save]**.

@@ -22,7 +22,7 @@ In maart 2019 heeft [!DNL Adobe] de ondersteuning voor het [!DNL TLS 1.0] -proto
 
 In maart 2020 beëindigt [!DNL Adobe] de ondersteuning voor het [!DNL TLS 1.1] -protocol. Adobe Audience Manager-functionaliteit werkt niet meer voor eindgebruikers die browsers gebruiken die alleen [!DNL TLS 1.1] ondersteunen.
 
-Adobe raadt u ten zeerste aan [!DNL TLS 1.2] te gebruiken, wat op het moment van schrijven de nieuwste versie van het protocol is. Alle moderne browsers gebruiken [!DNL TLS 1.2] . We hebben een lijst met browsers, versies en hun [!DNL TLS] ondersteuning voor u verzameld. Voor meer informatie over de browser van TLS steun, bezoek [ de verbinding van Wikipedia van de Veiligheid van de Laag van het Vervoer ](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
+Adobe raadt u ten zeerste aan [!DNL TLS 1.2] te gebruiken, wat op het moment van schrijven de nieuwste versie van het protocol is. Alle moderne browsers gebruiken [!DNL TLS 1.2] . We hebben een lijst met browsers, versies en hun [!DNL TLS] ondersteuning voor u verzameld. Voor meer informatie over de browser van TLS steun, bezoek [&#x200B; de verbinding van Wikipedia van de Veiligheid van de Laag van het Vervoer &#x200B;](https://en.wikipedia.org/wiki/Transport_Layer_Security#Web_browsers).
 
 <!--
 

@@ -77,7 +77,7 @@ De tabel bevat een lijst met en definieert de variabelen die worden gebruikt in 
 
 ## Opmaak [!UICONTROL Trait IDs] {#formatting-trait-ids}
 
-In de volgende tabel worden de voorvoegsels beschreven die [!UICONTROL trait] namen of id&#39;s in een binnenkomend gegevensbestand identificeren. Zie de [ steekproefdossiers ](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) voor voorbeelden.
+In de volgende tabel worden de voorvoegsels beschreven die [!UICONTROL trait] namen of id&#39;s in een binnenkomend gegevensbestand identificeren. Zie de [&#x200B; steekproefdossiers &#x200B;](../../../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md#data-file-examples) voor voorbeelden.
 
 <table id="table_AD54B3E5487E47C481A4E5FD3A93FDA5"> 
  <thead> 
@@ -230,11 +230,11 @@ Onjuist opgemaakte waardennamen in een sleutelwaardepaar veroorzaken ook problem
  </tbody> 
 </table>
 
-[ Download ](assets/ftp_dpm_1234_1445374061.overwrite) het dossier van steekproefgegevens als u extra voorbeelden nodig hebt. Het downloadbestand heeft een bestandsextensie `.overwrite` . U kunt het openen met een eenvoudige tekstverwerker.
+[&#x200B; Download &#x200B;](assets/ftp_dpm_1234_1445374061.overwrite) het dossier van steekproefgegevens als u extra voorbeelden nodig hebt. Het downloadbestand heeft een bestandsextensie `.overwrite` . U kunt het openen met een eenvoudige tekstverwerker.
 
 ## Voorbeeldmatrix {#examples-matrix}
 
-De grafiek toont hieronder voorbeelden van de correcte manier om uw Binnenkomende dossiers, afhankelijk van het [ type van IDs ](../../../reference/ids-in-aam.md) en de methode te formatteren waardoor u [!UICONTROL traits] aan profielen wilt toevoegen.
+De grafiek toont hieronder voorbeelden van de correcte manier om uw Binnenkomende dossiers, afhankelijk van het [&#x200B; type van IDs &#x200B;](../../../reference/ids-in-aam.md) en de methode te formatteren waardoor u [!UICONTROL traits] aan profielen wilt toevoegen.
 
 <table id="table_FE6D97A1F5074E4A8EFC723AF0C5E707"> 
  <thead> 
@@ -504,4 +504,4 @@ DBwFoc3dhfMNCFBh2M4F9ZkJEXMNnRDh2PXvnI1 <TAB> ic=52,ic=55
 
 >[!MORELIKETHIS]
 >
->* [ Trait Builder ](../../../features/traits/about-trait-builder.md)
+>* [&#x200B; Trait Builder &#x200B;](../../../features/traits/about-trait-builder.md)

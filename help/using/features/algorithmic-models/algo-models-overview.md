@@ -26,11 +26,11 @@ Dit gebeurt aan de hand van twee typen algoritmen: [!UICONTROL Look-Alike Modeli
 
 Met [!UICONTROL Look-Alike Modeling] kunt u nieuwe, unieke doelgroepen detecteren via geautomatiseerde gegevensanalyse. Het proces begint wanneer u een eigenschap of een segment, een tijdinterval, en eerste en derde gegevensbronnen selecteert. Uw keuzen verstrekken de input voor het algoritmische model. Wanneer het analyseproces loopt, zoekt het naar in aanmerking komende gebruikers die op gedeelde kenmerken van de geselecteerde bevolking worden gebaseerd.
 
-Op voltooiing, is dit gegeven beschikbaar in [ Trait Builder ](../../features/traits/about-trait-builder.md) waar u het kunt gebruiken om eigenschappen tot stand te brengen die op [ worden gebaseerd nauwkeurigheid en bereik ](../../features/traits/trait-accuracy-reach.md). Daarnaast kunt u segmenten maken die algoritmische kenmerken combineren met op regels gebaseerde kenmerken en andere kwalificatievereisten toevoegen met Booleaanse expressies en vergelijkingsoperatoren.
+Op voltooiing, is dit gegeven beschikbaar in [&#x200B; Trait Builder &#x200B;](../../features/traits/about-trait-builder.md) waar u het kunt gebruiken om eigenschappen tot stand te brengen die op [&#x200B; worden gebaseerd nauwkeurigheid en bereik &#x200B;](../../features/traits/trait-accuracy-reach.md). Daarnaast kunt u segmenten maken die algoritmische kenmerken combineren met op regels gebaseerde kenmerken en andere kwalificatievereisten toevoegen met Booleaanse expressies en vergelijkingsoperatoren.
 
 [!UICONTROL Look-Alike Modeling] biedt u een dynamische manier om waarde te extraheren uit al uw beschikbare gegevens over de eigenschap.
 
-Meer over [!UICONTROL Look-Alike Modeling] leren, zie [ Begrijpend kijk-als Modeling ](understanding-models.md).
+Meer over [!UICONTROL Look-Alike Modeling] leren, zie [&#x200B; Begrijpend kijk-als Modeling &#x200B;](understanding-models.md).
 
 ## Predictieve doelgroepen{#predictive-audiences}
 
@@ -40,4 +40,4 @@ In een marketingcontext is een persoon een publiekssegment dat wordt gedefinieer
 
 [!UICONTROL Predictive Audiences] -modellen zetten dit concept een stap verder door gebruik te maken van de leermogelijkheden van Audience Manager-computers om onbekend publiek automatisch in te delen in verschillende personen. Audience Manager bereikt dit door de neiging van uw onbekende publiek voor een reeks bekende soorten publiek te berekenen.
 
-Om meer over [!UICONTROL Predictive Audiences] te leren, zie [ het Voorspellende Overzicht van het publiek ](predictive-audiences.md).
+Om meer over [!UICONTROL Predictive Audiences] te leren, zie [&#x200B; het Voorspellende Overzicht van het publiek &#x200B;](predictive-audiences.md).

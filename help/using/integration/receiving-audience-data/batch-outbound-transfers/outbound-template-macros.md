@@ -20,7 +20,7 @@ Hiermee geeft u de macro&#39;s weer die u kunt gebruiken om uitgaande sjablonen 
 
 ## Bestandsnaam en Koptekstmacro&#39;s {#file-name-header-macros}
 
-De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebruiken in de bestandsnaam en om koptekstvelden te definiëren. Voor codesteekproeven, zie [ Uitgaande MacroVoorbeelden ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebruiken in de bestandsnaam en om koptekstvelden te definiëren. Voor codesteekproeven, zie [&#x200B; Uitgaande MacroVoorbeelden &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_C353AF028E0A4944A8727FD01C94FDB6"> 
  <thead> 
@@ -94,7 +94,7 @@ De tabel bevat een overzicht en beschrijving van de macro&#39;s die u kunt gebru
 
 ## Inhoudsmacro&#39;s {#content-macros}
 
-Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatteren. Voor codesteekproeven, zie [ Uitgaande MacroVoorbeelden ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
+Macro&#39;s die worden gebruikt om de inhoud van een gegevensbestand te formatteren. Voor codesteekproeven, zie [&#x200B; Uitgaande MacroVoorbeelden &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-macro-examples.md).
 
 <table id="table_5C6F9678CFF34C5EB67BA1DEA0479F1D"> 
  <thead> 

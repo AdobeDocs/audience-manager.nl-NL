@@ -59,7 +59,7 @@ Gebruik gegevensbronnen die ten minste gedeeltelijk overlappen met uw basislijnk
 
 **het kost om derdegegevens voor modellering te gebruiken?**
 
-Dit hangt af van het prijsmodel van de geselecteerde gegevensinvoer. Sommige feeds maken modellering zonder kosten mogelijk, terwijl anderen u een vergoeding in rekening brengen. Zie [ het Factureren voor de Kopers van het voer van Gegevens ](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md) voor details.
+Dit hangt af van het prijsmodel van de geselecteerde gegevensinvoer. Sommige feeds maken modellering zonder kosten mogelijk, terwijl anderen u een vergoeding in rekening brengen. Zie [&#x200B; het Factureren voor de Kopers van het voer van Gegevens &#x200B;](../features/audience-marketplace/marketplace-data-buyers/marketplace-buyer-billing.md) voor details.
 
  
 

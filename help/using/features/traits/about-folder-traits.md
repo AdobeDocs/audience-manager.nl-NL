@@ -49,7 +49,7 @@ In dit geval heeft [!DNL Automobile Folder Trait] 7 realisaties.
 
 ## Maptransactierapportage {#folder-traits-reporting}
 
-[!UICONTROL Folder traits] legt alle gebruikers vast uit de kenmerken in de mapstructuur eronder. Als u een spoor van een omslag naar een andere omslag beweegt, verspreidt de verandering zich aan onze [ servers van de gegevensinzameling ](../../reference/system-components/components-data-collection.md) enkel als verandering van de treklijn. De rapportage wordt in de volgende verslagperiode geactualiseerd om deze wijziging in de verslagdatumbereiken weer te geven (1, 7, 14, 30, 60, 90). De oude rapportnummers van de vorige dagen worden niet gewijzigd.
+[!UICONTROL Folder traits] legt alle gebruikers vast uit de kenmerken in de mapstructuur eronder. Als u een spoor van een omslag naar een andere omslag beweegt, verspreidt de verandering zich aan onze [&#x200B; servers van de gegevensinzameling &#x200B;](../../reference/system-components/components-data-collection.md) enkel als verandering van de treklijn. De rapportage wordt in de volgende verslagperiode geactualiseerd om deze wijziging in de verslagdatumbereiken weer te geven (1, 7, 14, 30, 60, 90). De oude rapportnummers van de vorige dagen worden niet gewijzigd.
 
 ## Rolgebaseerde toegangsbeheerrechten (RBAC) {#role-based-access-controls}
 
@@ -58,7 +58,7 @@ Voor bedrijven die [!UICONTROL Role-Based Access Controls] ([!UICONTROL RBAC]) g
 * `READ` - en `WRITE` -groepsmachtigingen voor een gegevensbron met geldige gegevens.
 * `VIEW_ALL_TRAITS` en `EDIT_ALL_TRAITS` wild card permissions for trait data sources.
 
-Leer hoe te om [!UICONTROL RBAC] toestemmingen in onze [ beleidsdocumentatie ](../../features/administration/administration-overview.md#create-group) toe te wijzen.
+Leer hoe te om [!UICONTROL RBAC] toestemmingen in onze [&#x200B; beleidsdocumentatie &#x200B;](../../features/administration/administration-overview.md#create-group) toe te wijzen.
 
 ## Limieten en andere overwegingen {#limits}
 

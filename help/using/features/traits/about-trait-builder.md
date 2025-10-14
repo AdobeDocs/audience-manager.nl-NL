@@ -23,8 +23,8 @@ ht-degree: 0%
 In vergelijking met pixels, die worden geactiveerd als reactie op eenvoudige &quot;ja&quot;- of &quot;true&quot;-omstandigheden, kunt u met [!UICONTROL Trait Builder] het volgende doen:
 
 * Verzamel *alle* paginagegevens zodat kunt u het later gebruiken om relevante, nuttige eigenschappen te bouwen.
-* Bouw traits die op [ worden gebaseerd sleutel-waarde paren ](../../reference/key-value-pairs-explained.md) binnen tijdens gegevensinzameling worden overgegaan.
-* Evalueer complexe gegevensvoorwaarden met server-zijregels die met [ uitdrukkingen Van Boole ](../../reference/boolean-expressions-tsb.md) en [ vergelijkingsexploitanten ](../../features/traits/trait-comparison-operators.md) werken.
+* Bouw traits die op [&#x200B; worden gebaseerd sleutel-waarde paren &#x200B;](../../reference/key-value-pairs-explained.md) binnen tijdens gegevensinzameling worden overgegaan.
+* Evalueer complexe gegevensvoorwaarden met server-zijregels die met [&#x200B; uitdrukkingen Van Boole &#x200B;](../../reference/boolean-expressions-tsb.md) en [&#x200B; vergelijkingsexploitanten &#x200B;](../../features/traits/trait-comparison-operators.md) werken.
 
 * Verminder of elimineer de behoefte om de pixel van de gegevensinzameling op uw inventaris te handhaven.
 * Prestaties controleren met [!DNL Audience Manager] -rapporten.

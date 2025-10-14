@@ -20,15 +20,15 @@ Audience Manager verstrekt de kits van de softwareontwikkeling ([!DNL SDK] s) vo
 
 >[!IMPORTANT]
 >
->Vanaf september 2018 hebben we een nieuwe, grote versie van de SDK uitgebracht. Deze nieuwe Adobe Experience Platform Mobile SDKs is configureerbaar door [ Lanceerplatform van de Ervaring ](https://www.adobe.com/experience-platform/launch.html).
+>Vanaf september 2018 hebben we een nieuwe, grote versie van de SDK uitgebracht. Deze nieuwe Adobe Experience Platform Mobile SDKs is configureerbaar door [&#x200B; Lanceerplatform van de Ervaring &#x200B;](https://www.adobe.com/experience-platform/launch.html).
 
-* Om te beginnen, ga naar [ Lancering ](https://launch.adobe.com/).
-* Om te zien wat in de bewaarplaatsen van Experience Platform SDK is, ga naar [ Github: SDKs van Adobe Experience Platform ](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
-* Om Audience Manager in uw app uit te voeren, die nieuwe SDK v.5 gebruiken, lees de [ documentatie van Adobe Audience Manager ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=nl-NL) op de nieuwe pagina van SDK.
+* Om te beginnen, ga naar [&#x200B; Lancering &#x200B;](https://launch.adobe.com/).
+* Om te zien wat in de bewaarplaatsen van Experience Platform SDK is, ga naar [&#x200B; Github: SDKs van Adobe Experience Platform &#x200B;](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+* Om Audience Manager in uw app uit te voeren, die nieuwe SDK v.5 gebruiken, lees de [&#x200B; documentatie van Adobe Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/data-management/aam-dil-extension.html?lang=nl-NL) op de nieuwe pagina van SDK.
 
 <br>
 
 We ondersteunen nog steeds de SDK&#39;s van Android en iOS 4.x. Zie voor deze SDK-codebibliotheken:
 
-* [ Android SDK ](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=nl-NL)
-* [ iOS SDK ](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=nl-NL)
+* [&#x200B; Android SDK &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=nl-NL)
+* [&#x200B; iOS SDK &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=nl-NL)

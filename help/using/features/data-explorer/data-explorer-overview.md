@@ -23,9 +23,9 @@ Het creëren van eigenschappen die op bestaande inzichten met betrekking tot uw 
 
 [!UICONTROL Data Explorer] vereenvoudigt het proces voor het beheer van bedrijfskenmerken en biedt u een hogere mate van flexibiliteit als het gaat om de beperking van de taxonomie. Twee [!UICONTROL Data Explorer] -componenten helpen u dit te bereiken:
 
-* [ Signals Dashboard ](../../features/data-explorer/data-explorer-signals-dashboard.md) en [!UICONTROL Signals Search] hulp u houdt spoor van signalen die door [!DNL Audience Manager] worden ontvangen dat u kunt gebruiken om nieuwe eigenschappen te bouwen of aan bestaande eigenschappen toe te voegen.
+* [&#x200B; Signals Dashboard &#x200B;](../../features/data-explorer/data-explorer-signals-dashboard.md) en [!UICONTROL Signals Search] hulp u houdt spoor van signalen die door [!DNL Audience Manager] worden ontvangen dat u kunt gebruiken om nieuwe eigenschappen te bouwen of aan bestaande eigenschappen toe te voegen.
 
-* [ de Achtergrond van de Rondleiding van de Rondleiding ](../../features/data-explorer/data-explorer-trait-backfill.md) helpt u historisch publiek voor pas gecreëerde trekken kwalificeren, zodat u hen in de toekomst kunt omvatten richtend inspanningen.
+* [&#x200B; de Achtergrond van de Rondleiding van de Rondleiding &#x200B;](../../features/data-explorer/data-explorer-trait-backfill.md) helpt u historisch publiek voor pas gecreëerde trekken kwalificeren, zodat u hen in de toekomst kunt omvatten richtend inspanningen.
 
 ## Voordelen {#benefits}
 
@@ -39,11 +39,11 @@ Gebruik [!UICONTROL Data Explorer] om de publieksopbouw op meerdere manieren te 
 
 ### Voorbeeld 1
 
-Een wereldwijde elektronica retailer heeft een groot bezoekersverkeer, maar conversietarieven zijn lager dan verwacht, hoewel ze de inhoud voor meerdere platforms hebben geoptimaliseerd. Gebruikend het [ dashboard van Signalen ](../../features/data-explorer/data-explorer-signals-dashboard.md), identificeren zij een hoog volume van ongebruikte signalen, erop wijzend dat de bezoekers naar een specifiek elektronicamerk momenteel niet in voorraad zoeken. Het bedrijf kan van deze insight profiteren door zijn voorraad te verfrissen en de bezoekers te richten met gepersonaliseerde campagnes.
+Een wereldwijde elektronica retailer heeft een groot bezoekersverkeer, maar conversietarieven zijn lager dan verwacht, hoewel ze de inhoud voor meerdere platforms hebben geoptimaliseerd. Gebruikend het [&#x200B; dashboard van Signalen &#x200B;](../../features/data-explorer/data-explorer-signals-dashboard.md), identificeren zij een hoog volume van ongebruikte signalen, erop wijzend dat de bezoekers naar een specifiek elektronicamerk momenteel niet in voorraad zoeken. Het bedrijf kan van deze insight profiteren door zijn voorraad te verfrissen en de bezoekers te richten met gepersonaliseerde campagnes.
 
 ### Voorbeeld 2
 
-Nadat een reisdienstverlener nieuwe bestemmingen aan hun boekende website toevoegt, willen zij hen aan historisch publiek adverteren, hoewel zij geen sporen voor hen hebben worden gecreeerd. Zij kunnen het Onderzoek van Signalen gebruiken om de ongebruikte signalen met betrekking tot de nieuwe bestemmingen te identificeren, hen in nieuwe eigenschappen omvatten en [ backfill ](../../features/data-explorer/data-explorer-trait-backfill.md) hen met historische realisaties. Maak vervolgens nieuwe segmenten met de nieuwe kenmerken en richt deze direct op met speciale campagnes.
+Nadat een reisdienstverlener nieuwe bestemmingen aan hun boekende website toevoegt, willen zij hen aan historisch publiek adverteren, hoewel zij geen sporen voor hen hebben worden gecreeerd. Zij kunnen het Onderzoek van Signalen gebruiken om de ongebruikte signalen met betrekking tot de nieuwe bestemmingen te identificeren, hen in nieuwe eigenschappen omvatten en [&#x200B; backfill &#x200B;](../../features/data-explorer/data-explorer-trait-backfill.md) hen met historische realisaties. Maak vervolgens nieuwe segmenten met de nieuwe kenmerken en richt deze direct op met speciale campagnes.
 
 ### Data Explorer gebruiken voor het valideren van het maken van trajecten voor uw niet-gecodeerde gegevens
 

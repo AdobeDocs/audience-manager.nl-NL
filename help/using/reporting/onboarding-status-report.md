@@ -20,7 +20,7 @@ Het rapport Status Aan boord van de instapkaart controleert succes en mislukking
 
 >[!NOTE]
 >
->Alleen gebruikers met beheerdersrechten kunnen dit rapport weergeven in de gebruikersinterface van Audience Manager. U kunt niet-admin gebruikers op de hoogte stellen van de status van de geüploade binnenkomende bestanden door hun e-mails aan het rapport toe te voegen. Zie [ E-mailberichten ](/help/using/reporting/onboarding-status-report.md#receive-email-notifications) ontvangen.
+>Alleen gebruikers met beheerdersrechten kunnen dit rapport weergeven in de gebruikersinterface van Audience Manager. U kunt niet-admin gebruikers op de hoogte stellen van de status van de geüploade binnenkomende bestanden door hun e-mails aan het rapport toe te voegen. Zie [&#x200B; E-mailberichten &#x200B;](/help/using/reporting/onboarding-status-report.md#receive-email-notifications) ontvangen.
 
 ## Statusrapport on-boarding: informatie {#onboarding-status-about}
 
@@ -77,7 +77,7 @@ Als foutsampling actief is, ziet u in het rapport de beste 10 fouten voor elk fo
 
 >[!NOTE]
 >
->In het rapport worden geen recordfouten met deze huidige release gemarkeerd. Om dossierfouten te vinden en te bevestigen, zou u de resultaten moeten herzien en die met de specificaties in de [ Binnenkomende documentatie van het Dossier van Gegevens vergelijken ](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
+>In het rapport worden geen recordfouten met deze huidige release gemarkeerd. Om dossierfouten te vinden en te bevestigen, zou u de resultaten moeten herzien en die met de specificaties in de [&#x200B; Binnenkomende documentatie van het Dossier van Gegevens vergelijken &#x200B;](../integration/sending-audience-data/batch-data-transfer-explained/inbound-file-contents.md).
 
 ![](assets/error-samples.png)
 

@@ -20,7 +20,7 @@ Dit rapport retourneert een lijst met kenmerken die ten minste 10.000 keer zijn 
 
 >[!NOTE]
 >
->In het Daily Trait Variation Report in Audience Manager worden de RBAC-beginselen in acht genomen. U kunt slechts sporen van gegevensbronnen zien die u toegang tot hebt gebaseerd op de [ RBAC Gebruikersgroep ](/help/using/features/administration/administration-overview.md) die u tot behoort.
+>In het Daily Trait Variation Report in Audience Manager worden de RBAC-beginselen in acht genomen. U kunt slechts sporen van gegevensbronnen zien die u toegang tot hebt gebaseerd op de [&#x200B; RBAC Gebruikersgroep &#x200B;](/help/using/features/administration/administration-overview.md) die u tot behoort.
 
 Standaardafwijking meet de mate van variatie of spreiding ten opzichte van het gemiddelde (of de gemiddelde/verwachte waarde). Een lage standaardafwijking geeft aan dat de gegevenspunten zeer dicht bij het gemiddelde liggen. Een hoge standaardafwijking geeft aan dat de gegevenspunten worden uitgespreid over een groot waardebereik.
 
@@ -36,7 +36,7 @@ De middelste kolom bevat een lijst met kenmerken die worden aangegeven door [!UI
 
 In de kolom [!UICONTROL Standard Deviation] worden staafdiagrammen met kleurcodes weergegeven die de standaardafwijking voor elk kenmerk gedurende het geselecteerde interval weergeven. Rode balken geven kenmerken aan met een negatieve standaardafwijking (gegevenspunten zijn meestal onder het gemiddelde). Groene balken geven kenmerken aan met een positieve standaardafwijking (gegevenspunten liggen meestal boven het gemiddelde). Plaats de muisaanwijzer op een willekeurige balk om een pop-upvenster weer te geven met meer informatie en opties voor het behouden of uitsluiten van de betreffende status en voor het weergeven van meer informatie.
 
-De vertoningen van pictogrammen bij de bodem van het rapport dat u gegevens in diverse formaten laat uitvoeren, om het even welke veranderingen terugkeren u aan het rapport (zoals het uitsluiten van eigenschappen) had kunnen aanbrengen, toelaten of onbruikbaar maken automatische updates, en verfrist de gegevens van het rapport. Zie [ Verklaarde de Pictogrammen en Hulpmiddelen van het Rapport ](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
+De vertoningen van pictogrammen bij de bodem van het rapport dat u gegevens in diverse formaten laat uitvoeren, om het even welke veranderingen terugkeren u aan het rapport (zoals het uitsluiten van eigenschappen) had kunnen aanbrengen, toelaten of onbruikbaar maken automatische updates, en verfrist de gegevens van het rapport. Zie [&#x200B; Verklaarde de Pictogrammen en Hulpmiddelen van het Rapport &#x200B;](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained).
 
 ## Gevallen gebruiken {#use-cases}
 

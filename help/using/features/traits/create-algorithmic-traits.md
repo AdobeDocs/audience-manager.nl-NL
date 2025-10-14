@@ -21,7 +21,7 @@ ht-degree: 0%
 Als u een algoritmische eigenschap wilt maken, gaat u naar [!UICONTROL Traits] en volgt u de onderstaande stappen:
 
 1. Klik op **[!UICONTROL Create New Trait]** en selecteer **[!UICONTROL Algorithmic]** in de vervolgkeuzelijst.
-1. In de [ Basisinformatie ](../../features/traits/create-onboarded-rule-based-traits.md) sectie
+1. In de [&#x200B; Basisinformatie &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md) sectie
    * Geef de eigenschap een naam.
    * Selecteer een gegevensbron.
    * Kies een opslagmap.
@@ -39,9 +39,9 @@ In [!UICONTROL Trait Builder] kunt u met de sectie [!UICONTROL Configuration] ee
 
 <!-- r_algo_trait_config_section.xml -->
 
-* [ creeer een look-Alike Model ](../../features/algorithmic-models/create-model.md).
+* [&#x200B; creeer een look-Alike Model &#x200B;](../../features/algorithmic-models/create-model.md).
 * Wacht op het bericht-e-mail die u laat weten dat de modelgegevens zijn uitgevoerd.
-* Voltooi de vereiste gebieden in de [ Basisinformatie ](../../features/traits/create-onboarded-rule-based-traits.md) sectie.
+* Voltooi de vereiste gebieden in de [&#x200B; Basisinformatie &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md) sectie.
 
 ### Configuratie van velden en instellingen
 

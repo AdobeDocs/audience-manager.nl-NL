@@ -31,7 +31,7 @@ Een apparaatgrafiek is een set id-toewijzingen waarmee groepen van anonieme appa
 
 **Wat is een externe apparaatgrafiek?**
 
-Een externe apparaatgrafiek is een apparaatgrafiek in [!DNL Audience Manager] die niet uitsluitend op basis van uw eigen cross-device databronnen is gemaakt. Bijvoorbeeld, wanneer u de Regel van de Fusie van het a [ Profiel ](../features/profile-merge-rules/merge-rules-start.md) creeert en de opties van de de grafiekgrafiek van het derdeapparaat kiest, werkt u met een externe apparatengrafiek. Zie [Apparaatopties](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
+Een externe apparaatgrafiek is een apparaatgrafiek in [!DNL Audience Manager] die niet uitsluitend op basis van uw eigen cross-device databronnen is gemaakt. Bijvoorbeeld, wanneer u de Regel van de Fusie van het a [&#x200B; Profiel &#x200B;](../features/profile-merge-rules/merge-rules-start.md) creeert en de opties van de de grafiekgrafiek van het derdeapparaat kiest, werkt u met een externe apparatengrafiek. Zie [Apparaatopties](../features/profile-merge-rules/merge-rule-definitions.md#device-options).
 
  
 

@@ -59,5 +59,5 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [ Werkend met (EN, OF, NIET) Uitdrukkingen Van Boole in TraitBuilder ](../../reference/boolean-expressions-tsb.md)
->* [ Werkend met de Exploitanten van de Vergelijking in TraitBuilder ](../../features/traits/trait-comparison-operators.md)
+>* [&#x200B; Werkend met (EN, OF, NIET) Uitdrukkingen Van Boole in TraitBuilder &#x200B;](../../reference/boolean-expressions-tsb.md)
+>* [&#x200B; Werkend met de Exploitanten van de Vergelijking in TraitBuilder &#x200B;](../../features/traits/trait-comparison-operators.md)

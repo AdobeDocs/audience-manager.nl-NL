@@ -26,7 +26,7 @@ c_report_technology.xml
 
 ## Interactieve rapporten gebruiken Tableau-technologie
 
-[!DNL Audience Manager] gebruikt [ Tableau ](https://www.tableausoftware.com/) software om gegevens in de interactieve rapporten te tonen. Met [!DNL Tableau] gebruiken de [!UICONTROL Delivery and Overlap] -rapporten visuele aanwijzingen en symbolen die u helpen:
+[!DNL Audience Manager] gebruikt [&#x200B; Tableau &#x200B;](https://www.tableausoftware.com/) software om gegevens in de interactieve rapporten te tonen. Met [!DNL Tableau] gebruiken de [!UICONTROL Delivery and Overlap] -rapporten visuele aanwijzingen en symbolen die u helpen:
 
 * Kies voor hoge en lage prestaties.
 * Steunkleurovergangen en -segmenten met een lage en hoge unieke bezoekersoverlapping.
@@ -84,4 +84,4 @@ In de volgende tabel worden de vormen, grootten en kleuren gedefinieerd die word
 
 ## Documentatie tableau {#tableau-documentation}
 
-Meer over de controles van Tableau leren die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor [ Server van Tableau op Linux 2018.2 ](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)
+Meer over de controles van Tableau leren die u in onze interactieve rapporten kunt zien, verwijs naar de officiële documentatie voor [&#x200B; Server van Tableau op Linux 2018.2 &#x200B;](https://help.tableau.com/v2018.2/server-linux/en-us/get_started_server.htm)

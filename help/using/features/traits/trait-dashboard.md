@@ -25,7 +25,7 @@ Het taakdashboard is een gecentraliseerde werkruimte voor het beheer van kenmerk
 Het dashboard van [!UICONTROL Traits] bevat eigenschappen en hulpmiddelen die u helpen:
 
 1. Bekijk al uw kenmerken en verwante details in een tabel met kolommen die u kunt sorteren.
-2. Het overzicht en het werk met [ Actieve Traits van het Publiek en Gegevens Source Synced Trekken ](../../features/traits/client-activity-synced-audience-traits.md).
+2. Het overzicht en het werk met [&#x200B; Actieve Traits van het Publiek en Gegevens Source Synced Trekken &#x200B;](../../features/traits/client-activity-synced-audience-traits.md).
 3. Lijnen maken, bewerken en verwijderen.
 4. Trait-opslagmappen weergeven en beheren.
 5. Zoek naar eigenschappen door naam, identiteitskaart, beschrijving of gegevensbron. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen.

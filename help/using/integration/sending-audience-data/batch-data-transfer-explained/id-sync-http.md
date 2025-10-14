@@ -73,7 +73,7 @@ De [!DNL URL] voor uw binnenkomende vraag van de synchronisatie van identiteitsk
 
 ## [!UICONTROL Declared ID] Event {#declared-id-event}
 
-Voor meer informatie, zie [ Verklaarde IDs ](../../../features/declared-ids.md).
+Voor meer informatie, zie [&#x200B; Verklaarde IDs &#x200B;](../../../features/declared-ids.md).
 
 ## ID-synchronisatie uit een ingesloten e-mailafbeelding {#id-sync-email-image}
 

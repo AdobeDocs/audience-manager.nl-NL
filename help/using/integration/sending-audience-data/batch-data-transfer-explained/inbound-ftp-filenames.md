@@ -114,7 +114,7 @@ In de volgende voorbeelden worden correct opgemaakte bestandsnamen weergegeven. 
  <li> <code> ftp_dpm_478_1366545717.overwrite</code> </li> 
 </ul>
 
-[ Download ](assets/ftp_dpm_1234_1445374061.overwrite) het steekproefdossier als u extra voorbeelden nodig hebt. Dit bestand wordt opgeslagen met de bestandsextensie `.overwrite` . Open het met een eenvoudige teksteditor.
+[&#x200B; Download &#x200B;](assets/ftp_dpm_1234_1445374061.overwrite) het steekproefdossier als u extra voorbeelden nodig hebt. Dit bestand wordt opgeslagen met de bestandsextensie `.overwrite` . Open het met een eenvoudige teksteditor.
 
 ## Geaccepteerde bestandsgrootten {#accepted-file-sizes}
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Ga hier verder voor informatie over het aanvragen van een [!DNL DCS] reactie in een `/event` oproep. Deze sectie omvat een reactievoorbeeld en definities voor gemeenschappelijke gegevenselementen in een reactie.
 
-Alvorens deze inhoud te herzien, zie [ Gegevens naar DCS ](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) verzenden.
+Alvorens deze inhoud te herzien, zie [&#x200B; Gegevens naar DCS &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) verzenden.
 
 ## DCS-responsparameters: een revisie {#dcs-response-parameters}
 
@@ -30,7 +30,7 @@ https://domain_alias.demdex.net/event?key1=val1&key2=val2&d_dst=1&d_rtbd=json&d_
 
 ## Samplereactie {#sample-response}
 
-Herinnering dat van [ Gegevens naar de DCS ](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) documentatie verzendt, maakte het fictieve bedrijf [!DNL Acme, Inc.] deze vraag:
+Herinnering dat van [&#x200B; Gegevens naar de DCS &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md) documentatie verzendt, maakte het fictieve bedrijf [!DNL Acme, Inc.] deze vraag:
 
 `https://acme_aam_domain.demdex.net/event?videoTypeID=2&data=moarData&d_dst=1&d_rtbd=json&d_cb=acme_callback`
 
@@ -51,19 +51,19 @@ De onderstaande tabel bevat een lijst met en definieert de meer algemene paramet
 
 | Parameter | Beschrijving |
 |--- |--- |
-| `c` | Een URL die als a [ bestemming URL ](../../../features/destinations/create-url-destination.md) is geplaatst. |
-| `cn` | De naam of identiteitskaart die op het gebied van de koekjesnaam van a [ wordt geplaatst koekjesbestemming ](../../../features/destinations/create-cookie-destination.md). |
+| `c` | Een URL die als a [&#x200B; bestemming URL &#x200B;](../../../features/destinations/create-url-destination.md) is geplaatst. |
+| `cn` | De naam of identiteitskaart die op het gebied van de koekjesnaam van a [&#x200B; wordt geplaatst koekjesbestemming &#x200B;](../../../features/destinations/create-cookie-destination.md). |
 | `cv` | De waarden die naar het doel worden verzonden dat door de parameter &quot;cn&quot;:&quot;(doelnaam) wordt gedefinieerd. |
-| `dcs_region` | De [ server-aan-server DCS vraag ](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
+| `dcs_region` | De [&#x200B; server-aan-server DCS vraag &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-regions.md). |
 | `dests` | Dit object bevat informatie voor alle URL-doelen die in de gebruikersinterface zijn geconfigureerd. De lijst van dit object is dynamisch op basis van de acties van de gebruiker. |
-| `dmn` | Dit is het domein dat is opgegeven in het veld Cookie-domein voor een cookie-bestemming. Zie [ Facultatieve Montages voor de Doelen van het Koekje ](../../../features/destinations/cookie-destination-options.md).  Voor Server-naar-server-integratie raden we u aan een domein als `aam-api.com` te gebruiken. |
+| `dmn` | Dit is het domein dat is opgegeven in het veld Cookie-domein voor een cookie-bestemming. Zie [&#x200B; Facultatieve Montages voor de Doelen van het Koekje &#x200B;](../../../features/destinations/cookie-destination-options.md).  Voor Server-naar-server-integratie raden we u aan een domein als `aam-api.com` te gebruiken. |
 | `e` | De beveiligde URL die is ingesteld in een URL-doel. |
 | `stuff` | Dit object bevat informatie voor alle Cookie-doelen. De lijst van dit object is dynamisch op basis van de acties van de gebruiker. |
 | `tid` | Transactie-id. Dit is een unieke id van 12 tekens die wordt gebruikt voor foutopsporingsdoeleinden. Elke /event vraag aan DCS ontvangt een tid die u in steunonderzoeken voor een betere en snellere reactie kunt van verwijzingen voorzien. |
 | `ttl` | De tijd-tot-live waarde van het cookie in dagen. |
-| `u` en `uuid` | Unieke gebruikersnaam toegewezen door Audience Manager. Dit wordt vereist als u [ server-aan-server DCS vraag ](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md) maakt. |
+| `u` en `uuid` | Unieke gebruikersnaam toegewezen door Audience Manager. Dit wordt vereist als u [&#x200B; server-aan-server DCS vraag &#x200B;](../../../api/dcs-intro/dcs-s2s/dcs-s2s-calls.md) maakt. |
 | `y` | Doeltype, iFrame (`iframe`) of afbeelding (`img`). |
 
 >[!MORELIKETHIS]
 >
->* [ zeer belangrijk-Waarde prefixen en Variabelen die door DCS ](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md) worden gesteund
+>* [&#x200B; zeer belangrijk-Waarde prefixen en Variabelen die door DCS &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-keys.md) worden gesteund

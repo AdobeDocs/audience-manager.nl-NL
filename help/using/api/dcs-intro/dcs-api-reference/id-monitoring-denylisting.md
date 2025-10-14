@@ -21,7 +21,7 @@ De [!DNL DCS] bewaakt de id&#39;s die het ontvangt en voegt de id&#39;s toe die 
 
 ## Overzicht
 
-Om de Audience Manager-infrastructuur tegen kwaadaardige activiteiten te beschermen, gebruikt de [!DNL DCS] een geavanceerd algoritme om de id&#39;s die het ontvangt te controleren. Deze kunnen [!UICONTROL Data Provider Unique User ID] s ([!UICONTROL CRM ID] zijn), [!UICONTROL Audience Manager Unique User ID] s ([!UICONTROL AAM UUID] s), of [!UICONTROL Experience Cloud ID] s ([!UICONTROL ECID] s). Zie [ Index van IDs in Audience Manager ](../../../reference/ids-in-aam.md) voor gedetailleerde verklaringen van IDs die door Audience Manager wordt gesteund.
+Om de Audience Manager-infrastructuur tegen kwaadaardige activiteiten te beschermen, gebruikt de [!DNL DCS] een geavanceerd algoritme om de id&#39;s die het ontvangt te controleren. Deze kunnen [!UICONTROL Data Provider Unique User ID] s ([!UICONTROL CRM ID] zijn), [!UICONTROL Audience Manager Unique User ID] s ([!UICONTROL AAM UUID] s), of [!UICONTROL Experience Cloud ID] s ([!UICONTROL ECID] s). Zie [&#x200B; Index van IDs in Audience Manager &#x200B;](../../../reference/ids-in-aam.md) voor gedetailleerde verklaringen van IDs die door Audience Manager wordt gesteund.
 
 [!DNL DCS] controleert de frequentie waarmee het deze IDs ontvangt om potentiële kwaadwillige activiteit te ontdekken. Wanneer [!DNL DCS] in een korte tijd een ongebruikelijk grote hoeveelheid [!DNL DCS] -aanvragen voor een bepaalde id detecteert, wordt die id toegevoegd aan een lijst van gewezen personen.
 
@@ -33,7 +33,7 @@ U kunt id&#39;s die aan een lijst van gewezen personen zijn toegevoegd identific
 * 306: geblokkeerde aangegeven apparaat-id;
 * 307: Geblokkeerde profielbewerking voor id.
 
-Zie [ Codes van de Fout DCS, Berichten, en Voorbeelden ](dcs-error-codes.md) voor details op de foutencodes die u kunt ontvangen.
+Zie [&#x200B; Codes van de Fout DCS, Berichten, en Voorbeelden &#x200B;](dcs-error-codes.md) voor details op de foutencodes die u kunt ontvangen.
 
 ## Id&#39;s verwijderen uit lijsten van gewezen personen
 

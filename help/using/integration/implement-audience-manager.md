@@ -222,7 +222,7 @@ De taken voor deze fase kunnen omvatten:
 
 Audience Manager gebruikt Data Integration Library ([!DNL DIL]), om publieksgegevens te ontvangen.
 
-Voor gedetailleerde instructies op hoe te om [!DNL DIL] te gebruiken, zie [ het Krijgen en het Uitvoeren van de Code van DIL ](../dil/dil-overview.md).
+Voor gedetailleerde instructies op hoe te om [!DNL DIL] te gebruiken, zie [&#x200B; het Krijgen en het Uitvoeren van de Code van DIL &#x200B;](../dil/dil-overview.md).
 
 ### Deelnemers
 
@@ -234,4 +234,4 @@ Onze gezamenlijke inspanningen stoppen niet met de definitieve implementatie. Na
 
 Accountmanagers bieden ondersteuning en services voor overleg nadat de implementatie van het product is voltooid. U kunt regelmatige vergaderingen met uw accountmanager verwachten. Deze vergaderingen zorgen ervoor dat u de maximale hoeveelheid gebruik en waarde van Audience Manager krijgt.
 
-Contacteer ons [ hier ](https://www.adobe.com/products/audiencemanager.html) voor meer informatie en om met Audience Manager begonnen te worden.
+Contacteer ons [&#x200B; hier &#x200B;](https://www.adobe.com/products/audiencemanager.html) voor meer informatie en om met Audience Manager begonnen te worden.

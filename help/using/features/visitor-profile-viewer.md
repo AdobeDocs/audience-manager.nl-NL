@@ -33,10 +33,10 @@ Traits that are not part of a segment will not appear in the
 
 1. *(Optioneel)* Klik op de naam van het kenmerk om die eigenschap weer te geven in de [!UICONTROL Trait Builder] .
 
-   Voor meer informatie, zie [ Beetjes ](../features/traits/trait-details-page.md).
+   Voor meer informatie, zie [&#x200B; Beetjes &#x200B;](../features/traits/trait-details-page.md).
 
 1. *(Facultatief)* klik de segmentnaam om dat segment in [!UICONTROL Segment Builder] te tonen.
 
-   Voor meer informatie, zie [ Segmenten ](../features/segments/segments-purpose.md).
+   Voor meer informatie, zie [&#x200B; Segmenten &#x200B;](../features/segments/segments-purpose.md).
 
 1. *(Voorwaardelijk)* Geef in het vak **[!UICONTROL UUID]** een andere Audience Manager-profiel-id op en klik vervolgens op **[!UICONTROL Refresh]** om de kenmerken en segmenten voor die gebruiker weer te geven.

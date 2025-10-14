@@ -21,12 +21,12 @@ Raadpleeg de onderstaande tabel voor hulp bij migratiestappen naar Web SDK, afha
 | Uw bestaande gegevensverzamelingsmethode | Web SDK-migratieinstructies |
 |---------|----------|
 | [!DNL AppMeasurement] JavaScript-bibliotheek met de module AudienceManagement | Volg de instructies in deze handleiding. |
-| [!DNL Audience Manager] [ markeringsuitbreiding ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/audience-manager/overview) | Volg de instructies in [ het bijwerken van uw bibliotheek van de gegevensverzameling van de de markeringsuitbreiding van Audience Manager aan de de markeringsuitbreiding van SDK van het Web ](dil-extension-to-web-sdk.md). |
-| [!DNL AppMeasurement] de bibliotheek van JavaScript + standalone [!DNL Audience Manager] [ bibliotheek van DIL ](../dil/dil-overview.md) | Volg de instructies in [ het bijwerken van uw bibliotheek van de gegevensverzameling van de de markeringsuitbreiding van Audience Manager aan de de markeringsuitbreiding van SDK van het Web ](dil-extension-to-web-sdk.md). |
+| [!DNL Audience Manager] [&#x200B; markeringsuitbreiding &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/audience-manager/overview) | Volg de instructies in [&#x200B; het bijwerken van uw bibliotheek van de gegevensverzameling van de de markeringsuitbreiding van Audience Manager aan de de markeringsuitbreiding van SDK van het Web &#x200B;](dil-extension-to-web-sdk.md). |
+| [!DNL AppMeasurement] de bibliotheek van JavaScript + standalone [!DNL Audience Manager] [&#x200B; bibliotheek van DIL &#x200B;](../dil/dil-overview.md) | Volg de instructies in [&#x200B; het bijwerken van uw bibliotheek van de gegevensverzameling van de de markeringsuitbreiding van Audience Manager aan de de markeringsuitbreiding van SDK van het Web &#x200B;](dil-extension-to-web-sdk.md). |
 
 ## Migratieoverzicht {#overview}
 
-Het migreren van [!DNL AppMeasurement] aan [ SDK van het Web ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) is hoofdzakelijk een migratie van Adobe Analytics. Voor Audience Manager-klanten omvat deze migratie ook Audience Manager. Beide moeten samen worden gemigreerd. Als u voornamelijk met Audience Manager werkt, dient u het Analyseteam bij deze migratie te betrekken.
+Het migreren van [!DNL AppMeasurement] aan [&#x200B; SDK van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) is hoofdzakelijk een migratie van Adobe Analytics. Voor Audience Manager-klanten omvat deze migratie ook Audience Manager. Beide moeten samen worden gemigreerd. Als u voornamelijk met Audience Manager werkt, dient u het Analyseteam bij deze migratie te betrekken.
 
 Als u [!DNL AppMeasurement] gebruikt voor Audience Manager-gegevensverzameling, gebruikt u momenteel de [!DNL Server-side Forwarding (SSF)] -aanpak om analysegegevens naar Audience Manager te verzenden. In deze opstelling, door:sturen het de gegevensverzamelingsverzoek van Analytics aan Audience Manager, die ook de reactie van Audience Manager op de pagina behandelt.
 
@@ -40,17 +40,17 @@ Met server-kant door:sturen, verzamelt de regionale knoop van de gegevensinzamel
 
 Met Web SDK verzendt de Edge Network gegevens naar Analytics en Audience Manager in afzonderlijke acties. Het Web SDK is één enkele bibliotheek die gegevens naar alle oplossingen verzendt, en Edge Network zet oplossing-agnostische gegevenspunten in oplossing-specifieke formaten om.
 
-In deze nieuwe gegevensstroom, worden alle gegevens verzonden naar een Edge Network [ datastream ](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/overview), die u [ kunt vormen ](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure) om gegevens naar de oplossingen van Adobe te verzenden zoals nodig. Voor Audience Manager transformeert het inschakelen van de Audience Manager-service op de gegevensstroom [!DNL XDM] en analysegegevens naar signalen die door Audience Manager worden geaccepteerd. De Edge Network geeft ook het Audience Manager-antwoord op de pagina, waar de Web SDK het antwoord verwerkt, vergelijkbaar met hoe [!DNL AppMeasurement] en de module [!DNL AudienceManagement] .
+In deze nieuwe gegevensstroom, worden alle gegevens verzonden naar een Edge Network [&#x200B; datastream &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/overview), die u [&#x200B; kunt vormen &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/configure) om gegevens naar de oplossingen van Adobe te verzenden zoals nodig. Voor Audience Manager transformeert het inschakelen van de Audience Manager-service op de gegevensstroom [!DNL XDM] en analysegegevens naar signalen die door Audience Manager worden geaccepteerd. De Edge Network geeft ook het Audience Manager-antwoord op de pagina, waar de Web SDK het antwoord verwerkt, vergelijkbaar met hoe [!DNL AppMeasurement] en de module [!DNL AudienceManagement] .
 
 ## Migratie van tags en niet-labels {#tags-vs-non-tags}
 
 Of u nu Tags gebruikt met de extensie [!DNL AppMeasurement] , de [!DNL AppMeasurement] -bibliotheek in een ander tagbeheersysteem of [!DNL AppMeasurement] rechtstreeks op de pagina plaatst, de stappen voor het migreren van Audience Manager naar Web SDK zijn hetzelfde. Aangezien de migratie van Audience Manager afhankelijk is van de migratie van Analytics, worden de stappen voor het migreren van [!DNL AppMeasurement] naar Web SDK tijdens de migratie van Analytics bepaald.
 
-Die informatie wordt behandeld in de documentatie van Analytics voor [ Markeringen ](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) of [ op JavaScript ](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) gebaseerde implementaties.
+Die informatie wordt behandeld in de documentatie van Analytics voor [&#x200B; Markeringen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) of [&#x200B; op JavaScript &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) gebaseerde implementaties.
 
 ## XDM en de `data.__adobe.` knooppunten {#xdm-data-nodes}
 
-Één van de belangrijkste functies van het [ Web SDK ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) moet gegevens naar [ Real-Time Customer Data Platform (RTCDP) verzenden ](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home). Om dit te bereiken en nog gegevens voor andere Oplossingen van Experience Cloud zonder volledige re-implementatie te verzamelen, worden de oplossing-specifieke gegevens verdeeld binnen de de servervraag van de gegevensinzameling. Deze vraag gebruikt een gestandaardiseerd schema JSON genoemd het [ Model van de Gegevens van de Ervaring (XDM) ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
+Één van de belangrijkste functies van het [&#x200B; Web SDK &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) moet gegevens naar [&#x200B; Real-Time Customer Data Platform (RTCDP) verzenden &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/rtcdp/home). Om dit te bereiken en nog gegevens voor andere Oplossingen van Experience Cloud zonder volledige re-implementatie te verzamelen, worden de oplossing-specifieke gegevens verdeeld binnen de de servervraag van de gegevensinzameling. Deze vraag gebruikt een gestandaardiseerd schema JSON genoemd het [&#x200B; Model van de Gegevens van de Ervaring (XDM) &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/home)
 
 Oplossing-agnostische elementen, zoals informatie over browser en apparaat, worden verzonden naar Edge Network in een vooraf bepaalde structuur XDM. De Edge Network transformeert deze gegevens naar specifieke oplossingen. Gegevens die specifiek zijn voor Doel, Analytics en Audience Manager, worden echter opgeslagen in een toegewezen `data.__adobe` -knooppunt binnen de XDM-payload.
 
@@ -59,7 +59,7 @@ Bijvoorbeeld:
 * De variabele Analytics `s.eVar1` wordt vertegenwoordigd in de XDM-payload als `data.__adobe.analytics.evar1` .
 * Een parameter van het Doel met betrekking tot de status van de klantenloyaliteit wordt opgeslagen als `data.__adobe.target.loyaltyStatus`.
 
-Gegevens in het knooppunt `__adobe` worden naar de respectievelijke oplossingen verzonden (zoals Analytics en Audience Manager) zonder dat ze naar Experience Platform worden verzonden, zelfs als de Experience Platform-service op de datastream is ingeschakeld. Dit betekent u uw huidige configuraties voor Analytics en Audience Manager kunt houden terwijl het hebben van de flexibiliteit om het even welke noodzakelijke gegevenselementen aan XDM schemaelementen voor gebruiksgevallen in real time in Experience Platform in kaart te brengen gebruikend [ Prep van Gegevens voor de Inzameling van Gegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/data-prep).
+Gegevens in het knooppunt `__adobe` worden naar de respectievelijke oplossingen verzonden (zoals Analytics en Audience Manager) zonder dat ze naar Experience Platform worden verzonden, zelfs als de Experience Platform-service op de datastream is ingeschakeld. Dit betekent u uw huidige configuraties voor Analytics en Audience Manager kunt houden terwijl het hebben van de flexibiliteit om het even welke noodzakelijke gegevenselementen aan XDM schemaelementen voor gebruiksgevallen in real time in Experience Platform in kaart te brengen gebruikend [&#x200B; Prep van Gegevens voor de Inzameling van Gegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/datastreams/data-prep).
 
 De Analytics `s.products` -tekenreeks, die tijdens het uitchecken wordt gebruikt om de inhoud van winkelwagentjes te rapporteren, kan nog steeds in de oorspronkelijke indeling naar Analytics en Audience Manager worden verzonden. Tegelijkertijd kunt u de elementen van deze tekenreeks gebruiken om intuïtievere XDM-cartschema&#39;s te maken voor Experience Platform-gebruiksgevallen.
 
@@ -71,7 +71,7 @@ De Edge Network transformeert apparaat- en browsergegevens van de XDM-payload en
 
 ## The `data.__adobe.audiencemanager` node {#data-note}
 
-Het knooppunt `data.__adobe.audiencemanager` wordt gebruikt voor Audience Manager-implementaties die niet afhankelijk zijn van Analytics. Het slaat de sleutel/waardeparen van douaneAudience Manager op die eerder via de [ bibliotheek van DIL ](../dil/dil-overview.md) werden verzonden, zoals die in de [ de migratiegids van de markeringsuitbreiding ](dil-extension-to-web-sdk.md) wordt beschreven.
+Het knooppunt `data.__adobe.audiencemanager` wordt gebruikt voor Audience Manager-implementaties die niet afhankelijk zijn van Analytics. Het slaat de sleutel/waardeparen van douaneAudience Manager op die eerder via de [&#x200B; bibliotheek van DIL &#x200B;](../dil/dil-overview.md) werden verzonden, zoals die in de [&#x200B; de migratiegids van de markeringsuitbreiding &#x200B;](dil-extension-to-web-sdk.md) wordt beschreven.
 
 Hoewel het knooppunt `data.__adobe.audiencemanager` niet nodig is voor de migratie die in deze handleiding wordt beschreven, kunnen met de nieuwe gegevensstroom die hier wordt beschreven gegevens naar Audience Manager worden verzonden zonder dat deze worden opgenomen in Analytics.
 
@@ -87,8 +87,8 @@ Het gebruik van deze migratiebenadering heeft zowel voor- als nadelen. Let zorgv
 
 Adobe raadt u aan dit implementatiepad in de volgende scenario&#39;s te volgen:
 
-* U hebt een bestaande implementatie met de Adobe Analytics AppMeasurement JavaScript-bibliotheek. Als u een implementatie gebruikend de de markeringsuitbreiding van Audience Manager hebt, volg [ Migrate van de de markeringsuitbreiding van Audience Manager aan de de markeringsuitbreiding van SDK van het Web ](dil-extension-to-web-sdk.md) in plaats daarvan.
-* U wilt Real-Time CDP in de toekomst gebruiken, maar u wilt uw Audience Manager-implementatie niet vervangen door een geheel nieuwe Web SDK-implementatie. Het alternatief om uw implementatie helemaal vanaf het begin te vervangen door de Web SDK vereist de meeste moeite, aangezien u al uw Audience Manager-kenmerken opnieuw moet opbouwen om te zoeken naar XDM-opgemaakte gegevens. Het is echter ook de meest levensvatbare implementatiearchitectuur voor de lange termijn. Als uw organisatie bereid is door de inspanning van een schone implementatie van SDK van het Web te gaan, zie de [ documentatie van SDK van het Web ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) in plaats van het gebruiken van deze gids, voor meer details.
+* U hebt een bestaande implementatie met de Adobe Analytics AppMeasurement JavaScript-bibliotheek. Als u een implementatie gebruikend de de markeringsuitbreiding van Audience Manager hebt, volg [&#x200B; Migrate van de de markeringsuitbreiding van Audience Manager aan de de markeringsuitbreiding van SDK van het Web &#x200B;](dil-extension-to-web-sdk.md) in plaats daarvan.
+* U wilt Real-Time CDP in de toekomst gebruiken, maar u wilt uw Audience Manager-implementatie niet vervangen door een geheel nieuwe Web SDK-implementatie. Het alternatief om uw implementatie helemaal vanaf het begin te vervangen door de Web SDK vereist de meeste moeite, aangezien u al uw Audience Manager-kenmerken opnieuw moet opbouwen om te zoeken naar XDM-opgemaakte gegevens. Het is echter ook de meest levensvatbare implementatiearchitectuur voor de lange termijn. Als uw organisatie bereid is door de inspanning van een schone implementatie van SDK van het Web te gaan, zie de [&#x200B; documentatie van SDK van het Web &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/home) in plaats van het gebruiken van deze gids, voor meer details.
 
 ## Stappen die nodig zijn voor migratie naar de Web SDK
 
@@ -96,7 +96,7 @@ Volg de onderstaande stappen om uw integratie van de gegevensverzameling naar We
 
 +++**1. Plan uw migratie van Analytics**.
 
-Het werk met uw team van Analytics om de stappen voor de migratie van Analytics in of de [ Codes ](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) of [ op JavaScript ](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) gebaseerde implementaties te volgen. Nadat u de migratie naar Analytics hebt gepland, gaat u terug naar deze handleiding en gaat u verder met de Audience Manager-stappen om te bepalen wat u moet doen voor Audience Manager, zodat u de migratie naar Analytics en Audience Manager samen kunt implementeren.
+Het werk met uw team van Analytics om de stappen voor de migratie van Analytics in of de [&#x200B; Codes &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/web-sdk/analytics-extension-to-web-sdk) of [&#x200B; op JavaScript &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/implementation/aep-edge/web-sdk/appmeasurement-to-web-sdk) gebaseerde implementaties te volgen. Nadat u de migratie naar Analytics hebt gepland, gaat u terug naar deze handleiding en gaat u verder met de Audience Manager-stappen om te bepalen wat u moet doen voor Audience Manager, zodat u de migratie naar Analytics en Audience Manager samen kunt implementeren.
 
 +++
 
@@ -104,7 +104,7 @@ Het werk met uw team van Analytics om de stappen voor de migratie van Analytics 
 
 Voeg de Audience Manager-service toe aan de gegevensstroom die u gebruikt in de migratie Analytics die wordt vermeld in stap 1.
 
-1. Navigeer aan [ experience.adobe.com ](https://experience.adobe.com) en login gebruikend uw geloofsbrieven.
+1. Navigeer aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com) en login gebruikend uw geloofsbrieven.
 1. Gebruik de startpagina of de productkiezer rechtsboven om naar **[!UICONTROL Data Collection]** te navigeren.
 1. Selecteer **[!UICONTROL Datastreams]** in de linkernavigatie.
 1. Selecteer de gegevensstroom die u als deel van uw migratie Analytics in stap 1 creeerde.
@@ -118,7 +118,7 @@ Voeg de Audience Manager-service toe aan de gegevensstroom die u gebruikt in de 
    >Voor het migreren naar Web SDK met de optie **[!UICONTROL Enabled XDM Flattened Fields]** ingeschakeld moeten alle gegevens die nodig zijn in Audience Manager en die als XDM zijn opgemaakt, en alle Audience Manager-traits met behulp van props, eVars of gebeurtenissen worden bijgewerkt om in plaats daarvan te zoeken naar gegevens met XDM-opmaak. Adobe raadt aan deze optie uit te schakelen.
 
 
-   ![ voegt de dienst van Audience Manager ](assets/add-service.png) {style="border:1px solid lightslategray"} toe
+   ![&#x200B; voegt de dienst van Audience Manager &#x200B;](assets/add-service.png) {style="border:1px solid lightslategray"} toe
 
 1. Selecteer **[!UICONTROL Save]** om de configuratie van de gegevensstroom op te slaan.
 
@@ -128,14 +128,14 @@ Uw gegevensstroom is nu klaar om gegevens te ontvangen en door te geven aan Audi
 
 +++**3. De Syncs van identiteitskaart van de derde toelaten en plaatsen identiteitskaart van de Container van Audience Manager**
 
-1. Navigeer aan [ experience.adobe.com ](https://experience.adobe.com) en login gebruikend uw geloofsbrieven.
+1. Navigeer aan [&#x200B; experience.adobe.com &#x200B;](https://experience.adobe.com) en login gebruikend uw geloofsbrieven.
 1. Gebruik de startpagina of de productkiezer rechtsboven om naar **[!UICONTROL Data Collection]** te navigeren.
 1. Selecteer **[!UICONTROL Datastreams]** in de linkernavigatie.
 1. Selecteer de gegevensstroom die u als deel van uw migratie Analytics in stap 1 creeerde.
 1. Selecteer **[!UICONTROL Edit]** in de rechterbovenhoek van de configuratiepagina voor de gegevensstroom.
 1. Vouw het vervolgkeuzemenu **[!UICONTROL Advanced Options]** uit en schakel de functie **[!UICONTROL Third Party ID Sync]** in als dit nog niet is ingeschakeld. Deze optie vertelt de Edge Network om de Syncs van identiteitskaart van de Partner voor Audience Manager en de gegevenspartners van Experience Platform terug te keren.
 
-   ![ laat de synchronisatie van derdeidentiteitskaart toe.](assets/third-party-id-sync.png) {style="border:1px solid lightslategray"}
+   ![&#x200B; laat de synchronisatie van derdeidentiteitskaart toe.](assets/third-party-id-sync.png) {style="border:1px solid lightslategray"}
 
 1. In de meeste gevallen kunt u het veld **[!UICONTROL Third Party ID Sync Container ID]** leeg laten. De standaardwaarde is `0` . Als u er echter voor wilt zorgen dat de juiste container-id wordt gebruikt, voert u de volgende stappen uit:
    * Open een browservenster in de incognito- of privémodus en navigeer naar een pagina die deel uitmaakt van de migratie.
@@ -150,13 +150,13 @@ Uw gegevensstroom is nu klaar om gegevens naar Audience Manager te verzenden en 
 
 +++**4. Clientid&#39;s toevoegen aan het identiteitsoverzicht**
 
-De meeste implementaties van Audience Manager gebruiken [ Regels van de Fusie van het Profiel ](../features/profile-merge-rules/merge-rules-overview.md) in cross-device verpersoonlijkingsscenario&#39;s en helpen controleren welke segmentbezoekers voor afhankelijk van hun authentificatiestatus (het programma geopend of het programma geopend) kunnen kwalificeren. De regels van de Fusie van het profiel vereisen een klant-eigendom herkenningsteken (identiteitskaart van CRM, rekeningsaantal, enz.) worden verzonden naar Audience Manager op elke vraag van de gegevensinzameling na authentificatie. Eerder, werd de `setCustomerIDs` functie van de Dienst van identiteitskaart van de Bezoeker ([!DNL visitor.js]) gebruikt om klant IDs aan elke de gegevensverzamelingsvraag van de Analyse toe te voegen, die toen aan Audience Manager werd doorgestuurd.
+De meeste implementaties van Audience Manager gebruiken [&#x200B; Regels van de Fusie van het Profiel &#x200B;](../features/profile-merge-rules/merge-rules-overview.md) in cross-device verpersoonlijkingsscenario&#39;s en helpen controleren welke segmentbezoekers voor afhankelijk van hun authentificatiestatus (het programma geopend of het programma geopend) kunnen kwalificeren. De regels van de Fusie van het profiel vereisen een klant-eigendom herkenningsteken (identiteitskaart van CRM, rekeningsaantal, enz.) worden verzonden naar Audience Manager op elke vraag van de gegevensinzameling na authentificatie. Eerder, werd de `setCustomerIDs` functie van de Dienst van identiteitskaart van de Bezoeker ([!DNL visitor.js]) gebruikt om klant IDs aan elke de gegevensverzamelingsvraag van de Analyse toe te voegen, die toen aan Audience Manager werd doorgestuurd.
 
-Met het Web SDK, moeten deze identiteiten nu naar Edge Network worden verzonden gebruikend een speciale constructie XDM genoemd [ IdentityMap ](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/profile/identitymap).
+Met het Web SDK, moeten deze identiteiten nu naar Edge Network worden verzonden gebruikend een speciale constructie XDM genoemd [&#x200B; IdentityMap &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/xdm/field-groups/profile/identitymap).
 
-Het overgaan van identiteiten correct in een identiteitskaart vereist begrip [ identiteitsnamespaces ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces) en zorgvuldig het overwegen van welke identiteiten om over te gaan, vooral wanneer het verzenden van gegevens naar een zandbak van Experience Platform. [ dit artikel ](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-21305) schetst deze overwegingen en instructies.
+Het overgaan van identiteiten correct in een identiteitskaart vereist begrip [&#x200B; identiteitsnamespaces &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces) en zorgvuldig het overwegen van welke identiteiten om over te gaan, vooral wanneer het verzenden van gegevens naar een zandbak van Experience Platform. [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-cloud-kcs/kbarticles/ka-21305) schetst deze overwegingen en instructies.
 
-Zodra u bepaalt welke identiteiten om over te gaan en wanneer, de gidsen voor het gebruiken van het [!UICONTROL Identity map] **[!UICONTROL Identity map]** [ gegevenselement ](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) binnen Markeringen volgt of manueel het zoals geschetst in het [ overzicht van identiteitsgegevens ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/identity/overview) om met uw de plaatsingsstrategie van SDK van het Web te richten.
+Zodra u bepaalt welke identiteiten om over te gaan en wanneer, de gidsen voor het gebruiken van het [!UICONTROL Identity map] **[!UICONTROL Identity map]** [&#x200B; gegevenselement &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/tags/extensions/client/web-sdk/data-element-types#identity-map) binnen Markeringen volgt of manueel het zoals geschetst in het [&#x200B; overzicht van identiteitsgegevens &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/identity/overview) om met uw de plaatsingsstrategie van SDK van het Web te richten.
 
 +++
 
@@ -168,9 +168,9 @@ Als u de cookie wilt instellen, moet u een naam voor een cookie invoeren in het 
 
 Als uw implementatie vereist dat dit `aam_uuid` -cookie na de migratie naar Web SDK wordt ingesteld, kunt u de Audience Manager UUID op twee manieren ophalen.
 
-1. Elke reactie van [ Edge Network wisselt eindpunt ](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/) in een nuttige lading met `id` knopen. Het knooppunt `id` van de naamruimte `CORE` bevat de Audience Manager UUID.
+1. Elke reactie van [&#x200B; Edge Network wisselt eindpunt &#x200B;](https://developer.adobe.com/data-collection-apis/docs/endpoints/interact/) in een nuttige lading met `id` knopen. Het knooppunt `id` van de naamruimte `CORE` bevat de Audience Manager UUID.
 
-2. Gebruik het [ getIdentity ](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/getidentity) bevel van het Web SDK om het terug te winnen. Gebruik de naamruimte `CORE` zoals wordt beschreven in de documentatie en haalt de waarde op uit het veld `identity.CORE` in de reactie.
+2. Gebruik het [&#x200B; getIdentity &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/web-sdk/commands/getidentity) bevel van het Web SDK om het terug te winnen. Gebruik de naamruimte `CORE` zoals wordt beschreven in de documentatie en haalt de waarde op uit het veld `identity.CORE` in de reactie.
 
 Ongeacht de methode die wordt gebruikt om Audience Manager UUID terug te winnen, is het aan uw ontwikkelingsteam om de reactie te ontleden, UUID terug te winnen, en het koekje te plaatsen. Er is geen automatische manier om deze cookie in te stellen via de Web SDK.
 
@@ -178,13 +178,13 @@ Ongeacht de methode die wordt gebruikt om Audience Manager UUID terug te winnen,
 
 ## Server-Side Forwarding en Audience Analytics configureren in de gebruikersinterface van Analytics Report Suite Manager {#configure-ssf-analytics}
 
-Als u met Analytics [ server-kant het door:sturen ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) eigenschap vertrouwd bent, zou u zich kunnen afvragen: &quot;*zou ik server-kant het door:sturen van onbruikbaar maken het plaatsen in de Manager UI van de Manager UI van de Reeks van het Rapport Analytics om het verzenden van de gegevens van Analytics naar Audience Manager tweemaal te verhinderen?*&quot;.
+Als u met Analytics [&#x200B; server-kant het door:sturen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf) eigenschap vertrouwd bent, zou u zich kunnen afvragen: &quot;*zou ik server-kant het door:sturen van onbruikbaar maken het plaatsen in de Manager UI van de Manager UI van de Reeks van het Rapport Analytics om het verzenden van de gegevens van Analytics naar Audience Manager tweemaal te verhinderen?*&quot;.
 
 Het antwoord is nee, u zou deze het plaatsen niet moeten onbruikbaar maken, om de volgende redenen:
 
-1. Wanneer de Audience Manager-service op een gegevensstroom is ingeschakeld, voegt de Edge Network de variabele `cm.ssf` toe aan alle verzoeken voor gegevensverzameling die naar Analytics worden verzonden. Zo voorkomt u dat de analysegegevens ook naar Audience Manager worden verzonden. In alle Assurance-logboeken waarmee de migratie naar Analytics wordt gevalideerd, wordt de variabele `cm.ssf=1` weergegeven wanneer de Audience Manager-service op de gegevensstroom is ingeschakeld. Zie [ Analytics en GDPR nalevingspagina die op server-kant het door:sturen ](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr) voor meer details wordt geconcentreerd.
+1. Wanneer de Audience Manager-service op een gegevensstroom is ingeschakeld, voegt de Edge Network de variabele `cm.ssf` toe aan alle verzoeken voor gegevensverzameling die naar Analytics worden verzonden. Zo voorkomt u dat de analysegegevens ook naar Audience Manager worden verzonden. In alle Assurance-logboeken waarmee de migratie naar Analytics wordt gevalideerd, wordt de variabele `cm.ssf=1` weergegeven wanneer de Audience Manager-service op de gegevensstroom is ingeschakeld. Zie [&#x200B; Analytics en GDPR nalevingspagina die op server-kant het door:sturen &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/server-side-forwarding/ssf-gdpr) voor meer details wordt geconcentreerd.
 
-1. Met deze instelling wordt ook de gegevensstroom ingeschakeld voor de [!DNL Audience Analytics] -integratie. Zoals die in het [ overzicht van Audience Analytics ](https://experienceleague.adobe.com/nl/docs/analytics/integration/audience-analytics/mc-audiences-aam) wordt geschetst, server-zijdoor:sturen wordt vereist voor deze integratie omdat de reactie van Audience Manager op de server van de de gegevensinzameling van de Analytics aan de klap Analytics alvorens verwerking wordt toegevoegd. Een soortgelijk proces doet zich voor in de Edge Network. Wanneer server-zij het door:sturen wordt toegelaten, voegt Edge Network de noodzakelijke segmenten van de reactie van Audience Manager aan de gegevens toe die naar Analytics worden verzonden.
+1. Met deze instelling wordt ook de gegevensstroom ingeschakeld voor de [!DNL Audience Analytics] -integratie. Zoals die in het [&#x200B; overzicht van Audience Analytics &#x200B;](https://experienceleague.adobe.com/nl/docs/analytics/integration/audience-analytics/mc-audiences-aam) wordt geschetst, server-zijdoor:sturen wordt vereist voor deze integratie omdat de reactie van Audience Manager op de server van de de gegevensinzameling van de Analytics aan de klap Analytics alvorens verwerking wordt toegevoegd. Een soortgelijk proces doet zich voor in de Edge Network. Wanneer server-zij het door:sturen wordt toegelaten, voegt Edge Network de noodzakelijke segmenten van de reactie van Audience Manager aan de gegevens toe die naar Analytics worden verzonden.
 
 Samenvattend, is het belangrijk dat dit het plaatsen wordt toegelaten zodat Audience Analytics met een implementatie van SDK van het Web blijft functioneren en geen gegevens zullen worden dubbel-geteld in Audience Manager.
 
@@ -199,17 +199,17 @@ Ongeacht uw implementatie gelden de onderstaande algemene principes voor het val
 1. De eerste netwerkaanroep voor een eerste pagina, eerste bezoeker, gaat naar het `adobedc.demdex.net` -domein en het `/interact` -eindpunt. U kunt de netwerkvraag zien die door Web SDK wordt gemaakt door het ontwikkelaarlusje op uw Webbrowser te openen, het lusje van het Netwerk te klikken, en dan het filtreren voor `/interact`.
 Er zijn andere typen Web SDK-aanroepen, maar alleen `interact` -aanroepen verzenden gegevens naar en krijgen een antwoordlading van de Edge Network.
 
-   ![ Beeld van een browser netwerklusje die de interactie vraag tonen.](assets/network.png)
+   ![&#x200B; Beeld van een browser netwerklusje die de interactie vraag tonen.](assets/network.png)
 
 1. De reactie op de eerste netwerkvraag heeft veelvoudige ladingen. Een van deze ladingsknooppunten bevat verschillende subknooppunten van het type `url` . Deze `url` -knooppunten zijn de syncs van de id van derden die historisch zijn geactiveerd door de [!DNL Visitor ID] -service. Er zou één `url` knoop voor elke synchronisatie van derdeidentiteitskaart moeten zijn die in uw container wordt gevormd (zie stap 3 hierboven).
 
-   ![ Beeld van een lusje van het browser netwerk dat de nuttige ladingen toont.](assets/payload.png)
+   ![&#x200B; Beeld van een lusje van het browser netwerk dat de nuttige ladingen toont.](assets/payload.png)
 
    Bovendien kunt u filteren op `demdex` en zien dat elk van de URL&#39;s waarnaar in de payload wordt verwezen, net als de [!DNL Visitor ID] -service hun eigen netwerkverzoek voor id-synchronisatie heeft geactiveerd. Deze ID-syncs mogen alleen op de eerste pagina van een eerste bezoeker worden getypt en slechts eenmaal om de 14 dagen daarna.
 
 1. Alle volgende `/interact` -aanvragen die worden gebruikt voor Analytics en Audience Manager-gegevensverzameling moeten de `data.__adobe.analytics` -knooppunten in de payload bevatten.
 
-   ![ Beeld van een browser netwerklusje die de analytische knoop in de nuttige lading tonen.](assets/analytics-node.png)
+   ![&#x200B; Beeld van een browser netwerklusje die de analytische knoop in de nuttige lading tonen.](assets/analytics-node.png)
 
    Audience Manager-kenmerken die afhankelijk zijn van deze analytische variabelen en eigenschappen die de `h_` - of `d_` -platformtoetsen gebruiken, moeten verder worden gevuld.
 
@@ -219,7 +219,7 @@ Er zijn andere typen Web SDK-aanroepen, maar alleen `interact` -aanroepen verzen
 
 1. In dezelfde `/interact` -aanroep waarbij analysevariabelen worden doorgegeven, kunnen cookies of URL-doelen worden gevonden in de payload knooppunten van de reactie. URL-doelen worden geladen in ladingen van het type `url` (net als in id-synchronisaties van derden) en cookie-doelen worden geladen in ladingen van het type `cookie` .
 
-   ![ Beeld van een lusje van het browser netwerk dat de ladingsgegevens toont.](assets/destinations.png)
+   ![&#x200B; Beeld van een lusje van het browser netwerk dat de ladingsgegevens toont.](assets/destinations.png)
 
    Zorg er ook voor dat de cookies zijn neergezet in de cookie-opslag van de browser.
 
@@ -229,7 +229,7 @@ Er zijn andere typen Web SDK-aanroepen, maar alleen `interact` -aanroepen verzen
 
 1. Als u extra klant IDs via de Kaart van de Identiteit moet overgaan, verifieer in de plaats en zorg ervoor dat de identiteiten en hun bijbehorende parameters in de knoop van de Kaart van de Identiteit van de verzoeklading worden overgegaan.
 
-   ![ Beeld van een browser netwerklusje dat identiteitskaartgegevens toont.](assets/pass-customer-ids.png)
+   ![&#x200B; Beeld van een browser netwerklusje dat identiteitskaartgegevens toont.](assets/pass-customer-ids.png)
 
    >[!TIP]
    >

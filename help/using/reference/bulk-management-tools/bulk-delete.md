@@ -30,7 +30,7 @@ Met Bulk verwijderen kunt u meerdere segmenten, kenmerken, mappen, afgeleide sig
 
 >[!NOTE]
 >
->[ RBAC groepstoestemmingen ](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
+>[&#x200B; RBAC groepstoestemmingen &#x200B;](../../features/administration/administration-overview.md) die in [!DNL Audience Manager] worden toegewezen UI wordt geëerd in [!UICONTROL Bulk Management Tools].
 
 >[!NOTE]
 >
@@ -42,11 +42,11 @@ Als u meerdere items wilt verwijderen, opent u het werkblad van [!UICONTROL Bulk
 2. Klik op de tab **[!UICONTROL Delete]** .
 3. Plak de verwijderkoppen in de eerste rij van het updatewerkblad.
 4. Plak of typ de id&#39;s voor de objecten die u wilt verwijderen in de kolom onder de koptekst.
-5. Verstrek het vereiste [ login informatie ](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik **[!UICONTROL Submit]**.
+5. Verstrek het vereiste [&#x200B; login informatie &#x200B;](../../reference/bulk-management-tools/bulk-management-intro.md#auth-reqs) en klik **[!UICONTROL Submit]**.
 
    In het werkblad wordt een kolom [!UICONTROL Results] gemaakt. De kolom [!UICONTROL Results] retourneert een bericht dat aangeeft of het item is verwijderd of een foutbericht.
 Voordat u gegevens invoert, moet uw bulkupdatewerkblad er ongeveer als volgt uitzien:
 
 ![](assets/delete.png)
 
-Als uw bulkupdate een fout terugkeert of ontbreekt, zie [ het Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk ](../../reference/bulk-management-tools/bulk-troubleshooting.md).
+Als uw bulkupdate een fout terugkeert of ontbreekt, zie [&#x200B; het Oplossen van problemen voor de Hulpmiddelen van het Beheer van het Bulk &#x200B;](../../reference/bulk-management-tools/bulk-troubleshooting.md).

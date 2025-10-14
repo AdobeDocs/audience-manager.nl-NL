@@ -27,21 +27,21 @@ Hier volgen enkele gebruiksgevallen die u kunt aanpakken met [!UICONTROL Trait E
 
 >[!IMPORTANT]
 >
->Een belangrijke opmerking over het derde geval van gebruik. Als de derdegegevensleverancier een nieuw demografisch bezit aan de gegevensvoer *toevoegt nadat u het model* creeerde, wordt het bezit automatisch opgenomen door het model. U kunt kenmerken niet uitsluiten van modellering nadat u het model hebt gemaakt. Zie [ Belangrijke Aspecten &amp; Beperkingen ](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Wees voorzichtig bij het gebruik van deze functie en werk met de gegevensaanbieder om ervoor te zorgen dat u op de hoogte bent van wijzigingen in de voederstructuur.
+>Een belangrijke opmerking over het derde geval van gebruik. Als de derdegegevensleverancier een nieuw demografisch bezit aan de gegevensvoer *toevoegt nadat u het model* creeerde, wordt het bezit automatisch opgenomen door het model. U kunt kenmerken niet uitsluiten van modellering nadat u het model hebt gemaakt. Zie [&#x200B; Belangrijke Aspecten &amp; Beperkingen &#x200B;](../../features/algorithmic-models/trait-exclusion-algo-models.md#important-aspects-and-limitations). Wees voorzichtig bij het gebruik van deze functie en werk met de gegevensaanbieder om ervoor te zorgen dat u op de hoogte bent van wijzigingen in de voederstructuur.
 
 ![](assets/lam_exclude_traits.png)
 
 ## Uitsluitingen trace gebruiken {#how-to-use}
 
-Gebruik [ bouwt een model ](../../features/algorithmic-models/create-model.md#build-model) werkschema om nieuwe algoritmische modellen te bouwen.
+Gebruik [&#x200B; bouwt een model &#x200B;](../../features/algorithmic-models/create-model.md#build-model) werkschema om nieuwe algoritmische modellen te bouwen.
 
 1. De selectie van [!UICONTROL Exclusions] wordt grijs weergegeven totdat u een of meer gegevensbronnen selecteert voor modellering.
 2. Druk op **[!UICONTROL Browse All Traits]** nadat u een of meer gegevensbronnen voor modellering hebt geselecteerd.
 3. In het venster **[!UICONTROL Select Traits to Exclude]** ziet u alle kenmerken die zijn gekoppeld aan de gegevensbronnen die u eerder hebt geselecteerd. Selecteer de kenmerken die u wilt uitsluiten.
-4. U kunt de eigenschappen filtreren door type van het dienstreis, type van de trekpopulatie ([ identiteitskaart van het Apparaat ](../../reference/ids-in-aam.md) en [ identiteitskaart van het dwars-Apparaat ](../../reference/ids-in-aam.md)), of u kunt de trekkeromslagen doorbladeren. Merk op dat de reisomslagen slechts de eigenschappen tonen verbonden aan uw geselecteerde gegevensbronnen.
+4. U kunt de eigenschappen filtreren door type van het dienstreis, type van de trekpopulatie ([&#x200B; identiteitskaart van het Apparaat &#x200B;](../../reference/ids-in-aam.md) en [&#x200B; identiteitskaart van het dwars-Apparaat &#x200B;](../../reference/ids-in-aam.md)), of u kunt de trekkeromslagen doorbladeren. Merk op dat de reisomslagen slechts de eigenschappen tonen verbonden aan uw geselecteerde gegevensbronnen.
 5. Druk op **[!UICONTROL Exclude Selected Traits]**.
 
-![ eigenschap-uitsluitingen ](assets/trait-exclusions-browse-traits.png)
+![&#x200B; eigenschap-uitsluitingen &#x200B;](assets/trait-exclusions-browse-traits.png)
 
 >[!TIP]
 >
@@ -101,4 +101,4 @@ Bekijk de onderstaande video om te leren hoe en waarom u specifieke kenmerken wi
 ## Verwante koppelingen
 
 * [Algorithmic Traits](/help/using/features/algorithmic-models/understanding-models.md)
-* [ Uitsluiting van het Beetje - Leerprogramma ](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)
+* [&#x200B; Uitsluiting van het Beetje - Leerprogramma &#x200B;](https://helpx.adobe.com/audience-manager/kt/using/excluding-traits-look-alike-model-feature-video-use.html)

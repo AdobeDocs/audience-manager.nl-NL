@@ -26,9 +26,9 @@ Boven aan de pagina met details van [!UICONTROL trait] staan de gereedschappen d
 1. **[!UICONTROL Add New]**: Gebruik deze optie om nieuwe [!UICONTROL rule-based] , [!UICONTROL algorithmic] of [!UICONTROL onboarded traits] te maken.
 2. **[!UICONTROL Edit]**: Gebruik deze optie om de configuratie van de huidige [!UICONTROL trait] te wijzigen.
 3. **[!UICONTROL Delete]**: Gebruik deze optie om de huidige [!UICONTROL trait] uit uw Audience Manager-account te verwijderen.
-4. **[!UICONTROL Marketplace Recommendations]**: met deze optie lijkt [!UICONTROL traits] op de optie die u bekijkt, aan de hand van [!UICONTROL Audience Marketplace] gegevenskosten waarop u niet bent geabonneerd. Zie [ Audience Marketplace voor de Kopers van Gegevens ](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) leren hoe te om [!UICONTROL Marketplace] te navigeren en gelijkaardige eigenschappen te vinden.
+4. **[!UICONTROL Marketplace Recommendations]**: met deze optie lijkt [!UICONTROL traits] op de optie die u bekijkt, aan de hand van [!UICONTROL Audience Marketplace] gegevenskosten waarop u niet bent geabonneerd. Zie [&#x200B; Audience Marketplace voor de Kopers van Gegevens &#x200B;](../audience-marketplace/marketplace-data-buyers/marketplace-data-buyers.md) leren hoe te om [!UICONTROL Marketplace] te navigeren en gelijkaardige eigenschappen te vinden.
 
-![ basis-eigenschap-informatie ](assets/basic-trait-information.png)
+![&#x200B; basis-eigenschap-informatie &#x200B;](assets/basic-trait-information.png)
 
 ## [!UICONTROL Trait] Informatie {#basics}
 
@@ -42,7 +42,7 @@ In de sectie [!UICONTROL Trait Information] vindt u meer informatie over de vere
 
 Voor [!UICONTROL rule-based traits] vindt [!UICONTROL trait] -kwalificatie plaats in realtime, aangezien gebruikers in aanmerking komen voor een [!UICONTROL trait] -kwalificatie in hun browser.
 
-Voor [!UICONTROL onboarded traits], [!UICONTROL trait] gebeurt de kwalificatie nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt [ gevoederd in Audience Manager ](../../faq/faq-inbound-data-ingestion.md) en dat is wanneer de [!UICONTROL trait] kwalificatie gebeurt.
+Voor [!UICONTROL onboarded traits], [!UICONTROL trait] gebeurt de kwalificatie nadat een binnenkomend dossier wordt verwerkt, d.w.z. het binnenkomende dossier wordt [&#x200B; gevoederd in Audience Manager &#x200B;](../../faq/faq-inbound-data-ingestion.md) en dat is wanneer de [!UICONTROL trait] kwalificatie gebeurt.
 
 In [!UICONTROL Trait Graph] ziet u de volgende informatie:
 
@@ -50,14 +50,14 @@ In [!UICONTROL Trait Graph] ziet u de volgende informatie:
    * **[!UICONTROL Cross-Device ID]**: selecteer deze optie om de resultaten weer te geven voor [!UICONTROL traits] die gegevens verzamelen voor geverifieerde profielen. Wanneer u deze optie selecteert, ziet u alleen gegevens in het [!UICONTROL Cross-Device ID] -rapport en zijn er geen gegevens aanwezig in het [!UICONTROL Device ID] -rapport.
    * **[!UICONTROL Device ID]**: selecteer deze optie om de resultaten te bekijken voor [!UICONTROL traits] die gegevens verzamelen voor apparaatprofielen. Wanneer u deze optie selecteert, ziet u alleen gegevens in het [!UICONTROL Device ID] -rapport en zijn er geen gegevens aanwezig in het [!UICONTROL Cross-Device ID] -rapport.
 
-     ![ lijn-grafiek ](assets/trait-summary.gif)
+     ![&#x200B; lijn-grafiek &#x200B;](assets/trait-summary.gif)
 
 * **[!UICONTROL Unique Trait Realizations]**: Een aantal unieke gebruikers die dit [!UICONTROL trait] binnen het opgegeven tijdbereik aan hun profiel hebben toegevoegd.
 * **[!UICONTROL Total Trait Population]**: Het aantal unieke gebruikers dat momenteel voor dit [!UICONTROL trait] in aanmerking komt.
 
 * **[!UICONTROL Identity Type Breakdown]**: De eerste drie vermeldingen tonen de bovenste drie [!UICONTROL cross-device data sources] met het hoogste aantal inwoners dat in aflopende volgorde voor de [!UICONTROL trait] is gekwalificeerd. De vierde vermelding toont de som van alle andere [!DNL DPUUIDs] ([!DNL CRM IDs]) die in aanmerking komen voor de [!UICONTROL trait] , van de [!UICONTROL cross-device data sources] die niet in de bovenste drie voorkomen. Dit rapport wordt alleen weergegeven als u [!UICONTROL Cross-device ID] selecteert in het vervolgkeuzemenu [!UICONTROL Show Results By] rechtsboven op de pagina. De standaardoptie voor de vervolgkeuzelijst is [!UICONTROL Device ID] , waarbij dit rapport niet wordt weergegeven.
 
-  ![ lijn-grafiek ](assets/trait-identity.png)
+  ![&#x200B; lijn-grafiek &#x200B;](assets/trait-identity.png)
 
   >[!NOTE]
   >
@@ -67,7 +67,7 @@ In [!UICONTROL Trait Graph] ziet u de volgende informatie:
 
 ## [!UICONTROL Trait] Uitdrukking {#trait-expression}
 
-In de sectie [!UICONTROL Trait Expression] ziet u de criteria waaraan gebruikers moeten voldoen om in aanmerking te komen voor de [!UICONTROL trait] . Deze regels worden geplaatst wanneer u [ creeert of een spoor ](../../features/traits/about-trait-builder.md) uitgeeft.
+In de sectie [!UICONTROL Trait Expression] ziet u de criteria waaraan gebruikers moeten voldoen om in aanmerking te komen voor de [!UICONTROL trait] . Deze regels worden geplaatst wanneer u [&#x200B; creeert of een spoor &#x200B;](../../features/traits/about-trait-builder.md) uitgeeft.
 
 ![](assets/traitExpression.png)
 

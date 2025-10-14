@@ -23,7 +23,7 @@ Beschrijft de eigenschap en de segmentgrootte en de vereisten van de aanmaaktijd
 [!UICONTROL Overlap] geeft wekelijks een update weer op zondag. De preprocessing van het rapport begint op zaterdag. Dit beïnvloedt hoe de nieuwe of bestaande segmenten in een overlappend rapport op Maandag verschijnen. In een overlappend rapport op te nemen:
 
 * Een segment moet minimaal 70.000 gebruikers in real-time gedurende de laatste 14 dagen bevatten.
-* Een bezit moet 28.000 [ unieke eigenschaprealisaties ](/help/using/features/traits/trait-and-segment-qualification-reference.md) tijdens de laatste 14 dagen bevatten.
+* Een bezit moet 28.000 [&#x200B; unieke eigenschaprealisaties &#x200B;](/help/using/features/traits/trait-and-segment-qualification-reference.md) tijdens de laatste 14 dagen bevatten.
 * Een segment moet vóór Donderdag UTC om 12.00 uur zijn gecreeerd (2 volledige dagen vóór het wekelijkse proces van de overlappende rapportupdate begint).
 * Uw bedrijf moet een volledige [!DNL Audience Manager] klant zijn. Neem contact op met uw [!DNL Audience Manager] consultant of de klantenservice voor meer informatie.
 

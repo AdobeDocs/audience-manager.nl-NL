@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # Het vangen van Campagne klikt Gegevens via de Vraag van het Pixel {#capturing-campaign-click-data-via-pixel-calls}
 
-Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd. Gelijkaardig aan [ impressions inzameling ](/help/using/integration/media-data-integration/impression-data-pixels.md), wordt een gebeurtenisvraag verzonden naar de [!DNL Audience Manager] servers van de gegevensinzameling ([!DNL DCS]) voor verwerking. De bezoeker wordt dan omgeleid aan het voorgenomen Webadres.
+Klik op bijhouden om de betrokkenheid van bezoekers tijdens uw campagne te meten, aangezien hierin op klikken gebaseerde activiteiten voor creatieve derden worden vastgelegd. Gelijkaardig aan [&#x200B; impressions inzameling &#x200B;](/help/using/integration/media-data-integration/impression-data-pixels.md), wordt een gebeurtenisvraag verzonden naar de [!DNL Audience Manager] servers van de gegevensinzameling ([!DNL DCS]) voor verwerking. De bezoeker wordt dan omgeleid aan het voorgenomen Webadres.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Op basis van het bovenstaande voorbeeld wordt de browser omgeleid naar de volgen
 
 ## Ondersteunde macro&#39;s
 
-Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. Een macro is een kleine eenheid op zichzelf staande code die wordt geactiveerd wanneer de tag ad wordt geladen voor het bijhouden van campagnes en gebruikers. De macro&#39;s worden samen met het doel [!DNL URL] doorgegeven, mits deze met de volgende indeling worden gemarkeerd: `%macro%` . Sommige toetsen hebben geen macro&#39;s en accepteren in plaats daarvan een hard gecodeerde id-waarde. De sleutels die harde gecodeerde waarden goedkeuren worden vereist als u gegevens in de [ Rapporten van Audience Optimization ](../../reporting/audience-optimization-reports/audience-optimization-reports.md) wilt analyseren.
+Klik op gebeurtenissen om de macro&#39;s in de volgende tabel te ondersteunen. Een macro is een kleine eenheid op zichzelf staande code die wordt geactiveerd wanneer de tag ad wordt geladen voor het bijhouden van campagnes en gebruikers. De macro&#39;s worden samen met het doel [!DNL URL] doorgegeven, mits deze met de volgende indeling worden gemarkeerd: `%macro%` . Sommige toetsen hebben geen macro&#39;s en accepteren in plaats daarvan een hard gecodeerde id-waarde. De sleutels die harde gecodeerde waarden goedkeuren worden vereist als u gegevens in de [&#x200B; Rapporten van Audience Optimization &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md) wilt analyseren.
 
 <table id="table_6EB65C3B7D0E49C59AA6C932549E33FC"> 
  <thead> 
@@ -168,9 +168,9 @@ Op basis van het bovenstaande voorbeeld wordt de browser omgeleid naar de volgen
 
 ## Aanvullende functionaliteit - [!UICONTROL Audience Optimization Reports]
 
-U kunt pixelvraag gebruiken om de [ Rapporten van Audience Optimization ](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) te aandrijven. Zie [ Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u wenst om pixel te gebruiken om de rapporten aan te drijven.
+U kunt pixelvraag gebruiken om de [&#x200B; Rapporten van Audience Optimization &#x200B;](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md) te aandrijven. Zie [&#x200B; Overzicht en Toewijzingen voor de Dossiers van Meta-gegevens &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-file-overview.md) als u wenst om pixel te gebruiken om de rapporten aan te drijven.
 
 
 >[!MORELIKETHIS]
 >
->* [ Gegevens en de Dossiers van Meta-gegevens voor de Rapporten van Audience Optimization ](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)
+>* [&#x200B; Gegevens en de Dossiers van Meta-gegevens voor de Rapporten van Audience Optimization &#x200B;](../../reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md)

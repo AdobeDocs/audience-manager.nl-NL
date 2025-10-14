@@ -95,19 +95,19 @@ Hieronder volgen twee voorbeelden van de werking van recentiepunten, afhankelijk
 
 ### Een operator gebruiken die kleiner is dan of gelijk is aan (&lt;=)
 
-![ minder-dan-gelijk-aan ](assets/less-than-equal-to.png)
+![&#x200B; minder-dan-gelijk-aan &#x200B;](assets/less-than-equal-to.png)
 
 In dit voorbeeld selecteert u de operator &lt;=, zoals wordt weergegeven in de schermafbeelding. Dit kwalificeert de gebruiker voor [!UICONTROL segment] als deze in aanmerking komt voor een van de drie [!UICONTROL traits] minimaal drie keer in de laatste vijf dagen. In de onderstaande tijdlijn ziet u de [!UICONTROL segment] -kwalificatie op het moment dat [!UICONTROL segment] wordt gemaakt, op 1 oktober en tien dagen later.
 
-![ Laatste-vijf-dagen ](assets/last-5-days.png)
+![&#x200B; Laatste-vijf-dagen &#x200B;](assets/last-5-days.png)
 
 ### Een operator (=>) gebruiken die groter is dan of gelijk is aan
 
-![ groter-dan-gelijk-aan ](assets/greater-than-equal-to.png)
+![&#x200B; groter-dan-gelijk-aan &#x200B;](assets/greater-than-equal-to.png)
 
 In dit voorbeeld selecteert u de operator =>, zoals in de schermafbeelding wordt getoond. Dit kwalificeert uw gebruiker voor [!UICONTROL segment] als zij voor om het even welke drie [!UICONTROL traits] minstens drie keer in aanmerking komen tussen hun eerste kwalificatie op het platform van Audience Manager en de besnoeiingstijd vijf dagen geleden. In de onderstaande tijdlijn ziet u de [!UICONTROL segment] -kwalificatie op het moment dat [!UICONTROL segment] wordt gemaakt, op 1 oktober en tien dagen later.
 
-![ vroeger-kwalificatie ](assets/earlier-qualification.png)
+![&#x200B; vroeger-kwalificatie &#x200B;](assets/earlier-qualification.png)
 
 
 ## Voorbeelden van frequentiecortering {#frequency-capping}
@@ -124,5 +124,5 @@ Tot expressies met een frequentiecijfer behoren alle gebruikers voor wie het aan
 
 >[!MORELIKETHIS]
 >
->* [ de Controles van de Bouwer van het Segment: De Sectie van de Treits ](../../features/segments/segment-builder.md#segment-builder-controls-traits)
+>* [&#x200B; de Controles van de Bouwer van het Segment: De Sectie van de Treits &#x200B;](../../features/segments/segment-builder.md#segment-builder-controls-traits)
 >* [Gebruikte codesyntaxis in de Segment Expression Editor](../../features/segments/segment-code-syntax.md)

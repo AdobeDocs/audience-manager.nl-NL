@@ -25,7 +25,7 @@ Als u een nieuwe [!UICONTROL data source] wilt maken, gaat u naar **[!UICONTROL 
 
 >[!TIP]
 >
->Zie {de Montages van Source van 0} Gegevens en de Opties van het Menu [ voor beschrijvingen van deze verschillende controles.](../features/datasources-list-and-settings.md#settings-menu-options)
+>Zie {de Montages van Source van 0} Gegevens en de Opties van het Menu [&#x200B; voor beschrijvingen van deze verschillende controles.](../features/datasources-list-and-settings.md#settings-menu-options)
 
 ## [!UICONTROL Data Source] Details {#details}
 
@@ -34,10 +34,10 @@ Vul de volgende velden in om de sectie [!UICONTROL Data Source Details] te volto
 1. **[!UICONTROL Name]**: geef een naam op voor de gegevensbron.
 1. **[!UICONTROL Description]** (optioneel): voer een beschrijving in voor de gegevensbron om u te helpen de rol of het doel van de gegevensbron te definiëren.
 1. **[!UICONTROL Integration Code]** (optioneel): voer een integratiecode in. Deze codes zijn vereist wanneer u wilt:
-   * [ creeer een dwars-apparatengegevensbron ](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
-   * Gebruik de [ Dienst van de Identiteit van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
-   * Het werk met [ Regels van de Fusie van het Profiel ](../features/profile-merge-rules/merge-rules-start.md).
-1. **[!UICONTROL Namespace]** (alleen-lezen): Dit veld is alleen-lezen en wordt automatisch gegenereerd wanneer u de gegevensbron opslaat. Als u segmenten van Audience Manager naar Experience Platform wilt uitvoeren, moet u een overeenkomstige [ identiteit tot stand brengen namespace ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl-NL#manage-namespaces) in Experience Platform, gebruikend automatisch geproduceerde waarde als namespace [ identiteitssymbool ](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) in Experience Platform.
+   * [&#x200B; creeer een dwars-apparatengegevensbron &#x200B;](../features/profile-merge-rules/merge-rules-start.md#create-data-source).
+   * Gebruik de [&#x200B; Dienst van de Identiteit van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
+   * Het werk met [&#x200B; Regels van de Fusie van het Profiel &#x200B;](../features/profile-merge-rules/merge-rules-start.md).
+1. **[!UICONTROL Namespace]** (alleen-lezen): Dit veld is alleen-lezen en wordt automatisch gegenereerd wanneer u de gegevensbron opslaat. Als u segmenten van Audience Manager naar Experience Platform wilt uitvoeren, moet u een overeenkomstige [&#x200B; identiteit tot stand brengen namespace &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl-NL#manage-namespaces) in Experience Platform, gebruikend automatisch geproduceerde waarde als namespace [&#x200B; identiteitssymbool &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-platform/identity/features/namespaces#components-of-a-namespace) in Experience Platform.
 1. **[!UICONTROL ID Type]**: Selecteer het type id&#39;s dat deze gegevensbron zal bevatten:
    * **[!UICONTROL Cookie]**
    * **[!UICONTROL Device Advertising ID]**
@@ -49,7 +49,7 @@ Vul de volgende velden in om de sectie [!UICONTROL Data Source Details] te volto
 
 ## [!UICONTROL Data Export Controls] {#export-controls}
 
-[ de Controles van de Uitvoer van Gegevens ](../features/data-export-controls.md) zijn facultatieve classificatieregels u op a [!UICONTROL data source] en [!UICONTROL destination] kunt toepassen. Hiermee voorkomt u dat u gegevens naar een [!UICONTROL destination] verzendt wanneer die handeling een schending van de privacy van gegevens of een gebruiksovereenkomst oplevert. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
+[&#x200B; de Controles van de Uitvoer van Gegevens &#x200B;](../features/data-export-controls.md) zijn facultatieve classificatieregels u op a [!UICONTROL data source] en [!UICONTROL destination] kunt toepassen. Hiermee voorkomt u dat u gegevens naar een [!UICONTROL destination] verzendt wanneer die handeling een schending van de privacy van gegevens of een gebruiksovereenkomst oplevert. Sla deze sectie over als u [!UICONTROL Data Export Controls] niet gebruikt.
 
 ## [!UICONTROL Data Source] Instellingen {#settings}
 
@@ -68,8 +68,8 @@ Verwijder een [!UICONTROL data source] die u niet meer nodig hebt.
 >
 >Houd rekening met de volgende beperkingen:
 >
->* U kunt geen [ Actief Publiek of Gegevens Source Gesynchroniseerd Spoor ](../features/traits/client-activity-synced-audience-traits.md) schrappen.
->* Voor klanten die Adobe Analytics gebruiken: Audience Manager staat u niet toe gegevensbronnen te verwijderen die automatisch zijn gemaakt op basis van uw [!DNL Analytics] -rapportsuite. Gebruik de [ Dienst van de Kern ](https://experienceleague.adobe.com/nl/docs/core-services/interface/services/customer-attributes/attributes) om deze gegevensbronnen unmap.
+>* U kunt geen [&#x200B; Actief Publiek of Gegevens Source Gesynchroniseerd Spoor &#x200B;](../features/traits/client-activity-synced-audience-traits.md) schrappen.
+>* Voor klanten die Adobe Analytics gebruiken: Audience Manager staat u niet toe gegevensbronnen te verwijderen die automatisch zijn gemaakt op basis van uw [!DNL Analytics] -rapportsuite. Gebruik de [&#x200B; Dienst van de Kern &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/services/customer-attributes/attributes) om deze gegevensbronnen unmap.
 
 1. Klik op **[!UICONTROL Audience Data]** > **[!UICONTROL Data Sources]** .
 1. Schakel het selectievakje naast een of meer gegevensbronnen in.
@@ -79,4 +79,4 @@ U kunt het vak [!UICONTROL Search] gebruiken om de gewenste gegevensbronnen te z
 
 >[!MORELIKETHIS]
 >
->* [ de Montages van Source van Gegevens en de Opties van het Menu ](../features/datasources-list-and-settings.md#settings-menu-options)
+>* [&#x200B; de Montages van Source van Gegevens en de Opties van het Menu &#x200B;](../features/datasources-list-and-settings.md#settings-menu-options)

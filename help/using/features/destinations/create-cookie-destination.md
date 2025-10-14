@@ -38,10 +38,10 @@ Deze sectie bevat velden en opties waarmee het aanmaakproces van de cookie-beste
 
 ## Labels voor gegevensexport {#data-export-labels-cookies}
 
-Deze sectie bevat opties die [ de controles van de gegevensuitvoer ](../../features/data-export-controls.md) op een koekjesbestemming toepassen. Sla deze stap over als u geen besturingselementen voor het exporteren van gegevens gebruikt. Deze sectie voltooien:
+Deze sectie bevat opties die [&#x200B; de controles van de gegevensuitvoer &#x200B;](../../features/data-export-controls.md) op een koekjesbestemming toepassen. Sla deze stap over als u geen besturingselementen voor het exporteren van gegevens gebruikt. Deze sectie voltooien:
 
 1. Klik op **[!UICONTROL Data Export Labels]** om de besturingselementen weer te geven.
-2. Selecteer een etiket dat aan de controle beantwoordt van de gegevensuitvoer die op de bestemming wordt toegepast (zie [ de Etiketten van de Uitvoer aan een Doel ](/help/using/features/destinations/add-data-export-labels.md) voor details toevoegen).
+2. Selecteer een etiket dat aan de controle beantwoordt van de gegevensuitvoer die op de bestemming wordt toegepast (zie [&#x200B; de Etiketten van de Uitvoer aan een Doel &#x200B;](/help/using/features/destinations/add-data-export-labels.md) voor details toevoegen).
 3. Klik op **[!UICONTROL Save]**.
 
 ## Configuratie {#configuration}
@@ -59,10 +59,10 @@ Deze sectie voltooien:
 1. Kies een optie voor de gegevensindeling. Met deze opties kunt u de scheidingstekens en scheidingstekens kiezen voor de sleutelwaardeparen die segmentgegevens naar een bestemming verzenden. Indelingsopties zijn:
    * **Enige sleutel:** laat u de sleutel in een zeer belangrijk-waardepaar plaatsen. U stelt de waarde in nadat u een segment hebt geselecteerd in de onderstaande sectie [!UICONTROL Segment Mappings] .
    * **Multi sleutel:** laat u de sleutel en de waarde voor een zeer belangrijk-waardepaar plaatsen. U zult het zeer belangrijk-waardepaar tot stand brengen nadat u een segment in de sectie van de Toewijzingen van het Segment hieronder selecteert.
-Zie [ Standaard en Serie Zeer belangrijk-Waarde paren ](../../features/destinations/key-value-pairs.md) voor meer informatie over deze gegevenselementen.
+Zie [&#x200B; Standaard en Serie Zeer belangrijk-Waarde paren &#x200B;](../../features/destinations/key-value-pairs.md) voor meer informatie over deze gegevenselementen.
 1. Klik op **[!UICONTROL Save]**.
 
-Alle andere instellingen zijn optioneel. Voor meer informatie over **[!UICONTROL Cookie Domain]** en **[!UICONTROL Publish data to]** montages, zie [ Facultatieve Montages voor de Doelen van het Koekje ](/help/using/features/destinations/cookie-destination-options.md).
+Alle andere instellingen zijn optioneel. Voor meer informatie over **[!UICONTROL Cookie Domain]** en **[!UICONTROL Publish data to]** montages, zie [&#x200B; Facultatieve Montages voor de Doelen van het Koekje &#x200B;](/help/using/features/destinations/cookie-destination-options.md).
 
 ## Segmenttoewijzingen {#segments-mapping}
 

@@ -28,7 +28,7 @@ Adobe ondersteunt de nieuwste belangrijke versie van deze browsers:
 
 * **Google Chrome**
 
-  Krijg de recentste versie van Chrome van [ https://www.google.com/chrome ](https://www.google.com/chrome).
+  Krijg de recentste versie van Chrome van [&#x200B; https://www.google.com/chrome &#x200B;](https://www.google.com/chrome).
 
 * **Microsoft Edge**
 
@@ -38,10 +38,10 @@ Adobe ondersteunt de nieuwste belangrijke versie van deze browsers:
 
 * **Mozilla Firefox**
 
-  Krijg de recentste versie Firefox van [ https://www.mozilla.com/en-US/firefox ](https://www.mozilla.com/en-US/firefox).
+  Krijg de recentste versie Firefox van [&#x200B; https://www.mozilla.com/en-US/firefox &#x200B;](https://www.mozilla.com/en-US/firefox).
 
 * **Safari**
 
-  Krijg de recentste versie van Safari van [ https://www.apple.com/safari/download ](https://www.apple.com/safari/download).
+  Krijg de recentste versie van Safari van [&#x200B; https://www.apple.com/safari/download &#x200B;](https://www.apple.com/safari/download).
 
 Andere browsers werken mogelijk ook, maar worden niet ondersteund door onze technische en productteams. Als u problemen hebt met het werken met [!DNL Audience Manager], zorg er dan voor dat u een actuele en ondersteunde browser gebruikt.

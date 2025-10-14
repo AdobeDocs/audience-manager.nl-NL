@@ -20,7 +20,7 @@ Methoden waarmee u Audience Manager [!DNL DCS] -gebieden programmatisch kunt wee
 
 <!-- c_rest_api_regions.xml -->
 
-Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [ DCS Gebied IDs, Locaties, en de Namen van de Gastheer ](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [&#x200B; DCS Gebied IDs, Locaties, en de Namen van de Gastheer &#x200B;](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 ## Een specifiek DCS-gebied weergeven {#list-specific-dcs-region}
 
@@ -50,7 +50,7 @@ Een `GET` -methode om een specifiek [!DNL DCS] -gebied weer te geven.
 
 Retourneert `200 OK` indien gelukt.
 
-Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [ DCS Gebied IDs, Locaties, en de Namen van de Gastheer ](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [&#x200B; DCS Gebied IDs, Locaties, en de Namen van de Gastheer &#x200B;](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
 
 ## DCS-gebieden weergeven {#list-dcs-regions}
 
@@ -83,4 +83,4 @@ Een `GET` -methode om [!DNL DCS] -gebieden weer te geven.
 
 Retourneert `200 OK` indien gelukt.
 
-Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [ DCS Gebied IDs, Locaties, en de Namen van de Gastheer ](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).
+Voor een lijst van gebieden en hun overeenkomstige gehelen, zie [&#x200B; DCS Gebied IDs, Locaties, en de Namen van de Gastheer &#x200B;](../../api/dcs-intro/dcs-api-reference/dcs-regions.md).

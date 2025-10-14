@@ -22,7 +22,7 @@ In dit artikel worden de concepten en terminologie uitgelegd die worden gebruikt
 
 De GDPR (AVG) is op 25 mei 2018 in werking getreden, met als hoofddoel om individuen in de EU (geregistreerde personen) meer controle te geven over hun persoonlijke data en tegelijk het regelgevingskader voor internationale ondernemingen te vereenvoudigen door de regelgeving binnen de EU beter af te stemmen. Als onderdeel van de GDPR (AVG)-gereedheid van Adobe heeft het team van Adobe Audience Manager services en processen verbeterd waar dat nodig was voor de ondersteuning van toegangs- en verwijderingsaanvragen van geregistreerde personen, uw consumenten.
 
-Zorg ervoor u ook over GDPR in het [ overzicht van de Regels van de Privacy ](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=nl-NL) voor een beter begrip van leest hoe GDPR in Experience Cloud werkt.
+Zorg ervoor u ook over GDPR in het [&#x200B; overzicht van de Regels van de Privacy &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=nl-NL) voor een beter begrip van leest hoe GDPR in Experience Cloud werkt.
 
 ## Verklarende woordenlijst GDPR {#gdpr-glossay}
 

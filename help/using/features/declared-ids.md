@@ -54,7 +54,7 @@ Sommige browsers en de meeste mobiele apparaten accepteren [!DNL cookies] niet v
  </tbody>
 </table>
 
-Om te beginnen moet u de [!DNL Experience Cloud] id-service en [!UICONTROL DIL] configureren voor alle pagina&#39;s op uw site die u wilt gebruiken voor gegevensverzameling. Zie [ DIL creeert ](../dil/dil-class-overview/dil-create.md#dil-create) en [ Verklaarde Variabelen van identiteitskaart ](../features/declared-ids.md#declared-id-variables).
+Om te beginnen moet u de [!DNL Experience Cloud] id-service en [!UICONTROL DIL] configureren voor alle pagina&#39;s op uw site die u wilt gebruiken voor gegevensverzameling. Zie [&#x200B; DIL creeert &#x200B;](../dil/dil-class-overview/dil-create.md#dil-create) en [&#x200B; Verklaarde Variabelen van identiteitskaart &#x200B;](../features/declared-ids.md#declared-id-variables).
 
 ## Uitgaande oproepen {#opt-out-calls}
 
@@ -63,7 +63,7 @@ Het [!UICONTROL declared ID] -proces houdt rekening met de voorkeuren van de sit
 * [!DNL Audience Manager] kan een [!UICONTROL declared ID] -optie naast een [!DNL Audience Manager] [!UICONTROL UUID] in de [!DNL URL] doorgeven.
 * De [!UICONTROL declared ID] opt-out wordt opgeslagen in [!UICONTROL Profile Cache Server] ([!UICONTROL PCS]) op een per-partnerbasis. Er is geen opt-out op platformniveau met [!UICONTROL declared IDs] . Daarnaast wordt de gebruiker door [!DNL Audience Manager] uitgeschakeld in het desbetreffende gebied aan de rand (de optie Weigeren kruist [!DNL DCS] -gebieden niet).
 
-Zie [ Privacy van Gegevens ](../overview/data-security-and-privacy/data-privacy.md) voor meer informatie over het opting-uit van gegevensinzameling.
+Zie [&#x200B; Privacy van Gegevens &#x200B;](../overview/data-security-and-privacy/data-privacy.md) voor meer informatie over het opting-uit van gegevensinzameling.
 
 ## [!UICONTROL Declared ID] Voorbeelden voor uitschakelen {#opt-out-examples}
 
@@ -184,7 +184,7 @@ Beschrijft de configuratievariabelen die worden gebruikt om [!UICONTROL declared
 
 ## [!UICONTROL DIL] gebruikt de lus [!DNL Adobe Experience Platform Identity Service] to Pass [!UICONTROL Declared IDs] {#dil-id-service-pass-declared-ids}
 
-Wanneer gebruikt met de [ Dienst van de Identiteit van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL), te hoeven u niet meer binnen [!UICONTROL declared IDs] met de afgekeurde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan vertrouwen de huidige versies van [!UICONTROL DIL] op de `visitorService` functie om [!UICONTROL declared IDs] van de `setCustomerIDs` functie in [!UICONTROL Adobe Experience Platform Identity Service] te krijgen. Voor meer informatie, zie [ Klant IDs en de Staten van de Authentificatie ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL). U roept `visitorService` in `DIL.create` aan, zoals hieronder wordt weergegeven.
+Wanneer gebruikt met de [&#x200B; Dienst van de Identiteit van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL), te hoeven u niet meer binnen [!UICONTROL declared IDs] met de afgekeurde `dpid` en `dpuuid` variabelen over te gaan. In plaats daarvan vertrouwen de huidige versies van [!UICONTROL DIL] op de `visitorService` functie om [!UICONTROL declared IDs] van de `setCustomerIDs` functie in [!UICONTROL Adobe Experience Platform Identity Service] te krijgen. Voor meer informatie, zie [&#x200B; Klant IDs en de Staten van de Authentificatie &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=nl-NL). U roept `visitorService` in `DIL.create` aan, zoals hieronder wordt weergegeven.
 
 ```js
 var vDil = DIL.create({
@@ -195,7 +195,7 @@ var vDil = DIL.create({
 });
 ```
 
-In het `namespace` key-value paar is `MCORG` uw [!DNL Experience Cloud] Organisatie-id. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het dashboard van [!DNL Experience Cloud] . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [ begonnen worden met de diensten van Experience Cloud ](https://experienceleague.adobe.com/nl/docs/core-services/interface/services/getting-started).
+In het `namespace` key-value paar is `MCORG` uw [!DNL Experience Cloud] Organisatie-id. Als u deze id niet hebt, vindt u deze in de sectie [!UICONTROL Administration] van het dashboard van [!DNL Experience Cloud] . U hebt beheerdersmachtigingen nodig om dit dashboard weer te geven. Zie [&#x200B; begonnen worden met de diensten van Experience Cloud &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/services/getting-started).
 
 ## Verouderde functies {#deprecated-functions}
 

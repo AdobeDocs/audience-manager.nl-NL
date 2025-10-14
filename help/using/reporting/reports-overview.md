@@ -16,7 +16,7 @@ ht-degree: 0%
 
 In de afzonderlijke secties worden de beschikbare rapporten, hun doeleinden en het typische gebruik beschreven. Alle rapporten zijn beschikbaar via het dashboard van [!UICONTROL Analytics] .
 
-Voor informatie beschrijvend de tijdkaders wanneer Audience Manager informatie ontvangt om rapporten te bevolken, zie [ hoe de Levering van Gegevens en de Tijden van de Verwerking van het Dossier Rapporten ](/help/using/reference/reporting-file-transfer-timeframe.md) beïnvloeden.
+Voor informatie beschrijvend de tijdkaders wanneer Audience Manager informatie ontvangt om rapporten te bevolken, zie [&#x200B; hoe de Levering van Gegevens en de Tijden van de Verwerking van het Dossier Rapporten &#x200B;](/help/using/reference/reporting-file-transfer-timeframe.md) beïnvloeden.
 
 * [Audience Optimization-rapporten](/help/using/reporting/audience-optimization-reports/audience-optimization-reports.md)
 

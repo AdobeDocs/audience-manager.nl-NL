@@ -42,7 +42,7 @@ In de naam van het metagegevensbestand is de onderliggende id een id waarmee het
 1. Plaatsing
 1. Exchange
 1. Site
-1. Advertiser (als het gebruiken van integratiecodes in a [ gegevensbron ](../../../features/manage-datasources.md#details))
+1. Advertiser (als het gebruiken van integratiecodes in a [&#x200B; gegevensbron &#x200B;](../../../features/manage-datasources.md#details))
 1. Invoegvolgorde (IO)
 1. Verticaal (d.w.z. een specifieke industrie- of bedrijfscategorie zoals &quot;computers&quot;, &quot;auto&#39;s&quot;, &quot;onroerend goed&quot; enz.)
 1. Tactisch

@@ -37,7 +37,7 @@ Voordat u een nieuwe, op apparaten gebaseerde bestemming kunt maken, moet u de i
 1. Klik op **[!DNL Add Account]**.
 1. Selecteer het doelplatform waarmee u wilt verifiëren en klik op **[!DNL Confirm]** om te worden omgeleid naar de verificatiepagina van het geselecteerde platform.
 
-   ![ geïntegreerd-platforms ](assets/dbd-integrated-platforms.png)
+   ![&#x200B; geïntegreerd-platforms &#x200B;](assets/dbd-integrated-platforms.png)
 
 1. Zodra je je hebt geverifieerd op je doelplatformaccount, word je doorgestuurd naar Audience Manager waar je de bijbehorende adverteerderaccounts kunt bekijken. Selecteer het adverteerderaccount dat u wilt gebruiken en klik op **[!DNL Confirm]** .
 
@@ -52,14 +52,14 @@ Nadat u de integratie van het bestemmingsplatform hebt gevormd, kunt u de nieuwe
 1. Meld u aan bij uw Audience Manager-account, ga naar **[!DNL Audience Data > Destinations]** en klik op **[!DNL Create Destination]** .
 1. Voer in de sectie **[!DNL Basic Information]** een **[!DNL Name]** en **[!DNL Description]** in voor uw nieuwe doel en gebruik de instellingen in de onderstaande lijst:
 
-   ![ opstelling ](assets/dbd-new-basic.png)
+   ![&#x200B; opstelling &#x200B;](assets/dbd-new-basic.png)
 
    * **[!DNL Category]**: [!DNL Integrated Platforms];
    * **[!DNL Type]**: [!DNL Device-Based];
    * **[!DNL Platform]**: selecteer het doelplatform waarnaar u publiekssegmenten wilt verzenden.
    * **[!DNL Account]** : selecteer het gewenste adverteerderaccount dat aan het geselecteerde platform is gekoppeld.
 1. Klik op **[!DNL Next]**.
-1. Kies de [ Etiketten van de Uitvoer van Gegevens ](/help/using/features/data-export-controls.md#controls-labels) die u voor deze bestemming wilt plaatsen.
+1. Kies de [&#x200B; Etiketten van de Uitvoer van Gegevens &#x200B;](/help/using/features/data-export-controls.md#controls-labels) die u voor deze bestemming wilt plaatsen.
 1. Klik op **[!DNL Save]**.
 1. Selecteer in de sectie **[!DNL Segment Mappings]** de publiekssegmenten die u naar deze bestemming wilt verzenden.
 1. Sla het doel op.

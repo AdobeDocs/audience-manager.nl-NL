@@ -31,7 +31,7 @@ Het [!DNL IP]-adres van een bezoeker van een klantwebsite wordt verzonden naar e
 
 >[!NOTE]
 >
->Zie [ IP de Obfuscatie van het Adres ](../../features/administration/ip-obfuscation.md) leren hoe te om [!DNL IP] adresverwarring in het gebruikersinterface van Audience Manager toe te laten.
+>Zie [&#x200B; IP de Obfuscatie van het Adres &#x200B;](../../features/administration/ip-obfuscation.md) leren hoe te om [!DNL IP] adresverwarring in het gebruikersinterface van Audience Manager toe te laten.
 
 Bekijk de onderstaande video om te begrijpen hoe het onzichtbaar maken van [!DNL IP]-adressen in Audience Manager werkt.
 

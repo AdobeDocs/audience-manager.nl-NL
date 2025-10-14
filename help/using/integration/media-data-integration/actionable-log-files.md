@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Werkbare logbestanden {#actionable-log-files}
 
-Met [!UICONTROL Actionable Log Files] kunt u mediagegevens vastleggen uit logbestanden van advertenties en de gegevens gebruiken om kenmerken in Audience Manager te maken. Vang impressies, klikken, en omzettingen van advertentieservers als eigenschappen zonder het moeten [ pixel ](../../integration/media-data-integration/impression-data-pixels.md) toevoegen.
+Met [!UICONTROL Actionable Log Files] kunt u mediagegevens vastleggen uit logbestanden van advertenties en de gegevens gebruiken om kenmerken in Audience Manager te maken. Vang impressies, klikken, en omzettingen van advertentieservers als eigenschappen zonder het moeten [&#x200B; pixel &#x200B;](../../integration/media-data-integration/impression-data-pixels.md) toevoegen.
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ Met [!UICONTROL Actionable Log Files] kunt u mediagegevens vastleggen uit logbes
 
 Als u aan de slag wilt met [!UICONTROL Actionable Log Files] , moet u loggegevens importeren in [!DNL Audience Manager] . Aan de slag met de volgende koppelingen:
 
-* Voor [!UICONTROL Google Campaign Manager] logboeken, zie [ de Dossiers van de Gegevens van de Manager van de Campagne van de Invoer Google in Audience Manager ](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *en* contact uw [!DNL Audience Manager] adviseur.
-* Voor [!UICONTROL Google Ad Manager] (vroeger Google DFP) logboeken, zie [ de Dossiers van de Gegevens van Google en van de Manager van de Manager van de Invoer in Audience Manager ](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *en* contacteer uw [!DNL Audience Manager] consultant.
-* Voor andere logboekregistraties van de advertentieserver, zie [ Gegevens en de Dossiers van Meta-gegevens ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *en* contact uw [!DNL Audience Manager] adviseur.
+* Voor [!UICONTROL Google Campaign Manager] logboeken, zie [&#x200B; de Dossiers van de Gegevens van de Manager van de Campagne van de Invoer Google in Audience Manager &#x200B;](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md) *en* contact uw [!DNL Audience Manager] adviseur.
+* Voor [!UICONTROL Google Ad Manager] (vroeger Google DFP) logboeken, zie [&#x200B; de Dossiers van de Gegevens van Google en van de Manager van de Manager van de Invoer in Audience Manager &#x200B;](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md) *en* contacteer uw [!DNL Audience Manager] consultant.
+* Voor andere logboekregistraties van de advertentieserver, zie [&#x200B; Gegevens en de Dossiers van Meta-gegevens &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) *en* contact uw [!DNL Audience Manager] adviseur.
 
-Als u reeds logboekgegevens in [!DNL Audience Manager] invoert, vraag uw [!DNL Audience Manager] consultant of [ de Zorg van de Klant ](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) om [!UICONTROL Actionable Log Files] voor u toe te laten.
+Als u reeds logboekgegevens in [!DNL Audience Manager] invoert, vraag uw [!DNL Audience Manager] consultant of [&#x200B; de Zorg van de Klant &#x200B;](https://helpx.adobe.com/nl/contact/enterprise-support.ec.html) om [!UICONTROL Actionable Log Files] voor u toe te laten.
 
 <!--
 
@@ -47,26 +47,26 @@ Als u reeds logboekgegevens in [!DNL Audience Manager] invoert, vraag uw [!DNL A
 
 ## Werken met uitvoerbare logbestanden {#working-with-actionable-log-files}
 
-Met [!UICONTROL Actionable Log Files] wordt de informatie van serverlogboeken voor advertenties in [!DNL Audience Manager] op dezelfde manier vastgelegd als gegevens van interacties van realtime websites. [!DNL Audience Manager] verbindt met uw opslag van het de serverlogboek van de advertentie, ontleedt de informatie van de logboeken, en verzendt de logboekgegevens als activeerbare signalen naar onze [ Servers van de Inzameling van Gegevens ](../../reference/system-components/components-data-collection.md#dcs-pcs).
+Met [!UICONTROL Actionable Log Files] wordt de informatie van serverlogboeken voor advertenties in [!DNL Audience Manager] op dezelfde manier vastgelegd als gegevens van interacties van realtime websites. [!DNL Audience Manager] verbindt met uw opslag van het de serverlogboek van de advertentie, ontleedt de informatie van de logboeken, en verzendt de logboekgegevens als activeerbare signalen naar onze [&#x200B; Servers van de Inzameling van Gegevens &#x200B;](../../reference/system-components/components-data-collection.md#dcs-pcs).
 
-U moet nog opstelling op regel-gebaseerde eigenschappen om de handelingssignalen te vangen. Zie hoe te opstelling op regel-gebaseerde eigenschappen of in het [ gebruikersinterface van Audience Manager ](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) of het gebruiken van onze [ BulkHulpmiddelen van het Beheer ](../../reference/bulk-management-tools/bulk-create.md). De rol neer aan de [ Acteerbare Signalen ](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) sectie voor een lijst van alle sleutels u in op regel-gebaseerde eigenschappen kunt gebruiken.
+U moet nog opstelling op regel-gebaseerde eigenschappen om de handelingssignalen te vangen. Zie hoe te opstelling op regel-gebaseerde eigenschappen of in het [&#x200B; gebruikersinterface van Audience Manager &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) of het gebruiken van onze [&#x200B; BulkHulpmiddelen van het Beheer &#x200B;](../../reference/bulk-management-tools/bulk-create.md). De rol neer aan de [&#x200B; Acteerbare Signalen &#x200B;](../../integration/media-data-integration/actionable-log-files.md#actionable-signals) sectie voor een lijst van alle sleutels u in op regel-gebaseerde eigenschappen kunt gebruiken.
 
 >[!IMPORTANT]
 >
->Wij adviseren uitvoerend [!UICONTROL Actionable Log Files] *in plaats van* [ Vraag van het Pixel ](../../integration/media-data-integration/impression-data-pixels.md). We ontmoedigen het gebruik van beide opties, omdat dit leidt tot een toename van het aantal frequenties voor kenmerken.
+>Wij adviseren uitvoerend [!UICONTROL Actionable Log Files] *in plaats van* [&#x200B; Vraag van het Pixel &#x200B;](../../integration/media-data-integration/impression-data-pixels.md). We ontmoedigen het gebruik van beide opties, omdat dit leidt tot een toename van het aantal frequenties voor kenmerken.
 
 ## Handbare signalen {#actionable-signals}
 
-De signalen zijn de [ kleinste gegevenseenheden ](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. Met [!UICONTROL Actionable Log Files] kunt u adverteerders, bedrijfseenheden, creatieve en campagnewaarden vastleggen in imitatiegebeurtenissen, gebeurtenissen en conversiegebeurtenissen als signalen van serverlogboeken voor advertenties.
+De signalen zijn de [&#x200B; kleinste gegevenseenheden &#x200B;](../../reference/signal-trait-segment.md) in [!DNL Audience Manager]. Met [!UICONTROL Actionable Log Files] kunt u adverteerders, bedrijfseenheden, creatieve en campagnewaarden vastleggen in imitatiegebeurtenissen, gebeurtenissen en conversiegebeurtenissen als signalen van serverlogboeken voor advertenties.
 
 >[!IMPORTANT]
 >
 >[!UICONTROL Actionable Log Files] worden ondersteund voor de volgende advertentieservers:
 >&#x200B;> <br>
 >
-> * [ de Manager van de Campagne van Google ](#dcm-logs-signals)
-> * [ Google Advertentiemanager ](#ad-manager-logs-signals)
-> * [ de Wolk van Adobe Advertising, Flashtalk, en Sizmek ](#generic-logs-signals)
+> * [&#x200B; de Manager van de Campagne van Google &#x200B;](#dcm-logs-signals)
+> * [&#x200B; Google Advertentiemanager &#x200B;](#ad-manager-logs-signals)
+> * [&#x200B; de Wolk van Adobe Advertising, Flashtalk, en Sizmek &#x200B;](#generic-logs-signals)
 
 Herinner me, om deze informatie voor publieksverwezenlijking en segmentatie te gebruiken, moet u opstelling de op regel-gebaseerde trekken zelf.
 
@@ -189,7 +189,7 @@ De tabel bevat een lijst met actiemotionele signalen uit logbestanden van [!DNL 
 | `OrderId` | `d_orderid` | De numerieke id voor de volgorde van Advertentiebeheer waarin het geleverde regelitem en de creatieve functie zijn opgenomen. |
 | `CreativeId` | `d_creative` | De numerieke id voor de geleverde advertentiemanager. |
 | `-` | `d_event` | Geeft het gebeurtenistype aan. Audience Manager leest het gebeurtenistype uit de naam van het logbestand van AdvertentiManager en zet het om in een actionable signaal. Accepteerde waarden zijn: <br> <ul><li>d_event = imp voor impressies.</li><li>d_event = click voor kliks.</li><li>d_event = conv voor conversies en activiteiten.</li></ul> |
-| `-` | `d_src` | De id van de gegevensbron die u gebruikt om Advertentiebeheergegevens vast te leggen. Zie [ hoe te om een Gegevens Source ](/help/using/features/manage-datasources.md) te creëren. |
+| `-` | `d_src` | De id van de gegevensbron die u gebruikt om Advertentiebeheergegevens vast te leggen. Zie [&#x200B; hoe te om een Gegevens Source &#x200B;](/help/using/features/manage-datasources.md) te creëren. |
 
 De signalen die in de tabel worden beschreven, worden in Audience Manager vastgelegd als een realtime HTTP-aanroep. De onderstaande voorbeeldaanroep bevat informatie over een conversiegebeurtenis van Google Ad Manager. De vraag moet niet noodzakelijk alle signalen in de voorbeeldvraag omvatten.
 
@@ -296,20 +296,20 @@ https://yourcompany.demdex.net?d_src=743&d_uuid=07955261652886032950143702505894
 
 ## Werken met Handbare signalen in de Audience Manager-gebruikersinterface {#actionable-signals-in-ui}
 
-U kunt uw inkomende actionable signalen in het [ Signals Onderzoek ](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) interface bekijken.
+U kunt uw inkomende actionable signalen in het [&#x200B; Signals Onderzoek &#x200B;](/help/using/features/data-explorer/data-explorer-signals-search/data-explorer-signals-search.md) interface bekijken.
 
 Ga naar **Gegevens van het publiek** (1) > **Signalen** (2) > **Onderzoek** (3) en selecteer de **Actiebare filter van de Dossiers van het Logboek** (4).
 
-![ Handelbare Signalen in UI ](/help/using/integration/assets/alf-in-signals.png)
+![&#x200B; Handelbare Signalen in UI &#x200B;](/help/using/integration/assets/alf-in-signals.png)
 
 Om op regel-gebaseerde treinen tot stand te brengen die uw actionable signalen gebruiken, de uitgezochte **Actiebare Dossiers van het Logboek** (1), selecteert de actioneerbare signalen die u als eigenlijke regels (2) wilt gebruiken, en drukt **tot Spoor van Geselecteerde Signalen** (3).
 
-![ creeer eigenschappen van signalen ](/help/using/integration/assets/alf-create-trait.png)
+![&#x200B; creeer eigenschappen van signalen &#x200B;](/help/using/integration/assets/alf-create-trait.png)
 
 
 ## Gevallen gebruiken {#use-cases}
 
-Één voordeel om [!UICONTROL Actionable Log Files] uit te voeren is de optie om [ recentie en frequentie ](../../features/segments/recency-and-frequency.md) controles op om het even welke [ op regel-gebaseerde eigenschappen ](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) toe te passen die actionable signalen bevatten. Zo kunt u bijvoorbeeld het aantal keren dat een gebruiker een bepaald creatief programma ziet, in een mediacampagne beperken. Lees [ Onmiddellijke Onderdrukking van dwars-Apparaat ](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) om te leren hoe te om dit te doen. Andere gebruiksgevallen zijn:
+Één voordeel om [!UICONTROL Actionable Log Files] uit te voeren is de optie om [&#x200B; recentie en frequentie &#x200B;](../../features/segments/recency-and-frequency.md) controles op om het even welke [&#x200B; op regel-gebaseerde eigenschappen &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md#create-rules-based-or-onboarded-traits) toe te passen die actionable signalen bevatten. Zo kunt u bijvoorbeeld het aantal keren dat een gebruiker een bepaald creatief programma ziet, in een mediacampagne beperken. Lees [&#x200B; Onmiddellijke Onderdrukking van dwars-Apparaat &#x200B;](/help/using/features/profile-merge-rules/instant-cross-device-suppression.md) om te leren hoe te om dit te doen. Andere gebruiksgevallen zijn:
 
 ### Gebruikers opnieuw toewijzen
 
@@ -331,7 +331,7 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 
 ### De activiteit van de Manager van de Campagne van Google van het gebruik de Vullight in de Rapporten van Audience Optimization of in het Laboratorium van het Publiek
 
-[ de markeringen van de Vullingslicht ](https://support.google.com/dcm/partner/answer/4293719?hl=en) laten adverteerders toe om gebruikersomzettingen te volgen. Met [!UICONTROL Actionable Log Files], kunt u de [!DNL Google Campaign Manager] omzettingen in de [ Rapporten van Audience Optimization ](../../reporting/audience-optimization-reports/audience-optimization-reports.md) of in [ Laboratorium van de Publiek ](../../features/audience-lab/audience-lab.md) volgen:
+[&#x200B; de markeringen van de Vullingslicht &#x200B;](https://support.google.com/dcm/partner/answer/4293719?hl=en) laten adverteerders toe om gebruikersomzettingen te volgen. Met [!UICONTROL Actionable Log Files], kunt u de [!DNL Google Campaign Manager] omzettingen in de [&#x200B; Rapporten van Audience Optimization &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md) of in [&#x200B; Laboratorium van de Publiek &#x200B;](../../features/audience-lab/audience-lab.md) volgen:
 
 1. Maak een kenmerk en gebruik de volgende regel voor het vastleggen van een conversie van de logboeken van de advertentieserver:
 
@@ -343,5 +343,5 @@ Ga gebruikers terug die creatieve 123 zagen maar niet klikte of omzet en hen cre
 
 >[!MORELIKETHIS]
 >
->* [ de Dossiers van de Gegevens van de Manager van de Campagne van Google in Audience Manager ](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
+>* [&#x200B; de Dossiers van de Gegevens van de Manager van de Campagne van Google in Audience Manager &#x200B;](../../reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 >* [Audience Optimization-rapporten](../../reporting/audience-optimization-reports/audience-optimization-reports.md)

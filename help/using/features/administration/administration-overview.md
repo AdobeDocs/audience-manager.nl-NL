@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> Het rekeningsbeheer van de gebruiker beweegt zich aan [ Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te beginnen, vereisen wij alle klanten van Audience Manager om de noodzakelijke maatregelen onmiddellijk te nemen die in dit artikel worden beschreven: [ de gebruikersmigratie van Audience Manager aan Admin Console ](admin-console-migration.md).
+> Het rekeningsbeheer van de gebruiker beweegt zich aan [&#x200B; Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te beginnen, vereisen wij alle klanten van Audience Manager om de noodzakelijke maatregelen onmiddellijk te nemen die in dit artikel worden beschreven: [&#x200B; de gebruikersmigratie van Audience Manager aan Admin Console &#x200B;](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, gaan de gebruikersbeheersecties van dit document weg.
 
@@ -34,7 +34,7 @@ Met de opties in het menu [!UICONTROL Administration] kunt u Audience Manager-ge
 
 Enterprise-klanten die [!DNL Audience Manager] gebruiken, hebben één platform voor gegevensbeheer nodig voor al hun gegevens, maar moeten de zichtbaarheid van de verschillende gegevenselementen voor specifieke bedrijfseenheden kunnen beheren. U kunt dit verwezenlijken gebruikend groepstoestemmingen, die ook als [!UICONTROL Role-Based Access Control] worden bedoeld ([!UICONTROL RBAC]).
 
-[!DNL Audience Manager] gebruikt groepen om machtigingen toe te wijzen. Machtigingen worden niet op gebruikersniveau toegewezen. Groepmachtigingen zijn gekoppeld aan objecten ([!UICONTROL traits], segmenten, enzovoort) en aan handelingen die u op die objecten kunt uitvoeren (bewerken, weergeven, enz.). Deze besturingselementen zijn ook beschikbaar via de Audience Manager REST API&#39;s. Zie [ Beheer van de Gebruiker 0&rbrace;, ](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md) Beheer van de Groep [, en ](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) het Beheer van toestemmingen [ API methodes.](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
+[!DNL Audience Manager] gebruikt groepen om machtigingen toe te wijzen. Machtigingen worden niet op gebruikersniveau toegewezen. Groepmachtigingen zijn gekoppeld aan objecten ([!UICONTROL traits], segmenten, enzovoort) en aan handelingen die u op die objecten kunt uitvoeren (bewerken, weergeven, enz.). Deze besturingselementen zijn ook beschikbaar via de Audience Manager REST API&#39;s. Zie [&#x200B; Beheer van de Gebruiker 0&rbrace;, &#x200B;](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-user.md) Beheer van de Groep [, en &#x200B;](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-group.md) het Beheer van toestemmingen [&#x200B; API methodes.](/help/using/api/rest-api-main/aam-api-user-group-permission/aam-api-permissions.md)
 
 ## Gebruikers maken {#create-users}
 
@@ -42,7 +42,7 @@ Enterprise-klanten die [!DNL Audience Manager] gebruiken, hebben één platform 
 
 >[!IMPORTANT]
 >
-> Het rekeningsbeheer van de gebruiker beweegt zich aan [ Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te beginnen, vereisen wij alle klanten van Audience Manager om de noodzakelijke maatregelen onmiddellijk te nemen die in dit artikel worden beschreven: [ de gebruikersmigratie van Audience Manager aan Admin Console ](admin-console-migration.md).
+> Het rekeningsbeheer van de gebruiker beweegt zich aan [&#x200B; Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te beginnen, vereisen wij alle klanten van Audience Manager om de noodzakelijke maatregelen onmiddellijk te nemen die in dit artikel worden beschreven: [&#x200B; de gebruikersmigratie van Audience Manager aan Admin Console &#x200B;](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, zal de sectie van het gebruikersbeheer van dit document weggaan.
 > 
@@ -56,7 +56,7 @@ Enterprise-klanten die [!DNL Audience Manager] gebruiken, hebben één platform 
    * **[!UICONTROL Last Name]:** specificeer de achternaam van de gebruiker.
    * **[!UICONTROL Email Address]:** Geef het e-mailadres van de gebruiker op. [!DNL Audience Manager] verzendt geen regelmatig bericht naar gebruikers. [!DNL Audience Manager] -beheerders hebben toegang tot de e-mailadressen van gebruikers en kunnen gebruikers indien nodig handmatig e-mailen. Als een gebruiker bijvoorbeeld zijn wachtwoord vergeet, wordt het in dit veld opgegeven e-mailadres gebruikt om een tijdelijk wachtwoord en instructies te verzenden waarmee het wachtwoord opnieuw kan worden ingesteld.
    * **[!UICONTROL Phone Number]:** specificeer het telefoonaantal van de gebruiker.
-   * **[!UICONTROL Is Admin]:** specificeer als deze gebruiker een [!DNL Audience Manager] beheerder is. Gebruikers met beheerdersrechten kunnen gebruikers (maken, bewerken, enz.) en groepen beheren (machtigingen maken, toewijzen, enz.). Gebruikers die geen beheerder zijn, kunnen alleen hun eigen gebruikersprofielen beheren, zoals het bewerken van hun e-mailadressen en het opnieuw instellen van hun eigen wachtwoorden. Voor meer informatie, zie [ Uw Montages van de Rekening ](../../features/administration/edit-account-settings.md) uitgeven.
+   * **[!UICONTROL Is Admin]:** specificeer als deze gebruiker een [!DNL Audience Manager] beheerder is. Gebruikers met beheerdersrechten kunnen gebruikers (maken, bewerken, enz.) en groepen beheren (machtigingen maken, toewijzen, enz.). Gebruikers die geen beheerder zijn, kunnen alleen hun eigen gebruikersprofielen beheren, zoals het bewerken van hun e-mailadressen en het opnieuw instellen van hun eigen wachtwoorden. Voor meer informatie, zie [&#x200B; Uw Montages van de Rekening &#x200B;](../../features/administration/edit-account-settings.md) uitgeven.
 1. Selecteer onder **[!UICONTROL Login]** de gewenste status:
    * **[!UICONTROL Active]:** Actieve gebruikers hebben toegang tot [!DNL Audience Manager] en beschikken over de machtigingen die door het groepslidmaatschap zijn verleend.
    * **[!UICONTROL Deactivated]:** gedeactiveerde gebruikers hebben geen toegang tot [!DNL Audience Manager] en hebben geen machtigingen. Als u gebruikers deactiveert, blijven hun gebruikersgegevens in [!DNL Audience Manager] en kunt u ze eenvoudig opnieuw activeren, indien nodig. Als u gebruikers verwijdert, moet u ze opnieuw maken als ze [!DNL Audience Manager] in de toekomst opnieuw moeten gebruiken.
@@ -64,14 +64,14 @@ Enterprise-klanten die [!DNL Audience Manager] gebruiken, hebben één platform 
    * **[!UICONTROL Pending]:** de gebruiker heeft een tijdelijk wachtwoord, of na een wachtwoordteruggestelde of als gloednieuwe rekening, en zij hebben nog geen permanent wachtwoord geplaatst.
    * **[!UICONTROL Locked Out]:** 5 onjuiste aanmeldingspogingen zullen een gebruiker uitsluiten.
 1. Selecteer onder **[!UICONTROL Assigned Groups]** in de vervolgkeuzelijst de gewenste groepen waaraan u deze gebruiker wilt toewijzen.
-Voor meer informatie over groepen en toestemmingen, zie [ een Groep ](../../features/administration/administration-overview.md#create-group) creëren.
+Voor meer informatie over groepen en toestemmingen, zie [&#x200B; een Groep &#x200B;](../../features/administration/administration-overview.md#create-group) creëren.
 1. Klik op **[!UICONTROL Save]**.
 
 ## Een [!UICONTROL Group] maken {#create-group}
 
 >[!IMPORTANT]
 >
-> Het rekeningsbeheer van de gebruiker beweegt zich aan [ Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te beginnen, adviseren wij alle klanten van Audience Manager om de noodzakelijke maatregelen onmiddellijk te nemen die in dit artikel worden beschreven: [ de gebruikersmigratie van Audience Manager aan Admin Console ](admin-console-migration.md).
+> Het rekeningsbeheer van de gebruiker beweegt zich aan [&#x200B; Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te beginnen, adviseren wij alle klanten van Audience Manager om de noodzakelijke maatregelen onmiddellijk te nemen die in dit artikel worden beschreven: [&#x200B; de gebruikersmigratie van Audience Manager aan Admin Console &#x200B;](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, gaat deze sectie weg.
 
@@ -87,17 +87,17 @@ Een groep maken:
    * Geef de groep een naam.
    * Geef een korte groepbeschrijving op.
 4. Klik in [!UICONTROL Group Members] op een gebruiker uit **[!UICONTROL Add Users]** -opties om deze aan de groep toe te voegen.
-5. In [!UICONTROL Group Permissions], selecteer a [ spoor ](../../features/traits/trait-details-page.md), [ segment ](../../features/segments/segments-purpose.md), of [ bestemming ](../../features/destinations/destinations.md) van **[!UICONTROL Add Object]**.
+5. In [!UICONTROL Group Permissions], selecteer a [&#x200B; spoor &#x200B;](../../features/traits/trait-details-page.md), [&#x200B; segment &#x200B;](../../features/segments/segments-purpose.md), of [&#x200B; bestemming &#x200B;](../../features/destinations/destinations.md) van **[!UICONTROL Add Object]**.
 Hiermee opent u een venster met machtigingen voor het geselecteerde object.
 6. Schakel het selectievakje in voor de machtigingen die groepsleden moeten hebben.
-7. *(Facultatief)* wijs [ de Toestemmingen van de Kaart ](../../features/administration/administration-overview.md#wild-card-permissions) aan de groep toe.
+7. *(Facultatief)* wijs [&#x200B; de Toestemmingen van de Kaart &#x200B;](../../features/administration/administration-overview.md#wild-card-permissions) aan de groep toe.
 8. Klik op **[!UICONTROL Save Group]**.
 
 ## Werken met [!UICONTROL Wild Card Permissions] {#wild-card-permissions}
 
 >[!IMPORTANT]
 >
-> Het rekeningsbeheer van de gebruiker beweegt zich aan [ Admin Console ](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te beginnen, adviseren wij alle klanten van Audience Manager om de noodzakelijke maatregelen onmiddellijk te nemen die in dit artikel worden beschreven: [ de gebruikersmigratie van Audience Manager aan Admin Console ](admin-console-migration.md).
+> Het rekeningsbeheer van de gebruiker beweegt zich aan [&#x200B; Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/admin-console.html). Om gebruikersmigratie te beginnen, adviseren wij alle klanten van Audience Manager om de noodzakelijke maatregelen onmiddellijk te nemen die in dit artikel worden beschreven: [&#x200B; de gebruikersmigratie van Audience Manager aan Admin Console &#x200B;](admin-console-migration.md).
 > 
 > Nadat alle klanten zijn gemigreerd, gaat deze sectie weg.
 
@@ -160,7 +160,7 @@ Lees hieronder voor een beschrijving van wat elke [!UICONTROL wildcard permissio
 
 **[!UICONTROL Signals]**
 
-* `VIEW_ALL_SIGNALS` - de gebruikers kunnen alle signalen bekijken die in [ Data Explorer ](/help/using/features/data-explorer/data-explorer-overview.md) worden gevangen.
+* `VIEW_ALL_SIGNALS` - de gebruikers kunnen alle signalen bekijken die in [&#x200B; Data Explorer &#x200B;](/help/using/features/data-explorer/data-explorer-overview.md) worden gevangen.
 
 ## Gevallen gebruiken {#use-cases}
 
@@ -170,7 +170,7 @@ Lees hieronder voor een beschrijving van wat elke [!UICONTROL wildcard permissio
 
 Afhankelijk van uw bedrijfsvereisten, kunt u gebruikersrekeningen toelaten en onbruikbaar maken zoals nodig.
 
-![ monitor-gebruiker-toegang ](assets/monitor-user-access.png)
+![&#x200B; monitor-gebruiker-toegang &#x200B;](assets/monitor-user-access.png)
 
 ### Toegangsbeveiliging voor gevoelig [!UICONTROL Data Sources] {#protect-sensitive-data-sources}
 
@@ -178,4 +178,4 @@ U kunt [!UICONTROL Role-Based Access Control] op [!UICONTROL trait] , segment, e
 
 Met deze functie kunt u beheren hoe uw gebruikers specifieke gegevenssets weergeven, maken, lezen, schrijven en bewerken en kunt u zelfs voorkomen dat gebruikers toegang krijgen tot gegevenssets die niet voor hen beschikbaar zouden moeten zijn.
 
-![ toegang-bescherming ](assets/access-protection.png)
+![&#x200B; toegang-bescherming &#x200B;](assets/access-protection.png)

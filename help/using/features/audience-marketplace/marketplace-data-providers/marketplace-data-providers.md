@@ -23,7 +23,7 @@ Overzicht en workflow voor gegevensleveranciers die gegevens vanuit [!DNL Audien
 
 >[!NOTE]
 >
->[ Op rol-gebaseerde toestemmingen ](../../../reporting/reports-dashboard.md) controletoegang tot [!UICONTROL Audience Marketplace] eigenschappen.
+>[&#x200B; Op rol-gebaseerde toestemmingen &#x200B;](../../../reporting/reports-dashboard.md) controletoegang tot [!UICONTROL Audience Marketplace] eigenschappen.
 >
 >* Beheerders kunnen gegevensfeeds maken, abonnees beheren en zich abonneren op gegevensfeeds.
 >* Gebruikers kunnen alleen feeds zoeken en weergeven.
@@ -43,15 +43,15 @@ Functies:
 * **Beschrijving:** vertel kopers over de inhoud van uw gegevensvoer.
 * **Bezit:** het aantal eigenschappen in elke gegevensvoer. Je kunt dit verbergen voor kopers met een persoonlijke gegevensfeed.
 * **Afgelopen 30 die Dag Uniques:** het aantal unieke gebruikers in de laatste 30 dagen worden gezien. Je kunt dit verbergen voor kopers met een persoonlijke gegevensfeed.
-* **de Totale Kosten van Afgelopen Maand:** het bedrag geabonneerde gegevens kopers u verschuldigd zijn. De verslagperiode eindigt op de tiende van elke maand. Achterstallige accounts worden gemarkeerd met het pictogram van het driehoekje/uitroepteken. U kunt [ deactivate de gegevensvoer van een abonnee ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) als zij uw gegevens misbruiken of als hun rekening achterstallig is.
+* **de Totale Kosten van Afgelopen Maand:** het bedrag geabonneerde gegevens kopers u verschuldigd zijn. De verslagperiode eindigt op de tiende van elke maand. Achterstallige accounts worden gemarkeerd met het pictogram van het driehoekje/uitroepteken. U kunt [&#x200B; deactivate de gegevensvoer van een abonnee &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#deactivate-data-feed) als zij uw gegevens misbruiken of als hun rekening achterstallig is.
 * **Status:** toont als een voer actief, inactief, privé, of openbaar is.
 * **Abonnees:** toont hoeveel kopers een gegevensvoer gebruiken. Klik op het nummer in deze kolom om de bedrijfsnaam, abonnementen, facturering en abonnementsstatus van de koper weer te geven.
 * **Verzoeken:** het aantal toegangsverzoeken voor een gegevensvoer.
 
 ## Privégegevensfeeds {#private-data-feeds}
 
-In [!UICONTROL My Shared Data] wordt een voederstatus soms gemarkeerd als private. Dit geeft een persoonlijke gegevensfeed aan. Met een persoonlijke gegevensfeed kunnen verkopers de toegang van kopers tot hun gegevens en zelfs de naam van de gegevensinvoer beperken. Verkopers kunnen feeds privé maken wanneer ze speciale aanbiedingen, kortingen aanbieden of wanneer privacy en toegangsbeheer belangrijk zijn. Met persoonlijke gegevensfeeds beoordelen en goedkeuren providers alle aanvragen voor koperstoegang. Voor meer informatie, zie [ Privégegevensvoer ](../../../features/audience-marketplace/marketplace-private-feeds.md). Om openbare of privé gegevensvoer tot stand te brengen, zie [ tot een Openbare of Privé Invoer van Gegevens ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) leiden.
+In [!UICONTROL My Shared Data] wordt een voederstatus soms gemarkeerd als private. Dit geeft een persoonlijke gegevensfeed aan. Met een persoonlijke gegevensfeed kunnen verkopers de toegang van kopers tot hun gegevens en zelfs de naam van de gegevensinvoer beperken. Verkopers kunnen feeds privé maken wanneer ze speciale aanbiedingen, kortingen aanbieden of wanneer privacy en toegangsbeheer belangrijk zijn. Met persoonlijke gegevensfeeds beoordelen en goedkeuren providers alle aanvragen voor koperstoegang. Voor meer informatie, zie [&#x200B; Privégegevensvoer &#x200B;](../../../features/audience-marketplace/marketplace-private-feeds.md). Om openbare of privé gegevensvoer tot stand te brengen, zie [&#x200B; tot een Openbare of Privé Invoer van Gegevens &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) leiden.
 
 >[!MORELIKETHIS]
 >
->* [ Kortingen voor Leveranciers van Gegevens ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)
+>* [&#x200B; Kortingen voor Leveranciers van Gegevens &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#discounts)

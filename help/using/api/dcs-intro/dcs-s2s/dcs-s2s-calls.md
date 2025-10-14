@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Server-aan-Server DCS API Vraag maken {#making-server-to-server-dcs-api-calls}
 
-De vraag vereist de gastheernaam van de regionale server DCS en gebruiker - identiteitskaart Als u niet de vereiste gebruiker en gebied IDs hebt, zie [ Gebruiker IDs en Gebieden van een Reactie DCS ](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) en/of [ Experience Cloud ](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md) krijgen. Zodra u gebruiker en gebied IDs hebt, kunt u server-aan-server vraag aan DCS maken. Zie deze sectie voor syntaxis en voorbeelden.
+De vraag vereist de gastheernaam van de regionale server DCS en gebruiker - identiteitskaart Als u niet de vereiste gebruiker en gebied IDs hebt, zie [&#x200B; Gebruiker IDs en Gebieden van een Reactie DCS &#x200B;](/help/using/api/dcs-intro/dcs-s2s/dcs-aam-ids.md) en/of [&#x200B; Experience Cloud &#x200B;](/help/using/api/dcs-intro/dcs-s2s/dcs-mcid-ids.md) krijgen. Zodra u gebruiker en gebied IDs hebt, kunt u server-aan-server vraag aan DCS maken. Zie deze sectie voor syntaxis en voorbeelden.
 
 >[!NOTE]
 >
@@ -87,4 +87,4 @@ Een steekproefvraag kijkt gelijkaardig aan het volgende voorbeeld.
 
 ## Samplereactie {#sample-response}
 
-Zie [ Gegevens van DCS ](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md) ontvangen.
+Zie [&#x200B; Gegevens van DCS &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md) ontvangen.

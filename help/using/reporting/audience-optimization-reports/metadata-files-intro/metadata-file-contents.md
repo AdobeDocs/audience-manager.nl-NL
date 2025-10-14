@@ -30,13 +30,13 @@ De derde kolom **- 1** is technisch ouder identiteitskaart, die een erfenisgebie
 
 >[!NOTE]
 >
->Er is één metagegevensbestand per dimensie nodig, dus er worden meerdere metagegevensbestanden verwacht in het emmertje. De dimensies worden vermeld in het artikel [ Noemende Conventies voor het Dossier van Meta-gegevens ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+>Er is één metagegevensbestand per dimensie nodig, dus er worden meerdere metagegevensbestanden verwacht in het emmertje. De dimensies worden vermeld in het artikel [&#x200B; Noemende Conventies voor het Dossier van Meta-gegevens &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **afzonderlijke Ingangen van het Dossier met ^a (controle-A of ASCII 001)**
 
 Gebruik `^a` (controle-A of ASCII 001) om inhoud in uw meta-gegevensdossiers te scheiden. Aangezien dit niet-afdrukbare tekens zijn, wordt in het bovenstaande syntaxisvoorbeeld alleen voor weergavedoeleinden een verticale balk &quot;|&quot; weergegeven.
 
-Indien nodig, kunt u het voorbeelddossier downloaden - [ 20181105_0_1 ](assets/20181105_0_1.zip). Pak het uit en bewerk het in de editor van uw keuze en pas het aan volgens de inhoud van de metagegevens, aangezien het al het vereiste scheidingsteken bevat.
+Indien nodig, kunt u het voorbeelddossier downloaden - [&#x200B; 20181105_0_1 &#x200B;](assets/20181105_0_1.zip). Pak het uit en bewerk het in de editor van uw keuze en pas het aan volgens de inhoud van de metagegevens, aangezien het al het vereiste scheidingsteken bevat.
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ Indien nodig, kunt u het voorbeelddossier downloaden - [ 20181105_0_1 ](assets/2
 
 ## Voorbeelden {#examples}
 
-Laten we eens kijken hoe u de inhoud van een metagegevensbestand structureert. Een deel van deze structuur is afhankelijk van de dimensie. De dimensies worden vermeld in het artikel [ Noemende Conventies voor het Dossier van Meta-gegevens ](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
+Laten we eens kijken hoe u de inhoud van een metagegevensbestand structureert. Een deel van deze structuur is afhankelijk van de dimensie. De dimensies worden vermeld in het artikel [&#x200B; Noemende Conventies voor het Dossier van Meta-gegevens &#x200B;](../../../reporting/audience-optimization-reports/metadata-files-intro/metadata-file-names.md#child-dimension).
 
 **Campagne**
 

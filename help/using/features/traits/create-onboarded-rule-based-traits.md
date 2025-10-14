@@ -27,7 +27,7 @@ In [!UICONTROL Trait Builder] kunt u met de [!UICONTROL Basic Information] -inst
 
 <!-- c_tb_basics.xml -->
 
-![ creeer-spoor ](assets/create-trait.png)
+![&#x200B; creeer-spoor &#x200B;](assets/create-trait.png)
 
 ### Standaardinformatievelden gedefinieerd
 
@@ -96,4 +96,4 @@ In [!UICONTROL Trait Builder], laat [!UICONTROL Advanced Options] u een tijd-aan
 
 >[!MORELIKETHIS]
 >
->* [ Tijd van het Segment aan Levend Verklaard ](../../features/traits/segment-ttl-explained.md)
+>* [&#x200B; Tijd van het Segment aan Levend Verklaard &#x200B;](../../features/traits/segment-ttl-explained.md)

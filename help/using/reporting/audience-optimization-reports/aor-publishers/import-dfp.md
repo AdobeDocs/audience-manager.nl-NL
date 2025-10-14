@@ -22,17 +22,17 @@ Voordat Audience Manager Audience Optimization for Publishers kan inschakelen, m
 
 Merk op dat het proces dat in deze sectie wordt beschreven *moet worden voltooid alvorens* u zich op de eerste vereisten voor login enablement beweegt.
 
-Om [!DNL Google Ad Manager] (vroeger Google DFP) logboekdossiers in [!DNL Audience Manager] te gebruiken, moet u onze [ Unieke Gebruiker van Audience Manager - identiteitskaart (UUID) ](../../../reference/ids-in-aam.md) in de vraag van de ad markering eerst plaatsen. Op deze manier wordt onze id opgenomen in de logbestanden van [!DNL Google Ad Manager] en kunnen we id&#39;s afstemmen tussen [!DNL Google Ad Manager] en [!DNL Audience Manager] . Gebruik [!DNL Audience Manager] [!UICONTROL DIL] code of [!UICONTROL Audience Management Module] om de [!DNL Audience Manager] UUID in te stellen in een cookie van de eerste partij.
+Om [!DNL Google Ad Manager] (vroeger Google DFP) logboekdossiers in [!DNL Audience Manager] te gebruiken, moet u onze [&#x200B; Unieke Gebruiker van Audience Manager - identiteitskaart (UUID) &#x200B;](../../../reference/ids-in-aam.md) in de vraag van de ad markering eerst plaatsen. Op deze manier wordt onze id opgenomen in de logbestanden van [!DNL Google Ad Manager] en kunnen we id&#39;s afstemmen tussen [!DNL Google Ad Manager] en [!DNL Audience Manager] . Gebruik [!DNL Audience Manager] [!UICONTROL DIL] code of [!UICONTROL Audience Management Module] om de [!DNL Audience Manager] UUID in te stellen in een cookie van de eerste partij.
 
 Hieronder wordt beschreven hoe u de id van [!DNL Audience Manager] instelt in de aanroep van de tag ad, zoals wordt uitgelegd in onze documentatie:
 
-* [ via de Markering van de Uitgever van Google (GPT) ](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
+* [&#x200B; via de Markering van de Uitgever van Google (GPT) &#x200B;](../../../integration/gpt-aam-destination/gpt-aam-modify-api.md)
 * [Via een Cookie-bestemming](../../../integration/gpt-aam-destination/gpt-aam-create-destination.md)
 
 U moet de [!DNL Audience Manager] id zelf instellen en kunt met [!DNL Audience Manager] consulting werken om te controleren of alles werkt. U hebt de id van [!DNL Audience Manager] correct ingesteld als:
 
 * `'aamid'` is de sleutel die als herkenningsteken wordt gebruikt.
-* De waarde van identiteitskaart van de Gebruiker is correct geformatteerd als [!DNL Audience Manager] UUID, zoals die in onze [ Index van IDs in Audience Manager ](../../../reference/ids-in-aam.md) wordt beschreven.
+* De waarde van identiteitskaart van de Gebruiker is correct geformatteerd als [!DNL Audience Manager] UUID, zoals die in onze [&#x200B; Index van IDs in Audience Manager &#x200B;](../../../reference/ids-in-aam.md) wordt beschreven.
 * U hebt de [!DNL Audience Manager] UUID opgenomen in een gedefinieerd veld in uw [!DNL Google Ad Manager] -logbestanden (bijvoorbeeld CustomTargeting).
 
 ## Vereisten voor Ingestiemachtiging voor logbestanden {#prereqs-ingestion-enablement}

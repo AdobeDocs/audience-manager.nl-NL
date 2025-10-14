@@ -20,7 +20,7 @@ Retourneert gegevens over het aantal unieke gebruikers dat wordt gedeeld door al
 
 >[!NOTE]
 >
->De overlappende rapporten in Audience Manager houden zich aan de RBAC-beginselen. U kunt slechts sporen van gegevensbronnen zien die u toegang tot hebt gebaseerd op de [ RBAC Gebruikersgroep ](/help/using/features/administration/administration-overview.md) die u tot behoort.
+>De overlappende rapporten in Audience Manager houden zich aan de RBAC-beginselen. U kunt slechts sporen van gegevensbronnen zien die u toegang tot hebt gebaseerd op de [&#x200B; RBAC Gebruikersgroep &#x200B;](/help/using/features/administration/administration-overview.md) die u tot behoort.
 
 <!-- 
 
@@ -46,7 +46,7 @@ De volgende afbeelding biedt een overzicht op hoog niveau van elementen in het [
 
 >[!NOTE]
 >
->De eigenschappen van de omslag zijn niet beschikbaar voor vergelijking binnen de eigenschap-aan-lijn overlappende rapporten. Door een segment te creëren die een bepaald omslagspoor gebruiken, kunt u analyse via het [ segment-aan-lijn overlappen rapport ](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md) uitvoeren.
+>De eigenschappen van de omslag zijn niet beschikbaar voor vergelijking binnen de eigenschap-aan-lijn overlappende rapporten. Door een segment te creëren die een bepaald omslagspoor gebruiken, kunt u analyse via het [&#x200B; segment-aan-lijn overlappen rapport &#x200B;](/help/using/reporting/dynamic-reports/segment-trait-overlap-report.md) uitvoeren.
 
 ![](assets/trait-to-trait-overlap.png)
 
@@ -120,8 +120,8 @@ De pop-up voor het [!UICONTROL Trait-to-Trait Overlap] rapport bevat de hieronde
 >[!MORELIKETHIS]
 >
 >* [Resultaten van filterrapporten met dataregelaars](../../reporting/dynamic-reports/data-sliders.md)
->* [ Vormen, Kleuren, en Grootte die in Dynamische Rapporten ](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes) worden gebruikt
->* [ Verklaarde pictogrammen en Hulpmiddelen van het 0&rbrace; Rapport &lbrace;](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
+>* [&#x200B; Vormen, Kleuren, en Grootte die in Dynamische Rapporten &#x200B;](../../reporting/dynamic-reports/interactive-report-technology.md#shapes-colors-sizes) worden gebruikt
+>* [&#x200B; Verklaarde pictogrammen en Hulpmiddelen van het 0&rbrace; Rapport &lbrace;](../../reporting/dynamic-reports/interactive-report-technology.md#icons-tools-explained)
 >* [Overlaprapporten: updateplanning en minimale segmentgrootte](../../reporting/dynamic-reports/overlap-minimum-segment-size.md)
->* [ de Steekproef van Gegevens en de Tarieven van de Fout in de Geselecteerde Rapporten van Audience Manager... ](../../reporting/report-sampling.md)
+>* [&#x200B; de Steekproef van Gegevens en de Tarieven van de Fout in de Geselecteerde Rapporten van Audience Manager... &#x200B;](../../reporting/report-sampling.md)
 >* [CSV-bestanden voor overlaprapporten](../../reporting/dynamic-reports/overlap-csv-files.md)

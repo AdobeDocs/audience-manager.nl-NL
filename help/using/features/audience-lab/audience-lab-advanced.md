@@ -74,7 +74,7 @@ Gebruik deze functie om te voorkomen dat een deel van het publiek wordt opgenome
 1. Maak een nieuwe testgroep met de wizard [!UICONTROL Create Test Group] .
 1. In de stap **[!UICONTROL Allocate Test Segment]** kunt u een deel van het publiek selecteren dat u niet wilt testen.
 
-   ![ Punt van de Lijst ](assets/test-segment-holdout.png)
+   ![&#x200B; Punt van de Lijst &#x200B;](assets/test-segment-holdout.png)
 
 1. Gebruik de schuifregelaar om aan te passen hoeveel apparaten u niet wilt testen. Merk op dat testsegment 1 en testsegment 2 nu slechts 70% van de totale apparaten uitmaken.
 

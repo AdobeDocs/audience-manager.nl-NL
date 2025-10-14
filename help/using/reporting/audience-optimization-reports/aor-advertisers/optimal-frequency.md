@@ -28,4 +28,4 @@ Zoals in het steekproefrapport wordt getoond, biedt de doorsnede van de twee lij
 
 ## Voorbeeldrapport
 
-![ optimaal-frequentie ](assets/optimal-frequency2.png)
+![&#x200B; optimaal-frequentie &#x200B;](assets/optimal-frequency2.png)

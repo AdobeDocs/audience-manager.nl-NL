@@ -142,7 +142,7 @@ In de volgende tabel worden de elementen in het [!DNL JSON] -gegevensbestand ged
 
 ## Beveiliging
 
-U kunt uw uitgaande proces van de gegevensoverdracht in real time beveiligen door [ verzoeken van HTTP te ondertekenen ](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) gebruikend privé sleutels of door [!DNL Audience Manager] te hebben voor authentiek verklaard door het [ OAuth 2.0 ](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocol.
+U kunt uw uitgaande proces van de gegevensoverdracht in real time beveiligen door [&#x200B; verzoeken van HTTP te ondertekenen &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/digitally-signed-http-requests.md) gebruikend privé sleutels of door [!DNL Audience Manager] te hebben voor authentiek verklaard door het [&#x200B; OAuth 2.0 &#x200B;](../../../integration/receiving-audience-data/real-time-outbound-transfers/oauth-in-outbound-transfers.md) protocol.
 
 ## Verzoek
 

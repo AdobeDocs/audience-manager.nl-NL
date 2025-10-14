@@ -30,20 +30,20 @@ In de volgende video wordt een overzicht gegeven van de workflow voor [!UICONTRO
 ## Overzicht
 
 [!UICONTROL Trait Recommendations] , aangedreven door [!DNL Adobe Sensei] , geeft gegevenswetenschap door aan uw dagelijkse Audience Manager-workflows.
-Met [!UICONTROL Trait Recommendations], wanneer u bouwt of een segment in [ de Bouwer van het Segment ](segment-builder.md) uitgeeft, krijgt u aanbevelingen op extra eigenschappen u kunt omvatten, die aan de eigenschappen in de segmentregel gelijkaardig zijn.
+Met [!UICONTROL Trait Recommendations], wanneer u bouwt of een segment in [&#x200B; de Bouwer van het Segment &#x200B;](segment-builder.md) uitgeeft, krijgt u aanbevelingen op extra eigenschappen u kunt omvatten, die aan de eigenschappen in de segmentregel gelijkaardig zijn.
 
 In Audience Manager worden aanbevelingen voor kenmerken weergegeven, zowel vanuit de sectie **[!UICONTROL Recommendations]** als vanuit de sectie **[!UICONTROL Audience Marketplace]** in de sectie **[!UICONTROL Recommendations from Marketplace]** .
 
 Voeg de geadviseerde eigenschappen aan uw segment toe om uw doelpubliek te verhogen.
 
-![ Overzicht van de Aanbevelingen van het Rand ](assets/trait-recommendations-overview-full.png)
+![&#x200B; Overzicht van de Aanbevelingen van het Rand &#x200B;](assets/trait-recommendations-overview-full.png)
 
 **in een notendop:**
 
 * In Audience Manager worden de eigenschappen van de eerste partij weergegeven in de sectie [!UICONTROL Recommendations] . De aanbevelingen van de Marketplace van openbare en privé voer u niet aan wordt geabonneerd zijn zichtbaar in de [!UICONTROL Recommendations from Marketplace] sectie. Klik op de naam van de feed om naar [!UICONTROL Audience Marketplace] te gaan en u te abonneren.
 * Audience Manager vertoont maximaal vijftig kenmerken die lijken op die in de segmentregel.
 * U kunt de gegevensbronnen uit filteren waarvan u geen aanbevelingen wilt zien.
-* Wanneer het berekenen van gelijkenissen, overweegt Audience Manager [ UUIDs ](../../reference/ids-in-aam.md) die voor het bezit tijdens de laatste 30 dagen kwalificeerde.
+* Wanneer het berekenen van gelijkenissen, overweegt Audience Manager [&#x200B; UUIDs &#x200B;](../../reference/ids-in-aam.md) die voor het bezit tijdens de laatste 30 dagen kwalificeerde.
 * Als het foutbericht &quot;Geen vergelijkbare kenmerken gevonden. Trait(s) kan(en) te nieuw zijn.&quot; betekent dit dat er in de afgelopen 30 dagen geen activiteit voor die eigenschap heeft plaatsgevonden, of dat Audience Manager de aanbevelingen voor die eigenschap nog niet heeft bijgewerkt. Probeer het over 24 uur opnieuw.
 
 ## Gevallen gebruiken
@@ -77,7 +77,7 @@ Gebruik [!UICONTROL Trait Recommendations] wanneer:
 
 ## Workflow
 
-Wanneer het bouwen van of het uitgeven van een segment in [ de Bouwer van het Segment ](segment-builder.md), kunt u eigenschappen gelijkend op de eigenschappen in de segmentregel onderzoeken. Het [ werkschema van de Bouwer van het Segment ](segment-builder.md) is zeer gelijkaardig voor nieuwe en bestaande segmenten:
+Wanneer het bouwen van of het uitgeven van een segment in [&#x200B; de Bouwer van het Segment &#x200B;](segment-builder.md), kunt u eigenschappen gelijkend op de eigenschappen in de segmentregel onderzoeken. Het [&#x200B; werkschema van de Bouwer van het Segment &#x200B;](segment-builder.md) is zeer gelijkaardig voor nieuwe en bestaande segmenten:
 
 ### Nieuwe segmenten
 
@@ -95,13 +95,13 @@ Wanneer het bouwen van of het uitgeven van een segment in [ de Bouwer van het Se
 >
 >Wanneer u [!UICONTROL Marketplace] kenmerken aan een segment toevoegt, worden de kenmerken alleen gebruikt voor segmentschatting, totdat u zich abonneert op de corresponderende gegevensfeed. Traits die afkomstig zijn van gegevensfeeds waarop u zich niet hebt geabonneerd, worden gemarkeerd met een winkelwagentje in de lijst met handelsmerken. Klik op de naam van het kenmerk om naar de pagina met gegevensinvoer te gaan en u erop te abonneren.
 >
->![ markt-plaats-niet-geabonneerd ](assets/trait-recommendations-marketplace.png)
+>![&#x200B; markt-plaats-niet-geabonneerd &#x200B;](assets/trait-recommendations-marketplace.png)
 >
 >U kunt een segment alleen met externe kenmerken opslaan nadat u zich aan de bijbehorende gegevensfeeds hebt geabonneerd.
 
 ### Bestaande segmenten
 
-1. Ga naar **[!UICONTROL Audience Data]>[!UICONTROL Segments]**, selecteer het segment u wilt uitgeven en ![ klikken geeft ](assets/edit-button.png) uit.
+1. Ga naar **[!UICONTROL Audience Data]>[!UICONTROL Segments]**, selecteer het segment u wilt uitgeven en ![&#x200B; klikken geeft &#x200B;](assets/edit-button.png) uit.
 1. Schuif omlaag naar de vervolgkeuzelijst [!UICONTROL Traits] .
 1. U kunt geadviseerde eigenschappen zien, die aan de eigenschappen reeds in de segmentregel gelijkaardig zijn. Schuif omlaag om alle aanbevolen kenmerken weer te geven.
 1. (Facultatief) om geadviseerde eigenschappen van bepaalde gegevensbronnen uit te sluiten, klik het **X** symbool voor de gegevensbronnen u wilt uitsluiten.
@@ -113,7 +113,7 @@ Wanneer het bouwen van of het uitgeven van een segment in [ de Bouwer van het Se
 
 Wanneer u een segment maakt of bewerkt en een kenmerk aan de segmentregel toevoegt, ziet u een maximum van vijftig aanbevolen kenmerken, vergelijkbaar met de eigenschap die u hebt toegevoegd. Als de segmentregel meer dan één eigenschap bevat, gebruikt Audience Manager een ronde robin methode om de beste gelijke voor elk bezit te tonen, dan de tweede-beste gelijke voor elk bezit, etc., voor de grootste vijftig eigenschappen door bevolking, in de segmentregel.
 
-![ Drie Basis trekt ](assets/three-base-traits.png)
+![&#x200B; Drie Basis trekt &#x200B;](assets/three-base-traits.png)
 
 Bijvoorbeeld, wanneer er drie eigenschappen in de segmentregel zijn, zoals hieronder getoond, zijn de geadviseerde eigenschappen:
 
@@ -125,11 +125,11 @@ Bijvoorbeeld, wanneer er drie eigenschappen in de segmentregel zijn, zoals hiero
 
 Om aanbevelingen voor een specifiek bezit te krijgen, kunt u op de eigenschappen in de segmentregel (1) of in de geadviseerde mening van het Dienstverband (2) klikken.
 
-![ basis-traits-voorbeeld ](assets/three-base-traits-numbered.png)
+![&#x200B; basis-traits-voorbeeld &#x200B;](assets/three-base-traits-numbered.png)
 
 Als u op een eersteklas kenmerk klikt, wordt een pop-upvenster geopend, zoals in de onderstaande afbeelding wordt getoond. Als de geadviseerde eigenschappen geen deel van het segment uitmaken, kunt u hen aan het segment toevoegen door **+** te drukken.
 
-![ toe:voegen-aan-segment ](assets/add_to_segments.png)
+![&#x200B; toe:voegen-aan-segment &#x200B;](assets/add_to_segments.png)
 
 >[!TIP]
 >
@@ -141,13 +141,13 @@ Als u op een eersteklas kenmerk klikt, wordt een pop-upvenster geopend, zoals in
 
 ## Hoe het werkt
 
-Om gedragsaanbevelingen te produceren, berekent Audience Manager de [ gelijkenis van het Jaccard ](https://en.wikipedia.org/wiki/Jaccard_index) tussen het doelbezit en elk ander bezit dat uw rekening toegang heeft tot, met inbegrip van derdegegevens. Audience Manager geeft vervolgens tot vijftig kenmerken weer die het meest op elkaar lijken.
+Om gedragsaanbevelingen te produceren, berekent Audience Manager de [&#x200B; gelijkenis van het Jaccard &#x200B;](https://en.wikipedia.org/wiki/Jaccard_index) tussen het doelbezit en elk ander bezit dat uw rekening toegang heeft tot, met inbegrip van derdegegevens. Audience Manager geeft vervolgens tot vijftig kenmerken weer die het meest op elkaar lijken.
 
 ## Gelijksoortige score volgen {#trait-similarity-score}
 
 Audience Manager berekent de [!UICONTROL Trait Similarity Score] tussen twee eigenschappen door de doorsnede te berekenen en te verenigen in termen van het aantal [!UICONTROL UUID] s en dan de twee te verdelen. Voor twee kenmerken A en B ziet de berekening er als volgt uit:
 
-![ jaccard-gelijkenis ](assets/jaccard_similarity.png)
+![&#x200B; jaccard-gelijkenis &#x200B;](assets/jaccard_similarity.png)
 
 Zie ook de twee onderstaande voorbeelden.
 
@@ -156,14 +156,14 @@ Zie ook de twee onderstaande voorbeelden.
 Gezien twee eigenschappen A en B, laten wij zeggen elk van de eigenschappen een bevolking van 1.000.000 [!UICONTROL UUID] s heeft, 25.000 [!UICONTROL UUID] s waarvan voor beide eigenschappen in aanmerking komt.
 Met bovenstaande formule resulteert dit in: 25.000 / 1.975.000 = 0,012. Dit is een lage waarde [!UICONTROL Trait Similarity Score] , de twee kenmerken lijken sterk op elkaar.
 
-![ eigenschap-aanbevelingen-laag-overlapping ](assets/Trait-Recommendations-Low-overlap.png)
+![&#x200B; eigenschap-aanbevelingen-laag-overlapping &#x200B;](assets/Trait-Recommendations-Low-overlap.png)
 
 ### Voorbeeld 2 - Score met gelijksoortige trajecten
 
 Als dezelfde kenmerken A en B 400.000 [!UICONTROL UUID] hebben die voor beide kenmerken in aanmerking komen, is [!UICONTROL Trait Similarity Score] veel hoger:
 400,000 / 1,600,000 = 0,25
 
-![ eigenschap-aanbevelingen-hoog-overlapping ](assets/Trait-Recommendations-High-overlap.png)
+![&#x200B; eigenschap-aanbevelingen-hoog-overlapping &#x200B;](assets/Trait-Recommendations-High-overlap.png)
 
 ### Hoe te om de Score van de Gelijksheid van het Beetje te interpreteren
 
@@ -184,9 +184,9 @@ Voor bedrijven die [!UICONTROL Role-Based Access Controls] gebruiken ([!UICONTRO
 >
 >Als u [!UICONTROL Marketplace Recommendations] aan een segment wilt toevoegen, moeten gebruikers zich eerst abonneren op de bijbehorende gegevensfeeds. Alleen gebruikers met beheerdersrechten kunnen zich abonneren op [!UICONTROL Audience Marketplace] gegevensfeeds.
 
-Lees meer over [!UICONTROL RBAC] controles [ hier ](../administration/administration-overview.md).
+Lees meer over [!UICONTROL RBAC] controles [&#x200B; hier &#x200B;](../administration/administration-overview.md).
 
 ## Beperkingen
 
-* Audience Manager geeft momenteel geen mapkenmerken weer zoals aanbevolen. Lees meer over omslageigenschappen [ hier ](../traits/manage-folder-traits.md).
+* Audience Manager geeft momenteel geen mapkenmerken weer zoals aanbevolen. Lees meer over omslageigenschappen [&#x200B; hier &#x200B;](../traits/manage-folder-traits.md).
 * Bij het weergeven van Trait-aanbevelingen houdt Audience Manager geen rekening met [!DNL Boolean] -operatoren ( [!DNL AND] , [!DNL OR] , [!DNL NOT] ) in segmentregels.

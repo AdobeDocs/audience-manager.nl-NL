@@ -21,11 +21,11 @@ Signalen zijn de kleinste informatieeenheid binnen Audience Manager. Zij vertege
 
 * `page = electronics`
 
-Het [ dashboard van Signalen ](../../features/data-explorer/data-explorer-signals-dashboard.md) toont u veelvoudige types van signaalattributen die u kunt gebruiken om nieuwe eigenschappen tot stand te brengen. Hier is een gedetailleerde mening van de beschikbare signaaleigenschappen:
+Het [&#x200B; dashboard van Signalen &#x200B;](../../features/data-explorer/data-explorer-signals-dashboard.md) toont u veelvoudige types van signaalattributen die u kunt gebruiken om nieuwe eigenschappen tot stand te brengen. Hier is een gedetailleerde mening van de beschikbare signaaleigenschappen:
 
 * *zeer belangrijk-waardepaar* toont u het zeer belangrijk-waardepaar van het signaal dat door [!DNL Audience Manager] wordt ontvangen.
 * *Signaal type* beschrijft de categorie van elk signaal. Signalen behoren tot een van de volgende categorieën:
-   * [ Handelbare logboekdossiers ](/help/using/integration/media-data-integration/actionable-log-files.md): signalen in real time die van uw het logboekdossiers van mediaprestaties worden ontvangen;
+   * [&#x200B; Handelbare logboekdossiers &#x200B;](/help/using/integration/media-data-integration/actionable-log-files.md): signalen in real time die van uw het logboekdossiers van mediaprestaties worden ontvangen;
    * [!DNL Adobe Analytics]: real-time signalen die worden ontvangen van uw [!DNL Adobe Analytics] -account;
    * Algemene online gegevens: real-time gegevens die door uw publieksactiviteit worden geproduceerd en niet inbegrepen in actionable logboekdossiers en [!DNL Adobe Analytics];
    * Aan boord genomen records: gegevens die via batchgegevensoverdracht zijn ontvangen.

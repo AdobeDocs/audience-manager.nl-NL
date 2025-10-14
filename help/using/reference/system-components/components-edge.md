@@ -42,4 +42,4 @@ In het volgende diagram wordt de omgeving van het Audience Manager edge-datacent
 
 ## Geografische verdeling en taakverdeling {#geo-dist-balance}
 
-Zie de [!DNL DCS] sectie in [ Componenten van de Inzameling van Gegevens ](../../reference/system-components/components-data-collection.md).
+Zie de [!DNL DCS] sectie in [&#x200B; Componenten van de Inzameling van Gegevens &#x200B;](../../reference/system-components/components-data-collection.md).

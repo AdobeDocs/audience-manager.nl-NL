@@ -85,7 +85,7 @@ In de volgende voorbeelden worden bestandsnamen met de juiste indeling getoond. 
 </ul>
 
 >[!NOTE]
-> Voor identiteitskaart- synchronisatiedossier het noemen (c2c prefix) voor op mensen-Gebaseerde Doelen, zie [ Werkschema A - Personalization die op Alle Online Activiteit wordt gebaseerd die met Offlinegegevens ](../../../features/destinations/people-based-destinations-workflow-combined.md) of [ Werkschema B - Personalization die op off-line-Enige Gegevens ](../../../features/destinations/people-based-destinations-workflow-offline.md) wordt gebaseerd.
+> Voor identiteitskaart- synchronisatiedossier het noemen (c2c prefix) voor op mensen-Gebaseerde Doelen, zie [&#x200B; Werkschema A - Personalization die op Alle Online Activiteit wordt gebaseerd die met Offlinegegevens &#x200B;](../../../features/destinations/people-based-destinations-workflow-combined.md) of [&#x200B; Werkschema B - Personalization die op off-line-Enige Gegevens &#x200B;](../../../features/destinations/people-based-destinations-workflow-offline.md) wordt gebaseerd.
 
 ## Syntaxis bestandsinhoud en voorbeelden {#file-content-syntax}
 
@@ -101,15 +101,15 @@ abc123 def456 ghi789 xyz987
 
 ### Overwegingen met betrekking tot bestandsinhoud {#considerations}
 
-Wanneer u binnenkomende bestanden maakt, moet u ervoor zorgen dat de eerste kolom alleen met apparaat-id&#39;s wordt gevuld, zoals [!DNL AAM UUID] , [!DNL GAID] , [!DNL IDFA] , enzovoort. Zie [ Index van IDs in Audience Manager ](../../../reference/ids-in-aam.md) voor een gedetailleerde verklaring van IDs die door Audience Manager wordt gesteund.
+Wanneer u binnenkomende bestanden maakt, moet u ervoor zorgen dat de eerste kolom alleen met apparaat-id&#39;s wordt gevuld, zoals [!DNL AAM UUID] , [!DNL GAID] , [!DNL IDFA] , enzovoort. Zie [&#x200B; Index van IDs in Audience Manager &#x200B;](../../../reference/ids-in-aam.md) voor een gedetailleerde verklaring van IDs die door Audience Manager wordt gesteund.
 
 >[!IMPORTANT]
 >
->Gebruik niet [ DPUUIDs ](../../../reference/ids-in-aam.md) op de eerste kolom. Dit kan resulteren in een onjuiste synchronisatie.
+>Gebruik niet [&#x200B; DPUUIDs &#x200B;](../../../reference/ids-in-aam.md) op de eerste kolom. Dit kan resulteren in een onjuiste synchronisatie.
 
 ## Synchronisatie stemt overeen met DPUUID&#39;s met UUID&#39;s {#sync-matches-dpuuids-uuids}
 
-Het doel van een de synchronisatiedossier van identiteitskaart is [ DPUUIDs ](../../../reference/ids-in-aam.md) van uw eigen Gegevensbronnen met [!DNL Audience Manager] UUIDs te synchroniseren. Synchronisatie wijst de [!DNL DPUUID] s van de meester [!DNL DPID] en zijn verwante [!DNL DPID] s aan [!DNL Audience Manager] toe [!DNL UUID] s. Wanneer u de id&#39;s in de bestandsnaam en de hoofdtekst plaatst, bepaalt u hoe deze id&#39;s aan elkaar worden toegewezen. Neem bijvoorbeeld de twee voorbeeldbestanden die u hier ziet:
+Het doel van een de synchronisatiedossier van identiteitskaart is [&#x200B; DPUUIDs &#x200B;](../../../reference/ids-in-aam.md) van uw eigen Gegevensbronnen met [!DNL Audience Manager] UUIDs te synchroniseren. Synchronisatie wijst de [!DNL DPUUID] s van de meester [!DNL DPID] en zijn verwante [!DNL DPID] s aan [!DNL Audience Manager] toe [!DNL UUID] s. Wanneer u de id&#39;s in de bestandsnaam en de hoofdtekst plaatst, bepaalt u hoe deze id&#39;s aan elkaar worden toegewezen. Neem bijvoorbeeld de twee voorbeeldbestanden die u hier ziet:
 
 * **Dossier 1:** `adobe_id_0_12345_1476312152.sync`
 
@@ -119,7 +119,7 @@ Het doel van een de synchronisatiedossier van identiteitskaart is [ DPUUIDs ](..
 
 Op basis van de naam en inhoud van het voorbeeld worden de id&#39;s als volgt toegewezen:
 
-**Dossier 1** ( [ Download steekproefdossier ](assets/adobe_id_0_12345_1476312152.sync))
+**Dossier 1** ( [&#x200B; Download steekproefdossier &#x200B;](assets/adobe_id_0_12345_1476312152.sync))
 
 | DPID 0 = Adobe Audience Manager UUIDs | DPID 12345 |
 |---|---|
@@ -132,7 +132,7 @@ Op basis van de naam en inhoud van het voorbeeld worden de id&#39;s als volgt to
 Stap 1: het proces van de synchronisatie van identiteitskaart zal [!DNL DPUUID] s van [!DNL DPID] 12345 met [!DNL Audience Manager] [!DNL UUID] s in de linkerkolom synchroniseren. De waarde [!DNL DPID] &quot;0&quot; in de bestandsnaam vertegenwoordigt [!DNL Audience Manager] [!DNL UUID] s.
 <br/>
 
-**Dossier 2** ( [ Download steekproefdossier ](assets/adobe_id_12345_67890_1477846458.sync))
+**Dossier 2** ( [&#x200B; Download steekproefdossier &#x200B;](assets/adobe_id_12345_67890_1477846458.sync))
 
 | [!DNL DPID] 12345 | [!DNL DPID] 67890 |
 |---|---|

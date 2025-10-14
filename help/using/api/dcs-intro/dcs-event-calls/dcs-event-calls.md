@@ -27,11 +27,11 @@ Deze sectie bevat informatie en verwante verwijzing die u toont hoe te:
 * De gegevenselementen van het formaat in uw vraag.
 * Begrijp de parameters die door [!DNL DCS] zijn teruggekeerd.
 
-Zie de onderstaande secties om aan de slag te gaan. Begin met [ verzendt Gegevens naar DCS ](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Na dat, ga op [ Gegevens van DCS ](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md) ontvangen.
+Zie de onderstaande secties om aan de slag te gaan. Begin met [&#x200B; verzendt Gegevens naar DCS &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-send.md). Na dat, ga op [&#x200B; Gegevens van DCS &#x200B;](../../../api/dcs-intro/dcs-event-calls/dcs-url-receive.md) ontvangen.
 
 * [Gegevens verzenden naar de DCS](dcs-url-send.md)
 * [Gegevens ontvangen van de DCS](dcs-url-receive.md)
 
 >[!MORELIKETHIS]
 >
->* [ Verwijzing DCS API ](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)
+>* [&#x200B; Verwijzing DCS API &#x200B;](../../../api/dcs-intro/dcs-api-reference/dcs-api-methods.md)

@@ -36,4 +36,4 @@ Het rapport [!UICONTROL Volume Analysis] retourneert gegevens in een staafgrafie
 
 >[!TIP]
 >
->Voor informatie over in kaart gebrachte en unmapped segmenten, zie de [ documentatie van het Rapport van de Prestaties van het 1&rbrace; Segment.](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)
+>Voor informatie over in kaart gebrachte en unmapped segmenten, zie de [&#x200B; documentatie van het Rapport van de Prestaties van het 1&rbrace; Segment.](../../../reporting/audience-optimization-reports/aor-advertisers/segment-performance.md)

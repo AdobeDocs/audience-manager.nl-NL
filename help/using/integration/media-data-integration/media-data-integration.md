@@ -28,4 +28,4 @@ Lees de volgende artikelen om logaritme in te stellen:
 
 * [Google Campagne Manager-gegevensbestanden importeren in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-advertisers/import-dcm.md)
 * [Google Ad Manager-gegevensbestanden importeren in Audience Manager](/help/using/reporting/audience-optimization-reports/aor-publishers/import-dfp.md)
-* [ Gegevens van het Logboek en de Dossiers van Meta-gegevens ](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) aan opstellings logboekopname voor generische logboekdossiers
+* [&#x200B; Gegevens van het Logboek en de Dossiers van Meta-gegevens &#x200B;](/help/using/reporting/audience-optimization-reports/metadata-files-intro/metadata-files-intro.md) aan opstellings logboekopname voor generische logboekdossiers

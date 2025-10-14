@@ -134,4 +134,4 @@ Geserialiseerde gegevensoverdracht draagt bij tot een efficiëntere werking omda
 
 ### Ondersteunde doelen
 
-In [!DNL Audience Manager] kunt u gegevens serialiseren en verzenden naar ongeveer elk doel waarmee u wilt werken. Voordat u deze functie kunt gebruiken, moet u echter weten wat de bestemming [!DNL URL] is en waar u bepaalde vereiste of optionele macro&#39;s wilt plaatsen. Verkrijg de informatie over macroplaatsing van uw bestemmingspartner. Zie [ bepaalde Macro&#39;s van de Bestemming ](../../features/destinations/destination-macros.md#destination-macros-defined) voor meer informatie.
+In [!DNL Audience Manager] kunt u gegevens serialiseren en verzenden naar ongeveer elk doel waarmee u wilt werken. Voordat u deze functie kunt gebruiken, moet u echter weten wat de bestemming [!DNL URL] is en waar u bepaalde vereiste of optionele macro&#39;s wilt plaatsen. Verkrijg de informatie over macroplaatsing van uw bestemmingspartner. Zie [&#x200B; bepaalde Macro&#39;s van de Bestemming &#x200B;](../../features/destinations/destination-macros.md#destination-macros-defined) voor meer informatie.

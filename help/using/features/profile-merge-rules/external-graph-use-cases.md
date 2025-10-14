@@ -116,7 +116,7 @@ Through this rule, the device graph has expanded the number of device profiles w
 
 In dit geval kunt u met de regel **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** de doelgroep voor geverifieerde bezoekers uitbreiden met apparaten uit een externe apparaatgrafiek.
 
-![ last-apparaat-grafiek ](assets/last-profile-link.png)
+![&#x200B; last-apparaat-grafiek &#x200B;](assets/last-profile-link.png)
 
 In het onderstaande voorbeeld wil het bedrijf Acme Inc. zich richten op alle huishoudens met een inkomen van meer dan $100.000/jaar, die [!DNL Acme Inc.] abonnees op [!DNL Data Plan A] hebben, die een [!DNL iPhone 7] apparaat gebruiken.
 
@@ -124,10 +124,10 @@ John gebruikt zijn iPhone 7 op Plan A van Gegevens om op de website van Acme Inc
 
 Door **[!UICONTROL Last Authenticated Profiles]** + **[!UICONTROL Profile Link Device Graph]** te gebruiken, [!DNL Acme Inc.] kan gepersonaliseerde berichten aan alle drie apparaten van de cluster van de apparatengrafiek van John leveren, alhoewel slechts één van hen aanvankelijk voor het segment kwalificeert.
 
-![ ver-grafiek-uitbreiding ](assets/advanced-device-graph-expansion.png)
+![&#x200B; ver-grafiek-uitbreiding &#x200B;](assets/advanced-device-graph-expansion.png)
 
 >[!MORELIKETHIS]
 >
 >* [Gebruiksscenario’s voor apparaatgrafieken van profielkoppelingen](profile-link-use-case.md)
 >* [Algemene gebruiksscenario’s voor regels voor profielsamenvoeging](merge-rule-targeting-options.md)
->* [ Veelgestelde vragen van de Regels van de Fusie van het Profiel ](../../faq/faq-profile-merge.md)
+>* [&#x200B; Veelgestelde vragen van de Regels van de Fusie van het Profiel &#x200B;](../../faq/faq-profile-merge.md)

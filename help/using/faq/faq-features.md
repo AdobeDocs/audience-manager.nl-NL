@@ -49,7 +49,7 @@ Ja. Zie [Bulkbeheertools](../reference/bulk-management-tools/bulk-management-int
 
 **wanneer het uitvoeren van een bulkidentiteitskaart- uitvoer naar een bestemming, ontbreken sommige klant IDs. Waarom gebeurt dat?**
 
-Wanneer een apparatenidentiteitskaart ([ AAM UUID ](../reference/ids-in-aam.md)) met veelvoudige CRM IDs ([ DPUUIDs ](../reference/ids-in-aam.md)) wordt verbonden, slechts wordt de recentste afbeelding uitgevoerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
+Wanneer een apparatenidentiteitskaart ([&#x200B; AAM UUID &#x200B;](../reference/ids-in-aam.md)) met veelvoudige CRM IDs ([&#x200B; DPUUIDs &#x200B;](../reference/ids-in-aam.md)) wordt verbonden, slechts wordt de recentste afbeelding uitgevoerd. Daarom ziet u mogelijk een lager dan verwacht aantal apparaat-id&#39;s dat wordt geëxporteerd.
 
  
 
@@ -67,7 +67,7 @@ Uw datafeed en alle eigenschappen in de feed worden weergegeven als submappen en
 
 **Wat is [!UICONTROL Tag Insertion Manager (TIM)]?**
 
-Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Tags]. Voor meer informatie, zie [ de Markeringen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL).
+Audience Manager gebruikt [!UICONTROL Tag Insertion Manager] (TIM) om [!UICONTROL data collection code (DIL)] te maken en te beheren. Deze functie is verouderd en is eerst vervangen door [!UICONTROL Dynamic Tag Manager (DTM)] en later door [!DNL Adobe Experience Platform Tags]. Voor meer informatie, zie [&#x200B; de Markeringen van Adobe Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=nl-NL).
 
  
 

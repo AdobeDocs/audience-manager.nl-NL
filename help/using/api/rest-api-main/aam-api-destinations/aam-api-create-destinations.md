@@ -412,5 +412,5 @@ Een geslaagde update retourneert de antwoordcode `201 created` en het doel.
 >[!MORELIKETHIS]
 >
 >* [Doelen](../../../features/destinations/destinations.md)
->* [ Serienummering van de Bestemming ](../../../features/destinations/key-value-pairs.md#destination-serialized)
+>* [&#x200B; Serienummering van de Bestemming &#x200B;](../../../features/destinations/key-value-pairs.md#destination-serialized)
 >* [Sleutelwaardeparen](../../../reference/key-value-pairs-explained.md)

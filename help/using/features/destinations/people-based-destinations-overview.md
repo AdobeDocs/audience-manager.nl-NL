@@ -22,7 +22,7 @@ Gebruik [!DNL People-Based Destinations] om doelsegmenten van de eerste partij n
 
 ## Overzicht {#overview}
 
-[!DNL People-Based Destinations] laat u toe om segmentatie op online en off-line gegevens toe te passen om publiekssegmenten tot stand te brengen die op [ worden gebaseerd gehakt herkenningstekens ](people-based-destinations-prerequisites.md#hashing-requirements), zoals e-mailadressen. Vervolgens kunt u deze segmenten naar zogenaamde tuinen [!DNL Facebook] sturen, waar u uw doelgroep kunt richten op de sociale platforms. [!DNL People-Based Destinations] kan u helpen:
+[!DNL People-Based Destinations] laat u toe om segmentatie op online en off-line gegevens toe te passen om publiekssegmenten tot stand te brengen die op [&#x200B; worden gebaseerd gehakt herkenningstekens &#x200B;](people-based-destinations-prerequisites.md#hashing-requirements), zoals e-mailadressen. Vervolgens kunt u deze segmenten naar zogenaamde tuinen [!DNL Facebook] sturen, waar u uw doelgroep kunt richten op de sociale platforms. [!DNL People-Based Destinations] kan u helpen:
 
 * Offline en online doelpubliek richten op platforms zoals [!DNL Facebook] , op basis van gehashte e-mailadressen;
 * bestaande Audience Manager-functionaliteit voor apparaat- en cookiedoelen aanvullen;
@@ -33,7 +33,7 @@ Gebruik [!DNL People-Based Destinations] om doelsegmenten van de eerste partij n
 
 Met [!DNL People-Based Destinations] kunt u klanten met een hoge waarde segmenteren en als doel instellen die uw website mogelijk niet bezoeken, of u kunt niet langer doelgroepen maken voor klanten die al offline zijn geconverteerd. Bovendien kunt u [!DNL Profile Merge Rules] gebruiken om uw offline gegevens van de eerste partij te combineren met uw online gegevens van de eerste partij, waaronder klantgegevens van andere Adobe Experience Cloud-oplossingen, om uw advertentieinspanningen voor sociale media te optimaliseren.
 
-![ pbd-overzicht ](assets/pbd-overview.png)
+![&#x200B; pbd-overzicht &#x200B;](assets/pbd-overview.png)
 
 ## Beschikbaarheid {#availability}
 
@@ -49,7 +49,7 @@ Als u uw publiekssegmenten niet via Audience Manager in op mensen gebaseerde kan
 
 De meer &quot;traditionele&quot;manier om publiek over op mensen-gebaseerde kanalen te richten impliceert u het moeten uw klantengegevens in een formaat uitvoeren dat door het platform wordt goedgekeurd dat u wilt adverteren, en dan het gebruiken van de specifieke gegevens van het platform op instapmethode om uw klantengegevens aan uw adverteerderrekening te brengen. Dit is al handwerk dat u moet doen voor elk platform waarop u wilt adverteren. Bovendien kunnen verschillende platforms verschillende gegevensindelingsvereisten hebben, waardoor het proces nog vervelender wordt.
 
-![ pbd-overzicht ](assets/pbd-diagram.png)
+![&#x200B; pbd-overzicht &#x200B;](assets/pbd-diagram.png)
 
 Via [!DNL People-Based Destinations] helpt Audience Manager u uw klantgegevens te centraliseren, publiekssegmenten te maken en deze via meerdere op personen gebaseerde kanalen te activeren. U kunt dit alles vanuit de gebruikersinterface van Audience Manager doen, zodat u geen extra werkzaamheden hoeft uit te voeren om handmatig gegevens naar elk platform te uploaden en kostbare tijd bespaart in het proces.
 

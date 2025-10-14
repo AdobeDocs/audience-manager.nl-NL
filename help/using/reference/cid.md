@@ -79,11 +79,11 @@ De sleutel-waardeparen CID en CID_IC vervangen DPID en DPUUID. Zij verstrekken d
  </tbody> 
 </table>
 
-Zie ook, [ Variabelen URL en Syntaxis voor Gedeclareerde IDs ](../features/declared-ids.md#variables-and-syntax).
+Zie ook, [&#x200B; Variabelen URL en Syntaxis voor Gedeclareerde IDs &#x200B;](../features/declared-ids.md#variables-and-syntax).
 
 >[!NOTE]
 >
->U kunt integratiecodes voor uw eigen gegevensbronnen en voor globale [ gedeelde gegevensbronnen ](../features/datasources-list-and-settings.md#settings-menu-options) gebruiken, die u toegang tot hebt. U kunt bijvoorbeeld integratiecodes gebruiken wanneer u werkt met gegevensbronnen van mobiele id&#39;s. Gebruik de volgende integratiecodes, precies zoals hieronder gespecificeerd:
+>U kunt integratiecodes voor uw eigen gegevensbronnen en voor globale [&#x200B; gedeelde gegevensbronnen &#x200B;](../features/datasources-list-and-settings.md#settings-menu-options) gebruiken, die u toegang tot hebt. U kunt bijvoorbeeld integratiecodes gebruiken wanneer u werkt met gegevensbronnen van mobiele id&#39;s. Gebruik de volgende integratiecodes, precies zoals hieronder gespecificeerd:
 
 * **DSID_20914** voor GAID, die apparaten vertegenwoordigen die het werkende systeem van Android in werking stellen.
 * **DSID_20915** voor IDFA, die apparaten vertegenwoordigen die het werkende systeem van iOS in werking stellen.

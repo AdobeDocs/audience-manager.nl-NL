@@ -24,7 +24,7 @@ Voorbeelden van hoe sommige algemene macro&#39;s worden gebruikt om uitgaande do
 
 ## Bestandsnaammacro&#39;s {#file-name-macros}
 
-Voor een lijst van beschikbare macro&#39;s en definities, zie [ Uitgaande Macro&#39;s van het Malplaatje ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Voor een lijst van beschikbare macro&#39;s en definities, zie [&#x200B; Uitgaande Macro&#39;s van het Malplaatje &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_B5073597219B470298EE614902DACAE8"> 
  <thead> 
@@ -72,7 +72,7 @@ Voor een lijst van beschikbare macro&#39;s en definities, zie [ Uitgaande Macro&
 
 ## Macro&#39;s koptekstrij {#header-macros}
 
-Voor een lijst van beschikbare macro&#39;s en definities, zie [ Uitgaande Macro&#39;s van het Malplaatje ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Voor een lijst van beschikbare macro&#39;s en definities, zie [&#x200B; Uitgaande Macro&#39;s van het Malplaatje &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_ABC31B3D660D47969E111EBC734D5BBC"> 
  <thead> 
@@ -91,7 +91,7 @@ Voor een lijst van beschikbare macro&#39;s en definities, zie [ Uitgaande Macro&
 
 ## Bestandsinhoudsmacro&#39;s {#file-content-macros}
 
-Voor een lijst van beschikbare macro&#39;s en definities, zie [ Uitgaande Macro&#39;s van het Malplaatje ](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
+Voor een lijst van beschikbare macro&#39;s en definities, zie [&#x200B; Uitgaande Macro&#39;s van het Malplaatje &#x200B;](../../../integration/receiving-audience-data/batch-outbound-transfers/outbound-template-macros.md).
 
 <table id="table_408C6DD2B9D54550B003EAC93562E64F"> 
  <thead> 

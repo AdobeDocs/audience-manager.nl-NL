@@ -38,7 +38,7 @@ Een gegevensfeed maken:
 
 1. Selecteer in [!UICONTROL Plan Types] de opties die u wilt gebruiken en klik op **[!UICONTROL Add Plan]** .
 
-   Feeds kunnen meerdere plannen bevatten. Plannen kunnen meerdere gebruiksgevallen bevatten. Voor details, zie [ de Types van Plan voor de Diervoeders van Gegevens ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
+   Feeds kunnen meerdere plannen bevatten. Plannen kunnen meerdere gebruiksgevallen bevatten. Voor details, zie [&#x200B; de Types van Plan voor de Diervoeders van Gegevens &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#plan-types).
 
 1. Klik **[!UICONTROL Save]** om uw gegevensvoer *te bewaren zonder* het te activeren.
 1. Een gegevensfeed opslaan en activeren:
@@ -58,7 +58,7 @@ Verplaats de schuifregelaar in de sectie [!UICONTROL Settings] naar:
 
 * **[!UICONTROL Private]** en **[!UICONTROL Unbranded]**: In de lijst [!UICONTROL Marketplace] van de koper worden alleen de naam en de beschrijving van de gegevensfeed weergegeven. De naam van de gegevensaanbieder wordt weergegeven als [!UICONTROL Private Seller] .
 
-Om te zien hoe een privé voer aan kopers kijkt, zie de koperssectie in [ Privégegevensvoer ](../../../features/audience-marketplace/marketplace-private-feeds.md).
+Om te zien hoe een privé voer aan kopers kijkt, zie de koperssectie in [&#x200B; Privégegevensvoer &#x200B;](../../../features/audience-marketplace/marketplace-private-feeds.md).
 
 ## De gegevensfeed van een abonnee deactiveren {#deactivate-data-feed}
 
@@ -90,7 +90,7 @@ Nadat u de toegang tot een gegevensfeed hebt verwijderd, zijn de abonnees verant
 
 [!DNL Plan types] zijn essentiële componenten in een [!UICONTROL Audience Marketplace] -gegevensfeed. Als gegevensleverancier, laten zij u veelvoudige gebruiksgevallen en prijsopties voor uw voer tot stand brengen. Bovendien kan het een goede strategie zijn om een paar plannen voor elke gegevensinvoer te creëren. Dit geeft kopers verschillende opties om te kiezen wanneer ze gegevens zoeken om te modelleren of naar een bestemming te verzenden.
 
-[ creeer een gegevensvoer ](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) om [!UICONTROL Plan Types] te selecteren.
+[&#x200B; creeer een gegevensvoer &#x200B;](../../../features/audience-marketplace/marketplace-data-providers/marketplace-create-manage-feeds.md#create-public-private-data-feed) om [!UICONTROL Plan Types] te selecteren.
 
 ![](assets/plan_types.png)
 
@@ -102,7 +102,7 @@ Met de [!UICONTROL Use Case] -instellingen kunnen verkopers bepalen hoe kopers j
 
 ### Segmenten en overlappen
 
-Een **[!UICONTROL Segments and Overlap]** gebruikscase leidt tot een plan dat kopers de gegevens van de eigenschap in a [ eigenschap-aan-lijn overlappend rapport ](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) laat vergelijken. Voorts kunnen de kopers uw gegevens aan segmenten toevoegen en vergelijkingen maken met [ segment-aan-lijn ](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) en [ segment-aan-segment ](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) rapporten.
+Een **[!UICONTROL Segments and Overlap]** gebruikscase leidt tot een plan dat kopers de gegevens van de eigenschap in a [&#x200B; eigenschap-aan-lijn overlappend rapport &#x200B;](../../../reporting/dynamic-reports/trait-trait-overlap-report.md#trait-to-trait-overlap-report) laat vergelijken. Voorts kunnen de kopers uw gegevens aan segmenten toevoegen en vergelijkingen maken met [&#x200B; segment-aan-lijn &#x200B;](../../../reporting/dynamic-reports/segment-trait-overlap-report.md) en [&#x200B; segment-aan-segment &#x200B;](../../../reporting/dynamic-reports/segment-segment-overlap-report.md) rapporten.
 
 Elke gegevensfeed moet ten minste één [!UICONTROL Segments and Overlap] gebruiksgeval bevatten. Kopers kunnen zich niet abonneren op andere plannen in een gegevensfeed als de feed zelf of in combinatie met een ander gebruik geen [!UICONTROL Segments and Overlap] -case bevat.
 
@@ -118,14 +118,14 @@ Prijs voor dit gebruik als volgt:
 
 ### Modellering
 
-Een **[!UICONTROL Modeling]** gebruiksgeval leidt tot een plan dat kopers uw eigenschappen met hun [ algoritmische modellering ](../../../features/algorithmic-models/understanding-models.md#understanding-models) laat vergelijken. Kopers bekijken de modelresultaten om nieuwe soorten publiek in uw gegevens te vinden die gelijkaardige omzettingsattributen aan hun delen. Prijs voor dit gebruik als volgt:
+Een **[!UICONTROL Modeling]** gebruiksgeval leidt tot een plan dat kopers uw eigenschappen met hun [&#x200B; algoritmische modellering &#x200B;](../../../features/algorithmic-models/understanding-models.md#understanding-models) laat vergelijken. Kopers bekijken de modelresultaten om nieuwe soorten publiek in uw gegevens te vinden die gelijkaardige omzettingsattributen aan hun delen. Prijs voor dit gebruik als volgt:
 
 * Maateenheid: forfaitaire vergoeding
 * Prijs: Contante koers of marktkoers
 
 ### Activering
 
-Een **[!UICONTROL Activation]** gebruiksgeval laat kopers gegevens naar a [ bestemming ](../../../features/destinations/destinations.md) verzenden. In dit geval kunnen kopers geen gegevens vergelijken met een overlappend rapport of met een algoritmisch model. Prijs voor dit gebruik als volgt:
+Een **[!UICONTROL Activation]** gebruiksgeval laat kopers gegevens naar a [&#x200B; bestemming &#x200B;](../../../features/destinations/destinations.md) verzenden. In dit geval kunnen kopers geen gegevens vergelijken met een overlappend rapport of met een algoritmisch model. Prijs voor dit gebruik als volgt:
 
 * Maateenheid: [!DNL CPM]
 * Prijs: [!DNL CPM] marktrente

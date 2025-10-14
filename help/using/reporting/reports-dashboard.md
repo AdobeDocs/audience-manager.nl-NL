@@ -43,8 +43,8 @@ Bijvoorbeeld, als u een dip, of een spiek opmerkt, in totaal unieke gebruikers m
 
    Afhankelijk van de machtigingen van de aangemelde gebruiker worden de volgende deelvensters weergegeven:
 
-   * [ Uniques van de Partner ](../reporting/reports-dashboard.md#partner-uniques)
-   * [ de Grootste Beetjes/Meest veranderde Beetjes ](../reporting/reports-dashboard.md#largest-traits)
+   * [&#x200B; Uniques van de Partner &#x200B;](../reporting/reports-dashboard.md#partner-uniques)
+   * [&#x200B; de Grootste Beetjes/Meest veranderde Beetjes &#x200B;](../reporting/reports-dashboard.md#largest-traits)
    * [Grootste segmenten/Meest gewijzigde segmenten](../reporting/reports-dashboard.md#most-changed-segments)
 
 3. *Facultatieve* klik **[!UICONTROL Normalize]** boven om het even welke grafiek om alle gegevens op de zelfde schaal te tonen. U kunt ook met de muis over elk gegevenspunt klikken om meer informatie weer te geven.

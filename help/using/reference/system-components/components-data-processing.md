@@ -28,7 +28,7 @@ Audience Manager gebruikt de volgende componenten om gegevens te verwerken:
 
 ## Hadoop {#hadoop}
 
-In [!DNL Audience Manager] is Hadoop de hoofddatabase die alles bevat wat [!DNL Audience Manager] weet over een gebruiker. Bijvoorbeeld, wanneer de [ Servers van het Geheime voorgeheugen van het Profiel ](../../reference/system-components/components-data-collection.md) logboekdossiers creëren die gegevens over uw gebruikers bevatten, verzendt het die gegevens naar Hadoop voor opslag. Andere belangrijke Hadoop-elementen zijn:
+In [!DNL Audience Manager] is Hadoop de hoofddatabase die alles bevat wat [!DNL Audience Manager] weet over een gebruiker. Bijvoorbeeld, wanneer de [&#x200B; Servers van het Geheime voorgeheugen van het Profiel &#x200B;](../../reference/system-components/components-data-collection.md) logboekdossiers creëren die gegevens over uw gebruikers bevatten, verzendt het die gegevens naar Hadoop voor opslag. Andere belangrijke Hadoop-elementen zijn:
 
 * **Bieg:** a- gegevenspakhuis voor Hadoop. Hive beheert ad-hocquery&#39;s voor de gegevens die in Hadoop zijn opgeslagen.
 
@@ -38,7 +38,7 @@ Klanten hebben geen directe toegang tot deze systemen. Klanten werken echter ind
 
 ## Snowflake {#snowflake}
 
-[ Snowflake ](https://www.snowflake.net/) is een massaal wolkengegevensbestand. Deze tabel bevat gegevens voor veel van de dashboardgrafieken en de bijbehorende tekstvakken waarin de procentuele wijziging voor elk item in de grafiek wordt weergegeven. Als u [!DNL Audience Manager] gebruikt en de dashboardrapporten bekijkt, communiceert u met gegevens die door [!UICONTROL Snowflake] worden verstrekt.
+[&#x200B; Snowflake &#x200B;](https://www.snowflake.net/) is een massaal wolkengegevensbestand. Deze tabel bevat gegevens voor veel van de dashboardgrafieken en de bijbehorende tekstvakken waarin de procentuele wijziging voor elk item in de grafiek wordt weergegeven. Als u [!DNL Audience Manager] gebruikt en de dashboardrapporten bekijkt, communiceert u met gegevens die door [!UICONTROL Snowflake] worden verstrekt.
 
 
 
@@ -47,7 +47,7 @@ Klanten hebben geen directe toegang tot deze systemen. Klanten werken echter ind
 Dit is geenszins een uitgebreide lijst, maar volgens een aantal algemene dashboardmeldingen is [!UICONTROL Snowflake] verantwoordelijk voor:
 
 * [Rapport Dagelijkse eigenschapvariatie](/help/using/reporting/audience-optimization-reports/daily-trait-variation-report.md)
-* Alle overlappende rapporten (zie de [ Interactieve sectie van Rapporten ](/help/using/reporting/dynamic-reports/dynamic-reports.md) voor informatie over elk overlappend rapport).
+* Alle overlappende rapporten (zie de [&#x200B; Interactieve sectie van Rapporten &#x200B;](/help/using/reporting/dynamic-reports/dynamic-reports.md) voor informatie over elk overlappend rapport).
 * [Rapport Ongebruikte signalen](/help/using/reporting/dynamic-reports/unused-signals.md)
 
 ## SOLR {#solr}
@@ -60,7 +60,7 @@ SOLR is een open-source database en serversysteem van Apache. Het biedt robuuste
 
 ## Tableau {#tableau}
 
-[!DNL Audience Manager] gebruikt [ Tableau ](https://www.tableausoftware.com/) om gegevens in de [ Interactieve Rapporten ](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) en de [ Rapporten van Audience Optimization ](../../reporting/audience-optimization-reports/audience-optimization-reports.md) te tonen. De interactieve rapporten tonen prestaties en overlappen gegevens voor eigenschappen en segmenten. In plaats van getallen te gebruiken die in kolommen en rijen zijn gerangschikt, worden gegevens geretourneerd met verschillende vormen, kleuren en grootten. Bovendien, kunt u individueel of groepen gegevenspunten kiezen en neer in de rapportresultaten voor meer details boren. Deze visualisatietechnieken en de hulp van de rapportinteractiviteit maken grote hoeveelheden numerieke gegevens gemakkelijker te begrijpen.
+[!DNL Audience Manager] gebruikt [&#x200B; Tableau &#x200B;](https://www.tableausoftware.com/) om gegevens in de [&#x200B; Interactieve Rapporten &#x200B;](../../reporting/dynamic-reports/dynamic-reports.md#interactive-and-overlap-reports) en de [&#x200B; Rapporten van Audience Optimization &#x200B;](../../reporting/audience-optimization-reports/audience-optimization-reports.md) te tonen. De interactieve rapporten tonen prestaties en overlappen gegevens voor eigenschappen en segmenten. In plaats van getallen te gebruiken die in kolommen en rijen zijn gerangschikt, worden gegevens geretourneerd met verschillende vormen, kleuren en grootten. Bovendien, kunt u individueel of groepen gegevenspunten kiezen en neer in de rapportresultaten voor meer details boren. Deze visualisatietechnieken en de hulp van de rapportinteractiviteit maken grote hoeveelheden numerieke gegevens gemakkelijker te begrijpen.
 
 
 

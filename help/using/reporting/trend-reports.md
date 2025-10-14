@@ -95,7 +95,7 @@ Wanneer u de resultaten filtert met [!UICONTROL Cross-Device ID] :
 * [!UICONTROL Total Trait Realization] is het totale aantal geverifieerde eigenschapresultaten binnen het geselecteerde tijdbereik.
 * [!UICONTROL Total Trait Population] is het aantal geverifieerde bezoekers dat deze eigenschap in hun profiel heeft.
 
-![ trend-rapport-eigenschappen ](assets/trend-report-traits.png)
+![&#x200B; trend-rapport-eigenschappen &#x200B;](assets/trend-report-traits.png)
 
 De waarden geven aan dat [!DNL Audience Manager] geen gegevens heeft verzameld voor die dag. Lege vermeldingen geven aan dat de eigenschap niet bestond.
 
@@ -110,4 +110,4 @@ De onderstaande filters zijn beschikbaar wanneer u een [!UICONTROL Trend Report]
 * **[!UICONTROL Real-time Segment Population]**: het aantal bezoekers dat in aanmerking kwam voor het segment binnen het geselecteerde tijdbereik.
 * **[!UICONTROL Total Segment Population]**: het totale aantal bezoekers dat in aanmerking kwam voor het segment.
 
-![ trend-rapport-segmenten ](assets/trend-report-segments.png)
+![&#x200B; trend-rapport-segmenten &#x200B;](assets/trend-report-segments.png)

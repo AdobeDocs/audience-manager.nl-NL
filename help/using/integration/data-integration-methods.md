@@ -27,7 +27,7 @@ Het kiezen van de juiste integratiemethode hangt van een combinatie bedrijfsvere
 
 ## Vereisten: een Trait Taxonomy maken {#prereqs}
 
-Alvorens het integratieproces begint, herinner me aan [ eigenschappen ](../features/traits/create-onboarded-rule-based-traits.md) en a [ omslagstructuur ](../features/traits/trait-storage.md#create-trait-storage-folder) in [!DNL Audience Manager] UI creëren. De taxonomie bevat al uw [!UICONTROL traits] geordend in een logische hiërarchie.
+Alvorens het integratieproces begint, herinner me aan [&#x200B; eigenschappen &#x200B;](../features/traits/create-onboarded-rule-based-traits.md) en a [&#x200B; omslagstructuur &#x200B;](../features/traits/trait-storage.md#create-trait-storage-folder) in [!DNL Audience Manager] UI creëren. De taxonomie bevat al uw [!UICONTROL traits] geordend in een logische hiërarchie.
 
 ## Gebruiksscenario&#39;s voor integratie {#integration-use-cases}
 
@@ -166,4 +166,4 @@ De partij ([!DNL server-to-server]) gegevens het integratieproces volgt de meest
 
 ![](assets/s2s_70.png)
 
-Voor informatie beschrijvend de tijdkaders wanneer Audience Manager binnenkomende en uitgaande [!DNL Server-to-Server] ([!UICONTROL S2S]) dossieroverdrachten verwerkt, zie [ Rapporterende en de Tijd-Kader van de Overdracht van het Dossier Richtsnoeren ](../reference/reporting-file-transfer-timeframe.md).
+Voor informatie beschrijvend de tijdkaders wanneer Audience Manager binnenkomende en uitgaande [!DNL Server-to-Server] ([!UICONTROL S2S]) dossieroverdrachten verwerkt, zie [&#x200B; Rapporterende en de Tijd-Kader van de Overdracht van het Dossier Richtsnoeren &#x200B;](../reference/reporting-file-transfer-timeframe.md).

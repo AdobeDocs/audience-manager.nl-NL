@@ -20,9 +20,9 @@ ht-degree: 1%
 >
 >Vanaf juli 2023 heeft Adobe de ontwikkeling van de extensie [!DNL Data Integration Library (DIL)] en [!DNL DIL] stopgezet.
 >
->Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
+>Bestaande klanten kunnen hun [!DNL DIL] -implementatie blijven gebruiken. Adobe ontwikkelt [!DNL DIL] echter niet verder dan dit punt. De klanten worden aangemoedigd om [&#x200B; SDK van het Web van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) voor hun lange termijn strategie van de gegevensinzameling te evalueren.
 >
->De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [ SDK van het Web van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan moeten gebruiken.
+>De klanten die nieuwe integratie van de gegevensinzameling na Juli 2023 willen uitvoeren zouden [&#x200B; SDK van het Web van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=nl-NL) in plaats daarvan moeten gebruiken.
 
 Verzamel gegevens die vanuit FLA-bestanden naar Analytics zijn verzonden en werk in Audience Manager met die gegevens.
 
@@ -51,7 +51,7 @@ c_flash_dil_intro.xml
 * De [!UICONTROL DIL] -klassebibliotheek ( `dil.swc` ). Verkrijg de [!UICONTROL DIL] klassenbibliotheek van uw contact van de Oplossingen van de Partner.
 
 * JavaScript [!UICONTROL DIL] -code voor gegevensverzameling op de pagina.
-* [ de bibliotheek van ActionScript van DIL ](../dil/dil-flash.md#flash-dil-actionscript) geladen in het voorwerp van de Flits u gegevens van wilt verzamelen.
+* [&#x200B; de bibliotheek van ActionScript van DIL &#x200B;](../dil/dil-flash.md#flash-dil-actionscript) geladen in het voorwerp van de Flits u gegevens van wilt verzamelen.
 * Adobe [!DNL AppMeasurement] [!DNL AS] library (versie 3.5.2 of hoger) heeft het [!DNL Flash] -object geladen waarvan u gegevens wilt verzamelen.
 
 **plaats AllowScriptAccess aan `Always` of`sameDomain`**
@@ -132,7 +132,7 @@ Zie de tabel voor voorbeelden:
 
 **Gegevens DIL/Analytics als Ongebruikte Signalen**
 
-Audience Manager accepteert Analytics [!UICONTROL Props] , [!UICONTROL eVars] en gebeurtenissen, zelfs zonder bijbehorend kenmerk. In dit geval, zijn de gegevens niet beschikbaar voor het verwezenlijking van de eigenschap en verschijnen in het [ Ongebruikte rapport van Signalen ](../reporting/dynamic-reports/unused-signals.md) in plaats daarvan. Als u deze informatie optimaal wilt benutten, maakt u Audience Manager-kenmerken die overeenkomen met de analysegegevens die door de [!UICONTROL Flash DIL] -bibliotheek worden doorgegeven.
+Audience Manager accepteert Analytics [!UICONTROL Props] , [!UICONTROL eVars] en gebeurtenissen, zelfs zonder bijbehorend kenmerk. In dit geval, zijn de gegevens niet beschikbaar voor het verwezenlijking van de eigenschap en verschijnen in het [&#x200B; Ongebruikte rapport van Signalen &#x200B;](../reporting/dynamic-reports/unused-signals.md) in plaats daarvan. Als u deze informatie optimaal wilt benutten, maakt u Audience Manager-kenmerken die overeenkomen met de analysegegevens die door de [!UICONTROL Flash DIL] -bibliotheek worden doorgegeven.
 
 ## Flash DIL ActionScript-bibliotheek {#flash-dil-actionscript}
 
@@ -163,7 +163,7 @@ s.loadModule(d);
 
 >[!MORELIKETHIS]
 >
->* [ Tanden ](../features/traits/trait-details-page.md)
+>* [&#x200B; Tanden &#x200B;](../features/traits/trait-details-page.md)
 >* [Signalen, eigenschappen en segmenten](../reference/signal-trait-segment.md)
 >* [Sleutelwaardeparen](../reference/key-value-pairs-explained.md)
 >* [Voorvoegselvereisten voor belangrijke variabelen](../features/traits/trait-variable-prefixes.md)
