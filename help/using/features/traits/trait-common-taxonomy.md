@@ -8,7 +8,7 @@ title: Classificatie van handelsmerken met een gemeenschappelijke taxonomie
 uuid: 2e177344-07d9-40a7-8c99-c6c6518b9d97
 feature: Traits
 exl-id: 59000dc7-66cf-4e7e-8e9b-9d48157203bd
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Het is van essentieel belang dat onze klanten aangepaste segmenten en gegevensmo
 
 ## De taxonomie gebruikt industriestandaard classificatiecategorieën
 
-De gemeenschappelijke taxonomie is gebaseerd op de classificaties die door [!DNL Interactive Advertising Bureau (IAB)] worden gecreeerd. Verwijs naar de [!DNL IAB] website van [&#128279;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) voor meer informatie over de richtlijnen van de kwaliteitsgarantie voor netwerken en uitwisselingen.
+De gemeenschappelijke taxonomie is gebaseerd op de classificaties die door [!DNL Interactive Advertising Bureau (IAB)] worden gecreeerd. Verwijs naar de [!DNL IAB] website van [ ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) voor meer informatie over de richtlijnen van de kwaliteitsgarantie voor netwerken en uitwisselingen.
 
 ## Taxonomische organisatie
 
@@ -39,7 +39,7 @@ In de taxonomie van [!DNL Audience Manager] worden gegevens ingedeeld in geneste
 
 ## Verrichtingen in gegevenscategorieën classificeren
 
-U wijst taxonomische classificaties toe bij het maken of bewerken van kenmerken in de [!UICONTROL Add New Trait Wizard] (in * **[!UICONTROL Audience Data > Traits]** *). Verwijs naar de [&#x200B; documentatie bij het creëren van eigenschappen &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md) voor meer informatie.
+U wijst taxonomische classificaties toe wanneer u eigenschappen maakt of bewerkt in [!UICONTROL Add New Trait Wizard] (bevindt zich in *** [!UICONTROL Audience Data > Traits] ***). Verwijs naar de [ documentatie bij het creëren van eigenschappen ](../../features/traits/create-onboarded-rule-based-traits.md) voor meer informatie.
 
 ## Werken met de taxonomie: aanvullende overwegingen
 

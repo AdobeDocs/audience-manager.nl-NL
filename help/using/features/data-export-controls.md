@@ -7,7 +7,7 @@ title: Besturingselementen voor gegevensexport
 uuid: de7f3608-c0cb-4049-973a-8be54525c600
 feature: Data Export Controls
 exl-id: 4369c210-bcf1-48cc-a9bb-0d122f6c03d4
-source-git-commit: 26aa0a210a045b40b2329844324315a092947188
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-[!UICONTROL Data Export Controls] laat u [&#x200B; gegevensbronnen &#x200B;](../features/datasources-list-and-settings.md#data-sources-list-and-settings) en [&#x200B; bestemmingen &#x200B;](../features/destinations/destinations.md) classificeren. De classificaties die u toepast, bepalen wanneer gegevens naar een bestemming kunnen of kunnen worden geëxporteerd. Deze functie bestaat uit:
+[!UICONTROL Data Export Controls] laat u [ gegevensbronnen ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) en [ bestemmingen ](../features/destinations/destinations.md) classificeren. De classificaties die u toepast, bepalen wanneer gegevens naar een bestemming kunnen of kunnen worden geëxporteerd. Deze functie bestaat uit:
 
 * **[!UICONTROL Data Export Controls]**: U kunt de Controles van de Uitvoer van Gegevens op *gegevensbronnen* plaatsen. Wanneer geplaatst op een gegevensbron, beperken deze controles hoe die gegevensbron en zijn eigenschappen kunnen worden gebruikt.
-* **[!UICONTROL Data Export Labels]**: U kunt de Etiketten van de Uitvoer van Gegevens op *bestemmingen* plaatsen. Wanneer geplaatst op een bestemming, identificeren deze etiketten hoe de bestemming gegevens gebruikt. Zie [&#x200B; de Etiketten van de Uitvoer van Gegevens aan een Bestemming &#x200B;](/help/using/features/destinations/add-data-export-labels.md) toevoegen om te leren hoe te om uitvoeretiketten aan een bestemming toe te voegen.
+* **[!UICONTROL Data Export Labels]**: U kunt de Etiketten van de Uitvoer van Gegevens op *bestemmingen* plaatsen. Wanneer geplaatst op een bestemming, identificeren deze etiketten hoe de bestemming gegevens gebruikt. Zie [ de Etiketten van de Uitvoer van Gegevens aan een Bestemming ](/help/using/features/destinations/add-data-export-labels.md) toevoegen om te leren hoe te om uitvoeretiketten aan een bestemming toe te voegen.
 
 Gebaseerd op de classificaties die op een gegevensbron en een bestemming worden toegepast, houden de uitvoercontroles u tegen van:
 
@@ -48,6 +48,7 @@ Bovendien moet ten minste één exportlabel overeenkomen met een exportbesturing
 >[!IMPORTANT]
 >
 >U kunt de uitvoer van een segment niet blokkeren door een controle van de gegevensuitvoer op de gegevensbron van het segment te plaatsen, moet u de controle op één van beiden van plaatsen:
+>
 > * de gegevensbronnen van de in het segment gebruikte kenmerken;
 > * De profielsamenvoegregel die door het segment wordt gebruikt;
 > * Om het even welke gegevensbronnen die de het profielfusieregel van het segment gebruikt.

@@ -6,7 +6,7 @@ solution: Audience Manager
 title: De Controles van de Uitvoer van Gegevens aan een Doel toevoegen
 feature: Data Export Controls
 exl-id: 12cfd2cc-b343-4dd1-a188-acbfc5cd25a2
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 2%
@@ -26,16 +26,21 @@ ht-degree: 2%
 Exportlabels toevoegen aan een doel:
 
 1. Klik op **[!UICONTROL Audience Data]** :
-   * Voor nieuwe doelen: klik op **[!UICONTROL Create New Destination]** . Vul de sectie [!UICONTROL Basic Information] in voordat u een label voor het exporteren van gegevens selecteert. Zie [&#x200B; een Bestemming van het Koekje &#x200B;](../../features/destinations/create-cookie-destination.md) of [&#x200B; creëren een Doel URL &#x200B;](../../features/destinations/create-url-destination.md) voor informatie.
+
+   * Voor nieuwe doelen: klik op **[!UICONTROL Create New Destination]** . Vul de sectie [!UICONTROL Basic Information] in voordat u een label voor het exporteren van gegevens selecteert. Zie [ een Bestemming van het Koekje ](../../features/destinations/create-cookie-destination.md) of [ creëren een Doel URL ](../../features/destinations/create-url-destination.md) voor informatie.
    * Voor bestaande doelen: gebruik het vak [!DNL Search] om het doel te zoeken of door de lijst te bladeren en op de doelnaam te klikken om het te openen.
+
 1. Selecteer een [!DNL Data Export Label] . Laat de selectievakjes leeg als u geen exportbeperkingen wilt instellen. Exportlabels bevatten de volgende opties:
+
    * **[!UICONTROL This destination may enable a combination with personally identifiable information (PII)]**
    * **[!UICONTROL This destination may be used for on-site ad targeting]**
    * **[!UICONTROL This destination may be used for off-site ad targeting]**
    * **[!UICONTROL This destination may be used for on-site ad personalization]**
+
    >[!IMPORTANT]
    >
-   >De beperkingen van de uitvoer zullen niet werken tenzij u a [&#x200B; passende uitvoercontrole &#x200B;](../../features/data-export-controls.md) op een gegevensbron plaatst.
+   >De beperkingen van de uitvoer zullen niet werken tenzij u a [ passende uitvoercontrole ](../../features/data-export-controls.md) op een gegevensbron plaatst.
+
 1. Klik op **[!UICONTROL Save]**.
 
 >[!MORELIKETHIS]

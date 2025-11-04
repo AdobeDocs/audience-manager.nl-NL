@@ -8,7 +8,7 @@ keywords: d_caller, d_cb, d_cid, d_cid_ic, d_coppa, d_cts=1, d_cts=2, d_tdpid, d
 uuid: 0b98ed11-314b-4500-afde-45a041112150
 feature: DCS
 exl-id: 1bdd7dcd-9411-4b0a-a236-059eb5faf00d
-source-git-commit: e10211057a87622340fd2c61737c7c7a45c0e99c
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 1%
@@ -80,7 +80,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS] wilt. Als 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_coppa</code> </p> </td> 
-   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> -configuratie. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html?lang=nl-NL" format="https" scope="external"> Steun COPPA in de Dienst van de Identiteit van Adobe Experience Platform </a>. </p> </td>
+   <td colname="col2"> <p>Schakel het gebruik van cookies van derden uit om te voldoen aan de voorschriften voor kinderbescherming. Deze parameter wordt dynamisch ingesteld door de Adobe Adobe Experience Platform Identity Service en is afhankelijk van de <code> idSyncDisable3rdPartySyncing</code> -configuratie. Zie <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/coppa.html" format="https" scope="external"> Steun COPPA in de Dienst van de Identiteit van Adobe Experience Platform </a>. </p> </td>
   </tr>
   <tr> 
    <td colname="col1"> <p><code> d_cts=1</code> </p> <p><code> d_cts=2</code> </p> </td> 
@@ -90,14 +90,14 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS] wilt. Als 
       <li id="li_F304CA651F3C444A9A24576726925D87"> <p><code> d_cts=2</code> keert segment IDs voor de segmenten terug. </p> </li>
      </ul> </p> <p>Een voorbeeldreactie kan er als volgt uitzien: </p> <p>
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"07955261652886032950143702505894272138",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"traits":&nbsp;[420020,&nbsp;5421506],
       &nbsp;&nbsp;&nbsp;&nbsp;"segments":&nbsp;[984263,&nbsp;985264],
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS] wilt. Als 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_mid</code> </p> </td> 
-   <td colname="col2"> <p>Geeft de Experience Cloud-id op die wordt ingesteld en gebruikt door de <span class="keyword"> Experience Cloud </span> -id-service. Voor meer informatie over ECID, zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=nl-NL" format="https" scope="external"> Cookies en de Dienst van de Identiteit van Experience Cloud </a>. </p> </td> 
+   <td colname="col2"> <p>Geeft de Experience Cloud-id op die wordt ingesteld en gebruikt door de <span class="keyword"> Experience Cloud </span> -id-service. Voor meer informatie over ECID, zie <a href="https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html" format="https" scope="external"> Cookies en de Dienst van de Identiteit van Experience Cloud </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><code> d_nsid</code> </p> </td> 
@@ -150,12 +150,12 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS] wilt. Als 
       <li id="li_824C23B4C7AA4B5EBADF73D26016A18E">Als u dit opneemt, retourneert de <span class="wintitle"> DCS </span> een <code> JSON</code> -object in de hoofdtekst van de reactie. Zie het onderstaande voorbeeld. Uw reactie kan complexer zijn. </li> 
      </ul> </p> <p> 
      <code class="syntax javascript">
-      &lbrace;
+      {
       &nbsp;&nbsp;&nbsp;&nbsp;"stuff":&nbsp;[],
       &nbsp;&nbsp;&nbsp;&nbsp;"uuid":&nbsp;"22920112968019678612904394744954398990",
       &nbsp;&nbsp;&nbsp;&nbsp;"dcs_region":&nbsp;7,
       &nbsp;&nbsp;&nbsp;&nbsp;"tid":&nbsp;"ss3OTqPiQp0="
-      &rbrace;
+      }
      </code> </p> </td> 
   </tr> 
   <tr> 
@@ -194,8 +194,8 @@ Al deze opties zijn optioneel, tenzij u een reactie van de [!DNL DCS] wilt. Als 
 Deze kopballen bevatten informatie zoals verzoeken om gegevens en reacties in een vraag van HTTP.
 
 | Kenmerk | Beschrijving |
-| --- | --- | 
-| `h_host` | Deze wordt ingesteld op de specifieke hostnaam van de gegevensverzameling van de client. De naam wordt weergegeven als `host name .demdex.net` . Zie [Inzicht in calls naar het Demdex-domein](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=nl-NL). |
+| --- | --- |
+| `h_host` | Deze wordt ingesteld op de specifieke hostnaam van de gegevensverzameling van de client. De naam wordt weergegeven als `host name .demdex.net` . Zie [Inzicht in calls naar het Demdex-domein](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=en). |
 | `h_user-agent` | Instellen op de headerwaarde `User-Agent` . |
 | `h_accept-language` | Instellen op de headerwaarde `Accept-Language` . |
 | `h_referer` | Instellen op de headerwaarde `Referer` . |

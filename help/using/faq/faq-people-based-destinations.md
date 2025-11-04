@@ -6,10 +6,10 @@ solution: Audience Manager
 title: Veelgestelde vragen over persoonsgebaseerde bestemmingen
 feature: People-based Destinations
 exl-id: 56506bf0-45f1-49df-81ac-10f57a2487eb
-source-git-commit: fe01ebac8c0d0ad3630d3853e0bf32f0b00f6a44
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 93%
+ht-degree: 85%
 
 ---
 
@@ -34,7 +34,7 @@ Er zijn twee manieren waarop u offline data in Audience Manager kunt opnemen voo
 
 **Kan ik gehashte e-mailadressen verzamelen via een webformulier of mobiele app, of moeten ze doorkomen via een batchbestand?**
 
-U kunt gehashte e-mailadressen via webverificatie verzamelen met behulp van [!DNL ECID] met [gedeclareerde id’s](../features/declared-ids.md). Met het batchbestand kunt u ook gehashte e-mailadressen verzamelen die niet via verificatie kunnen worden verzonden (bijvoorbeeld slapende gebruikers in uw ([!DNL CRM])) en deze activeren in persoonsgebaseerde bestemmingen.
+U kunt gehashte e-mailadressen via webverificatie verzamelen met behulp van [!DNL ECID] met [gedeclareerde id’s](../features/declared-ids.md). Het partijdossier staat u toe om gehakt e-mailadressen ook te verzamelen die niet door authentificatie (b.v. slapende gebruikers in uw ([!DNL CRM]) kunnen worden verzonden en hen in op mensen-gebaseerde bestemmingen activeren.
 
 **Hoe is het opnemen van gehashte e-mailadressen via webformulieren anders dan het uploaden van gehashte e-mailadressen via batchbestanden?**
 
@@ -60,6 +60,7 @@ Ja. Klanten die [!DNL People-Based Destinations] kopen, krijgen ook toegang tot 
 Dat hangt van uw gebruiksscenario af. Als u van plan bent bestaande eigen segmenten te activeren in persoonsgebaseerde kanalen, hoeft u geen nieuwe segmenten te maken. U kunt de segmenten gewoon toewijzen aan een persoonsgebaseerde bestemming.
 
 Als u van plan bent nieuwe offline doelgroepen te activeren in persoonsgebaseerde kanalen, moet u nieuwe eigen segmenten maken met de [!DNL All Cross-Device Profiles]-samenvoegingsregel.
+
 >[!NOTE]
 >
 > U kunt segmenten met eigen data alleen toewijzen aan [!DNL People-Based Destinations]. Onze bestemmingsplatforms accepteren geen segmenten met data van tweede en derde partijen.
@@ -72,7 +73,7 @@ Nee. Bij het verzenden van doelgroepsegmenten naar [!DNL People-Based Destinatio
 
 **Hoe zijn matchpercentages die gebruikmaken van [!DNL People-Based Destinations], theoretisch te vergelijken met andere methodes om doelgroepen naar bestemmingsplatforms te verzenden?**
 
-Zolang het e-mailadres correct wordt gehasht en opgenomen, zou er geen verschil in matchpercentage moeten zijn tussen [!DNL People-Based Destinations] en andere methodes. De enige reden dat een matchpercentage onder de 100% komt, is als de e-mailadressen die in Audience Manager worden opgenomen, niet kunnen worden gematcht met een e-mailadres in de gebruikersbase van het bestemmingsplatform.
+Zolang het e-mailadres correct wordt gehasht en opgenomen, zou er geen verschil in matchpercentage moeten zijn tussen [!DNL People-Based Destinations] en andere methodes. De enige reden dat een overeenkomende snelheid lager is dan 100% is dat de e-mailadressen die naar Audience Manager worden verzonden niet overeenkomen met een e-mailadres in de gebruikerslijst van het doelplatform.
 
 **Ik verzamel werk-e-mailadressen van mijn klanten, die anders zijn dan de persoonlijke e-mailadressen die in sociale netwerken worden gebruikt. Hoe kunt u identiteiten matchen met meerdere e-mailadressen?**
 
@@ -106,13 +107,13 @@ Voordat u [!DNL People-Based Destinations] kunt gebruiken om doelgroepsegmenten 
 
 **Ondersteunt [!DNL People-Based Destinations] doelgroeptargeting in andere [!DNL Facebook]-apps zoals [!DNL Instagram]?**
 
-U kunt [!DNL People-Based Destinations] gebruiken in de hele [!DNL Facebook]-appfamilie die door [!DNL Custom Audiences] wordt ondersteund, inclusief [!DNL Facebook], [!DNL Instagram], [!DNL Audience Network] en [!DNL Messenger]. De selectie van de app waarin u de campagne wilt voeren, wordt aangegeven op het plaatsingsniveau in [!DNL Facebook Ads Manager].
+U kunt [!DNL People-Based Destinations] gebruiken voor alle [!DNL Facebook] -apps die worden ondersteund door [!DNL Custom Audiences] , zoals [!DNL Facebook] , [!DNL Instagram] , [!DNL Audience Network] en [!DNL Messenger] . De selectie van de app waarin u de campagne wilt voeren, wordt aangegeven op het plaatsingsniveau in [!DNL Facebook Ads Manager].
 
-**Wat is het verschil tussen [!DNL People-Based Destinations] en [!DNL Website Custom Audiences]?**
+**wat is het verschil tussen [!DNL People-Based Destinations] en [!DNL Website Custom Audiences]?**
 
 [!DNL People-Based Destinations] maakt gebruik van de [!DNL Custom Audiences (CA)]-integratie met [!DNL Facebook]. Het verschil tussen [!DNL WCA]- en [!DNL CA]-integratie is de sleutel die de klanten gebruiken bij het verzenden van doelgroepen naar [!DNL Facebook]. [!DNL WCA] gebruikt de [!DNL Facebook]-pixel (een websitegebruikers-id) terwijl [!DNL People-Based Destinations] gehashte e-mailadressen gebruikt voor integratie met [!DNL CA].
 
-U kunt de [!DNL Facebook] [!DNL WCA]-integratie van Audience Manager zonder extra kosten gebruiken via de functie [!DNL URL Destinations].
+U kunt zonder extra kosten de Audience Manager [!DNL Facebook] [!DNL WCA] -integratie gebruiken via de [!DNL URL Destinations] -functie.
 
 Deze twee integraties zijn complementair; u kunt beide gebruiken om te zorgen voor een betere doelgroepdekking. Een voorbeeld: [!DNL WCA] kan worden gebruikt voor prospectie wanneer een bedrijf websitebezoekers wil targeten die geen account hebben geregistreerd, terwijl [!DNL People-Based Destinations] u kan helpen bestaande klanten te targeten die hun e-mailadres hebben opgegeven, maar de website misschien niet hebben bezocht.
 

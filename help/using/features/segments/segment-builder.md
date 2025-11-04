@@ -7,7 +7,7 @@ title: Segment Builder
 uuid: 5ca924a5-2b29-4802-ab02-e292d77a0aae
 feature: Segments
 exl-id: 1bd681e4-fdf7-40df-b497-b1b0bf19d68e
-source-git-commit: 1fc17678ba632bfa17f7525c4fc4ff3b534acf94
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Beschrijft de vereiste en facultatieve stappen die tot een segment in [!UICONTRO
 
 ## Videodemonstratie
 
-Begin door te letten op [&#x200B; creeer Segmenten in de video van Audience Manager &#x200B;](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4). De video bespreekt u het proces van de segmentverwezenlijking. Lees de onderstaande secties voor meer informatie.
+Begin door te letten op [ creeer Segmenten in de video van Audience Manager ](https://images-tv.adobe.com/avp/vr/b7f88801-efe0-4786-9d58-554db16b34eb/81b6f004-cec0-452c-9b35-dabdc69ae3b4/9dc8a1d4-350d-46c3-90a6-5197dfb76f40_20180130023449.854x480at800_h264.mp4). De video bespreekt u het proces van de segmentverwezenlijking. Lees de onderstaande secties voor meer informatie.
 
 ## Een [!UICONTROL Segment] maken {#create-segment}
 
@@ -30,9 +30,9 @@ Begin door te letten op [&#x200B; creeer Segmenten in de video van Audience Mana
 
 [!UICONTROL Segment Builder] bestaat uit drie afzonderlijke secties: [!UICONTROL Basic Information] , [!UICONTROL Traits] en [!UICONTROL Destinations Mapping] . Als u een [!UICONTROL segment] wilt maken, vult u de vereiste velden in de secties [!UICONTROL Basic Information] en [!UICONTROL Traits] in. [!UICONTROL Destinations Mapping] -instellingen zijn optioneel. Raadpleeg de onderstaande instructies voor meer hulp.
 
-1. In de [&#x200B; Basisinformatie &#x200B;](../../features/segments/segment-builder.md#segment-builder-controls-basics) sectie:
+1. In de [ Basisinformatie ](../../features/segments/segment-builder.md#segment-builder-controls-basics) sectie:
 
-   ![&#x200B; creeer-segment &#x200B;](assets/create-segment.png)
+   ![ creeer-segment ](assets/create-segment.png)
 
    * Geef de [!UICONTROL segment] een naam. De maximumlengte van een naam van een [!UICONTROL segment] is 255 tekens.
    * Stel de status [!UICONTROL segment] in (actief is standaard).
@@ -40,19 +40,19 @@ Begin door te letten op [&#x200B; creeer Segmenten in de video van Audience Mana
    * Selecteer een [!UICONTROL profile merge rule] voor [!UICONTROL segment] -kwalificatie.
    * Wijs de [!UICONTROL segment] toe aan een opslagmap.
 
-1. In de [&#x200B; sectie van Tanden &#x200B;](../../features/segments/segment-builder.md#segment-builder-controls-traits):
-   ![&#x200B; segment-bouwer-trekken &#x200B;](assets/segment-builder-traits.png)
+1. In de [ sectie van Tanden ](../../features/segments/segment-builder.md#segment-builder-controls-traits):
+   ![ segment-bouwer-trekken ](assets/segment-builder-traits.png)
    * Zoek naar [!UICONTROL trait] u aan een segment wilt toevoegen en **[!UICONTROL Add Trait]** klikken. Voeg nog een [!UICONTROL trait] toe om een [!UICONTROL trait] -groep te maken.
-   * Klik op [!UICONTROL Advanced Search] om het modaal van **[!UICONTROL Browse All Traits]** weer te geven. Zoek [!UICONTROL traits] op naam, identiteitskaart, beschrijving of [!UICONTROL data source]. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt [!UICONTROL traits] door [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], en [!UICONTROL Algorithmic]) of bevolkingstype ([&#x200B; identiteitskaart van het Apparaat &#x200B;](../../reference/ids-in-aam.md) en [&#x200B; identiteitskaart van het Apparaat &#x200B;](../../reference/ids-in-aam.md)) ook filtreren.
-     ![&#x200B; segment-bouwer-browser-eigenschappen &#x200B;](assets/segment-builder-browse-traits.png)
-   * Krijg levende [&#x200B; aanbevelingen van het dienstreis &#x200B;](trait-recommendations.md) aangezien u uw [!UICONTROL segment] bouwt.
+   * Klik op [!UICONTROL Advanced Search] om het modaal van **[!UICONTROL Browse All Traits]** weer te geven. Zoek [!UICONTROL traits] op naam, identiteitskaart, beschrijving of [!UICONTROL data source]. Klik tijdens het zoeken op een map om de resultaten te beperken tot die map en de bijbehorende submappen. U kunt [!UICONTROL traits] door [!UICONTROL trait type] ([!UICONTROL Folder Trait], [!UICONTROL Rule-based], [!UICONTROL Onboarded], en [!UICONTROL Algorithmic]) of bevolkingstype ([ identiteitskaart van het Apparaat ](../../reference/ids-in-aam.md) en [ identiteitskaart van het Apparaat ](../../reference/ids-in-aam.md)) ook filtreren.
+     ![ segment-bouwer-browser-eigenschappen ](assets/segment-builder-browse-traits.png)
+   * Krijg levende [ aanbevelingen van het dienstreis ](trait-recommendations.md) aangezien u uw [!UICONTROL segment] bouwt.
    * Klik en sleep [!UICONTROL traits] om aparte groepen te maken.
    * Houd de cursor tussen groepen om relaties in te stellen met Booleaanse waarden [!UICONTROL AND] , [!UICONTROL OR] , [!UICONTROL AND NOT] .
-   * Beweeg over het klokpictogram om [&#x200B; recentie en frequentie &#x200B;](../../features/segments/recency-and-frequency.md) regels aan [!UICONTROL trait] toe te voegen.
-   * Gegevens over segmentpopulaties weergeven terwijl u [!UICONTROL traits] toevoegt of verwijdert. Klik op **[!UICONTROL Calculate Estimates]** om de geschatte bevolkingsaantallen te zien (of te vernieuwen). Lees meer over [&#x200B; gegevens van de segmentbevolking &#x200B;](../../features/segments/segment-builder-data.md#segment-populations) in [!UICONTROL Segment Builder].
+   * Beweeg over het klokpictogram om [ recentie en frequentie ](../../features/segments/recency-and-frequency.md) regels aan [!UICONTROL trait] toe te voegen.
+   * Gegevens over segmentpopulaties weergeven terwijl u [!UICONTROL traits] toevoegt of verwijdert. Klik op **[!UICONTROL Calculate Estimates]** om de geschatte bevolkingsaantallen te zien (of te vernieuwen). Lees meer over [ gegevens van de segmentbevolking ](../../features/segments/segment-builder-data.md#segment-populations) in [!UICONTROL Segment Builder].
    * Klik op **[!UICONTROL Save]** als u klaar bent.
 
-1. *(Facultatief)* Kaart a [!UICONTROL segment] aan a [!UICONTROL destination] in de [&#x200B; sectie van de Afbeelding van de Bestemming &#x200B;](../../features/segments/segment-builder.md#segment-builder-controls-destinations):
+1. *(Facultatief)* Kaart a [!UICONTROL segment] aan a [!UICONTROL destination] in de [ sectie van de Afbeelding van de Bestemming ](../../features/segments/segment-builder.md#segment-builder-controls-destinations):
    * Zoek naar [!UICONTROL destination] en klik **[!UICONTROL Add Destination]**. De instructie [!UICONTROL destination] moet al bestaan voordat u deze aan een [!UICONTROL segment] kunt toevoegen.
    * Klik op **[!UICONTROL Save]** als u klaar bent.
 
@@ -110,7 +110,7 @@ In [!UICONTROL Segment Builder] kunt u met [!UICONTROL the Basic Information] -i
 -->
 
 | Veld | Beschrijving |
----------|----------
+|---------|----------|
 | **[!UICONTROL Name]** | Geef het segment een korte, logische naam die zijn functie of doel beschrijft. Vermijd afkortingen en speciale tekens. De maximumlengte van een segmentnaam is 255 tekens. |
 | **[!UICONTROL Description]** | Een veld voor aanvullende beschrijvende informatie over het segment. |
 | **[!UICONTROL Integration Code]** | Een veld voor een door de gebruiker gedefinieerde id of andere bedrijfsspecifieke informatie. |
@@ -132,8 +132,8 @@ In [!UICONTROL Segment Builder] kunt u met de sectie [!UICONTROL Traits] [!UICON
 | **[!UICONTROL Basic View]** | Deze sectie verstrekt visuele controles die u laten: <ul><li>Nieuwe maken en bestaande [!UICONTROL segments] beheren.</li><li>Verwijder [!UICONTROL traits] uit een [!UICONTROL segment] .</li><li>Voeg maximaal 50 (maximaal) [!UICONTROL traits] toe aan een [!UICONTROL segment] .</li><li>Sleep [!UICONTROL traits] om nieuwe groepen te maken.</li><li>Groepen [!UICONTROL traits] en [!UICONTROL trait] in een [!UICONTROL segment] weergeven.</li><li>Stel kwalificatiecriteria in met Booleaanse expressies, vergelijkingsoperatoren en instellingen voor recentie/frequentie.</li></ul> |
 | **[!UICONTROL Code View]** | Hiermee opent u een ontwikkelomgeving waarin u [!UICONTROL traits] , groepen en kwalificatievereisten kunt maken en beheren met code in plaats van met de visuele interface. De codeweergave is handig als uw [!UICONTROL segments] : <ul><li>Bevat meer dan 50 [!UICONTROL traits] in een individu [!UICONTROL segment]. Opmerking: [!UICONTROL Segments] zijn beperkt tot 5000 [!UICONTROL traits] (maximaal).</li><li>Bevat veel [!UICONTROL trait] groepen.</li><li>complexe kwalificatievereisten hebben.</li></ul> |
 | Zoeken | Hiermee kunt u zoeken naar [!UICONTROL traits] die aan een [!UICONTROL segment] moet worden toegevoegd. |
-| Aanbevelingen | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van uw eerste partij [!UICONTROL traits] en [!UICONTROL Audience Marketplace] gegevensvoer dat u aan wordt geabonneerd. Voeg deze aanbevelingen aan de [!UICONTROL segment] regel toe om uw publiek uit te breiden. Lees meer in [&#x200B; Aanbevelingen van het Staal &#x200B;](trait-recommendations.md). |
-| **[!UICONTROL Marketplace Recommendations]** | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van [!UICONTROL Audience Marketplace] gegevensvoer dat u niet aan wordt geabonneerd. Lees meer in [&#x200B; Aanbevelingen van het Staal &#x200B;](trait-recommendations.md). |
+| Aanbevelingen | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van uw eerste partij [!UICONTROL traits] en [!UICONTROL Audience Marketplace] gegevensvoer dat u aan wordt geabonneerd. Voeg deze aanbevelingen aan de [!UICONTROL segment] regel toe om uw publiek uit te breiden. Lees meer in [ Aanbevelingen van het Staal ](trait-recommendations.md). |
+| **[!UICONTROL Marketplace Recommendations]** | Krijg levende aanbevelingen voor gelijkaardige [!UICONTROL traits], van [!UICONTROL Audience Marketplace] gegevensvoer dat u niet aan wordt geabonneerd. Lees meer in [ Aanbevelingen van het Staal ](trait-recommendations.md). |
 | Gegevens over werkelijke en geschatte [!UICONTROL Segment] grootte | Zie [Populatiedata van eigenschappen en segmenten in Segment Builder](segment-builder-data.md). |
 
 ## [!UICONTROL Traits] verwijderen uit een [!UICONTROL Segment] {#remove-traits}
@@ -196,5 +196,5 @@ Geef in het veld [!UICONTROL Destination Value] de waarde op (onderdeel van een 
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; creeer een Bestemming van het Koekje &#x200B;](../../features/destinations/create-cookie-destination.md)
->* [&#x200B; creeer een Doel URL &#x200B;](../../features/destinations/create-url-destination.md)
+>* [ creeer een Bestemming van het Koekje ](../../features/destinations/create-cookie-destination.md)
+>* [ creeer een Doel URL ](../../features/destinations/create-url-destination.md)

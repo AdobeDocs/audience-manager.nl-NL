@@ -6,7 +6,7 @@ title: Signaaldashboard
 uuid: 26f39507-097f-427d-bf5b-ab6d035c1dd2
 feature: Data Explorer
 exl-id: dfcacdca-c301-4655-9ab4-0642ce6d1cc0
-source-git-commit: 4d3c859cc4dc5294286680b0e63c287e0409f7fd
+source-git-commit: fc26861e4a53abc57f8814abf823a51894fb6147
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -35,9 +35,10 @@ Deze sectie toont u de hoogste 50 nieuwe ongebruikte signalen die in de afgelope
 
 ## Opgeslagen zoekopdrachten {#saved-searches}
 
-[!DNL Audience Manager] toont al uw [&#x200B; bewaarde onderzoeken &#x200B;](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) op [!UICONTROL Dashboard] en herlaadt hen telkens als u [!UICONTROL Dashboard] laadt.
+[!DNL Audience Manager] toont al uw [ bewaarde onderzoeken ](../../features/data-explorer/data-explorer-signals-search/data-explorer-save-search.md) op [!UICONTROL Dashboard] en herlaadt hen telkens als u [!UICONTROL Dashboard] laadt.
 
 Opgeslagen zoekopdrachten geven de bovenste 50 resultaten weer voor de corresponderende criteria.
 
 Bekijk de onderstaande video voor meer informatie over het gebruik van de [!UICONTROL Signals Dashboard] .
+
 >[!VIDEO](https://video.tv.adobe.com/v/25151/)
