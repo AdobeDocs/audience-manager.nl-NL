@@ -27,7 +27,7 @@ Exportlabels toevoegen aan een doel:
 
 1. Klik op **[!UICONTROL Audience Data]** :
 
-   * Voor nieuwe doelen: klik op **[!UICONTROL Create New Destination]** . Vul de sectie [!UICONTROL Basic Information] in voordat u een label voor het exporteren van gegevens selecteert. Zie [ een Bestemming van het Koekje ](../../features/destinations/create-cookie-destination.md) of [ creëren een Doel URL ](../../features/destinations/create-url-destination.md) voor informatie.
+   * Voor nieuwe doelen: klik op **[!UICONTROL Create New Destination]** . Vul de sectie [!UICONTROL Basic Information] in voordat u een label voor het exporteren van gegevens selecteert. Zie [&#x200B; een Bestemming van het Koekje &#x200B;](../../features/destinations/create-cookie-destination.md) of [&#x200B; creëren een Doel URL &#x200B;](../../features/destinations/create-url-destination.md) voor informatie.
    * Voor bestaande doelen: gebruik het vak [!DNL Search] om het doel te zoeken of door de lijst te bladeren en op de doelnaam te klikken om het te openen.
 
 1. Selecteer een [!DNL Data Export Label] . Laat de selectievakjes leeg als u geen exportbeperkingen wilt instellen. Exportlabels bevatten de volgende opties:
@@ -39,7 +39,7 @@ Exportlabels toevoegen aan een doel:
 
    >[!IMPORTANT]
    >
-   >De beperkingen van de uitvoer zullen niet werken tenzij u a [ passende uitvoercontrole ](../../features/data-export-controls.md) op een gegevensbron plaatst.
+   >De beperkingen van de uitvoer zullen niet werken tenzij u a [&#x200B; passende uitvoercontrole &#x200B;](../../features/data-export-controls.md) op een gegevensbron plaatst.
 
 1. Klik op **[!UICONTROL Save]**.
 

@@ -20,10 +20,10 @@ ht-degree: 0%
 
 ## Overzicht {#overview}
 
-[!UICONTROL Data Export Controls] laat u [ gegevensbronnen ](../features/datasources-list-and-settings.md#data-sources-list-and-settings) en [ bestemmingen ](../features/destinations/destinations.md) classificeren. De classificaties die u toepast, bepalen wanneer gegevens naar een bestemming kunnen of kunnen worden geëxporteerd. Deze functie bestaat uit:
+[!UICONTROL Data Export Controls] laat u [&#x200B; gegevensbronnen &#x200B;](../features/datasources-list-and-settings.md#data-sources-list-and-settings) en [&#x200B; bestemmingen &#x200B;](../features/destinations/destinations.md) classificeren. De classificaties die u toepast, bepalen wanneer gegevens naar een bestemming kunnen of kunnen worden geëxporteerd. Deze functie bestaat uit:
 
 * **[!UICONTROL Data Export Controls]**: U kunt de Controles van de Uitvoer van Gegevens op *gegevensbronnen* plaatsen. Wanneer geplaatst op een gegevensbron, beperken deze controles hoe die gegevensbron en zijn eigenschappen kunnen worden gebruikt.
-* **[!UICONTROL Data Export Labels]**: U kunt de Etiketten van de Uitvoer van Gegevens op *bestemmingen* plaatsen. Wanneer geplaatst op een bestemming, identificeren deze etiketten hoe de bestemming gegevens gebruikt. Zie [ de Etiketten van de Uitvoer van Gegevens aan een Bestemming ](/help/using/features/destinations/add-data-export-labels.md) toevoegen om te leren hoe te om uitvoeretiketten aan een bestemming toe te voegen.
+* **[!UICONTROL Data Export Labels]**: U kunt de Etiketten van de Uitvoer van Gegevens op *bestemmingen* plaatsen. Wanneer geplaatst op een bestemming, identificeren deze etiketten hoe de bestemming gegevens gebruikt. Zie [&#x200B; de Etiketten van de Uitvoer van Gegevens aan een Bestemming &#x200B;](/help/using/features/destinations/add-data-export-labels.md) toevoegen om te leren hoe te om uitvoeretiketten aan een bestemming toe te voegen.
 
 Gebaseerd op de classificaties die op een gegevensbron en een bestemming worden toegepast, houden de uitvoercontroles u tegen van:
 

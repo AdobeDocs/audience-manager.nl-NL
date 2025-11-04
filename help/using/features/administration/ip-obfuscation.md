@@ -27,15 +27,15 @@ Volgens de beginselen van &quot;Privacy door Ontwerp&quot; staat Adobe Audience 
 * Voor verwarring: `255.255.255.255`
 * Na verduistering: `255.255.255.0`
 
-Zie ook, het Verzamelen van IP adressen en IP de Verduistering van het Adres in onze [ sectie van de Privacy van Gegevens ](/help/using/overview/data-security-and-privacy/data-privacy.md).
+Zie ook, het Verzamelen van IP adressen en IP de Verduistering van het Adres in onze [&#x200B; sectie van de Privacy van Gegevens &#x200B;](/help/using/overview/data-security-and-privacy/data-privacy.md).
 
 ### IP Voorrang van de Verduistering {#precedence}
 
-[ datastream-vlakke IP verwarring ](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) neemt belangrijkheid over om het even welke IP die optieoptie in Audience Manager wordt geplaatst, en het wordt toegepast op alle IP adressen. Elke opzoekhandeling van de geolocatie door Audience Manager wordt beïnvloed door de optie op gegevensstroomniveau [!UICONTROL IP obfuscation] . Een opzoekhandeling naar een geolocatie in Audience Manager, gebaseerd op een volledig verduisterde IP, zal resulteren in een onbekend gebied en alle segmenten op basis van de resulterende geolocatiegegevens zullen niet worden uitgevoerd.
+[&#x200B; datastream-vlakke IP verwarring &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) neemt belangrijkheid over om het even welke IP die optieoptie in Audience Manager wordt geplaatst, en het wordt toegepast op alle IP adressen. Elke opzoekhandeling van de geolocatie door Audience Manager wordt beïnvloed door de optie op gegevensstroomniveau [!UICONTROL IP obfuscation] . Een opzoekhandeling naar een geolocatie in Audience Manager, gebaseerd op een volledig verduisterde IP, zal resulteren in een onbekend gebied en alle segmenten op basis van de resulterende geolocatiegegevens zullen niet worden uitgevoerd.
 
 ## IP de Vereisten van de Obfuscatie van het Adres {#ip-obfuscation-requirements}
 
-IP de adresverwarring is beschikbaar slechts aan de beheerderrekeningen van Audience Manager. Zie [ Gebruikers ](/help/using/features/administration/administration-overview.md#create-users) creëren om te begrijpen hoe te om beheerdervoorrechten voor een gebruiker toe te wijzen.
+IP de adresverwarring is beschikbaar slechts aan de beheerderrekeningen van Audience Manager. Zie [&#x200B; Gebruikers &#x200B;](/help/using/features/administration/administration-overview.md#create-users) creëren om te begrijpen hoe te om beheerdervoorrechten voor een gebruiker toe te wijzen.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Volg de stappen hieronder om IP adresverwarring te vormen.
 1. Login aan Audience Manager met een beheerderrekening en ga naar **Beleid > Privacy**.
 2. Kies het type van IP verduistering dat u wilt gebruiken.
    1. **verduisteren alle IP adressen:** selecteer deze optie om Audience Manager te hebben verduisteren het laatste octet van alle bezoekerIP adressen, ongeacht het gebied zij uit voortkomen.
-   2. **Obfuscate IP adressen voor specifieke landen:** selecteer deze optie om Audience Manager te hebben verduisteren het laatste octet van bezoekerIP adressen voor specifieke landen. Gebruik de **Lijst van Landen** of het overeenkomstige **3} gebied van het Onderzoek {om de landen te vinden om IP verwarring voor toe te laten, en + pictogram te klikken om hen aan** toe te voegen Geselecteerd voor de lijst van de Verduistering **.** Zodra u alle vereiste landen aan **selecteerde voor Verduistering** lijst hebt toegevoegd, klik **sparen**.
+   2. **Obfuscate IP adressen voor specifieke landen:** selecteer deze optie om Audience Manager te hebben verduisteren het laatste octet van bezoekerIP adressen voor specifieke landen. Gebruik de **Lijst van Landen** of het overeenkomstige **3&rbrace; gebied van het Onderzoek &lbrace;om de landen te vinden om IP verwarring voor toe te laten, en + pictogram te klikken om hen aan** toe te voegen Geselecteerd voor de lijst van de Verduistering **.** Zodra u alle vereiste landen aan **selecteerde voor Verduistering** lijst hebt toegevoegd, klik **sparen**.
 
 ![](assets/ip-obfuscation.png)
 
@@ -60,7 +60,7 @@ Om IP adresverwarring voor specifieke landen onbruikbaar te maken, vind de lande
 
 ## Verwante concepten {#related-concepts}
 
-* [ Privacy van Gegevens ](/help/using/overview/data-security-and-privacy/data-privacy.md)
+* [&#x200B; Privacy van Gegevens &#x200B;](/help/using/overview/data-security-and-privacy/data-privacy.md)
 * IP de Demonstratie van de Video van de Verduistering van het Adres
 
 >[!VIDEO](https://video.tv.adobe.com/v/27218/)

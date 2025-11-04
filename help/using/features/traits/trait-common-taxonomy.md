@@ -31,7 +31,7 @@ Het is van essentieel belang dat onze klanten aangepaste segmenten en gegevensmo
 
 ## De taxonomie gebruikt industriestandaard classificatiecategorieën
 
-De gemeenschappelijke taxonomie is gebaseerd op de classificaties die door [!DNL Interactive Advertising Bureau (IAB)] worden gecreeerd. Verwijs naar de [!DNL IAB] website van [ ](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) voor meer informatie over de richtlijnen van de kwaliteitsgarantie voor netwerken en uitwisselingen.
+De gemeenschappelijke taxonomie is gebaseerd op de classificaties die door [!DNL Interactive Advertising Bureau (IAB)] worden gecreeerd. Verwijs naar de [!DNL IAB] website van [&#x200B; &#x200B;](https://www.iab.net/iab_products_and_industry_services/508676/ne_guidelines) voor meer informatie over de richtlijnen van de kwaliteitsgarantie voor netwerken en uitwisselingen.
 
 ## Taxonomische organisatie
 
@@ -39,7 +39,7 @@ In de taxonomie van [!DNL Audience Manager] worden gegevens ingedeeld in geneste
 
 ## Verrichtingen in gegevenscategorieën classificeren
 
-U wijst taxonomische classificaties toe wanneer u eigenschappen maakt of bewerkt in [!UICONTROL Add New Trait Wizard] (bevindt zich in *** [!UICONTROL Audience Data > Traits] ***). Verwijs naar de [ documentatie bij het creëren van eigenschappen ](../../features/traits/create-onboarded-rule-based-traits.md) voor meer informatie.
+U wijst taxonomische classificaties toe wanneer u eigenschappen maakt of bewerkt in [!UICONTROL Add New Trait Wizard] (bevindt zich in *** [!UICONTROL Audience Data > Traits] &#x200B;***). Verwijs naar de [&#x200B; documentatie bij het creëren van eigenschappen &#x200B;](../../features/traits/create-onboarded-rule-based-traits.md) voor meer informatie.
 
 ## Werken met de taxonomie: aanvullende overwegingen
 
