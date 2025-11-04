@@ -18,17 +18,17 @@ ht-degree: 0%
 
 Met de functionaliteit voor het delen van publiek tussen Audience Manager en Adobe Experience Platform kunt u uw Audience Manager-kenmerken en -segmenten delen met Adobe Experience Platform- en Experience Platform-segmenten naar Audience Manager.
 
-U hebt [[!DNL Audience Manager source connector] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html) en [&#x200B; het 3&rbrace; doel van het publiek van Experience Cloud &lbrace;in Experience Platform nodig om publiek toe te laten delend tussen Audience Manager en Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
+U hebt [[!DNL Audience Manager source connector] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=nl-NL) en [&#x200B; het 3&rbrace; doel van het publiek van Experience Cloud &lbrace;in Experience Platform nodig om publiek toe te laten delend tussen Audience Manager en Adobe Experience Platform.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=nl-NL)
 
-U kunt de eigenschappen en de segmenten van Audience Manager in Experience Platform gebruiken om de gegevens van Audience Manager aan uw klantenprofielen toe te voegen en van de Experience Platform [&#x200B; segmenteringsdienst &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=en) te profiteren.
+U kunt de eigenschappen en de segmenten van Audience Manager in Experience Platform gebruiken om de gegevens van Audience Manager aan uw klantenprofielen toe te voegen en van de Experience Platform [&#x200B; segmenteringsdienst &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL) te profiteren.
 
 In Audience Manager kunt u Experience Platform-segmenten gebruiken voor gegevensbeheerplatform, zoals:
 
 * Voeg [&#x200B; derdegegevens &#x200B;](/help/using/overview/data-types-collected.md#third-party-data) aan uw segmenten toe;
 * [&#x200B; Algorithmic modelling &#x200B;](/help/using/features/algorithmic-models/understanding-models.md);
-* Activeer uw segmenten aan bestemmingen die nog niet in de Experience Platform [&#x200B; bestemmingscatalogus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html) worden gesteund.
+* Activeer uw segmenten aan bestemmingen die nog niet in de Experience Platform [&#x200B; bestemmingscatalogus &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/destinations/destinations-cat/destinations-catalog.html?lang=nl-NL) worden gesteund.
 
-Bovendien, worden uw segmenten van Experience Platform gedeeld aan andere oplossingen van Experience Cloud, via [&#x200B; Diensten van de Kern &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html).
+Bovendien, worden uw segmenten van Experience Platform gedeeld aan andere oplossingen van Experience Cloud, via [&#x200B; Diensten van de Kern &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=nl-NL).
 
 >[!IMPORTANT]
 >
@@ -51,8 +51,8 @@ In de volgende secties wordt beschreven hoe u het delen van gegevens van Audienc
 
 Als u segmenten en traits van Audience Manager naar Experience Platform wilt verzenden, moet u de Audience Manager-bronconnector instellen in de Experience Platform-broncatalogus. Dit is een workflow voor zelfbediening waarvoor geen betrokkenheid van de Adobe Customer Care- of engineeringteams vereist is. U kunt als volgt de Audience Manager-bronaansluiting instellen:
 
-* [&#x200B; bron van Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
-* [&#x200B; creeer een Adobe Audience Manager bronverbinding in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=en)
+* [&#x200B; bron van Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=nl-NL)
+* [&#x200B; creeer een Adobe Audience Manager bronverbinding in UI &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/audience-manager.html?lang=nl-NL)
 
 >[!IMPORTANT]
 >
@@ -64,8 +64,8 @@ Als u segmenten en traits van Audience Manager naar Experience Platform wilt ver
 
 Na vestiging de bron van Audience Manager schakelaar om sporen en segmenten van Audience Manager in te voeren, verschijnen uw gegevens van Audience Manager in Experience Platform als **Soorten publiek** in het segmentwerkschema. Lees voor meer informatie over uw Audience Manager-segmenten en -kenmerken in Experience Platform:
 
-* [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
-* [&#x200B; Experience Platform Segment Builder gebruikersgids &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
+* [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#audiences)
+* [&#x200B; Experience Platform Segment Builder gebruikersgids &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL#audiences)
 
 ## Adobe Experience Platform-segmenten in Audience Manager {#aep-segments-in-aam}
 
@@ -75,7 +75,7 @@ In de volgende secties wordt beschreven hoe u het delen van gegevens van Experie
 
 >[!IMPORTANT]
 >
-> In deze sectie wordt de integratie beschreven van Experience Platform tot Audience Manager voor het delen van oudere segmenten. U kunt deze integratie nu instellen zonder ondersteuning van Adobe-vertegenwoordigers voor klanten. Voor meer informatie, lees de [&#x200B; bestemmingsdocumentatie van het publiek 0&rbrace; Experience Cloud.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html)
+> In deze sectie wordt de integratie beschreven van Experience Platform tot Audience Manager voor het delen van oudere segmenten. U kunt deze integratie nu instellen zonder ondersteuning van Adobe-vertegenwoordigers voor klanten. Voor meer informatie, lees de [&#x200B; bestemmingsdocumentatie van het publiek 0&rbrace; Experience Cloud.](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/experience-cloud-audiences.html?lang=nl-NL)
 
 >[!NOTE]
 >
@@ -143,13 +143,13 @@ Zie de onderstaande schermafbeelding voor een voorbeeld van een segment dat auto
 
 ## Ondersteuning voor Audience Manager Data Export Control in Experience Platform {#aam-data-export-control-in-aep}
 
-Om de naleving van het gegevensgebruik in Experience Platform af te dwingen, moeten alle toepasselijke datasets en de gebieden aangewezen [&#x200B; etiketten van het gegevensgebruik &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html) worden gegeven. Bovendien [&#x200B; beleid van het gegevensgebruik &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html) moet voor specifieke marketing acties tegen die etiketten worden toegelaten, zoals die door het [&#x200B; de Etikettering en de Handhaving van het Gebruik van Gegevens (DULE) kader &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html#dule-framework) worden geschetst.
+Om de naleving van het gegevensgebruik in Experience Platform af te dwingen, moeten alle toepasselijke datasets en de gebieden aangewezen [&#x200B; etiketten van het gegevensgebruik &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/overview.html?lang=nl-NL) worden gegeven. Bovendien [&#x200B; beleid van het gegevensgebruik &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=nl-NL) moet voor specifieke marketing acties tegen die etiketten worden toegelaten, zoals die door het [&#x200B; de Etikettering en de Handhaving van het Gebruik van Gegevens (DULE) kader &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=nl-NL#dule-framework) worden geschetst.
 
 In het proces voor het delen van het publiek tussen Audience Manager en Experience Platform worden alle gegevensexportcontroles die zijn toegepast op Audience Manager-segmenten, vertaald naar equivalente labels en marketingacties die worden erkend door Experience Platform Data Governance, en andersom.
 
 >[!NOTE]
 >
->Voor meer algemene informatie over de Controles van de Uitvoer van Gegevens, gelieve te verwijzen naar de [&#x200B; documentatie van de Controles van de Uitvoer van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html).
+>Voor meer algemene informatie over de Controles van de Uitvoer van Gegevens, gelieve te verwijzen naar de [&#x200B; documentatie van de Controles van de Uitvoer van Gegevens &#x200B;](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/data-export-controls.html?lang=nl-NL).
 >
 >Dit document verstrekt een verwijzing voor hoe de specifieke Controles van de Uitvoer van Gegevens van Audience Manager aan de etiketten van het gegevensgebruik en marketing acties in Platform in kaart brengen.
 
@@ -189,15 +189,15 @@ Audience Manager werkt de rapportnummers in de interface eenmaal per dag bij. De
 
 ### Verschillen tussen de Regels van de Fusie van het Profiel en het Beleid van de Fusie
 
-[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager en [[!UICONTROL Merge Policies] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html) in Experience Platform werken verschillend, en de identiteitsgrafiek die voor elk wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
+[[!UICONTROL Profile Merge Rules]](/help/using/features/profile-merge-rules/merge-rules-overview.md) in Audience Manager en [[!UICONTROL Merge Policies] &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/merge-policies.html?lang=nl-NL) in Experience Platform werken verschillend, en de identiteitsgrafiek die voor elk wordt gebruikt varieert. Hierdoor worden enkele verschillen tussen segmentpopulaties verwacht.
 
 >[!NOTE]
 >
-> Wanneer het delen van segmenten van Experience Platform aan Audience Manager, neemt uw organisatie van het Platform [&#x200B; standaardsamenvoegbeleid &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=en#default-merge-policy) belangrijkheid over het [&#x200B; fusiebeleid dat door het segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=en#merge-policies) wordt gebruikt met Audience Manager wordt gedeeld. Bijvoorbeeld, als het de fusiebeleid van het gedeelde segment voor [&#x200B; identiteitskaart het stitching &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=en#configure) toestaat, maar het standaard van de organisatie fusiebeleid niet, zou dit in populatieverschillen tussen Platform en Audience Manager kunnen resulteren.
+> Wanneer het delen van segmenten van Experience Platform aan Audience Manager, neemt uw organisatie van het Platform [&#x200B; standaardsamenvoegbeleid &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=nl-NL#default-merge-policy) belangrijkheid over het [&#x200B; fusiebeleid dat door het segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=nl-NL#merge-policies) wordt gebruikt met Audience Manager wordt gedeeld. Bijvoorbeeld, als het de fusiebeleid van het gedeelde segment voor [&#x200B; identiteitskaart het stitching &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=nl-NL#configure) toestaat, maar het standaard van de organisatie fusiebeleid niet, zou dit in populatieverschillen tussen Platform en Audience Manager kunnen resulteren.
 
 ### Segmentsamenstelling in Experience Platform
 
-De integratie tussen Adobe Experience Platform en Audience Manager deelt een aantal standaard [&#x200B; identiteitsnamespaces &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html#identity-types) voor alle klanten: ECID, IDFA, GAID, gehakt e-mailadressen (EMAIL_LC_SHA256), identiteitskaart AdCloud Als in uw Experience Platform-segmenten een van deze profielen wordt gebruikt als primaire identiteit voor de gekwalificeerde profielen, worden de profielen geteld in Audience Manager-kenmerken en -segmenten.
+De integratie tussen Adobe Experience Platform en Audience Manager deelt een aantal standaard [&#x200B; identiteitsnamespaces &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl-NL#identity-types) voor alle klanten: ECID, IDFA, GAID, gehakt e-mailadressen (EMAIL_LC_SHA256), identiteitskaart AdCloud Als in uw Experience Platform-segmenten een van deze profielen wordt gebruikt als primaire identiteit voor de gekwalificeerde profielen, worden de profielen geteld in Audience Manager-kenmerken en -segmenten.
 
 >[!NOTE]
 >
@@ -218,6 +218,6 @@ If you created a data source in Audience Manager for the CRM IDs in Experience P
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#audiences)
->* [&#x200B; Experience Platform Segment Builder gebruikersgids &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html#audiences)
->* [&#x200B; Verbinding van Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html)
+>* [&#x200B; overzicht van de Dienst van de Segmentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=nl-NL#audiences)
+>* [&#x200B; Experience Platform Segment Builder gebruikersgids &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL#audiences)
+>* [&#x200B; Verbinding van Audience Manager &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/audience-manager.html?lang=nl-NL)

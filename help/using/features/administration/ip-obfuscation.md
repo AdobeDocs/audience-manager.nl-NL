@@ -31,7 +31,7 @@ Zie ook, het Verzamelen van IP adressen en IP de Verduistering van het Adres in 
 
 ### IP Voorrang van de Verduistering {#precedence}
 
-[&#x200B; datastream-vlakke IP verwarring &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#create) neemt belangrijkheid over om het even welke IP die optieoptie in Audience Manager wordt geplaatst, en het wordt toegepast op alle IP adressen. Elke opzoekhandeling van de geolocatie door Audience Manager wordt beïnvloed door de optie op gegevensstroomniveau [!UICONTROL IP obfuscation] . Een opzoekhandeling naar een geolocatie in Audience Manager, gebaseerd op een volledig verduisterde IP, zal resulteren in een onbekend gebied en alle segmenten op basis van de resulterende geolocatiegegevens zullen niet worden uitgevoerd.
+[&#x200B; datastream-vlakke IP verwarring &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=nl-NL#create) neemt belangrijkheid over om het even welke IP die optieoptie in Audience Manager wordt geplaatst, en het wordt toegepast op alle IP adressen. Elke opzoekhandeling van de geolocatie door Audience Manager wordt beïnvloed door de optie op gegevensstroomniveau [!UICONTROL IP obfuscation] . Een opzoekhandeling naar een geolocatie in Audience Manager, gebaseerd op een volledig verduisterde IP, zal resulteren in een onbekend gebied en alle segmenten op basis van de resulterende geolocatiegegevens zullen niet worden uitgevoerd.
 
 ## IP de Vereisten van de Obfuscatie van het Adres {#ip-obfuscation-requirements}
 
