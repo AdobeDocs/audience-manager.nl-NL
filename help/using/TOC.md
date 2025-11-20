@@ -16,7 +16,7 @@ ht-degree: 14%
 # Audience Manager-gebruikershandleiding {#user-guide}
 
 + [Audience Manager Guide](aam-home.md)
-+ [&#x200B; gids van de Evolutie aan Real-Time CDP &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html)
++ [&#x200B; gids van de Evolutie aan Real-Time CDP &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/evolution/aam-to-rtcdp.html?lang=nl-NL)
 + Migreren naar Web SDK{#migrate-to-web-sdk}
    + [Migreren van de Adobe Audience Manager-tagextensie naar de webextensie SDK](migrate-to-web-sdk/dil-extension-to-web-sdk.md)
    + [Uw gegevensverzamelingsbibliotheek migreren van AppMeasurement naar Web SDK](migrate-to-web-sdk/appmeasurement-to-web-sdk.md)
@@ -152,7 +152,7 @@ ht-degree: 14%
       + [Code Syntax used in the Segment Expression Editor](features/segments/segment-code-syntax.md)
       + [Behandelings- en segmentpopulatiegegevens in Segment Builder](features/segments/segment-builder-data.md)
       + [Aanbevolen stappen](features/segments/trait-recommendations.md)
-      + [Referenties voor eigenschap- en segmentkwalificaties](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html)
+      + [Referenties voor eigenschap- en segmentkwalificaties](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/trait-and-segment-qualification-reference.html?lang=nl-NL)
    + Treinen{#traits}
       + [Overzicht van sporen](/help/using/features/traits/traits-overview.md)
       + [Detailpagina van taak](features/traits/trait-details-page.md)
@@ -349,8 +349,8 @@ ht-degree: 14%
    + Integratie met andere Experience Cloud-toepassingen {#integration-other-solutions}
       + [Audience Manager integreren met Adobe Target](integration/integration-other-solutions/aam-target-integration.md)
       + [Gegevens doorsturen van Adobe Analytics naar Audience Manager](integration/integration-other-solutions/audience-management-module.md)
-      + [&#x200B; publiceer een Segment van Adobe Analytics aan Experience Cloud (opent de documentatie van Adobe Analytics) &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html)
-      + [&#x200B; integreer Audience Manager met Adobe Campaign (opent de documentatie van Adobe Campaign) &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html)
+      + [&#x200B; publiceer een Segment van Adobe Analytics aan Experience Cloud (opent de documentatie van Adobe Analytics) &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-publish-audience-segment.html?lang=nl-NL)
+      + [&#x200B; integreer Audience Manager met Adobe Campaign (opent de documentatie van Adobe Campaign) &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-audience-manager-or-people-core-service/about-campaign-audience-manager-or-people-core-service-integration.html?lang=nl-NL)
 + Referentie{#reference}
    + [Overzicht van verwijzingen](reference/reference.md)
    + [Amazon S3: Informatie over](reference/amazon-s3.md)
