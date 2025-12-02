@@ -101,7 +101,7 @@ De waarden geven aan dat [!DNL Audience Manager] geen gegevens heeft verzameld v
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
-[&#x200B; Begrijpend dwars-apparatenmetriek in Audience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
+[&#x200B; Begrijpend dwars-apparatenmetriek in Audience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Trend Report Resultaten voor segmenten {#segment-report-results-traits}
 
