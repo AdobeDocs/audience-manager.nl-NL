@@ -7,9 +7,9 @@ title: Trend Reports
 uuid: bedbe7d4-7cbb-4403-9104-312f9230aea1
 feature: General & Trend Reports
 exl-id: 3373f413-cc8f-49c7-9b4e-34b39e0efc38
-source-git-commit: 319be4dade263c5274624f07616b404decb7066f
+source-git-commit: 42f9b32edcde423369f7e8254b04fdc6162130d0
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -95,13 +95,13 @@ Wanneer u de resultaten filtert met [!UICONTROL Cross-Device ID] :
 * [!UICONTROL Total Trait Realization] is het totale aantal geverifieerde eigenschapresultaten binnen het geselecteerde tijdbereik.
 * [!UICONTROL Total Trait Population] is het aantal geverifieerde bezoekers dat deze eigenschap in hun profiel heeft.
 
-![&#x200B; trend-rapport-eigenschappen &#x200B;](assets/trend-report-traits.png)
+![ trend-rapport-eigenschappen ](assets/trend-report-traits.png)
 
 De waarden geven aan dat [!DNL Audience Manager] geen gegevens heeft verzameld voor die dag. Lege vermeldingen geven aan dat de eigenschap niet bestond.
 
 Bekijk de onderstaande video voor een gedetailleerde uitleg van de werking van maateenheden op verschillende apparaten.
 
->[!VIDEO](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager.html?lang=nl-NL)
+[ Begrijpend dwars-apparatenmetriek in Audience Manager ](https://experienceleague.adobe.com/en/docs/audience-manager-learn/tutorials/build-and-manage-audiences/profile-merge/understanding-cross-device-metrics-in-audience-manager)
 
 ## Trend Report Resultaten voor segmenten {#segment-report-results-traits}
 
@@ -110,4 +110,4 @@ De onderstaande filters zijn beschikbaar wanneer u een [!UICONTROL Trend Report]
 * **[!UICONTROL Real-time Segment Population]**: het aantal bezoekers dat in aanmerking kwam voor het segment binnen het geselecteerde tijdbereik.
 * **[!UICONTROL Total Segment Population]**: het totale aantal bezoekers dat in aanmerking kwam voor het segment.
 
-![&#x200B; trend-rapport-segmenten &#x200B;](assets/trend-report-segments.png)
+![ trend-rapport-segmenten ](assets/trend-report-segments.png)
