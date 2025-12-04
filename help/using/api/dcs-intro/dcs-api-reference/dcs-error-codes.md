@@ -4,7 +4,7 @@ title: DCS-foutcodes, berichten en voorbeelden
 uuid: d3290038-567b-4c00-bc95-2cec683da5ec
 feature: DCS
 exl-id: 485e5ce2-143e-4d18-b157-c243c5a510ad
-source-git-commit: 5044a38c751abace922008f00b9ff463ea9c7e57
+source-git-commit: 2012c244f6fa5ca01c7e2719ce621214cb22f93e
 workflow-type: tm+mt
 source-wordcount: '1517'
 ht-degree: 2%
@@ -23,7 +23,7 @@ In de lijsten hieronder, *cursief* vertegenwoordigt veranderlijke placeholder.
 |---|---|---|
 | 0 | Onbekende fout | Dit is een catch-all fout die gebeurtenissen behandelt die niet door de andere foutenmanagers worden behandeld. Problemen met deze fout zijn moeilijk op te lossen. Het kan worden veroorzaakt door een verscheidenheid van onbekende acties of gebeurtenissen. Als deze fout optreedt, probeert u het [!DNL DCS] -verzoek nogmaals uit. Neem contact op met uw [!DNL Adobe] -vertegenwoordiger als het probleem zich blijft voordoen. |
 | 1 | Kan configuratie voor hostnaam niet vinden: `hostname` | De gastheernaam die in het verzoek wordt verzonden is niet opstelling door ons team van de partnerlevering. Neem contact op met uw [!DNL Adobe] -vertegenwoordiger als dit foutbericht wordt weergegeven. |
-| 2 | Ongeldige `d_orgid` waarde (kan geen config voor deze org-id vinden): `ID` | De organisatie-id is onjuist. Controleer uw id en probeer het verzoek opnieuw. Als u niet kent of uw identiteitskaart van de Organisatie hebt, zie de &quot;pagina van het Beleid&quot;sectie [&#x200B; Organisaties en rekening die &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl-NL) verbinden voor informatie over hoe te om het te vinden. |
+| 2 | Ongeldige `d_orgid` waarde (kan geen config voor deze org-id vinden): `ID` | De organisatie-id is onjuist. Controleer uw id en probeer het verzoek opnieuw. Als u niet kent of uw identiteitskaart van de Organisatie hebt, zie de &quot;pagina van het Beleid&quot;sectie [ Organisaties en rekening die ](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html) verbinden voor informatie over hoe te om het te vinden. |
 | 10 | Kan kenmerken niet evalueren | De kenmerken van het verzoek zijn gedeeltelijk of helemaal niet beoordeeld. Neem contact op met uw [!DNL Adobe] -vertegenwoordiger als het probleem zich blijft voordoen. |
 
 ## Integratiefoutcodes {#integration-error-codes}
@@ -181,7 +181,7 @@ In de lijsten hieronder, *cursief* vertegenwoordigt veranderlijke placeholder.
   <tr> 
    <td colname="col1"> <p>310 </p> </td> 
    <td colname="col2"> <p>Id van klant is verwijderd omdat deze de limiet voor een bepaalde naamruimte overschrijdt. Naamruimte-id is <code><i>ID</i></code> , klant-id is <code><i>ID</i></code> . </p> </td> 
-   <td colname="col3"> <p>Deze foutencode is teruggekeerd als er meer dan 3 klant IDs voor zelfde namespace (<code> DPID</code>) op een <span class="wintitle"> DCS </span> vraag wordt verklaard. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one&d_cid_ic=one </code> </p> <p>In dit voorbeeld <span class="wintitle"> DCS </span> verzoek, zijn er 4 die identiteitskaart voor zelfde namespace (met de integratiecode wordt verklaard). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
+   <td colname="col3"> <p>Deze foutencode is teruggekeerd als er meer dan 3 klant IDs voor zelfde namespace (<code> DPID</code>) op een <span class="wintitle"> DCS </span> vraag wordt verklaard. </p> <p><code> https://partner.demdex.net/event?d_rtbd=json&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one&amp;d_cid_ic=one </code> </p> <p>In dit voorbeeld <span class="wintitle"> DCS </span> verzoek, zijn er 4 die identiteitskaart voor zelfde namespace (met de integratiecode wordt verklaard). Een van de id's wordt verwijderd en fout 310 wordt geretourneerd. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>311 </p> </td> 
@@ -192,7 +192,7 @@ In de lijsten hieronder, *cursief* vertegenwoordigt veranderlijke placeholder.
    <td colname="col1"> <p>312 </p> </td> 
    <td colname="col2"> <p>Aanvraag bevat een ongeldige globale apparaat-id </p> </td> 
    <td colname="col3"> <p><span class="wintitle"> DCS </span> keert deze foutencode terug wanneer het verzoek een ongeldige Globale identiteitskaart van het Apparaat bevat. DCS negeert de ongeldige identiteitskaart en werpt een fout 312 samen met de specifieke fouten van ongeldige identiteitskaart Verwijs naar <a href="../../../features/global-data-sources.md" format="dita" scope="local"> Globale Gegevensbronnen </a> en <a href="../../../reference/ids-in-aam.md" format="dita" scope="local"> Index van IDs in Audience Manager </a> voor gedetailleerde informatie over de correcte formaten van identiteitskaart van de apparatenreclame en overeenkomstige globale gegevensbronnen.</p>
-   <p>Voorbeeld van een onjuiste aanroep: <code>"http://partner.demdex.net/event?d_rtbd=json&d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
+   <p>Voorbeeld van een onjuiste aanroep: <code>"http://partner.demdex.net/event?d_rtbd=json&amp;d_cid=20915%01a53cc5a2-6aa1-4210-8ded-a88b29b6212z"</code></p>
    <p>Uitleg: Een <span class="keyword"> IDFA (DPID 20915) </span> moet een hoofdletteridentiteitskaart zijn. De id in het verzoek is in kleine letters.</p>
    </td>
   </tr>
@@ -213,8 +213,7 @@ In de lijsten hieronder, *cursief* vertegenwoordigt veranderlijke placeholder.
    <td colname="col3"> <p>Wanneer geen toestemming wordt verstrekt, opteert de stop-binnen van Audience Manager voor IAB TCF de gebruiker uit verdere gegevensinzameling, of laat vallen volledig de vraag als er geen partnercontext wordt ontdekt.</p>
    </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
 ## Voorbeeldfoutcode voor berichten {#sample-error-codes}
