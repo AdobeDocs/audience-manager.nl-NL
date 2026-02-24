@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIVED
 
-Deze repo wordt gemigreerd naar <https://github.com/Adobe-Enterprise-Docs/audience-manager.en> .
+Deze repo wordt gemigreerd naar <https://github.com/Adobe-Enterprise-Docs/audience-manager.nl-NL> .
